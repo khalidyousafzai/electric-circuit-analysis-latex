@@ -1,0 +1,96 @@
+\documentclass[leqno,b5paper]{book}
+
+\usepackage{./tex/khalidUrduBooksEMT}                     %my sty file
+\usepackage{amsmath}
+\usepackage{amsbsy} %for bold Poynting
+\usepackage{ mathrsfs }   %for Poynting symbol
+\usepackage{IEEEtrantools}
+
+
+
+\sisetup{math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega}   %with mathpazo this is needed else must not be here. now size of micro is smaller
+
+\input{./tex/myUrduCommandsEMT.tex}                  %turning latex into urdu
+\input{./tex/myUrduGreek.tex}
+\input{./tex/myEMTvectors.tex}
+\input{./tex/myDeclareFunctions.tex}
+
+
+
+%\input{./tex/myElectronicsVariablesBetter.tex}         %these are all tested. to use at the very end when book is finished
+
+\graphicspath{{./fig/figFrontPage/}{./fig/figBasicConcepts/}}		%paths to figures
+
+
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics}
+%
+%\includeonly{./tex/emtSymbols,./tex/cktPreface,./tex/prefaceFirstBookneticField,./tex/emtVectors,./tex/emtLinearAlgebra,./tex/emtDataTables,./tex/emtEndOfBookTableDivergenceCurlGradientLaplacian,./tex/emtCoordinatesRelations}
+
+
+
+\author{
+خالد خان یوسفزئی\\
+{\small {کامسیٹ انسٹیٹیوٹ آف انفارمیشن ٹیکنالوجی، اسلام آباد}}\\
+\texttt{khalidyousafzai@comsats.edu.pk}
+}
+
+%=========
+
+
+
+\title{برقی ادوار}
+\date{}                           %if absent gives date in arabic which is a rubbish
+
+%\linenumbers
+%\makeindex
+
+%==========
+\begin{document}
+\begin{urdufont}
+
+
+\renewcommand*{\contentsname}{عنوان}    %this command has to be placed right here
+
+\frontmatter                          %just added instead of \pagenumbering{roman}
+%%\pagenumbering{roman}    
+
+\maketitle
+
+\tableofcontents
+\pagestyle{empty}
+\newpage
+%\include{./tex/cktPreface}
+\newpage
+%\include{./tex/prefaceFirstBook}
+%\newpage
+%\include{./tex/cktSymbols}
+
+
+\mainmatter                      %added this
+\renewcommand*{\chaptername}{باب}
+%%\pagenumbering{arabic}   %instead of this
+
+\pagestyle{headings}
+
+
+\include{./tex/cktBasics}
+
+
+%\include{./tex/emtEndOfBookTableDivergenceCurlGradientLaplacian}
+%\include{./tex/toDoList}
+%\include{./tex/emtQuestions}
+\backmatter
+
+\cleardoublepage
+%\include{./tex/emtDataTables}        %appendices
+%\include{./tex/emtLinearAlgebra}
+%\include{./tex/emtCoordinatesRelations}
+
+\renewcommand*{\indexname}{فرہنگ}      %this command has to be placed right here just before printindex command
+\cleardoublepage
+\addcontentsline{toc}{chapter}{فرہنگ}
+\printindex
+
+
+\end{urdufont}
+\end{document}

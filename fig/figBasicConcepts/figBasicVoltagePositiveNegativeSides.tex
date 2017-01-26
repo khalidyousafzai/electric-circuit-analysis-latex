@@ -1,0 +1,54 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+\input{../../tex/myEMTvectors.tex}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+\newdimen\XCoord
+\newdimen\YCoord
+
+\newcommand*{\ExtractCoordinate}[1]{\path (#1); \pgfgetlastxy{\XCoord}{\YCoord};}%
+
+\begin{document}
+\begin{urdufont}
+
+\begin{tikzpicture}[y=0.75cm]
+%
+\pgfmathsetmacro{\h}{0.3}
+\pgfmathsetmacro{\hh}{4}
+\pgfmathsetmacro{\f}{\hh/7}
+%building
+\draw (0,0)--++(0.5,0)--++(0,2)--++(-0.5,0)--cycle;
+\draw(0.5,0.2)--++(0.5,0);
+\draw(0.5,1.8)--++(0.5,0);
+%
+\draw(1,1.5)node{$+$};
+\draw(1,1)node{$V_1$};
+\draw(1,0.5)node{$-$};
+%
+\draw(0.25,-0.5)node{(الف)};
+%
+\begin{scope}[shift={(-4cm,0)}]
+\draw (0,0)--++(0.5,0)--++(0,2)--++(-0.5,0)--cycle;
+\draw(0.5,0.2)--++(0.5,0)node[right]{$a$};
+\draw(0.5,1.8)--++(0.5,0)node[right]{$b$};
+\draw(0.25,-0.5)node{(ب)};
+\end{scope}
+%
+
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}

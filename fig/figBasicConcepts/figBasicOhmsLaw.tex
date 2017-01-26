@@ -1,0 +1,40 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+\input{../../tex/myEMTvectors.tex}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+\newdimen\XCoord
+\newdimen\YCoord
+
+\newcommand*{\ExtractCoordinate}[1]{\path (#1); \pgfgetlastxy{\XCoord}{\YCoord};}%
+
+\begin{document}
+\begin{urdufont}
+
+\begin{tikzpicture}[y=0.75cm]
+%
+\pgfmathsetmacro{\h}{0.3}
+\pgfmathsetmacro{\hh}{4}
+\pgfmathsetmacro{\f}{\hh/7}
+%
+\draw(0,0)node[left]{$a$} to [american voltage source,l=\SI{10}{\volt}]++(0,2.5)node[left]{$b$} to [short,i={$\SI{2}{\ampere}$}]++(2,0) to [resistor,l={$\SI{5}{\ohm}$}] ++(0,-2.5) to [short](0,0);
+\draw (1,0) to [short,*-]node [ground]{}++(0,-0.5);
+\draw[stealth-] (1.5,-1) to [out=0,in=180]++(1,0.5)node[right]{\RL{برقی زمین}}; 
+
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}

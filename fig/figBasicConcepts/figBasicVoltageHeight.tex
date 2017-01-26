@@ -1,0 +1,52 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+\input{../../tex/myEMTvectors.tex}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+\newdimen\XCoord
+\newdimen\YCoord
+
+\newcommand*{\ExtractCoordinate}[1]{\path (#1); \pgfgetlastxy{\XCoord}{\YCoord};}%
+
+\begin{document}
+\begin{urdufont}
+
+\begin{tikzpicture}[y=0.75cm]
+%
+\pgfmathsetmacro{\h}{0.3}
+\pgfmathsetmacro{\hh}{4}
+\pgfmathsetmacro{\f}{\hh/7}
+%building
+\draw(0,0)--++(0.5,0)--++(0,\hh)--++(-0.5,0)--cycle;
+\foreach \y in {1,2,3,...,6} {\draw (0,\y*\f)--++(0.5,0);};
+%
+\draw (-0.3,0)--++(-0.3,0)node[left]{ت};
+\draw (0.8,3*\f)--++(0.3,0)node[right]{ن};
+\draw (0-0.3,3*\f)--++(-0.3,0)node[left]{ٹ};
+\draw (-0.3,7*\f)--++(-0.3,0)node[left]{ث};
+\draw(0.5,-0.5)node{(الف)};
+%
+\begin{scope}[shift={(-4cm,0)}]
+\draw (0,0) to [american voltage source,l_={$\SI{2}{\volt}$}]++(0,2) to [american voltage source,l_={$\SI{5}{\volt}$}]++(0,2);
+\draw (-0.3,0)--++(-0.3,0)node[left]{ت};
+\draw (-0.3,2)--++(-0.3,0)node[left]{ٹ};
+\draw (-0.3,4)--++(-0.3,0)node[left]{ث};
+\draw(0.5,-0.5)node{(ب)};
+\end{scope}
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}

@@ -1,0 +1,3 @@
+\select@language {arabic}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 1}}بنیاد}{\RL {\arabicfont 1}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 1}}قانون اوہم}{\RL {\arabicfont 4}}
