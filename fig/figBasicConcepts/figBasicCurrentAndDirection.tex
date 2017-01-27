@@ -1,0 +1,61 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+\input{../../tex/myEMTvectors.tex}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+\newdimen\XCoord
+\newdimen\YCoord
+
+\newcommand*{\ExtractCoordinate}[1]{\path (#1); \pgfgetlastxy{\XCoord}{\YCoord};}%
+
+\begin{document}
+\begin{urdufont}
+
+\begin{tikzpicture}[y=0.75cm]
+%
+\pgfmathsetmacro{\w}{0.5}
+\pgfmathsetmacro{\h}{2.5}
+\pgfmathsetmacro{\delh}{0.25}
+
+%boxes
+\draw(0,0)--++(\w,0)--++(0,\h)--++(-\w,0)--++(0,-\h);
+\draw(2,0)--++(\w,0)--++(0,\h)--++(-\w,0)--++(0,-\h);
+\draw (\w/2,\h/2)node[rotate=90]{\RL{دور ت}};
+\draw (2+\w/2,\h/2)node[rotate=90]{\RL{دور ٹ}};
+\draw(\w/2+2/2,-0.5)node{(الف)};
+%wires
+\draw(\w,\delh) --++(2-\w,0);
+\draw(\w,\h-\delh)to [short,i_={$\SI{3}{\ampere}$}]++(2-\w,0);
+%current
+\draw[-latex] (\w,\h)++(0.5,0)--++(0.5,0)node[pos=0.5,above]{$I=\SI{3}{\ampere}$};
+%
+\begin{scope}[shift={(-4cm,0)}]
+%boxes
+\draw(0,0)--++(\w,0)--++(0,\h)--++(-\w,0)--++(0,-\h);
+\draw(2,0)--++(\w,0)--++(0,\h)--++(-\w,0)--++(0,-\h);
+\draw (\w/2,\h/2)node[rotate=90]{\RL{دور ت}};
+\draw (2+\w/2,\h/2)node[rotate=90]{\RL{دور ٹ}};
+\draw(\w/2+2/2,-0.5)node{(ب)};
+%wires
+\draw(\w,\delh) --++(2-\w,0);
+\draw(\w,\h-\delh)to [short,i_={$\SI{3}{\ampere}$}]++(2-\w,0);
+%current
+\draw[latex-] (\w,\h)++(0.5,0)--++(0.5,0)node[pos=0.5,above]{$I=\SI{-3}{\ampere}$};
+\end{scope}
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}

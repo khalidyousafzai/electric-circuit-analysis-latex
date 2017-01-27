@@ -1,0 +1,68 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+\input{../../tex/myEMTvectors.tex}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+\newdimen\XCoord
+\newdimen\YCoord
+
+\newcommand*{\ExtractCoordinate}[1]{\path (#1); \pgfgetlastxy{\XCoord}{\YCoord};}%
+
+\begin{document}
+\begin{urdufont}
+
+\begin{tikzpicture}[y=0.75cm]
+%
+\pgfmathsetmacro{\w}{0.5}
+\pgfmathsetmacro{\h}{2.5}
+\pgfmathsetmacro{\delh}{0.25}
+
+
+
+\draw(0,-0.5) to [resistor]++(0,-2);
+\draw[-latex] (-0.5,-1) --++(0,-1)node[pos=0.5,left]{$I$};
+\draw (0.3,-1.5)node[right]{$\begin{aligned} &+ \\ &V\\ &- \end{aligned}$};
+\draw(0,0)node[above]{\RL{انفعالی سمت}};
+\draw (0,-3.5)node{(ب)};
+
+%
+\begin{scope}[shift={(-2.5cm,0)}]
+\draw(0,-0.5) to [resistor]++(0,-2);
+\draw[latex-] (-0.5,-1) --++(0,-1)node[pos=0.5,left]{$I$};
+\draw (0.3,-1.5)node[right]{$\begin{aligned} &+ \\ &V\\ &- \end{aligned}$};
+\draw (0,-3.5)node{(پ)};
+\end{scope}%
+%
+\begin{scope}[shift={(-5cm,0)}]
+\draw(0,-0.5) to [resistor]++(0,-2);
+\draw[-latex] (-0.5,-1) --++(0,-1)node[pos=0.5,left]{$I$};
+\draw (0.3,-1.5)node[right]{$\begin{aligned} &- \\ &V\\ &+ \end{aligned}$};
+\draw (0,-3.5)node{(ت)};
+\end{scope}%
+%
+%
+\begin{scope}[shift={(-7.5cm,0)}]
+\draw(0,-0.5) to [resistor]++(0,-2);
+\draw[latex-] (-0.5,-1) --++(0,-1)node[pos=0.5,left]{$I$};
+\draw (0.3,-1.5)node[right]{$\begin{aligned} &- \\ &V\\ &+ \end{aligned}$};
+\draw(0,0)node[above]{\RL{انفعالی سمت}};
+\draw (0,-3.5)node{(ٹ)};
+\end{scope}%
+
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}

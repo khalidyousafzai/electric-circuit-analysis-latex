@@ -1,12 +1,12 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  27 JAN 2017 14:23
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  27 JAN 2017 11:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/home/khalid/Desktop/circuitsLatex/fig/figBasicConcepts/figBasicVoltagePositi
-veNegativeSides.tex $
+**/home/khalid/Desktop/circuitsLatex/fig/figBasicConcepts/figBasicVoltageCurren
+tRelation.tex $
 
-(/home/khalid/Desktop/circuitsLatex/fig/figBasicConcepts/figBasicVoltagePositiv
-eNegativeSides.tex
+(/home/khalid/Desktop/circuitsLatex/fig/figBasicConcepts/figBasicVoltageCurrent
+Relation.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/home/khalid/texmf/tex/latex/standalone/tex/latex/standalone/standalone.cls
@@ -1230,8 +1230,8 @@ Package: hijrical 2007/12/27 v0.1 Islamic calendar
 \XCoord=\dimen276
 \YCoord=\dimen277
 
-(./figBasicVoltagePositiveNegativeSides.aux)
-\openout1 = `figBasicVoltagePositiveNegativeSides.aux'.
+No file figBasicVoltageCurrentRelation.aux.
+\openout1 = `figBasicVoltageCurrentRelation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
@@ -1249,7 +1249,6 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 25.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 25.
-
 (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
@@ -1336,20 +1335,20 @@ File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `EU1/XBTabriz(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 26.
 LaTeX Font Info:    Font shape `EU1/XBTabriz(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 52.
+(Font)              scaled to size 7.0pt on input line 40.
 LaTeX Font Info:    Font shape `EU1/XBTabriz(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 52.
+(Font)              scaled to size 5.0pt on input line 40.
  [1
 
 ]
-(./figBasicVoltagePositiveNegativeSides.aux) ) 
+(./figBasicVoltageCurrentRelation.aux) ) 
 Here is how much of TeX's memory you used:
- 31763 strings out of 493918
- 707352 string characters out of 6150562
- 802939 words of memory out of 5000000
- 34524 multiletter control sequences out of 15000+600000
+ 31715 strings out of 493918
+ 706290 string characters out of 6150562
+ 808933 words of memory out of 5000000
+ 34478 multiletter control sequences out of 15000+600000
  7011 words of font info for 45 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 56i,10n,65p,10494b,1462s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,16n,65p,10488b,1394s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on figBasicVoltagePositiveNegativeSides.pdf (1 page).
+Output written on figBasicVoltageCurrentRelation.pdf (1 page).

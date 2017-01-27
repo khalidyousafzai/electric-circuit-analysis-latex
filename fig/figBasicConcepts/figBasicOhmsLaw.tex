@@ -27,14 +27,31 @@
 
 \begin{tikzpicture}[y=0.75cm]
 %
-\pgfmathsetmacro{\h}{0.3}
-\pgfmathsetmacro{\hh}{4}
-\pgfmathsetmacro{\f}{\hh/7}
+\pgfmathsetmacro{\x}{2.3}
 %
-\draw(0,0)node[left]{$a$} to [american voltage source,l=\SI{10}{\volt}]++(0,2.5)node[left]{$b$} to [short,i={$\SI{2}{\ampere}$}]++(2,0) to [resistor,l={$\SI{5}{\ohm}$}] ++(0,-2.5) to [short](0,0);
-\draw (1,0) to [short,*-]node [ground]{}++(0,-0.5);
-\draw[stealth-] (1.5,-1) to [out=0,in=180]++(1,0.5)node[right]{\RL{برقی زمین}}; 
-
+\draw(0,0) to [battery1,l_=\SI{10}{\volt}]++(0,2.5) to [short,i={$\SI{2}{\ampere}$}]++(\x,0) to [resistor,l_={$\SI{5}{\ohm}$}] ++(0,-2.5) to [short](0,0);
+\draw (\x/2,0) to [short,*-]node [ground]{}++(0,-0.5);
+%voltages
+\draw(-0.8,1.25)node[]{$\begin{aligned}  &+\\ &V_M \\&-  \end{aligned}$};
+\draw(\x+0.6,1.25)node[]{$\begin{aligned}  &+\\ &V_R \\&-  \end{aligned}$};
+%currents as per passive sign convention
+\draw[latex-] (-1.2,1.25)++(0,-0.5)--++(0,1)node[pos=0.5,left]{$I_M$};
+\draw[latex-] (\x+1,1.25)++(0,-0.5)--++(0,1)node[pos=0.5,right]{$I_R$};
+%
+\draw(0,-1)node{(الف)};
+%
+\begin{scope}[shift={(-6,0)}]
+\draw(0,0) to [battery1,l_=\SI{10}{\volt}]++(0,2.5) to [short,i={$\SI{2}{\ampere}$}]++(\x,0) to [resistor,l_={$\SI{5}{\ohm}$}] ++(0,-2.5) to [short](0,0);
+\draw (\x/2,0) to [short,*-]node [ground]{}++(0,-0.5);
+%voltages
+\draw(-0.8,1.25)node[]{$\begin{aligned}  &-\\ &V_M \\&+  \end{aligned}$};
+\draw(\x+0.6,1.25)node[]{$\begin{aligned}  &-\\ &V_R \\&+  \end{aligned}$};
+%currents as per passive sign convention
+\draw[-latex] (-1.2,1.25)++(0,-0.5)--++(0,1)node[pos=0.5,left]{$I_M$};
+\draw[-latex] (\x+1,1.25)++(0,-0.5)--++(0,1)node[pos=0.5,right]{$I_R$};
+%
+\draw(0,-1)node{(ب)};
+\end{scope}
 \end{tikzpicture}%
 \end{urdufont}
 \end{document}

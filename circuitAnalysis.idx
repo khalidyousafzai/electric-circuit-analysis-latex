@@ -9,8 +9,8 @@
 \indexentry{برقی دور}{\RL {\arabicfont  1}}
 \indexentry{differential form}{\RL {\arabicfont  1}}
 \indexentry{تفرقی صورت}{\RL {\arabicfont  1}}
-\indexentry{integral form}{\RL {\arabicfont  1}}
-\indexentry{تکملہ صورت}{\RL {\arabicfont  1}}
+\indexentry{integral form}{\RL {\arabicfont  2}}
+\indexentry{تکملہ صورت}{\RL {\arabicfont  2}}
 \indexentry{Ampere}{\RL {\arabicfont  2}}
 \indexentry{ایمپیئر}{\RL {\arabicfont  2}}
 \indexentry{Coulomb}{\RL {\arabicfont  2}}
@@ -23,42 +23,56 @@
 \indexentry{direct current}{\RL {\arabicfont  2}}
 \indexentry{رو!یک سمتی}{\RL {\arabicfont  2}}
 \indexentry{یک سمتی رو}{\RL {\arabicfont  2}}
-\indexentry{reference}{\RL {\arabicfont  2}}
-\indexentry{حوالہ}{\RL {\arabicfont  2}}
-\indexentry{ground!electrical}{\RL {\arabicfont  3}}
-\indexentry{زمین!برقی}{\RL {\arabicfont  3}}
-\indexentry{gravitational field}{\RL {\arabicfont  3}}
-\indexentry{میدان!ثقلی}{\RL {\arabicfont  3}}
-\indexentry{ثقلی میدان}{\RL {\arabicfont  3}}
-\indexentry{electric field}{\RL {\arabicfont  3}}
-\indexentry{میدان!ثقلی}{\RL {\arabicfont  3}}
-\indexentry{برقی میدان}{\RL {\arabicfont  3}}
-\indexentry{watt}{\RL {\arabicfont  4}}
-\indexentry{واٹ}{\RL {\arabicfont  4}}
-\indexentry{power}{\RL {\arabicfont  4}}
-\indexentry{طاقت}{\RL {\arabicfont  4}}
-\indexentry{resistance}{\RL {\arabicfont  4}}
-\indexentry{برقی مزاحمت}{\RL {\arabicfont  4}}
-\indexentry{voltage source}{\RL {\arabicfont  4}}
-\indexentry{source!voltage}{\RL {\arabicfont  4}}
-\indexentry{منبع!برقی دباو}{\RL {\arabicfont  4}}
-\indexentry{clockwise}{\RL {\arabicfont  4}}
-\indexentry{سمت گھڑی}{\RL {\arabicfont  4}}
+\indexentry{passive sign convention}{\RL {\arabicfont  4}}
+\indexentry{انفعالی سمت کی ترکیب}{\RL {\arabicfont  4}}
 \indexentry{Ohm!law}{\RL {\arabicfont  4}}
 \indexentry{اوہم!قانون}{\RL {\arabicfont  4}}
 \indexentry{قانون اوہم}{\RL {\arabicfont  4}}
-\indexentry{thermal energy}{\RL {\arabicfont  4}}
-\indexentry{توانائی!حرارتی}{\RL {\arabicfont  4}}
-\indexentry{حرارتی توانائی}{\RL {\arabicfont  4}}
-\indexentry{potential energy}{\RL {\arabicfont  4}}
-\indexentry{توانائی!مخفی}{\RL {\arabicfont  4}}
-\indexentry{مخفی توانائی}{\RL {\arabicfont  4}}
-\indexentry{power loss}{\RL {\arabicfont  4}}
-\indexentry{طاقتی ضیاع}{\RL {\arabicfont  4}}
-\indexentry{loss}{\RL {\arabicfont  4}}
-\indexentry{ضیاع}{\RL {\arabicfont  4}}
-\indexentry{resistive loss}{\RL {\arabicfont  4}}
-\indexentry{مزاحمتی ضیاع}{\RL {\arabicfont  4}}
-\indexentry{thermal loss}{\RL {\arabicfont  4}}
-\indexentry{ضیاع!حرارتی}{\RL {\arabicfont  4}}
-\indexentry{حرارتی ضیاع}{\RL {\arabicfont  4}}
+\indexentry{reference}{\RL {\arabicfont  4}}
+\indexentry{حوالہ}{\RL {\arabicfont  4}}
+\indexentry{ground!electrical}{\RL {\arabicfont  4}}
+\indexentry{زمین!برقی}{\RL {\arabicfont  4}}
+\indexentry{Ohm's law}{\RL {\arabicfont  5}}
+\indexentry{اوہم!قانون}{\RL {\arabicfont  5}}
+\indexentry{قانون!اوہم}{\RL {\arabicfont  5}}
+\indexentry{gravitational field}{\RL {\arabicfont  6}}
+\indexentry{میدان!ثقلی}{\RL {\arabicfont  6}}
+\indexentry{ثقلی میدان}{\RL {\arabicfont  6}}
+\indexentry{electric field}{\RL {\arabicfont  6}}
+\indexentry{میدان!ثقلی}{\RL {\arabicfont  6}}
+\indexentry{برقی میدان}{\RL {\arabicfont  6}}
+\indexentry{watt}{\RL {\arabicfont  7}}
+\indexentry{واٹ}{\RL {\arabicfont  7}}
+\indexentry{power}{\RL {\arabicfont  7}}
+\indexentry{طاقت}{\RL {\arabicfont  7}}
+\indexentry{resistance}{\RL {\arabicfont  7}}
+\indexentry{برقی مزاحمت}{\RL {\arabicfont  7}}
+\indexentry{voltage source}{\RL {\arabicfont  7}}
+\indexentry{source!voltage}{\RL {\arabicfont  7}}
+\indexentry{منبع!برقی دباو}{\RL {\arabicfont  7}}
+\indexentry{passive component}{\RL {\arabicfont  7}}
+\indexentry{پرزہ!انفعال}{\RL {\arabicfont  7}}
+\indexentry{انفعال پرزہ}{\RL {\arabicfont  7}}
+\indexentry{active component}{\RL {\arabicfont  7}}
+\indexentry{پرزہ!عامل}{\RL {\arabicfont  7}}
+\indexentry{فعال پرزہ}{\RL {\arabicfont  7}}
+\indexentry{clockwise}{\RL {\arabicfont  8}}
+\indexentry{سمت گھڑی}{\RL {\arabicfont  8}}
+\indexentry{Ohm!law}{\RL {\arabicfont  8}}
+\indexentry{اوہم!قانون}{\RL {\arabicfont  8}}
+\indexentry{قانون اوہم}{\RL {\arabicfont  8}}
+\indexentry{loss}{\RL {\arabicfont  8}}
+\indexentry{ضیاع}{\RL {\arabicfont  8}}
+\indexentry{thermal energy}{\RL {\arabicfont  8}}
+\indexentry{توانائی!حرارتی}{\RL {\arabicfont  8}}
+\indexentry{حرارتی توانائی}{\RL {\arabicfont  8}}
+\indexentry{potential energy}{\RL {\arabicfont  8}}
+\indexentry{توانائی!مخفی}{\RL {\arabicfont  8}}
+\indexentry{مخفی توانائی}{\RL {\arabicfont  8}}
+\indexentry{resistive loss}{\RL {\arabicfont  8}}
+\indexentry{مزاحمتی ضیاع}{\RL {\arabicfont  8}}
+\indexentry{thermal loss}{\RL {\arabicfont  8}}
+\indexentry{ضیاع!حرارتی}{\RL {\arabicfont  8}}
+\indexentry{حرارتی ضیاع}{\RL {\arabicfont  8}}
+\indexentry{power loss}{\RL {\arabicfont  8}}
+\indexentry{طاقتی ضیاع}{\RL {\arabicfont  8}}

@@ -1,0 +1,55 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+\input{../../tex/myEMTvectors.tex}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+\newdimen\XCoord
+\newdimen\YCoord
+
+\newcommand*{\ExtractCoordinate}[1]{\path (#1); \pgfgetlastxy{\XCoord}{\YCoord};}%
+
+\begin{document}
+\begin{urdufont}
+
+\begin{tikzpicture}[y=0.75cm]
+%
+\pgfmathsetmacro{\w}{0.5}
+\pgfmathsetmacro{\h}{2.5}
+\pgfmathsetmacro{\delh}{0.25}
+
+\draw(0,0) to [battery1,l={$V_B$}]++(0,2) to [resistor,l_={R}]++(2,0);
+\draw(0,0) to [short]++(2,0) to [battery1,l_={$V_D$}]++(0,2);
+\draw (1,0) to [short,*-]node [ground]{}++(0,-0.5);
+\draw(1,2.7)node{$-\quad V \quad+$};
+\draw[latex-] (0.5,3.3)--++(1,0)node[pos=0.5,above]{$I$};
+\draw(1,4.5)node{$(V_D-V_B)=I R$};
+\draw(2,-1)node{(الف)};
+%
+\begin{scope}[shift={(-5.5cm,0)}]
+\draw(0,0) to [battery1,l={$V_B$}]++(0,2) to [resistor,l_={R}]++(2,0);
+\draw(0,0) to [short]++(2,0) to [battery1,l_={$V_D$}]++(0,2);
+\draw (1,0) to [short,*-]node [ground]{}++(0,-0.5);
+\draw(1,2.7)node{$+\quad V \quad -$};
+\draw[-latex] (0.5,3.3)--++(1,0)node[pos=0.5,above]{$I$};
+\draw(1,4.5)node{$(V_B-V_D)=I R$};
+\draw(2,-1)node{(ب)};
+\end{scope}
+
+
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}

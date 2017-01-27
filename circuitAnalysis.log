@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  26 JAN 2017 16:31
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  27 JAN 2017 16:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2567,27 +2567,53 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 5.70004pt on input line 2.
 File: ./fig/figBasicConcepts/figBasicSIprefix.pdf Graphic file (type QTm)
-<use  "./fig/figBasicConcepts/figBasicSIprefix.pdf" > [1
+<use  "./fig/figBasicConcepts/figBasicSIprefix.pdf" >
+LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 10.
+LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/bx/n' will be
+(Font)              scaled to size 14.4pt on input line 10.
+ [1
 
 
 ]
-File: ./fig/figBasicConcepts/figBasicVoltageHeight.pdf Graphic file (type QTm)
+File: ./fig/figBasicConcepts/figBasicCurrentAndDirection.pdf Graphic file (type
+ QTm)
 
-<use  "./fig/figBasicConcepts/figBasicVoltageHeight.pdf" >
+<use  "./fig/figBasicConcepts/figBasicCurrentAndDirection.pdf" >
+File: ./fig/figBasicConcepts/figBasicVoltageCurrentRelation.pdf Graphic file (t
+ype QTm)
+
+<use  "./fig/figBasicConcepts/figBasicVoltageCurrentRelation.pdf" >
+File: ./fig/figBasicConcepts/figBasicOhmLawPassiveConvention.pdf Graphic file (
+type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicOhmLawPassiveConvention.pdf" >
+LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/m/sl' will be
+(Font)              scaled to size 10.0pt on input line 54.
+ [2]
+[3]
+File: ./fig/figBasicConcepts/figBasicVoltageHeight.pdf Graphic file (type QTm)
+ <use  "./fig/figBasicConcepts/figBasicVoltageHeight.pdf" >
 File: ./fig/figBasicConcepts/figBasicVoltagePositiveNegativeSides.pdf Graphic f
 ile (type QTm)
 
 <use  "./fig/figBasicConcepts/figBasicVoltagePositiveNegativeSides.pdf" >
-LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/m/sl' will be
-(Font)              scaled to size 10.0pt on input line 46.
+[4]
+File: ./fig/figBasicConcepts/figBasicOhmLawExamples.pdf Graphic file (type QTm)
 
-[2] [3]
-LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 88.
-LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/bx/n' will be
-(Font)              scaled to size 14.4pt on input line 88.
+ <use  "./fig/figBasicConcepts/figBasicOhmLawExamples.pdf" >
+File: ./fig/figBasicConcepts/figBasicOhmLawGeneral.pdf Graphic file (type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicOhmLawGeneral.pdf" > [5] [6]
 File: ./fig/figBasicConcepts/figBasicOhmsLaw.pdf Graphic file (type QTm)
- <use  "./fig/figBasicConcepts/figBasicOhmsLaw.pdf" >) [4] [5] [6
+
+<use  "./fig/figBasicConcepts/figBasicOhmsLaw.pdf" > [7]
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no ل in font zplmr7m!
+Missing character: There is no ف in font zplmr7m!
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 7.5pt on input line 185.
+ [8]) [9] [10
 
 
 ]
@@ -2601,12 +2627,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 23084 strings out of 493918
- 485113 string characters out of 6150562
- 529891 words of memory out of 5000000
- 25951 multiletter control sequences out of 15000+600000
- 58277 words of font info for 205 fonts, out of 8000000 for 9000
+ 23115 strings out of 493918
+ 485986 string characters out of 6150562
+ 531137 words of memory out of 5000000
+ 25976 multiletter control sequences out of 15000+600000
+ 58285 words of font info for 206 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 53i,19n,50p,10469b,1198s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,19n,50p,10469b,1203s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (10 pages).
+Output written on circuitAnalysis.pdf (14 pages).
