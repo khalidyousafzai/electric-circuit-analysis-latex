@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  27 JAN 2017 16:43
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  28 JAN 2017 08:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1341,10 +1341,10 @@ LaTeX Font Info:    Font shape `EU1/XBTabriz(0)/m/n' will be
 ]
 (./figBasicOhmsLaw.aux) ) 
 Here is how much of TeX's memory you used:
- 31846 strings out of 493918
- 709272 string characters out of 6150562
- 811918 words of memory out of 5000000
- 34607 multiletter control sequences out of 15000+600000
+ 31847 strings out of 493918
+ 709299 string characters out of 6150562
+ 812917 words of memory out of 5000000
+ 34608 multiletter control sequences out of 15000+600000
  7011 words of font info for 45 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  56i,11n,65p,10473b,1456s stack positions out of 5000i,500n,10000p,200000b,80000s

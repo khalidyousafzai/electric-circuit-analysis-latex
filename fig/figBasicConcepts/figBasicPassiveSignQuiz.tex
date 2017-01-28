@@ -1,0 +1,86 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+\input{../../tex/myEMTvectors.tex}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+\newdimen\XCoord
+\newdimen\YCoord
+
+\newcommand*{\ExtractCoordinate}[1]{\path (#1); \pgfgetlastxy{\XCoord}{\YCoord};}%
+
+\begin{document}
+\begin{urdufont}
+
+
+\begin{tikzpicture}[]
+%
+\coordinate (a) at (0,0);
+\coordinate (b) at (-0.025,0.5);
+\coordinate (c) at (-0.04,1);
+\coordinate (d) at (-0.12,1.5);
+\coordinate (e) at (-0.2,2);
+\coordinate (f) at (-0.15,2.5);
+\coordinate (g) at (0.5,3);
+
+\coordinate (h) at (0.8,2.5);
+\coordinate (i) at (0.8,2);
+\coordinate (j) at (0.75,1.5);
+\coordinate (k) at (0.7,1);
+\coordinate (l) at (0.7,0.5);
+\coordinate (m) at (0.5,0);
+%box circuit
+\draw [] plot [smooth cycle] coordinates {(a) (b) (c) (d) (e) (f) (g) (h) (i) (j) (k) (l) (m)};
+%external circuit
+\draw (h) to [short]++(2,0)coordinate(rTop) to [european resistor]++(0,-2) to [short,i={$\SI{2}{\ampere}$}] (l);
+%voltages
+\draw (rTop)++(0.6,-1) node{$\begin{aligned} &+\\&\SI{4}{\volt}\\&- \end{aligned}$};
+\draw ($(h)!0.5!(l)$)++(0.5,0) node{$\begin{aligned} &+\\&\SI{4}{\volt}\\&- \end{aligned}$};
+%text
+\draw ($(d)!0.5!(j)$) node[rotate=90]{\RL{بقایا دور}};
+\draw (1.5,-0.2)node{(الف)};
+%
+\begin{scope}[shift={(-6cm,0)}]
+
+\coordinate (aa) at (0,0);
+\coordinate (ba) at (-0.025,0.5);
+\coordinate (ca) at (-0.04,1);
+\coordinate (da) at (-0.12,1.5);
+\coordinate (ea) at (-0.2,2);
+\coordinate (fa) at (-0.15,2.5);
+\coordinate (ga) at (0.5,3);
+
+\coordinate (ha) at (0.8,2.5);
+\coordinate (ia) at (0.8,2);
+\coordinate (ja) at (0.75,1.5);
+\coordinate (ka) at (0.7,1);
+\coordinate (la) at (0.7,0.5);
+\coordinate (ma) at (0.5,0);
+%box circuit
+\draw [] plot [smooth cycle] coordinates {(aa) (ba) (ca) (da) (ea) (fa) (ga) (ha) (ia) (ja) (ka) (la) (ma)};
+%external circuit
+\draw (ha) to [short]++(2,0)coordinate(rTop) to [european resistor]++(0,-2) to [short,i={$\SI{-9}{\ampere}$}] (la);
+%voltages
+\draw (rTop)++(0.6,-1) node{$\begin{aligned} &-\\&\SI{3}{\volt}\\&+ \end{aligned}$};
+\draw ($(ha)!0.5!(la)$)++(0.5,0) node{$\begin{aligned} &-\\&\SI{3}{\volt}\\&+ \end{aligned}$};
+%text
+\draw ($(da)!0.5!(ja)$) node[rotate=90]{\RL{بقایا دور}};
+\draw (1.5,-0.2)node{(ب)};
+%
+\end{scope}
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}

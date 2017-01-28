@@ -3,3 +3,5 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 1}}برقی بار، برقی رو اور برقی دباو}{\RL {\arabicfont 1}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 1}}قانونِ اوہم}{\RL {\arabicfont 5}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 1}}توانائی اور طاقت}{\RL {\arabicfont 6}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 1}}برقی پرزے}{\RL {\arabicfont 11}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 4}.\RL {\arabicfont 1}}آزاد منبع}{\RL {\arabicfont 11}}

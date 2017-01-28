@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  27 JAN 2017 16:56
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  28 JAN 2017 13:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2613,11 +2613,32 @@ Missing character: There is no ل in font zplmr7m!
 Missing character: There is no ف in font zplmr7m!
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 7.5pt on input line 185.
- [8]) [9] [10
+ [8]
+File: ./fig/figBasicConcepts/figBasicPassiveSignExample.pdf Graphic file (type 
+QTm)
 
+<use  "./fig/figBasicConcepts/figBasicPassiveSignExample.pdf" >
+File: ./fig/figBasicConcepts/figBasicPassiveSignQuiz.pdf Graphic file (type QTm
+)
 
-]
-(./circuitAnalysis.aux (./tex/cktBasics.aux))
+<use  "./fig/figBasicConcepts/figBasicPassiveSignQuiz.pdf" >
+File: ./fig/figBasicConcepts/figBasicPowerExample.pdf Graphic file (type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicPowerExample.pdf" > [9]
+File: ./fig/figBasicConcepts/figBasicPowerQuiz.pdf Graphic file (type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicPowerQuiz.pdf" > [10]
+LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/bx/n' will be
+(Font)              scaled to size 12.0pt on input line 267.
+File: ./fig/figBasicConcepts/figBasicIndependentVoltageSource.pdf Graphic file 
+(type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicIndependentVoltageSource.pdf" >
+File: ./fig/figBasicConcepts/figBasicIndependentCurrentSource.pdf Graphic file 
+(type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicIndependentCurrentSource.pdf" >) [11]
+[12] (./circuitAnalysis.aux (./tex/cktBasics.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.43109pt have occurred.
@@ -2627,12 +2648,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 23115 strings out of 493918
- 485986 string characters out of 6150562
- 531137 words of memory out of 5000000
- 25976 multiletter control sequences out of 15000+600000
+ 23150 strings out of 493918
+ 486867 string characters out of 6150562
+ 531379 words of memory out of 5000000
+ 26005 multiletter control sequences out of 15000+600000
  58285 words of font info for 206 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  53i,19n,50p,10469b,1203s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (14 pages).
+Output written on circuitAnalysis.pdf (16 pages).

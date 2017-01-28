@@ -22,7 +22,7 @@
 \graphicspath{{./fig/figFrontPage/}{./fig/figBasicConcepts/}}		%paths to figures
 
 
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics}
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktToDoList}
 %
 %\includeonly{./tex/emtSymbols,./tex/cktPreface,./tex/prefaceFirstBookneticField,./tex/emtVectors,./tex/emtLinearAlgebra,./tex/emtDataTables,./tex/emtEndOfBookTableDivergenceCurlGradientLaplacian,./tex/emtCoordinatesRelations}
 

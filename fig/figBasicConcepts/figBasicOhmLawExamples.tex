@@ -31,16 +31,16 @@
 \pgfmathsetmacro{\h}{2.5}
 \pgfmathsetmacro{\delh}{0.25}
 
-\draw(0,0) to [battery1,l={\SI{5}{\volt}}]++(0,2) to [resistor,l_={\SI{8}{\ohm}}]++(2,0);
-\draw(0,0) to [short]++(2,0) to [battery1,l_={\SI{9}{\volt}}]++(0,2);
+\draw(0,0) to [american voltage source,l={\SI{5}{\volt}}]++(0,2) to [resistor,l_={\SI{8}{\ohm}}]++(2,0);
+\draw(0,0) to [short]++(2,0) to [american voltage source,l_={\SI{9}{\volt}}]++(0,2);
 \draw (1,0) to [short,*-]node [ground]{}++(0,-0.5);
 \draw(1,2.7)node{$-\quad V_R \quad+$};
 \draw[latex-] (0.5,3.3)--++(1,0)node[pos=0.5,above]{$I_R$};
 \draw(2,-1)node{(الف)};
 %
 \begin{scope}[shift={(-5.5cm,0)}]
-\draw(0,0) to [battery1,l={\SI{5}{\volt}}]++(0,2) to [resistor,l_={\SI{8}{\ohm}}]++(2,0);
-\draw(0,0) to [short]++(2,0) to [battery1,l_={\SI{9}{\volt}}]++(0,2);
+\draw(0,0) to [american voltage source,l={\SI{5}{\volt}}]++(0,2) to [resistor,l_={\SI{8}{\ohm}}]++(2,0);
+\draw(0,0) to [short]++(2,0) to [american voltage source,l_={\SI{9}{\volt}}]++(0,2);
 \draw (1,0) to [short,*-]node [ground]{}++(0,-0.5);
 \draw(1,2.7)node{$+\quad V_R \quad-$};
 \draw[-latex] (0.5,3.3)--++(1,0)node[pos=0.5,above]{$I_R$};

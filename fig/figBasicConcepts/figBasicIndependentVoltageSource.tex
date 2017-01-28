@@ -1,0 +1,42 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+\input{../../tex/myEMTvectors.tex}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+\newdimen\XCoord
+\newdimen\YCoord
+
+\newcommand*{\ExtractCoordinate}[1]{\path (#1); \pgfgetlastxy{\XCoord}{\YCoord};}%
+
+\begin{document}
+\begin{urdufont}
+
+\pgfmathsetmacro{\x}{3}
+\pgfmathsetmacro{\y}{2}
+
+\begin{tikzpicture}[]
+%axis
+\draw[gray](-1,0)--(2,0)node[right]{$i$};
+\draw[gray](0,-1)--(0,2)node[left]{$v$};
+\draw (-1,1)--(2,1);
+%text
+\draw[gray,stealth-] (1.5,1)++(0,0.1) to [out=60,in=-90]++(0.5,0.3) node[above]{\RL{تبدیلی رو کا دباو پر کوئی اثر نہیں}};
+%source
+\draw(-2.5,-0.5)node[below]{$A$} to [american voltage source,l={$v(t)$},o-o]++(0,2)node[above]{$B$} ;
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}
