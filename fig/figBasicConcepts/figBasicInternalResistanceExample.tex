@@ -1,0 +1,41 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+\input{../../tex/myEMTvectors.tex}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+\newdimen\XCoord
+\newdimen\YCoord
+
+\newcommand*{\ExtractCoordinate}[1]{\path (#1); \pgfgetlastxy{\XCoord}{\YCoord};}%
+
+\begin{document}
+\begin{urdufont}
+
+\pgfmathsetmacro{\x}{3}
+\pgfmathsetmacro{\y}{2}
+
+\begin{tikzpicture}[]
+%axis
+\draw(0,0) to [american voltage source,l={$\SI{12}{\volt}$}]++(0,2) to [european resistor]++(3,0) to [european resistor]++(0,-2) to [short,i={$\SI{4}{\ampere}$}](0,0);
+\draw(1.5,2.5)node[]{$+\, \SI{5}{\volt} \, -$};
+\draw (3.5,1) node[]{$\begin{aligned} &+\\ &\SI{7}{\volt} \\&-  \end{aligned}$};
+%
+\draw(1.5,2)node{\RL{پرزہ-1}};
+\draw(3,1)node[rotate=90]{\RL{پرزہ-2}};
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}
