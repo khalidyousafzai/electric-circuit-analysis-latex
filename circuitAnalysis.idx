@@ -113,8 +113,24 @@
 \indexentry{depended!current source}{\RL {\arabicfont  13}}
 \indexentry{تابع!منبع رو}{\RL {\arabicfont  13}}
 \indexentry{dependent!transresistance source}{\RL {\arabicfont  13}}
-\indexentry{تابع منبع مزاحمت نما}{\RL {\arabicfont  13}}
+\indexentry{تابع منبع مزاحمت-نما}{\RL {\arabicfont  13}}
 \indexentry{dimension}{\RL {\arabicfont  13}}
 \indexentry{بُعد}{\RL {\arabicfont  13}}
 \indexentry{dependent!transconductance source}{\RL {\arabicfont  13}}
-\indexentry{تابع منبع موصل نما}{\RL {\arabicfont  13}}
+\indexentry{تابع منبع موصلیت-نما}{\RL {\arabicfont  13}}
+\indexentry{voltage gain}{\RL {\arabicfont  14}}
+\indexentry{افزائش!دباو}{\RL {\arabicfont  14}}
+\indexentry{amplifier!voltage}{\RL {\arabicfont  14}}
+\indexentry{ایمپلیفائر!دباو}{\RL {\arabicfont  14}}
+\indexentry{amplifier!current}{\RL {\arabicfont  14}}
+\indexentry{ایمپلیفائر!رو}{\RL {\arabicfont  14}}
+\indexentry{current gain}{\RL {\arabicfont  14}}
+\indexentry{افزائش!رو}{\RL {\arabicfont  14}}
+\indexentry{amplifier!transresistance}{\RL {\arabicfont  14}}
+\indexentry{ایمپلیفائر!مزاحمت-نما}{\RL {\arabicfont  14}}
+\indexentry{افزائش!موصلیت-نما}{\RL {\arabicfont  14}}
+\indexentry{amplifier!transconductance}{\RL {\arabicfont  14}}
+\indexentry{ایمپلیفائر!موصلیت-نما}{\RL {\arabicfont  14}}
+\indexentry{transresistance gian}{\RL {\arabicfont  14}}
+\indexentry{افزائش!مزاحمت-نما}{\RL {\arabicfont  14}}
+\indexentry{transconductance gain}{\RL {\arabicfont  14}}

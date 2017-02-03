@@ -1,0 +1,45 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+\input{../../tex/myEMTvectors.tex}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+\newdimen\XCoord
+\newdimen\YCoord
+
+\newcommand*{\ExtractCoordinate}[1]{\path (#1); \pgfgetlastxy{\XCoord}{\YCoord};}%
+
+\begin{document}
+\begin{urdufont}
+
+\pgfmathsetmacro{\x}{4}
+\pgfmathsetmacro{\yB}{2.5}
+\pgfmathsetmacro{\yS}{1.5}
+
+\begin{tikzpicture}[]
+%
+\draw(0,0) to [american voltage source,l={$\SI{5}{\volt}$},i<={$\SI{1}{\ampere}$}]++(0,\yB)coordinate(topL) to [european resistor,l={$ + \, \SI{0}{\volt} \, -$},i={$\SI{0}{\ampere}$}]++(\x,0)coordinate(mid) to [european resistor,l={$ - \, \SI{5}{\volt} \, +$},i<={$\SI{1.25}{\ampere}$}]++(\x,0)coordinate(topR);
+\draw(0,0)to [short]++(2*\x,0) to [american voltage source,l_={$\SI{10}{\volt}$},i_={$\SI{2.25}{\ampere}$}]++(0,\yB);
+\draw(mid) to [european resistor,l={$\begin{aligned} &+ \\ & \SI{5}{\volt} \\ & - \end{aligned}$},*-*,i_={$\SI{1.25}{\ampere}$}]++(0,-\yB) to [short,*-] node[ground]{}++(0,-0.5);
+\draw (topL) to [short,*-]++(0,\yS) to [european resistor,l={$ - \, \SI{5}{\volt} \, +$},i<={$\SI{1}{\ampere}$}]++(2*\x,0) to [short,-*]++(0,-\yS);
+%text
+\draw (\x/2,\yB)node[shift={(0,-0.5)}]{الف};
+\draw (\x+\x/2,\yB)node[shift={(0,-0.5)}]{ب};
+\draw (\x,\yB+\yS)node[shift={(0,-0.5)}]{پ};
+\draw (\x,\yB/2)node[shift={(-0.5,0)}]{ت};
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}

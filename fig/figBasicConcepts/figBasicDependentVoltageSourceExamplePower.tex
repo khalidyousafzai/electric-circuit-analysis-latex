@@ -1,0 +1,59 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+\input{../../tex/myEMTvectors.tex}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+\newdimen\XCoord
+\newdimen\YCoord
+
+\newcommand*{\ExtractCoordinate}[1]{\path (#1); \pgfgetlastxy{\XCoord}{\YCoord};}%
+
+\begin{document}
+\begin{urdufont}
+
+\pgfmathsetmacro{\x}{3}
+\pgfmathsetmacro{\y}{2}
+
+\begin{tikzpicture}[]
+
+\coordinate (a) at (0,0);
+\coordinate (b) at (-0.025,0.5);
+\coordinate (c) at (-0.04,1);
+\coordinate (d) at (-0.12,1.5);
+\coordinate (e) at (-0.2,2);
+\coordinate (f) at (-0.15,2.5);
+\coordinate (g) at (0.5,3);
+
+\coordinate (h) at (0.7,2.5);
+\coordinate (i) at (0.6,2);
+\coordinate (j) at (0.75,1.5);
+\coordinate (k) at (0.7,1);
+\coordinate (l) at (0.7,0.5);
+\coordinate (m) at (0.6,0);
+%box circuit
+\draw [] plot [smooth cycle] coordinates {(a) (b) (c) (d) (e) (f) (g) (h) (i) (j) (k) (l) (m)};
+%controlled circuit
+\draw (h) to [short,-o]++(1,0)coordinate(HH);
+\draw (l) to [short,-o]++(1,0)coordinate(LL);
+\draw ($(HH)!0.5!(LL)$)++(-0.3,0) node[right]{$\begin{aligned} &+ \\& V_S=\SI{1.1}{\volt}\\&-   \end{aligned}$};
+%diamond
+\draw (j)++(3.5,-1)++(2,0)coordinate(outBot) to [short]++(-2,0) to [american controlled voltage source]++(0,2) to [short,i={$\SI{9}{\ampere}$}]++(2,0)coordinate(outTop) to [european resistor]++(0,-2);
+\draw (j)++(4,0) node[right]{$7 V_S$};
+\draw($(outBot)!0.5!(outTop)$)++(0.5,0) node[rotate=90]{\RL{برقی بوجھ}};
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}

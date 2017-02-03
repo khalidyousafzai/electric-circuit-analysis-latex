@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  1 FEB 2017 16:26
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  3 FEB 2017 15:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2664,7 +2664,7 @@ File: ./fig/figBasicConcepts/figBasicDependentConductanceSource.pdf Graphic fil
 e (type QTm)
 
 <use  "./fig/figBasicConcepts/figBasicDependentConductanceSource.pdf" >
-Overfull \hbox (1.99438pt too wide) in paragraph at lines 349--350
+Overfull \hbox (1.99438pt too wide) in paragraph at lines 349--351
 [][]\EU1/JameelNooriNastaleeq(0)/m/n/10 غیر تابع منبع کو گول دائرے سے ظاہر کیا 
 جاتا ہے جبکہ تابع منبع کو ہیرا شکل سے ظاہر کیا جاتا ہے۔شکل []\EU1/Scheherazade(
 0)/m/sl/10 17[]\EU1/JameelNooriNastaleeq(0)/m/n/10 .[]\EU1/Scheherazade(0)/m/sl
@@ -2672,7 +2672,39 @@ Overfull \hbox (1.99438pt too wide) in paragraph at lines 349--350
  گئے ہیں۔شکل-[]
  []
 
-) [13] [14
+File: ./fig/figBasicConcepts/figBasicDependentVoltageSourceExample.pdf Graphic 
+file (type QTm)
+<use  "./fig/figBasicConcepts/figBasicDependentVoltageSourceExample.pdf" >
+File: ./fig/figBasicConcepts/figBasicDependentCurrentSourceExample.pdf Graphic 
+file (type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicDependentCurrentSourceExample.pdf" >
+[13]
+File: ./fig/figBasicConcepts/figBasicDependentVoltageSourceExamplePower.pdf Gra
+phic file (type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicDependentVoltageSourceExamplePower.pdf" >
+File: ./fig/figBasicConcepts/figBasicDependentCurrentSourceExamplePower.pdf Gra
+phic file (type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicDependentCurrentSourceExamplePower.pdf" >
+[14]
+File: ./fig/figBasicConcepts/figBasicExampleTwoSourceThreeResistorPower.pdf Gra
+phic file (type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicExampleTwoSourceThreeResistorPower.pdf" >
+File: ./fig/figBasicConcepts/basicPowerExampleMultiSupplies.pdf Graphic file (t
+ype QTm)
+<use  "./fig/figBasicConcepts/basicPowerExampleMultiSupplies.pdf" >
+File: ./fig/figBasicConcepts/basicChargeVersusCurrent.pdf Graphic file (type QT
+m)
+
+<use  "./fig/figBasicConcepts/basicChargeVersusCurrent.pdf" > [15] [16]
+File: ./fig/figBasicConcepts/basicChargeVersusCurrentAnswer.pdf Graphic file (t
+ype QTm)
+
+<use  "./fig/figBasicConcepts/basicChargeVersusCurrentAnswer.pdf" >) [17]
+[18
 
 
 ] (./circuitAnalysis.aux (./tex/cktBasics.aux))
@@ -2685,12 +2717,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 23197 strings out of 493918
- 488041 string characters out of 6150562
- 530596 words of memory out of 5000000
- 26045 multiletter control sequences out of 15000+600000
- 58293 words of font info for 207 fonts, out of 8000000 for 9000
+ 23240 strings out of 493918
+ 489403 string characters out of 6150562
+ 530898 words of memory out of 5000000
+ 26079 multiletter control sequences out of 15000+600000
+ 58301 words of font info for 208 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 53i,19n,50p,10476b,1203s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,19n,50p,10476b,1218s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (18 pages).
+Output written on circuitAnalysis.pdf (22 pages).
