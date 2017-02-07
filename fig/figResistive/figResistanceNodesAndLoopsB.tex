@@ -1,0 +1,36 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+\input{../../tex/myEMTvectors.tex}
+\input{../../tex/myTikzCommandsCircuitAnalysis.tex}   %testing
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+
+
+\begin{document}
+\begin{urdufont}
+
+\pgfmathsetmacro{\y}{2}
+\pgfmathsetmacro{\x}{2}
+
+\begin{tikzpicture}[]
+%\boxLeft[p]{0,0} 
+\draw(0,0) to [american voltage source,l={$V_1$}]++(0,2*\y) to [short]++(\x,0)node[above]{$n_1$} to [resistor,*-*,l_={$R_4$}]++(0,-\y)node[left]{$n_3$} to [resistor,-*,l_={$R_3$}]++(0,-\y) node[below]{$n_0$} to [short]++(-\x,0);
+\draw(\x,0) to [short]++(\x,0) to [resistor,l_={$R_2$}]++(0,\y) to [resistor,*-,l_={$R_1$}]++(0,\y) to [short]++(-\x,0);
+\draw (\x,\y) to [american current source,l={$I_1$}]++(\x,0)node[right]{$n_2$};
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}

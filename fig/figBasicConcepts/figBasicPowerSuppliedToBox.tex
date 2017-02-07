@@ -1,0 +1,67 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+\input{../../tex/myEMTvectors.tex}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+\newdimen\XCoord
+\newdimen\YCoord
+
+\newcommand*{\ExtractCoordinate}[1]{\path (#1); \pgfgetlastxy{\XCoord}{\YCoord};}%
+
+\begin{document}
+\begin{urdufont}
+
+\pgfmathsetmacro{\ta}{0.5}
+\pgfmathsetmacro{\tb}{2}
+\pgfmathsetmacro{\tc}{3.5}
+\pgfmathsetmacro{\td}{4}
+\pgfmathsetmacro{\te}{5}
+\pgfmathsetmacro{\tf}{6}
+\pgfmathsetmacro{\tg}{7}
+\pgfmathsetmacro{\th}{7.5}
+
+\pgfmathsetmacro{\qa}{0.5}
+\pgfmathsetmacro{\qb}{2}
+\pgfmathsetmacro{\qc}{2.5}
+\pgfmathsetmacro{\qd}{2.5}
+\pgfmathsetmacro{\qe}{-1}
+\pgfmathsetmacro{\qf}{-1}
+\pgfmathsetmacro{\qg}{-0.5}
+
+\pgfmathsetmacro{\kpa}{0}
+\pgfmathsetmacro{\kpb}{1.5}
+\pgfmathsetmacro{\kpc}{0.5}
+\pgfmathsetmacro{\kpd}{0}
+\pgfmathsetmacro{\kpe}{-2.5}   %not to scale. actual would be -5.25
+\pgfmathsetmacro{\kpf}{0}
+\pgfmathsetmacro{\kpg}{0.75}
+\pgfmathsetmacro{\kph}{0}
+
+\begin{tikzpicture}
+%axis
+\draw(0,0)--(8,0)node[below]{$t(\si{\micro\second})$};
+\draw(0,-3)--(0,2)node[left]{$p$};
+%power
+\draw(0,0)--(\ta,\kpa)--(\ta,\kpb)--(\tb,\kpb)--(\tb,\kpc)--(\tc,\kpc)--(\tc,\kpd)--(\td,\kpd)--(\td,\kpe)--(\te,\kpe)--(\te,\kpf)--(\tf,\kpf)--(\tf,\kpg)--(\tg,\kpg)--(\tg,\kph)--(\th,\kph);
+%
+%ticks
+\foreach \y/\ytck in {1.5/15,0.5/5,-2.5/-52.5} {\draw (0,\y)--++(-0.1,0)node[left]{$\SI{\ytck}{\watt}$};};
+\foreach \x/\xtck in {1/1,2/2,3/3,6/6,7/7}{\draw (\x,0)--++(0,-0.1) node[below]{$\xtck$};};
+%
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}

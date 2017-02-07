@@ -1,0 +1,36 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+\input{../../tex/myEMTvectors.tex}
+\input{../../tex/myTikzCommandsCircuitAnalysis.tex}   %testing
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+
+
+\begin{document}
+\begin{urdufont}
+
+\pgfmathsetmacro{\x}{3}
+\pgfmathsetmacro{\y}{2}
+
+\begin{tikzpicture}[]
+\boxLeft[p]{0,0} 
+\draw (pa) to [short,-o]++(0.5,0)coordinate(ktop) to [short,i={$i(t)$}]++(1,0) to [american resistor,l={$R$}]++(0,-2) to [short]++(-1,0)coordinate(kbot) to [short,o-]++(-0.5,0);
+\draw($(ktop)!0.5!(kbot)$) node{$\begin{aligned}  &+ \\& v(t) \\ &- \end{aligned}$};
+%
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}

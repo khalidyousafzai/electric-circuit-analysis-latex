@@ -1,0 +1,63 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+\input{../../tex/myEMTvectors.tex}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+\newdimen\XCoord
+\newdimen\YCoord
+
+\newcommand*{\ExtractCoordinate}[1]{\path (#1); \pgfgetlastxy{\XCoord}{\YCoord};}%
+
+\begin{document}
+\begin{urdufont}
+
+\pgfmathsetmacro{\ta}{0.5}
+\pgfmathsetmacro{\tb}{2}
+\pgfmathsetmacro{\tc}{3.5}
+\pgfmathsetmacro{\td}{4}
+\pgfmathsetmacro{\te}{5}
+\pgfmathsetmacro{\tf}{6}
+\pgfmathsetmacro{\tg}{7}
+
+\pgfmathsetmacro{\qa}{0.5}
+\pgfmathsetmacro{\qb}{2}
+\pgfmathsetmacro{\qc}{2.5}
+\pgfmathsetmacro{\qd}{2.5}
+\pgfmathsetmacro{\qe}{-1}
+\pgfmathsetmacro{\qf}{-1}
+\pgfmathsetmacro{\qg}{-0.5}
+
+\begin{tikzpicture}[american voltages, american currents, european resistors]
+%axis
+\draw (0,0)--++(8,0)node[below]{$t (\si{\micro\second})$};
+\draw (0,-1.5)--(0,3)node[left]{$q(\si{\milli \coulomb})$};
+%wave
+\draw (0,\qa) --(\ta,\qa)--(\tb,\qb)--(\tc,\qc)--(\td,\qd)--(\te,\qe)--(\tf,\qf)--(\tg,\qg)--++(0.5,0);
+%ticks
+\foreach \y/\ytck in {-1/-1,-0.5/-0.5,0.5/0.5,1/1,1.5/1.5,2/2,2.5/2.5} {\draw (0,\y)--++(-0.1,0)node[left]{$\ytck$};};
+\foreach \x/\xtck in {1/1,2/2,3/3,4/4,5/5,6/6,7/7}{\draw (\x,0)--++(0,-0.1) node[below]{$\xtck$};};
+%
+\draw[gray,dashed] (0,\qb)--(\tb,\qb)--(\tb,0);
+\draw[gray,dashed] (0,\qc)--(\tc,\qc)--(\tc,0);
+\draw[gray,dashed] (\td,\qd)--(\td,0);
+\draw[gray,dashed] (0,\qe)--(\te,\qe)--(\te,0);
+\draw[gray,dashed] (\tf,\qf)--(\tf,0);
+\draw[gray,dashed] (\ta,\qa)--(\ta,0);
+%
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}

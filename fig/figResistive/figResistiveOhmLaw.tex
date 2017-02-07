@@ -1,0 +1,75 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+\input{../../tex/myEMTvectors.tex}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+\newdimen\XCoord
+\newdimen\YCoord
+
+\newcommand*{\ExtractCoordinate}[1]{\path (#1); \pgfgetlastxy{\XCoord}{\YCoord};}%
+
+\begin{document}
+\begin{urdufont}
+
+\pgfmathsetmacro{\ta}{0.5}
+\pgfmathsetmacro{\tb}{2}
+\pgfmathsetmacro{\tc}{3.5}
+\pgfmathsetmacro{\td}{4}
+\pgfmathsetmacro{\te}{5}
+\pgfmathsetmacro{\tf}{6}
+\pgfmathsetmacro{\tg}{7}
+\pgfmathsetmacro{\th}{7.5}
+
+\pgfmathsetmacro{\qa}{0.5}
+\pgfmathsetmacro{\qb}{2}
+\pgfmathsetmacro{\qc}{2.5}
+\pgfmathsetmacro{\qd}{2.5}
+\pgfmathsetmacro{\qe}{-1}
+\pgfmathsetmacro{\qf}{-1}
+\pgfmathsetmacro{\qg}{-0.5}
+
+\pgfmathsetmacro{\kpa}{0}
+\pgfmathsetmacro{\kpb}{1.5}
+\pgfmathsetmacro{\kpc}{0.5}
+\pgfmathsetmacro{\kpd}{0}
+\pgfmathsetmacro{\kpe}{-2.5}   %not to scale. actual would be -5.25
+\pgfmathsetmacro{\kpf}{0}
+\pgfmathsetmacro{\kpg}{0.75}
+\pgfmathsetmacro{\kph}{0}
+
+\begin{tikzpicture}
+%axis
+\draw[name path=kxaxis](-1,0)--(3,0)node[below]{$i$};
+\draw[name path=kyaxis](0,-1)--(0,2)node[left]{$v$};
+%lines
+\draw[name path=ohm] (0,0)++(30:-1)--++(30:4)coordinate[pos=0.5](ka)coordinate[pos=0.7](kb)node[above]{$v=R i$};
+%
+\path[name path=klower] (ka)--++(-2,0);
+\path[name path=kupper] (kb)--++(-2,0);
+\path[name path=kleft] (ka)--++(0,-1);
+\path[name path=kright] (kb)--++(0,-1);
+%
+\draw[gray,dashed,name intersections={of=klower and kyaxis}] (ka)--(intersection-1)node[left]{$v_1$};
+\draw[gray,dashed,name intersections={of=kupper and kyaxis}] (kb)--(intersection-1)node[left]{$v_2$};
+\draw[gray,dashed,name intersections={of=kleft and kxaxis}] (ka)--(intersection-1)node[below]{$i_1$};
+\draw[name path=krightMost,gray,dashed,name intersections={of=kright and kxaxis}] (kb)--(intersection-1)node[below]{$i_2$};
+%
+\path[name path=lowerSide](ka)--++(1,0);
+\draw[name intersections={of=krightMost and lowerSide}] (ka)--(intersection-1) node[right]{$R=\frac{\Delta v}{\Delta i}$}--(kb);
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}

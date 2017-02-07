@@ -6,3 +6,6 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 1}}برقی پرزے}{\RL {\arabicfont 11}}
 \contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 4}.\RL {\arabicfont 1}}غیر تابع منبع}{\RL {\arabicfont 11}}
 \contentsline {subsection}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 4}.\RL {\arabicfont 1}}تابع منبع}{\RL {\arabicfont 13}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 2}}مزاحمتی ادوار}{\RL {\arabicfont 21}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 2}}قانون اوہم}{\RL {\arabicfont 21}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 2}}قوانین کرچاف}{\RL {\arabicfont 27}}

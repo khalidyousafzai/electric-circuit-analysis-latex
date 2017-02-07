@@ -19,10 +19,10 @@
 
 %\input{./tex/myElectronicsVariablesBetter.tex}         %these are all tested. to use at the very end when book is finished
 
-\graphicspath{{./fig/figFrontPage/}{./fig/figBasicConcepts/}}		%paths to figures
+\graphicspath{{./fig/figFrontPage/}{./fig/figBasicConcepts/}{./fig/figResistive}}		%paths to figures
 
 
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktToDoList}
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktToDoList}
 %
 %\includeonly{./tex/emtSymbols,./tex/cktPreface,./tex/prefaceFirstBookneticField,./tex/emtVectors,./tex/emtLinearAlgebra,./tex/emtDataTables,./tex/emtEndOfBookTableDivergenceCurlGradientLaplacian,./tex/emtCoordinatesRelations}
 
@@ -74,7 +74,7 @@
 
 
 \include{./tex/cktBasics}
-
+\include{./tex/cktResistive}
 
 %\include{./tex/emtEndOfBookTableDivergenceCurlGradientLaplacian}
 %\include{./tex/toDoList}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  3 FEB 2017 15:44
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  7 FEB 2017 17:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1221,7 +1221,7 @@ Writing index file circuitAnalysis.idx
 (./circuitAnalysis.aux
 LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 3.
- (./tex/cktBasics.aux))
+ (./tex/cktBasics.aux) (./tex/cktResistive.aux))
 \openout1 = `circuitAnalysis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
@@ -2693,21 +2693,107 @@ File: ./fig/figBasicConcepts/figBasicExampleTwoSourceThreeResistorPower.pdf Gra
 phic file (type QTm)
 
 <use  "./fig/figBasicConcepts/figBasicExampleTwoSourceThreeResistorPower.pdf" >
-File: ./fig/figBasicConcepts/basicPowerExampleMultiSupplies.pdf Graphic file (t
-ype QTm)
-<use  "./fig/figBasicConcepts/basicPowerExampleMultiSupplies.pdf" >
-File: ./fig/figBasicConcepts/basicChargeVersusCurrent.pdf Graphic file (type QT
-m)
+File: ./fig/figBasicConcepts/figBasicPowerExampleMultiSupplies.pdf Graphic file
+ (type QTm)
+<use  "./fig/figBasicConcepts/figBasicPowerExampleMultiSupplies.pdf" >
+File: ./fig/figBasicConcepts/figBasicChargeSuppliedToBox.pdf Graphic file (type
+ QTm)
 
-<use  "./fig/figBasicConcepts/basicChargeVersusCurrent.pdf" > [15] [16]
-File: ./fig/figBasicConcepts/basicChargeVersusCurrentAnswer.pdf Graphic file (t
-ype QTm)
+<use  "./fig/figBasicConcepts/figBasicChargeSuppliedToBox.pdf" >
+File: ./fig/figBasicConcepts/figBasicChargeVersusCurrent.pdf Graphic file (type
+ QTm)
 
-<use  "./fig/figBasicConcepts/basicChargeVersusCurrentAnswer.pdf" >) [17]
-[18
+<use  "./fig/figBasicConcepts/figBasicChargeVersusCurrent.pdf" >
+Overfull \hbox (94.7709pt too wide) in paragraph at lines 446--447
+ [][][][][][] 
+ []
+
+[15] [16]
+File: ./fig/figBasicConcepts/figBasicChargeVersusCurrentAnswer.pdf Graphic file
+ (type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicChargeVersusCurrentAnswer.pdf" > [17]
+File: ./fig/figBasicConcepts/figBasicPowerSuppliedToBox.pdf Graphic file (type 
+QTm)
+
+<use  "./fig/figBasicConcepts/figBasicPowerSuppliedToBox.pdf" > [18]) [19]
+\openout2 = `./tex/cktResistive.aux'.
 
 
-] (./circuitAnalysis.aux (./tex/cktBasics.aux))
+(./tex/cktResistive.tex [20
+
+
+
+]
+باب \RL {\arabicfont 2}.
+File: ./fig/figResistive/figResistiveStraightLines.pdf Graphic file (type QTm)
+<use  "./fig/figResistive/figResistiveStraightLines.pdf" >
+File: ./fig/figResistive/figResistiveOhmLaw.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistiveOhmLaw.pdf" > [21]
+File: ./fig/figResistive/figResistiveIncadecentBulb.pdf Graphic file (type QTm)
+
+
+<use  "./fig/figResistive/figResistiveIncadecentBulb.pdf" >
+File: ./fig/figResistive/figResistanceOhmLawPower.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceOhmLawPower.pdf" > [22]
+File: ./fig/figResistive/figResistanceVariableResistance.pdf Graphic file (type
+ QTm)
+
+<use  "./fig/figResistive/figResistanceVariableResistance.pdf" >
+Overfull \hbox (13.23633pt too wide) in paragraph at lines 104--105
+ [][][][][][] 
+ []
+
+File: ./fig/figResistive/figResistanceShortCircuit.pdf Graphic file (type QTm)
+<use  "./fig/figResistive/figResistanceShortCircuit.pdf" >
+File: ./fig/figResistive/figResistanceOpenCircuit.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceOpenCircuit.pdf" > [23]
+File: ./fig/figResistive/figResistanceExampleA.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceExampleA.pdf" >
+File: ./fig/figResistive/figResistanceExampleB.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceExampleB.pdf" >
+File: ./fig/figResistive/figResistanceExampleC.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceExampleC.pdf" >
+Overfull \hbox (4.14236pt too wide) in paragraph at lines 152--153
+[][][][][] []
+ []
+
+[24]
+File: ./fig/figResistive/figResistanceExampleD.pdf Graphic file (type QTm)
+ <use  "./fig/figResistive/figResistanceExampleD.pdf" >
+File: ./fig/figResistive/figResistanceExampleE.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceExampleE.pdf" > [25]
+File: ./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizA.pdf Graphic
+ file (type QTm)
+
+<use  "./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizA.pdf" >
+File: ./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizB.pdf Graphic
+ file (type QTm)
+
+<use  "./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizB.pdf" >
+File: ./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizC.pdf Graphic
+ file (type QTm)
+
+<use  "./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizC.pdf" >
+[26]
+File: ./fig/figResistive/figResistanceNodesAndLoopsA.pdf Graphic file (type QTm
+)
+ <use  "./fig/figResistive/figResistanceNodesAndLoopsA.pdf" >
+File: ./fig/figResistive/figResistanceNodesAndLoopsB.pdf Graphic file (type QTm
+)
+
+<use  "./fig/figResistive/figResistanceNodesAndLoopsB.pdf" >) [27] [28
+
+
+]
+(./circuitAnalysis.aux (./tex/cktBasics.aux) (./tex/cktResistive.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.43109pt have occurred.
@@ -2715,14 +2801,17 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 23240 strings out of 493918
- 489403 string characters out of 6150562
- 530898 words of memory out of 5000000
- 26079 multiletter control sequences out of 15000+600000
+ 23361 strings out of 493918
+ 492656 string characters out of 6150562
+ 533302 words of memory out of 5000000
+ 26169 multiletter control sequences out of 15000+600000
  58301 words of font info for 208 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  53i,19n,50p,10476b,1218s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (22 pages).
+Output written on circuitAnalysis.pdf (32 pages).

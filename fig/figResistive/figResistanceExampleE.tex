@@ -1,0 +1,39 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+\input{../../tex/myEMTvectors.tex}
+\input{../../tex/myTikzCommandsCircuitAnalysis.tex}   %testing
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+
+
+\begin{document}
+\begin{urdufont}
+
+\pgfmathsetmacro{\x}{3}
+\pgfmathsetmacro{\y}{2}
+
+\begin{tikzpicture}[]
+%\boxLeft[p]{0,0} 
+\draw(0,0) to [american voltage source,l={$\begin{aligned} \SI{10}{\volt}& \\  \SI{-120}{\watt}& \end{aligned}$}]++(0,2)
+ to [resistor,l={$R$},i={$i$}]++(2,0);
+\draw (0,0) to [short]++(2,0) to [american voltage source,l_=\SI{2}{\volt}]++(0,2);
+\draw (1,0) to [short,*-] node[ground]{}++(0,-0.5);
+%arrow on variable
+%\draw[-stealth,thick] (resbot)++(-0.4,0.5) --++(0.8,1);
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}

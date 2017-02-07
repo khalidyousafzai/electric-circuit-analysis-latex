@@ -1,0 +1,37 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+\input{../../tex/myEMTvectors.tex}
+\input{../../tex/myTikzCommandsCircuitAnalysis.tex}   %testing
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+
+
+\begin{document}
+\begin{urdufont}
+
+\pgfmathsetmacro{\x}{3}
+\pgfmathsetmacro{\y}{2}
+
+\begin{tikzpicture}[]
+\boxLeft[p]{0,0} 
+\draw (pa) to [short,-o]++(0.5,0)coordinate(ktop) to [short,i={$i(t)$}]++(1.5,0)coordinate(restop) to [short]++(0,-2)coordinate(resbot) to [short]++(-1.5,0)coordinate(kbot) to [short,o-]++(-0.5,0);
+\draw($(ktop)!0.5!(kbot)$)++(0.5,0) node{$\begin{aligned}  &+ \\& v=\SI{0}{\volt} \\ &- \end{aligned}$};
+%arrow on variable
+%\draw[-stealth,thick] (resbot)++(-0.4,0.5) --++(0.8,1);
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}
