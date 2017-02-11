@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  7 FEB 2017 17:35
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  11 FEB 2017 16:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2783,16 +2783,15 @@ File: ./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizC.pdf Graphic
 
 <use  "./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizC.pdf" >
 [26]
+LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 275.
 File: ./fig/figResistive/figResistanceNodesAndLoopsA.pdf Graphic file (type QTm
 )
  <use  "./fig/figResistive/figResistanceNodesAndLoopsA.pdf" >
 File: ./fig/figResistive/figResistanceNodesAndLoopsB.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figResistive/figResistanceNodesAndLoopsB.pdf" >) [27] [28
-
-
-]
+<use  "./fig/figResistive/figResistanceNodesAndLoopsB.pdf" > [27]) [28]
 (./circuitAnalysis.aux (./tex/cktBasics.aux) (./tex/cktResistive.aux))
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2801,16 +2800,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 23361 strings out of 493918
- 492656 string characters out of 6150562
- 533302 words of memory out of 5000000
- 26169 multiletter control sequences out of 15000+600000
- 58301 words of font info for 208 fonts, out of 8000000 for 9000
+ 23378 strings out of 493918
+ 492943 string characters out of 6150562
+ 533400 words of memory out of 5000000
+ 26185 multiletter control sequences out of 15000+600000
+ 58309 words of font info for 209 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  53i,19n,50p,10476b,1218s stack positions out of 5000i,500n,10000p,200000b,80000s
 

@@ -19,7 +19,7 @@
 
 %\input{./tex/myElectronicsVariablesBetter.tex}         %these are all tested. to use at the very end when book is finished
 
-\graphicspath{{./fig/figFrontPage/}{./fig/figBasicConcepts/}{./fig/figResistive}}		%paths to figures
+\graphicspath{{./fig/figFrontPage/}{./fig/figBasicConcepts/}{./fig/figResistive/}}		%paths to figures
 
 
 \includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktToDoList}
@@ -59,7 +59,7 @@
 \tableofcontents
 \pagestyle{empty}
 \newpage
-%\include{./tex/cktPreface}
+\include{./tex/cktPreface}
 \newpage
 %\include{./tex/prefaceFirstBook}
 %\newpage

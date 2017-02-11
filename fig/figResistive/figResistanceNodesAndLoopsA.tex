@@ -30,7 +30,8 @@
 %\boxLeft[p]{0,0} 
 \draw(0,0)node[shift={(30:-0.3)}]{$n_0$} to [american voltage source,l={$V_1$}]++(60:\l)node[above]{$n_1$} to [resistor,l={$R_1$}] ++(-60:\l) node[shift={(-60:0.5)}]{$n_2$} to [resistor,l={$R_2$}]++(-\l,0);
 \draw(0,0) to [resistor,*-*,l={$R_3$}]++(30:\m) to [resistor,-*,l={$R_4$}]++(0,\m);
-\draw(0,0)++(30:\m) node[right]{$n_3$} to [american current source,-*,l={$I_1$}]++(-30:\m);
+\draw(0,0)++(30:\m) node[right]{$n_3$} to [american current source,-*]++(-30:\m);
+\draw (0.62*\l,0.65)node{$I_1$};
 \end{tikzpicture}%
 \end{urdufont}
 \end{document}
