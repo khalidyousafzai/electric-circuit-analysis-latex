@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  11 FEB 2017 16:55
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  12 FEB 2017 17:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2791,7 +2791,13 @@ File: ./fig/figResistive/figResistanceNodesAndLoopsA.pdf Graphic file (type QTm
 File: ./fig/figResistive/figResistanceNodesAndLoopsB.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figResistive/figResistanceNodesAndLoopsB.pdf" > [27]) [28]
+<use  "./fig/figResistive/figResistanceNodesAndLoopsB.pdf" > [27] [28]
+File: ./fig/figResistive/figResistanceKCLgoats.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceKCLgoats.pdf" >) [29] [30
+
+
+]
 (./circuitAnalysis.aux (./tex/cktBasics.aux) (./tex/cktResistive.aux))
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2802,12 +2808,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 23378 strings out of 493918
- 492943 string characters out of 6150562
- 533400 words of memory out of 5000000
- 26185 multiletter control sequences out of 15000+600000
+ 23390 strings out of 493918
+ 493293 string characters out of 6150562
+ 533581 words of memory out of 5000000
+ 26196 multiletter control sequences out of 15000+600000
  58309 words of font info for 209 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  53i,19n,50p,10476b,1218s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (32 pages).
+Output written on circuitAnalysis.pdf (34 pages).
