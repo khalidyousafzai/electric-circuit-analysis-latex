@@ -1,0 +1,45 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc,decorations.markings}
+
+\input{../../tex/myEMTvectors.tex}
+\input{../../tex/myTikzCommandsCircuitAnalysis.tex}   %testing
+%draws left and right arrows where needed e.g.  
+% \draw[->-=0.5] (0,0)--(3,0); draws arrow at the middle
+%\tikzset{->-/.style={decoration={markings, mark=at position #1 with {\arrow{latex}}},postaction={decorate}}}
+%\tikzset{-<-/.style={decoration={markings, mark=at position #1 with {\arrow{latex reversed}}},postaction={decorate}}}
+%draws right angles \RightAngle{A}{B}{C}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+
+
+\begin{document}
+\begin{urdufont}
+
+\pgfmathsetmacro{\y}{1}
+\pgfmathsetmacro{\x}{2}
+
+\begin{tikzpicture}[]
+
+\draw (0,0) to [short]++(0,\y)node[shift={(-0.5,0)}]{$n_a$} to [short]++(0,\y) to [short]++(\x,0)node[above]{$n_2$} to [short]++(\x,0) to [short,i={$\SI{7}{\milli\ampere}$}]++(0,-\y)node[right]{$n_3$} to [short,i={$\SI{6}{\milli\ampere}$}]++(0,-\y) to [short] ++(-\x,0) to [short]++(-\x,0);
+\draw(\x,0)node[below]{$n_0$} to [short,i<={$\SI{3}{\milli\ampere}$},*-*]++(0,\y)node[above right]{$n_4$} to [short,i={$\SI{2}{\milli\ampere}$},-*]++(0,\y);
+\draw (0,\y) to [short,i_={$\SI{4}{\milli\ampere}$},*-]++(\x,0) to [short,i<_={$\SI{1}{\milli\ampere}$},-*]++(\x,0);
+%shaded region
+\draw[shade=gray] (0,\y) circle (0.3 cm and 1.2 cm);
+
+%\draw[shade=gray] (\x,0) circle (2.3 cm and 0.2 cm);
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}

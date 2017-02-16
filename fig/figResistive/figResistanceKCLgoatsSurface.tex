@@ -1,0 +1,47 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc,decorations.markings}
+
+\input{../../tex/myEMTvectors.tex}
+\input{../../tex/myTikzCommandsCircuitAnalysis.tex}   %testing
+%draws left and right arrows where needed e.g.  
+% \draw[->-=0.5] (0,0)--(3,0); draws arrow at the middle
+%\tikzset{->-/.style={decoration={markings, mark=at position #1 with {\arrow{latex}}},postaction={decorate}}}
+%\tikzset{-<-/.style={decoration={markings, mark=at position #1 with {\arrow{latex reversed}}},postaction={decorate}}}
+%draws right angles \RightAngle{A}{B}{C}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+
+
+\begin{document}
+\begin{urdufont}
+
+\pgfmathsetmacro{\y}{3}
+\pgfmathsetmacro{\x}{2}
+
+\begin{tikzpicture}[]
+%\boxLeft[p]{0,0} 
+\draw[-<-=0.6](0,0) to [out=90,in=-90]++(0.5,1);
+\draw[->-=0.75](0,0) to [out=-70,in=90]++(0.2,-1);
+\draw[->-=0.75](0,0) to [out=-90,in=110]++(-0.4,-1);
+%\draw[fill] (0,0) circle (1pt);
+\draw[gray] (0,0) circle (0.2cm and 0.4cm)node[shift={(0.4,0)}]{$n$};
+%
+\draw (0.25,0.6)node[shift={(0.35,0)}]{$b_1$};
+\draw (0.15,-0.75)node[right]{$b_2$};
+\draw (-0.3,-0.75)node[left]{$b_3$};
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}

@@ -1,0 +1,60 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc,decorations.markings}
+
+\input{../../tex/myEMTvectors.tex}
+\input{../../tex/myTikzCommandsCircuitAnalysis.tex}   %testing
+%\boxLeft[p]{0,0} 
+
+%draws left and right arrows where needed e.g.  
+% \draw[->-=0.5] (0,0)--(3,0); draws arrow at the middle
+%\tikzset{->-/.style={decoration={markings, mark=at position #1 with {\arrow{latex}}},postaction={decorate}}}
+%\tikzset{-<-/.style={decoration={markings, mark=at position #1 with {\arrow{latex reversed}}},postaction={decorate}}}
+%draws right angles \RightAngle{A}{B}{C}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+
+
+\begin{document}
+\begin{urdufont}
+
+\pgfmathsetmacro{\y}{1}
+\pgfmathsetmacro{\x}{2}
+
+\begin{tikzpicture}[]
+%
+%=========================================
+%enter the starting point for coordinate-a only
+\coordinate (a) at (-0.3,-0.3);
+\draw (a)++(-0.025,0.5) coordinate (b);
+\draw (a)++(-0.04,1) coordinate (c);
+\draw (a)++(-0.12,1.5) coordinate (d);
+\draw (a)++(-0.2,2) coordinate (e);
+\draw (a)++(-0.15,2.5) coordinate (f);
+\draw (a)++(0.5,3) coordinate (g);
+
+\draw (a)++(0.7,2.5)coordinate(h);
+\draw (a)++(0.6,2)coordinate(i);
+\draw (a)++(0.75,1.5)coordinate(j);
+\draw (a)++(0.7,1)coordinate(k);
+\draw (a)++(0.7,0.5)coordinate(l);
+\draw (a)++(0.6,0)coordinate(m);
+\draw[fill] plot[smooth cycle] coordinates {(a) (b) (c) (d) (e) (f) (g) (h) (i) (j) (k) (l) (m)};
+%===================
+
+%
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}
