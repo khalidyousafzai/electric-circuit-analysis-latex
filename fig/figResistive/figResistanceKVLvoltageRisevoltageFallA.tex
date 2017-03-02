@@ -29,14 +29,14 @@
 \begin{urdufont}
 
 \pgfmathsetmacro{\y}{2.5}
-\pgfmathsetmacro{\x}{2}
+\pgfmathsetmacro{\x}{2.5}
 
 \begin{tikzpicture}[]
-%\boxLeft[p]{0,0} 
-\draw (0,0) to [american current source,l={$\SI{12}{\milli\ampere}$}]++(0,\y) to [short,i={$I_S$}]++(\x,0) to [resistor,i={$\SI{7}{\milli\ampere}$}] ++(0,-\y);
-\draw (\x,\y) to [short,*-]++(\x,0) to [resistor,i={$I$}]++(0,-\y) to [short,-*] ++(-\x,0) to [short,*-]++(-\x,0);
-%text
-\draw[gray,stealth-] (0,\y)++(-0.1,0) to [out=135,in=0] ++(-0.5,0.3)node[left]{$j_1$};
+%
+\draw(0,0)node[left]{$a$} to [american voltage source,*-,l={$\SI{5}{\volt}$}]++(0,\y)node[above]{$b$} to [european resistor,*-*,l={$+ \, V_1 \, -$}]++(\x,0)node[above]{$c$} to [european resistor,-*,l={$-\, V_2\, +$}]++(\x,0)node[above]{$d$}; 
+\draw(2*\x,0)node[below]{$e$} to [american voltage source,*-,l_={$\SI{3}{\volt}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,*-*,l={$- \, V_3 \, +$}]++(-\x,0)node[below]{$f$} to [american voltage source,l={$\SI{3}{\volt}$}]++(-\x,0);
+%
 \end{tikzpicture}%
 \end{urdufont}
 \end{document}

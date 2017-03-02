@@ -33,11 +33,12 @@
 
 \begin{tikzpicture}[]
 %\boxLeft[p]{0,0} 
-\draw (0,0) to [resistor,i>_={$i_1$},l={$R_1$}]++(0,\y)node[left]{$n_1$} to [american voltage source,l={$V_1$}]++(0,\y) to [resistor,l={$+ \, V_5 \, -$}]++(2*\x,0) to [short,i={$i_5$}]++(0,-\y)node[right]{$n_3$} to [resistor,l={$R_3$},i={$i_3$}]++(0,-\y) to [short] ++(-\x,0) to [short]++(-\x,0);
-\draw(\x,0)node[below]{$n_0$} to [resistor,l={$R_2$},i={$i_2$},*-*]++(0,\y)node[below right]{$n_2$} ;
+\draw (0,0) to [resistor,i>_={$i_1$},l={$R_1$}]++(0,\y)node[left]{$j_1$} to [american voltage source,-*,l={$V_1$}]++(0,\y)coordinate(jj4) to [resistor,l={$+ \, V_5 \, -$}]++(2*\x,0) to [short,i={$i_5$}]++(0,-\y)node[right]{$j_3$} to [resistor,l={$R_3$},i={$i_3$}]++(0,-\y) to [short] ++(-\x,0) to [short]++(-\x,0);
+\draw(\x,0)node[below]{$j_0$} to [resistor,l={$R_2$},i={$i_2$},*-*]++(0,\y)node[above]{$j_2$} ;
 \draw (0,\y) to [resistor,l={$R_4$},i>_={$i_{4}$},*-]++(\x,0) to [american controlled voltage source,l={$3 V_5$},i={$i_{6}$},-*]++(\x,0);
 %
 \draw(\x,2*\y-0.2)node[below]{$R_5$};
+\draw(jj4) node[above]{$j4$};
 \end{tikzpicture}%
 \end{urdufont}
 \end{document}

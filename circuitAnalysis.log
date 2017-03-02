@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  16 FEB 2017 16:41
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  2 MAR 2017 17:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2784,7 +2784,7 @@ File: ./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizC.pdf Graphic
 <use  "./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizC.pdf" >
 [26]
 LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 275.
+(Font)              scaled to size 5.0pt on input line 277.
 File: ./fig/figResistive/figResistanceNodesAndLoopsA.pdf Graphic file (type QTm
 )
  <use  "./fig/figResistive/figResistanceNodesAndLoopsA.pdf" >
@@ -2816,10 +2816,10 @@ File: ./fig/figResistive/figResistanceKCLexampleA.pdf Graphic file (type QTm)
  <use  "./fig/figResistive/figResistanceKCLexampleA.pdf" >
 File: ./fig/figResistive/figResistanceKCLexampleB.pdf Graphic file (type QTm)
 
-<use  "./fig/figResistive/figResistanceKCLexampleB.pdf" >
+<use  "./fig/figResistive/figResistanceKCLexampleB.pdf" > [31]
 File: ./fig/figResistive/figResistanceKCLexampleC.pdf Graphic file (type QTm)
 
-<use  "./fig/figResistive/figResistanceKCLexampleC.pdf" > [31]
+<use  "./fig/figResistive/figResistanceKCLexampleC.pdf" >
 File: ./fig/figResistive/figResistanceKCLsurfacesA.pdf Graphic file (type QTm)
 
 <use  "./fig/figResistive/figResistanceKCLsurfacesA.pdf" >
@@ -2832,18 +2832,34 @@ File: ./fig/figResistive/figResistanceKCLquizA.pdf Graphic file (type QTm)
 File: ./fig/figResistive/figResistanceKCLquizB.pdf Graphic file (type QTm)
 
 <use  "./fig/figResistive/figResistanceKCLquizB.pdf" >
-Overfull \hbox (35.25871pt too wide) in paragraph at lines 530--531
+Overfull \hbox (35.25871pt too wide) in paragraph at lines 536--537
  [][][][][][] 
  []
 
+[33]
 File: ./fig/figResistive/figResistanceKCLquizC.pdf Graphic file (type QTm)
-<use  "./fig/figResistive/figResistanceKCLquizC.pdf" >
+ <use  "./fig/figResistive/figResistanceKCLquizC.pdf" >
 File: ./fig/figResistive/figResistanceKCLquizD.pdf Graphic file (type QTm)
 
-<use  "./fig/figResistive/figResistanceKCLquizD.pdf" >) [33] [34
+<use  "./fig/figResistive/figResistanceKCLquizD.pdf" >
+File: ./fig/figResistive/figResistanceKVLvoltageRisevoltageFallA.pdf Graphic fi
+le (type QTm)
 
+<use  "./fig/figResistive/figResistanceKVLvoltageRisevoltageFallA.pdf" >
+File: ./fig/figResistive/figResistanceKVLvoltageRisevoltageFallB.pdf Graphic fi
+le (type QTm)
 
-]
+<use  "./fig/figResistive/figResistanceKVLvoltageRisevoltageFallB.pdf" >
+[34]
+File: ./fig/figResistive/figResistanceKVLasHeight.pdf Graphic file (type QTm)
+ <use  "./fig/figResistive/figResistanceKVLasHeight.pdf" >
+File: ./fig/figResistive/figResistanceKVLasHeightCircuit.pdf Graphic file (type
+ QTm)
+
+<use  "./fig/figResistive/figResistanceKVLasHeightCircuit.pdf" > [35]
+File: ./fig/figResistive/figResistanceKVLgoats.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceKVLgoats.pdf" >) [36]
 (./circuitAnalysis.aux (./tex/cktBasics.aux) (./tex/cktResistive.aux))
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2854,12 +2870,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 23429 strings out of 493918
- 494652 string characters out of 6150562
- 533833 words of memory out of 5000000
- 26222 multiletter control sequences out of 15000+600000
+ 23446 strings out of 493918
+ 495247 string characters out of 6150562
+ 533943 words of memory out of 5000000
+ 26234 multiletter control sequences out of 15000+600000
  58309 words of font info for 209 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  53i,19n,50p,10476b,1218s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (38 pages).
+Output written on circuitAnalysis.pdf (40 pages).

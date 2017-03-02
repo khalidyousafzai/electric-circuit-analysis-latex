@@ -1,0 +1,74 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc,decorations.markings}
+
+\input{../../tex/myEMTvectors.tex}
+\input{../../tex/myTikzCommandsCircuitAnalysis.tex}   %testing
+%draws left and right arrows where needed e.g.  
+% \draw[->-=0.5] (0,0)--(3,0); draws arrow at the middle
+%\tikzset{->-/.style={decoration={markings, mark=at position #1 with {\arrow{latex}}},postaction={decorate}}}
+%\tikzset{-<-/.style={decoration={markings, mark=at position #1 with {\arrow{latex reversed}}},postaction={decorate}}}
+%draws right angles \RightAngle{A}{B}{C}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+
+
+\begin{document}
+\begin{urdufont}
+
+\pgfmathsetmacro{\y}{3}
+\pgfmathsetmacro{\x}{2}
+
+\begin{tikzpicture}[]
+%\boxLeft[p]{0,0} 
+%grid
+%\draw[gray] (0,0) grid (7,5);
+%\draw(7,0) node[below]{$x$};
+%\draw(0,5)node[left]{$y$};
+%stairs
+\draw[thick] (0,0)node[left]{$a$}--++(0,1)node[left]{$b$} --++(1,0)node[below]{$c$}--++(0,2)node[left]{$d$}--++(1,0)node[below]{$e$}--++(0,0.8)node[left]{$f$}--++(1,0)node[below]{$g$}--++(0,1.2)node[left]{$h$}--++(1,0)node[above]{$i$}--++(0,-3)node[left]{$j$}--++(1,0)node[above]{$k$}--++(0,-2)node[below]{$l$}--cycle;
+%ladder
+\pgfmathsetmacro{\w}{0.3}
+\pgfmathsetmacro{\h}{1}
+\draw (\w,0)--++(0,\h);
+\foreach \y in {1,2,3,4,5} {\draw (0,\y/5)--++(\w,0);};
+%ladder
+\pgfmathsetmacro{\w}{0.3}
+\pgfmathsetmacro{\h}{2}
+\draw (1+\w,1)--++(0,\h);
+\foreach \y in {1,2,3,4,5,6,7,8,9,10} {\draw (1,1+\y/5)--++(\w,0);};
+%ladder
+\pgfmathsetmacro{\w}{0.3}
+\pgfmathsetmacro{\h}{0.8}
+\draw (2+\w,3)--++(0,\h);
+\foreach \y in {1,2,3,4} {\draw (2,3+\y/5)--++(\w,0);};
+%ladder
+\pgfmathsetmacro{\w}{0.3}
+\pgfmathsetmacro{\h}{1.2}
+\draw (3+\w,3.8)--++(0,\h);
+\foreach \y in {1,2,3,4,5,6} {\draw (3,3.8+\y/5)--++(\w,0);};
+%ladder
+\pgfmathsetmacro{\w}{0.3}
+\pgfmathsetmacro{\h}{3}
+\draw (4+\w,2)--++(0,\h);
+\foreach \y in {1,2,...,15} {\draw (4,2+\y/5)--++(\w,0);};
+%ladder
+\pgfmathsetmacro{\w}{0.3}
+\pgfmathsetmacro{\h}{2}
+\draw (5+\w,0)--++(0,\h);
+\foreach \y in {1,2,...,10} {\draw (5,\y/5)--++(\w,0);};
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}

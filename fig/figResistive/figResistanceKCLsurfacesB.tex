@@ -33,8 +33,8 @@
 
 \begin{tikzpicture}[]
 
-\draw (0,0) to [short]++(0,\y)node[shift={(-0.5,0)}]{$n_a$} to [short]++(0,\y) to [short]++(\x,0)node[above]{$n_2$} to [short]++(\x,0) to [short,i={$\SI{7}{\milli\ampere}$}]++(0,-\y)node[right]{$n_3$} to [short,i={$\SI{6}{\milli\ampere}$}]++(0,-\y) to [short] ++(-\x,0) to [short]++(-\x,0);
-\draw(\x,0)node[below]{$n_0$} to [short,i<={$\SI{3}{\milli\ampere}$},*-*]++(0,\y)node[above right]{$n_4$} to [short,i={$\SI{2}{\milli\ampere}$},-*]++(0,\y);
+\draw (0,0) to [short]++(0,\y)node[shift={(-0.5,0)}]{$j_a$} to [short]++(0,\y) to [short]++(\x,0)node[above]{$j_2$} to [short]++(\x,0) to [short,i={$\SI{7}{\milli\ampere}$}]++(0,-\y)node[right]{$j_3$} to [short,i={$\SI{6}{\milli\ampere}$}]++(0,-\y) to [short] ++(-\x,0) to [short]++(-\x,0);
+\draw(\x,0)node[below]{$j_0$} to [short,i<={$\SI{3}{\milli\ampere}$},*-*]++(0,\y)node[above right]{$j_4$} to [short,i={$\SI{2}{\milli\ampere}$},-*]++(0,\y);
 \draw (0,\y) to [short,i_={$\SI{4}{\milli\ampere}$},*-]++(\x,0) to [short,i<_={$\SI{1}{\milli\ampere}$},-*]++(\x,0);
 %shaded region
 \draw[shade=gray] (0,\y) circle (0.3 cm and 1.2 cm);

@@ -28,15 +28,25 @@
 \begin{document}
 \begin{urdufont}
 
-\pgfmathsetmacro{\y}{2.5}
+\pgfmathsetmacro{\y}{3}
 \pgfmathsetmacro{\x}{2}
 
 \begin{tikzpicture}[]
 %\boxLeft[p]{0,0} 
-\draw (0,0) to [american current source,l={$\SI{12}{\milli\ampere}$}]++(0,\y) to [short,i={$I_S$}]++(\x,0) to [resistor,i={$\SI{7}{\milli\ampere}$}] ++(0,-\y);
-\draw (\x,\y) to [short,*-]++(\x,0) to [resistor,i={$I$}]++(0,-\y) to [short,-*] ++(-\x,0) to [short,*-]++(-\x,0);
+%mountain
+\draw[thick] plot [smooth] coordinates {(0,0) (3,4) (4,4.5) (5,2.5) (6,5) (6.2,4.6) (7,6) (7.5,2.7) (7.8,3) (9,1) (10,0)};
+\draw (9,1)--(0,0);
 %text
-\draw[gray,stealth-] (0,\y)++(-0.1,0) to [out=135,in=0] ++(-0.5,0.3)node[left]{$j_1$};
+\draw (0,0) node[left]{$a$};
+\draw (4,4.5) node[above]{$b$};
+\draw (5,2.5) node[below]{$c$};
+\draw (6,5) node[above]{$d$};
+\draw (6.2,4.6) node[below]{$e$};
+\draw (7,6) node[above]{$f$};
+\draw (7.5,2.7) node[below]{$g$};
+\draw (7.8,3) node[above]{$h$};
+\draw (9,1) node[right]{$i$};
+%goat
 \end{tikzpicture}%
 \end{urdufont}
 \end{document}
