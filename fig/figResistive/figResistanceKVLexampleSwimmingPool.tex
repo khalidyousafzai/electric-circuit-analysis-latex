@@ -1,0 +1,58 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc,decorations.markings}
+
+\input{../../tex/myEMTvectors.tex}
+\input{../../tex/myTikzCommandsCircuitAnalysis.tex}   %testing
+%draws left and right arrows where needed e.g.  
+% \draw[->-=0.5] (0,0)--(3,0); draws arrow at the middle
+%\tikzset{->-/.style={decoration={markings, mark=at position #1 with {\arrow{latex}}},postaction={decorate}}}
+%\tikzset{-<-/.style={decoration={markings, mark=at position #1 with {\arrow{latex reversed}}},postaction={decorate}}}
+%draws right angles \RightAngle{A}{B}{C}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+
+
+\begin{document}
+\begin{urdufont}
+
+\pgfmathsetmacro{\y}{2.5}
+\pgfmathsetmacro{\x}{1.5}
+\pgfmathsetmacro{\t}{0.02}
+
+\begin{tikzpicture}[]
+%\boxLeft[p]{0,0} 
+%grid
+%\draw[gray] (0,0) grid (7,5);
+%\draw(7,0) node[below]{$x$};
+%\draw(0,5)node[left]{$y$};
+%diving board
+\draw[fill=gray](0,0)node[left]{$a$}--++(\x,0)--++(0,\y)--++(-\x,0)node[above]{$b$}--cycle;
+\draw[fill](0,\y)--++(3*\x,0)--++(0,\t)node[above]{$c$}--++(-3*\x,0)--cycle;
+%water
+\draw[gray] plot[smooth,gray] coordinates {(1.5,0) (2,0.02) (2.5,-0.02) (3,0.03) (3.5,-0.02) (4,0.01) (4.5,-0.02) (5,0.01) (5.5,-0.01)};
+%diver
+\draw[-stealth] (3*\x-0.3,\y+0.2) to [out=60,in=180]++(0.5,0.5) to [out=0,in=90]++(0.5,-0.5) to [out=-90,in=90]++(0,-\y)node[left]{$d$};
+%ladder
+\pgfmathsetmacro{\w}{0.3}
+\pgfmathsetmacro{\h}{\y}
+\draw (\w,0)--++(0,\h);
+\foreach \yy in {1,2,...,12} {\draw (0,\yy*\h/12)--++(\w,0);};
+%text
+\draw[stealth-] (2*\x,\y+0.1) to [out=90,in=0]++(-0.5,0.5)node[left]{\RL{تختہ غوطہ}};
+\draw[gray,stealth-] (2*\x,0.1) to [out=90,in=0]++(-0.5,0.5)node[left]{\RL{تالاب}};
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}
