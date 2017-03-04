@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  3 MAR 2017 14:35
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  4 MAR 2017 16:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2798,7 +2798,7 @@ File: ./fig/figResistive/figResistanceKCLgoats.pdf Graphic file (type QTm)
 File: ./fig/figResistive/figResistanceKCLgoatsSurface.pdf Graphic file (type QT
 m)
 
-<use  "./fig/figResistive/figResistanceKCLgoatsSurface.pdf" >
+<use  "./fig/figResistive/figResistanceKCLgoatsSurface.pdf" > [29]
 File: ./fig/figResistive/figResistanceKCLexampleBranchesOnly.pdf Graphic file (
 type QTm)
 
@@ -2807,16 +2807,16 @@ File: ./fig/figResistive/figResistanceKCLexampleBranchesOnlySolution.pdf Graphi
 c file (type QTm)
 
 <use  "./fig/figResistive/figResistanceKCLexampleBranchesOnlySolution.pdf" >
-[29]
+[30]
 File: ./fig/figResistive/figResistanceKCLwithControlledSources.pdf Graphic file
  (type QTm)
  <use  "./fig/figResistive/figResistanceKCLwithControlledSources.pdf" >
-[30]
+[31]
 File: ./fig/figResistive/figResistanceKCLexampleA.pdf Graphic file (type QTm)
  <use  "./fig/figResistive/figResistanceKCLexampleA.pdf" >
 File: ./fig/figResistive/figResistanceKCLexampleB.pdf Graphic file (type QTm)
 
-<use  "./fig/figResistive/figResistanceKCLexampleB.pdf" > [31]
+<use  "./fig/figResistive/figResistanceKCLexampleB.pdf" > [32]
 File: ./fig/figResistive/figResistanceKCLexampleC.pdf Graphic file (type QTm)
 
 <use  "./fig/figResistive/figResistanceKCLexampleC.pdf" >
@@ -2825,18 +2825,18 @@ File: ./fig/figResistive/figResistanceKCLsurfacesA.pdf Graphic file (type QTm)
 <use  "./fig/figResistive/figResistanceKCLsurfacesA.pdf" >
 File: ./fig/figResistive/figResistanceKCLsurfacesB.pdf Graphic file (type QTm)
 
-<use  "./fig/figResistive/figResistanceKCLsurfacesB.pdf" > [32]
+<use  "./fig/figResistive/figResistanceKCLsurfacesB.pdf" > [33]
 File: ./fig/figResistive/figResistanceKCLquizA.pdf Graphic file (type QTm)
 
 <use  "./fig/figResistive/figResistanceKCLquizA.pdf" >
 File: ./fig/figResistive/figResistanceKCLquizB.pdf Graphic file (type QTm)
 
 <use  "./fig/figResistive/figResistanceKCLquizB.pdf" >
-Overfull \hbox (35.25871pt too wide) in paragraph at lines 536--537
+Overfull \hbox (35.25871pt too wide) in paragraph at lines 545--546
  [][][][][][] 
  []
 
-[33]
+[34]
 File: ./fig/figResistive/figResistanceKCLquizC.pdf Graphic file (type QTm)
  <use  "./fig/figResistive/figResistanceKCLquizC.pdf" >
 File: ./fig/figResistive/figResistanceKCLquizD.pdf Graphic file (type QTm)
@@ -2850,27 +2850,53 @@ File: ./fig/figResistive/figResistanceKVLvoltageRisevoltageFallB.pdf Graphic fi
 le (type QTm)
 
 <use  "./fig/figResistive/figResistanceKVLvoltageRisevoltageFallB.pdf" >
-[34]
+[35]
 File: ./fig/figResistive/figResistanceKVLasHeight.pdf Graphic file (type QTm)
  <use  "./fig/figResistive/figResistanceKVLasHeight.pdf" >
 File: ./fig/figResistive/figResistanceKVLasHeightCircuit.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figResistive/figResistanceKVLasHeightCircuit.pdf" > [35]
+<use  "./fig/figResistive/figResistanceKVLasHeightCircuit.pdf" > [36]
 File: ./fig/figResistive/figResistanceKVLgoats.pdf Graphic file (type QTm)
 
-<use  "./fig/figResistive/figResistanceKVLgoats.pdf" > [36]
+<use  "./fig/figResistive/figResistanceKVLgoats.pdf" > [37]
 File: ./fig/figResistive/figResistanceKVLexampleSwimmingPool.pdf Graphic file (
 type QTm)
 
 <use  "./fig/figResistive/figResistanceKVLexampleSwimmingPool.pdf" >
 File: ./fig/figResistive/figResistanceKVLexampleA.pdf Graphic file (type QTm)
 
-<use  "./fig/figResistive/figResistanceKVLexampleA.pdf" >) [37] [38
+<use  "./fig/figResistive/figResistanceKVLexampleA.pdf" >
+File: ./fig/figResistive/figResistanceKVLdependentEquations.pdf Graphic file (t
+ype QTm)
 
-
+<use  "./fig/figResistive/figResistanceKVLdependentEquations.pdf" >
+Overfull \hbox (3.4895pt too wide) in paragraph at lines 707--708
+[][]\EU1/JameelNooriNastaleeq(0)/m/n/10 شکل []\EU1/Scheherazade(0)/m/sl/10 21[]
+\EU1/JameelNooriNastaleeq(0)/m/n/10 .[]\EU1/Scheherazade(0)/m/sl/10 2[][] \EU1/
+JameelNooriNastaleeq(0)/m/n/10 میں کرچاف قانون دباو استعمال کرتے ہوئے کل تین عد
+د مساوات لکھنا ممکن ہے۔یہ مساوات بائیں بند دائرہ  $\OML/zplm/m/it/10 abcfa$ \EU
+1/JameelNooriNastaleeq(0)/m/n/10 ، دائیں بند دائرہ  $\OML/zplm/m/it/10 afcdea$[
 ]
-(./circuitAnalysis.aux (./tex/cktBasics.aux) (./tex/cktResistive.aux))
+ []
+
+[38]
+File: ./fig/figResistive/figResistanceSeriesConnectedSameCurrent.pdf Graphic fi
+le (type QTm)
+ <use  "./fig/figResistive/figResistanceSeriesConnectedSameCurrent.pdf" >
+File: ./fig/figResistive/figResistanceVoltageDivider.pdf Graphic file (type QTm
+)
+
+<use  "./fig/figResistive/figResistanceVoltageDivider.pdf" >
+Overfull \hbox (6.40099pt too wide) in paragraph at lines 735--736
+ [][][][][][] 
+ []
+
+[39] [40]) [41] [42
+
+
+] (./circuitAnalysis.aux (./tex/cktBasics.aux)
+(./tex/cktResistive.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.43109pt have occurred.
@@ -2880,12 +2906,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 23456 strings out of 493918
- 495517 string characters out of 6150562
- 533995 words of memory out of 5000000
- 26242 multiletter control sequences out of 15000+600000
+ 23479 strings out of 493918
+ 496147 string characters out of 6150562
+ 534254 words of memory out of 5000000
+ 26262 multiletter control sequences out of 15000+600000
  58309 words of font info for 209 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  53i,19n,50p,10476b,1218s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (42 pages).
+Output written on circuitAnalysis.pdf (46 pages).

@@ -9,3 +9,5 @@
 \contentsline {chapter}{\numberline {\RL {\arabicfont 2}}مزاحمتی ادوار}{\RL {\arabicfont 21}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 2}}قانون اوہم}{\RL {\arabicfont 21}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 2}}قوانین کرچاف}{\RL {\arabicfont 27}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 2}}سلسلہ وار جڑے پرزوں میں رو}{\RL {\arabicfont 39}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 2}}تقسیمِ دباو}{\RL {\arabicfont 40}}
