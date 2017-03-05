@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  4 MAR 2017 16:26
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  5 MAR 2017 14:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2887,15 +2887,35 @@ le (type QTm)
 File: ./fig/figResistive/figResistanceVoltageDivider.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figResistive/figResistanceVoltageDivider.pdf" >
-Overfull \hbox (6.40099pt too wide) in paragraph at lines 735--736
+<use  "./fig/figResistive/figResistanceVoltageDivider.pdf" > [39] [40] [41]
+File: ./fig/figResistive/figResistanceVoltageDividerMultipleResistors.pdf Graph
+ic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceVoltageDividerMultipleResistors.pdf" >
+Overfull \hbox (24.04686pt too wide) in paragraph at lines 838--839
  [][][][][][] 
  []
 
-[39] [40]) [41] [42
+File: ./fig/figResistive/figResistanceVoltageDividerMultipleResistorsEquivalent
+.pdf Graphic file (type QTm)
 
+<use  "./fig/figResistive/figResistanceVoltageDividerMultipleResistorsEquivalen
+t.pdf" >
+Overfull \hbox (5.4675pt too wide) in paragraph at lines 844--845
+ [][][][][][] 
+ []
 
-] (./circuitAnalysis.aux (./tex/cktBasics.aux)
+[42]
+File: ./fig/figResistive/figResistanceVoltageDividerMultipleSuppliesAndResistor
+s.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceVoltageDividerMultipleSuppliesAndResisto
+rs.pdf" >
+File: ./fig/figResistive/figResistanceVoltageDividerMultipleSourcesAndResistors
+Equivalent.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceVoltageDividerMultipleSourcesAndResistor
+sEquivalent.pdf" >) [43] [44] (./circuitAnalysis.aux (./tex/cktBasics.aux)
 (./tex/cktResistive.aux))
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2906,12 +2926,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 23479 strings out of 493918
- 496147 string characters out of 6150562
- 534254 words of memory out of 5000000
- 26262 multiletter control sequences out of 15000+600000
+ 23495 strings out of 493918
+ 496980 string characters out of 6150562
+ 534446 words of memory out of 5000000
+ 26274 multiletter control sequences out of 15000+600000
  58309 words of font info for 209 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  53i,19n,50p,10476b,1218s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (46 pages).
+Output written on circuitAnalysis.pdf (48 pages).

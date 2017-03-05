@@ -11,3 +11,5 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 2}}قوانین کرچاف}{\RL {\arabicfont 27}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 2}}سلسلہ وار جڑے پرزوں میں رو}{\RL {\arabicfont 39}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 2}}تقسیمِ دباو}{\RL {\arabicfont 40}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 2}}متعدد سلسلہ وار مزاحمت}{\RL {\arabicfont 42}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 2}}متعدد سلسلہ وار منبع دباو اور مزاحمت}{\RL {\arabicfont 43}}

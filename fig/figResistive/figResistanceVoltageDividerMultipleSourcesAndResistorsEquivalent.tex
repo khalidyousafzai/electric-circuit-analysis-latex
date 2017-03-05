@@ -28,20 +28,14 @@
 \begin{document}
 \begin{urdufont}
 
-\pgfmathsetmacro{\y}{2.5}
-\pgfmathsetmacro{\x}{4}
+\pgfmathsetmacro{\y}{2}
+\pgfmathsetmacro{\x}{2}
 
 \begin{tikzpicture}[]
 %\boxLeft[p]{0,0} 
 %grid
-%\draw[gray] (0,0) grid (7,5);
-%\draw(7,0) node[below]{$x$};
-%\draw(0,5)node[left]{$y$};
-%stairs
+\draw(0,0) to [american voltage source,l={${-v_1(t)+v_2(t)+\cdots+v_K(t)=v_S(t)}$}]++(0,\y) to [short,i={$i(t)$}]++(\x,0) to [resistor,l={${R_S=R_1+R_2+\cdots +R_J}$}]++(0,-\y)--(0,0); 
 
-\draw(0,0) to [american voltage source,l={$v(t)$}]++(0,2*\y) to [short,i={$i(t)$}]++(\x,0) to [resistor,l_={$R_1$}]++(0,-\y) to [resistor,l_={$R_2$}]++(0,-\y) to [short]++(-\x,0);
-\draw (\x+0.2,\y+\y/2) node[right]{$\begin{aligned} &+ \\ & v_{R1} \\ &-\end{aligned}$};
-\draw (\x+0.2,\y/2) node[right]{$\begin{aligned} &+ \\ & v_{R2} \\ &-\end{aligned}$};
 \end{tikzpicture}%
 \end{urdufont}
 \end{document}
