@@ -1,12 +1,12 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  7 MAR 2017 12:01
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  6 MAR 2017 09:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/home/khalid/Desktop/circuitAnalysisLatex/fig/figResistive/figResistanceVolta
-geDividerMultipleResistorsEquivalent.tex $
+**/home/khalid/Desktop/circuitAnalysisLatex/fig/figResistive/figResistancesInPa
+rallel.tex $
 
-(/home/khalid/Desktop/circuitAnalysisLatex/fig/figResistive/figResistanceVoltag
-eDividerMultipleResistorsEquivalent.tex
+(/home/khalid/Desktop/circuitAnalysisLatex/fig/figResistive/figResistancesInPar
+allel.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/home/khalid/texmf/tex/latex/standalone/tex/latex/standalone/standalone.cls
@@ -1236,8 +1236,8 @@ Package: hijrical 2007/12/27 v0.1 Islamic calendar
 . <->s*[1.0]"XB Tabriz/BI/ICU:script=arab;language=DFLT;"
 .................................................
 
-(./figResistanceVoltageDividerMultipleResistorsEquivalent.aux)
-\openout1 = `figResistanceVoltageDividerMultipleResistorsEquivalent.aux'.
+(./figResistancesInParallel.aux)
+\openout1 = `figResistancesInParallel.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
@@ -1255,8 +1255,7 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 28.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 28.
-
-(/usr/share/texmf/tex/latex/tipa/t3cmr.fd
+ (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 28.
@@ -1344,15 +1343,14 @@ LaTeX Font Info:    Font shape `EU1/XBTabriz(0)/m/n' will be
  [1
 
 ]
-(./figResistanceVoltageDividerMultipleResistorsEquivalent.aux) ) 
+(./figResistancesInParallel.aux) ) 
 Here is how much of TeX's memory you used:
- 31759 strings out of 493918
- 708394 string characters out of 6150562
- 801417 words of memory out of 5000000
- 34510 multiletter control sequences out of 15000+600000
+ 31855 strings out of 493918
+ 709818 string characters out of 6150562
+ 806387 words of memory out of 5000000
+ 34606 multiletter control sequences out of 15000+600000
  6995 words of font info for 43 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 56i,6n,65p,10515b,694s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,11n,65p,10485b,702s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on figResistanceVoltageDividerMultipleResistorsEquivalent.pdf (1
- page).
+Output written on figResistancesInParallel.pdf (1 page).

@@ -12,4 +12,6 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 2}}سلسلہ وار جڑے پرزوں میں رو}{\RL {\arabicfont 39}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 2}}تقسیمِ دباو}{\RL {\arabicfont 40}}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 2}}متعدد سلسلہ وار مزاحمت}{\RL {\arabicfont 42}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 2}}متعدد سلسلہ وار منبع دباو اور مزاحمت}{\RL {\arabicfont 43}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 2}}سلسلہ وار متعدد منبع دباو اور مزاحمت}{\RL {\arabicfont 44}}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 2}}متوازی جڑے مزاحمت پر یکساں دباو پایا جاتا ہے}{\RL {\arabicfont 44}}
+\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 2}}تقسیم رو}{\RL {\arabicfont 46}}

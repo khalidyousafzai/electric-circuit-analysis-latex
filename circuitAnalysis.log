@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  5 MAR 2017 14:18
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  8 MAR 2017 11:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2892,7 +2892,7 @@ File: ./fig/figResistive/figResistanceVoltageDividerMultipleResistors.pdf Graph
 ic file (type QTm)
 
 <use  "./fig/figResistive/figResistanceVoltageDividerMultipleResistors.pdf" >
-Overfull \hbox (24.04686pt too wide) in paragraph at lines 838--839
+Overfull \hbox (24.04686pt too wide) in paragraph at lines 859--860
  [][][][][][] 
  []
 
@@ -2901,11 +2901,11 @@ File: ./fig/figResistive/figResistanceVoltageDividerMultipleResistorsEquivalent
 
 <use  "./fig/figResistive/figResistanceVoltageDividerMultipleResistorsEquivalen
 t.pdf" >
-Overfull \hbox (5.4675pt too wide) in paragraph at lines 844--845
+Overfull \hbox (3.80127pt too wide) in paragraph at lines 865--866
  [][][][][][] 
  []
 
-[42]
+[42] [43]
 File: ./fig/figResistive/figResistanceVoltageDividerMultipleSuppliesAndResistor
 s.pdf Graphic file (type QTm)
 
@@ -2915,7 +2915,48 @@ File: ./fig/figResistive/figResistanceVoltageDividerMultipleSourcesAndResistors
 Equivalent.pdf Graphic file (type QTm)
 
 <use  "./fig/figResistive/figResistanceVoltageDividerMultipleSourcesAndResistor
-sEquivalent.pdf" >) [43] [44] (./circuitAnalysis.aux (./tex/cktBasics.aux)
+sEquivalent.pdf" >
+File: ./fig/figResistive/figResistancesInParallel.pdf Graphic file (type QTm)
+ <use  "./fig/figResistive/figResistancesInParallel.pdf" >
+[44] [45]
+File: ./fig/figResistive/figResistancesCurrentDivider.pdf Graphic file (type QT
+m)
+ <use  "./fig/figResistive/figResistancesCurrentDivider.pdf" >
+File: ./fig/figResistive/figResistancesParallelResisitorsEquivalent.pdf Graphic
+ file (type QTm)
+
+<use  "./fig/figResistive/figResistancesParallelResisitorsEquivalent.pdf" >
+[46] [47]
+File: ./fig/figResistive/figResistancesMultipleInParallel.pdf Graphic file (typ
+e QTm)
+ <use  "./fig/figResistive/figResistancesMultipleInParallel.pdf" >
+Overfull \hbox (32.38802pt too wide) in paragraph at lines 1066--1067
+ [][][][][][] 
+ []
+
+File: ./fig/figResistive/figResistancesMultipleParallelResisitorsEquivalent.pdf
+ Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistancesMultipleParallelResisitorsEquivalent.pd
+f" >
+Overfull \hbox (13.67816pt too wide) in paragraph at lines 1071--1072
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (1.60027pt too wide) in paragraph at lines 1079--1081
+[][]\EU1/JameelNooriNastaleeq(0)/m/n/10 مثال  []\EU1/Scheherazade(0)/m/sl/10 13
+[]\EU1/JameelNooriNastaleeq(0)/m/n/10 .[]\EU1/Scheherazade(0)/m/sl/10 2[]\EU1/J
+ameelNooriNastaleeq(0)/m/n/10 : شکل []\EU1/Scheherazade(0)/m/sl/10 27[]\EU1/Jam
+eelNooriNastaleeq(0)/m/n/10 .[]\EU1/Scheherazade(0)/m/sl/10 2[][]\EU1/JameelNoo
+riNastaleeq(0)/m/n/10 -الف میں تین عدد مزاحمت استعمال ہوتے ہیں۔ان کی قیمتیں  $[
+] []$ ،  $[] []$  اور  $[] []$  ہیں۔منبع رو  $[] []$  ہے۔مساوی[]
+ []
+
+[48]) [49] [50
+
+
+] (./circuitAnalysis.aux (./tex/cktBasics.aux)
 (./tex/cktResistive.aux))
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2926,12 +2967,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 23495 strings out of 493918
- 496980 string characters out of 6150562
- 534446 words of memory out of 5000000
- 26274 multiletter control sequences out of 15000+600000
+ 23516 strings out of 493918
+ 497855 string characters out of 6150562
+ 534710 words of memory out of 5000000
+ 26290 multiletter control sequences out of 15000+600000
  58309 words of font info for 209 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  53i,19n,50p,10476b,1218s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (48 pages).
+Output written on circuitAnalysis.pdf (54 pages).
