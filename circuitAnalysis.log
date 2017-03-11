@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  8 MAR 2017 11:54
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  11 MAR 2017 17:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2760,7 +2760,7 @@ File: ./fig/figResistive/figResistanceExampleB.pdf Graphic file (type QTm)
 File: ./fig/figResistive/figResistanceExampleC.pdf Graphic file (type QTm)
 
 <use  "./fig/figResistive/figResistanceExampleC.pdf" >
-Overfull \hbox (4.14236pt too wide) in paragraph at lines 152--153
+Overfull \hbox (4.14236pt too wide) in paragraph at lines 158--159
 [][][][][] []
  []
 
@@ -2784,7 +2784,7 @@ File: ./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizC.pdf Graphic
 <use  "./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizC.pdf" >
 [26]
 LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 277.
+(Font)              scaled to size 5.0pt on input line 289.
 File: ./fig/figResistive/figResistanceNodesAndLoopsA.pdf Graphic file (type QTm
 )
  <use  "./fig/figResistive/figResistanceNodesAndLoopsA.pdf" >
@@ -2832,7 +2832,7 @@ File: ./fig/figResistive/figResistanceKCLquizA.pdf Graphic file (type QTm)
 File: ./fig/figResistive/figResistanceKCLquizB.pdf Graphic file (type QTm)
 
 <use  "./fig/figResistive/figResistanceKCLquizB.pdf" >
-Overfull \hbox (35.25871pt too wide) in paragraph at lines 545--546
+Overfull \hbox (35.25871pt too wide) in paragraph at lines 557--558
  [][][][][][] 
  []
 
@@ -2871,7 +2871,7 @@ File: ./fig/figResistive/figResistanceKVLdependentEquations.pdf Graphic file (t
 ype QTm)
 
 <use  "./fig/figResistive/figResistanceKVLdependentEquations.pdf" >
-Overfull \hbox (3.4895pt too wide) in paragraph at lines 707--708
+Overfull \hbox (3.4895pt too wide) in paragraph at lines 719--720
 [][]\EU1/JameelNooriNastaleeq(0)/m/n/10 شکل []\EU1/Scheherazade(0)/m/sl/10 21[]
 \EU1/JameelNooriNastaleeq(0)/m/n/10 .[]\EU1/Scheherazade(0)/m/sl/10 2[][] \EU1/
 JameelNooriNastaleeq(0)/m/n/10 میں کرچاف قانون دباو استعمال کرتے ہوئے کل تین عد
@@ -2888,11 +2888,12 @@ File: ./fig/figResistive/figResistanceVoltageDivider.pdf Graphic file (type QTm
 )
 
 <use  "./fig/figResistive/figResistanceVoltageDivider.pdf" > [39] [40] [41]
+[42]
 File: ./fig/figResistive/figResistanceVoltageDividerMultipleResistors.pdf Graph
 ic file (type QTm)
 
 <use  "./fig/figResistive/figResistanceVoltageDividerMultipleResistors.pdf" >
-Overfull \hbox (24.04686pt too wide) in paragraph at lines 859--860
+Overfull \hbox (24.04686pt too wide) in paragraph at lines 879--880
  [][][][][][] 
  []
 
@@ -2901,11 +2902,30 @@ File: ./fig/figResistive/figResistanceVoltageDividerMultipleResistorsEquivalent
 
 <use  "./fig/figResistive/figResistanceVoltageDividerMultipleResistorsEquivalen
 t.pdf" >
-Overfull \hbox (3.80127pt too wide) in paragraph at lines 865--866
+Overfull \hbox (3.80127pt too wide) in paragraph at lines 885--886
  [][][][][][] 
  []
 
-[42] [43]
+[43]
+File: ./fig/figResistive/figResistancePowerFedViaLongWireA.pdf Graphic file (ty
+pe QTm)
+ <use  "./fig/figResistive/figResistancePowerFedViaLongWireA.pdf" >
+File: ./fig/figResistive/figResistancePowerFedViaLongWireB.pdf Graphic file (ty
+pe QTm)
+
+<use  "./fig/figResistive/figResistancePowerFedViaLongWireB.pdf" >
+Overfull \hbox (0.96486pt too wide) in paragraph at lines 923--924
+ [][][][][][] 
+ []
+
+File: ./fig/figResistive/figResistancePowerFedViaLongWireC.pdf Graphic file (ty
+pe QTm)
+<use  "./fig/figResistive/figResistancePowerFedViaLongWireC.pdf" >
+Overfull \hbox (0.96486pt too wide) in paragraph at lines 928--929
+ [][][][][][] 
+ []
+
+[44]
 File: ./fig/figResistive/figResistanceVoltageDividerMultipleSuppliesAndResistor
 s.pdf Graphic file (type QTm)
 
@@ -2918,7 +2938,7 @@ Equivalent.pdf Graphic file (type QTm)
 sEquivalent.pdf" >
 File: ./fig/figResistive/figResistancesInParallel.pdf Graphic file (type QTm)
  <use  "./fig/figResistive/figResistancesInParallel.pdf" >
-[44] [45]
+[45] [46]
 File: ./fig/figResistive/figResistancesCurrentDivider.pdf Graphic file (type QT
 m)
  <use  "./fig/figResistive/figResistancesCurrentDivider.pdf" >
@@ -2926,34 +2946,79 @@ File: ./fig/figResistive/figResistancesParallelResisitorsEquivalent.pdf Graphic
  file (type QTm)
 
 <use  "./fig/figResistive/figResistancesParallelResisitorsEquivalent.pdf" >
-[46] [47]
+[47] [48]
 File: ./fig/figResistive/figResistancesMultipleInParallel.pdf Graphic file (typ
 e QTm)
  <use  "./fig/figResistive/figResistancesMultipleInParallel.pdf" >
-Overfull \hbox (32.38802pt too wide) in paragraph at lines 1066--1067
- [][][][][][] 
- []
-
 File: ./fig/figResistive/figResistancesMultipleParallelResisitorsEquivalent.pdf
  Graphic file (type QTm)
 
 <use  "./fig/figResistive/figResistancesMultipleParallelResisitorsEquivalent.pd
 f" >
-Overfull \hbox (13.67816pt too wide) in paragraph at lines 1071--1072
+Overfull \hbox (1.81715pt too wide) in paragraph at lines 1159--1160
  [][][][][][] 
  []
 
 
-Overfull \hbox (1.60027pt too wide) in paragraph at lines 1079--1081
-[][]\EU1/JameelNooriNastaleeq(0)/m/n/10 مثال  []\EU1/Scheherazade(0)/m/sl/10 13
+Overfull \hbox (1.60027pt too wide) in paragraph at lines 1167--1169
+[][]\EU1/JameelNooriNastaleeq(0)/m/n/10 مثال  []\EU1/Scheherazade(0)/m/sl/10 14
 []\EU1/JameelNooriNastaleeq(0)/m/n/10 .[]\EU1/Scheherazade(0)/m/sl/10 2[]\EU1/J
-ameelNooriNastaleeq(0)/m/n/10 : شکل []\EU1/Scheherazade(0)/m/sl/10 27[]\EU1/Jam
+ameelNooriNastaleeq(0)/m/n/10 : شکل []\EU1/Scheherazade(0)/m/sl/10 28[]\EU1/Jam
 eelNooriNastaleeq(0)/m/n/10 .[]\EU1/Scheherazade(0)/m/sl/10 2[][]\EU1/JameelNoo
 riNastaleeq(0)/m/n/10 -الف میں تین عدد مزاحمت استعمال ہوتے ہیں۔ان کی قیمتیں  $[
 ] []$ ،  $[] []$  اور  $[] []$  ہیں۔منبع رو  $[] []$  ہے۔مساوی[]
  []
 
-[48]) [49] [50
+[49]
+File: ./fig/figResistive/figResistanceQuizParallelResistorsCurrent.pdf Graphic 
+file (type QTm)
+
+<use  "./fig/figResistive/figResistanceQuizParallelResistorsCurrent.pdf" >
+[50]
+File: ./fig/figResistive/figResistanceQuizSeriesResistorsVoltage.pdf Graphic fi
+le (type QTm)
+ <use  "./fig/figResistive/figResistanceQuizSeriesResistorsVoltage.pdf" >
+[51]
+File: ./fig/figResistive/figResistancesMixedSeriesParallelA.pdf Graphic file (t
+ype QTm)
+ <use  "./fig/figResistive/figResistancesMixedSeriesParallelA.pdf" >
+File: ./fig/figResistive/figResistancesMixedSeriesParallelB.pdf Graphic file (t
+ype QTm)
+
+<use  "./fig/figResistive/figResistancesMixedSeriesParallelB.pdf" >
+File: ./fig/figResistive/figResistancesMixedSeriesParallelC.pdf Graphic file (t
+ype QTm)
+
+<use  "./fig/figResistive/figResistancesMixedSeriesParallelC.pdf" > [52]
+File: ./fig/figResistive/figResistancesMixedSeriesParallelD.pdf Graphic file (t
+ype QTm)
+
+<use  "./fig/figResistive/figResistancesMixedSeriesParallelD.pdf" >
+File: ./fig/figResistive/figResistancesMixedSeriesParallelE.pdf Graphic file (t
+ype QTm)
+
+<use  "./fig/figResistive/figResistancesMixedSeriesParallelE.pdf" >
+File: ./fig/figResistive/figResistancesMixedSeriesParallelF.pdf Graphic file (t
+ype QTm)
+
+<use  "./fig/figResistive/figResistancesMixedSeriesParallelF.pdf" >
+File: ./fig/figResistive/figResistancesMixedSeriesParallelFb.pdf Graphic file (
+type QTm)
+
+<use  "./fig/figResistive/figResistancesMixedSeriesParallelFb.pdf" >
+File: ./fig/figResistive/figResistancesMixedSeriesParallelG.pdf Graphic file (t
+ype QTm)
+
+<use  "./fig/figResistive/figResistancesMixedSeriesParallelG.pdf" >
+File: ./fig/figResistive/figResistancesMixedSeriesParallelH.pdf Graphic file (t
+ype QTm)
+
+<use  "./fig/figResistive/figResistancesMixedSeriesParallelH.pdf" >
+File: ./fig/figResistive/figResistancesMixedSeriesParallelI.pdf Graphic file (t
+ype QTm)
+
+<use  "./fig/figResistive/figResistancesMixedSeriesParallelI.pdf" >) [53]
+[54] [55] [56
 
 
 ] (./circuitAnalysis.aux (./tex/cktBasics.aux)
@@ -2967,12 +3032,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 23516 strings out of 493918
- 497855 string characters out of 6150562
- 534710 words of memory out of 5000000
- 26290 multiletter control sequences out of 15000+600000
+ 23559 strings out of 493918
+ 499792 string characters out of 6150562
+ 535046 words of memory out of 5000000
+ 26318 multiletter control sequences out of 15000+600000
  58309 words of font info for 209 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  53i,19n,50p,10476b,1218s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (54 pages).
+Output written on circuitAnalysis.pdf (60 pages).

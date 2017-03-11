@@ -23,15 +23,14 @@
 \begin{document}
 \begin{urdufont}
 
-\pgfmathsetmacro{\x}{3}
+\pgfmathsetmacro{\x}{2.5}
 \pgfmathsetmacro{\y}{2}
 
 \begin{tikzpicture}[]
 %\boxLeft[p]{0,0} 
-\draw(0,0) to [american voltage source,l={$\SI{15}{\volt}$}]++(0,\y) to [resistor,l_={\SI{10}{\ohm}},i>^={$i$}]++(\x,0);
-\draw (0,0) to [short]++(\x,0) to [american voltage source,l_=\SI{3}{\volt}]++(0,\y);
-\draw (\x/2,0) to [short,*-] node[ground]{}++(0,-0.5);
-\draw(\x/2,\y+0.2)node[above]{$+ \, v_R \, -$};
+\draw(0,0) to [american current source,l={$\SI{1600}{\milli\ampere}$}]++(0,\y)coordinate(ktop)node[above]{$v_m$} to [short]++(\x,0) to [resistor,l=\SI{300}{\ohm},i<={$i_1$}]++(0,-\y) to [short] ++(-\x,0);
+\draw (ktop) to [short,*-]++(-\x,0) to [resistor,l_={$\SI{100}{\ohm}$},i={$i_2$}]++(0,-\y) to [short,-*] ++(\x,0);
+\draw (0,0) to [short] node[ground]{}++(0,-0.5);
 %arrow on variable
 %\draw[-stealth,thick] (resbot)++(-0.4,0.5) --++(0.8,1);
 \end{tikzpicture}%

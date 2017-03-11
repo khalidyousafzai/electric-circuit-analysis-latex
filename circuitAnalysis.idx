@@ -179,8 +179,8 @@
 \indexentry{متغیر مزاحمت}{\RL {\arabicfont  23}}
 \indexentry{short circuit}{\RL {\arabicfont  23}}
 \indexentry{ْقصر دور}{\RL {\arabicfont  23}}
-\indexentry{open circuit}{\RL {\arabicfont  24}}
-\indexentry{کھلا دور}{\RL {\arabicfont  24}}
+\indexentry{open circuit}{\RL {\arabicfont  23}}
+\indexentry{کھلا دور}{\RL {\arabicfont  23}}
 \indexentry{Kirchoff's laws}{\RL {\arabicfont  27}}
 \indexentry{قانون کرچاف}{\RL {\arabicfont  27}}
 \indexentry{branch}{\RL {\arabicfont  27}}
@@ -189,13 +189,13 @@
 \indexentry{دائرہ}{\RL {\arabicfont  27}}
 \indexentry{node}{\RL {\arabicfont  27}}
 \indexentry{جوڑ}{\RL {\arabicfont  27}}
-\indexentry{loop}{\RL {\arabicfont  27}}
-\indexentry{دائرہ}{\RL {\arabicfont  27}}
-\indexentry{branch}{\RL {\arabicfont  27}}
-\indexentry{شاخ}{\RL {\arabicfont  27}}
-\indexentry{KCL}{\RL {\arabicfont  28}}
-\indexentry{Kirchoff! current law}{\RL {\arabicfont  28}}
-\indexentry{کرچاف!قانون برائے رو}{\RL {\arabicfont  28}}
+\indexentry{loop}{\RL {\arabicfont  28}}
+\indexentry{دائرہ}{\RL {\arabicfont  28}}
+\indexentry{branch}{\RL {\arabicfont  28}}
+\indexentry{شاخ}{\RL {\arabicfont  28}}
+\indexentry{KCL}{\RL {\arabicfont  29}}
+\indexentry{Kirchoff! current law}{\RL {\arabicfont  29}}
+\indexentry{کرچاف!قانون برائے رو}{\RL {\arabicfont  29}}
 \indexentry{simultaneous equations}{\RL {\arabicfont  29}}
 \indexentry{ہمزاد مساوات}{\RL {\arabicfont  29}}
 \indexentry{Kirchoff!voltage law}{\RL {\arabicfont  35}}
