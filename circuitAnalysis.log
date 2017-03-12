@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  11 MAR 2017 17:37
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  12 MAR 2017 15:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2955,12 +2955,12 @@ File: ./fig/figResistive/figResistancesMultipleParallelResisitorsEquivalent.pdf
 
 <use  "./fig/figResistive/figResistancesMultipleParallelResisitorsEquivalent.pd
 f" >
-Overfull \hbox (1.81715pt too wide) in paragraph at lines 1159--1160
+Overfull \hbox (1.81715pt too wide) in paragraph at lines 1165--1166
  [][][][][][] 
  []
 
 
-Overfull \hbox (1.60027pt too wide) in paragraph at lines 1167--1169
+Overfull \hbox (1.60027pt too wide) in paragraph at lines 1173--1175
 [][]\EU1/JameelNooriNastaleeq(0)/m/n/10 مثال  []\EU1/Scheherazade(0)/m/sl/10 14
 []\EU1/JameelNooriNastaleeq(0)/m/n/10 .[]\EU1/Scheherazade(0)/m/sl/10 2[]\EU1/J
 ameelNooriNastaleeq(0)/m/n/10 : شکل []\EU1/Scheherazade(0)/m/sl/10 28[]\EU1/Jam
@@ -2969,16 +2969,16 @@ riNastaleeq(0)/m/n/10 -الف میں تین عدد مزاحمت استعمال �
 ] []$ ،  $[] []$  اور  $[] []$  ہیں۔منبع رو  $[] []$  ہے۔مساوی[]
  []
 
-[49]
+[49] [50]
 File: ./fig/figResistive/figResistanceQuizParallelResistorsCurrent.pdf Graphic 
 file (type QTm)
 
 <use  "./fig/figResistive/figResistanceQuizParallelResistorsCurrent.pdf" >
-[50]
+[51]
 File: ./fig/figResistive/figResistanceQuizSeriesResistorsVoltage.pdf Graphic fi
 le (type QTm)
  <use  "./fig/figResistive/figResistanceQuizSeriesResistorsVoltage.pdf" >
-[51]
+[52]
 File: ./fig/figResistive/figResistancesMixedSeriesParallelA.pdf Graphic file (t
 ype QTm)
  <use  "./fig/figResistive/figResistancesMixedSeriesParallelA.pdf" >
@@ -2989,7 +2989,7 @@ ype QTm)
 File: ./fig/figResistive/figResistancesMixedSeriesParallelC.pdf Graphic file (t
 ype QTm)
 
-<use  "./fig/figResistive/figResistancesMixedSeriesParallelC.pdf" > [52]
+<use  "./fig/figResistive/figResistancesMixedSeriesParallelC.pdf" > [53]
 File: ./fig/figResistive/figResistancesMixedSeriesParallelD.pdf Graphic file (t
 ype QTm)
 
@@ -3017,8 +3017,12 @@ ype QTm)
 File: ./fig/figResistive/figResistancesMixedSeriesParallelI.pdf Graphic file (t
 ype QTm)
 
-<use  "./fig/figResistive/figResistancesMixedSeriesParallelI.pdf" >) [53]
-[54] [55] [56
+<use  "./fig/figResistive/figResistancesMixedSeriesParallelI.pdf" > [54]
+[55]
+File: ./fig/figResistive/figResistancesQuizMixedSeriesParallelA.pdf Graphic fil
+e (type QTm)
+ <use  "./fig/figResistive/figResistancesQuizMixedSeriesParallelA.pdf" >)
+[56] [57] [58
 
 
 ] (./circuitAnalysis.aux (./tex/cktBasics.aux)
@@ -3032,12 +3036,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 23559 strings out of 493918
- 499792 string characters out of 6150562
- 535046 words of memory out of 5000000
- 26318 multiletter control sequences out of 15000+600000
+ 23562 strings out of 493918
+ 499899 string characters out of 6150562
+ 553046 words of memory out of 5000000
+ 26320 multiletter control sequences out of 15000+600000
  58309 words of font info for 209 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 53i,19n,50p,10476b,1218s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,19n,50p,10476b,1359s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (60 pages).
+Output written on circuitAnalysis.pdf (62 pages).

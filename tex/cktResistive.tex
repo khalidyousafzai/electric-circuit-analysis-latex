@@ -1073,6 +1073,12 @@ i_1(t)=\frac{R_2}{R_1+R_2} i(t)
 i_2(t)=\frac{R_1}{R_1+R_2} i(t)
 \end{align}
 حاصل ہوتا ہے۔مساوات \حوالہ{مساوات_مزاحمتی_تقسیم_رو_کی_مساوات_الف} اور مساوات \حوالہ{مساوات_مزاحمتی_تقسیم_رو_کی_مساوات_ب} تقسیم رو کے مساوات ہیں۔
+
+مساوات \حوالہ{مساوات_مزاحمتی_متوازی_مساوی} سے دو عدد متوازی مزاحمتوں کا مساوی مزاحمت 
+\begin{align}
+R_m=\frac{R_1 R_2}{R_1+R_2}
+\end{align}
+حاصل کیا جا سکتا ہے۔ 
 %=======================
 \ابتدا{مثال}
 شکل \حوالہ{شکل_مزاحمتی_متوازی_جڑے_پرزوں_میں_تقسیم_رو} میں \عددی{R_1=\SI{2}{\kilo\ohm}}، \عددی{R_2=\SI{6}{\kilo\ohm}} اور \عددی{i(t)=\SI{8}{\milli\ampere}} ہیں۔مزاحمت \عددی{R_1} اور مزاحمت \عددی{R_2} میں رو دریافت کریں۔کل متوازی مزاحمت دریافت کریں۔مزاحمت \عددی{R_1} اور \عددی{R_2} میں طاقت کا ضیاع دریافت کریں۔منبع کی طاقت بھی حاصل کریں۔
@@ -1281,7 +1287,7 @@ R_{EGF}=600+2400=\SI{3}{\kilo\ohm}
 \begin{align*}
 \frac{1}{R_{EF}}=\frac{1}{3000}+\frac{1}{3000}=\frac{1}{1500}
 \end{align*}
-سے
+یعنی
 \begin{align*}
 R_{EF}=\SI{1.5}{\kilo\ohm}
 \end{align*}
@@ -1292,7 +1298,7 @@ R_{EF}=\SI{1.5}{\kilo\ohm}
 \caption{}
 \label{مشق_مزاحمتی_سلسلہ_وار_متوازی_مزاحمت_پ}
 \end{figure}
-یوں شکل \حوالہ{مشق_مزاحمتی_سلسلہ_وار_متوازی_مزاحمت_ت} حاصل ہوتا ہے۔
+یوں شکل \حوالہ{مشق_مزاحمتی_سلسلہ_وار_متوازی_مزاحمت_ت}-الف حاصل ہوتا ہے۔
 \begin{figure}
 \centering
 \begin{subfigure}{0.5\textwidth}
@@ -1304,46 +1310,96 @@ R_{EF}=\SI{1.5}{\kilo\ohm}
 \centering
 \includegraphics{figResistancesMixedSeriesParallelF}
 \caption*{(ب)}
-\end{subfigure}%
-\caption{}
-\label{مشق_مزاحمتی_سلسلہ_وار_متوازی_مزاحمت_ت}
-\end{figure}
-%==============================
-\begin{figure}
-\centering
+\end{subfigure}
+%
 \begin{subfigure}{0.5\textwidth}
 \centering
 \includegraphics{figResistancesMixedSeriesParallelFb}
-\caption*{(الف)}
+\caption*{(پ)}
 \end{subfigure}%
 \begin{subfigure}{0.5\textwidth}
 \centering
 \includegraphics{figResistancesMixedSeriesParallelG}
-\caption*{(ب)}
-\end{subfigure}%
-\caption{}
-\label{مشق_مزاحمتی_سلسلہ_وار_متوازی_مزاحمت_ٹ}
-\end{figure}
-
-%==============================
-\begin{figure}
-\centering
+\caption*{(ت)}
+\end{subfigure}
+%
 \begin{subfigure}{0.5\textwidth}
 \centering
 \includegraphics{figResistancesMixedSeriesParallelH}
-\caption*{(الف)}
+\caption*{(ٹ)}
 \end{subfigure}%
 \begin{subfigure}{0.5\textwidth}
 \centering
 \includegraphics{figResistancesMixedSeriesParallelI}
-\caption*{(ب)}
+\caption*{(ث)}
 \end{subfigure}%
 \caption{}
-\label{مشق_مزاحمتی_سلسلہ_وار_متوازی_مزاحمت_ث}
+\label{مشق_مزاحمتی_سلسلہ_وار_متوازی_مزاحمت_ت}
 \end{figure}
-
-اسی طریقے سے آگے بڑھتے ہوئے آخر کار شکل \حوالہ{مشق_مزاحمتی_سلسلہ_وار_متوازی_مزاحمت_ث}-الف حاصل ہوتا ہے جس سے \عددی{R_{AB}} درج ذیل حاصل ہوتا ہے جسے  
+%============================
+اسی طریقے سے آگے بڑھتے ہوئے آخر کار شکل \حوالہ{مشق_مزاحمتی_سلسلہ_وار_متوازی_مزاحمت_ت}-ٹ حاصل ہوتا ہے جس سے \عددی{R_{AB}} درج ذیل حاصل ہوتا ہے
 \begin{align*}
 R_{AB}=2\frac{2}{3}\, \si{\kilo\ohm}
 \end{align*}
-شکل \حوالہ{مشق_مزاحمتی_سلسلہ_وار_متوازی_مزاحمت_ث}-ب میں دکھایا گیا ہے۔
+یوں شکل \حوالہ{مشق_مزاحمتی_سلسلہ_وار_متوازی_مزاحمت}  کو حل کرتے کرتے آخر کار  شکل \حوالہ{مشق_مزاحمتی_سلسلہ_وار_متوازی_مزاحمت_ت}-ث حاصل کیا گیا جو مساوی مزاحمت  دیتا  ہے۔
+
+%====================
+\ابتدا{مشق}
+شکل \حوالہ{شکل_مزاحمتی_مشق_متعدد_مزاحمت} میں \عددی{R_{AB}} دریافت کریں۔
+\begin{figure}
+\centering
+\includegraphics{figResistancesQuizMixedSeriesParallelA}
+\caption{متعدد سلسلہ وار اور متوازی مزاحمت کا  دور۔}
+\label{شکل_مزاحمتی_مشق_متعدد_مزاحمت}
+\end{figure}
+
+جواب:\عددی{R_{AB}=\SI{5}{\kilo\ohm}}
+\انتہا{مشق}
+%====================
+
+متعدد سلسلہ وار اور متوازی مزاحمتوں کا مساوی مزاحمت حاصل کرتے وقت درج ذیل طریقہ کار اختیار کیا جاتا ہے۔
+\begin{itemize}
+\item
+داخلی برقی سروں سے دور ترین  مزاحمت سے شروع کریں۔
+\item
+دو عدد سلسلہ وار مزاحمت کی جگہ ان کا مساوی مزاحمت \عددی{R_s=R_1+R_2} نسب کریں۔جس جوڑ پر سلسلہ وار مزاحمت آپس میں جڑے ہوں اس جوڑ پر کوئی تیسرا پرزہ نہیں جڑا ہو سکتا۔یوں پہلے مزاحمت سے گزرتی رو دوسری مزاحمت سے بھی گزرتی ہے۔اگر جوڑ پر تیسرا پرزہ بھی نسب ہو تب مزاحمتوں کو سلسلہ وار جڑا تصور نہیں کیا جا سکتا۔
+\item
+دو عدد متوازی جڑے مزاحمتوں کی جگہ ان کا مساوی مزاحمت \عددی{R_m=\tfrac{R_1R_2}{R_1+R_2}} نسب کریں۔جن دو جوڑ کے ساتھ پہلا مزاحمت جڑا ہوتا ہے اگر انہیں جوڑ کے ساتھ دوسرا مزاحمت بھی جڑا ہو تب ان مزاحمتوں کو متوازی جڑا تصور کیا جاتا ہے۔متوازی مزاحمتوں پر برابر دباو پایا جاتا ہے۔
+\item
+متواتر سلسلہ وار اور متوازی مزاحمتوں کی جگہ ان کا مساوی مزاحمت نسب کرتے ہوئے دور کے داخلی سروں تک پہنچ کر پورے دور کا مساوی مزاحمت حاصل کریں۔
+\end{itemize}
+%==================
+
+\حصہ{مزاحمت کے معیاری قیمتیں}
+
+\begin{table}
+\caption{مزاحمت کے معیاری قیمتیں۔ قیمتوں میں \عددیء{\SI{5}{\percent}} خلل ممکن ہے۔}
+\centering
+\begin{tabular}{l l l l l l l}
+$\SI{1.0}{\ohm} $& $\SI{10}{\ohm}$ & $\SI{100}{\ohm}$ & $\SI{1.0}{\kilo\ohm}$ &$\SI{10}{\kilo\ohm} $& $\SI{100}{\kilo\ohm}$ & $\SI{1.0}{\mega\ohm}$\\
+$\SI{1.1}{\ohm} $& $\SI{11}{\ohm}$ & $\SI{110}{\ohm}$ & $\SI{1.1}{\kilo\ohm}$ &$\SI{11}{\kilo\ohm} $& $\SI{110}{\kilo\ohm}$ & $\SI{1.1}{\mega\ohm}$\\
+$\SI{1.2}{\ohm} $& $\SI{12}{\ohm}$ & $\SI{120}{\ohm}$ & $\SI{1.2}{\kilo\ohm}$ &$\SI{12}{\kilo\ohm} $& $\SI{120}{\kilo\ohm}$ & $\SI{1.2}{\mega\ohm}$\\
+$\SI{1.3}{\ohm} $& $\SI{13}{\ohm}$ & $\SI{130}{\ohm}$ & $\SI{1.3}{\kilo\ohm}$ &$\SI{13}{\kilo\ohm} $& $\SI{130}{\kilo\ohm}$ & $\SI{1.3}{\mega\ohm}$\\
+$\SI{1.5}{\ohm} $& $\SI{15}{\ohm}$ & $\SI{150}{\ohm}$ & $\SI{1.5}{\kilo\ohm}$ &$\SI{15}{\kilo\ohm} $& $\SI{150}{\kilo\ohm}$ & $\SI{1.5}{\mega\ohm}$\\
+$\SI{1.6}{\ohm} $& $\SI{16}{\ohm}$ & $\SI{160}{\ohm}$ & $\SI{1.6}{\kilo\ohm}$ &$\SI{16}{\kilo\ohm} $& $\SI{160}{\kilo\ohm}$ & $\SI{1.6}{\mega\ohm}$\\
+$\SI{1.8}{\ohm} $& $\SI{18}{\ohm}$ & $\SI{180}{\ohm}$ & $\SI{1.8}{\kilo\ohm}$ &$\SI{18}{\kilo\ohm} $& $\SI{180}{\kilo\ohm}$ & $\SI{1.8}{\mega\ohm}$\\
+$\SI{2.0}{\ohm} $& $\SI{20}{\ohm}$ & $\SI{200}{\ohm}$ & $\SI{2.0}{\kilo\ohm}$ &$\SI{20}{\kilo\ohm} $& $\SI{200}{\kilo\ohm}$ & $\SI{2.0}{\mega\ohm}$\\
+$\SI{2.2}{\ohm} $& $\SI{22}{\ohm}$ & $\SI{220}{\ohm}$ & $\SI{2.2}{\kilo\ohm}$ &$\SI{22}{\kilo\ohm} $& $\SI{220}{\kilo\ohm}$ & $\SI{2.2}{\mega\ohm}$\\
+$\SI{2.4}{\ohm} $& $\SI{24}{\ohm}$ & $\SI{240}{\ohm}$ & $\SI{2.4}{\kilo\ohm}$ &$\SI{24}{\kilo\ohm} $& $\SI{240}{\kilo\ohm}$ & $\SI{2.4}{\mega\ohm}$\\
+$\SI{2.7}{\ohm} $& $\SI{27}{\ohm}$ & $\SI{270}{\ohm}$ & $\SI{2.7}{\kilo\ohm}$ &$\SI{27}{\kilo\ohm} $& $\SI{270}{\kilo\ohm}$ & $\SI{2.7}{\mega\ohm}$\\
+$\SI{3.0}{\ohm} $& $\SI{30}{\ohm}$ & $\SI{300}{\ohm}$ & $\SI{3.0}{\kilo\ohm}$ &$\SI{30}{\kilo\ohm} $& $\SI{300}{\kilo\ohm}$ & $\SI{3.0}{\mega\ohm}$\\
+$\SI{3.3}{\ohm} $& $\SI{33}{\ohm}$ & $\SI{330}{\ohm}$ & $\SI{3.3}{\kilo\ohm}$ &$\SI{33}{\kilo\ohm} $& $\SI{330}{\kilo\ohm}$ & $\SI{3.3}{\mega\ohm}$\\
+$\SI{3.6}{\ohm} $& $\SI{36}{\ohm}$ & $\SI{360}{\ohm}$ & $\SI{3.6}{\kilo\ohm}$ &$\SI{36}{\kilo\ohm} $& $\SI{360}{\kilo\ohm}$ & $\SI{3.6}{\mega\ohm}$\\
+$\SI{3.9}{\ohm} $& $\SI{39}{\ohm}$ & $\SI{390}{\ohm}$ & $\SI{3.9}{\kilo\ohm}$ &$\SI{39}{\kilo\ohm} $& $\SI{390}{\kilo\ohm}$ & $\SI{3.9}{\mega\ohm}$\\
+$\SI{4.3}{\ohm} $& $\SI{43}{\ohm}$ & $\SI{430}{\ohm}$ & $\SI{4.3}{\kilo\ohm}$ &$\SI{43}{\kilo\ohm} $& $\SI{430}{\kilo\ohm}$ & $\SI{4.3}{\mega\ohm}$\\
+$\SI{4.7}{\ohm} $& $\SI{47}{\ohm}$ & $\SI{470}{\ohm}$ & $\SI{4.7}{\kilo\ohm}$ &$\SI{47}{\kilo\ohm} $& $\SI{470}{\kilo\ohm}$ & $\SI{4.7}{\mega\ohm}$\\
+$\SI{5.1}{\ohm} $& $\SI{51}{\ohm}$ & $\SI{510}{\ohm}$ & $\SI{5.1}{\kilo\ohm}$ &$\SI{51}{\kilo\ohm} $& $\SI{510}{\kilo\ohm}$ & $\SI{5.1}{\mega\ohm}$\\
+$\SI{5.6}{\ohm} $& $\SI{56}{\ohm}$ & $\SI{560}{\ohm}$ & $\SI{5.6}{\kilo\ohm}$ &$\SI{56}{\kilo\ohm} $& $\SI{560}{\kilo\ohm}$ & $\SI{5.6}{\mega\ohm}$\\
+$\SI{6.2}{\ohm} $& $\SI{62}{\ohm}$ & $\SI{620}{\ohm}$ & $\SI{6.2}{\kilo\ohm}$ &$\SI{62}{\kilo\ohm} $& $\SI{620}{\kilo\ohm}$ & $\SI{6.2}{\mega\ohm}$\\
+$\SI{6.8}{\ohm} $& $\SI{68}{\ohm}$ & $\SI{680}{\ohm}$ & $\SI{6.8}{\kilo\ohm}$ &$\SI{68}{\kilo\ohm} $& $\SI{680}{\kilo\ohm}$ & $\SI{6.8}{\mega\ohm}$\\
+$\SI{7.5}{\ohm} $& $\SI{75}{\ohm}$ & $\SI{750}{\ohm}$ & $\SI{7.5}{\kilo\ohm}$ &$\SI{75}{\kilo\ohm} $& $\SI{750}{\kilo\ohm}$ & $\SI{7.5}{\mega\ohm}$\\
+$\SI{8.2}{\ohm} $& $\SI{82}{\ohm}$ & $\SI{820}{\ohm}$ & $\SI{8.2}{\kilo\ohm}$ &$\SI{82}{\kilo\ohm} $& $\SI{820}{\kilo\ohm}$ & $\SI{8.2}{\mega\ohm}$\\
+$\SI{9.1}{\ohm} $& $\SI{91}{\ohm}$ & $\SI{910}{\ohm}$ & $\SI{9.1}{\kilo\ohm}$ &$\SI{91}{\kilo\ohm} $& $\SI{910}{\kilo\ohm}$ & $\SI{9.1}{\mega\ohm}$
+\end{tabular}
+\label{جدول_مزاحمتی_معیاری_مزاحمت_قیمتیں}
+\end{table}
