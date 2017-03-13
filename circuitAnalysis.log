@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  12 MAR 2017 17:55
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  13 MAR 2017 13:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3024,8 +3024,28 @@ e (type QTm)
  <use  "./fig/figResistive/figResistancesQuizMixedSeriesParallelA.pdf" >
 [56]
 File: ./fig/figResistive/figResistancesRating.pdf Graphic file (type QTm)
- <use  "./fig/figResistive/figResistancesRating.pdf" > [57]) [58]
-(./circuitAnalysis.aux (./tex/cktBasics.aux) (./tex/cktResistive.aux))
+ <use  "./fig/figResistive/figResistancesRating.pdf" > [57]
+File: ./fig/figResistive/figResistancesMixedSolutionExampleA.pdf Graphic file (
+type QTm)
+
+<use  "./fig/figResistive/figResistancesMixedSolutionExampleA.pdf" >
+File: ./fig/figResistive/figResistancesMixedSolutionExampleB.pdf Graphic file (
+type QTm)
+
+<use  "./fig/figResistive/figResistancesMixedSolutionExampleB.pdf" >
+Overfull \hbox (2.21207pt too wide) in paragraph at lines 1462--1463
+ [][][][][][] 
+ []
+
+File: ./fig/figResistive/figResistancesMixedSolutionExampleC.pdf Graphic file (
+type QTm)
+<use  "./fig/figResistive/figResistancesMixedSolutionExampleC.pdf" > [58]
+[59]
+File: ./fig/figResistive/figResistancesMixedSolutionExampleD.pdf Graphic file (
+type QTm)
+ <use  "./fig/figResistive/figResistancesMixedSolutionExampleD.pdf" >
+[60] [61]) [62] (./circuitAnalysis.aux (./tex/cktBasics.aux)
+(./tex/cktResistive.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.43109pt have occurred.
@@ -3035,12 +3055,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 23573 strings out of 493918
- 500105 string characters out of 6150562
- 555112 words of memory out of 5000000
- 26330 multiletter control sequences out of 15000+600000
+ 23589 strings out of 493918
+ 500652 string characters out of 6150562
+ 554202 words of memory out of 5000000
+ 26342 multiletter control sequences out of 15000+600000
  58309 words of font info for 209 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  53i,19n,50p,10476b,1357s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (62 pages).
+Output written on circuitAnalysis.pdf (66 pages).
