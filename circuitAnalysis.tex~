@@ -22,9 +22,9 @@
 \graphicspath{{./fig/figFrontPage/}{./fig/figBasicConcepts/}{./fig/figResistive/}}		%paths to figures
 
 
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktToDoList}
+%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktToDoList}
 %
-%\includeonly{./tex/emtSymbols,./tex/cktPreface,./tex/prefaceFirstBookneticField,./tex/emtVectors,./tex/emtLinearAlgebra,./tex/emtDataTables,./tex/emtEndOfBookTableDivergenceCurlGradientLaplacian,./tex/emtCoordinatesRelations}
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktResistive,./tex/cktToDoList}
 
 
 
@@ -59,7 +59,7 @@
 \tableofcontents
 \pagestyle{empty}
 \newpage
-\include{./tex/cktPreface}
+%\include{./tex/cktPreface}
 \newpage
 %\include{./tex/prefaceFirstBook}
 %\newpage

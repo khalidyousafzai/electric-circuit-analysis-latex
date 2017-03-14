@@ -1,12 +1,12 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  14 MAR 2017 07:56
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  14 MAR 2017 08:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **/home/khalid/Desktop/circuitAnalysisLatex/fig/figResistive/figResistancesMixe
-dSolutionExampleD.tex $
+dSolutionQuizA.tex $
 
 (/home/khalid/Desktop/circuitAnalysisLatex/fig/figResistive/figResistancesMixed
-SolutionExampleD.tex
+SolutionQuizA.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/home/khalid/texmf/tex/latex/standalone/tex/latex/standalone/standalone.cls
@@ -1236,8 +1236,8 @@ Package: hijrical 2007/12/27 v0.1 Islamic calendar
 . <->s*[1.0]"XB Tabriz/BI/ICU:script=arab;language=DFLT;"
 .................................................
 
-(./figResistancesMixedSolutionExampleD.aux)
-\openout1 = `figResistancesMixedSolutionExampleD.aux'.
+(./figResistancesMixedSolutionQuizA.aux)
+\openout1 = `figResistancesMixedSolutionQuizA.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
@@ -1348,14 +1348,14 @@ LaTeX Font Info:    Font shape `EU1/XBTabriz(0)/m/n' will be
  [1
 
 ]
-(./figResistancesMixedSolutionExampleD.aux) ) 
+(./figResistancesMixedSolutionQuizA.aux) ) 
 Here is how much of TeX's memory you used:
- 31970 strings out of 493918
- 712945 string characters out of 6150562
- 816397 words of memory out of 5000000
- 34719 multiletter control sequences out of 15000+600000
+ 31841 strings out of 493918
+ 710158 string characters out of 6150562
+ 806394 words of memory out of 5000000
+ 34590 multiletter control sequences out of 15000+600000
  7011 words of font info for 45 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 56i,11n,65p,10496b,1386s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,11n,65p,10493b,1372s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on figResistancesMixedSolutionExampleD.pdf (1 page).
+Output written on figResistancesMixedSolutionQuizA.pdf (1 page).

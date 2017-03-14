@@ -1,12 +1,12 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  14 MAR 2017 07:56
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  14 MAR 2017 16:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/home/khalid/Desktop/circuitAnalysisLatex/fig/figResistive/figResistancesMixe
-dSolutionExampleD.tex $
+**/home/khalid/Desktop/circuitAnalysisLatex/fig/figResistive/figResistancesYDel
+taC.tex $
 
-(/home/khalid/Desktop/circuitAnalysisLatex/fig/figResistive/figResistancesMixed
-SolutionExampleD.tex
+(/home/khalid/Desktop/circuitAnalysisLatex/fig/figResistive/figResistancesYDelt
+aC.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/home/khalid/texmf/tex/latex/standalone/tex/latex/standalone/standalone.cls
@@ -1236,8 +1236,8 @@ Package: hijrical 2007/12/27 v0.1 Islamic calendar
 . <->s*[1.0]"XB Tabriz/BI/ICU:script=arab;language=DFLT;"
 .................................................
 
-(./figResistancesMixedSolutionExampleD.aux)
-\openout1 = `figResistancesMixedSolutionExampleD.aux'.
+(./figResistancesYDeltaC.aux)
+\openout1 = `figResistancesYDeltaC.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
@@ -1255,8 +1255,7 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 28.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 28.
-
-(/usr/share/texmf/tex/latex/tipa/t3cmr.fd
+ (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 28.
@@ -1341,21 +1340,17 @@ File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `EU1/XBTabriz(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 29.
-LaTeX Font Info:    Font shape `EU1/XBTabriz(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 37.
-LaTeX Font Info:    Font shape `EU1/XBTabriz(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 37.
  [1
 
 ]
-(./figResistancesMixedSolutionExampleD.aux) ) 
+(./figResistancesYDeltaC.aux) ) 
 Here is how much of TeX's memory you used:
- 31970 strings out of 493918
- 712945 string characters out of 6150562
- 816397 words of memory out of 5000000
- 34719 multiletter control sequences out of 15000+600000
- 7011 words of font info for 45 fonts, out of 8000000 for 9000
+ 31771 strings out of 493918
+ 708267 string characters out of 6150562
+ 802384 words of memory out of 5000000
+ 34522 multiletter control sequences out of 15000+600000
+ 6995 words of font info for 43 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 56i,11n,65p,10496b,1386s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,6n,65p,10482b,702s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on figResistancesMixedSolutionExampleD.pdf (1 page).
+Output written on figResistancesYDeltaC.pdf (1 page).

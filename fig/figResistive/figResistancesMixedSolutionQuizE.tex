@@ -29,17 +29,17 @@
 \begin{urdufont}
 
 \pgfmathsetmacro{\y}{2}
-\pgfmathsetmacro{\x}{2.5}
+\pgfmathsetmacro{\x}{2}
 
 \begin{tikzpicture}[]
 %\boxLeft[p]{0,0} 
 %grid
-\draw(0,0)node[below]{$e$} to [american voltage source,l={$V_0$}]++(0,2*\y)node[left]{$a$} to [resistor,l={$\SI{5}{\kilo\ohm}$},i>^={$i_1$}]++(\x,0)  to [resistor,i={$i_2$},l={$\SI{3}{\kilo\ohm}$}]++(\x,0)node[right]{$f$} to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(0,-2*\y)node[below]{$g$} to [short]++(-2*\x,0);
-\draw (\x,2*\y)node[above]{$b$} to [resistor,l={$\SI{1}{\kilo\ohm}$},i={$i_3$},*-*]++(0,-\y)coordinate(kk)node[shift={(-0.3,0.2)}]{$c$} to [short]++(\x/2,0) to [resistor,l={$\SI{4}{\kilo\ohm}$},i={$i_5$},-*]++(0,-\y);
-\draw(kk) to [short]++(-\x/2,0) to [resistor,l_={$\SI{2}{\kilo\ohm}$},i={$i_4$},-*]++(0,-\y);
-\draw (\x,\y/2)node{$\begin{aligned} &+ \\ & V_{cd} \\ &- \end{aligned}$};
-\draw(\x-0.2,1.5*\y)node[left]{$\begin{aligned} &+ \\ & V_{bc} \\ &- \end{aligned}$};
-\draw (\x,0)node[below]{$d$};
+\draw(0,0) to [american current source,l={$\SI{5}{\milli\ampere}$}]++(0,\y) to [resistor,l={$\SI{20}{\kilo\ohm}$}]++(0,\y)coordinate(kb) to [short]++(\x,0) to [resistor,l_={$\SI{10}{\kilo\ohm}$}]++(0,-\y)coordinate(ka) to [resistor,l_={$\SI{20}{\kilo\ohm}$}]++(0,-\y) to [short]++(-\x,0);
+\draw(ka) to [resistor,l={$\SI{8}{\kilo\ohm}$},*-]++(\x,0) to [resistor,l_={$\SI{12}{\kilo\ohm}$}]++(0,-\y) to [short,-*]++(-\x,0);
+\draw(kb) to [short,*-]++(-\x,0)coordinate(kc) to [resistor,l_={$\SI{10}{\kilo\ohm}$}]++(0,-\y)coordinate(kd) to [resistor,i={$I_0$},l_={$\SI{5}{\kilo\ohm}$}]++(0,-\y) to [short,-*]++(\x,0); 
+\draw(kc) to [short,*-]++(-\x,0) to [resistor,l_={$\SI{5}{\kilo\ohm}$}]++(0,-\y) to [resistor,l_={$\SI{20}{\kilo\ohm}$}]++(0,-\y) to [short,-*]++(\x,0);
+\draw(kd) to [short,*-*]++(-\x,0);
+\draw(2*\x+0.2,\y/2)node[right]{$\begin{aligned} &+ \\ & V_0 \\ &- \end{aligned}$};
 \end{tikzpicture}%
 \end{urdufont}
 \end{document}

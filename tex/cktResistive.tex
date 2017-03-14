@@ -1543,13 +1543,13 @@ v_c&=i_5 \times \SI{9}{\kilo\ohm}\\
 
 حل:یہ مثال گزشتہ مثال کے الٹ ہے۔یہاں دور میں کسی ایک مقام کے رو (یا دباو) سے منبع کی دباو اور دیگر متغیرات دریافت کیے جائیں گے۔دی معلومات سے قانون اوہم کے ذریعہ
 \begin{align*}
-v_a&=i_5 \times \SI{4}{\kilo\ohm}\\
+v_{cd}&=i_5 \times \SI{4}{\kilo\ohm}\\
 &=2\times 10^{-3}\times 4000\\
 &=\SI{8}{\volt}
 \end{align*}
 لکھا جا سکتا ہے جسے استعمال کرتے ہوئے قانون اوہم کی مدد سے
 \begin{align*}
-i_4&=\frac{v_a}{\SI{2}{\kilo\ohm}}\\
+i_4&=\frac{v_{cd}}{\SI{2}{\kilo\ohm}}\\
 &=\frac{8}{2000}\\
 &=\SI{4}{\milli\ampere}
 \end{align*}
@@ -1561,17 +1561,21 @@ i_3&=i_4+i_5\\
 \end{align*}
 حاصل ہوتا ہے۔یوں قانون اوہم سے
 \begin{align*}
-v_b&=i_3 \times \SI{1}{\kilo\ohm}\\
+v_{bc}&=i_3 \times \SI{1}{\kilo\ohm}\\
 &=6\times 10^{-3} \times 1000\\
 &=\SI{6}{\volt}
 \end{align*}
-یوں سلسلہ وار جڑے \عددی{\SI{4}{\kilo\ohm}} اور \عددی{\SI{3}{\kilo\ohm}} کو \عددی{v_a+v_b=\SI{14}{\volt}} دباو مہیا ہوتی ہے لہٰذا 
+حاصل ہوتا ہے۔دائرہ \عددی{dcbfg} پر کرچاف قانون دباو
 \begin{align*}
-i_2&=\frac{v_a+v_b}{\SI{3}{\kilo\ohm}+\SI{4}{\kilo\ohm}}\\
+V_{cd}+V_{bc}=i_2 \times \SI{3}{\kilo\ohm}+i_2\times \SI{4}{\kilo\ohm}
+\end{align*}
+لکھا جائے گا جس سے
+\begin{align*}
+i_2&=\frac{V_{cd}+V_{bc}}{\SI{3}{\kilo\ohm}+\SI{4}{\kilo\ohm}}\\
 &=\frac{8+6}{3000+4000}\\
 &=\SI{2}{\milli\ampere}
 \end{align*}
-ہو گی۔کرچاف قانون رو سے
+حاصل ہوتا ہے۔کرچاف قانون رو سے
 \begin{align*}
 i_1&=i_2+i_3\\
 &=\SI{2}{\milli\ampere}+\SI{6}{\milli\ampere}\\
@@ -1583,9 +1587,9 @@ V_{ab}&=i_1 \times \SI{5}{\kilo\ohm}\\
 &=8\times 10^{-3}\times 5000\\
 &=\SI{40}{\volt}
 \end{align*}
-دائرہ \عددی{eabcd} پر کرچاف قانون دباو
+حاصل ہوتا ہے جہاں \عددی{V_{ab}} نقطہ \عددی{b} کے حوالے سے نقطہ \عددی{a} پر دباو ہے۔دائرہ \عددی{eabcd} پر کرچاف قانون دباو
 \begin{align*}
-V_0&=V_{ab}+V_b+V_a
+V_0&=V_{ab}+V_{bc}+V_{cd}
 \end{align*}
 لکھا جائے گا جس سے منبع کا دباو
 \begin{align*}
@@ -1595,3 +1599,93 @@ V_0&=40+6+8\\
 حاصل ہوتا ہے۔
 \انتہا{مثال}
 %=====================
+\FloatBarrier
+
+\ابتدا{مشق}\شناخت{مشق_مزاحمتی-متعدد_الف}
+شکل \حوالہ{شکل_مزاحمتی_متعدد_مشق_الف}-الف میں \عددی{V_0} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\includegraphics{figResistancesMixedSolutionQuizA}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\includegraphics{figResistancesMixedSolutionQuizB}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{دور برائے مشق \حوالہ{مشق_مزاحمتی-متعدد_الف} اور مشق \حوالہ{مشق_مزاحمتی-متعدد_ب}}
+\label{شکل_مزاحمتی_متعدد_مشق_الف}
+\end{figure}
+\انتہا{مشق}
+%=====================
+
+\ابتدا{مشق}\شناخت{مشق_مزاحمتی-متعدد_ب}
+شکل \حوالہ{شکل_مزاحمتی_متعدد_مشق_الف}-ب میں \عددی{V_m} دریافت کریں۔  
+
+جواب: \عددی{\SI{5.1}{\milli\ampere}}
+\انتہا{مشق}
+%=====================
+
+\ابتدا{مشق}\شناخت{مشق_مزاحمتی-متعدد_پ}
+شکل \حوالہ{شکل_مزاحمتی_متعدد_مشق_پ} میں \عددی{V_0} دریافت کریں۔
+\begin{figure}
+\centering
+\includegraphics{figResistancesMixedSolutionQuizD}
+\caption{دور برائے مشق \حوالہ{مشق_مزاحمتی-متعدد_پ}}
+\label{شکل_مزاحمتی_متعدد_مشق_پ}
+\end{figure}
+\انتہا{مشق}
+%=====================
+\FloatBarrier
+
+\ابتدا{مشق}\شناخت{مشق_مزاحمتی-متعدد_ت}
+شکل \حوالہ{شکل_مزاحمتی_متعدد_مشق_ت} میں \عددی{V_0}  اور \عددی{I_0} دریافت کریں۔
+\begin{figure}
+\centering
+\includegraphics{figResistancesMixedSolutionQuizE}
+\caption{دور برائے مشق \حوالہ{مشق_مزاحمتی-متعدد_ت}}
+\label{شکل_مزاحمتی_متعدد_مشق_ت}
+\end{figure}
+\انتہا{مشق}
+%=====================
+\FloatBarrier
+
+\ابتدا{مشق}\شناخت{مشق_مزاحمتی-متعدد_ٹ}
+شکل \حوالہ{شکل_مزاحمتی_متعدد_مشق_ٹ} میں \عددی{V_0}  اور \عددی{I_0} دریافت کریں۔
+\begin{figure}
+\centering
+\includegraphics{figResistancesMixedSolutionQuizF}
+\caption{دور برائے مشق \حوالہ{مشق_مزاحمتی-متعدد_ٹ}}
+\label{شکل_مزاحمتی_متعدد_مشق_ٹ}
+\end{figure}
+\انتہا{مشق}
+%=====================
+\FloatBarrier
+\حصہ{ستارہ-تکون مبدل}
+ہم نے اب تک ایسے ادوار دیکھے جن میں سلسلہ وار مزاحمتوں اور متوازی مزاحمتوں کی جگہ مساوی مزاحمت نسب کرتے ہوئے سادہ دور حاصل کیا گیا۔اس حصے میں جس ترکیب پر غور کیا جائے گا، اس کی اہمیت شکل \حوالہ{شکل_مزاحمتی_ستارہ_تکون_الف} سے واضح ہو گی۔آپ اس دور میں \عددی{i} حاصل کرنے کی کوشش کریں۔آپ دیکھ سکتے ہیں کہ اس میں کوئی بھی دو مزاحمت سلسلہ وار یا متوازی نہیں جڑے لہٰذا اس دور کی سادہ صورت گزشتہ ترکیب سے حاصل نہیں کی جا سکتی۔البتہ ایسے ادوار میں کچھ حصے  کی جگہ  مساوی دور نسب کرنے سے دور قابل حل ہو جاتا ہے۔اس ترکیب کو \اصطلاح{ستارہ-تکونی مبدل}\فرہنگ{ستارہ-تکون مبدل}\فرہنگ{مبدل!ستارہ-تکون}\حاشیہب{wye-delta transformation}\فرہنگ{wye-delta transformation} کہتے ہیں۔آئیں ستارہ-تکون مبدل ترکیب پر غور کریں۔ 
+\begin{figure}
+\centering
+\includegraphics{figResistancesYDeltaA}
+\caption{اس دور کو سلسلہ وار اور متوازی مزاحمتوں کی طرح حل نہیں کیا جا سکتا۔}
+\label{شکل_مزاحمتی_ستارہ_تکون_الف}
+\end{figure}
+
+
+شکل \حوالہ{شکل_مزاحمتی_ستارہ_تکون_مبدل}-الف میں تین مزاحمت تکونی جڑے ہیں جبکہ شکل-ب میں تین مزاحمت ستارہ جڑے ہیں۔تکونی مزاحمتوں کی جگہ ستارہ مزاحمت نسب کئے جا سکتے ہیں۔اسی طرح ستارہ مزاحمتوں کی جگہ تکونی مزاحمت نسب کئے جا سکتے ہیں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\includegraphics{figResistancesYDeltaB}
+\caption*{(الف) تکونی مزاحمت}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\includegraphics{figResistancesYDeltaC}
+\caption*{(ب) ستارہ مزاحمت}
+\end{subfigure}%
+\caption{ستارہ-تکون مبدل}
+\label{شکل_مزاحمتی_ستارہ_تکون_مبدل}
+\end{figure}
