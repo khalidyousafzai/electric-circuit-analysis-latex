@@ -1,0 +1,49 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc,decorations.markings}
+
+\input{../../tex/myEMTvectors.tex}
+\input{../../tex/myTikzCommandsCircuitAnalysis.tex}   %testing
+%draws left and right arrows where needed e.g.  
+% \draw[->-=0.5] (0,0)--(3,0); draws arrow at the middle
+%\tikzset{->-/.style={decoration={markings, mark=at position #1 with {\arrow{latex}}},postaction={decorate}}}
+%\tikzset{-<-/.style={decoration={markings, mark=at position #1 with {\arrow{latex reversed}}},postaction={decorate}}}
+%draws right angles \RightAngle{A}{B}{C}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+
+
+\begin{document}
+\begin{urdufont}
+
+\pgfmathsetmacro{\y}{2}
+\pgfmathsetmacro{\x}{3.5}
+\pgfmathsetmacro{\r}{3.464}
+\pgfmathsetmacro{\l}{2}
+
+\begin{tikzpicture}[]
+%\boxLeft[p]{0,0} 
+%grid
+\draw(0,0) to [resistor,l={$R_4$}]++(120:\r)coordinate(ka)node[left]{$c$} to [resistor,l={$R_1$}]++(60:\r)coordinate(kb)node[above]{$a$} to [resistor,l={$R_2$}] ++(-60:\r)coordinate(kc)node[right]{$b$} to [resistor,l={$R_5$}]++(60:-\r);
+\draw(0,0) to [short,*-]++(-\x,0)coordinate(kd);
+\draw(kb) to [resistor,i_<={$i$},l_={$R_6$},*-]++(-\x,0)coordinate(ke);
+\draw(kd) to [american voltage source,l={$V_1$}] (ke);
+\draw(ka) to [resistor,*-*,l_={$R_3$}] (kc);
+%
+\draw[gray](kb) to [resistor,color=gray,-*]++(-90:\l)coordinate(kcentre) to [resistor,color=gray] (ka);
+\draw[gray](kcentre) to [resistor,color=gray] (kc);
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}
