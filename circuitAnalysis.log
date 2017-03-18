@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  17 MAR 2017 15:53
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  18 MAR 2017 20:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3059,14 +3059,14 @@ e QTm)
 File: ./fig/figResistive/figResistancesMixedSolutionQuizE.pdf Graphic file (typ
 e QTm)
 
-<use  "./fig/figResistive/figResistancesMixedSolutionQuizE.pdf" > [63]
+<use  "./fig/figResistive/figResistancesMixedSolutionQuizE.pdf" >
 File: ./fig/figResistive/figResistancesMixedSolutionQuizF.pdf Graphic file (typ
 e QTm)
 
-<use  "./fig/figResistive/figResistancesMixedSolutionQuizF.pdf" > [64]
+<use  "./fig/figResistive/figResistancesMixedSolutionQuizF.pdf" > [63]
 File: ./fig/figResistive/figResistancesYDeltaA.pdf Graphic file (type QTm)
 
-<use  "./fig/figResistive/figResistancesYDeltaA.pdf" >
+<use  "./fig/figResistive/figResistancesYDeltaA.pdf" > [64]
 File: ./fig/figResistive/figResistancesYDeltaB.pdf Graphic file (type QTm)
 
 <use  "./fig/figResistive/figResistancesYDeltaB.pdf" >
@@ -3081,16 +3081,28 @@ File: ./fig/figResistive/figResistancesDeltaReplacedWithYb.pdf Graphic file (ty
 pe QTm)
 
 <use  "./fig/figResistive/figResistancesDeltaReplacedWithYb.pdf" > [66]
-[67]
 File: ./fig/figResistive/figResistancesQuizYDeltaA.pdf Graphic file (type QTm)
- <use  "./fig/figResistive/figResistancesQuizYDeltaA.pdf" > [68]
+
+<use  "./fig/figResistive/figResistancesQuizYDeltaA.pdf" > [67]
 File: ./fig/figResistive/figResistancesQuizYDeltaB.pdf Graphic file (type QTm)
 
 <use  "./fig/figResistive/figResistancesQuizYDeltaB.pdf" >
 File: ./fig/figResistive/figResistancesQuizYDeltaC.pdf Graphic file (type QTm)
 
-<use  "./fig/figResistive/figResistancesQuizYDeltaC.pdf" > [69]) [70]
-(./circuitAnalysis.aux (./tex/cktBasics.aux) (./tex/cktResistive.aux))
+<use  "./fig/figResistive/figResistancesQuizYDeltaC.pdf" > [68]
+File: ./fig/figResistive/figResistancesExampleControlledSourceA.pdf Graphic fil
+e (type QTm)
+
+<use  "./fig/figResistive/figResistancesExampleControlledSourceA.pdf" >
+[69]
+File: ./fig/figResistive/figResistancesExampleControlledSourceB.pdf Graphic fil
+e (type QTm)
+ <use  "./fig/figResistive/figResistancesExampleControlledSourceB.pdf" >
+[70]) [71] [72
+
+
+] (./circuitAnalysis.aux (./tex/cktBasics.aux)
+(./tex/cktResistive.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.43109pt have occurred.
@@ -3100,12 +3112,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 23640 strings out of 493918
- 502358 string characters out of 6150562
- 554744 words of memory out of 5000000
- 26380 multiletter control sequences out of 15000+600000
+ 23662 strings out of 493918
+ 502880 string characters out of 6150562
+ 554924 words of memory out of 5000000
+ 26400 multiletter control sequences out of 15000+600000
  58309 words of font info for 209 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  53i,19n,50p,10476b,1357s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (74 pages).
+Output written on circuitAnalysis.pdf (76 pages).

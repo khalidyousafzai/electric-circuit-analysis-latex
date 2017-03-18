@@ -18,5 +18,5 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 2}}سلسلہ وار اور متوازی مزاحمت}{\RL {\arabicfont 53}}
 \contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 2}}تخصیص مزاحمت}{\RL {\arabicfont 57}}
 \contentsline {section}{\numberline {\RL {\arabicfont 11}.\RL {\arabicfont 2}}سلسلہ وار اور متوازی مزاحمتوں کے ادوار کا حل}{\RL {\arabicfont 59}}
-\contentsline {section}{\numberline {\RL {\arabicfont 12}.\RL {\arabicfont 2}}ستارہ-تکون تبادلہ}{\RL {\arabicfont 65}}
-\contentsline {section}{\numberline {\RL {\arabicfont 13}.\RL {\arabicfont 2}}تابع منبع استعمال کرتے ادوار}{\RL {\arabicfont 70}}
+\contentsline {section}{\numberline {\RL {\arabicfont 12}.\RL {\arabicfont 2}}ستارہ-تکون تبادلہ}{\RL {\arabicfont 64}}
+\contentsline {section}{\numberline {\RL {\arabicfont 13}.\RL {\arabicfont 2}}تابع منبع استعمال کرتے ادوار}{\RL {\arabicfont 69}}
