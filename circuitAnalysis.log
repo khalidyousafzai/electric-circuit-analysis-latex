@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  18 MAR 2017 20:27
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  19 MAR 2017 16:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1221,7 +1221,11 @@ Writing index file circuitAnalysis.idx
 (./circuitAnalysis.aux
 LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 3.
- (./tex/cktBasics.aux) (./tex/cktResistive.aux))
+ (./tex/cktBasics.aux) (./tex/cktResistive.aux
+
+LaTeX Warning: Label `مثال_مزاحمتی_تابع_مثال_پ' multiply defined.
+
+) (./tex/cktNodalLoop.aux))
 \openout1 = `circuitAnalysis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
@@ -1240,8 +1244,7 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 48.
 LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 48.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 48.
-
-(/usr/share/texmf/tex/latex/tipa/t3cmr.fd
+ (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 48.
@@ -3098,11 +3101,52 @@ e (type QTm)
 File: ./fig/figResistive/figResistancesExampleControlledSourceB.pdf Graphic fil
 e (type QTm)
  <use  "./fig/figResistive/figResistancesExampleControlledSourceB.pdf" >
-[70]) [71] [72
+[70]
+File: ./fig/figResistive/figResistancesExampleControlledSourceC.pdf Graphic fil
+e (type QTm)
+ <use  "./fig/figResistive/figResistancesExampleControlledSourceC.pdf" >
+File: ./fig/figResistive/figResistancesExampleControlledSourceCequivalent.pdf G
+raphic file (type QTm)
+
+<use  "./fig/figResistive/figResistancesExampleControlledSourceCequivalent.pdf"
+ >
+File: ./fig/figResistive/figResistancesExampleControlledSourceD.pdf Graphic fil
+e (type QTm)
+ <use  "./fig/figResistive/figResistancesExampleControlledSourceD.pdf" >
+[71] [72]
+File: ./fig/figResistive/figResistancesQuizControlledSourceA.pdf Graphic file (
+type QTm)
+ <use  "./fig/figResistive/figResistancesQuizControlledSourceA.pdf" >
+File: ./fig/figResistive/figResistancesQuizControlledSourceB.pdf Graphic file (
+type QTm)
+
+<use  "./fig/figResistive/figResistancesQuizControlledSourceB.pdf" > [73]
+File: ./fig/figResistive/figResistancesQuizControlledSourceC.pdf Graphic file (
+type QTm)
+
+<use  "./fig/figResistive/figResistancesQuizControlledSourceC.pdf" >
+File: ./fig/figResistive/figResistancesQuizControlledSourceD.pdf Graphic file (
+type QTm)
+
+<use  "./fig/figResistive/figResistancesQuizControlledSourceD.pdf" >
+File: ./fig/figResistive/figResistancesQuizControlledSourceE.pdf Graphic file (
+type QTm)
+
+<use  "./fig/figResistive/figResistancesQuizControlledSourceE.pdf" > [74])
+[75]
+\openout2 = `./tex/cktNodalLoop.aux'.
+
+ (./tex/cktNodalLoop.tex [76
+
+
+
+]
+باب \RL {\arabicfont 3}.
+) [77] [78
 
 
 ] (./circuitAnalysis.aux (./tex/cktBasics.aux)
-(./tex/cktResistive.aux))
+(./tex/cktResistive.aux) (./tex/cktNodalLoop.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.43109pt have occurred.
@@ -3110,14 +3154,17 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 23662 strings out of 493918
- 502880 string characters out of 6150562
- 554924 words of memory out of 5000000
- 26400 multiletter control sequences out of 15000+600000
+ 23715 strings out of 493918
+ 504454 string characters out of 6150562
+ 556018 words of memory out of 5000000
+ 26436 multiletter control sequences out of 15000+600000
  58309 words of font info for 209 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  53i,19n,50p,10476b,1357s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (76 pages).
+Output written on circuitAnalysis.pdf (82 pages).

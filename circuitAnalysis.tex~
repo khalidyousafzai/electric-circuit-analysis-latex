@@ -22,9 +22,9 @@
 \graphicspath{{./fig/figFrontPage/}{./fig/figBasicConcepts/}{./fig/figResistive/}}		%paths to figures
 
 
-%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktToDoList}
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktToDoList}
 %
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktResistive,./tex/cktToDoList}
+%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktResistive,./tex/cktToDoList}
 
 
 

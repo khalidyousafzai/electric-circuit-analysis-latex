@@ -1931,3 +1931,138 @@ V_1&=\left(\frac{15000}{5000+15000} \right) V_2\\
 \end{align*}
 \انتہا{مثال}
 %===================
+\FloatBarrier
+
+\ابتدا{مثال}\شناخت{مثال_مزاحمتی_تابع_مثال_پ}
+دو جوڑ ٹرانزسٹر کے استعمال سے بنائے گئے \اصطلاح{ایمٹر مشترک ایمپلیفائر}\فرہنگ{ایمپلیفائر!ایمٹر مشترک}\حاشیہب{common emitter amplifier}\فرہنگ{amplifier!common emitter} کا مساوی دور شکل \حوالہ{شکل_مزاحمتی_مثال_تابع_منبع_پ}-الف میں دکھایا گیا ہے۔مساوی دور کے حصول میں  \اصطلاح{دباو تابع منبع رو}\فرہنگ{منبع رو!دباو تابع}\حاشیہب{voltage controlled current source}\فرہنگ{current source!voltage controlled} کا استعمال کیا گیا ہے۔ خارجی اشارہ \عددی{v_0} اور داخلی اشارہ \عددی{v_s} کی شرح کو  \اصطلاح{افزائش دباو}\فرہنگ{افزائش دباو}\حاشیہب{voltage gain}\فرہنگ{gain!voltage}  \عددی{A_v} کہتے ہیں۔آئیں \عددی{A_v=\tfrac{v_0}{v_s}} حاصل کریں۔
+\begin{figure}
+\centering
+\centering
+\begin{subfigure}{\textwidth}
+\centering
+\includegraphics{figResistancesExampleControlledSourceC}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{\textwidth}
+\centering
+\includegraphics{figResistancesExampleControlledSourceCequivalent}
+\caption*{(ب)}
+\end{subfigure}
+\caption{ایمٹر مشترک ایمپلیفائر کا مساوی دور۔}
+\label{شکل_مزاحمتی_مثال_تابع_منبع_پ}
+\end{figure}
+
+حل:خارجی جانب \عددی{R_C} اور \عددی{R_L} متوازی جڑے ہیں جن کی جگہ مساوی مزاحمت \عددی{R_M} نسب کیا جا سکتا ہے۔
+\begin{align*}
+R_M=\frac{R_C R_L}{R_C+R_L}
+\end{align*} 
+ایسا کرنے سے شکل-ب حاصل ہوتا ہے جہاں  بائیں دائرے کے لئے درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+v_{be}=\frac{r_{be} v_s}{R_S+r_{be}}
+\end{align*} 
+شکل-ب میں دائیں دائرے سے درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+v_0=-g_m v_{be} R_M
+\end{align*}
+درج بالا دونوں مساواتوں کو ملاتے ہوئے
+\begin{align*}
+v_0=-g_m \left(\frac{r_{be} v_s}{R_S+r_{be}}\right) R_M
+\end{align*}
+حاصل ہوتا ہے جہاں سے افزائش دباو حاصل ہوتی ہے۔
+\begin{align*}
+A_v=\frac{v_0}{v_s}= -\frac{g_m r_{be} R_M}{R_S+r_{be}}
+\end{align*}
+\انتہا{مثال}
+
+%=================================
+\ابتدا{مثال}\شناخت{مثال_مزاحمتی_تابع_مثال_پ}
+شکل \حوالہ{شکل_مزاحمتی_مثال_تابع_منبع_ت} میں \اصطلاح{رو تابع منبع دباو}\فرہنگ{منبع دباو!رو تابع}\حاشیہب{current controlled voltage source}\فرہنگ{voltage source!current controlled} کا استعمال دکھایا گیا ہے۔اس دور میں خارجی دباو \عددی{V_0} حاصل کریں۔
+\begin{figure}
+\centering
+\includegraphics{figResistancesExampleControlledSourceD}
+\caption{رو تابع منبع دباو کے استعمال کی مثال۔}
+\label{شکل_مزاحمتی_مثال_تابع_منبع_ت}
+\end{figure}
+
+حل: کرچاف قانون دباو سے درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+-16+5000 I_1-V_m+2000 I_1=0
+\end{align*}
+منبع کی قابو مساوات درج ذیل ہے۔
+\begin{align*}
+V_m=3000I_1
+\end{align*}
+مندرجہ بالا دو مساواتوں کو ملاتے ہوئے
+\begin{align*}
+-16+5000 I_1-3000I_1+2000 I_1=0
+\end{align*}
+لکھا جا سکتا ہے جس سے
+\begin{align*}
+I_1&=\frac{16}{4000}\\
+&=\SI{4}{\milli\ampere}
+\end{align*}
+حاصل ہوتا ہے۔یوں قانون اوہم کی مدد سے خارجی دباو
+\begin{align*}
+V_0&=4\times 10^{-3} \times 2000\\
+&=\SI{8}{\volt}
+\end{align*}
+حاصل ہوتا ہے۔
+\انتہا{مثال}
+%=======================
+
+\ابتدا{مشق}\شناخت{مشق_مزاحمتی_تابع_منبع_الف}
+شکل \حوالہ{شکل_مزاحمتی-مشق_تابع_الف} میں \اصطلاح{موصلیت نما ایمپلیفائر}\فرہنگ{ایمپلیفائر!موصلیت نما}\حاشیہب{transconductance amplifier}\فرہنگ{amplifier!transconductance} کا مساوی دور دکھایا گیا ہے۔\اصطلاح{افزائش موصلیت نما}\فرہنگ{افزائش موصلیت نما}\حاشیہب{transconductance gain}\فرہنگ{gain!transconductance} \عددی{A_g=\tfrac{i_L}{v_s}} کی مساوات حاصل کریں اور \عددی{R_S=\SI{100}{\ohm}}، \عددی{r_{be}=\SI{400}{\ohm}}، \عددی{R_C=\SI{18}{\kilo\ohm}}، \عددی{R_L=\SI{2}{\kilo\ohm}} اور \عددی{\beta=180} کی صورت میں افزائش کی قیمت دریافت کریں۔
+\begin{figure}
+\centering
+\includegraphics{figResistancesQuizControlledSourceA}
+\caption{موصلیت نما ایمپلیفائر کا مساوی دور۔}
+\label{شکل_مزاحمتی-مشق_تابع_الف}
+\end{figure}
+
+جواب:\عددی{A_g=-\beta\left(\frac{1}{R_S+r_{be}}\right)\left(\frac{R_C}{R_C+R_L}\right)}، \عددی{\SI{-0.324}{\ampere\per\volt}}
+\انتہا{مشق}
+%========================
+
+\ابتدا{مشق}\شناخت{مشق_مزاحمتی-تابع_ب}
+شکل \حوالہ{شکل_مزاحمتی-مشق_تابع_ب} میں \عددی{V_0} کی قیمت حاصل کریں۔
+\begin{figure}
+\centering
+\includegraphics{figResistancesQuizControlledSourceB}
+\caption{مشق \حوالہ{مشق_مزاحمتی-تابع_ب} کا دور۔}
+\label{شکل_مزاحمتی-مشق_تابع_ب}
+\end{figure}
+\انتہا{مشق}
+%================
+
+\ابتدا{مشق}\شناخت{مشق_مزاحمتی-تابع_پ}
+شکل \حوالہ{شکل_مزاحمتی-مشق_تابع_پ} میں \عددی{V_{AB}} دریافت کریں۔
+\begin{figure}
+\centering
+\includegraphics{figResistancesQuizControlledSourceC}
+\caption{مشق \حوالہ{مشق_مزاحمتی-تابع_پ} کا دور۔}
+\label{شکل_مزاحمتی-مشق_تابع_پ}
+\end{figure}
+\انتہا{مشق}
+%==================
+
+
+\ابتدا{مشق}\شناخت{مشق_مزاحمتی-تابع_ت}
+شکل \حوالہ{شکل_مزاحمتی-مشق_تابع_ت} میں \عددی{V_{mn}} دریافت کریں۔
+\begin{figure}
+\centering
+\includegraphics{figResistancesQuizControlledSourceD}
+\caption{مشق \حوالہ{مشق_مزاحمتی-تابع_ت} کا دور۔}
+\label{شکل_مزاحمتی-مشق_تابع_ت}
+\end{figure}
+\انتہا{مشق}
+%==================
+\ابتدا{مشق}\شناخت{مشق_مزاحمتی-تابع_ٹ}
+شکل \حوالہ{شکل_مزاحمتی-مشق_تابع_ٹ} میں \عددی{I_x} دریافت کریں۔
+\begin{figure}
+\centering
+\includegraphics{figResistancesQuizControlledSourceE}
+\caption{مشق \حوالہ{مشق_مزاحمتی-تابع_ٹ} کا دور۔}
+\label{شکل_مزاحمتی-مشق_تابع_ٹ}
+\end{figure}
+\انتہا{مشق}
+%==================
