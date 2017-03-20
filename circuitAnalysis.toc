@@ -8,7 +8,7 @@
 \contentsline {subsection}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 4}.\RL {\arabicfont 1}}تابع منبع}{\RL {\arabicfont 13}}
 \contentsline {chapter}{\numberline {\RL {\arabicfont 2}}مزاحمتی ادوار}{\RL {\arabicfont 21}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 2}}قانون اوہم}{\RL {\arabicfont 21}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 2}}قوانین کرچاف}{\RL {\arabicfont 27}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 2}}قوانین کرخوف}{\RL {\arabicfont 27}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 2}}سلسلہ وار جڑے پرزوں میں رو}{\RL {\arabicfont 39}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 2}}تقسیمِ دباو}{\RL {\arabicfont 40}}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 2}}متعدد سلسلہ وار مزاحمت}{\RL {\arabicfont 42}}
@@ -22,3 +22,4 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 13}.\RL {\arabicfont 2}}تابع منبع استعمال کرتے ادوار}{\RL {\arabicfont 69}}
 \contentsline {chapter}{\numberline {\RL {\arabicfont 3}}جوڑ اور دائری تجزیہ}{\RL {\arabicfont 77}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 3}}تجزیہ جوڑ}{\RL {\arabicfont 77}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 3}}غیر تابع منبع استعمال کرنے والے ادوار}{\RL {\arabicfont 79}}

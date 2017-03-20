@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  19 MAR 2017 16:33
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  20 MAR 2017 13:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1221,11 +1221,8 @@ Writing index file circuitAnalysis.idx
 (./circuitAnalysis.aux
 LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 3.
- (./tex/cktBasics.aux) (./tex/cktResistive.aux
-
-LaTeX Warning: Label `مثال_مزاحمتی_تابع_مثال_پ' multiply defined.
-
-) (./tex/cktNodalLoop.aux))
+ (./tex/cktBasics.aux) (./tex/cktResistive.aux)
+(./tex/cktNodalLoop.aux))
 \openout1 = `circuitAnalysis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
@@ -2874,10 +2871,10 @@ File: ./fig/figResistive/figResistanceKVLdependentEquations.pdf Graphic file (t
 ype QTm)
 
 <use  "./fig/figResistive/figResistanceKVLdependentEquations.pdf" >
-Overfull \hbox (3.4895pt too wide) in paragraph at lines 719--720
+Overfull \hbox (4.45386pt too wide) in paragraph at lines 719--720
 [][]\EU1/JameelNooriNastaleeq(0)/m/n/10 شکل []\EU1/Scheherazade(0)/m/sl/10 21[]
 \EU1/JameelNooriNastaleeq(0)/m/n/10 .[]\EU1/Scheherazade(0)/m/sl/10 2[][] \EU1/
-JameelNooriNastaleeq(0)/m/n/10 میں کرچاف قانون دباو استعمال کرتے ہوئے کل تین عد
+JameelNooriNastaleeq(0)/m/n/10 میں کرخوف قانون دباو استعمال کرتے ہوئے کل تین عد
 د مساوات لکھنا ممکن ہے۔یہ مساوات بائیں بند دائرہ  $\OML/zplm/m/it/10 abcfa$ \EU
 1/JameelNooriNastaleeq(0)/m/n/10 ، دائیں بند دائرہ  $\OML/zplm/m/it/10 afcdea$[
 ]
@@ -3120,11 +3117,11 @@ type QTm)
 File: ./fig/figResistive/figResistancesQuizControlledSourceB.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figResistive/figResistancesQuizControlledSourceB.pdf" > [73]
+<use  "./fig/figResistive/figResistancesQuizControlledSourceB.pdf" >
 File: ./fig/figResistive/figResistancesQuizControlledSourceC.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figResistive/figResistancesQuizControlledSourceC.pdf" >
+<use  "./fig/figResistive/figResistancesQuizControlledSourceC.pdf" > [73]
 File: ./fig/figResistive/figResistancesQuizControlledSourceD.pdf Graphic file (
 type QTm)
 
@@ -3132,7 +3129,7 @@ type QTm)
 File: ./fig/figResistive/figResistancesQuizControlledSourceE.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figResistive/figResistancesQuizControlledSourceE.pdf" > [74])
+<use  "./fig/figResistive/figResistancesQuizControlledSourceE.pdf" >) [74]
 [75]
 \openout2 = `./tex/cktNodalLoop.aux'.
 
@@ -3142,11 +3139,18 @@ type QTm)
 
 ]
 باب \RL {\arabicfont 3}.
-) [77] [78
+File: ./fig/figNodalLoop/figNodalCurrentsFromNodeVoltages.pdf Graphic file (typ
+e QTm)
+<use  "./fig/figNodalLoop/figNodalCurrentsFromNodeVoltages.pdf" > [77]
+Underfull \vbox (badness 3525) has occurred while \output is active []
 
+ [78]
+File: ./fig/figNodalLoop/figNodalIndependantSourcesNodalEquationsA.pdf Graphic 
+file (type QTm)
 
-] (./circuitAnalysis.aux (./tex/cktBasics.aux)
-(./tex/cktResistive.aux) (./tex/cktNodalLoop.aux))
+<use  "./fig/figNodalLoop/figNodalIndependantSourcesNodalEquationsA.pdf" >
+[79]) [80] (./circuitAnalysis.aux (./tex/cktBasics.aux) (./tex/cktResistive.aux
+) (./tex/cktNodalLoop.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.43109pt have occurred.
@@ -3154,17 +3158,14 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 23715 strings out of 493918
- 504454 string characters out of 6150562
- 556018 words of memory out of 5000000
- 26436 multiletter control sequences out of 15000+600000
+ 23732 strings out of 493918
+ 504978 string characters out of 6150562
+ 557086 words of memory out of 5000000
+ 26446 multiletter control sequences out of 15000+600000
  58309 words of font info for 209 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  53i,19n,50p,10476b,1357s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (82 pages).
+Output written on circuitAnalysis.pdf (84 pages).

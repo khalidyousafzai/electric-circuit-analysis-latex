@@ -182,7 +182,7 @@
 \indexentry{open circuit}{\RL {\arabicfont  23}}
 \indexentry{کھلا دور}{\RL {\arabicfont  23}}
 \indexentry{Kirchoff's laws}{\RL {\arabicfont  27}}
-\indexentry{قانون کرچاف}{\RL {\arabicfont  27}}
+\indexentry{قانون کرخوف}{\RL {\arabicfont  27}}
 \indexentry{branch}{\RL {\arabicfont  27}}
 \indexentry{شاخ}{\RL {\arabicfont  27}}
 \indexentry{loop}{\RL {\arabicfont  27}}
@@ -195,11 +195,11 @@
 \indexentry{شاخ}{\RL {\arabicfont  28}}
 \indexentry{KCL}{\RL {\arabicfont  29}}
 \indexentry{Kirchoff! current law}{\RL {\arabicfont  29}}
-\indexentry{کرچاف!قانون برائے رو}{\RL {\arabicfont  29}}
+\indexentry{کرخوف!قانون برائے رو}{\RL {\arabicfont  29}}
 \indexentry{simultaneous equations}{\RL {\arabicfont  29}}
 \indexentry{ہمزاد مساوات}{\RL {\arabicfont  29}}
 \indexentry{Kirchoff!voltage law}{\RL {\arabicfont  35}}
-\indexentry{کرچاف!قانون دباو}{\RL {\arabicfont  35}}
+\indexentry{کرخوف!قانون دباو}{\RL {\arabicfont  35}}
 \indexentry{node}{\RL {\arabicfont  37}}
 \indexentry{جوڑ}{\RL {\arabicfont  37}}
 \indexentry{diving board}{\RL {\arabicfont  38}}
@@ -242,9 +242,11 @@
 \indexentry{افزائش دباو}{\RL {\arabicfont  71}}
 \indexentry{current source!voltage controlled}{\RL {\arabicfont  71}}
 \indexentry{منبع رو!دباو تابع}{\RL {\arabicfont  71}}
-\indexentry{voltage source!current controlled}{\RL {\arabicfont  73}}
-\indexentry{منبع دباو!رو تابع}{\RL {\arabicfont  73}}
+\indexentry{voltage source!current controlled}{\RL {\arabicfont  71}}
+\indexentry{منبع دباو!رو تابع}{\RL {\arabicfont  71}}
 \indexentry{gain!transconductance}{\RL {\arabicfont  73}}
 \indexentry{افزائش موصلیت نما}{\RL {\arabicfont  73}}
 \indexentry{amplifier!transconductance}{\RL {\arabicfont  73}}
 \indexentry{ایمپلیفائر!موصلیت نما}{\RL {\arabicfont  73}}
+\indexentry{nodal analysis}{\RL {\arabicfont  77}}
+\indexentry{جوڑ!ترکیب}{\RL {\arabicfont  77}}
