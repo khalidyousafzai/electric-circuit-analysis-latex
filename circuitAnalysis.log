@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  20 MAR 2017 13:43
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  21 MAR 2017 14:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2544,601 +2544,40 @@ LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/bx/n' will be
  [3] [4
 
 ]
-\openout2 = `./tex/cktBasics.aux'.
+\openout2 = `./tex/cktNodalLoop.aux'.
 
- (./tex/cktBasics.tex
-باب \RL {\arabicfont 1}.
+ (./tex/cktNodalLoop.tex
+LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/m/sl' will be
+(Font)              scaled to size 10.0pt on input line 1.
+ [76
+
+
+
+
+]
+باب \RL {\arabicfont 3}.
 LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/m/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/bx/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/bx/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
+LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 4.
+LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/bx/n' will be
+(Font)              scaled to size 14.4pt on input line 4.
 LaTeX Font Info:    Font shape `EU1/XBTabrizBold(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 2.
+(Font)              scaled to size 10.0pt on input line 5.
 LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/m/n' will be
-(Font)              scaled to size 7.6pt on input line 2.
+(Font)              scaled to size 7.6pt on input line 5.
 LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 2.
+(Font)              scaled to size 8.0pt on input line 5.
 LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 2.
+(Font)              scaled to size 6.0pt on input line 5.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.5pt on input line 2.
+(Font)              scaled to size 9.5pt on input line 5.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 5.70004pt on input line 2.
-File: ./fig/figBasicConcepts/figBasicSIprefix.pdf Graphic file (type QTm)
-<use  "./fig/figBasicConcepts/figBasicSIprefix.pdf" >
-LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 10.
-LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/bx/n' will be
-(Font)              scaled to size 14.4pt on input line 10.
- [1
-
-
-]
-File: ./fig/figBasicConcepts/figBasicCurrentAndDirection.pdf Graphic file (type
- QTm)
-
-<use  "./fig/figBasicConcepts/figBasicCurrentAndDirection.pdf" >
-File: ./fig/figBasicConcepts/figBasicVoltageCurrentRelation.pdf Graphic file (t
-ype QTm)
-
-<use  "./fig/figBasicConcepts/figBasicVoltageCurrentRelation.pdf" >
-File: ./fig/figBasicConcepts/figBasicOhmLawPassiveConvention.pdf Graphic file (
-type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicOhmLawPassiveConvention.pdf" >
-LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/m/sl' will be
-(Font)              scaled to size 10.0pt on input line 54.
- [2]
-[3]
-File: ./fig/figBasicConcepts/figBasicVoltageHeight.pdf Graphic file (type QTm)
- <use  "./fig/figBasicConcepts/figBasicVoltageHeight.pdf" >
-File: ./fig/figBasicConcepts/figBasicVoltagePositiveNegativeSides.pdf Graphic f
-ile (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicVoltagePositiveNegativeSides.pdf" >
-[4]
-File: ./fig/figBasicConcepts/figBasicOhmLawExamples.pdf Graphic file (type QTm)
-
- <use  "./fig/figBasicConcepts/figBasicOhmLawExamples.pdf" >
-File: ./fig/figBasicConcepts/figBasicOhmLawGeneral.pdf Graphic file (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicOhmLawGeneral.pdf" > [5] [6]
-File: ./fig/figBasicConcepts/figBasicOhmsLaw.pdf Graphic file (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicOhmsLaw.pdf" > [7]
-Missing character: There is no ا in font zplmr7m!
-Missing character: There is no ل in font zplmr7m!
-Missing character: There is no ف in font zplmr7m!
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 185.
- [8]
-File: ./fig/figBasicConcepts/figBasicPassiveSignExample.pdf Graphic file (type 
-QTm)
-
-<use  "./fig/figBasicConcepts/figBasicPassiveSignExample.pdf" >
-File: ./fig/figBasicConcepts/figBasicPassiveSignQuiz.pdf Graphic file (type QTm
-)
-
-<use  "./fig/figBasicConcepts/figBasicPassiveSignQuiz.pdf" >
-File: ./fig/figBasicConcepts/figBasicPowerExample.pdf Graphic file (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicPowerExample.pdf" > [9]
-File: ./fig/figBasicConcepts/figBasicPowerQuiz.pdf Graphic file (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicPowerQuiz.pdf" > [10]
-LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 267.
-File: ./fig/figBasicConcepts/figBasicIndependentVoltageSource.pdf Graphic file 
-(type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicIndependentVoltageSource.pdf" >
-File: ./fig/figBasicConcepts/figBasicIndependentCurrentSource.pdf Graphic file 
-(type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicIndependentCurrentSource.pdf" > [11]
-File: ./fig/figBasicConcepts/figBasicInternalResistanceExample.pdf Graphic file
- (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicInternalResistanceExample.pdf" >
-LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 297.
-File: ./fig/figBasicConcepts/figBasicInternalResistanceQuiz.pdf Graphic file (t
-ype QTm)
-
-<use  "./fig/figBasicConcepts/figBasicInternalResistanceQuiz.pdf" > [12]
-File: ./fig/figBasicConcepts/figBasicDependentVoltageSource.pdf Graphic file (t
-ype QTm)
-
-<use  "./fig/figBasicConcepts/figBasicDependentVoltageSource.pdf" >
-File: ./fig/figBasicConcepts/figBasicDependentCurrentSource.pdf Graphic file (t
-ype QTm)
-
-<use  "./fig/figBasicConcepts/figBasicDependentCurrentSource.pdf" >
-File: ./fig/figBasicConcepts/figBasicDependentResistanceSource.pdf Graphic file
- (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicDependentResistanceSource.pdf" >
-File: ./fig/figBasicConcepts/figBasicDependentConductanceSource.pdf Graphic fil
-e (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicDependentConductanceSource.pdf" >
-Overfull \hbox (1.99438pt too wide) in paragraph at lines 349--351
-[][]\EU1/JameelNooriNastaleeq(0)/m/n/10 غیر تابع منبع کو گول دائرے سے ظاہر کیا 
-جاتا ہے جبکہ تابع منبع کو ہیرا شکل سے ظاہر کیا جاتا ہے۔شکل []\EU1/Scheherazade(
-0)/m/sl/10 17[]\EU1/JameelNooriNastaleeq(0)/m/n/10 .[]\EU1/Scheherazade(0)/m/sl
-/10 1[][] \EU1/JameelNooriNastaleeq(0)/m/n/10 میں چار اقسام کے تابع منبع دکھائے
- گئے ہیں۔شکل-[]
- []
-
-File: ./fig/figBasicConcepts/figBasicDependentVoltageSourceExample.pdf Graphic 
-file (type QTm)
-<use  "./fig/figBasicConcepts/figBasicDependentVoltageSourceExample.pdf" >
-File: ./fig/figBasicConcepts/figBasicDependentCurrentSourceExample.pdf Graphic 
-file (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicDependentCurrentSourceExample.pdf" >
-[13]
-File: ./fig/figBasicConcepts/figBasicDependentVoltageSourceExamplePower.pdf Gra
-phic file (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicDependentVoltageSourceExamplePower.pdf" >
-File: ./fig/figBasicConcepts/figBasicDependentCurrentSourceExamplePower.pdf Gra
-phic file (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicDependentCurrentSourceExamplePower.pdf" >
-[14]
-File: ./fig/figBasicConcepts/figBasicExampleTwoSourceThreeResistorPower.pdf Gra
-phic file (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicExampleTwoSourceThreeResistorPower.pdf" >
-File: ./fig/figBasicConcepts/figBasicPowerExampleMultiSupplies.pdf Graphic file
- (type QTm)
-<use  "./fig/figBasicConcepts/figBasicPowerExampleMultiSupplies.pdf" >
-File: ./fig/figBasicConcepts/figBasicChargeSuppliedToBox.pdf Graphic file (type
- QTm)
-
-<use  "./fig/figBasicConcepts/figBasicChargeSuppliedToBox.pdf" >
-File: ./fig/figBasicConcepts/figBasicChargeVersusCurrent.pdf Graphic file (type
- QTm)
-
-<use  "./fig/figBasicConcepts/figBasicChargeVersusCurrent.pdf" >
-Overfull \hbox (94.7709pt too wide) in paragraph at lines 446--447
- [][][][][][] 
- []
-
-[15] [16]
-File: ./fig/figBasicConcepts/figBasicChargeVersusCurrentAnswer.pdf Graphic file
- (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicChargeVersusCurrentAnswer.pdf" > [17]
-File: ./fig/figBasicConcepts/figBasicPowerSuppliedToBox.pdf Graphic file (type 
-QTm)
-
-<use  "./fig/figBasicConcepts/figBasicPowerSuppliedToBox.pdf" > [18]) [19]
-\openout2 = `./tex/cktResistive.aux'.
-
-
-(./tex/cktResistive.tex [20
-
-
-
-]
-باب \RL {\arabicfont 2}.
-File: ./fig/figResistive/figResistiveStraightLines.pdf Graphic file (type QTm)
-<use  "./fig/figResistive/figResistiveStraightLines.pdf" >
-File: ./fig/figResistive/figResistiveOhmLaw.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistiveOhmLaw.pdf" > [21]
-File: ./fig/figResistive/figResistiveIncadecentBulb.pdf Graphic file (type QTm)
-
-
-<use  "./fig/figResistive/figResistiveIncadecentBulb.pdf" >
-File: ./fig/figResistive/figResistanceOhmLawPower.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistanceOhmLawPower.pdf" > [22]
-File: ./fig/figResistive/figResistanceVariableResistance.pdf Graphic file (type
- QTm)
-
-<use  "./fig/figResistive/figResistanceVariableResistance.pdf" >
-Overfull \hbox (13.23633pt too wide) in paragraph at lines 104--105
- [][][][][][] 
- []
-
-File: ./fig/figResistive/figResistanceShortCircuit.pdf Graphic file (type QTm)
-<use  "./fig/figResistive/figResistanceShortCircuit.pdf" >
-File: ./fig/figResistive/figResistanceOpenCircuit.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistanceOpenCircuit.pdf" > [23]
-File: ./fig/figResistive/figResistanceExampleA.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistanceExampleA.pdf" >
-File: ./fig/figResistive/figResistanceExampleB.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistanceExampleB.pdf" >
-File: ./fig/figResistive/figResistanceExampleC.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistanceExampleC.pdf" >
-Overfull \hbox (4.14236pt too wide) in paragraph at lines 158--159
-[][][][][] []
- []
-
-[24]
-File: ./fig/figResistive/figResistanceExampleD.pdf Graphic file (type QTm)
- <use  "./fig/figResistive/figResistanceExampleD.pdf" >
-File: ./fig/figResistive/figResistanceExampleE.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistanceExampleE.pdf" > [25]
-File: ./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizA.pdf Graphic
- file (type QTm)
-
-<use  "./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizA.pdf" >
-File: ./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizB.pdf Graphic
- file (type QTm)
-
-<use  "./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizB.pdf" >
-File: ./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizC.pdf Graphic
- file (type QTm)
-
-<use  "./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizC.pdf" >
-[26]
-LaTeX Font Info:    Font shape `EU1/Scheherazade(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 289.
-File: ./fig/figResistive/figResistanceNodesAndLoopsA.pdf Graphic file (type QTm
-)
- <use  "./fig/figResistive/figResistanceNodesAndLoopsA.pdf" >
-File: ./fig/figResistive/figResistanceNodesAndLoopsB.pdf Graphic file (type QTm
-)
-
-<use  "./fig/figResistive/figResistanceNodesAndLoopsB.pdf" > [27] [28]
-File: ./fig/figResistive/figResistanceKCLgoats.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistanceKCLgoats.pdf" >
-File: ./fig/figResistive/figResistanceKCLgoatsSurface.pdf Graphic file (type QT
-m)
-
-<use  "./fig/figResistive/figResistanceKCLgoatsSurface.pdf" > [29]
-File: ./fig/figResistive/figResistanceKCLexampleBranchesOnly.pdf Graphic file (
-type QTm)
-
-<use  "./fig/figResistive/figResistanceKCLexampleBranchesOnly.pdf" >
-File: ./fig/figResistive/figResistanceKCLexampleBranchesOnlySolution.pdf Graphi
-c file (type QTm)
-
-<use  "./fig/figResistive/figResistanceKCLexampleBranchesOnlySolution.pdf" >
-[30]
-File: ./fig/figResistive/figResistanceKCLwithControlledSources.pdf Graphic file
- (type QTm)
- <use  "./fig/figResistive/figResistanceKCLwithControlledSources.pdf" >
-[31]
-File: ./fig/figResistive/figResistanceKCLexampleA.pdf Graphic file (type QTm)
- <use  "./fig/figResistive/figResistanceKCLexampleA.pdf" >
-File: ./fig/figResistive/figResistanceKCLexampleB.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistanceKCLexampleB.pdf" > [32]
-File: ./fig/figResistive/figResistanceKCLexampleC.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistanceKCLexampleC.pdf" >
-File: ./fig/figResistive/figResistanceKCLsurfacesA.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistanceKCLsurfacesA.pdf" >
-File: ./fig/figResistive/figResistanceKCLsurfacesB.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistanceKCLsurfacesB.pdf" > [33]
-File: ./fig/figResistive/figResistanceKCLquizA.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistanceKCLquizA.pdf" >
-File: ./fig/figResistive/figResistanceKCLquizB.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistanceKCLquizB.pdf" >
-Overfull \hbox (35.25871pt too wide) in paragraph at lines 557--558
- [][][][][][] 
- []
-
-[34]
-File: ./fig/figResistive/figResistanceKCLquizC.pdf Graphic file (type QTm)
- <use  "./fig/figResistive/figResistanceKCLquizC.pdf" >
-File: ./fig/figResistive/figResistanceKCLquizD.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistanceKCLquizD.pdf" >
-File: ./fig/figResistive/figResistanceKVLvoltageRisevoltageFallA.pdf Graphic fi
-le (type QTm)
-
-<use  "./fig/figResistive/figResistanceKVLvoltageRisevoltageFallA.pdf" >
-File: ./fig/figResistive/figResistanceKVLvoltageRisevoltageFallB.pdf Graphic fi
-le (type QTm)
-
-<use  "./fig/figResistive/figResistanceKVLvoltageRisevoltageFallB.pdf" >
-[35]
-File: ./fig/figResistive/figResistanceKVLasHeight.pdf Graphic file (type QTm)
- <use  "./fig/figResistive/figResistanceKVLasHeight.pdf" >
-File: ./fig/figResistive/figResistanceKVLasHeightCircuit.pdf Graphic file (type
- QTm)
-
-<use  "./fig/figResistive/figResistanceKVLasHeightCircuit.pdf" > [36]
-File: ./fig/figResistive/figResistanceKVLgoats.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistanceKVLgoats.pdf" > [37]
-File: ./fig/figResistive/figResistanceKVLexampleSwimmingPool.pdf Graphic file (
-type QTm)
-
-<use  "./fig/figResistive/figResistanceKVLexampleSwimmingPool.pdf" >
-File: ./fig/figResistive/figResistanceKVLexampleA.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistanceKVLexampleA.pdf" >
-File: ./fig/figResistive/figResistanceKVLdependentEquations.pdf Graphic file (t
-ype QTm)
-
-<use  "./fig/figResistive/figResistanceKVLdependentEquations.pdf" >
-Overfull \hbox (4.45386pt too wide) in paragraph at lines 719--720
-[][]\EU1/JameelNooriNastaleeq(0)/m/n/10 شکل []\EU1/Scheherazade(0)/m/sl/10 21[]
-\EU1/JameelNooriNastaleeq(0)/m/n/10 .[]\EU1/Scheherazade(0)/m/sl/10 2[][] \EU1/
-JameelNooriNastaleeq(0)/m/n/10 میں کرخوف قانون دباو استعمال کرتے ہوئے کل تین عد
-د مساوات لکھنا ممکن ہے۔یہ مساوات بائیں بند دائرہ  $\OML/zplm/m/it/10 abcfa$ \EU
-1/JameelNooriNastaleeq(0)/m/n/10 ، دائیں بند دائرہ  $\OML/zplm/m/it/10 afcdea$[
-]
- []
-
-[38]
-File: ./fig/figResistive/figResistanceSeriesConnectedSameCurrent.pdf Graphic fi
-le (type QTm)
- <use  "./fig/figResistive/figResistanceSeriesConnectedSameCurrent.pdf" >
-File: ./fig/figResistive/figResistanceVoltageDivider.pdf Graphic file (type QTm
-)
-
-<use  "./fig/figResistive/figResistanceVoltageDivider.pdf" > [39] [40] [41]
-[42]
-File: ./fig/figResistive/figResistanceVoltageDividerMultipleResistors.pdf Graph
-ic file (type QTm)
-
-<use  "./fig/figResistive/figResistanceVoltageDividerMultipleResistors.pdf" >
-Overfull \hbox (24.04686pt too wide) in paragraph at lines 879--880
- [][][][][][] 
- []
-
-File: ./fig/figResistive/figResistanceVoltageDividerMultipleResistorsEquivalent
-.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistanceVoltageDividerMultipleResistorsEquivalen
-t.pdf" >
-Overfull \hbox (3.80127pt too wide) in paragraph at lines 885--886
- [][][][][][] 
- []
-
-[43]
-File: ./fig/figResistive/figResistancePowerFedViaLongWireA.pdf Graphic file (ty
-pe QTm)
- <use  "./fig/figResistive/figResistancePowerFedViaLongWireA.pdf" >
-File: ./fig/figResistive/figResistancePowerFedViaLongWireB.pdf Graphic file (ty
-pe QTm)
-
-<use  "./fig/figResistive/figResistancePowerFedViaLongWireB.pdf" >
-Overfull \hbox (0.96486pt too wide) in paragraph at lines 923--924
- [][][][][][] 
- []
-
-File: ./fig/figResistive/figResistancePowerFedViaLongWireC.pdf Graphic file (ty
-pe QTm)
-<use  "./fig/figResistive/figResistancePowerFedViaLongWireC.pdf" >
-Overfull \hbox (0.96486pt too wide) in paragraph at lines 928--929
- [][][][][][] 
- []
-
-[44]
-File: ./fig/figResistive/figResistanceVoltageDividerMultipleSuppliesAndResistor
-s.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistanceVoltageDividerMultipleSuppliesAndResisto
-rs.pdf" >
-File: ./fig/figResistive/figResistanceVoltageDividerMultipleSourcesAndResistors
-Equivalent.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistanceVoltageDividerMultipleSourcesAndResistor
-sEquivalent.pdf" >
-File: ./fig/figResistive/figResistancesInParallel.pdf Graphic file (type QTm)
- <use  "./fig/figResistive/figResistancesInParallel.pdf" >
-[45] [46]
-File: ./fig/figResistive/figResistancesCurrentDivider.pdf Graphic file (type QT
-m)
- <use  "./fig/figResistive/figResistancesCurrentDivider.pdf" >
-File: ./fig/figResistive/figResistancesParallelResisitorsEquivalent.pdf Graphic
- file (type QTm)
-
-<use  "./fig/figResistive/figResistancesParallelResisitorsEquivalent.pdf" >
-[47] [48]
-File: ./fig/figResistive/figResistancesMultipleInParallel.pdf Graphic file (typ
-e QTm)
- <use  "./fig/figResistive/figResistancesMultipleInParallel.pdf" >
-File: ./fig/figResistive/figResistancesMultipleParallelResisitorsEquivalent.pdf
- Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistancesMultipleParallelResisitorsEquivalent.pd
-f" >
-Overfull \hbox (1.81715pt too wide) in paragraph at lines 1165--1166
- [][][][][][] 
- []
-
-
-Overfull \hbox (1.60027pt too wide) in paragraph at lines 1173--1175
-[][]\EU1/JameelNooriNastaleeq(0)/m/n/10 مثال  []\EU1/Scheherazade(0)/m/sl/10 14
-[]\EU1/JameelNooriNastaleeq(0)/m/n/10 .[]\EU1/Scheherazade(0)/m/sl/10 2[]\EU1/J
-ameelNooriNastaleeq(0)/m/n/10 : شکل []\EU1/Scheherazade(0)/m/sl/10 28[]\EU1/Jam
-eelNooriNastaleeq(0)/m/n/10 .[]\EU1/Scheherazade(0)/m/sl/10 2[][]\EU1/JameelNoo
-riNastaleeq(0)/m/n/10 -الف میں تین عدد مزاحمت استعمال ہوتے ہیں۔ان کی قیمتیں  $[
-] []$ ،  $[] []$  اور  $[] []$  ہیں۔منبع رو  $[] []$  ہے۔مساوی[]
- []
-
-[49] [50]
-File: ./fig/figResistive/figResistanceQuizParallelResistorsCurrent.pdf Graphic 
-file (type QTm)
-
-<use  "./fig/figResistive/figResistanceQuizParallelResistorsCurrent.pdf" >
-[51]
-File: ./fig/figResistive/figResistanceQuizSeriesResistorsVoltage.pdf Graphic fi
-le (type QTm)
- <use  "./fig/figResistive/figResistanceQuizSeriesResistorsVoltage.pdf" >
-[52]
-File: ./fig/figResistive/figResistancesMixedSeriesParallelA.pdf Graphic file (t
-ype QTm)
- <use  "./fig/figResistive/figResistancesMixedSeriesParallelA.pdf" >
-File: ./fig/figResistive/figResistancesMixedSeriesParallelB.pdf Graphic file (t
-ype QTm)
-
-<use  "./fig/figResistive/figResistancesMixedSeriesParallelB.pdf" >
-File: ./fig/figResistive/figResistancesMixedSeriesParallelC.pdf Graphic file (t
-ype QTm)
-
-<use  "./fig/figResistive/figResistancesMixedSeriesParallelC.pdf" > [53]
-File: ./fig/figResistive/figResistancesMixedSeriesParallelD.pdf Graphic file (t
-ype QTm)
-
-<use  "./fig/figResistive/figResistancesMixedSeriesParallelD.pdf" >
-File: ./fig/figResistive/figResistancesMixedSeriesParallelE.pdf Graphic file (t
-ype QTm)
-
-<use  "./fig/figResistive/figResistancesMixedSeriesParallelE.pdf" >
-File: ./fig/figResistive/figResistancesMixedSeriesParallelF.pdf Graphic file (t
-ype QTm)
-
-<use  "./fig/figResistive/figResistancesMixedSeriesParallelF.pdf" >
-File: ./fig/figResistive/figResistancesMixedSeriesParallelFb.pdf Graphic file (
-type QTm)
-
-<use  "./fig/figResistive/figResistancesMixedSeriesParallelFb.pdf" >
-File: ./fig/figResistive/figResistancesMixedSeriesParallelG.pdf Graphic file (t
-ype QTm)
-
-<use  "./fig/figResistive/figResistancesMixedSeriesParallelG.pdf" >
-File: ./fig/figResistive/figResistancesMixedSeriesParallelH.pdf Graphic file (t
-ype QTm)
-
-<use  "./fig/figResistive/figResistancesMixedSeriesParallelH.pdf" >
-File: ./fig/figResistive/figResistancesMixedSeriesParallelI.pdf Graphic file (t
-ype QTm)
-
-<use  "./fig/figResistive/figResistancesMixedSeriesParallelI.pdf" > [54]
-[55]
-File: ./fig/figResistive/figResistancesQuizMixedSeriesParallelA.pdf Graphic fil
-e (type QTm)
- <use  "./fig/figResistive/figResistancesQuizMixedSeriesParallelA.pdf" >
-[56]
-File: ./fig/figResistive/figResistancesRating.pdf Graphic file (type QTm)
- <use  "./fig/figResistive/figResistancesRating.pdf" > [57]
-File: ./fig/figResistive/figResistancesMixedSolutionExampleA.pdf Graphic file (
-type QTm)
-
-<use  "./fig/figResistive/figResistancesMixedSolutionExampleA.pdf" >
-File: ./fig/figResistive/figResistancesMixedSolutionExampleB.pdf Graphic file (
-type QTm)
-
-<use  "./fig/figResistive/figResistancesMixedSolutionExampleB.pdf" >
-Overfull \hbox (2.21207pt too wide) in paragraph at lines 1462--1463
- [][][][][][] 
- []
-
-File: ./fig/figResistive/figResistancesMixedSolutionExampleC.pdf Graphic file (
-type QTm)
-<use  "./fig/figResistive/figResistancesMixedSolutionExampleC.pdf" > [58]
-[59]
-File: ./fig/figResistive/figResistancesMixedSolutionExampleD.pdf Graphic file (
-type QTm)
- <use  "./fig/figResistive/figResistancesMixedSolutionExampleD.pdf" >
-[60] [61]
-File: ./fig/figResistive/figResistancesMixedSolutionQuizA.pdf Graphic file (typ
-e QTm)
- <use  "./fig/figResistive/figResistancesMixedSolutionQuizA.pdf" >
-File: ./fig/figResistive/figResistancesMixedSolutionQuizB.pdf Graphic file (typ
-e QTm)
-
-<use  "./fig/figResistive/figResistancesMixedSolutionQuizB.pdf" > [62]
-File: ./fig/figResistive/figResistancesMixedSolutionQuizD.pdf Graphic file (typ
-e QTm)
-
-<use  "./fig/figResistive/figResistancesMixedSolutionQuizD.pdf" >
-File: ./fig/figResistive/figResistancesMixedSolutionQuizE.pdf Graphic file (typ
-e QTm)
-
-<use  "./fig/figResistive/figResistancesMixedSolutionQuizE.pdf" >
-File: ./fig/figResistive/figResistancesMixedSolutionQuizF.pdf Graphic file (typ
-e QTm)
-
-<use  "./fig/figResistive/figResistancesMixedSolutionQuizF.pdf" > [63]
-File: ./fig/figResistive/figResistancesYDeltaA.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistancesYDeltaA.pdf" > [64]
-File: ./fig/figResistive/figResistancesYDeltaB.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistancesYDeltaB.pdf" >
-File: ./fig/figResistive/figResistancesYDeltaC.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistancesYDeltaC.pdf" > [65]
-File: ./fig/figResistive/figResistancesDeltaReplacedWithY.pdf Graphic file (typ
-e QTm)
-
-<use  "./fig/figResistive/figResistancesDeltaReplacedWithY.pdf" >
-File: ./fig/figResistive/figResistancesDeltaReplacedWithYb.pdf Graphic file (ty
-pe QTm)
-
-<use  "./fig/figResistive/figResistancesDeltaReplacedWithYb.pdf" > [66]
-File: ./fig/figResistive/figResistancesQuizYDeltaA.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistancesQuizYDeltaA.pdf" > [67]
-File: ./fig/figResistive/figResistancesQuizYDeltaB.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistancesQuizYDeltaB.pdf" >
-File: ./fig/figResistive/figResistancesQuizYDeltaC.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistancesQuizYDeltaC.pdf" > [68]
-File: ./fig/figResistive/figResistancesExampleControlledSourceA.pdf Graphic fil
-e (type QTm)
-
-<use  "./fig/figResistive/figResistancesExampleControlledSourceA.pdf" >
-[69]
-File: ./fig/figResistive/figResistancesExampleControlledSourceB.pdf Graphic fil
-e (type QTm)
- <use  "./fig/figResistive/figResistancesExampleControlledSourceB.pdf" >
-[70]
-File: ./fig/figResistive/figResistancesExampleControlledSourceC.pdf Graphic fil
-e (type QTm)
- <use  "./fig/figResistive/figResistancesExampleControlledSourceC.pdf" >
-File: ./fig/figResistive/figResistancesExampleControlledSourceCequivalent.pdf G
-raphic file (type QTm)
-
-<use  "./fig/figResistive/figResistancesExampleControlledSourceCequivalent.pdf"
- >
-File: ./fig/figResistive/figResistancesExampleControlledSourceD.pdf Graphic fil
-e (type QTm)
- <use  "./fig/figResistive/figResistancesExampleControlledSourceD.pdf" >
-[71] [72]
-File: ./fig/figResistive/figResistancesQuizControlledSourceA.pdf Graphic file (
-type QTm)
- <use  "./fig/figResistive/figResistancesQuizControlledSourceA.pdf" >
-File: ./fig/figResistive/figResistancesQuizControlledSourceB.pdf Graphic file (
-type QTm)
-
-<use  "./fig/figResistive/figResistancesQuizControlledSourceB.pdf" >
-File: ./fig/figResistive/figResistancesQuizControlledSourceC.pdf Graphic file (
-type QTm)
-
-<use  "./fig/figResistive/figResistancesQuizControlledSourceC.pdf" > [73]
-File: ./fig/figResistive/figResistancesQuizControlledSourceD.pdf Graphic file (
-type QTm)
-
-<use  "./fig/figResistive/figResistancesQuizControlledSourceD.pdf" >
-File: ./fig/figResistive/figResistancesQuizControlledSourceE.pdf Graphic file (
-type QTm)
-
-<use  "./fig/figResistive/figResistancesQuizControlledSourceE.pdf" >) [74]
-[75]
-\openout2 = `./tex/cktNodalLoop.aux'.
-
- (./tex/cktNodalLoop.tex [76
-
-
-
-]
-باب \RL {\arabicfont 3}.
+(Font)              scaled to size 5.70004pt on input line 5.
 File: ./fig/figNodalLoop/figNodalCurrentsFromNodeVoltages.pdf Graphic file (typ
 e QTm)
 <use  "./fig/figNodalLoop/figNodalCurrentsFromNodeVoltages.pdf" > [77]
@@ -3149,23 +2588,26 @@ File: ./fig/figNodalLoop/figNodalIndependantSourcesNodalEquationsA.pdf Graphic
 file (type QTm)
 
 <use  "./fig/figNodalLoop/figNodalIndependantSourcesNodalEquationsA.pdf" >
-[79]) [80] (./circuitAnalysis.aux (./tex/cktBasics.aux) (./tex/cktResistive.aux
-) (./tex/cktNodalLoop.aux))
+[79] [80] [81]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 7.5pt on input line 222.
+) [82] (./circuitAnalysis.aux (./tex/cktBasics.aux)
+(./tex/cktResistive.aux) (./tex/cktNodalLoop.aux))
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 4.43109pt have occurred.
+(Font)              up to 2.26395pt have occurred.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 23732 strings out of 493918
- 504978 string characters out of 6150562
- 557086 words of memory out of 5000000
- 26446 multiletter control sequences out of 15000+600000
- 58309 words of font info for 209 fonts, out of 8000000 for 9000
+ 23300 strings out of 493918
+ 490009 string characters out of 6150562
+ 535226 words of memory out of 5000000
+ 26160 multiletter control sequences out of 15000+600000
+ 40141 words of font info for 151 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 53i,19n,50p,10476b,1357s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,15n,49p,10476b,1208s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (84 pages).
+Output written on circuitAnalysis.pdf (11 pages).

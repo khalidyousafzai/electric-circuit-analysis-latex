@@ -83,27 +83,187 @@ i_R=\frac{v_m-v_n}{R_{mn}}
 \end{figure}
 
 بالائی بائیں جوڑ پر کرخوف قانون رو کی مساوات لکھتے ہیں۔جوڑ سے خارجی رو کو مثبت اور داخلی رو کو منفی لکھتے ہوئے درج ذیل لکھا جا سکتا ہے۔
-\begin{align*}
+\begin{align}\label{مساوات_جوڑ_پہلی_مثال_الف}
 i_1-i_A+i_2&=0
-\end{align*}
+\end{align}
 قانون اوہم استعمال کرتے ہوئے اسے یوں
 \begin{align*}
 \frac{v_1}{R_1}-i_A+\frac{v_1-v_2}{R_2}=0
 \end{align*}
 یا 
-\begin{align}
+\begin{align}\label{مساوات_جوڑ_پہلی_مثال_ب}
 \left( \frac{1}{R_1}+\frac{1}{R_2}\right) v_1 - \left(\frac{1}{R_2}\right) v_2=i_A
 \end{align}
 لکھا جا سکتا ہے۔بالائی دائیں جوڑ کے لئے
-\begin{align*}
+\begin{align}\label{مساوات_جوڑ_پہلی_مثال_پ}
 -i_2+i_3+i_B&=0
-\end{align*}
+\end{align}
 اور
 \begin{align*}
 -\left(\frac{v_1-v_2}{R_1}\right)+\frac{v_2}{R_3}+i_B&=0
 \end{align*}
 یعنی
-\begin{align}
+\begin{align}\label{مساوات_جوڑ_پہلی_مثال_ت}
 -\left(\frac{1}{R_1}\right)v_1+\left(\frac{1}{R_1}+\frac{1}{R_3}\right)v_2=-i_B
 \end{align}
+لکھا جائے گا۔نچلے جوڑ یعنی برقی زمین پر  کرخوف قانون رو کی مساوات لکھتے ہیں۔
+\begin{align}\label{مساوات_جوڑ_پہلی_مثال_ٹ}
+-i_1+i_A-i_3-i_B=0
+\end{align}
+مساوات \حوالہ{مساوات_جوڑ_پہلی_مثال_الف} اور مساوات \حوالہ{مساوات_جوڑ_پہلی_مثال_پ} کے مجموعے کو منفی ایک سے ضرب دینے سے مساوات \حوالہ{مساوات_جوڑ_پہلی_مثال_ٹ} حاصل ہوتا ہے۔مساوات \حوالہ{مساوات_جوڑ_پہلی_مثال_الف}، مساوات \حوالہ{مساوات_جوڑ_پہلی_مثال_پ} اور  مساوات \حوالہ{مساوات_جوڑ_پہلی_مثال_ٹ} میں کسی بھی دو مساواتوں سے تیسری مساوات حاصل کی جا سکتی ہے۔یوں ان میں صرف دو عدد مساوات آزاد مساوات ہیں جبکہ تیسری مساوات تابع مساوات ہے۔شکل \حوالہ{شکل_جوڑ_تین_جوڑ} کے دور میں کل تین عدد جوڑ ہیں۔آپ نے دیکھا کہ اس دور سے صرف دو عدد آزاد مساوات حاصل ہوتے ہیں یعنی \عددی{J=3} کی صورت میں \عددی{J-1=2} آزاد مساوات حاصل ہوتے ہیں۔
+
+
+مساوات \حوالہ{مساوات_جوڑ_پہلی_مثال_ب} اور مساوات \حوالہ{مساوات_جوڑ_پہلی_مثال_ت} کو ایک ساتھ لکھتے ہیں۔
+\begin{gather}
+\begin{aligned}\label{مساوات_جوڑ_آزاد_مساوات_دو_جوڑ}
+\left( \frac{1}{R_1}+\frac{1}{R_2}\right) v_1 - \left(\frac{1}{R_2}\right) v_2&=i_A\\
+-\left(\frac{1}{R_1}\right)v_1+\left(\frac{1}{R_1}+\frac{1}{R_3}\right)v_2&=-i_B
+\end{aligned}
+\end{gather}
+%================
+\ابتدا{مثال}
+شکل \حوالہ{شکل_جوڑ_تین_جوڑ} میں \عددی{i_A=\SI{2}{\milli\ampere}}، \عددی{i_B=\SI{5}{\milli\ampere}}، \عددی{R_1=\SI{4}{\kilo\ohm}}، \عددی{R_2=\SI{6}{\kilo\ohm}} اور \عددی{R_3=\SI{2}{\kilo\ohm}} ہیں۔تمام جوڑ پر دباو حاصل کریں۔
+
+حل:مساوات \حوالہ{مساوات_جوڑ_آزاد_مساوات_دو_جوڑ} میں قیمتیں پُر کرتے ہیں
+\begin{gather}
+\begin{aligned}
+\left( \frac{1}{4000}+\frac{1}{6000}\right) v_1 - \frac{v_2}{6000}&=0.002\\
+-\frac{v_1}{4000}+\left(\frac{1}{4000}+\frac{1}{2000}\right)v_2&=-0.005
+\end{aligned}
+\end{gather}
+ان ہمزاد مساوات کو حل کرنے سے
+\begin{align*}
+v_1&=\frac{32}{13} \, \si{\volt}\\
+v_2&=-\frac{76}{13} \, \si{\volt}
+\end{align*}
+حاصل ہوتا ہے۔
+\انتہا{مثال}
+%=================
+
+
+مساوات \حوالہ{مساوات_جوڑ_آزاد_مساوات_دو_جوڑ} کو \اصطلاح{قالبی مساوات}\فرہنگ{قالبی مساوات}\حاشیہب{matrix equation}\فرہنگ{matrix equation} کی صورت میں لکھتے ہیں۔
+\begin{equation}
+\begin{bmatrix}
+\frac{1}{R_1}+\frac{1}{R_2} & - \frac{1}{R_2}\\[6pt]
+-\frac{1}{R_1}& \frac{1}{R_1}+\frac{1}{R_3}
+\end{bmatrix}
+\begin{bmatrix}
+v_1 \\[6pt]
+v_2
+\end{bmatrix}
+=
+\begin{bmatrix}
+i_A\\[6pt]
+-i_B
+\end{bmatrix}
+\end{equation}
+قالبی مساوات میں
+\begin{align*}
+{\bf{G}}&=
+\begin{bmatrix}
+\frac{1}{R_1}+\frac{1}{R_2} & - \frac{1}{R_2}\\[6pt]
+-\frac{1}{R_1}& \frac{1}{R_1}+\frac{1}{R_3}
+\end{bmatrix}\\
+{\bf{V}}&=
+\begin{bmatrix}
+v_1 \\
+v_2
+\end{bmatrix}\\
+{\bf{I}}&=\begin{bmatrix}
+i_A\\
+-i_B
+\end{bmatrix}
+\end{align*}
+لیتے ہوئے اسے یوں لکھا جا سکتا ہے
+\begin{align*}
+{\bf{G V=I}}
+\end{align*}
+جس سے
+\begin{align*}
+{\bf{V=G^{-1}I}}
+\end{align*}
+حاصل ہوتا ہے لہٰذا
+\begin{equation}\label{مساوات_جوڑ_قالبی_حل_دو_جوڑ}
+\begin{bmatrix}
+v_1 \\[6pt]
+v_2
+\end{bmatrix}
+=
+\begin{bmatrix}
+\frac{1}{R_1}+\frac{1}{R_2} & - \frac{1}{R_2}\\[6pt]
+-\frac{1}{R_1}& \frac{1}{R_1}+\frac{1}{R_3}
+\end{bmatrix}^{-1}
+\begin{bmatrix}
+i_A\\[6pt]
+-i_B
+\end{bmatrix}
+\end{equation}
 لکھا جائے گا۔
+%============
+\ابتدا{مثال}
+درج بالا مثال کو مساوات \حوالہ{مساوات_جوڑ_قالبی_حل_دو_جوڑ} کی مدد سے حل کریں۔
+
+حل:مساوات \حوالہ{مساوات_جوڑ_قالبی_حل_دو_جوڑ} میں دی معلومات پر کرتے ہوئے لکھتے ہیں۔
+\begin{equation*}
+\begin{bmatrix}
+v_1\\[6pt]
+v_2
+\end{bmatrix}
+=
+\begin{bmatrix}
+\frac{1}{2400} & -\frac{1}{6000}\\[6pt]
+-\frac{1}{4000}& \frac{3}{4000}
+\end{bmatrix}^{-1}
+\begin{bmatrix}
+0.002\\[6pt]
+-0.005
+\end{bmatrix}
+\end{equation*}
+قالب \عددی{{\bf{G}}} کا ریاضی معکوس \عددی{{\bf{G}}^{-1}} حاصل کرنے کی خاطر \عددی{{\bf{G}}} کا شریک قالب \عددی{{\bf{G}}_{\text{شریک}}} 
+\begin{align*}
+{\bf{G}}_{\text{شریک}}=
+\begin{bmatrix}   
+ \frac{3}{4000}& \frac{1}{6000}\\[6pt]
+\frac{1}{4000}& \frac{1}{2400}
+\end{bmatrix}
+\end{align*}
+اور قالب کی حتمی قیمت
+\begin{align*}
+\begin{vmatrix}
+\frac{1}{2400} & -\frac{1}{6000}\\
+-\frac{1}{4000}& \frac{3}{4000}
+\end{vmatrix}
+&=\left(\frac{1}{2400} \right)\left( \frac{3}{4000}\right) -\left(-\frac{1}{6000} \right) \left(- \frac{1}{4000}\right)\\
+&=\frac{13}{48\times 10^{6}}
+\end{align*}
+درکار ہوں گے۔یوں
+\begin{align*}
+\begin{bmatrix}
+v_1\\
+v_2
+\end{bmatrix}
+&=
+\frac{48\times 10^{6}}{13} 
+\begin{bmatrix}
+\frac{3}{4000}& \frac{1}{6000}\\[6pt]
+\frac{1}{4000}& \frac{1}{2400}
+\end{bmatrix}
+\begin{bmatrix}
+0.002\\[6pt]
+-0.005
+\end{bmatrix}\\
+&=
+\frac{48 \times 10^{-6}}{13} 
+\begin{bmatrix}
+\frac{2\times 10^{-6}}{3}\\[6pt]
+-\frac{19\times 10^{-3}}{12}
+\end{bmatrix}\\
+&=
+\begin{bmatrix}
+\frac{32}{13} \\[6pt]
+-\frac{76}{13}
+\end{bmatrix}
+\end{align*}
+حاصل ہوتے ہیں یعنی \عددی{v_1=\tfrac{32}{13} \, \si{\volt}} اور \عددی{v_2=-\tfrac{76}{13} \, \si{\volt}} ہیں۔
+\انتہا{مثال}
+%==========================
