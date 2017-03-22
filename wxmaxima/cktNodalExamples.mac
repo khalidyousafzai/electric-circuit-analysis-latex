@@ -12,7 +12,7 @@ R3:2000;
 iA:0.002;
 iB:0.005;
 
-eqns: [(1/R1+1/R2)*va-vb/R2=iA, -va/R1+(1/R1+1/R3)*vb=-1*iB];
+eqns: [(1/R1+1/R2)*va-vb/R2=iA, -va/R2+(1/R2+1/R3)*vb=-1*iB];
 solve(eqns,[va,vb]);
 Print("======================================");
 kill(all);
@@ -28,7 +28,7 @@ R3:2000;
 iA:0.002;
 iB:0.005;
 
-M:matrix ([(1/R1+1/R2), -1/R2],[-1/R1 , (1/R1+1/R3)]);
+M:matrix ([(1/R1+1/R2), -1/R2],[-1/R2 , (1/R2+1/R3)]);
 I:matrix([0.002,-0.005]);
 k:adjoint(M);
 determinant(M);

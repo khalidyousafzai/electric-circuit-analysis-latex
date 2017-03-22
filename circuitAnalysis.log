@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  21 MAR 2017 14:18
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  22 MAR 2017 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2590,8 +2590,18 @@ file (type QTm)
 <use  "./fig/figNodalLoop/figNodalIndependantSourcesNodalEquationsA.pdf" >
 [79] [80] [81]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 222.
-) [82] (./circuitAnalysis.aux (./tex/cktBasics.aux)
+(Font)              scaled to size 7.5pt on input line 227.
+ [82]
+File: ./fig/figNodalLoop/figNodalEquationNotDependentOnChosenCurrentDirectionsA
+.pdf Graphic file (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalEquationNotDependentOnChosenCurrentDirections
+A.pdf" > [83]
+File: ./fig/figNodalLoop/figNodalEquationNotDependentOnChosenCurrentDirectionsB
+.pdf Graphic file (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalEquationNotDependentOnChosenCurrentDirections
+B.pdf" > [84] [85]) [86] (./circuitAnalysis.aux (./tex/cktBasics.aux)
 (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux))
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2602,12 +2612,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 23300 strings out of 493918
- 490009 string characters out of 6150562
- 535226 words of memory out of 5000000
- 26160 multiletter control sequences out of 15000+600000
- 40141 words of font info for 151 fonts, out of 8000000 for 9000
+ 23324 strings out of 493918
+ 490772 string characters out of 6150562
+ 540563 words of memory out of 5000000
+ 26182 multiletter control sequences out of 15000+600000
+ 40913 words of font info for 153 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 53i,15n,49p,10476b,1208s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,15n,49p,10476b,1213s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (11 pages).
+Output written on circuitAnalysis.pdf (15 pages).
