@@ -1,0 +1,46 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc,decorations.markings}
+
+\input{../../tex/myEMTvectors.tex}
+\input{../../tex/myTikzCommandsCircuitAnalysis.tex}   %testing
+%draws left and right arrows where needed e.g.  
+% \draw[->-=0.5] (0,0)--(3,0); draws arrow at the middle
+%\tikzset{->-/.style={decoration={markings, mark=at position #1 with {\arrow{latex}}},postaction={decorate}}}
+%\tikzset{-<-/.style={decoration={markings, mark=at position #1 with {\arrow{latex reversed}}},postaction={decorate}}}
+%draws right angles \RightAngle{A}{B}{C}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+
+
+\begin{document}
+\begin{urdufont}
+
+\pgfmathsetmacro{\y}{2.5}
+\pgfmathsetmacro{\x}{2.5}
+\pgfmathsetmacro{\r}{2}
+\pgfmathsetmacro{\l}{3.464}
+
+\begin{tikzpicture}[]
+%\boxLeft[p]{0,0} 
+%grid
+\draw(0,0) to [american current source,l={$i_A$}]++(0,\y)node[above]{$v_1$} to [short]++(\x/2,0) to [resistor,i>_={$i_2$},l={$R_d$}]++(\x,0)node[above]{$v_2$}  to [resistor,l={$R_e$}]++(\x,0)  to [short]++(\x/2,0)node[above]{$v_3$} to [american current source,l={$i_B$}]++(0,-\y) to [short]++(-3*\x,0);
+\draw(\x/2,0) to [resistor,i^<={$i_1$},*-*,l_={$R_a$}]++(0,\y);
+\draw(1.5*\x,0) to [resistor,*-*,l={$R_b$}]++(0,\y);
+\draw(2.5*\x,0) to [resistor,*-*,l={$R_c$}]++(0,\y);
+\draw(\x/2,0)node[ground]{};
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}

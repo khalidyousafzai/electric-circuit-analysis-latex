@@ -22,4 +22,5 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 13}.\RL {\arabicfont 2}}تابع منبع استعمال کرتے ادوار}{\RL {\arabicfont 69}}
 \contentsline {chapter}{\numberline {\RL {\arabicfont 3}}جوڑ اور دائری تجزیہ}{\RL {\arabicfont 77}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 3}}تجزیہ جوڑ}{\RL {\arabicfont 77}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 3}}غیر تابع منبع استعمال کرنے والے ادوار}{\RL {\arabicfont 79}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 3}}غیر تابع منبع رو استعمال کرنے والے ادوار}{\RL {\arabicfont 79}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 3}}تابع منبع رو استعمال کرنے والے ادوار}{\RL {\arabicfont 89}}
