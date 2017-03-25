@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  23 MAR 2017 15:16
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  25 MAR 2017 15:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2641,11 +2641,66 @@ ile (type QTm)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[90]) [91] [92
+[90]
+File: ./fig/figNodalLoop/figNodalQuizControlledCurrentSourcesA.pdf Graphic file
+ (type QTm)
+ <use  "./fig/figNodalLoop/figNodalQuizControlledCurrentSourcesA.pdf" >
+[91]
+File: ./fig/figNodalLoop/figNodalQuizControlledCurrentSourcesB.pdf Graphic file
+ (type QTm)
+ <use  "./fig/figNodalLoop/figNodalQuizControlledCurrentSourcesB.pdf" >
+File: ./fig/figNodalLoop/figNodalQuizControlledCurrentSourcesC.pdf Graphic file
+ (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalQuizControlledCurrentSourcesC.pdf" > [92]
+File: ./fig/figNodalLoop/figNodalExampleIndependentVoltageSourceA.pdf Graphic f
+ile (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalExampleIndependentVoltageSourceA.pdf" >
+File: ./fig/figNodalLoop/figNodalExampleIndependentVoltageSourceAA.pdf Graphic 
+file (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalExampleIndependentVoltageSourceAA.pdf" >
+Overfull \hbox (13.73836pt too wide) in paragraph at lines 740--741
+ [][][][][][] 
+ []
+
+[93]
+File: ./fig/figNodalLoop/figNodalQuizIndependentVoltageSourceA.pdf Graphic file
+ (type QTm)
+ <use  "./fig/figNodalLoop/figNodalQuizIndependentVoltageSourceA.pdf" >
+File: ./fig/figNodalLoop/figNodalQuizIndependentVoltageSourceB.pdf Graphic file
+ (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalQuizIndependentVoltageSourceB.pdf" > [94]
+File: ./fig/figNodalLoop/figNodalSuperNodeA.pdf Graphic file (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalSuperNodeA.pdf" >
+Overfull \hbox (59.75017pt too wide) in paragraph at lines 798--799
+ [][][][][][] 
+ []
+
+File: ./fig/figNodalLoop/figNodalSuperNodeB.pdf Graphic file (type QTm)
+<use  "./fig/figNodalLoop/figNodalSuperNodeB.pdf" >
+Overfull \hbox (59.75017pt too wide) in paragraph at lines 803--804
+ [][][][][][] 
+ []
+
+[95]
+Overfull \hbox (1.82974pt too wide) in paragraph at lines 840--841
+[]\EU1/JameelNooriNastaleeq(0)/m/n/10 ہے۔آپ جانتے ہیں کہ کرخوف قانون رو بند دائ
+رے پر بھی لاگو ہوتا ہے لہٰذا اس بند دائرے میں مجموعی داخلی رو اور مجموعی خارجی 
+رو برابر ہوں گے۔شکل-[]
+ []
+
+[96]
+File: ./fig/figNodalLoop/figNodalSuperNodeExampleA.pdf Graphic file (type QTm)
+ <use  "./fig/figNodalLoop/figNodalSuperNodeExampleA.pdf" >) [97] [98
 
 
-] (./circuitAnalysis.aux (./tex/cktBasics.aux)
-(./tex/cktResistive.aux) (./tex/cktNodalLoop.aux))
+]
+(./circuitAnalysis.aux (./tex/cktBasics.aux) (./tex/cktResistive.aux)
+(./tex/cktNodalLoop.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 2.26395pt have occurred.
@@ -2655,12 +2710,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 23367 strings out of 493918
- 492090 string characters out of 6150562
- 539011 words of memory out of 5000000
- 26217 multiletter control sequences out of 15000+600000
+ 23410 strings out of 493918
+ 493678 string characters out of 6150562
+ 539499 words of memory out of 5000000
+ 26250 multiletter control sequences out of 15000+600000
  40921 words of font info for 154 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 53i,15n,49p,10476b,1219s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,15n,49p,10476b,1232s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (21 pages).
+Output written on circuitAnalysis.pdf (27 pages).
