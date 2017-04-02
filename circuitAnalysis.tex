@@ -1,5 +1,15 @@
 \documentclass[leqno,b5paper]{book}
-
+%===================
+%testing tikz inside book
+\usepackage{circuitikz}
+\usepackage{pgfplots}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc,decorations.markings}
+\pgfmathsetmacro{\y}{2}
+\pgfmathsetmacro{\x}{2}
+\pgfmathsetmacro{\yy}{2.5}
+\pgfmathsetmacro{\xx}{2.5}
+%=====================
 \usepackage{./tex/khalidUrduBooksEMT}                     %my sty file
 \usepackage{amsmath}
 \usepackage{amsbsy} %for bold Poynting
@@ -7,13 +17,12 @@
 \usepackage{IEEEtrantools}
 
 
-
 \sisetup{math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega}   %with mathpazo this is needed else must not be here. now size of micro is smaller
 
 \input{./tex/myUrduCommandsEMT.tex}                  %turning latex into urdu
 \input{./tex/myUrduGreek.tex}
 \input{./tex/myEMTvectors.tex}
-\input{./tex/myDeclareFunctions.tex}
+\input{./tex/myDeclareFunctions.tex}     %\sech, \csch, \arcsh, \arcs   hyperbolic and arc-secant etc
 
 
 

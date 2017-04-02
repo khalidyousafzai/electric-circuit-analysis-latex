@@ -38,14 +38,14 @@
 \draw (0.8,3*\f)--++(0.3,0)node[right]{ن};
 \draw (0-0.3,3*\f)--++(-0.3,0)node[left]{ٹ};
 \draw (-0.3,7*\f)--++(-0.3,0)node[left]{ث};
-\draw(0.5,-0.5)node{الف};
+\draw(0.5,-0.5)node{(الف)};
 %
 \begin{scope}[shift={(-4cm,0)}]
 \draw (0,0) to [american voltage source,l_={$\SI{2}{\volt}$}]++(0,2) to [american voltage source,l_={$\SI{5}{\volt}$}]++(0,2);
 \draw (-0.3,0)--++(-0.3,0)node[left]{ت};
 \draw (-0.3,2)--++(-0.3,0)node[left]{ٹ};
 \draw (-0.3,4)--++(-0.3,0)node[left]{ث};
-\draw(0.5,-0.5)node{ب};
+\draw(0.5,-0.5)node{(ب)};
 \end{scope}
 \end{tikzpicture}%
 \end{urdufont}

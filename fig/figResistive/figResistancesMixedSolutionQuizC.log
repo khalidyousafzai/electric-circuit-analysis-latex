@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  14 MAR 2017 08:30
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  1 APR 2017 20:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1187,53 +1187,36 @@ Package: hijrical 2007/12/27 v0.1 Islamic calendar
 \c@Hijrimonth=\count185
 \c@Hijriyear=\count186
 ))
-\g_fontspec_family_Scheherazade_int=\count187
+\g_fontspec_family_Jameel Noori Nastaleeq_int=\count187
 .................................................
 . fontspec info: "no-font-shape"
 . 
-. Could not resolve font Scheherazade/B (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Scheherazade/I (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Scheherazade/BI (it probably doesn't exist).
+. Could not resolve font Jameel Noori Nastaleeq/B (it probably doesn't exist).
 .................................................
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'Scheherazade(0)' created for font 'Scheherazade' with options
-. [Scale=1.0,Script=Arabic].
+. Font family 'JameelNooriNastaleeq(0)' created for font 'Jameel Noori
+. Nastaleeq' with options [Scale=1.0,Script=Arabic].
 . 
 . This font family consists of the following shapes:
 . 
 . * 'normal' with NFSS spec.:
-. <->s*[1.0]"Scheherazade/ICU:script=arab;language=DFLT;"
-.................................................
-\g_fontspec_family_XB Tabriz_int=\count188
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'XBTabriz(0)' created for font 'XB Tabriz' with options
-. [Scale=1.0,Script=Arabic].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->s*[1.0]"XB Tabriz/ICU:script=arab;language=DFLT;"
-. 
-. * 'bold' with NFSS spec.:
-. <->s*[1.0]"XB Tabriz/B/ICU:script=arab;language=DFLT;"
+. <->s*[1.0]"Jameel Noori Nastaleeq/ICU:script=arab;language=DFLT;"
 . 
 . * 'italic' with NFSS spec.:
-. <->s*[1.0]"XB Tabriz/I/ICU:script=arab;language=DFLT;"
+. <->s*[1.0]"Jameel Noori Nastaleeq/I/ICU:script=arab;language=DFLT;"
 . 
 . * 'bold italic' with NFSS spec.:
-. <->s*[1.0]"XB Tabriz/BI/ICU:script=arab;language=DFLT;"
+. <->s*[1.0]"Jameel Noori Nastaleeq/BI/ICU:script=arab;language=DFLT;"
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JameelNooriNastaleeq(0)' created for font 'Jameel Noori
+. Nastaleeq' with options [Scale=1.0,Script=Arabic].
+. 
+. This font family consists of the following shapes:
 .................................................
 
 (./figResistancesMixedSolutionQuizC.aux)
@@ -1331,30 +1314,30 @@ fg
 File: siunitx-abbreviations.cfg 2013/07/31 v2.5s siunitx: Abbreviated units
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box61
-\c__siunitx_mathsf_int=\count189
-\c__siunitx_mathtt_int=\count190
+\c__siunitx_mathsf_int=\count188
+\c__siunitx_mathtt_int=\count189
 LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 28.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Font shape `EU1/XBTabriz(0)/m/n' will be
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 29.
-LaTeX Font Info:    Font shape `EU1/XBTabriz(0)/m/n' will be
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 7.0pt on input line 37.
-LaTeX Font Info:    Font shape `EU1/XBTabriz(0)/m/n' will be
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 5.0pt on input line 37.
  [1
 
 ]
 (./figResistancesMixedSolutionQuizC.aux) ) 
 Here is how much of TeX's memory you used:
- 31847 strings out of 493918
- 710292 string characters out of 6150562
+ 31823 strings out of 493918
+ 710027 string characters out of 6150562
  806395 words of memory out of 5000000
- 34596 multiletter control sequences out of 15000+600000
- 7011 words of font info for 45 fonts, out of 8000000 for 9000
+ 34581 multiletter control sequences out of 15000+600000
+ 6987 words of font info for 42 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  56i,16n,65p,10493b,1372s stack positions out of 5000i,500n,10000p,200000b,80000s
 

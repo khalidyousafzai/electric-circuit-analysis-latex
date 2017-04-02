@@ -48,7 +48,7 @@
 \draw(0.25,-0.5)node{(ب)};
 \end{scope}
 %
-\begin{scope}[shift={(-6cm,0)}]
+\begin{scope}[shift={(-8cm,0)}]
 \draw(0,0)node[left]{$a$} to [american voltage source,l=\SI{10}{\volt}]++(0,2.5)node[left]{$b$} to [short,i={$\SI{2}{\ampere}$}]++(2,0) to [resistor,l={$\SI{5}{\ohm}$}] ++(0,-2.5) to [short](0,0);
 \draw (1,0) to [short,*-]node [ground]{}++(0,-0.5);
 \draw[stealth-] (0.5,-1) to [out=180,in=0]++(-1,0.5)node[left]{\RL{برقی زمین}}; 
