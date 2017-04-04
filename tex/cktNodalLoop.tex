@@ -903,6 +903,8 @@ I_2&=\frac{V_3-V_4}{\SI{6}{\kilo\ohm}}=\frac{20-10}{\SI{6}{\kilo\ohm}}=\frac{5}{
 \caption{مشق \حوالہ{مشق_جوڑ_مخلوط_الف} کا دور۔}
 \label{شکل_جوڑ_مشق_مخلوط_الف}
 \end{figure}
+
+جواب:\عددی{\tfrac{49}{18} \, \si{\milli\ampere}}
 \انتہا{مشق}
 %=========================
 
@@ -914,11 +916,14 @@ I_2&=\frac{V_3-V_4}{\SI{6}{\kilo\ohm}}=\frac{20-10}{\SI{6}{\kilo\ohm}}=\frac{5}{
 \caption{مشق \حوالہ{مشق_جوڑ_مخلوط_ب} کا دور۔}
 \label{شکل_جوڑ_مشق_مخلوط_ب}
 \end{figure}
+
+جواب:\عددی{\tfrac{5}{11} \, \si{\milli\ampere}}
 \انتہا{مشق}
 %====================
 
 \حصہ{تابع منبع دباو استعمال کرنے والے ادوار}
 تابع  منبع استعمال کرنے والے ادوار کو بھی مندرجہ بالا طریقوں سے حل کیا جاتا ہے۔آئیں چند مثال دیکھیں۔
+
 
 %====================
 \ابتدا{مثال}\شناخت{مثال_جوڑ_تابع_منبع_دباو_الف}
@@ -971,8 +976,8 @@ I_0=\frac{(-4)-(-8)}{\SI{2}{\kilo\ohm}}=\SI{2}{\milli\ampere}
 \draw(\x,0) to [resistor,*-,l={$\SI{2}{\kilo\ohm}$}]++(0,\y) to [american controlled voltage source,-*,l={$3 V_a$}] ++(0,\y);
 \draw(2*\x,2*\y) to [resistor,*-,l={$\SI{1}{\kilo\ohm}$}]++(0,-\y) to [american current source,-*,l={$\SI{1}{\milli\ampere}$}]++(0,-\y);
 \draw(\x,\y) to [resistor,*-*,l={$\SI{6}{\kilo\ohm}$}]++(\x,0);
-\draw(\x+0.2,\y/2)node[right]{$\begin{aligned} &+ \\ &V_a \\  &- \end{aligned}$};
-\draw(3*\x-0.2,\y+\y/2)node[left]{$\begin{aligned} &+ \\ &V_0 \\  &- \end{aligned}$};
+\draw(\x+\dx,\y/2)node[right]{$\begin{aligned} &+ \\ &V_a \\  &- \end{aligned}$};
+\draw(3*\x-\dx,\y+\y/2)node[left]{$\begin{aligned} &+ \\ &V_0 \\  &- \end{aligned}$};
 \draw(\x,0) node[ground]{};
 \end{tikzpicture}%
 \caption*{(الف)}
@@ -982,38 +987,129 @@ I_0=\frac{(-4)-(-8)}{\SI{2}{\kilo\ohm}}=\SI{2}{\milli\ampere}
 \centering
 \noindent
 \begin{tikzpicture}
-\draw(0,0) to [short]++(3*\x,0) to [american voltage source,l_={$\SI{5}{\volt}$}]++(0,\y) to [resistor,l_={$\SI{8}{\kilo\ohm}$}]++(0,\y) to [short]++(-\x,0)  to [american current source,l_={$\SI{2}{\milli\ampere}$}]++(-\x,0)node[above]{$V_4$} to [short]++(-\x,0) to [resistor,l_={$\SI{4}{\kilo\ohm}$}]++(0,-2*\y);
+\draw(0,0) to [short]++(3*\x,0) to [american voltage source,l_={$\SI{5}{\volt}$}]++(0,\y)node[right]{$V_4$} to [resistor,*-,l_={$\SI{8}{\kilo\ohm}$}]++(0,\y) to [short]++(-\x,0)  to [american current source,l_={$\SI{2}{\milli\ampere}$}]++(-\x,0)to [short]++(-\x,0)node[above right]{$V_1+3V_a$}  to [resistor,l_={$\SI{4}{\kilo\ohm}$}]++(0,-2*\y);
 \draw(\x,0) to [resistor,*-,l={$\SI{2}{\kilo\ohm}$}]++(0,\y) to [american controlled voltage source,-*,l={$3 V_a$}] ++(0,\y);
 \draw(2*\x,2*\y)node[above]{$V_3$} to [resistor,*-,l={$\SI{1}{\kilo\ohm}$}]++(0,-\y) to [american current source,-*,l={$\SI{1}{\milli\ampere}$}]++(0,-\y);
 \draw(\x,\y)node[left]{$V_1$} to [resistor,*-*,l={$\SI{6}{\kilo\ohm}$}]++(\x,0)node[right]{$V_2$};
-\draw(\x+0.2,\y/2)node[right]{$\begin{aligned} &+ \\ &V_a \\  &- \end{aligned}$};
-\draw(3*\x-0.2,\y+\y/2)node[left]{$\begin{aligned} &+ \\ &V_0 \\  &- \end{aligned}$};
+\draw(\x+\dx,\y/2)node[right]{$\begin{aligned} &+ \\ &V_a \\  &- \end{aligned}$};
+\draw(3*\x-\dx,\y+\y/2)node[left]{$\begin{aligned} &+ \\ &V_0 \\  &- \end{aligned}$};
 \draw(\x,0) node[ground]{};
+%supernode
+\draw[dashed](\x,1.5*\y) circle (0.6cm and 1.4cm);
 \end{tikzpicture}%
 \caption*{(ب)}
 \end{subfigure}
 \caption{مثال \حوالہ{مثال_جوڑ_تابع_منبع_دباو_ب} کا دور۔}
 \label{شکل_جوڑ_تابع_منبع_مخلوط_جوڑ_الف}
 \end{figure}
+
+حل:شکل \حوالہ{شکل_جوڑ_تابع_منبع_مخلوط_جوڑ_الف}-ب میں جوڑ \عددی{V_1}، \عددی{V_2}،  \عددی{V_3} اور \عددی{V_4} کی نشاندہی کی گئی ہے۔مخلوط جوڑ کے نچلے سرے پر \عددی{V_1} دباو کی بدولت اس کے بالائی سرے پر \عددی{V_1+3V_a} دباو لکھا گیا ہے۔مخلوط جوڑ پر کرخوف قانون رو سے درج ذیل لکھا جائے گا۔
+\begin{align*}
+\frac{V_1+3V_a}{4000}-0.002+\frac{V_1}{2000}+\frac{V_1-V_2}{6000}=0
+\end{align*}
+اسی طرح \عددی{V_4=\SI{5}{\volt}} لیتے ہوئے  بالترتیب \عددی{V_2} اور \عددی{V_3}  جوڑ کے لئے کرخوف مساوات رو لکھتے ہیں۔
+\begin{align*}
+\frac{V_2-V_1}{6000}+0.001+\frac{V_2-V_3}{1000}&=0\\
+0.002+\frac{V_3-V_2}{1000}+\frac{V_3-5}{8000}&=0
+\end{align*}
+مخلوط جوڑ کے مساوات میں \عددی{V_a=V_1} پر کرتے ہوئے مندرجہ بالا تین مساوات کو ایک ساتھ لکھتے ہیں۔
+\begin{align*}
+10 V_1-V_2&=12\\
+-V_1+7V_2-6V_3&=-6\\
+-8V_2+9V_3&=-11
+\end{align*}
+ان تین ہمزاد مساوات کو حل کرنے سے
+\begin{align*}
+V_1&=\frac{20}{47} \, \si{\volt}\\
+V_2&=-\frac{364}{47} \, \si{\volt}\\
+V_3&=-\frac{381}{47} \, \si{\volt}
+\end{align*}
+حاصل ہوتا ہے۔یوں
+\begin{align*}
+V_0&=V_3-V_4=-\frac{616}{47} \, \si{\volt}
+\end{align*}
+ہو گا۔
 \انتہا{مثال}
 %====================
 \ابتدا{مثال}\شناخت{مثال_جوڑ_تابع_منبع_دباو_پ}
-شکل \حوالہ{شکل_جوڑ_تابع_منبع_مخلوط_جوڑ_ب} میں \عددی{I_0} دریافت کریں۔دونوں غیر تابع منبع دباو کی رو بھی حاصل کریں۔
+شکل \حوالہ{شکل_جوڑ_تابع_منبع_مخلوط_جوڑ_ب}-الف میں \عددی{I_0} دریافت کریں۔
 
 \begin{figure}
 \centering
-\noindent
+\begin{subfigure}{1\textwidth}
+\centering
 \begin{tikzpicture}
 \draw(0,0) to [american voltage source,l={$\SI{6}{\volt}$}]++(0,\y) to [resistor,l={$\SI{8}{\kilo\ohm}$}]++(0,\y) to [short]++(3*\x,0) to [american controlled current source,l={$2 I_a$}]++(0,-\y) to [resistor,l={$\SI{10}{\kilo\ohm}$}]++(0,-\y) to [short]++(-3*\x,0); 
 \draw(0,\y) to [resistor,i>_={$I_0$},*-,l={$\SI{10}{\kilo\ohm}$}]++(\x,0) to [resistor,*-*,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,-*,l={$\SI{8}{\kilo\ohm}$}]++(\x,0);
 \draw(\x,2*\y) to [american controlled voltage source,*-,l={$3 V_b$}]++(0,-\y) to [resistor,i={$I_a$},-*,l={$\SI{4}{\kilo\ohm}$}]++(0,-\y);
 \draw(2*\x,2*\y) to [american  voltage source,*-,l={$\SI{4}{\volt}$}]++(0,-\y);
-\draw(3*\x-0.2,\y/2)node[left]{$\begin{aligned} &+ \\ &V_b \\ &-  \end{aligned}$};
+\draw(3*\x-\dx,\y/2)node[left]{$\begin{aligned} &+ \\ &V_b \\ &-  \end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+%====
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{6}{\volt}$}]++(0,\y)node[left]{$V_1$} to [resistor,l={$\SI{8}{\kilo\ohm}$}]++(0,\y) to [short]++(1.5*\x,0)node[above]{$V_2$} to [short]++(1.5*\x,0) to [american controlled current source,l={$2 I_a$}]++(0,-\y)node[right]{$V_3$} to [resistor,l={$\SI{10}{\kilo\ohm}$}]++(0,-\y) to [short]++(-3*\x,0); 
+\draw(0,\y) to [resistor,i>_={$I_0$},*-,l={$\SI{10}{\kilo\ohm}$}]++(\x,0)node[below right]{$V_4$} to [resistor,*-*,l={$\SI{2}{\kilo\ohm}$}]++(\x,0)node[below]{$V_5$} to [resistor,-*,l={$\SI{8}{\kilo\ohm}$}]++(\x,0);
+\draw(\x,2*\y) to [american controlled voltage source,*-,l={$3 V_b$}]++(0,-\y) to [resistor,i={$I_a$},-*,l={$\SI{4}{\kilo\ohm}$}]++(0,-\y);
+\draw(2*\x,2*\y) to [american  voltage source,*-,l={$\SI{4}{\volt}$}]++(0,-\y);
+\draw(3*\x-\dx,\y/2)node[left]{$\begin{aligned} &+ \\ &V_b \\ &-  \end{aligned}$};
 \draw(\x,0) node[ground]{};
-\end{tikzpicture}%
+%supernode
+\draw[dashed](\x-\dx,\y-\dy) --(2*\x+\dx,\y-\dy)--(2*\x+\dx,2*\y+\dy)--(\x-\dx,2*\y+\dy)--cycle;
+
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
 \caption{مثال \حوالہ{مثال_جوڑ_تابع_منبع_دباو_پ} کا دور۔}
 \label{شکل_جوڑ_تابع_منبع_مخلوط_جوڑ_ب}
 \end{figure}
+
+حل: شکل \حوالہ{شکل_جوڑ_تابع_منبع_مخلوط_جوڑ_ب}-ب میں  نچلے جوڑ کو زمین چنتے ہوئے  بقایا جوڑوں کی نشاندہی کی گئی ہے۔مخلوط جوڑوں کو نقطہ دار چکور سے ظاہر کیا گیا ہے۔یہاں رک کر تسلی کر لیں کہ آپ مخلوط جوڑ کو پہچان سکتے ہیں۔مخلوط جوڑ کے نچلے بائیں اور دائیں سروں کے لئے درج ذیل لکھا جا سکتا ہے
+\begin{align*}
+V_4-V_2&=3V_b\\
+V_5-V_2&=4
+\end{align*}
+جن  سے
+\begin{align*}
+V_4&=V_2+3V_b\\
+V_5&=V_2+4
+\end{align*}
+حاصل ہوتا ہے۔شکل کو دیکھتے ہوئے
+\begin{align*}
+V_1=6
+\end{align*}
+بھی لکھا جا سکتا ہے۔جوڑ \عددی{V_2} اور \عددی{V_3} کے کرخوف مساوات رو بالترتیب لکھتے ہیں جہاں \عددی{V_2} کی مساوات درحقیقت مخلوط جوڑ کی مساوات رو ہے۔
+\begin{align*}
+\frac{V_2-6}{8000}+\frac{(V_2+3V_b)-6}{10000}+\frac{(V_2+3V_b)}{4000}+\frac{(V_2+4)-V_3}{8000}+2I_a&=0\\
+-2I_a+\frac{V_3-(V_2+4)}{8000}+\frac{V_3}{10000}&=0
+\end{align*}
+مندرجہ بالا دو مساوات میں درج ذیل پر کرتے
+\begin{align*}
+V_b&=V_3\\
+I_a&=\frac{V_2+3V_b}{4000}=\frac{V_2+3V_3}{4000}\\
+\end{align*}
+ہوئے
+\begin{align*}
+\frac{V_2-6}{8000}+\frac{(V_2+3V_3)-6}{10000}+\frac{(V_2+3V_3)}{4000}+\frac{(V_2+4)-V_3}{8000}+2\left(\frac{V_2+3V_3}{4000}\right)&=0\\
+-2\left(\frac{V_2+3V_3}{4000}\right)+\frac{V_3-(V_2+4)}{8000}+\frac{V_3}{10000}&=0
+\end{align*}
+یعنی
+\begin{align*}
+44V_2+97V_3&=34\\
+5V_2+3V_3&=4
+\end{align*}
+حاصل ہوتے ہیں جنہیں حل کرنے سے درج ذیل ملتے ہیں۔
+\begin{align*}
+V_2&=\frac{286}{353} \, \si{\volt}\\
+V_3&=-\frac{6}{353} \, \si{\volt}
+\end{align*}
+یوں
+\begin{align*}
+I_0=\frac{V_1-V_4}{10000}=\frac{V_1-(V_2+3V_b)}{10000}=\frac{185}{353} \, \si{\milli\ampere}
+\end{align*}
 \انتہا{مثال}
 
 \FloatBarrier
@@ -1047,7 +1143,7 @@ I_0=\frac{(-4)-(-8)}{\SI{2}{\kilo\ohm}}=\SI{2}{\milli\ampere}
 \draw(3*\x,\y) to [short,*-]++(0,\y) to [american current source,l={$\SI{4}{\milli\ampere}$}]++(-2*\x,0) to [short,-*]++(0,-\y);
 \draw(\x,0) to [resistor,i<_={$I_a$},*-*,l={$\SI{6}{\kilo\ohm}$}]++(0,\y);
 \draw(2*\x,0) to [resistor,*-*,l={$\SI{2}{\kilo\ohm}$}]++(0,\y);
-\draw(2*\x+0.2,\y/2)node[right]{$\begin{aligned} &+\\ &V_0 \\ &- \end{aligned}$};
+\draw(2*\x+\dx,\y/2)node[right]{$\begin{aligned} &+\\ &V_0 \\ &- \end{aligned}$};
 \end{tikzpicture}%
 \caption{مشق \حوالہ{مثال_جوڑ_تابع_منبع_مخلوط_جوڑ_مشق_ب} کا دور۔}
 \label{شکل_جوڑ_تابع_منبع_مخلوط_جوڑ_مشق_ب}
@@ -1057,37 +1153,333 @@ I_0=\frac{(-4)-(-8)}{\SI{2}{\kilo\ohm}}=\SI{2}{\milli\ampere}
 \FloatBarrier
 
 \حصہ{دائری تجزیہ}
-تجزیہ جوڑ میں نا معلوم متغیرات جوڑ کے دباو تھے جنہیں کرخوف قانون رو کی مدد سے حاصل کیا گیا۔تمام جوڑ کے دباو جاننے کے بعد تمام شاخوں کی رو کو قانون اوہم سے حاصل کیا جا سکتا ہے۔اس کے برعکس دائری ترکیب میں کرخوف قانون دباو کی مدد سے دائری رو دریافت کئے جاتے ہیں۔دائری رو جانتے ہوئے کسی بھی شاخ کا دباو قانون اوہم سے حاصل کیا جا سکتا ہے۔ایسا دور جس میں \عددی{J} جوڑ اور \عددی{S} شاخ  پائے جاتے ہوں سے \عددی{S-J+1} آزاد مساوات  بذریعہ کرخوف قانون دباو حاصل کئے جا سکتے ہیں۔شکل \حوالہ{شکل_جوڑ_دائری_ترکیب_الف} کو مثال بناتے ہوئے ہم دیکھتے ہیں کہ اس میں \عددی{J=5} اور \عددی{S=8} ہیں لہٰذا اس سے \عددی{8-5+1=4} آزاد مساوات حاصل کئے جا سکتے ہیں جن سے دائری رو \عددی{i_A(t)}، \عددی{i_B(t)}، \عددی{i_C(t)} اور \عددی{i_D(t)} حاصل ہوں گے۔دائری رو جانتے ہوئے شاخوں کی رو درج ذیل لکھی جا سکتی ہیں۔
+تجزیہ جوڑ میں نا معلوم متغیرات دباو جوڑ تھے جنہیں کرخوف قانون رو کی مدد سے حاصل کیا گیا۔جوڑ کے دباو جاننے کے بعد شاخوں کی رو کو قانون اوہم سے حاصل کیا گیا۔اس کے برعکس \اصطلاح{دائری ترکیب}\فرہنگ{دائری ترکیب}\حاشیہب{loop analysis}\فرہنگ{loop analysis} میں کرخوف قانون دباو کی مدد سے \اصطلاح{دائری رو}\فرہنگ{دائری رو}\فرہنگ{رو!دائری}\حاشیہب{loop current}\فرہنگ{loop current} دریافت کئے جاتے ہیں۔دائری رو جانتے ہوئے کسی بھی شاخ کا دباو قانون اوہم سے حاصل کیا جا سکتا ہے۔ایسا دور جس میں \عددی{J} جوڑ اور \عددی{S} شاخ  پائے جاتے ہوں سے \عددی{S-J+1} آزاد مساوات  بذریعہ کرخوف قانون دباو حاصل کئے جا سکتے ہیں۔شکل \حوالہ{شکل_جوڑ_دائری_ترکیب_الف} کو مثال بناتے ہوئے ہم دیکھتے ہیں کہ اس میں \عددی{J=5} اور \عددی{S=8} ہیں لہٰذا اس سے \عددی{8-5+1=4} آزاد مساوات حاصل کئے جا سکتے ہیں جن سے دائری رو \عددی{i_A}، \عددی{i_B}، \عددی{i_C} اور \عددی{i_D} حاصل ہوں گے۔دائری رو جانتے ہوئے شاخوں کی رو درج ذیل لکھی جا سکتی ہیں۔
 \begin{align*}
-i_1(t)&=-i_A(t)\\
-i_2(t)&=i_B(t)-i_A(t)\\
-i_3(t)&=i_B(t)-i_C(t)\\
-i_4(t)&=i_C(t)\\
-i_5(t)&=i_D(t)\\
-i_6(t)&=i_B(t)\\
-i_7(t)&=i_D(t)-i_A(t)
+i_1&=-i_A\\
+i_2&=i_B-i_A\\
+i_3&=i_B-i_C\\
+i_4&=i_C\\
+i_5&=i_D\\
+i_6&=i_B\\
+i_7&=i_D-i_A
 \end{align*}
 %===
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\pgfmathsetmacro{\x}{2.5}
-\pgfmathsetmacro{\y}{2.5}
-\draw(0,0) to [resistor,i<_={$i_1(t)$},l={$R_1$}]++(0,\y)node[left]{$v_A$} to [american current source,l={$i_6(t)$}]++(0,\y) to [short]++(2*\x,0) to [resistor,i>_={$i_4(t)$},l={$R_4$}]++(0,-\y) to [resistor,i={$i_5(t)$},l={$R_5$}]++(0,-\y) to [short]++(-2*\x,0);
-\draw(2*\x,\y)node[right]{$v_D$} to [american voltage source,i_={$i_8(t)$},*-*]++(-\x,0)node[above left]{$v_C$}  to [resistor,i={$i_2(t)$},-*,l_={$R_2$}]++(-\x,0);
-\draw(\x,0)node[below]{$v_E$} to [american voltage source,i>^={$i_7(t)$},*-]++(0,\y) to [resistor,-*,i<={$i_3(t)$},l={$R_3$}]++(0,\y)node[above]{$v_B$};
-\draw(\x,\y/2)node[shift={(-45:0.75)}]{$v_1(t)$};
-\draw(\x+\x/2,\y)node[shift={(-45:0.75)}]{$v_2(t)$};
-\draw[stealth-]([shift={(-150:\x/5.5)}]\x/2,\y/2) arc (-150:150:\x/5.5);
-\draw(\x/2,\y/2)node{$i_A(t)$};
-\draw[stealth-]([shift={(-150:\x/5.5)}]\x/2,\y+\y/2) arc (-150:150:\x/5.5);
-\draw(\x/2,\y+\y/2)node{$i_B(t)$};
-\draw[stealth-]([shift={(-150:\x/5.5)}]\x+\x/2,\y+\y/2) arc (-150:150:\x/5.5);
-\draw(\x+\x/2,\y+\y/2)node{$i_C(t)$};
-\draw[stealth-]([shift={(-150:\x/5.5)}]\x+\x/2,\y/2) arc (-150:150:\x/5.5);
-\draw(\x+\x/2,\y/2)node{$i_D(t)$};
+\draw(0,0) to [resistor,i<_={$i_1$},l={$R_1$}]++(0,\yy)node[left]{$v_A$} to [american current source,l={$i_6$}]++(0,\yy) to [short]++(2*\xx,0) to [resistor,i>_={$i_4$},l={$R_4$}]++(0,-\yy) to [resistor,i={$i_5$},l={$R_5$}]++(0,-\yy) to [short]++(-2*\xx,0);
+\draw(2*\xx,\yy)node[right]{$v_D$} to [american voltage source,i_={$i_8$},*-*]++(-\xx,0)node[above left]{$v_C$}  to [resistor,i={$i_2$},-*,l_={$R_2$}]++(-\xx,0);
+\draw(\xx,0)node[below]{$v_E$} to [american voltage source,i>^={$i_7$},*-]++(0,\yy) to [resistor,-*,i<={$i_3$},l={$R_3$}]++(0,\yy)node[above]{$v_B$};
+\draw(\xx,\yy/2)node[shift={(-45:0.75)}]{$v_1$};
+\draw(\xx+\xx/2,\yy)node[shift={(-45:0.75)}]{$v_2$};
+\draw[stealth-]([shift={(-150:\xx/5.5)}]\xx/2,\yy/2) arc (-150:150:\xx/5.5);
+\draw(\xx/2,\yy/2)node{$i_A$};
+\draw[stealth-]([shift={(-150:\xx/5.5)}]\xx/2,\yy+\yy/2) arc  (-150:150:\xx/5.5);
+\draw(\xx/2,\yy+\yy/2)node{$i_B$};
+\draw[stealth-]([shift={(-150:\xx/5.5)}]\xx+\xx/2,\yy+\yy/2) arc (-150:150:\xx/5.5);
+\draw(\xx+\xx/2,\yy+\yy/2)node{$i_C$};
+\draw[stealth-]([shift={(-150:\xx/5.5)}]\xx+\xx/2,\yy/2) arc (-150:150:\xx/5.5);
+\draw(\xx+\xx/2,\yy/2)node{$i_D$};
 \end{tikzpicture}%
 \caption{دائری ترکیب کی مثال۔}
 \label{شکل_جوڑ_دائری_ترکیب_الف}
 \end{figure}
 
+اس کتاب میں صرف \اصطلاح{سطحی ادوار}\فرہنگ{دور!سطحی}\فرہنگ{سطحی!دور}\حاشیہب{planar circuits}\فرہنگ{planar} پر غور کیا جائے گا۔سطحی دور سے مراد ایسا دور ہے جسے کاغذ پر یوں بنایا جا سکتا ہو کہ کوئی تار دوسری تار کو نہ کاٹے۔سطحی ادوار میں دائروں کی نشاندہی نسبتاً آسان ہوتی ہے۔دائری ترکیب میں دائری رو یوں چننی جاتی ہیں کہ تمام شاخوں سے کم از کم ایک دائری رو گزرے، مزید یہ کہ ہر دائری رو کم از کم ایک ایسے شاخ سے گزرے جس سے کوئی دوسری دائری رو نہ گزرتی ہو۔
+
+آئیں دائری ترکیب کو چند مثالوں کی مدد سے سمجھیں۔
+
+\حصہ{غیر تابع منبع استعمال کرنے والے ادوار}
+ شکل \حوالہ{شکل_جوڑ_آزاد_منبع_دباو_دائری_مثال} میں دو عدد غیر تابع منبع دباو استعمال کئے گئے ہیں۔اس دور میں  سات شاخ اور چھ جوڑ ہیں لہٰذا دور میں تمام نا معلوم دائری رو دریافت کرنے کی خاطر \عددی{7-6+1=2} غیر تابع مساوات درکار ہیں جنہیں کرخوف قانون دباو سے حاصل کیا جائے گا۔چونکہ دو عدد دائری رو درکار ہیں لہٰذا ہم دو عدد دائرے چنتے ہیں۔ہم ان دائروں کو مختلف انداز میں چن سکتے ہیں۔یوں ہم پہلا دائرہ \عددی{abcfa} اور دوسرا دائرہ \عددی{cdefc} چن سکتے ہیں۔ایسا کرتے ہوئے دائری رو \عددی{i_1} اور \عددی{i_2} ہوں گے جنہیں  شکل \حوالہ{شکل_جوڑ_آزاد_منبع_دباو_دائری_مثال}-الف میں دکھایا گیا ہے۔ یہاں ہم نے دونوں دائری رو کو گھڑی کی سمت تصور کیا ہے۔حقیقت میں آپ دونوں رو کو گھڑی کے الٹ بھی تصور کر سکتے ہیں اور ایسا بھی کر سکتے ہیں کہ ایک دائری رو گھڑی کی سمت اور دوسری رو گھڑی کی الٹ تصور کی جائے۔ترکیب جوڑ کی طرح یہاں بھی اگر حقیقت میں کسی رو کی سمت تصور کردہ سمت کے الٹ ہو تو ایسی صورت میں رو کی قیمت منفی حاصل ہو گی۔اس کتاب میں ہم دائری رو کو گھڑی کی سمت ہی تصور کریں گے۔ اسی طرح ہم دو عدد دائرے یوں بھی چن سکتے ہیں کہ پہلا دائرہ \عددی{abcfa} اور دوسرا دائرہ \عددی{abdea} لیں جن سے شکل \حوالہ{شکل_جوڑ_آزاد_منبع_دباو_دائری_مثال}-ب میں دکھائے دائری رو ملتے ہیں۔ہم باری باری شکل \حوالہ{شکل_جوڑ_آزاد_منبع_دباو_دائری_مثال}-الف اور شکل \حوالہ{شکل_جوڑ_آزاد_منبع_دباو_دائری_مثال}-ب کو حل کرتے ہیں۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)node[below]{$a$} to [american voltage source,l={$v_{M1}$}]++(0,\yy)node[above]{$b$} to [resistor,l_={$R_1$}]++(\xx,0)node[above]{$c$} to [resistor,l_={$R_4$}]++(0,-\yy) to [resistor,l_={$R_3$}]++(-\xx,0);
+\draw(\xx,0)node[below]{$f$} to [american voltage source,*-,l_={$v_{M2}$}]++(\xx,0)node[below]{$e$} to [resistor,l={$R_5$}]++(0,\yy)node[above]{$d$} to [resistor,-*,l={$R_2$}]++(-\xx,0);
+%loop currents
+\draw[stealth-]([shift={(-150:\xx/5.5)}]\xx/2,\yy/2) arc (-150:150:\xx/5.5);
+\draw(\xx/2,\yy/2)node{$i_1$};
+\draw[stealth-]([shift={(-150:\xx/5.5)}]\xx+\xx/2,\yy/2) arc (-150:150:\xx/5.5);
+\draw(\xx+\xx/2,\yy/2)node{$i_2$};
+%branch voltages
+\draw(\xx/2,\yy+\dy)node[above]{$+ \, v_1 \, -$};
+\draw(\xx+\xx/2,\yy+\dy)node[above]{$+ \, v_2 \, -$};
+\draw(\xx/2,-\dx)node[below]{$- \, v_3 \, +$};
+\draw(\xx+\dx,\yy/2)node[right]{$\begin{aligned} &+ \\& v_4 \\ &- \end{aligned}$};
+\draw(2*\xx+\dx,\yy/2)node[right]{$\begin{aligned} &+ \\& v_5 \\ &- \end{aligned}$};
+\end{tikzpicture}%
+\caption*{(الف)}
+\end{subfigure}
+%=====
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)node[below]{$a$} to [american voltage source,l={$v_{M1}$}]++(0,\yy)node[above]{$b$} to [resistor]++(\xx,0)node[above]{$c$} to [resistor,l_={$R_4$}]++(0,-\yy) to [resistor]++(-\xx,0);
+\draw(\xx,0)node[below]{$f$} to [american voltage source,*-,l_={$v_{M2}$}]++(\xx,0)node[below]{$e$} to [resistor]++(0,\yy)node[above]{$d$} to [resistor,-*]++(-\xx,0);
+%shifted labels
+\draw(1/4*\xx,\yy)node[below]{$R_1$};
+\draw(2*\xx-1/4*\xx+\dx,\yy)node[below]{$R_2$};
+\draw(1/4*\xx,\dy)node[above]{$R_3$};
+\draw(2*\xx-2*\dx,\dy)node[above]{$R_5$};
+%loop currents
+\draw[stealth-]([shift={(-150:\xx/6)}]\xx/2,\yy/2) arc (-150:150:\xx/6);
+\draw(\xx/2,\yy/2)node{$i_1$};
+\draw[-stealth]([shift={(150:7/24*\xx)}]\xx/2,\yy/2) arc (150:90:7/24*\xx)--++(\xx,0) arc (90:-90:7/24*\xx)--++(-\xx,0) arc (-90:-150:7/24*\xx);
+\draw(\xx+\xx/2,\yy/2)node{$i_3$};
+%branch voltages
+\draw(\xx/2,\yy+\dy)node[above]{$+ \, v_1 \, -$};
+\draw(\xx+\xx/2,\yy+\dy)node[above]{$+ \, v_2 \, -$};
+\draw(\xx/2,-\dx)node[below]{$- \, v_3 \, +$};
+\draw(\xx+\dx,\yy/2)node[right]{$\begin{aligned} &+ \\& v_4 \\ &- \end{aligned}$};
+\draw(2*\xx+\dx,\yy/2)node[right]{$\begin{aligned} &+ \\& v_5 \\ &- \end{aligned}$};
+\end{tikzpicture}%
+\caption*{(ب)}
+\end{subfigure}%
+\caption{غیر تابع منبع دباو استعمال کرنے والا دور۔}
+\label{شکل_جوڑ_آزاد_منبع_دباو_دائری_مثال}
+\end{figure}
+
+شکل \حوالہ{شکل_جوڑ_آزاد_منبع_دباو_دائری_مثال}-الف میں دونوں دائروں پر کرخوف قانون دباو سے درج ذیل لکھا جاتا ہے۔
+\begin{gather}
+\begin{aligned}\label{مساوات_جوڑ_دائری_آزاد_منبع_الف}
+-v_{M1}+v_1+v_4+v_3&=0\\
+-v_4+v_2+v_5+v_{M2}&=0
+\end{aligned}
+\end{gather}
+قانون اوہم سے دباو شاخ درج ذیل لکھے جا سکتے ہیں
+\begin{align*}
+v_1&=i_1 R_1\\
+v_2&=i_2 R_2\\
+v_3&=i_1 R_3\\
+v_4&=(i_1-i_2)R_4\\
+v_5&=i_2 R_5
+\end{align*}
+جنہیں مساوات \حوالہ{مساوات_جوڑ_دائری_آزاد_منبع_الف} میں پر کرنے سے درج ذیل حاصل ہوتا ہے۔
+\begin{align*}
+i_1(R_1+R_3+R_4)-i_2 R_4&=v_{M1}\\
+-i_1 R_4+i_2(R_2+R_4+R_5)&=-v_{M2}
+\end{align*}
+اس کو قالبی صورت میں لکھتے ہیں۔
+\begin{align}
+\begin{bmatrix}
+R_1+R_3+R_4 & -R_4\\
+-R_4& R_2+R_4+R_5
+\end{bmatrix}
+\begin{bmatrix}
+i_1\\
+i_2
+\end{bmatrix}
+=
+\begin{bmatrix}
+v_{M1}\\-v_{M2}
+\end{bmatrix}
+\end{align}
+%===============
+
+شکل \حوالہ{شکل_جوڑ_دائری_ترکیب_الف} یا شکل \حوالہ{شکل_جوڑ_آزاد_منبع_دباو_دائری_مثال}-الف بالکل ماہی گیر کے جال کی مانند ہیں جسے مچھلیاں پکڑنے کے لئے استعمال کیا جاتا ہے۔ان اشکال میں ہر خانے میں دائری رو چننی گئی ہے۔اس کے برعکس شکل \حوالہ{شکل_جوڑ_آزاد_منبع_دباو_دائری_مثال}-ب میں \عددی{i_3} کو یوں چننا گیا ہے کہ یہ \عددی{i_1} کو بھی لپیٹتی ہے۔اس کتاب میں انفرادی خانے کی رو ہی چنتے ہوئے ادوار حل کئے جائیں گے۔ 
+
+مندرجہ بالا قالبی مساوات میں بالائی بایاں جزو ان مزاحمتوں کا مجموعہ ہے جن سے \عددی{i_1} گزرتی ہے جبکہ بالائی دایاں جزو ان مزاحمتوں کے مجموعے کا منفی ہے جس میں \عددی{i_1} کے الٹ سمت میں \عددی{i_2} گزرتی ہے۔اسی طرح نچلا دایاں جزو ان مزاحمتوں کا مجموعہ ہے جن سے \عددی{i_2} گزرتی ہے جبکہ نچلا بایاں جزو ان مزاحمتوں کے مجموعے کا منفی ہے جن میں \عددی{i_2} کے الٹ سمت \عددی{i_1} گزرتی ہے۔اگر تمام خانوں میں، ایک ہی سمت میں گھومتی انفرادی دائری رو  تصور کی جائے تب عمومی قالبی مساوات درج ذیل لکھی جا سکتی ہے۔
+\begin{align}
+\begin{bmatrix}
+R_{11} & -R_{12}& -R_{13}& \cdots -R_{1m}\\
+-R_{21} & R_{22}& -R_{23}& \cdots -R_{2m}\\
+-R_{31} & -R_{32}& R_{33}& \cdots -R_{3m}\\
+\vdots\\
+-R_{m1}&-R_{m2}&-R_{m3}&\cdots R_{mm}
+\end{bmatrix}
+\begin{bmatrix}
+i_1\\
+i_2\\
+i_3\\
+\vdots\\
+i_m
+\end{bmatrix}
+=
+\begin{bmatrix}
+v_{1}\\
+v_{2}\\
+v_{3}\\
+\vdots\\
+v_{m}
+\end{bmatrix}
+\end{align}
+%===============
+
+%=========================
+
+\ابتدا{مثال}
+شکل \حوالہ{شکل_جوڑ_آزاد_منبع_دباو_دائری_مثال_الف}-الف میں دائری رو دریافت کرتے ہوئے تمام شاخوں کی رو اور دباو حاصل کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{18}{\volt}$}]++(0,\yyy) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\xxx,0) to [resistor]++(0,-\yyy) to [resistor,l={$\SI{5}{\kilo\ohm}$}]++(-\xxx,0);
+\draw(\xxx,0) to [american voltage source,*-,l_={$\SI{15}{\volt}$}]++(\xxx,0) to [resistor,l_={$\SI{1}{\kilo\ohm}$}]++(0,\yyy) to [resistor,-*,l_={$\SI{2}{\kilo\ohm}$}]++(-\xxx,0);
+\draw(\xxx,2/3*\yyy+\dy)node[above, left]{$\SI{3}{\kilo\ohm}$};
+%loop currents
+\draw[stealth-]([shift={(-150:\xxx/5.5)}]\xxx/2,\yyy/2) arc (-150:150:\xxx/5.5);
+\draw(\xxx/2,\yyy/2)node{$i_1$};
+\draw[stealth-]([shift={(-150:\xxx/5.5)}]\xxx+\xxx/2,\yyy/2) arc (-150:150:\xxx/5.5);
+\draw(\xxx+\xxx/2,\yyy/2)node{$i_2$};
+\draw(\xxx,0)node[ground]{};
+\end{tikzpicture}%
+\caption*{(الف)}
+\end{subfigure}
+%=====
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{18}{\volt}$}]++(0,\yyy) to [resistor,i>^={$\SI{1}{\milli\ampere}$},l_={$\SI{4}{\kilo\ohm}$}]++(\xxx,0) to [resistor,i={$\SI{3}{\milli\ampere}$},l={$\SI{3}{\kilo\ohm}$}]++(0,-\yyy) to [resistor,i^>={$\SI{1}{\milli\ampere}$},l_={$\SI{5}{\kilo\ohm}$}]++(-\xxx,0);
+\draw(\xxx,0) to [american voltage source,*-,l_={$\SI{15}{\volt}$}]++(\xxx,0) to [resistor,i_={$\SI{2}{\milli\ampere}$},l_={$\SI{1}{\kilo\ohm}$}]++(0,\yyy) to [resistor,i>_={$\SI{2}{\milli\ampere}$},-*,l={$\SI{2}{\kilo\ohm}$}]++(-\xxx,0);
+\draw(\xxx,0)node[ground]{};
+%branch voltages
+\draw(\xxx-\dx,\yyy/2)node[left]{$\begin{aligned} &+ \\ &\SI{9}{\volt} \\ &- \end{aligned}$};
+\draw(2*\xxx-\dx,\yyy/2)node[left]{$\begin{aligned} &- \\ &\SI{2}{\volt} \\ &+ \end{aligned}$};
+\draw(\xxx/2,\yyy+\dy)node[above]{$+ \, \SI{4}{\volt} \, -$};
+\draw(\xxx+\xxx/2,\yyy+\dy)node[above]{$- \, \SI{4}{\volt} \, +$};
+\draw(\xxx/2,-\dy)node[below]{$- \, \SI{5}{\volt} \, +$};
+\end{tikzpicture}%
+\caption*{(ب)}
+\end{subfigure}
+\caption{غیر تابع منبع دباو استعمال کرنے والا دور کی مثال۔}
+\label{شکل_جوڑ_آزاد_منبع_دباو_دائری_مثال_الف}
+\end{figure}
+
+حل: کرخوف قانون دباو کی مدد سے بالترتیب بائیں اور دائیں خانوں کے لئے درج ذیل لکھتے ہیں۔
+\begin{align*}
+-18+4000 i_1 +3000(i_1-i_2)+5000 i_1&=\\
+3000(i_2-i_1)+2000 i_2+1000 i_2+15&=0
+\end{align*} 
+انہیں ترتیب دیتے ہوئے یوں لکھا جا سکتا ہے۔
+\begin{align*}
+12000 i_1-3000 i_2&=18\\
+-3000 i_1+6000 i_2&=-15
+\end{align*}
+کسی بھی ترکیب سے ان ہمزاد مساوات کو حل کیا جا سکتا ہے۔حاصل جوابات درج ذیل ہیں۔
+\begin{align*}
+i_1&=\SI{1}{\milli\ampere}\\
+i_2&=\SI{-2}{\milli\ampere}
+\end{align*}
+چونکہ \عددی{i_2} کی قیمت منفی ہے لہٰذا حقیقت میں دائیں خانے میں رو کی سمت چننی گئی سمت کے الٹ ہے۔ان قیمتوں کو شکل-ب میں دکھایا گیا ہے۔کسی بھی مزاحمت کا دباو قانون اوہم سے حاصل کیا جا سکتا ہے۔تمام مزاحمتوں کے دباو شکل-ب میں دکھائے گئے ہیں۔امید کی جاتی ہے کہ آپ انہیں حاصل کر پائیں گے۔
+\انتہا{مثال}
+%===================
+\ابتدا{مثال}
+شکل \حوالہ{شکل_جوڑ_رو_دوسری_کو_لپیٹتی_ہے} کو حل کرتے ہوئے  تمام شاخوں کی رو دریافت کریں۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{18}{\volt}$}]++(0,\yy) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\xx,0) to [resistor,l={$\SI{3}{\kilo\ohm}$}]++(0,-\yy) to [resistor,l={$\SI{5}{\kilo\ohm}$}]++(-\xx,0);
+\draw(\xx,0) to [american voltage source,*-,l_={$\SI{15}{\volt}$}]++(\xx,0) to [resistor,l_={$\SI{1}{\kilo\ohm}$}]++(0,\yy) to [resistor,-*,l_={$\SI{2}{\kilo\ohm}$}]++(-\xx,0);
+\draw(\xx,0)node[ground]{};
+%loop currents
+\draw[stealth-]([shift={(-150:\xx/6)}]\xx/2,\yy/2) arc (-150:150:\xx/6);
+\draw(\xx/2,\yy/2)node{$i_1$};
+\draw[-stealth]([shift={(150:7/24*\xx)}]\xx/2,\yy/2) arc (150:90:7/24*\xx)--++(\xx,0) arc (90:-90:7/24*\xx)--++(-\xx,0) arc (-90:-150:7/24*\xx);
+\draw(\xx+2/3*\xx,\yy/2)node{$i_3$};
+\end{tikzpicture}%
+\caption{ہر خانے کی علیحدہ رو تصور نہیں کرتے ہوئے حل کرتے ہیں۔}
+\label{شکل_جوڑ_رو_دوسری_کو_لپیٹتی_ہے}
+\end{figure}
+حل:بائیں خانے کے لئے کرخوف قانون دباو سے
+\begin{align*}
+-18+4000(i_1+i_2)+3000 i_1+5000(i_1+i_2)&=0
+\end{align*}
+لکھا جا سکتا ہے۔بیرونی دائرے کے لئے درج ذیل لکھا جائے گا۔
+\begin{align*}
+-18+4000(i_1+i_2)+2000i_2 +1000i_2 +15+5000(i_1+i_2)&=0
+\end{align*}
+ان میں رو کو ترتیب سے لکھتے ہیں۔
+\begin{align*}
+12000 i_1+9000 i_2&=18\\
+9000i_1+12000i_2&=3
+\end{align*}
+ان ہمزاد مساوات کو حل کرنے سے درج ذیل حاصل ہوتی ہیں۔
+\begin{align*}
+i_1&=\SI{3}{\milli\ampere}\\
+i_2&=\SI{-2}{\milli\ampere}
+\end{align*}
+آپ گزشتہ مثال کے جوابات کے ساتھ موازنہ کر سکتے ہیں مثلاً بالائی \عددی{\SI{4}{\kilo\ohm}} میں \عددی{\SI{3}{\milli\ampere}-\SI{2}{\milli\ampere}=\SI{1}{\milli\ampere}} اور درمیانے \عددی{\SI{3}{\kilo\ohm}} میں \عددی{\SI{3}{\milli\ampere}} رو پائے جاتے ہیں۔
+\انتہا{مثال}
+%====================
+
+مندرجہ بالا دو مثالوں میں ایک ہی دور میں دو مختلف طرز کے رو چنتے ہوئے حل کیا گیا۔دونوں حاصل جواب یکساں حاصل ہوئے۔آپ دیکھ سکتے ہیں کہ حاصل جواب چننی گئی رو پر منحصر نہیں ہے۔
+%==================
+\ابتدا{مثال}\شناخت{مثال_جوڑ_تین_دائری_رو_الف}
+شکل \حوالہ{شکل_جوڑ_تین_دائری_رو_مثال_الف} میں نا معلوم رو حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(0,\yy) to [american voltage source,l={$\SI{12}{\volt}$}]++(\xx,0) to [resistor]++(0,-\yy) to [resistor,l={$\SI{3}{\kilo\ohm}$}]++(-\xx,0);
+\draw(\xx,0) to [american voltage source,*-,l_={$\SI{6}{\volt}$}]++(\xx,0) to [resistor,l_={$\SI{2}{\kilo\ohm}$}]++(0,\yy) to [resistor,-*,l_={$\SI{1}{\kilo\ohm}$}]++(-\xx,0);
+\draw(0,\yy) to [short,*-]++(0,\yy) to [resistor,l={$\SI{5}{\kilo\ohm}$}]++(2*\xx,0) to [short,-*]++(0,-\yy);
+\draw(\xx+\dx,3/4*\yy)node[right]{$\SI{4}{\kilo\ohm}$};
+%loop currents
+\draw[stealth-]([shift={(-150:\xx/6)}]\xx,\yy+\yy/2) arc (-150:150:\xx/6);
+\draw(\xx,\yy+\yy/2)node{$i_1$};
+\draw[stealth-]([shift={(-150:\xx/6)}]\xx/2,\yy/2) arc (-150:150:\xx/6);
+\draw(\xx/2,\yy/2)node{$i_2$};
+\draw[stealth-]([shift={(-150:\xx/6)}]\xx+\xx/2,\yy/2) arc (-150:150:\xx/6);
+\draw(\xx+\xx/2,\yy/2)node{$i_3$};
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_جوڑ_تین_دائری_رو_الف} کا دور۔}
+\label{شکل_جوڑ_تین_دائری_رو_مثال_الف}
+\end{figure}
+
+حل:آئیں شکل کو دیکھ کر قالبی مساوات لکھیں۔
+\begin{align*}
+\begin{bmatrix}
+\SI{5}{\kilo\ohm}+\SI{1}{\kilo\ohm} & 0 & -\SI{1}{\kilo\ohm}\\
+0 & \SI{3}{\kilo\ohm}+\SI{1}{\kilo\ohm}+\SI{4}{\kilo\ohm}&-\SI{4}{\kilo\ohm}\\
+-\SI{4}{\kilo\ohm}&-\SI{1}{\kilo\ohm}&\SI{4}{\kilo\ohm}+\SI{1}{\kilo\ohm}+\SI{2}{\kilo\ohm}
+\end{bmatrix}
+\begin{bmatrix}
+i_1\\
+i_2\\
+i_3
+\end{bmatrix}
+=
+\begin{bmatrix}
+-\SI{12}{\volt}\\
+\SI{12}{\volt}\\
+-\SI{6}{\volt}\\
+\end{bmatrix}
+\end{align*}
+اسے یوں لکھتے ہوئے
+\begin{align*}
+\begin{bmatrix}
+6000& 0 & -1000\\
+0 &8000&-4000\\
+-4000&-1000&7000
+\end{bmatrix}
+\begin{bmatrix}
+i_1\\
+i_2\\
+i_3
+\end{bmatrix}
+=
+\begin{bmatrix}
+-12\\
+12\\
+-6\\
+\end{bmatrix}
+\end{align*}
+یہ عمومی قالبی مساوات
+\begin{align*}
+{\bf{R I}}={\bf{V}}
+\end{align*}
+ہے جس کا حل
+\begin{align*}
+{\bf{I}}={\bf{R^{-1}V}}
+\end{align*}
+ہے۔دائری رو درج ذیل حاصل ہوتے ہیں۔
+\begin{align*}
+i_1&=-\frac{33}{14} \, \si{\milli\ampere}\\
+i_1&=\frac{3}{7} \, \si{\milli\ampere}\\
+i_1&=\frac{15}{7} \, \si{\milli\ampere}
+\end{align*}
+\انتہا{مثال}

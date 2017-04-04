@@ -26,4 +26,5 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 3}}تابع منبع رو استعمال کرنے والے ادوار}{\RL {\arabicfont 117}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 3}}غیر تابع منبع دباو استعمال کرنے والے ادوار}{\RL {\arabicfont 122}}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 3}}تابع منبع دباو استعمال کرنے والے ادوار}{\RL {\arabicfont 132}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 3}}دائری تجزیہ}{\RL {\arabicfont 136}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 3}}دائری تجزیہ}{\RL {\arabicfont 139}}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 3}}غیر تابع منبع استعمال کرنے والے ادوار}{\RL {\arabicfont 140}}
