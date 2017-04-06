@@ -1861,5 +1861,79 @@ i_3=\SI{0.5}{\milli\ampere}
 V_0=4000i_3+4=\SI{6}{\volt}
 \end{align*}
 \انتہا{مثال}
-
 %==================
+\ابتدا{مثال}\شناخت{مثال_جوڑ_تابع_منبع_دائری_ترکیب_پ}
+شکل \حوالہ{شکل_جوڑ_تابع_منبع_دائری_ترکیب_مثال_پ} میں تمام خانوں کی رو دریافت کریں۔اس شکل میں رو  قابو منبع دباو اور دباو قابو منبع رو استعمال کئے گئے ہیں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american controlled voltage source,l={$2kI_x$}]++(0,\yy) to [american current source,l={$\SI{2}{\milli\ampere}$}]++(0,\yy) to [short]++(2*\xxx,0) to [american controlled current source,l={$\tfrac{V_a}{1k}$}]++(0,-\yy) to [resistor,i<={$I_x$},l={$\SI{6}{\kilo\ohm}$}]++(-\xxx,0) to [resistor,-*,l={$\SI{4}{\kilo\ohm}$}]++(-\xxx,0);
+\draw(0,0) to [short]++(2*\xxx,0) to [american voltage source,-*,l_={$\SI{10}{\volt}$}]++(0,\yy);
+\draw(\xxx,0) to [resistor,*-*]++(0,\yy) to [resistor,-*]++(0,\yy);
+\draw(\xxx-\dx,\yy+3/4*\yy)node[left]{$\SI{2}{\kilo\ohm}$};
+\draw(\xxx-\dx,1/4*\yy)node[left]{$\SI{4}{\kilo\ohm}$};
+\draw(\xxx/2,\yy+\dy)node[above]{$+ \, V_a \, -$};
+%currents
+\draw[stealth-]([shift={(-150:\xx/5.5)}]\xxx/2,\yy/2) arc (-150:150:\xx/5.5);
+\draw[](\xxx/2,\yy/2)node{$i_1$};
+\draw[stealth-]([shift={(-150:\xx/5.5)}]\xxx/2,\yy+\yy/2) arc (-150:150:\xx/5.5);
+\draw[](\xxx/2,\yy+\yy/2)node{$i_2$};
+\draw[stealth-]([shift={(-150:\xx/5.5)}]\xxx+\xxx/2,\yy+\yy/2) arc (-150:150:\xx/5.5);
+\draw[](\xxx+\xxx/2,\yy+\yy/2)node{$i_3$};
+\draw[stealth-]([shift={(-150:\xx/5.5)}]\xxx+\xxx/2,\yy/2) arc (-150:150:\xx/5.5);
+\draw[](\xxx+\xxx/2,\yy/2)node{$i_4$};
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_جوڑ_تابع_منبع_دائری_ترکیب_پ} کا دور۔}
+\label{شکل_جوڑ_تابع_منبع_دائری_ترکیب_مثال_پ}
+\end{figure}
+
+حل:چار خانوں کے مساوات درج ذیل ہیں
+\begin{align*}
+-2k I_x+4k(i_1-i_2)+4k(i_1-i_4)&=0\\
+i_2&=\frac{2}{1k}\\
+i_3&=\frac{V_a}{1k}\\
+4k(i_4-i_1)+6k(i_4-i_3)+10&=0
+\end{align*}
+جن میں
+\begin{align*}
+V_a&=4k(i_1-i_2)\\
+I_x&=i_4-i_3
+\end{align*}
+پُر کرتے اور ترتیب  دیتے ہوئے
+\begin{align*}
+4i_1-2i_2+i_3-3i_4&=0\\
+i_2&=\frac{2}{1k}\\
+-4i_1+4i_2+i_3&=0\\
+2i_1-3i_3+5i_4&=5
+\end{align*}
+حاصل ہوتے ہیں۔انہیں قالبی مساوات کی صورت میں لکھتے ہیں۔
+\begin{align*}
+\begin{bmatrix*}[r]
+4 & -2 & 1 & -3\\[6pt]
+0& 1 & 0 & 0\\[6pt]
+-4 & 4 & 1 &0\\[6pt]
+2&0&-3&5
+\end{bmatrix*}
+\begin{bmatrix}
+i_1\\[6pt]
+i_2\\[6pt]
+i_3\\[6pt]
+i_4
+\end{bmatrix}
+=
+\begin{bmatrix}
+0\\[6pt]
+\frac{2}{1k}\\[6pt] 
+0\\[6pt]
+5 
+\end{bmatrix}
+\end{align*}
+یہ قالبی مساوات \عددی{{\bf{RI=V}}} کی طرز کی ہے جس کا حل \عددی{{\bf{I=R^{-1}V}}} ہے۔یوں خانوں کی رو درج ذیل حاصل ہوتی ہیں۔
+\begin{align*}
+i_1&=\SI{6.7}{\milli\ampere}\\
+i_1&=\SI{2}{\milli\ampere}\\
+i_1&=\SI{34.8}{\milli\ampere}\\
+i_1&=\SI{19.2}{\milli\ampere}
+\end{align*}
+\انتہا{مثال}
+%================

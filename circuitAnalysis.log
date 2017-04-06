@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  6 APR 2017 11:57
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  6 APR 2017 17:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3169,10 +3169,7 @@ Overfull \hbox (0.40392pt too wide) in paragraph at lines 1703--1705
 مساوات[]
  []
 
-[151] [152] [153] [154] [155] [156]) [157] [158
-
-
-] (./circuitAnalysis.aux
+[151] [152] [153] [154] [155] [156] [157]) [158] (./circuitAnalysis.aux
 (./tex/cktBasics.aux) (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux))
 
 LaTeX Font Warning: Size substitutions with differences
@@ -3183,10 +3180,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 47723 strings out of 493918
- 1130315 string characters out of 6150562
- 1288759 words of memory out of 5000000
- 50133 multiletter control sequences out of 15000+600000
+ 47941 strings out of 493918
+ 1135715 string characters out of 6150562
+ 1289922 words of memory out of 5000000
+ 50351 multiletter control sequences out of 15000+600000
  40921 words of font info for 154 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,21n,74p,10476b,2004s stack positions out of 5000i,500n,10000p,200000b,80000s
