@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  5 APR 2017 17:39
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  6 APR 2017 11:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3160,8 +3160,8 @@ e QTm)
 
 <use  "./fig/figNodalLoop/figNodalDependentVoltageExampleA.pdf" > [132]
 [133] [134] [135] [136] [137] [138] [139] [140] [141] [142] [143] [144]
-[145] [146] [147] [148] [149] [150] [151]
-Overfull \hbox (0.40392pt too wide) in paragraph at lines 1682--1684
+[145] [146] [147] [148] [149] [150]
+Overfull \hbox (0.40392pt too wide) in paragraph at lines 1703--1705
 []\EU1/JameelNooriNastaleeq(1)/m/n/10 ہو گا۔چونکہ  $\OML/zplm/m/it/10 i[]$  \EU
 1/JameelNooriNastaleeq(1)/m/n/10 ہم پہلے ہی حاصل کر چکے ہیں لہٰذا  $\OML/zplm/m
 /it/10 i[]$  \EU1/JameelNooriNastaleeq(1)/m/n/10 اور  $\OML/zplm/m/it/10 i[]$  
@@ -3169,8 +3169,11 @@ Overfull \hbox (0.40392pt too wide) in paragraph at lines 1682--1684
 مساوات[]
  []
 
-) [152] (./circuitAnalysis.aux (./tex/cktBasics.aux) (./tex/cktResistive.aux)
-(./tex/cktNodalLoop.aux))
+[151] [152] [153] [154] [155] [156]) [157] [158
+
+
+] (./circuitAnalysis.aux
+(./tex/cktBasics.aux) (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 2.26395pt have occurred.
@@ -3180,12 +3183,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46808 strings out of 493918
- 1107950 string characters out of 6150562
- 1278958 words of memory out of 5000000
- 49218 multiletter control sequences out of 15000+600000
+ 47723 strings out of 493918
+ 1130315 string characters out of 6150562
+ 1288759 words of memory out of 5000000
+ 50133 multiletter control sequences out of 15000+600000
  40921 words of font info for 154 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,21n,74p,10476b,1996s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,21n,74p,10476b,2004s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (56 pages).
+Output written on circuitAnalysis.pdf (62 pages).

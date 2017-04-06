@@ -1480,7 +1480,7 @@ v_{3}\\
 v_{m}
 \end{bmatrix}
 \end{align}
-اس عمومی قالبی مساوات میں بائیں ہاتھ مزاحمتی قالب کے بالائی بائیں کونے سے نچلی دائیں کونے  تک ترچھی لکیر پر پائے جانے والے اجزاء مثبت ہیں جبکہ بقایا تمام منفی ہیں۔اس مساوات میں \عددی{R_{11}} سے مراد ان مزاحمتوں کا مجموعہ ہے جن سے \عددی{i_1} گزرتی ہے جبکہ \عددی{R_{12}} ان مزاحمتوں کا مجموعہ ہے جن سے \عددی{i_1} اور \عددی{i_2} دونوں گزرتی ہیں۔اس مجموعے کی منفی قیمت قالب میں لکھی جاتی ہے۔
+اس عمومی قالبی مساوات میں بائیں ہاتھ مزاحمتی قالب کے بالائی بائیں کونے سے نچلی دائیں کونے  تک ترچھی لکیر پر پائے جانے والے اجزاء مثبت ہیں جبکہ بقایا تمام منفی ہیں۔اس مساوات میں \عددی{R_{11}} سے مراد ان مزاحمتوں کا مجموعہ ہے جن سے \عددی{i_1} گزرتی ہے جبکہ \عددی{R_{12}} ان مزاحمتوں کا مجموعہ ہے جن سے \عددی{i_1} اور \عددی{i_2} دونوں گزرتی ہیں۔تمام خانوں میں رو کی سمت یکساں ہونے کی صورت میں دو پڑوسی خانوں کے مشترک شاخ میں پڑوسی رو الٹ سمت میں پائی جاتی ہے۔
 %=================
 \ابتدا{مثال}\شناخت{مثال_جوڑ_تین_دائری_رو_الف}
 شکل \حوالہ{شکل_جوڑ_تین_دائری_رو_مثال_الف} میں نا معلوم رو حاصل کریں۔
@@ -1656,6 +1656,8 @@ V_0=4000i_3-6=-\frac{2}{3}\, \si{\volt}
 شکل \حوالہ{شکل_جوڑ_منبع_رو_آسان_ترکیب_دائری_پ} میں \عددی{I_0} حاصل کریں۔
 \begin{figure}
 \centering
+\begin{subfigure}{1\textwidth}
+\centering
 \begin{tikzpicture}
 \draw(0,0)node[left]{$a$} to [short]++(\xx,0) to [american current source,l_={$\SI{6}{\milli\ampere}$}]++(0,\yy)node[right]{$c$} to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(-\xx,0)node[left]{$b$} to [american voltage source,l_={$\SI{10}{\volt}$}]++(0,-\yy);
 \draw(0,\yy) to [short,*-]++(0,\yy) to [american current source,l={$\SI{4}{\milli\ampere}$}]++(\xx,0)node[above]{$d$} to [resistor,-*,i>_={$I_0$},l={$\SI{5}{\kilo\ohm}$}]++(0,-\yy);
@@ -1668,6 +1670,25 @@ V_0=4000i_3-6=-\frac{2}{3}\, \si{\volt}
 \draw[stealth-]([shift={(-150:\xx/5.5)}]\xx+\xx/2,\yy) arc (-150:150:\xx/5.5);
 \draw(\xx+\xx/2,\yy)node{$i_3$};
 \end{tikzpicture}
+\caption{}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)node[left]{$a$} to [short]++(\xx,0) to [american current source,l_={$\begin{aligned} &+ \\ &v_x \\ &- \end{aligned}$}]++(0,\yy)node[right]{$c$} to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(-\xx,0)node[left]{$b$} to [american voltage source,l_={$\SI{10}{\volt}$}]++(0,-\yy);
+\draw(0,\yy) to [short,*-]++(0,\yy) to [american current source,l={$\SI{4}{\milli\ampere}$}]++(\xx,0)node[above]{$d$} to [resistor,-*,i>_={$I_0$},l={$\SI{5}{\kilo\ohm}$}]++(0,-\yy);
+\draw(\xx,0) to [short,*-]++(\xx,0)node[right]{$f$} to [american voltage source,l_={$\SI{8}{\volt}$}]++(0,\yy) to [resistor,l_={$\SI{10}{\kilo\ohm}$}]++(0,\yy)node[above]{$e$} to [short,-*]++(-\xx,0);
+\draw(\xx-\dx,1/4*\yy)node[left]{$\SI{6}{\milli\ampere}$};
+%loop currents
+\draw[stealth-]([shift={(-150:\xx/5.5)}]\xx/2,\yy/2) arc (-150:150:\xx/5.5);
+\draw(\xx/2,\yy/2)node{$i_1$};
+\draw[stealth-]([shift={(-150:\xx/5.5)}]\xx/2,\yy+\yy/2) arc (-150:150:\xx/5.5);
+\draw(\xx/2,\yy+\yy/2)node{$i_2$};
+\draw[stealth-]([shift={(-150:\xx/5.5)}]\xx+\xx/2,\yy) arc (-150:150:\xx/5.5);
+\draw(\xx+\xx/2,\yy)node{$i_3$};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}%
 \caption{مثال \حوالہ{مثال_جوڑ_زیادہ_منبع_رو_آسان_حل} کا دور۔}
 \label{شکل_جوڑ_منبع_رو_آسان_ترکیب_دائری_پ}
 \end{figure}
@@ -1681,7 +1702,7 @@ i_2=\SI{4}{\milli\ampere}
 i_3-i_1=\SI{6}{\milli\ampere}
 \end{align}
 ہو گا۔چونکہ \عددی{i_2} ہم پہلے ہی حاصل کر چکے ہیں لہٰذا \عددی{i_1} اور \عددی{i_3} جاننے کے لئے دو عدد ہمزاد مساوات درکار ہیں۔مساوات \حوالہ{مساوات_جوڑ_پہلی_ہمزاد_مساوات} پہلی مساوات  ہے۔دوسری مساوات راہ \عددی{abcdefa} پر کرخوف قانون دباو سے لکھتے ہیں۔
-\begin{align}
+\begin{align}\label{مساوات_جوڑ_مخلوط_خانہ_الف}
 10+4000(i_1-\SI{4}{\milli\ampere})+5000(i_3-\SI{4}{\milli\ampere})+10000i_3+8=0
 \end{align} 
 مندرجہ بالا دو ہمزاد مساوات حل کرتے ہوئے درج ذیل حاصل ہوتا ہے۔
@@ -1693,9 +1714,152 @@ i_3&=\frac{42}{19} \, \si{\milli\ampere}
 \begin{align*}
 I_0=i_2-i_3=\frac{34}{19} \, \si{\milli\ampere}
 \end{align*}
-\انتہا{مثال}
-%=====================
-\ابتدا{مشق}
 
+آئیں مساوات \حوالہ{مساوات_جوڑ_مخلوط_خانہ_الف} کو اس طرح حاصل کرنا سیکھیں کہ راہ \عددی{abcdefa} چننے کی ضرورت نہ ہو۔چونکہ \عددی{\SI{6}{\milli\ampere}} منبع رو کا دباو نا معلوم ہے لہٰذا اسے \عددی{v_x} متغیرہ سے ظاہر کیا جا سکتا ہے۔شکل \حوالہ{شکل_جوڑ_منبع_رو_آسان_ترکیب_دائری_پ}-ب میں ایسا دکھایا گیا ہے۔اسی شکل سے \عددی{i_1} اور \عددی{i_3} خانوں کے کرخوف قانون دباو سے درج ذیل حاصل ہوتے ہیں۔
+\begin{align*}
+10+4000(i_1-\SI{4}{\milli\ampere})+v_x&=0\\
+-v_x+5000(i_3-\SI{4}{\milli\ampere})+10000i_3+8&=0
+\end{align*}
+ان مساوات کا مجموعہ لینے سے درج ذیل حاصل ہوتا ہے۔
+\begin{align}\label{مساوات_جوڑ_مخلوط_خانہ_ب}
+10+4000(i_1-\SI{4}{\milli\ampere})+5000(i_3-\SI{4}{\milli\ampere})+10000i_3+8&=0
+\end{align}
+مساوات \حوالہ{مساوات_جوڑ_مخلوط_خانہ_ب} کا مساوات \حوالہ{مساوات_جوڑ_مخلوط_خانہ_الف} کے ساتھ موازنہ کریں۔دونوں بالکل یکساں ہیں۔
+\انتہا{مثال}
+
+\FloatBarrier
+%=====================
+\ابتدا{مشق}\شناخت{مشق_جوڑ_دائری_ترکیب_الف}
+شکل \حوالہ{شکل_جوڑ_مشق_دائری_ترکیب_الف} میں \عددی{V_0} کو دائری ترکیب سے حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to[american voltage source,l={$\SI{12}{\volt}$}]++(0,\y) to [resistor,l={$\SI{8}{\kilo\ohm}$}]++(\x,0) to [american current source,l={$\SI{2}{\milli\ampere}$}]++(\x,0) to [resistor,l={$\SI{6}{\kilo\ohm}$}]++(0,-\y) to [short]++(-2*\x,0);
+\draw(\x,0) to [resistor,*-*,l={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\draw(\x+\dx,\y/2)node[right]{$\begin{aligned} &+ \\ &V_0 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_جوڑ_دائری_ترکیب_الف} کا دور۔}
+\label{شکل_جوڑ_مشق_دائری_ترکیب_الف}
+\end{figure}
 \انتہا{مشق}
 %================
+
+\ابتدا{مشق}\شناخت{مشق_جوڑ_دائری_ترکیب_ب}
+شکل \حوالہ{شکل_جوڑ_مشق_دائری_ترکیب_ب} میں \عددی{V_0}، \عددی{V_1} اور \عددی{V_2} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to[american current source,l={$\SI{5}{\milli\ampere}$}]++(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l_={$\SI{8}{\kilo\ohm}$}]++(0,-\y) to [short]++(-\x,0);
+\draw(\x,0) to [short,*-]++(\x,0) to [american voltage source,l_={$\SI{16}{\volt}$}]++(0,\y) to [resistor,-*,l_={$\SI{4}{\kilo\ohm}$}]++(-\x,0);
+\draw(2*\x,\y) to [short,*-]++(0,\y) to [american current source,l={$\SI{8}{\milli\ampere}$}]++(-2*\x,0) to [short,-*]++(0,-\y);
+\draw(\x+\dx,\y/2)node[right]{$\begin{aligned} &+ \\ &V_1 \\ &- \end{aligned}$};
+\draw(\x/2,\y-\dy)node[below]{$+\, V_0 \, -$};
+\draw(\x,2*\y+2*\dy)node[above]{$+\, V_2 \, -$};
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_جوڑ_دائری_ترکیب_ب} کا دور۔}
+\label{شکل_جوڑ_مشق_دائری_ترکیب_ب}
+\end{figure}
+
+جوابات:\عددی{\SI{26}{\volt}}، \عددی{\tfrac{136}{3} \, \si{\volt}}، \عددی{\tfrac{166}{3} \, \si{\volt}}
+\انتہا{مشق}
+%================
+
+\حصہ{تابع منبع استعمال کرنے والے ادوار}
+کرخوف کے مساوات کے نقطہ نظر سے تابع منبع اور آزاد منبع میں کوئی فرق نہیں پایا جاتا۔البتہ تابع منبع استعمال کرنے والے ادوار کو حل کرتے ہوئے تابع منبع کی \اصطلاح{قابو مساوات}\فرہنگ{قابو مساوات}\حاشیہب{control equation}\فرہنگ{control equation} بھی درکار ہوتی ہے۔آئیں چند مثالوں کی مدد سے ایسے ادوار حل کرنا دیکھیں۔آسان ترین مثال سے شروع کرتے ہوئے بتدریج مشکل مثال حل کرتے ہیں۔
+
+%=============
+\ابتدا{مثال}\شناخت{مثال_جوڑ_تابع_منبع_دائری_ترکیب_الف}
+شکل \حوالہ{شکل_جوڑ_تابع_منبع_دائری_ترکیب_مثال_الف} میں \عددی{V_a} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{6}{\volt}$}]++(0,\yy) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\xx,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\xx,0) to [american controlled voltage source,l={$2V_a$}]++(0,-\yy) to [short]++(-2*\xx,0);
+\draw(\xx,\yy) to [resistor,*-*,l={$\SI{6}{\kilo\ohm}$}]++(0,-\yy);
+\draw(\xx-\dx,\yy/2)node[left]{$\begin{aligned} &- \\ &V_a \\ &+ \end{aligned}$};
+%currents
+\draw[gray,stealth-]([shift={(-150:\xx/5.5)}]\xx/2,\yy/2) arc (-150:150:\xx/5.5);
+\draw[gray](\xx/2,\yy/2)node{$i_1$};
+\draw[gray,-stealth] (1/3*\xx,3/4*\yy) --++(4/3*\xx,0)--++(0,-1/2*\yy)node[above left]{$i_2$}--++(-4/3*\xx,0)--++(0,\dy);
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_جوڑ_تابع_منبع_دائری_ترکیب_الف} کا دور۔}
+\label{شکل_جوڑ_تابع_منبع_دائری_ترکیب_مثال_الف}
+\end{figure}
+
+حل: کرخوف مساوات لکھتے ہیں۔
+\begin{align*}
+-6+4000(i_1+i_2)-V_a&=0\\
+-6+4000(i_1+i_2)+2000i_2-2V_a&=0
+\end{align*}
+ان میں تابع منبع دباو کی قابو مساوات
+\begin{align*}
+V_a=-6000i_1
+\end{align*} 
+پُر کرتے  ہوئے ترتیب دیتے ہیں۔
+\begin{align*}
+10000i_1+4000i_2&=6\\
+16000i_1+6000i_2&=6
+\end{align*}
+ان ہمزاد مساوات کا حل درج ذیل ہے۔
+\begin{align*}
+i_1&=\SI{-3}{\milli\ampere}\\
+i_2&=\SI{9}{\milli\ampere}
+\end{align*}
+یوں درکار دباو درج ذیل حاصل ہوتا ہے۔
+\begin{align*}
+V_a=-6000(-0.003)=\SI{18}{\volt}
+\end{align*}
+\انتہا{مثال}
+%===================
+\ابتدا{مثال}\شناخت{مثال_جوڑ_تابع_منبع_دائری_ترکیب_ب}
+شکل \حوالہ{شکل_جوڑ_تابع_منبع_دائری_ترکیب_مثال_ب} میں \عددی{V_0} دریافت کریں۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american current source,l={$\SI{4}{\milli\ampere}$}]++(0,\yy) to [american controlled current source,l={$\tfrac{V_x}{2000}$}]++(0,\yy) to [short]++(\xx,0) to [resistor,l={$\SI{8}{\kilo\ohm}$}]++(0,-\yy) to [resistor,-*,l={$\SI{2}{\kilo\ohm}$}]++(-\xx,0);
+\draw(0,0) to [short]++(\xx,0) to [american voltage source,-*,l_={$\SI{2}{\volt}$}]++(0,\yy);
+\draw(\xx,0) to [short,*-] ++(\xx,0) to [american voltage source,l_={$\SI{4}{\volt}$}]++(0,\yy) to [resistor,l_={$\SI{4}{\kilo\ohm}$}]++(0,\yy) to [short,-*]++(-\xx,0);
+\draw(2*\xx,0) to [short,*-o]++(\xx,0);
+\draw(2*\xx,2*\yy) to [short,*-o]++(\xx,0);
+\draw(3*\xx,\yy)node{$\begin{aligned} &+ \\ \\ \\ &V_0 \\ \\ \\ &-  \end{aligned}$};
+\draw(2*\xx-\dx,\yy+\yy/2)node[left]{$\begin{aligned} &+ \\ &V_x \\ &-  \end{aligned}$};
+%currents
+\draw[stealth-]([shift={(-150:\xx/5.5)}]\xx/2,\yy/2) arc (-150:150:\xx/5.5);
+\draw[](\xx/2,\yy/2)node{$i_1$};
+\draw[stealth-]([shift={(-150:\xx/5.5)}]\xx/2,\yy+\yy/2) arc (-150:150:\xx/5.5);
+\draw[](\xx/2,\yy+\yy/2)node{$i_2$};
+\draw[stealth-]([shift={(-150:\xx/5.5)}]\xx+\xx/2,\yy) arc (-150:150:\xx/5.5);
+\draw[](\xx+\xx/2,\yy)node{$i_3$};
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_جوڑ_تابع_منبع_دائری_ترکیب_ب} کا دور۔}
+\label{شکل_جوڑ_تابع_منبع_دائری_ترکیب_مثال_ب}
+\end{figure}
+
+حل:چونکہ \عددی{i_1} اور \عددی{i_2} منبع رو سے گزرتی ہیں لہٰذا ان کی قیمت منبع رو کے برابر ہی ہو گی۔
+\begin{align*}
+i_1&=\SI{4}{\milli\ampere}\\
+i_2&=\frac{V_x}{2000}
+\end{align*}
+دائیں خانے کی مساوات لکھتے ہیں۔
+\begin{align*}
+-2+8000\left(i_3-\frac{V_x}{2000}\right)+4000i_3+4=0
+\end{align*}
+اس میں تابع منبع کی قابو مساوات
+\begin{align*}
+V_x=4000i_3
+\end{align*}
+پُر کرتے
+\begin{align*}
+-2+8000\left(i_3-\frac{4000i_3}{2000}\right)+4000i_3+4=0
+\end{align*}
+ہوئے حل کرنے سے
+\begin{align*}
+i_3=\SI{0.5}{\milli\ampere}
+\end{align*}
+حاصل ہوتا ہے۔یوں درکار دباو درج ذیل حاصل ہوتا ہے۔
+\begin{align*}
+V_0=4000i_3+4=\SI{6}{\volt}
+\end{align*}
+\انتہا{مثال}
+
+%==================
