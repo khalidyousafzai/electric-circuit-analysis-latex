@@ -13,6 +13,7 @@
 \pgfmathsetmacro{\yyy}{3}
 \pgfmathsetmacro{\dx}{0.2}     %moving labels beyond resistor outline
 \pgfmathsetmacro{\dy}{0.2}
+\pgfmathsetmacro{\pin}{0.3}
 %=====================
 \usepackage{./tex/khalidUrduBooksEMT}                     %my sty file
 \usepackage{amsmath}
@@ -32,12 +33,12 @@
 
 %\input{./tex/myElectronicsVariablesBetter.tex}         %these are all tested. to use at the very end when book is finished
 
-\graphicspath{{./fig/figFrontPage/}{./fig/figBasicConcepts/}{./fig/figResistive/}{./fig/figNodalLoop/}}		%paths to figures
+\graphicspath{{./fig/figFrontPage/}{./fig/figBasicConcepts/}{./fig/figResistive/}{./fig/figNodalLoop/}{./fig/figOpamp/}}		%paths to figures
 
 
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktToDoList}
+%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktToDoList}
 %
-%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktNodalLoop,./tex/cktToDoList}
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktToDoList}
 
 
 
@@ -89,6 +90,7 @@
 \include{./tex/cktBasics}
 \include{./tex/cktResistive}
 \include{./tex/cktNodalLoop}
+\include{./tex/cktOpamp}
 
 %\include{./tex/emtEndOfBookTableDivergenceCurlGradientLaplacian}
 %\include{./tex/toDoList}

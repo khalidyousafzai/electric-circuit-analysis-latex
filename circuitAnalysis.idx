@@ -1,22 +1,19 @@
-\indexentry{nodal analysis}{\RL {\arabicfont  101}}
-\indexentry{جوڑ!ترکیب}{\RL {\arabicfont  101}}
-\indexentry{matrix equation}{\RL {\arabicfont  107}}
-\indexentry{قالبی مساوات}{\RL {\arabicfont  107}}
-\indexentry{matrix!conductance}{\RL {\arabicfont  113}}
-\indexentry{موصلیت!قالب}{\RL {\arabicfont  113}}
-\indexentry{قالب!موصلیت}{\RL {\arabicfont  113}}
-\indexentry{matrix!current}{\RL {\arabicfont  114}}
-\indexentry{قالب!رو}{\RL {\arabicfont  114}}
-\indexentry{رو!قالب}{\RL {\arabicfont  114}}
-\indexentry{node!super}{\RL {\arabicfont  128}}
-\indexentry{جوڑ!مخلوط}{\RL {\arabicfont  128}}
-\indexentry{loop analysis}{\RL {\arabicfont  139}}
-\indexentry{دائری ترکیب}{\RL {\arabicfont  139}}
-\indexentry{loop current}{\RL {\arabicfont  139}}
-\indexentry{رو!دائری}{\RL {\arabicfont  139}}
-\indexentry{دائری رو}{\RL {\arabicfont  139}}
-\indexentry{planar}{\RL {\arabicfont  139}}
-\indexentry{سطحی!دور}{\RL {\arabicfont  139}}
-\indexentry{دور!سطحی}{\RL {\arabicfont  139}}
-\indexentry{control equation}{\RL {\arabicfont  154}}
-\indexentry{قابو مساوات}{\RL {\arabicfont  154}}
+\indexentry{opamp}{\RL {\arabicfont  161}}
+\indexentry{ایمپلیفائر!حسابی}{\RL {\arabicfont  161}}
+\indexentry{حسابی ایمپلیفائر}{\RL {\arabicfont  161}}
+\indexentry{inverting!pin}{\RL {\arabicfont  161}}
+\indexentry{پنیا!منفی داخلی}{\RL {\arabicfont  161}}
+\indexentry{منفی داخلی سرا}{\RL {\arabicfont  161}}
+\indexentry{non-inverting!pin}{\RL {\arabicfont  161}}
+\indexentry{پنیا!مثبت داخلی}{\RL {\arabicfont  161}}
+\indexentry{مثبت داخلی پنیا}{\RL {\arabicfont  161}}
+\indexentry{pins!power}{\RL {\arabicfont  161}}
+\indexentry{طاقتی پنیے}{\RL {\arabicfont  161}}
+\indexentry{پنیا!طاقتی}{\RL {\arabicfont  161}}
+\indexentry{signals}{\RL {\arabicfont  161}}
+\indexentry{اشارہ}{\RL {\arabicfont  161}}
+\indexentry{signal!difference}{\RL {\arabicfont  162}}
+\indexentry{اشارہ!تفرقی}{\RL {\arabicfont  162}}
+\indexentry{تفرقی اشارہ}{\RL {\arabicfont  162}}
+\indexentry{gain}{\RL {\arabicfont  162}}
+\indexentry{افزائش}{\RL {\arabicfont  162}}

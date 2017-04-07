@@ -1,0 +1,77 @@
+\باب{حسابی ایمپلیفائر}
+شکل \حوالہ{شکل_حسابی_علامت_الف} میں \اصطلاح{حسابی ایمپلفائر}\فرہنگ{حسابی ایمپلیفائر}\فرہنگ{ایمپلیفائر!حسابی}\حاشیہب{operational amplifier, opamp}\فرہنگ{opamp} کی علامت دکھائی گئی ہے۔حسابی ایمپلیفائر کے دو عدد داخلی سرے (پنیے) ہیں جنہیں \اصطلاح{مثبت داخلی سرا}\فرہنگ{مثبت داخلی پنیا}\فرہنگ{پنیا!مثبت داخلی}
+\حاشیہب{non-inverting pin}\فرہنگ{non-inverting!pin} اور \اصطلاح{منفی داخلی سرا}\فرہنگ{منفی داخلی سرا}\فرہنگ{پنیا!منفی داخلی}\حاشیہب{inverting pin}\فرہنگ{inverting!pin} کہا جاتا ہے جبکہ اس کا ایک عدد \اصطلاح{خارجی سرا} (پنیا)  ہے۔اس کے علاوہ دو عدد \اصطلاح{طاقتی پنیے}\فرہنگ{پنیا!طاقتی}\فرہنگ{طاقتی پنیے}\حاشیہب{power pins}\فرہنگ{pins!power} حسابی ایمپلیفائر کو برقی طاقت فراہم کرنے کے لئے استعمال کئے جاتے ہیں جن میں ایک پر مثبت دباو اور دوسرے پر منفی دباو فراہم کی جاتی ہے۔حسابی ایمپلیفائر کے ادوار کرخوف کے قوانین سے با آسانی حل ہوتے ہیں۔ 
+
+\begin{figure}
+\centering
+\begin{circuitikz}
+\draw(0,0) node[op amp](u1){};
+\draw(u1.-)node[left]{\RL{منفی داخلی سرا}};
+\draw(u1.+)node[left]{\RL{مثبت داخلی سرا}};
+\draw(u1.out)node[right]{\RL{خارجی سرا}};
+\draw(u1.up)--++(0,\pin)node[above]{\RL{مثبت دباو}};
+\draw(u1.down)--++(0,-\pin)node[below]{\RL{منفی دباو}};
+\end{circuitikz}%
+\caption{حسابی ایمپلیفائر کی علامت۔}
+\label{شکل_حسابی_علامت_الف}
+\end{figure}
+%========
+
+شکل \حوالہ{شکل_حسابی_علامت_فراہم_طاقت}-الف میں حسابی ایمپلیفائر کو دو عدد منبع دباو سے طاقت فراہم کی گئی ہے جبکہ شکل-ب میں ایک عدد منبع دباو سے حسابی ایمپلیفائر کو طاقت کی فراہمی کی گئی ہے۔حسابی ایمپلیفائر کے داخلی سروں پر \اصطلاح{برقی اشارات}\فرہنگ{اشارہ}\حاشیہب{electrical signals}\فرہنگ{signals} فراہم کئے جاتے ہیں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{circuitikz}
+\draw(0,0) node[op amp](u1){};
+\draw(u1.-);
+\draw(u1.+);
+\draw(u1.out);
+\draw(u1.up)--++(0,\y)--++(\xx,0)coordinate(kupper);
+\draw(u1.down)--++(0,-\y)--++(\xx,0)coordinate(klower);
+\draw(klower) to [american voltage source,l_={$V_{EE}$}] ($(kupper)!0.5!(klower)$)coordinate(kmiddle) to [american voltage source,l_={$V_{CC}$}] (kupper);
+\draw(kmiddle) to [short,*-]++(\x/2,0)node[ground]{};
+\end{circuitikz}%
+\caption{دو عدد منبع دباو سے طاقت کی فراہمی۔}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{circuitikz}
+\draw(0,0) node[op amp](u1){};
+\draw(u1.-);
+\draw(u1.+);
+\draw(u1.out);
+\draw(u1.up)--++(0,\y-\dy)--++(\xx,0)coordinate(kupper);
+\draw(u1.down)--++(0,-\y+\dy)node[ground]{}++(\xx,0)coordinate(klower);
+\draw(klower)node[ground]{} to [american voltage source,l_={$V_{CC}$}] (kupper);
+\end{circuitikz}%
+\caption{ایک عدد منبع دباو سے طاقت کی فراہمی۔}
+\end{subfigure}%
+\caption{حسابی ایمپلیفائر کو طاقت کی فراہمی کے طریقے۔}
+\label{شکل_حسابی_علامت_فراہم_طاقت}
+\end{figure}
+%===========
+
+حسابی ایمپلیفائر داخلی سروں پر فراہم کردہ اشارات \عددی{v_k} اور \عددی{v_n} میں فرق \عددی{v_d}
+\begin{align}
+v_d=v_k-v_n
+\end{align}
+ کو \عددی{A} گنّا بڑھا کر خارجی پنیا پر خارج کرتا ہے۔
+\begin{align}
+v_0=A v_d=A(v_k-v_n)
+\end{align}
+حسابی ایمپلیفائر \عددی{v_d} کو داخلی اشارہ تصور کرتا ہے۔\عددی{v_d} کو \اصطلاح{تفرقی اشارہ}\فرہنگ{تفرقی اشارہ}\فرہنگ{اشارہ!تفرقی}\حاشیہب{difference signal}\فرہنگ{signal!difference} کہتے ہیں۔داخلی اشارہ بڑھانے کی صلاحیت کو \اصطلاح{افزائش}\فرہنگ{افزائش}\حاشیہب{gain}\فرہنگ{gain} کہتے اور \عددی{A} سے ظاہر کرتے ہیں۔حسابی ایمپلیفائر کے ادوار کے اشکال میں عموماً طاقتی پنیے نہیں دکھائے جاتے تا کہ اشکال  صاف ستھرے نظر آئیں ۔شکل \حوالہ{شکل_حسابی_فرق_کی_افزائش} میں ایسا ہی کرتے ہوئے حسابی ایمپلیفائر کے طاقتی پنیے نہیں دکھائے گئے ہیں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw (0,0) node[op amp](u1){$A$};
+\draw(u1.+)--++(-\x/3,0)++(0,-\y)coordinate(klowerR)node[ground]{} to [american voltage source,l_={$v_k$}]++(0,\y);
+\draw(klowerR)++(-\x/2,0)node[ground]{} to [american voltage source,l={$v_n$}]++(0,\y) |- (u1.-);
+\draw($(u1.+)!0.5!(u1.-)$) node{$v_d$}coordinate(diffV);
+\draw(diffV)node[shift={(0,0.3)}]{$-$}node[shift={(0,-0.3)}]{$+$};
+\draw(u1.out)node[right]{$v_0=A v_d$};
+\end{tikzpicture}
+\caption{حسابی ایمپلیفائر داخلی اشارات کے فرق کو بڑھاتا ہے۔}
+\label{شکل_حسابی_فرق_کی_افزائش}
+\end{figure}
+

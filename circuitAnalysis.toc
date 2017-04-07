@@ -30,3 +30,5 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 3}}غیر تابع منبع استعمال کرنے والے ادوار}{\RL {\arabicfont 140}}
 \contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 3}}غیر تابع منبع رو استعمال کرنے والے ادوار}{\RL {\arabicfont 148}}
 \contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 3}}تابع منبع استعمال کرنے والے ادوار}{\RL {\arabicfont 154}}
+\contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 3}}دائری ترکیب اور ترکیب جوڑ کا موازنہ}{\RL {\arabicfont 158}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 4}}حسابی ایمپلیفائر}{\RL {\arabicfont 161}}
