@@ -38,7 +38,7 @@
 
 %\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktToDoList}
 %
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktToDoList}
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktOpamp,./tex/cktToDoList}
 
 
 

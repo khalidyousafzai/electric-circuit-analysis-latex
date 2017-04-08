@@ -17,7 +17,7 @@
 \end{figure}
 %========
 
-شکل \حوالہ{شکل_حسابی_علامت_فراہم_طاقت}-الف میں حسابی ایمپلیفائر کو دو عدد منبع دباو سے طاقت فراہم کی گئی ہے جبکہ شکل-ب میں ایک عدد منبع دباو سے حسابی ایمپلیفائر کو طاقت کی فراہمی کی گئی ہے۔حسابی ایمپلیفائر کے داخلی سروں پر \اصطلاح{برقی اشارات}\فرہنگ{اشارہ}\حاشیہب{electrical signals}\فرہنگ{signals} فراہم کئے جاتے ہیں۔
+شکل \حوالہ{شکل_حسابی_علامت_فراہم_طاقت}-الف میں حسابی ایمپلیفائر کو دو عدد منبع دباو سے طاقت فراہم کی گئی ہے جبکہ شکل-ب میں ایک عدد منبع دباو سے حسابی ایمپلیفائر کو طاقت کی فراہمی کی گئی ہے۔مثبت طاقتی دباو کو \عددی{V_{CC}} اور منفی طاقتی دباو کو \عددی{V_{EE}} لکھا جاتا ہے۔شکل-الف میں \عددی{V_{CC}=\SI{12}{\volt}} اور \عددی{V_{EE}=\SI{-10}{\volt}} ہیں۔عموماً ادوار میں مثبت اور منفی طاقتی دباو کے حتمی قیمتیں برابر \عددی{\abs{V_{CC}}=\abs{V_{EE}}} ہوتی ہیں۔حسابی ایمپلیفائر کے داخلی سروں پر \اصطلاح{برقی اشارات}\فرہنگ{اشارہ}\حاشیہب{electrical signals}\فرہنگ{signals} فراہم کئے جاتے ہیں۔
 \begin{figure}
 \centering
 \begin{subfigure}{0.5\textwidth}
@@ -27,9 +27,9 @@
 \draw(u1.-);
 \draw(u1.+);
 \draw(u1.out);
-\draw(u1.up)--++(0,\y)--++(\xx,0)coordinate(kupper);
-\draw(u1.down)--++(0,-\y)--++(\xx,0)coordinate(klower);
-\draw(klower) to [american voltage source,l_={$V_{EE}$}] ($(kupper)!0.5!(klower)$)coordinate(kmiddle) to [american voltage source,l_={$V_{CC}$}] (kupper);
+\draw(u1.up)--++(0,\y)node[above right]{$V_{CC}=\SI{12}{\volt}$}--++(\xx,0)coordinate(kupper);
+\draw(u1.down)--++(0,-\y)node[above right]{$V_{EE}=\SI{-10}{\volt}$}--++(\xx,0)coordinate(klower);
+\draw(klower) to [american voltage source,l_={$\SI{10}{\volt}$}] ($(kupper)!0.5!(klower)$)coordinate(kmiddle) to [american voltage source,l_={$\SI{12}{\volt}$}] (kupper);
 \draw(kmiddle) to [short,*-]++(\x/2,0)node[ground]{};
 \end{circuitikz}%
 \caption{دو عدد منبع دباو سے طاقت کی فراہمی۔}
@@ -37,13 +37,10 @@
 \begin{subfigure}{0.5\textwidth}
 \centering
 \begin{circuitikz}
-\draw(0,0) node[op amp](u1){};
-\draw(u1.-);
-\draw(u1.+);
-\draw(u1.out);
-\draw(u1.up)--++(0,\y-\dy)--++(\xx,0)coordinate(kupper);
-\draw(u1.down)--++(0,-\y+\dy)node[ground]{}++(\xx,0)coordinate(klower);
-\draw(klower)node[ground]{} to [american voltage source,l_={$V_{CC}$}] (kupper);
+\draw(0,0) node[op amp](u1){};;
+\draw(u1.up)--++(0,\y-\dy)node[above right]{$V_{CC}=\SI{15}{\volt}$}--++(\xx,0)coordinate(kupper);
+\draw(u1.down)--++(0,-\y+\dy)node[above right]{$V_{EE}=\SI{0}{\volt}$}node[ground]{}++(\xx,0)coordinate(klower);
+\draw(klower)node[ground]{} to [american voltage source,l_={$\SI{15}{\volt}$}] (kupper);
 \end{circuitikz}%
 \caption{ایک عدد منبع دباو سے طاقت کی فراہمی۔}
 \end{subfigure}%
@@ -56,22 +53,138 @@
 \begin{align}
 v_d=v_k-v_n
 \end{align}
- کو \عددی{A} گنّا بڑھا کر خارجی پنیا پر خارج کرتا ہے۔
+ کو \عددی{A_d} گنّا بڑھا کر خارجی پنیا پر خارج کرتا ہے۔
 \begin{align}
-v_0=A v_d=A(v_k-v_n)
+v_0=A_d v_d=A_d(v_k-v_n)
 \end{align}
-حسابی ایمپلیفائر \عددی{v_d} کو داخلی اشارہ تصور کرتا ہے۔\عددی{v_d} کو \اصطلاح{تفرقی اشارہ}\فرہنگ{تفرقی اشارہ}\فرہنگ{اشارہ!تفرقی}\حاشیہب{difference signal}\فرہنگ{signal!difference} کہتے ہیں۔داخلی اشارہ بڑھانے کی صلاحیت کو \اصطلاح{افزائش}\فرہنگ{افزائش}\حاشیہب{gain}\فرہنگ{gain} کہتے اور \عددی{A} سے ظاہر کرتے ہیں۔حسابی ایمپلیفائر کے ادوار کے اشکال میں عموماً طاقتی پنیے نہیں دکھائے جاتے تا کہ اشکال  صاف ستھرے نظر آئیں ۔شکل \حوالہ{شکل_حسابی_فرق_کی_افزائش} میں ایسا ہی کرتے ہوئے حسابی ایمپلیفائر کے طاقتی پنیے نہیں دکھائے گئے ہیں۔
+حسابی ایمپلیفائر \عددی{v_d} کو داخلی اشارہ تصور کرتا ہے۔\عددی{v_d} کو \اصطلاح{تفرقی اشارہ}\فرہنگ{تفرقی اشارہ}\فرہنگ{اشارہ!تفرقی}\حاشیہب{difference signal}\فرہنگ{signal!difference} کہتے ہیں۔داخلی اشارہ بڑھانے کی صلاحیت کو \اصطلاح{افزائش}\فرہنگ{افزائش}\حاشیہب{gain}\فرہنگ{gain} کہتے اور \عددی{A_d} سے ظاہر کرتے ہیں۔حسابی ایمپلیفائر کے ادوار کے اشکال میں عموماً طاقتی پنیے نہیں دکھائے جاتے تا کہ اشکال  صاف ستھرے نظر آئیں ۔شکل \حوالہ{شکل_حسابی_فرق_کی_افزائش} میں ایسا ہی کرتے ہوئے حسابی ایمپلیفائر کے طاقتی پنیے نہیں دکھائے گئے ہیں۔
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\draw (0,0) node[op amp](u1){$A$};
-\draw(u1.+)--++(-\x/3,0)++(0,-\y)coordinate(klowerR)node[ground]{} to [american voltage source,l_={$v_k$}]++(0,\y);
+\draw (0,0) node[op amp](u1){$A_d$};
+\draw(u1.+)--++(-\x/3,0)++(0,-\y)coordinate(klowerR)coordinate(klow)node[ground]{} to [american voltage source,l_={$v_k$}]++(0,\y);
 \draw(klowerR)++(-\x/2,0)node[ground]{} to [american voltage source,l={$v_n$}]++(0,\y) |- (u1.-);
 \draw($(u1.+)!0.5!(u1.-)$) node{$v_d$}coordinate(diffV);
 \draw(diffV)node[shift={(0,0.3)}]{$-$}node[shift={(0,-0.3)}]{$+$};
-\draw(u1.out)node[right]{$v_0=A v_d$};
+%\draw(u1.out)node[right]{$v_0=A_d v_d$};
+\draw[](klow)++(3,0.5)coordinate(koutL)node[ground]{};
+\draw($(koutL)!0.5!(u1.out)$)node[shift={(0.5,0)}]{$\begin{aligned}  &+ \\   &v_0=A_d v_d \\  &-\end{aligned}$};
 \end{tikzpicture}
 \caption{حسابی ایمپلیفائر داخلی اشارات کے فرق کو بڑھاتا ہے۔}
 \label{شکل_حسابی_فرق_کی_افزائش}
 \end{figure}
+شکل \حوالہ{شکل_حسابی_نمونہ} میں حسابی ایمپلیفائر کے \اصطلاح{ریاضی نمونے}\فرہنگ{نمونہ!حسابی ایمپلیفائر}\فرہنگ{حسابی ایمپلیفائر!نمونہ}\حاشیہب{model}\فرہنگ{model} کا دور دکھایا گیا ہے جو حسابی ایمپلیفائر کی کارکردگی دکھلاتا ہے۔اس نمونے سے ظاہر ہے کہ حسابی ایمپلیفائر کے داخلی سروں پر داخلی رو \عددی{i_d}  اور دباو \عددی{v_d} راست تناسب کا تعلق رکھتے ہیں۔یہ حقیقت داخلی پنیوں کے مابین مزاحمت \عددی{R_i=\tfrac{v_d}{i_i}} ظاہر کرتی ہے۔اسی طرح خارجی جانب بھی مزاحمتی اثر پایا جاتا ہے جسے \عددی{R_o}  سے ظاہر کیا گیا ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0)to [short,o-]++(\x/2,0)to [resistor,l_={$R_i$}]++(0,\y) to [short,-o]++(-\x-\x/2,0);
+\draw(\x/2-\dx,\y/2)[left]node{$\begin{aligned} &- \\ &v_d \\ &+ \end{aligned}$};
+\draw(2*\x,-\y/2) node[ground]{} to [american controlled voltage source,l_={$A_d v_d$}]++(0,\y+\y/2) to [resistor,l={$R_o$},-o]++(\x,0)node[right]{$v_0$};
+\draw(0,-\y/2)node{$\begin{aligned} &+ \\ & v_k \\ &- \end{aligned}$};
+\draw(0,-\y)node[ground]{};
+\draw(-\x,0)node{$\begin{aligned} &+ \\ \\ \\  & v_k \\ \\ \\&- \end{aligned}$};
+\draw(-\x,-\y)node[ground]{};
+\end{tikzpicture}
+\caption{حسابی ایمپلیفائر کا ریاضی نمونہ۔}
+\label{شکل_حسابی_نمونہ}
+\end{figure}    
+آئیں حسابی ایمپلیفائر کا دور اس کے ریاضی نمونے کی مدد سے حل کریں۔شکل \حوالہ{شکل_حسابی_ایمپلیفائر_دور_الف} میں حسابی ایمپلیفائر کے داخلی جانب منفی داخلی پنیے پر  اشارہ \عددی{v_s} اور مزاحمت \عددی{R_S} سلسلہ وار جوڑے گئے ہیں جبکہ مثبت پنیا کو زمین کے ساتھ جوڑا گیا ہے۔خارجی جانب حسابی ایمپلیفائر پر مزاحمتی بوجھ \عددی{R_B} ڈالا گیا ہے۔داخلی جانب تقسیم دباو سے
+\begin{align*}
+v_d=-\left(\frac{R_i}{R_i+R_S}\right)v_s
+\end{align*}
+لکھا جائے گا۔خارجی جانب تقسیم دباو سے درج ذیل لکھا جاتا ہے۔
+\begin{align*}
+v_0=\left(\frac{R_B}{R_B+R_o}\right) A_d v_d
+\end{align*}
+ مندرجہ بالا دو مساوات کو ملاتے ہوئے
+\begin{align}\label{مساوات_حسابی_افزائش_الف}
+\frac{v_0}{v_s}=- A_d \left(\frac{R_B}{R_B+R_o}\right)\left(\frac{R_i}{R_i+R_S}\right)=A_v
+\end{align}
+حاصل ہوتا ہے جہاں \عددی{A_v} بوجھ بردار حسابی ایمپلیفائر کی \اصطلاح{افزائشِ دباو}\فرہنگ{افزائش!دباو}\حاشیہب{voltage gain}\فرہنگ{voltage gain}\فرہنگ{gain!voltage} کہلاتی ہے۔ 
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0)node[ground]{}to [short]++(\x/2,0)to [resistor,l_={$R_i$}]++(0,\y) to [resistor,l={$R_S$}]++(-\x-\x/2,0)coordinate(vtop);
+\draw(vtop)++(0,-\y) node[ground]{} to [american voltage source,l={$v_s$}]++(0,\y);
+\draw(\x/2-\dx,\y/2)[left]node{$\begin{aligned} &- \\ &v_d \\ &+ \end{aligned}$};
+\draw(2*\x,-\y/2) node[ground]{} to [american controlled voltage source,l_={$A_d v_d$}]++(0,\y+\y/2) to [resistor,l={$R_o$}]++(\x+\x/2,0)coordinate(kout) to [resistor,l={$R_B$}]++(0,-\y-\y/2)node[ground]{};
+\draw[](kout) to [short,*-o]++(\x/2,0)node[right]{$v_0$};
+\end{tikzpicture}
+\caption{حسابی ایمپلیفائر کا دور۔}
+\label{شکل_حسابی_ایمپلیفائر_دور_الف}
+\end{figure}
 
+مساوات \حوالہ{مساوات_حسابی_افزائش_الف} میں دونوں قوسین کی قیمت اکائی سے کم ہے لہٰذا \عددی{A_v} کی قیمت \عددی{A_d} سے کم ہو گی۔زیادہ سے زیادہ \عددی{A_v} حاصل کرنے کی خاطر دونوں قوسین کی قیمت اکائی کے قریب ترین ہونا ضروری ہے۔ایسا تب ممکن ہو گا جب
+\begin{gather}
+\begin{aligned}
+R_i \gg R_S\\
+R_o \ll R_B
+\end{aligned}
+\end{gather}
+ہوں۔
+
+جدول \حوالہ{جدول_حسابی_نمونہ_متغیرات} میں حسابی ایمپلیفائر کے ریاضی نمونے کے متغیرات کی قیمتوں کے عمومی حدود دیے گئے ہیں۔آپ دیکھ سکتے ہیں کہ ایسے حسابی ایمپلیفائر دستیاب ہیں جن کی افزائش  \عددی{\SI{50000}{\volt\per\volt}} ہے اور ایسے ایمپلیفائر بھی دستیاب ہیں جن کی افزائش \عددی{\SI{1000000}{\volt\per\volt}} ہے۔
+\begin{table} 
+\caption{حسابی ایمپلیفائر کے نمونے کے متغیرات کی عمومی قیمتیں۔}
+\centering
+\begin{tabular}{ccc}
+ $A_d (\si{\volt\per\volt})$ & $R_i (\si{\ohm})$ & $R_0 (\si{\ohm}) $\\
+\hline
+$\num{50000} - \num{1000000} $& $\num{e5} - \num{e12}$ & $2-200 \rule{0pt}{2.5ex} $ 
+\end{tabular}
+\label{جدول_حسابی_نمونہ_متغیرات}
+\end{table}
+
+%==================
+\ابتدا{مثال}
+شکل \حوالہ{شکل_حسابی_ایمپلیفائر_دور_الف} میں \عددی{A_d=\SI{100000}{\volt\per\volt}}، \عددی{R_i=\SI{e12}{\ohm}}، \عددی{R_o=\SI{100}{\ohm}}، \عددی{R_S=\SI{50}{\kilo\ohm}} اور \عددی{R_B=\SI{10}{\kilo\ohm}} ہیں۔ایمپلیفائر کی افزائش دباو \عددی{A_v} حاصل کریں۔
+
+حل:مساوات \حوالہ{مساوات_حسابی_افزائش_الف} میں دی گئی قیمتیں پُر کرتے ہیں۔
+\begin{align*}
+A_v=\num{-100000} \left(\frac{\num{10000}}{\num{10000}+100}\right)\left(\frac{\num{e12}}{\num{e12}+\num{50000}}\right)=\SI{99010}{\volt\per\volt}
+\end{align*}
+\انتہا{مثال}
+%====================
+
+حسابی ایمپلیفائر کا خارجی اشارہ  کسی بھی صورت مثبت طاقت دباو \عددی{V_{CC}} سے زیادہ نہیں ہو سکتا۔اسی طرح خارجی اشارہ کسی صورت بھی \عددی{V_{EE}} سے کم نہیں ہو سکتا۔کئی اقسام کے حسابی ایمپلیفائر کا خارجی اشارہ طاقتی دباو سے چند ملی وولٹ کے فاصلے تک پہنچ پاتا ہے۔عموماً حسابی ایمپلیفائر ایسا کرنے کی صلاحیت نہیں رکھتے اور ان کا خارجی اشارہ مثبت طاقتی دباو سے \عددی{\SI{1}{\volt}} تا \عددی{\SI{3}{\volt}} کم اور منفی  طاقتی دباو سے \عددی{\SI{1}{\volt}} تا \عددی{\SI{3}{\volt}} زیادہ  ہی ہوتا ہے۔
+\begin{align}
+V_{CC}-\Delta_+ > v_0 > V_{EE}+\Delta_-
+\end{align}
+آئیں اس حقیقت کے اثرات ایک مثال کی مدد سے دیکھیں۔
+%===============
+\ابتدا{مثال}
+شکل \حوالہ{شکل_حسابی_لبریز} میں منفی ایمپلیفائر دکھایا گیا ہے۔اس میں  \عددی{\Delta+=\Delta_-=\SI{1.5}{\volt}} لیتے ہوئے \عددی{v_0} دریافت کریں۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)node[op amp](u1){};
+\draw(u1.-) to [resistor,l_={$\SI{1}{\kilo\ohm}$}]++(-\x,0)++(0,-\y) node[ground]{} to [american voltage source,l={$v_s$}]++(0,\y);
+\draw(u1.-) to [short,*-]++(0,\y/2) to [resistor,l={$\SI{10}{\kilo\ohm}$}] ++(\x,0)-| (u1.out);
+\draw(u1.out) to [short,*-o]++(\x/2,0)node[above]{$v_0$};
+\draw(u1.+) to [short]++(0,-\y/2)node[ground]{};
+\end{tikzpicture}
+\caption{منفی ایمپلیفائر کا دور۔}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)node[ground]{}to [short]++(\x/2,0)to [resistor,l_={$R_i$}]++(0,\y) to [short]++(-\x/2,0)coordinate(vn) to [resistor,l_={$\SI{1}{\kilo\ohm}$}]++(-\x,0)coordinate(vtop);
+\draw(vtop)++(0,-\y) node[ground]{} to [american voltage source,l={$v_s$}]++(0,\y);
+\draw(\x/2-\dx,\y/2)[left]node{$\begin{aligned} &- \\ &v_d \\ &+ \end{aligned}$};
+\draw(2*\x,-\y/2) node[ground]{} to [american controlled voltage source,l_={$A_d v_d$}]++(0,\y+\y/2) to [resistor,l={$R_o$}]++(\x+\x/2,0)coordinate(kout) to [resistor,l={$R_B$}]++(0,-\y-\y/2)node[ground]{};
+\draw[](kout) to [short,*-o]++(\x/2,0)node[right]{$v_0$};
+\draw(vn) to [short,*-]++(0,\y/2) to [resistor,l={$\SI{10}{\kilo\ohm}$}]++(3*\x,0) -| (kout);
+\end{tikzpicture}
+\caption{منفی دور کا مساوی برقی دور۔}
+\end{subfigure}
+\caption{منفی ایمپلیفائر اور اس کا مساوی دور۔}
+\label{شکل_حسابی_لبریز}
+\end{figure}
+
+حل:شکل \حوالہ{شکل_حسابی_لبریز}-الف میں حسابی ایمپلیفائر کی جگہ اس کا نمونہ نسب کرنے سے شکل-ب حاصل ہوتا ہے جسے کرخوف کے قوانین سے حل کیا جا سکتا ہے۔شکل-ب منفی ایمپلیفائر کا مساوی دور ہے۔
+
+\انتہا{مثال}
+%===============
