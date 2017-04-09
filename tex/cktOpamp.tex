@@ -5,12 +5,12 @@
 \begin{figure}
 \centering
 \begin{circuitikz}
-\draw(0,0) node[op amp](u1){};
+\draw(0,0) node[op amp,yscale=-1](u1){};
 \draw(u1.-)node[left]{\RL{منفی داخلی سرا}};
 \draw(u1.+)node[left]{\RL{مثبت داخلی سرا}};
 \draw(u1.out)node[right]{\RL{خارجی سرا}};
-\draw(u1.up)--++(0,\pin)node[above]{\RL{مثبت دباو}};
-\draw(u1.down)--++(0,-\pin)node[below]{\RL{منفی دباو}};
+\draw(u1.up)--++(0,-\pin)node[below]{\RL{منفی دباو}};
+\draw(u1.down)--++(0,\pin)node[above]{\RL{مثبت دباو}};
 \end{circuitikz}%
 \caption{حسابی ایمپلیفائر کی علامت۔}
 \label{شکل_حسابی_علامت_الف}
@@ -23,12 +23,9 @@
 \begin{subfigure}{0.5\textwidth}
 \centering
 \begin{circuitikz}
-\draw(0,0) node[op amp](u1){};
-\draw(u1.-);
-\draw(u1.+);
-\draw(u1.out);
-\draw(u1.up)--++(0,\y)node[above right]{$V_{CC}=\SI{12}{\volt}$}--++(\xx,0)coordinate(kupper);
-\draw(u1.down)--++(0,-\y)node[above right]{$V_{EE}=\SI{-10}{\volt}$}--++(\xx,0)coordinate(klower);
+\draw(0,0) node[op amp,yscale=-1](u1){};
+\draw(u1.down)--++(0,\y)node[above right]{$V_{CC}=\SI{12}{\volt}$}--++(\xx,0)coordinate(kupper);
+\draw(u1.up)--++(0,-\y)node[above right]{$V_{EE}=\SI{-10}{\volt}$}--++(\xx,0)coordinate(klower);
 \draw(klower) to [american voltage source,l_={$\SI{10}{\volt}$}] ($(kupper)!0.5!(klower)$)coordinate(kmiddle) to [american voltage source,l_={$\SI{12}{\volt}$}] (kupper);
 \draw(kmiddle) to [short,*-]++(\x/2,0)node[ground]{};
 \end{circuitikz}%
@@ -37,9 +34,9 @@
 \begin{subfigure}{0.5\textwidth}
 \centering
 \begin{circuitikz}
-\draw(0,0) node[op amp](u1){};;
-\draw(u1.up)--++(0,\y-\dy)node[above right]{$V_{CC}=\SI{15}{\volt}$}--++(\xx,0)coordinate(kupper);
-\draw(u1.down)--++(0,-\y+\dy)node[above right]{$V_{EE}=\SI{0}{\volt}$}node[ground]{}++(\xx,0)coordinate(klower);
+\draw(0,0) node[op amp,yscale=-1](u1){};;
+\draw(u1.down)--++(0,\y-\dy)node[above right]{$V_{CC}=\SI{15}{\volt}$}--++(\xx,0)coordinate(kupper);
+\draw(u1.up)--++(0,-\y+\dy)node[above right]{$V_{EE}=\SI{0}{\volt}$}node[ground]{}++(\xx,0)coordinate(klower);
 \draw(klower)node[ground]{} to [american voltage source,l_={$\SI{15}{\volt}$}] (kupper);
 \end{circuitikz}%
 \caption{ایک عدد منبع دباو سے طاقت کی فراہمی۔}
@@ -61,26 +58,27 @@ v_0=A_d v_d=A_d(v_k-v_n)
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\draw (0,0) node[op amp](u1){$A_d$};
-\draw(u1.+)--++(-\x/3,0)++(0,-\y)coordinate(klowerR)coordinate(klow)node[ground]{} to [american voltage source,l_={$v_k$}]++(0,\y);
-\draw(klowerR)++(-\x/2,0)node[ground]{} to [american voltage source,l={$v_n$}]++(0,\y) |- (u1.-);
+\draw (0,0) node[op amp,yscale=-1](u1){};
+\draw(u1.out)++(-1,0)node{$A_d$};
+\draw(u1.out) to [short,-o]++(\x/4,0)coordinate(kkout);
+\draw(u1.-)--++(-\x/3,0)++(0,-\y)coordinate(klowerR)coordinate(klow)node[ground]{} to [american voltage source,l_={$v_n$}]++(0,\y);
+\draw(klowerR)++(-\x/2,0)node[ground]{} to [american voltage source,l={$v_k$}]++(0,\y) |- (u1.+);
 \draw($(u1.+)!0.5!(u1.-)$) node{$v_d$}coordinate(diffV);
-\draw(diffV)node[shift={(0,0.3)}]{$-$}node[shift={(0,-0.3)}]{$+$};
-%\draw(u1.out)node[right]{$v_0=A_d v_d$};
-\draw[](klow)++(3,0.5)coordinate(koutL)node[ground]{};
-\draw($(koutL)!0.5!(u1.out)$)node[shift={(0.5,0)}]{$\begin{aligned}  &+ \\   &v_0=A_d v_d \\  &-\end{aligned}$};
+\draw(diffV)node[shift={(0,0.3)}]{$+$}node[shift={(0,-0.3)}]{$-$};
+\draw[](klow)++(3+\x/4,0.5)coordinate(koutL)node[ground]{};
+\draw($(koutL)!0.5!(kkout)$)node[shift={(0.6,0)}]{$\begin{aligned}  &+ \\   &v_0=A_d v_d \\  &-\end{aligned}$};
 \end{tikzpicture}
 \caption{حسابی ایمپلیفائر داخلی اشارات کے فرق کو بڑھاتا ہے۔}
 \label{شکل_حسابی_فرق_کی_افزائش}
 \end{figure}
-شکل \حوالہ{شکل_حسابی_نمونہ} میں حسابی ایمپلیفائر کے \اصطلاح{ریاضی نمونے}\فرہنگ{نمونہ!حسابی ایمپلیفائر}\فرہنگ{حسابی ایمپلیفائر!نمونہ}\حاشیہب{model}\فرہنگ{model} کا دور دکھایا گیا ہے جو حسابی ایمپلیفائر کی کارکردگی دکھلاتا ہے۔اس نمونے سے ظاہر ہے کہ حسابی ایمپلیفائر کے داخلی سروں پر داخلی رو \عددی{i_d}  اور دباو \عددی{v_d} راست تناسب کا تعلق رکھتے ہیں۔یہ حقیقت داخلی پنیوں کے مابین مزاحمت \عددی{R_i=\tfrac{v_d}{i_i}} ظاہر کرتی ہے۔اسی طرح خارجی جانب بھی مزاحمتی اثر پایا جاتا ہے جسے \عددی{R_o}  سے ظاہر کیا گیا ہے۔
+شکل \حوالہ{شکل_حسابی_نمونہ} میں حسابی ایمپلیفائر کے \اصطلاح{ریاضی نمونے}\فرہنگ{نمونہ!حسابی ایمپلیفائر}\فرہنگ{حسابی ایمپلیفائر!نمونہ}\حاشیہب{model}\فرہنگ{model} کا دور دکھایا گیا ہے جس سے حسابی ایمپلیفائر کی کارکردگی سمجھی جا سکتی ہے۔اس نمونے سے ظاہر ہے کہ حسابی ایمپلیفائر کے داخلی سروں پر داخلی رو \عددی{i_d}  اور دباو \عددی{v_d} راست تناسب کا تعلق رکھتے ہیں۔یہ حقیقت داخلی پنیوں کے مابین مزاحمت \عددی{R_i=\tfrac{v_d}{i_i}} ظاہر کرتی ہے۔اسی طرح خارجی جانب بھی مزاحمتی اثر پایا جاتا ہے جسے \عددی{R_o}  سے ظاہر کیا گیا ہے۔
 \begin{figure}
 \centering
 \begin{tikzpicture}
 \draw(0,0)to [short,o-]++(\x/2,0)to [resistor,l_={$R_i$}]++(0,\y) to [short,-o]++(-\x-\x/2,0);
-\draw(\x/2-\dx,\y/2)[left]node{$\begin{aligned} &- \\ &v_d \\ &+ \end{aligned}$};
+\draw(\x/2-\dx,\y/2)[left]node{$\begin{aligned} &+ \\ &v_d \\ &- \end{aligned}$};
 \draw(2*\x,-\y/2) node[ground]{} to [american controlled voltage source,l_={$A_d v_d$}]++(0,\y+\y/2) to [resistor,l={$R_o$},-o]++(\x,0)node[right]{$v_0$};
-\draw(0,-\y/2)node{$\begin{aligned} &+ \\ & v_k \\ &- \end{aligned}$};
+\draw(0,-\y/2)node{$\begin{aligned} &+ \\ & v_n \\ &- \end{aligned}$};
 \draw(0,-\y)node[ground]{};
 \draw(-\x,0)node{$\begin{aligned} &+ \\ \\ \\  & v_k \\ \\ \\&- \end{aligned}$};
 \draw(-\x,-\y)node[ground]{};
@@ -90,7 +88,7 @@ v_0=A_d v_d=A_d(v_k-v_n)
 \end{figure}    
 آئیں حسابی ایمپلیفائر کا دور اس کے ریاضی نمونے کی مدد سے حل کریں۔شکل \حوالہ{شکل_حسابی_ایمپلیفائر_دور_الف} میں حسابی ایمپلیفائر کے داخلی جانب منفی داخلی پنیے پر  اشارہ \عددی{v_s} اور مزاحمت \عددی{R_S} سلسلہ وار جوڑے گئے ہیں جبکہ مثبت پنیا کو زمین کے ساتھ جوڑا گیا ہے۔خارجی جانب حسابی ایمپلیفائر پر مزاحمتی بوجھ \عددی{R_B} ڈالا گیا ہے۔داخلی جانب تقسیم دباو سے
 \begin{align*}
-v_d=-\left(\frac{R_i}{R_i+R_S}\right)v_s
+v_d=\left(\frac{R_i}{R_i+R_S}\right)v_s
 \end{align*}
 لکھا جائے گا۔خارجی جانب تقسیم دباو سے درج ذیل لکھا جاتا ہے۔
 \begin{align*}
@@ -98,17 +96,17 @@ v_0=\left(\frac{R_B}{R_B+R_o}\right) A_d v_d
 \end{align*}
  مندرجہ بالا دو مساوات کو ملاتے ہوئے
 \begin{align}\label{مساوات_حسابی_افزائش_الف}
-\frac{v_0}{v_s}=- A_d \left(\frac{R_B}{R_B+R_o}\right)\left(\frac{R_i}{R_i+R_S}\right)=A_v
+\frac{v_0}{v_s}= A_d \left(\frac{R_B}{R_B+R_o}\right)\left(\frac{R_i}{R_i+R_S}\right)=A_v
 \end{align}
 حاصل ہوتا ہے جہاں \عددی{A_v} بوجھ بردار حسابی ایمپلیفائر کی \اصطلاح{افزائشِ دباو}\فرہنگ{افزائش!دباو}\حاشیہب{voltage gain}\فرہنگ{voltage gain}\فرہنگ{gain!voltage} کہلاتی ہے۔ 
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\draw(0,0)node[ground]{}to [short]++(\x/2,0)to [resistor,l_={$R_i$}]++(0,\y) to [resistor,l={$R_S$}]++(-\x-\x/2,0)coordinate(vtop);
+\draw(0,0)node[ground]{}to [short]++(\x/2,0)to [resistor,l_={$R_i$}]++(0,\y) to [resistor,l_={$R_S$}]++(-\x-\x/2,0)coordinate(vtop);
 \draw(vtop)++(0,-\y) node[ground]{} to [american voltage source,l={$v_s$}]++(0,\y);
-\draw(\x/2-\dx,\y/2)[left]node{$\begin{aligned} &- \\ &v_d \\ &+ \end{aligned}$};
-\draw(2*\x,-\y/2) node[ground]{} to [american controlled voltage source,l_={$A_d v_d$}]++(0,\y+\y/2) to [resistor,l={$R_o$}]++(\x+\x/2,0)coordinate(kout) to [resistor,l={$R_B$}]++(0,-\y-\y/2)node[ground]{};
-\draw[](kout) to [short,*-o]++(\x/2,0)node[right]{$v_0$};
+\draw(\x/2-\dx,\y/2)[left]node{$\begin{aligned} &+ \\ &v_d \\ &- \end{aligned}$};
+\draw(1.5*\x,0) node[ground]{} to [american controlled voltage source,l_={$A_d v_d$}]++(0,\y) to [resistor,l={$R_o$}]++(\x,0)coordinate(kout) to [resistor,l={$R_B$}]++(0,-\y)node[ground]{};
+\draw[](kout) to [short,*-o]++(\x/4,0)node[right]{$v_0$};
 \end{tikzpicture}
 \caption{حسابی ایمپلیفائر کا دور۔}
 \label{شکل_حسابی_ایمپلیفائر_دور_الف}
@@ -136,24 +134,85 @@ $\num{50000} - \num{1000000} $& $\num{e5} - \num{e12}$ & $2-200 \rule{0pt}{2.5ex
 \end{table}
 
 %==================
-\ابتدا{مثال}
+\ابتدا{مثال}\شناخت{مثال_حسابی_ایمپلیفائر_الف}
 شکل \حوالہ{شکل_حسابی_ایمپلیفائر_دور_الف} میں \عددی{A_d=\SI{100000}{\volt\per\volt}}، \عددی{R_i=\SI{e12}{\ohm}}، \عددی{R_o=\SI{100}{\ohm}}، \عددی{R_S=\SI{50}{\kilo\ohm}} اور \عددی{R_B=\SI{10}{\kilo\ohm}} ہیں۔ایمپلیفائر کی افزائش دباو \عددی{A_v} حاصل کریں۔
 
 حل:مساوات \حوالہ{مساوات_حسابی_افزائش_الف} میں دی گئی قیمتیں پُر کرتے ہیں۔
 \begin{align*}
-A_v=\num{-100000} \left(\frac{\num{10000}}{\num{10000}+100}\right)\left(\frac{\num{e12}}{\num{e12}+\num{50000}}\right)=\SI{99010}{\volt\per\volt}
+A_v=\num{100000} \left(\frac{\num{10000}}{\num{10000}+100}\right)\left(\frac{\num{e12}}{\num{e12}+\num{50000}}\right)=\SI{99010}{\volt\per\volt}
 \end{align*}
 \انتہا{مثال}
 %====================
 
-حسابی ایمپلیفائر کا خارجی اشارہ  کسی بھی صورت مثبت طاقت دباو \عددی{V_{CC}} سے زیادہ نہیں ہو سکتا۔اسی طرح خارجی اشارہ کسی صورت بھی \عددی{V_{EE}} سے کم نہیں ہو سکتا۔کئی اقسام کے حسابی ایمپلیفائر کا خارجی اشارہ طاقتی دباو سے چند ملی وولٹ کے فاصلے تک پہنچ پاتا ہے۔عموماً حسابی ایمپلیفائر ایسا کرنے کی صلاحیت نہیں رکھتے اور ان کا خارجی اشارہ مثبت طاقتی دباو سے \عددی{\SI{1}{\volt}} تا \عددی{\SI{3}{\volt}} کم اور منفی  طاقتی دباو سے \عددی{\SI{1}{\volt}} تا \عددی{\SI{3}{\volt}} زیادہ  ہی ہوتا ہے۔
-\begin{align}
+حسابی ایمپلیفائر کا خارجی اشارہ  کسی بھی صورت مثبت طاقتی دباو \عددی{V_{CC}} سے زیادہ نہیں اور منفی طاقتی دباو \عددی{V_{EE}} سے کم نہیں ہو سکتا۔کئی اقسام کے حسابی ایمپلیفائر کا خارجی اشارہ طاقتی دباو سے چند ملی وولٹ کے فاصلے تک پہنچ پاتا ہے۔عموماً حسابی ایمپلیفائر ایسا کرنے کی صلاحیت نہیں رکھتے اور ان کا خارجی اشارہ مثبت طاقتی دباو سے \عددی{\SI{1}{\volt}} تا \عددی{\SI{3}{\volt}} کم اور منفی  طاقتی دباو سے \عددی{\SI{1}{\volt}} تا \عددی{\SI{3}{\volt}} زیادہ  ہی رہتا ہے۔
+\begin{align}\label{مساوات_حسابی_خارجی_حدود}
 V_{CC}-\Delta_+ > v_0 > V_{EE}+\Delta_-
 \end{align}
 آئیں اس حقیقت کے اثرات ایک مثال کی مدد سے دیکھیں۔
 %===============
 \ابتدا{مثال}
-شکل \حوالہ{شکل_حسابی_لبریز} میں منفی ایمپلیفائر دکھایا گیا ہے۔اس میں  \عددی{\Delta+=\Delta_-=\SI{1.5}{\volt}} لیتے ہوئے \عددی{v_0} دریافت کریں۔
+مثال \حوالہ{مثال_حسابی_ایمپلیفائر_الف} میں \عددی{v_s=\SI{50}{\micro\volt}}، \عددی{v_s=\SI{200}{\micro\volt}}، \عددی{v_s=\SI{2}{\volt}} اور \عددی{v_s=\SI{-150}{\micro\volt}} کی صورت میں \عددی{v_0} حاصل کریں۔حسابی ایمپلیفائر کے \عددی{\Delta_+ = \SI{1.5}{\volt}} اور \عددی{\Delta_-=\SI{1.2}{\volt}} تصور کریں  جبکہ طاقتی دباو \عددی{\SI{12}{\volt}} اور \عددی{\SI{-12}{\volt}} ہیں۔
+
+حل:مساوات \حوالہ{مساوات_حسابی_خارجی_حدود} کے تحت خارجی اشارے کے حدود درج ذیل ہیں۔
+\begin{gather}
+\begin{aligned}\label{مساوات_حسابی_حدود_ب}
+12-1.5 &> v_0 > -12+1.2\\
+\SI{10.5}{\volt} & > v_0 > \SI{-10.8}{\volt}
+\end{aligned}
+\end{gather}
+گزشتہ مثال میں ہم \عددی{A_v} کی قیمت حاصل کر چکے ہیں۔چونکہ \عددی{A_v=\tfrac{v_0}{v_s}} ہوتا ہے لہٰذا \عددی{v_s=\SI{50}{\micro\volt}} کی صورت میں
+\begin{align*}
+v_0=A_v v_s=99010 \times 50 \times 10^{-6}=\SI{4.95}{\volt} \quad \quad (v_s=\SI{50}{\micro\volt})
+\end{align*}
+ہو گا۔اسی طرح \عددی{v_s=\SI{200}{\micro\volt}} کی صورت میں جواب
+\begin{align*}
+v_0=99010\times 200\times 10^{-6}=\SI{19.8}{\volt}\quad \quad{\text{\RL{(اس جواب کو رد کیا جاتا ہے)}}}
+\end{align*}
+متوقع ہے۔مساوات \حوالہ{مساوات_حسابی_حدود_ب} کے تحت \عددی{v_0} کی قیمت \عددی{\SI{10.5}{\volt}} سے زیادہ نہیں ہو سکتی۔ایسی صورت میں حسابی ایمپلیفائر کوشش کرتا ہے کہ اس کا خارجی اشارہ \عددی{\SI{19.8}{\volt}} تک پہنچے لیکن ایسا ممکن نہیں ہے لہٰذا \عددی{v_0} بڑھتے بڑھتے \عددی{\SI{10.5}{\volt}} پر جا رکتا ہے۔یوں درست جواب درج ذیل ہے۔
+\begin{align*}
+v_0=\SI{10.5}{\volt} \quad \quad (v_s=\SI{200}{\micro\volt})
+\end{align*}
+داخلی اشارہ \عددی{\SI{2}{\volt}} ہونے کی صورت میں \عددی{v_0=\SI{198}{\kilo\volt}} متوقع ہے جو حسابی ایمپلیفائر کے لئے حاصل کرنا نا ممکن  ہے لہٰذا اب بھی
+\begin{align*}
+v_0=\SI{10.5}{\volt} \quad \quad (v_s=\SI{2}{\volt})
+\end{align*}
+ہو گا۔آخری داخلی اشارے کے لئے \عددی{v_0=99010\times (-150 \times 10^{-6})=\SI{-14.9}{\volt}} متوقع لیکن نا قابل حصول جواب ہے اور یوں 
+\begin{align*}
+v_0=\SI{-10.8}{\volt} \quad \quad (v_s=\SI{-150}{\micro\volt})
+\end{align*}
+ہو گا۔
+\انتہا{مثال}
+%===============
+\ابتدا{مثال}\شناخت{مثال_حسابی_خطی_حدود_الف}
+گزشتہ مثال میں مختلف داخلی اشارات مہیا کرتے ہوئے حسابی ایمپلیفائر کا خارجی اشارہ حاصل کیا گیا۔آپ سے گزارش ہے کہ داخلی اشارے کے وہ حدود حاصل کریں جن کے اندر رہتے ہوئے \عددی{v_0} اور \عددی{v_s} کا تعلق خطی ہو گا۔
+
+حل: ہم دیکھتے ہیں کہ جب تک خارجی اشارہ مساوات \حوالہ{مساوات_حسابی_خارجی_حدود} میں دیے حدود کے اندر رہتا ہے اس وقت تک \عددی{v_0} اور \عددی{v_s} \اصطلاح{خطی تعلق}\فرہنگ{خطی تعلق}\حاشیہب{linear relationship}\فرہنگ{linear} \عددی{\tfrac{v_0}{v_s}=A_v} رکھتے ہیں۔مندرجہ بالا مثال میں بالائی حد
+\begin{align*}
+v_{s,\text{بلندتر}}= \frac{v_0}{A_d}=\frac{10.5}{99010}=\SI{106}{\micro\volt}
+\end{align*}
+پر اور نچلی حد
+\begin{align*}
+v_{s,\text{کمتر}}= \frac{v_0}{A_d}=\frac{-10.8}{99010}=\SI{-109}{\micro\volt}
+\end{align*}
+حاصل ہوتے ہیں۔یوں حسابی ایمپلیفائر اس وقت تک داخلی اشارے کو خطی طور پر بڑھاتا ہے جب تک داخلی اشارہ درج ذیل حدود میں رہے۔
+\begin{align*}
+\SI{106}{\micro\volt} > v_s >\SI{-109}{\micro\volt}
+\end{align*} 
+ان حدود میں رہتے ہوئے \عددی{v_d} کے حدود شکل \حوالہ{شکل_حسابی_ایمپلیفائر_دور_الف} سے بذریعہ تقسیم دباو یوں حاصل ہوتے ہیں۔
+\begin{align*}
+v_{d,\text{بلندتر}}&=\frac{R_i v_s}{R_i+R_S}=\frac{10^{12} \times \SI{106}{\micro\volt}}{10^{12}+\num{5e4}} \approx \SI{106}{\micro\volt}\\
+v_{d,\text{کمتر}}&=\frac{10^{12} \times (\SI{-109}{\micro\volt})}{10^{12}+\num{5e4}} \approx \SI{-109}{\micro\volt}
+\end{align*}
+یوں جب تک 
+\begin{align}\label{مساوات_حسابی_خطی_حدود_داخلی_اشارہ}
+\SI{106}{\micro\volt} > v_d >\SI{-109}{\micro\volt}
+\end{align} 
+رہے، حسابی ایمپلیفائر خطی رہتا ہے۔ 
+
+\انتہا{مثال}
+%======================
+\ابتدا{مثال}\شناخت{مثال_حسابی_منفی_الف}
+شکل \حوالہ{شکل_حسابی_لبریز} میں حسابی ایمپلیفائر کو یوں پلٹایا گیا ہے کہ اس کا مثبت سرا نیچے اور منفی سرا اوپر ہے۔اس کی افزائش دباو \عددی{A_v=\tfrac{v_0}{v_s}} حاصل کریں۔
 
 \begin{figure}
 \centering
@@ -161,9 +220,9 @@ V_{CC}-\Delta_+ > v_0 > V_{EE}+\Delta_-
 \centering
 \begin{tikzpicture}
 \draw(0,0)node[op amp](u1){};
-\draw(u1.-) to [resistor,l_={$\SI{1}{\kilo\ohm}$}]++(-\x,0)++(0,-\y) node[ground]{} to [american voltage source,l={$v_s$}]++(0,\y);
-\draw(u1.-) to [short,*-]++(0,\y/2) to [resistor,l={$\SI{10}{\kilo\ohm}$}] ++(\x,0)-| (u1.out);
-\draw(u1.out) to [short,*-o]++(\x/2,0)node[above]{$v_0$};
+\draw(u1.-) to [resistor,l_={$R_1$}]++(-\x,0)++(0,-\y) node[ground]{} to [american voltage source,l={$v_s$}]++(0,\y);
+\draw(u1.-) to [short,*-]++(0,\y/2) to [resistor,l={$R_2$}] ++(\x,0)-| (u1.out);
+\draw(u1.out) to [short,*-o]++(\x/4,0)node[right]{$v_0$};
 \draw(u1.+) to [short]++(0,-\y/2)node[ground]{};
 \end{tikzpicture}
 \caption{منفی ایمپلیفائر کا دور۔}
@@ -171,12 +230,12 @@ V_{CC}-\Delta_+ > v_0 > V_{EE}+\Delta_-
 \begin{subfigure}{1\textwidth}
 \centering
 \begin{tikzpicture}
-\draw(0,0)node[ground]{}to [short]++(\x/2,0)to [resistor,l_={$R_i$}]++(0,\y) to [short]++(-\x/2,0)coordinate(vn) to [resistor,l_={$\SI{1}{\kilo\ohm}$}]++(-\x,0)coordinate(vtop);
+\draw(0,0)node[ left]{$v_k$}node[ground]{}to [short]++(\x/2,0)to [resistor,l_={$R_i$}]++(0,\y) to [short,i<_={$i_d$}]++(-\x/2,0)coordinate(vn)node[above left]{$v_n$} to [resistor,l_={$R_1$}]++(-\x,0)coordinate(vtop);
 \draw(vtop)++(0,-\y) node[ground]{} to [american voltage source,l={$v_s$}]++(0,\y);
 \draw(\x/2-\dx,\y/2)[left]node{$\begin{aligned} &- \\ &v_d \\ &+ \end{aligned}$};
-\draw(2*\x,-\y/2) node[ground]{} to [american controlled voltage source,l_={$A_d v_d$}]++(0,\y+\y/2) to [resistor,l={$R_o$}]++(\x+\x/2,0)coordinate(kout) to [resistor,l={$R_B$}]++(0,-\y-\y/2)node[ground]{};
-\draw[](kout) to [short,*-o]++(\x/2,0)node[right]{$v_0$};
-\draw(vn) to [short,*-]++(0,\y/2) to [resistor,l={$\SI{10}{\kilo\ohm}$}]++(3*\x,0) -| (kout);
+\draw(2*\x,-\y/2) node[ground]{} to [american controlled voltage source,l_={$A_d v_d$}]++(0,\y+\y/2) to [resistor,l={$R_o$}]++(\x,0)coordinate(kout);
+\draw[](kout) to [short,*-o]++(\x/4,0)node[right]{$v_0$};
+\draw(vn) to [short,*-]++(0,\y/2) to [resistor,l={$R_2$}]++(3*\x,0) -| (kout);
 \end{tikzpicture}
 \caption{منفی دور کا مساوی برقی دور۔}
 \end{subfigure}
@@ -184,7 +243,163 @@ V_{CC}-\Delta_+ > v_0 > V_{EE}+\Delta_-
 \label{شکل_حسابی_لبریز}
 \end{figure}
 
-حل:شکل \حوالہ{شکل_حسابی_لبریز}-الف میں حسابی ایمپلیفائر کی جگہ اس کا نمونہ نسب کرنے سے شکل-ب حاصل ہوتا ہے جسے کرخوف کے قوانین سے حل کیا جا سکتا ہے۔شکل-ب منفی ایمپلیفائر کا مساوی دور ہے۔
-
+حل:شکل \حوالہ{شکل_حسابی_لبریز}-الف میں حسابی ایمپلیفائر کی جگہ اس کا نمونہ نسب کرنے سے شکل-ب حاصل ہوتا ہے جسے کرخوف کے قوانین سے حل کیا جا سکتا ہے۔شکل-ب  ایمپلیفائر کا مساوی دور ہے۔منفی داخلی پنیے  پر کرخوف مساوات رو لکھتے ہیں
+\begin{align*}
+\frac{v_n-v_s}{R_1}+\frac{v_n}{R_i}+\frac{v_n-v_0}{R_2}&=0
+\end{align*}
+جسے
+\begin{align*}
+v_n\left(\frac{1}{R_1}+\frac{1}{R_i}+\frac{1}{R_2}\right)=\frac{v_s}{R_1}+\frac{v_o}{R_2}
+\end{align*}
+لکھتے ہوئے \عددی{v_n} حاصل کرتے ہیں۔
+\begin{align}\label{مساوات_حسابی_منفی_پنیا_الف}
+v_n=\frac{\frac{v_s}{R_1}+\frac{v_o}{R_2}}{\frac{1}{R_1}+\frac{1}{R_i}+\frac{1}{R_2}}
+\end{align}
+خارجی جوڑ پر کرخوف مساوات رو لکھتے ہیں
+\begin{align*}
+\frac{v_0-v_n}{R_2}+\frac{v_0-A_d v_d}{R_o}=0
+\end{align*}
+جس میں \عددی{v_d=-v_n} پُر کرتے اور ترتیب دیتے ہوئے
+\begin{align*}
+v_0\left(\frac{1}{R_2}+\frac{1}{R_o}\right)=v_n\left(\frac{1}{R_2}-\frac{A_d}{R_o}\right)
+\end{align*}
+لکھا جا سکتا ہے۔مساوات \حوالہ{مساوات_حسابی_منفی_پنیا_الف} کی مدد سے اس کو
+\begin{align*}
+v_0\left(\frac{1}{R_2}+\frac{1}{R_o}\right)&=\frac{\left(\frac{v_s}{R_1}+\frac{v_o}{R_2}\right)\left(\frac{1}{R_2}-\frac{A_d}{R_o}\right)}{\frac{1}{R_1}+\frac{1}{R_i}+\frac{1}{R_2}}
+\end{align*}
+یا
+\begin{align*}
+v_0\left(\frac{1}{R_2}+\frac{1}{R_o}\right)\left(\frac{1}{R_1}+\frac{1}{R_i}+\frac{1}{R_2}\right)&=\left(\frac{v_s}{R_1}+\frac{v_o}{R_2}\right)\left(\frac{1}{R_2}-\frac{A_d}{R_o}\right)
+\end{align*}
+یعنی
+\begin{align*}
+v_0\left(\frac{1}{R_2}+\frac{1}{R_o}\right)\left(\frac{1}{R_1}+\frac{1}{R_i}+\frac{1}{R_2}\right)-\frac{v_0}{R_o}\left(\frac{1}{R_2}-\frac{A_d}{R_o}\right)&=\frac{v_s}{R_1}\left(\frac{1}{R_2}-\frac{A_d}{R_o}\right)
+\end{align*}
+لکھا جا سکتا ہے جس کو حل کرتے ہوئے درج ذیل افزائش دباو \عددی{A_v} ملتی ہے۔
+\begin{align*}
+\frac{v_0}{v_s}=A_v=\frac{\frac{1}{R_1} \left(\frac{1}{R_2}-\frac{A_d}{R_o}\right)}{\left(\frac{1}{R_2}+\frac{1}{R_o}\right)\left(\frac{1}{R_1}+\frac{1}{R_i}+\frac{1}{R_2}\right)-\frac{1}{R_2}\left(\frac{1}{R_2}-\frac{A_d}{R_o}\right)}
+\end{align*}
+اس کو درج ذیل صورت میں لکھ سکتے ہیں۔
+\begin{align}\label{مساوات_حسابی_منفی_الف}
+\frac{v_0}{v_s}=A_v=\frac{-\frac{R_2}{R_1}}{1-\left[\frac{\left(\frac{1}{R_2}+\frac{1}{R_o}\right)\left(\frac{1}{R_1}+\frac{1}{R_i}+\frac{1}{R_2}\right)}{\left(\frac{1}{R_2}\right)\left(\frac{1}{R_2}-\frac{A_d}{R_o}\right)}\right]}
+\end{align}
 \انتہا{مثال}
 %===============
+
+مثال \حوالہ{مثال_حسابی_منفی_الف} میں  عمومی قیمتیں یعنی 
+\begin{align*}
+R_1=\SI{1}{\kilo\ohm}, \quad R_2=\SI{10}{\kilo\ohm}, \quad R_i=\SI{e8}{\ohm}, \quad R_o=\SI{100}{\ohm}, \quad A_d=\SI{e5}{\volt\per\volt}
+\end{align*}
+پُر کرتے ہیں۔
+\begin{align*}
+A_v&=\frac{-10}{1-\left[\frac{\left(0.0101\right)\left(0.001101\right)}{\left(0.0001\right)\left(0.0001-\frac{100000000}{100}\right)}\right]} \\
+&=\SI{-9.999998888}{\volt\per\volt}
+\end{align*}
+آپ دیکھ سکتے ہیں کہ \عددی{\tfrac{A_d}{R_o}} جزو کے علاوہ تمام قوسین کی قیمتیں انتہائی چھوٹی ہیں۔آپ یہ بھی دیکھ سکتے ہیں کہ \عددی{A_d} کی قیمت زیادہ ہونے کی وجہ سے چکور قوسین کی قیمت تقریباً صفر کے برابر حاصل ہوتی ہے لہٰذا چکور قوسین کی قیمت کو رد کیا جا سکتا ہے اور یوں مساوات \حوالہ{مساوات_حسابی_منفی_الف} کو درج ذیل لکھا جا سکتا ہے۔
+\begin{align}\label{مساوات_حسابی_غیر_کامل_حل}
+A_v=\frac{v_0}{v_s}=-\frac{R_2}{R_1}
+\end{align}
+اس مساوات سے افزائش دباو 
+\begin{align*}
+A_v=-\frac{10000}{1000}=\SI{-10}{\volt\per\volt}
+\end{align*}
+حاصل ہوتی ہے۔بالائی دو جوابات تقریباً برابر ہیں جبکہ نچلا جواب انتہائی آسانی سے حاصل ہوا۔آئیں حسابی ایمپلیفائر حل کرنے کا انتہائی آسان طریقہ سیکھیں۔اس طریقے میں کامل حسابی ایمپلیفائر استعمال کیا جاتا ہے لہٰذا پہلے کامل حسابی ایمپلیفائر پر غور کرتے ہیں۔
+
+\حصہ{کامل حسابی ایمپلیفائر}
+ہم نے دیکھا کہ حسابی ایمپلیفائر کے داخلی مزاحمت \عددی{R_i} کی قیمت بڑی مقدار ہے۔اسی طرح \عددی{A_d} کی قیمت بھی بڑی مقدار ہے جبکہ \عددی{R_0} کی قیمت بیرونی لاگو مزاحمتوں کی نسبت سے بہت کم ہے۔\اصطلاح{کامل حسابی ایمپلیفائر}\فرہنگ{کامل حسابی ایمپلیفائر}\فرہنگ{حسابی ایمپلیفائر!کامل}\حاشیہب{ideal opamp}\فرہنگ{opamp!ideal} میں \عددی{R_i} اور \عددی{A_d} کو لامحدود جبکہ \عددی{R_0} کو صفر  تصور کیا جاتا ہے۔
+\begin{align}
+R_i& \to \infty \label{مساوات_حسابی_کامل_شرط_الف}\\
+A_d& \to \infty  \label{مساوات_حسابی_کامل_شرط_ب}\\
+R_o& \to 0  \label{مساوات_حسابی_کامل_شرط_پ}
+\end{align}
+مثال \حوالہ{مثال_حسابی_خطی_حدود_الف} میں ہم نے \عددی{v_d} کے وہ حدود حاصل کئے جن میں رہتے ہوئے \عددی{v_0} اور \عددی{v_s} کا تعلق خطی ہوتا ہے۔حسابی ایمپلیفائر کو خطی خطے میں ہی چلایا جاتا ہے۔مساوات \حوالہ{مساوات_حسابی_خطی_حدود_داخلی_اشارہ} میں یہ حدود دیے گئے ہیں جہاں سے واضح ہے کہ کسی بھی حقیقی دور میں  \عددی{v_d} کی حتمی قیمت تقریباً سو ملی وولٹ رہتی ہے جو نہایت کم مقدار ہے۔کامل حسابی ایمپلیفائر میں \عددی{v_d} کو صفر تصور کیا جاتا ہے۔
+\begin{align}\label{مساوات_حسابی_کامل_شرط_ت}
+v_d \to 0  
+\end{align}
+چونکہ \عددی{v_d=v_k-v_n} کے برابر ہے لہٰذا مندرجہ بالا مساوات کو درج ذیل صورت میں بھی لکھا جا سکتا ہے۔
+\begin{align}\label{مساوات_حسابی_کامل_شرط_ٹ}
+v_k=v_n
+\end{align}
+اگر \عددی{v_d=\SI{100}{\micro\volt}} اور {\عددی{R_i=\SI{e12}{\ohm}}} لیا جائے تو شکل \حوالہ{شکل_حسابی_لبریز}-ب میں \عددی{i_d=\tfrac{\SI{100}{\micro\volt}}{\num{e12} \, \si{\ohm}} \approx 0} حاصل ہوتا ہے۔یوں کامل حسابی ایمپلیفائر کے دونوں داخلی پنیوں پر رو کی قیمت صفر تصور کی جاتی ہے۔
+\begin{align}\label{مساوات_حسابی_کامل_شرط_ث}
+i_d=0
+\end{align}
+
+%==========================
+\ابتدا{مثال}
+گزشتہ مثال میں شکل \حوالہ{شکل_حسابی_لبریز} کو حل کیا گیا جسے یہاں بطور شکل \حوالہ{شکل_حسابی_کامل_حل_الف} دوبارہ پیش کیا گیا ہے۔کامل حسابی ایمپلیفائر تصور کرتے ہوئے اسے حل کریں۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0)node[op amp](u1){};
+\draw(u1.-) to [short,i<_={$i_d$}]++(-\x/4,0)coordinate(kL)node[above left]{$v_n$} to [resistor,l_={$R_1$}]++(-\x,0)++(0,-\y) node[ground]{} to [american voltage source,l={$v_s$}]++(0,\y);
+\draw(kL) to [short,*-]++(0,\y/2) to [resistor,l={$R_2$}] ++(\x+\x/4,0)-| (u1.out);
+\draw(u1.out) to [short,*-o]++(\x/4,0)node[right]{$v_0$};
+\draw(u1.+) to [short] ++(-\x/4,0)node[left]{$v_k$} to [short]++(0,-\y/2)node[ground]{};
+\end{tikzpicture}
+\caption{کامل حسابی ایمپلیفائر کا حل۔}
+\label{شکل_حسابی_کامل_حل_الف}
+\end{figure}
+
+حل:شکل میں داخلی دباو \عددی{v_k} اور \عددی{v_n} کی نشاندہی کی گئی ہے۔ساتھ ہی ساتھ حسابی ایمپلیفائر کی داخلی رو \عددی{i_d} بھی ظاہر کی گئی ہے۔کامل حسابی ایمپلیفائر کے ادوار حل کرتے ہوئے جوڑ \عددی{v_k} اور \عددی{v_n} پر کرخوف مساوات لکھ کر ان سے \عددی{v_k} اور \عددی{v_n} حاصل کریں۔مساوات \حوالہ{مساوات_حسابی_کامل_شرط_ٹ} کے تحت یہ قیمتیں برابر ہونی چاہیں لہٰذا انہیں برابر پُر کرتے ہوئے \عددی{v_0} کے لئے حل کریں۔آئیں ایسا ہی کرتے ہیں۔
+
+چونکہ جوڑ \عددی{v_k} زمین کے ساتھ جڑا ہے لہٰذا اس کے لئے ہم لکھ سکتے ہیں۔
+\begin{align*}
+v_k=0
+\end{align*}
+جوڑ \عددی{v_n} پر مساوات \حوالہ{مساوات_حسابی_کامل_شرط_ث} کے تحت \عددی{i_d=0} لیتے ہوئے کرخوف قانون رو لکھتے ہیں۔
+\begin{align*}
+\frac{v_n-v_s}{R_1}+\frac{v_n-v_0}{R_2}=0
+\end{align*}
+چونکہ \عددی{v_k=0} ہے لہٰذا مساوات \حوالہ{مساوات_حسابی_کامل_شرط_ٹ} کے تحت \عددی{v_n=0} ہو گا۔یہ قیمت درج بالا مساوات میں پُر کرتے ہیں۔
+\begin{align*}
+\frac{0-v_s}{R_1}+\frac{0-v_0}{R_2}=0
+\end{align*}
+اس کو حل کرتے ہوئے درج ذیل حاصل ہوتا ہے۔
+\begin{align}
+\frac{v_0}{v_s}=-\frac{R_2}{R_1}
+\end{align}
+مساوات \حوالہ{مساوات_حسابی_غیر_کامل_حل} سے موازنہ کریں۔آپ دیکھ سکتے ہیں کہ کامل حسابی ایمپلیفائر تصور کرتے ہوئے جواب نہایت آسانی سے حاصل ہوتا ہے۔
+
+شکل \حوالہ{شکل_حسابی_لبریز} کا دور  داخلی اشارہ \عددی{v_s} کو بڑھانے کے ساتھ ساتھ منفی سے ضرب بھی دیتا ہے لہٰذا اس دور کو \اصطلاح{منفی ایمپلیفائر}\فرہنگ{منفی ایمپلیفائر}\حاشیہب{inverting amplifier}\فرہنگ{amplifier!inverting} کہتے ہیں۔
+\انتہا{مثال}
+%==============================
+\ابتدا{مثال}
+\اصطلاح{مثبت ایمپلیفائر}\فرہنگ{مثبت ایمپلیفائر}\حاشیہب{non-inverting amplifier}\فرہنگ{amplifier!non-inverting} کو شکل \حوالہ{شکل_حسابی_مثبت_ایمپلیفائر} میں دکھایا گیا ہے۔افزائش \عددی{\tfrac{v_0}{v_s}} حاصل کریں۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) node[op amp](u1){};
+\draw(u1.+) to [short]++(-\x/4,0)++(0,-\y)node[ground]{} to [american voltage source,l={$v_s$}]++(0,\y)node[above right]{$v_k$};
+\draw(u1.-) to [short]++(-\x/4,0)coordinate(kL) to [resistor,l_={$R_1$}]++(-\x,0) node[ground]{};
+\draw(kL)node[above right]{$v_n$} to [short,*-]++(0,\y/2) to [resistor,l={$R_2$}]++(\x+\x/4,0) -| (u1.out) to [short,*-o]++(\x/4,0)node[right]{$v_0$};
+\end{tikzpicture}
+\caption{مثبت ایمپلیفائر۔}
+\label{شکل_حسابی_مثبت_ایمپلیفائر}
+\end{figure}
+
+حل:مثبت داخلی پنیا کی مساوات لکھتے ہیں۔
+\begin{align}\label{مساوات_حسابی_مثبت_ایمپلیفائر_الف}
+v_k=v_s
+\end{align}
+منفی داخلی پنیا پر \عددی{i_d=0} لیتے ہوئے  کرخوف مساوات رو لکھ
+\begin{align*}
+\frac{v_n}{R_1}+\frac{v_n-v_0}{R_2}=0
+\end{align*}
+کر \عددی{v_n} کے لئے حل کرتے ہیں۔
+\begin{align}\label{مساوات_حسابی_مثبت_ایمپلیفائر_ب}
+v_n=\frac{\frac{v_0}{R_2}}{\frac{1}{R_1}+\frac{1}{R_2}}
+\end{align}
+مساوات \حوالہ{مساوات_حسابی_مثبت_ایمپلیفائر_الف} اور مساوات \حوالہ{مساوات_حسابی_مثبت_ایمپلیفائر_ب} میں حاصل کردہ \عددی{v_k} اور \عددی{v_n} کی قیمتیں برابر پُر کرتے ہیں۔
+\begin{align*}
+v_s=\frac{\frac{v_0}{R_2}}{\frac{1}{R_1}+\frac{1}{R_2}}
+\end{align*}
+اس کو \عددی{\tfrac{v_0}{v_s}} کے لئے حل کرتے ہوئے درج ذیل حاصل ہوتا ہے۔
+\begin{align}
+A_v=\frac{v_0}{v_s}=1+\frac{R_2}{R_1}
+\end{align}
+
+\انتہا{مثال}
+%===========================
