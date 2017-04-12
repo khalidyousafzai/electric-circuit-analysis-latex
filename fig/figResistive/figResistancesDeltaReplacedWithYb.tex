@@ -37,8 +37,8 @@
 %\boxLeft[p]{0,0} 
 %grid
 \draw(0,0) to [resistor,l={$R_4$}]++(120:\r)coordinate(ka)node[left]{$c$}++(60:\r)coordinate(kb)node[above]{$a$}++(-60:\r)coordinate(kc)node[right]{$b$} to [resistor,l={$R_5$}]++(60:-\r);
-\draw(0,0) to [short,*-]++(-\x,0)coordinate(kd);
-\draw(kb) to [resistor,i_<={$i$},l_={$R_6$},*-]++(-\x,0)coordinate(ke);
+\draw(0,0) to [short,*-]++(-3/4*\x,0)coordinate(kd);
+\draw(kb) to [resistor,i_<={$i$},l_={$R_6$},*-]++(-3/4*\x,0)coordinate(ke);
 \draw(kd) to [american voltage source,l={$V_1$}] (ke);
 %\draw(ka) to [resistor,*-*,l_={$R_3$}] (kc);
 %

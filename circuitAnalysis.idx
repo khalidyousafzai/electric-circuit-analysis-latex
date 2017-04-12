@@ -12,11 +12,11 @@
 \indexentry{پنیا!طاقتی}{\RL {\arabicfont  161}}
 \indexentry{signals}{\RL {\arabicfont  162}}
 \indexentry{اشارہ}{\RL {\arabicfont  162}}
-\indexentry{signal!difference}{\RL {\arabicfont  162}}
-\indexentry{اشارہ!تفرقی}{\RL {\arabicfont  162}}
-\indexentry{تفرقی اشارہ}{\RL {\arabicfont  162}}
 \indexentry{gain}{\RL {\arabicfont  162}}
 \indexentry{افزائش}{\RL {\arabicfont  162}}
+\indexentry{signal!difference}{\RL {\arabicfont  162}}
+\indexentry{اشارہ!داخلی تفرقی}{\RL {\arabicfont  162}}
+\indexentry{داخلی تفرقی اشارہ}{\RL {\arabicfont  162}}
 \indexentry{model}{\RL {\arabicfont  162}}
 \indexentry{حسابی ایمپلیفائر!نمونہ}{\RL {\arabicfont  162}}
 \indexentry{نمونہ!حسابی ایمپلیفائر}{\RL {\arabicfont  162}}
@@ -30,5 +30,25 @@
 \indexentry{کامل حسابی ایمپلیفائر}{\RL {\arabicfont  171}}
 \indexentry{منفی ایمپلیفائر}{\RL {\arabicfont  173}}
 \indexentry{amplifier!inverting}{\RL {\arabicfont  173}}
-\indexentry{amplifier!non-inverting}{\RL {\arabicfont  173}}
-\indexentry{مثبت ایمپلیفائر}{\RL {\arabicfont  173}}
+\indexentry{amplifier!non-inverting}{\RL {\arabicfont  174}}
+\indexentry{مثبت ایمپلیفائر}{\RL {\arabicfont  174}}
+\indexentry{buffer}{\RL {\arabicfont  176}}
+\indexentry{مستحکم کار}{\RL {\arabicfont  176}}
+\indexentry{subtractor}{\RL {\arabicfont  178}}
+\indexentry{منفی کار}{\RL {\arabicfont  178}}
+\indexentry{adder}{\RL {\arabicfont  178}}
+\indexentry{جمع کار}{\RL {\arabicfont  178}}
+\indexentry{weightage}{\RL {\arabicfont  179}}
+\indexentry{قدر}{\RL {\arabicfont  179}}
+\indexentry{transistor}{\RL {\arabicfont  180}}
+\indexentry{ٹرانزسٹر}{\RL {\arabicfont  180}}
+\indexentry{integrated circuit, IC}{\RL {\arabicfont  180}}
+\indexentry{مخلوط دور}{\RL {\arabicfont  180}}
+\indexentry{electronics}{\RL {\arabicfont  180}}
+\indexentry{برقیات}{\RL {\arabicfont  180}}
+\indexentry{stable}{\RL {\arabicfont  183}}
+\indexentry{متوازن}{\RL {\arabicfont  183}}
+\indexentry{unstable}{\RL {\arabicfont  184}}
+\indexentry{غیر متوازن}{\RL {\arabicfont  184}}
+\indexentry{comparator}{\RL {\arabicfont  184}}
+\indexentry{موازنہ کار}{\RL {\arabicfont  184}}

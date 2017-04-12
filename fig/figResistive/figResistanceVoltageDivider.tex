@@ -29,7 +29,7 @@
 \begin{urdufont}
 
 \pgfmathsetmacro{\y}{2.5}
-\pgfmathsetmacro{\x}{4}
+\pgfmathsetmacro{\x}{2}
 
 \begin{tikzpicture}[]
 %\boxLeft[p]{0,0} 
@@ -38,7 +38,6 @@
 %\draw(7,0) node[below]{$x$};
 %\draw(0,5)node[left]{$y$};
 %stairs
-
 \draw(0,0) to [american voltage source,l={$v(t)$}]++(0,2*\y) to [short,i={$i(t)$}]++(\x,0) to [resistor,l_={$R_1$}]++(0,-\y) to [resistor,l_={$R_2$}]++(0,-\y) to [short]++(-\x,0);
 \draw (\x+0.2,\y+\y/2) node[right]{$\begin{aligned} &+ \\ & v_{R1} \\ &-\end{aligned}$};
 \draw (\x+0.2,\y/2) node[right]{$\begin{aligned} &+ \\ & v_{R2} \\ &-\end{aligned}$};
