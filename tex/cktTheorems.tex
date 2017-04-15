@@ -1,0 +1,464 @@
+\باب{ادوار حل کرنے کے دیگر ترکیب}
+گزشتہ بابوں میں ہم نے ادوار میں مختلف مقامات پر دباو اور رو حاصل کرنے کے چند ترکیب دیکھے۔ایسا کرتے ہوئے ہم نے چند حقائق کا استعمال کیا جنہیں یہاں دوبارہ پیش کرتے ہیں۔
+
+\حصہ{مساوی دور}
+آپ جانتے ہیں کہ سلسلہ وار مزاحمتوں  کی جگہ ان کا مساوی مزاحمت نسب کرتے ہوئے ان کی رو حاصل کی جا سکتی ہے۔اسی طرح متوازی مزاحمتوں کی جگہ ان کا مساوی مزاحمت نسب کرتے ہوئے ان  پر دباو حاصل کیا جا سکتا ہے۔یہ عمل شکل \حوالہ{شکل_مسئلہ_مساوی_ادوار} میں دکھائے گئے ہیں۔اسی طرح سلسہ وار منبع دباو کا مساوی منبع اور متوازی منبع رو کی مساوی منبع شکل-ج اور شکل-د میں دکھائے گئے ہیں۔یاد رہے کہ دو یا دو سے زیادہ منبع رو کو صرف اور صرف اس صورت سلسلہ وار جوڑا جا سکتا ہے جب تمام کی رو برابر ہو اور تمام رو کی ایک ہی سمت ہو۔ اسی طرح دو یا دو سے زیادہ منبع دباو کو صرف اور صرف اس صورت متوازی جوڑا جا سکتا ہے جب تمام منبع کی دباو برابر اور سمت ایک ہو۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [resistor,l={$R_1$}]++(0,\y) to [resistor,l={$R_2$}]++(0,\y) to [short,-o]++(\x/4,0);
+\draw(0,0) to [short,-o]++(\x/4,0);
+\draw[thick,-stealth] (0.3,\y)--++(0.3,0);
+\draw(\x,\y/2) to [short,o-]++(-\x/4,0) to [resistor,l_={$R_1+R_2$}]++(0,\y) to [short,-o]++(\x/4,0);
+\end{tikzpicture}
+\caption{سلسلہ وار مزاحمتوں کا مساوی مزاحمت}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [resistor,l={$R_1$}]++(0,\y) ;
+\draw(\x,0) to [resistor,*-*,l={$R_2$}]++(0,\y);
+\draw(0,0) to [short,-o]++(\x+\x/4,0);
+\draw(0,\y) to [short,-o]++(\x+\x/4,0);
+\draw[thick,-stealth] (\x+0.3,\y/2)--++(0.3,0);
+\draw(2*\x,0) to [short,o-]++(-\x/4,0) to [resistor,l_={$\frac{R_1 R_2}{R_1+R_2}$}]++(0,\y) to [short,-o]++(\x/4,0);
+\end{tikzpicture}
+\caption{متوازی مزاحمتوں کا مساوی مزاحمت۔}
+\end{subfigure}
+%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$V_1$}]++(0,\y) to [american voltage source,l={$V_2$}]++(0,\y) to [short,-o]++(\x/4,0);
+\draw(0,0) to [short,-o]++(\x/4,0);
+\draw[thick,-stealth] (0.3,\y)--++(0.3,0);
+\draw(\x,\y/2) to [short,o-]++(-\x/4,0) to [american voltage source,l_={$V_1+V_2$}]++(0,\y) to [short,-o]++(\x/4,0);
+\end{tikzpicture}
+\caption{سلسلہ وار منبع دباو کا مساوی منبع۔}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american current source,l={$I_1$}]++(0,\y) ;
+\draw(\x,0) to [american current source,*-*,l={$I_2$}]++(0,\y);
+\draw(0,0) to [short,-o]++(\x+\x/4,0);
+\draw(0,\y) to [short,-o]++(\x+\x/4,0);
+\draw[thick,-stealth] (\x+\x/4,\y/2)--++(0.3,0);
+\draw(2*\x,0) to [short,o-]++(-\x/4,0) to [american current source,l_={$I_1+I_2$}]++(0,\y) to [short,-o]++(\x/4,0);
+\end{tikzpicture}
+\caption{متوازی منبع رو کا مساوی منبع۔}
+\end{subfigure}
+\caption{مساوی ادوار کی مثال۔}
+\label{شکل_مسئلہ_مساوی_ادوار}
+\end{figure}
+
+\حصہ{خطیّت}
+برقی ادوار میں دباو اور رو درکار متغیرات ہیں۔ اس کتاب میں صرف ایسے ادوار پر غور کیا جائے گا جن میں دباو اور رو کا تعلق \اصطلاح{خطی}\فرہنگ{خطی}\حاشیہب{linear}\فرہنگ{linear} ہے۔انہیں خطی ادوار کہا جاتا ہے۔خطی ادوار میں ایک متغیرہ کو \عددی{n} گنا کرنے سے دوسری متغیرہ بھی \عددی{n} گنا ہو گی۔آئیں خطیت کی خاصیت سے دور حل کرنا دیکھیں۔
+
+%==========================
+\ابتدا{مثال}\شناخت{مثال_مسئلہ_خطیت_سے_دور_حل}
+شکل \حوالہ{شکل_مسئلہ_خطیت_دور_حل} میں \عددی{\SI{60}{\ohm}} پر دباو معلوم کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american current source,l={$\SI{5}{\milli\ampere}$}]++(0,\yy)node[above]{$V_2$} to [resistor,i_={$I_3$},l={$\SI{100}{\ohm}$}]++(\xx,0)node[above]{$V_1$} to [resistor,i_={$I_1$},l={$\SI{40}{\ohm}$}]++(\xx,0)node[above]{$V_0$} to [resistor,i={$I_0$},l_={$\SI{60}{\ohm}$}]++(0,-\yy) to [short]++(-2*\xx,0);
+\draw(\xx,0) to [resistor,i<_={$I_2$},*-*,l={$\SI{100}{\ohm}$}]++(0,\yy);
+\draw(2*\xx+\dx,\yy/2)node[right]{$\begin{aligned}&+\\&V_R\\&-  \end{aligned}$};
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_مسئلہ_خطیت_سے_دور_حل} کا دور۔}
+\label{شکل_مسئلہ_خطیت_دور_حل}
+\end{figure}
+
+حل:ہم اس دور کو با آسانی قوانین کرخوف سے حل کر سکتے ہیں۔آئیں اس دور کو خطیت کی خاصیت  کی مدد سے حل کریں۔اس ترکیب میں ہم درکار دباو کو \عددی{\SI{1}{\volt}} تصور کرتے ہوئے منبع رو کی قیمت دریافت کریں گے۔اس کے بعد خطیت کو استعمال کرتے ہوئے منبع رو کی اصل قیمت کے مطابقت سے درکار دباو حاصل کی جائے گی۔
+
+یوں \عددی{V_R=\SI{1}{\volt}} تصور کرتے ہوئے 
+\begin{align*}
+V_0&=\SI{1}{\volt}\\
+I_0&=\frac{V_0}{60}=\frac{1}{60} \, \si{\ampere}\\
+I_1&=I_0=\frac{1}{60} \,\si{\ampere}
+\end{align*}
+حاصل ہوتے ہیں۔قانون اوہم استعمال کرتے ہوئے
+\begin{align*}
+V_1-V_0=40 \times \frac{1}{60}=\frac{2}{3} \, \si{\volt}
+\end{align*}
+یعنی
+\begin{align*}
+V_1=1+\frac{2}{3}=\frac{5}{3}\,\si{\volt}
+\end{align*}
+حاصل ہوتا ہے۔قانون اوہم کا دوبارہ استعمال کرنے سے
+\begin{align*}
+I_2=\frac{\frac{5}{3}}{100}=\frac{1}{60} \, \si{\ampere}
+\end{align*}
+ملتا ہے لہٰذا
+\begin{align*}
+I_3=I_1+I_2=\frac{1}{60} +\frac{1}{60}=\frac{1}{30}\,\si{\ampere}
+\end{align*}
+ہو گا۔یوں \عددی{V_R=\SI{1}{\volt}} تصور کرتے ہوئے منبع کی رو \عددی{\tfrac{1}{30} \, \si{\ampere}} متوقع ہے۔
+
+اب ہم کہہ سکتے ہیں کہ اگر منبع کی رو \عددی{\tfrac{1}{30} \, \si{\ampere}} ہو تب \عددی{V_R=\SI{1}{\volt}} ہو گا لہٰذا خطیت کے اصول کو استعمال کرتے ہوئے ہم کہہ سکتے ہیں کہ منبع کی رو \عددی{\SI{5}{\milli\ampere}} ہونے کی صورت میں \عددی{V_R} کی قیمت
+\begin{align*}
+\frac{0.005\times 1}{\frac{1}{30}}=\SI{0.15}{\volt}
+\end{align*}
+ہو گی۔
+\انتہا{مثال}
+%=========================
+\ابتدا{مشق}\شناخت{مشق_مسئلہ_خطیت_الف}
+شکل \حوالہ{شکل_مسئلہ_خطیت_الف} میں \عددی{I_0=\SI{10}{\milli\ampere}} تصور کرتے ہوئے \عددی{I_M} حاصل کریں۔اب \عددی{I_M=\SI{20}{\milli\ampere}} کی صورت میں خطیت کے استعمال سے \عددی{I_0} معلوم کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american current source,l={$I_M$}]++(0,\y) to [resistor,l_={$\SI{2}{\kilo\ohm}$}]++(-\x,0) to [resistor,l_={$\SI{6}{\kilo\ohm}$}]++(0,-\y) to [short]++(\x,0);
+\draw(0,0) to [short,*-]++(2*\x,0) to [resistor,i<_={$I_0$},l_={$\SI{8}{\kilo\ohm}$}]++(0,\y) to [resistor,l_={$\SI{6}{\kilo\ohm}$}]++(-\x,0) to [resistor,-*,l_={$\SI{4}{\kilo\ohm}$}]++(-\x,0);
+\draw(\x,0) to [resistor,*-*,l={$\SI{12}{\kilo\ohm}$}]++(\x,\y);
+\draw(\x,0) to [resistor,-*,l={$\SI{10}{\kilo\ohm}$}]++(0,\y);
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_مسئلہ_خطیت_الف} کا دور۔}
+\label{شکل_مسئلہ_خطیت_الف}
+\end{figure}
+\انتہا{مشق}
+%=====================
+\ابتدا{مشق}\شناخت{مشق_مسئلہ_خطیت_ب}
+شکل \حوالہ{شکل_مسئلہ_خطیت_ب} میں \عددی{V_R=\SI{2}{\volt}}  تصور کرتے ہوئے منبع دباو کی قیمت دریافت کریں۔خطیت کے استعمال سے منبع دباو کی اصل قیمت پر \عددی{V_R} دریافت کریں۔ 
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{50}{\volt}$}]++(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{8}{\kilo\ohm}$}]++(\x,0) to [resistor,l_={$\SI{2}{\kilo\ohm}$}]++(0,-\y) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(-\x,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(-\x,0) to [short]++(-\x,0);
+\draw(\x,0) to [resistor,*-*,l={$\SI{20}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,*-*,l={$\SI{10}{\kilo\ohm}$}]++(0,\y);
+\draw(3*\x+\dx,\y/2)node[right]{$\begin{aligned} &+ \\ &V_R \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_مسئلہ_خطیت_ب} کا دور۔}
+\label{شکل_مسئلہ_خطیت_ب}
+\end{figure}
+\انتہا{مشق}
+%========================
+
+\حصہ{منبع کے انفرادی اثرات کا مجموعہ تمام منبع کا مجموعی اثر ہوتا ہے۔}
+اس خاصیت کو سمجھنے کی خاطر شکل \حوالہ{شکل_مسئلہ_منبع_انفرادی_اثر}-الف پر غور کرتے ہیں۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{4}{\volt}$}]++(0,\yy) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\xx,0) to [resistor]++(0,-\yy) to [resistor,l={$\SI{6}{\kilo\ohm}$}]++(-\xx,0);
+\draw(\xx+\dx,1/4*\yy)node[right]{$\SI{4}{\kilo\ohm}$};
+\draw(\xx,0) to [short,*-]++(\xx,0) to [american voltage source,l_={$\SI{6}{\volt}$}]++(0,\yy) to [resistor,-*,l_={$\SI{8}{\kilo\ohm}$}]++(-\xx,0);
+%loop currents
+\draw[stealth-]([shift={(-150:\xx/5.5)}]\xx/2,\yy/2) arc (-150:150:\xx/5.5);
+\draw(\xx/2,\yy/2)node{$i_1$};
+\draw[stealth-]([shift={(-150:\xx/5.5)}]\xx+\xx/2,\yy/2) arc (-150:150:\xx/5.5);
+\draw(\xx+\xx/2,\yy/2)node{$i_2$};
+\end{tikzpicture}
+\caption*{(الف) دو عدد انفرادی منبع کا مجموعی اثر۔}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{4}{\volt}$}]++(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor]++(0,-\y) to [resistor,l={$\SI{6}{\kilo\ohm}$}]++(-\x,0);
+\draw(\x+\dx,1/4*\y-\dy)node[right]{$\SI{4}{\kilo\ohm}$};
+\draw(\x,0) to [short,*-]++(\x,0) to [short]++(0,\y) to [resistor,-*,l_={$\SI{8}{\kilo\ohm}$}]++(-\x,0);
+%loop currents
+\draw[stealth-]([shift={(-150:\x/5.5)}]\x/2,\y/2) arc (-150:150:\x/5.5);
+\draw(\x/2,\y/2)node{$i'_1$};
+\draw[stealth-]([shift={(-150:\x/5.5)}]\x+\x/2,\y/2) arc (-150:150:\x/5.5);
+\draw(\x+\x/2,\y/2)node{$i'_2$};
+\end{tikzpicture}
+\caption*{(ب) بائیں منبع کا اثر دیکھتے وقت دائیں منبع کے اثر کو ختم کیا گیا ہے۔}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short]++(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor]++(0,-\y) to [resistor,l={$\SI{6}{\kilo\ohm}$}]++(-\x,0);
+\draw(\x+\dx,1/4*\y-\dy)node[right]{$\SI{4}{\kilo\ohm}$};
+\draw(\x,0) to [short,*-]++(\x,0) to [american voltage source,l_={$\SI{6}{\volt}$}]++(0,\y) to [resistor,-*,l_={$\SI{8}{\kilo\ohm}$}]++(-\x,0);
+%loop currents
+\draw[stealth-]([shift={(-150:\xx/5.5)}]\x/2,\y/2) arc (-150:150:\x/5.5);
+\draw(\x/2,\y/2)node{$i''_1$};
+\draw[stealth-]([shift={(-150:\x/5.5)}]\x+\x/2,\y/2) arc (-150:150:\x/5.5);
+\draw(\x+\x/2,\y/2)node{$i''_2$};
+\end{tikzpicture}
+\caption*{(پ) دائیں منبع کا اثر دیکھتے وقت بائیں منبع کے اثر کو ختم کیا گیا ہے۔}
+\end{subfigure}%
+\caption{مجموعی اثر انفرادی اثرات کا مجموعہ ہے۔}
+\label{شکل_مسئلہ_منبع_انفرادی_اثر}
+\end{figure}
+دونوں منبع کا مجموعی اثر دیکھنے کی خاطر دونوں منبع کی موجودگی میں اس دور کو حل کرتے ہیں۔دو خانوں کی مساوات لکھتے ہیں۔
+\begin{align*}
+-4+2000i_1+4000(i_1-i_2)+6000i_1&=0\\
+4000(i_2-i_1)+8000i_2+6&=0
+\end{align*}
+ان کا حل درج ذیل ہے۔
+\begin{align*}
+i_1&=\frac{3}{16}\, \si{\milli\ampere}\\
+i_2&=-\frac{7}{16}\, \si{\milli\ampere}
+\end{align*}
+آئیں انفرادی منبع سے پیدا رو دریافت کریں۔ایسا کرنے کی خاطر باری باری ایک منبع کے علاوہ بقایا تمام منبع کے اثر کو ختم کرتے ہوئے دور کو حل کیا جاتا ہے۔منبع دباو کا اثر ختم کرنے کی خاطر اس کو کسر دور کیا جاتا ہے جبکہ منبع رو کے اثر کو ختم کرنے کی خاطر اس کو کھلے دور کیا جاتا ہے۔یوں  \عددی{\SI{4}{\volt}} منبع کی رو حاصل کرتے وقت \عددی{\SI{6}{\volt}} کی منبع کو کسر دور کرتے ہیں۔ایسا کرنے سے شکل \حوالہ{شکل_مسئلہ_منبع_انفرادی_اثر}-ب حاصل ہوتا ہے جس کے مساوات
+\begin{align*}
+-4+2000i'_1+4000(i'_1-i'_2)+6000i'_1&=0\\
+4000(i'_2-i'_1)+8000i'_2&=0
+\end{align*}
+اور حل درج ذیل ہے۔
+\begin{align*}
+i'_1&=\frac{3}{8}\, \si{\milli\ampere}\\
+i'_2&=\frac{1}{8}\, \si{\milli\ampere}
+\end{align*}
+اسی طرح \عددی{\SI{6}{\volt}} منبع کا اثر دیکھنے کی خاطر \عددی{\SI{4}{\volt}} منبع کو کسر دور کیا جاتا ہے۔ایسا شکل \حوالہ{شکل_مسئلہ_منبع_انفرادی_اثر}-پ میں دکھایا گیا ہے جس کے مساوات
+\begin{align*}
+2000i''_1+4000(i''_1-i''_2)+6000i''_1&=0\\
+4000(i''_2-i''_1)+8000i''_2+6&=0
+\end{align*}
+اور حل درج ذیل ہے۔
+\begin{align*}
+i''_1&=-\frac{3}{16}\, \si{\milli\ampere}\\
+i''_2&=-\frac{9}{16}\, \si{\milli\ampere}
+\end{align*}
+آپ دیکھ سکتے ہیں کہ انفرادی منبع کے اثرات کا مجموعہ تمام منبع کے مجموعی اثر کے برابر ہے یعنی
+\begin{align*}
+i_1&=i'_1+i''_1\\
+i_2&=i'_2+i''_2
+\end{align*}
+
+اس حقیقت کو درج ذیل طریقے سے بیان کیا جا سکتا ہے۔
+
+\ابتدا{قانون}
+کسی بھی خطی دور، جس میں متعدد غیر تابع منبع دباو اور غیر تابع منبع رو پائے جاتے ہوں، میں  کسی بھی مقام پر دباو یا رو، تمام منبع کے انفرادی اثرات کے مجموعے  کے برابر ہو گا۔
+\انتہا{قانون}
+
+اس حقیقت کا عمومی ثبوت پیش کرتے ہیں۔صفحہ \حوالہصفحہ{مساوات_جوڑ_عمومی_مساوات_متعدد_منبع} پر مساوات \حوالہ{مساوات_جوڑ_عمومی_مساوات_متعدد_منبع} متعدد منبع دباو استعمال کرنے والے دور کی عمومی مساوات ہے جسے یہاں دوبارہ پیش کرتے ہیں۔
+\begin{align}\label{مساوات_جوڑ_عمومی_مساوات_متعدد_منبع_دوبارہ}
+\begin{bmatrix}
+R_{11} & -R_{12}& -R_{13}& \cdots -R_{1m}\\
+-R_{21} & R_{22}& -R_{23}& \cdots -R_{2m}\\
+-R_{31} & -R_{32}& R_{33}& \cdots -R_{3m}\\
+\vdots\\
+-R_{m1}&-R_{m2}&-R_{m3}&\cdots R_{mm}
+\end{bmatrix}
+\begin{bmatrix}
+i_1\\
+i_2\\
+i_3\\
+\vdots\\
+i_m
+\end{bmatrix}
+=
+\begin{bmatrix}
+v_{1}\\
+v_{2}\\
+v_{3}\\
+\vdots\\
+v_{m}
+\end{bmatrix}
+\end{align}
+اس مساوات میں مزاحمتی قالب کا دارومدار صرف اور صرف مزاحمتوں پر ہے۔دور میں موجود منبع دباو کا اس قالب پر کوئی اثر نہیں ہے۔اس قالبی مساوات \عددی{\bf{R}  \bf{I} = \bf{V}} کا حل \عددی{\bf{I} = \bf{R^{-1}}  \bf{V}} ہے۔ چونکہ مزاحمتی قالب \عددی{\bf{R}} کے اجزاء صرف اور صرف دور کے مزاحمتوں پر مبنی ہے لہٰذا اس کے ریاضی معکوس \عددیء{\bf{R^{-1}}} کے اجزاء بھی صرف مزاحمتوں پر مبنی ہوں گے۔ریاضی معکوس کے قالب کو درج ذیل عمومی شکل میں لکھا جا سکتا ہے۔
+\begin{align*}
+\bf{R^{-1}}=
+\begin{bmatrix}
+g_{11} & -g_{12}& -g_{13}& \cdots -g_{1m}\\
+-g_{21} & g_{22}& -g_{23}& \cdots -g_{2m}\\
+-g_{31} & -g_{32}& g_{33}& \cdots -g_{3m}\\
+\vdots\\
+-g_{m1}&-g_{m2}&-g_{m3}&\cdots g_{mm}
+\end{bmatrix}
+\end{align*}
+یوں حل درج ذیل ہو گا
+\begin{align*}
+\begin{bmatrix}
+i_1\\
+i_2\\
+i_3\\
+\vdots\\
+i_m
+\end{bmatrix}
+=
+\begin{bmatrix}
+g_{11} & -g_{12}& -g_{13}& \cdots -g_{1m}\\
+-g_{21} & g_{22}& -g_{23}& \cdots -g_{2m}\\
+-g_{31} & -g_{32}& g_{33}& \cdots -g_{3m}\\
+\vdots\\
+-g_{m1}&-g_{m2}&-g_{m3}&\cdots g_{mm}
+\end{bmatrix}
+\begin{bmatrix}
+v_{1}\\
+v_{2}\\
+v_{3}\\
+\vdots\\
+v_{m}
+\end{bmatrix}
+\end{align*}
+جس سے \عددی{i_1} درج ذیل لکھا جا سکتا ہے۔ 
+\begin{align}\label{مساوات_مسئلہ_عمومی_رو_حل}
+i_1=g_{11} v_1-g_{12}v_2-g_{13}v_3 -\cdots -\g_{1m}v_m
+\end{align}
+اگر \عددی{v_1} کے علاوہ تمام منبع دباو کو کسر دور کیا جائے تب ان کی قیمت \عددی{\SI{0}{\volt}} پُر کرتے ہوئے مساوات \حوالہ{مساوات_مسئلہ_عمومی_رو_حل} سے 
+\begin{align*}
+i'_1=g_{11} v_1
+\end{align*}
+حاصل ہوتا ہے۔ یہ صرف اور صرف \عددی{v_1} کا پیدا کردہ رو ہے۔اسی طرح \عددی{v_2} کے علاوہ تمام منبع کو کسر دور کرنے سے \عددی{i''_1=-g_{12}v_2}  پیدا ہوتا ہے۔اسی طرح بقایا منبع دباو کے انفرادی رو بھی حاصل کئے جا سکتے ہیں۔آپ دیکھ سکتے ہیں کہ تمام انفرادی منبع سے پیدا رو کا مجموعہ مساوات \حوالہ{مساوات_مسئلہ_عمومی_رو_حل} ہی دیتی ہے۔
+
+مساوات \حوالہ{مساوات_جوڑ_عمومی_مساوات_متعدد_منبع_دوبارہ} ان ادوار کو ظاہر کرتی ہے جن میں صرف منبع دباو پائے جاتے ہوں۔آپ اسی ترکیب کو استعمال کرتے ہوئے منبع رو کے اثرات کو بھی شامل کر سکتے ہیں۔
+
+یہ اصول ان ادوار کے لئے بھی درست ہے جن میں تابع منبع بھی پائے جاتے ہوں البتہ تابع منبع دباو کو کسر دور اور تابع منبع رو کو کھلے دور نہیں کیا جاتا۔ آئیں چند مثال دیکھیں۔
+
+%================
+\ابتدا{مثال}\شناخت{مثال_مسئلہ_متعدد_منبع_انفرادی_اثر_الف}
+شکل \حوالہ{شکل_مسئلہ_مثال_منبع_انفرادی_اثر_الف} میں منبع دباو اور منبع رو کے انفرادی اثرات حاصل کرتے ہوئے کل \عددی{V_0} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{10}{\volt}$}]++(0,\y) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(\x,0) to [american current source,l_={$\SI{5}{\milli\ampere}$}]++(0,-\y) to [short]++(-\x,0);
+\draw(\x,0) to [short,*-]++(\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(0,\y) to [short,-*]++(-\x,0);
+\draw(2*\x+\dx,\y/2)node[right]{$\begin{aligned} &+\\& V_0 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{10}{\volt}$}]++(0,\y) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(\x,0) ++(0,-\y) to [short]++(-\x,0);
+\draw(\x,0) to [short]++(\x/2,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(0,\y) to [short]++(-\x/2,0);
+\draw(1.5*\x+\dx,\y/2)node[right]{$\begin{aligned} &+\\& V_0 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short]++(0,\y) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(\x,0) to [american current source,l_={$\SI{5}{\milli\ampere}$}]++(0,-\y) to [short]++(-\x,0);
+\draw(\x,0) to [short,*-]++(\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(0,\y) to [short,-*]++(-\x,0);
+\draw(2*\x+\dx,\y/2)node[right]{$\begin{aligned} &+\\& V_0 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_مسئلہ_متعدد_منبع_انفرادی_اثر_الف} کا دور۔}
+\label{شکل_مسئلہ_مثال_منبع_انفرادی_اثر_الف}
+\end{figure}
+\انتہا{مثال}
+%====================
+\ابتدا{مثال}\شناخت{مثال_مسئلہ_منبع_دباو_منبع_رو_مجموعی_دباو}
+شکل \حوالہ{شکل_مسئلہ_منبع_دباو_منبع_رو_مجموعی} میں منبع دباو اور منبع رو کو باری باری لیتے ہوئے \عددی{\SI{12}{\kilo\ohm}} پر دباو حاصل کرتے ہوئے دونوں منبع کی موجودگی میں کُل دباو حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american current source,l={$\SI{2}{\milli\ampere}$}]++(0,\y) to [american voltage source,l={$\SI{4}{\volt}$}]++(0,\y) to [short]++(\x,0) to [resistor,l={$\SI{10}{\kilo\ohm}$}]++(0,-\y) to [resistor,l={$\SI{8}{\kilo\ohm}$}]++(0,-\y) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(-\x,0);
+\draw(0,\y) to [resistor,*-*,l={$\SI{1}{\kilo\ohm}$}]++(\x,0);
+\draw(\x,0) to [short,*-] ++(\x,0) to [resistor,l={$\SI{12}{\kilo\ohm}$}]++(0,2*\y) to [short,-*]++(-\x,0);
+\draw(2*\x+\dx,\y)node[right]{$\begin{aligned} &+ \\ &V_0 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_مسئلہ_منبع_دباو_منبع_رو_مجموعی_دباو} کا دور۔}
+\label{شکل_مسئلہ_منبع_دباو_منبع_رو_مجموعی}
+\end{figure}
+
+\begin{figure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)++(0,\y) to [american voltage source]++(0,\y) to [short]++(\x,0) to [resistor,l={$\SI{10}{\kilo\ohm}$}]++(0,-\y) to [resistor,l={$\SI{8}{\kilo\ohm}$}]++(0,-\y) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(-\x,0);
+\draw(-\dx,\y+3/4*\y)node[left]{$\SI{4}{\volt}$};
+\draw(0,\y) to [resistor,-*,l={$\SI{1}{\kilo\ohm}$}]++(\x,0);
+\draw(\x,0) to [short,*-] ++(\x,0) to [resistor,l={$\SI{12}{\kilo\ohm}$}]++(0,2*\y) to [short,-*]++(-\x,0);
+\draw(2*\x+\dx,\y)node[right]{$\begin{aligned} &+ \\ &V'_0 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{4}{\volt}$}]++(0,2*\y) to [short]++(\x,0) to [resistor,l={$\SI{10}{\kilo\ohm}$}]++(0,-2*\y) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(-\x,0);
+\draw(\x,0) to [short,*-]++(\x,0) to [resistor,l={$\SI{8}{\kilo\ohm}$}]++(0,\y) to [resistor,l={$\SI{12}{\kilo\ohm}$}]++(0,\y) to [short,-*]++(-\x,0);
+\draw(2*\x+\dx,\y+\y/2)node[right]{$\begin{aligned} &+ \\ &V'_0 \\ &- \end{aligned}$};
+\draw(\x-\dx,\y)node[left]{$\begin{aligned} &+ \\  \\ \\ &V'_1 \\ \\ \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{4}{\volt}$}]++(0,2*\y) to [short]++(\x,0) to [resistor,l={$\SI{10}{\kilo\ohm}$}]++(0,-2*\y) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(-\x,0);
+\draw(\x,0) to [short,*-]++(\x,0) to [resistor,l_={$\SI{20}{\kilo\ohm}$}]++(0,2*\y) to [short,-*]++(-\x,0);
+\draw(\x-\dx,\y)node[left]{$\begin{aligned} &+ \\  \\ \\ &V'_1 \\ \\ \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{4}{\volt}$}]++(0,2*\y) to [short]++(\x,0) to [resistor,l={$\frac{20}{3}\,\si{\kilo\ohm}$}]++(0,-2*\y) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(-\x,0);
+\draw(\x-\dx,\y)node[left]{$\begin{aligned} &+ \\  \\ \\ &V'_1 \\ \\ \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ت)}
+\end{subfigure}%
+\caption{منبع دباو کا حصہ معلوم کرتے ہیں۔ }
+\label{شکل_مسئلہ_مثال_منبع_دباو_حصہ}
+\end{figure}
+
+حل:شکل \حوالہ{شکل_مسئلہ_مثال_منبع_دباو_حصہ}-الف میں منبع رو کو کھلے دور کیا گیا ہے تا کہ منبع دباو سے پیدا دباو کا حصہ دریافت کریں۔شکل \حوالہ{شکل_مسئلہ_مثال_منبع_دباو_حصہ}-ب میں شکل کو قدر مختلف صورت دی گئی ہے۔چونکہ \عددی{\SI{4}{\kilo\ohm}} کا ایک سرا کہیں نہیں جڑا لہٰذا اس کا بقایا دور پر کوئی اثر نہیں ہو گا اور اسی لئے اس کو شکل-ب میں نہیں دکھایا گیا ہے۔
+
+شکل-ب میں \عددی{\SI{12}{\kilo\ohm}} اور \عددی{\SI{8}{\kilo\ohm}} سلسلہ وار جڑے ہیں لہٰذا ان کا مساوی مزاحمت \عددی{\SI{20}{\kilo\ohm}} ہو گا۔شکل-پ میں ایسا دکھایا گیا ہے۔شکل-پ میں \عددی{\SI{20}{\kilo\ohm}} اور \عددی{\SI{10}{\kilo\ohm}} متوازی جڑے ہیں لہٰذا ان کا مساوی مزاحمت
+ \عددی{\tfrac{\SI{20}{\kilo\ohm} \times \SI{10}{\kilo\ohm}}{\SI{20}{\kilo\ohm} +\SI{10}{\kilo\ohm} }=\tfrac{20}{3}\,\si{\kilo\ohm}} ہو گا جسے شکل-ت میں دکھایا گیا ہے جہاں سے تقسیم دباو کے کلیے سے
+\begin{align*}
+V'_1=4\left(\frac{\frac{20}{3} \, \si{\kilo\ohm}}{\SI{1}{\kilo\ohm}+\frac{20}{3} \, \si{\kilo\ohm}}\right) =\frac{80}{23}\,\si{\volt}
+\end{align*}
+لکھا جا سکتا ہے۔شکل-ب کو دیکھتے ہوئے تقسیم دباو کے کلیے سے درج ذیل حاصل ہوتا ہے۔
+\begin{align*}
+V'_0=\frac{80}{23}\left(\frac{\SI{12}{\kilo\ohm}}{\SI{12}{\kilo\ohm}+\SI{8}{\kilo\ohm}}\right)=\frac{48}{23}\, \si{\volt}
+\end{align*}
+آئیں اب منبع دباو کو کسر دور کرتے ہوئے حل کریں ۔شکل \حوالہ{شکل_مسئلہ_منبع_دباو_کسر_دور_کیا_گیا_ہے}-الف  میں منبع دباو کو کسر دور کیا گیا ہے۔آپ دیکھ سکتے ہیں کہ \عددی{\SI{1}{\kilo\ohm}} اور \عددی{\SI{10}{\kilo\ohm}} متوازی جڑے ہیں لہٰذا ان کی جگہ \عددی{\tfrac{\SI{1}{\kilo\ohm} \times \SI{10}{\kilo\ohm}}{\SI{1}{\kilo\ohm}+\SI{10}{\kilo\ohm}}=\tfrac{10}{11}\,\si{\kilo\ohm}} نسب کیا جا سکتا ہے۔ایسا ہی شکل-ب میں کیا گیا ہے جہاں \عددی{\tfrac{10}{11}\,\si{\kilo\ohm}} اور \عددی{\SI{8}{\kilo\ohm}} سلسلہ وار جڑے ہیں لہٰذا ان کی جگہ شکل-پ میں \عددی{\tfrac{98}{11}\,\si{\kilo\ohm}} نسب کیا گیا ہے۔شکل-ت میں متوازی جڑے \عددی{\tfrac{98}{11}\,\si{\kilo\ohm}} اور \عددی{\SI{12}{\kilo\ohm}} کی جگہ \عددی{\tfrac{588}{115}\,\si{\kilo\ohm}} نسب کیا گیا ہے۔اس شکل سے درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+V''_0=\frac{588}{115} \, \si{\kilo\ohm} \times \SI{2}{\milli\ampere}=\frac{1176}{115}\, \si{\volt}
+\end{align*}
+یوں دونوں منبع کی موجودگی میں جواب درج ذیل ہو گا۔
+\begin{align*}
+V_0=V'_0+V''_0=12\frac{36}{115}\,\si{\volt}
+\end{align*}
+
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american current source,l={$\SI{2}{\milli\ampere}$}]++(0,\y) to [short]++(0,\y) to [short]++(\x,0) to [resistor,l={$\SI{10}{\kilo\ohm}$}]++(0,-\y) to [resistor,l={$\SI{8}{\kilo\ohm}$}]++(0,-\y) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(-\x,0);
+\draw(0,\y) to [resistor,*-*,l={$\SI{1}{\kilo\ohm}$}]++(\x,0);
+\draw(\x,0) to [short,*-] ++(\x,0) to [resistor,l={$\SI{12}{\kilo\ohm}$}]++(0,2*\y) to [short,-*]++(-\x,0);
+\draw(2*\x+\dx,\y)node[right]{$\begin{aligned} &+ \\ &V''_0 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american current source,l={$\SI{2}{\milli\ampere}$}]++(0,2*\y) to [short]++(\x,0) to [resistor,l={$\frac{10}{11}\,\si{\kilo\ohm}$}]++(0,-\y) to [resistor,l={$\SI{8}{\kilo\ohm}$}]++(0,-\y) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(-\x,0);
+\draw(\x,0) to [short,*-] ++(\x,0) to [resistor,l={$\SI{12}{\kilo\ohm}$}]++(0,2*\y) to [short,-*]++(-\x,0);
+\draw(2*\x+\dx,\y)node[right]{$\begin{aligned} &+ \\ &V''_0 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american current source,l={$\SI{2}{\milli\ampere}$}]++(0,2*\y) to [short]++(\x,0) to [resistor,l_={$\frac{98}{11}\,\si{\kilo\ohm}$}]++(0,-2*\y)  to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(-\x,0);
+\draw(\x,0) to [short,*-] ++(\x,0) to [resistor,l={$\SI{12}{\kilo\ohm}$}]++(0,2*\y) to [short,-*]++(-\x,0);
+\draw(2*\x+\dx,\y)node[right]{$\begin{aligned} &+ \\ &V''_0 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american current source,l={$\SI{2}{\milli\ampere}$}]++(0,2*\y) to [short]++(\x+\x/2,0) to [resistor,l_={$\frac{588}{115}\,\si{\kilo\ohm}$}]++(0,-2*\y)  to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(-\x-\x/2,0);
+\draw(\x+\x/2+\dx,\y)node[right]{$\begin{aligned} &+ \\ &V''_0 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ت)}
+\end{subfigure}%
+\caption{منبع دباو کو کسر دور کیا گیا ہے۔}
+\label{شکل_مسئلہ_منبع_دباو_کسر_دور_کیا_گیا_ہے}
+\end{figure}
+
+
+
+\انتہا{مثال}
+%===================

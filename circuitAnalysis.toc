@@ -38,5 +38,10 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 4}}مستحکم کار}{\RL {\arabicfont 176}}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 4}}منفی کار}{\RL {\arabicfont 176}}
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 4}}جمع کار}{\RL {\arabicfont 178}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 4}}متوازن اور غیر متوازن صورت}{\RL {\arabicfont 180}}
-\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 4}}موازنہ کار}{\RL {\arabicfont 184}}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 4}}متوازن اور غیر متوازن صورت}{\RL {\arabicfont 181}}
+\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 4}}موازنہ کار}{\RL {\arabicfont 185}}
+\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 4}}آلاتی ایمپلیفائر}{\RL {\arabicfont 185}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 5}}ادوار حل کرنے کے دیگر ترکیب}{\RL {\arabicfont 187}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 5}}مساوی دور}{\RL {\arabicfont 187}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 5}}خطیّت}{\RL {\arabicfont 189}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 5}}منبع کے انفرادی اثرات کا مجموعہ تمام منبع کا مجموعی اثر ہوتا ہے۔}{\RL {\arabicfont 191}}

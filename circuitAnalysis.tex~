@@ -4,7 +4,7 @@
 \usepackage{circuitikz}
 \usepackage{pgfplots}
 \usepackage{tikz-3dplot}
-\usetikzlibrary{3d,shadings,fadings,intersections,calc,decorations.markings}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc,decorations.markings,decorations.pathreplacing}
 \pgfmathsetmacro{\x}{2}     %smallest resistor sizes
 \pgfmathsetmacro{\y}{2}
 \pgfmathsetmacro{\xx}{2.5}   %somewhat larger resistor leads. gives more space
@@ -36,9 +36,9 @@
 \graphicspath{{./fig/figFrontPage/}{./fig/figBasicConcepts/}{./fig/figResistive/}{./fig/figNodalLoop/}{./fig/figOpamp/}}		%paths to figures
 
 
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktToDoList}
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktTheorems,./tex/cktToDoList}
 %
-%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktOpamp,./tex/cktToDoList}
+%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktTheorems,./tex/cktToDoList}
 
 
 
@@ -91,6 +91,7 @@
 \include{./tex/cktResistive}
 \include{./tex/cktNodalLoop}
 \include{./tex/cktOpamp}
+\include{./tex/cktTheorems}
 
 %\include{./tex/emtEndOfBookTableDivergenceCurlGradientLaplacian}
 %\include{./tex/toDoList}
