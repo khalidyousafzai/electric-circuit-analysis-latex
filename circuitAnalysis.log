@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  15 APR 2017 14:35
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  16 APR 2017 20:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3055,26 +3055,35 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 5.70004pt on input line 63.
  [189] [190] [191] [192] [193] [194]
-Overfull \hbox (11.66563pt too wide) in paragraph at lines 381--384
+Overfull \hbox (11.66563pt too wide) in paragraph at lines 382--385
  [][][][] 
  []
 
 [195] [196] [197]
-Overfull \hbox (9.08589pt too wide) in paragraph at lines 424--428
+Overfull \hbox (9.08589pt too wide) in paragraph at lines 425--429
  [][][][] 
  []
 
 
-Overfull \hbox (9.08589pt too wide) in paragraph at lines 434--437
+Overfull \hbox (9.08589pt too wide) in paragraph at lines 435--438
  [][][][] 
  []
 
 
-Overfull \hbox (9.08589pt too wide) in paragraph at lines 443--446
+Overfull \hbox (9.08589pt too wide) in paragraph at lines 444--447
  [][][][] 
  []
 
-) [198] [199] [200
+[198] [199] [200] [201] [202]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 7.5pt on input line 596.
+
+Overfull \hbox (3.20642pt too wide) in paragraph at lines 629--630
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 گا۔بایاں حصہ خطی ہونا ضروری ہے۔دایاں حصہ 
+خطی یا غیر خطی ہو سکتا ہے۔یہ حصے دو تاروں سے آپس میں جڑے ہیں۔ان[]
+ []
+
+[203]) [204] [205] [206
 
 
 ] (./circuitAnalysis.aux (./tex/cktBasics.aux)
@@ -3089,12 +3098,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46716 strings out of 493918
- 1105340 string characters out of 6150562
- 1344464 words of memory out of 5000000
- 49151 multiletter control sequences out of 15000+600000
- 40141 words of font info for 151 fonts, out of 8000000 for 9000
+ 48341 strings out of 493918
+ 1144093 string characters out of 6150562
+ 1386872 words of memory out of 5000000
+ 50775 multiletter control sequences out of 15000+600000
+ 40921 words of font info for 154 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,16n,74p,10476b,1992s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,16n,356p,10476b,1992s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (18 pages).
+Output written on circuitAnalysis.pdf (24 pages).
