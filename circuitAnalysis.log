@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  16 APR 2017 20:47
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  18 APR 2017 19:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3055,38 +3055,38 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 5.70004pt on input line 63.
  [189] [190] [191] [192] [193] [194]
-Overfull \hbox (11.66563pt too wide) in paragraph at lines 382--385
+Overfull \hbox (11.66563pt too wide) in paragraph at lines 384--387
  [][][][] 
  []
 
 [195] [196] [197]
-Overfull \hbox (9.08589pt too wide) in paragraph at lines 425--429
+Overfull \hbox (9.08589pt too wide) in paragraph at lines 427--431
  [][][][] 
  []
 
 
-Overfull \hbox (9.08589pt too wide) in paragraph at lines 435--438
+Overfull \hbox (9.08589pt too wide) in paragraph at lines 437--440
  [][][][] 
  []
 
 
-Overfull \hbox (9.08589pt too wide) in paragraph at lines 444--447
+Overfull \hbox (9.08589pt too wide) in paragraph at lines 446--449
  [][][][] 
  []
 
 [198] [199] [200] [201] [202]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 596.
-
-Overfull \hbox (3.20642pt too wide) in paragraph at lines 629--630
-[]\EU1/JameelNooriNastaleeq(1)/m/n/10 گا۔بایاں حصہ خطی ہونا ضروری ہے۔دایاں حصہ 
-خطی یا غیر خطی ہو سکتا ہے۔یہ حصے دو تاروں سے آپس میں جڑے ہیں۔ان[]
+(Font)              scaled to size 7.5pt on input line 598.
+ [203] [204] [205] [206] [207]
+Overfull \hbox (20.90952pt too wide) in paragraph at lines 886--893
+ [][][][] 
  []
 
-[203]) [204] [205] [206
-
-
-] (./circuitAnalysis.aux (./tex/cktBasics.aux)
+[208] [209] [210]
+Missing character: There is no ق in font zplmr7m!
+Missing character: There is no ص in font zplmr7m!
+Missing character: There is no ر in font zplmr7m!
+ [211]) [212] (./circuitAnalysis.aux (./tex/cktBasics.aux)
 (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
 (./tex/cktTheorems.aux))
 
@@ -3098,12 +3098,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 48341 strings out of 493918
- 1144093 string characters out of 6150562
- 1386872 words of memory out of 5000000
- 50775 multiletter control sequences out of 15000+600000
+ 49614 strings out of 493918
+ 1175189 string characters out of 6150562
+ 1393043 words of memory out of 5000000
+ 52048 multiletter control sequences out of 15000+600000
  40921 words of font info for 154 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 64i,16n,356p,10476b,1992s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,19n,356p,10476b,1994s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (24 pages).
+Output written on circuitAnalysis.pdf (30 pages).
