@@ -565,7 +565,7 @@ V_0=V'_0+V''_0=12\frac{36}{115}\,\si{\volt}
 جوابات:شکل \حوالہ{شکل_مسئلہ_نفاذ_منبع_کے_گروہ}-ب سے \عددی{i'=\tfrac{25}{9} \, \si{\milli\ampere}} اور شکل \حوالہ{شکل_مسئلہ_نفاذ_منبع_کے_گروہ}-پ سے \عددی{i''=-\tfrac{7}{9}\, \si{\milli\ampere}} حاصل ہوتا ہے۔یوں شکل-الف میں \عددی{i=\SI{2}{\milli\ampere}} حاصل ہوتا ہے۔
 \انتہا{مشق}
 %=================
-\حصہ{مسئلہ تھونن اور مسئلہ نارٹن}
+\حصہ{مسئلہ تھونن، مسئلہ نارٹن اور مسئلہ تبادلہ منبع}
 شکل \حوالہ{شکل_مسئلہ_تھونن_سمجھنا_دور}-الف  کے تین جوڑ پر کرخوف مساوات رو لکھتے
 \begin{align*}
 \frac{v_1-10}{4000}+\frac{v_1}{3000}+\frac{v_1-v_2}{4000}&=0\\
@@ -701,11 +701,11 @@ v_0&=v_{\text{کھلا}}
 \end{align*}
 یعنی
 \begin{align}\label{مساوات_مسئلہ_تھونن_پ}
-i_{\text{قصر}}=\frac{v_{\text{کھلا}}}{R_{\text{تھونن}}}
+i_{\text{قصر}}=\frac{v_{\text{کھلا}}}{R_{\text{تھونن}}} \quad \quad \text{\RL{مسئلہ تبادلہ منبع}}
 \end{align}
 یا
 \begin{align}\label{مساوات_مسئلہ_تھونن_ت}
-v_{\text{کھلا}}= i_{\text{قصر}} R_{\text{تھونن}}
+v_{\text{کھلا}}= i_{\text{قصر}} R_{\text{تھونن}}\quad \quad \text{\RL{مسئلہ تبادلہ منبع}}
 \end{align}
 حاصل ہوتا ہے۔مساوات \حوالہ{مساوات_مسئلہ_تھونن_پ} کو مساوات \حوالہ{مساوات_مسئلہ_تھونن_الف} میں پُر کرنے سے
 \begin{align*}
@@ -758,11 +758,11 @@ v_0=v_{\text{کھلا}} - i R_{\text{تھونن}} \quad \quad \text{\RL{مسئل
 \draw[name intersections={of=leftC and lineL,by=leftL},name intersections={of=leftC and lineU,by=leftU}](leftL) to [short,-o] ++(2,0)coordinate(kka)node[below]{$B$}  (leftU) to [short,i={${i=0}$},-o] ++(2,0)coordinate(kkb)node[above]{$A$};
 \draw($(kka)!0.5!(kkb)$) node{$\begin{aligned} &+ \\ &v_{\text{کھلا}} \\ &- \end{aligned}$};
 \end{tikzpicture}
-\caption{کھلا دور سروں پر صفر رو اور کھلے دور دباو پائی جاتی ہے۔}
+\caption{کھلے دور سروں پر صفر رو اور تھونن دباو پائی جاتی ہے۔}
 \label{شکل_مسئلہ_کھلا_دور_تھونن}
 \end{figure}
 
-مساوات \حوالہ{مساوات_مسئلہ_تھونن_الف} مسئلہ نارٹن بیان کرتی ہے جسے شکل \حوالہ{شکل_مسئلہ_تھونن_نارٹن}-الف میں دکھایا گیا ہے جبکہ مساوات \حوالہ{مساوات_مسئلہ_تھونن_ٹ} مسئلہ تھونن بیان کرتی ہے جسے شکل \حوالہ{شکل_مسئلہ_تھونن_نارٹن}-ب میں دکھایا گیا ہے۔
+مساوات \حوالہ{مساوات_مسئلہ_تھونن_الف} \اصطلاح{مسئلہ نارٹن}\فرہنگ{مسئلہ!نارٹن}\فرہنگ{نارٹن!مسئلہ}\حاشیہد{ایڈورڈ لوری نارٹن اور ہنس فرڈینانڈ میئر نے اس مسئلے کو علیحدہ علیحدہ 1926؁ میں اخذ کیا۔}\حاشیہب{Norton Theorem}\فرہنگ{theorem!Norton}\فرہنگ{Norton theorem} بیان کرتی ہے جسے شکل \حوالہ{شکل_مسئلہ_تھونن_نارٹن}-الف میں دکھایا گیا ہے جبکہ مساوات \حوالہ{مساوات_مسئلہ_تھونن_ٹ} \اصطلاح{مسئلہ تھونن}\فرہنگ{مسئلہ!تھونن}\فرہنگ{تھونن!مسئلہ}\حاشیہد{لیوں شارلس تھونن نے 1883؁ میں اور  ہرمن لڈوگ فرڈینانڈ ون ہلم ہولٹز نے 1853؁ میں اس مسئلے کو علیحدہ علیحدہ اخذ کیا۔}\حاشیہب{Thevenin Theorem}\فرہنگ{Thevenin theorem}\فرہنگ{theorem!Thevenin} بیان کرتی ہے جسے شکل \حوالہ{شکل_مسئلہ_تھونن_نارٹن}-ب میں دکھایا گیا ہے۔مساوات \حوالہ{مساوات_مسئلہ_تھونن_پ} \اصطلاح{مسئلہ تبادلہ منبع}\فرہنگ{مسئلہ!تبادلہ منبع}\فرہنگ{تبادلہ منبع!مسئلہ}\حاشیہب{Source Transformation Theorem}\فرہنگ{theorem!Source Transformation}\فرہنگ{Source Transformation theorem} بیان کرتی ہے۔
 \begin{figure}
 \centering
 \begin{subfigure}{0.5\textwidth}
@@ -773,6 +773,7 @@ v_0=v_{\text{کھلا}} - i R_{\text{تھونن}} \quad \quad \text{\RL{مسئل
 \draw(0,0) to [short,-o]++(2*\x,0);
 \draw(0,\y) to [short]++(1.5*\x,0) to [short,i={$i$},-o]++(\x/2,0);
 \draw(2*\x,\y/2)node{$\begin{aligned} &+ \\ &v_0 \\ &- \end{aligned}$};
+\draw(-0.3,3/4*\y)node[left]{$i_{\text{نارٹن}}$};
 \end{tikzpicture}
 \caption*{(الف) نارٹن مساوی دور۔}
 \end{subfigure}%
@@ -781,6 +782,7 @@ v_0=v_{\text{کھلا}} - i R_{\text{تھونن}} \quad \quad \text{\RL{مسئل
 \begin{tikzpicture}
 \draw(0,0) to [short,o-] ++(-\xx,0) to [american voltage source,l={$v_{\text{کھلا}}$}]++(0,\y) to [resistor,i={$i$},-o,l={$R_{\text{تھونن}}$}]++(\xx,0);
 \draw(0,\y/2)node{$\begin{aligned} &+ \\ &v_0 \\ &- \end{aligned}$};
+\draw(-\xx-0.25,3/4*\y)node[left]{$v_{\text{تھونن}}$};
 \end{tikzpicture}
 \caption*{(ب) تھونن مساوی دور۔}
 \end{subfigure}%
@@ -795,9 +797,11 @@ i&=i_{\text{قصر}}-\frac{v_0}{R_{\text{تھونن}}}
 \end{align*}
 ان کا مساوات \حوالہ{مساوات_مسئلہ_تھونن_الف} اور مساوات \حوالہ{مساوات_مسئلہ_تھونن_ب} سے موازنہ کرنے سے صاف ظاہر ہے کہ شکل \حوالہ{شکل_مسئلہ_تھونن_نارٹن}-الف اور شکل \حوالہ{شکل_مسئلہ_تھونن_نارٹن}-ب انہیں مساوات کو ظاہر کرتے ہیں۔
 
-یوں کسی بھی دور کو شکل \حوالہ{شکل_مسئلہ_تھونن_نارٹن}-الف کا تھونن مساوی دور یا شکل \حوالہ{شکل_مسئلہ_تھونن_نارٹن}-ب کا نارٹن مساوی دور ظاہر کر سکتا ہے۔
+یوں کسی بھی دور کو شکل \حوالہ{شکل_مسئلہ_تھونن_نارٹن}-الف کا تھونن مساوی دور یا شکل \حوالہ{شکل_مسئلہ_تھونن_نارٹن}-ب کا نارٹن مساوی دور ظاہر کر سکتا ہے۔نارٹن مساوی دور میں منبع رو کو \عددی{i_{\text{نارٹن}}} یعنی \اصطلاح{نارٹن رو}\فرہنگ{نارٹن!رو}\فرہنگ{رو!نارٹن}\حاشیہب{norton current}\فرہنگ{norton!current} بھی پکارا جاتا ہے۔اسی طرح تھونن مساوی دور میں منبع دباو کو \عددی{v_{\text{تھونن}}} یعنی \اصطلاح{تھونن دباو}\فرہنگ{تھونن!دباو}\فرہنگ{دباو!تھونن}\حاشیہب{thevenin voltage}\فرہنگ{thevenin voltage} بھی پکارا جاتا ہے۔
 
-آئیں ان کا استعمال مثالوں کو حل کرتے ہوئے دیکھیں۔
+مساوات \حوالہ{مساوات_مسئلہ_تھونن_پ} یا مساوات \حوالہ{مساوات_مسئلہ_تھونن_ت} یعنی مسئلہ تبادلہ منبع کی مدد سے تھونن دور سے نارٹن دور اور نارٹن دور سے تھونن دور حاصل ہوتا ہے۔
+
+آئیں ان مسئلوں کا استعمال مثالوں کو حل کرتے ہوئے دیکھیں۔
 
 %===============
 \ابتدا{مثال}\شناخت{مثال_مسئلہ_تھونن_الف}
@@ -821,7 +825,7 @@ i&=i_{\text{قصر}}-\frac{v_0}{R_{\text{تھونن}}}
 \draw(\x,\y)  to [american voltage source,o-,l_={$\SI{3}{\volt}$}]++(-\x,0);
 \draw(\x,\y/2)node{$\begin{aligned} &+ \\& V_{\text{کھلا}} \\ &- \end{aligned}$};
 \end{tikzpicture}%
-\caption*{(ب) کھلے دور دباو۔}
+\caption*{(ب) تھونن دباو۔}
 \end{subfigure}%
 \begin{subfigure}{0.5\textwidth}
 \centering
@@ -846,7 +850,7 @@ i&=i_{\text{قصر}}-\frac{v_0}{R_{\text{تھونن}}}
 \label{شکل_مسئلہ__مثال_تھونن_الف}
 \end{figure}
 
-حل:اس دور کو حل کرنے کی خاطر ہم  \عددی{\SI{6}{\kilo\ohm}} کے علاوہ بقایا دور کا تھونن مساوی دور حاصل کرتے ہیں۔شکل-ب میں مزاحمت کو ہٹاتے ہوئے بقایا دور دکھایا گیا ہے جس کا تھونن مساوی دور درکار ہے۔اس دور کے کھلے سروں پر \عددی{V_{\text{کھلا}}} پایا جاتا ہے۔نچلی جوڑ کو زمین تصور کرتے ہوئے بالائی جوڑ \عددی{V_1} پر دباو دریافت کرتے ہیں۔منبع رو کی پوری رو بائیں خانے میں گھڑی کی الٹ گھومتی ہے لہٰذا
+حل:اس دور کو حل کرنے کی خاطر ہم  \عددی{\SI{6}{\kilo\ohm}} کے علاوہ بقایا دور کا تھونن مساوی دور حاصل کرتے ہیں۔یوں \عددی{\SI{6}{\kilo\ohm}} کو بوجھ تصور کیا جائے گا۔شکل-ب میں بوجھ کو ہٹاتے ہوئے بقایا دور دکھایا گیا ہے جس کا تھونن مساوی دور درکار ہے۔اس دور کے کھلے سروں پر \عددی{V_{\text{کھلا}}} پایا جاتا ہے۔نچلی جوڑ کو زمین تصور کرتے ہوئے بالائی جوڑ \عددی{V_1} پر دباو دریافت کرتے ہیں۔منبع رو کی پوری رو بائیں خانے میں گھڑی کی الٹ گھومتی ہے لہٰذا
 \begin{align*}
 V_1=\SI{2}{\milli\ampere} \left(\SI{3}{\kilo\ohm}+\SI{1}{\kilo\ohm}\right)=\SI{8}{\volt}
 \end{align*}
@@ -860,7 +864,7 @@ V_{\text{کھلا}}= V_1-\SI{3}{\volt}=\SI{5}{\volt}
 \begin{align*}
 R_{\text{تھونن}}=\SI{4}{\kilo\ohm}
 \end{align*}
-لکھا جا سکتا ہے۔شکل-ت سے تقسیم دباو کے کلیے سے خارجی دباو درج ذیل لکھا جا سکتا ہے۔
+لکھا جا سکتا ہے۔یوں شکل-ب کی جگہ اس کا مساوی تھونن دور نسب کرتے ہوئے شکل-الف کی جگہ شکل-ت حاصل ہوتا ہے جسے دیکھتے ہوئے  تقسیم دباو کے کلیے سے بوجھ پر دباو  درج ذیل لکھا جا سکتا ہے۔
 \begin{align}
 V_0=5\left(\frac{\SI{6}{\kilo\ohm}}{\SI{6}{\kilo\ohm}+\SI{4}{\kilo\ohm}}\right)=\SI{3}{\volt}
 \end{align}
@@ -897,7 +901,9 @@ V_0=5\left(\frac{\SI{6}{\kilo\ohm}}{\SI{6}{\kilo\ohm}+\SI{4}{\kilo\ohm}}\right)=
 \label{شکل_مسئلہ__مثال_تھونن_ب}
 \end{figure}
 
-حل:نارٹن مساوی دور میں \عددی{R_{\text{تھونن}}} کے ساتھ ساتھ \عددی{i_{\text{قصر}}} بھی درکار ہے۔تھونن مزاحمت کو گزشتہ مثال میں حاصل کیا گیا ہے لہٰذا صرف قصر دور رو معلوم کرنا باقی ہے۔شکل \حوالہ{شکل_مسئلہ__مثال_تھونن_ب}-الف میں دور کو قصر دور کیا دکھایا گیا ہے جس سے  \عددی{i_{\text{قصر}}} حاصل کیا جا سکتا ہے۔دور کو دیکھتے ہوئے 
+حل:گزشتہ مثال کی طرح دور کو دو ٹکڑوں میں تقسیم کیا جاتا ہے لہٰذا شکل \حوالہ{شکل_مسئلہ__مثال_تھونن_الف}-الف میں \عددی{\SI{6}{\kilo\ohm}} کو بوجھ سمجھتے ہوئے بقایا دور، جسے شکل \حوالہ{شکل_مسئلہ__مثال_تھونن_الف}-ب میں دکھایا گیا ہے،  کا نارٹن مساوی دور  حاصل کیا جائے گا۔
+
+نارٹن مساوی دور میں \عددی{R_{\text{تھونن}}} کے ساتھ ساتھ \عددی{i_{\text{قصر}}} بھی درکار ہے۔تھونن مزاحمت کو گزشتہ مثال میں حاصل کیا گیا ہے لہٰذا صرف قصر دور رو معلوم کرنا باقی ہے۔شکل \حوالہ{شکل_مسئلہ__مثال_تھونن_الف}-ب کو قصر دور کرتے ہوئے شکل \حوالہ{شکل_مسئلہ__مثال_تھونن_ب}-الف میں دکھایا گیا ہے جس سے  \عددی{i_{\text{قصر}}} حاصل کرتے ہیں۔دور کو دیکھتے ہوئے 
 \begin{align*}
 V_1=\SI{3}{\volt}
 \end{align*}
@@ -919,7 +925,7 @@ V_0=\frac{5}{4} \, \si{\milli\ampere} \times \frac{12}{5} \, \si{\kilo\ohm}=\SI{
 \end{align*}
 پیدا ہو گا۔
 
-اس مثال میں \عددی{i_{قصر}} کو مساوات \حوالہ{مساوات_مسئلہ_تھونن_ت} سے بھی حاصل کیا جا سکتا تھا یعنی
+اس مثال میں \عددی{i_{قصر}} کو مساوات \حوالہ{مساوات_مسئلہ_تھونن_ت} یعنی مسئلہ تبادلہ منبع سے بھی حاصل کیا جا سکتا تھا یعنی
 \begin{align*}
 i_{\text{قصر}}=\frac{v_{\text{کھلا}}}{R_{\text{تھونن}}}=\frac{\SI{5}{\volt}}{\SI{4}{\kilo\ohm}}=\frac{5}{4} \, \si{\milli\ampere}
 \end{align*}
@@ -933,6 +939,8 @@ i_{\text{قصر}}=\frac{v_{\text{کھلا}}}{R_{\text{تھونن}}}=\frac{\SI{5}
 \centering
 \begin{tikzpicture}
 \draw(0,0) to [short,o-]++(-\x-\x/4,0) to [american voltage source,l={$\SI{12}{\volt}$}]++(0,\y) to [resistor,l={$\SI{24}{\kilo\ohm}$}]++(\x,0) to [short,-o]++(\x/4,0);
+\draw(-\x-\x/4-0.5,3/4*\y)node[left]{$v_{\text{تھونن}}$};
+\draw(-\x/2-\x/4,\y-0.3)node[below]{$R_{\text{تھونن}}$};
 \end{tikzpicture}
 \caption*{(الف) تھونن دور۔}
 \end{subfigure}%
@@ -941,6 +949,8 @@ i_{\text{قصر}}=\frac{v_{\text{کھلا}}}{R_{\text{تھونن}}}=\frac{\SI{5}
 \begin{tikzpicture}
 \draw(0,0) to [short,o-]++(-\x-\x/2,0) to [american current source,l={$\SI{0.5}{\milli\ampere}$}]++(0,\y) to [short,-o]++(\x+\x/2,0);
 \draw(-\x/2,0) to [resistor,*-*,l={$\SI{24}{\kilo\ohm}$}]++(0,\y);
+\draw(-\x-\x/4-1,3/4*\y)node[left]{$i_{\text{نارٹن}}$};
+\draw(-\x/4-0.8,3/4*\y)node[left]{$R_{\text{تھونن}}$};
 \end{tikzpicture}
 \caption*{(ب) مساوی نارٹن دور۔}
 \end{subfigure}%
@@ -957,3 +967,287 @@ i_{\text{قصر}} = \frac{v_{\text{کھلا}}}{R_{\text{تھونن}}}=\frac{\SI{
 حاصل ہوتا ہے جسے استعمال کرتے ہوئے  شکل \حوالہ{شکل_مثال_تھونن_سے_نارٹن_الف}-ب کا مساوی نارٹن دور حاصل ہوتا ہے۔ 
 \انتہا{مثال}
 %=====================
+\ابتدا{مثال}\شناخت{مثال_مسئلہ_تھونن_ت}
+شکل \حوالہ{شکل_مثال_تھونن_سے_نارٹن_ب}-الف میں \عددی{\SI{3}{\kilo\ohm}} کو بوجھ تصور کریں۔بار بار تھونن سے نارٹن اور نارٹن سے تھونن مساوی دور حاصل کرتے ہوئے بقایا دور کا  تھونن مساوی حاصل کرتے ہوئے بوجھ پر دباو حاصل کریں۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(3*\x+\x/2,0)node[below]{$B$};
+\draw(0,0) to [american voltage source,l={$\SI{8}{\volt}$}]++(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0)to [short,-o]++(\x/2,0)node[above]{$A$};
+\draw(\x,0)node[below]{$b$} to [resistor,*-*,l={$\SI{12}{\kilo\ohm}$}]++(0,\y)node[above]{$a$};
+\draw(2*\x,0)node[below]{$d$} to [american current source,*-*,l={$\SI{4}{\milli\ampere}$}]++(0,\y)node[above]{$c$};
+\draw(3*\x,0)node[below]{$f$} to [resistor,*-*,l={$\SI{3}{\kilo\ohm}$}]++(0,\y)node[above]{$e$};
+\draw(3*\x+\x/2,\y/2)node{$\begin{aligned} &+ \\ &v_0 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(-\x,0) to [short,-o]++(4*\x+\x/2,0)node[below]{$B$};
+\draw(-\x,0) to [american current source,l={$\SI{4}{\milli\ampere}$}]++(0,\y) to [short]++(2*\x,0) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0)to [short,-o]++(\x/2,0)node[above]{$A$};
+\draw(0,0) to [resistor,*-*,l={$\SI{2}{\kilo\ohm}$}]++(0,\y);
+\draw(\x,0)node[below]{$b$} to [resistor,*-*,l={$\SI{12}{\kilo\ohm}$}]++(0,\y)node[above]{$a$};
+\draw(2*\x,0)node[below]{$d$} to [american current source,*-*,l={$\SI{4}{\milli\ampere}$}]++(0,\y)node[above]{$c$};
+\draw(3*\x,0)node[below]{$f$} to [resistor,*-*,l={$\SI{3}{\kilo\ohm}$}]++(0,\y)node[above]{$e$};
+\draw(3*\x+\x/2,\y/2)node{$\begin{aligned} &+ \\ &v_0 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(3*\x+\x/2,0)node[below]{$B$};
+\draw(0,0) to [american current source,l={$\SI{4}{\milli\ampere}$}]++(0,\y) to [short]++(\x,0) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0)to [short,-o]++(\x/2,0)node[above]{$A$};
+\draw(\x,0)node[below]{$b$} to [resistor,*-*,l={$\frac{12}{7} \,\si{\kilo\ohm}$}]++(0,\y)node[above]{$a$};
+\draw(2*\x,0)node[below]{$d$} to [american current source,*-*,l={$\SI{4}{\milli\ampere}$}]++(0,\y)node[above]{$c$};
+\draw(3*\x,0)node[below]{$f$} to [resistor,*-*,l={$\SI{3}{\kilo\ohm}$}]++(0,\y)node[above]{$e$};
+\draw(3*\x+\x/2,\y/2)node{$\begin{aligned} &+ \\ &v_0 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(3*\x+\x/2,0)node[below]{$B$};
+\draw(0,0) to [american voltage source,l={$\frac{48}{7} \, \si{\volt}$}]++(0,\y) to [resistor,l={$\frac{12}{7} \, \si{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0)to [short,-o]++(\x/2,0)node[above]{$A$};
+\draw(2*\x,0)node[below]{$d$} to [american current source,*-*,l={$\SI{4}{\milli\ampere}$}]++(0,\y)node[above]{$c$};
+\draw(3*\x,0)node[below]{$f$} to [resistor,*-*,l={$\SI{3}{\kilo\ohm}$}]++(0,\y)node[above]{$e$};
+\draw(3*\x+\x/2,\y/2)node{$\begin{aligned} &+ \\ &v_0 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ت)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(\x,0) to [short,-o]++(2*\x+\x/2,0)node[below]{$B$};
+\draw(\x,0) to [american voltage source,l={$\frac{48}{7} \, \si{\volt}$}]++(0,\y) to [resistor,l={$\frac{19}{7} \, \si{\kilo\ohm}$}]++(\x,0)  to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0)to [short,-o]++(\x/2,0)node[above]{$A$};
+\draw(2*\x,0)node[below]{$d$} to [american current source,*-*,l={$\SI{4}{\milli\ampere}$}]++(0,\y)node[above]{$c$};
+\draw(3*\x,0)node[below]{$f$} to [resistor,*-*,l={$\SI{3}{\kilo\ohm}$}]++(0,\y)node[above]{$e$};
+\draw(3*\x+\x/2,\y/2)node{$\begin{aligned} &+ \\ &v_0 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ٹ)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_مسئلہ_تھونن_ت} کا دور۔}
+\label{شکل_مثال_تھونن_سے_نارٹن_ب}
+\end{figure}
+
+حل: شکل \حوالہ{شکل_مثال_تھونن_سے_نارٹن_ب} کے بائیں سر سے شروع کرتے ہیں جہاں \عددی{\SI{8}{\volt}} اور \عددی{\SI{2}{\kilo\ohm}} کو تھونن مساوی دور تصور کیا جا سکتا ہے۔اس دور کے سروں کو \عددی{a} اور \عددی{b} تصور کیا جا سکتا ہے۔یوں \عددی{v_{\text{تھونن}}=\SI{8}{\volt}} اور \عددی{R_{\text{تھونن}}=\SI{2}{\kilo\ohm}} لیتے ہوئے مساوات \حوالہ{مساوات_مسئلہ_تھونن_پ} کی مدد سے 
+\begin{align*}
+i_{\text{نارٹن}}=\frac{\SI{8}{\volt}}{\SI{2}{\kilo\ohm}}=\SI{4}{\milli\ampere}
+\end{align*}
+حاصل ہوتا ہے۔نقطہ \عددی{a} اور \عددی{b} کے بائیں جانب تھونن دور کی جگہ یوں مساوی نارٹن دور نسب کیا جا سکتا ہے۔شکل-ب میں ایسا ہی کیا ہوا دکھایا گیا ہے جہاں \عددی{\SI{2}{\kilo\ohm}} اور \عددی{\SI{12}{\kilo\ohm}} متوازی مزاحمتوں کا مساوی \عددی{\tfrac{\SI{2}{\kilo\ohm} \times \SI{12}{\kilo\ohm}}{\SI{2}{\kilo\ohm}+ \SI{12}{\kilo\ohm}}=\tfrac{12}{7}\,\si{\kilo\ohm}} ہو گا۔ شکل-پ میں متوازی مزاحمتوں کی جگہ \عددی{\tfrac{12}{7}\,\si{\kilo\ohm}} کو دکھایا گیا ہے۔
+
+شکل-پ میں \عددی{\SI{4}{\milli\ampere}} کو \عددی{i_{\text{نارٹن}}} اور \عددی{\tfrac{12}{7}\,\si{\kilo\ohm}} کو \عددی{R_{\text{تھونن}}} تصور کیا جا سکتا ہے۔ان دو اجزاء کے نارٹن دور کا مساوی تھونن دور حاصل کرنے کی خاطر مساوات \حوالہ{مساوات_مسئلہ_تھونن_پ} کی مدد سے 
+\begin{align*}
+v_{\text{تھونن}}=i_{\text{نارٹن}} R_{\text{تھونن}}=\SI{4}{\milli\ampere} \times \frac{12}{7} \, \si{\kilo\ohm}=\frac{48}{7} \, \si{\volt}
+\end{align*}
+حاصل کیا جاتا ہے۔شکل-پ میں \عددی{\SI{4}{\milli\ampere}}  اور  \عددی{\tfrac{12}{7}\,\si{\kilo\ohm}} کے نارٹن دور کی جگہ \عددی{\tfrac{48}{7} \, \si{\volt}} اور \عددی{\tfrac{12}{7}\,\si{\kilo\ohm}} کا تھونن دور نسب کرنے سے شکل-ت حاصل ہوتا ہے۔شکل-ت میں سلسلہ وار جڑے \عددی{\tfrac{12}{7}\,\si{\kilo\ohm}} اور \عددی{\SI{1}{\kilo\ohm}} کی جگہ ان کا مساوی \عددی{\tfrac{19}{7}\,\si{\kilo\ohm}} نسب کرنے سے شکل-ٹ حاصل ہوتا ہے۔
+
+شکل-ٹ میں \عددی{\tfrac{19}{7}\,\si{\kilo\ohm}} اور  \عددی{\tfrac{48}{7} \, \si{\volt}} مل کر تھونن دور بناتے ہیں جن کی جگہ نارٹن دور نسب کرنے کی غرض سے 
+\begin{align*}
+i_{\text{نارٹن}}=\frac{v_{\text{تھونن}}}{R_{\text{تھونن}}}=\frac{\frac{48}{7} \, \si{\volt}}{\frac{19}{7} \, \si{\kilo\ohm}}=\frac{48}{19}\,\si{\milli\ampere}
+\end{align*}
+حاصل کرتے ہیں۔شکل \حوالہ{شکل_مثال_تھونن_سے_نارٹن_پ}-الف میں حاصل دور دکھایا گیا ہے جہاں \عددی{\frac{48}{19}\,\si{\milli\ampere}} اور \عددی{\SI{4}{\milli\ampere}} متوازی جڑے منبع ہیں جن کا مجموعہ 
+\begin{align*}
+\frac{48}{19}\,\si{\milli\ampere}+\SI{4}{\milli\ampere}=\frac{124}{19}\,\si{\milli\ampere}
+\end{align*}
+کے برابر ہے۔شکل \حوالہ{شکل_مثال_تھونن_سے_نارٹن_پ}-ب میں متوازی منبع کی جگہ ان کی مجموعی قیمت کا منبع نسب کیا گیا ہے۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(3*\x+\x/2,0)node[below]{$B$};
+\draw(0,0) to [american current source,l={$\frac{48}{19} \, \si{\milli\ampere}$}]++(0,\y) to [short]++(2*\x,0)  to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0)to [short,-o]++(\x/2,0)node[above]{$A$};
+\draw(\x,0) to [resistor,*-*,l={$\frac{19}{7} \, \si{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0)node[below]{$d$} to [american current source,*-*,l={$\SI{4}{\milli\ampere}$}]++(0,\y)node[above]{$c$};
+\draw(3*\x,0)node[below]{$f$} to [resistor,*-*,l={$\SI{3}{\kilo\ohm}$}]++(0,\y)node[above]{$e$};
+\draw(3*\x+\x/2,\y/2)node{$\begin{aligned} &+ \\ &v_0 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(\x,0) to [short,-o]++(2*\x+\x/2,0)node[below]{$B$};
+\draw(\x,0) to [american current source,l={$\frac{124}{19} \, \si{\milli\ampere}$}]++(0,\y) to [short]++(\x,0)  to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0)to [short,-o]++(\x/2,0)node[above]{$A$};
+\draw(2*\x,0)node[below]{$d$} to [resistor,*-*,l={$\frac{19}{7} \, \si{\kilo\ohm}$}]++(0,\y)node[above]{$c$};
+\draw(3*\x,0)node[below]{$f$} to [resistor,*-*,l={$\SI{3}{\kilo\ohm}$}]++(0,\y)node[above]{$e$};
+\draw(3*\x+\x/2,\y/2)node{$\begin{aligned} &+ \\ &v_0 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(\x,0) to [short,-o]++(2*\x+\x/2,0)node[below]{$B$};
+\draw(\x,0) to [american voltage source,l={$\frac{124}{7} \, \si{\volt}$}]++(0,\y) to [resistor,l={$\frac{19}{7} \, \si{\kilo\ohm}$}]++(\x,0)  to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0)to [short,-o]++(\x/2,0)node[above]{$A$};
+\draw(3*\x,0)node[below]{$f$} to [resistor,*-*,l={$\SI{3}{\kilo\ohm}$}]++(0,\y)node[above]{$e$};
+\draw(3*\x+\x/2,\y/2)node{$\begin{aligned} &+ \\ &v_0 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(2*\x,0) to [short,-o]++(\x+\x/2,0)node[below]{$B$};
+\draw(2*\x,0) to [american voltage source,l={$\frac{124}{7} \, \si{\volt}$}]++(0,\y) to [resistor,l={$\frac{47}{7} \, \si{\kilo\ohm}$}]++(\x,0) to [short,-o]++(\x/2,0)node[above]{$A$};
+\draw(3*\x,0)node[below]{$f$} to [resistor,*-*,l={$\SI{3}{\kilo\ohm}$}]++(0,\y)node[above]{$e$};
+\draw(3*\x+\x/2,\y/2)node{$\begin{aligned} &+ \\ &v_0 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\end{subfigure}%
+\caption*{(ت)}
+\caption{مثال \حوالہ{مثال_مسئلہ_تھونن_ت} حل کرتے ہوئے حاصل کئے گئے ادوار۔}
+\label{شکل_مثال_تھونن_سے_نارٹن_پ}
+\end{figure}
+
+شکل \حوالہ{شکل_مثال_تھونن_سے_نارٹن_پ}-ب میں \عددی{\frac{124}{19}\,\si{\milli\ampere}} اور \عددی{\tfrac{19}{7}\,\si{\kilo\ohm}} نارٹن دور  کی جگہ ان کا مساوی تھونن دور  نسب کرنے سے شکل-پ حاصل ہوتا ہے جس میں \عددی{\tfrac{19}{7}\,\si{\kilo\ohm}} اور \عددی{\SI{4}{\kilo\ohm}} سلسلہ وار جڑے ہیں جن کا مساوی \عددی{\tfrac{47}{7}\,\si{\kilo\ohm}} ہے۔شکل \حوالہ{شکل_مثال_تھونن_سے_نارٹن_پ}-ت میں یہی مساوی مزاحمت دکھایا گیا ہے۔
+
+شکل-ت میں \عددی{\SI{3}{\kilo\ohm}} بوجھ ہے جبکہ بقایا تھونن مساوی ہے۔تقسیم دباو سے بوجھ پر دباو درج ذیل حاصل ہوتا ہے۔
+\begin{align*}
+v_0=\frac{124}{7}\left(\frac{\SI{3}{\kilo\ohm}}{\SI{3}{\kilo\ohm}+\frac{47}{7}\,\si{\kilo\ohm}} \right)=\frac{93}{17} \, \si{\volt}
+\end{align*}
+\انتہا{مثال}
+%======================
+\ابتدا{مثال}\شناخت{مثال_مسئلہ_تھونن_ٹ}
+گزشتہ مثال کا تھونن دور دوبارہ حاصل کرتے ہیں۔اس مرتبہ دور کو ایسی جگہوں پر ٹکڑے کرتے ہوئے حل کرتے ہیں کہ جواب جلد حاصل ہو۔شکل \حوالہ{شکل_مثال_تھونن_سے_نارٹن_ٹ} میں دور کو دوبارہ پیش کیا گیا ہے۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(3*\x+\x/2,0)node[below]{$B$};
+\draw(0,0) to [american voltage source,l={$\SI{8}{\volt}$}]++(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0)to [short,-o]++(\x/2,0)node[above]{$A$};
+\draw(\x,0)node[below]{$b$} to [resistor,*-*,l={$\SI{12}{\kilo\ohm}$}]++(0,\y)node[above]{$a$};
+\draw(2*\x,0)node[below]{$d$} to [american current source,*-*,l={$\SI{4}{\milli\ampere}$}]++(0,\y)node[above]{$c$};
+\draw(3*\x,0)node[below]{$f$} to [resistor,*-*,l={$\SI{3}{\kilo\ohm}$}]++(0,\y)node[above]{$e$};
+\draw(3*\x+\x/2,\y/2)node{$\begin{aligned} &+ \\ &v_0 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(2*\x,0)node[below]{$d$};
+\draw(0,0) to [american voltage source,l={$\SI{8}{\volt}$}]++(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,-o,l={$\SI{1}{\kilo\ohm}$}]++(\x,0) node[above]{$c$};
+\draw(\x,0)node[below]{$b$} to [resistor,*-*,l={$\SI{12}{\kilo\ohm}$}]++(0,\y)node[above]{$a$};
+\draw(2*\x,\y/2)node{$\begin{aligned} &+ \\ &v_{\text{کھلا}} \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(1.5*\x,0)node[below]{$d$};
+\draw(0,0) to [american current source,l={$\frac{48}{19}\,\si{\milli\ampere}$}]++(0,\y) to [short,-o]++(\x+\x/2,0) node[above]{$c$};
+\draw(\x,0) to [resistor,*-*,l={$\frac{19}{7}\si{\kilo\ohm}$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(3*\x+\x/2,0)node[below]{$B$};
+\draw(0,0) to [american current source,l={$\frac{48}{19}\,\si{\milli\ampere}$}]++(0,\y) to [short]++(2*\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0)to [short,-o]++(\x/2,0)node[above]{$A$};
+\draw(\x,0) to [resistor,*-*,l={$\frac{19}{7}\,\si{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0)node[below]{$d$} to [american current source,*-*,l={$\SI{4}{\milli\ampere}$}]++(0,\y)node[above]{$c$};
+\draw(3*\x,0)node[below]{$f$} to [resistor,*-*,l={$\SI{3}{\kilo\ohm}$}]++(0,\y)node[above]{$e$};
+\draw(3*\x+\x/2,\y/2)node{$\begin{aligned} &+ \\ &v_0 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ت)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(2*\x+\x/2,0)node[below]{$B$};
+\draw(0,0) to [american current source,l={${\tfrac{124}{19}\,\si{\milli\ampere}}$}]++(0,\yy) to [short]++(\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0)to [short,-o]++(\x/2,0)node[above]{$A$};
+\draw(\x,0) to [resistor,*-*,l={$\frac{19}{7}\,\si{\kilo\ohm}$}]++(0,\yy);
+\draw(2*\x,0)node[below]{$f$} to [resistor,i<^={$\frac{31}{17}\,\si{\milli\ampere}$},*-*,l={$\SI{3}{\kilo\ohm}$}]++(0,\yy)node[above]{$e$};
+\draw(2*\x+\x/2,\yy/2)node{$\begin{aligned} &+ \\ &v_0 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ٹ)}
+\end{subfigure}%
+\caption{مثال \حوالہ{مثال_مسئلہ_تھونن_ٹ} حل کرتے ہوئے حاصل کئے گئے ادوار۔}
+\label{شکل_مثال_تھونن_سے_نارٹن_ٹ}
+\end{figure}
+
+حل:دور کو \عددی{cd} پر توڑ  کر شکل-ب میں دکھایا گیا ہے۔یوں \عددی{cd}  پر مساوی دور حاصل کیا جائے گا۔شکل-ب میں \عددی{v_{ab}} اور \عددی{v_{cd}} برابر ہیں۔یوں
+\begin{align*}
+v_{\text{کھلا}} = v_{cd}= v_{ab} =\frac{8\times 12000}{12000+2000}=\frac{48}{7} \, \si{\volt}
+\end{align*}
+ہو گا اور  \عددی{cd} سے دیکھتے ہوئے تھونن مزاحمت
+\begin{align*}
+\frac{2000\times 12000}{2000+12000}+1000=\frac{19}{7}\, \si{\kilo\ohm}
+\end{align*}
+ہو گا۔ان قیمتوں کو استعمال کرتے ہوئے مساوات  \حوالہ{مساوات_مسئلہ_تھونن_پ} سے
+\begin{align*}
+i_{\text{قصر}} =\frac{v_{\text{کھلا}}}{R_{\text{تھونن}}} =\frac{\frac{48}{7}}{\frac{19}{7}}=\frac{48}{19}\, \si{\milli\ampere}
+\end{align*}
+ملتا ہے۔یوں شکل-ب کا مساوی نارٹن دور شکل-پ حاصل ہوتا ہے جسے شکل-الف میں \عددی{cd} کے بائیں جانب دور کی جگہ نسب کرنے سے شکل-ت ملتا ہے۔شکل-ت میں دو عدد منبع رو متوازی جڑی ہیں جن کی جگہ ایک عدد
+\begin{align*}
+\frac{48}{19} \, \si{\milli\ampere}+\SI{4}{\milli\ampere}=\frac{124}{19} \, \si{\milli\ampere}
+\end{align*}
+ \عددی{\SI{8}{\milli\ampere}} کی منبع نسب کی جا سکتی ہے  جس سے شکل-ٹ حاصل ہوتا ہے۔شکل-ٹ میں سلسلہ وار جڑے \عددی{\SI{4}{\kilo\ohm}} اور \عددی{\SI{3}{\kilo\ohm}} از خود \عددی{\tfrac{19}{7} \, \si{\kilo\ohm}} کے متوازی ہے۔یوں سلسلہ وار مزاحمتوں میں رو کو تقسیم رو کے کلیے سے درج ذیل لکھا جا سکتا ہے
+\begin{align*}
+\frac{124}{19}\,\si{\milli\ampere}\left(\frac{\frac{19}{7} \, \si{\kilo\ohm}}{\frac{19}{7} \, \si{\kilo\ohm}+\SI{4}{\kilo\ohm}+\SI{3}{\kilo\ohm}} \right)=\frac{31}{17} \, \si{\milli\ampere}
+\end{align*}
+جسے شکل \حوالہ{شکل_مثال_تھونن_سے_نارٹن_ٹ}-ٹ میں دکھایا گیا ہے۔تین کلو  بوجھ پر دباو درج ذیل ہے۔
+\begin{align*}
+v_{\text{کھلا}}=\frac{31}{17} \, \si{\milli\ampere} \times \SI{3}{\kilo\ohm}=\frac{93}{17} \, \si{\volt}
+\end{align*}
+آخر میں مسئلہ اتنا سادہ بن چکا تھا کہ تقسیم رو اور اوہم کے قانون سے دباو حاصل کیا گیا۔آپ دیکھ سکتے ہیں کہ بوجھ پر دباو  جلد حاصل ہوا لہٰذا مسئلے کو دیکھ کر فیصلہ کریں کہ کہاں سے دور کو ٹکڑے کرتے ہوئے حل کرنا ہے۔
+\انتہا{مثال}
+%========================
+\ابتدا{مشق}\شناخت{مشق_مسئلہ_تھونن_الف}
+شکل \حوالہ{شکل_مسئلہ_مشق_تھونن_الف} میں دور دکھایا گیا ہے جسے  مسئلہ تھونن سے حل کرتے ہوئے \عددی{V_0} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american current source,l={$\SI{5}{\milli\ampere}$}]++(0,2*\y) to [short]++(\x,0) to [resistor,l={$\SI{6}{\kilo\ohm}$}]++(\x,0) to [resistor,l_={$\SI{2}{\kilo\ohm}$}]++(0,-2*\y) to [short]++(-2*\x,0);
+\draw(\x,0) to [american voltage source,*-,l={$\SI{10}{\volt}$}]++(0,\y) to [resistor,-*,l={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [short,*-o,]++(\x/2,0)node[right]{$A$};
+\draw(2*\x,2*\y) to [short,*-o,]++(\x/2,0)node[right]{$B$};
+\draw(2*\x+\x/2,\y)node{$\begin{aligned} &+ \\ \\ &V_0 \\ \\&-  \end{aligned}$};
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_مسئلہ_تھونن_الف} کا دور۔}
+\label{شکل_مسئلہ_مشق_تھونن_الف}
+\end{figure}
+\انتہا{مشق}
+%==========================
+\ابتدا{مشق}\شناخت{مشق_مسئلہ_تھونن_ب}
+شکل \حوالہ{شکل_مسئلہ_مشق_تھونن_ب} کو تھونن مساوی دور سے حل کرتے ہوئے \عددی{V_0} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(3*\x+\x/2,0)node[right]{$B$};
+\draw(0,0) to [american current source,l={$\SI{6}{\milli\ampere}$}]++(0,\y) to [short]++(\x,0) to [american voltage source,l={$\SI{4}{\volt}$}] ++(\x,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [short]++(0,\y) to [american voltage source,l={$\SI{8}{\volt}$}]++(-\x,0) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(-\x,0) to [short]++(0,-\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{8}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,*-*,l={$\SI{6}{\kilo\ohm}$}]++(0,\y);
+\draw(3*\x,0) to [resistor,*-*,l={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\draw(3*\x,\y) to [short,-o]++(\x/2,0)node[right]{$A$};
+\draw(3*\x+\x/2,\y/2)node{$\begin{aligned} &+ \\ &V_0 \\ &-  \end{aligned}$};
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_مسئلہ_تھونن_ب} کا دور۔}
+\label{شکل_مسئلہ_مشق_تھونن_ب}
+\end{figure}
+\انتہا{مشق}
+%===================
+\ابتدا{مشق}\شناخت{مشق_مسئلہ_تھونن_پ}
+مسئلہ نارٹن کی مدد سے شکل \حوالہ{شکل_مسئلہ_مشق_تھونن_پ} میں \عددی{I_0} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{10}{\volt}$}]++(0,\y) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{6}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(0,-\y) to [resistor,i={$I_0$},l={$\SI{4}{\kilo\ohm}$}]++(0,-\y) to [short]++(-2*\x,0);
+\draw(2*\x,\y) to [american current source,*-*,l={$\SI{1}{\milli\ampere}$}]++(-\x,0) to [american current source,-*,l={$\SI{2}{\milli\ampere}$}]++(0,\y);
+\draw(\x,0) to [american voltage source,*-,l={$\SI{8}{\volt}$}]++(0,\y);
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_مسئلہ_تھونن_پ} کا دور۔}
+\label{شکل_مسئلہ_مشق_تھونن_پ}
+\end{figure}
+\انتہا{مشق}
+%==================

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  18 APR 2017 19:02
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  21 APR 2017 18:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3077,16 +3077,30 @@ Overfull \hbox (9.08589pt too wide) in paragraph at lines 446--449
 [198] [199] [200] [201] [202]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 7.5pt on input line 598.
- [203] [204] [205] [206] [207]
-Overfull \hbox (20.90952pt too wide) in paragraph at lines 886--893
+ [203] [204] [205] [206] [207] [208] [209]
+Overfull \hbox (20.90952pt too wide) in paragraph at lines 890--897
  [][][][] 
  []
 
-[208] [209] [210]
+[210]
 Missing character: There is no ق in font zplmr7m!
 Missing character: There is no ص in font zplmr7m!
 Missing character: There is no ر in font zplmr7m!
- [211]) [212] (./circuitAnalysis.aux (./tex/cktBasics.aux)
+ [211]
+
+LaTeX Warning: Float too large for page by 98.15869pt on input line 1036.
+
+[212] [213]
+Overfull \hbox (18.63463pt too wide) in paragraph at lines 1087--1091
+ [][][][] 
+ []
+
+[214] [215]
+Overfull \hbox (28.02452pt too wide) in paragraph at lines 1167--1172
+ [][][][] 
+ []
+
+[216] [217]) [218] [219] [220] (./circuitAnalysis.aux (./tex/cktBasics.aux)
 (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
 (./tex/cktTheorems.aux))
 
@@ -3098,12 +3112,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 49614 strings out of 493918
- 1175189 string characters out of 6150562
- 1393043 words of memory out of 5000000
- 52048 multiletter control sequences out of 15000+600000
+ 52194 strings out of 493918
+ 1237735 string characters out of 6150562
+ 1477908 words of memory out of 5000000
+ 54628 multiletter control sequences out of 15000+600000
  40921 words of font info for 154 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  64i,19n,356p,10476b,1994s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (30 pages).
+Output written on circuitAnalysis.pdf (38 pages).
