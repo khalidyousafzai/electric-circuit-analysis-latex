@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  22 APR 2017 11:58
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  22 APR 2017 18:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3124,9 +3124,9 @@ Overfull \hbox (5.134pt too wide) in paragraph at lines 1384--1393
  [][][][] 
  []
 
-[223]) [224] (./circuitAnalysis.aux (./tex/cktBasics.aux)
-(./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
-(./tex/cktTheorems.aux))
+[223] [224] [225] [226] [227]) [228] (./circuitAnalysis.aux
+(./tex/cktBasics.aux) (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux)
+(./tex/cktOpamp.aux) (./tex/cktTheorems.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 2.26395pt have occurred.
@@ -3136,12 +3136,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 53115 strings out of 493918
- 1260405 string characters out of 6150562
- 1534858 words of memory out of 5000000
- 55549 multiletter control sequences out of 15000+600000
+ 53696 strings out of 493918
+ 1274604 string characters out of 6150562
+ 1535972 words of memory out of 5000000
+ 56130 multiletter control sequences out of 15000+600000
  40921 words of font info for 154 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 64i,19n,356p,10476b,1995s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,19n,356p,10476b,2001s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (42 pages).
+Output written on circuitAnalysis.pdf (46 pages).
