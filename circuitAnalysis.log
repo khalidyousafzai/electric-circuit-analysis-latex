@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  23 APR 2017 08:28
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  23 APR 2017 16:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3145,11 +3145,28 @@ Overfull \hbox (5.134pt too wide) in paragraph at lines 1530--1539
 [226] [227] [228] [229]
 Underfull \vbox (badness 1990) has occurred while \output is active []
 
- [230])
-[231] [232
+ [230]
+[231]
+Overfull \hbox (20.34787pt too wide) in paragraph at lines 1749--1755
+ [][][][] 
+ []
 
 
-] (./circuitAnalysis.aux (./tex/cktBasics.aux)
+Overfull \hbox (15.31964pt too wide) in paragraph at lines 1771--1775
+ [][][][] 
+ []
+
+[232] [233]
+Overfull \hbox (19.7095pt too wide) in paragraph at lines 1814--1823
+ [][][][] 
+ []
+
+
+Overfull \hbox (45.11105pt too wide) in paragraph at lines 1861--1868
+ [][][][] 
+ []
+
+[234] [235] [236]) [237] [238] (./circuitAnalysis.aux (./tex/cktBasics.aux)
 (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
 (./tex/cktTheorems.aux))
 
@@ -3161,12 +3178,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 54405 strings out of 493918
- 1292071 string characters out of 6150562
- 1503295 words of memory out of 5000000
- 56839 multiletter control sequences out of 15000+600000
+ 56253 strings out of 493918
+ 1337707 string characters out of 6150562
+ 1542686 words of memory out of 5000000
+ 58687 multiletter control sequences out of 15000+600000
  40921 words of font info for 154 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  64i,19n,356p,10476b,2001s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (50 pages).
+Output written on circuitAnalysis.pdf (56 pages).

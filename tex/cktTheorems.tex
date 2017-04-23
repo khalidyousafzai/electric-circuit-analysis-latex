@@ -1705,3 +1705,273 @@ v_0=6\left(\frac{\frac{8}{5}\,\si{\kilo\ohm}}{\frac{8}{5}\,\si{\kilo\ohm}+\SI{2}
 حاصل ہوتے ہیں۔آپ دیکھ سکتے ہیں کہ بیرونی برقی سروں پر اصل دور اور تھونن مساوی دور بالکل یکساں دکھائی دیتے ہیں۔آپ نے یہ بھی دیکھ لیا ہو گا کہ تھونن دور استعمال کرتے ہوئے جوابات نہایت آسانی سے حاصل ہوتے ہیں۔
 \انتہا{مثال}
 %========================
+
+\حصہ{تابع منبع اور غیر تابع منبع دونوں استعمال کرنے والے ادوار}
+ان ادوار میں \عددی{v_{\text{کھلا}}} اور \عددی{i_{\text{قصر}}} حاصل کرتے ہوئے \عددی{R_{\text{تھونن}}} حاصل کیا جاتا ہے۔یاد رہے کہ دور کو دو ٹکڑوں میں تقسیم کرتے ہوئے تابع منبع اور اس کا قابو متغیر علیحدہ نہیں کئے جا سکتے ہیں۔
+
+آئیں چند مثال دیکھیں۔
+
+%=======================
+\ابتدا{مثال}\شناخت{مثال_مسئلہ_تابع_غیر_تابع_الف}
+شکل \حوالہ{شکل_مسئلہ_تابع_غیر_تابع_مثال_الف} میں \عددی{V_0} کو  مسئلہ تھونن سے حاصل کریں۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short]++(3*\x,0) to [short,*-o]++(\x/2,0);
+\draw(0,\y) to [short]++(\x,0) to [american voltage source,l={$\SI{6}{\volt}$}]++(\x,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l_={$\SI{6}{\kilo\ohm}$}]++(0,-\y);
+\draw(3*\x,\y) to [short,*-o]++(\x/2,0);
+\draw(0,\y) to [american controlled current source,l_={$4I_x$}]++(0,-\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,i<^={$I_x$},*-*,l={$\SI{8}{\kilo\ohm}$}]++(0,\y);
+\draw(3*\x+\x/2,\y/2)node{$\begin{aligned}&+ \\ &V_0 \\ &-  \end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short]++(2*\x,0) to [short,*-o]++(\x/2,0);
+\draw(0,\y) to [short]++(\x,0) to [american voltage source,l={$\SI{6}{\volt}$}]++(\x,0);
+\draw(2*\x,\y) to [short,*-o]++(\x/2,0);
+\draw(0,\y) to [american controlled current source,l_={$4I'_x$}]++(0,-\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,i<^={$I'_x$},*-*,l={$\SI{8}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x+\x/2,\y/2)node{$\begin{aligned}&+ \\ &V_{\text{کھلا}} \\ &-  \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short]++(2*\x,0) to [short,*-o]++(\x/2,0) to [short]++(\x/4,0) to [short,i<={$I_{\text{قصر}}$}]++(0,\y) to [short,-o]++(-\x/4,0);
+\draw(0,\y) to [short]++(\x,0) to [american voltage source,l={$\SI{6}{\volt}$}]++(\x,0);
+\draw(2*\x,\y) to [short,*-o]++(\x/2,0);
+\draw(0,\y) to [american controlled current source,l_={$4I''_x$}]++(0,-\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,i<^={$I''_x$},*-*,l={$\SI{8}{\kilo\ohm}$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(\x,0) to [short]++(\x,0) to [short,-o]++(\x/2,0) to [short]++(\x/4,0) to [short,i<={$I_{\text{قصر}}$}]++(0,\y) to [short,-o]++(-\x/4,0);
+\draw(\x,\y)to [american voltage source,l={$\SI{6}{\volt}$}]++(\x,0);
+\draw(2*\x,\y) to [short,-o]++(\x/2,0);
+\draw(\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(ت)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(2*\x,0) to [short,*-o]++(\x/2,0);
+\draw(0,0) to [american voltage source,l={$\frac{12}{7} \, \si{\volt}$}]++(0,\y) to [resistor,l={$\frac{8}{7} \, \si{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l_={$\SI{6}{\kilo\ohm}$}]++(0,-\y);
+\draw(2*\x,\y) to [short,*-o]++(\x/2,0);
+\draw(2*\x+\x/2,\y/2)node{$\begin{aligned}&+ \\ &V_0 \\ &-  \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ٹ)}
+\end{subfigure}%
+\caption{مثال \حوالہ{مثال_مسئلہ_تابع_غیر_تابع_الف} کا دور۔}
+\label{شکل_مسئلہ_تابع_غیر_تابع_مثال_الف}
+\end{figure}
+
+حل:دور کے ٹکڑے کرتے ہوئے تھونن مساوی دور حاصل کرتے ہیں۔یاد رہے کہ تابع منبع  اور اس کا قابو متغیر کو علیحدہ نہیں کیا جا سکتا ہے لہٰذا قابو منبع رو اور \عددی{\SI{8}{\kilo\ohm}} مزاحمت کو علیحدہ نہیں کیا جا سکتا ہے۔یوں دور کو ٹکڑے کرتے ہوئے، برقی سروں سے دور ترین نقطے سے شروع کرتے ہوئے  کم از کم اتنے اجزاء شامل کئے جائیں گے کہ قابو منبع سے لے کر تابع متغیر تک تمام اس میں موجود ہوں۔شکل \حوالہ{شکل_مسئلہ_تابع_غیر_تابع_مثال_الف}-ب میں ایسا ٹکڑا دکھایا گیا ہے جہاں قابو متغیر کو \عددی{I'_x} کہا گیا ہے۔بالائی  مخلوط جوڑ پر کرخوف مساوات رو لکھتے ہیں
+\begin{align*}
+4 I'_x+\frac{V_{\text{کھلا}}-6}{4000}+\frac{V_{\text{کھلا}}}{8000}=0
+\end{align*}
+جس میں \عددی{I'_x=\tfrac{V_{\text{کھلا}}}{8000}} پُر کرتے ہوئے حل کرنے سے 
+\begin{align*}
+V_{\text{کھلا}}=\frac{12}{7} \, \si{\volt}
+\end{align*}
+حاصل ہوتا ہے۔
+
+شکل \حوالہ{شکل_مسئلہ_تابع_غیر_تابع_مثال_الف}-ب میں قصر دور رو حاصل کرنے کی خاطر اس کے برقی سروں کو قصر دور کرتے ہوئے شکل-پ حاصل کیا جاتا ہے جس میں \عددی{I''_x=0} کی بنا پر قابو منبع کی رو بھی صفر ہو گی۔ان حقائق کو مد نظر رکھتے ہوئے شکل \حوالہ{شکل_مسئلہ_تابع_غیر_تابع_مثال_الف}-ت حاصل ہوتا ہے جسے دیکھ کر 
+\begin{align*}
+I_{\text{قصر}}=\frac{6}{4000}=\frac{3}{2}\, \si{\milli\ampere}
+\end{align*}
+لکھا جا سکتا ہے۔تھونن دباو اور نارٹن رو استعمال کرتے ہوئے  تھونن مزاحمت درج ذیل حاصل ہوتا ہے۔
+\begin{align*}
+R_{\text{تھونن}}=\frac{V_{\text{کھلا}}}{I_{\text{قصر}}}  = \frac{\frac{12}{7} \, \si{\volt}}{\frac{3}{2} \, \si{\milli\ampere}}=\frac{8}{7} \, \si{\kilo\ohm}
+\end{align*}
+شکل \حوالہ{شکل_مسئلہ_تابع_غیر_تابع_مثال_الف}-ب کی جگہ تھونن مساوی دور نسب کرتے ہوئے شکل-الف سے شکل-ٹ حاصل ہوتا ہے جس سے تقسیم دباو کے کلیے سے 
+\begin{align*}
+V_0=\frac{\frac{12}{7} \, \si{\volt}}{\frac{8}{7} \, \si{\kilo\ohm}+\SI{2}{\kilo\ohm}+\SI{6}{\kilo\ohm}}=\frac{3}{16} \, \si{\volt}
+\end{align*}
+لکھا جا سکتا ہے۔ 
+\انتہا{مثال}
+%========================
+\ابتدا{مثال}\شناخت{مثال_مسئلہ_تابع_غیر_تابع_ب}
+شکل \حوالہ{شکل_مسئلہ_تابع_غیر_تابع_مثال_ب} میں مسئلہ تھونن کی مدد سے \عددی{V_0} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(2*\x+\x/2,0);
+\draw(0,2*\y) to [short,-o]++(2*\x+\x/2,0);
+\draw(0,0) to [american controlled current source,l={$\frac{V_x}{1000}$}]++(0,\y);
+\draw(0,2*\y) to [american current source,l_={$\SI{4}{\milli\ampere}$}]++(0,-\y);
+\draw(\x,0) to [american voltage source,*-,l_={$\SI{10}{\volt}$}]++(0,\y) to [resistor,-*,l_={$\SI{6}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,*-*,l={$\SI{8}{\kilo\ohm}$}]++(0,2*\y);
+\draw(0,\y) to [resistor,*-*,l={$\SI{2}{\kilo\ohm}$}]++(\x,0);
+\draw(\x/2,\y-\dy)node[below]{$+ \, V_x \, -$};
+\draw(2*\x+\x/2,\y) node{$\begin{aligned}&+ \\ \\ \\  &V_0 \\ \\  \\ &-  \end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(\x+\x/2,0);
+\draw(0,2*\y) to [short,-o]++(\x+\x/2,0);
+\draw(0,0) to [american controlled current source,l={$\frac{V'_x}{1000}$}]++(0,\y);
+\draw(0,2*\y) to [american current source,l_={$\SI{4}{\milli\ampere}$}]++(0,-\y);
+\draw(\x,0) to [american voltage source,*-,l_={$\SI{10}{\volt}$}]++(0,\y) to [resistor,-*,l_={$\SI{6}{\kilo\ohm}$}]++(0,\y);
+\draw(0,\y) to [resistor,*-*,l={$\SI{2}{\kilo\ohm}$}]++(\x,0);
+\draw(\x/2,\y-\dy)node[below]{$+ \, V'_x \, -$};
+\draw(\x+\x/2,\y) node{$\begin{aligned}&+ \\ \\ \\ &V_{\text{کھلا}} \\ \\  \\ &-  \end{aligned}$};
+%loop currents
+\draw[stealth-]([shift={(-150:\x/5.5)}]\x/2,\y/2-\dy) arc (-150:150:\x/5.5);
+\draw(\x/2,\y/2-\dy)node{$i_1$};
+\draw[stealth-]([shift={(-150:\x/5.5)}]\x/2,\y+\y/2+\dy) arc (-150:150:\x/5.5);
+\draw(\x/2,\y+\y/2+\dy)node{$i_2$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(\x+\x/2,0);
+\draw(0,2*\y) to [short,-o]++(\x+\x/2,0) to [short]++(\x/4,0) to [short,i={$I_{\text{قصر}}$}]++(0,-2*\y) to [short,-o]++(-\x/4,0);
+\draw(0,0) to [american controlled current source,l={$\frac{V''_x}{1000}$}]++(0,\y);
+\draw(0,2*\y) to [american current source,l_={$\SI{4}{\milli\ampere}$}]++(0,-\y);
+\draw(\x,0) to [american voltage source,*-,l_={$\SI{10}{\volt}$}]++(0,\y) to [resistor,i={$I_a$},-*,l_={$\SI{6}{\kilo\ohm}$}]++(0,\y);
+\draw(0,\y) to [resistor,*-*,l={$\SI{2}{\kilo\ohm}$}]++(\x,0);
+\draw(\x/2,\y-\dy)node[below]{$+ \, V''_x \, -$};
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short]++(3*\x,0);
+\draw(0,\y) to [short]++(\x,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [short]++(\x,0);
+\draw(0,0) to [american current source,l={$\SI{4}{\milli\ampere}$}]++(0,\y);
+\draw(\x,0) to [american controlled current source,*-*,l={$\frac{V''_x}{1000}$}]++(0,\y);
+\draw(2*\x,0) to [american voltage source,*-*,l={$\SI{10}{\volt}$}]++(0,\y);
+\draw(3*\x,0) to [resistor,i<={$I_a$},l={$\SI{6}{\kilo\ohm}$}]++(0,\y);
+\draw(\x+\x/2,\y-\dy)node[below]{$+ \, V''_x \, -$};
+\end{tikzpicture}
+\caption*{(ت)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(\x+\x/2,0);
+\draw(0,\y) to [resistor,l={$\SI{6}{\kilo\ohm}$}]++(\x,0) to [short,-o]++(\x/2,0);
+\draw(0,\y) to [american voltage source,l_={$\SI{14}{\volt}$}]++(0,-\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{8}{\kilo\ohm}$}]++(0,\y);
+\draw(\x+\x/2,\y/2) node{$\begin{aligned} &+ \\& V_0 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ٹ)}
+\end{subfigure}%
+\caption{مثال \حوالہ{مثال_مسئلہ_تابع_غیر_تابع_ب} کا دور۔}
+\label{شکل_مسئلہ_تابع_غیر_تابع_مثال_ب}
+\end{figure}
+
+حل:خارجی \عددی{\SI{8}{\kilo\ohm}} مزاحمت کو بوجھ تصور کرتے ہوئے بقایا دور جسے شکل \حوالہ{شکل_مسئلہ_تابع_غیر_تابع_مثال_ب}-ب میں دکھایا گیا ہے کا تھونن مساوی حاصل کرتے ہیں۔بالائی خانے کو دیکھ کر
+\begin{align*}
+i_2&=-0.004
+\end{align*}
+لہٰذا
+\begin{align*}
+V_{\text{کھلا}}=6000 i_2+10= 6000(-0.004)+10=\SI{-14}{\volt}
+\end{align*}
+لکھا جا سکتا ہے۔تابع منبع کی موجودگی کی بنا پر تھونن مزاحمت حاصل کرنے کی خاطر قصر دور رو درکار ہو گی۔شکل \حوالہ{شکل_مسئلہ_تابع_غیر_تابع_مثال_ب}-ب کے برقی سر قصر دور کرتے ہوئے  شکل-پ حاصل ہوتا ہے جسے شکل-ت کی طرز پر بنایا جا سکتا ہے۔شکل-ت میں \عددی{I_{\text{قصر}}} کی نشاندہی کرنا قدر مشکل کام ہے البتہ اس سے \عددی{I_a} نہایت آسانی سے
+\begin{align*}
+I_a=\frac{\SI{10}{\volt}}{\SI{6}{\kilo\ohm}}=\frac{5}{3}\, \si{\milli\ampere}
+\end{align*}
+ حاصل ہوتی ہے۔شکل \حوالہ{شکل_مسئلہ_تابع_غیر_تابع_مثال_ب}-پ سے درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+I_{\text{قصر}}=I_a-\SI{4}{\milli\ampere}=\frac{5}{3}\, \si{\milli\ampere}-\SI{4}{\milli\ampere}=-\frac{7}{3}\, \si{\milli\ampere}
+\end{align*}
+ان معلومات کو استعمال کرتے ہوئے
+\begin{align*}
+R_{\text{تھونن}}=\frac{V_{\text{کھلا}}}{I_{\text{قصر}}}=\frac{\SI{-14}{\volt}}{-\frac{7}{3}\,\si{\milli\ampere}}=\SI{6}{\kilo\ohm}
+\end{align*}
+حاصل ہوتا ہے جن کی مدد سے شکل-ب کا تھونن مساوی دور حاصل کیا جا سکتا ہے جسے شکل-الف میں پُر کرنے سے شکل-ٹ حاصل ہوتا ہے۔شکل-ٹ سے تقسیم دباو کے کلیے سے درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+V_0=-14 \left(\frac{\SI{8}{\kilo\ohm}}{\SI{8}{\kilo\ohm}+\SI{6}{\kilo\ohm}}\right)=\SI{-8}{\volt}
+\end{align*}
+\انتہا{مثال}
+%=====================
+\حصہء{تھونن ادوار حل کرنے کا قدم با قدم طریقہ}
+برقی بوجھ کو ہٹا کر کھلے سروں کے مابین  دباو \عددی{V_{\text{کھلا}}} حاصل کریں۔تھونن دباو حاصل کرتے وقت ادوار حل کرنے کے تمام طریقے بروئے کار لائے جا سکتے ہیں۔
+
+کھلے سروں کے مابین تھونن مزاحمت حاصل کریں۔یہ مزاحمت حاصل کرتے وقت تین اقسام کے ادوار کا سامنا کرنا پڑ سکتا ہے۔پہلی قسم  کے ادوار میں صرف غیر تابع منبع استعمال کیا جاتا ہے۔ان ادوار میں منبع دباو کو قصر دور اور منبع رو کو کھلے دور کرتے ہوئے  تھونن مزاحمت حاصل کی جاتی ہے۔ دوسری قسم کے ادوار میں صرف تابع منبع پائے جاتے ہیں۔ان ادوار کے برقی سروں پر پیمائشی منبع دباو یا پیمائشی منبع رو نسب کرتے ہوئے برقی سروں پر دباو اور رو حاصل کی جاتی ہے۔برقی سروں کی دباو تقسیم رو سے تھونن مزاحمت حاصل ہوتی ہے۔تیسری قسم کے ادوار میں تابع منبع اور غیر تابع منبع دونوں پائے جاتے ہیں۔ان اقسام کے ادوار میں برقی سروں کو آپس میں قصر دور کرتے ہوئے قصر دور رو حاصل کی جاتی ہے۔کھلے دور دباو تقسیم قصر دور رو کی شرح تھونن مزاحمت دیتی ہے۔
+
+سلسلہ وار جڑے کھلے دور دباو \عددی{V_{\text{کھلا}}} اور تھونن مزاحمت \عددی{R_{\text{تھونن}}} کے ساتھ بوجھ جوڑتے ہوئے بوجھ پر دباو اور اس کی رو حاصل کی جاتی ہے۔ 
+
+مسئلہ نارٹن کے استعمال میں بالکل اسی طرح چلتے ہوئے آخری قدم پر متوازی جڑے قصر دور رو \عددی{I_{\text{قصر}}} اور تھونن مزاحمت \عددی{R_{\text{تھونن}}} کے ساتھ بوجھ جوڑتے ہوئے بوجھ کی دباو اور رو حاصل کی جاتی ہیں۔ 
+
+%==============
+\ابتدا{مشق}\شناخت{مشق_مسئلہ_تابع_غیر_تابع_الف}
+شکل \حوالہ{شکل_مسئلہ_تابع_غیر_تابع_الف} میں مسئلہ تھونن کی مدد سے \عددی{V_0} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(2*\x+\x/2,0);
+\draw(0,0) to [american current source,l={$\SI{2}{\milli\ampere}$}]++(0,2*\y) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0) to [short]++(\x,0) to [short,-o]++(\x/2,0);
+\draw(\x,0) to [american controlled current source,*-,l={$\frac{V_x}{2000}$}]++(0,\y) to [resistor,-*,l={$\SI{2}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,*-*,l={$\SI{6}{\kilo\ohm}$}]++(0,2*\y);
+\draw(\x/2,2*\y-\dy)node[below]{$+ \, V_x \, -$};
+\draw(2*\x+\x/2,\y)node{$\begin{aligned} &+ \\ \\ &V_0 \\ \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_مسئلہ_تابع_غیر_تابع_الف} کا دور۔}
+\label{شکل_مسئلہ_تابع_غیر_تابع_الف}
+\end{figure}
+\انتہا{مشق}
+%====================
+
+\ابتدا{مشق}\شناخت{مشق_مسئلہ_تابع_غیر_تابع_ب}
+شکل \حوالہ{شکل_مسئلہ_تابع_غیر_تابع_ب} میں مسئلہ تھونن کی مدد سے \عددی{V_0} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(3*\x+\x/2,0);
+\draw(0,0) to [american voltage source,l={$\SI{10}{\volt}$}]++(0,\y) to [short]++(\x,0) to [american controlled voltage source,l={$2000 I_x$}]++(\x,0) to [resistor,i<^={$I_x$},l_={$\SI{4}{\kilo\ohm}$}]++(\x,0) to [resistor,-*,l_={$\SI{6}{\kilo\ohm}$}]++(0,-\y);
+\draw(3*\x,\y) to [short,*-o]++(\x/2,0);
+\draw(3*\x,\y) to [short]++(0,\y) to [american current source,l={$\SI{4}{\milli\ampere}$}]++(-2*\x,0) to [short]++(0,-\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{2}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,*-*,l={$\SI{8}{\kilo\ohm}$}]++(0,\y);
+\draw(3*\x+\x/2,\y/2)node{$\begin{aligned} &+ \\ &V_0 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_مسئلہ_تابع_غیر_تابع_ب} کا دور۔}
+\label{شکل_مسئلہ_تابع_غیر_تابع_ب}
+\end{figure}
+\انتہا{مشق}
+%====================
+
+
+\ابتدا{مشق}\شناخت{مشق_مسئلہ_تابع_غیر_تابع_پ}
+شکل \حوالہ{شکل_مسئلہ_تابع_غیر_تابع_پ} میں مسئلہ تھونن کی مدد سے  منبع دباو کی فراہم کردہ طاقت حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short]++(3*\x,0);
+\draw(0,0) to [american current source,l={$\SI{2}{\milli\ampere}$}]++(0,\y) to [short]++(\x,0) to [american  voltage source,l={$\SI{10}{\volt}$}]++(\x,0) to [resistor,l_={$\SI{6}{\kilo\ohm}$}]++(\x,0) to [resistor,*-,l_={$\SI{1}{\kilo\ohm}$}]++(0,-\y);
+\draw(3*\x,\y) to [short]++(0,\y) to [american current source,l={$\SI{4}{\milli\ampere}$}]++(-2*\x,0) to [short]++(0,-\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,*-*,l={$\SI{2}{\kilo\ohm}$}]++(0,\y);
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_مسئلہ_تابع_غیر_تابع_پ} کا دور۔}
+\label{شکل_مسئلہ_تابع_غیر_تابع_پ}
+\end{figure}
+\انتہا{مشق}
+%====================
+
+\حصہ{زیادہ سے زیادہ طاقت کی منتقل کرنے کا مسئلہ}
