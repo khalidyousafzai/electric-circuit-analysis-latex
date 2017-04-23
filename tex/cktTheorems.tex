@@ -565,6 +565,152 @@ V_0=V'_0+V''_0=12\frac{36}{115}\,\si{\volt}
 جوابات:شکل \حوالہ{شکل_مسئلہ_نفاذ_منبع_کے_گروہ}-ب سے \عددی{i'=\tfrac{25}{9} \, \si{\milli\ampere}} اور شکل \حوالہ{شکل_مسئلہ_نفاذ_منبع_کے_گروہ}-پ سے \عددی{i''=-\tfrac{7}{9}\, \si{\milli\ampere}} حاصل ہوتا ہے۔یوں شکل-الف میں \عددی{i=\SI{2}{\milli\ampere}} حاصل ہوتا ہے۔
 \انتہا{مشق}
 %=================
+\حصہ{مساوی ادوار}
+شکل \حوالہ{شکل_مسئلہ_مساوی_دور_الف} میں دو عدد ادوار نقطہ دار لکیر میں بند دکھائے گئے ہیں۔تصور کریں کہ نقطہ دار لکیر بند ڈبے کو ظاہر کرتی ہے جس کے اندر دیکھنا ممکن نہیں ہے۔ہم بند ڈبے سے باہر نکلتی برقی سروں پر مختلف مزاحمت یا ادوار نسب کرتے ہوئے معلوم کرنا چاہتے ہیں کہ ان کے اندر کیا نسب ہے۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(\x+\x/2,0);
+\draw(0,0) to [american voltage source,l={$\SI{8}{\volt}$}]++(0,\y) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0) to [short,-o]++(\x/2,0);
+\draw(\x,0) to [resistor,*-*,l={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\draw[dashed,gray] (-3/4*\x,-\y/4) rectangle (\x+\x/4,\y+\y/2);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(\x+\x/2,0);
+\draw(0,0) to [american voltage source,l={$\SI{4}{\volt}$}]++(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [short,-o]++(\x/2,0);
+\draw[dashed,gray] (-3/4*\x,-\y/4) rectangle (\x+\x/4,\y+\y/2);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{مساوی ادوار۔}
+\label{شکل_مسئلہ_مساوی_دور_الف}
+\end{figure}
+%========================
+\ابتدا{مثال}\شناخت{مثال_مسئلہ_مساوی_دور_الف}
+شکل \حوالہ{شکل_مسئلہ_مساوی_دور_الف}-الف اور شکل \حوالہ{شکل_مسئلہ_مساوی_دور_الف}-ب کے  برقی سروں پر \عددی{\SI{8}{\kilo\ohm}} مزاحمت نسب کرتے ہوئے برقی سروں پر دباو اور رو حاصل کریں۔بند ڈبے کو نہیں دکھایا گیا تا کہ شکل صاف ستھری نظر آئے۔
+
+حل:شکل \حوالہ{شکل_مسئلہ_مساوی_دور_ب} میں صورت حال دکھایا گیا ہے جہاں \عددی{v_0} اور \عددی{i_0} مطلوب ہیں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short]++(\x,0) to [short,-o]++(\x/2,0);
+\draw(0,0) to [american voltage source,l={$\SI{8}{\volt}$}]++(0,\y) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0) to [short,-o,i={$i_0$}]++(\x/2,0);
+\draw(\x,0) to [resistor,*-*,l={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\draw(\x+\x/2,0) to [short,o-]++(\x/2,0) to [resistor,l_={$\SI{8}{\kilo\ohm}$}]++(0,\y) to [short,-o]++(-\x/2,0);
+\draw(\x+\x/2,\y/2)node{$\begin{aligned} &+ \\ &v_0 \\ &- \end{aligned}$};
+%\draw[dashed,gray] (-3/4*\x,-\y/4) rectangle (\x+\x/4,\y+\y/2);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short]++(\x,0) to [short,-o]++(\x/4,0);
+\draw(0,0) to [american voltage source,l={$\SI{4}{\volt}$}]++(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [short,-o,i={$i_0$}]++(\x/4,0);
+\draw(\x+\x/4,0) to [short,o-]++(\x/2,0) to [resistor,l_={$\SI{8}{\kilo\ohm}$}]++(0,\y) to [short,-o]++(-\x/2,0);
+\draw(\x+\x/4,\y/2)node{$\begin{aligned} &+ \\ &v_0 \\ &- \end{aligned}$};
+%\draw[dashed,gray] (-3/4*\x,-\y/4) rectangle (\x+\x/4,\y+\y/2);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{مثال \حوالہ{مثال_مسئلہ_مساوی_دور_الف} کے ادوار۔}
+\label{شکل_مسئلہ_مساوی_دور_ب}
+\end{figure}
+شکل \حوالہ{شکل_مسئلہ_مساوی_دور_ب}-الف میں \عددی{\SI{4}{\kilo\ohm} \parallel \SI{8}{\kilo\ohm}=\tfrac{8}{3} \, \si{\kilo\ohm}} لیتے ہوئے تقسیم دباو کے کلیے سے 
+\begin{align*}
+v_0=8\left(\frac{\frac{8}{3} \, \si{\kilo\ohm}}{\frac{8}{3} \, \si{\kilo\ohm}+\SI{4}{\kilo\ohm}}\right)=\frac{16}{5}\,\si{\volt}
+\end{align*}
+لکھا جا سکتا ہے اور یوں
+\begin{align*}
+i_0=\frac{v_0}{\SI{8}{\kilo\ohm}}=\frac{\frac{16}{5}}{8000}=\frac{2}{5}\, \si{\milli\ampere}
+\end{align*}
+ہو گی۔شکل \حوالہ{شکل_مسئلہ_مساوی_دور_ب}-ب کو دیکھ کر درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+v_0&=\frac{4\times 8000}{4000+8000}=\frac{16}{5}\,\si{\volt}\\
+i_0&=\frac{4}{2000+8000}=\frac{2}{5}\, \si{\milli\ampere}
+\end{align*}
+ہم دیکھتے ہیں کہ شکل-الف اور شکل-ب دونوں سے یکساں جوابات حاصل ہوتے ہیں۔آئیں مزید تجربے کرتے ہوئے دیکھیں کہ بند ڈبوں میں کیا پایا جاتا ہے۔
+\انتہا{مثال}
+%========================
+\ابتدا{مثال}\شناخت{مثال_مسئلہ_مساوی_دور_ب}
+شکل \حوالہ{شکل_مسئلہ_مساوی_دور_الف} کے  برقی سروں پر سلسلہ وار جڑے منبع دباو اور مزاحمت نسب کرتے ہوئے شکل \حوالہ{شکل_مسئلہ_مساوی_دور_پ} میں دکھایا گیا ہے۔انہیں حل کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short]++(\x,0) to [short,-o]++(\x/2,0);
+\draw(0,0) to [american voltage source,l={$\SI{8}{\volt}$}]++(0,\y) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0) to [short,-o,i={$i_0$}]++(\x/2,0);
+\draw(\x,0) to [resistor,*-*,l={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\draw(\x+\x/2,0) to [short,o-]++(\x,0) to [american voltage source,l_={$\SI{3}{\volt}$}]++(0,\y) to [resistor,l_={$\SI{6}{\kilo\ohm}$},-o]++(-\x,0);
+\draw(\x+\x/2,\y/2)node{$\begin{aligned} &+ \\ &v_0 \\ &- \end{aligned}$};
+\draw(\x,0)node[ground]{};
+%\draw[dashed,gray] (-3/4*\x,-\y/4) rectangle (\x+\x/4,\y+\y/2);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-*]++(\x,0) to [short,-o]++(\x/2,0);
+\draw(0,0) to [american voltage source,l={$\SI{4}{\volt}$}]++(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [short,-o,i={$i_0$}]++(\x/2,0);
+\draw(\x+\x/2,0) to [short,o-]++(\x,0) to [american voltage source,l_={$\SI{3}{\volt}$}]++(0,\y) to [resistor,l_={$\SI{6}{\kilo\ohm}$},-o]++(-\x,0);
+\draw(\x+\x/2,\y/2)node{$\begin{aligned} &+ \\ &v_0 \\ &- \end{aligned}$};
+\draw(\x,0)node[ground]{};
+%\draw[dashed,gray] (-3/4*\x,-\y/4) rectangle (\x+\x/4,\y+\y/2);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_مسئلہ_مساوی_دور_ب} کے ادوار۔}
+\label{شکل_مسئلہ_مساوی_دور_پ}
+\end{figure}
+
+حل:نچلی جوڑ کو زمین چنتے ہوئے بالائی جوڑ پر دباو \عددی{v_0} لکھی جائے گی۔یوں  شکل \حوالہ{شکل_مسئلہ_مساوی_دور_پ}-الف کے بالائی جوڑ پر درج ذیل کرخوف مساوات رو لکھی جا سکتی ہے
+\begin{align*}
+\frac{v_0-8}{4000}+\frac{v_0}{4000}+\frac{v_0-3}{6000}=0
+\end{align*}
+جسے حل کرنے سے
+\begin{align*}
+v_0=\frac{15}{4}\, \si{\volt}
+\end{align*}
+حاصل ہوتا ہے اور یوں
+\begin{align*}
+i_0=\frac{v_0-3}{6000}=\frac{\frac{15}{4}-3}{6000}=\frac{1}{8}\,\si{\milli\ampere}
+\end{align*}
+ہو گی۔آئیں اب شکل  \حوالہ{شکل_مسئلہ_مساوی_دور_پ}-ب کو حل کرتے ہیں۔بالائی جوڑ پر کرخوف مساوات رو
+\begin{align*}
+\frac{v_0-4}{2000}+\frac{v_0-3}{6000}=0
+\end{align*}
+سے
+\begin{align*}
+v_0=\frac{15}{4}\, \si{\volt}
+\end{align*}
+حاصل ہوتا ہے جبکہ قانون اوہم سے رو درج ذیل لکھی جا سکتی ہے۔
+\begin{align*}
+i_0=\frac{4-3}{2000+6000}=\frac{1}{8}\,\si{\milli\ampere}
+\end{align*}
+\انتہا{مثال}
+%=============================
+
+مندرجہ بالا دو مثالوں کے تجربات سے گمان ہوتا ہے کہ شکل \حوالہ{شکل_مسئلہ_مساوی_دور_الف} کے دونوں بند ڈبوں میں یکساں ادوار پائے جاتے ہیں۔ دیکھا یہ گیا ہے کہ دونوں بند ڈبوں کے بیرونی برقی سروں پر یکساں دور نسب کرنے سے بالکل یکساں جوابات حاصل ہوتے ہیں۔یہ ایک دلچسپ صورت حال ہے۔ایسی صورت میں ہم کہتے ہیں کہ شکل \حوالہ{شکل_مسئلہ_مساوی_دور_الف}-الف اور شکل \حوالہ{شکل_مسئلہ_مساوی_دور_الف}-ب \اصطلاح{مساوی ادوار}\فرہنگ{مساوی!دور}\حاشیہب{equivalent circuit}\فرہنگ{equivalent circuit} ہیں۔مزید یہ کہ شکل-الف کا دور، خطی ہونے کی صورت میں، جتنا بھی پیچیدہ کیوں نہ ہو، اس کا مساوی دور ایک عدد منبع اور ایک عدد مزاحمت سلسلہ وار جوڑنے سے حاصل کیا جا سکتا ہے۔
+
+مساوی ادوار صرف اور صرف برقی سروں پر یکساں جوابات دیتے ہیں۔اس حقیقت کو سمجھنے کی خاطر شکل \حوالہ{شکل_مسئلہ_مساوی_دور_الف} میں برقی سرے کھلے رکھتے ہوئے دونوں ادوار میں طاقت کا ضیاع دریافت کرتے ہیں۔شکل-الف میں طاقت کا ضیاع
+\begin{align*}
+\frac{8^2}{4000+4000}=\SI{8}{\milli\watt}
+\end{align*}
+ہے جبکہ شکل-ب میں طاقت کا ضیاع \عددی{\SI{0}{\watt}} ہے۔مساوی ادوار کے اندرونی متغیرات عموماً یکساں نہیں ہوتے۔
+
+اگلے حصے میں \اصطلاح{تھونن مساوی دور} اور \اصطلاح{نارٹن مساوی دور} پر غور کیا جائے گا۔ان پر غور کرتے ہوئے \اصطلاح{مسئلہ تبادلہ منبع} بھی اخذ کیا جائے گا۔
+
+%=============================
 \حصہ{مسئلہ تھونن، مسئلہ نارٹن اور مسئلہ تبادلہ منبع}
 شکل \حوالہ{شکل_مسئلہ_تھونن_سمجھنا_دور}-الف  کے تین جوڑ پر کرخوف مساوات رو لکھتے
 \begin{align*}
