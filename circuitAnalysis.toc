@@ -49,4 +49,5 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 5}}مسئلہ تھونن، مسئلہ نارٹن اور مسئلہ تبادلہ منبع}{\RL {\arabicfont 206}}
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 5}}تابع منبع استعمال کرنے والے ادوار}{\RL {\arabicfont 225}}
 \contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 5}}تابع منبع اور غیر تابع منبع دونوں استعمال کرنے والے ادوار}{\RL {\arabicfont 231}}
-\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 5}}زیادہ سے زیادہ طاقت کی منتقل کرنے کا مسئلہ}{\RL {\arabicfont 237}}
+\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 5}}زیادہ سے زیادہ طاقت منتقل کرنے کا مسئلہ}{\RL {\arabicfont 239}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 6}}امالہ اور برق گیر}{\RL {\arabicfont 247}}

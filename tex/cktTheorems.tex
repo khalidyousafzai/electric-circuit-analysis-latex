@@ -1973,5 +1973,294 @@ V_0=-14 \left(\frac{\SI{8}{\kilo\ohm}}{\SI{8}{\kilo\ohm}+\SI{6}{\kilo\ohm}}\righ
 \end{figure}
 \انتہا{مشق}
 %====================
+\حصہ{زیادہ سے زیادہ طاقت منتقل کرنے کا مسئلہ}
+کسی بھی دور کے برقی سروں پر بوجھ لادنے سے  بوجھ میں طاقت منتقل ہوتی ہے۔آپ جانتے ہیں کہ ہر ممکنہ دور کا تھونن مساوی دور حاصل کیا جا سکتا ہے لہٰذا  اس مسئلے کو شکل \حوالہ{شکل_مسئلہ_بوجھ_کو_طاقت_کی_منتقلی} سے ظاہر کیا جا سکتا ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(\x+\x/4,0);
+\draw(0,0) to [american voltage source,l={$V_{\text{تھونن}}$}]++(0,\y) to [resistor,i={$i$},l={$R_{\text{تھونن}}$}]++(\x,0) to [short,-o]++(\x/4,0) to [short,o-]++(\x/4,0) to [resistor,l={$R_{\text{بوجھ}}$}]++(0,-\y) to [short,-o]++(-\x/4,0);
+\end{tikzpicture}
+\caption{بوجھ کو طاقت کی منتقلی۔}
+\label{شکل_مسئلہ_بوجھ_کو_طاقت_کی_منتقلی}
+\end{figure}
+اس شکل میں بوجھ کو
+\begin{align*}
+P_{\text{بوجھ}}=i^2 R_{\text{بوجھ}}=\left(\frac{V_{\text{تھونن}}}{R_{\text{تھونن}}+R_{\text{بوجھ}}}\right)^2 R_{\text{بوجھ}}
+\end{align*}
+طاقت منتقل ہو گی۔آئیں جانتے ہیں کہ کس قیمت کے \عددی{R_{\text{بوجھ}}} کو زیادہ سے زیادہ طاقت  منتقل ہو گی۔یہ جاننے کے لئے درج بالا مساوات کے تفرق کو صفر کے برابر پُر کرتے ہوئے  \عددی{R_{\text{بوجھ}}} کی درکار قیمت حاصل کرتے ہیں۔
+\begin{align*}
+\frac{\dif P_{\text{بوجھ}}}{\dif R_{\text{بوجھ}}} = \frac{V^2_{\text{تھونن}}\left(R_{\text{تھونن}}+R_{\text{بوجھ}}\right)^2-2V_{\text{تھونن}}^2 R_{\text{تھونن}} \left(R_{\text{تھونن}}+R_{\text{بوجھ}}\right)}{\left(R_{\text{تھونن}}+R_{\text{بوجھ}}\right)^4} =0
+\end{align*}
+اس سے
+\begin{align}
+R_{\text{بوجھ}}=R_{\text{تھونن}} \quad \quad \text{\RL{بوجھ کو زیادہ سے زیادہ طاقت کی منتقلی کا شرط}}
+\end{align}
+حاصل ہوتا ہے۔اس نتیجے کے تحت بوجھ کو اس صورت زیادہ سے زیادہ طاقت منتقل ہو گی جب بوجھ کی مزاحمت دور کے تھونن مزاحمت کے برابر ہو۔
 
-\حصہ{زیادہ سے زیادہ طاقت کی منتقل کرنے کا مسئلہ}
+%===============
+\ابتدا{مثال}\شناخت{مثال_مسئلہ_طاقت_منتقل_الف}
+شکل \حوالہ{شکل_مسئلہ_طاقت_منتقلی_الف} میں مزاحمت بوجھ کی وہ قیمت دریافت کریں جس میں زیادہ سے زیادہ طاقت منتقل ہو گی۔اس طاقت کا تخمینہ لگائیں۔مزاحمت بوجھ کی قیمت \عددی{\SI{10}{\percent}} کم اور زیادہ ہونے کی صورت میں اسے کتنی طاقت منتقل ہوتی ہے۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(2*\x+\x/4,0);
+\draw(0,0) to [american voltage source,l={$\SI{10}{\volt}$}]++(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{6}{\kilo\ohm}$}]++(\x,0) to [short,-o]++(\x/4,0);
+\draw(\x,0) to [resistor,*-*,l_={$\SI{8}{\kilo\ohm}$}]++(0,\y);
+\draw(0,\y) to [short,*-]++(0,\y) to [american current source,l={$\SI{2}{\milli\ampere}$}]++(2*\x,0) to [short,-*]++(0,-\y);
+\draw(2*\x+\x/4,0) to [short,o-]++(\x/4,0) to [resistor,l_={$R_{\text{بوجھ}}$}]++(0,\y) to [short,-o]++(-\x/4,0);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(2*\x+\x/4,0);
+\draw(0,0) to [american voltage source,l={$\SI{10}{\volt}$}]++(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{6}{\kilo\ohm}$}]++(\x,0) to [short,-o]++(\x/4,0);
+\draw(\x,0) to [resistor,*-*,l_={$\SI{8}{\kilo\ohm}$}]++(0,\y);
+\draw(0,\y) to [short,*-]++(0,\y) to [american current source,l={$\SI{2}{\milli\ampere}$}]++(2*\x,0) to [short,-*]++(0,-\y);
+\draw(2*\x+\x/4,\y/2)node{$\begin{aligned}&+ \\ &V_{\text{کھلا}} \\ &-  \end{aligned}$};
+%loop currents
+\draw[stealth-]([shift={(-150:\x/5.5)}]\x/2,\y/2) arc (-150:150:\x/5.5);
+\draw(\x/2,\y/2)node{$i_1$};
+\draw[stealth-]([shift={(-150:\x/5.5)}]\x,\y+\y/2) arc (-150:150:\x/5.5);
+\draw(\x,\y+\y/2)node{$i_2$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(2*\x+\x/4,0);
+\draw(0,0) to [short]++(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{6}{\kilo\ohm}$}]++(\x,0) to [short,-o]++(\x/4,0);
+\draw(\x,0) to [resistor,*-*,l_={$\SI{8}{\kilo\ohm}$}]++(0,\y);
+\draw[stealth-](2*\x+\x/4,\y/2)--++(\x/4,0)--++(0,-\y/8)node[below]{$R_{\text{تھونن}}$};
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{23.2}{\volt}$}]++(0,\y) to [resistor,l={$\SI{7.6}{\kilo\ohm}$}]++(\x,0) to [short,-o]++(\x/4,0) to [short,o-]++(\x/4,0) to [resistor,i={$i$},l={$R_{\text{بوجھ}}$}]++(0,-\y) to [short,-o]++(-\x/4,0) to [short,o-]++(-\x-\x/4,0);
+\end{tikzpicture}
+\caption*{(ت)}%
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_مسئلہ_طاقت_منتقل_الف} کا دور۔}
+\label{شکل_مسئلہ_طاقت_منتقلی_الف}
+\end{figure}
+
+حل:بوجھ کے علاوہ بقایا دور کا تھونن مساوی حاصل کرتے ہیں۔تھونن دباو کی خاطر بوجھ کو ہٹاتے ہوئے شکل \حوالہ{شکل_مسئلہ_طاقت_منتقلی_الف}-ب سے \عددی{V_{\text{کھلا}}} حاصل کرتے ہیں۔شکل-ب سے
+\begin{align*}
+-10+2000(i_1-i_2)+8000i_1=0\\
+i_2=0.002
+\end{align*}
+لکھے جا سکتے ہیں جنہیں حل کرنے سے
+\begin{align*}
+i_1=\frac{7}{5}\,\si{\milli\ampere}
+\end{align*}
+حاصل ہوتا ہے۔یوں تھونن دباو درج ذیل حاصل ہوتا ہے۔
+\begin{align*}
+V_{\text{کھلا}}=8000i_1+6000i_2 =\SI{23.2}{\volt}
+\end{align*}
+تھونن مزاحمت حاصل کرنے کی خاطر منبع دباو کو قصر دور اور منبع رو کو کھلا دور کرتے ہوئے شکل-پ حاصل کیا گیا جہاں سے
+\begin{align*}
+R_{\text{تھونن}}=\SI{2}{\kilo\ohm} \parallel \SI{8}{\kilo\ohm}+\SI{6}{\kilo\ohm}=\SI{7.6}{\kilo\ohm}
+\end{align*}
+حاصل ہوتا ہے۔یوں زیادہ سے زیادہ طاقت کی منتقلی اس صورت ہو گی جب 
+\begin{align*}
+R_{\text{بوجھ}}=\SI{7.6}{\kilo\ohm}
+\end{align*}
+ہو۔تھونن مزاحمت اور تھونن دباو  کو استعمال کرتے ہوئے تھونن مساوی دور حاصل ہوتا ہے جس کے ساتھ بوجھ جوڑ کر شکل-ت حاصل ہوتا ہے۔بوجھ کے مزاحمت کو تھونن مزاحمت کے برابر لیتے ہوئے
+\begin{align*}
+i=\frac{23.2}{7600+7600}=\SI{1.5263}{\milli\ampere}
+\end{align*}
+اور
+\begin{align*}
+P_{\text{بوجھ}}=i^2 R_{\text{تھونن}} = \left(1.5263\times 10^{-3}\right)^2 \times 7600=\SI{17.7}{\milli\watt}
+\end{align*}
+حاصل ہوتا ہے۔
+
+آئیں بوجھ کی مزاحمت کم اور زیادہ کرتے ہوئے منتقل طاقت حاصل کریں۔بوجھ کی مزاحمت دس فی صد کم کرنے سے 
+\begin{align*}
+R'_{\text{بوجھ}} =\SI{6.84}{\kilo\ohm}
+\end{align*}
+ہو گا جس سے
+\begin{align*}
+i=\frac{23.2}{7600+6840}=\SI{1.60665}{\milli\ampere}
+\end{align*}
+اور
+\begin{align*}
+P'_{\text{بوجھ}}= i^2 R'_{\text{بوجھ}} = \left(1.60665\times 10^{-3}\right)^2 \times 6840=\SI{17.65}{\milli\watt}
+\end{align*}
+حاصل ہوتا ہے۔اسی طرح بوجھ کی مزاحمت دس فی صد بڑھانے سے 
+\begin{align*}
+R''_{\text{بوجھ}} =\SI{8.36}{\kilo\ohm}
+\end{align*}
+ہو گا جس سے
+\begin{align*}
+i=\frac{23.2}{7600+8360}=\SI{1.4536}{\milli\ampere}
+\end{align*}
+اور
+\begin{align*}
+P''_{\text{بوجھ}}= i^2 R''_{\text{بوجھ}} = \left(1.4536\times 10^{-3}\right)^2 \times 8360=\SI{17.67}{\milli\watt}
+\end{align*}
+حاصل ہوتا ہے۔
+
+آپ دیکھ سکتے ہیں کہ بوجھ کی مزاحمت کو \عددی{R_{\text{تھونن}}} سے کم یا زیادہ کرنے سے بوجھ کو منتقل طاقت  کم ہو جاتا  ہے۔
+\انتہا{مثال}
+%==================
+\ابتدا{مثال}\شناخت{مثال_مسئلہ_طاقت_منتقل_ب}
+شکل \حوالہ{شکل_مسئلہ_طاقت_منتقلی_ب} میں مزاحمتی بوجھ کی وہ قیمت دریافت کریں جس پر بوجھ کو زیادہ سے زیادہ طاقت منتقل ہو گی۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(4*\x,0);
+\draw(0,0) to [american current source,l={$\SI{2}{\milli\ampere}$}]++(0,\y) to [short]++(\x,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [american controlled voltage source,l={$3000I_x$}]++(\x,0) to [resistor,-o,l={$\SI{4}{\kilo\ohm}$}]++(\x,0);
+\draw(\x,0) to [resistor,*-*,l={$\SI{2}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,*-*,l={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\draw(3*\x,0) to [resistor,*-*,i<_={$I_x$},l={$\SI{2}{\kilo\ohm}$}]++(0,\y);
+\draw(4*\x,0) to [resistor,o-o,l_={$R_{\text{بوجھ}}$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(3*\x+\x/2,0);
+\draw(0,0) to [american current source,l={$\SI{2}{\milli\ampere}$}]++(0,\y) to [short]++(\x,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [american controlled voltage source,l={$3000I_x$}]++(\x,0) to [short,-o]++(\x/2,0);
+\draw(\x,0) to [resistor,*-*,l={$\SI{2}{\kilo\ohm}$}]++(0,\y)node[above]{$V_1$};
+\draw(2*\x,0) to [resistor,*-*,l={$\SI{4}{\kilo\ohm}$}]++(0,\y)node[above]{$V_2$};
+\draw(3*\x,0) to [resistor,*-*,i<_={$I_x$},l={$\SI{2}{\kilo\ohm}$}]++(0,\y);
+\draw(\x,0) node[ground]{};
+\draw(3*\x+\x/2,\y/2)node{$\begin{aligned} &+ \\ &V_{\text{کھلا}} \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(3*\x+\x/2,0);
+\draw(0,0) to [american current source,l={$\SI{2}{\milli\ampere}$}]++(0,\y) to [short]++(\x,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [american controlled voltage source,l={$3000I_x$}]++(\x,0) to [short,-o]++(\x/2,0);
+\draw(\x,0) to [resistor,*-*,l={$\SI{2}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,*-*,l={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\draw(3*\x,0) to [resistor,*-*,i<_={$I_x$},l={$\SI{2}{\kilo\ohm}$}]++(0,\y);
+\draw(\x,0) node[ground]{};
+\draw(3*\x+\x/2,0) to [short,o-o,i<_={$I_{\text{قصر}}$}] ++(0,\y);
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short]++(2*\x,0);
+\draw(0,0) to [american current source,l={$\SI{2}{\milli\ampere}$}]++(0,\y) to [short]++(\x,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [short,i={$I_{\text{قصر}}$}]++(0,-\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{2}{\kilo\ohm}$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(ت)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\frac{4}{3}\,\si{\volt}$}]++(0,\y) to [resistor,l={$\frac{4}{3}\,\si{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0) to [resistor,l_={$R_{\text{بوجھ}}$}] ++(0,-\y) to [short]++(-2*\x,0);
+\end{tikzpicture}
+\caption*{(ٹ)}
+\end{subfigure}%
+\caption{مثال \حوالہ{مثال_مسئلہ_طاقت_منتقل_ب} کا دور۔}
+\label{شکل_مسئلہ_طاقت_منتقلی_ب}
+\end{figure}
+
+حل:اس دور پر غور کرنے سے ظاہر ہوتا ہے کہ اگر \عددی{\SI{1}{\kilo\ohm}} کے بالکل دائیں سے دور کو دو ٹکڑوں میں تقسیم کیا جائے تب قصر دور رو نہایت آسانی سے حاصل ہوتی ہے۔ایسا ہی کرتے ہوئے شکل-ب حاصل ہوتا ہے جس سے \عددی{V_{\text{کھلا}}} حاصل کرتے ہیں۔نچلی جوڑ کو زمین تصور کرتے ہوئے بالائی سادہ جوڑ اور مخلوط جوڑ پر کرخوف مساوات رو لکھتے ہیں۔
+\begin{align*}
+-0.002+\frac{V_1}{2000}+\frac{V_1-V_2}{2000}&=0\\
+\frac{V_2-V_1}{2000}+\frac{V_2}{4000}+\frac{V_2+3000I_x}{2000}&=0
+\end{align*}
+ان میں
+\begin{align*}
+I_x=\frac{V_2+3000I_x}{2000}
+\end{align*}
+یعنی
+\begin{align*}
+I_x=-\frac{V_2}{1000}
+\end{align*}
+پُر کرتے ہوئے حل کرنے سے
+\begin{align*}
+V_1&=\frac{5}{3}\, \si{\volt}\\
+V_2&=2\frac{2}{3}\, \si{\volt}\\
+I_x&=\frac{2}{3}\, \si{\milli\volt}
+\end{align*}
+حاصل ہوتا ہے۔یوں
+\begin{align*}
+V_{\text{کھلا}}=2000 I_x=\frac{4}{3}\, \si{\volt}
+\end{align*}
+ہو گا۔
+
+قصر دور رو حاصل کرنے کی خاطر شکل-ب کے برقی سروں کو آپس میں قصر دور کرتے ہیں۔ایسا کرنے سے شکل-پ حاصل ہوتا ہے۔اس شکل میں دائیں جانب \عددی{\SI{2}{\kilo\ohm}} کے متوازی قصر پایا جاتا ہے لہٰذا اس مزاحمت میں صفر رو پائی جائے گی  یعنی\عددی{I_x=0} ہو گا۔اس طرح تابع منبع دباو صفر وولٹ دباو پیدا کرے گا لہٰذا اسے  بھی قصر دور  تصور کیا جا سکتا ہے۔یوں \عددی{\SI{4}{\kilo\ohm}} کے بھی متوازی قصر پایا جائے گا لہٰذا اس میں بھی صفر رو پائی جائے گی۔ان تمام حقائق کو مد نظر رکھتے ہوئے شکل حاصل ہوتا ہے۔تقسیم رو کے کلیے کو استعمال کرتے ہوئے شکل-ت سے
+\begin{align*}
+I_{\text{قصر}} = 0.002\left(\frac{2000}{2000+2000}\right)=\SI{1}{\milli\ampere}
+\end{align*}
+حاصل ہوتا ہے۔یوں تھونن مزاحمت درج ذیل ہو گا۔
+\begin{align*}
+R_{\text{تھونن}}=\frac{V_{\text{کھلا}}}{I_{\text{قصر}}}=\frac{\frac{4}{3} \, \si{\volt}}{\SI{1}{\milli\ampere}}=\frac{4}{3}\, \si{\kilo\ohm}
+\end{align*}
+تھونن مزاحمت اور دباو سے تھونن مساوی دور کے ساتھ بقایا پرزے جوڑنے سے شکل-ٹ حاصل ہوتا ہے۔ یاد رہے کہ زیادہ سے زیادہ طاقت کی منتقلی کے لئے ضروری ہے کہ بوجھ کی مزاحمت بقایا تمام دور کے تھونن مزاحمت کے برابر ہو۔شکل \حوالہ{شکل_مسئلہ_طاقت_منتقلی_ب}-ٹ کو دیکھتے ہوئے یوں زیادہ سے زیادہ طاقت کی منتقلی کے لئے درکار مزاحمت
+\begin{align*}
+R_{\text{بوجھ}}=\frac{4}{3} \, \si{\kilo\ohm}+\SI{4}{\kilo\ohm}=\frac{16}{3}\, \si{\kilo\ohm}
+\end{align*}
+حاصل ہوتا ہے۔
+\انتہا{مثال}
+%===============
+\ابتدا{مشق}\شناخت{مشق_مسئلہ_منتقلی_طاقت_الف}
+شکل \حوالہ{شکل_مسئلہ_مشق_منتقلی_طاقت_الف} میں زیادہ سے زیادہ طاقت کی منتقلی کے لئے درکار مزاحمت بوجھ دریافت کریں۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,-o]++(2*\x,0);
+\draw(0,0) to [american voltage source,l={$\SI{4}{\volt}$}]++(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,-o,l={$\SI{1}{\kilo\ohm}$}]++(\x,0) to [resistor,-o,l={$R_{\text{بوجھ}}$}]++(0,-\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{8}{\kilo\ohm}$}]++(0,\y);
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_مسئلہ_منتقلی_طاقت_الف} کا دور۔}
+\label{شکل_مسئلہ_مشق_منتقلی_طاقت_الف}
+\end{figure}
+\انتہا{مشق}
+%===================
+
+\ابتدا{مشق}\شناخت{مشق_مسئلہ_منتقلی_طاقت_ب}
+شکل \حوالہ{شکل_مسئلہ_مشق_منتقلی_طاقت_ب} میں زیادہ سے زیادہ طاقت کی منتقلی کے لئے درکار مزاحمت بوجھ دریافت کریں۔زیادہ سے زیادہ منتقل ہونے والی طاقت کی قیمت بھی حاصل کریں۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short]++(\x,0) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(\x,0) to [short]++(\x,0);
+\draw(0,0) to [american voltage source,l={$\SI{6}{\volt}$}]++(0,\y) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(\x,0) to [resistor,-o,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}] ++(\x,0) to [resistor,l={$R_{\text{بوجھ}}$}]++(0,-\y);
+\draw(\x,0) to [american current source,*-*,l={$\SI{4}{\milli\ampere}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,*-*,l_={$\SI{8}{\kilo\ohm}$}]++(0,\y);
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_مسئلہ_منتقلی_طاقت_ب} کا دور۔}
+\label{شکل_مسئلہ_مشق_منتقلی_طاقت_ب}
+\end{figure}
+\انتہا{مشق}
+%===================
+
+\ابتدا{مشق}\شناخت{مشق_مسئلہ_منتقلی_طاقت_پ}
+شکل \حوالہ{شکل_مسئلہ_مشق_منتقلی_طاقت_پ} میں زیادہ سے زیادہ طاقت کی منتقلی کے لئے درکار مزاحمت بوجھ دریافت کریں۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short]++(4*\x,0);
+\draw(0,0) to [american current source,l={$\SI{2}{\milli\ampere}$}]++(0,2*\y) to [short]++(4*\x,0) to  [resistor,l={$R_{\text{بوجھ}}$}]++(0,-2*\y);
+\draw(\x,0) to [resistor,i<={$I_x$},*-*,l={$\SI{2}{\kilo\ohm}$}]++(0,2*\y);
+\draw(2*\x,0) to [american controlled voltage source,*-,l={$2000I_x$}]++(0,\y) to [resistor,-*,l={$\SI{1}{\kilo\ohm}$}]++(0,\y);
+\draw(3*\x,0) to [resistor,*-*,l={$\SI{6}{\kilo\ohm}$}]++(0,2*\y);
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_مسئلہ_منتقلی_طاقت_پ} کا دور۔}
+\label{شکل_مسئلہ_مشق_منتقلی_طاقت_پ}
+\end{figure}
+\انتہا{مشق}
+%===================

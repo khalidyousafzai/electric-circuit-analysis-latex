@@ -33,12 +33,12 @@
 
 %\input{./tex/myElectronicsVariablesBetter.tex}         %these are all tested. to use at the very end when book is finished
 
-\graphicspath{{./fig/figFrontPage/}{./fig/figBasicConcepts/}{./fig/figResistive/}{./fig/figNodalLoop/}{./fig/figOpamp/}}		%paths to figures
+\graphicspath{{./fig/figFrontPage/}{./fig/figBasicConcepts/}{./fig/figResistive/}{./fig/figNodalLoop/}{./fig/figOpamp/}{./fig/figTheorem/}{./fig/figCapacitorInductor/}}		%paths to figures
 
 
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktTheorems,./tex/cktToDoList}
+%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktTheorems,./tex/cktCapacitorInductor,./tex/cktToDoList}
 %
-%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktTheorems,./tex/cktToDoList}
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktTheorems,./tex/cktToDoList}
 
 
 
@@ -92,6 +92,7 @@
 \include{./tex/cktNodalLoop}
 \include{./tex/cktOpamp}
 \include{./tex/cktTheorems}
+\include{./tex/cktCapacitorInductor}
 
 %\include{./tex/emtEndOfBookTableDivergenceCurlGradientLaplacian}
 %\include{./tex/toDoList}
