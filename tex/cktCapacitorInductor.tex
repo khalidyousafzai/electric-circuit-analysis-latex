@@ -435,9 +435,494 @@ w_L=\frac{Li^2}{2}
 امالہ میں فوراً رو تبدیل کرنے کے لئے مساوات \حوالہ{مساوات_امالہ_کو_مہیا_طاقت_الف} کے تحت  لامحدود طاقت درکار ہو گی۔کائنات میں لامحدود طاقت کا منبع کہیں نہیں پایا جاتا لہٰذا امالہ کی رو کو فوراً تبدیل کرنا ناممکن ہے۔یہ ایک اہم نتیجہ ہے جس کے تحت دور میں سوئچ کو چالو سے غیر چالو (یا غیر چالو سے چالو) کرنے کے فوراً بعد امالہ میں رو کی قیمت وہی ہو گی جو سوئچ چالو (یا غیر چالو) کرنے سے پہلے تھی۔اس حقیقت کو اگلے باب میں استعمال کیا جائے گا۔
 
 %=============================
-\ابتدا{مثال}
-شکل میں ذخیرہ توانائی دریافت کریں۔
+\ابتدا{مثال}\شناخت{مثال_امالہ_یکسمتی_دور_الف}
+شکل \حوالہ{شکل_امالہ_یکسمتی_دور_الف} میں ذخیرہ توانائی دریافت کریں۔
 
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{10}{\volt}$}]++(0,\y) to [inductor,l={${L_1=\SI{2}{\milli\henry}}$}]++(\x,0) to [resistor,l={$\SI{6}{\ohm}$}]++(\x,0) to [inductor,l={${L_2=\SI{1}{\milli\henry}}$}]++(\x,0) to [resistor,l={$\SI{5}{\ohm}$}]++(\x,0) to [short]++(\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(0,-\y) to [short] (0,0);
+\draw(\x,0) to [capacitor,*-*,l={$\SI{3}{\micro\farad}$}]++(0,\y);
+\draw(3*\x,0) to [american current source,*-*,l={$\SI{4}{\ampere}$}]++(0,\y);
+\draw(4*\x,0) to [capacitor,*-*,l={$\SI{10}{\micro\farad}$}]++(0,\y);
+\draw(\x-\dx,1/4*\y)node[left]{$C_1$};
+\draw(4*\x-\dx,1/4*\y)node[left]{$C_2$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{10}{\volt}$}]++(0,\y) to [short]++(\x,0) to [resistor,l={$\SI{6}{\ohm}$}]++(\x,0) to [short,i={$I_1$}]++(\x,0) to [resistor,l={$\SI{5}{\ohm}$}]++(\x,0) to [short,i={$I_2$}]++(\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(0,-\y) to [short] (0,0);
+\draw(3*\x,0)node[ground]{} to [american current source,*-*,l={$\SI{4}{\ampere}$}]++(0,\y)node[above]{$J$};
+\draw(\x,0) to [short,*-o]++(0,\y/8);
+\draw(\x,\y) to [short,*-o]++(0,-\y/8);
+\draw(4*\x,0) to [short,*-o]++(0,\y/8);
+\draw(4*\x,\y) to [short,*-o]++(0,-\y/8);
+\draw(\x+\dx/2,\y/2)node{$\begin{aligned}&+ \\& V_{C1} \\ &- \end{aligned}$};
+\draw(4*\x+\dx/2,\y/2)node{$\begin{aligned}&+ \\& V_{C2} \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_امالہ_یکسمتی_دور_الف} کا دور۔}
+\label{شکل_امالہ_یکسمتی_دور_الف}
+\end{figure}
 
+حل:اس دور میں صرف یک سمتی منبع پائے جاتے ہیں۔ہم اس حقیقت پر بحث کر چکے ہیں کہ یک سمتی ادوار میں امالہ کو قصر دور اور برق گیر کو کھلا دور تصور کیا جاتا ہے۔ایسا ہی کرتے ہوئے  شکل-ب حاصل ہوتا ہے جسے آپ اپنی پسندیدہ  ترکیب سے حل کر سکتے ہیں۔نچلی جوڑ کو زمین لیتے ہوئے جوڑ \عددی{J} پر کرخوف مساوات رو
+\begin{align*}
+I_1+4=I_2
+\end{align*} 
+جبکہ بیرونی دائرے پر کرخوف مساوات دباو
+\begin{align*}
+10=6I_1+(5+2)I_2
+\end{align*}
+ لکھتے ہیں۔انہیں حل کرتے ہوئے درج ذیل حاصل ہوتا ہے۔
+\begin{align*}
+I_1&=-\frac{18}{13}\, \si{\ampere}\\
+I_2&=\frac{34}{13}\,\si{\ampere}
+\end{align*}
+برق گیر \عددی{C_1} پر دباو شکل کو دیکھ کر لکھی جا سکتی ہے  جبکہ \عددی{C_2}  پر دباو کو اوہم کے قانون کی مدد سے لکھا جا سکتا ہے۔
+\begin{align*}
+V_{C1}&=\SI{10}{\volt}\\
+V_{C2}&=2 \times \frac{34}{13}=\frac{68}{13}\,\volt
+\end{align*}
+ان حقائق کو استعمال کرتے ہوئے برق گیر اور امالہ میں ذخیرہ توانائی دریافت کر سکتے ہیں۔
+\begin{align*}
+w_{C1}&=\frac{3\times 10^{-6} \times 10^2}{2}=\SI{0.15}{\milli\joule}\\
+w_{C2}&=\frac{10 \times 10^{-6} \left(\frac{68}{13}\right)^2}{2}=\SI{0.14}{\milli\joule}\\
+w_{L1}&=\frac{0.002\times \left(\frac{18}{13}\right)^2 }{2}=\SI{1.92}{\milli\joule}\\
+w_{L2}&=\frac{0.001\times \left(\frac{18}{13}\right)^2}{2}=\SI{0.96}{\milli\joule}
+\end{align*}
 \انتہا{مثال}
 %================================
+\ابتدا{مثال}\شناخت{مثال_امالہ_یکسمتی_دور_ب}
+امالہ کی رو کے خط کو شکل \حوالہ{شکل_امالہ_یکسمتی_دور_ب}-الف میں دکھایا گیا ہے۔اس کے دباو کا خط کھینچیں۔امالہ کی قیمت \عددی{\SI{30}{\milli\henry}} ہے۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\begin{tikzpicture}
+\draw[gray](0,0)--++(4,0)node[right]{$t(\si{\milli\second})$};
+\draw[gray](0,-2.5)--(0,1.5)node[left]{$i(t)$};
+\draw(-0.5,0)--(0,0)--(2,1)--(3,0)--(4,0);
+\draw(0,1)--++(-0.1,0)node[left]{$\SI{60}{\milli\ampere}$};
+\draw(2,0)--++(0,-0.1)node[below]{$20$};
+\draw(3,0)--++(0,-0.1)node[below]{$30$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\begin{tikzpicture}
+\draw[gray](0,0)--++(4,0)node[right]{$t(\si{\milli\second})$};
+\draw[gray](0,-2.5)--(0,1.5)node[left]{$i(t)$};
+\draw(-0.5,0)--(0,0)--(0,1)--(2,1)--(2,-2)--(3,-2)--(3,0)--(4,0);
+\draw(0,1)node[left]{$\SI{90}{\milli\volt}$};
+\draw(0,-2)node[left]{$\SI{180}{\milli\volt}$};
+\draw(2,0)--++(0,-0.1)node[below left]{$20$};
+\draw(3,0)--++(0,-0.1)node[below right]{$30$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{مثال \حوالہ{مثال_امالہ_یکسمتی_دور_ب} کا دور۔}
+\label{شکل_امالہ_یکسمتی_دور_ب}
+\end{figure}
+
+حل:امالہ گیر کی رو سے امالہ گیر کا دباو مساوات \حوالہ{مساوات_امالہ_بنیادی_مساوات_امالہ_الف} کی مدد سے حاصل کیا جاتا ہے۔وقت \عددی{t=-\infty} تا \عددی{t=0} رو صفر کے برابر ہے لہٰذا
+\begin{align*}
+v=30\times 10^{-3} \left(\frac{0}{-\infty-0}\right)=\SI{0}{\volt}
+\end{align*}
+ہو گا۔اگلا دورانیہ \عددی{t=0} تا \عددی{t=\SI{20}{\milli\second}} ہے جس میں رو کی قیمت  یکساں شرح سے مسلسل بڑھتے ہوئے \عددی{i=0} سے \عددی{i=\SI{60}{\milli\ampere}} ہو جاتی ہے لہٰذا اس دوران
+\begin{align*}
+v=30\times 10^{-3} \left(\frac{0.06-0}{0.02-0}\right)=\SI{90}{\milli\volt}
+\end{align*}
+ہو گا۔دورانیہ \عددی{\SI{20}{\milli\second}} تا \عددی{\SI{30}{\milli\second}} میں دباو درج ذیل ہو گا۔
+\begin{align*}
+v=30\times 10^{-3} \left(\frac{0-0.06}{0.03-0.02}\right)=\SI{-180}{\milli\volt}
+\end{align*}
+\عددی{\SI{30}{\milli\second}} کے بعد رو صفر رہتی ہے لہٰذا
+\begin{align*}
+v=30\times 10^{-3} \left(\frac{0}{\infty-0.03}\right)=\SI{0}{\volt}
+\end{align*}
+ہو گا۔ان نتائج کو شکل \حوالہ{شکل_امالہ_یکسمتی_دور_ب}-ب میں دکھایا گیا ہے۔
+\انتہا{مثال}
+%================================
+\ابتدا{مثال}
+امالہ گیر کی رو \عددی{i(t)=5\cos 377 t} جبکہ اس کی امالہ \عددی{\SI{100}{\milli\henry}} ہے۔امالہ گیر کا دباو اور اس میں ذخیرہ توانائی کی مساوات حاصل کریں۔
+
+حل: مساوات \حوالہ{مساوات_امالہ_بنیادی_مساوات_امالہ_الف}  سے دباو درج ذیل لکھا جاتا ہے۔
+\begin{align*}
+v&=L \frac{\dif i}{\dif t}\\
+&=0.1 \times (-5 \times 377 \sin 377 t)\\
+&=-188.5 \sin 377 t \quad \si{\volt}
+\end{align*}
+ذخیرہ توانائی کو درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+w_L(t)&=\frac{L i^2}{2}\\
+&=\frac{0.1 \times \left(5\cos 377 t\right)^2}{2}\\
+&=1.25 \cos^2 377t \, \si{\joule}
+\end{align*}
+\انتہا{مثال}
+%==================================
+\ابتدا{مشق}\شناخت{مشق_امالہ_رو_دباو_خط_الف}
+رو کا خط شکل \حوالہ{شکل_امالہ_مشق_رو_دباو_خط_الف} میں دکھایا گیا ہے۔دباو کا خط کھینچیں۔امالہ کی قیمت \عددی{\SI{2}{\henry}} ہے۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw[gray](0,-1.35)--(0,1.5)node[left]{$i(t)$};
+\draw[gray](0,0)--++(4.25,0)node[right]{$t(\si{\milli\second})$};
+\draw(-0.25,0)--(0,0)--(2,1)--(3,1)--(4,0)--(4.25,0);
+\draw(0,1)node[left]{$\SI{12}{\ampere}$};
+\draw(2,0)node[below]{$2$};
+\draw(3,0)node[below]{$3$};
+\draw(4,0)node[below]{$4$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw[gray](0,-1.35)--(0,1.5)node[left]{$v(t)$};
+\draw[gray](0,0)--++(4.25,0)node[right]{$t(\si{\milli\second})$};
+\draw(-0.25,0) --(0,0)--(0,0.6)--(2,0.6)--(2,0)--(3,0)--(3,-1.2)--(4,-1.2)--(4,0)--(4.25,0);
+\draw(0,0.6)node[left]{$\SI{12}{\volt}$};
+\draw(0,-1.2)node[left]{$\SI{-24}{\volt}$};
+\draw(2,0)node[below]{$2$};
+\draw(3,0)node[above]{$3$};
+\draw(4,0)node[above]{$4$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{مشق \حوالہ{مشق_امالہ_رو_دباو_خط_الف} کا دور۔}
+\label{شکل_امالہ_مشق_رو_دباو_خط_الف}
+\end{figure}
+
+جواب:شکل \حوالہ{شکل_امالہ_مشق_رو_دباو_خط_الف}-ب میں دباو کا خط دکھایا گیا ہے۔
+\انتہا{مشق}
+%=================================
+\ابتدا{مشق}
+گزشتہ مشق میں لمحہ \عددی{t=\SI{3.5}{\milli\second}} پر امالہ گیر میں ذخیرہ توانائی دریافت کریں۔
+
+جواب:\عددی{\SI{36}{\joule}}
+\انتہا{مشق}
+%===========================
+\ابتدا{مشق}\شناخت{مشق_امالہ_رو_دباو_خط_ب}
+پانچ ہینری امالہ گیر کا دباو شکل \حوالہ{شکل_امالہ_مشق_رو_دباو_خط_ب}-الف میں دکھایا گیا ہے۔رو کا خط کھینچیں۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw[gray](0,0)--(4.25,0)node[right]{$t(\si{\milli\second})$};
+\draw[gray](0,-1)--(0,2.5)node[left]{$v(t)$};
+\draw(-0.25,0)--(0,0)--(0,2)--(2,2)--(2,1)--(3,1)--(3,-0.5)--(4,-0.5)--(4,0)--(4.25,0);
+\draw(0,-0.5)node[left]{$\SI{-50}{\volt}$};
+\draw(0,1)node[left]{$\SI{100}{\volt}$};
+\draw(0,2)node[left]{$\SI{200}{\volt}$};
+\draw(1,0)--++(0,-0.1)node[below]{$1$};
+\draw(2,0)--++(0,-0.1)node[below]{$2$};
+\draw(3,0)++(0,-0.1)node[below left]{$3$};
+\draw(4,0)node[above]{$4$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw[gray](0,0)--(4.25,0)node[right]{$t(\si{\milli\second})$};
+\draw[gray](0,-1)--(0,2.5)node[left]{$i(t)$};
+\draw(-0.25,0)--(0,0)--(2,1.6)--(3,2)--(4,1.8)--(4.25,1.8);
+\draw(0,1.6)--++(-0.1,0)node[below left]{$\SI{80}{\ampere}$};
+\draw(0,1.8)--++(-0.1,0)node[left]{$\SI{90}{\ampere}$};
+\draw(0,2)--++(-0.1,0)node[above left]{$\SI{100}{\ampere}$};
+\draw(1,0)--++(0,-0.1)node[below]{$1$};
+\draw(2,0)--++(0,-0.1)node[below]{$2$};
+\draw(3,0)--++(0,-0.1)node[below]{$3$};
+\draw(4,0)--++(0,-0.1)node[below]{$4$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{مشق \حوالہ{مشق_امالہ_رو_دباو_خط_ب} کا دور۔}
+\label{شکل_امالہ_مشق_رو_دباو_خط_ب}
+\end{figure}
+
+جواب:رو کا خط شکل \حوالہ{شکل_امالہ_مشق_رو_دباو_خط_ب}-ب میں دکھایا گیا ہے۔
+\انتہا{مشق}
+%=============================
+\ابتدا{مشق}\شناخت{مشق_امالہ_رو_دباو_خط_پ}
+امالہ گیر کے دباو کا خط شکل \حوالہ{شکل_امالہ_مشق_رو_دباو_خط_پ} میں دکھایا گیا ہے۔لمحہ \عددی{t=0} پر \عددی{i(0)=\SI{0.1}{\ampere}} کی صورت میں رو کا خط حاصل کریں۔امالہ \عددی{\SI{0.1}{\henry}} کے برابر ہے۔ لمحہ \عددی{t=\SI{3}{\milli\second}} پر امالہ گیر میں ذخیرہ توانائی دریافت کریں۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw[gray](0,0)--(4.25,0)node[right]{$t(\si{\milli\second})$};
+\draw[gray](0,-1.5)--(0,1.5)node[left]{$v(t)$};
+\draw(0,0)--(1,1)--(1,0)--(2,0)--(2,-0.5)--(3,-0.5)--(3,-1)--(4,-1)--(4,0)--(4.25,0);
+\draw(0,1)--++(-0.1,0)node[left]{$\SI{10}{\volt}$};
+\draw(0,-1)--++(-0.1,0)node[left]{$\SI{-10}{\volt}$};
+\draw(0,-0.5)--++(-0.1,0)node[left]{$\SI{-5}{\volt}$};
+\draw(1,0)--++(0,-0.1)node[below]{$1$};
+\draw(2,0)--++(0,-0.1)node[below left]{$2$};
+\draw(3,0)--++(0,-0.1)node[below]{$3$};
+\draw(4,0)--++(0,-0.1)node[below left]{$4$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw[gray](0,0)--(4.25,0)node[right]{$t(\si{\milli\second})$};
+\draw[gray](0,0)--(0,2)node[left]{$i(t)$};
+\draw(0,1)
+\foreach \kx in {0,0.01,...,1}{--(\kx,1+0.5*\kx*\kx)}--(1,1.5)--(2,1.5)--(3,1)--(4,0);
+\draw(0,1)--++(-0.1,0)node[left]{$\SI{0.1}{\ampere}$};
+\draw(0,1.5)--++(-0.1,0)node[left]{$\SI{0.15}{\ampere}$};
+%\draw(0,-0.5)--++(-0.1,0)node[left]{$\SI{-5}{\volt}$};
+\draw(1,0)--++(0,-0.1)node[below]{$1$};
+\draw(2,0)--++(0,-0.1)node[below left]{$2$};
+\draw(3,0)--++(0,-0.1)node[below]{$3$};
+\draw(4,0)--++(0,-0.1)node[below]{$4$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{مشق \حوالہ{مشق_امالہ_رو_دباو_خط_پ} کا دور۔}
+\label{شکل_امالہ_مشق_رو_دباو_خط_پ}
+\end{figure}
+
+جواب:رو کا خط شکل \حوالہ{شکل_امالہ_مشق_رو_دباو_خط_پ} میں دکھایا گیا ہے۔لمحہ \عددی{t=\SI{3}{\milli\second}} پر \عددی{w_L(\SI{3}{\milli\second})=\SI{0.5}{\milli\joule}} ہے۔
+\انتہا{مشق}
+%=============================
+\ابتدا{مشق}\شناخت{مشق_امالہ_رو_دباو_خط_ت}
+شکل \حوالہ{شکل_امالہ_مشق_رو_دباو_خط_ت} میں \عددی{\SI{1}{\milli\henry}}، \عددی{\SI{4}{\milli\henry}}، \عددی{\SI{3}{\micro\farad}} اور \عددیء{\SI{4}{\micro\farad}} میں ذخیرہ توانائی دریافت کریں۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{10}{\volt}$}]++(0,\y) to [resistor,l={$\SI{2}{\ohm}$}]++(0,\y) to [short]++(\x,0) to [inductor,l={$\SI{1}{\milli\henry}$}]++(\x,0) to [resistor,l={$\SI{6}{\ohm}$}]++(\x,0) to [inductor,l={$\SI{4}{\milli\henry}$}]++(\x,0) to [resistor,l={$\SI{10}{\ohm}$}]++(0,-2*\y) to [short] (0,0);
+\draw(\x,2*\y) to [short,*-]++(0,\y) to [american current source,l={$\SI{2}{\ampere}$}]++(3*\x,0) to [short,-*]++(0,-\y);
+\draw(\x,0) to [capacitor,*-*,l={$\SI{3}{\micro\farad}$}]++(0,2*\y);
+\draw(2*\x,0) to [resistor,*-,l={$\SI{8}{\ohm}$}]++(0,\y) to [capacitor,-*,l={$\SI{4}{\micro\farad}$}]++(0,\y);
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_امالہ_رو_دباو_خط_ت} کا دور۔}
+\label{شکل_امالہ_مشق_رو_دباو_خط_ت}
+\end{figure}
+
+جوابات:\عددی{\SI{302}{\micro\joule}}، \عددی{\SI{0.907}{\micro\joule}}، \عددی{\SI{85.6}{\micro\joule}}، \عددی{\SI{114}{\micro\joule}}
+\انتہا{مشق}
+%=============================
+
+\حصہ{برق گیر اور امالہ گیر کے خصوصیات}
+برقی گنجائش، برقی گنجائش  کی قیمت میں خلل اور دباو، برق گیر کے  اہم خصوصیات ہیں۔ معیاری برق گیر چند \عددی{\si{\pico\farad}} سے تقریباً \عددی{\SI{50}{\milli\farad}} تک کی قیمتوں میں عام دستیاب ہے۔ان سے کم اور زیادہ قیمتیں بھی دستیاب ہیں۔ یہ برق گیر عموماً \عددی{\SI{6.3}{\volt}} تا \عددی{\SI{500}{\volt}} تک کے مختلف دباو کے لئے دستیاب ہیں۔زیادہ دباو کے برق گیر بھی دستیاب ہیں۔برق گیر کو اس کی معین دباو سے زیادہ دباو پر ہرگز استعمال نہ کریں چونکہ ایسا کرنے سے  برق گیر تباہ ہو سکتا ہے۔برقی گنجائش میں خلل کی عمومی قیمتیں \عددی{\SI{\mp 5}{\percent}}، \عددی{\SI{\mp 10}{\percent}} اور \عددی{\SI{\mp 20}{\percent}} ہیں۔ جدول \حوالہ{جدول_امالہ_معیاری_برقی_گنجائش} میں معیاری دستیاب برقی گیر کی گنجائش دی گئی ہے۔
+%==============================
+
+\begin{table}\caption{معیاری برق گیر کے گنجائش کی قیمتیں۔}
+\centering
+\begin{tabular}{lllllllllll}
+$\si{\pico\farad}$ & $\si{\pico\farad}$ & $\si{\pico\farad}$ & $\si{\pico\farad}$ & $\si{\micro\farad}$ & $\si{\micro\farad}$ &  $\si{\micro\farad}$ &  $\si{\micro\farad}$ &  $\si{\micro\farad}$ &  $\si{\micro\farad}$ &  $\si{\micro\farad}$ \\
+\hline
+$1$ & $10$ &$100$ & $1000$ &$0.010$ & $0.10$ &$1.0$ & $10$ &$100$ & $1000$ & $\num{10000}$\\
+ & $12$ &$120$ & $1200$ &$0.012$ & $0.12$ &$1.2$ & $12$ &$120$ & $1200$ & $\num{12000}$\\
+ $1.5$& $15$ &$150$ & $1500$ &$0.015$ & $0.15$ &$1.5$ & $15$ &$150$ & $1500$ & $\num{15000}$\\
+ & $18$ &$180$ & $1800$ &$0.018$ & $0.18$ &$1.8$ & $18$ &$180$ & $1800$ & $\num{18000}$\\
+$2$ & $20$ &$200$ & $2000$ &$0.020$ & $0.20$ &$2.0$ & $20$ &$200$ & $2000$ & $\num{20000}$\\
+ & $22$ &$220$ & $2200$ &$0.022$ & $0.22$ &$2.2$ & $22$ &$220$ & $2200$ & $\num{22000}$\\
+ & $27$ &$270$ & $2700$ &$0.027$ & $0.27$ &$2.7$ & $27$ &$270$ & $2700$ & $\num{27000}$\\
+$3$ & $33$ &$330$ & $3300$ &$0.330$ & $0.33$ &$3.3$ & $33$ &$330$ & $3300$ & $\num{33000}$\\
+$4$ & $39$ &$390$ & $3900$ &$0.390$ & $0.39$ &$3.9$ & $39$ &$390$ & $3900$ & $\num{39000}$\\
+$5$ & $47$ &$470$ & $4700$ &$0.470$ & $0.47$ &$3.3$ & $47$ &$470$ & $4700$ & $\num{47000}$\\
+$6$ & $51$ &$510$ & $5100$ &$0.510$ & $0.51$ &$3.3$ & $51$ &$510$ & $5100$ & $\num{51000}$\\
+$7$ & $56$ &$560$ & $5600$ &$0.560$ & $0.56$ &$3.3$ & $56$ &$560$ & $5600$ & $\num{56000}$\\
+$8$ & $68$ &$680$ & $6800$ &$0.680$ & $0.68$ &$3.3$ & $68$ &$680$ & $6800$ & $\num{68000}$\\
+$9$ & $82$ &$820$ & $8200$ &$0.820$ & $0.82$ &$3.3$ & $82$ &$820$ & $8200$ & $\num{82000}$
+\end{tabular}
+\label{جدول_امالہ_معیاری_برقی_گنجائش}
+\end{table}
+%==============================
+
+امالہ گیر کو موصل تار سے بنایا جاتا ہے لہٰذا نہ چاہتے ہوئے بھی اس کی مزاحمت ہو گی۔ امالہ گیر کے اہم خصوصیات اس کی امالہ اور مزاحمت ہیں۔امالہ گیر \عددی{\SI{1}{\nano\henry}} تا \عددی{\SI{100}{\milli\henry}} کی قیمتوں میں عام دستیاب ہے۔اس سے کم یا زیادہ قیمتیں بھی دستیاب ہیں۔امالہ کی قیمتیں \عددی{\SI{\mp 5}{\percent}} اور \عددی{\SI{\mp 10}{\percent}} کے خلل میں دستیاب ہیں۔جدول \حوالہ{جدول_امالہ_امالہ_عمومی_دستیاب_قیمتیں} میں امالہ کی عمومی دستیاب قیمتیں دی گئی ہیں۔
+
+\begin{table}\caption{امالہ کی عمومی دستیاب قیمتیں۔}
+\centering
+\begin{tabular}{lllllllll}
+$\si{\nano\henry}$ & $\si{\nano\henry}$ &$\si{\nano\henry}$ &$\si{\micro\henry}$ &$\si{\micro\henry}$ &$\si{\micro\henry}$ &$\si{\milli\henry}$ &$\si{\milli\henry}$ &$\si{\milli\henry}$ \\
+\hline
+$1$ & $10$ &$100$ & $1.0$ & $10$ &$100$ & $1.0$ & $10$ & $100$ \\
+$1.2$ & $12$ &$120$ & $1.2$ & $12$ &$120$ & $1.2$ & $12$ &  \\
+$1.5$ & $15$ &$150$ & $1.5$ & $15$ &$150$ & $1.5$ & $15$ &  \\
+$1.8$ & $18$ &$180$ & $1.8$ & $18$ &$180$ & $1.8$ & $18$ &  \\
+$2$ & $20$ &$200$ & $2.0$ & $20$ &$200$ & $2.0$ & $20$ &  \\
+$2.2$ & $22$ &$220$ & $2.2$ & $22$ &$220$ & $2.2$ & $22$ &  \\
+$2.7$ & $27$ &$270$ & $2.7$ & $27$ &$270$ & $2.7$ & $27$ &  \\
+$3$ & $33$ &$330$ & $3.3$ & $33$ &$330$ & $3.3$ & $33$ &  \\
+$4$ & $39$ &$390$ & $3.9$ & $39$ &$390$ & $3.9$ & $39$ &  \\
+$5$ & $47$ &$470$ & $4.7$ & $47$ &$470$ & $4.7$ & $47$ &  \\
+$6$ & $51$ &$510$ & $5.1$ & $51$ &$510$ & $5.1$ & $51$ &  \\
+$7$ & $56$ &$560$ & $5.6$ & $56$ &$560$ & $5.6$ & $56$ &  \\
+$8$ & $68$ &$680$ & $6.8$ & $68$ &$680$ & $6.8$ & $68$ &  \\
+$9$ & $82$ &$820$ & $8.2$ & $82$ &$820$ & $8.2$ & $82$ &  
+\end{tabular}
+\label{جدول_امالہ_امالہ_عمومی_دستیاب_قیمتیں}
+\end{table}
+
+%===================
+\ابتدا{مثال}\شناخت{مثال_امالہ_گنجائش_اور_قیمتیں_الف}
+شکل \حوالہ{شکل_امالہ_گنجائش_اور_قیمتیں_الف}-الف میں \عددی{\SI{100}{\nano\farad}} برق گیر کا دباو دکھایا گیا ہے۔برقی گنجائش میں خلل \عددی{\SI{\mp 10}{\percent}} ممکن ہے۔کم سے کم اور زیادہ سے زیادہ گنجائش کی صورت میں رو کے خط حاصل کریں۔اس برقی گنجائش کو عموماً \عددی{\SI{100}{\nano\farad}\SI{\mp10}{\percent}} لکھا جاتا ہے۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw[gray](0,-1)--(0,1.5)node[left]{$v(t)$};
+\draw[gray](0,0)--(4.25,0)node[right]{$t(\si{\micro\second})$};
+\draw(0,0)--(1,1)--(2,1)--(3,-0.5)--(4,0)--(4.25,0);
+\draw(0,1)--++(-0.1,0)node[left]{$\SI{50}{\volt}$};
+\draw(0,-0.5)--++(-0.1,0)node[left]{$\SI{-25}{\volt}$};
+\draw(1,0)--++(0,-0.1)node[below]{$1$};
+\draw(2,0)--++(0,-0.1)node[below]{$2$};
+\draw(3,0)--++(0,-0.1);
+\draw(4,0)--++(0,-0.1)node[below]{$4$};
+\end{tikzpicture}
+\caption*{(الف) برق گیر کا دباو۔}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw[gray](0,-1.75)--(0,1.5)node[left]{$i(t)$};
+\draw[gray](0,0)--(4.25,0)node[right]{$t(\si{\micro\second})$};
+\draw(0,0)--(0,1)--(1,1)--(1,0)--(2,0)--(2,-1.5)--(3,-1.5)--(3,0.5)--(4,0.5)--(4,0)--(4.25,0);
+\draw(0,1)--++(-0.1,0)node[left]{$\SI{5.5}{\ampere}$};
+\draw(0,0.5)--++(-0.1,0)node[left]{$\SI{2.75}{\ampere}$};
+\draw(0,-1.5)--++(-0.1,0)node[left]{$\SI{-8.25}{\ampere}$};
+\draw(1,0)node[below]{$1$};
+\draw(2,0)node[below left]{$2$};
+\draw(3,0)node[below right]{$3$};
+\draw(4,0)node[below]{$4$};
+\end{tikzpicture}
+\caption*{(ب) \عددی{\SI{110}{\nano\farad}} کی رو۔}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw[gray](0,-1.75)--(0,1.5)node[left]{$i(t)$};
+\draw[gray](0,0)--(4.25,0)node[right]{$t(\si{\micro\second})$};
+\draw(0,0)--(0,0.818)--(1,0.818)--(1,0)--(2,0)--(2,-1.23)--(3,-1.23)--(3,0.41)--(4,0.41)--(4,0)--(4.25,0);
+\draw(0,0.818)--++(-0.1,0)node[left]{$\SI{4.5}{\ampere}$};
+\draw(0,0.41)--++(-0.1,0)node[left]{$\SI{2.25}{\ampere}$};
+\draw(0,-1.23)--++(-0.1,0)node[left]{$\SI{-6.75}{\ampere}$};
+\draw(1,0)node[below]{$1$};
+\draw(2,0)node[below left]{$2$};
+\draw(3,0)node[below right]{$3$};
+\draw(4,0)node[below]{$4$};
+\end{tikzpicture}
+\caption*{(پ) \عددی{\SI{90}{\nano\farad}} کی رو۔}
+\end{subfigure}%
+\caption{مثال \حوالہ{مثال_امالہ_گنجائش_اور_قیمتیں_الف} کا دور۔}
+\label{شکل_امالہ_گنجائش_اور_قیمتیں_الف}
+\end{figure}
+
+حل:برق گیر کی زیادہ سے زیادہ قیمت دی گئی قیمت سے \عددی{\SI{10}{\percent}} زیادہ ہو سکتی ہے۔یوں اس کی زیادہ سے زیادہ گنجائش \عددی{\SI{110}{\nano\farad}} ممکن ہے۔اس قیمت کے گنجائش کی رو کو شکل \حوالہ{شکل_امالہ_گنجائش_اور_قیمتیں_الف}-ب میں دکھایا گیا ہے جہاں پہلے ایک مائیکرو سیکنڈ میں دباو کی تبدیلی کی شرح 
+\begin{align*}
+\frac{\dif v}{\dif t}=\frac{50-0}{\SI{1}{\micro\second}-\SI{0}{\micro\second}}=\SI{50}{\mega \volt \per\second}
+\end{align*} 
+ہونے کی بنا اس دورانیے کی رو
+\begin{align*}
+i=C \frac{\dif v}{\dif t}=110 \times 10^{-9} \times 50 \times 10^{6}=\SI{5.5}{\ampere}
+\end{align*}
+ہے۔اگلے ایک مائیکرو سیکنڈ میں دباو تبدیل نہیں ہوتا لہٰذا \عددی{\frac{\dif v}{\dif t}=0} ہے اور یوں رو بھی صفر کے برابر ہے۔دورانیہ \عددی{t=\SI{2}{\micro\second}} تا  \عددی{t=\SI{3}{\micro\second}} دباو کی شرح تبدیلی
+\begin{align*}
+\frac{\dif v}{\dif t}=\frac{-25-50}{\SI{3}{\micro\second}-\SI{2}{\micro\second}-\SI{0}{\micro\second}}=\SI{-75}{\mega \volt \per\second}
+\end{align*}
+ہے لہٰذا رو
+\begin{align*}
+i=C \frac{\dif v}{\dif t}=110 \times 10^{-9} \times \left(-75 \times 10^{6}\right)=\SI{-8.25}{\ampere}
+\end{align*}
+ہو گی۔دورانیہ \عددی{t=\SI{3}{\micro\second}} تا  \عددی{t=\SI{4}{\micro\second}} دباو کی شرح تبدیلی
+\begin{align*}
+\frac{\dif v}{\dif t}=\frac{0-(-25)}{\SI{4}{\micro\second}-\SI{3}{\micro\second}-\SI{0}{\micro\second}}=\SI{25}{\mega \volt \per\second}
+\end{align*}
+ہے لہٰذا رو
+\begin{align*}
+i=C \frac{\dif v}{\dif t}=110 \times 10^{-9} \times 25\times 10^{6}=\SI{2.75}{\ampere}
+\end{align*}
+ہو گی۔
+
+خلل کی قیمت سے برق گیر کی کم سے کم ممکنہ گنجائش \عددی{\SI{90}{\nano\farad}} حاصل ہوتی ہے۔دباو کی تبدیلی کی شرح استعمال کرتے ہوئے رو درج ذیل حاصل ہوتی ہے۔
+\begin{equation*}
+i=
+\begin{cases}
+90 \times 10^{-9} \times 50 \times 10^{6}=\SI{4.5}{\ampere} & \SI{0}{\micro\second} \le t \le \SI{1}{\micro\second}\\
+90 \times 10^{-9} \times 0=\SI{0}{\ampere} & \SI{1}{\micro\second} \le t \le \SI{2}{\micro\second}\\
+90 \times 10^{-9} \times (-75) \times 10^{6}=\SI{-6.75}{\ampere} & \SI{2}{\micro\second}  \le t \le \SI{3}{\micro\second}\\
+90 \times 10^{-9} \times 25 \times 10^{6}=\SI{2.25}{\ampere} & \SI{3}{\micro\second}  \le t \le \SI{4}{\micro\second}
+\end{cases}
+\end{equation*}
+\انتہا{مثال}
+%======================
+
+\حصہ{سلسلہ وار جڑے برق گیر}
+شکل \حوالہ{شکل_امالہ_متعدد_سلسلہ_وار_برق_گیر_مساوی_حصول} میں متعدد برق گیر سلسلہ وار جڑے دکھائے گئے ہیں۔تمام سلسلہ وار جڑے پرزوں میں رو کی قیمت یکساں ہوتی ہے۔کرخوف قانون دباو سے اس دور کے لئے درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+v(t)=v_1(t)+v_2(t)+v_3(t)+\cdots +v_N(t)
+\end{align*}
+انفرادی برق گیر کے لئے
+\begin{align*}
+q(t)&=C_1 v_1(t)\\
+q(t)&=C_2 v_2(t)\\
+q(t)&=C_3 v_3(t)\\
+& \vdots\\
+q(t)&=C_N v_N(t)\\
+\end{align*}
+لکھا جا سکتا ہے جہاں \عددی{t} دورانیے میں رو \عددی{i(t)} ہر برق گیر پر برابر \عددی{q(t)} کا بار جمع کرتی ہے۔ مندرجہ بالا دو مساوات کو ملاتے ہوئے
+\begin{align*}
+v(t)&=\frac{q(t)}{C_1}+\frac{q(t)}{C_2}+\frac{q(t)}{C_3}+\cdots +\frac{q(t)}{C_N}\\
+&=q(t)\left(\frac{1}{C_1}+\frac{1}{C_2}+\frac{1}{C_3}+\cdots+\frac{1}{C_N}\right)
+\end{align*}
+لکھا جا سکتا ہے۔اس مساوات میں
+\begin{align}\label{مساوات_امالہ_سلسلہ_وار_برق_گیر_کا_مساوی}
+\frac{1}{C_S}=\frac{1}{C_1}+\frac{1}{C_2}+\frac{1}{C_3}+\cdots+\frac{1}{C_N}
+\end{align}
+لکھتے ہوئے اسے
+\begin{align*}
+v(t)=\frac{q(t)}{C_S}
+\end{align*}
+یعنی
+\begin{align}
+q(t)=C_S v(t)
+\end{align}
+ صورت میں لکھا جا سکتا ہے جو ایک عدد برقی گیر کی مساوات ہے۔مساوات \حوالہ{مساوات_امالہ_سلسلہ_وار_برق_گیر_کا_مساوی} متعدد سلسلہ وار جڑے برق گیروں کا مساوی برق گیر دیتی ہے۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,i={$i(t)$},o-]++(\x/2,0) to [capacitor,l={$C_1$}]++(\x,0) to [capacitor,l={$C_2$}]++(\x,0) to [capacitor,l={$C_3$}]++(\x,0)coordinate(kup);
+\draw[dashed](kup)--++(\x/4,0)--++(0,-\y)--++(-2*\x-\x/2,0)coordinate(klow);
+\draw(klow) to [capacitor,l_={$C_N$}]++(-\x,0) to [short,-o]++(-\x/4,0);
+\draw(0,-\y/2)node{$\begin{aligned} &+ \\ &v(t)\\ &- \end{aligned}$};
+\draw(\x/2+\x/2,-2*\dy)node[below]{$+ \, v_1(t) \, -$};
+\draw(\x/2+\x/2+\x,-2*\dy)node[below]{$+ \, v_2(t) \, -$};
+\draw(\x/2+\x/2+2*\x,-2*\dy)node[below]{$+ \, v_3(t) \, -$};
+\draw(\x/4+\x/2,-\y-2*\dy)node[below]{$- \, v_N(t) \, +$};
+\end{tikzpicture}
+\caption*{(الف) متعدد سلسلہ وار جڑے برق گیر۔}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,i={$i(t)$},o-]++(\x,0) to [capacitor,l={$C_S$}]++(0,-\y) to [short,-o]++(-\x,0);
+\draw(0,-\y/2)node{$\begin{aligned} &+ \\ &v(t)\\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب) متعدد سلسلہ وار جڑے برقی گیروں کا مساوی برق گیر۔}
+\end{subfigure}
+\caption{متعدد سلسلہ وار جڑے برق گیر کے مساوی برق گیر کا حصول۔}
+\label{شکل_امالہ_متعدد_سلسلہ_وار_برق_گیر_مساوی_حصول}
+\end{figure}
