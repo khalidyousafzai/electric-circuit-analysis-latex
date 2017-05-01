@@ -1264,9 +1264,94 @@ i(t)=i(t_0)+\frac{1}{L_m}\int_{t_0}^{t} v(t) \dif t
 \caption{متوازی جڑے امالہ گیروں کی مساوی امالہ۔}
 \label{شکل_امالہ_متوازی_امالہ_گیر_مساوی_حصول}
 \end{figure}
-%===========
-\ابتدا{مثال}
+%======================================
+\ابتدا{مثال}\شناخت{مثال_امالہ_متوازی_امالہ_مثال_الف}
+شکل \حوالہ{شکل_امالہ_متوازی_امالہ_مثال_الف}-الف میں متوازی امالہ گیر اور ان میں ابتدائی رو دی گئی ہیں۔مساوی امالہ اور اس کی ابتدائی رو دریافت کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)  to [short,o-]++(3*\x,0);
+\draw(0,\y)to [short,i={$i(t)$},o-]++(\x/2,0)  to [short]++(2*\x+\x/2,0);
+\draw(\x,\y) to [inductor,*-*,i>_={$\SI{2}{\milli\ampere}$},l={$\SI{100}{\micro\henry}$}]++(0,-\y);
+\draw(2*\x,\y) to [inductor,*-*,i<_={$\SI{8}{\milli\ampere}$},l={$\SI{300}{\micro\henry}$}]++(0,-\y);
+\draw(3*\x,\y) to [inductor,i>_={$\SI{4}{\milli\ampere}$},l={$\SI{450}{\micro\henry}$}]++(0,-\y);
+\draw(0,\y/2)node{$\begin{aligned}&+ \\ &v(t) \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,i={$i(t)$},o-]++(\x,0) to [inductor,i<^={$\SI{2}{\milli\ampere}$}]++(0,-\y) to [short,-o] ++(-\x,0);
+\draw(\x+\dx,-\y/2)node[right]{$\frac{450}{7} \, \si{\micro\henry}$};
+\draw(0,-\y/2)node{$\begin{aligned}&+ \\ &v(t) \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_امالہ_متوازی_امالہ_مثال_الف} کا دور۔}
+\label{شکل_امالہ_متوازی_امالہ_مثال_الف}
+\end{figure}
 
+حل: مساوات \حوالہ{مساوات_امالہ_متوازی_مساوی_مساوات_قیمت} سے 
+\begin{align*}
+\frac{1}{L_m}=\frac{1}{\SI{100}{\micro\henry}}+\frac{1}{\SI{300}{\micro\henry}}+\frac{1}{\SI{450}{\micro\henry}}
+\end{align*}
+لکھ کر
+\begin{align*}
+L_m=\frac{450}{7}\,\si{\micro\henry}
+\end{align*}
+حاصل ہوتی ہے۔مساوات \حوالہ{مساوات_امالہ_متوازی_امالہ_ابتدائی_رو} سے ابتدائی رو درج ذیل حاصل ہوتی ہے۔
+\begin{align*}
+i(t_0)=\SI{2}{\milli\ampere}-\SI{8}{\milli\ampere}+\SI{4}{\milli\ampere}=\SI{-2}{\milli\ampere}
+\end{align*}
+شکل \حوالہ{شکل_امالہ_متوازی_امالہ_مثال_الف}-ب میں مساوی امالہ بمع ابتدائی رو دکھائی گئی ہے۔منفی رو \عددی{i(t)} کے الٹ ہے۔
 \انتہا{مثال}
 %=============================
+\ابتدا{مشق}\شناخت{مثال_امالہ_متوازی_امالہ_مثال_ب}
+شکل \حوالہ{شکل_امالہ_متوازی_امالہ_مثال_ب} میں تمام انفرادی امالہ \عددی{\SI{12}{\milli\henry}} ہیں۔ان کی مساوی امالہ دریافت کریں۔
 
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [inductor,o-]++(\x,0) to [short]++(\x,0) to [inductor]++(0,\y) to [short]++(0,\y) to [short,-o]++(-2*\x,0);
+\draw(\x,0) to [inductor,*-*]++(0,\y);
+\draw(2*\x,\y) to [inductor,*-]++(-\x,0) to [short]++(-\x/2,0) to [inductor,-*]++(0,\y);
+\draw[stealth-](0,\y)--++(-\x/4,0)--++(0,-\y/8)node[below]{$L_{\text{مساوی}}$};
+\end{tikzpicture}
+\caption{مشق \حوالہ{مثال_امالہ_متوازی_امالہ_مثال_ب} کا دور۔}
+\label{شکل_امالہ_متوازی_امالہ_مثال_ب}
+\end{figure}
+
+جواب:\عددی{\frac{96}{5} \, \si{\milli\henry}}
+
+\انتہا{مشق}
+%==============================
+
+\ابتدا{مشق}\شناخت{مثال_امالہ_متوازی_امالہ_مثال_پ}
+شکل \حوالہ{شکل_امالہ_متوازی_امالہ_مثال_پ} میں کل امالہ دریافت کریں۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short]++(\x,0) to [inductor,l_={$\SI{5}{\milli\henry}$}]++(\x,0) to [inductor,l_={$\SI{1}{\milli\henry}$}]++(\x,0) to [inductor,l_={$\SI{2}{\milli\henry}$}]++(\x,0);
+\draw(0,\y) to [short]++(\x,0) to [inductor,l_={$\SI{3}{\milli\henry}$}]++(\x,0) to [inductor,l_={$\SI{4}{\milli\henry}$}]++(\x,0) to [inductor,l_={$\SI{5}{\milli\henry}$}]++(\x,0);
+\draw(0,0) to [inductor,l={$\SI{6}{\milli\henry}$}]++(0,\y);
+\draw(\x,0) to [inductor,*-*,l={$\SI{3}{\milli\henry}$}]++(0,\y);
+\draw(3*\x,0) to [inductor,*-*,l_={$\SI{10}{\milli\henry}$}]++(0,\y);
+\draw(4*\x,0) to [inductor,l_={$\SI{3}{\milli\henry}$}]++(0,\y);
+\draw(2*\x,0) to [short,*-o]++(0,\y/4);
+\draw(2*\x,\y) to [short,*-o]++(0,-\y/4);
+\draw(2*\x,\y/2)node{$L_{\text{کل}}$};
+\end{tikzpicture}
+\caption{مشق \حوالہ{مثال_امالہ_متوازی_امالہ_مثال_پ} کا دور۔}
+\label{شکل_امالہ_متوازی_امالہ_مثال_پ}
+\end{figure}
+
+جواب:\عددی{\SI{5}{\milli\henry}}
+
+\انتہا{مشق}
+%==============================
+
+\حصہ{حسابی ایمپلیفائر کے \عددی{RC} ادوار}

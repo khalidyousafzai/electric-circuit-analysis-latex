@@ -58,3 +58,4 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 6}}متوازی جڑے برق گیر}{\RL {\arabicfont 274}}
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 6}}سلسلہ وار امالہ گیر}{\RL {\arabicfont 278}}
 \contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 6}}متوازی امالہ گیر}{\RL {\arabicfont 280}}
+\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 6}}حسابی ایمپلیفائر کے \tmspace +\medmuskip {.2222em} \ensuremath {RC} \tmspace +\medmuskip {.2222em} ادوار}{\RL {\arabicfont 284}}
