@@ -392,13 +392,13 @@ w_C&=\frac{Cv^2}{2}\\
 \begin{align}\label{مساوات_امالہ_بنیادی_مساوات_امالہ_الف}
 v=L \frac{\dif i}{\dif t}
 \end{align}
-جہاں تناسبی مستقل کو \عددی{L} لکھا اور \عددی{امالہ}\فرہنگ{امالہ}\حاشیہب{inductance}\فرہنگ{inductance} پکارا جاتا ہے۔امالہ کی اکائی کو \اصطلاح{ہینری}\فرہنگ{ہینری}\حاشیہد{امالہ کی اکائی امریکی تخلیق کار یوسف ہینری کے نام سے منسوب ہے۔}\حاشیہب{Henry}\فرہنگ{Henry} پکارا اور \عددی{\si{\henry}} سے ظاہر کیا جاتا ہے۔ہینری وولٹ سیکنڈ فی ایمپیئر \عددی{\si{\volt\second\per\ampere}} کے برابر ہے۔ 
+جہاں تناسبی مستقل کو \عددی{L} لکھا اور \اصطلاح{امالہ}\فرہنگ{امالہ}\حاشیہب{inductance}\فرہنگ{inductance} پکارا جاتا ہے۔امالہ کی اکائی\حاشیہد{امالہ کی اکائی امریکی تخلیق کار یوسف ہینری کے نام سے منسوب ہے۔} کو \اصطلاح{ہینری}\فرہنگ{ہینری}\حاشیہب{Henry}\فرہنگ{Henry} پکارا اور \عددی{\si{\henry}} سے ظاہر کیا جاتا ہے۔آپ دیکھ سکتے ہیں کہ ایک وولٹ سیکنڈ فی ایمپیئر \عددی{\si{\volt\second\per\ampere}} کو ہینری کہا گیا ہے۔ 
 
-اس مساوات کی تکمل صورت سے رو حاصل ہوتا ہے
+اس مساوات کی تکمل صورت سے رو حاصل ہوتی ہے
 \begin{align}
 i=\int_{-\infty}^{t}\frac{1}{L} v \dif t
 \end{align}
-جہاں وقت کی ابتدا \عددی{-\infty} سے لمحہ \عددی{t} تک تکمل لیا گیا ہے۔مستقل قیمت کی امالہ کی صورت میں \عددی{L} کو تکمل کے باہر نکالا جا سکتا ہے۔
+جہاں ازل \عددی{-\infty} سے لمحہ \عددی{t} تک تکمل لیا گیا ہے۔مستقل قیمت کی امالہ کی صورت میں \عددی{L} کو تکمل کے باہر نکالا جا سکتا ہے۔
 \begin{align}
 i=\frac{1}{L}\int_{-\infty}^{t} v \dif t
 \end{align}
@@ -409,7 +409,7 @@ i&=\frac{1}{L}\int_{-\infty}^{t_0} v \dif t+\frac{1}{L} \int_{t_0}^{t} v \dif t\
 &=i(t_0)+\frac{1}{L} \int_{t_0}^{t} v \dif t
 \end{aligned}
 \end{gather}
-جہاں پہلا ٹکڑا ابتدا سے لمحہ \عددی{t_0} تک اور دوسرا ٹکڑا \عددی{t_0} سے \عددی{t} حاصل کیا گیا ہے۔مندرجہ بالا مساوات میں لمحہ \عددی{t_0} پر امالہ گیر کی رو کو \عددی{i(t_0)} کہا گیا ہے۔
+جہاں پہلا ٹکڑا ازل سے \عددی{t_0} تک اور دوسرا ٹکڑا \عددی{t_0} سے \عددی{t} حاصل کیا گیا ہے۔مندرجہ بالا مساوات میں لمحہ \عددی{t_0} پر امالہ گیر کی رو کو \عددی{i(t_0)} کہا گیا ہے۔
 
 امالہ کو فراہم طاقت سے امالہ کو منتقل توانائی \عددی{w_L} دریافت کی جا سکتی ہے۔
 \begin{align}
@@ -874,30 +874,34 @@ v(t)=v_1(t)+v_2(t)+v_3(t)+\cdots +v_N(t)
 \end{align*}
 انفرادی برق گیر کے لئے
 \begin{align*}
-q(t)&=C_1 v_1(t)\\
-q(t)&=C_2 v_2(t)\\
-q(t)&=C_3 v_3(t)\\
+v_1(t)&=v_1(t_0)+\frac{1}{C_1}\int_{t_0}^{t} i(t) \dif t\\
+v_2(t)&=v_2(t_0)+\frac{1}{C_2}\int_{t_0}^{t} i(t) \dif t\\
+v_3(t)&=v_3(t_0)+\frac{1}{C_3}\int_{t_0}^{t} i(t) \dif t\\
 & \vdots\\
-q(t)&=C_N v_N(t)\\
+v_N(t)&=v_N(t_0)+\frac{1}{C_N}\int_{t_0}^{t} i(t) \dif t
 \end{align*}
-لکھا جا سکتا ہے جہاں \عددی{t} دورانیے میں رو \عددی{i(t)} ہر برق گیر پر برابر \عددی{q(t)} کا بار جمع کرتی ہے۔ مندرجہ بالا دو مساوات کو ملاتے ہوئے
-\begin{align*}
-v(t)&=\frac{q(t)}{C_1}+\frac{q(t)}{C_2}+\frac{q(t)}{C_3}+\cdots +\frac{q(t)}{C_N}\\
-&=q(t)\left(\frac{1}{C_1}+\frac{1}{C_2}+\frac{1}{C_3}+\cdots+\frac{1}{C_N}\right)
-\end{align*}
+لکھا جا سکتا ہے۔ مندرجہ بالا دو مساوات کو ملاتے ہوئے
+\begin{multline*}
+v(t)=v_1(t_0)+\frac{1}{C_1}\int_{t_0}^{t} i(t) \dif t +v_2(t_0)+\frac{1}{C_2}\int_{t_0}^{t} i(t) \dif t +\cdots\\
++v_N(t_0)+\frac{1}{C_N}\int_{t_0}^{t} i(t) \dif t
+\end{multline*}
+یعنی
+\begin{multline*}
+v(t)=v_1(t_0)+v_2(t_0)+\cdots+v_N(t_0)+\left(\frac{1}{C_1}+\frac{1}{C_2} +\cdots + \frac{1}{C_N}\right)\int_{t_0}^{t} i(t) \dif t
+\end{multline*}
 لکھا جا سکتا ہے۔اس مساوات میں
 \begin{align}\label{مساوات_امالہ_سلسلہ_وار_برق_گیر_کا_مساوی}
-\frac{1}{C_S}=\frac{1}{C_1}+\frac{1}{C_2}+\frac{1}{C_3}+\cdots+\frac{1}{C_N}
+\frac{1}{C_s}=\sum_{i=1}^{N} \frac{1}{C_i}=\frac{1}{C_1}+\frac{1}{C_2}+\frac{1}{C_3}+\cdots+\frac{1}{C_N}
 \end{align}
-لکھتے ہوئے اسے
-\begin{align*}
-v(t)=\frac{q(t)}{C_S}
-\end{align*}
-یعنی
+اور
+\begin{align}\label{مساوات_امالہ_سلسلہ_وار_برق_گیر_کا_مساوی_ابتدائی_دباو}
+v(t_0)=v_1(t_0)+v_2(t_0)+v_3(t_0)+\cdots+v_N(t_0)
+\end{align}
+لکھتے ہوئے
 \begin{align}
-q(t)=C_S v(t)
+v(t)=v(t_0)+\frac{1}{C_s} \int_{t_0}^{t} i(t)\dif t
 \end{align}
- صورت میں لکھا جا سکتا ہے جو ایک عدد برقی گیر کی مساوات ہے۔مساوات \حوالہ{مساوات_امالہ_سلسلہ_وار_برق_گیر_کا_مساوی} متعدد سلسلہ وار جڑے برق گیروں کا مساوی برق گیر دیتی ہے۔
+حاصل ہوتا ہے جو ایک عدد برقی گیر کی مساوات ہے جسے شکل-ب میں دکھایا گیا ہے۔مساوات \حوالہ{مساوات_امالہ_سلسلہ_وار_برق_گیر_کا_مساوی} متعدد سلسلہ وار جڑے برق گیروں کی مساوی برق گنجائش \عددی{C_s} دیتی ہے جبکہ مساوات \حوالہ{مساوات_امالہ_سلسلہ_وار_برق_گیر_کا_مساوی_ابتدائی_دباو} ان کا مساوی ابتدائی دباو دیتی ہے۔آپ دیکھ سکتے ہیں کہ سلسلہ وار جڑے برق گیروں کی مساوات متوازی جڑے مزاحمتوں کی مساوات کی طرح ہے۔
 
 \begin{figure}
 \centering
@@ -918,11 +922,351 @@ q(t)=C_S v(t)
 \begin{subfigure}{1\textwidth}
 \centering
 \begin{tikzpicture}
-\draw(0,0) to [short,i={$i(t)$},o-]++(\x,0) to [capacitor,l={$C_S$}]++(0,-\y) to [short,-o]++(-\x,0);
+\draw(0,0) to [short,i={$i(t)$},o-]++(\x,0) to [capacitor,l={$C_s$}]++(0,-\y) to [short,-o]++(-\x,0);
 \draw(0,-\y/2)node{$\begin{aligned} &+ \\ &v(t)\\ &- \end{aligned}$};
 \end{tikzpicture}
 \caption*{(ب) متعدد سلسلہ وار جڑے برقی گیروں کا مساوی برق گیر۔}
 \end{subfigure}
-\caption{متعدد سلسلہ وار جڑے برق گیر کے مساوی برق گیر کا حصول۔}
+\caption{متعدد سلسلہ وار جڑے برق گیر کی مساوی برق گنجائش کا حصول۔}
 \label{شکل_امالہ_متعدد_سلسلہ_وار_برق_گیر_مساوی_حصول}
 \end{figure}
+
+%================
+\ابتدا{مثال}\شناخت{مثال_امالہ_سلسلہ_وار_برق_گیر_الف}
+شکل \حوالہ{شکل_امالہ_مثال_سلسلہ_وار_برق_گیر_الف}-الف میں مساوی سلسلہ وار گنجائش اور ان کے انفرادی ابتدائی دباو دکھائے گئے ہیں۔ ان کا مساوی گنجائش اور مساوی ابتدائی دباو حاصل کریں۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to  [capacitor,o-,l_={$+\, \SI{5}{\volt} \, -$}]++(\x+\x,0) to [capacitor,l_={$\SI{10}{\micro\farad}$}]++(0,-\y) to [capacitor,-o,l={$+ \, \SI{3}{\volt} \, -$}]++(-\x-\x,0);
+\draw(\x+\x+2*\dx,-\y/2)node[right]{$\begin{aligned} &+\\ &\SI{6}{\volt} \\ &- \end{aligned}$};
+\draw(0,-\y/2)node{$\begin{aligned}&+ \\ &v(t) \\ &-  \end{aligned}$};
+\draw(\x,2*\dy)node[above]{$\SI{8}{\micro\farad}$};
+\draw(3/4*\x-\dx,-\y)node[above]{$\SI{6}{\micro\farad}$};
+\end{tikzpicture}
+\caption*{(الف) سلسلہ وار جڑے برق گیر بمع ابتدائی دباو۔}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to  [short,o-] ++(\x+\x/2,0)  to [capacitor]++(0,-\y) to [short,-o]++(-\x-\x/2,0);
+\draw(0,-\y/2)node{$\begin{aligned} &+ \\ &v(t) \\ &- \end{aligned}$};
+\draw(1.5*\x-2*\dx,-\y/2)node[left]{$\frac{120}{47}\,\si{\micro\farad}$};
+\draw(1.5*\x+2*\dx,-\y/2)node[right]{$\begin{aligned} &+ \\ &\SI{8}{\volt} \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب) مساوی برقی گیر بمع ابتدائی دباو۔}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_امالہ_سلسلہ_وار_برق_گیر_الف} کا دور۔}
+\label{شکل_امالہ_مثال_سلسلہ_وار_برق_گیر_الف}
+\end{figure}
+
+حل:مساوات \حوالہ{مساوات_امالہ_سلسلہ_وار_برق_گیر_کا_مساوی} سے
+\begin{align*}
+\frac{1}{C_s}=\frac{1}{\SI{8}{\micro\farad}}+\frac{1}{\SI{10}{\micro\farad}}+\frac{1}{\SI{6}{\micro\farad}}=\frac{47}{120}\,\si{\micro\farad}
+\end{align*}
+لکھتے ہوئے
+\begin{align*}
+C_s=\frac{120}{47} \, \si{\micro\farad}
+\end{align*}
+حاصل ہوتا ہے۔مساوات \حوالہ{مساوات_امالہ_سلسلہ_وار_برق_گیر_کا_مساوی_ابتدائی_دباو} سے ابتدائی دباو درج ذیل حاصل ہوتی ہے۔
+\begin{align*}
+v(t_0)=5+6-3=\SI{8}{\volt}
+\end{align*}
+شکل \حوالہ{شکل_امالہ_مثال_سلسلہ_وار_برق_گیر_الف}-ب میں مساوی برقی گنجائش اور ابتدائی دباو دکھائے گئے ہیں۔
+\انتہا{مثال}
+%============================
+\ابتدا{مثال}
+ابتدائی طور پر بے بار، دو عدد برق گیر کو سلسلہ وار جوڑنے کے بعد ان میں \عددی{\SI{50}{\volt}} منبع سے برقی بار بھرا جاتا ہے۔ان میں ایک برق گیر \عددی{\SI{20}{\micro\farad}} گنجائش کا ہے جبکہ دوسرے برق گیر کی گنجائش کے بارے میں ہمیں معلوم نہیں ہے۔نا معلوم برق گیر پر \عددی{\SI{10}{\volt}} جبکہ \عددی{\SI{20}{\micro\farad}} برق گیر پر \عددی{\SI{40}{\volt}} دباو پایا جاتا ہے۔نا معلوم  گنجائش دریافت کریں۔
+
+حل:\عددی{\SI{20}{\micro\farad}} پر بار درج ذیل ہے۔
+\begin{align*}
+q=C v=\left(\SI{20}{\micro\farad}\right)(\SI{40}{\volt})=\SI{800}{\micro\coulomb}
+\end{align*} 
+سلسلہ وار جڑے پرزوں میں یکساں رو پائی جاتی ہے لہٰذا دونوں برق گیر پر یکساں بار پایا جاتا ہے۔یوں نا معلوم گنجائش درج ذیل حاصل ہوتی ہے۔
+\begin{align*}
+C=\frac{q}{v}=\frac{\SI{800}{\micro\farad}}{\SI{10}{\volt}}=\SI{80}{\micro\farad}
+\end{align*}
+\انتہا{مثال}
+%==========================
+
+\حصہ{متوازی جڑے برق گیر}
+متوازی جڑے برق گیروں کی مساوی گنجائش شکل \حوالہ{شکل_امالہ_متوازی_برق_گیر_مساوی_حصول}-الف سے کرخوف قانون رو کی مدد سے حاصل کرتے ہیں۔
+\begin{align*}
+i(t)&=i_1(t)+i_2(t)+i_3(t)+\cdots +i_N(t)\\
+&=C_1 \frac{\dif v(t)}{\dif t}+C_2 \frac{\dif v(t)}{\dif t}+C_3 \frac{\dif v(t)}{\dif t}+\cdots+C_N \frac{\dif v(t)}{\dif t}\\
+&=\left(C_1+C_2+C_3+\cdots+C_N\right) \frac{\dif v(t)}{\dif t}
+\end{align*}
+اس مساوات میں 
+\begin{align}\label{مساوات_امالہ_متوازی_برق_گیر_کا_مساوی}
+C_m=\sum_{i=1}^{N} C_i=C_1+C_2+C_3+\cdots +C_N
+\end{align}
+لکھتے ہوئے
+\begin{align}
+i(t)=C_m \frac{\dif v(t)}{\dif t}
+\end{align}
+حاصل ہوتا ہے جو ایک عدد برق گیر کی مساوات ہے۔مساوات \حوالہ{مساوات_امالہ_متوازی_برق_گیر_کا_مساوی} متعدد متوازی جڑے برق گیروں کی مساوی گنجائش دیتی ہے جو سلسلہ وار جڑے مزاحمتوں کی مساوت کی طرح ہے۔شکل \حوالہ{شکل_امالہ_متوازی_برق_گیر_مساوی_حصول}-ب میں مساوی برق گیر دکھایا گیا ہے۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)  to [short,o-]++(3*\x+\x/2,0);
+\draw(0,\y)to [short,i={$i(t)$},o-]++(\x/2,0)  to [short]++(3*\x,0);
+\draw[dashed](3*\x+\x/2,0)--++(\x/2,0);
+\draw[dashed](3*\x+\x/2,\y)--++(\x/2,0);
+\draw(\x,\y) to [capacitor,*-*,i>_={$i_1(t)$},l={$C_1$}]++(0,-\y);
+\draw(2*\x,\y) to [capacitor,*-*,i>_={$i_2(t)$},l={$C_2$}]++(0,-\y);
+\draw(3*\x,\y) to [capacitor,*-*,i>_={$i_3(t)$},l={$C_3$}]++(0,-\y);
+\draw(4*\x,\y) to [short] ++(\x/4,0) to [capacitor,i>_={$i_N(t)$},l={$C_N$}]++(0,-\y) to [short]++(-\x/4,0);
+\draw(0,\y/2)node{$\begin{aligned}&+ \\ &v(t) \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,i={$i(t)$},o-]++(\x,0) to [capacitor,l={$C_m$}]++(0,-\y) to [short,-o] ++(-\x,0);
+\draw(0,-\y/2)node{$\begin{aligned}&+ \\ &v(t) \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\caption{متوازی جڑے برق گیروں کی مساوی گنجائش۔}
+\label{شکل_امالہ_متوازی_برق_گیر_مساوی_حصول}
+\end{figure}
+
+%===============
+\ابتدا{مثال}\شناخت{مثال_امالہ-متوازی_برق_گیر_مساوی_الف}
+شکل \حوالہ{شکل_امالہ_متوازی_برق_گیر_مساوی_الف}-الف میں چار عدد برق گیر متوازی جوڑے گئے ہیں۔ان کی مساوی گنجائش دریافت کریں۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)  to [short,o-]++(4*\x,0);
+\draw(0,\y)to [short,i={$i(t)$},o-]++(\x,0)  to [short]++(3*\x,0);
+\draw(\x,\y) to [capacitor,*-*,l={$\SI{10}{\micro\farad}$}]++(0,-\y);
+\draw(2*\x,\y) to [capacitor,*-*,l={$\SI{2}{\micro\farad}$}]++(0,-\y);
+\draw(3*\x,\y) to [capacitor,*-*,l={$\SI{7}{\micro\farad}$}]++(0,-\y);
+\draw(4*\x,\y)  to [capacitor,l={$\SI{3}{\micro\farad}$}]++(0,-\y);
+\draw(0,\y/2)node{$\begin{aligned}&+ \\ &v(t) \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,i={$i(t)$},o-]++(\x,0) to [capacitor,l={$\SI{22}{\micro\farad}$}]++(0,-\y) to [short,-o] ++(-\x,0);
+\draw(0,-\y/2)node{$\begin{aligned}&+ \\ &v(t) \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_امالہ-متوازی_برق_گیر_مساوی_الف} کا دور۔}
+\label{شکل_امالہ_متوازی_برق_گیر_مساوی_الف}
+\end{figure}
+
+حل: مساوات \حوالہ{مساوات_امالہ_متوازی_برق_گیر_کا_مساوی} سے متوازی جڑے برق گیروں کی مساوی برقی گنجائش حاصل کرتے ہیں۔
+\begin{align*}
+C_m=\SI{10}{\micro\farad}+\SI{2}{\micro\farad}+\SI{7}{\micro\farad}+\SI{3}{\micro\farad}=\SI{22}{\micro\farad}
+\end{align*}
+شکل \حوالہ{شکل_امالہ_متوازی_برق_گیر_مساوی_الف}-ب میں مساوی گنجائش دکھائی گئی ہے۔
+\انتہا{مثال}
+%===================
+\ابتدا{مشق}\شناخت{مشق_امالہ_سلسلہ_وار_برق_گیر_الف}
+ابتدائی طور پر بے بار، دو عدد برق گیر سلسلہ وار جوڑے جاتے ہیں۔لمحہ \عددی{t} پر صورت حال شکل \حوالہ{شکل_امالہ_مشق_سلسلہ_وار_برق_گیر_الف} میں دکھائی گئی ہے۔نا معلوم گنجائش دریافت کریں۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,o-]++(\x+\x/2,0) to [capacitor,l_={$\SI{14}{\micro\farad}$}]++(0,\y) to [capacitor,-o, l_={$C_1$}]++(-\x-\x/2,0);
+\draw(0,\y/2)node{$\begin{aligned} &+ \\& \SI{15}{\volt} \\ &- \end{aligned}$};
+\draw(\x+\x/2-2*\dx,\y/2)node[left]{$\begin{aligned}  &+ \\ &\SI{5}{\volt} \\ &-\end{aligned}$};
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_امالہ_سلسلہ_وار_برق_گیر_الف} کا دور۔}
+\label{شکل_امالہ_مشق_سلسلہ_وار_برق_گیر_الف}
+\end{figure} 
+
+جواب:\عددی{\SI{7}{\micro\farad}}
+\انتہا{مشق}
+%==================
+\ابتدا{مشق}\شناخت{مشق_امالہ_سلسلہ_وار_برق_گیر_ب}
+شکل \حوالہ{شکل_امالہ_مشق_سلسلہ_وار_برق_گیر_ب} میں مساوی گنجائش دریافت کریں۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [capacitor,o-,l={$\SI{3}{\micro\farad}$}]++(\x,0) to [short]++(3*\x,0) to [capacitor,l={$\SI{4.5}{\micro\farad}$}]++(0,2*\y) to [short]++(-3*\x,0) to [capacitor,-o,l={$\SI{2}{\micro\farad}$}]++(-\x,0);
+\draw(\x,0) to [capacitor,*-,l_={$\SI{2}{\micro\farad}$}]++(0,\y);
+\draw(2*\x,0) to [capacitor,*-*,l_={$\SI{4}{\micro\farad}$}]++(0,\y);
+\draw(3*\x,0) to [capacitor,*-,l_={$\SI{3}{\micro\farad}$}]++(0,\y);
+\draw(\x,\y) to [short]++(2*\x,0);
+\draw(2*\x,\y) to [capacitor,-*,l={$\SI{9}{\micro\farad}$}]++(0,\y);
+\draw[stealth-](0,\y)--++(-\x/2,0)--++(0,-\y/4)node[below]{$C_{\text{مساوی}}$};
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_امالہ_سلسلہ_وار_برق_گیر_ب} کا دور۔}
+\label{شکل_امالہ_مشق_سلسلہ_وار_برق_گیر_ب}
+\end{figure} 
+
+جواب:\عددی{\frac{18}{17} \, \si{\micro\farad}}
+\انتہا{مشق}
+%==================
+\ابتدا{مشق}\شناخت{مشق_امالہ_سلسلہ_وار_برق_گیر_پ}
+شکل \حوالہ{شکل_امالہ_مشق_سلسلہ_وار_برق_گیر_پ} میں کل گنجائش حاصل کریں۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [capacitor,o-,l_={$\SI{10}{\micro\farad}$}]++(\xx,0) to [capacitor,l_={$\SI{4}{\micro\farad}$}]++(\xx,0) to [capacitor,l_={$\SI{3}{\micro\farad}$}]++(\xx,0);
+\draw(0,\yy) to [capacitor,o-,l={$\SI{5}{\micro\farad}$}]++(\xx,0) to [capacitor,l={$\SI{12}{\micro\farad}$}]++(\xx,0) to [capacitor,l={$\SI{2}{\micro\farad}$}]++(\xx,0);
+\draw(\xx,0) to [capacitor,*-*,l={$\SI{7}{\micro\farad}$}]++(0,\yy);
+\draw(2*\xx,0) to [capacitor,*-*]++(0,\yy);
+\draw(2*\xx,\yy/3)node[left]{$\SI{2}{\micro\farad}$};
+\draw(3*\xx,0) to [capacitor,*-,l_={$\SI{1}{\micro\farad}$}]++(0,\yy);
+\draw(\xx,0) to [capacitor,l={$\SI{2}{\micro\farad}$}]++(\xx,\yy) to [capacitor,l={$\SI{3}{\micro\farad}$}]++(\xx,-\yy);
+\draw[stealth-](0,\yy/2)--++(-\xx/4,0)--++(0,-\yy/8)node[below]{$C_{\text{کل}}$};
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_امالہ_سلسلہ_وار_برق_گیر_پ} کا دور۔}
+\label{شکل_امالہ_مشق_سلسلہ_وار_برق_گیر_پ}
+\end{figure} 
+
+جواب:\عددی{\frac{5}{2} \, \si{\micro\farad}}
+\انتہا{مشق}
+%==================
+
+\حصہ{سلسلہ وار امالہ گیر}
+متعدد سلسلہ وار جڑے امالہ گیر کو شکل \حوالہ{شکل_امالہ_متعدد_سلسلہ_وار_امالہ_گیر_مساوی_حصول}-الف میں دکھایا گیا ہے۔کرخوف قانون دباو سے
+\begin{align*}
+v(t)&=v_1(t)+v_2(t)+v_3(t)+\cdots+v_N(t)\\
+&=L_1 \frac{\dif i(t)}{\dif t}+L_2 \frac{\dif i(t)}{\dif t}+L_3 \frac{\dif i(t)}{\dif t}+\cdots+L_N \frac{\dif i(t)}{\dif t}\\
+&=\left(L_1+L_2+L_3+\cdots+L_N\right)\frac{\dif i(t)}{\dif t}
+\end{align*}
+لکھ کر اس میں
+\begin{align}\label{مساوات_امالہ_سلسلہ_وار_امالہ_گیر_الف}
+L_s=\sum_{i=1}^{N} L_i=L_1+L_2+L_3+\cdots+L_N
+\end{align}
+پُر کرنے سے
+\begin{align*}
+v(t)=L_s \frac{\dif i(t)}{\dif t}
+\end{align*}
+حاصل ہوتا ہے جو ایک عدد امالہ گیر کی مساوات ہے جسے شکل \حوالہ{شکل_امالہ_متعدد_سلسلہ_وار_امالہ_گیر_مساوی_حصول}-ب میں دکھایا گیا ہے۔
+مساوات \حوالہ{مساوات_امالہ_سلسلہ_وار_امالہ_گیر_الف} سلسلہ وار امالہ کی مساوی امالہ دیتی ہے۔یہ سلسلہ وار مزاحمتوں کی مساوات کی طرح مساوات ہے۔
+
+
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,i={$i(t)$},o-]++(\x/2,0) to [inductor,l={$L_1$}]++(\x,0) to [inductor,l={$L_2$}]++(\x,0) to [inductor,l={$L_3$}]++(\x,0)coordinate(kup);
+\draw[dashed](kup)--++(\x/4,0)--++(0,-\y)--++(-2*\x-\x/2,0)coordinate(klow);
+\draw(klow) to [inductor,l_={$L_N$}]++(-\x,0) to [short,-o]++(-\x/4,0);
+\draw(0,-\y/2)node{$\begin{aligned} &+ \\ &v(t)\\ &- \end{aligned}$};
+\draw(\x/2+\x/2,-\dy)node[below]{$+ \, v_1(t) \, -$};
+\draw(\x/2+\x/2+\x,-\dy)node[below]{$+ \, v_2(t) \, -$};
+\draw(\x/2+\x/2+2*\x,-\dy)node[below]{$+ \, v_3(t) \, -$};
+\draw(\x/4+\x/2,-\y-\dy)node[below]{$- \, v_N(t) \, +$};
+\end{tikzpicture}
+\caption*{(الف) متعدد سلسلہ وار جڑے امالہ گیر۔}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,i={$i(t)$},o-]++(\x,0) to [inductor,l={$L_s$}]++(0,-\y) to [short,-o]++(-\x,0);
+\draw(0,-\y/2)node{$\begin{aligned} &+ \\ &v(t)\\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب) متعدد سلسلہ وار جڑے امالہ گیروں کی مساوی امالہ۔}
+\end{subfigure}
+\caption{متعدد سلسلہ وار جڑے امالہ گیر کی مساوی امالہ کا حصول۔}
+\label{شکل_امالہ_متعدد_سلسلہ_وار_امالہ_گیر_مساوی_حصول}
+\end{figure}
+
+%=====================
+\ابتدا{مثال}\شناخت{مثال_امالہ_سلسلہ_وار_امالہ_الف}
+شکل \حوالہ{شکل_امالہ_سلسلہ_وار_امالہ_الف} میں مساوی امالہ دریافت کریں۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [inductor,o-,l={$\SI{12}{\milli\henry}$}]++(\x,0) to [inductor,l={$\SI{3}{\milli\henry}$}]++(\x,0) to [inductor,l={$\SI{7}{\milli\henry}$}]++(\x,0) to [inductor,l={$\SI{5}{\milli\henry}$}]++(0,-\y) to [short,-o]++(-3*\x,0);
+\draw[stealth-](0,-\y/2)--++(-\x/4,0)--++(0,-\y/8)node[below]{$L_{\text{مساوی}}$};
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_امالہ_سلسلہ_وار_امالہ_الف} کا دور۔}
+\label{شکل_امالہ_سلسلہ_وار_امالہ_الف}
+\end{figure}
+
+جواب:\عددی{\SI{27}{\milli\henry}}
+\انتہا{مثال}
+%====================
+
+\حصہ{متوازی امالہ گیر}
+متوازی جڑے امالہ گیروں کی مساوی امالہ شکل \حوالہ{شکل_امالہ_متوازی_امالہ_گیر_مساوی_حصول}-الف کی مدد سے حاصل کرتے ہیں جسے دیکھتے ہوئے کرخوف مساوات رو
+\begin{align}\label{مساوات_امالہ_متوازی_امالہ_کرخوف_مساوات_الف}
+i(t)&=i_1(t)+i-2(t)+i_3(t)+\cdots+i_N(t)
+\end{align}
+لکھی جا سکتی ہے۔انفرادی امالہ گیر کے لئے درج ذیل مساوات لکھے جا سکتے ہیں
+\begin{align*}
+i_1(t)&=i_1(t_0)+\frac{1}{L_1}\int_{t_0}^{t} v(t) \dif t\\
+i_2(t)&=i_2(t_0)+\frac{1}{L_2}\int_{t_0}^{t} v(t) \dif t\\
+i_3(t)&=i_3(t_0)+\frac{1}{L_3}\int_{t_0}^{t} v(t) \dif t\\
+&\vdots\\
+i_N(t)&=i_N(t_0)+\frac{1}{L_N}\int_{t_0}^{t} v(t) \dif t
+\end{align*}
+جنہیں مساوات \حوالہ{مساوات_امالہ_متوازی_امالہ_کرخوف_مساوات_الف} میں پُر کرتے ہوئے
+\begin{multline*}
+i(t)=i_1(t_0)+\frac{1}{L_1}\int_{t_0}^{t} v(t) \dif t+i_2(t_0)+\frac{1}{L_2}\int_{t_0}^{t} v(t) \dif t+\cdots \\
++i_N(t_0)+\frac{1}{L_N}\int_{t_0}^{t} v(t) \dif t
+\end{multline*}
+حاصل ہوتا ہے۔اس مساوات کو ترتیب دیتے ہوئے
+\begin{align*}
+i(t)&=i_1(t_0)+i_2(t_0)+\cdots+i_N(t_0)+\left(\frac{1}{L_1}+\frac{1}{L_2}+\cdots+\frac{1}{L_N}\right)\int_{t_0}^{t} v(t)\dif t
+\end{align*}
+لکھا جا سکتا ہے جس میں 
+\begin{align}\label{مساوات_امالہ_متوازی_مساوی_مساوات_قیمت}
+\frac{1}{L_m}=\sum_{i=1}^{N}\frac{1}{L_i}=\frac{1}{L_1}+\frac{1}{L_2}+\frac{1}{L_3}+\cdots+\frac{1}{L_N}
+\end{align}
+اور
+\begin{align}\label{مساوات_امالہ_متوازی_امالہ_ابتدائی_رو}
+i(t_0)=i_1(t_0)+i_2(t_0)+i_3(t_0)+\cdots+i_N(t_0)
+\end{align}
+پُر کرنے سے
+\begin{align*}
+i(t)=i(t_0)+\frac{1}{L_m}\int_{t_0}^{t} v(t) \dif t
+\end{align*}
+حاصل ہوتا ہے جو ایک عدد امالہ گیر کی مساوات ہے جسے شکل \حوالہ{شکل_امالہ_متوازی_امالہ_گیر_مساوی_حصول}-ب میں دکھایا گیا ہے۔مساوات \حوالہ{مساوات_امالہ_متوازی_مساوی_مساوات_قیمت} متوازی جڑے امالہ گیر کی مساوی امالہ \عددی{L_m} دیتی ہے جبکہ مساوات \حوالہ{مساوات_امالہ_متوازی_امالہ_ابتدائی_رو} مساوی امالہ میں ابتدائی رو \عددی{i(t_0)} دیتی ہے۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)  to [short,o-]++(3*\x+\x/2,0);
+\draw(0,\y)to [short,i={$i(t)$},o-]++(\x/2,0)  to [short]++(3*\x,0);
+\draw[dashed](3*\x+\x/2,0)--++(\x/2,0);
+\draw[dashed](3*\x+\x/2,\y)--++(\x/2,0);
+\draw(\x,\y) to [inductor,*-*,i>_={$i_1(t)$},l={$L_1$}]++(0,-\y);
+\draw(2*\x,\y) to [inductor,*-*,i>_={$i_2(t)$},l={$L_2$}]++(0,-\y);
+\draw(3*\x,\y) to [inductor,*-*,i>_={$i_3(t)$},l={$L_3$}]++(0,-\y);
+\draw(4*\x,\y) to [short] ++(\x/4,0) to [inductor,i>_={$i_N(t)$},l={$L_N$}]++(0,-\y) to [short]++(-\x/4,0);
+\draw(0,\y/2)node{$\begin{aligned}&+ \\ &v(t) \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,i={$i(t)$},o-]++(\x,0) to [inductor,l={$L_m$}]++(0,-\y) to [short,-o] ++(-\x,0);
+\draw(0,-\y/2)node{$\begin{aligned}&+ \\ &v(t) \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\caption{متوازی جڑے امالہ گیروں کی مساوی امالہ۔}
+\label{شکل_امالہ_متوازی_امالہ_گیر_مساوی_حصول}
+\end{figure}
+%===========
+\ابتدا{مثال}
+
+\انتہا{مثال}
+%=============================
+

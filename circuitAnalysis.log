@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  30 APR 2017 13:57
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  1 MAY 2017 17:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3004,13 +3004,14 @@ LaTeX Font Warning: Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' undefined
 (Font)              using `EU1/JameelNooriNastaleeq(0)/m/n' instead on input li
 ne 73.
 
-(./circuitAnalysis.toc)
+(./circuitAnalysis.toc
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
+(Font)              scaled to size 10.0pt on input line 2.
+ [3])
 \tf@toc=\write5
 \openout5 = `circuitAnalysis.toc'.
 
- [3] [4
-
-]
+ [4]
 \openout2 = `./tex/cktCapacitorInductor.aux'.
 
  (./tex/cktCapacitorInductor.tex
@@ -3045,15 +3046,18 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 
 
 
+
 ]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 36.
  [248] [249] [250] [251] [252] [253] [254] [255] [256] [257] [258]
-Missing character: There is no ا in font zplmr7m!
-Missing character: There is no م in font zplmr7m!
-Missing character: There is no ا in font zplmr7m!
-Missing character: There is no ل in font zplmr7m!
-Missing character: There is no ہ in font zplmr7m!
+Overfull \hbox (2.59358pt too wide) in paragraph at lines 394--396
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 جہاں تناسبی مستقل کو  $\OML/zplm/m/it/10 
+L$  \EU1/JameelNooriNastaleeq(1)/m/n/10 لکھا اور \EU1/XBTabrizBold(0)/m/n/10 ام
+الہ[][][] []\EU1/JameelNooriNastaleeq(1)/m/n/10 پکارا جاتا ہے۔امالہ کی اکائی[][
+] کو \EU1/XBTabrizBold(0)/m/n/10 ہینری[][][] []\EU1/JameelNooriNastaleeq(1)/m/n
+/10 پکارا اور  $[]$  سے ظاہر کیا جاتا ہے۔آپ[]
+ []
 
 [259] [260]
 Missing character: There is no 0 in font nullfont!
@@ -3155,20 +3159,101 @@ Overfull \hbox (19.69124pt too wide) in paragraph at lines 814--824
  [][][][] 
  []
 
-[269]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 10.0pt on input line 871.
+[269] [270] [271] [272] [273] [274] [275] [276] [277]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [278] [279]
+Overfull \hbox (1.10162pt too wide) in paragraph at lines 1205--1206
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 متوازی جڑے امالہ گیروں کی مساوی امالہ شکل
+ []\EU1/JameelNooriNastaleeq(0)/bx/n/10 23[]\EU1/JameelNooriNastaleeq(1)/m/n/10
+ .[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 6[][]\EU1/JameelNooriNastaleeq(1)/m/n/
+10 -الف کی مدد سے حاصل کرتے ہیں جسے دیکھتے ہوئے کرخوف مساوات[]
+ []
 
-
-LaTeX Warning: Reference `شکل_امالہ_متعدد_سلسلہ_وار_برق_گیر_مساوی_حصول' on page
- \RL {\arabicfont 270} undefined on input line 871.
-
-[270]
-
-LaTeX Warning: Reference `مساوات_امالہ_سلسلہ_وار_برق_گیر_کا_مساوی' on page \RL 
-{\arabicfont 271} undefined on input line 900.
-
-) [271] [272] (./circuitAnalysis.aux (./tex/cktBasics.aux)
+[280]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [281]) [282] (./circuitAnalysis.aux (./tex/cktBasics.aux)
 (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
 (./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux))
 
@@ -3178,20 +3263,14 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 45256 strings out of 493918
- 1068234 string characters out of 6150562
- 1234924 words of memory out of 5000000
- 47681 multiletter control sequences out of 15000+600000
+ 46701 strings out of 493918
+ 1104063 string characters out of 6150562
+ 1280324 words of memory out of 5000000
+ 49126 multiletter control sequences out of 15000+600000
  46937 words of font info for 175 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,21n,74p,10476b,1979s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,21n,74p,10476b,1982s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (30 pages).
+Output written on circuitAnalysis.pdf (40 pages).
