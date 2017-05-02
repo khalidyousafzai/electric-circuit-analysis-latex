@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  1 MAY 2017 19:27
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  2 MAY 2017 18:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3051,7 +3051,8 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 36.
  [248] [249] [250] [251] [252] [253] [254] [255] [256] [257] [258]
-Overfull \hbox (2.59358pt too wide) in paragraph at lines 394--396
+[259] [260]
+Overfull \hbox (2.59358pt too wide) in paragraph at lines 435--437
 []\EU1/JameelNooriNastaleeq(1)/m/n/10 جہاں تناسبی مستقل کو  $\OML/zplm/m/it/10 
 L$  \EU1/JameelNooriNastaleeq(1)/m/n/10 لکھا اور \EU1/XBTabrizBold(0)/m/n/10 ام
 الہ[][][] []\EU1/JameelNooriNastaleeq(1)/m/n/10 پکارا جاتا ہے۔امالہ کی اکائی[][
@@ -3059,7 +3060,7 @@ L$  \EU1/JameelNooriNastaleeq(1)/m/n/10 لکھا اور \EU1/XBTabrizBold(0)/m/n
 /10 پکارا اور  $[]$  سے ظاہر کیا جاتا ہے۔آپ[]
  []
 
-[259] [260]
+[261] [262]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -3073,52 +3074,52 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (1.55396pt too wide) in paragraph at lines 446--452
+Overfull \hbox (1.55396pt too wide) in paragraph at lines 487--493
  [][][][] 
  []
 
 
-Overfull \hbox (1.55396pt too wide) in paragraph at lines 458--466
+Overfull \hbox (1.55396pt too wide) in paragraph at lines 499--507
  [][][][] 
  []
 
-[261]
-Overfull \hbox (8.62637pt too wide) in paragraph at lines 507--513
+[263]
+Overfull \hbox (8.62637pt too wide) in paragraph at lines 548--554
 [][][][] 
  []
 
 
-Overfull \hbox (10.22102pt too wide) in paragraph at lines 518--525
+Overfull \hbox (10.22102pt too wide) in paragraph at lines 559--566
 [][][][] 
- []
-
-[262] [263]
-Overfull \hbox (4.06415pt too wide) in paragraph at lines 576--583
- [][][][] 
- []
-
-
-Overfull \hbox (11.85413pt too wide) in paragraph at lines 589--597
- [][][][] 
- []
-
-
-Overfull \hbox (11.85413pt too wide) in paragraph at lines 621--631
- [][][][] 
- []
-
-
-Overfull \hbox (11.90959pt too wide) in paragraph at lines 637--647
- [][][][] 
  []
 
 [264] [265]
-Overfull \hbox (14.69957pt too wide) in paragraph at lines 665--675
+Overfull \hbox (4.06415pt too wide) in paragraph at lines 617--624
  [][][][] 
  []
 
 
-Overfull \hbox (14.40959pt too wide) in paragraph at lines 681--692
+Overfull \hbox (11.85413pt too wide) in paragraph at lines 630--638
+ [][][][] 
+ []
+
+
+Overfull \hbox (11.85413pt too wide) in paragraph at lines 662--672
+ [][][][] 
+ []
+
+
+Overfull \hbox (11.90959pt too wide) in paragraph at lines 678--688
+ [][][][] 
+ []
+
+[266] [267]
+Overfull \hbox (14.69957pt too wide) in paragraph at lines 706--716
+ [][][][] 
+ []
+
+
+Overfull \hbox (14.40959pt too wide) in paragraph at lines 722--733
  [][][][] 
  []
 
@@ -3134,32 +3135,32 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-[266]
-Overfull \hbox (12.04398pt too wide) in paragraph at lines 775--777
+[268]
+Overfull \hbox (12.04398pt too wide) in paragraph at lines 816--818
 []\EU1/JameelNooriNastaleeq(1)/m/n/10 ہے۔کم سے کم اور زیادہ سے زیادہ گنجائش کی 
 صورت میں رو کے خط حاصل کریں۔اس برقی گنجائش کو عموماً  $[] [][] []$[]
  []
 
-[267] [268]
-Overfull \hbox (11.63133pt too wide) in paragraph at lines 783--792
+[269] [270]
+Overfull \hbox (11.63133pt too wide) in paragraph at lines 824--833
  [][][][] 
  []
 
 
-Overfull \hbox (19.69124pt too wide) in paragraph at lines 798--808
+Overfull \hbox (19.69124pt too wide) in paragraph at lines 839--849
  [][][][] 
  []
 
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 809.
+(Font)              scaled to size 7.0pt on input line 850.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 809.
+(Font)              scaled to size 5.0pt on input line 850.
 
-Overfull \hbox (19.69124pt too wide) in paragraph at lines 814--824
+Overfull \hbox (19.69124pt too wide) in paragraph at lines 855--865
  [][][][] 
  []
 
-[269] [270] [271] [272] [273] [274] [275] [276] [277]
+[271] [272] [273] [274] [275] [276] [277] [278] [279]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -3214,15 +3215,15 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [278] [279]
-Overfull \hbox (1.10162pt too wide) in paragraph at lines 1205--1206
+ [280] [281]
+Overfull \hbox (1.10162pt too wide) in paragraph at lines 1246--1247
 []\EU1/JameelNooriNastaleeq(1)/m/n/10 متوازی جڑے امالہ گیروں کی مساوی امالہ شکل
- []\EU1/JameelNooriNastaleeq(0)/bx/n/10 23[]\EU1/JameelNooriNastaleeq(1)/m/n/10
+ []\EU1/JameelNooriNastaleeq(0)/bx/n/10 24[]\EU1/JameelNooriNastaleeq(1)/m/n/10
  .[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 6[][]\EU1/JameelNooriNastaleeq(1)/m/n/
 10 -الف کی مدد سے حاصل کرتے ہیں جسے دیکھتے ہوئے کرخوف مساوات[]
  []
 
-[280]
+[282]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -3277,7 +3278,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [281]
+ [283]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -3308,7 +3309,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [282]
+ [284]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -3369,9 +3370,12 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-) [283] [284] (./circuitAnalysis.aux (./tex/cktBasics.aux)
-(./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
-(./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux))
+ [285]) [286] [287] [288
+
+
+] (./circuitAnalysis.aux
+(./tex/cktBasics.aux) (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux)
+(./tex/cktOpamp.aux) (./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.75237pt have occurred.
@@ -3381,12 +3385,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 47258 strings out of 493918
- 1117761 string characters out of 6150562
- 1292922 words of memory out of 5000000
- 49683 multiletter control sequences out of 15000+600000
+ 47507 strings out of 493918
+ 1123704 string characters out of 6150562
+ 1294992 words of memory out of 5000000
+ 49932 multiletter control sequences out of 15000+600000
  50388 words of font info for 186 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,21n,74p,10476b,1994s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (42 pages).
+Output written on circuitAnalysis.pdf (46 pages).
