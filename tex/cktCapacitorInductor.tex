@@ -1402,11 +1402,11 @@ v_k=0
 \end{align*}
 ہو گا۔جوڑ \عددی{v_n} پر کرخوف مساوات رو
 \begin{align*}
-\frac{v_n-v_i}{R}+C \frac{\dif (v_n-v_0)}{\dif t}=0
+\frac{v_n-v_i}{R}+C \frac{\dif }{\dif t}(v_n-v_0)=0
 \end{align*}
 لکھتے ہوئے \عددی{v_n=v_k=0} پُر کرنے سے
 \begin{align*}
-\frac{0-v_i}{R}+C \frac{\dif (0-v_0)}{\dif t}=0
+\frac{0-v_i}{R}+C \frac{\dif }{\dif t}(0-v_0)=0
 \end{align*}
 یعنی
 \begin{align*}
@@ -1416,11 +1416,15 @@ v_k=0
 \begin{align*}
 \dif v_0=-\frac{v_i}{RC} \dif t
 \end{align*}
-لکھ کر تکمل لیتے ہوئے درج ذیل حاصل ہوتا ہے۔
+لکھ کر تکمل لیتے ہوئے
 \begin{align}
 v_0=-\frac{1}{RC} \int_{-\infty}^{t} v_i \dif t
 \end{align}
-اس مساوات کے تحت خارجی اشارہ  \عددی{v_i} کے تکمل کے \عددی{\tfrac{1}{RC}} گنا کے برابر ہے۔اسی لئے اس دور کو تکمل کار کہتے ہیں۔
+یا
+\begin{align}\label{مساوات_امالہ_تکمل_کار_الف}
+v_0=v(t_0)-\frac{1}{RC} \int_{t_0}^{t} v_i \dif t
+\end{align}
+حاصل ہوتا ہے۔اس مساوات کے تحت \عددی{v_0} اشارہ  \عددی{v_i} کے تکمل کے \عددی{\tfrac{1}{RC}} گنا ہے۔اسی لئے اس دور کو تکمل کار کہتے ہیں۔
 \begin{figure}
 \centering
 \begin{tikzpicture}
@@ -1432,3 +1436,165 @@ v_0=-\frac{1}{RC} \int_{-\infty}^{t} v_i \dif t
 \caption{تکمل کار۔}
 \label{شکل_امالہ_تکمل_کار}
 \end{figure}
+%==================
+\حصہ{تفرق کار}
+شکل \حوالہ{شکل_امالہ_تفرق_کار} میں
+\begin{align*}
+v_k=0
+\end{align*}
+کے برابر ہے۔جوڑ \عددی{v_n} پر کرخوف مساوات رو
+\begin{align*}
+C\frac{\dif }{\dif t}(v_n-v_i)+\frac{v_n-v_0}{R}=0
+\end{align*}
+میں \عددی{v_n=v_k=0} پُر کرنے سے
+\begin{align*}
+C\frac{\dif}{\dif t} (0-v_i)+\frac{0-v_0}{R}=0
+\end{align*}
+حاصل ہوتا ہے جسے ترتیب دیتے ہوئے
+\begin{align}\label{مساوات_امالہ_تفرق_کار_الف}
+v_0=-RC \frac{\dif v_i}{\dif t}
+\end{align}
+لکھا جا سکتا ہے۔اس مساوات کے تحت \عددی{v_0} اشارہ \عددی{v_i} کے تفرق کے \عددی{-RC} گنا ہے۔اس لئے اس دور کو \اصطلاح{تفرق کار}\فرہنگ{تفرق کار}\حاشیہب{differentiator}\فرہنگ{differentiator} کہتے ہیں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0)node[op amp](u1){};
+\draw(u1.+) to [short]++(-\x/4,0)node[above right]{$v_k$}node[ground]{};
+\draw(u1.-) to [short]++(-\x/4,0)coordinate(kup)node[above right]{$v_n$} to [capacitor,l_={$C$}]++(-\x,0)++(0,-\y)node[ground]{} to [american voltage source,l={$v_i$}]++(0,\y);
+\draw(kup) to [short,*-]++(0,\y/2) to [short]++(\x/4,0) to [resistor,l={$R$}]++(\x,0) -| (u1.out) to [short,*-o]++(\x/4,0)node[right]{$v_0$};
+\end{tikzpicture}
+\caption{تفرق کار۔}
+\label{شکل_امالہ_تفرق_کار}
+\end{figure}
+%================
+\ابتدا{مثال}\شناخت{مثال_امالہ_تکمل_کار_الف}
+تکمل کار میں \عددی{R=\SI{10000}{\kilo\ohm}} اور \عددی{C=\SI{0.2}{\micro\farad}} ہیں جبکہ داخلی اشارہ شکل \حوالہ{شکل_امالہ_تکمل_کار_مثال_الف} میں دیا گیا ہے۔خارجی اشارہ حاصل کریں۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw[gray](0,-2)--(0,2.5)node[left]{$v_i$};
+\draw[gray](0,0)--++(4.25,0)node[right]{$t(\si{\milli\second})$};
+\draw(-0.25,0)--(0,0)--(0,2)--(1,2)--(1,1)--(2,1)--(2,0)--(3,0)--(3,-1)--(4,-1)--(4,0)--(4.25,0);
+\draw(0,1)--++(-0.1,0)node[left]{$\SI{2}{\volt}$};
+\draw(0,2)--++(-0.1,0)node[left]{$\SI{4}{\volt}$};
+\draw(0,-1)--++(-0.1,0)node[left]{$\SI{-2}{\volt}$};
+\draw(1,0)--++(0,-0.1)node[below]{$1$};
+\draw(2,0)--++(0,-0.1)node[below]{$2$};
+\draw(3,0)node[above]{$3$};
+\draw(4,0)node[above]{$4$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw[gray](0,-2)--(0,2.5)node[left]{$v_0$};
+\draw[gray](0,0)--++(4.25,0)node[right]{$t(\si{\milli\second})$};
+\draw(-0.25,0)--(0,0)--(1,-1)--(2,-1.5)--(3,-1.5)--(4,-1)--(4.25,-1);
+\draw(0,-1)--++(-0.1,0)node[left]{$\SI{-2}{\volt}$};
+\draw(0,-1.5)--++(-0.1,0)node[left]{$\SI{-3}{\volt}$};
+\draw(1,0)--++(0,-0.1)node[below]{$1$};
+\draw(2,0)--++(0,-0.1)node[below]{$2$};
+\draw(3,0)--++(0,-0.1)node[below]{$3$};
+\draw(4,0)--++(0,-0.1)node[below]{$4$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{مثال \حوالہ{مثال_امالہ_تکمل_کار_الف} کا داخلی اشارہ۔}
+\label{شکل_امالہ_تکمل_کار_مثال_الف}
+\end{figure}
+
+حل:مساوات \حوالہ{مساوات_امالہ_تکمل_کار_الف} کے تحت
+\begin{align*}
+v_0(t)&=v(t_0)-\frac{1}{\num{10000}\times 0.2\times 10^{-6} }\int_{t_0}^{t}v_i \dif t\\
+&=v(t_0)-500\int_{t_0}^{t}v_i \dif t
+\end{align*}
+کے برابر ہے۔لمحہ \عددی{t=0} سے بالکل پہلے داخلی اشارے کی ابتدائی قیمت \عددی{v_i(0_-)=\SI{0}{\volt}} ہے جبکہ \عددی{t=\SI{0}{\milli\second}} تا \عددی{t=\SI{1}{\milli\second}} تک \عددی{v_i=\SI{2}{\volt}} ہے۔ان قیمتوں کو استعمال کرتے ہوئے
+\begin{align*}
+v_0(t)&=0-500\int_0^{t} 4 \dif t\\
+&=-2000 t
+\end{align*}
+لکھا جا سکتا ہے جو سیدھے خط کی مساوات ہے جس کی ڈھلوان \عددی{\SI{-2000}{\volt\per\second}} ہے۔اس دورانیے کے اختتام \عددی{t=\SI{1}{\milli\second}} پر
+\begin{align*}
+v_0(\SI{1}{\milli\second})=-2000 \times 10^{-3}=\SI{-2}{\volt}
+\end{align*}
+حاصل ہوتا ہے۔شکل \حوالہ{شکل_امالہ_تکمل_کار_مثال_الف}-ب میں اس خط کو دکھایا گیا ہے۔اگلے ایک ملی سیکنڈ کی ابتدائی قیمتیں \عددی{t_0=\SI{1}{\milli\second}} اور \عددی{v_0(\SI{1}{\milli\second})=\SI{-2}{\volt}} ہوں گی لہٰذا مساوات \حوالہ{مساوات_امالہ_تکمل_کار_الف} درج ذیل لکھا جائے گا
+\begin{align*}
+v_0(t)&=-2-500\int_{\SI{1}{\milli\second}}^t 2\dif t\\
+&=-2-1000(t-0.001)\\
+&=-1-1000t
+\end{align*}
+جس سے  لمحہ \عددی{t=\SI{2}{\milli\second}} پر
+\begin{align*}
+v_0(\SI{2}{\milli\second})=-1-1000\times 0.002=\SI{-3}{\volt}
+\end{align*}
+حاصل ہوتا ہے۔لمحہ \عددی{t=\SI{2}{\milli\second}} تا \عددی{t=\SI{3}{\milli\second}} داخلی اشارہ صفر کے برابر ہے لہٰذا اس کا تکمل صفر ہو گا۔یوں خارجی اشارے میں اس دوران کوئی تبدیلی نہیں آئے گی اور یہ \عددی{\SI{-3}{\volt}} پر برقرار رہے گا۔آخری ایک ملی سیکنڈ میں اسی طرح حل کرتے ہوئے شکل-ب کا آخری حصہ ملتا ہے۔ 
+\انتہا{مثال}
+%======================
+\ابتدا{مثال}\شناخت{مثال_امالہ_تفرق_کار_الف}
+تفرق کار میں \عددی{R=\SI{2}{\kilo\ohm}} اور \عددی{C=\SI{0.5}{\micro\farad}} ہیں جبکہ اس کا داخلی اشارہ شکل \حوالہ{شکل_امالہ_تفرق_کار_اشارات_الف}-الف میں دیا گیا ہے۔خارجی اشارہ حاصل کریں۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw[gray](0,-1.5)--(0,2.5)node[left]{$v_i$};
+\draw[gray](0,0)--++(4.25,0)node[right]{$t(\si{\milli\second})$};
+\draw(-0.25,0)--(0,0)--(2,2)--(4,0)--(4.25,0);
+\draw(0,2)--++(-0.1,0)node[left]{$\SI{10}{\volt}$};
+\draw(1,0)--++(0,-0.1)node[below]{$1$};
+\draw(2,0)--++(0,-0.1)node[below]{$2$};
+\draw(3,0)--++(0,-0.1)node[below]{$3$};
+\draw(4,0)--++(0,-0.1)node[below]{$4$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw[gray](0,-1.5)--(0,2.5)node[left]{$v_0$};
+\draw[gray](0,0)--++(4.25,0)node[right]{$t(\si{\milli\second})$};
+\draw(-0.25,0)--(0,0)--(0,-1)--(2,-1)--(2,1)--(4,1)--(4,0)--(4.25,0);
+\draw(0,1)--++(-0.1,0)node[left]{$\SI{5}{\volt}$};
+\draw(0,-1)--++(-0.1,0)node[left]{$\SI{-5}{\volt}$};
+\draw(1,0)--++(0,-0.1)node[below]{$1$};
+\draw(2,0)--++(0,-0.1)node[below left]{$2$};
+\draw(3,0)--++(0,-0.1)node[below]{$3$};
+\draw(4,0)node[below left]{$4$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{مثال \حوالہ{مثال_امالہ_تفرق_کار_الف} کے اشارات۔}
+\label{شکل_امالہ_تفرق_کار_اشارات_الف}
+\end{figure}
+
+حل:شکل \حوالہ{شکل_امالہ_تفرق_کار_اشارات_الف}-الف میں چار عدد دورانیے منتخب کیے جا سکتے ہیں جن کے دوران داخلی اشارے کے تفرق درج ذیل ہیں۔
+\begin{align*}
+\frac{\dif v_i}{\dif t}=
+\begin{cases}
+0, & t<0\\
++5000, & 0< t < \SI{2}{\milli\second}\\
+-5000,  &\SI{2}{\milli\second}<t<\SI{4}{\milli\second}\\
+0, &\SI{4}{\milli\second}
+\end{cases}
+\end{align*}
+مساوات \حوالہ{مساوات_امالہ_تفرق_کار_الف} میں دی گئی قیمتیں پُر کرنے سے
+\begin{align*}
+v_0=-0.001 \frac{\dif v_i}{\dif t}
+\end{align*}
+حاصل ہوتا ہے جس میں \عددی{\tfrac{\dif v_i}{\dif t}} کی قیمتیں پُر کرنے سے درج ذیل حاصل ہوتا ہے جس کو شکل \حوالہ{شکل_امالہ_تفرق_کار_اشارات_الف}-ب میں دکھایا گیا ہے۔
+\begin{align*}
+v_0=
+\begin{cases}
+-0.001(0)=\SI{0}{\volt}, & t<0\\
+-0.001( 5000)=\SI{-5}{\volt}, & 0< t < \SI{2}{\milli\second}\\
+-0.001(-5000)=\SI{5}{\volt},  &\SI{2}{\milli\second}<t<\SI{4}{\milli\second}\\
+-0.001(0)=\SI{0}{\volt}, &\SI{4}{\milli\second}
+\end{cases}
+\end{align*}
+\انتہا{مثال}
+%=======================

@@ -59,3 +59,5 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 6}}سلسلہ وار امالہ گیر}{\RL {\arabicfont 280}}
 \contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 6}}متوازی امالہ گیر}{\RL {\arabicfont 282}}
 \contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 6}}حسابی ایمپلیفائر کے \tmspace +\medmuskip {.2222em} \ensuremath {RC} \tmspace +\medmuskip {.2222em} ادوار}{\RL {\arabicfont 286}}
+\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 6}}تفرق کار}{\RL {\arabicfont 287}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 7}}پہلے اور دوسرے درجے کے عارضی حالات}{\RL {\arabicfont 293}}
