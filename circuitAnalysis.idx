@@ -1,42 +1,28 @@
-\indexentry{capacitor}{\RL {\arabicfont  247}}
-\indexentry{برق گیر}{\RL {\arabicfont  247}}
-\indexentry{capacitance}{\RL {\arabicfont  247}}
-\indexentry{گنجائش!برقی}{\RL {\arabicfont  247}}
-\indexentry{برقی گنجائش}{\RL {\arabicfont  247}}
-\indexentry{electric constant}{\RL {\arabicfont  247}}
-\indexentry{permitivity}{\RL {\arabicfont  247}}
-\indexentry{برقی مستقل}{\RL {\arabicfont  247}}
-\indexentry{capacitance}{\RL {\arabicfont  248}}
-\indexentry{گنجائش!برقی}{\RL {\arabicfont  248}}
-\indexentry{برقی گنجائش}{\RL {\arabicfont  248}}
-\indexentry{dependent variable}{\RL {\arabicfont  249}}
-\indexentry{تابع متغیر}{\RL {\arabicfont  249}}
-\indexentry{independent variable}{\RL {\arabicfont  249}}
-\indexentry{آزاد متغیر}{\RL {\arabicfont  249}}
-\indexentry{potential energy}{\RL {\arabicfont  250}}
-\indexentry{توانائی!مخفی}{\RL {\arabicfont  250}}
-\indexentry{مخفی توانائی}{\RL {\arabicfont  250}}
-\indexentry{stray}{\RL {\arabicfont  251}}
-\indexentry{غیر مطلوب}{\RL {\arabicfont  251}}
-\indexentry{core!magnetic}{\RL {\arabicfont  261}}
-\indexentry{مقناطیسی مرکز}{\RL {\arabicfont  261}}
-\indexentry{مرکز!مقناطیسی}{\RL {\arabicfont  261}}
-\indexentry{coil}{\RL {\arabicfont  261}}
-\indexentry{لچھا}{\RL {\arabicfont  261}}
-\indexentry{inductor}{\RL {\arabicfont  261}}
-\indexentry{امالہ گیر}{\RL {\arabicfont  261}}
-\indexentry{filter}{\RL {\arabicfont  261}}
-\indexentry{فلٹر}{\RL {\arabicfont  261}}
-\indexentry{transformer}{\RL {\arabicfont  261}}
-\indexentry{ٹرانسفارمر}{\RL {\arabicfont  261}}
-\indexentry{core!non-magnetic}{\RL {\arabicfont  261}}
-\indexentry{مرکز!غیر مقناطیسی}{\RL {\arabicfont  261}}
-\indexentry{غیر مقناطیسی مرکز}{\RL {\arabicfont  261}}
-\indexentry{Henry}{\RL {\arabicfont  261}}
-\indexentry{ہینری}{\RL {\arabicfont  261}}
-\indexentry{inductance}{\RL {\arabicfont  261}}
-\indexentry{امالہ}{\RL {\arabicfont  261}}
-\indexentry{integrator}{\RL {\arabicfont  286}}
-\indexentry{تکمل کار}{\RL {\arabicfont  286}}
-\indexentry{تفرق کار}{\RL {\arabicfont  287}}
-\indexentry{differentiator}{\RL {\arabicfont  287}}
+\indexentry{steady state}{\RL {\arabicfont  293}}
+\indexentry{برقرار حالت}{\RL {\arabicfont  293}}
+\indexentry{transient state}{\RL {\arabicfont  293}}
+\indexentry{عارضی حالت}{\RL {\arabicfont  293}}
+\indexentry{differential equation!first order}{\RL {\arabicfont  293}}
+\indexentry{ایک درجی!تفرقی مساوات}{\RL {\arabicfont  293}}
+\indexentry{تفرقی مساوات!ایک درجی}{\RL {\arabicfont  293}}
+\indexentry{first order!circuits}{\RL {\arabicfont  294}}
+\indexentry{دور!یک درجی}{\RL {\arabicfont  294}}
+\indexentry{یک درجی ادوار}{\RL {\arabicfont  294}}
+\indexentry{second order!circuits}{\RL {\arabicfont  294}}
+\indexentry{دور!دو درجی}{\RL {\arabicfont  294}}
+\indexentry{دو درجی!ادوار}{\RL {\arabicfont  294}}
+\indexentry{differential equation!second order}{\RL {\arabicfont  294}}
+\indexentry{تفرقی مساوات!دو درجی}{\RL {\arabicfont  294}}
+\indexentry{دو درجی!تفرقی مساوات}{\RL {\arabicfont  294}}
+\indexentry{response!natural}{\RL {\arabicfont  295}}
+\indexentry{natural response}{\RL {\arabicfont  295}}
+\indexentry{complementary solution}{\RL {\arabicfont  295}}
+\indexentry{رد عمل!فطری}{\RL {\arabicfont  295}}
+\indexentry{فطری رد عمل}{\RL {\arabicfont  295}}
+\indexentry{forced response}{\RL {\arabicfont  295}}
+\indexentry{particular solution}{\RL {\arabicfont  295}}
+\indexentry{رد عمل!جبری}{\RL {\arabicfont  295}}
+\indexentry{جبری رد عمل}{\RL {\arabicfont  295}}
+\indexentry{homogenous equation}{\RL {\arabicfont  295}}
+\indexentry{مساوات!ہم جنسی}{\RL {\arabicfont  295}}
+\indexentry{ہم جنسی مساوات}{\RL {\arabicfont  295}}
