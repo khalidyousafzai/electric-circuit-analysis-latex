@@ -14,6 +14,7 @@
 \pgfmathsetmacro{\dx}{0.2}     %moving labels beyond resistor outline
 \pgfmathsetmacro{\dy}{0.2}
 \pgfmathsetmacro{\pin}{0.3}
+
 %=====================
 \usepackage{./tex/khalidUrduBooksEMT}                     %my sty file
 \usepackage{amsmath}
@@ -37,7 +38,7 @@
 
 
 %\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktTheorems,./tex/cktCapacitorInductor,./tex/cktTransients,./tex/cktToDoList}
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktCapacitorInductor,./tex/cktTransients,./tex/cktToDoList}
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktTransients,./tex/cktToDoList}%
 
 
 
@@ -65,7 +66,7 @@
 \renewcommand*{\contentsname}{عنوان}    %this command has to be placed right here
 
 \frontmatter                          %just added instead of \pagenumbering{roman}
-%%\pagenumbering{roman}    
+%%\pagenumbering{roman}
 
 \maketitle
 

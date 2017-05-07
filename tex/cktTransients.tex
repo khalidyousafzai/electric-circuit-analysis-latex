@@ -150,12 +150,13 @@ y(t)=K_1+K_2 e^{-\frac{t}{\tau}}
 %=======================
 
 \ابتدا{مثال}\شناخت{مثال_عارضی_یک_درجی_دور_الف}
-شکل \حوالہ{شکل_عارضی_سلسلہ_وار_مزاحمت_برق_گیر_الف} میں مزاحمت اور بے بار برق گیر سلسلہ وار جڑے ہیں۔لمحہ \عددی{t=0} پر سوئچ چالو کرتے ہوئے انہیں مستقل منبع دباو \عددی{V_I} کے ساتھ جوڑا جاتا ہے۔برق گیر کا دباو \عددی{v(t)} اور رو \عددی{i(t)} دریافت کریں۔
+شکل \حوالہ{شکل_عارضی_سلسلہ_وار_مزاحمت_برق_گیر_الف} میں مزاحمت اور بے بار برق گیر سلسلہ وار جڑے ہیں۔لمحہ \عددی{t=0} پر \اصطلاح{سوئچ}\فرہنگ{سوئچ}\حاشیہد{اس طرز کے سوئچ کا پورا نام ایک قطب ایک چال سوئچ ہے۔}\حاشیہب{switch, spst, single pole single throw}\فرہنگ{switch} چالو کرتے ہوئے انہیں مستقل منبع دباو \عددی{V_I} کے ساتھ جوڑا جاتا ہے۔برق گیر کا دباو \عددی{v(t)} اور رو \عددی{i(t)} دریافت کریں۔
 
 \begin{figure}
 \centering
 \begin{tikzpicture}
 \draw(0,0) to [american voltage source,l={$V_I$}]++(0,\y) to [cspst,l={${t=0}$}]++(\x,0) to [resistor,l={$R$}]++(\x,0)node[above]{$v(t)$} to [capacitor,-*,l={$C$}]++(0,-\y) node[ground]{} to [short] (0,0);
+\draw(\x/2+\dx,\y-\dy)node[below]{سوئچ};
 \draw(\x,-0.5)node{(الف)};
 \end{tikzpicture}%
 \begin{tikzpicture}
@@ -166,7 +167,7 @@ y(t)=K_1+K_2 e^{-\frac{t}{\tau}}
 	every axis y label/.style={
     at={(ticklabel* cs:1.05)},
     anchor=east,}
-,xlabel=$t$,ylabel=$v(t)$,ytick={1,0.5},yticklabel style={/pgf/number format/precision=3},yticklabels={$V_I$,$0.5 V_I$},xtick={1,2,3,4,5},xticklabels={$RC$,$2RC$,$3RC$,$4RC$,$5RC$}]
+,xlabel=$t$,ylabel=$v(t)$,ytick={1,0.5},yticklabel style={/pgf/number format/precision=3},yticklabels={$V_I$,$0.5 V_I$},xtick={1,2,3,4,5},xticklabels={$\tau$,$2\tau$,$3\tau$,$4\tau$,$5\tau$}]
 \addplot[width=4cm,domain=0:5,samples=100]{1-e^(-x)}node[pos=0.3,below right]{$v(t)=V_I \left(1-e^{-\frac{t}{RC}}\right)$};
 \end{axis}%
 \node [anchor=north] at (kb.south){(ب)};
@@ -179,7 +180,7 @@ y(t)=K_1+K_2 e^{-\frac{t}{\tau}}
 	every axis y label/.style={
     at={(ticklabel* cs:1.05)},
     anchor=east,}
-,xlabel=$t$,ylabel=$i(t)$,ytick={1,0.5},yticklabel style={/pgf/number format/precision=3},yticklabels={$\frac{V_I}{R}$,$0.5\frac{V_I}{R}$},xtick={1,2,3,4,5},xticklabels={$RC$,$2RC$,$3RC$,$4RC$,$5RC$}]
+,xlabel=$t$,ylabel=$i(t)$,ytick={1,0.5},yticklabel style={/pgf/number format/precision=3},yticklabels={$\frac{V_I}{R}$,$0.5\frac{V_I}{R}$},xtick={1,2,3,4,5},xticklabels={$\tau$,$2\tau$,$3\tau$,$4\tau$,$5\tau$}]
 \addplot[width=4cm,domain=0:5,samples=100]{e^(-x)}node[pos=0.3,above right]{$i(t)=\frac{V_I}{R}e^{-\frac{t}{RC}}$};
 \end{axis}%
 \node [anchor=north] at (kc.south){(پ)};
@@ -188,7 +189,7 @@ y(t)=K_1+K_2 e^{-\frac{t}{\tau}}
 \label{شکل_عارضی_سلسلہ_وار_مزاحمت_برق_گیر_الف}
 \end{figure} 
 
-حل:سوئچ چالو کرنے سے پہلے برق گیر بے بار ہے لہٰذا اس پر دباو صفر کے برابر ہے۔صفحہ \حوالہصفحہ{مساوات_امالہ_برق_گیر_دباو_مسلسل_ہے} پر مساوات \حوالہ{مساوات_امالہ_برق_گیر_دباو_مسلسل_ہے} کے تحت \عددی{v_C(0_+)=v_C(0_-)} ہو گا یعنی یوں سوئچ چالو کرنے کے فوراً بعد برق گیر کا دباو صفر ہی ہو گا۔سوئچ چالو کرنے کے بعد  دباو جوڑ \عددی{v(t)} کے استعمال سے کرخوف مساوات رو لکھتے ہیں
+حل:سوئچ چالو کرنے سے پہلے برق گیر بے بار ہے لہٰذا اس پر دباو صفر کے برابر ہے۔صفحہ \حوالہصفحہ{مساوات_امالہ_برق_گیر_دباو_بلا_جوڑ_ہے} پر مساوات \حوالہ{مساوات_امالہ_برق_گیر_دباو_بلا_جوڑ_ہے} کے تحت \عددی{v_C(0_+)=v_C(0_-)} ہو گا یعنی یوں سوئچ چالو کرنے کے فوراً بعد برق گیر کا دباو صفر ہی ہو گا۔سوئچ چالو کرنے کے بعد  دباو جوڑ \عددی{v(t)} کے استعمال سے کرخوف مساوات رو لکھتے ہیں
 \begin{align*}
 \frac{v(t)-V_I}{R}+C\frac{\dif v(t)}{\dif t}=0
 \end{align*}
@@ -244,11 +245,21 @@ v(t)=V_I+K_2 e^{-\frac{t}{RC}}
 \begin{align*}
 K_2=-V_I
 \end{align*}
-حاصل ہوتا ہے۔ یوں مکمل حل درج ذیل حاصل ہوتا ہے۔
-\begin{align*}
-v(t)=V_I\left(1-e^{-\frac{t}{RC}}\right)
-\end{align*}
-آپ دیکھ سکتے ہیں کہ وقتی مستقل \عددی{RC} کے برابر ہے۔ یوں \عددی{R} یا (اور) \عددی{C} بڑھانے سے  وقتی مستقل بڑھے گا جس سے دور برقرار صورت زیادہ دیر میں اختیار کرے گا۔ 
+حاصل ہوتا ہے۔ 
+
+جبری حل اور فطری حل کا مجموعہ مکمل حل دیتا ہے
+\begin{gather}
+\begin{aligned}
+v(t)&=v_j(t)+v_f(t)\\
+&=V_I\left(1-e^{-\frac{t}{RC}}\right)\\
+&=V_I\left(1-e^{-\frac{t}{\tau}}\right)
+\end{aligned}
+\end{gather}
+درج بالا مساوات میں وقتی مستقل درج ذیل ہے۔
+\begin{align}
+\tau=RC
+\end{align}
+یوں \عددی{R} یا (اور) \عددی{C} بڑھانے سے  وقتی مستقل بڑھے گا جس سے دور برقرار صورت زیادہ دیر کے بعد اختیار کرے گا۔ 
 
 رو \عددی{i(t)} کو درج بالا مساوات سے حاصل کرتے ہیں۔
 \begin{align*}
@@ -263,3 +274,309 @@ i(t)&=\frac{V_I-v(t)}{R}\\
 \end{align*} 
 \انتہا{مثال}
 %===============
+\ابتدا{مثال}\شناخت{مثال_عارضی_مزاحمت_امالہ_عارضی_الف}
+شکل \حوالہ{شکل_عارضی_مزاحمت_امالہ_الف} میں لمحہ \عددی{t=0} پر سوئچ چالو کیا جاتا ہے۔رو کا خط کھینچیں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$V_I$}]++(0,\y) to [cspst,l={${t=0}$}]++(\x,0) to [resistor,i>_={$i(t)$},l={$R$}]++(\x,0) to [inductor,-*,l={$L$}]++(0,-\y)node[ground]{} to [short] (0,0);
+\end{tikzpicture}%
+\begin{tikzpicture}
+\begin{axis}[name=kb,xlabel=$t$,ylabel=$i(t)$,ytick={1,0.5},yticklabels={$\frac{V_I}{R}$,$0.5\frac{V_I}{R}$},xtick={1,2,3,4,5},xlabel={$t$},xticklabels={$\tau$,$2\tau$,$3\tau$,$4\tau$,$5\tau$},
+axis lines*=middle,
+ every axis x label/.style={
+    at={(ticklabel* cs:1.05)},
+    anchor=east,}, 
+	every axis y label/.style={
+    at={(ticklabel* cs:1.05)},
+    anchor=east,}
+]
+\addplot[domain=0:5]{1-e^(-x)};
+\end{axis}%
+\end{tikzpicture}%
+\caption{مثال \حوالہ{مثال_عارضی_مزاحمت_امالہ_عارضی_الف} کے اشکال۔}
+\label{شکل_عارضی_مزاحمت_امالہ_الف}
+\end{figure}
+
+حل:کرخوف مساوات دباو
+\begin{align*}
+V_I=i(t)R+L\frac{\dif i(t)}{\dif t}
+\end{align*}
+کو ترتیب دیتے ہوئے عمومی شکل میں لاتے ہیں
+\begin{align}\label{مساوات_عارضی_امالہ_گیر_عمومی_الف}
+\frac{\dif i(t)}{\dif t}+\frac{R}{L} i(t)=\frac{V_I}{L}
+\end{align}
+جس کا جبری حل
+\begin{align*}
+i_j(t)=K_1
+\end{align*}
+ہو گا۔جبری حل کو عمومی مساوات میں پُر کرتے ہوئے حل کرنے سے
+\begin{align*}
+\frac{\dif K_1}{\dif t}+\frac{R}{L} K_1&=\frac{V_I}{L}\\
+0+\frac{R}{L} K_1&=\frac{V_I}{L}
+\end{align*}
+یعنی
+\begin{align*}
+K_1=\frac{V_I}{R}
+\end{align*}
+حاصل ہوتا ہے جس سے جبری حل درج ذیل لکھا جائے گا۔
+\begin{align*}
+i_j(t)=\frac{V_I}{R}
+\end{align*}
+یہی جواب منطق سے بھی حاصل کیا جا سکتا ہے۔چونکہ  یک سمتی رو کے لئے امالہ گیر بطور قصر دور کردار ادا کرتا ہے لہٰذا عارضی دورانیہ گزر جانے کے بعد ہم امالہ گیر کو قصر دور تصور کر سکتے ہیں۔شکل \حوالہ{شکل_عارضی_مزاحمت_امالہ_الف} میں امالہ گیر کو قصر دور کرتے ہوئے اوہم کے قانون سے \عددی{i_j(t)=\tfrac{V_I}{R}} لکھا جا سکتا ہے۔
+
+فطری حل حاصل کرنے کی خاطر مساوات \حوالہ{مساوات_عارضی_امالہ_گیر_عمومی_الف} میں دیے گئے عمومی مساوات کا دایاں ہاتھ صفر کے برابر پُر کرتے ہوئے درج ذیل ہم جنسی مساوات حاصل کرتے ہیں۔
+\begin{align*}
+\frac{\dif i(t)}{\dif t}+\frac{R}{L} i(t)=0
+\end{align*}
+اس کو ترتیب دیتے ہوئے
+\begin{align*}
+\frac{\dif i(t)}{i(t)}=-\frac{R}{L} \dif t
+\end{align*}
+تکمل لینے سے
+\begin{align*}
+\ln i(t)=-\frac{R}{L}t +c
+\end{align*}
+یعنی
+\begin{align*}
+i_f(t)=K_2e^{-\frac{R}{L}t}
+\end{align*}
+حاصل ہوتا ہے۔
+
+جبری اور فطری حل کا مجموعہ مکمل حل دیتا ہے
+\begin{gather}
+\begin{aligned}\label{مساوات_عارضی_مزاحمت_امالہ_مکمل_حل_الف}
+i(t)&=i_j(t)+i_f(t)\\
+&=\frac{V_I}{R}+K_2e^{-\frac{R}{L}t}\\
+&=\frac{V_I}{R}+K_2e^{-\frac{t}{\tau}}
+\end{aligned}
+\end{gather}
+جہاں وقتی مستقل درج ذیل ہے۔
+\begin{align}
+\tau=\frac{R}{L}
+\end{align}
+مکمل حل میں نا معلوم مستقل \عددی{K_2} کو ابتدائی معلومات سے حاصل کیا جا سکتا ہے۔سوئچ چالو کرنے سے پہلے دور میں رو صفر کے برابر ہے۔صفحہ \حوالہصفحہ{مساوات_امالہ_امالہ_گیر_رو_بلا_جوڑ_ہے} پر مساوات \حوالہ{مساوات_امالہ_امالہ_گیر_رو_بلا_جوڑ_ہے} کے تحت امالہ کی رو بلا جوڑ تفاعل
+\begin{align*}
+i_L(t_+)=i_L(t_-)
+\end{align*} 
+ہے لہٰذا سوئچ چالو کرنے کے فوراً بعد امالہ کی رو وہی ہو گی جو سوئچ چالو کرنے کے فوراً پہلے تھی یعنی لمحہ \عددی{t=0_+} پر \عددی{i_L(0_+)=i_L(0_-)=0} ہو گی۔ان معلومات کو مساوات \حوالہ{مساوات_عارضی_مزاحمت_امالہ_مکمل_حل_الف} میں دیے مکمل حل میں پُر کرنے سے
+\begin{align*}
+0&=\frac{V_I}{R}+K_2e^{-\frac{0}{\tau}}
+\end{align*}
+یعنی
+\begin{align*}
+K_2=-\frac{V_I}{R}
+\end{align*}
+حاصل ہوتا ہے۔یوں مکمل حل درج ذیل لکھا جائے گا۔
+\begin{align}
+i(t)=\frac{V_I}{R} \left(1-e^{-\frac{t}{\tau}}\right)
+\end{align}
+رو کے خط کو شکل \حوالہ{شکل_عارضی_مزاحمت_امالہ_الف}-ب میں دکھایا گیا ہے۔
+\انتہا{مثال}
+%=====================
+\ابتدا{مثال}\شناخت{مثال_عارضی_دو_عدد_مزاحمت_برق_گیر_الف}
+ازل سے شکل \حوالہ{شکل_عارضی_دو_عدد_مزاحمت_برق_گیر_الف} میں \اصطلاح{ایک قطب دو چال سوئچ}\فرہنگ{سوئچ!ایک قطب دو چال}\حاشیہب{single pole double throw switch, spdt}\فرہنگ{switch!spdt} اسی جگہ پر ہے۔لمحہ \عددی{t=0} پر اس کی جگہ تبدیل کرتے ہوئے \عددی{\SI{5}{\kilo\ohm}} مزاحمت کو زمین کے ساتھ جوڑا جاتا ہے۔برق گیر پر دباو دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{20}{\volt}$}]++(0,\y)coordinate(kP)++(\x,0) node[spdt,xscale=-1](kspdt){};
+\draw[name path=kkk](kspdt.in) to [resistor,l={$\SI{5}{\kilo\ohm}$}]++(\x,0) to [short]++(\x,0) to [capacitor,l={$\SI{200}{\micro\farad}$}]++(0,-\y)coordinate(kbot)-|(0,0);
+\draw(kP)|-(kspdt.out 1);
+\draw(kbot)++(-\x,0)node[ground]{} to [resistor,*-*,l={$\SI{15}{\kilo\ohm}$}]++(0,\y);
+\path[name path=kvert](kspdt.out 2)--++(0,-\y);
+\draw[name intersections={of=kvert and kkk}] (kspdt.out 2) to [short,-*](intersection-1);
+\draw(\x,-\y/4)node{(الف)};
+\end{tikzpicture}%
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{20}{\volt}$}]++(0,\y)coordinate(kP)++(\x,0) node[spdt,xscale=-1](kspdt){};
+\draw[](kspdt.in) to [resistor,l={$\SI{5}{\kilo\ohm}$}]++(\x,0) to [short]++(\x,0) to [short,-o]++(0,-\y/8)++(0,-6/8*\y) to [short,o-]++(0,-\y/8)coordinate(kbot);
+\draw[name path=kkk](0,0)--++(kbot);
+\draw(kP)|-(kspdt.out 1);
+\draw(kbot)++(-\x,0)node[ground]{} to [resistor,*-*,l={$\SI{15}{\kilo\ohm}$}]++(0,\y);
+\path[name path=kvert](kspdt.out 2)--++(0,-\y);
+\draw[name intersections={of=kvert and kkk}] (kspdt.out 2) to [short,-*](intersection-1);
+\draw(kbot)++(0,\y/2)node{$\begin{aligned}&+ \\ &v_C \\ &-  \end{aligned}$};
+\draw(\x,-\y/4)node{(ب)};
+\end{tikzpicture}%
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{20}{\volt}$}]++(0,\y)coordinate(kP)++(\x,0) node[spdt,xscale=-1,yscale=-1](kspdt){};
+\draw[name path=kkk](kspdt.in) to [resistor,l={$\SI{5}{\kilo\ohm}$}]++(\x,0) to [short]++(\x,0)node[above]{$v_C(t)$} to [capacitor,l={$\SI{200}{\micro\farad}$}]++(0,-\y)coordinate(kbot)-|(0,0);
+\draw(kP)|-(kspdt.out 2);
+\draw(kbot)++(-\x,0)node[ground]{} to [resistor,*-*,l={$\SI{15}{\kilo\ohm}$}]++(0,\y);
+\path[name path=kvert](kspdt.out 1)--++(0,-\y);
+\draw[name intersections={of=kvert and kkk}] (kspdt.out 1) to [short,-*](intersection-1);
+\draw(\x,-\y/4)node{(پ)};
+\end{tikzpicture}%
+\begin{tikzpicture}
+\begin{axis}[axis lines*=middle,ytick={5,10},xlabel=$t$,ylabel=$v_C(t)$,
+every axis x label/.style={
+    at={(ticklabel* cs:1.05)},
+    anchor=east,}, 
+	every axis y label/.style={
+    at={(ticklabel* cs:1.05)},
+    anchor=east,}
+]
+\addplot[domain=0:6,samples=100]{15*e^(-4*x/3)};
+\addplot[domain=-1:0,samples=10]{15}node[right]{$\SI{15}{\volt}$};
+\end{axis}
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_عارضی_دو_عدد_مزاحمت_برق_گیر_الف} کے اشکال۔}
+\label{شکل_عارضی_دو_عدد_مزاحمت_برق_گیر_الف}
+\end{figure}
+
+حل:ازل سے دور منبع کے ساتھ جڑا رہا ہے۔یوں دور برقرار حالت میں ہو گا اور برق گیر کو کھلا دور تصور کیا جاتا ہے۔ایسا کرنے سے شکل-ب حاصل ہوتی ہے جہاں سے تقسیم دباو کے کلیے سے برق گیر کا ابتدائی دباو درج ذیل حاصل ہوتا ہے۔
+\begin{align*}
+v_C(0_-)=20\left(\frac{\SI{15}{\kilo\ohm}}{\SI{5}{\kilo\ohm}+\SI{15}{\kilo\ohm}}\right)=\SI{15}{\volt}
+\end{align*}
+برق گیر کا دباو بلا جوڑ ہے لہٰذا
+\begin{align*}
+v_C(0_+)=v_C(0_-)=\SI{15}{\volt} \quad \quad \text{\RL{ابتدائی حالت}}
+\end{align*}
+ہو گا۔لمحہ \عددیء{t=0} کے بعد کی صورت شکل-پ میں دکھائی گئی ہے۔ہمیں اس شکل میں \عددی{v(t)} درکار ہے جسے کرخوف مساوات رو کی مدد سے حاصل کرتے ہیں۔
+\begin{align*}
+\frac{v_C(t)}{5000}+\frac{v_C(t)}{15000}+200\times 10^{-6}\frac{\dif v_C(t)}{\dif t}=0
+\end{align*}
+اس ہم جنسی مساوات کو ترتیب دیتے ہوئے
+\begin{align*}
+\frac{\dif v_C(t)}{v_C(t)}=-\frac{4}{3}\dif t
+\end{align*}
+لکھا جا سکتا ہے جس کا تکمل
+\begin{align*}
+\ln v_C(t)=-\frac{4}{3}t+c
+\end{align*}
+یا
+\begin{align*}
+v_C(t)=Ke^{-\frac{4}{3}t}
+\end{align*}
+کے برابر ہے جہاں تکمل کے مستقل کو \عددی{c} یا \عددی{K} لکھا گیا ہے۔ابتدائی حالت کی معلومات اس مساوات میں پُر کرتے ہوئے 
+\begin{align*}
+15=Ke^{0}
+\end{align*}
+سے \عددی{K} کی قیمت درج ذیل
+\begin{align*}
+K=15
+\end{align*}
+حاصل ہوتی ہے۔یوں 
+\begin{align*}
+v_C(t)=15 e^{-\frac{4}{3}t}
+\end{align*}
+حاصل ہوتا ہے جس میں وقتی مستقل \عددی{\tau=\tfrac{3}{4}} کے برابر ہے۔یوں سوئچ چالو کرنے کے \عددی{\SI{0.75}{\second}} بعد برق گیر کا دباو ابتدائی قیمت کے \عددی{\SI{36.8}{\percent}} یعنی \عددی{0.368 \times 15=\SI{5.52}{\volt}} ہو گا۔ 
+\انتہا{مثال}
+%======================
+\ابتدا{مثال}\شناخت{مثال_عارضی_دو_عدد_مزاحمت_امالہ_گیر_الف}
+ازل سے شکل \حوالہ{شکل_عارضی_دو_عدد_مزاحمت_امالہ_گیر_الف} میں سوئچ غیر چالو تھا جسے \عددی{t=0} پر چالو کیا جاتا ہے۔امالہ گیر کی رو \عددی{i_L(t)} دریافت کریں۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{24}{\volt}$}]++(0,\y) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(\x,0) to [cspst,l={${t=0}$}]++(\x,0) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(\x,0) to [inductor,i={$i_L(t)$},l={$\SI{1}{\milli\henry}$}]++(0,-\y) to [short] (0,0);
+\draw(2*\x,0) to [american current source,*-*,l={$\SI{4}{\milli\ampere}$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{24}{\volt}$}]++(0,\y) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(\x,0) to [resistor,-o,l={$\SI{1}{\kilo\ohm}$}]++(\x,0);
+\draw(0,0) to [short,-o]++(2*\x,0);
+% to [inductor,i={$i_L(t)$},l={$\SI{1}{\milli\henry}$}]++(0,-\y) to [short] (0,0);
+\draw(\x,0) to [american current source,*-*,l={$\SI{4}{\milli\ampere}$}]++(0,\y)node[above]{$v_t$};
+\draw(2*\x,\y/2)node{$\begin{aligned} &+ \\ &v_{\text{تھونن}}\\ &- \end{aligned}$};
+\end{tikzpicture}%
+\caption*{(ب)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short]++(0,\y) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(\x,0) to [resistor,-o,l={$\SI{1}{\kilo\ohm}$}]++(\x,0);
+\draw(0,0) to [short,-o]++(2*\x,0);
+% to [inductor,i={$i_L(t)$},l={$\SI{1}{\milli\henry}$}]++(0,-\y) to [short] (0,0);
+%\draw(\x,0) to [american current source,*-*,l={$\SI{4}{\milli\ampere}$}]++(0,\y);
+\draw[stealth-](2*\x,\y/2)--++(\x/4,0)--++(0,-\y/8)node[below]{$R_{\text{تھونن}}$};
+\end{tikzpicture}%
+\caption*{(پ)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{28}{\volt}$}]++(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [inductor,i={$i_L(t)$},l={$\SI{1}{\milli\henry}$}]++(0,-\y) --(0,0);
+\end{tikzpicture}%
+\caption*{(ت)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\pgfplotsset{scaled y ticks=false, scaled x ticks=false}
+\begin{tikzpicture}
+\begin{axis}[axis lines*=middle,
+ytick={0.014},yticklabels={$\SI{14}{\milli\ampere}$},xlabel=$t(\si{\micro\second})$,ylabel=$i_L(t)$,
+xtick={-0.000001,0.000001,0.000002,0.000003,0.000004,0.000005}, xticklabels={$-1$,$1$,$2$,$3$,$4$,$5$},
+every axis x label/.style={
+    at={(ticklabel* cs:1.15)},
+    anchor=east,}, 
+	every axis y label/.style={
+    at={(ticklabel* cs:1.05)},
+    anchor=east,}
+]
+\addplot[domain=0:3*10^(-6),samples=20]{0.014-0.01*e^(-2000000*x)};
+\addplot[domain=-1*10^(-6):0,samples=10]{0.004}node[right]{$\SI{4}{\milli\ampere}$};
+\end{axis}
+\end{tikzpicture}%
+\caption*{(ٹ)}
+\end{subfigure}%
+\caption{مثال \حوالہ{مثال_عارضی_دو_عدد_مزاحمت_امالہ_گیر_الف} کے اشکال۔}
+\label{شکل_عارضی_دو_عدد_مزاحمت_امالہ_گیر_الف}
+\end{figure}
+
+حل:غیر چالو سوئچ کی صورت میں منبع رو کی تمام رو امالی گیر سے گزرتی ہے لہٰذا
+\begin{align*}
+i_L(0_-)=i_L(0_+)=\SI{4}{\milli\ampere}
+\end{align*}
+ہو گا۔اس دور کو مسئلہ تھونن کی مدد سے حل کرتے ہیں۔یوں امالہ کو بوجھ تصور کرتے ہوئے بقایا دور کا تھونن مساوی حاصل کرتے ہیں۔تھونن دباو حاصل کرنے کی خاطر بوجھ کو کھلے دور کیا جاتا ہے جس سے شکل \حوالہ{شکل_عارضی_دو_عدد_مزاحمت_امالہ_گیر_الف}-ب حاصل ہوتی ہے۔اس شکل میں منبع رو کی تمام رو بائیں مزاحمت اور منبع دباو سے گزرے گی لہٰذا مزاحمت پر \عددی{\SI{4}{\volt}} کا دباو ہو گا۔یوں
+\begin{align*}
+v_t=v_{\text{تھونن}}=\SI{24}{\volt}+\SI{4}{\volt}=\SI{28}{\volt}
+\end{align*}
+لکھا جا سکتا ہے۔یاد رہے کہ بالائی دائیں مزاحمت میں رو صفر کے برابر ہے لہٰذا اس پر دباو بھی صفر ہو گا اور یوں \عددی{v_t} اور \عددی{v_{\text{تھونن}}} برابر ہوں گے۔
+
+منبع دباو کو قصر دور اور منبع رو کو کھلے دور کرتے ہوئے شکل-پ حاصل ہوتی ہے جسے دیکھتے ہوئے تھونن مزاحمت
+\begin{align*}
+R_{\text{تھونن}}=\SI{2}{\kilo\ohm}
+\end{align*}
+لکھی جا سکتی ہے۔
+
+تھونن مساوی دور استعمال کرتے ہوئے شکل-الف کو شکل-ت کی طرز پر بنایا جا سکتا ہے۔شکل-ت کی کرخوف مساوات
+\begin{align*}
+28=2000 i(t)+0.001 \frac{\dif i(t)}{\dif t}
+\end{align*}
+کو عمومی صورت میں لکھتے ہیں۔
+\begin{align*}
+\frac{\dif i(t)}{\dif t}+2\times 10^6 i(t)=28000
+\end{align*}
+اس مساوات کا جبری حل 
+\begin{align*}
+i_j(t)=K_1=\SI{14}{\milli\ampere}
+\end{align*}
+حاصل ہوتا ہے اور اس کا فطری حل
+\begin{align*}
+i_f(t)=K_2 e^{-2\times 10^6 t}
+\end{align*}
+ہے-یوں امالہ گیر کے رو کا مکمل حل
+\begin{align*}
+i(t)=0.014+K_2 e^{-2\times 10^6 t}
+\end{align*}
+ہے۔ابتدائی معلومات کو اس مساوات میں حل کرتے ہوئے
+\begin{align*}
+0.004=0.014+K_2 e^{0}
+\end{align*}
+سے
+\begin{align*}
+K_2=\SI{-10}{\milli\ampere}
+\end{align*}
+حاصل ہوتا ہے۔یوں مکمل حل درج ذیل ہے۔
+\begin{align}\label{مساوات_عارضی_امالہ_گیر_مکمل_حل_ب}
+i_L(t)=0.014-0.01e^{-2\times 10^6 t}
+\end{align} 
+اس مساوات کا وقتی مستقل \عددی{\tau=\SI{0.5}{\micro\second}} ہے۔یوں تقریباً \عددی{5\tau=\SI{2.5}{\micro\second}} میں دور پہلی برقرار حالت سے دوسری برقرار حالت اختیار کر پاتا ہے۔مساوات \حوالہ{مساوات_عارضی_امالہ_گیر_مکمل_حل_ب} کو شکل-ٹ میں دکھایا گیا ہے۔
+\انتہا{مثال}
+%=======================
