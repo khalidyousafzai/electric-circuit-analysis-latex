@@ -529,7 +529,7 @@ every axis x label/.style={
 \label{شکل_عارضی_دو_عدد_مزاحمت_امالہ_گیر_الف}
 \end{figure}
 
-حل:غیر چالو سوئچ کی صورت میں منبع رو کی تمام رو امالی گیر سے گزرتی ہے لہٰذا
+حل:غیر چالو سوئچ کی صورت میں منبع رو کی تمام رو امالہ گیر سے گزرتی ہے لہٰذا
 \begin{align*}
 i_L(0_-)=i_L(0_+)=\SI{4}{\milli\ampere}
 \end{align*}
@@ -580,3 +580,55 @@ i_L(t)=0.014-0.01e^{-2\times 10^6 t}
 اس مساوات کا وقتی مستقل \عددی{\tau=\SI{0.5}{\micro\second}} ہے۔یوں تقریباً \عددی{5\tau=\SI{2.5}{\micro\second}} میں دور پہلی برقرار حالت سے دوسری برقرار حالت اختیار کر پاتا ہے۔مساوات \حوالہ{مساوات_عارضی_امالہ_گیر_مکمل_حل_ب} کو شکل-ٹ میں دکھایا گیا ہے۔
 \انتہا{مثال}
 %=======================
+\ابتدا{مشق}\شناخت{مشق_عارضی_برق_گیر_الف}
+شکل \حوالہ{شکل_عارضی_مشق_برق_گیر_الف} میں ازل سے چالو سوئچ کو  لمحہ \عددی{t=0} پر منقطع کیا جاتا ہے۔برق گیر پر ابتدائی دباو دریافت کرتے ہوئے \عددی{v_0(t)} دریافت کریں۔ اس دور کا وقتی مستقل کیا ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{24}{\volt}$}]++(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [ospst,l={${t=0}$}] ++(\x,0) to [resistor,l={$\SI{6}{\kilo\ohm}$}]++(\x,0) to [resistor,l_={$\SI{4}{\kilo\ohm}$}]++(0,-\y) to [short] (0,0);
+\draw(2*\x,0) to [capacitor,*-*,l={$\SI{50}{\micro\farad}$}]++(0,\y);
+\draw(3*\x+\dx,\y/2)node[right]{$\begin{aligned}&+ \\ &v_0(t) \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_عارضی_برق_گیر_الف} کا دور۔}
+\label{شکل_عارضی_مشق_برق_گیر_الف}
+\end{figure}
+
+جوابات:\عددی{v_C(0_+)=\SI{20}{\volt}}، \عددی{v_0(t)=8 e^{-\frac{t}{0.5}} \, \si{\volt}}، \عددی{\tau=\SI{0.5}{\second}}
+\انتہا{مشق}
+%===================
+
+\ابتدا{مشق}\شناخت{مشق_عارضی_برق_گیر_ب}
+شکل \حوالہ{شکل_عارضی_مشق_برق_گیر_ب} میں ازل سے چالو سوئچ کو  لمحہ \عددی{t=0} پر منقطع کیا جاتا ہے۔برق گیر پر ابتدائی دباو دریافت کرتے ہوئے \عددی{v_0(t)} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{12}{\volt}$}]++(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [ospst,l={${t=0}$}] ++(\x,0) to [short]++(2*\x,0) to [capacitor,l_={$\SI{10}{\micro\farad}$}]++(0,-\y) to [short] (0,0);
+\draw(\x,0) to [resistor,*-*,l={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\draw(3*\x,0) to [resistor,*-*,l={$\SI{8}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [american current source,*-*,l={$\SI{4}{\milli\ampere}$}]++(0,\y);
+\draw(4*\x+2*\dx,\y/2)node[right]{$\begin{aligned}&+ \\ &v_0(t) \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_عارضی_برق_گیر_ب} کا دور۔}
+\label{شکل_عارضی_مشق_برق_گیر_ب}
+\end{figure}
+
+جوابات:\عددی{v_0(0_+)=\frac{80}{7} \, \si{\volt}}، \عددی{v_0(t)=32-\frac{144}{7}e^{-\frac{100t}{7}} \, \si{\volt}}
+\انتہا{مشق}
+%===================
+
+
+\ابتدا{مشق}\شناخت{مشق_عارضی_برق_گیر_پ}
+شکل \حوالہ{شکل_عارضی_مشق_برق_گیر_پ} میں ازل سے چالو سوئچ کو  لمحہ \عددی{t=0} پر منقطع کیا جاتا ہے۔امالہ گیر میں ابتدائی رو دریافت کرتے ہوئے \عددی{i_L(t)} دریافت کریں۔دور کا وقتی مستقل  حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{10}{\volt}$}]++(0,2*\y) to [ospst,l={${t=\SI{0}{\second}}$}]++(\x,0) to [short] ++(\x,0) to [short]++(\x,0) to [resistor,l_={$\SI{10}{\ohm}$}]++(0,-2*\y) to [short] (0,0);
+\draw(\x,0) to [resistor,*-,l={$\SI{8}{\ohm}$}]++(0,\y) to [inductor,i<_={$i_L$},-*,l={$\SI{4}{\henry}$}]++(0,\y);
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_عارضی_برق_گیر_پ} کا دور۔}
+\label{شکل_عارضی_مشق_برق_گیر_پ}
+\end{figure}
+
+جوابات:\عددی{i_L(0_+)=\SI{1.25}{\ampere}}، \عددی{i_L(t)=1.25e^{-3000t} \, \si{\ampere}}، \عددی{\tau=\tfrac{1}{3} \, \si{\milli\second}}
+\انتہا{مشق}
+%===================
