@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  10 MAY 2017 12:48
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  11 MAY 2017 17:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3008,11 +3008,11 @@ ne 73.
 (./circuitAnalysis.toc
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 10.0pt on input line 2.
- [3])
+ [3] [4])
 \tf@toc=\write5
 \openout5 = `circuitAnalysis.toc'.
 
- [4] [5] [6
+ [5] [6
 
 ]
 \openout2 = `./tex/cktTransients.aux'.
@@ -3144,12 +3144,51 @@ Overfull \hbox (99.7724pt too wide) in paragraph at lines 665--677
 [][][][] 
  []
 
-[312] [313] [314]) [315] [316
+[312] [313] [314]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \hbox (58.57109pt too wide) in paragraph at lines 751--754
+ [][][][] 
+ []
 
 
-] (./circuitAnalysis.aux (./tex/cktBasics.aux)
-(./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
-(./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
+Overfull \hbox (1.6656pt too wide) in paragraph at lines 760--762
+ [][][][] 
+ []
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \hbox (70.83897pt too wide) in paragraph at lines 783--796
+ [][][][] 
+ []
+
+[315] [316] [317]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [318]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [319] [320]) [321] [322] (./circuitAnalysis.aux
+(./tex/cktBasics.aux) (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux)
+(./tex/cktOpamp.aux) (./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
 (./tex/cktTransients.aux))
 
 LaTeX Font Warning: Size substitutions with differences
@@ -3160,12 +3199,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46603 strings out of 493918
- 1103982 string characters out of 6150562
- 1358213 words of memory out of 5000000
- 49025 multiletter control sequences out of 15000+600000
+ 47527 strings out of 493918
+ 1126322 string characters out of 6150562
+ 1358942 words of memory out of 5000000
+ 49949 multiletter control sequences out of 15000+600000
  37471 words of font info for 148 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,19n,74p,10476b,3189s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (30 pages).
+Output written on circuitAnalysis.pdf (36 pages).

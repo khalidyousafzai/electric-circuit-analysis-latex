@@ -64,3 +64,4 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 7}}تعارف}{\RL {\arabicfont 293}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 7}}ایک درجی ادوار}{\RL {\arabicfont 293}}
 \contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 2}.\RL {\arabicfont 7}}رد عمل کی عمومی مساوات}{\RL {\arabicfont 295}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 7}}دھڑکن}{\RL {\arabicfont 320}}
