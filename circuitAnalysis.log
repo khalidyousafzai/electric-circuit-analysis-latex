@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  12 MAY 2017 18:50
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  13 MAY 2017 18:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3231,7 +3231,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-[328] [329]) [330] (./circuitAnalysis.aux (./tex/cktBasics.aux)
+[328] [329] [330] [331]) [332] (./circuitAnalysis.aux (./tex/cktBasics.aux)
 (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
 (./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
 (./tex/cktTransients.aux))
@@ -3244,12 +3244,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 48031 strings out of 493918
- 1138620 string characters out of 6150562
- 1359243 words of memory out of 5000000
- 50453 multiletter control sequences out of 15000+600000
- 37471 words of font info for 148 fonts, out of 8000000 for 9000
+ 48035 strings out of 493918
+ 1138582 string characters out of 6150562
+ 1358587 words of memory out of 5000000
+ 50457 multiletter control sequences out of 15000+600000
+ 40922 words of font info for 159 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,19n,74p,10476b,3189s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (44 pages).
+Output written on circuitAnalysis.pdf (46 pages).

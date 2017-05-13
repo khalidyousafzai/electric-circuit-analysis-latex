@@ -1272,8 +1272,71 @@ s&=\frac{-2\zeta\omega_0\mp\sqrt{4\zeta^2\omega_0^2-4\omega_0^2}}{2}\\
 \end{aligned}
 \end{gather}
 یعنی
-\begin{align}
+\begin{gather}
+\begin{aligned}\label{مساوات_عارضی_دو_درجی_ہم_سمتی_عمومی_حل_الف}
 s_1=-\zeta\omega_0+ \omega_0\sqrt{\zeta^2-1}\\
 s_2=-\zeta\omega_0- \omega_0\sqrt{\zeta^2-1}
+\end{aligned}
+\end{gather}
+ملتے ہیں۔یوں دو فطری حل \عددی{K_2 e^{s_1t}} اور \عددی{K_3 e^{s_2t}} ممکن ہیں۔ایسی صورت میں عمومی فطری حل ان کا مجموعہ ہو گا
+یوں عمومی فطری حل کو 
+\begin{align}
+y_f(t)=K_2 e^{s_1 t}+K_3 e^{s_2 t}
 \end{align}
-ملتے ہیں۔
+جہاں مستقل \عددی{K_2} اور \عددی{K_3} کو ابتدائی معلومات مثلاً \عددی{y(0)} اور \عددی{\left. \tfrac{\dif y(t)}{\dif t} \right|_{t=0}} سے حاصل کیا جاتا ہے۔
+
+مساوات \حوالہ{مساوات_عارضی_دو_درجی_ہم_سمتی_عمومی_حل_الف} پر غور کرنے سے ظاہر ہوتا ہے کہ \عددی{s_1} اور \عددی{s_2} کی قیمتوں کا دارومدار \عددی{\zeta} کی قیمت پر ہے۔تین ممکنہ صورتیں پائی جاتی ہیں یعنی \عددی{\zeta>1}، \عددی{\zeta<1} اور \عددی{\zeta=1} جن سے بالترتیب \عددی{s_1} اور \عددی{s_2} کی قیمتیں حقیقی اور مختلف، خیالی اور مختلف اور حقیقی اور برابر حاصل ہوتی ہیں۔آئیں ان تینوں صورتوں پر تفصیلاً غور کریں۔
+
+\حصہء{زیادہ مقصور صورت، \عددی{\zeta>1}} 
+\اصطلاح{زیادہ مقصور صورت}\فرہنگ{مقصور!زیادہ}\حاشیہب{over damped condition}\فرہنگ{over damped condition} میں \عددی{s_1} اور \عددی{s_2} کی قیمتیں حقیقی اور آپس میں مختلف حاصل ہوتی ہیں۔زیادہ مقصور حالت \عددی{zeta>1} کی صورت میں پائی جاتی ہے۔ایسی صورت میں فطری حل کو درج ذیل لکھا جا سکتا ہے
+\begin{align}
+y_f(t)=K_2 e^{-(\zeta\omega_0- \omega_0\sqrt{\zeta^2-1})t}+K_3 e^{-(\zeta\omega_0+ \omega_0\sqrt{\zeta^2-1})t}
+\end{align}
+جو دو عدد، قوت نمائی انحطاطی تفاعل  کا مجموعہ ہے۔
+
+\حصہء{کم مقصور صورت، \عددی{\zeta<1}}
+ \اصطلاح{کم مقصور صورت}\فرہنگ{مقصور!کم}\حاشیہب{under damped condition}\فرہنگ{under damped condition} \عددی{\zeta<1} میں \عددی{s_1} اور \عددی{s_2} کی قیمتیں خیالی حاصل ہوتی ہیں جنہیں درج ذیل لکھا جا سکتا ہے
+\begin{gather}
+\begin{aligned}
+s_1=-\zeta\omega_0+ j\omega_0\sqrt{1-\zeta^2}=-\sigma+j \omega_d\\
+s_2=-\zeta\omega_0- j\omega_0\sqrt{1-\zeta^2}=-\sigma-j\omega_d
+\end{aligned}
+\end{gather}
+جہاں \عددی{\zeta\omega_0=\sigma} اور \عددی{\omega\sqrt{1-\zeta^2}=\omega_d} لکھے گئے ہیں جبکہ \عددی{j=\sqrt{-1}} ہے۔یوں فطری حل
+\begin{align*}
+y_f(t)&=K_2e^{-\sigma t+j\omega_d t}+K_3e^{-\sigma t -j \omega_d t}\\
+&=e^{-\sigma t} \left[K_2 e^{j \omega_d t}+K_3 e^{-j \omega_d t}\right]\\
+&=e^{-\sigma t} \left[K_2(\cos \omega_d t + j \sin \omega_d t)+K_3(\cos \omega_d t -j \sin \omega_d t)\right]\\
+&=e^{-\sigma t} \left[(K_2+K_3)\cos \omega_d t+j(K_2-K_3)\sin \omega_d t\right]
+\end{align*}
+یعنی
+\begin{align}\label{مساوات_عارضی_فطری_حل_کم_تقصیر_الف}
+y_f(t)=e^{-\sigma t} \left(c_1 \cos \omega_d t +j c_2 \sin \omega_d t\right)
+\end{align}
+لکھا جائے گا جہاں \عددی{K_2+K_3=c_1} اور \عددی{K_2-K_3=c_2} لکھے گئے ہیں۔فطری حل کے مستقل \عددی{c_1} اور \عددی{c_2} کو ابتدائی معلومات سے حاصل کیا جاتا ہے۔
+
+مساوات \حوالہ{مساوات_عارضی_فطری_حل_کم_تقصیر_الف} میں
+\begin{align*}
+c_1&=A \cos \theta\\
+c_2&=A\sin \theta
+\end{align*}
+پُر کرتے ہوئے
+\begin{align*}
+y_f(t)=e^{-\sigma t} \left(A \cos \theta \cos \omega_d t +j A \sin \theta \sin \omega_d t\right)
+\end{align*}
+یعنی
+\begin{align}\label{مساوات_عارضی_فطری_حل_کم_تقصیر_ب}
+y_f(t)=Ae^{-\sigma t} \cos(\omega_d t -\theta)
+\end{align}
+لکھا جا سکتا ہے۔مساوات \حوالہ{مساوات_عارضی_فطری_حل_کم_تقصیر_ب} کے مستقل \عددی{A} اور \عددی{\theta} ہیں جنہیں ابتدائی معلومات سے حاصل کیا جاتا ہے۔مساوات \حوالہ{مساوات_عارضی_فطری_حل_کم_تقصیر_ب} \اصطلاح{قصری ارتعاش}\فرہنگ{قصری ارتعاش}\حاشیہب{damped oscillation}\فرہنگ{damped!oscillation}  کو ظاہر کرتی ہے۔
+
+\حصہء{فاصل مقصور صورت، \عددی{\zeta=1}}
+\اصطلاح{فاصل مقصور صورت} \عددی{\zeta=1} میں
+\begin{align}
+s_1=s_2=-\zeta \omega_0
+\end{align}
+حاصل ہوتے ہیں۔جب \عددی{s_1} اور \عددی{s_2} کی قیمتیں ایک دونوں کے برابر \عددی{s_1=s_2} ہوں تب عمومی فطری حل درج ذیل لکھا جاتا ہے
+\begin{align}
+y_f(t)=K_2 e^{-\zeta \omega_0 t}+K_3 t e^{-\zeta \omega_0 t}
+\end{align}
+جہاں دوسرے جزو کو \عددی{t} سے ضرب دیا گیا ہے۔مساوات کے مستقل \عددی{K_2} اور \عددی{K_3} کو ابتدائی معلومات سے حاصل کیا جاتا ہے۔
