@@ -14,20 +14,24 @@
 \indexentry{differential equation!second order}{\RL {\arabicfont  294}}
 \indexentry{تفرقی مساوات!دو درجی}{\RL {\arabicfont  294}}
 \indexentry{دو درجی!تفرقی مساوات}{\RL {\arabicfont  294}}
+\indexentry{differential equation}{\RL {\arabicfont  294}}
+\indexentry{تفرقی مساوات}{\RL {\arabicfont  294}}
+\indexentry{integro-differential equation}{\RL {\arabicfont  294}}
+\indexentry{تکمل و تفرقی}{\RL {\arabicfont  294}}
 \indexentry{forcing function}{\RL {\arabicfont  295}}
-\indexentry{عملی قوت}{\RL {\arabicfont  295}}
+\indexentry{جبری قوت}{\RL {\arabicfont  295}}
 \indexentry{response!natural}{\RL {\arabicfont  295}}
 \indexentry{natural response}{\RL {\arabicfont  295}}
 \indexentry{complementary solution}{\RL {\arabicfont  295}}
 \indexentry{رد عمل!فطری}{\RL {\arabicfont  295}}
 \indexentry{فطری رد عمل}{\RL {\arabicfont  295}}
-\indexentry{forced response}{\RL {\arabicfont  295}}
-\indexentry{particular solution}{\RL {\arabicfont  295}}
-\indexentry{رد عمل!جبری}{\RL {\arabicfont  295}}
-\indexentry{جبری رد عمل}{\RL {\arabicfont  295}}
-\indexentry{homogenous equation}{\RL {\arabicfont  295}}
-\indexentry{مساوات!ہم جنسی}{\RL {\arabicfont  295}}
-\indexentry{ہم جنسی مساوات}{\RL {\arabicfont  295}}
+\indexentry{forced response}{\RL {\arabicfont  296}}
+\indexentry{particular solution}{\RL {\arabicfont  296}}
+\indexentry{رد عمل!جبری}{\RL {\arabicfont  296}}
+\indexentry{جبری رد عمل}{\RL {\arabicfont  296}}
+\indexentry{homogenous equation}{\RL {\arabicfont  296}}
+\indexentry{مساوات!ہم جنسی}{\RL {\arabicfont  296}}
+\indexentry{ہم جنسی مساوات}{\RL {\arabicfont  296}}
 \indexentry{برقرار حالت:حل}{\RL {\arabicfont  297}}
 \indexentry{حل:برقرار حالت}{\RL {\arabicfont  297}}
 \indexentry{برقرار حالت حل}{\RL {\arabicfont  297}}
@@ -36,25 +40,27 @@
 \indexentry{steady state solution}{\RL {\arabicfont  297}}
 \indexentry{exponential decay}{\RL {\arabicfont  297}}
 \indexentry{قوت نمائی!انحطاط}{\RL {\arabicfont  297}}
-\indexentry{switch}{\RL {\arabicfont  297}}
-\indexentry{سوئچ}{\RL {\arabicfont  297}}
+\indexentry{switch}{\RL {\arabicfont  299}}
+\indexentry{سوئچ}{\RL {\arabicfont  299}}
 \indexentry{initial conditions}{\RL {\arabicfont  301}}
 \indexentry{ابتدائی شرائط}{\RL {\arabicfont  301}}
 \indexentry{switch!spdt}{\RL {\arabicfont  306}}
 \indexentry{سوئچ!ایک قطب دو چال}{\RL {\arabicfont  306}}
-\indexentry{unit impulse function}{\RL {\arabicfont  320}}
-\indexentry{اکائی جھٹکا تفاعل}{\RL {\arabicfont  320}}
-\indexentry{unit step function}{\RL {\arabicfont  320}}
-\indexentry{اکائی سیڑھی تفاعل}{\RL {\arabicfont  320}}
-\indexentry{dimensionless}{\RL {\arabicfont  320}}
-\indexentry{بے بعد}{\RL {\arabicfont  320}}
-\indexentry{damping ratio}{\RL {\arabicfont  329}}
-\indexentry{تقصیری تناسب}{\RL {\arabicfont  329}}
-\indexentry{natural frequency!undamped}{\RL {\arabicfont  329}}
-\indexentry{قدرتی تعدد!غیر تقصیری}{\RL {\arabicfont  329}}
-\indexentry{over damped condition}{\RL {\arabicfont  330}}
-\indexentry{مقصور!زیادہ}{\RL {\arabicfont  330}}
-\indexentry{under damped condition}{\RL {\arabicfont  331}}
-\indexentry{مقصور!کم}{\RL {\arabicfont  331}}
-\indexentry{damped!oscillation}{\RL {\arabicfont  331}}
-\indexentry{قصری ارتعاش}{\RL {\arabicfont  331}}
+\indexentry{unit impulse function}{\RL {\arabicfont  321}}
+\indexentry{اکائی جھٹکا تفاعل}{\RL {\arabicfont  321}}
+\indexentry{unit step function}{\RL {\arabicfont  321}}
+\indexentry{اکائی سیڑھی تفاعل}{\RL {\arabicfont  321}}
+\indexentry{dimensionless}{\RL {\arabicfont  321}}
+\indexentry{بے بعد}{\RL {\arabicfont  321}}
+\indexentry{damping ratio}{\RL {\arabicfont  330}}
+\indexentry{تقصیری تناسب}{\RL {\arabicfont  330}}
+\indexentry{natural frequency!undamped}{\RL {\arabicfont  330}}
+\indexentry{قدرتی تعدد!غیر تقصیری}{\RL {\arabicfont  330}}
+\indexentry{over damped condition}{\RL {\arabicfont  331}}
+\indexentry{مقصور!زیادہ}{\RL {\arabicfont  331}}
+\indexentry{under damped condition}{\RL {\arabicfont  332}}
+\indexentry{مقصور!کم}{\RL {\arabicfont  332}}
+\indexentry{damped!oscillation}{\RL {\arabicfont  333}}
+\indexentry{قصری ارتعاش}{\RL {\arabicfont  333}}
+\indexentry{envelope}{\RL {\arabicfont  333}}
+\indexentry{غلاف}{\RL {\arabicfont  333}}

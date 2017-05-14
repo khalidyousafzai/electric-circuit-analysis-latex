@@ -39,28 +39,42 @@ i_i(t)=\frac{v(t)}{R}+C\frac{\dif v(t)}{\dif t}
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\draw(0,0) to [american voltage source,l={$v_i(t)$}]++(0,\y) to [resistor,i={$i(t)$},l={$R$}]++(\x,0) to [inductor,l={$L$}]++(\x,0) to [capacitor,l={$C$}]++(0,-\y) to [short]++(-2*\x,0);
+\draw(0,0) to [american voltage source,l={$v_i(t)$}]++(0,\y) to [resistor,i={$i(t)$},l={$R$}]++(\x,0) to [inductor,l={$L$}]++(\x,0) to [capacitor,l_={$C$}]++(0,-\y) to [short]++(-2*\x,0);
+\draw(2*\x+\dx,\y/2)node[right]{$\begin{aligned} &+ \\ & v_C(t) \\ &- \end{aligned}$};
 \end{tikzpicture}
 \caption{دو درجی دور۔}
 \label{شکل_عارضی_دور_درجی_دور_الف}
 \end{figure}
 
-شکل \حوالہ{شکل_عارضی_دور_درجی_دور_الف} میں دو درجی دور دکھایا گیا ہے جس کی کرخوف مساوات درج ذیل ہے۔
-\begin{align*}
-v_i(t)=R i(t)+L\frac{\dif i(t)}{\dif t}+\frac{1}{C} \int_{-\infty}^{t}i(t) \dif t
-\end{align*}
-اس مساوات میں تکمل کی علامت ختم کرنے سے تفرقی مساوات حاصل ہو گی۔تکمل کی علامت ختم کرنے کی خاطر اس کا تفرق لیتے ہیں۔
+شکل \حوالہ{شکل_عارضی_دور_درجی_دور_الف} میں دو درجی دور دکھایا گیا ہے جس کی کرخوف مساوات درج ذیل ہے جہاں \عددی{v_C(0)} لمحہ \عددی{t=0} پر برق گیر کا دباو ہے۔
+\begin{gather}
+\begin{aligned}\label{مساوات_عارضی_تکمل_و_تفرقی_الف}
+v_i(t)&=R i(t)+L\frac{\dif i(t)}{\dif t}+\frac{1}{C} \int_{-\infty}^{t}i(t) \dif t\\
+&=R i(t)+L\frac{\dif i(t)}{\dif t}+\frac{1}{C} \int_{0}^{t}i(t) \dif t+v_C(0)
+\end{aligned}
+\end{gather}
+اس \اصطلاح{تکمل و تفرقی مساوات}\فرہنگ{تکمل و تفرقی}\حاشیہب{integro-differential equation}\فرہنگ{integro-differential equation} میں تکمل کی علامت ختم کرنے سے \اصطلاح{تفرقی مساوات}\فرہنگ{تفرقی مساوات}\حاشیہب{differential equation}\فرہنگ{differential equation} حاصل ہو گی۔تکمل کی علامت ختم کرنے کی خاطر اس کا تفرق لیتے ہیں۔
 \begin{align}
 \frac{\dif v_i(t)}{\dif t}=R \frac{\dif i(t)}{\dif t}+L\frac{\dif^{\,2} i(t)}{\dif t^2}+\frac{i(t)}{C}
 \end{align} 
 آپ دیکھ سکتے ہیں کہ امالہ گیر اور برق گیر دونوں کی موجودگی سے دو درجی تفرقی مساوات حاصل ہوتی ہے۔
+
+مساوات \حوالہ{مساوات_عارضی_تکمل_و_تفرقی_الف} رو \عددی{i(t)}  کی تکمل و ترقی مساوات ہے۔اس مساوات میں 
+\begin{align*}
+i(t)&=C\frac{\dif v_C(t)}{\dif t}\\
+v_C(t)&=\frac{1}{C}\int_{-\infty}^{t} i(t)\dif t
+\end{align*}
+پُر کرنے سے دباو \عددی{v_C(t)} کی تفرقی مساوات حاصل ہوتی ہے۔
+\begin{align}\label{مساوات_عارضی_تکمل_و_تفرقی_ب}
+v_i(t)&=R C\frac{\dif v_C(t)}{\dif t}+LC\frac{\dif^{\,2} i(t)}{\dif t^2}+v_C(t)
+\end{align}
 
 \جزوحصہ{رد عمل کی عمومی مساوات}
 ایک درجی ادوار کے رد عمل جاننے کی خاطر ان کی تفرقی مساوات حل کی جاتی ہے جس سے دور کے مختلف مقامات پر دباو اور رو حاصل کی جاتی ہے۔ان یک درجی مساوات کی عمومی صورت درج ذیل ہوتی ہے
 \begin{align}\label{مساوات_عارضی_یک_درجی_عمومی_مساوات}
 \frac{\dif y(t)}{\dif t}+a y(t)= g(t)
 \end{align}
-جہاں \عددی{y(t)} دباو یا رو کو ظاہر کرتی ہے، \عددی{a} مستقل ہے اور \عددی{g(t)} \اصطلاح{عملی قوت}\فرہنگ{عملی قوت}\حاشیہب{forcing function}\فرہنگ{forcing function} ہے۔اس مساوات کا آزاد متغیرہ وقت \عددی{t} ہے۔تفرقی مساوات کا ایک بنیادی مسئلہ کہتا ہے کہ مساوات \حوالہ{مساوات_عارضی_یک_درجی_عمومی_مساوات} کا مکمل حل اس کے \اصطلاح{فطری رد عمل}\فرہنگ{فطری رد عمل}\فرہنگ{رد عمل!فطری}\حاشیہب{natural response, complementary solution}\فرہنگ{complementary solution}\فرہنگ{natural response}\فرہنگ{response!natural} \عددی{y_f(t)} اور \اصطلاح{جبری رد عمل}\فرہنگ{جبری رد عمل}\فرہنگ{رد عمل!جبری}\حاشیہب{forced response, particular solution}\فرہنگ{particular solution}\فرہنگ{forced response} 
+جہاں \عددی{y(t)} دباو یا رو کو ظاہر کرتی ہے، \عددی{a} مستقل ہے اور \عددی{g(t)} \اصطلاح{جبری قوت}\فرہنگ{جبری قوت}\حاشیہب{forcing function}\فرہنگ{forcing function} ہے۔اس مساوات کا آزاد متغیرہ وقت \عددی{t} ہے۔تفرقی مساوات کا ایک بنیادی مسئلہ کہتا ہے کہ مساوات \حوالہ{مساوات_عارضی_یک_درجی_عمومی_مساوات} کا مکمل حل اس کے \اصطلاح{فطری رد عمل}\فرہنگ{فطری رد عمل}\فرہنگ{رد عمل!فطری}\حاشیہب{natural response, complementary solution}\فرہنگ{complementary solution}\فرہنگ{natural response}\فرہنگ{response!natural} \عددی{y_f(t)} اور \اصطلاح{جبری رد عمل}\فرہنگ{جبری رد عمل}\فرہنگ{رد عمل!جبری}\حاشیہب{forced response, particular solution}\فرہنگ{particular solution}\فرہنگ{forced response} 
 \عددی{y_j(t)} کا مجموعہ ہے۔مساوات \حوالہ{مساوات_عارضی_یک_درجی_عمومی_مساوات} کے کسی بھی حل کو بطور جبری رد عمل لیا جا سکتا ہے جبکہ درج ذیل \اصطلاح{ہم جنسی مساوات}\فرہنگ{ہم جنسی مساوات}\فرہنگ{مساوات!ہم جنسی}\حاشیہب{homogenous equation}\فرہنگ{homogenous equation}
 \begin{align}\label{مساوات_عارضی_یک_درجی_عمومی_مساوات_ب}
 \frac{\dif y(t)}{\dif t}+a y(t)=0
@@ -72,11 +86,11 @@ v_i(t)=R i(t)+L\frac{\dif i(t)}{\dif t}+\frac{1}{C} \int_{-\infty}^{t}i(t) \dif 
 \frac{\dif y_j(t)}{\dif t}+a y_j(t)&=A \label{مساوات_عارضی_یک_درجی_عمومی_مساوات_پ}\\
 \frac{\dif y_f(t)}{\dif t}+a y_f(t)&=0\label{مساوات_عارضی_یک_درجی_عمومی_مساوات_ت}
 \end{align}
-جبری حل کو قیاس کے ذریعہ حاصل کیا جائے گا۔  جبری حل کو عملی تفاعل اور اس کے تمام ممکنہ تفرق کے مجموعے کے برابر تصور کرتے ہوئے آگے بڑھتے ہیں۔چونکہ مستقل کا تفرق \عددی{(\tfrac{\dif A}{\dif t}=0)} صفر کے برابر ہے لہٰذا جبری حل کو مستقل \عددی{K_1} تصور کرتے ہیں۔
+جبری حل کو قیاس کے ذریعہ \عددی{K_1} تصور کرتے ہیں جہاں \عددی{K} ایک مستقل ہے۔
 \begin{align}
 y_j(t)=K_1
 \end{align}
-اس قیمت کو مساوات \حوالہ{مساوات_عارضی_یک_درجی_عمومی_مساوات_پ} میں پُر کرتے ہوئے حل کرنے سے
+جبری حل \عددی{y_j(t)=K_1} کو مساوات \حوالہ{مساوات_عارضی_یک_درجی_عمومی_مساوات_پ} میں پُر کرتے ہوئے حل کرنے سے
 \begin{align*}
 \frac{\dif K_1}{\dif t}+a K_1&=A \\
 0+a K_1&=A
@@ -1199,7 +1213,7 @@ i(t) R+\frac{1}{C}\int_{t_0}^{t} i(t)\dif t+v_C(t_0)+L \frac{\dif i(t)}{\dif t}&
 \end{align*}
 یہ مساوات یکساں صورت رکھتے ہیں لہٰذا ان کا حل بالکل یکساں ہو گا۔ان مساوات کا تفرق لے کر ترتیب دینے سے درج ذیل تفرقی مساوات حاصل ہوتے ہیں۔
 \begin{align*}
-C\frac{\dif^{\,2} v(t)}{\dif t^2}+\frac{1}{R}\frac{\dif v(t)}{\dif t}+\frac{v(t)}{C}&=\frac{\dif i_S(t)}{\dif t}\\
+C\frac{\dif^{\,2} v(t)}{\dif t^2}+\frac{1}{R}\frac{\dif v(t)}{\dif t}+\frac{v(t)}{L}&=\frac{\dif i_S(t)}{\dif t}\\
 L\frac{\dif^{\,2} i(t)}{\dif t^2}+R\frac{\dif i(t)}{\dif t}+\frac{i(t)}{C}&=\frac{\dif v_S(t)}{\dif t}
 \end{align*}
 آپ نے دیکھا کہ دونوں مساوات میں تفرقی جزو کے عددی سر، مستقل مقدار ہیں۔آئیں مستقل عددی سر کے دو درجی تفرقی مساوات کو حل کرنا سیکھتے ہیں۔
@@ -1241,7 +1255,7 @@ L\frac{\dif^{\,2} i(t)}{\dif t^2}+R\frac{\dif i(t)}{\dif t}+\frac{i(t)}{C}&=\fra
 \begin{align}
 y(t)=y_j(t)+y_f(t)
 \end{align}
-ہو گا۔یاد رہے کہ کسی بھی تفرقی مساوات میں عملی قوت کو صفر \عددی{(f(t)=0)} پُر کرنے سے اس کی ہم جنسی مساوات حاصل ہوتی ہے۔مستقل عملی قوت، یعنی \عددی{f(t)=A}، کی صورت میں جبری حل بھی مستقل ہو گا جسے \عددی{K_1} تصور کرتے ہوئے مساوات \حوالہ{مساوات_عارضی_دو_درجی_عمومی_الف} میں پُر کرتے ہوئے
+ہو گا۔یاد رہے کہ کسی بھی تفرقی مساوات میں جبری قوت کو صفر \عددی{(f(t)=0)} پُر کرنے سے اس کی ہم جنسی مساوات حاصل ہوتی ہے۔مستقل جبری قوت، یعنی \عددی{f(t)=A}، کی صورت میں جبری حل بھی مستقل ہو گا جسے \عددی{K_1} تصور کرتے ہوئے مساوات \حوالہ{مساوات_عارضی_دو_درجی_عمومی_الف} میں پُر کرتے ہوئے
 \begin{align}
 y_j(t)=K_1=\frac{A}{a_2}
 \end{align}
@@ -1289,7 +1303,7 @@ y_f(t)=K_2 e^{s_1 t}+K_3 e^{s_2 t}
 
 \حصہء{زیادہ مقصور صورت، \عددی{\zeta>1}} 
 \اصطلاح{زیادہ مقصور صورت}\فرہنگ{مقصور!زیادہ}\حاشیہب{over damped condition}\فرہنگ{over damped condition} میں \عددی{s_1} اور \عددی{s_2} کی قیمتیں حقیقی اور آپس میں مختلف حاصل ہوتی ہیں۔زیادہ مقصور حالت \عددی{zeta>1} کی صورت میں پائی جاتی ہے۔ایسی صورت میں فطری حل کو درج ذیل لکھا جا سکتا ہے
-\begin{align}
+\begin{align}\label{مساوات_عارضی_فطری_زیادہ_مقصور_حل}
 y_f(t)=K_2 e^{-(\zeta\omega_0- \omega_0\sqrt{\zeta^2-1})t}+K_3 e^{-(\zeta\omega_0+ \omega_0\sqrt{\zeta^2-1})t}
 \end{align}
 جو دو عدد، قوت نمائی انحطاطی تفاعل  کا مجموعہ ہے۔
@@ -1302,7 +1316,7 @@ s_1=-\zeta\omega_0+ j\omega_0\sqrt{1-\zeta^2}=-\sigma+j \omega_d\\
 s_2=-\zeta\omega_0- j\omega_0\sqrt{1-\zeta^2}=-\sigma-j\omega_d
 \end{aligned}
 \end{gather}
-جہاں \عددی{\zeta\omega_0=\sigma} اور \عددی{\omega\sqrt{1-\zeta^2}=\omega_d} لکھے گئے ہیں جبکہ \عددی{j=\sqrt{-1}} ہے۔یوں فطری حل
+جہاں \عددی{\zeta\omega_0=\sigma} اور \عددی{\omega_0\sqrt{1-\zeta^2}=\omega_d} لکھے گئے ہیں جبکہ \عددی{j=\sqrt{-1}} ہے۔یوں فطری حل
 \begin{align*}
 y_f(t)&=K_2e^{-\sigma t+j\omega_d t}+K_3e^{-\sigma t -j \omega_d t}\\
 &=e^{-\sigma t} \left[K_2 e^{j \omega_d t}+K_3 e^{-j \omega_d t}\right]\\
@@ -1310,10 +1324,13 @@ y_f(t)&=K_2e^{-\sigma t+j\omega_d t}+K_3e^{-\sigma t -j \omega_d t}\\
 &=e^{-\sigma t} \left[(K_2+K_3)\cos \omega_d t+j(K_2-K_3)\sin \omega_d t\right]
 \end{align*}
 یعنی
-\begin{align}\label{مساوات_عارضی_فطری_حل_کم_تقصیر_الف}
-y_f(t)=e^{-\sigma t} \left(c_1 \cos \omega_d t +j c_2 \sin \omega_d t\right)
-\end{align}
-لکھا جائے گا جہاں \عددی{K_2+K_3=c_1} اور \عددی{K_2-K_3=c_2} لکھے گئے ہیں۔فطری حل کے مستقل \عددی{c_1} اور \عددی{c_2} کو ابتدائی معلومات سے حاصل کیا جاتا ہے۔
+\begin{gather}
+\begin{aligned}\label{مساوات_عارضی_فطری_حل_کم_تقصیر_الف}
+y_f(t)&=e^{-\sigma t} \left(c_1 \cos \omega_d t +c_2 \sin \omega_d t\right)\\
+&=e^{-\zeta\omega_0 t}\left[c_1 \cos \omega_0\sqrt{1-\zeta^2} t+c_2 \sin \omega_0 \sqrt{1-\zeta^2} t\right]
+\end{aligned}
+\end{gather}
+لکھا جائے گا جہاں \عددی{K_2+K_3=c_1} اور \عددی{j(K_2-K_3)=c_2} لکھے گئے ہیں۔فطری حل کے مستقل \عددی{c_1} اور \عددی{c_2} کو ابتدائی معلومات سے حاصل کیا جاتا ہے۔
 
 مساوات \حوالہ{مساوات_عارضی_فطری_حل_کم_تقصیر_الف} میں
 \begin{align*}
@@ -1322,21 +1339,264 @@ c_2&=A\sin \theta
 \end{align*}
 پُر کرتے ہوئے
 \begin{align*}
-y_f(t)=e^{-\sigma t} \left(A \cos \theta \cos \omega_d t +j A \sin \theta \sin \omega_d t\right)
+y_f(t)=e^{-\sigma t} \left(A \cos \theta \cos \omega_d t +A \sin \theta \sin \omega_d t\right)
 \end{align*}
 یعنی
-\begin{align}\label{مساوات_عارضی_فطری_حل_کم_تقصیر_ب}
-y_f(t)=Ae^{-\sigma t} \cos(\omega_d t -\theta)
-\end{align}
-لکھا جا سکتا ہے۔مساوات \حوالہ{مساوات_عارضی_فطری_حل_کم_تقصیر_ب} کے مستقل \عددی{A} اور \عددی{\theta} ہیں جنہیں ابتدائی معلومات سے حاصل کیا جاتا ہے۔مساوات \حوالہ{مساوات_عارضی_فطری_حل_کم_تقصیر_ب} \اصطلاح{قصری ارتعاش}\فرہنگ{قصری ارتعاش}\حاشیہب{damped oscillation}\فرہنگ{damped!oscillation}  کو ظاہر کرتی ہے۔
-
+\begin{gather}
+\begin{aligned}\label{مساوات_عارضی_فطری_حل_کم_تقصیر_ب}
+y_f(t)&=Ae^{-\sigma t} \cos(\omega_d t -\theta)\\
+&=Ae^{-\zeta \omega_0 t} \cos(\omega_0 \sqrt{1-\zeta^2} t-\theta)
+\end{aligned}
+\end{gather}
+لکھا جا سکتا ہے۔مساوات \حوالہ{مساوات_عارضی_فطری_حل_کم_تقصیر_ب} کے مستقل \عددی{A} اور \عددی{\theta} ہیں جنہیں ابتدائی معلومات سے حاصل کیا جاتا ہے۔جیسا شکل \حوالہ{شکل_عارضی_کم_قصری_فطری_حل} میں دکھایا گیا ہے، مساوات \حوالہ{مساوات_عارضی_فطری_حل_کم_تقصیر_ب} \اصطلاح{قصری ارتعاش}\فرہنگ{قصری ارتعاش}\حاشیہب{damped oscillation}\فرہنگ{damped!oscillation}  کو ظاہر کرتی ہے۔کم قصری مساوات میں \عددی{e^{-\zeta\omega_0 t}} قصری ارتعاش کے \اصطلاح{غلاف}\فرہنگ{غلاف}\حاشیہب{envelope}\فرہنگ{envelope} کو ظاہر کرتی ہے جسے شکل میں نقطہ دار لکیر سے  دکھایا گیا ہے۔
+\begin{figure}
+\centering
+\pgfplotsset{scaled x ticks=false,scaled y ticks=false}
+\begin{tikzpicture}
+\pgfmathsetmacro{\zA}{0.003}
+\pgfmathsetmacro{\zC}{sqrt(1-\zA*\zA)}
+\begin{axis}[axis lines*=middle,xlabel=$t$, ylabel=$y_f(t)$,ticks=none,
+every axis x label/.style={
+    at={(ticklabel* cs:1.15)},
+    anchor=east,}, 
+	every axis y label/.style={
+    at={(ticklabel* cs:1.05)},
+    anchor=east,}
+]
+\addplot[domain=0:1080,samples=5000]{e^(-\zA*x)*cos(\zC*x-90)};
+\addplot[gray,dashed,domain=0:1080,samples=100]{e^(-\zA*x)}node[pos=0.2,above right]{$e^{-\zeta \omega_0 t}$};
+\end{axis}%
+\end{tikzpicture}%
+\caption{قصری ارتعاش۔}
+\label{شکل_عارضی_کم_قصری_فطری_حل}
+\end{figure}
 \حصہء{فاصل مقصور صورت، \عددی{\zeta=1}}
 \اصطلاح{فاصل مقصور صورت} \عددی{\zeta=1} میں
 \begin{align}
 s_1=s_2=-\zeta \omega_0
 \end{align}
-حاصل ہوتے ہیں۔جب \عددی{s_1} اور \عددی{s_2} کی قیمتیں ایک دونوں کے برابر \عددی{s_1=s_2} ہوں تب عمومی فطری حل درج ذیل لکھا جاتا ہے
-\begin{align}
+حاصل ہوتے ہیں۔جب \عددی{s_1} اور \عددی{s_2} کی قیمتیں ایک دونوں کے برابر \عددی{(s_1=s_2)} ہوں تب عمومی فطری حل درج ذیل لکھا جاتا ہے
+\begin{align}\label{مساوات_عارضی_فطری_فاصل_مقصور_حل}
 y_f(t)=K_2 e^{-\zeta \omega_0 t}+K_3 t e^{-\zeta \omega_0 t}
 \end{align}
 جہاں دوسرے جزو کو \عددی{t} سے ضرب دیا گیا ہے۔مساوات کے مستقل \عددی{K_2} اور \عددی{K_3} کو ابتدائی معلومات سے حاصل کیا جاتا ہے۔
+%=================
+\ابتدا{مشق}
+سلسلہ وار \عددی{ RLC} دور میں \عددی{R=\SI{2}{\ohm}}، \عددی{L=\SI{5}{\henry}} اور \عددی{C=\SI{4}{\farad}} ہیں۔تقصیری تناسب اور غیر تقصیری قدرتی تعدد دریافت کریں۔
+
+جوابات:\عددی{\omega_0=\SI{0.2236}{\radian\per\second}}، \عددی{\zeta=0.8944}
+\انتہا{مشق}
+%=================
+\ابتدا{مشق}
+متوازی \عددی{ RLC} دور میں \عددی{R=\SI{2}{\ohm}}، \عددی{L=\SI{5}{\henry}} اور \عددی{C=\SI{4}{\farad}} ہیں۔تقصیری تناسب اور غیر تقصیری قدرتی تعدد دریافت کریں۔
+
+جوابات:\عددی{\omega_0=\SI{0.2236}{\radian\per\second}}، \عددی{\zeta=0.2795}
+\انتہا{مشق}
+%=================
+\ابتدا{مشق}
+سلسلہ وار \عددی{ RLC} دور میں \عددی{R=\SI{4}{\ohm}} اور \عددی{L=\SI{12}{\henry}} ہیں۔ دور کا رد عمل \عددی{C=\SI{6}{\farad}}، \عددی{C=\SI{2}{\farad}} اور \عددی{C=\SI{3}{\farad}} کی صورت میں کیا ہو گا۔
+
+جوابات:زیادہ قصری، کم قصری اور فاصل قصری۔
+\انتہا{مشق}
+%=================
+%=================
+\ابتدا{مثال}\شناخت{مثال_عارضی_مستطیل_دباو_الف}
+شکل \حوالہ{شکل_عارضی_مستطیل_دباو_الف} میں \عددی{v_C(t)} دریافت کریں جہاں لمحہ \عددی{t=0} پر ابتدائی معلومات \عددی{i_L(0)=\SI{2}{\ampere}} اور \عددی{v_C(0)=\SI{4}{\volt}} ہیں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [square voltage source,l={$12 u(t)\, \si{\volt}$}]++(0,\y) to [resistor,i={$i(t)$},l={$\SI{4}{\ohm}$}]++(\x,0) to [inductor,l={$\SI{12}{\henry}$}]++(\x,0) to [capacitor,l_={$\SI{2}{\farad}$}]++(0,-\y) to [short] (0,0);
+\draw(2*\x+2*\dx,\y/2)node[right]{$\begin{aligned} &+ \\& v_C(t) \\ &-\end{aligned}$};
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_عارضی_مستطیل_دباو_الف} کا دور۔}
+\label{شکل_عارضی_مستطیل_دباو_الف}
+\end{figure}
+
+حل:دور کی کرخوف مساوات لمحہ \عددی{t=0} کے بعد لکھتے ہیں۔
+\begin{align}\label{مساوات_عارضی_مثال_سلسلہ_وار_الف}
+i(t)R+L\frac{\dif i(t)}{\dif t}+\frac{1}{C}\int_{-\infty}^t i(t) \dif t=12
+\end{align} 
+اس میں 
+\begin{align*}
+i(t)&=C\frac{\dif v_C(t)}{\dif t}\\
+v_C&=\frac{1}{C}\int_{-\infty}^{t} i(t)\dif t
+\end{align*}
+پُر کرتے ہوئے
+\begin{align}\label{مساوات_عارضی_مثال_سلسلہ_وار_ب}
+RC \frac{\dif v_C(t)}{\dif t}+LC \frac{\dif^{\,2} v_C(t)}{\dif t^2}+v_C(t)=12
+\end{align}
+ملتا ہے۔آئیں مساوات \حوالہ{مساوات_عارضی_مثال_سلسلہ_وار_ب} کو حل کریں۔
+
+مساوات \حوالہ{مساوات_عارضی_مثال_سلسلہ_وار_ب} میں دی گئی قیمتیں پُر کرتے ہوئے ترتیب دینے سے درج ذیل ملتا ہے
+\begin{align}\label{مساوات_عارضی_مثال_سلسلہ_وار_پ}
+\frac{\dif^{\,2} v_C(t)}{\dif t^2}+\frac{1}{3}\frac{\dif v_C(t)}{\dif t}+\frac{v_C(t)}{24}=\frac{1}{2}
+\end{align}
+جس میں جبری تفاعل کو صفر کے برابر پُر کرنے سے ہم جنسی مساوات
+\begin{align*}
+\frac{\dif^{\,2} v_C(t)}{\dif t^2}+\frac{1}{3}\frac{\dif v_C(t)}{\dif t}+\frac{v_C(t)}{24}=0
+\end{align*}
+حاصل ہوتی ہے۔مساوات \حوالہ{مساوات_عارضی_مثال_سلسلہ_وار_پ} میں جبری تفاعل ایک مستقل مقدار ہے لہٰذا جبری حل کو مستقل \عددی{y_j(t)=K_1} تصور کرتے ہوئے مساوات \حوالہ{مساوات_عارضی_مثال_سلسلہ_وار_پ} میں پُر کرتے ہوئے
+\begin{align*}
+\frac{\dif^{\,2} K_1}{\dif t^2}+\frac{1}{3}\frac{\dif K_1}{\dif t}+\frac{K_1}{24}=&\frac{1}{2}\\
+0+0+\frac{K_1}{24}&=\frac{1}{2}
+\end{align*}
+حل کرنے سے
+\begin{align*}
+v_{C,j}(t)=K_1=\SI{12}{\volt}
+\end{align*}
+ملتا ہے۔یہی جواب شکل \حوالہ{شکل_عارضی_مستطیل_دباو_الف} کو دیکھ کر بھی اخذ کیا جا سکتا ہے جہاں لمحہ \عددی{t=0} کے بہت دیر بعد، برقرار  حالت کی صورت میں برق گیر کو کھلا دور تصور کرتے ہوئے صاف ظاہر ہے کہ برق گیر کا دباو عین داخلی دباو کے برابر ہو گا۔
+
+ہم جنسی مساوات سے \عددی{\omega_0=\tfrac{1}{\sqrt{24}}} اور \عددی{\zeta=\tfrac{2}{\sqrt{6}}=0.333} حاصل ہوتا ہے۔چونکہ \عددی{\zeta<1} ہے لہٰذا یہ کم قصری مساوات ہے جس کا حل مساوات \حوالہ{مساوات_عارضی_فطری_حل_کم_تقصیر_الف} کے تحت
+\begin{align*}
+v_{C,f}(t)&=e^{-\frac{t}{6}}\left(c_1 \cos \frac{t}{9\sqrt{2}}+c_2 \sin \frac{t}{9\sqrt{2}}\right)
+\end{align*}
+ہے جہاں \عددی{\sigma=\tfrac{1}{6}} اور \عددی{\omega_d=\frac{1}{6\sqrt{2}}} استعمال کئے گئے۔یوں مکمل حل درج ذیل ہو گا
+\begin{gather}
+\begin{aligned}\label{مساوات_عارضی_سلسلہ_وار_مکمل_حل_الف}
+v_C(t)&=v_{C,j}(t)+v_{C,f}(t)\\
+&=12+e^{-\frac{t}{6}}\left(c_1 \cos \frac{t}{6\sqrt{2}}+c_2 \sin \frac{t}{6\sqrt{2}}\right)
+\end{aligned}
+\end{gather}
+جس میں مستقل \عددی{c_1} اور \عددی{c_2} معلوم کرنا باقی ہے۔ابتدائی دباو \عددی{v_C(0)=\SI{4}{\volt}} کو مکمل حل میں پُر کرنے سے
+\begin{align*}
+4&=12+e^{-\frac{0}{6}}\left(c_1 \cos \frac{0}{6\sqrt{2}}+c_2 \sin \frac{0}{6\sqrt{2}}\right)\\
+&=12+c_1
+\end{align*}
+یعنی
+\begin{align}\label{مساوات_عارضی_مستقل_الف}
+c_1=-8
+\end{align}
+ملتا ہے۔ابتدائی رو \عددی{i_L(0)=\SI{2}{\ampere}} کو استعمال کرنے کی خاطر مساوات \حوالہ{مساوات_عارضی_سلسلہ_وار_مکمل_حل_الف} کے دونوں اطراف کو \عددی{C} سے ضرب دیتے ہوئے تفرق لیتے ہیں۔
+\begin{multline*}
+C \frac{\dif v_C(t)}{\dif t}=-\frac{C}{6}e^{-\frac{t}{6}}\left(-8 \cos \frac{t}{6\sqrt{2}}+c_2 \sin \frac{t}{6\sqrt{2}}\right)\\+\frac{C}{6\sqrt{2}}e^{-\frac{t}{6}}\left(8 \sin \frac{t}{6\sqrt{2}}+c_2 \cos \frac{t}{6\sqrt{2}}\right)
+\end{multline*}
+اس میں \عددی{C\tfrac{\dif v_C(t)}{\dif t}=i_C(t)} کے برابر ہے لہٰذا
+\begin{multline*}
+i_C(t)=-\frac{1}{3}e^{-\frac{t}{6}}\left(-8 \cos \frac{t}{6\sqrt{2}}+c_2 \sin \frac{t}{6\sqrt{2}}\right)\\+\frac{\sqrt{2}}{6}e^{-\frac{t}{6}}\left(8 \sin \frac{t}{6\sqrt{2}}+c_2 \cos \frac{t}{6\sqrt{2}}\right)
+\end{multline*}
+لکھا جا سکتا ہے جہاں بائیں ہاتھ \عددی{i_C(t)} کے برابر ہے اور دائیں ہاتھ \عددی{C=2} پُر کیا گیا ہے۔چونکہ \عددی{L} اور \عددی{C} سلسلہ وار جڑے ہیں لہٰذا \عددی{i_C(t)=i_L(t)} ہو گا۔ درج بالا مساوات میں ابتدائی رو \عددی{i_L(0)=i_C(0)=\SI{2}{\ampere}} پُر کرتے ہوئے
+\begin{multline*}
+2=-\frac{1}{3}e^{-\frac{0}{6}}\left(-8 \cos \frac{0}{6\sqrt{2}}+c_2 \sin \frac{0}{6\sqrt{2}}\right)\\
++\frac{\sqrt{2}}{6}e^{-\frac{0}{6}}\left(8 \sin \frac{0}{6\sqrt{2}}+c_2 \cos \frac{0}{6\sqrt{2}}\right)
+\end{multline*}
+یعنی
+\begin{align*}
+c_2=-\sqrt{8}
+\end{align*}
+ملتا ہے۔مساوات کے مستقل جانتے ہوئے مکمل حل کو درج ذیل لکھا جا سکتا ہے۔
+\begin{align}
+v_C(t)=12+e^{-\frac{t}{6}}\left(-8\cos \frac{t}{9\sqrt{2}}-\sqrt{8}\sin \frac{t}{9\sqrt{2}} \right)
+\end{align}
+اس مساوات سے \عددی{t=\SI{0}{\second}} پر \عددی{v_C=\SI{4}{\volt}} اور \عددی{t=\infty} پر \عددی{v_C=\SI{12}{\volt}} حاصل ہوتا ہے۔پہلا جواب ابتدائی دباو ہی ہے جبکہ دوسرا جواب ابدی برقرار حالت یعنی جبری حل ہے۔ 
+\انتہا{مثال}
+%================
+\ابتدا{مثال}\شناخت{مثال_عارضی_مستطیل_دباو_ب}
+شکل \حوالہ{شکل_عارضی_مستطیل_دباو_ب} میں سوئچ ازل سے دکھائے گئے حالت میں ہے۔لمحہ \عددی{t=0} پر اس کو پلٹایا جاتا ہے۔دور کا رد عمل \عددی{R_1=\SI{15}{\ohm}}، \عددی{R_2=\SI{5}{\ohm}}، \عددی{L=\SI{2}{\henry}} اور \عددی{C=\SI{0.5}{\farad}} کی صورت میں معلوم کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) node[spdt,xscale=-1](ksp){};
+\draw(ksp.in) to [inductor,i={$i(t)$},l={$L$}]++(\x,0) to [resistor,l={$R_1$}]++(\x,0)coordinate(kUR) to [capacitor,l_={$C$}]++(0,-\yy) to [short]++(-4*\x,0)coordinate(kBL) to [american voltage source,l={$\SI{20}{\volt}$}]++(0,\y) |-(ksp.out 1);
+\draw(kBL)++(\x,0) to [american voltage source,*-,l={$\SI{10}{\volt}$}]++(0,\y) |-(ksp.out 2);
+\draw(kUR) to [short,*-]++(\x,0) to [resistor,l={$R_2$}]++(0,-\yy) to [short,-*]++(-\x,0)coordinate(kCapB);
+\draw(kCapB)++(2*\dx,\yy/2)node[right]{$\begin{aligned} &+ \\ & v_C(t) \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_عارضی_مستطیل_دباو_ب} کا دور۔}
+\label{شکل_عارضی_مستطیل_دباو_ب}
+\end{figure}
+
+حل:لمحہ \عددی{t=\SI{0}{\second}} کے بعد دور کے کرخوف مساوات لکھتے ہیں۔
+\begin{align*}
+L\frac{\dif i_(t)}{\dif t}+R_1 i_(t)+v_C(t)&=10\\
+C\frac{\dif v_C(t)}{\dif t}+\frac{v_C(t)}{R_2}&=i(t)
+\end{align*}
+نچلی مساوات کی رو کو بالائی مساوات  میں پُر کرتے  ہوئے
+\begin{align*}
+L\left[C\frac{\dif^{\,2} v_C(t)}{\dif t^2}+\frac{1}{R_2}\frac{\dif v_C(t)}{\dif t}\right]+R_1 \left[C\frac{\dif v_C(t)}{\dif t}+\frac{v_C(t)}{R_2} \right]+v_C(t)&=10
+\end{align*}
+یعنی
+\begin{align*}
+\frac{\dif^{\,2} v_C(t)}{\dif t^2}+\left[\frac{1}{R_2 C}+\frac{R_1}{L}\right]\frac{\dif v_C(t)}{\dif t}+\frac{R_1}{R_2 LC}v_C(t)=\frac{10}{LC}
+\end{align*}
+ملتا ہے۔پرزوں کی قیمتیں پُر کرنے سے
+\begin{align}\label{مساوات_عارضی_زیادہ_قصری_مثال_الف}
+\frac{\dif^{\,2} v_C(t)}{\dif t^2}+7.9 \frac{\dif v_C(t)}{\dif t}+3 v_C(t)=10
+\end{align}
+حاصل ہوتا ہے جس سے \عددی{\omega_0=\sqrt{3}} اور \عددی{\zeta=2.28} ملتے ہیں۔چونکہ \عددی{\zeta>1} ہے لہٰذا دور زیادہ قصری ہے۔مستقل جبری قوت کی بنا \عددی{v_{C,j}(t)=K_1} متوقع ہے جسے مندرجہ بالا مساوات میں پُر کرنے سے
+\begin{align*}
+v_{C,j}=\frac{10}{3} \, \si{\volt}
+\end{align*}
+حاصل ہوتا ہے۔مساوات \حوالہ{مساوات_عارضی_زیادہ_قصری_مثال_الف} میں جبری قوت کو صفر پُر کرنے، یعنی دائیں ہاتھ کو صفر کے برابر پُر کرنے، سے درج ذیل ہم جنسی مساوات حاصل ہو گی
+\begin{align*}
+\frac{\dif^{\,2} v_C(t)}{\dif t^2}+7.9 \frac{\dif v_C(t)}{\dif t}+3 v_C(t)=0
+\end{align*}
+جس کے حل
+\begin{align*}
+s_1&=-7.5\\
+s_2&=-0.4
+\end{align*}
+ہیں۔یوں فطری حل درج ذیل ہو گا
+\begin{align*}
+v_{C,f}=c_1 e^{-7.5t}+c_2e^{-0.4t}
+\end{align*}
+اور مکمل حل
+\begin{gather}
+\begin{aligned}\label{مساوات_عارضی_زیادہ_قصری_مثال_ب}
+v_C(t)&=v_{C,j}(t)+v_{C,f}(t)\\
+&=\frac{10}{3}+c_1 e^{-7.5t}+c_2e^{-0.4t}
+\end{aligned}
+\end{gather}
+ہو گا۔
+
+مساوات کے مستقل حاصل کرنے کے لئے ابتدائی معلومات درکار ہیں۔لمحہ \عددی{t=0} سے پہلے \عددی{\SI{20}{\volt}} کی منبع دور کو طاقت فراہم کر رہی تھی۔اس برقرار صورت میں برق گیر کو کھلا دور اور امالہ گیر کو قصر دور تصور کرتے ہوئے
+\begin{align*}
+v_C(0_-)=v_C(0_+)=20 \left(\frac{5000}{15000+5000}\right)=\SI{5}{\volt}\\
+i(0_-)=i(0_+)=\frac{20-v_C}{R_1}=\frac{20-5}{15000}=\SI{1}{\milli\ampere}
+\end{align*}
+ملتے ہیں۔ ابتدائی دباو کو مساوات \حوالہ{مساوات_عارضی_زیادہ_قصری_مثال_ب} میں پُر کرتے ہوئے
+  \begin{align*}
+5&=\frac{10}{3}+c_1 e^{-7.5\times 0}+c_2e^{-0.4\times 0}
+\end{align*}
+یعنی
+\begin{align}\label{مساوات_عارضی_مستقل_مثال_دس_الف}
+c_1+c_2=\frac{5}{3}
+\end{align}
+ملتا ہے۔
+
+مساوات \حوالہ{مساوات_عارضی_زیادہ_قصری_مثال_ب} کو \عددی{C} سے ضرب دے کر اس کا تفرق لیتے ہوئے
+\begin{align*}
+C \frac{\dif v_C(t)}{\dif t}&=0-0.5\times 7.5c_1 e^{-7.5t}-0.5\times 0.4 c_2e^{-0.4t}
+\end{align*}
+یعنی
+\begin{align*}
+i_C(t)&=-3.75c_1 e^{-7.5t}-0.2 c_2e^{-0.4t}
+\end{align*}
+ملتا ہے۔لمحہ \عددی{t=0_+} پر برق گیر کی رو درج بالا مساوات سے
+\begin{align*}
+i_C(0_+)&=-3.75c_1 e^{-7.5\times 0}-0.2 c_2e^{-0.4\times 0}\\
+&=-3.75c_1-0.2 c_2
+\end{align*}
+حاصل ہوتی ہے جبکہ اسی لمحے پر \عددی{R_2} کی رو درج ذیل ہو گی۔
+\begin{align*}
+i_{R2}(0_+)&=\frac{v_C(0_+)}{R_2}=\frac{5}{5000}=\SI{1}{\milli\ampere}
+\end{align*}
+چونکہ \عددی{i_L(t)=i(t)} ہی ہے لہٰذا کرخوف مساوات رو کے تحت
+\begin{align*}
+i_L(0+)&=i_C(0+)+i_{R2}(0_+)\\
+0.001&=0.001-3.75c_1-0.2c_2
+\end{align*}
+یعنی
+\begin{align}\label{مساوات_عارضی_مستقل_مثال_دس_ب}
+c_1+c_2=0
+\end{align}
+ہو گا۔مساوت \حوالہ{مساوات_عارضی_مستقل_مثال_دس_الف} اور مساوات \حوالہ{مساوات_عارضی_مستقل_مثال_دس_ب} ہمزاد مساوات کو حل کرتے ہوئے درج ذیل حاصل ہوتا ہے۔
+\begin{align*}
+c_1&=-\frac{20}{213}\\
+c_2&=\frac{125}{71}
+\end{align*}
+یوں مکمل حل درج ذیل ہے۔
+\begin{align}
+v_C(t)&=\frac{10}{3}-\frac{20}{213} e^{-7.5t}+\frac{125}{71}e^{-0.4t}
+\end{align}
+یہ مساوات \عددی{t=0_+} پر \عددی{v_C(0_+)=\SI{5}{\volt}} اور \عددی{t=\infty} پر \عددی{v_C(\infty)=\tfrac{10}{3}\, \si{\volt}} دیتی ہے۔
+\انتہا{مثال}

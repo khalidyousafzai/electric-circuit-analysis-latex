@@ -17,3 +17,78 @@ vB:4;
 eqna: [(v-vA)/R1+(v+vB)/R2+v/R3=0];
 solve(eqna,[v]);
 iL:%/R3;
+Print("======================================");
+kill(all);
+print("quiz 7.10");
+load("vect");
+mu0:4*%pi*10^(-7);
+epsilon0:8.85418782*10^(-12);
+c:3*10^8;
+
+R:4;
+L:12;
+C:6;
+
+zeta:float(R/2*sqrt(C/L));
+
+C:2;
+
+zeta:float(R/2*sqrt(C/L));
+
+C:3;
+
+zeta:float(R/2*sqrt(C/L));
+Print("======================================");
+kill(all);
+print("example 7.10");
+print("series RLC");
+load("vect");
+mu0:4*%pi*10^(-7);
+epsilon0:8.85418782*10^(-12);
+c:3*10^8;
+
+R:4;
+L:12;
+C:2;
+vS:12;
+iL:2;
+vC:4;
+
+z:R/2*sqrt(C/L);
+w:1/sqrt(L*C);
+sig:z*w;
+wd:w*sqrt(1-z^2);
+
+eq:L*C*'diff(v,t,2)+R*C*'diff(v,t,1)+v=vS;
+
+sol2: ode2(eq,v,t);
+
+ps:ic2(sol2,t=0,v=vC,'diff(v,t)=iL/C);
+Print("======================================");
+kill(all);
+print("example 7.11");
+print("series RLC");
+load("vect");
+mu0:4*%pi*10^(-7);
+epsilon0:8.85418782*10^(-12);
+c:3*10^8;
+
+R1:15;
+R2:5;
+L:2;
+C:0.5;
+vA:20;
+vB:10;
+
+A:1/(R2*C)+R1/L;
+w:sqrt(R1/(R2*L*C));
+z=A/(2*w);
+
+eq:'diff(v,t,2)+(1/(R2*C)+R1/L)*'diff(v,t,1)+R1/(R2*L*C)*v=vB/(L*C);
+
+sol2: ode2(eq,v,t);
+
+ps:ic2(sol2,t=0,v=vC,'diff(v,t)=iL/C);
+
+eqQ:x^2+7.9*x+3=0;
+allroots(eqQ);

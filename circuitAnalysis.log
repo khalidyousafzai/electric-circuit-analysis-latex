@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  13 MAY 2017 18:16
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  14 MAY 2017 19:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3075,31 +3075,30 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
  [294]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 58.
+(Font)              scaled to size 12.0pt on input line 72.
  [295] [296]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 9.5pt on input line 147.
+(Font)              scaled to size 9.5pt on input line 161.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 5.70004pt on input line 147.
+(Font)              scaled to size 5.70004pt on input line 161.
+ [297] [298]
 
+LaTeX Warning: Float too large for page by 17.94896pt on input line 204.
 
-LaTeX Warning: Float too large for page by 17.94896pt on input line 190.
-
-[297] [298] [299] [300] [301]
+[299] [300] [301]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [302] [303] [304]
+ [302] [303] [304] [305]
 
-LaTeX Warning: Float too large for page by 7.0708pt on input line 425.
+LaTeX Warning: Float too large for page by 7.0708pt on input line 439.
 
-[305]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 434.
- [306] [307]
+(Font)              scaled to size 7.5pt on input line 448.
+[306] [307]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -3107,7 +3106,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (71.60121pt too wide) in paragraph at lines 474--476
+Overfull \hbox (71.60121pt too wide) in paragraph at lines 488--490
  [][][][] 
  []
 
@@ -3118,29 +3117,29 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (48.98094pt too wide) in paragraph at lines 512--525
+Overfull \hbox (48.98094pt too wide) in paragraph at lines 526--539
  [][][][] 
  []
 
-[308] [309] [310]
+[308] [309] [310] [311]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [311]
-Overfull \hbox (73.24394pt too wide) in paragraph at lines 643--647
+
+Overfull \hbox (73.24394pt too wide) in paragraph at lines 657--661
  [][][][] 
  []
 
 
-Overfull \hbox (73.24394pt too wide) in paragraph at lines 653--659
+Overfull \hbox (73.24394pt too wide) in paragraph at lines 667--673
  [][][][] 
  []
 
 
-Overfull \hbox (99.7724pt too wide) in paragraph at lines 665--677
+Overfull \hbox (99.7724pt too wide) in paragraph at lines 679--691
 [][][][] 
  []
 
@@ -3152,12 +3151,12 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (58.57109pt too wide) in paragraph at lines 751--754
+Overfull \hbox (58.57109pt too wide) in paragraph at lines 765--768
  [][][][] 
  []
 
 
-Overfull \hbox (1.6656pt too wide) in paragraph at lines 760--762
+Overfull \hbox (1.6656pt too wide) in paragraph at lines 774--776
  [][][][] 
  []
 
@@ -3168,7 +3167,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (70.83897pt too wide) in paragraph at lines 783--796
+Overfull \hbox (70.83897pt too wide) in paragraph at lines 797--810
  [][][][] 
  []
 
@@ -3179,41 +3178,41 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [318]
+ [318] [319]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [319] [320]
-Overfull \hbox (30.1699pt too wide) in paragraph at lines 1010--1013
+ [320]
+Overfull \hbox (30.1699pt too wide) in paragraph at lines 1024--1027
  [][][][] 
  []
 
 
-Overfull \hbox (30.1699pt too wide) in paragraph at lines 1019--1022
+Overfull \hbox (30.1699pt too wide) in paragraph at lines 1033--1036
  [][][][] 
  []
 
-[321] [322]
-Overfull \hbox (50.11972pt too wide) in paragraph at lines 1047--1051
+[321] [322] [323]
+Overfull \hbox (50.11972pt too wide) in paragraph at lines 1061--1065
 [][][][] 
  []
 
 
-Overfull \hbox (75.78793pt too wide) in paragraph at lines 1075--1087
+Overfull \hbox (75.78793pt too wide) in paragraph at lines 1089--1101
  [][][][] 
  []
 
-[323] [324] [325]
+[324] [325] [326]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [326] [327]
+ [327]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -3221,7 +3220,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (47.84508pt too wide) in paragraph at lines 1211--1217
+Overfull \hbox (47.84508pt too wide) in paragraph at lines 1225--1231
  [][][][] 
  []
 
@@ -3231,25 +3230,43 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-[328] [329] [330] [331]) [332] (./circuitAnalysis.aux (./tex/cktBasics.aux)
+[328] [329] [330] [331] [332] [333]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [334] [335] [336] [337]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [338] [339]
+[340]) [341] [342
+
+
+] (./circuitAnalysis.aux (./tex/cktBasics.aux)
 (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
 (./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
 (./tex/cktTransients.aux))
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 2.26395pt have occurred.
+(Font)              up to 3.75237pt have occurred.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 48035 strings out of 493918
- 1138582 string characters out of 6150562
- 1358587 words of memory out of 5000000
- 50457 multiletter control sequences out of 15000+600000
- 40922 words of font info for 159 fonts, out of 8000000 for 9000
+ 48481 strings out of 493918
+ 1148860 string characters out of 6150562
+ 3060220 words of memory out of 5000000
+ 50902 multiletter control sequences out of 15000+600000
+ 50380 words of font info for 185 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,19n,74p,10476b,3189s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,19n,86p,10476b,3191s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (46 pages).
+Output written on circuitAnalysis.pdf (56 pages).
