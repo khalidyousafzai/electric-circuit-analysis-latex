@@ -1450,7 +1450,7 @@ v_{C,j}(t)=K_1=\SI{12}{\volt}
 \begin{align*}
 v_{C,f}(t)&=e^{-\frac{t}{6}}\left(c_1 \cos \frac{t}{9\sqrt{2}}+c_2 \sin \frac{t}{9\sqrt{2}}\right)
 \end{align*}
-ہے جہاں \عددی{\sigma=\tfrac{1}{6}} اور \عددی{\omega_d=\frac{1}{6\sqrt{2}}} استعمال کئے گئے۔یوں مکمل حل درج ذیل ہو گا
+ہے جہاں \عددی{\sigma=\omega_0\zeta=\tfrac{1}{6}} اور \عددی{\omega_d=\omega_0\sqrt{1-\zeta^2}=\frac{1}{6\sqrt{2}}} استعمال کئے گئے۔یوں مکمل حل درج ذیل ہو گا
 \begin{gather}
 \begin{aligned}\label{مساوات_عارضی_سلسلہ_وار_مکمل_حل_الف}
 v_C(t)&=v_{C,j}(t)+v_{C,f}(t)\\
@@ -1530,10 +1530,18 @@ v_{C,j}=\frac{10}{3} \, \si{\volt}
 \begin{align*}
 \frac{\dif^{\,2} v_C(t)}{\dif t^2}+7.9 \frac{\dif v_C(t)}{\dif t}+3 v_C(t)=0
 \end{align*}
+جس کا متوقع حل \عددی{v_{C,f}=e^{st}} ہے۔متوقع حل کو ہم جنسی مساوات میں پُر کرتے ہوئے
+\begin{align*}
+s^2 e^{st}+7.9 s e^{st}+3 e^{st}=0
+\end{align*}
+حاصل ہوتا ہے جس کے دونوں اطراف کو \عددی{e^{st}} سے تقسیم کرنے سے درج ذیل حاصل ہوتا ہے
+\begin{align*}
+s^2+7.9s+3=0
+\end{align*}
 جس کے حل
 \begin{align*}
-s_1&=-7.5\\
-s_2&=-0.4
+s_1&=\frac{-1-\sqrt{7.9^2-4\times 3}}{2}=-7.5\\
+s_2&=\frac{-1+\sqrt{7.9^2-4\times 3}}{2}=-0.4
 \end{align*}
 ہیں۔یوں فطری حل درج ذیل ہو گا
 \begin{align*}
@@ -1598,5 +1606,153 @@ c_2&=\frac{125}{71}
 \begin{align}
 v_C(t)&=\frac{10}{3}-\frac{20}{213} e^{-7.5t}+\frac{125}{71}e^{-0.4t}
 \end{align}
-یہ مساوات \عددی{t=0_+} پر \عددی{v_C(0_+)=\SI{5}{\volt}} اور \عددی{t=\infty} پر \عددی{v_C(\infty)=\tfrac{10}{3}\, \si{\volt}} دیتی ہے۔
+یہ مساوات \عددی{t=0_+} پر متوقع جوابات \عددی{v_C(0_+)=\SI{5}{\volt}} اور \عددی{t=\infty} پر \عددی{v_C(\infty)=\tfrac{10}{3}\, \si{\volt}} دیتی ہے۔
 \انتہا{مثال}
+%==========================
+\ابتدا{مثال}\شناخت{مثال_عارضی_مستطیل_دباو_پ}
+شکل \حوالہ{شکل_عارضی_مستطیل_دباو_پ} میں لمحہ \عددی{t=0} پر سوئچ کو امالہ گیر پر لے جایا جاتا ہے۔\عددی{v_0(t)} دریافت کریں۔پرزوں کی قیمتیں \عددی{R=\SI{20}{\ohm}}، \عددی{C=\SI{0.04}{\farad}} اور \عددی{L=\SI{4}{\henry}} ہیں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) node[spdt,xscale=-1](ks){};
+\draw(ks.out 1)--++(-\x,0)++(0,-2*\y)coordinate(kBL)node[ground]{} to [american voltage source,l={$\SI{20}{\volt}$}]++(0,2*\y);
+\draw(kBL)++(\x,0)node[ground]{} to [inductor,l={$L$}]++(0,\y) |-(ks.out 2);
+\draw(ks.in) to [resistor,i={$i(t)$},l={$R$}]++(\x,0)coordinate(kUR) to [capacitor,l_={$C$}]++(0,-\y)++(0,-\y)node[ground]{} to [american voltage source,l_={$\SI{5}{\volt}$}]++(0,\y);
+\draw(kUR)++(2*\dx,-\y/2)node[right]{$\begin{aligned} &+ \\ &v_C(t) \\ &-\end{aligned}$};
+\draw(kUR) to [short,*-o]++(\x/2,0)node[right]{$v_0(t)$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)node[ground]{} to [american voltage source,l={$\SI{20}{\volt}$}]++(0,\y+\y/2) to [short]++(\x,0) to [resistor,l={$R$}]++(\x,0) to [short,-o]++(\x/2,0)++(0,-1.5*\y)node[ground]{} to [american voltage source,-o,l={$\SI{5}{\volt}$}]++(0,\y);
+\draw(\x,0) node[ground]{} to [inductor,-o,i<_={$i_L(0_-)$},l={$L$}]++(0,\y);
+\draw(2.5*\x,\y+\y/4)node[right]{$\begin{aligned}&+ \\ &v_C(0_-) \\ &-  \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_عارضی_مستطیل_دباو_پ} کا دور۔}
+\label{شکل_عارضی_مستطیل_دباو_پ}
+\end{figure}
+
+حل:سوئچ امالہ پر کرنے کے بعد کرخوف مساوات لکھتے ہیں
+\begin{align*}
+v_C(t)+R i(t)+L\frac{\dif i(t)}{\dif t}+5=0
+\end{align*}
+جہاں
+\begin{align*}
+i(t)=C\frac{\dif v_C(t)}{\dif t}
+\end{align*}
+کے برابر ہے۔درج بالا دو مساوات کو ملاتے ہوئے
+\begin{align*}
+v_C(t)+RC\frac{\dif v_C(t)}{\dif t}+LC\frac{\dif ^{\, 2}v_C(t)}{\dif t^2}+5=0
+\end{align*}
+ملتا ہے  جسے ترتیب دیتے ہوئے درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+\frac{\dif ^{\, 2}v_C(t)}{\dif t^2}+\frac{R}{L}\frac{\dif v_C(t)}{\dif t}+\frac{v_C(t)}{LC}=-\frac{5}{LC}
+\end{align*}
+پرزوں کی قیمتیں پُر کرنے سے
+\begin{align*}
+\frac{\dif ^{\, 2}v_C(t)}{\dif t^2}+5\frac{\dif v_C(t)}{\dif t}+6.25 v_C(t)=-31.25
+\end{align*}
+حاصل ہوتا ہے جس سے \عددی{\omega_0=\SI{2.5}{\radian\per\second}}، \عددی{\zeta=1}، جبری حل 
+\begin{align*}
+v_{C,j}=K_1=\SI{-5}{\volt}
+\end{align*}
+ اور ہم جنسی مساوات درج ذیل ملتا ہے۔
+\begin{align*}
+\frac{\dif ^{\, 2}v_C(t)}{\dif t^2}+5\frac{\dif v_C(t)}{\dif t}+6.25 v_C(t)=0
+\end{align*}
+ہم جنسی مساوات میں \عددی{e^{st}} پُر کرتے ہوئے درج ذیل حاصل کیا جا سکتا ہے
+\begin{align}
+s^2+5s+6.25=0
+\end{align}
+جس کا حل درج ذیل ہے۔
+\begin{align*}
+s_1=s_2=-2.5
+\end{align*}
+\عددی{\zeta=1} کے تحت  دور فاصل قصری ہے اور \عددی{s_1=s_2} ہی متوقع تھا۔ فاصل قصری مساوات کا فطری حل درج ذیل ہے۔
+\begin{align*}
+v_{C,f}(t)=c_1e^{-2.5t}+c_2 t e^{-2.5t}
+\end{align*}
+یوں مکمل حل
+\begin{align}\label{مساوات_عارضی_مکمل_حل_مثال_دو_درجی_ب}
+v_C(t)=-5+(c_1+tc_2)e^{-2.5t}
+\end{align}
+ہو گا۔مکمل حل کے مستقل ابتدائی معلومات سے حاصل کی جا سکتی ہیں۔ابتدائی معلومات سوئچ ہلانے سے پہلے برقرار حال سے ملتی ہیں۔لمحہ \عددی{t=0} سے پہلے برقرار صورت میں برق گیر کو کھلا دور تصور کرتے ہوئے شکل-ب ملتا ہے جہاں سے
+\begin{align*}
+v_C(0_-)&=v_C(0_+)=20-5=\SI{15}{\volt}\\
+i_L(0_-)&=i_L(0_+)=\SI{0}{\ampere}
+\end{align*}
+لکھا جا سکتا ہے۔مساوات \حوالہ{مساوات_عارضی_مکمل_حل_مثال_دو_درجی_ب} میں \عددی{t=0} پر \عددی{v_C(0_+)} پُر کرنے
+\begin{align*}
+15=-5+(c_1+0\times c_2)e^{-2.5 \times 0}
+\end{align*}
+سے
+\begin{align*}
+c_1=20
+\end{align*}
+حاصل ہوتا ہے۔مساوات \حوالہ{مساوات_عارضی_مکمل_حل_مثال_دو_درجی_ب} کو استعمال کرتے ہوئے
+\begin{align*}
+i(t)&=C\frac{\dif v_C(t)}{\dif t}\\
+&=0.04\times  (-2.5c_1+c_2-2.5tc_2)e^{-2.5 t}
+\end{align*}
+لکھا جا سکتا ہے۔لمحہ \عددی{t=0} کے بعد شکل-الف کو دیکھتے ہوئے \عددی{i_L(t)=-i(t)} لکھا جا سکتا ہے۔یوں امالہ گیر کی ابتدائی رو سے لمحہ \عددی{t=0_+} پر \عددی{i(0_+)=-i_L(0_+)=0} کو درج بالا مساوات میں پُر کرتے
+\begin{align*}
+&=0.04\times  (-2.5c_1+c_2-2.5 \times 0 \times c_2)e^{-2.5 \times 0}
+\end{align*}
+ہوئے
+\begin{align*}
+c_2=50
+\end{align*}
+ملتا ہے۔یوں مکمل حل کو درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+v_C(t)&=v_{C,j}(t)+v_{C,f}(t)\\
+&=-5+(20+50 t)e^{-2.5t} \, \si{\volt}
+\end{align*}
+ہمیں \عددی{v_0(t)} درکار ہے  جسے شکل-الف سے دیکھ کر لکھتے ہیں۔
+\begin{align}
+v_0(t)=5+v_C(t)=(20+50 t)e^{-2.5t} \, \si{\volt}
+\end{align}
+\انتہا{مثال}
+%===========================
+\ابتدا{مشق}\شناخت{مشق_عارضی_دو_درجی_الف}
+شکل \حوالہ{شکل_عارضی_دو_درجی_الف} میں \عددی{v_0(t)} دریافت کریں۔پرزوں کی قیمتیں \عددی{R_1=\SI{8}{\ohm}}، \عددی{R_2=\SI{22}{\ohm}}، {\عددی{L=\SI{4}{\henry}}} اور \عددی{C=\SI{0.04}{\farad}} ہیں۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0)node[spdt,xscale=-1](ksp){};
+\draw(ksp.out 1) to [resistor,l_={$R_1$}]++(-\x,0)++(0,-2.5*\y)coordinate(kBL) to [american voltage source,l={$\SI{40}{\volt}$}]++(0,2.5*\y);
+\draw(kBL) to [short]++(3*\x,0) to [american voltage source,l={$\SI{20}{\volt}$}]++(0,\y) to [resistor,l={$R_2$}]++(0,\y)coordinate(kR2);
+\draw(ksp.in) to [inductor,i={$i_0(t)$}]++(\x,0) -| (kR2);
+\draw(kBL)++(3/4*\x,0) to [american voltage source,*-,l_={$\SI{5}{\volt}$}]++(0,\y) to [capacitor,l_={$C$}]++(0,\y) |-(ksp.out 2);
+\draw(kBL)++(3*\x+\x/2,\y+\y/8)node{$\begin{aligned} &+ \\ \\ \\ \\&v_0(t)  \\ \\ \\ \\&-\end{aligned}$};
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_عارضی_دو_درجی_الف} کا دور۔}
+\label{شکل_عارضی_دو_درجی_الف}
+\end{figure}
+
+جوابات:\عددی{i_0(t)=2.77e^{-3.8964t}-2.103e^{-1.6043t}}، \عددی{v_0(t)=20+i_0(t)R_2}
+\انتہا{مشق}
+%========================
+\ابتدا{مشق}\شناخت{مشق_عارضی_دو_درجی_ب}
+شکل \حوالہ{شکل_عارضی_دو_درجی_ب} میں سوئچ چالو کرنے کے بعد \عددی{i(t)} دریافت کریں۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short]++(\x,0) to [american voltage source,l={$\SI{30}{\volt}$}]++(0,\y) to [resistor,l={$\SI{25}{\ohm}$}]++(0,\y) to [cspst,l_={${t=0}$}]++(0,\y) to [resistor,l={$\SI{5}{\ohm}$}]++(-\x,0) to [american voltage source,l_={$\SI{10}{\volt}$}]++(0,-3*\y);
+\draw(\x,0) to [short,*-]++(2*\x,0) to [capacitor,l={$\SI{0.02}{\farad}$}]++(0,3*\y) to [short,-*]++(-2*\x,0);
+\draw(2*\x,0) to [inductor,*-*,i<_={$i(t)$},l={$\SI{4}{\henry}$}]++(0,3*\y);
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_عارضی_دو_درجی_ب} کا دور۔}
+\label{شکل_عارضی_دو_درجی_ب}
+\end{figure}
+
+جواب:\عددی{i(t)=3+1.3035e^{-17.071t}-6.035e^{-2.9289t}}
+\انتہا{مشق}
+%=========================

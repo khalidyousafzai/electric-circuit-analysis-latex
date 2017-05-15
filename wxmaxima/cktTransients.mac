@@ -92,3 +92,83 @@ ps:ic2(sol2,t=0,v=vC,'diff(v,t)=iL/C);
 
 eqQ:x^2+7.9*x+3=0;
 allroots(eqQ);
+Print("======================================");
+kill(all);
+print("example 7.12");
+print("series RLC");
+load("vect");
+mu0:4*%pi*10^(-7);
+epsilon0:8.85418782*10^(-12);
+c:3*10^8;
+
+R:20;
+L:4;
+C:0.04;
+vA:20;
+vB:5;
+
+w:1/sqrt(L*C);
+z:R/2*sqrt(C/L);
+
+eq:'diff(v,t,2)+R/L*'diff(v,t,1)+v/(L*C)=-vB/(L*C);
+
+sol2: ode2(eq,v,t);
+
+ps:ic2(sol2,t=0,v=15,'diff(v,t)=0);
+Print("======================================");
+kill(all);
+print("quiz 7.11");
+print("series RLC");
+load("vect");
+mu0:4*%pi*10^(-7);
+epsilon0:8.85418782*10^(-12);
+c:3*10^8;
+
+R1:8;
+R2:22;
+L:4;
+C:0.04;
+vA:40;
+vB:5;
+vC:20;
+
+w:1/sqrt(L*C);
+z:R2/2*sqrt(C/L);
+
+i0:(vA-vC)/(R1+R2);
+
+eq:'diff(v,t,2)+R2/L*'diff(v,t,1)+v/(L*C)=(vB-vC)/(L*C);
+
+sol2: ode2(eq,v,t);
+
+ps:ic2(sol2,t=0,v=0,'diff(v,t)=i0/C);
+
+i:C*diff(ps,t,1);
+float(ps);
+Print("======================================");
+kill(all);
+print("quiz 7.12");
+print("paralle RLC");
+load("vect");
+mu0:4*%pi*10^(-7);
+epsilon0:8.85418782*10^(-12);
+c:3*10^8;
+
+R1:5;
+R2:25;
+L:4;
+C:0.02;
+vA:-10;
+vB:30;
+
+
+w:1/sqrt(L*C);
+z:1/2*sqrt(C/L)*(1/R1+1/R2);
+
+iL0:vA/R1;
+vC0:0;
+
+eqi:'diff(i,t,2)+20*'diff(i,t,1)+50*i=150;
+sol2: ode2(eqi,i,t);
+psi:ic2(sol2,t=0,i=iL0,'diff(i,t)=0);
+
