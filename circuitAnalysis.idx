@@ -14,10 +14,10 @@
 \indexentry{differential equation!second order}{\RL {\arabicfont  294}}
 \indexentry{تفرقی مساوات!دو درجی}{\RL {\arabicfont  294}}
 \indexentry{دو درجی!تفرقی مساوات}{\RL {\arabicfont  294}}
-\indexentry{differential equation}{\RL {\arabicfont  294}}
-\indexentry{تفرقی مساوات}{\RL {\arabicfont  294}}
-\indexentry{integro-differential equation}{\RL {\arabicfont  294}}
-\indexentry{تکمل و تفرقی}{\RL {\arabicfont  294}}
+\indexentry{differential equation}{\RL {\arabicfont  295}}
+\indexentry{تفرقی مساوات}{\RL {\arabicfont  295}}
+\indexentry{integro-differential equation}{\RL {\arabicfont  295}}
+\indexentry{تکمل و تفرقی}{\RL {\arabicfont  295}}
 \indexentry{forcing function}{\RL {\arabicfont  295}}
 \indexentry{جبری قوت}{\RL {\arabicfont  295}}
 \indexentry{response!natural}{\RL {\arabicfont  295}}
@@ -38,29 +38,46 @@
 \indexentry{time constant}{\RL {\arabicfont  297}}
 \indexentry{وقتی مستقل}{\RL {\arabicfont  297}}
 \indexentry{steady state solution}{\RL {\arabicfont  297}}
-\indexentry{exponential decay}{\RL {\arabicfont  297}}
-\indexentry{قوت نمائی!انحطاط}{\RL {\arabicfont  297}}
-\indexentry{switch}{\RL {\arabicfont  299}}
-\indexentry{سوئچ}{\RL {\arabicfont  299}}
-\indexentry{initial conditions}{\RL {\arabicfont  301}}
-\indexentry{ابتدائی شرائط}{\RL {\arabicfont  301}}
-\indexentry{switch!spdt}{\RL {\arabicfont  306}}
-\indexentry{سوئچ!ایک قطب دو چال}{\RL {\arabicfont  306}}
-\indexentry{unit impulse function}{\RL {\arabicfont  321}}
-\indexentry{اکائی جھٹکا تفاعل}{\RL {\arabicfont  321}}
-\indexentry{unit step function}{\RL {\arabicfont  321}}
-\indexentry{اکائی سیڑھی تفاعل}{\RL {\arabicfont  321}}
-\indexentry{dimensionless}{\RL {\arabicfont  321}}
-\indexentry{بے بعد}{\RL {\arabicfont  321}}
-\indexentry{damping ratio}{\RL {\arabicfont  330}}
-\indexentry{تقصیری تناسب}{\RL {\arabicfont  330}}
-\indexentry{natural frequency!undamped}{\RL {\arabicfont  330}}
-\indexentry{قدرتی تعدد!غیر تقصیری}{\RL {\arabicfont  330}}
-\indexentry{over damped condition}{\RL {\arabicfont  331}}
-\indexentry{مقصور!زیادہ}{\RL {\arabicfont  331}}
-\indexentry{under damped condition}{\RL {\arabicfont  332}}
-\indexentry{مقصور!کم}{\RL {\arabicfont  332}}
-\indexentry{damped!oscillation}{\RL {\arabicfont  333}}
-\indexentry{قصری ارتعاش}{\RL {\arabicfont  333}}
-\indexentry{envelope}{\RL {\arabicfont  333}}
-\indexentry{غلاف}{\RL {\arabicfont  333}}
+\indexentry{exponential decay}{\RL {\arabicfont  298}}
+\indexentry{قوت نمائی!انحطاط}{\RL {\arabicfont  298}}
+\indexentry{switch}{\RL {\arabicfont  298}}
+\indexentry{سوئچ}{\RL {\arabicfont  298}}
+\indexentry{initial conditions}{\RL {\arabicfont  300}}
+\indexentry{ابتدائی شرائط}{\RL {\arabicfont  300}}
+\indexentry{switch!spdt}{\RL {\arabicfont  303}}
+\indexentry{سوئچ!ایک قطب دو چال}{\RL {\arabicfont  303}}
+\indexentry{unit impulse function}{\RL {\arabicfont  314}}
+\indexentry{اکائی جھٹکا تفاعل}{\RL {\arabicfont  314}}
+\indexentry{unit step function}{\RL {\arabicfont  314}}
+\indexentry{اکائی سیڑھی تفاعل}{\RL {\arabicfont  314}}
+\indexentry{dimensionless}{\RL {\arabicfont  314}}
+\indexentry{بے بعد}{\RL {\arabicfont  314}}
+\indexentry{damping ratio}{\RL {\arabicfont  320}}
+\indexentry{تقصیری تناسب}{\RL {\arabicfont  320}}
+\indexentry{natural frequency!undamped}{\RL {\arabicfont  320}}
+\indexentry{قدرتی تعدد!غیر تقصیری}{\RL {\arabicfont  320}}
+\indexentry{characteristic equation}{\RL {\arabicfont  321}}
+\indexentry{امتیازی مساوات}{\RL {\arabicfont  321}}
+\indexentry{over damped condition}{\RL {\arabicfont  321}}
+\indexentry{مقصور!زیادہ}{\RL {\arabicfont  321}}
+\indexentry{under damped condition}{\RL {\arabicfont  322}}
+\indexentry{مقصور!کم}{\RL {\arabicfont  322}}
+\indexentry{damped!oscillation}{\RL {\arabicfont  323}}
+\indexentry{قصری ارتعاش}{\RL {\arabicfont  323}}
+\indexentry{envelope}{\RL {\arabicfont  323}}
+\indexentry{غلاف}{\RL {\arabicfont  323}}
+\indexentry{rectifier}{\RL {\arabicfont  338}}
+\indexentry{سمت کار}{\RL {\arabicfont  338}}
+\indexentry{DC}{\RL {\arabicfont  338}}
+\indexentry{direct current, DC}{\RL {\arabicfont  338}}
+\indexentry{یک سمتی رو}{\RL {\arabicfont  338}}
+\indexentry{AC}{\RL {\arabicfont  338}}
+\indexentry{alternating current, AC}{\RL {\arabicfont  338}}
+\indexentry{بدلتی رو}{\RL {\arabicfont  338}}
+\indexentry{power electronics}{\RL {\arabicfont  339}}
+\indexentry{قوی برقیات}{\RL {\arabicfont  339}}
+\indexentry{kickback}{\RL {\arabicfont  340}}
+\indexentry{inductive kick}{\RL {\arabicfont  340}}
+\indexentry{امالی لات}{\RL {\arabicfont  340}}
+\indexentry{snubber}{\RL {\arabicfont  341}}
+\indexentry{دباو پکڑ}{\RL {\arabicfont  341}}

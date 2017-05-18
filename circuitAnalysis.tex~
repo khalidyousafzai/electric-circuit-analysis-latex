@@ -4,7 +4,12 @@
 \usepackage{circuitikz}
 \usepackage{pgfplots}
 \usepackage{tikz-3dplot}
-\usetikzlibrary{3d,shadings,fadings,intersections,calc,decorations.markings,decorations.pathreplacing}
+\usepackage{ifdraft}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc,decorations.markings,decorations.pathreplacing,external}
+
+%\tikzexternalize[mode=list and make] %disable to generate figures. it uses tikzlibrary external
+%\tikzexternaldisable  %enables figures after this command. Remove all such occurances before final recompile 
+
 \pgfmathsetmacro{\x}{2}     %smallest resistor sizes
 \pgfmathsetmacro{\y}{2}
 \pgfmathsetmacro{\xx}{2.5}   %somewhat larger resistor leads. gives more space

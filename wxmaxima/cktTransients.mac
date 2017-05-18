@@ -171,4 +171,16 @@ vC0:0;
 eqi:'diff(i,t,2)+20*'diff(i,t,1)+50*i=150;
 sol2: ode2(eqi,i,t);
 psi:ic2(sol2,t=0,i=iL0,'diff(i,t)=0);
+Print("======================================");
+kill(all);
+print("ea 7.13");
+print("paralle RLC");
+load("vect");
+mu0:4*%pi*10^(-7);
+epsilon0:8.85418782*10^(-12);
 
+RL:5;
+L:7.5*10^(-6);
+w0:366000;
+
+C:1/(w0^2*L);
