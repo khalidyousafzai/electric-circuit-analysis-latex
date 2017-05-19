@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  18 MAY 2017 18:12
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  19 MAY 2017 20:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3023,221 +3023,1052 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
  [5] [6
 
 ]
-\openout2 = `./tex/cktTransients.aux'.
+\openout2 = `./tex/cktBasics.aux'.
 
- (./tex/cktTransients.tex
-باب \RL {\arabicfont 7}.
+ (./tex/cktBasics.tex
+باب \RL {\arabicfont 1}.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 2.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 14.4pt on input line 2.
 LaTeX Font Info:    Font shape `EU1/XBTabrizBold(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 3.
+(Font)              scaled to size 10.0pt on input line 2.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 7.6pt on input line 3.
+(Font)              scaled to size 7.6pt on input line 2.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 3.
+(Font)              scaled to size 8.0pt on input line 2.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 3.
-
-Overfull \hbox (0.90594pt too wide) in paragraph at lines 6--7
-[]\EU1/JameelNooriNastaleeq(1)/m/n/10 وہ ادوار جن میں صرف امالہ گیر توانائی ذخی
-رہ کرتے ہوں کی کرخوف مساوات \EU1/XBTabrizBold(0)/m/n/10 ایک درجی تفرقی مساوات[]
-[][][] []\EU1/JameelNooriNastaleeq(1)/m/n/10 ہوتی ہے۔اسی[]
- []
-
-Opening 'circuitAnalysis.figlist' for writing.
-\openout4 = `circuitAnalysis.figlist'.
-
-
-Opening 'circuitAnalysis.makefile' for writing.
-\tikzexternal@outmakefile=\write7
-\openout7 = `circuitAnalysis.makefile'.
-
-Writing 'circuitAnalysis-figure0' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure0' to 'circuitAnalysis.makefile'.
-
-LaTeX Font Warning: Font shape `EU1/JameelNooriNastaleeq(0)/m/sc' undefined
-(Font)              using `EU1/JameelNooriNastaleeq(0)/m/n' instead on input li
-ne 14.
-
+(Font)              scaled to size 6.0pt on input line 2.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 9.5pt on input line 2.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 5.70004pt on input line 2.
+File: ./fig/figBasicConcepts/figBasicSIprefix.pdf Graphic file (type QTm)
+<use  "./fig/figBasicConcepts/figBasicSIprefix.pdf" >
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 15.
-Writing 'circuitAnalysis-figure1' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure1' to 'circuitAnalysis.makefile'.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 22.
-[293
+(Font)              scaled to size 14.4pt on input line 10.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
+(Font)              scaled to size 14.4pt on input line 10.
+ [1
 
 
+]
+File: ./fig/figBasicConcepts/figBasicCurrentAndDirection.pdf Graphic file (type
+ QTm)
 
+<use  "./fig/figBasicConcepts/figBasicCurrentAndDirection.pdf" > [2]
+File: ./fig/figBasicConcepts/figBasicVoltageCurrentRelation.pdf Graphic file (t
+ype QTm)
 
+<use  "./fig/figBasicConcepts/figBasicVoltageCurrentRelation.pdf" >
+File: ./fig/figBasicConcepts/figBasicOhmLawPassiveConvention.pdf Graphic file (
+type QTm)
 
+<use  "./fig/figBasicConcepts/figBasicOhmLawPassiveConvention.pdf" > [3]
+[4]
+File: ./fig/figBasicConcepts/figBasicVoltageHeight.pdf Graphic file (type QTm)
+ <use  "./fig/figBasicConcepts/figBasicVoltageHeight.pdf" >
+File: ./fig/figBasicConcepts/figBasicVoltagePositiveNegativeSides.pdf Graphic f
+ile (type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicVoltagePositiveNegativeSides.pdf" >
+[5] [6]
+File: ./fig/figBasicConcepts/figBasicOhmLawExamples.pdf Graphic file (type QTm)
+
+ <use  "./fig/figBasicConcepts/figBasicOhmLawExamples.pdf" > [7]
+File: ./fig/figBasicConcepts/figBasicOhmLawGeneral.pdf Graphic file (type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicOhmLawGeneral.pdf" > [8] [9]
+File: ./fig/figBasicConcepts/figBasicOhmsLaw.pdf Graphic file (type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicOhmsLaw.pdf" >
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no ل in font zplmr7m!
+Missing character: There is no ف in font zplmr7m!
+ [10]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 7.5pt on input line 185.
+ [11]
+File: ./fig/figBasicConcepts/figBasicPassiveSignExample.pdf Graphic file (type 
+QTm)
+
+<use  "./fig/figBasicConcepts/figBasicPassiveSignExample.pdf" > [12]
+File: ./fig/figBasicConcepts/figBasicPassiveSignQuiz.pdf Graphic file (type QTm
+)
+
+<use  "./fig/figBasicConcepts/figBasicPassiveSignQuiz.pdf" >
+File: ./fig/figBasicConcepts/figBasicPowerExample.pdf Graphic file (type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicPowerExample.pdf" > [13]
+File: ./fig/figBasicConcepts/figBasicPowerQuiz.pdf Graphic file (type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicPowerQuiz.pdf" > [14]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
+(Font)              scaled to size 12.0pt on input line 267.
+File: ./fig/figBasicConcepts/figBasicIndependentVoltageSource.pdf Graphic file 
+(type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicIndependentVoltageSource.pdf" >
+File: ./fig/figBasicConcepts/figBasicIndependentCurrentSource.pdf Graphic file 
+(type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicIndependentCurrentSource.pdf" > [15]
+File: ./fig/figBasicConcepts/figBasicInternalResistanceExample.pdf Graphic file
+ (type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicInternalResistanceExample.pdf" >
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 297.
+File: ./fig/figBasicConcepts/figBasicInternalResistanceQuiz.pdf Graphic file (t
+ype QTm)
+
+<use  "./fig/figBasicConcepts/figBasicInternalResistanceQuiz.pdf" > [16]
+File: ./fig/figBasicConcepts/figBasicDependentVoltageSource.pdf Graphic file (t
+ype QTm)
+
+<use  "./fig/figBasicConcepts/figBasicDependentVoltageSource.pdf" >
+File: ./fig/figBasicConcepts/figBasicDependentCurrentSource.pdf Graphic file (t
+ype QTm)
+
+<use  "./fig/figBasicConcepts/figBasicDependentCurrentSource.pdf" >
+File: ./fig/figBasicConcepts/figBasicDependentResistanceSource.pdf Graphic file
+ (type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicDependentResistanceSource.pdf" >
+File: ./fig/figBasicConcepts/figBasicDependentConductanceSource.pdf Graphic fil
+e (type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicDependentConductanceSource.pdf" >
+[17]
+File: ./fig/figBasicConcepts/figBasicDependentVoltageSourceExample.pdf Graphic 
+file (type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicDependentVoltageSourceExample.pdf" >
+File: ./fig/figBasicConcepts/figBasicDependentCurrentSourceExample.pdf Graphic 
+file (type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicDependentCurrentSourceExample.pdf" >
+[18]
+File: ./fig/figBasicConcepts/figBasicDependentVoltageSourceExamplePower.pdf Gra
+phic file (type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicDependentVoltageSourceExamplePower.pdf" >
+File: ./fig/figBasicConcepts/figBasicDependentCurrentSourceExamplePower.pdf Gra
+phic file (type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicDependentCurrentSourceExamplePower.pdf" >
+File: ./fig/figBasicConcepts/figBasicExampleTwoSourceThreeResistorPower.pdf Gra
+phic file (type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicExampleTwoSourceThreeResistorPower.pdf" >
+[19] [20]
+File: ./fig/figBasicConcepts/figBasicPowerExampleMultiSupplies.pdf Graphic file
+ (type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicPowerExampleMultiSupplies.pdf" >
+File: ./fig/figBasicConcepts/figBasicChargeSuppliedToBox.pdf Graphic file (type
+ QTm)
+
+<use  "./fig/figBasicConcepts/figBasicChargeSuppliedToBox.pdf" >
+File: ./fig/figBasicConcepts/figBasicChargeVersusCurrent.pdf Graphic file (type
+ QTm)
+
+<use  "./fig/figBasicConcepts/figBasicChargeVersusCurrent.pdf" > [21] [22]
+File: ./fig/figBasicConcepts/figBasicChargeVersusCurrentAnswer.pdf Graphic file
+ (type QTm)
+
+<use  "./fig/figBasicConcepts/figBasicChargeVersusCurrentAnswer.pdf" > [23]
+File: ./fig/figBasicConcepts/figBasicPowerSuppliedToBox.pdf Graphic file (type 
+QTm)
+
+<use  "./fig/figBasicConcepts/figBasicPowerSuppliedToBox.pdf" > [24] [25])
+[26]
+\openout2 = `./tex/cktResistive.aux'.
+
+ (./tex/cktResistive.tex
+باب \RL {\arabicfont 2}.
+File: ./fig/figResistive/figResistiveStraightLines.pdf Graphic file (type QTm)
+<use  "./fig/figResistive/figResistiveStraightLines.pdf" >
+File: ./fig/figResistive/figResistiveOhmLaw.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistiveOhmLaw.pdf" > [27
 
 
 
 ]
-Writing 'circuitAnalysis-figure2' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure2' to 'circuitAnalysis.makefile'.
-[294]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 72.
- [295] [296]
-Writing 'circuitAnalysis-figure3' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure3' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure4' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure4' to 'circuitAnalysis.makefile'.
+File: ./fig/figResistive/figResistiveIncadecentBulb.pdf Graphic file (type QTm)
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--157
-[][]\EU1/JameelNooriNastaleeq(0)/m/sc/10 [[ Image Discarded Due To `/tikz/exter
-nal/mode=list and make' ]][[ Image Discarded Due To[]
+
+<use  "./fig/figResistive/figResistiveIncadecentBulb.pdf" > [28]
+File: ./fig/figResistive/figResistanceOhmLawPower.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceOhmLawPower.pdf" > [29]
+File: ./fig/figResistive/figResistanceVariableResistance.pdf Graphic file (type
+ QTm)
+
+<use  "./fig/figResistive/figResistanceVariableResistance.pdf" >
+Overfull \hbox (0.88971pt too wide) in paragraph at lines 106--107
+ [][][][][][] 
  []
 
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 9.5pt on input line 161.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 5.70004pt on input line 161.
-[297]
-Writing 'circuitAnalysis-figure5' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure5' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure6' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure6' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure7' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure7' to 'circuitAnalysis.makefile'.
-[298] [299] [300]
-Writing 'circuitAnalysis-figure8' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure8' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure9' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure9' to 'circuitAnalysis.makefile'.
-[301] [302]
-Writing 'circuitAnalysis-figure10' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure10' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure11' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure11' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure12' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure12' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure13' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure13' to 'circuitAnalysis.makefile'.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 448.
-[303] [304]
-Writing 'circuitAnalysis-figure14' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure14' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure15' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure15' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure16' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure16' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure17' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure17' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure18' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure18' to 'circuitAnalysis.makefile'.
-[305] [306]
-Writing 'circuitAnalysis-figure19' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure19' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure20' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure20' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure21' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure21' to 'circuitAnalysis.makefile'.
-[307]
-Writing 'circuitAnalysis-figure22' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure22' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure23' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure23' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure24' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure24' to 'circuitAnalysis.makefile'.
-[308] [309]
-Writing 'circuitAnalysis-figure25' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure25' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure26' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure26' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure27' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure27' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure28' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure28' to 'circuitAnalysis.makefile'.
-[310] [311]
-Writing 'circuitAnalysis-figure29' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure29' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure30' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure30' to 'circuitAnalysis.makefile'.
-[312]
-Writing 'circuitAnalysis-figure31' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure31' to 'circuitAnalysis.makefile'.
-[313]
-Writing 'circuitAnalysis-figure32' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure32' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure33' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure33' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure34' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure34' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure35' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure35' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure36' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure36' to 'circuitAnalysis.makefile'.
-[314]
-Writing 'circuitAnalysis-figure37' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure37' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure38' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure38' to 'circuitAnalysis.makefile'.
-[315]
-Writing 'circuitAnalysis-figure39' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure39' to 'circuitAnalysis.makefile'.
+File: ./fig/figResistive/figResistanceShortCircuit.pdf Graphic file (type QTm)
+<use  "./fig/figResistive/figResistanceShortCircuit.pdf" >
+File: ./fig/figResistive/figResistanceOpenCircuit.pdf Graphic file (type QTm)
 
-Underfull \hbox (badness 10000) in paragraph at lines 1061--1067
-[][]\EU1/JameelNooriNastaleeq(0)/m/sc/10 [[ Image Discarded Due To[]
+<use  "./fig/figResistive/figResistanceOpenCircuit.pdf" > [30] [31]
+File: ./fig/figResistive/figResistanceExampleA.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceExampleA.pdf" >
+File: ./fig/figResistive/figResistanceExampleB.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceExampleB.pdf" >
+File: ./fig/figResistive/figResistanceExampleC.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceExampleC.pdf" > [32]
+File: ./fig/figResistive/figResistanceExampleD.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceExampleD.pdf" >
+File: ./fig/figResistive/figResistanceExampleE.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceExampleE.pdf" > [33]
+File: ./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizA.pdf Graphic
+ file (type QTm)
+
+<use  "./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizA.pdf" >
+File: ./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizB.pdf Graphic
+ file (type QTm)
+
+<use  "./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizB.pdf" >
+File: ./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizC.pdf Graphic
+ file (type QTm)
+
+<use  "./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizC.pdf" >
+[34]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 291.
+File: ./fig/figResistive/figResistanceNodesAndLoopsA.pdf Graphic file (type QTm
+)
+ <use  "./fig/figResistive/figResistanceNodesAndLoopsA.pdf" >
+File: ./fig/figResistive/figResistanceNodesAndLoopsB.pdf Graphic file (type QTm
+)
+
+<use  "./fig/figResistive/figResistanceNodesAndLoopsB.pdf" >
+Overfull \hbox (5.53682pt too wide) in paragraph at lines 303--304
+ [][][][][][] 
  []
 
-Writing 'circuitAnalysis-figure40' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure40' to 'circuitAnalysis.makefile'.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1070--1075
-[][]\EU1/JameelNooriNastaleeq(0)/m/sc/10 [[ Image Discarded Due To[]
+Overfull \hbox (0.84827pt too wide) in paragraph at lines 310--311
+[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 اس سے پہلے کہ ہم کرخوف کے قوانین پر غور
+ کریں، ہم کچھ اصطلاحات مثلاً \EU1/XBTabrizBold(0)/m/n/10 جوڑ[][][] []\EU1/Jamee
+lNooriNastaleeq(1)/m/n/10 ، \EU1/XBTabrizBold(0)/m/n/10 دائرہ[][][] []\EU1/Jame
+elNooriNastaleeq(1)/m/n/10 اور \EU1/XBTabrizBold(0)/m/n/10 شاخ[][][] []\EU1/Jam
+eelNooriNastaleeq(1)/m/n/10 جاننے کی کوشش[]
  []
 
-Writing 'circuitAnalysis-figure41' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure41' to 'circuitAnalysis.makefile'.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1078--1084
-[][]\EU1/JameelNooriNastaleeq(0)/m/sc/10 [[ Image Discarded Due To[]
+[35] [36] [37]
+Overfull \hbox (1.06357pt too wide) in paragraph at lines 352--353
+[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 مساوات []\EU1/JameelNooriNastaleeq(0)/b
+x/n/10 16[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/
+bx/n/10 2[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 ، مساوات []\EU1/JameelNooriNas
+taleeq(0)/bx/n/10 17[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNa
+staleeq(0)/bx/n/10 2[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 اور مساوات []\EU1/
+JameelNooriNastaleeq(0)/bx/n/10 18[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1
+/JameelNooriNastaleeq(0)/bx/n/10 2[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 کو ج
+مع کرنے کے بعد منفی ایک  $\OT1/zplm/m/n/10 (\OMS/zplm/m/n/10 ^^@\OT1/ppl/m/n/10
+ 1\OT1/zplm/m/n/10 )$  \EU1/JameelNooriNastaleeq(1)/m/n/10 سے ضرب دینے سے مساوا
+ت[]
  []
 
-Writing 'circuitAnalysis-figure42' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure42' to 'circuitAnalysis.makefile'.
-[316] [317]
-Writing 'circuitAnalysis-figure43' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure43' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure44' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure44' to 'circuitAnalysis.makefile'.
-[318]
-Writing 'circuitAnalysis-figure45' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure45' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure46' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure46' to 'circuitAnalysis.makefile'.
-[319] [320] [321]
-Writing 'circuitAnalysis-figure47' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure47' to 'circuitAnalysis.makefile'.
-[322] [323]
-Writing 'circuitAnalysis-figure48' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure48' to 'circuitAnalysis.makefile'.
-[324] [325] [326] [327]
-Writing 'circuitAnalysis-figure49' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure49' to 'circuitAnalysis.makefile'.
-[328] [329] [330]
-Writing 'circuitAnalysis-figure50' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure50' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure51' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure51' to 'circuitAnalysis.makefile'.
-[331] [332]
-Writing 'circuitAnalysis-figure52' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure52' to 'circuitAnalysis.makefile'.
-[333]
-Writing 'circuitAnalysis-figure53' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure53' to 'circuitAnalysis.makefile'.
+
+Overfull \hbox (1.51282pt too wide) in paragraph at lines 352--353
+[][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 15[]\EU1/JameelNooriNastaleeq(1)/m/n/1
+0 .[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 2[][] \EU1/JameelNooriNastaleeq(1)/m/
+n/10 حاصل ہوتا ہے۔یوں مندرجہ بالا چار \EU1/XBTabrizBold(0)/m/n/10 ہمزاد مساوات[
+][][] []\EU1/JameelNooriNastaleeq(1)/m/n/10 میں صرف تین عدد مساوات \EU1/XBTabri
+zBold(0)/m/n/10 غیر تابع[][]  \EU1/JameelNooriNastaleeq(1)/m/n/10 مساوات ہیں۔ان
+[]
+ []
+
+File: ./fig/figResistive/figResistanceKCLgoats.pdf Graphic file (type QTm)
+<use  "./fig/figResistive/figResistanceKCLgoats.pdf" >
+File: ./fig/figResistive/figResistanceKCLgoatsSurface.pdf Graphic file (type QT
+m)
+
+<use  "./fig/figResistive/figResistanceKCLgoatsSurface.pdf" >
+Overfull \hbox (1.3656pt too wide) in paragraph at lines 380--381
+[][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 9[]\EU1/JameelNooriNastaleeq(1)/m/n/10
+ .[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 2[][]\EU1/JameelNooriNastaleeq(1)/m/n/
+10 -الف میں ایک گڈریا پورے دن بکریاں چرانے کے بعد انہیں شام کو پہاڑی سے نیچے ای
+ک پگڈنڈی پر اتار رہا ہے۔گڈریا[]
+ []
+
+[38]
+File: ./fig/figResistive/figResistanceKCLexampleBranchesOnly.pdf Graphic file (
+type QTm)
+ <use  "./fig/figResistive/figResistanceKCLexampleBranchesOnly.pdf" >
+File: ./fig/figResistive/figResistanceKCLexampleBranchesOnlySolution.pdf Graphi
+c file (type QTm)
+
+<use  "./fig/figResistive/figResistanceKCLexampleBranchesOnlySolution.pdf" >
+[39] [40]
+File: ./fig/figResistive/figResistanceKCLwithControlledSources.pdf Graphic file
+ (type QTm)
+
+<use  "./fig/figResistive/figResistanceKCLwithControlledSources.pdf" > [41]
+File: ./fig/figResistive/figResistanceKCLexampleA.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceKCLexampleA.pdf" >
+File: ./fig/figResistive/figResistanceKCLexampleB.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceKCLexampleB.pdf" > [42]
+File: ./fig/figResistive/figResistanceKCLexampleC.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceKCLexampleC.pdf" >
+File: ./fig/figResistive/figResistanceKCLsurfacesA.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceKCLsurfacesA.pdf" >
+File: ./fig/figResistive/figResistanceKCLsurfacesB.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceKCLsurfacesB.pdf" >
+Overfull \hbox (0.6028pt too wide) in paragraph at lines 531--532
+[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 نچلی سطح پر داخلی رو  $[] [] \OT1/zplm/
+m/n/10 + [] []$  \EU1/JameelNooriNastaleeq(1)/m/n/10 ہے اور خارجی رو  $[] []$  
+ہے۔اس سطح پر بھی داخلی اور خارجی رو برابر ہیں۔نچلی[]
+ []
+
+[43]
+File: ./fig/figResistive/figResistanceKCLquizA.pdf Graphic file (type QTm)
+ <use  "./fig/figResistive/figResistanceKCLquizA.pdf" >
+File: ./fig/figResistive/figResistanceKCLquizB.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceKCLquizB.pdf" > [44]
+File: ./fig/figResistive/figResistanceKCLquizC.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceKCLquizC.pdf" >
+Overfull \hbox (17.00716pt too wide) in paragraph at lines 575--576
+ [][][][][][] 
+ []
+
+File: ./fig/figResistive/figResistanceKCLquizD.pdf Graphic file (type QTm)
+<use  "./fig/figResistive/figResistanceKCLquizD.pdf" >
+File: ./fig/figResistive/figResistanceKVLvoltageRisevoltageFallA.pdf Graphic fi
+le (type QTm)
+
+<use  "./fig/figResistive/figResistanceKVLvoltageRisevoltageFallA.pdf" >
+File: ./fig/figResistive/figResistanceKVLvoltageRisevoltageFallB.pdf Graphic fi
+le (type QTm)
+
+<use  "./fig/figResistive/figResistanceKVLvoltageRisevoltageFallB.pdf" >
+[45] [46]
+File: ./fig/figResistive/figResistanceKVLasHeight.pdf Graphic file (type QTm)
+ <use  "./fig/figResistive/figResistanceKVLasHeight.pdf" >
+File: ./fig/figResistive/figResistanceKVLasHeightCircuit.pdf Graphic file (type
+ QTm)
+
+<use  "./fig/figResistive/figResistanceKVLasHeightCircuit.pdf" > [47]
+File: ./fig/figResistive/figResistanceKVLgoats.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceKVLgoats.pdf" > [48]
+Overfull \hbox (14.20053pt too wide) in paragraph at lines 673--674
+[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 کرخوف قانون دباو کے استعمال بند دائرے پ
+ر ہوتا ہے۔ایسا بند دائرہ فرضی بھی ہو سکتا ہے۔آئیں ایسی ایک مثال دیکھیں۔شہروں[]
+ []
+
+File: ./fig/figResistive/figResistanceKVLexampleSwimmingPool.pdf Graphic file (
+type QTm)
+<use  "./fig/figResistive/figResistanceKVLexampleSwimmingPool.pdf" >
+File: ./fig/figResistive/figResistanceKVLexampleA.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceKVLexampleA.pdf" > [49]
+Overfull \hbox (9.09921pt too wide) in paragraph at lines 697--699
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 حاصل ہوتا ہے۔ایسا حقیقی راہ پر کیا گیا۔آئ
+یں اب  $\OML/zplm/m/it/10 f$  \EU1/JameelNooriNastaleeq(1)/m/n/10 سے  $\OML/zpl
+m/m/it/10 a$  \EU1/JameelNooriNastaleeq(1)/m/n/10 اور یہاں سے  $\OML/zplm/m/it/
+10 b$  \EU1/JameelNooriNastaleeq(1)/m/n/10 کے بعد فرضی راہ پر واپس  $\OML/zplm/
+m/it/10 f$  \EU1/JameelNooriNastaleeq(1)/m/n/10 پہنچیں۔فرضی[]
+ []
+
+File: ./fig/figResistive/figResistanceKVLdependentEquations.pdf Graphic file (t
+ype QTm)
+<use  "./fig/figResistive/figResistanceKVLdependentEquations.pdf" > [50]
+File: ./fig/figResistive/figResistanceSeriesConnectedSameCurrent.pdf Graphic fi
+le (type QTm)
+
+<use  "./fig/figResistive/figResistanceSeriesConnectedSameCurrent.pdf" >
+File: ./fig/figResistive/figResistanceVoltageDivider.pdf Graphic file (type QTm
+)
+
+<use  "./fig/figResistive/figResistanceVoltageDivider.pdf" > [51] [52] [53]
+[54] [55]
+File: ./fig/figResistive/figResistanceVoltageDividerMultipleResistors.pdf Graph
+ic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceVoltageDividerMultipleResistors.pdf" >
+Overfull \hbox (15.13138pt too wide) in paragraph at lines 880--881
+ [][][][][][] 
+ []
+
+File: ./fig/figResistive/figResistanceVoltageDividerMultipleResistorsEquivalent
+.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceVoltageDividerMultipleResistorsEquivalen
+t.pdf" > [56]
+File: ./fig/figResistive/figResistancePowerFedViaLongWireA.pdf Graphic file (ty
+pe QTm)
+
+<use  "./fig/figResistive/figResistancePowerFedViaLongWireA.pdf" >
+File: ./fig/figResistive/figResistancePowerFedViaLongWireB.pdf Graphic file (ty
+pe QTm)
+
+<use  "./fig/figResistive/figResistancePowerFedViaLongWireB.pdf" >
+File: ./fig/figResistive/figResistancePowerFedViaLongWireC.pdf Graphic file (ty
+pe QTm)
+
+<use  "./fig/figResistive/figResistancePowerFedViaLongWireC.pdf" >
+Overfull \hbox (10.0039pt too wide) in paragraph at lines 936--937
+[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 حل:منبع کے مثبت اور منفی سروں کو بوجھ ک
+ے دو سروں کے ساتھ جوڑا جاتا ہے۔چونکہ ایک کلومیٹر تار کی مزاحمت  $[] []$[]
+ []
+
+[57] [58]
+Overfull \hbox (29.34587pt too wide) in paragraph at lines 977--977
+[][] []
+ []
+
+
+Overfull \hbox (29.34587pt too wide) in alignment at lines 977--977
+[] [] 
+ []
+
+File: ./fig/figResistive/figResistanceVoltageDividerMultipleSuppliesAndResistor
+s.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceVoltageDividerMultipleSuppliesAndResisto
+rs.pdf" >
+File: ./fig/figResistive/figResistanceVoltageDividerMultipleSourcesAndResistors
+Equivalent.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistanceVoltageDividerMultipleSourcesAndResistor
+sEquivalent.pdf" >
+Overfull \hbox (3.17418pt too wide) in paragraph at lines 998--999
+ [][][][][][] 
+ []
+
+File: ./fig/figResistive/figResistancesInParallel.pdf Graphic file (type QTm)
+<use  "./fig/figResistive/figResistancesInParallel.pdf" > [59] [60]
+File: ./fig/figResistive/figResistancesCurrentDivider.pdf Graphic file (type QT
+m)
+
+<use  "./fig/figResistive/figResistancesCurrentDivider.pdf" >
+File: ./fig/figResistive/figResistancesParallelResisitorsEquivalent.pdf Graphic
+ file (type QTm)
+
+<use  "./fig/figResistive/figResistancesParallelResisitorsEquivalent.pdf" >
+Overfull \hbox (17.15019pt too wide) in paragraph at lines 1057--1058
+ [][][][][][] 
+ []
+
+[61] [62] [63]
+File: ./fig/figResistive/figResistancesMultipleInParallel.pdf Graphic file (typ
+e QTm)
+
+<use  "./fig/figResistive/figResistancesMultipleInParallel.pdf" >
+Overfull \hbox (38.15372pt too wide) in paragraph at lines 1164--1165
+ [][][][][][] 
+ []
+
+File: ./fig/figResistive/figResistancesMultipleParallelResisitorsEquivalent.pdf
+ Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistancesMultipleParallelResisitorsEquivalent.pd
+f" >
+Overfull \hbox (31.16742pt too wide) in paragraph at lines 1169--1170
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (14.65143pt too wide) in paragraph at lines 1158--1175
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 لکھا جا سکتا ہے۔ شکل []\EU1/JameelNooriNa
+staleeq(0)/bx/n/10 28[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriN
+astaleeq(0)/bx/n/10 2[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 -ب سے بھی یہی مساو
+ات حاصل ہوتی ہے لہٰذا شکل-الف اور شکل-ب مساوی ادوار ہیں۔مساوات[]
+ []
+
+
+Overfull \hbox (4.45293pt too wide) in paragraph at lines 1177--1179
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 ہیں۔منبع رو  $[] []$  ہے۔مساوی متوازی مزا
+حمت  $\OML/zplm/m/it/10 R[]$  \EU1/JameelNooriNastaleeq(1)/m/n/10 حاصل کریں۔دبا
+و  $\OML/zplm/m/it/10 v\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$
+  \EU1/JameelNooriNastaleeq(1)/m/n/10 حاصل کرتے ہوئے تمام مزاحمتوں[]
+ []
+
+[64]
+Overfull \hbox (0.38554pt too wide) in paragraph at lines 1191--1193
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 حاصل ہوتا ہے۔یوں شکل-الف سے رو درج ذیل حا
+صل ہوتے ہیں جہاں سے آپ دیکھ سکتے ہیں کہ  $\OML/zplm/m/it/10 i[]\OT1/zplm/m/n/10
+ (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) + \OML/zplm/m/it/10 i[]\OT1/zplm/m/n/10
+ (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) +$[]
+ []
+
+[65]
+File: ./fig/figResistive/figResistanceQuizParallelResistorsCurrent.pdf Graphic 
+file (type QTm)
+
+<use  "./fig/figResistive/figResistanceQuizParallelResistorsCurrent.pdf" >
+[66]
+File: ./fig/figResistive/figResistanceQuizSeriesResistorsVoltage.pdf Graphic fi
+le (type QTm)
+ <use  "./fig/figResistive/figResistanceQuizSeriesResistorsVoltage.pdf" >
+[67]
+File: ./fig/figResistive/figResistancesMixedSeriesParallelA.pdf Graphic file (t
+ype QTm)
+ <use  "./fig/figResistive/figResistancesMixedSeriesParallelA.pdf" >
+[68]
+File: ./fig/figResistive/figResistancesMixedSeriesParallelB.pdf Graphic file (t
+ype QTm)
+ <use  "./fig/figResistive/figResistancesMixedSeriesParallelB.pdf" >
+File: ./fig/figResistive/figResistancesMixedSeriesParallelC.pdf Graphic file (t
+ype QTm)
+
+<use  "./fig/figResistive/figResistancesMixedSeriesParallelC.pdf" >
+File: ./fig/figResistive/figResistancesMixedSeriesParallelD.pdf Graphic file (t
+ype QTm)
+
+<use  "./fig/figResistive/figResistancesMixedSeriesParallelD.pdf" >
+File: ./fig/figResistive/figResistancesMixedSeriesParallelE.pdf Graphic file (t
+ype QTm)
+
+<use  "./fig/figResistive/figResistancesMixedSeriesParallelE.pdf" >
+Overfull \hbox (22.3998pt too wide) in paragraph at lines 1310--1311
+ [][][][][][] 
+ []
+
+File: ./fig/figResistive/figResistancesMixedSeriesParallelF.pdf Graphic file (t
+ype QTm)
+<use  "./fig/figResistive/figResistancesMixedSeriesParallelF.pdf" >
+File: ./fig/figResistive/figResistancesMixedSeriesParallelFb.pdf Graphic file (
+type QTm)
+
+<use  "./fig/figResistive/figResistancesMixedSeriesParallelFb.pdf" >
+File: ./fig/figResistive/figResistancesMixedSeriesParallelG.pdf Graphic file (t
+ype QTm)
+
+<use  "./fig/figResistive/figResistancesMixedSeriesParallelG.pdf" >
+File: ./fig/figResistive/figResistancesMixedSeriesParallelH.pdf Graphic file (t
+ype QTm)
+
+<use  "./fig/figResistive/figResistancesMixedSeriesParallelH.pdf" >
+File: ./fig/figResistive/figResistancesMixedSeriesParallelI.pdf Graphic file (t
+ype QTm)
+
+<use  "./fig/figResistive/figResistancesMixedSeriesParallelI.pdf" > [69]
+[70] [71]
+File: ./fig/figResistive/figResistancesQuizMixedSeriesParallelA.pdf Graphic fil
+e (type QTm)
+
+<use  "./fig/figResistive/figResistancesQuizMixedSeriesParallelA.pdf" >
+[72]
+Overfull \hbox (2.27333pt too wide) in paragraph at lines 1378--1379
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 جدول []\EU1/JameelNooriNastaleeq(0)/bx/n/
+10 1[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/n/
+10 2[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 مزاحمت کی وہ مخصوص قیمتیں دیتا ہے 
+جو عام دستیاب ہیں۔مزاحمت کی قیمت کے علاوہ اس کی \EU1/XBTabrizBold(0)/m/n/10 طاق
+تی استعداد[][][][][]
+ []
+
+[73] [74]
+File: ./fig/figResistive/figResistancesRating.pdf Graphic file (type QTm)
+ <use  "./fig/figResistive/figResistancesRating.pdf" >
+Overfull \hbox (16.24231pt too wide) in paragraph at lines 1416--1424
+[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 مثال  []\EU1/JameelNooriNastaleeq(0)/bx
+/n/10 15[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/b
+x/n/10 2[]\EU1/JameelNooriNastaleeq(1)/m/n/10 : شکل []\EU1/JameelNooriNastaleeq
+(0)/bx/n/10 37[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastalee
+q(0)/bx/n/10 2[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 میں  $[] []$  مزاحمت است
+عمال کیا گیا ہے۔دور میں کم سے کم اور زیادہ سے زیادہ رو دریافت کریں۔دونوں[]
+ []
+
+[75]
+File: ./fig/figResistive/figResistancesMixedSolutionExampleA.pdf Graphic file (
+type QTm)
+ <use  "./fig/figResistive/figResistancesMixedSolutionExampleA.pdf" >
+File: ./fig/figResistive/figResistancesMixedSolutionExampleB.pdf Graphic file (
+type QTm)
+
+<use  "./fig/figResistive/figResistancesMixedSolutionExampleB.pdf" >
+Overfull \hbox (50.22882pt too wide) in paragraph at lines 1466--1467
+ [][][][][][] 
+ []
+
+File: ./fig/figResistive/figResistancesMixedSolutionExampleC.pdf Graphic file (
+type QTm)
+<use  "./fig/figResistive/figResistancesMixedSolutionExampleC.pdf" >
+Overfull \hbox (3.56436pt too wide) in paragraph at lines 1471--1472
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (5.2585pt too wide) in paragraph at lines 1480--1482
+[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 شکل-الف میں منبع سے دور ترین  $[] []$  
+اور  $[] []$  سلسلہ وار جڑے ہیں۔ان کا مساوی مزاحمت  $[] [] \OT1/zplm/m/n/10 + [
+] [] =$[]
+ []
+
+[76] [77] [78]
+File: ./fig/figResistive/figResistancesMixedSolutionExampleD.pdf Graphic file (
+type QTm)
+
+<use  "./fig/figResistive/figResistancesMixedSolutionExampleD.pdf" > [79]
+[80]
+File: ./fig/figResistive/figResistancesMixedSolutionQuizA.pdf Graphic file (typ
+e QTm)
+ <use  "./fig/figResistive/figResistancesMixedSolutionQuizA.pdf" >
+Overfull \hbox (2.33488pt too wide) in paragraph at lines 1614--1615
+ [][][][][][] 
+ []
+
+File: ./fig/figResistive/figResistancesMixedSolutionQuizB.pdf Graphic file (typ
+e QTm)
+<use  "./fig/figResistive/figResistancesMixedSolutionQuizB.pdf" > [81]
+File: ./fig/figResistive/figResistancesMixedSolutionQuizD.pdf Graphic file (typ
+e QTm)
+
+<use  "./fig/figResistive/figResistancesMixedSolutionQuizD.pdf" > [82]
+File: ./fig/figResistive/figResistancesMixedSolutionQuizE.pdf Graphic file (typ
+e QTm)
+
+<use  "./fig/figResistive/figResistancesMixedSolutionQuizE.pdf" >
+File: ./fig/figResistive/figResistancesMixedSolutionQuizF.pdf Graphic file (typ
+e QTm)
+
+<use  "./fig/figResistive/figResistancesMixedSolutionQuizF.pdf" > [83]
+File: ./fig/figResistive/figResistancesYDeltaA.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistancesYDeltaA.pdf" >
+File: ./fig/figResistive/figResistancesYDeltaB.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistancesYDeltaB.pdf" >
+File: ./fig/figResistive/figResistancesYDeltaC.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistancesYDeltaC.pdf" > [84] [85] [86]
+File: ./fig/figResistive/figResistancesDeltaReplacedWithY.pdf Graphic file (typ
+e QTm)
+
+<use  "./fig/figResistive/figResistancesDeltaReplacedWithY.pdf" >
+File: ./fig/figResistive/figResistancesDeltaReplacedWithYb.pdf Graphic file (ty
+pe QTm)
+
+<use  "./fig/figResistive/figResistancesDeltaReplacedWithYb.pdf" >
+Overfull \hbox (91.74521pt too wide) in paragraph at lines 1778--1778
+[][] []
+ []
+
+[87] [88]
+File: ./fig/figResistive/figResistancesQuizYDeltaA.pdf Graphic file (type QTm)
+ <use  "./fig/figResistive/figResistancesQuizYDeltaA.pdf" > [89]
+File: ./fig/figResistive/figResistancesQuizYDeltaB.pdf Graphic file (type QTm)
+
+<use  "./fig/figResistive/figResistancesQuizYDeltaB.pdf" >
+Overfull \hbox (15.44382pt too wide) in paragraph at lines 1838--1839
+ [][][][][][] 
+ []
+
+File: ./fig/figResistive/figResistancesQuizYDeltaC.pdf Graphic file (type QTm)
+<use  "./fig/figResistive/figResistancesQuizYDeltaC.pdf" >
+Overfull \hbox (21.55663pt too wide) in paragraph at lines 1843--1844
+ [][][][][][] 
+ []
+
+[90] [91]
+File: ./fig/figResistive/figResistancesExampleControlledSourceA.pdf Graphic fil
+e (type QTm)
+
+<use  "./fig/figResistive/figResistancesExampleControlledSourceA.pdf" >
+[92]
+File: ./fig/figResistive/figResistancesExampleControlledSourceB.pdf Graphic fil
+e (type QTm)
+ <use  "./fig/figResistive/figResistancesExampleControlledSourceB.pdf" >
+[93]
+File: ./fig/figResistive/figResistancesExampleControlledSourceC.pdf Graphic fil
+e (type QTm)
+ <use  "./fig/figResistive/figResistancesExampleControlledSourceC.pdf" >
+File: ./fig/figResistive/figResistancesExampleControlledSourceCequivalent.pdf G
+raphic file (type QTm)
+
+<use  "./fig/figResistive/figResistancesExampleControlledSourceCequivalent.pdf"
+ > [94]
+File: ./fig/figResistive/figResistancesExampleControlledSourceD.pdf Graphic fil
+e (type QTm)
+
+<use  "./fig/figResistive/figResistancesExampleControlledSourceD.pdf" >
+[95]
+File: ./fig/figResistive/figResistancesQuizControlledSourceA.pdf Graphic file (
+type QTm)
+ <use  "./fig/figResistive/figResistancesQuizControlledSourceA.pdf" >
+[96]
+File: ./fig/figResistive/figResistancesQuizControlledSourceB.pdf Graphic file (
+type QTm)
+ <use  "./fig/figResistive/figResistancesQuizControlledSourceB.pdf" >
+File: ./fig/figResistive/figResistancesQuizControlledSourceC.pdf Graphic file (
+type QTm)
+
+<use  "./fig/figResistive/figResistancesQuizControlledSourceC.pdf" > [97]
+File: ./fig/figResistive/figResistancesQuizControlledSourceD.pdf Graphic file (
+type QTm)
+
+<use  "./fig/figResistive/figResistancesQuizControlledSourceD.pdf" >
+File: ./fig/figResistive/figResistancesQuizControlledSourceE.pdf Graphic file (
+type QTm)
+
+<use  "./fig/figResistive/figResistancesQuizControlledSourceE.pdf" >
+Overfull \hbox (16.44374pt too wide) in paragraph at lines 2067--2068
+ [][][][][][] 
+ []
+
+[98]) [99]
+\openout2 = `./tex/cktNodalLoop.aux'.
+
+ (./tex/cktNodalLoop.tex [100
+
+
+
+]
+باب \RL {\arabicfont 3}.
+File: ./fig/figNodalLoop/figNodalCurrentsFromNodeVoltages.pdf Graphic file (typ
+e QTm)
+<use  "./fig/figNodalLoop/figNodalCurrentsFromNodeVoltages.pdf" > [101]
+[102] [103]
+File: ./fig/figNodalLoop/figNodalIndependantSourcesNodalEquationsA.pdf Graphic 
+file (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalIndependantSourcesNodalEquationsA.pdf" >
+[104] [105] [106] [107] [108]
+File: ./fig/figNodalLoop/figNodalEquationNotDependentOnChosenCurrentDirectionsA
+.pdf Graphic file (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalEquationNotDependentOnChosenCurrentDirections
+A.pdf" > [109] [110]
+File: ./fig/figNodalLoop/figNodalEquationNotDependentOnChosenCurrentDirectionsB
+.pdf Graphic file (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalEquationNotDependentOnChosenCurrentDirections
+B.pdf" > [111]
+File: ./fig/figNodalLoop/figNodalAssumeCurrentsLeavingEveryNodeA.pdf Graphic fi
+le (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalAssumeCurrentsLeavingEveryNodeA.pdf" >
+File: ./fig/figNodalLoop/figNodalAssumeCurrentsLeavingEveryNodeB.pdf Graphic fi
+le (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalAssumeCurrentsLeavingEveryNodeB.pdf" >
+[112] [113] [114]
+File: ./fig/figNodalLoop/figNodalQuizThree.pdf Graphic file (type QTm)
+ <use  "./fig/figNodalLoop/figNodalQuizThree.pdf" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[115]
+File: ./fig/figNodalLoop/figNodalQuizFour.pdf Graphic file (type QTm)
+ <use  "./fig/figNodalLoop/figNodalQuizFour.pdf" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./fig/figNodalLoop/figNodalQuizFive.pdf Graphic file (type QTm)
+<use  "./fig/figNodalLoop/figNodalQuizFive.pdf" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[116]
+Underfull \vbox (badness 2134) has occurred while \output is active []
+
+ [117]
+File: ./fig/figNodalLoop/figNodalDependantCurrentSourceDestroysSymmetry.pdf Gra
+phic file (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalDependantCurrentSourceDestroysSymmetry.pdf" >
+[118]
+File: ./fig/figNodalLoop/figNodalExampleControlledCurrentSourcesA.pdf Graphic f
+ile (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalExampleControlledCurrentSourcesA.pdf" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[119] [120]
+File: ./fig/figNodalLoop/figNodalQuizControlledCurrentSourcesA.pdf Graphic file
+ (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalQuizControlledCurrentSourcesA.pdf" >
+File: ./fig/figNodalLoop/figNodalQuizControlledCurrentSourcesB.pdf Graphic file
+ (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalQuizControlledCurrentSourcesB.pdf" > [121]
+File: ./fig/figNodalLoop/figNodalQuizControlledCurrentSourcesC.pdf Graphic file
+ (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalQuizControlledCurrentSourcesC.pdf" > [122]
+File: ./fig/figNodalLoop/figNodalExampleIndependentVoltageSourceA.pdf Graphic f
+ile (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalExampleIndependentVoltageSourceA.pdf" >
+File: ./fig/figNodalLoop/figNodalExampleIndependentVoltageSourceAA.pdf Graphic 
+file (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalExampleIndependentVoltageSourceAA.pdf" >
+[123] [124]
+File: ./fig/figNodalLoop/figNodalQuizIndependentVoltageSourceA.pdf Graphic file
+ (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalQuizIndependentVoltageSourceA.pdf" >
+File: ./fig/figNodalLoop/figNodalQuizIndependentVoltageSourceB.pdf Graphic file
+ (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalQuizIndependentVoltageSourceB.pdf" > [125]
+File: ./fig/figNodalLoop/figNodalSuperNodeA.pdf Graphic file (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalSuperNodeA.pdf" >
+File: ./fig/figNodalLoop/figNodalSuperNodeB.pdf Graphic file (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalSuperNodeB.pdf" > [126] [127]
+Overfull \hbox (0.11331pt too wide) in paragraph at lines 848--849
+[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 مساوات []\EU1/JameelNooriNastaleeq(0)/b
+x/n/10 35[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/
+bx/n/10 3[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 کے حصول میں ہمیں مساوات []\EU
+1/JameelNooriNastaleeq(0)/bx/n/10 32[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\E
+U1/JameelNooriNastaleeq(0)/bx/n/10 3[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 ، م
+ساوات []\EU1/JameelNooriNastaleeq(0)/bx/n/10 33[]\EU1/JameelNooriNastaleeq(1)/m
+/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 3[][] \EU1/JameelNooriNastaleeq(1
+)/m/n/10 اور مساوات []\EU1/JameelNooriNastaleeq(0)/bx/n/10 34[]\EU1/JameelNoori
+Nastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 3[][] \EU1/JameelNo
+oriNastaleeq(1)/m/n/10 بھی لکھنے پڑھ گئے۔آئیں ان اضافی[]
+ []
+
+[128]
+File: ./fig/figNodalLoop/figNodalSuperNodeExampleA.pdf Graphic file (type QTm)
+ <use  "./fig/figNodalLoop/figNodalSuperNodeExampleA.pdf" >
+File: ./fig/figNodalLoop/figNodalSuperNodeExampleB.pdf Graphic file (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalSuperNodeExampleB.pdf" > [129] [130]
+File: ./fig/figNodalLoop/figNodalSuperNodeQuizA.pdf Graphic file (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalSuperNodeQuizA.pdf" >
+File: ./fig/figNodalLoop/figNodalSuperNodeQuizB.pdf Graphic file (type QTm)
+
+<use  "./fig/figNodalLoop/figNodalSuperNodeQuizB.pdf" > [131]
+File: ./fig/figNodalLoop/figNodalDependentVoltageExampleA.pdf Graphic file (typ
+e QTm)
+
+<use  "./fig/figNodalLoop/figNodalDependentVoltageExampleA.pdf" > [132]
+[133] [134] [135] [136] [137] [138]
+Overfull \hbox (0.68596pt too wide) in paragraph at lines 1171--1172
+[]\EU1/XBTabrizBold(0)/m/n/10 دائری رو[][][][] []\EU1/JameelNooriNastaleeq(1)/m
+/n/10 دریافت کئے جاتے ہیں۔دائری رو جانتے ہوئے کسی بھی شاخ کا دباو قانون اوہم سے
+ حاصل کیا جا سکتا ہے۔ایسا[]
+ []
+
+[139] [140] [141] [142] [143] [144] [145] [146] [147] [148] [149] [150]
+Overfull \hbox (0.40392pt too wide) in paragraph at lines 1713--1715
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 ہو گا۔چونکہ  $\OML/zplm/m/it/10 i[]$  \EU
+1/JameelNooriNastaleeq(1)/m/n/10 ہم پہلے ہی حاصل کر چکے ہیں لہٰذا  $\OML/zplm/m
+/it/10 i[]$  \EU1/JameelNooriNastaleeq(1)/m/n/10 اور  $\OML/zplm/m/it/10 i[]$  
+\EU1/JameelNooriNastaleeq(1)/m/n/10 جاننے کے لئے دو عدد ہمزاد مساوات درکار ہیں۔
+مساوات[]
+ []
+
+[151] [152] [153] [154] [155] [156] [157] [158] [159]) [160]
+\openout2 = `./tex/cktOpamp.aux'.
+
+
+(./tex/cktOpamp.tex
+باب \RL {\arabicfont 4}.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 8.
+Missing character: There is no ; in font nullfont!
+[161
+
+
+
+] [162]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [163]
+[164] [165] [166] [167] [168] [169] [170] [171] [172] [173] [174] [175]
+[176] [177]
+Overfull \hbox (8.33408pt too wide) in paragraph at lines 498--501
+[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 مشق  []\EU1/JameelNooriNastaleeq(0)/bx/
+n/10 1[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/
+n/10 4[]\EU1/JameelNooriNastaleeq(1)/m/n/10 :[] شکل []\EU1/JameelNooriNastaleeq
+(0)/bx/n/10 11[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastalee
+q(0)/bx/n/10 4[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 میں  $\OML/zplm/m/it/10 
+v[]$  \EU1/JameelNooriNastaleeq(1)/m/n/10 کی مساوات دریافت کریں۔خارجی اشارہ  $\
+OML/zplm/m/it/10 v[] \OT1/zplm/m/n/10 = [] []$  \EU1/JameelNooriNastaleeq(1)/m/
+n/10 اور  $\OML/zplm/m/it/10 v[] \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 0.7 [] 50\O
+ML/zplm/m/it/10 t$[]
+ []
+
+[178] [179] [180] [181] [182] [183] [184] [185]) [186]
+\openout2 = `./tex/cktTheorems.aux'.
+
+ (./tex/cktTheorems.tex
+باب \RL {\arabicfont 5}.
+
+Overfull \hbox (0.96758pt too wide) in paragraph at lines 45--51
+ [][][][] 
+ []
+
+[187
+
+
+
+] [188] [189] [190] [191] [192] [193] [194]
+Overfull \hbox (11.66563pt too wide) in paragraph at lines 384--387
+ [][][][] 
+ []
+
+[195] [196] [197]
+Overfull \hbox (9.08589pt too wide) in paragraph at lines 427--431
+ [][][][] 
+ []
+
+
+Overfull \hbox (9.08589pt too wide) in paragraph at lines 437--440
+ [][][][] 
+ []
+
+
+Overfull \hbox (9.08589pt too wide) in paragraph at lines 446--449
+ [][][][] 
+ []
+
+[198] [199] [200]
+Overfull \hbox (6.66563pt too wide) in paragraph at lines 604--610
+ [][][][] 
+ []
+
+[201] [202] [203] [204] [205] [206] [207]
+Overfull \hbox (4.94684pt too wide) in paragraph at lines 779--780
+[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 شکل []\EU1/JameelNooriNastaleeq(0)/bx/n
+/10 18[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/
+n/10 5[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 -الف میں عمومی ڈبہ دور دکھایا گیا
+ ہے۔اس کو دو حصوں میں تقسیم کرتے ہوئے شکل-ب حاصل ہوتا ہے۔شکل-[]
+ []
+
+
+Overfull \hbox (7.70639pt too wide) in paragraph at lines 779--780
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 ب میں بائیں حصے کے مساوی تھونن دور اور مس
+اوی نارٹن دور حاصل کیے جائیں گے۔بایاں حصہ خطی ہونا ضروری ہے۔دایاں[]
+ []
+
+[208] [209]
+Overfull \hbox (2.8565pt too wide) in paragraph at lines 917--944
+[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 مساوات []\EU1/JameelNooriNastaleeq(0)/b
+x/n/10 5[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/b
+x/n/10 5[][] \EU1/XBTabrizBold(0)/m/n/10 مسئلہ نارٹن[][][][][][] [][] \EU1/Jame
+elNooriNastaleeq(1)/m/n/10 بیان کرتی ہے جسے شکل []\EU1/JameelNooriNastaleeq(0)/
+bx/n/10 21[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)
+/bx/n/10 5[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 -الف میں دکھایا گیا ہے جبکہ م
+ساوات []\EU1/JameelNooriNastaleeq(0)/bx/n/10 9[]\EU1/JameelNooriNastaleeq(1)/m/
+n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 5[][] \EU1/XBTabrizBold(0)/m/n/10 
+مسئلہ تھونن[][][][][][][]
+ []
+
+[210] [211] [212] [213]
+Overfull \hbox (20.90952pt too wide) in paragraph at lines 1042--1049
+ [][][][] 
+ []
+
+[214]
+Missing character: There is no ق in font zplmr7m!
+Missing character: There is no ص in font zplmr7m!
+Missing character: There is no ر in font zplmr7m!
+ [215]
+
+LaTeX Warning: Float too large for page by 98.15869pt on input line 1188.
+
+[216] [217]
+Overfull \hbox (18.63463pt too wide) in paragraph at lines 1239--1243
+ [][][][] 
+ []
+
+[218] [219]
+Overfull \hbox (28.02452pt too wide) in paragraph at lines 1319--1324
+ [][][][] 
+ []
+
+[220] [221]
+Overfull \hbox (24.7095pt too wide) in paragraph at lines 1416--1422
+ [][][][] 
+ []
+
+[222] [223] [224] [225]
+Overfull \hbox (5.134pt too wide) in paragraph at lines 1530--1539
+ [][][][] 
+ []
+
+[226] [227] [228] [229]
+Underfull \vbox (badness 1990) has occurred while \output is active []
+
+ [230]
+[231]
+Overfull \hbox (20.34787pt too wide) in paragraph at lines 1749--1755
+ [][][][] 
+ []
+
+
+Overfull \hbox (15.31964pt too wide) in paragraph at lines 1771--1775
+ [][][][] 
+ []
+
+[232] [233]
+Overfull \hbox (19.7095pt too wide) in paragraph at lines 1814--1823
+ [][][][] 
+ []
+
+
+Overfull \hbox (45.11105pt too wide) in paragraph at lines 1861--1868
+ [][][][] 
+ []
+
+[234] [235] [236] [237] [238]
+Overfull \hbox (2.1379pt too wide) in paragraph at lines 2021--2031
+ [][][][] 
+ []
+
+[239] [240] [241] [242] [243] [244]
+Overfull \hbox (0.32999pt too wide) in paragraph at lines 2209--2211
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 زیادہ سے زیادہ طاقت کی منتقلی کے لئے ضرور
+ی ہے کہ بوجھ کی مزاحمت بقایا تمام دور کے تھونن مزاحمت کے برابر ہو۔شکل[]
+ []
+
+[245]) [246]
+\openout2 = `./tex/cktCapacitorInductor.aux'.
+
+ (./tex/cktCapacitorInductor.tex
+باب \RL {\arabicfont 6}.
+[247
+
+
+
+] [248] [249] [250] [251] [252] [253] [254] [255] [256] [257] [258]
+[259] [260]
+Overfull \hbox (2.59358pt too wide) in paragraph at lines 439--441
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 جہاں تناسبی مستقل کو  $\OML/zplm/m/it/10 
+L$  \EU1/JameelNooriNastaleeq(1)/m/n/10 لکھا اور \EU1/XBTabrizBold(0)/m/n/10 ام
+الہ[][][] []\EU1/JameelNooriNastaleeq(1)/m/n/10 پکارا جاتا ہے۔امالہ کی اکائی[][
+] کو \EU1/XBTabrizBold(0)/m/n/10 ہینری[][][] []\EU1/JameelNooriNastaleeq(1)/m/n
+/10 پکارا اور  $[]$  سے ظاہر کیا جاتا ہے۔آپ[]
+ []
+
+[261] [262]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -3245,28 +4076,645 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (61.11324pt too wide) in paragraph at lines 1788--1799
+Overfull \hbox (1.55396pt too wide) in paragraph at lines 495--501
+ [][][][] 
+ []
+
+
+Overfull \hbox (1.55396pt too wide) in paragraph at lines 507--515
+ [][][][] 
+ []
+
+[263]
+Overfull \hbox (8.62637pt too wide) in paragraph at lines 556--562
 [][][][] 
  []
 
-[334] [335] [336] [337] [338]
-Writing 'circuitAnalysis-figure54' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure54' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure55' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure55' to 'circuitAnalysis.makefile'.
-Writing 'circuitAnalysis-figure56' to 'circuitAnalysis.figlist'.
-Writing 'circuitAnalysis-figure56' to 'circuitAnalysis.makefile'.
-[339] [340]) [341] [342
+
+Overfull \hbox (10.22102pt too wide) in paragraph at lines 567--574
+[][][][] 
+ []
+
+[264] [265]
+Overfull \hbox (4.06415pt too wide) in paragraph at lines 625--632
+ [][][][] 
+ []
+
+
+Overfull \hbox (11.85413pt too wide) in paragraph at lines 638--646
+ [][][][] 
+ []
+
+[266]
+Overfull \hbox (11.85413pt too wide) in paragraph at lines 670--680
+ [][][][] 
+ []
+
+
+Overfull \hbox (11.90959pt too wide) in paragraph at lines 686--696
+ [][][][] 
+ []
+
+
+Overfull \hbox (14.69957pt too wide) in paragraph at lines 714--724
+ [][][][] 
+ []
+
+
+Overfull \hbox (14.40959pt too wide) in paragraph at lines 730--741
+ [][][][] 
+ []
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+[267] [268] [269]
+Overfull \hbox (12.04398pt too wide) in paragraph at lines 824--826
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 ہے۔کم سے کم اور زیادہ سے زیادہ گنجائش کی 
+صورت میں رو کے خط حاصل کریں۔اس برقی گنجائش کو عموماً  $[] [][] []$[]
+ []
+
+[270]
+Overfull \hbox (11.63133pt too wide) in paragraph at lines 832--841
+ [][][][] 
+ []
+
+
+Overfull \hbox (19.69124pt too wide) in paragraph at lines 847--857
+ [][][][] 
+ []
+
+
+Overfull \hbox (19.69124pt too wide) in paragraph at lines 863--873
+ [][][][] 
+ []
+
+[271] [272] [273] [274] [275] [276] [277] [278] [279] [280]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [281] [282]
+Overfull \hbox (1.10162pt too wide) in paragraph at lines 1254--1255
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 متوازی جڑے امالہ گیروں کی مساوی امالہ شکل
+ []\EU1/JameelNooriNastaleeq(0)/bx/n/10 24[]\EU1/JameelNooriNastaleeq(1)/m/n/10
+ .[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 6[][]\EU1/JameelNooriNastaleeq(1)/m/n/
+10 -الف کی مدد سے حاصل کرتے ہیں جسے دیکھتے ہوئے کرخوف مساوات[]
+ []
+
+[283]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [284]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [285]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [286] [287]
+Overfull \hbox (9.69957pt too wide) in paragraph at lines 1486--1496
+ [][][][] 
+ []
+
+
+Overfull \hbox (9.69957pt too wide) in paragraph at lines 1502--1511
+ [][][][] 
+ []
+
+[288] [289]
+Overfull \hbox (6.34969pt too wide) in paragraph at lines 1553--1561
+ [][][][] 
+ []
+
+
+Overfull \hbox (9.69957pt too wide) in paragraph at lines 1567--1576
+ [][][][] 
+ []
+
+[290]) [291] [292]
+\openout2 = `./tex/cktTransients.aux'.
+
+ (./tex/cktTransients.tex
+باب \RL {\arabicfont 7}.
+
+Overfull \hbox (0.90594pt too wide) in paragraph at lines 6--7
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 وہ ادوار جن میں صرف امالہ گیر توانائی ذخی
+رہ کرتے ہوں کی کرخوف مساوات \EU1/XBTabrizBold(0)/m/n/10 ایک درجی تفرقی مساوات[]
+[][][] []\EU1/JameelNooriNastaleeq(1)/m/n/10 ہوتی ہے۔اسی[]
+ []
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \hbox (4.26701pt too wide) in paragraph at lines 20--22
+ [][][][] 
+ []
+
+[293
+
 
 
 ]
-===== mode=`list and make': Use 'make -f circuitAnalysis.makefile' to generate 
-all images. Then, re-run (pdf)latex circuitAnalysis. =====
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [294] [295] [296] [297] [298]
 
-! Package tikz Warning: Some images are not up-to-date and need to be generated
-.  (./circuitAnalysis.aux (./tex/cktBasics.aux) (./tex/cktResistive.aux)
-(./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux) (./tex/cktTheorems.aux)
-(./tex/cktCapacitorInductor.aux) (./tex/cktTransients.aux))
+LaTeX Warning: Float too large for page by 17.94896pt on input line 204.
+
+[299] [300] [301]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [302] [303] [304] [305]
+
+LaTeX Warning: Float too large for page by 7.0708pt on input line 439.
+
+[306] [307]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \hbox (71.60121pt too wide) in paragraph at lines 488--490
+ [][][][] 
+ []
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \hbox (48.98094pt too wide) in paragraph at lines 526--539
+ [][][][] 
+ []
+
+[308] [309] [310] [311]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \hbox (73.24394pt too wide) in paragraph at lines 657--661
+ [][][][] 
+ []
+
+
+Overfull \hbox (73.24394pt too wide) in paragraph at lines 667--673
+ [][][][] 
+ []
+
+
+Overfull \hbox (99.7724pt too wide) in paragraph at lines 680--692
+ [][][][] 
+ []
+
+[312] [313] [314]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \hbox (58.57109pt too wide) in paragraph at lines 766--769
+ [][][][] 
+ []
+
+
+Overfull \hbox (1.6656pt too wide) in paragraph at lines 775--777
+ [][][][] 
+ []
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \hbox (70.83897pt too wide) in paragraph at lines 798--811
+ [][][][] 
+ []
+
+[315] [316] [317]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [318] [319]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [320]
+Overfull \hbox (30.1699pt too wide) in paragraph at lines 1025--1028
+ [][][][] 
+ []
+
+
+Overfull \hbox (30.1699pt too wide) in paragraph at lines 1034--1037
+ [][][][] 
+ []
+
+[321] [322] [323]
+Overfull \hbox (50.11972pt too wide) in paragraph at lines 1062--1066
+[][][][] 
+ []
+
+
+Overfull \hbox (75.78793pt too wide) in paragraph at lines 1090--1102
+ [][][][] 
+ []
+
+[324] [325] [326]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [327]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \hbox (47.84508pt too wide) in paragraph at lines 1226--1232
+ [][][][] 
+ []
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+[328] [329] [330] [331] [332] [333]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [334] [335] [336] [337]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [338] [339]
+[340]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \hbox (68.32802pt too wide) in paragraph at lines 1629--1635
+ [][][][] 
+ []
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \hbox (45.90662pt too wide) in paragraph at lines 1641--1644
+ [][][][] 
+ []
+
+[341] [342] [343] [344]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [345]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \hbox (61.11324pt too wide) in paragraph at lines 1787--1798
+[][][][] 
+ []
+
+[346] [347] [348] [349] [350]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \hbox (4.59598pt too wide) in paragraph at lines 1889--1890
+ [][][][] 
+ []
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \hbox (72.47426pt too wide) in paragraph at lines 1904--1907
+ [][][][] 
+ []
+
+
+Overfull \hbox (79.53087pt too wide) in paragraph at lines 1914--1926
+ [][][][] 
+ []
+
+[351] [352] [353] [354]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no د in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ک in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ھ in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ا in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ی in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ا in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no گ in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ی in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ا in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no د in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no و in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ر in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ح in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ق in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ی in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ق in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ی in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no د in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no و in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ر in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ک in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ی in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no س in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ا in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no د in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ہ in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ش in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ک in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ل in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ہ in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ے in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ۔ in font [lmroman8-regular]:mapping=tex-text!
+ [355] [356] [357]) [358] (./circuitAnalysis.aux
+(./tex/cktBasics.aux) (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux)
+(./tex/cktOpamp.aux) (./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
+(./tex/cktTransients.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.75237pt have occurred.
@@ -3276,12 +4724,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 45064 strings out of 493918
- 1068526 string characters out of 6150562
- 1243136 words of memory out of 5000000
- 47413 multiletter control sequences out of 15000+600000
- 50380 words of font info for 185 fonts, out of 8000000 for 9000
+ 73776 strings out of 493918
+ 1771200 string characters out of 6150562
+ 3588918 words of memory out of 5000000
+ 75993 multiletter control sequences out of 15000+600000
+ 56958 words of font info for 204 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,19n,86p,10476b,2281s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,24n,356p,10476b,3200s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (56 pages).
+Output written on circuitAnalysis.pdf (364 pages).

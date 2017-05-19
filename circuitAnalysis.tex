@@ -7,7 +7,7 @@
 \usepackage{ifdraft}
 \usetikzlibrary{3d,shadings,fadings,intersections,calc,decorations.markings,decorations.pathreplacing,external}
 
-\tikzexternalize[mode=list and make] %disable to generate figures. it uses tikzlibrary external
+%\tikzexternalize[mode=list and make] %disable to generate figures. it uses tikzlibrary external
 %\tikzexternaldisable  %enables figures after this command. Remove all such occurances before final recompile 
 
 \pgfmathsetmacro{\x}{2}     %smallest resistor sizes
@@ -42,8 +42,8 @@
 \graphicspath{{./fig/figFrontPage/}{./fig/figBasicConcepts/}{./fig/figResistive/}{./fig/figNodalLoop/}{./fig/figOpamp/}{./fig/figTheorem/}{./fig/figCapacitorInductor/}{./fig/figTransients}}		%paths to figures
 
 
-%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktTheorems,./tex/cktCapacitorInductor,./tex/cktTransients,./tex/cktToDoList}
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktTransients,./tex/cktToDoList}%
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktTheorems,./tex/cktCapacitorInductor,./tex/cktTransients,./tex/cktToDoList}
+%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktTransients,./tex/cktToDoList}%
 
 
 

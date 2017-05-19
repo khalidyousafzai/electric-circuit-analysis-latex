@@ -182,3 +182,12 @@ circuitAnalysis-figure55.pdf:
 circuitAnalysis-figure56.pdf: 
 ^^Ipdflatex -halt-on-error -interaction=batchmode -jobname "circuitAnalysis-figure56" "\def\tikzexternalrealjob{circuitAnalysis}\input{circuitAnalysis}"
 
+circuitAnalysis-figure57.pdf: 
+^^Ipdflatex -halt-on-error -interaction=batchmode -jobname "circuitAnalysis-figure57" "\def\tikzexternalrealjob{circuitAnalysis}\input{circuitAnalysis}"
+
+circuitAnalysis-figure58.pdf: 
+^^Ipdflatex -halt-on-error -interaction=batchmode -jobname "circuitAnalysis-figure58" "\def\tikzexternalrealjob{circuitAnalysis}\input{circuitAnalysis}"
+
+circuitAnalysis-figure59.pdf: 
+^^Ipdflatex -halt-on-error -interaction=batchmode -jobname "circuitAnalysis-figure59" "\def\tikzexternalrealjob{circuitAnalysis}\input{circuitAnalysis}"
+
