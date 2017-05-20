@@ -7,8 +7,8 @@
 \usepackage{ifdraft}
 \usetikzlibrary{3d,shadings,fadings,intersections,calc,decorations.markings,decorations.pathreplacing,external}
 
-%\tikzexternalize[mode=list and make] %disable to generate figures. it uses tikzlibrary external
-%\tikzexternaldisable  %enables figures after this command. Remove all such occurances before final recompile 
+%\tikzexternalize[mode=list and make] %disable to generate figures
+%\tikzexternaldisable  %enables figures after this command. put this is the tex file
 
 \pgfmathsetmacro{\x}{2}     %smallest resistor sizes
 \pgfmathsetmacro{\y}{2}
@@ -19,7 +19,18 @@
 \pgfmathsetmacro{\dx}{0.2}     %moving labels beyond resistor outline
 \pgfmathsetmacro{\dy}{0.2}
 \pgfmathsetmacro{\pin}{0.3}
-
+%==========================
+%my styles
+\pgfplotsset{
+kStyleCircuitsA/.style={axis lines*=middle,scaled x ticks=false,scaled y ticks=false,
+every axis x label/.style={
+    at={(ticklabel* cs:1.15)},
+    anchor=east,}, 
+	every axis y label/.style={
+    at={(ticklabel* cs:1.05)},
+    anchor=east,}
+},
+}
 %=====================
 \usepackage{./tex/khalidUrduBooksEMT}                     %my sty file
 \usepackage{amsmath}
@@ -42,8 +53,8 @@
 \graphicspath{{./fig/figFrontPage/}{./fig/figBasicConcepts/}{./fig/figResistive/}{./fig/figNodalLoop/}{./fig/figOpamp/}{./fig/figTheorem/}{./fig/figCapacitorInductor/}{./fig/figTransients}}		%paths to figures
 
 
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktTheorems,./tex/cktCapacitorInductor,./tex/cktTransients,./tex/cktToDoList}
-%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktTransients,./tex/cktToDoList}%
+%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktTheorems,./tex/cktCapacitorInductor,./tex/cktTransients,./tex/cktSteadyStateAC,./tex/cktToDoList}
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktSteadyStateAC,./tex/cktToDoList}%
 
 
 
@@ -99,6 +110,7 @@
 \include{./tex/cktTheorems}
 \include{./tex/cktCapacitorInductor}
 \include{./tex/cktTransients}
+\include{./tex/cktSteadyStateAC}
 
 %\include{./tex/emtEndOfBookTableDivergenceCurlGradientLaplacian}
 %\include{./tex/toDoList}
