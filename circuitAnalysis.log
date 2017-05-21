@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  20 MAY 2017 19:16
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  21 MAY 2017 19:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3045,14 +3045,10 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 4.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 4.
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 9.5pt on input line 8.
-Missing character: There is no ° in font pplr7t!
+(Font)              scaled to size 9.5pt on input line 11.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 5.70004pt on input line 8.
-Missing character: There is no ° in font pplr7t!
+(Font)              scaled to size 5.70004pt on input line 11.
 [359
 
 
@@ -3065,13 +3061,27 @@ Missing character: There is no ° in font pplr7t!
 
 ]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 67.
+(Font)              scaled to size 9.0pt on input line 66.
 
-Overfull \hbox (3.4406pt too wide) in paragraph at lines 84--90
+Overfull \hbox (3.4406pt too wide) in paragraph at lines 83--89
  [][][][] 
  []
 
-[360]) [361] [362
+[360] [361]
+Overfull \hbox (5.88138pt too wide) in paragraph at lines 108--110
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 لکھا جا سکتا ہے جہاں  $\OML/zplm/m/it/10 
+^^K$  \EU1/JameelNooriNastaleeq(1)/m/n/10 کو \EU1/XBTabrizBold(0)/m/n/10 زاویائ
+ی ہٹاو[][][] []\EU1/JameelNooriNastaleeq(1)/m/n/10 کہتے ہیں۔شکل []\EU1/JameelNo
+oriNastaleeq(0)/bx/n/10 2[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNo
+oriNastaleeq(0)/bx/n/10 8[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 -ب میں مساوات 
+[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 5[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .
+[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 8[][] \EU1/JameelNooriNastaleeq(1)/m/n/1
+0 اور مساوات []\EU1/JameelNooriNastaleeq(0)/bx/n/10 7[]\EU1/JameelNooriNastalee
+q(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 8[][] \EU1/JameelNooriNasta
+leeq(1)/m/n/10 کو دکھایا گیا ہے۔آپ[]
+ []
+
+) [362] [363] [364
 
 
 ] (./circuitAnalysis.aux (./tex/cktBasics.aux)
@@ -3087,12 +3097,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 44814 strings out of 493918
- 1062248 string characters out of 6150562
- 1229649 words of memory out of 5000000
- 47222 multiletter control sequences out of 15000+600000
+ 44916 strings out of 493918
+ 1064187 string characters out of 6150562
+ 1234828 words of memory out of 5000000
+ 47324 multiletter control sequences out of 15000+600000
  46913 words of font info for 172 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,14n,74p,10476b,2064s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,14n,74p,10476b,2301s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (10 pages).
+Output written on circuitAnalysis.pdf (12 pages).
