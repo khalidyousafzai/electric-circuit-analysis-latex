@@ -1,38 +1,58 @@
-\indexentry{sinusoidal}{\RL {\arabicfont  359}}
-\indexentry{سائن نما}{\RL {\arabicfont  359}}
-\indexentry{Cartesian coordinates}{\RL {\arabicfont  359}}
-\indexentry{کارتیسی محدد}{\RL {\arabicfont  359}}
-\indexentry{argument}{\RL {\arabicfont  360}}
-\indexentry{دلیل}{\RL {\arabicfont  360}}
-\indexentry{amplitude}{\RL {\arabicfont  360}}
-\indexentry{حیطہ}{\RL {\arabicfont  360}}
-\indexentry{time period}{\RL {\arabicfont  360}}
-\indexentry{دوری عرصہ}{\RL {\arabicfont  360}}
-\indexentry{frequency}{\RL {\arabicfont  360}}
-\indexentry{تعدد}{\RL {\arabicfont  360}}
-\indexentry{Hertz}{\RL {\arabicfont  360}}
-\indexentry{ہرٹز}{\RL {\arabicfont  360}}
-\indexentry{angular speed}{\RL {\arabicfont  360}}
-\indexentry{زاویائی رفتار}{\RL {\arabicfont  360}}
-\indexentry{phase angle}{\RL {\arabicfont  363}}
-\indexentry{زاویائی ہٹاو}{\RL {\arabicfont  363}}
-\indexentry{phase difference}{\RL {\arabicfont  363}}
-\indexentry{زاویائی فرق}{\RL {\arabicfont  363}}
-\indexentry{lead}{\RL {\arabicfont  363}}
-\indexentry{آگے}{\RL {\arabicfont  363}}
-\indexentry{lag}{\RL {\arabicfont  363}}
-\indexentry{پیچھے}{\RL {\arabicfont  363}}
-\indexentry{phase!out of}{\RL {\arabicfont  363}}
-\indexentry{out of phase}{\RL {\arabicfont  363}}
-\indexentry{الگ زاویہ}{\RL {\arabicfont  363}}
-\indexentry{phase!in}{\RL {\arabicfont  363}}
-\indexentry{in phase}{\RL {\arabicfont  363}}
-\indexentry{ہم زاویہ}{\RL {\arabicfont  363}}
-\indexentry{complex function}{\RL {\arabicfont  372}}
-\indexentry{مخلوط تفاعل}{\RL {\arabicfont  372}}
-\indexentry{Euler's equation}{\RL {\arabicfont  372}}
-\indexentry{یولر مساوات}{\RL {\arabicfont  372}}
-\indexentry{خیالی}{\RL {\arabicfont  372}}
-\indexentry{real}{\RL {\arabicfont  372}}
-\indexentry{حقیقی}{\RL {\arabicfont  372}}
-\indexentry{imaginary}{\RL {\arabicfont  372}}
+\indexentry{complex!plane}{\RL {\arabicfont  359}}
+\indexentry{مخلوط سطح}{\RL {\arabicfont  359}}
+\indexentry{complex!number}{\RL {\arabicfont  359}}
+\indexentry{مخلوط!عدد}{\RL {\arabicfont  359}}
+\indexentry{imaginary!number}{\RL {\arabicfont  359}}
+\indexentry{خیالی!عدد}{\RL {\arabicfont  359}}
+\indexentry{real!number}{\RL {\arabicfont  359}}
+\indexentry{حقیقی!عدد}{\RL {\arabicfont  359}}
+\indexentry{rectangular form}{\RL {\arabicfont  360}}
+\indexentry{مستطیلی طرز}{\RL {\arabicfont  360}}
+\indexentry{angular form}{\RL {\arabicfont  360}}
+\indexentry{زاویائی طرز}{\RL {\arabicfont  360}}
+\indexentry{Euler's equation}{\RL {\arabicfont  363}}
+\indexentry{یولر مساوات}{\RL {\arabicfont  363}}
+\indexentry{sinusoidal}{\RL {\arabicfont  363}}
+\indexentry{سائن نما}{\RL {\arabicfont  363}}
+\indexentry{Cartesian coordinates}{\RL {\arabicfont  363}}
+\indexentry{کارتیسی محدد}{\RL {\arabicfont  363}}
+\indexentry{argument}{\RL {\arabicfont  364}}
+\indexentry{دلیل}{\RL {\arabicfont  364}}
+\indexentry{amplitude}{\RL {\arabicfont  364}}
+\indexentry{حیطہ}{\RL {\arabicfont  364}}
+\indexentry{time period}{\RL {\arabicfont  364}}
+\indexentry{دوری عرصہ}{\RL {\arabicfont  364}}
+\indexentry{frequency}{\RL {\arabicfont  364}}
+\indexentry{تعدد}{\RL {\arabicfont  364}}
+\indexentry{Hertz}{\RL {\arabicfont  364}}
+\indexentry{ہرٹز}{\RL {\arabicfont  364}}
+\indexentry{angular speed}{\RL {\arabicfont  364}}
+\indexentry{زاویائی رفتار}{\RL {\arabicfont  364}}
+\indexentry{phase angle}{\RL {\arabicfont  367}}
+\indexentry{زاویائی ہٹاو}{\RL {\arabicfont  367}}
+\indexentry{phase difference}{\RL {\arabicfont  367}}
+\indexentry{زاویائی فرق}{\RL {\arabicfont  367}}
+\indexentry{lead}{\RL {\arabicfont  367}}
+\indexentry{آگے}{\RL {\arabicfont  367}}
+\indexentry{lag}{\RL {\arabicfont  367}}
+\indexentry{پیچھے}{\RL {\arabicfont  367}}
+\indexentry{phase!out of}{\RL {\arabicfont  367}}
+\indexentry{out of phase}{\RL {\arabicfont  367}}
+\indexentry{الگ زاویہ}{\RL {\arabicfont  367}}
+\indexentry{phase!in}{\RL {\arabicfont  367}}
+\indexentry{in phase}{\RL {\arabicfont  367}}
+\indexentry{ہم زاویہ}{\RL {\arabicfont  367}}
+\indexentry{complex function}{\RL {\arabicfont  376}}
+\indexentry{مخلوط تفاعل}{\RL {\arabicfont  376}}
+\indexentry{Euler's equation}{\RL {\arabicfont  376}}
+\indexentry{یولر مساوات}{\RL {\arabicfont  376}}
+\indexentry{خیالی}{\RL {\arabicfont  377}}
+\indexentry{real}{\RL {\arabicfont  377}}
+\indexentry{حقیقی}{\RL {\arabicfont  377}}
+\indexentry{imaginary}{\RL {\arabicfont  377}}
+\indexentry{phasor notation}{\RL {\arabicfont  381}}
+\indexentry{دوری سمتی طرز}{\RL {\arabicfont  381}}
+\indexentry{time domain form}{\RL {\arabicfont  381}}
+\indexentry{وقتی صورت}{\RL {\arabicfont  381}}
+\indexentry{frequency domain form}{\RL {\arabicfont  381}}
+\indexentry{تعددی صورت}{\RL {\arabicfont  381}}

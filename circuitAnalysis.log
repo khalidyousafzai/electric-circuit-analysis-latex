@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  23 MAY 2017 17:43
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  27 MAY 2017 18:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3045,14 +3045,6 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 5.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 5.
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
-[][][]\EU1/JameelNooriNastaleeq(0)/m/n/8 ایک ماہر ریاضی اپنی خیالی دنیا میں کوس
-ائن  $[] \OML/zplm/m/it/8 ^^R$  \EU1/JameelNooriNastaleeq(0)/m/n/8 تفاعل کے سات
-ھ بحث میں مصورف ہوتا ہے۔ماہر ریاضی تفاعل کو دلیل کے طور پر صفر پیش کرتا ہے۔تفاع
-ل اس کا فوراً جواب اکائی []
- []
-
 [359
 
 
@@ -3064,38 +3056,82 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--9
 
 
 ]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 9.5pt on input line 14.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 5.70004pt on input line 14.
- [360]
+Missing character: There is no ; in font nullfont!
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 69.
+(Font)              scaled to size 9.0pt on input line 46.
+Missing character: There is no ; in font nullfont!
+ [360]
+Overfull \hbox (0.5818pt too wide) in paragraph at lines 84--84
+[][] []
+ []
 
-Overfull \hbox (3.4406pt too wide) in paragraph at lines 86--92
+[361] [362]
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+[][][]\EU1/JameelNooriNastaleeq(0)/m/n/8 ایک ماہر ریاضی اپنی خیالی دنیا میں کوس
+ائن  $[] \OML/zplm/m/it/8 ^^R$  \EU1/JameelNooriNastaleeq(0)/m/n/8 تفاعل کے سات
+ھ بحث میں مصورف ہوتا ہے۔ماہر ریاضی تفاعل کو دلیل کے طور پر صفر پیش کرتا ہے۔تفاع
+ل اس کا فوراً جواب اکائی []
+ []
+
+[363]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 9.5pt on input line 162.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 5.70004pt on input line 162.
+ [364]
+Overfull \hbox (3.4406pt too wide) in paragraph at lines 234--240
  [][][][] 
  []
 
-[361] [362] [363] [364]
-Overfull \hbox (3.43816pt too wide) in paragraph at lines 241--244
+
+Overfull \hbox (1.88719pt too wide) in paragraph at lines 259--261
+[][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 12[]\EU1/JameelNooriNastaleeq(1)/m/n/1
+0 .[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 8[][] \EU1/JameelNooriNastaleeq(1)/m/
+n/10 اور مساوات []\EU1/JameelNooriNastaleeq(0)/bx/n/10 14[]\EU1/JameelNooriNast
+aleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 8[][] \EU1/JameelNooriN
+astaleeq(1)/m/n/10 کو دکھایا گیا ہے۔آپ دیکھ سکتے ہیں کہ ان مساوات میں  $\OML/zp
+lm/m/it/10 ^^K$  \EU1/XBTabrizBold(0)/m/n/10 زاویائی فرق[][][] []\EU1/JameelNoo
+riNastaleeq(1)/m/n/10 پایا جاتا ہے۔ مساوات[]
+ []
+
+[365] [366] [367] [368]
+Overfull \hbox (3.43816pt too wide) in paragraph at lines 389--392
  [][][][] 
  []
 
-[365] [366] [367]
+[369] [370] [371]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [368] [369] [370] [371]
+ [372] [373] [374] [375]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 452.
- [372] [373]) [374]
-(./circuitAnalysis.aux (./tex/cktBasics.aux) (./tex/cktResistive.aux)
-(./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux) (./tex/cktTheorems.aux)
-(./tex/cktCapacitorInductor.aux) (./tex/cktTransients.aux)
-(./tex/cktSteadyStateAC.aux))
+(Font)              scaled to size 7.5pt on input line 602.
+ [376] [377] [378]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [379]
+Overfull \hbox (1.50552pt too wide) in paragraph at lines 704--706
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 مسلط کرنے سے دور میں تمام رو کی صورت  $\O
+ML/zplm/m/it/10 i[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) = \O
+ML/zplm/m/it/10 I[]e[]$  \EU1/JameelNooriNastaleeq(1)/m/n/10 اور دباو کی صورت  
+$\OML/zplm/m/it/10 v[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) =
+ \OML/zplm/m/it/10 V[]e[]$[]
+ []
+
+[380]
+Overfull \hbox (27.88605pt too wide) in paragraph at lines 736--736
+[][] []
+ []
+
+[381] [382] [383]) [384] (./circuitAnalysis.aux (./tex/cktBasics.aux)
+(./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
+(./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
+(./tex/cktTransients.aux) (./tex/cktSteadyStateAC.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.75237pt have occurred.
@@ -3105,12 +3141,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 45218 strings out of 493918
- 1071597 string characters out of 6150562
- 1264106 words of memory out of 5000000
- 47625 multiletter control sequences out of 15000+600000
+ 45315 strings out of 493918
+ 1073377 string characters out of 6150562
+ 1265670 words of memory out of 5000000
+ 47722 multiletter control sequences out of 15000+600000
  46921 words of font info for 173 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,14n,74p,10476b,2311s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,15n,74p,10476b,2313s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (22 pages).
+Output written on circuitAnalysis.pdf (32 pages).

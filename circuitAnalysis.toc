@@ -67,6 +67,8 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 7}}دھڑکن}{\RL {\arabicfont 321}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 7}}دو درجی ادوار}{\RL {\arabicfont 328}}
 \contentsline {chapter}{\numberline {\RL {\arabicfont 8}}برقرار حالت بدلتی رو}{\RL {\arabicfont 359}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 8}}سائن نما تفاعل}{\RL {\arabicfont 359}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 8}}سائن نما اور مخلوط جبری تفاعل}{\RL {\arabicfont 368}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 8}}دوری سمتیہ}{\RL {\arabicfont 374}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 8}}مخلوط عدد}{\RL {\arabicfont 359}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 8}}سائن نما تفاعل}{\RL {\arabicfont 363}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 8}}سائن نما اور مخلوط جبری تفاعل}{\RL {\arabicfont 372}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 8}}دوری سمتیہ}{\RL {\arabicfont 380}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 8}}مزاحمت، امالہ گیر اور برق گیر کے انفرادی دوری سمتی تعلق}{\RL {\arabicfont 383}}
