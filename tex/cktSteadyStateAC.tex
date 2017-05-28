@@ -1,7 +1,7 @@
 \باب{برقرار حالت بدلتی رو}
 جبری تفاعل میں یکدم تبدیلی سے دور عارضی حالت اختیار کرتا ہے۔محدود قیمت کے وقتی مستقل کی صورت میں آخر کار عارضی دورانیہ گزر جاتا ہے اور دور ایک بار پھر برقرار حالت اختیار کر لیتا ہے۔جبری تفاعل میں یکدم تبدیلی کی غیر موجودگی میں دور برقرار صورت میں رہتا ہے۔اس باب میں ایسے ہی ادوار پر غور کیا جائے گا جن کے جبری تفاعل میں یکدم تبدیلی نہیں پائی جاتی۔ایسی صورت میں جبری حل ہی مکمل حل ہو گا۔اس باب میں مکمل حل  سے مراد جبری حل ہو گا۔ 
  
-\حصہ{مخلوط عدد}
+\حصہ{مخلوط اعداد}
 \اصطلاح{حقیقی}\فرہنگ{حقیقی!عدد}\حاشیہب{real number}\فرہنگ{real!number} عدد اور \اصطلاح{خیالی}\فرہنگ{خیالی!عدد}\حاشیہب{imaginary number}\فرہنگ{imaginary!number} عدد کے مجموعے کو \اصطلاح{مخلوط}\فرہنگ{مخلوط!عدد}\حاشیہب{complex number}\فرہنگ{complex!number} عدد کہتے ہیں۔مخلوط اعداد کو \اصطلاح{مخلوط سطح}\فرہنگ{مخلوط سطح}\حاشیہب{complex plane}\فرہنگ{complex!plane} پر دکھایا جایا ہے۔مخلوط سطح پر افقی محدد حقیقی اعداد کو ظاہر کرتا ہے جبکہ عمودی محدد خیالی اعداد کو ظاہر کرتا ہے۔
 
 شکل \حوالہ{شکل_بدلتا_مخلوط_اعداد_لکھنا}-الف میں مخلوط عدد \عددی{3+j2} دکھایا گیا ہے۔اسی شکل میں ایک مستطیل بھی دکھایا گیا ہے۔اس عدد کے حقیقی اور خیالی اجزاء مستطیل کے اطراف ہیں۔یوں مخلوط عدد کو حقیقی اور خیالی اجزاء کے مجموعے یعنی \عددی{3+j2} کے طرز پر لکھنے کو \اصطلاح{مستطیلی طرز}\فرہنگ{مستطیلی طرز}\حاشیہب{rectangular form}\فرہنگ{rectangular form} کہتے ہیں۔ 
@@ -16,16 +16,28 @@ r=\sqrt{3^2+2^2}=\sqrt{13}
 \end{align*}
 شکل \حوالہ{شکل_بدلتا_مخلوط_اعداد_لکھنا}-ب میں اسی مخلوط عدد کو \عددی{r\phase{\theta}} کی شکل میں دکھایا گیا ہے۔مخلوط عدد کو حیطے اور زاویے سے ظاہر کرنے کو \اصطلاح{زاویائی طرز}\فرہنگ{زاویائی طرز}\حاشیہب{angular form}\فرہنگ{angular form} کہتے ہیں۔
 
-مخلوط عدد کو \عددی{x+jy} یا \عددی{r\phase{\theta}} لکھا جا سکتا ہے جہاں مستطیلی طرز سے زاویائی طرز درج ذیل طریقے سے حاصل کی جاتی ہے
-\begin{align}\label{مساوات_بدلتا_مستطیل_سے_زاویائی}
+کسی بھی مخلوط عدد \عددی{m} کو 
+\begin{align}
+m=x+jy\quad \quad \text{\RL{مستطیل طرز}}
+\end{align}
+یا
+\begin{align}
+m=r\phase{\theta} \quad \quad \text{\RL{زاویائی طرز}}
+\end{align}
+میں لکھا جا سکتا ہے جہاں مستطیلی طرز سے زاویائی طرز درج ذیل طریقے سے حاصل کی جاتی ہے
+\begin{gather}
+\begin{aligned}\label{مساوات_بدلتا_مستطیل_سے_زاویائی}
 r&=\sqrt{x^2+y^2}\\
 \theta&=\tan^{-1}\frac{y}{x}
-\end{align}
+\end{aligned}
+\end{gather}
 جبکہ زاویائی طرز سے مستطیل طرز درج ذیل سے حاصل کی جاتی ہے۔
-\begin{align}
+\begin{gather}
+\begin{aligned}
 x&=r \cos \theta\\
 y&=r\sin \theta
-\end{align}
+\end{aligned}
+\end{gather}
 %
 \begin{figure}
 \centering
@@ -145,9 +157,24 @@ a=r\phase{\theta}=r \cos \theta +j r \sin \theta
 e^{j \theta}=\cos \theta+j \sin \theta
 \end{align}
 مندرجہ بالا دو مساوات کو ملاتے ہوئے درج ذیل لکھا جا سکتا ہے۔
-\begin{align}
-r\phase{\theta}=r e^{j\theta}=r\cos \theta+j r \sin \theta
+\begin{align}\label{مساوات_بدلتا_مخلوط_عدد_طرز_لکھائی}
+r\phase{\theta}=r e^{j\theta}=r\left(\cos \theta+j  \sin \theta\right)
 \end{align}
+%=================================
+\ابتدا{مثال}
+مخلوط عدد \عددی{m=5-j12} کو زاویائی طرز میں لکھیں۔
+
+حل:مساوات \حوالہ{مساوات_بدلتا_مستطیل_سے_زاویائی} کے استعمال سے درج ذیل حاصل کرتے ہیں
+\begin{align*}
+r&=\sqrt{5^2+12^2}=13\\
+\theta&=\tan^{-1}\frac{-12}{5}=-67.38^{\circ}
+\end{align*}
+لہٰذا درج ذیل لکھے جا سکتے ہیں۔
+\begin{align*}
+m&=13 e^{-j67.38^{\circ}}\\
+m&=13\phase{-67.38^{\circ}}
+\end{align*}
+\انتہا{مثال}
 %======================
 \حصہ{سائن نما تفاعل}
 \اصطلاح{سائن نما}\فرہنگ{سائن نما}\حاشیہب{sinusoidal}\فرہنگ{sinusoidal} تفاعل سے مراد \اصطلاح{سائن} تفاعل \عددی{\sin \theta} اور \اصطلاح{کوسائن} تفاعل \عددی{\cos \theta} ہیں۔شکل \حوالہ{شکل_بدلتی_رو_سائن_تفاعل}-الف میں رداس \عددی{A_0} کے گول دائرے پر ایک نقطہ یکساں رفتار کے ساتھ، گھڑی کی گردش کی الٹ سمت میں، حرکت کر رہا ہے۔یہ دائرہ \اصطلاح{کارتیسی محدد}\فرہنگ{کارتیسی محدد}\حاشیہب{Cartesian coordinates}\فرہنگ{Cartesian coordinates} کے مرکز \عددی{(0,0)} پر پایا جاتا ہے۔لمحہ \عددی{t} پر زاویہ \عددی{\phase{aox}} کی قیمت \عددی{\theta} کے برابر ہے۔نقطے سے \عددی{x} محدد پر عمودی لکیر محدد کو  \عددی{x(t)}  پر ٹکراتی ہے جبکہ \عددی{y} محدد پر عمودی لکیر \عددی{y(t)} پر ٹکراتی ہے۔شکل کو دیکھتے ہوئے درج ذیل لکھا جا سکتا ہے
@@ -702,33 +729,71 @@ i(t)&=\frac{V_0}{\sqrt{R^2+\omega^2 L^2}} \left(\cos \omega t \frac{R}{\sqrt{R^2
 \begin{align}
 v_M=V_0 e^{j \omega t}
 \end{align}
-مسلط کرنے سے دور میں تمام رو کی صورت \عددی{i_M(t)=I_0e^{j(\omega t+\phi)}} اور دباو کی صورت \عددی{v_M(t)=V_0e^{j(\omega t+\phi)}} ہو گی جہاں تمام رو اور دباو  کی تعدد \عددی{\omega} جبکہ ان کے انفرادی  حیطے \عددی{I_0} یا \عددی{V_0} اور زاویہ ہٹاو \عددی{\phi} مختلف ہوں گے۔یہاں حیطے حقیقی مقدار ہیں۔
+مسلط کرنے سے دور میں تمام رو کی صورت \عددی{i_M(t)=I_0e^{j(\omega t+\phi)}} اور دباو کی صورت \عددی{v_M(t)=V_0e^{j(\omega t+\phi)}} ہو گی جہاں تمام رو اور دباو  کی تعدد \عددی{\omega} جبکہ ان کے انفرادی  حیطے \عددی{I_0} یا \عددی{V_0} اور زاویہ ہٹاو \عددی{\phi} مختلف ہوں گے۔یہاں حیطہ حقیقی مقدار ہے۔
 
-یوں تعدد جانتے ہوئے کسی بھی مخلوط تفاعل مثلاً مخلوط رو کو اس کے حیطے \عددی{I_0} اور زاویائی ہٹاو \عددی{\phi} سے مکمل طور پر ظاہر کیا جا سکتا ہے۔یوں مخلوط رو 
+یوں تعدد جانتے ہوئے کسی بھی مخلوط تفاعل مثلاً مخلوط رو کو اس کے حیطے \عددی{I_0} اور زاویائی ہٹاو \عددی{\phi} سے مکمل طور پر ظاہر کیا جا سکتا ہے۔مخلوط تفاعل مثلاً 
 \begin{align}
 i_M(t)=I_0 e^{j(\omega t+\phi)}
 \end{align}
-سے حقیقی رو درج ذیل
+سے حقیقی تفاعل درج ذیل
 \begin{align}\label{مساوات_بدلتا_حقیقی_رو_الف}
 i(t)&=\left. I_0 e^{j(\omega t+\phi)} \right|_{\text{حقیقی}}
 \end{align}
-یعنی
+لکھا جا سکتا ہے جہاں \عددی{I_0} حقیقی مقدار ہے اور زیر نوشت میں لفظ "حقیقی" لکھنے کا مطلب ہے کہ اس تفاعل کا حقیقی جزو لیا جائے یعنی
 \begin{align}\label{مساوات_بدلتا_حقیقی_رو_ب}
 i(t)&=I_0 \cos (\omega t+\phi)
 \end{align}
-لکھی جائے گی جہاں \عددی{I_0} حقیقی مقدار ہے۔مساوات \حوالہ{مساوات_بدلتا_حقیقی_رو_الف} حقیقی رو دیتی ہے۔اس طرز کے تمام مساوات میں \عددی{e^{j\omega t}} پایا جاتا ہے اور مساوات کا حقیقی جزو ہی حقیقی مقدار ہوتی ہے۔اس مساوات میں تعدد \عددی{\omega} کو ذہن نشین کرتے ہوئے زیر نوشت میں لفظ "حقیقی" اور جزو \عددی{e^{j\omega t}} نہ لکھنے سے  \اصطلاح{دوری سمتی طرز}\فرہنگ{دوری سمتی طرز}\حاشیہب{phasor notation}\فرہنگ{phasor notation} حاصل ہوتی ہے۔ یوں مساوات \حوالہ{مساوات_بدلتا_حقیقی_رو_الف} میں دی گئی حقیقی رو کی دوری سمتی صورت درج ذیل ہو گی
-\begin{align}\label{مساوات_بدلتا_حقیقی_رو_پ}
-\hat{I}=I_0 e^{j\phi}
+مساوات \حوالہ{مساوات_بدلتا_حقیقی_رو_الف} حقیقی رو دیتی ہے۔اس طرز کے تمام مساوات میں \عددی{e^{j\omega t}} پایا جاتا ہے اور مساوات کا حقیقی جزو ہی حقیقی مقدار ہوتا ہے۔یوں ایسے مساوات میں لفظ "حقیقی" اور \عددی{e^{j\omega t}} کو ذہن میں رکھتے ہوئے انہیں لکھنے سے گریز کیا جاتا ہے۔مساوات \حوالہ{مساوات_بدلتا_حقیقی_رو_الف} میں ایسا ہی کرتے ہوئے درج ذیل لکھا جائے گا
+\begin{align}\label{مساوات_بدلتا_دوری_سمتیہ_الف}
+\hat{I}=I_0e^{j\phi}
 \end{align}
-دوری سمتیہ کو بڑے حروف سے ظاہر کرتے ہوئے  اس پر ٹوپی کا نشان بنایا گیا ہے۔ یوں دوری سمتی رو کو \عددی{\hat{I}} اور دوری سمتی دباو کو \عددی{\hat{V}} سے ظاہر کیا جائے گا۔درج بالا کو درج ذیل دوری سمتیہ کی صورت میں بھی لکھا جاتا ہے۔
-\begin{align}\label{مساوات_بدلتا_حقیقی_رو_ت}
-\hat{I}=I_0 \phase{\phi}
-\end{align}
-دوری سمتی تفاعل کا حیطہ حقیقی اور مثبت مقدار ہوتا ہے۔یوں درج بالا مساوات میں \عددی{I_0} حقیقی مثبت مقدار ہے۔روایتی طور پر دوری سمتیہ کو \عددی{\cos} جزو سے حاصل کیا جاتا ہے۔
+جہاں رو کو ٹوپی والے بڑے حرف سے ظاہر کیا گیا ہے۔دباو کی صورت میں تفاعل کو \عددی{\hat{V}} لکھا جاتا۔ٹوپی والے بڑے حرف سے ظاہر کردہ تفاعل کو \عددی{e^{j\omega t}} سے ضرب دے کر حقیقی جزو لینے سے حقیقی تفاعل حاصل کیا جاتا ہے۔
 
-مساوات \حوالہ{مساوات_بدلتا_حقیقی_رو_ب} طرز کے تفاعل کو تفاعل کی \اصطلاح{وقتی صورت}\فرہنگ{وقتی صورت}\حاشیہب{time domain form}\فرہنگ{time domain form} کہتے ہیں جبکہ مساوات \حوالہ{مساوات_بدلتا_حقیقی_رو_پ} اور مساوات \حوالہ{مساوات_بدلتا_حقیقی_رو_ت} کو تفاعل کی \اصطلاح{تعددی صورت}\فرہنگ{تعددی صورت}\حاشیہب{frequency domain form}\فرہنگ{frequency domain form} کہتے ہیں۔
+مساوات \حوالہ{مساوات_بدلتا_دوری_سمتیہ_الف} کا صفحہ \حوالہصفحہ{مساوات_بدلتا_مخلوط_عدد_طرز_لکھائی} پر مساوات \حوالہ{مساوات_بدلتا_مخلوط_عدد_طرز_لکھائی} سے موازنہ کریں۔ایسا معلوم ہوتا ہے جیسے  \عددی{\hat{I}} مخلوط عدد کو ظاہر کرتا ہے۔اگرچہ مساوات \حوالہ{مساوات_بدلتا_دوری_سمتیہ_الف} درحقیقت میں مساوات \حوالہ{مساوات_بدلتا_حقیقی_رو_الف} کو چھوٹا لکھنے کا طریقہ ہے لہٰذا \عددی{\hat{I}} مخلوط عدد کو ظاہر نہیں کرتا لیکن دیکھا یہ گیا ہے کہ \عددی{\hat{I}} کو مخلوط عدد تصور کر لینے سے ہمارے لئے آسانی پیدا ہوتی ہے۔آئیں \عددی{\hat{V}} کو مخلوط عدد فرض کرتے ہوئے اس کو مخلوط سطح پر ظاہر کریں۔
+%=========================== 
+\ابتدا{مثال}\شناخت{مثال_بدلتا_دوری_سمتیہ_مثال_الف}
+مخلوط دباو \عددی{v_M(t)=50e^{j(100\pi t-35^{\circ})}}سے \عددی{\hat{V}} حاصل کرتے ہوئے \عددی{\hat{V}} کو مخلوط سطح پر دکھائیں۔
 
-%========================
+حل:مخلوط دباو سے حقیقی دباو لکھتے ہیں۔
+\begin{align*}
+v(t)=\left. 50e^{j(100\pi t-35^{\circ})} \right|_{\text{حقیقی}}
+\end{align*}
+اس مساوات کی تعدد \عددی{(\omega=100\pi)} کو ذہن نشین کرتے ہوئے لفظ "حقیقی" اور \عددی{e^{j100\pi t}} لکھنے سے گریز کرتے ہوئے درج ذیل لکھا جائے گا
+\begin{align*}
+\hat{V}&=50e^{-j35^{\circ}}\\
+&=50\phase{-35^{\circ}}
+\end{align*}
+جسے شکل \حوالہ{شکل_بدلتا_دوری_سمتیہ_مثال_الف} میں مخلوط سطح پر دکھایا گیا ہے۔حقیقی محدد سے گھڑی کی گردش کی جانب مثبت زاویہ ناپا جاتا ہے لہٰذا منفی زاویے کو گھڑی کی گردش کے الٹ جانب دکھایا گیا ہے۔مخلوط اعداد اور \عددی{\hat{V}} میں فرق رکھنے کی خاطر \عددی{\hat{V}} کو مخلوط سطح پر تیر کی نشان سے ظاہر کیا جاتا ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0)--++(3,0)node[right]{حقیقی};
+\draw(0,-1.5)--(0,0.5)node[left]{خیالی};
+\draw[-latex] (0,0)--++(-35:2.5)node[right]{$\hat{V}$}node[pos=0.6,below left]{$50$};
+\draw[-stealth]([shift={(0:0.5)}]0,0) arc (0:-35:0.5);
+\draw(-35*2/3:0.6)node[right]{$35^{\circ}$};
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_بدلتا_دوری_سمتیہ_مثال_الف} کی دوری سمتیہ۔}
+\label{شکل_بدلتا_دوری_سمتیہ_مثال_الف}
+\end{figure}
+\انتہا{مثال}
+%===========================
+
+مثال \حوالہ{مثال_بدلتا_دوری_سمتیہ_مثال_الف} میں \عددی{\hat{V}} کو مخلوط سطح پر تیر کے نشان سے ظاہر کیا گیا ہے جسے دیکھ کر یوں معلوم ہوتا ہے جیسے \عددی{\hat{V}} ایک سمتیہ ہے۔اسی حقیقت کی بنا پر \عددی{\hat{V}} یا \عددی{\hat{I}} کو \اصطلاح{دوری سمتیہ}\فرہنگ{دوری سمتیہ}\حاشیہب{phasor}\فرہنگ{phasor} کہتے ہیں اور شکل \حوالہ{شکل_بدلتا_دوری_سمتیہ_مثال_الف} کو \اصطلاح{دوری سمتی شکل}\فرہنگ{دوری سمتی شکل}\حاشیہب{phasor diagram}\فرہنگ{phasor diagram} کہتے ہیں۔
+
+مخلوط عدد لکھنے کے تمام طرز پر دوری سمتیہ کو لکھا جاتا ہے لہٰذا درج ذیل لکھنا ممکن ہے۔
+\begin{gather}
+\begin{aligned}\label{مساوات_بدلتا_تعددی_طرز}
+\hat{I}&=I_0e^{j\phi}\\
+ &=I_0\phase{\phi}\\
+&=I_x+jI_y
+\end{aligned}
+\end{gather}
+
+دوری سمتیہ کا حیطہ حقیقی اور مثبت مقدار ہوتا ہے۔یوں درج بالا مساوات میں \عددی{I_0} حقیقی مثبت مقدار ہے۔
+
+مساوات \حوالہ{مساوات_بدلتا_حقیقی_رو_ب} طرز کو تفاعل کی \اصطلاح{وقتی صورت}\فرہنگ{وقتی صورت}\حاشیہب{time domain form}\فرہنگ{time domain form} کہتے ہیں جبکہ مساوات \حوالہ{مساوات_بدلتا_تعددی_طرز} طرز کو تفاعل کی \اصطلاح{تعددی صورت}\فرہنگ{تعددی صورت}\حاشیہب{frequency domain form}\فرہنگ{frequency domain form} کہتے ہیں۔
+%====================
 \ابتدا{مثال}
 درج ذیل تفاعل کے دوری سمتیہ دریافت کریں۔
 \begin{align*}
@@ -780,8 +845,7 @@ i(t)=\left. 22 e^{j(\omega t+0.2\pi)} \right|_{\text{حقیقی}}
 \انتہا{مشق}
 %=====================
 
-دوری سمتیہ حقیقت میں مخلوط عدد ہے۔یوں کسی بھی مخلوط عدد کی طرح اس کو بھی مخلوط سطح پر ظاہر کیا جا سکتا ہے۔شکل \حوالہ{شکل_بدلتا_دوری_سمتیات} میں 
-\عددی{\hat{I}=25\phase{20^{\circ}}} اور \عددی{\hat{V}=30 e^{j55^{\circ}}} کھینچے گئے ہیں جہاں مرکز \عددی{(0,0)} سے مخلوط نقطے تک لکیر کے سر پر تیر کا نشان ڈالتے ہوئے انہیں سمتیہ کی شکل دی گئی ہے۔اسی لئے  \عددی{\hat{V}} یا \عددی{\hat{I}} کو دوری سمتیات کہتے ہیں۔شکل سے دوری سمتیات کا زاویائی تعلق بھی ظاہر ہوتا ہے۔شکل \حوالہ{شکل_بدلتا_دوری_سمتیات} میں دباو سے رو \عددی{33^{\circ}} درجے پیچھے ہے۔
+شکل \حوالہ{شکل_بدلتا_دوری_سمتیات} میں \عددی{\hat{I}=25\phase{20^{\circ}}} اور \عددی{\hat{V}=30 e^{j55^{\circ}}} کھینچے گئے ہیں جہاں سے دوری سمتیات کا زاویائی تعلق بھی ظاہر ہوتا ہے۔شکل \حوالہ{شکل_بدلتا_دوری_سمتیات} میں دباو سے رو \عددی{33^{\circ}} درجے پیچھے ہے۔
 \begin{figure}
 \centering
 \begin{tikzpicture}
@@ -802,38 +866,525 @@ i(t)=\left. 22 e^{j(\omega t+0.2\pi)} \right|_{\text{حقیقی}}
 \label{شکل_بدلتا_دوری_سمتیات}
 \end{figure}
 
+کسی بھی حقیقی تفاعل مثلاً حقیقی دباو کو \عددی{v(t)=V_0\cos(\omega t+\phi)} صورت میں لکھتے ہوئے جہاں \عددی{V_0} مثبت حقیقی مقدار ہو، \عددی{V_0} اور \عددی{\phi} استعمال کرتے ہوئے دوری سمتیہ فوراً
+\begin{align}
+\hat{V}=V_0\phase{\phi}
+\end{align}
+لکھا جا سکتا ہے۔
 %=================
+\ابتدا{مثال}
+درج ذیل کے دوری سمتیات فوراً لکھیں۔
+\begin{align*}
+i_1(t)&=20\cos(132t-27^{\circ}) \\
+ v_1(t)&=-100\cos(20t-60^{\circ})\\
+ i_2(t)&=-90\sin(450t-100^{\circ})
+\end{align*}
+
+حل:رو \عددی{i_1} میں \عددی{I_0=20} اور \عددی{\phi=-27^{\circ}} ہے لہٰذا درج ذیل لکھا جائے گا۔
+\begin{align*}
+\hat{I}_1=20\phase{-27^{\circ}}
+\end{align*}
+دباو کا حیطہ منفی ہے لہٰذا مثبت حیطہ حاصل کرنے کی خاطر دباو کو درج ذیل لکھتے ہیں
+\begin{align*}
+v_1(t)=100\cos(20t-60^{\circ}+180^{\circ})=100\cos(20t+120^{\circ})
+\end{align*}
+جس سے دوری سمتیہ درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+\hat{V}_1=100\phase{120^{\circ}}
+\end{align*}
+رو \عددی{i_2(t)} کو \عددی{i(t)=I_0\cos(\omega t+\phi)} کی صورت میں لکھتے ہیں۔
+\begin{align*}
+i_2(t)=90\cos(450t-100^{\circ}+90^{\circ})=90\cos(450t-10^{\circ})
+\end{align*}
+یوں دوری سمتیہ درج ذیل ہو گا۔
+\begin{align*}
+\hat{I}_2=90\phase{-10^{\circ}}
+\end{align*}
+\انتہا{مثال}
+%========================
+
 \حصہ{مزاحمت، امالہ گیر اور برق گیر کے انفرادی دوری سمتی تعلق}
-مزاحمت \عددی{R} پر مخلوط دباو \عددی{v(t)=V_0e^{j(\omega t+\phi_v)}} مسلط کرنے سے  مزاحمت میں مخلوط رو \عددی{i(t)=I_0e^{j(\omega t+\phi_i)}} گزرے گی۔اوہم کے قانون کے تحت
+شکل \حوالہ{شکل_بدلتا_مزاحمت_تعددی_اور_وقتی_تفاعل} پر نظر رکھتے ہوئے پڑھیں۔مزاحمت \عددی{R} پر مخلوط دباو \عددی{v(t)=V_0e^{j(\omega t+\phi_v)}} مسلط کرنے سے  مزاحمت میں مخلوط رو \عددی{i(t)=I_0e^{j(\omega t+\phi_i)}} گزرے گی۔اوہم کے قانون کے تحت
 \begin{align*}
 V_0 e^{j(\omega t +\phi_v)}=R I_0 e^{j(\omega t+\phi_i)}
 \end{align*}
 یعنی
-\begin{align}
+\begin{align*}
 V_0 e^{j\phi_v}=R I_0 e^{j\phi_i}
-\end{align}
+\end{align*}
 ہو گا۔اس کو دوری سمتیہ کی صورت میں
 \begin{align}\label{مساوات_بدلتا_مزاحمت_دوری_تعلق}
 \hat{V}=R \hat{I}
 \end{align}
 لکھا جا سکتا ہے جہاں
-\begin{align}
+\begin{align*}
 \hat{V}&=V_0e^{j\phi_v}\\
 \hat{I}&=I_0 e^{j \phi_i}
-\end{align}
+\end{align*}
 یعنی
-\begin{align}
+\begin{gather}
+\begin{aligned}\label{مساوات_بدلتا_مزاحمت_دوری_تعلق_الف}
 \hat{V}&=V_0 \phase{\phi_v}\\
 \hat{I}&=I_0 \phase{\phi_i}
-\end{align}
+\end{aligned}
+\end{gather}
 کے برابر ہیں۔اس طرح مساوات \حوالہ{مساوات_بدلتا_مزاحمت_دوری_تعلق} کو درج ذیل لکھا جا سکتا ہے۔
-\begin{align}
+\begin{align*}
 V_0 \phase{\phi_v} = R I_0 \phase{\phi_i}
-\end{align}
+\end{align*}
 
 یاد رہے کہ دوری سمتیات میں \عددی{V_0} اور \عددی{I_0} حقیقی اور مثبت مقدار ہیں۔درج بالا مساوات میں بائیں ہاتھ اور دائیں ہاتھ کے مخلوط اعداد صرف اور صرف اس صورت برابر ہوں گے جب ان کے حیطے برابر ہوں اور ان کے زاویے برابر ہوں یعنی
-\begin{align}
+\begin{gather}
+\begin{aligned}\label{مساوات_بدلتا_مزاحمت_دوری_تعلق_ب}
 V_0&=I_0 R\\
 \phi_v&=\phi_i
+\end{aligned}
+\end{gather} 
+اس طرح مزاحمت کی رو اور دباو ہم زاویہ ہیں۔مساوات \حوالہ{مساوات_بدلتا_مزاحمت_دوری_تعلق_ب} کی مدد سے مساوات \حوالہ{مساوات_بدلتا_مزاحمت_دوری_تعلق_الف} درج ذیل صورت اختیار کرتے ہیں۔
+\begin{gather}
+\begin{aligned}\label{مساوات_بدلتا_مزاحمت_دوری_تعلق_پ}
+\hat{V}&=V_0\phase{\phi_v}\\
+\hat{I}&=\frac{V_0}{R} \phase{\phi_v}
+\end{aligned}
+\end{gather}
+
+شکل \حوالہ{شکل_بدلتا_مزاحمت_تعددی_اور_وقتی_تفاعل}-پ میں مزاحمت کے \عددی{\hat{I}} اور \عددی{\hat{V}} دوری سمتیات دکھائے گئے ہیں جو تعددی تفاعل ہیں جبکہ شکل \حوالہ{شکل_بدلتا_مزاحمت_تعددی_اور_وقتی_تفاعل}-ت میں مزاحمت کے \عددی{i(t)} اور \عددی{v(t)} دکھائے گئے ہیں جو وقتی تفاعل ہیں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\coordinate (a) at (0,0);
+\coordinate (b) at (-0.025,0.5);
+\coordinate (c) at (-0.04,1);
+\coordinate (d) at (-0.12,1.5);
+\coordinate (e) at (-0.2,2);
+\coordinate (f) at (-0.15,2.5);
+\coordinate (g) at (0.5,3);
+
+\coordinate (h) at (0.7,2.5);
+\coordinate (i) at (0.6,2);
+\coordinate (j) at (0.75,1.5);
+\coordinate (k) at (0.7,1);
+\coordinate (l) at (0.7,0.5);
+\coordinate (m) at (0.6,0);
+%box circuit
+\draw [] plot [smooth cycle] coordinates {(a) (b) (c) (d) (e) (f) (g) (h) (i) (j) (k) (l) (m)};
+%controlled circuit
+\draw (h) to [short,-o]++(1,0)coordinate(HH);
+\draw (l) to [short,-o]++(1,0)coordinate(LL);
+\draw ($(HH)!0.5!(LL)$)++(-0.3,0) node[shift={(\x/4,0)}]{$\begin{aligned} &+ \\ \hat{V} &=\hat{I} R\\&-   \end{aligned}$};
+\draw(HH) to [short,i={$\hat{I}$},o-]++(\x,0) to [resistor,l={$R$}]++(0,-\y) to [short,-o] (LL);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\coordinate (a) at (0,0);
+\coordinate (b) at (-0.025,0.5);
+\coordinate (c) at (-0.04,1);
+\coordinate (d) at (-0.12,1.5);
+\coordinate (e) at (-0.2,2);
+\coordinate (f) at (-0.15,2.5);
+\coordinate (g) at (0.5,3);
+
+\coordinate (h) at (0.7,2.5);
+\coordinate (i) at (0.6,2);
+\coordinate (j) at (0.75,1.5);
+\coordinate (k) at (0.7,1);
+\coordinate (l) at (0.7,0.5);
+\coordinate (m) at (0.6,0);
+%box circuit
+\draw [] plot [smooth cycle] coordinates {(a) (b) (c) (d) (e) (f) (g) (h) (i) (j) (k) (l) (m)};
+%controlled circuit
+\draw (h) to [short,-o]++(1,0)coordinate(HH);
+\draw (l) to [short,-o]++(1,0)coordinate(LL);
+\draw ($(HH)!0.5!(LL)$)++(-0.3,0) node[shift={(\x/4,0)}]{$\begin{aligned} &+ \\ v(t) &=i(t)R\\&-   \end{aligned}$};
+\draw(HH) to [short,i={$i(t)$},o-]++(\x,0) to [resistor,l={$R$}]++(0,-\y) to [short,-o] (LL);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\l}{3}
+\pgfmathsetmacro{\ang}{30}
+%
+\draw(0,0)--++(3,0)node[right]{حقیقی};
+\draw(0,0)--++(0,2)node[left]{خیالی};
+\draw[-latex](0,0)--++(\ang:\l)node[above left]{$\hat{V}$};
+\draw[-latex](0,0)--++(\ang:0.6*\l)node[above left]{$\hat{I}$};
+\draw[-stealth]([shift={(0:0.5)}]0,0) arc (0:\ang:0.5);
+\draw(2/3*\ang:0.6)node[right]{$\phi_v=\phi_i$};
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[kStyleCircuitsA,small,xlabel=$\omega t$, ylabel=${v,i}$,ticks=none]
+\addplot[domain=-120:250,samples=100]{cos(x+30)}node[pos=0.15,above left]{$v$};
+\addplot[domain=-120:250,samples=100]{0.6*cos(x+30)}node[pos=0.15,below right]{$i$};
+\draw[dashed](axis cs:-30,1)--(axis cs:-30,-0.3);
+\draw[stealth-](axis cs:0,-0.2)--(axis cs:30,-0.2);
+\draw[stealth-](axis cs:-30,-0.2)--(axis cs:-60,-0.2)--(axis cs:-60,-0.4)node[below]{$\phi_v$};
+\end{axis}
+\end{tikzpicture}
+\caption*{(ت)}
+\end{subfigure}%
+\caption{مزاحمت کے دباو اور رو کے تعددی اور وقتی تفاعل۔}
+\label{شکل_بدلتا_مزاحمت_تعددی_اور_وقتی_تفاعل}
+\end{figure}
+%==============
+\ابتدا{مثال}
+شکل \حوالہ{شکل_بدلتا_مزاحمت_تعددی_اور_وقتی_تفاعل}-ب میں \عددی{\SI{10}{\ohm}} کے مزاحمت پر \عددی{v(t)=22\cos(30t-66^{\circ})} دباو مسلط کی گئی ہے۔ مزاحمت کے رو کی وقتی صورت دریافت کریں۔رو کی تعددی صورت شکل \حوالہ{شکل_بدلتا_مزاحمت_تعددی_اور_وقتی_تفاعل}-الف سے دریافت کریں۔
+
+حل:اوہم کے قانون کی مدد سے رو کی وقتی صورت معلوم کرتے ہیں۔
+\begin{align*}
+i(t)=\frac{v(t)}{R}=\frac{22\cos(30t-66^{\circ})}{10}=2.2\cos(30t-66^{\circ}) \, \si{\ampere}
+\end{align*}
+آئیں اب رو کی تعددی صورت اختیار کرتے ہیں۔دوری دباو
+\begin{align*}
+\hat{V}=22\phase{-66^{\circ}}\, \si{\volt}
+\end{align*}
+ہے لہٰذا دوری رو درج ذیل ہو گی۔
+\begin{align*}
+\hat{I}=\frac{\hat{V}}{R}=\frac{22\phase{-66^{\circ}}}{10}=2.2\phase{-66^{\circ}} \, \si{\ampere}
+\end{align*}
+\انتہا{مثال}
+%=============================
+\ابتدا{مشق}
+بارہ اوہم کے مزاحمت میں دوری رو \عددی{\hat{I}=37\phase{43^{\circ}} \, \si{\ampere}} ہے جبکہ تعدد \عددی{\omega=\SI{172}{\radian\per\second}} ہے۔دباو کی وقتی صورت لکھیں۔
+
+جواب:\عددی{v(t)=444\cos(172 t +43^{\circ}) \, \si{\volt}}
+\انتہا{مشق}
+%============================
+شکل \حوالہ{شکل_بدلتا_امالہ_تعددی_اور_وقتی_تفاعل} پر نظر رکھتے ہوئے پڑھیں۔امالہ گیر کے دباو اور رو کا تعلق درج ذیل ہے۔
+\begin{align}\label{مساوات_بدلتا_امالہ_وقتی_تعلق}
+v=L\frac{\dif i(t)}{\dif t}
+\end{align}
+امالہ گیر پر مخلوط دباو \عددی{v(t)=V_0e^{j(\omega t+\phi_v)}} مسلط کرنے سے اس میں مخلوط رو \عددی{i(t)=I_0e^{j(\omega t+\phi_i)}} پیدا ہو گی۔ان قیمتوں کو درج بالا مساوات میں پُر کرنے سے
+\begin{align*}
+V_0 e^{j(\omega t+\phi_v)}&=L \frac{\dif}{\dif t} \left[I_0 e^{j(\omega t +\phi_i)}\right]\\
+&=j \omega L I_0 e^{j(\omega t+\phi_i)}
+\end{align*}
+یعنی
+\begin{align*}
+V_0 e^{j\phi_v}=j\omega L I_0 e^{j\phi_i}
+\end{align*}
+ملتا ہے جو دوری مساوات ہے۔یہ دوری مساوات درج ذیل لکھی جائے گی۔
+\begin{align}\label{مساوات_بدلتا_امالہ_تعددی_تعلق_الف}
+\hat{V}=j\omega L \hat{I}
 \end{align} 
-اس طرح مزاحمت کی رو اور دباو ہم زاویہ ہیں۔شکل-الف میں مزاحمت کے \عددی{\hat{I}} اور \عددی{\hat{V}} دوری سمتیات دکھائے گئے ہیں جو تعددی تفاعل ہیں جبکہ شکل-ب میں مزاحمت کے \عددی{i(t)} اور \عددی{v(t)} دکھائے گئے ہیں جو وقتی تفاعل ہیں۔
+آپ نے دیکھا کہ مساوات \حوالہ{مساوات_بدلتا_امالہ_وقتی_تعلق} جو تفرقی اور وقتی مساوات ہے سے مساوات \حوالہ{مساوات_بدلتا_امالہ_تعددی_تعلق_الف} حاصل ہوتا ہے جو تعددی اور الجبرائی مساوات ہے۔دوری سمتیات کی مدد سے تفرقی مساوات سے الجبرائی مساوات حاصل ہوتے ہیں۔آپ جانتے ہیں کہ الجبرائی مساوات حل کرنا نہایت آسان ہوتا ہے جبکہ تفرقی مساوات کو حل کرنا دشوار ہوتا ہے۔یہی وجہ ہے کہ دوری سمتیات اتنے مقبول ہیں۔
+
+آپ جانتے ہیں کہ
+\begin{align}\label{مساوات_بدلتا_عمود}
+\phase{90^{\circ}}=e^{j90^{\circ}}=\cos 90^{\circ}+j \sin 90^{\circ}=j
+\end{align}
+لکھا جا سکتا ہے لہٰذا مساوات \حوالہ{مساوات_بدلتا_امالہ_تعددی_تعلق_الف} کو 
+\begin{align*}
+\hat{V}=\omega L \hat{I} e^{j90^{\circ}}
+\end{align*} 
+یعنی
+\begin{align}\label{مساوات_بدلتا_امالہ_تعددی_تعلق_ب}
+V_0 e^{j\phi_v}=\omega L I_0 e^{j (\phi_i+90^{\circ})}
+\end{align} 
+لکھا جا سکتا ہے۔مساوات \حوالہ{مساوات_بدلتا_امالہ_تعددی_تعلق_ب} میں دونوں ہاتھ کے مخلوط اعداد صرف اور صرف اس وقت برابر ہوں گے جب ان کے حیطے برابر ہوں اور ان کے زاویے برابر ہوں لہٰذا اس مساوات کے تحت
+\begin{gather}
+\begin{aligned}\label{مساوات_بدلتا_امالہ_رو_پیچھے_ہے}
+V_0&=\omega L I_0\\
+\phi_v&=\phi_i+90^{\circ}
+\end{aligned}
+\end{gather}
+ہوں گے۔یوں دباو کا زاویہ، رو کے زاویے سے \عددی{90^{\circ}} درجے زیادہ ہے لہٰذا رو سے دباو \عددی{90^{\circ}} درجے آگے ہے یا دباو سے رو \عددی{90^{\circ}} پیچھے ہے۔شکل \حوالہ{شکل_بدلتا_امالہ_تعددی_اور_وقتی_تفاعل}-پ میں دوری سمتیات دکھائے گئے ہیں جہاں دباو سے رو \عددی{90^{\circ}} درجے پیچھے دکھایا گیا ہے۔
+
+مساوات \حوالہ{مساوات_بدلتا_امالہ_تعددی_تعلق_ب} سے وقتی مساوات درج ذیل لکھی جائے گی جہاں مساوات \حوالہ{مساوات_بدلتا_امالہ_رو_پیچھے_ہے} کے تحت \عددی{\phi_v=\phi_i+90^{\circ}} ہو گا۔
+\begin{align}
+V_0 \cos (\omega t +\phi_v)=\omega L I_0 \cos (\omega t +\phi_i+90^{\circ})
+\end{align}
+درج بالا مساوات میں دیے دباو اور رو کو شکل \حوالہ{شکل_بدلتا_امالہ_تعددی_اور_وقتی_تفاعل}-ت میں دکھایا گیا ہے۔
+%
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\coordinate (a) at (0,0);
+\coordinate (b) at (-0.025,0.5);
+\coordinate (c) at (-0.04,1);
+\coordinate (d) at (-0.12,1.5);
+\coordinate (e) at (-0.2,2);
+\coordinate (f) at (-0.15,2.5);
+\coordinate (g) at (0.5,3);
+
+\coordinate (h) at (0.7,2.5);
+\coordinate (i) at (0.6,2);
+\coordinate (j) at (0.75,1.5);
+\coordinate (k) at (0.7,1);
+\coordinate (l) at (0.7,0.5);
+\coordinate (m) at (0.6,0);
+%box circuit
+\draw [] plot [smooth cycle] coordinates {(a) (b) (c) (d) (e) (f) (g) (h) (i) (j) (k) (l) (m)};
+%controlled circuit
+\draw (h) to [short,-o]++(1,0)coordinate(HH);
+\draw (l) to [short,-o]++(1,0)coordinate(LL);
+\draw ($(HH)!0.5!(LL)$)++(-0.3,0) node[shift={(\x/4,0)}]{$\begin{aligned} &+ \\ \hat{V} &=j \omega L \hat{I} \\&-   \end{aligned}$};
+\draw(HH) to [short,i={$\hat{I}$},o-]++(\x,0) to [inductor,l={$L$}]++(0,-\y) to [short,-o] (LL);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\coordinate (a) at (0,0);
+\coordinate (b) at (-0.025,0.5);
+\coordinate (c) at (-0.04,1);
+\coordinate (d) at (-0.12,1.5);
+\coordinate (e) at (-0.2,2);
+\coordinate (f) at (-0.15,2.5);
+\coordinate (g) at (0.5,3);
+
+\coordinate (h) at (0.7,2.5);
+\coordinate (i) at (0.6,2);
+\coordinate (j) at (0.75,1.5);
+\coordinate (k) at (0.7,1);
+\coordinate (l) at (0.7,0.5);
+\coordinate (m) at (0.6,0);
+%box circuit
+\draw [] plot [smooth cycle] coordinates {(a) (b) (c) (d) (e) (f) (g) (h) (i) (j) (k) (l) (m)};
+%controlled circuit
+\draw (h) to [short,-o]++(1,0)coordinate(HH);
+\draw (l) to [short,-o]++(1,0)coordinate(LL);
+\draw ($(HH)!0.5!(LL)$)++(-0.3,0) node[shift={(\x/4,0)}]{$\begin{aligned} &+ \\ v(t) &=L \frac{\dif i(t)}{\dif t}\\&-   \end{aligned}$};
+\draw(HH) to [short,i={$i(t)$},o-]++(\x,0) to [inductor,l={$L$}]++(0,-\y) to [short,-o] (LL);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\l}{3}
+\pgfmathsetmacro{\ang}{30}
+\pgfmathsetmacro{\angA}{\ang-90}
+%
+\draw(0,0)--++(3,0)node[right]{حقیقی};
+\draw(0,0)--++(0,2)node[left]{خیالی};
+\draw[-latex](0,0)--++(\ang:\l)node[above left]{$\hat{V}$};
+\draw[-latex](0,0)--++(\ang-90:0.7*\l)node[below right]{$\hat{I}$};
+\draw[-stealth]([shift={(0:0.6)}]0,0) arc (0:\ang:0.6);
+\draw(2/3*\ang:0.7)node[right]{$\phi_v$};
+\draw[-stealth]([shift={(0:0.5)}]0,0) arc (0:\angA:0.5);
+\draw(2/3*\angA:0.6)node[right]{$\phi_i$};
+\draw[stealth-stealth]([shift={(\angA:1.5)}]0,0) arc (\angA:\ang:1.5);
+\draw(0.5*\angA:1.6)node[right]{$90^{\circ}$};
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[kStyleCircuitsA,small,xlabel=$\omega t$, ylabel=${v,i}$,ticks=none]
+\addplot[domain=-120:250,samples=100]{cos(x+30)}node[pos=0.15,above left]{$v$};
+\addplot[domain=-120:250,samples=100]{0.7*cos(x+30-90)}node[pos=0.5,above  right]{$i$};
+\draw[dashed](axis cs:-30,1)--(axis cs:-30,-0.3);
+\draw[dashed](axis cs:60,0.7)--(axis cs:60,-0.3);
+\draw[stealth-](axis cs:60,-0.2)--(axis cs:90,-0.2);
+\draw[stealth-](axis cs:-30,-0.2)--(axis cs:-90,-0.2)--(axis cs:-90,-0.3)node[left]{$90^{\circ}$};
+\end{axis}
+\end{tikzpicture}
+\caption*{(ت)}
+\end{subfigure}%
+\caption{امالہ کے دباو اور رو کے تعددی اور وقتی تفاعل۔}
+\label{شکل_بدلتا_امالہ_تعددی_اور_وقتی_تفاعل}
+\end{figure}
+%============
+\ابتدا{مثال}
+شکل \حوالہ{شکل_بدلتا_امالہ_تعددی_اور_وقتی_تفاعل} میں \عددی{\SI{4}{\milli\henry}} امالہ گیر پر \عددی{v(t)=12\cos(1000t+22^{\circ})} دباو مسلط کی جاتی ہے۔امالہ گیر کی رو دریافت کریں۔
+
+حل:دوری سمتیہ دباو درج ذیل ہے۔
+\begin{align*}
+\hat{V}=12\phase{22^{\circ}}
+\end{align*}
+مساوات \حوالہ{مساوات_بدلتا_امالہ_تعددی_تعلق_الف} کی مدد سے دوری سمتیہ رو حاصل کرتے ہیں
+\begin{align*}
+\hat{I}&=\frac{\hat{V}}{j \omega L}\\
+&=\frac{12\phase{22^{\circ}}}{j1000\times 0.004}\\
+&=\frac{12\phase{22^{\circ}}}{4\phase{90^{\circ}}}\\
+&=3\phase{-68^{\circ}} \, \si{\ampere}
+\end{align*}
+جہاں مساوات \حوالہ{مساوات_بدلتا_عمود} کا استعمال کرتے ہوئے \عددی{j=\phase{90^{\circ}}} لکھا گیا  ہے۔یوں رو کی وقتی صورت درج ذیل ہو گی۔
+\begin{align*}
+i(t)=3\cos(1000t-68^{\circ}) \, \si{\ampere}
+\end{align*}
+\انتہا{مثال}
+%================
+\ابتدا{مشق}
+امالہ کی قیمت \عددی{\SI{10}{\milli\henry}} جبکہ اس میں رو \عددی{\hat{I}=8\phase{44^{\circ}}} کی تعدد \عددی{\SI{500}{\radian \per\second}} ہے۔دباو کی وقتی صورت دریافت کریں۔
+
+جواب:\عددی{v(t)=40\cos(500t+134^{\circ})\, \si{\volt}}
+\انتہا{مشق}
+%===============
+شکل \حوالہ{شکل_بدلتا_برق_گیر_تعددی_اور_وقتی_تفاعل} پر نظر رکھتے ہوئے پڑھیں جہاں برق گیر پر دباو \عددی{v(t)=V_0\cos(\omega t +\phi_v)} مسلط کی گئی ہے۔برق گیر کی تفرقی مساوات
+\begin{align}\label{مساوات_بدلتا_برق_گیر_تفرقی_مساوات}
+i(t)=C \frac{\dif v(t)}{\dif t}
+\end{align}
+میں مخلوط دباو اور مخلوط رو پُر کرتے ہوئے
+\begin{align*}
+I_0 e^{j(\omega t +\phi_i)}&=C \frac{\dif}{\dif t} \left[V_0 e^{j(\omega t +\phi_v)} \right]\\
+&=j \omega C V_0 e^{j(\omega t +\phi_v)}
+\end{align*}
+یعنی
+\begin{align*}
+I_0 e^{j\phi_i}=j \omega C e^{j \phi_v}
+\end{align*}
+حاصل ہوتا ہے جس کو دوری سمتیہ کی صورت میں لکھتے ہیں۔
+\begin{align}\label{مساوات_بدلتا_برق_گیر_دوری_مساوات_الف}
+\hat{I}=j \omega C \hat{V}
+\end{align}
+مساوات \حوالہ{مساوات_بدلتا_برق_گیر_تفرقی_مساوات} برق گیر کی تفرقی مساوات ہے جبکہ مساوات \حوالہ{مساوات_بدلتا_برق_گیر_دوری_مساوات_الف} برق گیر کی الجبرائی مساوات ہے۔
+ 
+مساوات \حوالہ{مساوات_بدلتا_برق_گیر_دوری_مساوات_الف} میں \عددی{j=e^{j90^{\circ}}} لکھنے سے درج ذیل ملتا ہے۔
+\begin{align}\label{مساوات_بدلتا_برق_گیر_دوری_مساوات_ب}
+I_0 e^{j\phi_i}= \omega C e^{j (\phi_v+90^{\circ})}
+\end{align}
+اس مساوات کے دونوں اطراف صرف اور صرف اس صورت برابر ہو سکتے ہیں جب دونوں اطراف کے حیطے برابر ہوں اور ان کے زاویے برابر ہوں۔
+\begin{gather}
+\begin{aligned}
+I_0&=\omega C V_0\\
+\phi_i&=\phi_v+90^{\circ}
+\end{aligned}
+\end{gather}
+درج بالا مساوات کے تحت دباو سے رو \عددی{90^{\circ}} درجے آگے ہے۔
+
+مساوات \حوالہ{مساوات_بدلتا_برق_گیر_دوری_مساوات_ب} سے وقتی صورت لکھتے ہیں جہاں درج بالا مساوات کے تحت \عددی{\phi_i=\phi_v+90^{\circ}} ہو گا۔
+\begin{align}
+I_0 \cos (\omega t +\phi_i)=\omega C V_0 \cos(\omega t +\phi_v+90^{\circ})
+\end{align}
+شکل \حوالہ{شکل_بدلتا_برق_گیر_تعددی_اور_وقتی_تفاعل}-پ میں دوری سمتیات دکھائے گئے ہیں جبکہ شکل-ت میں دباو اور رو کی وقتی صورت دکھائی گئی ہے۔
+
+% 
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\coordinate (a) at (0,0);
+\coordinate (b) at (-0.025,0.5);
+\coordinate (c) at (-0.04,1);
+\coordinate (d) at (-0.12,1.5);
+\coordinate (e) at (-0.2,2);
+\coordinate (f) at (-0.15,2.5);
+\coordinate (g) at (0.5,3);
+
+\coordinate (h) at (0.7,2.5);
+\coordinate (i) at (0.6,2);
+\coordinate (j) at (0.75,1.5);
+\coordinate (k) at (0.7,1);
+\coordinate (l) at (0.7,0.5);
+\coordinate (m) at (0.6,0);
+%box circuit
+\draw [] plot [smooth cycle] coordinates {(a) (b) (c) (d) (e) (f) (g) (h) (i) (j) (k) (l) (m)};
+%controlled circuit
+\draw (h) to [short,-o]++(1,0)coordinate(HH);
+\draw (l) to [short,-o]++(1,0)coordinate(LL);
+\draw ($(HH)!0.5!(LL)$)++(-0.3,0) node[shift={(\x/4,0)}]{$\begin{aligned} &+ \\& \hat{V} \\&-   \end{aligned}$};
+\draw(HH) to [short,i={${\hat{I}=j \omega C \hat{V}}$},o-]++(\x,0) to [capacitor,l={$C$}]++(0,-\y) to [short,-o] (LL);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\coordinate (a) at (0,0);
+\coordinate (b) at (-0.025,0.5);
+\coordinate (c) at (-0.04,1);
+\coordinate (d) at (-0.12,1.5);
+\coordinate (e) at (-0.2,2);
+\coordinate (f) at (-0.15,2.5);
+\coordinate (g) at (0.5,3);
+
+\coordinate (h) at (0.7,2.5);
+\coordinate (i) at (0.6,2);
+\coordinate (j) at (0.75,1.5);
+\coordinate (k) at (0.7,1);
+\coordinate (l) at (0.7,0.5);
+\coordinate (m) at (0.6,0);
+%box circuit
+\draw [] plot [smooth cycle] coordinates {(a) (b) (c) (d) (e) (f) (g) (h) (i) (j) (k) (l) (m)};
+%controlled circuit
+\draw (h) to [short,-o]++(1,0)coordinate(HH);
+\draw (l) to [short,-o]++(1,0)coordinate(LL);
+\draw ($(HH)!0.5!(LL)$)++(-0.3,0) node[shift={(\x/4,0)}]{$\begin{aligned} &+ \\& v(t)\\&-   \end{aligned}$};
+\draw(HH) to [short,i={${i(t)=C\frac{\dif v(t)}{\dif t}}$},o-]++(\x,0) to [capacitor,l={$C$}]++(0,-\y) to [short,-o] (LL);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\l}{3}
+\pgfmathsetmacro{\ang}{30}
+\pgfmathsetmacro{\angA}{\ang+90}
+%
+\draw(0,0)--++(3,0)node[right]{حقیقی};
+\draw(0,0)--++(0,2)node[left]{خیالی};
+\draw[-latex](0,0)--++(\ang:\l)node[above left]{$\hat{V}$};
+\draw[-latex](0,0)--++(\angA:0.7*\l)node[above left]{$\hat{I}$};
+\draw[-stealth]([shift={(0:0.7)}]0,0) arc (0:\ang:0.7);
+\draw(2/3*\ang:0.8)node[right]{$\phi_v$};
+\draw[-stealth]([shift={(0:0.5)}]0,0) arc (0:\angA:0.5);
+\draw(2/3*\angA:0.6)node[right]{$\phi_i$};
+\draw[stealth-stealth]([shift={(\angA:1.5)}]0,0) arc (\angA:\ang:1.5);
+\draw(0.5*\angA:1.6)node[right]{$90^{\circ}$};
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[kStyleCircuitsA,small,xlabel=$\omega t$, ylabel=${v,i}$,ticks=none]
+\addplot[domain=-30:340,samples=100]{cos(x-60)}node[pos=0.25,above right]{$v$};
+\addplot[domain=-120:340,samples=100]{0.7*cos(x-60+90)}node[pos=0.2,above left]{$i$};
+\draw[dashed](axis cs:-30,0)--(axis cs:-30,-0.3);
+\draw[dashed](axis cs:-120,0)--(axis cs:-120,-0.3);
+\draw[stealth-](axis cs:-30,-0.2)--(axis cs:-10,-0.2);
+\draw[stealth-](axis cs:-120,-0.2)--(axis cs:-150,-0.2);
+\draw(axis cs:-75,-0.2)node[]{$90^{\circ}$};
+\end{axis}
+\end{tikzpicture}
+\caption*{(ت)}
+\end{subfigure}%
+\caption{برق گیر کے دباو اور رو کے تعددی اور وقتی تفاعل۔}
+\label{شکل_بدلتا_برق_گیر_تعددی_اور_وقتی_تفاعل}
+\end{figure}
+%=========================
+\ابتدا{مثال}
+شکل \حوالہ{شکل_بدلتا_برق_گیر_تعددی_اور_وقتی_تفاعل} میں \عددی{\SI{100}{\micro\farad}} برق گیر پر \عددی{v(t)=7\cos(5000t-60^{\circ}) \, \si{\volt}} کا دباو مسلط کیا گیا ہے۔رو حاصل کریں۔
+
+حل:مسلط دباو کی دوری سمتیہ لکھتے ہیں۔
+\begin{align*}
+\hat{V}=7\phase{-60^{\circ}}
+\end{align*}
+یوں رو درج ذیل ہو گی
+\begin{align*}
+\hat{I}&=j \omega C \hat{V}\\
+&=j 5000 \times 100 \times 10^{-6} 7 \phase{-60^{\circ}}\\
+&=3.5 \phase{-60^{\circ}+90^{\circ}}\\
+&=3.5\phase{30^{\circ}} \, \si{\ampere}
+\end{align*}
+جس کی وقتی صورت درج ذیل ہے۔
+\begin{align*}
+i(t)=3.5\cos(5000 t+30^{\circ}) \, \si{\ampere}
+\end{align*}
+\انتہا{مثال}
+%===========================
+\ابتدا{مشق}
+شکل \حوالہ{شکل_بدلتا_برق_گیر_تعددی_اور_وقتی_تفاعل} میں \عددی{\SI{330}{\micro\farad}} برق گیر کی رو \عددی{\hat{I}=11\phase{-12^{\circ}} \, \si{\ampere}} ہے۔ رو کی تعدد \عددی{\SI{6000}{\hertz}} ہے۔دباو کی وقتی صورت حاصل کریں۔
+
+جواب:\عددی{v(t)=0.884 \cos(12000\pi t-102^{\circ}) \, \si{\volt}}
+\انتہا{مشق}
+%=============================
+
+\حصہ{برقی رکاوٹ اور برقی فراوانی}

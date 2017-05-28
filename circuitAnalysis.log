@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  27 MAY 2017 18:33
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  28 MAY 2017 14:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3056,35 +3056,37 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 
 
 ]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 9.5pt on input line 22.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 7.5pt on input line 22.
 Missing character: There is no ; in font nullfont!
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 46.
+(Font)              scaled to size 9.0pt on input line 58.
 Missing character: There is no ; in font nullfont!
  [360]
-Overfull \hbox (0.5818pt too wide) in paragraph at lines 84--84
+Overfull \hbox (0.5818pt too wide) in paragraph at lines 96--96
 [][] []
  []
 
-[361] [362]
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+[361] [362] [363]
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
 [][][]\EU1/JameelNooriNastaleeq(0)/m/n/8 ایک ماہر ریاضی اپنی خیالی دنیا میں کوس
 ائن  $[] \OML/zplm/m/it/8 ^^R$  \EU1/JameelNooriNastaleeq(0)/m/n/8 تفاعل کے سات
 ھ بحث میں مصورف ہوتا ہے۔ماہر ریاضی تفاعل کو دلیل کے طور پر صفر پیش کرتا ہے۔تفاع
 ل اس کا فوراً جواب اکائی []
  []
 
-[363]
+[364]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 9.5pt on input line 162.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 5.70004pt on input line 162.
- [364]
-Overfull \hbox (3.4406pt too wide) in paragraph at lines 234--240
+(Font)              scaled to size 5.70004pt on input line 189.
+ [365]
+Overfull \hbox (3.4406pt too wide) in paragraph at lines 261--267
  [][][][] 
  []
 
 
-Overfull \hbox (1.88719pt too wide) in paragraph at lines 259--261
+Overfull \hbox (1.88719pt too wide) in paragraph at lines 286--288
 [][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 12[]\EU1/JameelNooriNastaleeq(1)/m/n/1
 0 .[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 8[][] \EU1/JameelNooriNastaleeq(1)/m/
 n/10 اور مساوات []\EU1/JameelNooriNastaleeq(0)/bx/n/10 14[]\EU1/JameelNooriNast
@@ -3094,28 +3096,25 @@ lm/m/it/10 ^^K$  \EU1/XBTabrizBold(0)/m/n/10 زاویائی فرق[][][] []\EU1/
 riNastaleeq(1)/m/n/10 پایا جاتا ہے۔ مساوات[]
  []
 
-[365] [366] [367] [368]
-Overfull \hbox (3.43816pt too wide) in paragraph at lines 389--392
+[366] [367] [368] [369]
+Overfull \hbox (3.43816pt too wide) in paragraph at lines 416--419
  [][][][] 
  []
 
-[369] [370] [371]
+[370] [371] [372]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [372] [373] [374] [375]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 602.
- [376] [377] [378]
+ [373] [374] [375] [376] [377] [378] [379]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [379]
-Overfull \hbox (1.50552pt too wide) in paragraph at lines 704--706
+ [380]
+Overfull \hbox (1.50552pt too wide) in paragraph at lines 731--733
 []\EU1/JameelNooriNastaleeq(1)/m/n/10 مسلط کرنے سے دور میں تمام رو کی صورت  $\O
 ML/zplm/m/it/10 i[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) = \O
 ML/zplm/m/it/10 I[]e[]$  \EU1/JameelNooriNastaleeq(1)/m/n/10 اور دباو کی صورت  
@@ -3123,14 +3122,47 @@ $\OML/zplm/m/it/10 v[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) =
  \OML/zplm/m/it/10 V[]e[]$[]
  []
 
-[380]
-Overfull \hbox (27.88605pt too wide) in paragraph at lines 736--736
+[381]
+Overfull \hbox (2.99167pt too wide) in paragraph at lines 752--754
+[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 مساوات []\EU1/JameelNooriNastaleeq(0)/b
+x/n/10 47[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/
+bx/n/10 8[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 کا صفحہ []\EU1/JameelNooriNas
+taleeq(0)/bx/n/10 364[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 پر مساوات []\EU1/
+JameelNooriNastaleeq(0)/bx/n/10 7[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/
+JameelNooriNastaleeq(0)/bx/n/10 8[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 سے مو
+ازنہ کریں۔ایسا معلوم ہوتا ہے جیسے  $[]$  مخلوط عدد کو ظاہر کرتا ہے۔اگرچہ[]
+ []
+
+[382]
+Overfull \hbox (27.88605pt too wide) in paragraph at lines 801--801
 [][] []
  []
 
-[381] [382] [383]) [384] (./circuitAnalysis.aux (./tex/cktBasics.aux)
-(./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
-(./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
+[383] [384] [385] [386] [387] [388]
+Overfull \hbox (1.00366pt too wide) in paragraph at lines 1079--1081
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 مساوات ہے۔دوری سمتیات کی مدد سے تفرقی مسا
+وات سے الجبرائی مساوات حاصل ہوتے ہیں۔آپ جانتے ہیں کہ الجبرائی[]
+ []
+
+[389]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [390] [391] [392] [393] [394]) [395] [396
+
+
+] (./circuitAnalysis.aux
+(./tex/cktBasics.aux) (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux)
+(./tex/cktOpamp.aux) (./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
 (./tex/cktTransients.aux) (./tex/cktSteadyStateAC.aux))
 
 LaTeX Font Warning: Size substitutions with differences
@@ -3141,12 +3173,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 45315 strings out of 493918
- 1073377 string characters out of 6150562
- 1265670 words of memory out of 5000000
- 47722 multiletter control sequences out of 15000+600000
- 46921 words of font info for 173 fonts, out of 8000000 for 9000
+ 46065 strings out of 493918
+ 1090339 string characters out of 6150562
+ 1294504 words of memory out of 5000000
+ 48471 multiletter control sequences out of 15000+600000
+ 46929 words of font info for 174 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,15n,74p,10476b,2313s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,19n,74p,10476b,2311s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (32 pages).
+Output written on circuitAnalysis.pdf (44 pages).
