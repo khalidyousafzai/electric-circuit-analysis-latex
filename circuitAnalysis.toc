@@ -11,10 +11,10 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 2}}قوانین کرخوف}{\RL {\arabicfont 35}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 2}}سلسلہ وار جڑے پرزوں میں رو}{\RL {\arabicfont 51}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 2}}تقسیم دباو}{\RL {\arabicfont 52}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 2}}متعدد سلسلہ وار مزاحمت}{\RL {\arabicfont 55}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 2}}متعدد سلسلہ وار مزاحمتوں کا مساوی مزاحمت}{\RL {\arabicfont 55}}
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 2}}سلسلہ وار متعدد منبع دباو اور مزاحمت}{\RL {\arabicfont 58}}
 \contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 2}}متوازی جڑے مزاحمت پر یکساں دباو پایا جاتا ہے}{\RL {\arabicfont 59}}
-\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 2}}تقسیم رو}{\RL {\arabicfont 61}}
+\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 2}}تقسیم رو اور متعدد متوازی مزاحمتوں کا مساوی مزاحمت}{\RL {\arabicfont 61}}
 \contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 2}}سلسلہ وار اور متوازی مزاحمت}{\RL {\arabicfont 68}}
 \contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 2}}تخصیص مزاحمت}{\RL {\arabicfont 73}}
 \contentsline {section}{\numberline {\RL {\arabicfont 11}.\RL {\arabicfont 2}}سلسلہ وار اور متوازی مزاحمتوں کے ادوار کا حل}{\RL {\arabicfont 76}}
@@ -72,4 +72,4 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 8}}سائن نما اور مخلوط جبری تفاعل}{\RL {\arabicfont 373}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 8}}دوری سمتیہ}{\RL {\arabicfont 381}}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 8}}مزاحمت، امالہ گیر اور برق گیر کے انفرادی دوری سمتی تعلق}{\RL {\arabicfont 386}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 8}}برقی رکاوٹ اور برقی فراوانی}{\RL {\arabicfont 395}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 8}}برقی رکاوٹ اور برقی فراوانی}{\RL {\arabicfont 396}}

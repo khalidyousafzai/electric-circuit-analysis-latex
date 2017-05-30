@@ -7,7 +7,6 @@
 \usepackage{ifdraft}
 \usetikzlibrary{3d,shadings,fadings,intersections,calc,decorations.markings,decorations.pathreplacing,external}
 
-\tikzexternalize[prefix=fig/]
 %\tikzexternalize[mode=list and make] %disable to generate figures
 %\tikzexternaldisable  %enables figures after this command. put this is the tex file
 
@@ -20,6 +19,12 @@
 \pgfmathsetmacro{\dx}{0.2}     %moving labels beyond resistor outline
 \pgfmathsetmacro{\dy}{0.2}
 \pgfmathsetmacro{\pin}{0.3}
+%=============================
+%complex numbers
+\newcommand*{\bZ}{{\ensuremath{{\boldsymbol{Z}}}}}           %complex impedance
+\newcommand*{\kcomplex}[1]{{\ensuremath{{\boldsymbol{#1}}}}}
+\newcommand*{\مخلوط}[1]{{\ensuremath{{\boldsymbol{#1}}}}}
+
 %==========================
 %my styles
 \pgfplotsset{
