@@ -1553,5 +1553,127 @@ Z_C&=\frac{1}{j 2000\times 500 \times 10^{-6}}=-j1\, \si{\ohm}
 \begin{align*}
 i(t)=2.87\cos(2000t+28.3^{\circ})\, \si{\ampere}
 \end{align*}
+آپ نے دیکھا کہ \عددی{\SI{50}{\hertz}} پر کُل رکاوٹ برق گیر کی خاصیت رکھتا ہے یعنی \عددی{\bZ=R-jX} لکھا جاتا ہے جبکہ \عددی{\SI{2000}{\radian\per\second}} پر \عددی{\bZ=R+jX} لکھا جاتا ہے جو امالی خاصیت کو ظاہر کرتا ہے۔
 \انتہا{مثال}
 %=================================
+\ابتدا{مشق}\شناخت{مشق_بدلتا_متوازی_الف}
+شکل \حوالہ{شکل_بدلتا_متوازی_الف} میں وقتی دائرہ کار میں رو حاصل کریں۔تعدد \عددی{\SI{1000}{\radian\per\second}} ہے۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={${55\phase{-66^{\circ}}}$}]++(0,\y) to [short,i={$i(t)$}]++(\x,0) to [short]++(2*\x,0) to [capacitor,l_={$\SI{50}{\micro\farad}$}]++(0,-\y) to [short]++(-3*\x,0);
+\draw(\x,0) to [resistor,*-*,l={$\SI{80}{\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [inductor,*-*,l={$\SI{5}{\milli\henry}$}]++(0,\y);
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_بدلتا_متوازی_الف} کا دور۔}
+\label{شکل_بدلتا_متوازی_الف}
+\end{figure} 
+
+جواب:\عددی{8.28\cos(1000t-151.23^{\circ}) \, \si{\ampere}}
+\انتہا{مشق}
+%=======================
+
+بدلتی رو ادوار میں برقی رکاوٹ \عددی{\bZ} کے علاوہ \اصطلاح{برقی فراوانی}\فرہنگ{فراوانی}\حاشیہب{admittance}\فرہنگ{admittance} \عددی{\bY} بھی نہایت اہم ثابت ہوتی ہے۔رکاوٹ کے بالعکس متناسب کو فراوانی کہتے ہیں۔
+\begin{align}
+\bY=\frac{1}{\bZ}
+\end{align}
+مخلوط رکاوٹ کی صورت میں فراوانی بھی مخلوط ہو گی۔فراوانی کو سیمنز \عددی{\si{\siemens}} میں ناپا جاتا ہے۔فراوانی کو مستطیل طرز درج ذیل لکھا جاتا ہے
+\begin{align}
+\bY=G+jB
+\end{align}
+جہاں \عددی{G} کو \اصطلاح{ایصالیت}\فرہنگ{ایصالیت}\حاشیہب{conductance}\فرہنگ{conductance} اور \عددی{B} کو \اصطلاح{تاثریت}\فرہنگ{تاثریت}\حاشیہب{susceptance}\فرہنگ{susceptance} کہتے ہیں۔
+
+رکاوٹ سے فراوانی کے اجزاء درج ذیل مساوات سے شروع کرتے ہوئے
+\begin{align}
+G+jB=\frac{1}{R+jX}
+\end{align}
+حاصل کی جا سکتی ہے یعنی
+\begin{gather}
+\begin{aligned}
+G&=\frac{R}{R^2+X^2}\\
+B&=\frac{-X}{R^2+X^2}
+\end{aligned}
+\end{gather}
+اسی طرح فراوانی کے اجزاء سے رکاوٹ کے اجزاء درج ذیل حاصل ہوتے ہیں۔
+\begin{gather}
+\begin{aligned}
+R&=\frac{G}{G^2+B^2}\\
+X&=\frac{-B}{G^2+B^2}
+\end{aligned}
+\end{gather}
+آپ دیکھ سکتے ہیں کہ مخلوط رکاوٹ کی صورت میں \عددی{G} اور \عددی{R} آپس میں بالعکس متناسب نہیں ہیں۔اسی طرح \عددی{B} اور \عددی{X} بھی آپس میں بالعکس متناسب نہیں ہیں۔اگر رکاوٹ میں \عددی{X=0} ہو تب \عددی{G=\tfrac{1}{R}} ہو گا۔
+
+انفرادی پرزوں کی فراوانی درج ذیل ہے۔
+\begin{gather}
+\begin{aligned}
+Y_R&=\frac{1}{R}=G\\
+Y_L&\frac{1}{j \omega L}=\frac{1}{\omega L} \phase{-90^{\circ}}\\
+Y_C&=j \omega C=\omega C \phase{90^{\circ}}
+\end{aligned}
+\end{gather}
+جہاں انفرادی مزاحمت کی صورت میں \عددی{\tfrac{1}{R}=G} لکھا گیا ہے۔
+
+قوانین کرخوف فراوانی پر بھی لاگو ہوتے ہیں لہٰذا باب دوم کی طرز پر سلسلہ وار اور متوازی جڑے فراوانی کی مساوی فراوانی بالترتیب درج ذیل مساوات سے حاصل کی جا سکتی ہے۔
+\begin{align}
+\frac{1}{\bZ_s}&=\frac{1}{\bY_1}+\frac{1}{\bY_2}+\frac{1}{\bY_3}+\cdots+\frac{1}{\bY_n} \quad \text{\RL{سلسلہ وار جڑے}}\\
+\bY_m &=\bY_1+\bY_2+\bY_3+\cdots+\bY_n\quad \text{\RL{متوازی جڑے}}
+\end{align}
+%================
+\ابتدا{مثال}\شناخت{مثال_بدلتا_متوازی_ب}
+شکل \حوالہ{شکل_بدلتا_متوازی_ب} میں منبع کے متوازی جڑے دور کی فراوانی \عددی{\SI{500}{\radian\per\second}} پر دریافت کرتے ہوئے رو \عددی{\hat{I}} حاصل کریں۔ 
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={${120\phase{56^{\circ}}}$}]++(0,2*\y) to [short,i={${\hat{I}}$}]++(\x,0) to [short]++(2*\x,0) to [capacitor,l_={$\SI{100}{\micro\farad}$}]++(0,-2*\y) to [short] (0,0);
+\draw (\x,0)  to [resistor,*-*,l={$\SI{10}{\ohm}$}]++(0,2*\y);
+\draw(2*\x,0) to [resistor,*-,l={$\SI{5}{\ohm}$}]++(0,\y) to [inductor,-*,l={$\SI{10}{\milli\henry}$}]++(0,\y);
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_بدلتا_متوازی_ب} کا دور۔}
+\label{شکل_بدلتا_متوازی_ب}
+\end{figure}
+
+حل:دور میں تین متوازی حصوں کے انفرادی رکاوٹ لکھتے  ہیں۔
+\begin{align*}
+Z_1&=\SI{10}{\ohm}\\
+Z_2&=5+j 500\times 10\times 10^{-3}=5+j5 \, \si{\ohm}\\
+Z_3&=\frac{1}{j 500 \times 100 \times 10^{-6}}=-j20 \, \si{\ohm}
+\end{align*}
+یوں تینوں حصوں کے فراوانی درج ذیل ہو گی۔
+\begin{align*}
+Y_1&=\frac{1}{10}=\SI{0.1}{\siemens}\\
+Y_2&=\frac{1}{5+j5}=0.1-j0.1 \, \si{\siemens}\\
+Y_3&=\frac{1}{-j20}=j0.05 \, \si{\siemens}
+\end{align*}
+یوں تینوں حصوں کو متوازی جوڑنے سے درج ذیل مساوی فراوانی حاصل ہو گی
+\begin{align*}
+\bY_m=(0.1)+(0.1-j0.1)+(j0.05)=0.2-j0.05 \, \si{\siemens}
+\end{align*}
+جسے استعمال کرتے ہوئے رو حاصل کرتے ہیں۔
+\begin{align*}
+\hat{I}&=\bY \hat{V}\\
+&=(0.2-j0.05) (120 \phase{56^{\circ}})\\
+&=24.74\phase{41.96^{\circ}} \, \si{\ampere}
+\end{align*} 
+\انتہا{مثال}
+%=================
+\ابتدا{مشق}\شناخت{مشق_بدلتا_متوازی_پ}
+شکل \حوالہ{شکل_بدلتا_متوازی_پ} میں منبع کے متوازی دور کی فراوانی دریافت کرتے ہوئے \عددی{\hat{I}} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={${22\phase{10^{\circ}}}$}]++(0,\y) to [short,i={${\hat{I}}$}]++(\x,0) to [short]++(3*\x,0) to [inductor,l_={${j4 \, \si{\ohm}}$}]++(0,-\y) to [short] (0,0);
+\draw (\x,0)  to [resistor,*-*,l={$\SI{4}{\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [inductor,*-*,l={${j2 \, \si{\ohm}}$}]++(0,\y);
+\draw(3*\x,0) to [capacitor,*-*,l={${-j4 \, \si{\ohm}}$}]++(0,\y);
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_بدلتا_متوازی_پ} کا دور۔}
+\label{شکل_بدلتا_متوازی_پ}
+\end{figure}
+
+جواب:\عددی{12.298\phase{-53.4^{\circ}}\,\si{\ampere}}
+\انتہا{مشق}
+%============
+
+آئیں مختلف انداز میں جڑے متعدد پرزوں کی مساوی رکاوٹ حاصل کرنا درج ذیل مثال کی مدد سے سیکھیں۔

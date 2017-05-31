@@ -22,8 +22,9 @@
 %=============================
 %complex numbers
 \newcommand*{\bZ}{{\ensuremath{{\boldsymbol{Z}}}}}           %complex impedance
-\newcommand*{\kcomplex}[1]{{\ensuremath{{\boldsymbol{#1}}}}}
-\newcommand*{\مخلوط}[1]{{\ensuremath{{\boldsymbol{#1}}}}}
+\newcommand*{\bY}{{\ensuremath{{\boldsymbol{Y}}}}}           %complex impedance
+%\newcommand*{\kcomplex}[1]{{\ensuremath{{\boldsymbol{#1}}}}}
+%\newcommand*{\مخلوط}[1]{{\ensuremath{{\boldsymbol{#1}}}}}
 
 %==========================
 %my styles
