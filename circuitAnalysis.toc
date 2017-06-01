@@ -73,3 +73,4 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 8}}دوری سمتیہ}{\RL {\arabicfont 381}}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 8}}مزاحمت، امالہ گیر اور برق گیر کے انفرادی دوری سمتی تعلق}{\RL {\arabicfont 386}}
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 8}}برقی رکاوٹ اور برقی فراوانی}{\RL {\arabicfont 396}}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 8}}دوری سمتیات کے اشکال}{\RL {\arabicfont 409}}
