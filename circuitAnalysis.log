@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  1 JUN 2017 17:30
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  2 JUN 2017 16:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3060,11 +3060,28 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 9.5pt on input line 22.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 7.5pt on input line 22.
-Missing character: There is no ; in font nullfont!
+ Opening 'circuitAnalysis.figlist' for writing.
+\openout4 = `circuitAnalysis.figlist'.
+
+
+Opening 'circuitAnalysis.makefile' for writing.
+\tikzexternal@outmakefile=\write7
+\openout7 = `circuitAnalysis.makefile'.
+
+Writing 'circuitAnalysis-figure0' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure0' to 'circuitAnalysis.makefile'.
+
+LaTeX Font Warning: Font shape `EU1/JameelNooriNastaleeq(0)/m/sc' undefined
+(Font)              using `EU1/JameelNooriNastaleeq(0)/m/n' instead on input li
+ne 57.
+
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 58.
-Missing character: There is no ; in font nullfont!
- [360]
+Writing 'circuitAnalysis-figure1' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure1' to 'circuitAnalysis.makefile'.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/sc' will be
+(Font)              scaled to size 10.0pt on input line 72.
+[360]
 Overfull \hbox (0.5818pt too wide) in paragraph at lines 96--96
 [][] []
  []
@@ -3077,43 +3094,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--184
 ل اس کا فوراً جواب اکائی []
  []
 
-[364]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 5.70004pt on input line 189.
- [365]
-Overfull \hbox (3.4406pt too wide) in paragraph at lines 261--267
- [][][][] 
- []
-
-
+[364]
+Writing 'circuitAnalysis-figure2' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure2' to 'circuitAnalysis.makefile'.
+Writing 'circuitAnalysis-figure3' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure3' to 'circuitAnalysis.makefile'.
+Writing 'circuitAnalysis-figure4' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure4' to 'circuitAnalysis.makefile'.
+[365]
 Overfull \hbox (1.88719pt too wide) in paragraph at lines 286--288
-[][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 12[]\EU1/JameelNooriNastaleeq(1)/m/n/1
-0 .[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 8[][] \EU1/JameelNooriNastaleeq(1)/m/
-n/10 اور مساوات []\EU1/JameelNooriNastaleeq(0)/bx/n/10 14[]\EU1/JameelNooriNast
-aleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 8[][] \EU1/JameelNooriN
+[][]\EU1/JameelNooriNastaleeq(0)/m/sc/10 12[]\EU1/JameelNooriNastaleeq(1)/m/n/1
+0 .[]\EU1/JameelNooriNastaleeq(0)/m/sc/10 8[][] \EU1/JameelNooriNastaleeq(1)/m/
+n/10 اور مساوات []\EU1/JameelNooriNastaleeq(0)/m/sc/10 14[]\EU1/JameelNooriNast
+aleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/m/sc/10 8[][] \EU1/JameelNooriN
 astaleeq(1)/m/n/10 کو دکھایا گیا ہے۔آپ دیکھ سکتے ہیں کہ ان مساوات میں  $\OML/zp
 lm/m/it/10 ^^K$  \EU1/XBTabrizBold(0)/m/n/10 زاویائی فرق[][][] []\EU1/JameelNoo
 riNastaleeq(1)/m/n/10 پایا جاتا ہے۔ مساوات[]
  []
 
-[366] [367] [368] [369]
-Overfull \hbox (3.43816pt too wide) in paragraph at lines 416--419
- [][][][] 
- []
-
-[370] [371] [372]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [373] [374] [375] [376] [377] [378] [379]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- [380]
+Writing 'circuitAnalysis-figure5' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure5' to 'circuitAnalysis.makefile'.
+Writing 'circuitAnalysis-figure6' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure6' to 'circuitAnalysis.makefile'.
+[366] [367] [368]
+Writing 'circuitAnalysis-figure7' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure7' to 'circuitAnalysis.makefile'.
+Writing 'circuitAnalysis-figure8' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure8' to 'circuitAnalysis.makefile'.
+Writing 'circuitAnalysis-figure9' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure9' to 'circuitAnalysis.makefile'.
+Writing 'circuitAnalysis-figure10' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure10' to 'circuitAnalysis.makefile'.
+[369] [370]
+Writing 'circuitAnalysis-figure11' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure11' to 'circuitAnalysis.makefile'.
+[371] [372] [373] [374] [375] [376]
+Writing 'circuitAnalysis-figure12' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure12' to 'circuitAnalysis.makefile'.
+[377]
 Overfull \hbox (1.50552pt too wide) in paragraph at lines 731--733
 []\EU1/JameelNooriNastaleeq(1)/m/n/10 مسلط کرنے سے دور میں تمام رو کی صورت  $\O
 ML/zplm/m/it/10 i[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) = \O
@@ -3122,46 +3142,65 @@ $\OML/zplm/m/it/10 v[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) =
  \OML/zplm/m/it/10 V[]e[]$[]
  []
 
-[381]
+[378]
 Overfull \hbox (2.99167pt too wide) in paragraph at lines 752--754
-[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 مساوات []\EU1/JameelNooriNastaleeq(0)/b
-x/n/10 47[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/
-bx/n/10 8[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 کا صفحہ []\EU1/JameelNooriNas
-taleeq(0)/bx/n/10 364[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 پر مساوات []\EU1/
-JameelNooriNastaleeq(0)/bx/n/10 7[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/
-JameelNooriNastaleeq(0)/bx/n/10 8[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 سے مو
+[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 مساوات []\EU1/JameelNooriNastaleeq(0)/m
+/sc/10 47[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/
+m/sc/10 8[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 کا صفحہ []\EU1/JameelNooriNas
+taleeq(0)/m/sc/10 363[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 پر مساوات []\EU1/
+JameelNooriNastaleeq(0)/m/sc/10 7[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/
+JameelNooriNastaleeq(0)/m/sc/10 8[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 سے مو
 ازنہ کریں۔ایسا معلوم ہوتا ہے جیسے  $[]$  مخلوط عدد کو ظاہر کرتا ہے۔اگرچہ[]
  []
 
-[382]
+Writing 'circuitAnalysis-figure13' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure13' to 'circuitAnalysis.makefile'.
+[379]
 Overfull \hbox (27.88605pt too wide) in paragraph at lines 801--801
 [][] []
  []
 
-[383] [384] [385] [386] [387] [388]
+[380]
+Writing 'circuitAnalysis-figure14' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure14' to 'circuitAnalysis.makefile'.
+[381] [382]
+Writing 'circuitAnalysis-figure15' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure15' to 'circuitAnalysis.makefile'.
+Writing 'circuitAnalysis-figure16' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure16' to 'circuitAnalysis.makefile'.
+Writing 'circuitAnalysis-figure17' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure17' to 'circuitAnalysis.makefile'.
+Writing 'circuitAnalysis-figure18' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure18' to 'circuitAnalysis.makefile'.
+[383] [384]
 Overfull \hbox (1.00366pt too wide) in paragraph at lines 1079--1081
 []\EU1/JameelNooriNastaleeq(1)/m/n/10 مساوات ہے۔دوری سمتیات کی مدد سے تفرقی مسا
 وات سے الجبرائی مساوات حاصل ہوتے ہیں۔آپ جانتے ہیں کہ الجبرائی[]
  []
 
-[389]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [390] [391] [392] [393] [394] [395] [396]
+[385]
+Writing 'circuitAnalysis-figure19' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure19' to 'circuitAnalysis.makefile'.
+Writing 'circuitAnalysis-figure20' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure20' to 'circuitAnalysis.makefile'.
+Writing 'circuitAnalysis-figure21' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure21' to 'circuitAnalysis.makefile'.
+Writing 'circuitAnalysis-figure22' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure22' to 'circuitAnalysis.makefile'.
+[386] [387]
+Writing 'circuitAnalysis-figure23' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure23' to 'circuitAnalysis.makefile'.
+Writing 'circuitAnalysis-figure24' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure24' to 'circuitAnalysis.makefile'.
+Writing 'circuitAnalysis-figure25' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure25' to 'circuitAnalysis.makefile'.
+Writing 'circuitAnalysis-figure26' to 'circuitAnalysis.figlist'.
+Writing 'circuitAnalysis-figure26' to 'circuitAnalysis.makefile'.
+[388] [389] [390]
 Overfull \hbox (7.56978pt too wide) in paragraph at lines 1453--1455
-[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 مشق  []\EU1/JameelNooriNastaleeq(0)/bx/
-n/10 8[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/
-n/10 8[]\EU1/JameelNooriNastaleeq(1)/m/n/10 : مزاحمت  $\OML/zplm/m/it/10 R \OT1
+[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 مشق  []\EU1/JameelNooriNastaleeq(0)/m/s
+c/10 8[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/m/s
+c/10 8[]\EU1/JameelNooriNastaleeq(1)/m/n/10 : مزاحمت  $\OML/zplm/m/it/10 R \OT1
 /zplm/m/n/10 = [] []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ، امالہ  $\OML/zplm/m
 /it/10 L \OT1/zplm/m/n/10 = [] []$  \EU1/JameelNooriNastaleeq(1)/m/n/10 اور برق
  گیر  $\OML/zplm/m/it/10 C \OT1/zplm/m/n/10 = [] []$  \EU1/JameelNooriNastaleeq
@@ -3173,13 +3212,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 1456--1459
 [][]
  []
 
-[397] [398]
+[391] [392]
 Overfull \hbox (4.43994pt too wide) in paragraph at lines 1493--1495
 []\EU1/JameelNooriNastaleeq(1)/m/n/10 مساوی رکاوٹ حاصل کریں۔مساوی رکاوٹ سے مساو
 ی برق گیر کی مساوات حاصل کریں۔متعدد متوازی برق گیر کا مساوی[]
  []
 
-[399]
+[393]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -3188,29 +3227,29 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
 Overfull \hbox (9.95703pt too wide) in paragraph at lines 1509--1519
-[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 مثال  []\EU1/JameelNooriNastaleeq(0)/bx
-/n/10 18[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/b
-x/n/10 8[]\EU1/JameelNooriNastaleeq(1)/m/n/10 :[] شکل []\EU1/JameelNooriNastale
-eq(0)/bx/n/10 13[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastal
-eeq(0)/bx/n/10 8[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 میں منبع دباو کو درپیش
+[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 مثال  []\EU1/JameelNooriNastaleeq(0)/m/
+sc/10 18[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/m
+/sc/10 8[]\EU1/JameelNooriNastaleeq(1)/m/n/10 :[] شکل []\EU1/JameelNooriNastale
+eq(0)/m/sc/10 13[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastal
+eeq(0)/m/sc/10 8[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 میں منبع دباو کو درپیش
  مساوی رکاوٹ  $[] []$  اور  $[] []$  تعدد پر دریافت کریں۔دباو[]
  []
 
-[400]
+[394]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [401] [402]
+ [395] [396]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [403]
+ [397]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -3223,7 +3262,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [404]
+ [398]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -3253,7 +3292,7 @@ Overfull \hbox (10.79147pt too wide) in paragraph at lines 1689--1695
  [][][][] 
  []
 
-[405] [406] [407]
+[399] [400] [401]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -3266,13 +3305,13 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [408]
+ [402]
 Overfull \hbox (24.06198pt too wide) in paragraph at lines 1796--1798
-[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 مثال  []\EU1/JameelNooriNastaleeq(0)/bx
-/n/10 21[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/b
-x/n/10 8[]\EU1/JameelNooriNastaleeq(1)/m/n/10 :[] شکل []\EU1/JameelNooriNastale
-eq(0)/bx/n/10 19[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastal
-eeq(0)/bx/n/10 8[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 میں  $[]$ ،  $[]$ ،  $
+[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 مثال  []\EU1/JameelNooriNastaleeq(0)/m/
+sc/10 21[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/m
+/sc/10 8[]\EU1/JameelNooriNastaleeq(1)/m/n/10 :[] شکل []\EU1/JameelNooriNastale
+eq(0)/m/sc/10 19[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastal
+eeq(0)/m/sc/10 8[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 میں  $[]$ ،  $[]$ ،  $
 []$  اور  $[]$  کے دوری سمتیہ مختلف تعدد پر کھینچیں۔تعدد  $\OML/zplm/m/it/10 ! 
 \OT1/zplm/m/n/10 = [] []$[]
  []
@@ -3285,7 +3324,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-[409] [410] [411]
+[403] [404] [405]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -3297,13 +3336,55 @@ Overfull \hbox (8.63191pt too wide) in paragraph at lines 1946--1948
  [][][][] 
  []
 
-[412] [413]) [414] [415] [416
+[406] [407] [408]
+Overfull \hbox (0.60405pt too wide) in paragraph at lines 2032--2065
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 انہیں شکل []\EU1/JameelNooriNastaleeq(0)/
+m/sc/10 22[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)
+/m/sc/10 8[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 -ب میں دکھایا گیا ہے۔آپ دیکھ 
+سکتے ہیں کہ شکل-الف کو گھڑی کے گردش کی سمت میں  $\OT1/ppl/m/n/10 40[]$  \EU1/Ja
+meelNooriNastaleeq(1)/m/n/10 گھمانے[]
+ []
 
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+[409] [410]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [411] [412]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
 
-] (./circuitAnalysis.aux (./tex/cktBasics.aux)
-(./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
-(./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
-(./tex/cktTransients.aux) (./tex/cktSteadyStateAC.aux))
+Overfull \hbox (43.49474pt too wide) in paragraph at lines 2208--2211
+ [][][][] 
+ []
+
+[413] [414] [415]) [416]
+===== mode=`list and make': Use 'make -f circuitAnalysis.makefile' to generate 
+all images. Then, re-run (pdf)latex circuitAnalysis. =====
+
+! Package tikz Warning: Some images are not up-to-date and need to be generated
+.  (./circuitAnalysis.aux (./tex/cktBasics.aux) (./tex/cktResistive.aux)
+(./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux) (./tex/cktTheorems.aux)
+(./tex/cktCapacitorInductor.aux) (./tex/cktTransients.aux)
+(./tex/cktSteadyStateAC.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.75237pt have occurred.
@@ -3313,12 +3394,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 47839 strings out of 493918
- 1132533 string characters out of 6150562
- 1315229 words of memory out of 5000000
- 50243 multiletter control sequences out of 15000+600000
+ 47058 strings out of 493918
+ 1113170 string characters out of 6150562
+ 1283732 words of memory out of 5000000
+ 49430 multiletter control sequences out of 15000+600000
  52727 words of font info for 190 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,19n,74p,10476b,2311s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,19n,74p,10476b,2012s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on circuitAnalysis.pdf (64 pages).

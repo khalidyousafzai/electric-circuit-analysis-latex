@@ -1401,7 +1401,7 @@ i(t)=3.5\cos(5000 t+30^{\circ}) \, \si{\ampere}
 \bZ(\omega)=R(\omega)+j X(\omega)
 \end{align} 
 جہاں \عددی{R} حقیقی جزو  یعنی \اصطلاح{مزاحمت}\فرہنگ{مزاحمت}\حاشیہب{resistive}\فرہنگ{resistive} ہے جبکہ \عددی{X} خیالی جزو یعنی \اصطلاح{متعاملیت}\فرہنگ{متعاملیت}\حاشیہب{reactance}\فرہنگ{reactance} ہے۔ رکاوٹ مخلوط عدد ہے نا کہ دوری سمتیہ چونکہ دوری سمتیہ سائن نما تفاعل کو ظاہر کرتی ہے جبکہ رکاوٹ سائن نما تفاعل نہیں ہے۔
-%\tikzexternaldisable
+\tikzexternaldisable
 \begin{figure}
 \centering
 \begin{tikzpicture}
@@ -2013,19 +2013,27 @@ Y_3&=\frac{1}{-j20}=j0.05 \, \si{\siemens}
 \hat{I}&=\frac{120\phase{40^{\circ}}}{10\phase{-36.87^{\circ}}}\\
 &=12\phase{76.87^{\circ}}
 \end{align*}
-\عددی{\hat{V}_m} اور \عددی{\hat{I}} کو شکل \حوالہ{شکل_بدلتا_رو_بالمقابل_دباو} میں دکھایا گیا ہے جہاں حیطوں کو درست تناسب سے نہیں دکھایا گیا ہے۔
+\عددی{\hat{V}_m} اور \عددی{\hat{I}} کو شکل \حوالہ{شکل_بدلتا_رو_بالمقابل_دباو}-الف میں دکھایا گیا ہے جہاں حیطوں کو درست تناسب سے نہیں دکھایا گیا ہے۔
 
 دور کی قدرتی تعدد درج ذیل ہے
 \begin{align*}
 \omega_0&=\frac{1}{\sqrt{0.004\times 100 \times 10^{-6}}}=\SI{1581}{\radian\per\second}
 \end{align*}
-جبکہ دور کو \عددی{\SI{1000}{\radian\per\second}} پر حل کیا گیا ہے۔یہی وجہ ہے کہ دور برق گیر تاثیر رکھتا ہے اور رو منبع کے دباو سے \عددی{37.87{\circ}} درجے  آگے ہے۔عین قدرتی تعدد پر
+جبکہ دور کو \عددی{\SI{1000}{\radian\per\second}} پر حل کیا گیا ہے۔یہی وجہ ہے کہ دور برق گیر تاثیر رکھتا ہے اور رو منبع کے دباو سے \عددی{37.87^{\circ}} درجے  آگے ہے۔عین قدرتی تعدد پر
 \begin{align*}
-\bZ_L&=1581\times 0.004 \phase{90^{\circ}}=6.32\phase{90^{\circ}} \, \si{\ohm}\\
-\bZ_C&=\frac{1}{1581\times 100\times 10^{-6}}\phase{-90^{\circ}}=6.32\phase{-90^{\circ}}\,\si{\ohm}
+\bZ_L&=j1581\times 0.004=6.32\phase{90^{\circ}} \, \si{\ohm}\\
+\bZ_C&=\frac{1}{j1581\times 100\times 10^{-6}}=6.32\phase{-90^{\circ}}\,\si{\ohm}
 \end{align*}
 حاصل ہوتے ہیں۔
+
+عموماً حوالہ دوری سمتیہ کا زاویہ \عددی{0^{\circ}} رکھا جاتا ہے۔یوں اگر ہم منبع دباو کا زاویہ \عددی{40^{\circ}} کی جگہ \عددی{0^{\circ}} چنتے تب \عددی{\hat{V}_m=120\phase{0^{\circ}}} لکھا جاتا اور رو درج ذیل حاصل ہوتی۔
+\begin{align*}
+\hat{I}=\frac{\hat{V}_m}{\bZ}=\frac{120\phase{0^{\circ}}}{10\phase{-36.87^{\circ}}}=12\phase{36.87^{\circ}}\,\si{\ampere}
+\end{align*}
+انہیں شکل  \حوالہ{شکل_بدلتا_رو_بالمقابل_دباو}-ب میں دکھایا گیا ہے۔آپ دیکھ سکتے ہیں کہ شکل-الف کو  گھڑی کے گردش کی سمت میں \عددی{40^{\circ}} گھمانے سے شکل-ب ملتا ہے۔یوں حوالہ سمتیہ کا زاویہ تبدیل کرنے سے تمام دوری سمتیہ کی شکل گھوم جاتی ہے، البتہ انفرادی دوری سمتیات کے تعلق پر کوئی فرق نہیں پڑتا۔یوں شکل-الف اور شکل-ب دونوں میں رو \عددی{36.87^{\circ}} درجے دباو سے آگے ہے۔ 
 \begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
 \centering
 \begin{tikzpicture}
 \draw[gray](0,0)--++(4,0);
@@ -2034,8 +2042,268 @@ Y_3&=\frac{1}{-j20}=j0.05 \, \si{\siemens}
 \draw[-latex](0,0)--++(76.87:1.2)node[above]{$\hat{I}$};
 \draw[-stealth]([shift={(0:0.7)}]0,0) arc (0:40:0.7);
 \draw(2/3*40:0.8)node[right]{$40^{\circ}$};
+\draw[-stealth]([shift={(40:0.8)}]0,0) arc (40:76.87:0.8);
+\draw(3/4*76.87:0.9)node[right,rotate=40]{$36.87^{\circ}$};
 \end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw[gray](0,0)--++(4,0);
+\draw[gray](0,0)--++(0,2.5);
+\draw[-latex](0,0)--++(0:2.4)node[below]{$\hat{V}_m$};
+\draw[-latex](0,0)--++(36.87:1.2)node[above]{$\hat{I}$};
+\draw[-stealth]([shift={(0:0.7)}]0,0) arc (0:36.87:0.7);
+\draw(2/3*40:0.8)node[right]{$36.87^{\circ}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
 \caption{مثال \حوالہ{مثال_بدلتا_رو_بالمقابل_دباو} کے دوری سمتیوں کے خط۔}
 \label{شکل_بدلتا_رو_بالمقابل_دباو}
 \end{figure}
 \انتہا{مثال}
+%===================
+\ابتدا{مثال}\شناخت{مثال_بدلتا_متوازی_تینوں_پرزے_الف}
+شکل \حوالہ{شکل_بدلتا_متوازی_تینوں_پرزے_الف} کے دور میں دیے تمام دوری سمتیات کے خط کھینچیں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.7\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$\hat{V}_m$}]++(0,\y) to [short,i={$\hat{I}_m$}]++(\x,0) to [short]++(2*\x,0)  to [capacitor,i>_={$\hat{I}_C$},l_={$C$},v^={$\hat{V}_C$}]++(0,-\y) to [short] (0,0);
+\draw(\x,0) to [resistor,*-*,i<={$\hat{I}_R$},l={$R$},v={$\hat{V}_R$}]++(0,\y);
+\draw(2*\x,0) to [inductor,*-*,i<={$\hat{I}_L$},l={$L$},v={$\hat{V}_L$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.3\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw[gray](0,0)--++(3,0);
+\draw[gray](0,-1.5)--(0,2);
+\draw[-latex](0,0)--++(0:2.7)node[below]{$\hat{V}_m$};
+\draw[-latex](0,0)--++(0:1.75)node[below]{$\hat{I}_R$};
+\draw[-latex](0,0)--++(0,1.5)node[left]{$\hat{I}_C$};
+\draw[-latex](0,0)--++(0,-1)node[left]{$\hat{I}_L$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw[gray](0,0)--++(3,0);
+\draw[gray](0,-1.5)--(0,2);
+\draw[-latex](0,0)--++(0:2.7)node[below]{$\hat{V}_m$};
+\draw[-latex](0,0)--++(0:1.75)node[below]{$\hat{I}_R$};
+\draw[-latex,gray](0,0)--++(0,1.5)node[left]{$\hat{I}_C$};
+\draw[-latex,gray](0,0)--++(0,-1)node[left]{$\hat{I}_L$};
+\draw[-latex](0,0)--++(0,0.5)node[left]{$\hat{I}_L+\hat{I}_C$};
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw[gray](0,0)--++(3,0);
+\draw[gray](0,-1.5)--(0,2);
+\draw[-latex](0,0)--++(0:2.7)node[below]{$\hat{V}_m$};
+\draw[-latex](0,0)--++(0:1.75)node[pos=0.8,below]{$\hat{I}_R$};
+\draw[-latex](1.75,0)--++(0,0.5)node[right]{$\hat{I}_L+\hat{I}_C$};
+\draw[-latex](0,0)--++(1.75,0.5)node[pos=0.7,above]{$\hat{I}_m$};
+\draw[gray,dashed](1.75,0.5)--++(0,1.5);
+\draw[gray,dashed](1.75,0)--++(0,-1.5);
+\draw[-latex,gray](0,0)--++(1.75,1.5)node[pos=0.7,above]{$\hat{I}'_m$};
+\draw[-latex,gray](0,0)--++(1.75,-1)node[pos=0.7,below]{$\hat{I}''_m$};
+\end{tikzpicture}
+\caption*{(ت)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_بدلتا_متوازی_تینوں_پرزے_الف} کے اشکال۔}
+\label{شکل_بدلتا_متوازی_تینوں_پرزے_الف}
+\end{figure}
+
+حل:دباو \عددی{\hat{V}_m} کو حوالہ دوری سمتیہ لیتے ہوئے اس کا زاویہ صفر درجے چنتے ہیں۔ تینوں پرزوں پر \عددی{\hat{V}_m}  دباو پایا جاتا ہے لہٰذا ان کی انفرادی رو درج ذیل ہوں گے۔
+\begin{align*}
+\hat{I}_R&=\frac{\hat{V}_m}{\bZ_R}=\frac{V_m\phase{0^{\circ}}}{R}=\frac{V_m}{R}\phase{0^{\circ}}\\
+\hat{I}_L&=\frac{\hat{V}_m}{\bZ_L}=\frac{V_m\phase{0^{\circ}}}{\omega L \phase{90^{\circ}}}=\frac{V_m}{\omega L} \phase{-90^{\circ}}\\
+\hat{I}_C&=\frac{\hat{V}_m}{\bZ_C}=\frac{V_m \phase{0^{\circ}}}{\frac{1}{\omega C} \phase{-90^{\circ}}}=\omega C V_m \phase{90^{\circ}}
+\end{align*}
+انہیں شکل \حوالہ{شکل_بدلتا_متوازی_تینوں_پرزے_الف}-ب میں دکھایا گیا ہے۔
+
+قدرتی تعدد \عددی{\omega_0=\tfrac{1}{\sqrt{LC}}} پر امالی رکاوٹ اور برق گیری رکاوٹ کے  مقدار برابر \عددی{(\omega L=\tfrac{1}{\omega C})} ہوتے ہیں۔قدرتی تعدد پر \عددی{\hat{I}_m=\hat{I}_R} ہو گا۔قدرتی تعدد سے زیادہ تعدد پر \عددی{\bZ_L>\bZ_C} لہٰذا \عددی{I_C>I_L} ہو گا۔اس صورت حال کو شکل-پ میں دکھایا گیا ہے۔
+
+کرخوف قانون رو سے درج ذیل لکھا جا سکتا ہے
+\begin{align*}
+\hat{I}_m=\hat{I}_R+\hat{I}_L+\hat{I}_C
+\end{align*}
+جسے \عددی{\omega>\omega_0}  کی صورت میں  شکل-ت میں دکھایا گیا ہے۔تعدد مزید بڑھانے سے \عددی{\hat{I}_m} کی نوک نقطہ دار لکیر پر رہتے ہوئے افقی محدد سے مزید دور ہو گی۔دوری سمتیہ \عددی{\hat{I}'_m} ایسی صورت کو ظاہر کرتی ہے۔
+
+قدرتی تعدد سے کم تعدد \عددی{(\omega<\omega_0)} پر \عددی{\bZ_C>\bZ_L} اور \عددی{I_L>I_C} ہو گا لہٰذا دوری سمتیہ کی نوک نقطہ دار لکیر پر افقی محدد سے نیچے کی طرف ہو گی۔دوری سمتیہ \عددی{\hat{I}''_m} ایسی صورت کو ظاہر کرتی ہے۔
+\انتہا{مثال}
+%===================
+\ابتدا{مشق}\شناخت{مشق_بدلتا_دو_پرزے_متوازی_الف}
+شکل \حوالہ{شکل_بدلتا_دو_پرزے_متوازی_الف}-الف میں تمام رو اور دباو کے دوری سمتیات کے خط کھینچیں۔تقسیم رو کا کلیہ استعمال کیا جا سکتا ہے۔ جواب کو شکل-ب میں دکھایا گیا ہے۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american current source,l={${\hat{I}_m=10\phase{60^{\circ}}\,\si{\ampere}}$}]++(0,\y) to [short]++(2*\x,0) to [inductor,l_={$j10 \, \si{\ohm}$},i>={$\hat{I}_L$}]++(0,-\y) to [short] (0,0);
+\draw(\x,0) to [resistor,*-*,i<_={$\hat{I}_R$},l={$\SI{20}{\ohm}$}]++(0,\y);
+\draw(2*\x,\y) to [short,*-o]++(\x/2,0)coordinate(kT);
+\draw(2*\x,0) to [short,*-o]++(\x/2,0)coordinate(kB);
+\draw($(kT)!0.5!(kB)$)node{$\begin{aligned}&+ \\& \hat{V}_0 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw[gray](0,0)--++(4,0);
+\draw[gray](0,0)--(0,2.5);
+\draw[-latex](0,0)--++(60:2)node[right]{${\hat{I}_m=\SI{10}{\ampere}}$};
+\draw[-latex](0,0)--++(123.43:0.894)node[left]{${\hat{I}_R=2\sqrt{5} \, \si{\ampere}}$};
+\draw[-latex](0,0)--++(33.43:1.788)node[right]{${\hat{I}_L=4\sqrt{5} \, \si{\ampere}}$};
+\draw[-latex](0,0)--++(123.43:3)node[left]{${\hat{V}_0=8\sqrt{125}\,\si{\volt}}$};
+\draw[-stealth]([shift={(0:1)}]0,0) arc (0:33.43:1);
+\draw(2/3*33.43:1.1)node[right]{$33.43^{\circ}$};
+\draw[-stealth]([shift={(0:0.8)}]0,0) arc (0:60:0.8);
+\draw(3/4*60:0.9)node[right,rotate=60]{$60^{\circ}$};
+\draw[-stealth]([shift={(0:0.6)}]0,0) arc (0:123.43:0.6);
+\draw(110:1.2)node[rotate=123.43]{$123.43^{\circ}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\caption{مشق \حوالہ{مشق_بدلتا_دو_پرزے_متوازی_الف} کے اشکال۔}
+\label{شکل_بدلتا_دو_پرزے_متوازی_الف}
+\end{figure}
+
+\انتہا{مشق}
+%===============
+\ابتدا{مشق}\شناخت{مشق_بدلتا_دو_پرزے_متوازی_ب}
+شکل \حوالہ{شکل_بدلتا_دو_پرزے_متوازی_ب} میں برق گیر کی وہ قیمت دریافت کریں جس پر \عددی{v(t)=120\cos(5500t-30^{\circ}) \, \si{\volt}} اور \عددی{i(t)} ہم زاویہ ہوں گے۔اس تعدد پر \عددی{i(t)} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$v(t)$}]++(0,\y) to [resistor,i_={$i(t)$},l={$\SI{100}{\ohm}$}]++(\x,0) to [inductor,l={$\SI{120}{\micro\henry}$}]++(\x,0) to [capacitor,l={$C$}]++(0,-\y) to [short] (0,0);
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_بدلتا_دو_پرزے_متوازی_ب} کا دور۔}
+\label{شکل_بدلتا_دو_پرزے_متوازی_ب}
+\end{figure}
+
+جواب:\عددی{C=\SI{275.48}{\micro\farad}}، \عددی{i(t)=1.2\cos(5500t-30^{\circ})\, \si{\ampere}}
+\انتہا{مشق}
+%===============
+
+\حصہ{کرخوف مساوات}
+یک سمتی رو ادوار کو کرخوف کے قوانین سے حل کرنا ہم گزشتہ بابوں میں دیکھ چکے ہیں۔قوانین کرخوف دوری سمتیات پر بھی لاگو ہوتے ہیں۔یوں بدلتی رو ادوار کو کرخوف مساوات سے بالکل یک سمتی رو ادوار کی طرح حل کیا جا سکتا ہے۔یک سمتی رو ادوار حل کرنے کے تمام ترکیب یعنی مسئلہ تھونن، مسئلہ نارٹن، مسئلہ تبادلہ منبع، مسئلہ نفاذ، تقسیم رو اور تقسیم دباو کو بدلتی رو ادوار حل کرنے کے لئے بھی استعمال کیا جاتا ہے۔بدلتی رو ادوار کی صورت میں مخلوط الجبرا کا استعمال کیا جاتا ہے۔گزشتہ حصے میں ہم نے چند سادہ مثال اسی طرح حل کئے۔آئیں نسبتاً مشکل ادوار حل کریں۔متعدد منبع کی صورت میں دوری سمتیات کی ترکیب صرف اس صورت میں قابل استعمال ہو گی جب تمام منبع کی تعدد یکساں ہو البتہ ان کے انفرادی زاویے مختلف ہو سکتے ہیں۔
+
+%==================
+\ابتدا{مثال}\شناخت{مثال_بدلتا-متعدد_پرزے_کرخوف_الف}
+شکل \حوالہ{شکل_بدلتا-متعدد_پرزے_کرخوف_الف} میں تمام نا معلوم دباو اور رو دریافت کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$20\phase{30^{\circ}}\,\si{\volt}$}]++(0,\y) to [inductor,i>^={$\hat{I}_1$},l={$j10\,\si{\ohm}$}]++(\x,0) to [resistor,i={$\hat{I}_3$},l={$\SI{1}{\ohm}$}]++(\x,0) to [capacitor,v={$\hat{V}_2$},l={$-j8\,\si{\ohm}$}]++(0,-\y) to [short] (0,0);
+\draw(\x,\y) to [resistor,v={$\hat{V}_1$},i={$\hat{I}_2$},l={$\SI{6}{\ohm}$},*-*]++(0,-\y);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw[gray](0,0)--(3,0);
+\draw[gray](0,0)--(0,1);
+\draw[-latex](0,0)--++(-33.163:2.395)node[right]{$\hat{I}_1$}coordinate(kA);
+\draw[-latex](0,0)--++(-67.224:1.816)node[left]{$\hat{I}_2$}coordinate(kB);
+\draw[-latex](0,0)--++(15.65:1.352)node[above]{$\hat{I}_3$}coordinate(kC);
+\draw[-stealth]([shift={(0:0.8)}]0,0) arc (0:15.65:0.8);
+%\draw(20:0.45)node[above,rotate=15]{$16^{\circ}$};
+\draw[-stealth]([shift={(0:0.7)}]0,0) arc (0:-33.163:0.7);
+\draw(-33.163*2/3:0.8)node[right]{$33^{\circ}$};
+\draw[-stealth]([shift={(0:0.6)}]0,0) arc (0:-67.224:0.6);
+\draw(-67.224*2/3:0.7)node[right,rotate={-50}]{$67^{\circ}$};
+\draw[gray,dashed](kC)--(kA)--(kB);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{مثال \حوالہ{مثال_بدلتا-متعدد_پرزے_کرخوف_الف} کے اشکال۔}
+\label{شکل_بدلتا-متعدد_پرزے_کرخوف_الف}
+\end{figure}
+
+حل:ہم پہلے منبع سے جڑی کل رکاوٹ حاصل کرتے ہوئے \عددی{\hat{I}_1} دریافت کرتے ہیں جسے جانتے ہوئے \عددی{j2\,\si{\ohm}} امالہ کا دباو حاصل کیا جا سکتا ہے۔اس دباو کو \عددی{\hat{V}_m} سے منفی کرتے ہوئے \عددی{\hat{V}_1} حاصل کیا جائے گا۔اب \عددی{\hat{V}_1} جانتے ہوئے  \عددی{\hat{I}_2} حاصل کیا جا سکتا ہے جسے استعمال کرتے ہوئے \عددی{\hat{I}_3=\hat{1}-\hat{2}} لکھا جا سکتا ہے۔آخر میں \عددی{\hat{V}_2=\hat{I}_3 (-j8)} لکھتے ہوئے برق گیر کا دباو حاصل کیا جائے  گا۔
+
+منبع کو درج ذیل رکاوٹ نظر آتی ہے۔
+\begin{align*}
+\bZ&=j10+\frac{6(1-j8)}{6+1-j8}\\
+&=j10 +\frac{6-j48}{7-j8}\\
+&=j10 +\left(\frac{6-j48}{7-j8}\right)\left(\frac{7+j8}{7+j8}\right)\\
+&=j10+\frac{426-j288}{113}\\
+&=3.7699+j7.4513\\
+&=8.3507\phase{63.163^{\circ}}\,\si{\ohm}
+\end{align*}
+یوں درج ذیل لکھا جا سکتا ہے
+\begin{align*}
+\hat{I}_1&=\frac{\hat{V}_m}{\bZ}\\
+&=\frac{20\phase{30^{\circ}}}{8.3507\phase{63.163^{\circ}}}\\
+&=2.395\phase{-33.163^{\circ}}\, \si{\ampere}
+\end{align*}
+جس سے \عددی{\hat{V}_1} حاصل کرتے ہیں۔
+\begin{align*}
+\hat{V}_1&=\hat{V}_m-\hat{I}_1 (j2)\\
+&=20\phase{30^{\circ}}-(2.395\phase{-33.163^{\circ}})( 2\phase{90^{\circ}})\\
+&=4.219-j10.049\\
+&=10.8987\phase{-67.224^{\circ}}\,\si{\volt}
+\end{align*}
+آپ \عددی{\hat{V}_1} کو یوں بھی حاصل کر سکتے ہیں۔
+\begin{align*}
+\hat{V}_1&=\frac{6(1-j8)}{6+1-j8} \hat{I}_1\\
+&=10.8987\phase{-67.224^{\circ}}\,\si{\volt}
+\end{align*}
+اس کے علاوہ \عددی{\hat{V}_1} کو تقسیم دباو کے کلیے سے بھی حاصل کیا جا سکتا ہے یعنی
+\begin{align*}
+\hat{V}_1&=\left(\frac{\frac{6(1-j8)}{6+1-j8}}{j10+\frac{6(1-j8)}{6+1-j8}}\right) 20\phase{30^{\circ}}\\
+&=10.8987\phase{-67.224^{\circ}}\,\si{\volt}
+\end{align*}
+دباو \عددی{\hat{V}_1} جانتے ہوئے \عددی{\hat{I}_2} حاصل کرتے ہیں۔
+\begin{align*}
+\hat{I}_2&=\frac{\hat{V}_1}{6}\\
+&=\frac{10.8987\phase{-67.224^{\circ}}}{6}\\
+&=1.816\phase{-67.224^{\circ}}\,\si{\ampere}
+\end{align*}
+یوں \عددی{\hat{I}_3} درج ذیل ہو گا۔
+\begin{align*}
+\hat{I}_3 &=\hat{I}_1-\hat{I}_2\\
+&=2.395\phase{-33.163^{\circ}}-1.816\phase{-67.224^{\circ}}\\
+&=(2.005-j1.310)-(0.703-j1.675)\\
+&=1.302+j0.365\\
+&=1.352\phase{15.65^{\circ}}\,\si{\ampere}
+\end{align*}
+آپ \عددی{\hat{I}_3} کو درج ذیل سے بھی حاصل کر سکتے ہیں۔
+\begin{align*}
+\hat{I}_3&=\frac{\hat{V}_1}{1-j8}\\
+&=1.352\phase{15.65^{\circ}}\,\si{\ampere}
+\end{align*}
+برق گیر کا دباو حاصل کرتے ہیں۔
+\begin{align*}
+\hat{V}_2&=\hat{I}_3 (-j8)\\
+&=(1.352\phase{15.65^{\circ}})(8\phase{-90^{\circ}})\\
+&=10.816\phase{-74.35^{\circ}}\,\si{\volt}
+\end{align*}
+اس دباو کو تقسیم دباو کے کلیے سے بھی حاصل کیا جا سکتا ہے یعنی
+\begin{align*}
+\hat{V}_2&=\left(\frac{-j8}{1-j8}\right) \hat{V}_1\\
+&=10.816\phase{-74.35^{\circ}}\,\si{\volt}
+\end{align*}
+اس کے علاوہ \عددی{\SI{1}{\ohm}}  مزاحمت میں \عددی{\hat{I}_3} گزرتی ہے۔یوں \عددی{\hat{V}_1} سے اس مزاحمت کی دباو منفی کرنے سے بھی برق گیر کا دباو حاصل کیا جا سکتا ہے یعنی
+\begin{align*}
+\hat{V}_2&=\hat{V}_1-(\hat{I}_3)(1)\\
+&=10.816\phase{-74.35^{\circ}}\,\si{\volt}
+\end{align*}
+آپ نے دیکھا کہ آپ اپنے مرضی کی کوئی بھی ترکیب استعمال کرتے ہوئے جوابات حاصل کر سکتے ہیں۔شکل-ب میں دوری رو دکھائے گئے ہیں جہاں نقطہ دار لکیر قانون متوازی الاضلاع سے \عددی{\hat{I}_1=\hat{I}_2+\hat{I}_3} دکھاتی ہے۔
+\انتہا{مثال}
+%=========================
+
+ 
