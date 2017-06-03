@@ -333,19 +333,29 @@ va:ev(rectform(100*exp(60/180*%pi*%i)),numer);
 Z1:2-4*%i;
 Z2:-12*%i;
 Z3:4+8*%i;
+Print("======================================");
+kill(all);
+print("example 8.31");
+load("vect");
+mu0:4*%pi*10^(-7);
+epsilon0:8.85418782*10^(-12);
+c:3*10^8;
 
-Vt:ia*Z1;
+ia:ev(rectform(5*exp(0*%i)),numer);
+va:ev(rectform(10*exp(0*%i)),numer);
+Z1:2-2*%i;
+Z2:-1*%i;
+Z3:2+2*%i;
+
+vt:ia*Z1;
 float(abs(Vt));
 float(carg(Vt)*180/%pi);
 
-vt:ia*Z1;
-float(abs(vt));
-float(carg(vt)*180/%pi);
 
-Zt:Z2*Z3/(Z2+Z3);
-rectform(Zt);
-
-
-Im:(vt+va)/(Z1+Zt);
+Im:(vt-va)/(Z1+Z3);
 float(abs(Im));
 float(carg(Im)*180/%pi);
+
+VTH:Im*Z3;
+float(abs(VTH));
+float(carg(VTH)*180/%pi);

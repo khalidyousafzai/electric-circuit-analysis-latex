@@ -2596,3 +2596,78 @@ v_2(t)&=30\cos(300t+60^{\circ})\,\si{\volt}
 &=5.33\phase{29.65^{\circ}}\,\si{\ampere}
 \end{align*}
 \انتہا{مثال}
+%================
+\ابتدا{مثال}\شناخت{مثال_بدلتا_تراکیب_ث}
+شکل \حوالہ{شکل_بدلتا_تراکیب_ث}-الف میں مسئلہ تھونن کی مدد سے \عددی{\hat{I}_0} دریافت کریں۔
+
+ \begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american current source,l_={$5\phase{0^{\circ}}\,\si{\ampere}$}]++(0,\yy) to [capacitor,l_={$-j2\,\si{\ohm}$}]++(-\xx,0) to [resistor,l_={$\SI{2}{\ohm}$}]++(0,-\yy) to [short] (0,0);
+\draw(0,0) to [short,*-]++(\xx,0)node[ground]{} to [capacitor,*-,i<={$\hat{I}_0$},l_={$-j1 \, \si{\ohm}$}]++(0,\yy) to [american voltage source,-*,l_={$10\phase{0^{\circ}}$}]++(-\xx,0);
+\draw(\xx,0) to [short]++(\xx,0) to [resistor,l_={$\SI{2}{\ohm}$}]++(0,\yy) to [inductor,-*,l_={$j2\,\si{\ohm}$}]++(-\xx,0);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)++(0,\yy) to [capacitor,l_={$-j2\,\si{\ohm}$}]++(-\xx,0) to [resistor,l_={$\SI{2}{\ohm}$}]++(-\xx,0) ++(0,-\yy) to [american voltage source,l_={$(2-j2)(5\phase{0^{\circ}})\,\si{\volt}$}] ++(0,\yy) ++(0,-\yy) to [short] (0,0);
+\draw(0,0) to [short,*-*]++(\xx,0)node[ground]{} to [short,-o]++(0,\yy/8)coordinate(b)node[left]{$b$};
+\draw(\xx,\yy) to [short,-o]++(0,-\yy/8)coordinate(a)node[left]{$a$};
+\draw (\xx,\yy) to [american voltage source,-*,l_={$10\phase{0^{\circ}}$}]++(-\xx,0);
+\draw(\xx,0) to [short]++(\xx,0) to [resistor,l_={$\SI{2}{\ohm}$}]++(0,\yy) to [inductor,-*,l_={$j2\,\si{\ohm}$}]++(-\xx,0);
+\draw($(a)!0.5!(b)$) node{$\begin{aligned} &+ \\ &\hat{V}_\text{تھونن} \\ &- \end{aligned}$};
+\draw[stealth-] ([shift={(-150:\xx/4)}]0,\yy/2) arc (-150:150:\xx/4);
+\draw(0,\yy/2) node{$\hat{I}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,\yy) to [capacitor,l_={$-j2\,\si{\ohm}$}]++(-\xx,0) to [resistor,l={$\SI{2}{\ohm}$}]++(0,-\yy) to [short] (0,0);
+\draw(0,0)node[ground]{} to [short,*-o]++(0,\yy/8);
+\draw(0,\yy) to [short,-o]++(0,-\yy/8);
+\draw(0,0) to [short] ++(\xx,0)  to [resistor,l_={$\SI{2}{\ohm}$}]++(0,\yy) to [inductor,-*,l_={$j2\,\si{\ohm}$}]++(-\xx,0);
+\draw(0,\yy/2)node{$Z_{\text{تھونن}}$};
+\end{tikzpicture}%
+\caption*{(پ)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$7.071\phase{-45^{\circ}} \, \si{\volt}$}]++(0,\y) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [capacitor,i={$\hat{I}_0$},l_={$-j1\,\si{\ohm}$}]++(0,-\y) to [short](0,0);
+\end{tikzpicture}%
+\caption*{(ت)}
+\end{subfigure}%
+\caption{مثال \حوالہ{مثال_بدلتا_تراکیب_ث} کا دور۔}
+\label{شکل_بدلتا_تراکیب_ث}
+\end{figure}
+
+حل:ہم \عددی{-j1\,\si{\ohm}} کے برق گیر کو بوجھ تصور کرتے ہیں۔یوں اس بوجھ کے ساتھ جڑے دور کا تھونن مساوی حاصل کرتے ہوئے بوجھ میں رو حاصل کرتے ہیں۔بوجھ کو دور سے ہٹاتے ہوئے شکل-ب حاصل ہوتی ہے جہاں متوازی جڑے منبع رو اور رکاوٹ \عددی{2-j2 \,\si{\ohm}} کا متبادل تھونن دور نسب کیا گیا ہے۔شکل-ب سے تھونن دباو حاصل کرتے ہیں۔دور میں رو \عددی{\hat{I}} تصور کرتے ہوئے درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+\hat{I}&=\frac{(2-j2)(5\phase{0^{\circ}})-10\phase{0^{\circ}}}{2-j2+j2+2}\\
+&=\frac{(10-j10)-(10)}{4}\\
+&=2.5\phase{-90^{\circ}}\,\si{\ampere}
+\end{align*}
+یوں تھونن دباو درج ذیل ہو گا۔
+\begin{align*}
+\hat{V}_{\text{تھونن}}&=(2+j2)\hat{I}\\
+&=(2+j2)(-j2.5j) \\
+&=7.071\phase{-45^{\circ}}\,\si{\volt}
+\end{align*}
+ تھونن رکاوٹ حاصل کرنے کی خاطر شکل \حوالہ{شکل_بدلتا_تراکیب_ث} میں منبع رو کو کھلے دور اور منبع دباو کو قصر دور کرتے ہوئے شکل-پ حاصل ہوتا ہے جہاں سے درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+Z_{\text{تھونن}}&=\frac{(2-j2)(2+j2)}{(2-j2)+(2+j2)}=\SI{2}{\ohm}
+\end{align*}
+تھونن دباو اور تھونن رکاوٹ استعمال کرتے ہوئے شکل-ت حاصل ہوتی ہے جس سے بوجھ کی رو درج ذیل حاصل ہوتی ہے۔
+\begin{align*}
+\hat{I}_0&=\frac{7.071\phase{-45^{\circ}}}{2-j1}\\
+&=\frac{7.071\phase{-45^{\circ}}}{2.236\phase{-26.565^{\circ}}}\\
+&=3.16\phase{-18.4^{\circ}}\,\si{\ampere}
+\end{align*}
+\انتہا{مثال}
+%=================

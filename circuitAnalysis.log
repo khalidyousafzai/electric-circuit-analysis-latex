@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  3 JUN 2017 16:18
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  3 JUN 2017 18:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3433,8 +3433,31 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [429] [430])
-[431] [432
+ [429] [430]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \hbox (2.03564pt too wide) in paragraph at lines 2631--2636
+ [][][][] 
+ []
+
+[431] [432]) [433] [434
 
 
 ] (./circuitAnalysis.aux (./tex/cktBasics.aux)
@@ -3450,12 +3473,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 50135 strings out of 493918
- 1188302 string characters out of 6150562
- 1390996 words of memory out of 5000000
- 52539 multiletter control sequences out of 15000+600000
+ 50713 strings out of 493918
+ 1202449 string characters out of 6150562
+ 1391476 words of memory out of 5000000
+ 53117 multiletter control sequences out of 15000+600000
  52727 words of font info for 190 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,20n,74p,10476b,2311s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (80 pages).
+Output written on circuitAnalysis.pdf (82 pages).
