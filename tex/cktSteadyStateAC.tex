@@ -1401,7 +1401,6 @@ i(t)=3.5\cos(5000 t+30^{\circ}) \, \si{\ampere}
 \bZ(\omega)=R(\omega)+j X(\omega)
 \end{align} 
 جہاں \عددی{R} حقیقی جزو  یعنی \اصطلاح{مزاحمت}\فرہنگ{مزاحمت}\حاشیہب{resistive}\فرہنگ{resistive} ہے جبکہ \عددی{X} خیالی جزو یعنی \اصطلاح{متعاملیت}\فرہنگ{متعاملیت}\حاشیہب{reactance}\فرہنگ{reactance} ہے۔ رکاوٹ مخلوط عدد ہے نا کہ دوری سمتیہ چونکہ دوری سمتیہ سائن نما تفاعل کو ظاہر کرتی ہے جبکہ رکاوٹ سائن نما تفاعل نہیں ہے۔
-\tikzexternaldisable
 \begin{figure}
 \centering
 \begin{tikzpicture}
@@ -2196,7 +2195,8 @@ Y_3&=\frac{1}{-j20}=j0.05 \, \si{\siemens}
 %===============
 
 \حصہ{کرخوف مساوات}
-یک سمتی رو ادوار کو کرخوف کے قوانین سے حل کرنا ہم گزشتہ بابوں میں دیکھ چکے ہیں۔قوانین کرخوف دوری سمتیات پر بھی لاگو ہوتے ہیں۔یوں بدلتی رو ادوار کو کرخوف مساوات سے بالکل یک سمتی رو ادوار کی طرح حل کیا جا سکتا ہے۔یک سمتی رو ادوار حل کرنے کے تمام ترکیب یعنی مسئلہ تھونن، مسئلہ نارٹن، مسئلہ تبادلہ منبع، مسئلہ نفاذ، تقسیم رو اور تقسیم دباو کو بدلتی رو ادوار حل کرنے کے لئے بھی استعمال کیا جاتا ہے۔بدلتی رو ادوار کی صورت میں مخلوط الجبرا کا استعمال کیا جاتا ہے۔گزشتہ حصے میں ہم نے چند سادہ مثال اسی طرح حل کئے۔آئیں نسبتاً مشکل ادوار حل کریں۔متعدد منبع کی صورت میں دوری سمتیات کی ترکیب صرف اس صورت میں قابل استعمال ہو گی جب تمام منبع کی تعدد یکساں ہو البتہ ان کے انفرادی زاویے مختلف ہو سکتے ہیں۔
+یک سمتی رو ادوار کو کرخوف کے قوانین سے حل کرنا ہم گزشتہ بابوں میں دیکھ چکے ہیں۔قوانین کرخوف دوری سمتیات پر بھی لاگو ہوتے ہیں۔یوں بدلتی رو ادوار کو کرخوف مساوات سے بالکل یک سمتی رو ادوار کی طرح حل کیا جا سکتا ہے۔یک سمتی رو ادوار حل کرنے کے تمام ترکیب یعنی مسئلہ تھونن، مسئلہ نارٹن، مسئلہ تبادلہ منبع، مسئلہ نفاذ، تقسیم رو اور تقسیم دباو کو بدلتی رو ادوار حل کرنے کے لئے بھی استعمال کیا جاتا ہے۔بدلتی رو ادوار کی صورت میں مخلوط الجبرا کا استعمال کیا جاتا ہے۔متعدد منبع کی صورت میں اگر تمام منبع کی تعدد یکساں ہو تب درج بالا تمام ترکیب قابل استعمال ہوں گے البتہ مختلف تعدد کی صورت میں مسئلہ نفاذ کی مدد سے انفرادی منبع کے وقتی دائرہ کار میں جوابات کا مجموعہ لیتے ہوئے ادوار حل کئے جا سکتے ہیں۔ایسے ایک دور کو مثال \حوالہ{مثال_بدلتا_مختلف_تعدد} میں حل کیا گیا ہے۔ گزشتہ حصے میں ہم نے چند سادہ مثال اسی طرح حل کئے۔آئیں نسبتاً مشکل ادوار حل کریں۔
+
 
 %==================
 \ابتدا{مثال}\شناخت{مثال_بدلتا-متعدد_پرزے_کرخوف_الف}
@@ -2513,7 +2513,7 @@ v_2(t)&=30\cos(300t+60^{\circ})\,\si{\volt}
 \centering
 \begin{tikzpicture}
 \draw(0,0) ++(0,\yy) to [capacitor,l_={$-j4\,\si{\ohm}$}]++(-\xx,0) to [inductor,l_={$j2\,\si{\ohm}$}]++(0,-\yy) to [short] (0,0);
-\draw(0,0) to [short]++(\xx,0)node[ground]{} to [resistor,l_={$\SI{10}{\ohm}$}]++(0,\yy) to [american voltage source,i={$\hat{I}$},l_={$30\phase{-40^{\circ}}\,\si{\volt}$}]++(-\xx,0);
+\draw(0,0) to [short,-*]++(\xx,0)node[ground]{} to [resistor,l_={$\SI{10}{\ohm}$}]++(0,\yy) to [american voltage source,i={$\hat{I}$},l_={$30\phase{-40^{\circ}}\,\si{\volt}$}]++(-\xx,0);
 \draw(\xx,0) to [short]++(\xx,0) to [resistor,i<_={$\hat{I}''_0$},l_={$\SI{2}{\ohm}$}]++(0,\yy) to [inductor,-*,l_={$j6\,\si{\ohm}$}]++(-\xx,0);
 \end{tikzpicture}
 \caption{مثال \حوالہ{مثال_بدلتا_تراکیب_ب} کا دور۔منبع رو کو کھلا دور کیا گیا ہے۔}
@@ -2563,7 +2563,7 @@ v_2(t)&=30\cos(300t+60^{\circ})\,\si{\volt}
 \centering
 \begin{tikzpicture}
 \draw(0,\yy) to [capacitor,l={$-j4\,\si{\ohm}$}]++(-\xx,0)  to [resistor,l_={$\SI{2}{\ohm}$}]++(-\xx,0) to [american voltage source,l={$44.79\phase{-33.43^{\circ}}\,\si{\volt}$}]++(0,-\yy) to [short] (\xx,0);
-\draw(0,0) to [short,*-*]++(\xx,0) to [capacitor,l_={$-j12 \, \si{\ohm}$}]++(0,\yy) to [american voltage source,i={$\hat{I}_0$},-*,l_={$100\phase{60^{\circ}}$}]++(-\xx,0);
+\draw(0,0) to [short,-*]++(\xx,0) to [capacitor,l_={$-j12 \, \si{\ohm}$}]++(0,\yy) to [american voltage source,i={$\hat{I}_0$},l_={$100\phase{60^{\circ}}$}]++(-\xx,0);
 \draw(\xx,0) to [short]++(\xx,0) to [resistor,l_={$\SI{4}{\ohm}$}]++(0,\yy) to [inductor,-*,l_={$j8\,\si{\ohm}$}]++(-\xx,0);
 \end{tikzpicture}
 \caption*{(ب)}
@@ -2572,8 +2572,8 @@ v_2(t)&=30\cos(300t+60^{\circ})\,\si{\volt}
 \centering
 \begin{tikzpicture}
 \draw(0,\yy) to [capacitor,l={$-j4\,\si{\ohm}$}]++(-\xx,0)  to [resistor,l_={$\SI{2}{\ohm}$}]++(-\xx,0) to [american voltage source,l={$44.79\phase{-33.43^{\circ}}\,\si{\volt}$}]++(0,-\yy) to [short] (\xx,0);
-\draw(0,0) to [short,-*]++(\xx,0)++(0,\yy) to [american voltage source,i={$\hat{I}_0$},l_={$100\phase{60^{\circ}}$}]++(-\xx,0);
-\draw(\xx,0) to [short]++(\xx,0) to [resistor,l_={$\SI{18}{\ohm}$}]++(0,\yy) to [inductor,-*,l_={$j6\,\si{\ohm}$}]++(-\xx,0);
+\draw(0,0) to [short]++(\xx,0)++(0,\yy) to [american voltage source,i={$\hat{I}_0$},l_={$100\phase{60^{\circ}}$}]++(-\xx,0);
+\draw(\xx,0) to [short]++(\xx,0) to [resistor,l_={$\SI{18}{\ohm}$}]++(0,\yy) to [inductor,l_={$j6\,\si{\ohm}$}]++(-\xx,0);
 \end{tikzpicture}
 \caption*{(پ)}
 \end{subfigure}
@@ -2598,7 +2598,7 @@ v_2(t)&=30\cos(300t+60^{\circ})\,\si{\volt}
 \انتہا{مثال}
 %================
 \ابتدا{مثال}\شناخت{مثال_بدلتا_تراکیب_ث}
-شکل \حوالہ{شکل_بدلتا_تراکیب_ث}-الف میں مسئلہ تھونن کی مدد سے \عددی{\hat{I}_0} دریافت کریں۔
+شکل \حوالہ{شکل_بدلتا_تراکیب_ث}-الف میں مسئلہ تھونن کی مدد سے بوجھ کی رو \عددی{\hat{I}_0} دریافت کریں۔
 
  \begin{figure}
 \centering
@@ -2606,8 +2606,8 @@ v_2(t)&=30\cos(300t+60^{\circ})\,\si{\volt}
 \centering
 \begin{tikzpicture}
 \draw(0,0) to [american current source,l_={$5\phase{0^{\circ}}\,\si{\ampere}$}]++(0,\yy) to [capacitor,l_={$-j2\,\si{\ohm}$}]++(-\xx,0) to [resistor,l_={$\SI{2}{\ohm}$}]++(0,-\yy) to [short] (0,0);
-\draw(0,0) to [short,*-]++(\xx,0)node[ground]{} to [capacitor,*-,i<={$\hat{I}_0$},l_={$-j1 \, \si{\ohm}$}]++(0,\yy) to [american voltage source,-*,l_={$10\phase{0^{\circ}}$}]++(-\xx,0);
-\draw(\xx,0) to [short]++(\xx,0) to [resistor,l_={$\SI{2}{\ohm}$}]++(0,\yy) to [inductor,-*,l_={$j2\,\si{\ohm}$}]++(-\xx,0);
+\draw(0,0) to [short,*-]++(\xx,0) to [capacitor,*-,i<={$\hat{I}_0$},l_={$-j1 \, \si{\ohm}$}]++(0,\yy) to [american voltage source,-*,l_={$10\phase{0^{\circ}}$}]++(-\xx,0);
+\draw(\xx,0) to [short]++(\xx,0) to [resistor,l_={$\SI{2}{\ohm}$}]++(0,\yy) to [inductor,-*,l_={$j3\,\si{\ohm}$}]++(-\xx,0);
 \end{tikzpicture}
 \caption*{(الف)}
 \end{subfigure}
@@ -2615,10 +2615,10 @@ v_2(t)&=30\cos(300t+60^{\circ})\,\si{\volt}
 \centering
 \begin{tikzpicture}
 \draw(0,0)++(0,\yy) to [capacitor,l_={$-j2\,\si{\ohm}$}]++(-\xx,0) to [resistor,l_={$\SI{2}{\ohm}$}]++(-\xx,0) ++(0,-\yy) to [american voltage source,l_={$(2-j2)(5\phase{0^{\circ}})\,\si{\volt}$}] ++(0,\yy) ++(0,-\yy) to [short] (0,0);
-\draw(0,0) to [short,*-*]++(\xx,0)node[ground]{} to [short,-o]++(0,\yy/8)coordinate(b)node[left]{$b$};
+\draw(0,0) to [short,-*]++(\xx,0) to [short,-o]++(0,\yy/8)coordinate(b)node[left]{$b$};
 \draw(\xx,\yy) to [short,-o]++(0,-\yy/8)coordinate(a)node[left]{$a$};
-\draw (\xx,\yy) to [american voltage source,-*,l_={$10\phase{0^{\circ}}$}]++(-\xx,0);
-\draw(\xx,0) to [short]++(\xx,0) to [resistor,l_={$\SI{2}{\ohm}$}]++(0,\yy) to [inductor,-*,l_={$j2\,\si{\ohm}$}]++(-\xx,0);
+\draw (\xx,\yy) to [american voltage source,l_={$10\phase{0^{\circ}}$}]++(-\xx,0);
+\draw(\xx,0) to [short]++(\xx,0) to [resistor,l_={$\SI{2}{\ohm}$}]++(0,\yy) to [inductor,-*,l_={$j3\,\si{\ohm}$}]++(-\xx,0);
 \draw($(a)!0.5!(b)$) node{$\begin{aligned} &+ \\ &\hat{V}_\text{تھونن} \\ &- \end{aligned}$};
 \draw[stealth-] ([shift={(-150:\xx/4)}]0,\yy/2) arc (-150:150:\xx/4);
 \draw(0,\yy/2) node{$\hat{I}$};
@@ -2629,9 +2629,9 @@ v_2(t)&=30\cos(300t+60^{\circ})\,\si{\volt}
 \centering
 \begin{tikzpicture}
 \draw(0,\yy) to [capacitor,l_={$-j2\,\si{\ohm}$}]++(-\xx,0) to [resistor,l={$\SI{2}{\ohm}$}]++(0,-\yy) to [short] (0,0);
-\draw(0,0)node[ground]{} to [short,*-o]++(0,\yy/8);
+\draw(0,0) to [short,*-o]++(0,\yy/8);
 \draw(0,\yy) to [short,-o]++(0,-\yy/8);
-\draw(0,0) to [short] ++(\xx,0)  to [resistor,l_={$\SI{2}{\ohm}$}]++(0,\yy) to [inductor,-*,l_={$j2\,\si{\ohm}$}]++(-\xx,0);
+\draw(0,0) to [short] ++(\xx,0)  to [resistor,l_={$\SI{2}{\ohm}$}]++(0,\yy) to [inductor,-*,l_={$j3\,\si{\ohm}$}]++(-\xx,0);
 \draw(0,\yy/2)node{$Z_{\text{تھونن}}$};
 \end{tikzpicture}%
 \caption*{(پ)}
@@ -2639,7 +2639,7 @@ v_2(t)&=30\cos(300t+60^{\circ})\,\si{\volt}
 \begin{subfigure}{0.5\textwidth}
 \centering
 \begin{tikzpicture}
-\draw(0,0) to [american voltage source,l={$7.071\phase{-45^{\circ}} \, \si{\volt}$}]++(0,\y) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [capacitor,i={$\hat{I}_0$},l_={$-j1\,\si{\ohm}$}]++(0,-\y) to [short](0,0);
+\draw(0,0) to [american voltage source,l={$8.745\phase{-47.73^{\circ}} \, \si{\volt}$}]++(0,\y) to [european resistor,l={$2.471-j0.118\,\si{\ohm}$}]++(\x,0) to [capacitor,i={$\hat{I}_0$},l_={$-j1\,\si{\ohm}$}]++(0,-\y) to [short](0,0);
 \end{tikzpicture}%
 \caption*{(ت)}
 \end{subfigure}%
@@ -2647,27 +2647,269 @@ v_2(t)&=30\cos(300t+60^{\circ})\,\si{\volt}
 \label{شکل_بدلتا_تراکیب_ث}
 \end{figure}
 
-حل:ہم \عددی{-j1\,\si{\ohm}} کے برق گیر کو بوجھ تصور کرتے ہیں۔یوں اس بوجھ کے ساتھ جڑے دور کا تھونن مساوی حاصل کرتے ہوئے بوجھ میں رو حاصل کرتے ہیں۔بوجھ کو دور سے ہٹاتے ہوئے شکل-ب حاصل ہوتی ہے جہاں متوازی جڑے منبع رو اور رکاوٹ \عددی{2-j2 \,\si{\ohm}} کا متبادل تھونن دور نسب کیا گیا ہے۔شکل-ب سے تھونن دباو حاصل کرتے ہیں۔دور میں رو \عددی{\hat{I}} تصور کرتے ہوئے درج ذیل لکھا جا سکتا ہے۔
+حل:تھونن دباو دریافت کرنے کی خاطر بوجھ کو کھلا دور کرنے سے شکل-ب حاصل ہوتا ہے جہاں متوازی جڑے منبع رو اور رکاوٹ \عددی{2-j2 \,\si{\ohm}} کا متبادل تھونن دور نسب کیا گیا ہے۔دور میں رو \عددی{\hat{I}} تصور کرتے ہوئے درج ذیل لکھا جا سکتا ہے۔
 \begin{align*}
-\hat{I}&=\frac{(2-j2)(5\phase{0^{\circ}})-10\phase{0^{\circ}}}{2-j2+j2+2}\\
-&=\frac{(10-j10)-(10)}{4}\\
-&=2.5\phase{-90^{\circ}}\,\si{\ampere}
+\hat{I}&=\frac{(2-j2)(5\phase{0^{\circ}})-10\phase{0^{\circ}}}{2-j2+j3+2}\\
+&=\frac{(10-j10)-(10)}{4+j1}\\
+&=2.425\phase{-104^{\circ}}\,\si{\ampere}
 \end{align*}
 یوں تھونن دباو درج ذیل ہو گا۔
 \begin{align*}
-\hat{V}_{\text{تھونن}}&=(2+j2)\hat{I}\\
-&=(2+j2)(-j2.5j) \\
-&=7.071\phase{-45^{\circ}}\,\si{\volt}
+\hat{V}_{\text{تھونن}}&=(2+j3)\hat{I}\\
+&=(2+j3)(2.425\phase{-104^{\circ}}) \\
+&=8.745\phase{-47.73^{\circ}}\,\si{\volt}
 \end{align*}
  تھونن رکاوٹ حاصل کرنے کی خاطر شکل \حوالہ{شکل_بدلتا_تراکیب_ث} میں منبع رو کو کھلے دور اور منبع دباو کو قصر دور کرتے ہوئے شکل-پ حاصل ہوتا ہے جہاں سے درج ذیل لکھا جا سکتا ہے۔
 \begin{align*}
-Z_{\text{تھونن}}&=\frac{(2-j2)(2+j2)}{(2-j2)+(2+j2)}=\SI{2}{\ohm}
+Z_{\text{تھونن}}&=\frac{(2-j2)(2+j3)}{(2-j2)+(2+j3)}=2.471-j0.118 \, \si{\ohm}
 \end{align*}
 تھونن دباو اور تھونن رکاوٹ استعمال کرتے ہوئے شکل-ت حاصل ہوتی ہے جس سے بوجھ کی رو درج ذیل حاصل ہوتی ہے۔
 \begin{align*}
-\hat{I}_0&=\frac{7.071\phase{-45^{\circ}}}{2-j1}\\
-&=\frac{7.071\phase{-45^{\circ}}}{2.236\phase{-26.565^{\circ}}}\\
-&=3.16\phase{-18.4^{\circ}}\,\si{\ampere}
+\hat{I}_0&=\frac{8.745\phase{-47.73^{\circ}}}{2.471-j0.118-j1}\\
+&=\frac{8.745\phase{-47.73^{\circ}}}{2.71163\phase{-24.341^{\circ}}}\\
+&=3.22\phase{-23.39^{\circ}}\,\si{\ampere}
+\end{align*}
+تھونن رکاوٹ کو شکل میں سلسلہ وار جڑے \عددی{\SI{2.471}{\ohm}}مزاحمت اور \عددی{-j0.118\,\si{\ohm}} برق گیر سے بھی ظاہر کیا جا سکتا تھا البتہ دکھایا گیا طریقہ مجھے زیادہ پسند ہے۔ 
+\انتہا{مثال}
+%=================
+\ابتدا{مثال}\شناخت{مثال_بدلتا_تراکیب_ج}
+شکل \حوالہ{شکل_بدلتا_تراکیب_ث}-الف میں مسئلہ نارٹن کی مدد سے بوجھ کی رو \عددی{\hat{I}_0} دریافت کریں۔
+
+ \begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american current source,l_={$5\phase{0^{\circ}}\,\si{\ampere}$}]++(0,\yy) to [capacitor,l_={$-j2\,\si{\ohm}$}]++(-\xx,0) to [resistor,l_={$\SI{2}{\ohm}$}]++(0,-\yy) to [short] (0,0);
+\draw(0,0) to [short,*-]++(\xx,0) to [short,*-,i<_={$\hat{I}_{\text{نارٹن}}$}]++(0,\yy) to [american voltage source,-*,l_={$10\phase{0^{\circ}}$}]++(-\xx,0);
+\draw(\xx,0) to [short]++(\xx,0) to [resistor,l_={$\SI{2}{\ohm}$}]++(0,\yy) to [inductor,-*,l_={$j3\,\si{\ohm}$}]++(-\xx,0);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)++(0,\yy) to [capacitor,l_={$-j2\,\si{\ohm}$}]++(-\xx,0) to [resistor,l_={$\SI{2}{\ohm}$}]++(-\xx,0) ++(0,-\yy) to [american voltage source,l_={$(2-j2)(5\phase{0^{\circ}})\,\si{\volt}$}] ++(0,\yy) ++(0,-\yy) to [short] (0,0);
+\draw(0,0) to [short]++(\xx,0) to [short,i<_={$\hat{I}_{\text{تھونن}}$}]++(0,\yy);
+\draw (\xx,\yy) to [american voltage source,l_={$10\phase{0^{\circ}}$}]++(-\xx,0);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american current source,l={$3.535\phase{-45^{\circ}}\,\si{\ampere}$}]++(0,\y) to [short]++(\x,0) to [european resistor,l={$2.471-j0.118\,\si{\ohm}$}]++(0,-\y) to [short] (0,0);
+\draw(\x,0) to [short,*-]++(2*\x,0) to [capacitor,i<={$\hat{I}_0$},l_={$-j1\,\si{\ohm}$}]++(0,\y) to [short,-*]++(-2*\x,0);
+\end{tikzpicture}%
+\caption*{(پ)}
+\end{subfigure}%
+\caption{مثال \حوالہ{مثال_بدلتا_تراکیب_ج} کا دور۔}
+\label{شکل_بدلتا_تراکیب_ج}
+\end{figure}
+
+حل:نارٹن رو دریافت کرنے کی خاطر  بوجھ کو قصر دور کرنے سے شکل \حوالہ{شکل_بدلتا_تراکیب_ج}-الف حاصل ہوتا ہے جہاں نارٹن رو کی نشاندہی کی گئی ہے۔آپ دیکھ سکتے ہیں کہ قصر دور کے دائیں جانب پرزوں میں صفر رو گزرے گی لہٰذا انہیں دور سے ہٹایا جا سکتا ہے۔ایسا ہی کرتے ہوئے اور ساتھ ہی ساتھ متوازی جڑے منبع رو \عددی{2-j2\,\si{\ohm}} رکاوٹ کی جگہ متبادل منبع نسب کرتے ہوئے شکل-ب حاصل ہوتا ہے۔ شکل-ب سے درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+\hat{I}_{\text{نارٹن}}&=\frac{(2-j2)(5\phase{0^{\circ}})}{2-j2}\\
+&=3.535\phase{-45^{\circ}} \, \si{\ampere}
+\end{align*}
+گزشتہ مثال میں ہم تھونن رکاوٹ \عددی{\bZ_{\text{تھونن}}=2.471-j0.118\,\si{\ohm}} حاصل کر چکے ہیں۔شکل-پ میں بوجھ کے ساتھ نارٹن مساوی دور نسب کیا گیا ہے جہاں سے تقسیم رو کے کلیے سے  \عددی{\hat{I}_0} درج ذیل لکھی جا سکتی ہے۔ 
+\begin{align*}
+\hat{I}_0&=\frac{2.471-j0.118}{2.471-j0.118-j1} (3.535\phase{-45^{\circ}})\\
+&=3.22\phase{-23.39^{\circ}}\,\si{\ampere}
 \end{align*}
 \انتہا{مثال}
+%==============================
+\ابتدا{مثال}\شناخت{مثال_بدلتا_مختلف_تعدد}
+شکل \حوالہ{مثال_بدلتا_مختلف_تعدد} میں رو \عددی{i(t)} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$10\cos(100t-30^{\circ})\,\si{\volt}$}]++(0,\y) to [resistor,i={$i(t)$},l={$\SI{2}{\ohm}$}]++(\x,0) to [inductor,l={$\SI{0.02}{\henry}$}]++(\x,0) to [capacitor,l={$\SI{0.01}{\farad}$}]++(\x,0);
+\draw(0,0) to [short]++(3*\x,0) to [american voltage source,l_={$20\cos(50t+60^{\circ})$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$10\phase{-30^{\circ}}\,\si{\volt}$}]++(0,\y) to [resistor,i={$\hat{I}'$},l={$\SI{2}{\ohm}$}]++(\x,0) to [inductor,l={$j2\,\si{\ohm}$}]++(\x,0) to [capacitor,l={$-j1\,\si{\ohm}$}]++(\x,0);
+\draw(0,0) to [short]++(3*\x,0) to [short]++(0,\y);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short]++(0,\y) to [resistor,i<={$\hat{I}''$},l={$\SI{2}{\ohm}$}]++(\x,0) to [inductor,l={$j1\,\si{\ohm}$}]++(\x,0) to [capacitor,l={$-j2\,\si{\ohm}$}]++(\x,0);
+\draw(0,0) to [short]++(3*\x,0) to [american voltage source,l_={$20\phase{60^{\circ}}$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_بدلتا_مختلف_تعدد} کا دور۔}
+\label{شکل_بدلتا_مختلف_تعدد}
+\end{figure}
+
+حل:یہاں منبع دباو کی تعدد مختلف ہے لہٰذا دوری سمتیات استعمال کرتے ہوئے کون سی تعدد استعمال کی جائے گی؟ اس دور کو مسئلہ نفاذ سے حل کیا جا سکتا ہے۔یوں باری باری ایک ایک منبع نسب کرتے ہوئے وقتی دائرہ کار میں جوابات حاصل کئے جائیں گے۔تمام جوابات کا مجموعہ درکار جواب ہو گا۔
+
+شکل-ب میں صرف بائیں منبع استعمال کیا گیا ہے لہٰذا تعدد \عددی{\omega=\SI{100}{\radian\per\second}} ہو گی۔یوں امالی رکاوٹ اور برق گیر رکاوٹ درج ذیل ہوں گے۔
+\begin{align*}
+\bZ_L&=j\omega L=j 100\times 0.02=j2 \,\si{\ohm}\\
+\bZ_C&=\frac{1}{j \omega C}=\frac{1}{j 100 \times 0.01}=-j1 \,\si{\ohm}
+\end{align*}
+شکل-ب میں یہی رکاوٹ دکھائے گئے ہیں۔یوں
+\begin{align*}
+\hat{I}'&=\frac{10\phase{-30^{\circ}}}{2+j2-j1}\\
+&=\frac{10\phase{-30^{\circ}}}{2.236\phase{26.565^{\circ}}}\\
+&=4.472\phase{-56.565^{\circ}}\,\si{\ampere}
+\end{align*}
+ہو گا جس سے وقتی دائرہ کار میں رو درج ذیل لکھی جائے گی۔
+\begin{align*}
+i(t)'=4.472\cos(100t-56.565^{\circ})\,\si{\ampere}
+\end{align*}
+اب دوسری منبع کو استعمال کرتے ہوئے حل کرتے ہیں لہٰذا تعدد \عددی{\omega=\SI{50}{\radian\per\second}} ہو گی۔یوں امالی رکاوٹ اور برق گیر رکاوٹ بالترتیب درج ذیل ہوں گے جنہیں استعمال کرتے ہوئے شکل-پ حاصل کی گئی ہے۔
+\begin{align*}
+\bZ_L&=j50\times 0.02=j1 \,\si{\ohm}\\
+\bZ_C&=\frac{1}{j50\times 0.01}=-j2\,\si{\ohm}
+\end{align*}
+شکل-پ سے درج ذیل حاصل ہوتا ہے
+\begin{align*}
+\hat{I}'&=\frac{20\phase{60^{\circ}}}{2+j1-j2}\\
+&=8.944\phase{86.565^{\circ}}\,\si{\ampere}
+\end{align*}
+لہٰذا وقتی دائرہ کار میں رو درج ذیل ہو گی۔
+\begin{align*}
+i(t)''=8.944\cos(50t+86.565^{\circ})\,\si{\ampere}
+\end{align*}
+چونکہ شکل-پ میں رو کی سمت درکار سمت کے الٹ چننی گئی ہے لہٰذا کل رو درج ذیل ہو گی۔
+\begin{align*}
+i(t)&=i(t)'-i(t)''
+&=4.472\cos(100t-56.565^{\circ})-8.944\cos(50t+86.565^{\circ})\, \si{\ampere}
+\end{align*}
+\انتہا{مثال}
+%=============
+\ابتدا{مثال}\شناخت{مثال_بدلتا_عمومی_دور}
+شکل \حوالہ{شکل_بدلتا_عمومی_دور} کو ترکیب جوڑ سے حل کرتے ہوئے \عددی{\hat{V}_x} دریافت کریں۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american controlled voltage source,l={$2\hat{I}_x$}]++(0,\yy) to [inductor,l={$j4\,\si{\ohm}$}]++(0,\yy) to [short]++(2*\xx,0) to [capacitor,l={$-j6$\,\si{\ohm}}]++(0,-\yy) to [american current source,l={$2\phase{0^{\circ}}\,\si{\ampere}$}] ++(0,-\yy) to [short] (0,0);
+\draw(0,\yy) to [capacitor,*-*,l={$-j2\,\si{\ohm}$}]++(\xx,0) to [resistor,-*,l={$\SI{4}{\ohm}$}]++(\xx,0);
+\draw(\xx,2*\yy) to [american voltage source,*-,l={$10\phase{0^{\circ}}$}]++(0,-\yy) to [inductor,-*,l={$j1\,\si{\ohm}$},v={$\hat{V}_x$},i={$\hat{I}_x$}]++(0,-\yy);
+\end{tikzpicture}%
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american controlled voltage source,l={$2\hat{I}_x$}]++(0,\yy)node[left]{$\hat{V}_1$} to [inductor,l={$j4\,\si{\ohm}$}]++(0,\yy) to [short]++(2*\xx,0) to [capacitor,l={$-j6$\,\si{\ohm}}]++(0,-\yy)node[right]{$\hat{V}_3$} to [american current source,l={$2\phase{0^{\circ}}\,\si{\ampere}$}] ++(0,-\yy) to [short] (0,0);
+\draw(0,\yy) to [capacitor,*-*,l={$-j2\,\si{\ohm}$}]++(\xx,0) to [resistor,-*,l={$\SI{4}{\ohm}$}]++(\xx,0);
+\draw(\xx,2*\yy)node[above]{$\hat{V}_2$} to [american voltage source,*-,l={$10\phase{0^{\circ}}$}]++(0,-\yy)node[above left]{$\hat{V}_4$} to [inductor,-*,l={$j1\,\si{\ohm}$},v={$\hat{V}_x$},i={$\hat{I}_x$}]++(0,-\yy)node[ground]{};
+\draw[gray,dashed] (\xx,\yy+\yy/2) circle (\xx/4 and 3/4*\yy);
+\end{tikzpicture}%
+\caption*{(ب)}
+\end{subfigure}%
+\caption{مثال \حوالہ{مثال_بدلتا_عمومی_دور} کا دور۔}
+\label{شکل_بدلتا_عمومی_دور}
+\end{figure}
+
+حل:شکل-ب میں نچلے جوڑ کو زمین تصور کرتے ہوئے بقایا جوڑ کی نشاندہی کی گئی ہے جہاں \عددی{\hat{V}_2} اور \عددی{\hat{V}_4} مخلوط جوڑ کو نقطہ دار لکیر سے دکھایا گیا ہے۔دور کو دیکھتے ہوئے قابو کرنے والی رو کو درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+\hat{I}_x=\frac{\hat{V}_2+10\phase{0^{\circ}}}{j1}
+\end{align*}
+اس قیمت کو استعمال کرتے ہوئے اور جوڑ پر خارجی رو فرض کرتے ہوئے، جوڑ \عددی{\hat{V}_1}،  \عددی{\hat{V}_3} اور مخلوط جوڑ پر بالترتیب کرخوف مساوات رو لکھتے ہیں۔
+\begin{gather}
+\begin{aligned}\label{مساوات_بدلتا_جڑوا_جوڑ_الف}
+-2\left(\frac{\hat{V}_2+10\phase{0^{\circ}}}{j1}\right)+\frac{\hat{V}_1-\hat{V}_2}{j4}+\frac{\hat{V}_1-(\hat{V}_2+10\phase{0^{\circ}})}{-j2}&=0\\
+2\phase{0^{\circ}}+\frac{\hat{V}_3-\hat{V}_2}{-j6}+\frac{\hat{V}_3-(\hat{V}_2+10\phase{0^{\circ}})}{4}&=0\\
+\frac{\hat{V}_2-\hat{V}_1}{j4}+\frac{\hat{V}_2-\hat{V}_3}{-j6}+\frac{(\hat{V}_2+10\phase{0^{\circ}})-\hat{V}_1}{-j2}+\frac{(\hat{V}_2+10\phase{0^{\circ}})}{j1}+\frac{(\hat{V}_2+10\phase{0^{\circ}})-\hat{V}_3}{4}&=0
+\end{aligned}
+\end{gather}
+درج بالا مساوات میں \عددی{\hat{V}_4=\hat{V}_2+10\phase{0^{\circ}}\,\si{\volt}} پر کیا گیا ہے۔درج بالا تین ہمزاد مساوات کو کسی بھی طریقے سے حل کرتے ہوئے \عددی{\hat{V}_1}، \عددی{\hat{V}_2} اور \عددی{\hat{V}_3} حاصل کیے جا سکتے ہیں۔
+
+مساوات \حوالہ{مساوات_بدلتا_جڑوا_جوڑ_الف} میں پہلی مساوات سے  درج ذیل لکھا جا سکتا ہے۔
+\begin{align}\label{مساوات_بدلتا_جڑوا_جوڑ_ب}
+\hat{V}_1=-7\hat{V}_2-60
+\end{align}
+مساوات \حوالہ{مساوات_بدلتا_جڑوا_جوڑ_الف} کی دوسری مساوات کو ترتیب دیتے ہوئے لکھتے ہیں۔
+\begin{align}\label{مساوات_بدلتا_جڑوا_جوڑ_پ}
+\left(-\frac{1}{4}-\frac{j}{6}\right)\hat{V}_2+\left(\frac{1}{4}+\frac{j}{6}\right)\hat{V}_3&=\frac{1}{2}
+\end{align}
+مساوات \حوالہ{مساوات_بدلتا_جڑوا_جوڑ_الف} کی تیسری مساوات میں مساوات \حوالہ{مساوات_بدلتا_جڑوا_جوڑ_ب} پر کرتے ہوئے ترتیب دیتے ہیں۔
+\begin{align}\label{مساوات_بدلتا_جڑوا_جوڑ_ت}
+\left(\frac{1}{4}+j\frac{7}{6}\right)\hat{V}_2-\left(\frac{1}{4}+j\frac{1}{6}\right)\hat{V}_3&=-\frac{5}{2}-j10
+\end{align}
+درج بالا دو ہمزاد مساوات کو حل کرتے ہوئے درج ذیل ملتا ہے
+\begin{align*}
+\hat{V}_2&=-10+j2\,\si{\volt}\\
+\hat{V}_3&=-\frac{112}{13}+j\frac{14}{13}\,\si{\volt}
+\end{align*}
+جس سے درج ذیل لکھا جا سکتا ہے جو درکار جواب ہے۔
+\begin{align*}
+\hat{V}_x=\hat{V}_4=\hat{V}_2+10\phase{0^{\circ}}=2\phase{90^{\circ}} \, \si{\volt}
+\end{align*}
+\انتہا{مثال}
+%==============
+\ابتدا{مشق}\شناخت{مشق_بدلتا_آخری_الف}
+شکل \حوالہ{شکل_بدلتا_آخری_الف} میں دائری ترکیب سے  تینوں خانوں کی رو دریافت کریں۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$20\phase{45^{\circ}}$}]++(0,\y) to [inductor,l={$j2\,\si{\ohm}$}]++(\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [capacitor,l={$-j8\,\si{\ohm}$}]++(\x,0) to [resistor,l={$\SI{4}{\ohm}$}]++(0,-\y) to [short] (0,0);
+\draw(\x,0) to [resistor,*-*,l_={$\SI{8}{\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [inductor,*-*,l_={$j10\,\si{\ohm}$}]++(0,\y);
+%currents
+\draw[stealth-]([shift={(-120:\x/5.5)}]\x/2,\y/2) arc (-120:120:\x/5.5);
+\draw(\x/2,0)node[above]{$\hat{I}_1$};
+\draw[stealth-]([shift={(-120:\x/5.5)}]\x+\x/2,\y/2) arc (-120:120:\x/5.5);
+\draw(\x+\x/2,0)node[above]{$\hat{I}_2$};
+\draw[stealth-]([shift={(-120:\x/5.5)}]2*\x+\x/2,\y/2) arc (-120:120:\x/5.5);
+\draw(2*\x+\x/2,0)node[above]{$\hat{I}_3$};
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_بدلتا_آخری_الف} کا دور۔}
+\label{شکل_بدلتا_آخری_الف}
+\end{figure}
+
+جوابات:\عددی{\hat{I}_1=3.23\phase{26.2^{\circ}}\,\si{\ampere}}، \عددی{\hat{I}_2=0.86\phase{26.2^{\circ}}\,\si{\ampere}}، 
+\عددی{\hat{I}_3=1.92\phase{89.6^{\circ}}\,\si{\ampere}}
+\انتہا{مشق}
+%=================
+
+\ابتدا{مشق}\شناخت{مشق_بدلتا_آخری_ب}
+شکل \حوالہ{شکل_بدلتا_آخری_ب} کو ترکیب جوڑ سے  حل کرتے ہوئے دونوں جوڑ کے دباو حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american current source,l={$5\phase{0^{\circ}}$}]++(0,2*\y) to [short]++(\x,0)node[above]{$\hat{V}_1$} to [inductor,l={$j2\,\si{\ohm}$}]++(\x,0)node[above]{$\hat{V}_2$} to [european resistor,l={$2+j1\,\si{\ohm}$}]++(\x,0);
+\draw(0,0) to [short]++(3*\x,0) to [american voltage source,l_={$30\phase{45^{\circ}}$}]++(0,2*\y);
+\draw(\x,0)node[ground]{} to [capacitor,*-,l_={$-j4\,\si{\ohm}$}]++(0,\y) to [resistor,-*,l_={$\SI{4}{\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [american voltage source,l_={$10\phase{20^{\circ}}\,\si{\volt}$}]++(0,\y) to [capacitor,-*,l_={$-j1\,\si{\ohm}$}]++(0,\y);
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_بدلتا_آخری_ب} کا دور۔}
+\label{شکل_بدلتا_آخری_ب}
+\end{figure}
+
+جوابات:\عددی{\hat{V}_1=21.91\phase{-4.4^{\circ}}\,\si{\volt}}، \عددی{\hat{V}_2=17.78\phase{-19.1^{\circ}}\,\si{\volt}}
+\انتہا{مشق}
+%===================
+\ابتدا{مشق}\شناخت{مشق_بدلتا_آخری_پ}
+شکل \حوالہ{شکل_بدلتا_آخری_پ} کو دائری ترکیب سے حل کرتے ہوئے \عددی{\hat{V}_x} دریافت کریں۔اسی کو دوبارہ ترکیب جوڑ سے حل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$40\phase{0^{\circ}}\,\si{\volt}$}]++(0,\y) to [european resistor,l={$2-j2\,\si{\ohm}$}]++(\x,0) to [inductor,l={$j6\,\si{\ohm}$},v={$\hat{V}_x$}]++(0,-\y) to [european resistor,l={$4+j2\,\si{\ohm}$}]++(-\x,0);
+\draw(0,0) to [resistor,*-,l_={$\SI{10}{\ohm}$}]++(0,-\y) to [short]++(\x,0) to [american voltage source,-*,l_={$20\phase{0^{\circ}}\,\si{\volt}$}]++(0,\y);
+\draw(\x,-\y) to [short,*-]++(\x,0) to [resistor,l_={$\SI{2}{\ohm}$}]++(0,\y) to [capacitor,l_={$-j6\,\si{\ohm}$}]++(0,\y) to [short,-*]++(-\x,0);
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_بدلتا_آخری_پ} کا دور۔}
+\label{شکل_بدلتا_آخری_پ}
+\end{figure}
+
+جواب:\عددی{\hat{V}_x=24.61\phase{-25.44^{\circ}}\,\si{\volt}}
+\انتہا{مشق}
 %=================
