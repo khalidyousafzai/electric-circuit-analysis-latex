@@ -1,1 +1,224 @@
 \باب{برقرار برقی طاقت}
+
+\حصہ{لمحاتی طاقت}
+شکل \حوالہ{شکل_طاقت_پرزے_کو_منتقل} میں بوجھ \عددی{\bZ} کو بدلتی رو منبع  طاقت فراہم کرتا ہے۔اس عمومی دور کے برقرار دباو اور برقرار رو درج ذیل لکھے جا سکتے ہیں۔
+\begin{gather}
+\begin{aligned}\label{مساوات_طاقت_دباو_رو_عمومی_الف}
+v(t)&=V_0\cos(\omega t +\phi_v)\\
+i(t)&=I_0\cos(\omega t +\phi_i)
+\end{aligned}
+\end{gather}
+یوں کسی بھی لمحہ بوجھ کو منتقل طاقت درج ذیل ہو گا
+\begin{gather}
+\begin{aligned}
+p(t)&=v(t)i(t)\\
+&=V_0 I_0  \cos(\omega t +\phi_v) \cos(\omega t +\phi_i)
+\end{aligned}
+\end{gather}
+جس میں
+\begin{align}
+\cos \alpha \cos \beta=\frac{\cos(\alpha-\beta)+\cos(\alpha+\beta)}{2}
+\end{align}
+استعمال کرتے ہوئے
+\begin{align}\label{مساوات_طاقت_لمحاتی_طاقت_الف}
+p(t)=\frac{V_0 I_0}{2}\left[\cos(\phi_v-\phi_i)+\cos(2\omega t +\phi_v+\phi_i)\right]
+\end{align}
+ملتا ہے جہاں \عددی{\alpha=\omega t +\phi_v} اور \عددی{\beta=\omega t+\phi_i} لئے گئے ہیں۔آپ دیکھ سکتے ہیں کہ لمحاتی طاقت دو اجزاء کا مجموعہ ہے۔پہلا جزو مستقل طاقت ہے جو وقت کے ساتھ تبدیل نہیں ہوتا جبکہ دوسرا جزو دگنی تعدد کا بدلتی رو طاقت ہے۔  
+%
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$v(t)$}]++(0,\y) to [short,i={$i(t)$}]++(\x,0) to [european resistor,l={$\bZ$}]++(0,-\y) to [short](0,0);
+\end{tikzpicture}
+\caption{بدلتی رو دور۔}
+\label{شکل_طاقت_پرزے_کو_منتقل}
+\end{figure}
+%======================
+\ابتدا{مثال}\شناخت{مثال_طاقت_عمومی_الف}
+شکل \حوالہ{شکل_طاقت_پرزے_کو_منتقل} میں برقرار دباو \عددی{v(t)=15\cos(100 t+45^{\circ})\,\si{\volt}} اور \عددی{\bZ=5\phase{20^{\circ}}\,\si{\ohm}} ہیں۔بوجھ کو منتقل لمحاتی طاقت دریافت کریں۔
+
+حل:دوری سمتیات استعمال کرتے ہوئے
+\begin{align*}
+\hat{I}&=\frac{15\phase{45^{\circ}}}{5\phase{20^{\circ}}}\\
+&=3\phase{25^{\circ}}\,\si{\ampere}
+\end{align*}
+یعنی
+\begin{align*}
+i(t)=3\cos(100 t +25^{\circ}) \, \si{\ampere}
+\end{align*}
+لکھا جا سکتا ہے۔یوں مساوات \حوالہ{مساوات_طاقت_لمحاتی_طاقت_الف} سے لمحاتی طاقت درج ذیل لکھی جا سکتی ہے۔
+ \begin{align*}
+p(t)&=22.5\left[\cos 20^{\circ}+\cos(200 t +70^{\circ})\right] \\
+&=21.143+22.5\cos(200t+70^{\circ})\,\si{\watt}
+\end{align*}
+دباو، رو اور طاقت کے خط شکل \حوالہ{شکل_طاقت_عمومی_الف} میں دکھائے گئے ہیں۔درج بالا مساوات میں \عددی{\SI{21.143}{\watt}} مستقل طاقت ہے جو وقت کے ساتھ تبدیل نہیں ہوتا جبکہ \عددی{22.5\cos(200t+70^{\circ})\,\si{\watt}} بدلتی رو طاقت ہے جس کی تعدد \عددی{\SI{200}{\radian\per\second}} ہے۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[kStyleCircuitsA,small,xlabel=$\omega t$, xtick={90,180,270,360},xticklabels={$90^{\circ}$,$180^{\circ}$,$270^{\circ}$,$360^{\circ}$},]
+\addplot[domain=0:370,samples=100]{15*cos(1*x+45)}node[pos=0.7,left]{$v(t)$};
+\addplot[domain=0:370,samples=100]{3*cos(1*x+25)}node[pos=0.9,above]{$i(t)$};
+\end{axis}%
+\end{tikzpicture}%
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[kStyleCircuitsA,small,xlabel=$\omega t$, xtick={90,180,270,360},xticklabels={$90^{\circ}$,$180^{\circ}$,$270^{\circ}$,$360^{\circ}$},]
+\addplot[domain=0:370,samples=100]{21.143+22.5*cos(2*x+25)}node[pos=0.4,left]{$p(t)$};
+\end{axis}%
+\end{tikzpicture}%
+\end{subfigure}%
+\caption{مثال \حوالہ{مثال_طاقت_عمومی_الف} کے اشکال۔}
+\label{شکل_طاقت_عمومی_الف}
+\end{figure}
+\انتہا{مثال}
+%==============
+\ابتدا{مثال}
+شکل \حوالہ{شکل_طاقت_پرزے_کو_منتقل} میں \عددی{v(t)=V_0\cos(\omega t +\phi_v)\,\si{\volt}} اور \عددی{\bZ=Z_0\phase{\phi_z}\,\si{\ohm}} ہیں۔رو دریافت کریں۔
+
+حل:دوری سمتیات استعمال کرتے ہوئے
+\begin{align*}
+\hat{I}&=\frac{V_0\phase{\phi_v}}{Z_0\phase{\phi_z}}\\
+&=\frac{V_0}{Z_0}\phase{\phi_v-\phi_z}
+\end{align*}
+لکھا جا سکتا ہے جس سے وقتی دائرہ کار میں رو درج ذیل حاصل ہوتی ہے۔
+\begin{align}
+i(t)=\frac{V_0}{Z_0} \cos(\omega t+\phi_v-\phi_z)
+\end{align}
+مساوات \حوالہ{مساوات_طاقت_دباو_رو_عمومی_الف} میں دیے عمومی رو کے ساتھ موازنہ کرتے ہوئے آپ دیکھ سکتے ہیں کہ \عددی{\phi_i} درحقیقت میں \عددی{\phi_v-\phi_z} کے برابر ہے  جسے درج ذیل لکھا جا سکتا ہے۔
+\begin{align}\label{مساوات_طاقت_زاویہ_رکاوٹ_اور_طاقت}
+\phi_v-\phi_i=\phi_z
+\end{align}
+\انتہا{مثال}
+%=====================
+
+\حصہ{اوسط طاقت}
+دہراتے تفاعل (مثلاً سائن نما تفاعل) کے ایک دوری عرصے پر تکمل کو دوری عرصے سے تقسیم کرنے سے تفاعل کی اوسط قیمت حاصل ہوتی ہے۔یوں مساوات \حوالہ{مساوات_طاقت_دباو_رو_عمومی_الف} میں دیے دباو اور رو کی صورت میں بوجھ کو منتقل اوسط طاقت درج ذیل ہو گی
+\begin{gather}
+\begin{aligned}\label{مساوات_طاقت_اوسط_تکمل_الف}
+P&=\frac{1}{T}\int_{t_0}^{t_0+T} p(t) \dif t\\
+&=\frac{V_0 I_0}{T}\int_{t_0}^{t_0+T} \cos(\omega t +\phi_v) \cos(\omega t +\phi_i) \dif t
+\end{aligned}
+\end{gather}    
+جہاں \عددی{t_0} کوئی بھی لمحہ ہو سکتا ہے جبکہ \عددی{T=\tfrac{2\pi}{\omega}} دباو یا رو کا دوری عرصہ ہے۔حقیقت میں ہم ایک دوری عرصے کی بجائے  \عددی{n} مکمل دوری عرصے پر تکمل لیتے ہوئے \عددی{n} دوری عرصے سے تقسیم کرتے ہوئے بھی اوسط قیمت حاصل کر سکتے ہیں۔یوں اوسط طاقت درج ذیل بھی لکھی جا سکتی ہے۔
+\begin{align}
+P&=\frac{V_0 I_0}{nT}\int_{t_0}^{t_0+nT} \cos(\omega t +\phi_v) \cos(\omega t +\phi_i) \dif t
+\end{align} 
+مساوات \حوالہ{مساوات_طاقت_لمحاتی_طاقت_الف} کی مدد سے مساوات \حوالہ{مساوات_طاقت_اوسط_تکمل_الف} درج ذیل لکھا جائے گا۔
+\begin{gather}
+\begin{aligned}\label{مساوات_طاقت_اوسط_تکمل_ب}
+P&=\frac{V_0 I_0}{2T}\int_{t_0}^{t_0+T} \left[\cos(\phi_v-\phi_i)+\cos(2\omega t +\phi_v+\phi_i)\right] \dif t\\
+&=\frac{V_0 I_0}{2T}\int_{t_0}^{t_0+T} \cos(\phi_v-\phi_i) \dif t+\frac{V_0 I_0}{2T}\int_{t_0}^{t_0+T} \cos(2\omega t +\phi_v+\phi_i)\dif t
+\end{aligned}
+\end{gather} 
+درج بالا تکمل کے دو اجزاء کو باری باری حل کرتے ہیں۔پہلا جزو مستقل ہے لہٰذا اس کو تکمل کے باہر لکھتے ہوئے حل کرتے ہیں۔
+\begin{align*}
+\frac{V_0 I_0}{2T}\int_{t_0}^{t_0+T} \cos(\phi_v-\phi_i) \dif t&=\frac{V_0 I_0}{2T}\cos(\phi_v-\phi_i) \int_{t_0}^{t_0+T} \dif t\\
+&=\left. \frac{V_0 I_0}{2T}\cos(\phi_v-\phi_i) t\right|_{t_0}^{t_0+T}\\
+&=\frac{V_0 I_0}{2}\cos(\phi_v-\phi_i)
+\end{align*}
+اب مساوات \حوالہ{مساوات_طاقت_اوسط_تکمل_ب} کے دوسرے جزو کو حل کرتے ہیں
+\begin{align*}
+\frac{V_0 I_0}{2T}\int_{t_0}^{t_0+T} \cos(2\omega t +\phi_v+\phi_i)\dif t&=\left. \frac{V_0 I_0}{2T}\frac{ \sin(2\omega t +\phi_v+\phi_i)}{2\omega}\right|_{t_0}^{t_0+T}\\
+&=0
+\end{align*}
+جہاں \عددی{\sin \alpha=\sin(\alpha+T)} کا استعمال کیا گیا ہے۔یوں مساوات \حوالہ{مساوات_طاقت_اوسط_تکمل_ب} سے درج ذیل اوسط طاقت حاصل  ہوتا ہے۔
+\begin{align}\label{مساوات_طاقت_عمومی_الف}
+P=\frac{V_0 I_0}{2}\cos(\phi_v-\phi_i)
+\end{align}
+چونکہ \عددی{\cos(\alpha)=\cos(-\alpha)} کے برابر ہے لہٰذا درج بالا مساوات میں کوسائن کا دلیل \عددی{\phi_v-\phi_i} یا \عددی{\phi_i-\phi_v} لکھا جا سکتا ہے۔مساوات \حوالہ{مساوات_طاقت_زاویہ_رکاوٹ_اور_طاقت} کو استعمال کرتے ہوئے درج بالا مساوات کو دوبارہ لکھتے ہیں۔
+\begin{align}\label{مساوات_طاقت_عمومی_ب}
+P=\frac{V_0 I_0}{2}\cos \phi_z
+\end{align}
+خالص مزاحمتی رکاوٹ \عددی{\bZ=R\phase{0^{\circ}}} کا زاویہ ہٹاو \عددی{0^{\circ}} ہوتا ہے لہٰذا \عددی{\cos 0^{\circ}=1} لیتے ہوئے مزاحمتی بوجھ کا طاقت
+\begin{align}\label{مساوات_طاقت_مزاحمتی_طاقت_الف}
+P_{\text{مزاحمتی}}=\frac{V_0 I_0}{2}
+\end{align}
+ہو گا جہاں \عددی{V_0} سے مراد مزاحمت کے دباو کا حیطہ ہے۔قانون اوہم سے درج بالا کو درج ذیل صورتوں میں بھی لکھا جا سکتا ہے۔
+\begin{align}
+P_{\text{مزاحمتی}}&=\frac{I^2_0 R}{2} \label{مساوات_طاقت_مزاحمتی_طاقت_ب}\\
+P_{\text{مزاحمتی}}&=\frac{V^2_0}{2 R} \label{مساوات_طاقت_مزاحمتی_طاقت_پ}
+\end{align}
+امالی متعاملیت کی رکاوٹ \عددی{\bZ_L=X_L\phase{90^{\circ}}} جبکہ برق گیر متعاملیت کی رکاوٹ \عددی{\bZ_C=X_C\phase{-90^{\circ}}} ہوتی ہے۔چونکہ \عددی{\cos (\mp 90^{\circ})=0} ہوتا ہے لہٰذا غیر مزاحمتی رکاوٹ کی طاقت صفر ہو گی۔
+\begin{align}
+P_{\text{متعاملی}} =0
+\end{align}
+چونکہ خالص متعامل پرزوں کو صفر اوسط طاقت منتقل ہوتی ہے لہٰذا انہیں \اصطلاح{بے ضیاع پرزے}\فرہنگ{بے ضیاع پرزے}\حاشیہب{lossless components}\فرہنگ{lossless components} کہتے ہیں۔دور کا متعامل حصہ، دوری عرصے کے کچھ حصے میں  دور سے طاقت حاصل کرتے ہوئے  ذخیرہ کرتا ہے  جبکہ دوری عرصے کے کسی دوسرے حصے میں اسی طاقت کو دور کو واپس کرتا ہے۔
+
+%==========================
+\ابتدا{مثال}\شناخت{مثال_طاقت_مزاحمت_امالہ_الف}
+شکل \حوالہ{مشق_طاقت_مزاحمت_امالہ_الف} میں رکاوٹ کی طاقت دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$50\phase{30^{\circ}}\,\si{\volt}$}]++(0,2*\y) to [short,i={$\hat{I}$}]++(\x,0) to [resistor,l={$\SI{3}{\ohm}$}]++(0,-\y) to [inductor,l={$j6 \,\si{\ohm}$}]++(0,-\y) to [short] (0,0);
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_طاقت_مزاحمت_امالہ_الف} کا دور۔}
+\label{مشق_طاقت_مزاحمت_امالہ_الف}
+\end{figure}
+
+حل:رو درج ذیل ہے۔
+\begin{align*}
+\hat{I}&=\frac{50\phase{30^{\circ}}}{3+j6}=\frac{50\phase{30^{\circ}}}{3+j6}=\frac{50\phase{30^{\circ}}}{\sqrt{45}\phase{63.435^{\circ}}}=7.454\phase{-33.435^{\circ}}\,\si{\ampere}
+\end{align*}
+یوں
+\begin{align*}
+P&=\frac{V_0 I_0}{2}\cos(\phi_v-\phi_i)\\
+&=\frac{(50)(7.454)}{2}\cos[30^{\circ}-(-33.435^{\circ})]\\
+&=\SI{83.34}{\watt}
+\end{align*}
+ہو گا۔چونکہ طاقت صرف مزاحمت میں ضائع ہوتی ہے لہٰذا یہی جواب مساوات \حوالہ{مساوات_طاقت_مزاحمتی_طاقت_الف} سے بھی حاصل کیا جا سکتا ہے جہاں \عددی{V_0} سے مراد مزاحمت کے دباو کا حیطہ ہے۔تقسیم دباو سے مزاحمت کا دباو درج ذیل ہے
+\begin{align*}
+\hat{V}_R&=\left(\frac{3}{3+j6}\right)50\phase{30^{\circ}}=22.361\phase{-33.435^{\circ}}
+\end{align*}
+جس سے مزاحمت کا طاقت درج ذیل ہو گا۔
+\begin{align*}
+P&=\frac{V_0 I_0}{2}=\frac{(22.361)(7.454)}{2}=\SI{83.34}{\watt}
+\end{align*}
+اسی طرح مساوات \حوالہ{مساوات_طاقت_مزاحمتی_طاقت_ب} اور مساوات \حوالہ{مساوات_طاقت_مزاحمتی_طاقت_پ} بھی استعمال کیے جا سکتے ہیں
+\begin{align*}
+P&=\frac{I^2_0 R}{2}=\frac{(7.454^2)(3)}{2}=\SI{83.34}{\watt}\\
+P&=\frac{V^2_0}{2 R}=\frac{(22.361^2)}{(2)(3)}=\SI{83.34}{\watt}
+\end{align*}
+\انتہا{مثال}
+%==========================
+\ابتدا{مثال}\شناخت{مثال_طاقت_مزاحمت_امالہ_ب}
+شکل \حوالہ{شکل_طاقت_مزاحمت_امالہ_ب} میں منبع دباو کا طاقت حاصل کریں۔دور کے بقایا پرزوں کا طاقت بھی دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,i^<={$\hat{I}_m$},l={$10\phase{30^{\circ}}\,\si{\volt}$}]++(0,2*\y) to [short]++(4*\x,0) to [capacitor,i>_={$\hat{I}_C$},l={$-j10\,\si{\ohm}$}]++(0,-2*\y) to [short] (0,0);
+\draw(\x,0) to [inductor,i_<={$\hat{I}_L$},*-*,l={$j5\,\si{\ohm}$}]++(0,2*\y);
+\draw(2*\x,0) to [resistor,i_<={$\hat{I}_R$},*-*,l={$\SI{2}{\ohm}$}]++(0,2*\y);
+\draw(3*\x,0) to [inductor,*-,l={$j2\,\si{\ohm}$}]++(0,\y) to [resistor,i_<={$\hat{I}_Z$},-*,l={$\SI{2}{\ohm}$}]++(0,\y);
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_طاقت_مزاحمت_امالہ_ب} کا دور۔}
+\label{شکل_طاقت_مزاحمت_امالہ_ب}
+\end{figure} 
+
+حل:پہلے تمام رو دریافت کرتے ہیں۔شکل میں دباو کو دیکھتے ہوئے انفعالی رائج رو کی سمتیں چننی گئی ہیں۔ 
+\begin{align*}
+\hat{I}_L&=\frac{10\phase{30^{\circ}}}{j5}=\frac{10\phase{30^{\circ}}}{5\phase{90^{\circ}}}=2\phase{-60^{\circ}}\\
+\hat{I}_R&=\frac{10\phase{30^{\circ}}}{2}=\frac{10\phase{30^{\circ}}}{2\phase{0^{\circ}}}=5\phase{30^{\circ}}\\
+\hat{I}_Z&=\frac{10\phase{30^{\circ}}}{2+j2}=\frac{10\phase{30^{\circ}}}{\sqrt{8}\phase{45^{\circ}}}=\frac{5}{\sqrt{2}}\phase{-15^{\circ}}\\
+\hat{I}_C&=\frac{10\phase{30^{\circ}}}{-j10}=\frac{10\phase{30^{\circ}}}{10\phase{-90^{\circ}}}=1\phase{120^{\circ}}\\
+\hat{I}_m&=-\left[\hat{I}_L+\hat{I}_R+\hat{I}_Z+\hat{I}_C\right]=8.27647\phase{-175.01689^{\circ}}
+\end{align*}
+یوں انفرادی شاخوں کے طاقت مساوات \حوالہ{مساوات_طاقت_عمومی_الف} یا مساوات \حوالہ{مساوات_طاقت_عمومی_ب} سے درج ذیل ہوں گے۔
+\begin{align*}
+P_L&=\frac{(30)(2)}{2}\cos(90^{\circ})&=\SI{0}{\watt}\\
+P_R&=\frac{(30)(5)}{2}\cos(0^{\circ})&=\SI{75}{\watt}\\
+P_Z&=\frac{(30)(\tfrac{5}{\sqrt{2}})}{2}\cos(45^{\circ})&=\SI{37.5}{\watt}\\
+P_C&=\frac{(30)(1)}{2}\cos(90^{\circ})&=\SI{0}{\watt}\\
+P_m&=\frac{(30)(8.27647)}{2}\cos[(30^{\circ}+175.01689^{\circ})]&=-\SI{112.5}{\watt}
+\end{align*}
+مثبت جواب طاقت کا ضیاع ہے جبکہ منفی جواب طاقت کی پیداوار ہے۔آپ دیکھ سکتے ہیں کہ منبع کی طاقتی پیداوار \عددی{\SI{112.5}{\watt}} ہے جو دور میں طاقت کے ضیاع 
+\begin{align*}
+P_L+P_R+P_Z+P_C=0+75+37.5+0=\SI{112.5}{\watt}
+\end{align*}
+کے عین برابر ہے۔
+\انتہا{مثال}
+%==========================

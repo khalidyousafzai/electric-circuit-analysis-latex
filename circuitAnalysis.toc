@@ -77,3 +77,5 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 8}}کرخوف مساوات}{\RL {\arabicfont 419}}
 \contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 8}}تجزیاتی تراکیب}{\RL {\arabicfont 424}}
 \contentsline {chapter}{\numberline {\RL {\arabicfont 9}}برقرار برقی طاقت}{\RL {\arabicfont 443}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 9}}لمحاتی طاقت}{\RL {\arabicfont 443}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 9}}اوسط طاقت}{\RL {\arabicfont 446}}

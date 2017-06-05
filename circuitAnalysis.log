@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  4 JUN 2017 17:15
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  5 JUN 2017 18:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1692,7 +1692,7 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
  (./tex/cktBasics.aux) (./tex/cktResistive.aux)
 (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux) (./tex/cktTheorems.aux)
 (./tex/cktCapacitorInductor.aux) (./tex/cktTransients.aux)
-(./tex/cktSteadyStateAC.aux))
+(./tex/cktSteadyStateAC.aux) (./tex/cktSteadyStatePower.aux))
 \openout1 = `circuitAnalysis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
@@ -1711,7 +1711,8 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 85.
 LaTeX Font Info:    ... okay on input line 85.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 85.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 85.
- (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
+
+(/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 85.
@@ -3023,10 +3024,21 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
  [5] [6
 
 ]
-\openout2 = `./tex/cktSteadyStateAC.aux'.
+\openout2 = `./tex/cktSteadyStatePower.aux'.
 
- (./tex/cktSteadyStateAC.tex
-باب \RL {\arabicfont 8}.
+ (./tex/cktSteadyStatePower.tex [442
+
+
+
+
+
+
+
+
+
+
+]
+باب \RL {\arabicfont 9}.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
@@ -3034,538 +3046,66 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 4.
+(Font)              scaled to size 14.4pt on input line 3.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 14.4pt on input line 4.
+(Font)              scaled to size 14.4pt on input line 3.
+[443]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 9.5pt on input line 38.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 5.70004pt on input line 38.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 63.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 63.
+
+Overfull \hbox (6.97624pt too wide) in paragraph at lines 53--77
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 وقت کے ساتھ تبدیل نہیں ہوتا جبکہ  $\OT1/p
+pl/m/n/10 22.5 []\OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 200\OML/zplm/m/it/10 t \OT1/
+zplm/m/n/10 + \OT1/ppl/m/n/10 70[]\OT1/zplm/m/n/10 ) []$  \EU1/JameelNooriNasta
+leeq(1)/m/n/10 بدلتی رو طاقت ہے جس کی تعدد  $[] []$[]
+ []
+
+[444] [445] [446]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 7.5pt on input line 139.
 LaTeX Font Info:    Font shape `EU1/XBTabrizBold(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 5.
+(Font)              scaled to size 10.0pt on input line 149.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 7.6pt on input line 5.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 5.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 5.
-[359
+(Font)              scaled to size 6.0pt on input line 149.
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [447]
+Underfull \vbox (badness 1496) has occurred while \output is active []
 
+ [448]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
 
-
-
-
-
-
-
-
-]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 9.5pt on input line 22.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 22.
-Missing character: There is no ; in font nullfont!
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 58.
-Missing character: There is no ; in font nullfont!
- [360]
-Overfull \hbox (0.5818pt too wide) in paragraph at lines 96--96
-[][] []
+[449]
+Overfull \hbox (5.62126pt too wide) in paragraph at lines 217--219
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 مثبت جواب طاقت کا ضیاع ہے جبکہ منفی جواب 
+طاقت کی پیداوار ہے۔آپ دیکھ سکتے ہیں کہ منبع کی طاقتی پیداوار  $[] []$[]
  []
 
-[361] [362] [363]
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
-[][][]\EU1/JameelNooriNastaleeq(0)/m/n/8 ایک ماہر ریاضی اپنی خیالی دنیا میں کوس
-ائن  $[] \OML/zplm/m/it/8 ^^R$  \EU1/JameelNooriNastaleeq(0)/m/n/8 تفاعل کے سات
-ھ بحث میں مصورف ہوتا ہے۔ماہر ریاضی تفاعل کو دلیل کے طور پر صفر پیش کرتا ہے۔تفاع
-ل اس کا فوراً جواب اکائی []
- []
-
-[364]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 5.70004pt on input line 189.
- [365]
-Overfull \hbox (3.4406pt too wide) in paragraph at lines 261--267
- [][][][] 
- []
-
-
-Overfull \hbox (1.88719pt too wide) in paragraph at lines 286--288
-[][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 12[]\EU1/JameelNooriNastaleeq(1)/m/n/1
-0 .[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 8[][] \EU1/JameelNooriNastaleeq(1)/m/
-n/10 اور مساوات []\EU1/JameelNooriNastaleeq(0)/bx/n/10 14[]\EU1/JameelNooriNast
-aleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 8[][] \EU1/JameelNooriN
-astaleeq(1)/m/n/10 کو دکھایا گیا ہے۔آپ دیکھ سکتے ہیں کہ ان مساوات میں  $\OML/zp
-lm/m/it/10 ^^K$  \EU1/XBTabrizBold(0)/m/n/10 زاویائی فرق[][][] []\EU1/JameelNoo
-riNastaleeq(1)/m/n/10 پایا جاتا ہے۔ مساوات[]
- []
-
-[366] [367] [368] [369]
-Overfull \hbox (3.43816pt too wide) in paragraph at lines 416--419
- [][][][] 
- []
-
-[370] [371] [372]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [373] [374] [375] [376] [377] [378] [379]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- [380]
-Overfull \hbox (1.50552pt too wide) in paragraph at lines 731--733
-[]\EU1/JameelNooriNastaleeq(1)/m/n/10 مسلط کرنے سے دور میں تمام رو کی صورت  $\O
-ML/zplm/m/it/10 i[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) = \O
-ML/zplm/m/it/10 I[]e[]$  \EU1/JameelNooriNastaleeq(1)/m/n/10 اور دباو کی صورت  
-$\OML/zplm/m/it/10 v[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) =
- \OML/zplm/m/it/10 V[]e[]$[]
- []
-
-[381]
-Overfull \hbox (2.99167pt too wide) in paragraph at lines 752--754
-[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 مساوات []\EU1/JameelNooriNastaleeq(0)/b
-x/n/10 47[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/
-bx/n/10 8[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 کا صفحہ []\EU1/JameelNooriNas
-taleeq(0)/bx/n/10 364[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 پر مساوات []\EU1/
-JameelNooriNastaleeq(0)/bx/n/10 7[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/
-JameelNooriNastaleeq(0)/bx/n/10 8[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 سے مو
-ازنہ کریں۔ایسا معلوم ہوتا ہے جیسے  $[]$  مخلوط عدد کو ظاہر کرتا ہے۔اگرچہ[]
- []
-
-[382]
-Overfull \hbox (27.88605pt too wide) in paragraph at lines 801--801
-[][] []
- []
-
-[383] [384] [385] [386] [387] [388]
-Overfull \hbox (1.00366pt too wide) in paragraph at lines 1079--1081
-[]\EU1/JameelNooriNastaleeq(1)/m/n/10 مساوات ہے۔دوری سمتیات کی مدد سے تفرقی مسا
-وات سے الجبرائی مساوات حاصل ہوتے ہیں۔آپ جانتے ہیں کہ الجبرائی[]
- []
-
-[389]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [390] [391] [392] [393] [394] [395] [396]
-Overfull \hbox (7.56978pt too wide) in paragraph at lines 1452--1454
-[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 مشق  []\EU1/JameelNooriNastaleeq(0)/bx/
-n/10 8[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/
-n/10 8[]\EU1/JameelNooriNastaleeq(1)/m/n/10 : مزاحمت  $\OML/zplm/m/it/10 R \OT1
-/zplm/m/n/10 = [] []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ، امالہ  $\OML/zplm/m
-/it/10 L \OT1/zplm/m/n/10 = [] []$  \EU1/JameelNooriNastaleeq(1)/m/n/10 اور برق
- گیر  $\OML/zplm/m/it/10 C \OT1/zplm/m/n/10 = [] []$  \EU1/JameelNooriNastaleeq
-(1)/m/n/10 کی رکاوٹ  $[] []$[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1455--1458
-[][]
- []
-
-[397] [398]
-Overfull \hbox (4.43994pt too wide) in paragraph at lines 1492--1494
-[]\EU1/JameelNooriNastaleeq(1)/m/n/10 مساوی رکاوٹ حاصل کریں۔مساوی رکاوٹ سے مساو
-ی برق گیر کی مساوات حاصل کریں۔متعدد متوازی برق گیر کا مساوی[]
- []
-
-[399]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-
-Overfull \hbox (9.95703pt too wide) in paragraph at lines 1508--1518
-[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 مثال  []\EU1/JameelNooriNastaleeq(0)/bx
-/n/10 18[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/b
-x/n/10 8[]\EU1/JameelNooriNastaleeq(1)/m/n/10 :[] شکل []\EU1/JameelNooriNastale
-eq(0)/bx/n/10 13[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastal
-eeq(0)/bx/n/10 8[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 میں منبع دباو کو درپیش
- مساوی رکاوٹ  $[] []$  اور  $[] []$  تعدد پر دریافت کریں۔دباو[]
- []
-
-[400]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [401] [402]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [403]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [404]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-
-Overfull \hbox (10.79147pt too wide) in paragraph at lines 1688--1694
- [][][][] 
- []
-
-[405] [406] [407]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [408]
-Overfull \hbox (24.06198pt too wide) in paragraph at lines 1795--1797
-[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 مثال  []\EU1/JameelNooriNastaleeq(0)/bx
-/n/10 21[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/b
-x/n/10 8[]\EU1/JameelNooriNastaleeq(1)/m/n/10 :[] شکل []\EU1/JameelNooriNastale
-eq(0)/bx/n/10 19[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastal
-eeq(0)/bx/n/10 8[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 میں  $[]$ ،  $[]$ ،  $
-[]$  اور  $[]$  کے دوری سمتیہ مختلف تعدد پر کھینچیں۔تعدد  $\OML/zplm/m/it/10 ! 
-\OT1/zplm/m/n/10 = [] []$[]
- []
-
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 1803.
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-[409] [410] [411]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-
-Overfull \hbox (8.63191pt too wide) in paragraph at lines 1945--1947
- [][][][] 
- []
-
-[412] [413] [414]
-Overfull \hbox (0.60405pt too wide) in paragraph at lines 2031--2064
-[]\EU1/JameelNooriNastaleeq(1)/m/n/10 انہیں شکل []\EU1/JameelNooriNastaleeq(0)/
-bx/n/10 22[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)
-/bx/n/10 8[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 -ب میں دکھایا گیا ہے۔آپ دیکھ 
-سکتے ہیں کہ شکل-الف کو گھڑی کے گردش کی سمت میں  $\OT1/ppl/m/n/10 40[]$  \EU1/Ja
-meelNooriNastaleeq(1)/m/n/10 گھمانے[]
- []
-
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-[415] [416]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [417] [418]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-
-Overfull \hbox (43.49474pt too wide) in paragraph at lines 2208--2211
- [][][][] 
- []
-
-[419] [420] [421]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [422]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [423] [424]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [425] [426]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [427]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [428]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [429] [430]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-
-Overfull \hbox (2.03564pt too wide) in paragraph at lines 2631--2636
- [][][][] 
- []
-
-[431] [432]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [433] [434]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-
-Overfull \hbox (23.79825pt too wide) in paragraph at lines 2729--2731
- [][][][] 
- []
-
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-[435] [436]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-
-Overfull \hbox (9.92772pt too wide) in paragraph at lines 2831--2831
-[][] []
- []
-
-
-Overfull \hbox (9.92772pt too wide) in alignment at lines 2831--2831
-[] [] 
- []
-
-[437] [438]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [439]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-) [440] [441]
-\openout2 = `./tex/cktSteadyStatePower.aux'.
-
- (./tex/cktSteadyStatePower.tex [442
-
-
-
-]
-باب \RL {\arabicfont 9}.
-) [443] [444
-
-
-] (./circuitAnalysis.aux (./tex/cktBasics.aux)
-(./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
-(./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
-(./tex/cktTransients.aux) (./tex/cktSteadyStateAC.aux)
-(./tex/cktSteadyStatePower.aux))
+) [450] (./circuitAnalysis.aux (./tex/cktBasics.aux) (./tex/cktResistive.aux)
+(./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux) (./tex/cktTheorems.aux)
+(./tex/cktCapacitorInductor.aux) (./tex/cktTransients.aux)
+(./tex/cktSteadyStateAC.aux) (./tex/cktSteadyStatePower.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.75237pt have occurred.
@@ -3575,12 +3115,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 52355 strings out of 493918
- 1242034 string characters out of 6150562
- 1421684 words of memory out of 5000000
- 54754 multiletter control sequences out of 15000+600000
- 52727 words of font info for 190 fonts, out of 8000000 for 9000
+ 45422 strings out of 493918
+ 1077385 string characters out of 6150562
+ 1249258 words of memory out of 5000000
+ 47824 multiletter control sequences out of 15000+600000
+ 46921 words of font info for 173 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,21n,74p,10476b,2311s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,15n,74p,10476b,2229s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (92 pages).
+Output written on circuitAnalysis.pdf (15 pages).

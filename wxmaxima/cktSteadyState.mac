@@ -542,3 +542,11 @@ eq3:(Z4+Z5)*I3-Z4*I1=vb;
 solnlst:solve([eq1,eq2,eq3],[I1,I2,I3]);
 sol:float(rectform(solnlst[1]));
 
+kI:map(rhs,sol);
+kI1:kI[1];
+kI2:kI[2];
+kI3:kI[3];
+
+polarform(kI1);
+polarform(kI2);
+polarform(kI3);
