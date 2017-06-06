@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  5 JUN 2017 18:26
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  6 JUN 2017 16:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3070,19 +3070,16 @@ leeq(1)/m/n/10 بدلتی رو طاقت ہے جس کی تعدد  $[] []$[]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 7.5pt on input line 139.
 LaTeX Font Info:    Font shape `EU1/XBTabrizBold(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 149.
+(Font)              scaled to size 10.0pt on input line 151.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 149.
+(Font)              scaled to size 6.0pt on input line 151.
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [447]
-Underfull \vbox (badness 1496) has occurred while \output is active []
-
- [448]
+ [447] [448]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -3096,16 +3093,87 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-[449]
-Overfull \hbox (5.62126pt too wide) in paragraph at lines 217--219
+Underfull \vbox (badness 1072) has occurred while \output is active []
+
+ [449]
+Overfull \hbox (5.62126pt too wide) in paragraph at lines 219--221
 []\EU1/JameelNooriNastaleeq(1)/m/n/10 مثبت جواب طاقت کا ضیاع ہے جبکہ منفی جواب 
 طاقت کی پیداوار ہے۔آپ دیکھ سکتے ہیں کہ منبع کی طاقتی پیداوار  $[] []$[]
  []
 
-) [450] (./circuitAnalysis.aux (./tex/cktBasics.aux) (./tex/cktResistive.aux)
-(./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux) (./tex/cktTheorems.aux)
-(./tex/cktCapacitorInductor.aux) (./tex/cktTransients.aux)
-(./tex/cktSteadyStateAC.aux) (./tex/cktSteadyStatePower.aux))
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+[450]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [451]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [452]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 319.
+ [453] [454]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \hbox (1.99814pt too wide) in paragraph at lines 409--412
+ [][][][] 
+ []
+
+[455] [456]) [457] [458
+
+
+] (./circuitAnalysis.aux (./tex/cktBasics.aux)
+(./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
+(./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
+(./tex/cktTransients.aux) (./tex/cktSteadyStateAC.aux)
+(./tex/cktSteadyStatePower.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.75237pt have occurred.
@@ -3115,12 +3183,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 45422 strings out of 493918
- 1077385 string characters out of 6150562
- 1249258 words of memory out of 5000000
- 47824 multiletter control sequences out of 15000+600000
- 46921 words of font info for 173 fonts, out of 8000000 for 9000
+ 46666 strings out of 493918
+ 1106792 string characters out of 6150562
+ 1268738 words of memory out of 5000000
+ 49067 multiletter control sequences out of 15000+600000
+ 46929 words of font info for 174 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,15n,74p,10476b,2229s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,19n,74p,10476b,2229s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (15 pages).
+Output written on circuitAnalysis.pdf (23 pages).
