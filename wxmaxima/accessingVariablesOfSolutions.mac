@@ -1,0 +1,51 @@
+
+Print("======================================");
+Print("this example shows how to access the varibles of a solution");
+kill(all);
+print("example 9.6");
+load("vect");
+mu0:4*%pi*10^(-7);
+epsilon0:8.85418782*10^(-12);
+c:3*10^8;
+
+va:ev(rectform(12*exp(0/180*%pi*%i)),numer);
+/*
+ vb:ev(rectform(40*exp(0/180*%pi*%i)),numer);
+*/ 
+
+Z1:2+6*%i;
+Z2:2*%i;
+Z3:3-3*%i;
+
+eq1:Vx=-I1*Z2;
+eq2:Vx+va=I1*(Z1+Z2);
+eq3:Voc=I1*Z2-va;
+
+solnlst:solve([eq1,eq2,eq3],[Vx,I1,Voc]);
+sol:solnlst[1];
+solk:map(rhs,sol);
+ kI1:solk[2];
+kVoc:solk[3];
+
+float(abs(kI1));
+float(carg(kI1)*180/%pi);
+
+float(abs(kVoc));
+float(carg(kVoc)*180/%pi);
+
+eq4:Vx+va=I2*(Z1+Z2)-I3*Z2;
+eq5:va+I3*(Z2+Z3)-I2*Z2=0;
+eq6:Vx=(I3-I2)*Z2;
+
+solnlst:solve([eq4,eq5,eq6],[Vx,I2,I3]);
+sol:solnlst[1];
+solk:map(rhs,sol);
+kI3:solk[3];
+
+float(abs(kI3));
+float(carg(kI3)*180/%pi);
+
+Zth:kVoc/kI3;
+float(rectform(Zth));
+float(abs(Zth));
+float(carg(Zth)*180/%pi);
