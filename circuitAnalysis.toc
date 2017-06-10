@@ -81,3 +81,5 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 9}}اوسط طاقت}{\RL {\arabicfont 446}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 9}}زیادہ سے زیادہ اوسط طاقت منتقل کرنے کا مسئلہ}{\RL {\arabicfont 453}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 9}}موثر قیمت}{\RL {\arabicfont 463}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 9}}جزو طاقت}{\RL {\arabicfont 472}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 9}}مخلوط طاقت}{\RL {\arabicfont 473}}
