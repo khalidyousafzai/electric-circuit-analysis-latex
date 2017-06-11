@@ -20,12 +20,25 @@
 \pgfmathsetmacro{\dy}{0.2}
 \pgfmathsetmacro{\pin}{0.3}
 %=============================
-%complex numbers
+%complex numbers, squared voltages
 \newcommand*{\bZ}{{\ensuremath{{\boldsymbol{Z}}}}}           %complex impedance
 \newcommand*{\bY}{{\ensuremath{{\boldsymbol{Y}}}}}           %complex admittance
-%\newcommand*{\kcomplex}[1]{{\ensuremath{{\boldsymbol{#1}}}}}
-%\newcommand*{\مخلوط}[1]{{\ensuremath{{\boldsymbol{#1}}}}}
+\newcommand*{\bZCC}{{\ensuremath{{\boldsymbol{Z}}^{*}}}}                                            %complex conjugate impedance
+\newcommand*{\bYCC}{{\ensuremath{{\boldsymbol{Y}}^{*}}}}                                            %complex conjugate 
+
+\newcommand*{\bVrms}{{\ensuremath{\hat{V}_{\textup{rms}}}}}           %phasor voltage
+\newcommand*{\bIrms}{{\ensuremath{\hat{I}_{\textup{rms}}}}}           %phasor current
+\newcommand*{\Vrms}{{\ensuremath{V_{\textup{rms}}}}}       %rms voltage
+\newcommand*{\Irms}{{\ensuremath{I_{\textup{rms}}}}}           %rms current
+\newcommand*{\VrmsS}{{\ensuremath{V^2_{\textup{rms}}}}}       %rms squared
+\newcommand*{\IrmsS}{{\ensuremath{I^2_{\textup{rms}}}}}           %rms squared
+\newcommand*{\bVrmsCC}{{\ensuremath{\hat{V}^{*}_{\textup{rms}}}}}                  %conjugate phasor voltage
+\newcommand*{\bIrmsCC}{{\ensuremath{\hat{I}^{*}_{\textup{rms}}}}}           %conjugate phasor current
+
+\newcommand*{\bS}{{\ensuremath{{\boldsymbol{S}}}}}                         %complex power
+
 \newcommand*{\pf}{{\ensuremath{{\textup{pf}}}}}    
+
 %==========================
 %my styles
 \pgfplotsset{
