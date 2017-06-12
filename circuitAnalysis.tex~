@@ -23,6 +23,9 @@
 %complex numbers, squared voltages
 \newcommand*{\bZ}{{\ensuremath{{\boldsymbol{Z}}}}}           %complex impedance
 \newcommand*{\bY}{{\ensuremath{{\boldsymbol{Y}}}}}           %complex admittance
+\newcommand*{\bZCC}{{\ensuremath{{\boldsymbol{Z}}^{*}}}}                                            %complex conjugate impedance
+\newcommand*{\bYCC}{{\ensuremath{{\boldsymbol{Y}}^{*}}}}                                            %complex conjugate 
+
 \newcommand*{\bVrms}{{\ensuremath{\hat{V}_{\textup{rms}}}}}           %phasor voltage
 \newcommand*{\bIrms}{{\ensuremath{\hat{I}_{\textup{rms}}}}}           %phasor current
 \newcommand*{\Vrms}{{\ensuremath{V_{\textup{rms}}}}}       %rms voltage
@@ -31,11 +34,9 @@
 \newcommand*{\IrmsS}{{\ensuremath{I^2_{\textup{rms}}}}}           %rms squared
 \newcommand*{\bVrmsCC}{{\ensuremath{\hat{V}^{*}_{\textup{rms}}}}}                  %conjugate phasor voltage
 \newcommand*{\bIrmsCC}{{\ensuremath{\hat{I}^{*}_{\textup{rms}}}}}           %conjugate phasor current
-\newcommand*{\bZCC}{{\ensuremath{{\boldsymbol{Z}}^{*}}}}                                            %complex conjugate impedance
-\newcommand*{\bYCC}{{\ensuremath{{\boldsymbol{Y}}^{*}}}}                                            %complex conjugate 
+
 \newcommand*{\bS}{{\ensuremath{{\boldsymbol{S}}}}}                         %complex power
-%\newcommand*{\kcomplex}[1]{{\ensuremath{{\boldsymbol{#1}}}}}
-%\newcommand*{\مخلوط}[1]{{\ensuremath{{\boldsymbol{#1}}}}}
+
 \newcommand*{\pf}{{\ensuremath{{\textup{pf}}}}}    
 
 %==========================
@@ -51,6 +52,7 @@ every axis x label/.style={
 },
 }
 %=====================
+%========================
 \usepackage{./tex/khalidUrduBooksEMT}                     %my sty file
 \usepackage{amsmath}
 \usepackage{amsbsy} %for bold Poynting
@@ -58,7 +60,8 @@ every axis x label/.style={
 \usepackage{IEEEtrantools}
 
 
-\sisetup{math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega}   %with mathpazo this is needed else must not be here. now size of micro is smaller
+\sisetup{math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega}   %with mathpazo this is needed else must not be here. now micro is smaller
+\DeclareSIUnit \var {var}    %used in electric circuits
 
 \input{./tex/myUrduCommandsEMT.tex}                  %turning latex into urdu
 \input{./tex/myUrduGreek.tex}

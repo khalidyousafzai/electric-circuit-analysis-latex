@@ -38,7 +38,7 @@
 \newcommand*{\bS}{{\ensuremath{{\boldsymbol{S}}}}}                         %complex power
 
 \newcommand*{\pf}{{\ensuremath{{\textup{pf}}}}}    
-
+\newcommand*{\rms}{{\ensuremath{\textup{rms}}}}           %rms
 %==========================
 %my styles
 \pgfplotsset{
@@ -52,6 +52,7 @@ every axis x label/.style={
 },
 }
 %=====================
+%========================
 \usepackage{./tex/khalidUrduBooksEMT}                     %my sty file
 \usepackage{amsmath}
 \usepackage{amsbsy} %for bold Poynting
@@ -59,7 +60,9 @@ every axis x label/.style={
 \usepackage{IEEEtrantools}
 
 
-\sisetup{math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega}   %with mathpazo this is needed else must not be here. now size of micro is smaller
+\sisetup{math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega}   %with mathpazo this is needed else must not be here. now micro is smaller
+\DeclareSIUnit \var {var}    %used in electric circuits
+
 
 \input{./tex/myUrduCommandsEMT.tex}                  %turning latex into urdu
 \input{./tex/myUrduGreek.tex}

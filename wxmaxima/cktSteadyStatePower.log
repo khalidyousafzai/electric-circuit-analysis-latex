@@ -1,0 +1,36 @@
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  12 JUN 2017 13:16
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**/home/khalid/Desktop/circuitAnalysisLatex/wxmaxima/cktSteadyStatePower.mac $
+(/home/khalid/Desktop/circuitAnalysisLatex/wxmaxima/cktSteadyStatePower.mac
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 P
+     rint("======================================");
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.1 P
+     rint("======================================");
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+ 
+Here is how much of TeX's memory you used:
+ 7 strings out of 493918
+ 378 string characters out of 6150562
+ 52172 words of memory out of 5000000
+ 3428 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 5i,0n,4p,127b,14s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
