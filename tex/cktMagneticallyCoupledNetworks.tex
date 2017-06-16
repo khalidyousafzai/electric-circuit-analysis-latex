@@ -1,0 +1,46 @@
+\باب{مقناطیسی جڑے ادوار}
+
+\حصہ{مشترکہ امالہ}
+شکل \حوالہ{شکل_مقناطیسی_خود_امالہ} میں \عددی{N} چکر کا \اصطلاح{لچھا}\فرہنگ{لچھا}\حاشیہب{coil}\فرہنگ{coil} دکھایا گیا ہے جس میں \عددی{i} رو گزر رہی ہے۔رو کے گزرنے سے لچھے میں \عددی{\phi} \اصطلاح{مقناطیسی بہاو}\فرہنگ{مقناطیسی بہاو}\فرہنگ{بہاو!مقناطیسی}\حاشیہب{magnetic flux}\فرہنگ{magnetic flux}\فرہنگ{flux!magnetic} پیدا ہوتا ہے۔مقناطیسی بہاو \عددی{\phi} لچھے کے تمام چکروں کے اندر سے گزرنے کی صورت میں لچھے کا ارتباط بہاو \عددی{\lambda} درج ذیل ہے۔
+\begin{align}\label{مساوات_مشترک_ارتباط_بہاو_الف}
+\lambda=N \phi
+\end{align}
+اس کتاب میں صرف خطی نظام پر غور کیا گیا ہے۔خطی صورت میں ارتباط بہاو اور رو کا تعلق درج ذیل ہے
+\begin{align}\label{مساوات_مشترک_ارتباط_بہاو_ب}
+\lambda=L i
+\end{align}
+جہاں مساوات کے مستقل \عددی{L} کو \اصطلاح{خود امالہ}\فرہنگ{امالہ!خود}\فرہنگ{خود امالہ}\حاشیہب{self inductance}\فرہنگ{inductance!self}\فرہنگ{self inductance} یا \اصطلاح{امالہ} کہتے ہیں۔باب \حوالہ{باب_برق_گیر_امالہ_گیر} میں ہم امالہ پر غور کر چکے ہیں۔درج بالا دو مساوات کو ملاتے ہوئے  بہاو اور رو کا تعلق ملتا ہے۔
+\begin{align}
+\phi=\frac{Li}{N}
+\end{align}
+قانون فیراڈے کے تحت بدلتی ارتباط بہاو لچھے میں امالی دباو پیدا کرتا ہے۔
+\begin{align}
+v=\frac{\dif \lambda}{\dif t}
+\end{align}
+مساوات \حوالہ{مساوات_مشترک_ارتباط_بہاو_ب} کو درج بالا مساوات میں پر کرتے ہیں۔
+\begin{align*}
+v=\frac{\dif \lambda}{\dif t}=\frac{\dif (Li)}{\dif t}=L\frac{\dif i}{\dif t}+i\frac{\dif L}{\dif t}
+\end{align*}
+مستقل امالہ کی صوت میں اس مساوات سے امالہ کی جانی پہچانی درج ذیل مساوات حاصل ہوتی ہے۔
+\begin{align}
+v=L\frac{\dif i}{\dif t}
+\end{align}
+اس کتاب میں مستقل امالہ پر ہی غور کیا جائے گا۔
+%
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\pgfmathsetmacro{\lx}{1}
+\pgfmathsetmacro{\ly}{0.2}
+\pgfmathsetmacro{\yDiv}{1+\ly*sin(1980)}
+%
+\draw[dashed,gray] (\lx,\y/2) circle (1 cm and 1.5 cm);
+\draw(\lx+1,\y/2)node[fill=white]{$\phi$};
+\draw[domain=-180:5.5*360,samples=500,variable=\t,mark position=0(kBot)]  plot ({\lx*cos(\t)},{(\t/1980+\ly*sin(\t))/\yDiv*\y})coordinate(kTop);
+\draw(kBot) to [short]++(-2*\x,0) to [american current source,l={$i$}]++(0,\y+0.15) to [short]++(2*\x,0) to [short] (kTop);
+\draw(-\lx,\y/2)node[left]{\RL{$N$ چکر}};
+\draw(-2*\x,\y) to [open,v={$v$}]++(0,-\y);
+\end{tikzpicture}
+\caption{خود امالہ کی تعریف۔}
+\label{شکل_مقناطیسی_خود_امالہ}
+\end{figure}

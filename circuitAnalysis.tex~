@@ -38,7 +38,7 @@
 \newcommand*{\bS}{{\ensuremath{{\boldsymbol{S}}}}}                         %complex power
 
 \newcommand*{\pf}{{\ensuremath{{\textup{pf}}}}}    
-
+\newcommand*{\rms}{{\ensuremath{\textup{rms}}}}           %rms
 %==========================
 %my styles
 \pgfplotsset{
@@ -52,6 +52,17 @@ every axis x label/.style={
 },
 }
 %=====================
+\tikzset{
+    mark position/.style args={#1(#2)}{
+        postaction={
+            decorate,
+            decoration={
+                markings,
+                mark=at position #1 with \coordinate (#2);
+            }
+        }
+    }
+}
 %========================
 \usepackage{./tex/khalidUrduBooksEMT}                     %my sty file
 \usepackage{amsmath}
@@ -62,6 +73,7 @@ every axis x label/.style={
 
 \sisetup{math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega}   %with mathpazo this is needed else must not be here. now micro is smaller
 \DeclareSIUnit \var {var}    %used in electric circuits
+
 
 \input{./tex/myUrduCommandsEMT.tex}                  %turning latex into urdu
 \input{./tex/myUrduGreek.tex}
@@ -75,8 +87,8 @@ every axis x label/.style={
 \graphicspath{{./fig/figFrontPage/}{./fig/figBasicConcepts/}{./fig/figResistive/}{./fig/figNodalLoop/}{./fig/figOpamp/}{./fig/figTheorem/}{./fig/figCapacitorInductor/}{./fig/figTransients}}		%paths to figures
 
 
-%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktTheorems,./tex/cktCapacitorInductor,./tex/cktTransients,./tex/cktSteadyStateAC,./tex/cktSteadyStatePower,./tex/cktToDoList}
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktSteadyStatePower,./tex/cktToDoList}%
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktTheorems,./tex/cktCapacitorInductor,./tex/cktTransients,./tex/cktSteadyStateAC,./tex/cktSteadyStatePower,./tex/cktMagneticallyCoupledNetworks,./tex/cktToDoList}
+%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktMagneticallyCoupledNetworks,./tex/cktToDoList}%
 
 
 
@@ -134,6 +146,7 @@ every axis x label/.style={
 \include{./tex/cktTransients}
 \include{./tex/cktSteadyStateAC}
 \include{./tex/cktSteadyStatePower}
+\include{./tex/cktMagneticallyCoupledNetworks}
 
 %\include{./tex/emtEndOfBookTableDivergenceCurlGradientLaplacian}
 %\include{./tex/toDoList}

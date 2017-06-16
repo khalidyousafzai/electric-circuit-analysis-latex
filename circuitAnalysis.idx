@@ -1,88 +1,10 @@
-\indexentry{lossless components}{\RL {\arabicfont  447}}
-\indexentry{بے ضیاع پرزے}{\RL {\arabicfont  447}}
-\indexentry{موثر}{\RL {\arabicfont  463}}
-\indexentry{power!real}{\RL {\arabicfont  472}}
-\indexentry{طاقت!حقیقی}{\RL {\arabicfont  472}}
-\indexentry{حقیقی طاقت}{\RL {\arabicfont  472}}
-\indexentry{power!apparent}{\RL {\arabicfont  472}}
-\indexentry{طاقت!ظاہری}{\RL {\arabicfont  472}}
-\indexentry{ظاہری طاقت}{\RL {\arabicfont  472}}
-\indexentry{power factor}{\RL {\arabicfont  472}}
-\indexentry{طاقت!جزو}{\RL {\arabicfont  472}}
-\indexentry{جزو طاقت}{\RL {\arabicfont  472}}
-\indexentry{power factor angle}{\RL {\arabicfont  473}}
-\indexentry{زاویہ جزو طاقت}{\RL {\arabicfont  473}}
-\indexentry{جزو طاقت!برق گیر}{\RL {\arabicfont  473}}
-\indexentry{برق گیر!جزو طاقت}{\RL {\arabicfont  473}}
-\indexentry{power factor!lagging}{\RL {\arabicfont  473}}
-\indexentry{جزو طاقت!پیچھے}{\RL {\arabicfont  473}}
-\indexentry{inductive!power factor}{\RL {\arabicfont  473}}
-\indexentry{power factor!inductive}{\RL {\arabicfont  473}}
-\indexentry{امالی!جزو طاقت}{\RL {\arabicfont  473}}
-\indexentry{جزو طاقت!امالی}{\RL {\arabicfont  473}}
-\indexentry{زاویہ!امالی جزو طاقت}{\RL {\arabicfont  473}}
-\indexentry{امالی!زاویہ جزو طاقت}{\RL {\arabicfont  473}}
-\indexentry{power factor!leading}{\RL {\arabicfont  473}}
-\indexentry{leading!power factor}{\RL {\arabicfont  473}}
-\indexentry{جزو طاقت!آگے}{\RL {\arabicfont  473}}
-\indexentry{آگے جزو طاقت}{\RL {\arabicfont  473}}
-\indexentry{capacitive!power factor}{\RL {\arabicfont  473}}
-\indexentry{power factor!capacitive}{\RL {\arabicfont  473}}
-\indexentry{زاویہ!برق گیر جزو طاقت}{\RL {\arabicfont  473}}
-\indexentry{برق گیر زاویہ جزو طاقت}{\RL {\arabicfont  473}}
-\indexentry{زاویہ!پیچھے جزو طاقت}{\RL {\arabicfont  473}}
-\indexentry{پیچھے!زاویہ جزو طاقت}{\RL {\arabicfont  473}}
-\indexentry{پیچھے زاویہ جزو طاقت}{\RL {\arabicfont  473}}
-\indexentry{زاویہ!آگے جزو طاقت}{\RL {\arabicfont  473}}
-\indexentry{آگے زاویہ جزو طاقت}{\RL {\arabicfont  473}}
-\indexentry{transmission lines}{\RL {\arabicfont  473}}
-\indexentry{ترسیلی تار}{\RL {\arabicfont  473}}
-\indexentry{power!complex}{\RL {\arabicfont  476}}
-\indexentry{complex power}{\RL {\arabicfont  476}}
-\indexentry{طاقت!مخلوط}{\RL {\arabicfont  476}}
-\indexentry{مخلوط طاقت}{\RL {\arabicfont  476}}
-\indexentry{power!quadrature}{\RL {\arabicfont  477}}
-\indexentry{تربیعی!طاقت}{\RL {\arabicfont  477}}
-\indexentry{طاقت!تربیعی}{\RL {\arabicfont  477}}
-\indexentry{reactive!power}{\RL {\arabicfont  477}}
-\indexentry{power!reactive}{\RL {\arabicfont  477}}
-\indexentry{طاقت!متعاملی}{\RL {\arabicfont  477}}
-\indexentry{متعاملی طاقت}{\RL {\arabicfont  477}}
-\indexentry{power triangle}{\RL {\arabicfont  479}}
-\indexentry{تکون!طاقت}{\RL {\arabicfont  479}}
-\indexentry{طاقتی تکون}{\RL {\arabicfont  479}}
-\indexentry{WAPDA}{\RL {\arabicfont  491}}
-\indexentry{واپڈا}{\RL {\arabicfont  491}}
-\indexentry{wire!hot}{\RL {\arabicfont  491}}
-\indexentry{hot wire}{\RL {\arabicfont  491}}
-\indexentry{تار!گرم}{\RL {\arabicfont  491}}
-\indexentry{گرم تار}{\RL {\arabicfont  491}}
-\indexentry{wire!neutral}{\RL {\arabicfont  491}}
-\indexentry{neutral wire}{\RL {\arabicfont  491}}
-\indexentry{تار!تعدیلی}{\RL {\arabicfont  491}}
-\indexentry{تعدیلی تار}{\RL {\arabicfont  491}}
-\indexentry{تار!ٹھنڈی}{\RL {\arabicfont  491}}
-\indexentry{ٹھنڈی تار}{\RL {\arabicfont  491}}
-\indexentry{wire!cold}{\RL {\arabicfont  491}}
-\indexentry{cold wire}{\RL {\arabicfont  491}}
-\indexentry{تار!سرد}{\RL {\arabicfont  491}}
-\indexentry{سرد تار}{\RL {\arabicfont  491}}
-\indexentry{wire!live}{\RL {\arabicfont  491}}
-\indexentry{live wire}{\RL {\arabicfont  491}}
-\indexentry{تار!زندہ}{\RL {\arabicfont  491}}
-\indexentry{زندہ تار}{\RL {\arabicfont  491}}
-\indexentry{socket}{\RL {\arabicfont  492}}
-\indexentry{ساکٹ}{\RL {\arabicfont  492}}
-\indexentry{زمینی تار}{\RL {\arabicfont  492}}
-\indexentry{earth}{\RL {\arabicfont  492}}
-\indexentry{تار!زمین}{\RL {\arabicfont  492}}
-\indexentry{زمین}{\RL {\arabicfont  492}}
-\indexentry{برقی زمین}{\RL {\arabicfont  492}}
-\indexentry{circuit breaker}{\RL {\arabicfont  492}}
-\indexentry{منقطع کار}{\RL {\arabicfont  492}}
-\indexentry{breaker!ground fault interrupter}{\RL {\arabicfont  492}}
-\indexentry{ground fault!circuit interrupter}{\RL {\arabicfont  492}}
-\indexentry{منقطع کار!زمینی نقص}{\RL {\arabicfont  492}}
-\indexentry{kilowatt-hour}{\RL {\arabicfont  495}}
-\indexentry{kWh}{\RL {\arabicfont  495}}
-\indexentry{کلو واٹ گھنٹہ}{\RL {\arabicfont  495}}
+\indexentry{coil}{\RL {\arabicfont  499}}
+\indexentry{لچھا}{\RL {\arabicfont  499}}
+\indexentry{flux!magnetic}{\RL {\arabicfont  499}}
+\indexentry{magnetic flux}{\RL {\arabicfont  499}}
+\indexentry{بہاو!مقناطیسی}{\RL {\arabicfont  499}}
+\indexentry{مقناطیسی بہاو}{\RL {\arabicfont  499}}
+\indexentry{self inductance}{\RL {\arabicfont  499}}
+\indexentry{inductance!self}{\RL {\arabicfont  499}}
+\indexentry{خود امالہ}{\RL {\arabicfont  499}}
+\indexentry{امالہ!خود}{\RL {\arabicfont  499}}

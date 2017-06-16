@@ -85,4 +85,8 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 9}}مخلوط طاقت}{\RL {\arabicfont 476}}
 \contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 9}}جزو طاقت کی درستگی}{\RL {\arabicfont 484}}
 \contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 9}}برقی جھٹکا}{\RL {\arabicfont 489}}
-\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 9}}ایک دور کا نظام}{\RL {\arabicfont 491}}
+\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 9}}نم زمین}{\RL {\arabicfont 491}}
+\contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 9}}ایک دور کا نظام}{\RL {\arabicfont 492}}
+\contentsline {section}{\numberline {\RL {\arabicfont 11}.\RL {\arabicfont 9}}حفاظتی تدابیر}{\RL {\arabicfont 497}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 10}}مقناطیسی جڑے ادوار}{\RL {\arabicfont 499}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 10}}مشترکہ امالہ}{\RL {\arabicfont 499}}
