@@ -1,7 +1,7 @@
 \باب{مقناطیسی جڑے ادوار}
 
 \حصہ{مشترکہ امالہ}
-شکل \حوالہ{شکل_مقناطیسی_خود_امالہ} میں \عددی{N} چکر کا \اصطلاح{لچھا}\فرہنگ{لچھا}\حاشیہب{coil}\فرہنگ{coil} دکھایا گیا ہے جس میں \عددی{i} رو گزر رہی ہے۔رو کے گزرنے سے لچھے میں \عددی{\phi} \اصطلاح{مقناطیسی بہاو}\فرہنگ{مقناطیسی بہاو}\فرہنگ{بہاو!مقناطیسی}\حاشیہب{magnetic flux}\فرہنگ{magnetic flux}\فرہنگ{flux!magnetic} پیدا ہوتا ہے۔مقناطیسی بہاو \عددی{\phi} لچھے کے تمام چکروں کے اندر سے گزرنے کی صورت میں لچھے کا ارتباط بہاو \عددی{\lambda} درج ذیل ہے۔
+شکل \حوالہ{شکل_مقناطیسی_خود_امالہ}-الف میں \عددی{N} چکر کا \اصطلاح{لچھا}\فرہنگ{لچھا}\حاشیہب{coil}\فرہنگ{coil} دکھایا گیا ہے جس میں \عددی{i} رو گزر رہی ہے۔ایمپیئر کے قانون کے تحت رو کے گزرنے سے مقناطیسی میدان پیدا ہوتا ہے اور فیراڈے کے قانون کے تحت بدلتا مقناطیسی میدان دباو کو جنم دیتا ہے۔یوں رو کے گزرنے سے لچھے میں \عددی{\phi} \اصطلاح{مقناطیسی بہاو}\فرہنگ{مقناطیسی بہاو}\فرہنگ{بہاو!مقناطیسی}\حاشیہب{magnetic flux}\فرہنگ{magnetic flux}\فرہنگ{flux!magnetic} پیدا ہوتا ہے۔مقناطیسی بہاو \عددی{\phi} لچھے کے تمام چکروں کے اندر سے گزرنے کی صورت میں لچھے کا \اصطلاح{ارتباط بہاو}\فرہنگ{ارتباط بہاو}\فرہنگ{بہاو!ارتباط}\حاشیہب{flux linkage}\فرہنگ{flux linkage} \عددی{\lambda} درج ذیل ہے۔
 \begin{align}\label{مساوات_مشترک_ارتباط_بہاو_الف}
 \lambda=N \phi
 \end{align}
@@ -22,12 +22,14 @@ v=\frac{\dif \lambda}{\dif t}
 v=\frac{\dif \lambda}{\dif t}=\frac{\dif (Li)}{\dif t}=L\frac{\dif i}{\dif t}+i\frac{\dif L}{\dif t}
 \end{align*}
 مستقل امالہ کی صوت میں اس مساوات سے امالہ کی جانی پہچانی درج ذیل مساوات حاصل ہوتی ہے۔
-\begin{align}
+\begin{align}\label{مساوات_مقناطیسی_امالہ_کی_مساوات}
 v=L\frac{\dif i}{\dif t}
 \end{align}
-اس کتاب میں مستقل امالہ پر ہی غور کیا جائے گا۔
+اس کتاب میں مستقل امالہ پر ہی غور کیا جائے گا۔شکل \حوالہ{شکل_مقناطیسی_خود_امالہ}-ب میں اس امالہ کو دکھایا گیا ہے۔یہاں غور کریں کہ مزاحمت کی طرح امالہ کے دباو اور رو بھی انفعالی رائج سمت کے تحت ہیں۔یوں امالہ میں رو مثبت دباو والے سر سے داخلی ہوتی ہے۔مساوات \حوالہ{مساوات_مقناطیسی_امالہ_کی_مساوات} کہتا ہے کہ بدلتی رو امالہ میں دباو پیدا کرتی ہے۔
 %
 \begin{figure}
+\centering
+\begin{subfigure}{0.6\textwidth}
 \centering
 \begin{tikzpicture}[american voltages]
 \pgfmathsetmacro{\lx}{1}
@@ -37,10 +39,149 @@ v=L\frac{\dif i}{\dif t}
 \draw[dashed,gray] (\lx,\y/2) circle (1 cm and 1.5 cm);
 \draw(\lx+1,\y/2)node[fill=white]{$\phi$};
 \draw[domain=-180:5.5*360,samples=500,variable=\t,mark position=0(kBot)]  plot ({\lx*cos(\t)},{(\t/1980+\ly*sin(\t))/\yDiv*\y})coordinate(kTop);
-\draw(kBot) to [short]++(-2*\x,0) to [american current source,l={$i$}]++(0,\y+0.15) to [short]++(2*\x,0) to [short] (kTop);
+\draw(kBot) to [short]++(-1*\x,0)coordinate(kLB) to [american current source,l={$i$}]++(0,\y+0.15)coordinate(kLT) to [short]++(1*\x,0) to [short] (kTop);
 \draw(-\lx,\y/2)node[left]{\RL{$N$ چکر}};
-\draw(-2*\x,\y) to [open,v={$v$}]++(0,-\y);
+\draw($(kLB)!0.5!(kLT)$)node[shift={(0.7,0)}]{$\begin{aligned}  &+ \\ & v \\ &- \end{aligned}$};
 \end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.4\textwidth}
+\centering
+\begin{circuitikz}[american voltages]
+\draw(0,0) to [short,i={$i$},o-]++(\x,0) to [inductor,l={$L$}]++(0,-\y) to [short,-o] ++(-\x,0);
+\draw ($(0,0)!0.5!(0,-\y)$)node{$\begin{aligned} &+ \\ &v \\ &-  \end{aligned}$};
+\end{circuitikz}
+\caption*{(ب)}
+\end{subfigure}
 \caption{خود امالہ کی تعریف۔}
 \label{شکل_مقناطیسی_خود_امالہ}
 \end{figure}
+%=================
+
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\pgfmathsetmacro{\lx}{1}
+\pgfmathsetmacro{\ly}{0.2}
+\pgfmathsetmacro{\yDiv}{1+\ly*sin(1980)}
+%
+\draw[dashed,gray] (\lx,\y/2) circle (1.5 cm and 1.5 cm);
+\draw(\lx,\y)node[shift={(0,1)}]{$\phi$};
+\draw[-latex](\lx-0.25,\y+0.75)--++(0.5,0);
+%primary coil
+\draw[domain=-180:5.5*360,samples=500,variable=\t,mark position=0(kBot)]  plot ({\lx*cos(\t)},{(\t/1980+\ly*sin(\t))/\yDiv*\y})coordinate(kTop);
+\draw(kBot) to [short]++(-1*\x,0)coordinate(kLB) to [american current source,l={$i_1$}]++(0,\y+0.15)coordinate(kLT) to [short]++(1*\x,0) to [short] (kTop);
+\draw(-\lx,\y/2)node[left]{$N_1$};
+\draw($(kLB)!0.5!(kLT)$)node[shift={(0.7,0)}]{$\begin{aligned}  &+ \\ & v_1 \\ &- \end{aligned}$};
+%secondary coil
+\draw[domain=0:5*360,samples=500,variable=\t,mark position=0(kBotR)]  plot ({2.5*\lx+\lx*cos(\t)},{(\t/1800+\ly*sin(\t))/\yDiv*\y})coordinate(kTopR);
+\draw(kTopR) to [short,-o]++(\x,0)coordinate(kRA);
+\draw(kBotR) to [short,-o]++(\x,0)coordinate(kRB);
+\draw($(kTopR)!0.5!(kBotR)$)node[right]{$N_2$};
+\draw($(kRA)!0.5!(kRB)$) node{$\begin{aligned} &+ \\ &v_2 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption{لچھے مقناطیسی میدان کے ذریعے رابطے میں ہیں۔}
+\label{شکل_مقناطیسی_مشترکہ_امالہ}
+\end{figure}
+
+شکل \حوالہ{شکل_مقناطیسی_خود_امالہ}-الف میں موجود لچھے کے قریب دوسرا لچھا رکھنے سے شکل \حوالہ{شکل_مقناطیسی_مشترکہ_امالہ} حاصل ہوتا ہے۔ہم فرض کرتے ہیں کہ پہلے لچھے کا تمام مقناطیسی بہاو دوسرے لچھے کے تمام چکروں کے اندر سے گزرتا ہے۔دوسرے لچھے میں رو نہیں گزر رہی ہے۔
+
+پہلے لچھے  کا ارتباط بہاو درج ذیل ہے۔
+\begin{align}
+\lambda_1=N_1 \phi=L_1 i_1
+\end{align}
+بدتلے رو کی صورت میں ارتباط بہاو بھی وقت کے ساتھ تبدیل ہو گا۔بدلتا ارتباط بہاو پہلے لچھے میں دباو \عددی{v_1=\tfrac{\dif \lambda_1}{\dif t}=L_1 \tfrac{\dif i_1}{\dif t}} پیدا کرے گا۔متعدد لچھوں کی صورت میں \عددی{L_1} کو \اصطلاح{خود امالہ}\فرہنگ{خود امالہ}\فرہنگ{امالہ!خود}\حاشیہب{self inductance}\فرہنگ{inductance!self} کہا جاتا ہے۔
+
+ دوسرے لچھے کا ارتباط بہاو \عددی{\lambda_2=N_2 \phi} ہے جو دوسرے لچھے میں قانون فیراڈے کے تحت درج ذیل دباو پیدا کرے گا۔
+\begin{align}
+v_2=\frac{\dif \lambda_2}{\dif t}=\frac{\dif}{\dif t}\left(N_2 \phi\right)=\frac{\dif}{\dif t}\left(N_2 \frac{L_1 i_1}{N_1}\right)=\frac{N_2}{N_1} L_1 \frac{\dif i_1}{\dif t}=L_{21}\frac{\dif i_1}{\dif t}
+\end{align}
+دوسرے لچھے کا دباو پہلے لچھے کی رو کے وقتی تفرق کے راست تناسب ہے۔راست تناسب کے مستقل \عددی{L_{21}} کو دونوں لچھوں کا \اصطلاح{مشترکہ امالہ}\فرہنگ{مشترکہ امالہ}\فرہنگ{امالہ!مشترکہ}\حاشیہب{mutual inductance}\فرہنگ{mutual inductance}\فرہنگ{inductance!mutual} کہا جاتا ہے جسے ہینری \عددی{\si{\henry}} میں ناپا جاتا ہے۔ ہم کہتے ہیں کہ یہ لچھے آپ میں مقناطیسی میدان کے ذریعہ رابطے میں ہیں۔
+
+
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\pgfmathsetmacro{\lx}{1}
+\pgfmathsetmacro{\ly}{0.2}
+\pgfmathsetmacro{\yDiv}{1+\ly*sin(1980)}
+%
+\draw[dashed,gray] (\lx,\y/2) circle (1.5 cm and 1.5 cm);
+\draw(\lx,\y)node[shift={(0,1)}]{$\phi$};
+\draw[-latex](\lx-0.25,\y+0.75)--++(0.5,0);
+%primary coil
+\draw[domain=-180:5.5*360,samples=500,variable=\t,mark position=0(kBot)]  plot ({\lx*cos(\t)},{(\t/1980+\ly*sin(\t))/\yDiv*\y})coordinate(kTop);
+\draw(kBot) to [short]++(-1*\x,0)coordinate(kLB) to [american current source,l={$i_1$}]++(0,\y+0.15)coordinate(kLT) to [short]++(1*\x,0) to [short] (kTop);
+\draw(-\lx,\y/2)node[left]{$N_1$};
+\draw($(kLB)!0.5!(kLT)$)node[shift={(0.7,0)}]{$\begin{aligned}  &+ \\ & v_1 \\ &- \end{aligned}$};
+%secondary coil
+\draw[domain=0:5*360,samples=500,variable=\t,mark position=0(kBotR)]  plot ({2.5*\lx+\lx*cos(\t)},{(\t/1800+\ly*sin(\t))/\yDiv*\y})coordinate(kTopR);
+\draw(kTopR) to [short]++(\x,0);
+\draw(kBotR) to [short]++(\x,0)coordinate(kRB) to [american current source,l_={$i_2$}]++(0,\y)coordinate(kRA) |- (kTopR);
+\draw($(kTopR)!0.5!(kBotR)$)node[right]{$N_2$};
+\draw($(kRA)!0.5!(kRB)$) node[shift={(-0.7,0)}]{$\begin{aligned} &+ \\ &v_2 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{circuitikz}
+ \draw(0,0) to [american current source,l={$i_1$}]++(0,\y) to [short]++(2*\x+\x/2,0) to [inductor,l_={$L_1$}]++(0,-\y) to [short](0,0);
+\draw(2*\x+\x/2+\x/3,0) to [inductor,l_={$L_2$}]++(0,\y) to [short]++(2*\x+\x/2,0);
+\draw(2*\x+\x/2+\x/3,0) to [short]++(2*\x+\x/2,0) to [american current source,l_={$i_2$}]++(0,\y);
+%mutual
+\draw(2*\x+\x/2+\x/6,\y) node[above]{$M$};
+\draw[fill](2*\x+\x/2,\y)++(-0.5,-0.5) circle (2pt);
+\draw[fill](2*\x+\x/2+\x/3,\y)++(0.5,-0.5) circle (2pt);
+%voltages
+\draw(0.4,\y/2)node[right]{$\begin{aligned} &+ \\ & v_1=L_1 \frac{\dif i_1}{\dif t}+M\frac{\dif i_2}{\dif t} \\ &-  \end{aligned}$};
+\draw(4*\x+\x/2+\x/2+\x/3-0.4,\y/2)node[left]{$\begin{aligned} &+ \\ M\frac{\dif i_1}{\dif t}+L_2\frac{\dif i_2}{\dif t}=& v_2 \\ &-  \end{aligned}$};
+\end{circuitikz}
+\caption*{(ب)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{circuitikz}
+ \draw(0,0) to [american current source,l={$i_1$}]++(0,\y) to [short]++(2*\x+\x/2,0) to [inductor,l_={$L_1$}]++(0,-\y) to [short](0,0);
+\draw(2*\x+\x/2+\x/3,0) to [inductor,l_={$L_2$}]++(0,\y) to [short]++(2*\x+\x/2,0);
+\draw(2*\x+\x/2+\x/3,0) to [short]++(2*\x+\x/2,0) to [american current source,l_={$i_2$}]++(0,\y);
+%mutual
+\draw(2*\x+\x/2+\x/6,\y) node[above]{$M$};
+\draw[fill](2*\x+\x/2,\y)++(-0.5,-0.5) circle (2pt);
+\draw[fill](2*\x+\x/2+\x/3,0)++(0.5,0.5) circle (2pt);
+%voltages
+\draw(0.4,\y/2)node[right]{$\begin{aligned} &+ \\ & v_1=L_1 \frac{\dif i_1}{\dif t}-M\frac{\dif i_2}{\dif t} \\ &-  \end{aligned}$};
+\draw(4*\x+\x/2+\x/2+\x/3-0.4,\y/2)node[left]{$\begin{aligned} &+ \\ -M\frac{\dif i_1}{\dif t}+L_2\frac{\dif i_2}{\dif t}=& v_2 \\ &-  \end{aligned}$};
+\end{circuitikz}
+\caption*{(پ)}
+\end{subfigure}
+\caption{دونوں لچھوں میں رو کی موجودگی کے اثرات۔}
+\label{شکل_مقناطیسی_مشترکہ_امالہ_ب}
+\end{figure}
+شکل \حوالہ{شکل_مقناطیسی_مشترکہ_امالہ_ب}-الف میں دونوں لچھوں کو انفرادی منبع سے رو فراہم کی گئی ہے۔انفرادی لچھے کی رو گھڑی کی سمت میں گھومتی بہاو پیدا کرتی ہے۔ اس طرح دونوں رو مل کر مقناطیسی بہاو \عددی{\phi} پیدا کرتی ہیں۔یوں لچھوں کی ارتباط بہاو درج ذیل ہو گی۔
+\begin{align}
+\lambda_1&=L_1 i_1 +L_{12} i_2\\
+\lambda_2&=L_{21} i_1+L_2 i_2
+\end{align}
+فیراڈے کے قانون کے تحت لچھوں کے دباو حاصل کرتے ہیں۔
+\begin{align}
+v_1&=\frac{\dif \lambda_1}{\dif t}=L_1\frac{\dif  i_1}{\dif t} +L_{12} \frac{\dif i_2}{\dif t} \label{مساوات_مقناطیسی_مشترک_لچھے_دباو_الف}\\
+v_2&=\frac{\dif \lambda_{2}}{\dif t}=L_{21}\frac{\dif  i_1}{\dif t} +L_{2} \frac{\dif i_2}{\dif t}\label{مساوات_مقناطیسی_مشترک_لچھے_دباو_ب}
+\end{align}
+ان مساوات میں \عددی{L_{12}=L_{21}=M} کے برابر ہے جہاں مشترکہ امالہ کو \عددی{M} سے ظاہر کیا گیا ہے۔لچھے کے دباو کے دو اجزاء ہیں۔پہلا جزو لچھے کی اپنی رو کی بنا ہے اور یہ خود جزو کہلاتا ہے۔دوسرا جزو قریبی لچھے کی رو کے بنا ہے اور یہ مشترک جزو کہلاتا ہے۔ 
+
+شکل \حوالہ{شکل_مقناطیسی_مشترکہ_امالہ_ب} میں \عددی{i_2} کی سمت الٹنے سے لچھوں کی ارتباط بہاو
+\begin{align}
+\lambda_1&=L_1 i_1-M i_2\\
+\lambda_2&=-M i_1+L_2 i_2
+\end{align}
+لکھی جائے گی اور ان کے دباو درج ذیل لکھے جائیں گے۔
+\begin{align}
+v_1&=L_1 \frac{\dif i_1}{\dif t}-M\frac{\dif i_2}{\dif t}\label{مساوات_مقناطیسی_مشترک_لچھے_دباو_پ}\\
+v_2&=-M\frac{\dif i_1}{\dif t}+L_2 \frac{\dif i_2}{\dif t}\label{مساوات_مقناطیسی_مشترک_لچھے_دباو_ت}
+\end{align}
+شکل \حوالہ{شکل_مقناطیسی_مشترکہ_امالہ_ب}-ب میں \اصطلاح{مربوط}\فرہنگ{مربوط}\حاشیہب{coupled}\فرہنگ{coupled} لچھوں کو ظاہر کرنا دکھایا گیا ہے۔لچھوں کے انفرادی خود امالہ کو \عددی{L_1} اور \عددی{L_2} سے ظاہر کیا گیا ہے جبکہ ان کے مابین مشترکہ امالہ کو \عددی{M} سے ظاہر کیا گیا ہے۔مربوط لچھوں کو متوازی قریب قریب امالہ سے ظاہر کیا جاتا ہے جن کے اوپر یا نیچے جانب \عددی{M} لکھا ہوتا ہے۔دو عدد نقطوں سے لچھوں کے انفرادی بہاو کا تعلق بتلایا جاتا ہے۔آپ نے دیکھا کہ ان لچھوں کے دباو کے دو اجزاء ہوتے ہیں۔
+
+دونوں لچھوں میں رو نقطوں والے سر سے داخل ہونے کی صورت میں دباو کا مشترک جزو مثبت لکھا جاتا ہے جبکہ ایک لچھے کی رو نقطے والے سر اور دوسرے لچھے کی رو بے نقطے والے سر سے داخل ہونے کی صورت میں مشترک دباو منفی لکھا جاتا ہے۔یوں شکل-ب میں  مساوات \حوالہ{مساوات_مقناطیسی_مشترک_لچھے_دباو_الف} اور مساوات \حوالہ{مساوات_مقناطیسی_مشترک_لچھے_دباو_ب} دباو دیں گے جبکہ شکل-پ میں مساوات \حوالہ{مساوات_مقناطیسی_مشترک_لچھے_دباو_پ} اور مساوات \حوالہ{مساوات_مقناطیسی_مشترک_لچھے_دباو_ت} دباو دیں گے۔
