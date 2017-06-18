@@ -20,13 +20,16 @@
 \pgfmathsetmacro{\dy}{0.2}
 \pgfmathsetmacro{\pin}{0.3}
 
-\pgfmathsetmacro{\kdot}{5/72}   %filled dot size
+\pgfmathsetmacro{\kdot}{5/72}   %filled dot size used for mutual inductances
+\pgfmathsetmacro{\boxW}{0.5}   %width of box circuit
+\pgfmathsetmacro{\boxH}{2.5}   %height of box circuit
+
 %=============================
 %complex numbers, squared voltages
 \newcommand*{\bZ}{{\ensuremath{{\boldsymbol{Z}}}}}           %complex impedance
 \newcommand*{\bY}{{\ensuremath{{\boldsymbol{Y}}}}}           %complex admittance
 \newcommand*{\bZCC}{{\ensuremath{{\boldsymbol{Z}}^{*}}}}                                            %complex conjugate impedance
-\newcommand*{\bYCC}{{\ensuremath{{\boldsymbol{Y}}^{*}}}}                                            %complex conjugate 
+\newcommand*{\bYCC}{{\ensuremath{{\boldsymbol{Y}}^{*}}}}                                            %complex conjugate
 
 \newcommand*{\bVrms}{{\ensuremath{\hat{V}_{\textup{rms}}}}}           %phasor voltage
 \newcommand*{\bIrms}{{\ensuremath{\hat{I}_{\textup{rms}}}}}           %phasor current
@@ -39,7 +42,7 @@
 
 \newcommand*{\bS}{{\ensuremath{{\boldsymbol{S}}}}}                         %complex power
 
-\newcommand*{\pf}{{\ensuremath{{\textup{pf}}}}}    
+\newcommand*{\pf}{{\ensuremath{{\textup{pf}}}}}
 \newcommand*{\rms}{{\ensuremath{\textup{rms}}}}           %rms
 %==========================
 %my styles
@@ -47,7 +50,7 @@
 kStyleCircuitsA/.style={axis lines*=middle,scaled x ticks=false,scaled y ticks=false,
 every axis x label/.style={
     at={(ticklabel* cs:1.15)},
-    anchor=east,}, 
+    anchor=east,},
 	every axis y label/.style={
     at={(ticklabel* cs:1.05)},
     anchor=east,}

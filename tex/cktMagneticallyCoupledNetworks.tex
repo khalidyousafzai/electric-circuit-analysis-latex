@@ -321,7 +321,7 @@ v_2&=-M\frac{\dif i_1}{\dif t}+L_2 \frac{\dif i_2}{\dif t}\label{مساوات_م
 \draw(0,0) rectangle ++(-\boxW,\boxH);
 \draw(-0.25,\boxH/2) node[rotate=90]{\RL{بایاں دور}};
 \draw(0,0.25) to [short]++(\x,0)coordinate(BL) to [inductor,l={$L_1$}]++(0,\y)coordinate(TL) to [short,i<_={$i_1$}]++(-\x,0);
-\draw(\x+\x/3+\x,0.25) to [short]++(-\x,0)coordinate(BR) to [inductor,l_={$L_2$}]++(0,\y)coordinate(TR) to [short,i<_={$i_2$}]++(\x,0);
+\draw(\x+\x/3+\x,0.25) to [short]++(-\x,0)coordinate(BR) to [inductor,l_={$L_2$}]++(0,\y)coordinate(TR) to [short,i<^={$i_2$}]++(\x,0);
 \draw($(TL)!0.5!(TR)$)node[above]{$M$};
 \draw[fill](BL)++(-0.5,0.5) circle (\kdot); 
 \draw[fill](BR)++(0.5,0.5) circle (\kdot); 
@@ -348,3 +348,221 @@ v_2=-M\frac{\dif i_1}{\dif t}-L_2 \frac{\dif i_2}{\dif t}
 \end{align*}
 لکھی جائے گی۔ 
 \انتہا{مثال}
+%=======================
+\ابتدا{مثال}\شناخت{مثال_مقناطیسی_مشترک_امالہ_دباو_ب}
+شکل \حوالہ{شکل_مقناطیسی_مشترک_امالہ_دباو_ب} کے دور کے کرخوف مساوات دباو لکھیں۔
+
+\begin{figure}
+\centering
+\begin{circuitikz}[american voltages]
+\draw(0,0) to [american voltage source,l={$v_m$}]++(0,\y) to [resistor,l={$R_1$}]++(\x,0)coordinate(kUL) to [inductor,l_={$L_1$},v^<=$v_1$]++(\x,0) to [inductor,l={$L_2$},v>={$v_2$}]++(0,-\y)coordinate(kSB) to [short](0,0);
+\draw(kSB) to [short,*-]++(\x,0) to [resistor,l_={$R_2$}]++(0,\y) to [short,-*]++(-\x,0);
+\draw[fill](kUL)++(0.5,-0.5) circle (\kdot)++(0.2,-0.2)coordinate(kA);
+\draw[fill](kSB)++(-0.5,0.5) circle (\kdot)++(-0.2,0.2)coordinate(kB);
+\draw[stealth-stealth] (kA) to [out=-90,in=180] (kB);
+\draw($(kA)!0.5!(kB)$)node[shift={(-135:0.5)}]{$M$};
+%currents
+\draw[stealth-] ([shift={(-135:\x/4)}]\x/2,\y/2) arc (-135:135:\x/4);
+\draw(\x/2,\y/2)node{$i_1$};
+\draw[stealth-] ([shift={(-135:\x/4)}]2*\x+\x/2,\y/2) arc (-135:135:\x/4);
+\draw(2*\x+\x/2,\y/2)node{$i_2$};
+\end{circuitikz}
+\caption{مثال \حوالہ{مثال_مقناطیسی_مشترک_امالہ_دباو_ب} کا دور۔}
+\label{شکل_مقناطیسی_مشترک_امالہ_دباو_ب}
+\end{figure}
+
+حل:مشترکہ امالہ کے انفرادی دباو کی نشاندہی \عددی{v_1} اور \عددی{v_2} سے کی گئی ہے جنہیں بالترتیب \عددی{i_1} اور \عددی{i_2} کو دیکھتے ہوئے انفعالی رائج سمت کے تحت چننا گیا ہے۔امالہ \عددی{L_1} کے دباو کے دو اجزاء ہیں۔اس کے خود جزو \عددی{L_1 \tfrac{\dif i_1}{\dif t}} ہے۔امالہ \عددی{L_2} میں رو امالہ \عددی{L_1} کے دباو کا مشترک جزو دیتی ہے۔امالہ \عددی{L_2} کے نقطے والے سر سے کل داخلی ہونے والی رو \عددی{i_2-i_1} لکھی جا سکتی ہے جو \عددی{L_1} کے نقطے والے سر پر مثبت دباو پیدا کرتی ہے۔یوں \عددی{L_1} کا مشترک جزو \عددی{M\tfrac{\dif }{\dif t}(i_2-i_1)} ہے۔اس طرح پہلے امالہ کے لئے درج ذیل لکھا جا سکتا ہے۔
+\begin{align}\label{مساوات_مقناطیسی_مثال_مشترک_الف}
+v_1=L_1 \frac{\dif i_1}{\dif t}+M\frac{\dif}{\dif t}(i_2-i_1)
+\end{align}
+امالہ \عددی{L_2} کا خود جزو \عددی{L_2\tfrac{\dif }{\dif t}(i_2-i_1)} ہے۔امالہ \عددی{L_1} کے نقطے والے سر سے \عددی{i_1} داخل ہوتا ہے جو امالہ \عددی{L_2} کے نقطے والے سر پر مثبت دباو پیدا کرے گا۔یوں \عددی{L_2} کے دباو کا مشترک جزو \عددی{M\tfrac{\dif i_1}{\dif t}} ہو گا۔یوں درج ذیل لکھا جا سکتا ہے۔
+\begin{align}\label{مساوات_مقناطیسی_مثال_مشترک_ب}
+v_2=L_2 \frac{\dif}{\dif t}(i_2-i_1)+M\frac{\dif i_1}{\dif t}
+\end{align}
+اب دور کو دیکھتے ہوئے کرخوف مساوات لکھتے ہیں۔
+\begin{align}\label{مساوات_مقناطیسی_مثال_مشترک_پ}
+v_m&=i_1 R_1+v_1-v_2\\
+0&=v_2+i_2 R_2
+\end{align}
+ان میں مساوات \حوالہ{مساوات_مقناطیسی_مثال_مشترک_الف} اور مساوات  \حوالہ{مساوات_مقناطیسی_مثال_مشترک_ب} پر کرتے ہوئے جواب لکھتے ہیں۔
+\begin{align}
+v_m&=i_1 R_1+L_1 \frac{\dif i_1}{\dif t}+M\frac{\dif}{\dif t}(i_2-i_1)-L_2 \frac{\dif}{\dif t}(i_2-i_1)-M\frac{\dif i_1}{\dif t}\\
+0&=L_2 \frac{\dif}{\dif t}(i_2-i_1)+M\frac{\dif i_1}{\dif t}+i_2 R_2
+\end{align}
+\انتہا{مثال}
+%======================
+%==============
+\ابتدا{مشق}\شناخت{مشق_مقناطیسی_مشترک_امالہ_دباو_پ}
+شکل \حوالہ{شکل_مقناطیسی_مشترک_امالہ_دباو_پ} میں دیے دور کے  دونوں اطراف کے دباو لکھیں۔
+\begin{figure}
+\centering
+\begin{circuitikz}
+\draw(0,0) rectangle ++(-\boxW,\boxH);
+\draw(-0.25,\boxH/2) node[rotate=90]{\RL{بایاں دور}};
+\draw(0,0.25) to [short]++(\x,0)coordinate(BL) to [inductor,l={$L_1$}]++(0,\y)coordinate(TL) to [short,i>_={$i_1$}]++(-\x,0);
+\draw(\x+\x/3+\x,0.25) to [short]++(-\x,0)coordinate(BR) to [inductor,l_={$L_2$}]++(0,\y)coordinate(TR) to [short,i>^={$i_2$}]++(\x,0);
+\draw($(TL)!0.5!(TR)$)node[above]{$M$};
+\draw[fill](TL)++(-0.5,-0.5) circle (\kdot); 
+\draw[fill](BR)++(0.5,0.5) circle (\kdot); 
+\draw(2*\x+\x/3,0) rectangle ++(\boxW,\boxH);
+\draw(2*\x+\x/3,0)++(\boxW/2,\boxH/2) node[rotate=90]{\RL{دایاں دور}};
+\draw(0,\boxH/2) node[right]{$\begin{aligned} &+ \\ &v_1 \\ &-  \end{aligned}$};
+\draw(2*\x+\x/3,\boxH/2) node[left]{$\begin{aligned} &- \\ &v_2 \\ &+  \end{aligned}$};
+\end{circuitikz}
+\caption{مشق \حوالہ{مشق_مقناطیسی_مشترک_امالہ_دباو_پ} کا دور۔}
+\label{شکل_مقناطیسی_مشترک_امالہ_دباو_پ}
+\end{figure}
+
+جوابات:\عددی{v_1=-L_1\tfrac{\dif i_1}{\dif t}+M\tfrac{\dif i_2}{\dif t}}، \عددی{v_2=L_2 \tfrac{\dif i_2}{\dif t}-M\tfrac{\dif i_1}{\dif t}}
+\انتہا{مشق}
+%========================
+
+شکل \حوالہ{شکل_مقناطیسی_وقتی_تعددی_دائرہ_کار}-الف میں وقتی دائرہ کار کا دور جبکہ شکل-ب میں اسی کو تعددی دائرہ کار کی صورت میں دکھایا گیا ہے۔ شکل-ب کے کرخوف مساوات درج ذیل ہیں۔
+\begin{align*}
+\hat{V}_1&=j\omega L_1 \hat{I}_1+j\omega M \hat{I}_2\\
+\hat{V}_2&=j\omega M \hat{I}_1+j\omega L_2 \hat{I}_2
+\end{align*}
+%
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{circuitikz}
+\draw(0,0) rectangle ++(-\boxW,\boxH);
+\draw(0,0.25) to [short]++(\x,0)coordinate(BL) to [inductor,l={$L_1$}]++(0,\y)coordinate(TL) to [short,i<_={$i_1$}]++(-\x,0);
+\draw(\x+\x/3+\x,0.25) to [short]++(-\x,0)coordinate(BR) to [inductor,l_={$L_2$}]++(0,\y)coordinate(TR) to [short,i<^={$i_2$}]++(\x,0);
+\draw($(TL)!0.5!(TR)$)node[above]{$M$};
+\draw[fill](TL)++(-0.5,-0.5) circle (\kdot); 
+\draw[fill](TR)++(0.5,-0.5) circle (\kdot); 
+\draw(2*\x+\x/3,0) rectangle ++(\boxW,\boxH);
+\draw(0,\boxH/2) node[right]{$\begin{aligned} &+ \\ &v_1 \\ &-  \end{aligned}$};
+\draw(2*\x+\x/3,\boxH/2) node[left]{$\begin{aligned} &+ \\ &v_2 \\ &-  \end{aligned}$};
+\end{circuitikz}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{circuitikz}
+\draw(0,0) rectangle ++(-\boxW,\boxH);
+\draw(0,0.25) to [short]++(\x,0)coordinate(BL) to [inductor,l={$j \omega L_1$}]++(0,\y)coordinate(TL) to [short,i<_={$\hat{I}_1$}]++(-\x,0);
+\draw(\x+\x/3+\x,0.25) to [short]++(-\x,0)coordinate(BR) to [inductor,l_={$j \omega L_2$}]++(0,\y)coordinate(TR) to [short,i<^={$\hat{I}_2$}]++(\x,0);
+\draw($(TL)!0.5!(TR)$)node[above]{$j \omega M$};
+\draw[fill](TL)++(-0.5,-0.5) circle (\kdot); 
+\draw[fill](TR)++(0.5,-0.5) circle (\kdot); 
+\draw(2*\x+\x/3,0) rectangle ++(\boxW,\boxH);
+\draw(0,\boxH/2) node[right]{$\begin{aligned} &+ \\ &\hat{V}_1 \\ &-  \end{aligned}$};
+\draw(2*\x+\x/3,\boxH/2) node[left]{$\begin{aligned} &+ \\ &\hat{V}_2 \\ &-  \end{aligned}$};
+\end{circuitikz}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{وقتی دائرہ کار سے تعددی دائرہ کار کا حصول۔}
+\label{شکل_مقناطیسی_وقتی_تعددی_دائرہ_کار}
+\end{figure}
+
+%====================
+\ابتدا{مثال}
+دو عدد مربوط لچھے چار مختلف طریقوں سے آپس میں جوڑے جا سکتے ہیں جنہیں شکل \حوالہ{شکل_مقناطیسی_مربوط_چار_ممکنات} میں دکھایا گیا ہے۔چاروں صورتوں میں ان کا مساوی امالہ حاصل کریں۔شکل میں ان مساوی امالہ \عددی{L_{\text{مساوی}}} کو بھی لکھا گیا ہے۔ 
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\hat{V}_m$}]++(-2*\x,0) to [short,i={$\hat{I}$}]++(0,\y)coordinate(kA) to [inductor,l={$j\omega L_1$}]++(\x,0)coordinate(kB) to [inductor,l={$j\omega L_2$}]++(\x,0)coordinate(kC) to [short]++(0,-\y);
+\draw[fill] (kA)++(0.5,-0.5) circle(\kdot)++(0.2,-0.2)coordinate(kD);
+\draw[fill] (kB)++(0.5,-0.5) circle(\kdot);
+\draw[stealth-stealth](kD) to [out=-45,in=-135]++(\x-0.4,0);
+\draw(kD)++(\x/2-0.2,-0.4)node[fill=white]{$j\omega M$};
+\draw(-\x,\y+\y/2)node[above]{$L_{\text{مساوی}}=L_1+L_2+2M$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\hat{V}_m$}]++(-2*\x,0) to [short,i={$\hat{I}$}]++(0,\y)coordinate(kA) to [inductor,l={$j\omega L_1$}]++(\x,0)coordinate(kB) to [inductor,l={$j\omega L_2$}]++(\x,0)coordinate(kC) to [short]++(0,-\y);
+\draw[fill] (kA)++(0.5,-0.5) circle(\kdot)++(0.2,-0.2)coordinate(kD);
+\draw[fill] (kC)++(-0.5,-0.5) circle(\kdot)++(-0.2,-0.2)coordinate(kE);
+\draw[stealth-stealth](kD) to [out=-35,in=-145](kE);
+\draw($(kD)!0.5!(kE)$)++(0,-0.4)node[fill=white]{$j \omega M$};
+\draw(-\x,\y+\y/2)node[above]{$L_{\text{مساوی}}=L_1+L_2-2M$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\hat{V}_m$}]++(0,\y) to [short,i={$\hat{I}$}]++(3/4*\x,0)coordinate(kA) to [inductor,l={$j\omega L_1$},i={$\hat{I}_1$}]++(0,-\y)coordinate(kB) to [short](0,0);
+\draw(3/4*\x,\y) to [short,*-]++(\x,0)coordinate(kC) to [inductor,l={$j\omega L_2$},i={$\hat{I}_2$}]++(0,-\y)coordinate(kD) to [short,-*]++(-\x,0);
+\draw[fill](kA)++(-0.5,-0.5) circle (\kdot);
+\draw[fill](kC)++(-0.5,-0.5) circle (\kdot);
+\draw(3/4*\x+\x/2,\y)node[above]{$j\omega M$};
+\draw(\x/2+3/8*\x,\y+\y/2)node[above]{$L_{\text{مساوی}}=\frac{L_1 L_2 -M^2}{L_1+L_2-2M}$};
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\hat{V}_m$}]++(0,\y) to [short,i={$\hat{I}$}]++(3/4*\x,0)coordinate(kA) to [inductor,l={$j\omega L_1$}]++(0,-\y)coordinate(kB) to [short](0,0);
+\draw(3/4*\x,\y) to [short,*-]++(\x,0)coordinate(kC) to [inductor,l={$j\omega L_2$}]++(0,-\y)coordinate(kD) to [short,-*]++(-\x,0);
+\draw[fill](kA)++(-0.5,-0.5) circle (\kdot);
+\draw[fill](kD)++(-0.5,0.5) circle (\kdot);
+\draw(3/4*\x+\x/2,\y)node[above]{$j\omega M$};
+\draw(\x/2+3/8*\x,\y+\y/2)node[above]{$L_{\text{مساوی}}=\frac{L_1 L_2 -M^2}{L_1+L_2+2M}$};
+\end{tikzpicture}
+\caption*{(ت)}
+\end{subfigure}%
+\caption{دو مربوط لچھوں کے چار ممکنہ ادوار اور ان کا مساوی امالہ۔}
+\label{شکل_مقناطیسی_مربوط_چار_ممکنات}
+\end{figure}
+
+حل:شکل \حوالہ{شکل_مقناطیسی_مربوط_چار_ممکنات}-الف کو دیکھتے ہوئے کرخوف مساوات دباو لکھتے ہیں
+\begin{align*}
+\hat{V}_m&=j\omega L_1 \hat{I}+j\omega M \hat{I}+j\omega L_2 \hat{I}+j\omega M \hat{I}\\
+&=j\omega \hat{I}(L_1+L_2+2M)\\
+&=j\omega \hat{I}L_{\text{\RL{مساوی}}} 
+\end{align*}
+جہاں آخری قدم پر قوسین میں بند جزو کو مساوی امالہ \عددی{L_\text{مساوی}} کہا گیا ہے۔
+\begin{align}
+L_{\text{مساوی}}=L_1+L_2+2M
+\end{align}
+شکل \حوالہ{شکل_مقناطیسی_مربوط_چار_ممکنات}-ب کو دیکھتے ہوئے کرخوف مساوات دباو لکھتے ہیں
+\begin{align*}
+\hat{V}_m&=j\omega L_1 \hat{I}-j\omega M \hat{I}+j\omega L_2 \hat{I}-j\omega M \hat{I}\\
+&=j\omega \hat{I}(L_1+L_2-2M)\\
+&=j\omega \hat{I}L_{\text{\RL{مساوی}}} 
+\end{align*}
+جہاں آخری قدم پر قوسین میں بند جزو کو مساوی امالہ \عددی{L_\text{مساوی}} کہا گیا ہے۔
+\begin{align}
+L_{\text{مساوی}}=L_1+L_2-2M
+\end{align}
+شکل \حوالہ{شکل_مقناطیسی_مربوط_چار_ممکنات}-پ کو دیکھتے ہوئے دونوں لچھوں کے مساوات لکھتے ہیں۔
+\begin{align*}
+\hat{V}_m&=j\omega L_1 \hat{I}_1+j\omega M \hat{I}_2\\
+\hat{V}_m&=j\omega L_2 \hat{I}_2+j\omega M \hat{I}_1
+\end{align*}
+ان دو عدد ہمزاد مساوات کو حل کرتے ہوئے درج ذیل ملتا ہے۔
+\begin{align*}
+\hat{I}_1&=\frac{\hat{V}_m(L_2-M)}{j\omega (L_1 L_2-M^2)}\\
+\hat{I}_2&=\frac{\hat{V}_m(L_1-M)}{j\omega (L_1 L_2-M^2)}
+\end{align*}
+کرخوف مساوات رو سے \عددی{\hat{I}=\hat{I}_1+\hat{I}_2} لکھا جا سکتا ہے جس میں درج بالا حاصل شدہ نتائج پر کرتے ہوئے  ترتیب دیتے ہیں
+\begin{align*}
+\hat{I}&=\hat{I}_1+\hat{I}_2\\
+&=\frac{\hat{V}_m(L_1+L_2-M)}{j\omega (L_1 L_2-M^2)}\\
+&=\frac{\hat{V}_m}{j\omega L_{\text{مساوی}}}
+\end{align*}
+جہاں آخری قدم پر مساوی امالہ کی نشاندہی کی گئی ہے یعنی
+\begin{align}
+L_{\text{مساوی}}=\frac{L_1 L_2-M^2}{L_1+L_2-2M}
+\end{align}
+\انتہا{مثال}
+%======================
+\ابتدا{مشق}
+شکل \حوالہ{شکل_مقناطیسی_مربوط_چار_ممکنات}-ت میں دیے دور کا مساوی امالہ دریافت کریں۔
+
+جواب:
+\begin{align}
+L_{\text{مساوی}}=\frac{L_1 L_2-M^2}{L_1+L_2+2M}
+\end{align}
+\انتہا{مشق}
