@@ -566,3 +566,373 @@ L_{\text{مساوی}}=\frac{L_1 L_2-M^2}{L_1+L_2-2M}
 L_{\text{مساوی}}=\frac{L_1 L_2-M^2}{L_1+L_2+2M}
 \end{align}
 \انتہا{مشق}
+%=====================
+\ابتدا{مثال}\شناخت{مثال_مقناطیسی_مربوط_دور_الف}
+شکل \حوالہ{شکل_مقناطیسی_مربوط_دور_الف} میں \عددی{\hat{V}_0} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$30\phase{45^{\circ}}$}\,\si{\volt}]++(0,\y) to [resistor,l={$\SI{2}{\ohm}$}]++(2*\x,0)coordinate(kA) to [inductor,l_={$j2\,\si{\ohm}$}]++(0,-\y)coordinate(kB) to [short] (0,0);
+\draw(2*\x+\x/3,0)coordinate(kC) to [inductor,l_={$j4\,\si{\ohm}$}]++(0,\y)coordinate(kD) to [resistor,l={$\SI{4}{\ohm}$}]++(2*\x,0) to [inductor,l={$j6\,\si{\ohm}$},v={$\hat{V}_0$}]++(0,-\y) to [short]++(-2*\x,0);
+\draw[fill] (kA)++(-0.5,-0.5) circle (\kdot);
+\draw[fill] (kD)++(0.5,-0.5) circle (\kdot);
+\draw(2*\x+\x/6,\y)node[above]{$j3\,\si{\ohm}$};
+%currents
+\draw[stealth-]([shift={(-135:\x/4)}]\x,\y/2) arc (-135:135:\x/4);
+\draw(\x,\y/2)node{$\hat{I}_1$};
+\draw[stealth-]([shift={(-135:\x/4)}]2*\x+\x/3+\x,\y/2) arc (-135:135:\x/4);
+\draw(3*\x+\x/3,\y/2)node{$\hat{I}_2$};
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_مقناطیسی_مربوط_دور_الف} کا دور۔}
+\label{شکل_مقناطیسی_مربوط_دور_الف}
+\end{figure}
+
+حل:کرخوف مساوات لکھتے ہیں۔
+\begin{align*}
+30\phase{45^{\circ}}&=(2+j2)\hat{I}_1-j3\hat{I}_2\\
+0&=-j3\hat{I}_1+(j4+4+j6)\hat{I}_2
+\end{align*}
+ان ہمزاد مساوات کو حل کرنے سے درج ذیل ملتا ہے۔
+\begin{align*}
+\hat{I}_1&=11.474\phase{17.08^{\circ}} \, \si{\ampere}\\
+\hat{I}_2&=3.196\phase{38.88^{\circ}}\,\si{\ampere}
+\end{align*}
+رو \عددی{\hat{I}_2}  کو استعمال کرتے ہوئے خارجی دباو حاصل کرتے ہیں۔
+\begin{align*}
+\hat{V}_0&=(j6)(\hat{I}_2)=(6\phase{90^{\circ}})(3.196\phase{38.88^{\circ}})=19.176\phase{128.88^{\circ}}\,\si{\volt}
+\end{align*}
+\انتہا{مثال}
+%=====================
+\ابتدا{مثال}\شناخت{مثال_مقناطیسی_مربوط_دور_ب}
+شکل \حوالہ{شکل_مقناطیسی_مربوط_دور_ب} کر دائری کرخوف مساوات لکھیں۔بعض اوقات دور میں دو عدد سے زیادہ مربوط امالہ موجود ہوتے ہیں۔ایسی صورت میں تیر کے لکیروں سے دو دو امالہ کی نشاندہی کی جاتی ہے۔اس شکل میں \عددی{L_1} اور \عددی{L_2} کے تعلق \عددی{j\omega M} کی نشاندہی کی گئی ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\hat{V}_m$}]++(0,2*\y) to [capacitor,l={$\frac{1}{j\omega C_1}$}]++(\x,0) to [resistor,l={$R_1$}]++(\x,0) to [resistor,l={$R_2$}]++(\x,0) to [capacitor,l={$\frac{1}{j\omega C_3}$}]++(0,-2*\y) to [short] (0,0);
+\draw(\x,0) to [resistor,*-,l={$R_3$}]++(0,\y) to [inductor,-*,l={$j\omega L_1$}]++(0,\y)coordinate(kA);
+\draw(2*\x,0) to [capacitor,*-,l_={$\frac{1}{j\omega C_2}$}]++(0,\y) to [inductor,-*,l_={$j\omega L_2$}]++(0,\y)coordinate(kB);
+\draw[fill](kA)++(-0.5,-0.5) circle (\kdot);
+\draw[fill](kB)++(0.5,-0.5) circle (\kdot);
+%mutual
+\draw[-stealth](\x+\x/2,2*\y-0.7)--++(-0.5,-0.5);
+\draw[-stealth](\x+\x/2,2*\y-0.7)--++(0.5,-0.5);
+\draw(\x+\x/2,2*\y-0.7)node[fill=white]{$j\omega M$};
+%currents
+\draw[stealth-]([shift={(-135:\x/5)}]\x/2,\y) arc (-135:135:\x/5);
+\draw(\x/2,\y)node{$\hat{I}_1$};
+\draw[stealth-]([shift={(-135:\x/5)}]\x+\x/2,\y) arc (-135:135:\x/5);
+\draw(\x+\x/2,\y)node{$\hat{I}_2$};
+\draw[stealth-]([shift={(-135:\x/5)}]2*\x+\x/2,\y) arc (-135:135:\x/5);
+\draw(2*\x+\x/2,\y)node{$\hat{I}_3$};
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_مقناطیسی_مربوط_دور_ب} کا دور۔}
+\label{شکل_مقناطیسی_مربوط_دور_ب}
+\end{figure}
+
+حل:کرخوف مساوات لکھتے ہوئے محتاط اور چوکس رہیں۔تین خانوں کے مساوات درج ذیل ہیں۔
+\begin{equation*}
+ \begin{split}
+\hat{V}_m&=\frac{\hat{I}_1}{j\omega C_1}+j\omega L_1 (\hat{I}_1-\hat{I}_2)+R_3(\hat{I}_1-\hat{I}_2)+j\omega M(\hat{I}_2-\hat{I}_3)\\
+0&=R_3(\hat{I}_2-\hat{I}_1)+j\omega L_1(\hat{I}_2-\hat{I}_1)+R_1 I_2+j\omega L_2(\hat{I}_2-\hat{I}_3)\\
+&\hspace{2cm} +\frac{1}{j\omega C_2}(\hat{I}_2-\hat{I}_3)-j\omega M(\hat{I}_2-\hat{I}_3)+j\omega M(\hat{I}_1-\hat{I}_2) \\
+0&=\frac{\hat{I}_3}{j\omega C_3}+j\omega L_2(\hat{I}_3-\hat{I}_2)+R_2 \hat{I}_3+\frac{\hat{I}_3}{j\omega C_3}-j\omega M(\hat{I}_1-\hat{I}_2)
+\end{split}
+\end{equation*}
+انہیں ترتیب دیتے ہوئے دوبارہ لکھتے ہیں۔ترتیب دینے سے متشاکل مساوات حاصل ہوتے ہیں۔
+\begin{equation*}
+\begin{split}
+\left(\frac{1}{j\omega C_1}+j\omega L_1+R_3\right)\hat{I}_1-\left(j\omega L_2+R_3-j\omega M\right)\hat{I}_2-j\omega M \hat{I}_3&=\hat{V}_m\\
+-\left(j\omega L_1+R_3-j\omega M\right)\hat{I}_1+\left(R_3+j\omega L_1+R_1+j\omega L_2+\frac{1}{j\omega C_2}-2j\omega M\right)\hat{I}_2 &\\
+-\left(\frac{1}{j\omega C_2+j\omega L_2+R_2+\frac{1}{j\omega C_3}}-j\omega M\right)\hat{I}_3&=0\\
+-j\omega M \hat{I}_1-\left(j\omega L_2+\frac{1}{j\omega C_2}-j\omega M\right)\hat{I}_2+\left(\frac{1}{j\omega C_2}+j\omega L_2+R_2+\frac{1}{j\omega C_3}\right)\hat{I}_3&=0
+\end{split}
+\end{equation*}
+\انتہا{مثال}
+%=====================
+\ابتدا{مشق}\شناخت{مشق_مقناطیسی_مشق_مربوط_دور_الف}
+شکل \حوالہ{شکل_مقناطیسی_مشق_مربوط_دور_الف} میں \عددی{\hat{I}_1}، \عددی{\hat{I}_2} اور \عددی{\hat{V}_0} دریافت کریں۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$20\phase{0^{\circ}}$}\,\si{\volt}]++(0,\y) to [capacitor,l={$-j1\,\si{\ohm}$}]++(2*\x,0)coordinate(kA) to [inductor,l_={$j4\,\si{\ohm}$}]++(0,-\y)coordinate(kB) to [short] (0,0);
+\draw(2*\x+\x/3,0)coordinate(kC) to [inductor,l_={$j6\,\si{\ohm}$}]++(0,\y)coordinate(kD) to [resistor,l={$\SI{2}{\ohm}$}]++(2*\x,0) to [capacitor,l={$-j2\,\si{\ohm}$},v={$\hat{V}_0$}]++(0,-\y) to [short]++(-2*\x,0);
+%dots
+\draw[fill] (kA)++(-0.5,-0.5) circle (\kdot);
+\draw[fill] (kC)++(0.5,0.5) circle (\kdot);
+\draw(2*\x+\x/6,\y)node[above]{$j2\,\si{\ohm}$};
+%currents
+\draw[stealth-]([shift={(-135:\x/4)}]\x,\y/2) arc (-135:135:\x/4);
+\draw(\x,\y/2)node{$\hat{I}_1$};
+\draw[stealth-]([shift={(-135:\x/4)}]2*\x+\x/3+\x,\y/2) arc (-135:135:\x/4);
+\draw(3*\x+\x/3,\y/2)node{$\hat{I}_2$};
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_مقناطیسی_مشق_مربوط_دور_الف} کا دور۔}
+\label{شکل_مقناطیسی_مشق_مربوط_دور_الف}
+\end{figure}
+
+جوابات:\عددی{\hat{I}_1=8.9\phase{-79.7^{\circ}}\,\si{\ampere}}، \عددی{\hat{I}_2=4\phase{126.9^{\circ}}\,\si{\ampere}}، \عددی{\hat{V}_0=8\phase{36.9^{\circ}}\,\si{\volt}}
+\انتہا{مشق}
+%================
+\ابتدا{مشق}\شناخت{مشق_مقناطیسی_مشق_مربوط_دور_ب}
+شکل \حوالہ{شکل_مقناطیسی_مشق_مربوط_دور_ب} کے کرخوف مساوات لکھیں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\hat{V}_1$}]++(0,\y) to [resistor,l={$R_1$}]++(\x,0) to [inductor,l={$j\omega L_1$}]++(\x,0)coordinate(kA) to [inductor,l={$j\omega L_2$}]++(\x,0) to [resistor,l={$R_2$}]++(\x,0);
+\draw(0,0) to [short]++(4*\x,0) to [american voltage source,l_={$\hat{V}_2$}] ++(0,\y);
+\draw(2*\x,0) to [capacitor,*-*,l={$\frac{1}{j\omega C_1}$}]++(0,\y);
+%dots
+\draw[fill](kA)++(-0.5,-0.25) circle (\kdot);
+\draw[fill](kA)++(0.5,-0.25) circle (\kdot);
+%mutual
+\draw[-stealth](2*\x,\y+0.8)--++(-0.5,-0.5);
+\draw[-stealth](2*\x,\y+0.8)--++(0.5,-0.5);
+\draw(2*\x,\y+0.8)node[fill=white]{$j\omega M$};
+%currents
+\draw[stealth-]([shift={(-135:\x/5)}]\x,\y/2) arc (-135:135:\x/5);
+\draw(\x,\y/2)node{$\hat{I}_1$};
+\draw[stealth-]([shift={(-135:\x/5)}]3*\x,\y/2) arc (-135:135:\x/5);
+\draw(3*\x,\y/2)node{$\hat{I}_2$};
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_مقناطیسی_مشق_مربوط_دور_ب} کا دور۔}
+\label{شکل_مقناطیسی_مشق_مربوط_دور_ب}
+\end{figure}
+
+جوابات:
+\begin{align*}
+\left(R_1+j\omega L_1+\frac{1}{j\omega C_1}\right)\hat{I}_1-\left(\frac{1}{j\omega C_1}+j\omega M \right)\hat{I}_2&=\hat{V}_1\\
+-\left(\frac{1}{j\omega C_1}+j\omega M\right)\hat{I}_1+\left(\frac{1}{j\omega C_1}+j\omega L_2+R_2\right)\hat{I}_2&=-\hat{V}_2
+\end{align*}
+\انتہا{مشق}
+%================
+\ابتدا{مشق}\شناخت{مشق_مقناطیسی_مشق_مربوط_دور_پ}
+شکل \حوالہ{شکل_مقناطیسی_مشق_مربوط_دور_پ} میں \عددی{\hat{I}_1} اور \عددی{\hat{I}_2} معلوم کرتے ہوئے \عددی{\hat{V}_0} دریافت کریں جہاں تیر والے لکیر سے ان نقطوں کی نشاندہی کی گئی ہے جن کے مابین دباو درکار ہے۔تیر والا سر مثبت دباو کے مقام کی نشاندہی کرتا ہے۔یوں \عددی{j8\,\si{\ohm}} امالہ کا نچلی سرا حوالہ لیتے ہوئے \عددی{-j6\,\si{\ohm}} برق گیر کے بائیں سر پر دباو حاصل کرنا درکار ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$20\phase{-30^{\circ}}\,\si{\volt}$}]++(0,\y) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [inductor,l={$j2 \,\si{\ohm}$}]++(\x,0)coordinate(kA) to [inductor,l_={$j4\,\si{\ohm}$}]++(0,-\y) to [capacitor,l={$-j1\,\si{\ohm}$}]++(-2*\x,0);
+\draw(2*\x+\x/3,0) to [american voltage source,l_={$40\phase{60^{\circ}}$}] ++(2*\x,0)coordinate(kN) to [inductor,l_={$j8 \,\si{\ohm}$}]++(0,\y) to [capacitor,l_={$-j6\,\si{\ohm}$}]++(-\x,0)coordinate(kP) to [resistor,l_={$\SI{4}{\ohm}$}]++(-\x,0)coordinate(kB) to [inductor,l={$j2\,\si{\ohm}$}]++(0,-\y);
+%dots
+\draw[fill](kA)++(-0.5,-0.5) circle (\kdot);
+\draw[fill](kB)++(0.5,-0.5) circle (\kdot);
+%mutual
+\draw[-stealth](2*\x+\x/6,\y+0.8)--++(-0.5,-0.5);
+\draw[-stealth](2*\x+\x/6,\y+0.8)--++(0.5,-0.5);
+\draw(2*\x+\x/6,\y+0.88)node[fill=white]{$j 2.5 \,\si{\ohm}$};
+%currents
+\draw[stealth-]([shift={(-135:\x/5)}]\x,\y/2) arc (-135:135:\x/5);
+\draw(\x,\y/2)node{$\hat{I}_1$};
+\draw[stealth-]([shift={(-135:\x/5)}]3*\x,\y/2) arc (-135:135:\x/5);
+\draw(3*\x,\y/2)node{$\hat{I}_2$};
+%output voltage
+\draw(kP) to [open,v={$\hat{V}_0$}](kN);
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_مقناطیسی_مشق_مربوط_دور_پ} کا دور۔}
+\label{شکل_مقناطیسی_مشق_مربوط_دور_پ}
+\end{figure}
+
+جوابات:\عددی{6.89\phase{252.3^{\circ}}\,\si{\ampere}}، \عددی{7.08\phase{219.9^{\circ}}\,\si{\si{\ampere}}}، \عددی{14.15\phase{-50.1^{\circ}}\,\si{\volt}}
+\انتہا{مشق}
+%=======================
+\ابتدا{مشق}\شناخت{مشق_مقناطیسی_مشق_مربوط_دور_ت}
+شکل \حوالہ{شکل_مقناطیسی_مشق_مربوط_دور_ت} میں  بائیں اور دائیں دائروں کی رو حاصل کرتے ہوئے \عددی{\hat{V}_0} دریافت کریں-دباو حاصل کرتے ہوئے دباو کا مشترک جزو شامل کرنا مت بھولیں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$60\phase{20^{\circ}}\,\si{\volt}$}]++(0,2*\y) to [inductor,l={$j4 \,\si{\ohm}$}]++(\x,0) to [resistor,l={$\SI{4}{\ohm}$}]++(\x,0) to [capacitor,l={$-j6 \, \si{\ohm}$}]++(\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(0,-\y) to [inductor,l={$j8\,\si{\ohm}$}]++(0,-\y)coordinate(kA) to [short] (0,0);
+\draw(\x,0) to [capacitor,*-,l={$-j6 \,\si{\ohm}$}] ++(0,\y) to [inductor,-*,l={$j8\,\si{\ohm}$}]++(0,\y)coordinate(kB);
+%dots
+\draw[fill](kA)++(-0.5,0.5) circle (\kdot);
+\draw[fill](kB)++(0.5,-0.5) circle (\kdot);
+%mutual
+\draw(kA)++(-0.5,\y/2)coordinate(kC);
+\draw(kB)++(0.5,-\y/2)coordinate(kD);
+\draw[stealth-stealth](kC)--(kD)node[pos=0.5,fill=white]{$j 3 \,\si{\ohm}$};
+%output voltage
+\draw(3*\x,2*\y) to [short,*-o]++(\x,0)coordinate(kLT);
+\draw(3*\x,0) to [short,*-o]++(\x,0)coordinate(kLB);
+\draw(kLB) to [open,v_>={$\hat{V}_0$}](kLT);
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_مقناطیسی_مشق_مربوط_دور_ت} کا دور۔}
+\label{شکل_مقناطیسی_مشق_مربوط_دور_ت}
+\end{figure}
+
+جوابات:\عددی{13.9\phase{-55.2^{\circ}}\,\si{\ampere}}، \عددی{5.97\phase{-24.2^{\circ}}\,\si{\ampere}}،\عددی{31.4\phase{83.55^{\circ}}\,\si{\volt}} 
+\انتہا{مشق}
+%=======================
+
+\ابتدا{مشق}\شناخت{مشق_مقناطیسی_مشق_مربوط_دور_ٹ}
+شکل \حوالہ{شکل_مقناطیسی_مشق_مربوط_دور_ٹ} میں   \عددی{\hat{V}_{ab}} دریافت کریں-دونوں امالہ کے دباو کے مشترک جزو شامل کرنا مت بھولیں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$10\phase{0^{\circ}}\,\si{\volt}$}]++(0,\y) to [resistor,l={$\SI{4}{\ohm}$}]++(\x,0)coordinate(kA) to [inductor,l={$j6\,\si{\ohm}$}]++(\x,0) coordinate(kB) to [inductor,l={$j4 \,\si{\ohm}$}]++(\x,0) coordinate(kC)to [capacitor,l={$-j2 \, \si{\ohm}$}]++(0,-\y)to [short] (0,0);
+\draw(2*\x,0) to [resistor,*-*,l={$\SI{8}{\ohm}$}]++(0,\y);
+\draw(kA)node[above]{$a$};
+\draw(kC)node[above]{$b$};
+%dots
+\draw[fill](kA)++(0.5,0.5) circle (\kdot);
+\draw[fill](kB)++(0.5,0.5) circle (\kdot);
+%mutual
+\draw[-stealth](2*\x,\y+0.8)--++(-0.5,-0.5);
+\draw[-stealth](2*\x,\y+0.8)--++(0.5,-0.5);
+\draw(2*\x,\y)++(0,0.9)node[fill=white]{$j2 \,\si{\ohm}$};
+%output voltage
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_مقناطیسی_مشق_مربوط_دور_ٹ} کا دور۔}
+\label{شکل_مقناطیسی_مشق_مربوط_دور_ٹ}
+\end{figure}
+
+جواب:\عددی{10.5\phase{15^{\circ}}\,\si{\volt}}
+\انتہا{مشق}
+%=======================
+\ابتدا{مثال}\شناخت{مثال_مقناطیسی_داخلی_رکاوٹ_مشترک_الف}
+شکل \حوالہ{شکل_مقناطیسی_داخلی_رکاوٹ_مشترک_الف} میں منبع دباو کو نظر آنے والا داخلی رکاوٹ \عددی{\bZ_{\text{داخلی}}} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\hat{V}_m$}]++(0,\y) to [european resistor,i>^={$\hat{I}_1$},l={$\bZ_1$}]++(2*\x,0)coordinate(kA) to [inductor,l_={$j\omega L_1$}]++(0,-\y) to [short]++(-2*\x,0);
+\draw(2*\x+\x/3,0) to [inductor,l_={$j\omega L_2$}]++(0,\y)coordinate(kB) to [short,i>^={$\hat{I}_2$}] ++(2*\x,0) to [european resistor,l={$\bZ_2$}]++(0,-\y) to [short] ++(-2*\x,0);
+\draw[fill] (kA)++(-0.5,-0.5) circle (\kdot);
+\draw[fill] (kB)++(0.5,-0.5) circle (\kdot);
+\draw(2*\x+\x/6,\y+0.5) node{$j\omega M$};
+%text
+\draw[stealth-] (\x/2,\y/2)--++(-\x/8,0)--++(0,-\y/8)node[below]{$\bZ_{\text{داخلی}}$};
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_مقناطیسی_داخلی_رکاوٹ_مشترک_الف} کا دور۔}
+\label{شکل_مقناطیسی_داخلی_رکاوٹ_مشترک_الف}
+\end{figure}
+
+حل:رو \عددی{\hat{I}_1} دریافت کرتے ہوئے  رکاوٹ کو \عددی{\tfrac{\hat{V}_m}{\hat{I}_1}} سے حاصل کیا جائے گا۔دونوں دائروں کے کرخوف مساوات لکھتے ہیں۔
+\begin{align*}
+\hat{V}_m&=(\bZ_1+j\omega L_1)\hat{I}_1-j\omega M \hat{I}_2\\
+0&=-j\omega M \hat{I}_1+(j\omega L_2+\bZ_2)\hat{I}_2
+\end{align*}
+دوسری مساوات سے \عددی{\hat{I}_2} حاصل کرتے ہوئے
+\begin{align*}
+\hat{I}_2=\frac{j\omega M}{j\omega L_2+\bZ_2} \hat{I}_1
+\end{align*}
+اس کو بائیں دائرے کی کرخوف مساوات میں پر کرتے ہیں
+\begin{align*}
+\hat{V}_m&=(\bZ_1+j\omega L_1)\hat{I}_1-j\omega M \frac{j\omega M}{j\omega L_2+\bZ_2} \hat{I}_1
+\end{align*}
+جہاں سے داخلی رکاوٹ درج ذیل لکھی جا سکتی ہے۔
+\begin{align*}
+\bZ_{\text{داخلی}}=\frac{\hat{V}_m}{\hat{I}_1}=\bZ_1+j\omega L_1+ \frac{\omega^2 M^2}{j\omega L_2+\bZ_2}
+\end{align*}
+\انتہا{مثال}
+%=========================
+
+\ابتدا{مشق}\شناخت{مشق_مقناطیسی_داخلی_رکاوٹ_مشترک_ب}
+درج بالا مثال کے دور میں مشترکہ امالہ پر ایک نقطے کا مقام تبدیل کرتے ہوئے شکل \حوالہ{شکل_مقناطیسی_داخلی_رکاوٹ_مشترک_ب} حاصل کیا گیا ہے۔اس میں منبع دباو کو نظر آنے والا داخلی رکاوٹ \عددی{\bZ_{\text{داخلی}}} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\hat{V}_m$}]++(0,\y) to [european resistor,i>^={$\hat{I}_1$},l={$\bZ_1$}]++(2*\x,0) to [inductor,l_={$j\omega L_1$}]++(0,-\y)coordinate(kA) to [short]++(-2*\x,0);
+\draw(2*\x+\x/3,0) to [inductor,l_={$j\omega L_2$}]++(0,\y)coordinate(kB) to [short,i>^={$\hat{I}_2$}] ++(2*\x,0) to [european resistor,l={$\bZ_2$}]++(0,-\y) to [short] ++(-2*\x,0);
+\draw[fill] (kA)++(-0.5,0.5) circle (\kdot);
+\draw[fill] (kB)++(0.5,-0.5) circle (\kdot);
+\draw(2*\x+\x/6,\y+0.5) node{$j\omega M$};
+%text
+\draw[stealth-] (\x/2,\y/2)--++(-\x/8,0)--++(0,-\y/8)node[below]{$\bZ_{\text{داخلی}}$};
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_مقناطیسی_داخلی_رکاوٹ_مشترک_ب} کا دور۔}
+\label{شکل_مقناطیسی_داخلی_رکاوٹ_مشترک_ب}
+\end{figure}
+
+جواب:
+\begin{align*}
+\bZ_{\text{داخلی}}=\frac{\hat{V}_m}{\hat{I}_1}=\bZ_1+j\omega L_1+ \frac{\omega^2 M^2}{j\omega L_2+\bZ_2}
+\end{align*}
+آپ نے دیکھا کہ اس دور میں نقطے کا مقام تبدیل کرنے سے داخلی رکاوٹ تبدیل نہیں ہوتا۔
+\انتہا{مشق}
+%===========================
+\ابتدا{مشق}
+شکل \حوالہ{شکل_مقناطیسی_مشق_مربوط_دور_ٹ} میں منبع دباو کو کیا رکاوٹ نظر آتا ہے۔
+
+جواب:\عددی{5.88+j11.53\,\si{\ohm}}
+\انتہا{مشق}
+%==================
+
+\حصہ{مشترکہ امالہ میں توانائی کا ذخیرہ}
+شکل \حوالہ{شکل_مقناطیسی_مشترک_امالہ_ذخیرہ-توانائی} کو دیکھیے۔رو مقناطیسی میدان پیدا کرتی ہے۔رو کی غیر موجودگی میں اس دور میں مقناطیسی بہاو نہیں پایا جائے گا۔یوں اس میں ذخیرہ مقناطیسی توانائی بھی صفر کے برابر ہو گی۔اب تصور کریں کہ دایاں لچھا کھلے سر رکھتے ہوئے بائیں لچھے کی رو \عددی{t_1} دورانیے میں \عددی{I_1} کر دی جاتی ہے۔اس دورانیے کے دوران بائیں لچھے کو درج ذیل توانائی فراہم کی جائے گی۔
+\begin{figure}
+\centering
+\begin{circuitikz}
+\draw(0,0) rectangle ++(-\boxW,\boxH);
+\draw(0,0.25) to [short]++(\x,0)coordinate(BL) to [inductor,l={$L_1$}]++(0,\y)coordinate(TL) to [short,i<_={$i_1$}]++(-\x,0);
+\draw(\x+\x/3+\x,0.25) to [short]++(-\x,0)coordinate(BR) to [inductor,l_={$L_2$}]++(0,\y)coordinate(TR) to [short,i<^={$i_2$}]++(\x,0);
+\draw($(TL)!0.5!(TR)$)node[above]{$M$};
+\draw[fill](TL)++(-0.5,-0.5) circle (\kdot); 
+\draw[fill](TR)++(0.5,-0.5) circle (\kdot); 
+\draw(2*\x+\x/3,0) rectangle ++(\boxW,\boxH);
+\draw(0,\boxH/2) node[right]{$\begin{aligned} &+ \\ &v_1 \\ &-  \end{aligned}$};
+\draw(2*\x+\x/3,\boxH/2) node[left]{$\begin{aligned} &+ \\ &v_2 \\ &-  \end{aligned}$};
+\end{circuitikz}
+\caption{مشترکہ امالہ میں ذخیرہ توانائی۔}
+\label{شکل_مقناطیسی_مشترک_امالہ_ذخیرہ-توانائی}
+\end{figure}
+%
+\begin{align*}
+\int_{0}^{t_1}v_1(t) i_1(t)\dif t=\int_{0}^{t_1} \left[L_1 \frac{\dif i_1(t)}{\dif t}\right] i_1(t) \dif t=\int_{0}^{I_1} L_1 i_1 \dif i_1=\frac{L_1 I_1^2}{2}
+\end{align*}
+اس دوران دائیں لچھے کی رو صفر کے برابر ہے لہٰذا \عددی{t_1} کے دوران دائیں لچھے کو کوئی توانائی فراہم نہیں کی جاتی۔اب فرض کریں کہ بائیں لچھے کی رو اسی قیمت پر رکھی جاتی ہے جبکہ دائیں لچھے کی رو \عددی{t_1} تا \عددی{t_2} بڑھا کر \عددی{I_2} کر دی جاتی ہے۔چونکہ  \عددی{t_1} تا \عددی{t_2} بائیں لچھے کی رو تبدیل نہیں ہو رہی  ہے لہٰذا دائیں لچھے کے دباو میں مشترک جزو صفر کے برابر ہو گا۔یوں دائیں لچھے کا دباو \عددی{v_2=L_2\tfrac{\dif i_2}{\dif t}} لکھا جائے گا۔اس طرح دائیں لچھے کو درج ذیل توانائی فراہم کی جاتی ہے۔
+\begin{align*}
+\int_{t_1}^{t_2}v_2(t) i_2(t)\dif t=\int_{t_1}^{t_2} \left[L_2 \frac{\dif i_2(t)}{\dif t}\right] i_2(t) \dif t=\int_{0}^{I_2} L_2 i_2 \dif i_2=\frac{L_2 I_2^2}{2}
+\end{align*}
+اسی دورانیے (\عددی{t_1} تا \عددی{t_2})  میں چونکہ دائیں لچھے کی رو تبدیل ہو رہی ہے (جبکہ \عددی{i_1=I_1} مستقل ہے) لہٰذا بائیں لچھے کے دباو میں مشترک جزو پایا جائے گا اور یوں اس کا دباو درج ذیل لکھا جائے گا
+\begin{align*}
+v_1=L_1 \frac{\dif i_1}{\dif t}+M \frac{\dif i_2}{\dif t}=M\frac{\dif i_2}{\dif t}
+\end{align*}
+جہاں \عددی{i_1} مستقل ہونے کی وجہ سے \عددی{\tfrac{\dif i_1}{\dif t}=0} ہے۔یوں \عددی{t_1} تا \عددی{t_2} کے دوران بائیں لچھے کو درج ذیل توانائی مہیا کی جاتی ہے۔
+\begin{align*}
+\int_{t_1}^{t_2} v_1(t) i(t)\dif t=\int_{t_1}^{t_2} \left[M \frac{\dif i_2(t)}{\dif t}\right] I_1 \dif t=\int_{0}^{I_2} M I_1 \dif i_2=M I_1 I_2
+\end{align*}
+ان تینوں جوابات کا مجموعہ لمحہ \عددی{t_2} تک مشترکہ امالہ کو فراہم کی گئی توانائی دیتا ہے۔
+\begin{align}
+w=\frac{L_1 I_1^2}{2}+\frac{L_2 I_2^2}{2}+MI_1 I_2
+\end{align}
+اگر ایک لچھے پر نقطے کا مقام تبدیل کرتے ہوئے جواب حاصل کیا جائے تب درج ذیل جواب حاصل ہوتا ہے۔
+\begin{align}
+w=\frac{L_1 I_1^2}{2}+\frac{L_2 I_2^2}{2}-MI_1 I_2
+\end{align}
+آپ نے دیکھا کہ ذخیرہ توانائی کا دارومدار رو پر ہے نا کہ \عددی{t_1} اور \عددی{t_2} پر۔یوں کسی بھی لمحے لچھوں کی رو \عددی{i_1(t)} اور \عددی{i_2(t)} لکھتے ہوئے اس لمحے ذخیرہ توانائی کو درج ذیل لکھا جا سکتا ہے۔
+\begin{align}
+w(t)=\frac{L_1 i^2_1(t)}{2}+\frac{L_2 i^2_2(t)}{2}\mp M i_1(t) i_2(t)
+\end{align}
+چونکہ مشترکہ امالہ غیر عامل پرزہ ہے لہٰذا یہ توانائی پیدا نہیں کرتا۔یوں اس کی توانائی کبھی بھی منفی نہیں ہو سکتی۔یوں درج بالا مساوات میں غیر ضروری معلومات نہ لکھتے ہوئے درج ذیل لکھتے ہیں
+\begin{align}
+w(t)&=\frac{L_1 i^2_1}{2}+\frac{L_2 i^2_2}{2}\mp M i_1 i_2
+\end{align}
+جس میں \عددی{\tfrac{M^2 i^2_1}{2L_2}} جمع اور منفی کر کے ترتیب دیتے ہوئے درج ذیل لکھا جا سکتا ہے۔
+\begin{align}
+w=\frac{1}{2} \left(L_1-\frac{M^2}{L_2}\right)i^2_1+\frac{L_2}{2}\left(i_2+\frac{M}{L_2 i_1}\right)^2
+\end{align}
+درج بالا مساوات کا دوسرا جزو مربع ہے لہٰذا یہ ہر صورت مثبت ہو گا۔چونکہ غیر عامل مشترکہ امالہ کی توانائی مثبت ہے لہٰذا اس مساوات کا پہلا جزو بھی مثبت ہو گا جس سے درج ذیل شرط حاصل ہوتا ہے۔
+\begin{align}
+M\le \sqrt{L_1 L_2}
+\end{align}
+یہ مساوات مشترکہ امالہ کی زیادہ سے زیادہ قیمت کا حد بیان کرتا ہے۔  یوں مشترکہ امالہ صفر تا \عددی{\sqrt{L_1 L_2}} ممکن ہے۔
+\begin{align}
+0\le M \le \sqrt{L_1 L_2}
+\end{align}
+ کسی بھی مشترکہ امالہ کو درج ذیل لکھا جا سکتا ہے
+\begin{align}
+M=k\sqrt{L_1 L_2}
+\end{align}
+جہاں \عددی{k} کو \اصطلاح{ارتباطی مستقل}\فرہنگ{ارتباطی مستقل}\حاشیہب{coupling coefficient}\فرہنگ{coupling coefficient} کہتے ہیں۔آپ دیکھ سکتے ہیں کہ ارتباطی مستقل صفر تا اکائی ممکن ہے۔
+\begin{align}
+0 \le k \le 1
+\end{align}
+ارتباطی مستقل کی تعریف درج ذیل مساوات دیتی ہے۔
+\begin{align}
+k=\frac{M}{\sqrt{L_1 L_2}}
+\end{align}
+ارتباطی مستقل یہ بتلاتا ہے کہ ایک لچھے کی کتنی بہاو دوسرے لچھے کے اندر سے گزرتی ہے۔اس باب کے شروع میں مشترکہ امالہ کے اشکال بناتے ہوئے ہم نے مقناطیسی قالب استعمال کیا۔مقناطیسی قالب کے استعمال سے ایک لچھے کی تقریباً تمام بہاو دوسرے لچھے سے بھی گزرتی ہے۔یوں ایسی صورت میں \عددی{k \approx 1} ہو گا۔اس کے برعکس ایک دونوں سے دور، قالب سے نہ جوڑے گئے لچھوں کی صورت میں \عددی{k=0} ہو گا چونکہ ایک لچھے کا بہاو دوسرے لچھے تک نہیں پہنچ پائے گا۔ارتباطی مستقل کی قیمت زیادہ \عددی{(k \ge 0.5)} ہونے کی صورت میں ہم کہتے ہیں کہ لچھوں کا \اصطلاح{رابطہ مضبوط}\فرہنگ{رابطہ!مضبوط}\حاشیہب{strongly coupled}\فرہنگ{coupling!strong} ہے جبکہ \عددی{k < 0.5} کی صورت میں ہم کہتے ہیں کہ لچھوں کا \اصطلاح{رابطہ کمزور}\فرہنگ{رابطہ!کمزور}\حاشیہب{weakly coupled}\فرہنگ{coupling!weak} ہے۔    
+%========================
+\ابتدا{مثال}
+
+\انتہا{مثال}
+%=========================
+
