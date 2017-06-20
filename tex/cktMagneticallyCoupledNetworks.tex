@@ -890,15 +890,15 @@ v_1=L_1 \frac{\dif i_1}{\dif t}+M \frac{\dif i_2}{\dif t}=M\frac{\dif i_2}{\dif 
 \int_{t_1}^{t_2} v_1(t) i(t)\dif t=\int_{t_1}^{t_2} \left[M \frac{\dif i_2(t)}{\dif t}\right] I_1 \dif t=\int_{0}^{I_2} M I_1 \dif i_2=M I_1 I_2
 \end{align*}
 ان تینوں جوابات کا مجموعہ لمحہ \عددی{t_2} تک مشترکہ امالہ کو فراہم کی گئی توانائی دیتا ہے۔
-\begin{align}
+\begin{align}\label{مساوات_مقناطیسی_توانائی_مشترکہ_امالہ_الف}
 w=\frac{L_1 I_1^2}{2}+\frac{L_2 I_2^2}{2}+MI_1 I_2
 \end{align}
 اگر ایک لچھے پر نقطے کا مقام تبدیل کرتے ہوئے جواب حاصل کیا جائے تب درج ذیل جواب حاصل ہوتا ہے۔
-\begin{align}
+\begin{align}\label{مساوات_مقناطیسی_توانائی_مشترکہ_امالہ_ب}
 w=\frac{L_1 I_1^2}{2}+\frac{L_2 I_2^2}{2}-MI_1 I_2
 \end{align}
 آپ نے دیکھا کہ ذخیرہ توانائی کا دارومدار رو پر ہے نا کہ \عددی{t_1} اور \عددی{t_2} پر۔یوں کسی بھی لمحے لچھوں کی رو \عددی{i_1(t)} اور \عددی{i_2(t)} لکھتے ہوئے اس لمحے ذخیرہ توانائی کو درج ذیل لکھا جا سکتا ہے۔
-\begin{align}
+\begin{align}\label{مساوات_مقناطیسی_توانائی_مشترکہ_امالہ_پ}
 w(t)=\frac{L_1 i^2_1(t)}{2}+\frac{L_2 i^2_2(t)}{2}\mp M i_1(t) i_2(t)
 \end{align}
 چونکہ مشترکہ امالہ غیر عامل پرزہ ہے لہٰذا یہ توانائی پیدا نہیں کرتا۔یوں اس کی توانائی کبھی بھی منفی نہیں ہو سکتی۔یوں درج بالا مساوات میں غیر ضروری معلومات نہ لکھتے ہوئے درج ذیل لکھتے ہیں
@@ -918,7 +918,7 @@ M\le \sqrt{L_1 L_2}
 0\le M \le \sqrt{L_1 L_2}
 \end{align}
  کسی بھی مشترکہ امالہ کو درج ذیل لکھا جا سکتا ہے
-\begin{align}
+\begin{align}\label{مساوات_مقناطیسی_مشترک_امالہ_تعریف_الف}
 M=k\sqrt{L_1 L_2}
 \end{align}
 جہاں \عددی{k} کو \اصطلاح{ارتباطی مستقل}\فرہنگ{ارتباطی مستقل}\حاشیہب{coupling coefficient}\فرہنگ{coupling coefficient} کہتے ہیں۔آپ دیکھ سکتے ہیں کہ ارتباطی مستقل صفر تا اکائی ممکن ہے۔
@@ -929,10 +929,254 @@ M=k\sqrt{L_1 L_2}
 \begin{align}
 k=\frac{M}{\sqrt{L_1 L_2}}
 \end{align}
-ارتباطی مستقل یہ بتلاتا ہے کہ ایک لچھے کی کتنی بہاو دوسرے لچھے کے اندر سے گزرتی ہے۔اس باب کے شروع میں مشترکہ امالہ کے اشکال بناتے ہوئے ہم نے مقناطیسی قالب استعمال کیا۔مقناطیسی قالب کے استعمال سے ایک لچھے کی تقریباً تمام بہاو دوسرے لچھے سے بھی گزرتی ہے۔یوں ایسی صورت میں \عددی{k \approx 1} ہو گا۔اس کے برعکس ایک دونوں سے دور، قالب سے نہ جوڑے گئے لچھوں کی صورت میں \عددی{k=0} ہو گا چونکہ ایک لچھے کا بہاو دوسرے لچھے تک نہیں پہنچ پائے گا۔ارتباطی مستقل کی قیمت زیادہ \عددی{(k \ge 0.5)} ہونے کی صورت میں ہم کہتے ہیں کہ لچھوں کا \اصطلاح{رابطہ مضبوط}\فرہنگ{رابطہ!مضبوط}\حاشیہب{strongly coupled}\فرہنگ{coupling!strong} ہے جبکہ \عددی{k < 0.5} کی صورت میں ہم کہتے ہیں کہ لچھوں کا \اصطلاح{رابطہ کمزور}\فرہنگ{رابطہ!کمزور}\حاشیہب{weakly coupled}\فرہنگ{coupling!weak} ہے۔    
+ارتباطی مستقل یہ بتلاتا ہے کہ ایک لچھے کی کتنی بہاو دوسرے لچھے کے اندر سے گزرتی ہے۔اس باب کے شروع میں مشترکہ امالہ کے اشکال بناتے ہوئے ہم نے مقناطیسی قالب استعمال کیا۔مقناطیسی قالب کے استعمال سے ایک لچھے کی تقریباً تمام بہاو دوسرے لچھے سے بھی گزاری جا سکتی ہے۔ایسی صورت میں \عددی{k \approx 1} ہو گا۔اس کے برعکس ایک دونوں سے دور، قالب سے نہ جوڑے گئے لچھوں کی صورت میں \عددی{k=0} ہو گا چونکہ ایک لچھے کا بہاو دوسرے لچھے تک نہیں پہنچ پائے گا۔ارتباطی مستقل کی قیمت زیادہ \عددی{(k \ge 0.5)} ہونے کی صورت میں ہم کہتے ہیں کہ لچھوں کا \اصطلاح{رابطہ مضبوط}\فرہنگ{رابطہ!مضبوط}\حاشیہب{strongly coupled}\فرہنگ{coupling!strong} ہے جبکہ \عددی{k < 0.5} کی صورت میں ہم کہتے ہیں کہ لچھوں کا \اصطلاح{رابطہ کمزور}\فرہنگ{رابطہ!کمزور}\حاشیہب{weakly coupled}\فرہنگ{coupling!weak} ہے۔    
 %========================
-\ابتدا{مثال}
+\ابتدا{مثال}\شناخت{مثال_مقناطیسی_ارتباطی_مستقل_الف}
+شکل \حوالہ{شکل_مقناطیسی_ارتباطی_مستقل_الف}-الف میں \عددی{L_1=\SI{25}{\milli\henry}}، \عددی{L_2=\SI{12}{\milli\henry}} اور \عددی{k=1} ہیں۔لمحہ \عددی{t=\SI{6.2}{\milli\second}} پر مشترکہ امالہ میں ذخیرہ توانائی دریافت کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$20\cos 314t \, \si{\volt}$}]++(0,\y) to [resistor,l={$\SI{4}{\ohm}$}]++(2*\x,0)coordinate(kA) to [inductor,l_={$L_1$}]++(0,-\y) to [short] ++(-2*\x,0);
+\draw(2*\x+\x/3,0) to [inductor,l_={$L_2$}]++(0,\y)coordinate(kB) to [short]++(2*\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(0,-\y) to [short]++(-2*\x,0);
+%dots
+\draw[fill](kA)++(-0.5,-0.5) circle (\kdot);
+\draw[fill](kB)++(0.5,-0.5) circle (\kdot);
+\draw(2*\x+\x/6,\y)node[above]{$M$};
+%currents
+\draw[stealth-]([shift={(-135:\x/4)}]\x,\y/2) arc (-135:135:\x/4);
+\draw(\x,\y/2) node{$i_1(t)$};
+\draw[stealth-]([shift={(-135:\x/4)}]2*\x+\x/3+\x,\y/2) arc (-135:135:\x/4);
+\draw(2*\x+\x/3+\x,\y/2) node{$i_2(t)$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={${20\phase{0^{\circ}}\, \si{\volt}}$}]++(0,\y) to [resistor,l={$\SI{4}{\ohm}$}]++(2*\x,0)coordinate(kA) to [inductor,l_={$j7.85\,\si{\ohm}$}]++(0,-\y) to [short] ++(-2*\x,0);
+\draw(2*\x+\x/3,0) to [inductor,l_={$j3.768\,\si{\ohm}$}]++(0,\y)coordinate(kB) to [short]++(2*\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(0,-\y) to [short]++(-2*\x,0);
+%dots
+\draw[fill](kA)++(-0.5,-0.5) circle (\kdot);
+\draw[fill](kB)++(0.5,-0.5) circle (\kdot);
+\draw(2*\x+\x/6,\y)node[above]{$j5.439\,\si{\ohm}$};
+%currents
+\draw[stealth-]([shift={(-135:\x/5)}]\x,\y/2) arc (-135:135:\x/5);
+\draw(\x,\y/2) node{$\hat{I}_1$};
+\draw[stealth-]([shift={(-135:\x/5)}]2*\x+\x/3+\x,\y/2) arc (-135:135:\x/5);
+\draw(2*\x+\x/3+\x,\y/2) node{$\hat{I}_2$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_مقناطیسی_ارتباطی_مستقل_الف} کا دور۔}
+\label{شکل_مقناطیسی_ارتباطی_مستقل_الف}
+\end{figure}
 
+حل:منبع دباو سے تعدد \عددی{\omega=\SI{314}{\radian\per\second}} اور مساوات \حوالہ{مساوات_مقناطیسی_مشترک_امالہ_تعریف_الف} سے مشترکہ امالہ
+\begin{align*}
+M&=k\sqrt{L_1 L_2}=1\sqrt{(0.025)(0.012)}=\SI{17.321}{\milli\henry}
+\end{align*}
+لیتے ہوئے شکل-ب میں تعددی دائرہ کار میں دور کو دوبارہ دکھایا گیا ہے جہاں درج ذیل قیمتیں استعمال کی گئی ہیں۔
+\begin{align*}
+j\omega L_1&=j (314)(0.025)=j7.85\,\si{\ohm}\\
+j\omega L_2&=j(314)(0.012)=j3.768\,\si{\ohm}\\
+j\omega M&=j (314)(0.017321)=j5.439\,\si{\ohm}
+\end{align*}
+دونوں دائروں کے کرخوف مساوات لکھتے ہیں۔
+\begin{align*}
+20\phase{0^{\circ}}&=(4+j7.85)\hat{I}_1-j5.439\hat{I}_2\\
+0&=-j5.439\hat{I}_1+(2+j3.768)\hat{I}_2
+\end{align*}
+ان میں سے دوسری مساوات سے \عددی{\hat{I}_2} لیتے ہوئے پہلی میں پر کرتے
+\begin{align*}
+20\phase{0^{\circ}}&=(4+j7.85)\hat{I}_1-j5.439\left(\frac{j5.439 }{2+j3.768}\right)\hat{I}_1
+\end{align*}
+ہوئے \عددی{\hat{I}_1} حاصل کرتے ہیں۔
+\begin{align*}
+\hat{I}_1=\frac{20}{7.251+j1.725}=2.610-j0.621=2.683\phase{-13.38^{\circ}}\,\si{\ampere}
+\end{align*}
+اسی طرح \عددی{\hat{I}_2} درج ذیل حاصل ہوتا ہے۔
+\begin{align*}
+\hat{I}_2=\left(\frac{j5.439}{2+j3.768}\right) \hat{I}_1=3.421\phase{14.57^{\circ}}\,\si{\ampere}
+\end{align*}
+حاصل شدہ رو کو وقتی دائرہ کار میں لکھتے ہیں۔
+\begin{align*}
+i_1(t)&=2.683\cos(314t-13.38^{\circ}) \, \si{\ampere}\\
+i_2(t)&=3.421\cos(314t+14.57^{\circ})\,\si{\ampere}
+\end{align*}
+لمحہ \عددی{t=\SI{6.2}{\milli\second}} پر رو کی قیمتیں حاصل کرتے ہیں۔ایسا کرتے ہوئے زاویہ ہٹاو کو ریڈیئن میں لکھا جائے گا۔
+\begin{align*}
+i_1(t=\SI{6.2}{\milli\second})&=I_1=2.683\cos\left[(314)(0.0062)-13.38\left(\frac{\pi}{180}\right)\right]=\SI{2.487}{\ampere}\\
+i_2(t=\SI{6.2}{\milli\second})&=I_2=3.421\cos\left[(314)(0.062)+14.57\left(\frac{\pi}{180}\right)\right]=\SI{2.199}{\ampere}
+\end{align*}
+لمحہ \عددی{\SI{6.2}{\milli\second}} پر رو کی قیمتیں جاننے کے بعد مساوات \حوالہ{مساوات_مقناطیسی_توانائی_مشترکہ_امالہ_ب} سے ذخیرہ توانائی حاصل کرتے ہیں۔
+\begin{align*}
+w(t=\SI{6.2}{\milli\second})&=\frac{L_1 I_1^2}{2}+\frac{L_2 I_2^2}{2}+M I_1 I_2\\
+&=\frac{(0.025)(2.487)^2}{2}+\frac{(0.012)(2.199)^2}{2}+0.0173(2.487)(2.199)\\
+&=\SI{0.201}{\joule}
+\end{align*}
 \انتہا{مثال}
 %=========================
+\ابتدا{مشق}\شناخت{مشق_مقناطیسی_ارتباطی_مستقل_الف}
+شکل \حوالہ{شکل_مقناطیسی_مشق_ارتباطی_مستقل_الف} میں تعدد \عددی{\SI{50}{\hertz}} اور \عددی{k=0.6} ہیں۔لمحہ \عددی{t=\SI{5.5}{\milli\second}} پر مشترکہ امالہ میں ذخیرہ توانائی دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={${36\phase{45^{\circ}}\, \si{\volt}}$}]++(0,\y) to [capacitor,l={$-j44\,\si{\ohm}$}]++(2*\x,0)coordinate(kA) to [inductor,l_={$j20\,\si{\ohm}$}]++(0,-\y) to [short] ++(-2*\x,0);
+\draw(2*\x+\x/3,0) to [inductor,l_={$j15\,\si{\ohm}$}]++(0,\y)coordinate(kB) to [capacitor,l={$-j10\,\si{\ohm}$}]++(2*\x,0) to [resistor,l={$\SI{10}{\ohm}$}]++(0,-\y) to [short]++(-2*\x,0);
+%dots
+\draw[fill](kA)++(-0.5,-0.5) circle (\kdot);
+\draw[fill](kB)++(0.5,-0.5) circle (\kdot);
+\draw(2*\x+\x/6,\y)node[above]{$M$};
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_مقناطیسی_ارتباطی_مستقل_الف} کا دور۔}
+\label{شکل_مقناطیسی_مشق_ارتباطی_مستقل_الف}
+\end{figure}
 
+جواب:\عددی{\SI{24.4}{\milli\joule}}
+\انتہا{مشق}
+%====================
+
+\حصہ{کامل ٹرانسفارمر}
+شکل \حوالہ{شکل_مقناطیسی_کامل_ٹرانسفارمر} کو دیکھیے جہاں دو لچھوں کو مقناطیسی قالب پر لپیٹا گیا ہے۔یہ روزمرہ میں استعمال ہونے والا ٹرانسفارمر ہے۔ قالب میں \عددی{\phi} مقناطیسی بہاو پائی جاتی ہے۔یوں دونوں لچھوں سے یکساں بہاو گزرتی ہے۔یہ بہاو لچھوں میں درج ذیل دباو پیدا کرتی ہے۔
+\begin{align}
+v_1(t)&=N_1\frac{\dif \phi}{\dif t} \label{مساوات_مقناطیسی_ٹرانسفارمر_الف}\\
+v_2(t)&=N_2\frac{\dif \phi}{\dif t}\label{مساوات_مقناطیسی_ٹرانسفارمر_ب}
+\end{align}
+مساوات \حوالہ{مساوات_مقناطیسی_ٹرانسفارمر_الف} کو مساوات \حوالہ{مساوات_مقناطیسی_ٹرانسفارمر_ب} سے تقسیم کرتے  ہیں۔
+\begin{align}\label{مساوات_مقناطیسی_ٹرانسفارمر_پ}
+\frac{v_1(t)}{v_2(t)}=\frac{N_1\frac{\dif \phi}{\dif t}}{N_2\frac{\dif \phi}{\dif t}}=\frac{N_1}{N_2}
+\end{align}
+قانون ایمپیئر  کے تحت قالب کے گرد درج ذیل لکھا جا سکتا ہے
+\begin{align*}
+\oint H \cdot \dif l=i_{\text{گھیرا}}=N_1 i_1+N_2 i_2
+\end{align*} 
+جہاں تکمل کو قالب کے اندر گھومتے ہوئے حاصل کیا جاتا ہے جبکہ \عددی{H} قالب کے اندر \اصطلاح{مقناطیسی شدت}\فرہنگ{مقناطیسی!شدت}\حاشیہب{magnetic field intensity}\فرہنگ{magnetic field!intensity} ہے۔مقناطیسی قالب میں \عددی{H} کی قیمت قابل نظر انداز ہوتی ہے۔یوں \عددی{H} کا تکمل بھی قابل نظر انداز ہوتا ہے۔درج بالا مساوات میں تکمل کو صفر کے برابر پر کرنے سے درج ذیل 
+\begin{align}\label{مساوات_مقناطیسی_ٹرانسفارمر_ت}
+N_1 i_1 +N_2 i_2=0
+\end{align}
+یعنی
+\begin{align}\label{مساوات_مقناطیسی_ٹرانسفارمر_ٹ}
+\frac{i_1}{i_2}=-\frac{N_2}{N_1}
+\end{align}
+حاصل ہوتا ہے۔مساوات \حوالہ{مساوات_مقناطیسی_ٹرانسفارمر_ت} کو \عددی{\tfrac{v_1}{N_1}} سے ضرب دینے سے
+\begin{align}
+v_1 i_1 +\frac{N_2}{N_1}v_1 i_2=0
+\end{align}
+ملتا ہے  جس میں مساوات \حوالہ{مساوات_مقناطیسی_ٹرانسفارمر_پ} سے \عددی{\tfrac{N_2}{N_1}v_1=v_2} پر کرتے ہوئے  درج ذیل حاصل ہوتا ہے۔ 
+\begin{align}
+v_1 i_1+v_2 i_2=0
+\end{align}
+یہ مساوات کہتا ہے کہ کامل ٹرانسفارمر کو کل صفر طاقت درکار ہے یعنی کامل ٹرانسفارمر بے ضیاع پرزہ ہے۔
+%  
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\def\height{3};
+\def\width{1.5};
+\def\thick{0.4};
+\def\depthX{0.2};
+\def\depthY{0.2};
+\def\p{0.2};      %pitch
+\def\cTop{2.4}; %top of coil
+\def\TL{7};    %number of turns
+\def\cTopR{2.3}; %top of right coil
+\def\TR{6};    %number of right turns
+%flux
+\draw[gray,-stealth](\thick/2,\height-\thick) to [out=90,in=180]++(\thick/2,\thick/2) to [short]++(\width-2*\thick,0) to [out=0,in=90]++(\thick/2,-\thick/2);
+\draw(\width/2,\height-\thick/2)node[fill=white]{$\phi$};
+%core
+\draw(0,0)--++(0,\height)--++(\width,0)--++(0,-\height)--cycle;
+\draw(0,0)++(\thick,\thick)--++(0,\height-2*\thick)--++(\width-2*\thick,0)--++(0,-\height+2*\thick)--cycle;
+%
+\draw(\thick,\thick)--++(\depthX,\depthY) --++(0,\height-2*\thick-\depthY);
+\draw(\thick,\thick)--++(\depthX,\depthY) --++(\width-2*\thick-\depthX,0);
+\draw(0,\height)--++(\depthX,\depthY)--++(\width,0)--++(-\depthX,-\depthY);
+\draw(\width,0)--++(\depthX,\depthY)--++(0,\height)--++(-\depthX,-\depthY);
+%left winding
+\draw (\thick+\depthX,\cTop) to [out=45,in=0] ++(-\thick/2-\depthX,\p/2) to [short]++(-\thick/2,0) to [short] ++(-\x/4,0)coordinate(kTop);
+\foreach \l in {0,1,2,...,\TL}{
+\draw (0,\cTop-\l*\p) to [out=-135,in=45] ++(\thick+\depthX,-\p);
+}
+\draw(0,\cTop-\TL*\p-\p) to [short]++ (-\x/4,0)coordinate(kBot);
+%right winding
+\draw (\width-\thick,\cTopR) to [out=135,in=180] ++(\thick/2,\p/2) to [short]++(\thick/2+\depthX,0) to [short,i<={$i_2(t)$}] ++(\x,0)coordinate(kTopR);
+\foreach \l in {0,1,2,...,\TR}{
+\draw (\width+\depthX,\cTopR-\l*\p) to [out=-45,in=135] ++(-\thick-\depthX,-\p);
+}
+\draw(\width+\depthX,\cTopR-\TR*\p-\p) to [short]++ (\x,0)coordinate(kBotR);
+%current
+\draw(kBot) to [short]++(-3/4*\x,0);
+\draw(kTop) to [short,i<_={$i_1(t)$}]++(-3/4*\x,0);
+%box ckt
+\draw(kBot)++(-3/4*\x,-0.25)coordinate(ka) rectangle ++(-0.5,2.25);
+\draw(kBotR)++(0,-0.25)coordinate(kb) rectangle ++(0.5,2.25);
+%text
+\draw(0,\height/2) node [left]{$N_1$};
+\draw(\width+\depthX,\height/2) node [right]{$N_2$};
+\draw(ka)++(0,1) node[right]{$\begin{aligned} &+ \\ &v_1(t) \\ &- \end{aligned}$};
+\draw(kb)++(0,1) node[left]{$\begin{aligned} &+ \\ &v_2(t) \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption{ٹرانسفارمر کی ساخت۔}
+\label{شکل_مقناطیسی_کامل_ٹرانسفارمر}
+\end{figure}
+
+شکل \حوالہ{شکل_مقناطیسی_کامل_ٹرانسفارمر} میں \عددی{i_2} کی سمت الٹ کرنے سے شکل \حوالہ{شکل_مقناطیسی_کامل_ٹرانسفارمر_ب} حاصل ہوتا ہے۔اس کے مساوات درج ذیل  ہیں جہاں دونوں اطراف کے رو کی تناسب میں منفی کی علامت نہیں پائی جاتی۔  
+\begin{align}
+\frac{v_1(t)}{v_2(t)}&=\frac{N_1}{N_2}\\
+\frac{i_1(t)}{i_2(t)}&=\frac{N_2}{N_1}
+\end{align}
+ٹرانسفارمر کو شکل \حوالہ{شکل_مقناطیسی_کامل_ٹرانسفارمر} سے ظاہر کیا جاتا ہے اور درج بالا دو عدد مساوات ٹرانسفارمر کے بنیادی مساوات لکھنے کا عمومی طریقہ ہے۔ 
+
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\def\height{3};
+\def\width{1.5};
+\def\thick{0.4};
+\def\depthX{0.2};
+\def\depthY{0.2};
+\def\p{0.2};      %pitch
+\def\cTop{2.4}; %top of coil
+\def\TL{7};    %number of turns
+\def\cTopR{2.3}; %top of right coil
+\def\TR{6};    %number of right turns
+%flux
+\draw[gray,-stealth](\thick/2,\height-\thick) to [out=90,in=180]++(\thick/2,\thick/2) to [short]++(\width-2*\thick,0) to [out=0,in=90]++(\thick/2,-\thick/2);
+\draw(\width/2,\height-\thick/2)node[fill=white]{$\phi$};
+%core
+\draw(0,0)--++(0,\height)--++(\width,0)--++(0,-\height)--cycle;
+\draw(0,0)++(\thick,\thick)--++(0,\height-2*\thick)--++(\width-2*\thick,0)--++(0,-\height+2*\thick)--cycle;
+%
+\draw(\thick,\thick)--++(\depthX,\depthY) --++(0,\height-2*\thick-\depthY);
+\draw(\thick,\thick)--++(\depthX,\depthY) --++(\width-2*\thick-\depthX,0);
+\draw(0,\height)--++(\depthX,\depthY)--++(\width,0)--++(-\depthX,-\depthY);
+\draw(\width,0)--++(\depthX,\depthY)--++(0,\height)--++(-\depthX,-\depthY);
+%left winding
+\draw (\thick+\depthX,\cTop) to [out=45,in=0] ++(-\thick/2-\depthX,\p/2) to [short]++(-\thick/2,0) to [short] ++(-\x/4,0)coordinate(kTop);
+\foreach \l in {0,1,2,...,\TL}{
+\draw (0,\cTop-\l*\p) to [out=-135,in=45] ++(\thick+\depthX,-\p);
+}
+\draw(0,\cTop-\TL*\p-\p) to [short]++ (-\x/4,0)coordinate(kBot);
+%right winding
+\draw (\width-\thick,\cTopR) to [out=135,in=180] ++(\thick/2,\p/2) to [short]++(\thick/2+\depthX,0) to [short,i={$i_2(t)$}] ++(\x,0)coordinate(kTopR);
+\foreach \l in {0,1,2,...,\TR}{
+\draw (\width+\depthX,\cTopR-\l*\p) to [out=-45,in=135] ++(-\thick-\depthX,-\p);
+}
+\draw(\width+\depthX,\cTopR-\TR*\p-\p) to [short]++ (\x,0)coordinate(kBotR);
+%current
+\draw(kBot) to [short]++(-3/4*\x,0);
+\draw(kTop) to [short,i<_={$i_1(t)$}]++(-3/4*\x,0);
+%box ckt
+\draw(kBot)++(-3/4*\x,-0.25)coordinate(ka) rectangle ++(-0.5,2.25);
+\draw(kBotR)++(0,-0.25)coordinate(kb) rectangle ++(0.5,2.25);
+%text
+\draw(0,\height/2) node [left]{$N_1$};
+\draw(\width+\depthX,\height/2) node [right]{$N_2$};
+\draw(ka)++(0,1) node[right]{$\begin{aligned} &+ \\ &v_1(t) \\ &- \end{aligned}$};
+\draw(kb)++(0,1) node[left]{$\begin{aligned} &+ \\ &v_2(t) \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption{کامل ٹرانسفارمر کے دباو اور رو۔}
+\label{شکل_مقناطیسی_کامل_ٹرانسفارمر_ب}
+\end{figure}
