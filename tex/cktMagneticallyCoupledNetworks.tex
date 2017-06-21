@@ -1039,38 +1039,45 @@ w(t=\SI{6.2}{\milli\second})&=\frac{L_1 I_1^2}{2}+\frac{L_2 I_2^2}{2}+M I_1 I_2\
 %====================
 
 \حصہ{کامل ٹرانسفارمر}
-شکل \حوالہ{شکل_مقناطیسی_کامل_ٹرانسفارمر} کو دیکھیے جہاں دو لچھوں کو مقناطیسی قالب پر لپیٹا گیا ہے۔یہ روزمرہ میں استعمال ہونے والا ٹرانسفارمر ہے۔ قالب میں \عددی{\phi} مقناطیسی بہاو پائی جاتی ہے۔یوں دونوں لچھوں سے یکساں بہاو گزرتی ہے۔یہ بہاو لچھوں میں درج ذیل دباو پیدا کرتی ہے۔
+شکل \حوالہ{شکل_مقناطیسی_کامل_ٹرانسفارمر_ب}-الف کو دیکھیے جہاں دو لچھوں کو مقناطیسی قالب پر لپیٹا گیا ہے۔یہ روزمرہ میں استعمال ہونے والا ٹرانسفارمر ہے۔شکل میں دباو اور رو کی سمتیں یوں چننی گئی ہیں کہ بائیں  لچھے کو بائیں دور سے طاقت مہیا کی جا رہی ہے جبکہ دایاں لچھا دائیں ہاتھ کے دور کو طاقت فراہم کرتا ہے۔ بایاں لچھا \عددی{N_1} چکر پر مشتمل ہے اور اور یہ قالب میں گھڑی کے سوئیوں کے گھومنے کی سمت میں مقناطیسی بہاو \عددی{\phi_1} پیدا کرتا ہے۔دایاں لچھا \عددی{N_2} چکر پر مشتمل ہے اور اور یہ قالب میں گھڑی کے سوئیوں کے گھومنے کی سمت کے الٹ سمت میں مقناطیسی بہاو \عددی{\phi_2} پیدا کرتا ہے۔یوں قالب میں گھڑی کے سوئیوں کے گھومنے کی سمت میں کل مقناطیسی بہاو \عددی{\phi=\phi_1-\phi_2} پایا جائے گا۔لچھوں کو یہی بہاو \عددی{\phi} نظر آتی ہے جو لچھوں میں درج ذیل دباو پیدا کرتی ہے۔
 \begin{align}
 v_1(t)&=N_1\frac{\dif \phi}{\dif t} \label{مساوات_مقناطیسی_ٹرانسفارمر_الف}\\
 v_2(t)&=N_2\frac{\dif \phi}{\dif t}\label{مساوات_مقناطیسی_ٹرانسفارمر_ب}
 \end{align}
-مساوات \حوالہ{مساوات_مقناطیسی_ٹرانسفارمر_الف} کو مساوات \حوالہ{مساوات_مقناطیسی_ٹرانسفارمر_ب} سے تقسیم کرتے  ہیں۔
+مساوات \حوالہ{مساوات_مقناطیسی_ٹرانسفارمر_الف} کو مساوات \حوالہ{مساوات_مقناطیسی_ٹرانسفارمر_ب} سے تقسیم کرنے سے
+\begin{align*}
+\frac{v_1(t)}{v_2(t)}=\frac{N_1\frac{\dif \phi}{\dif t}}{N_2\frac{\dif \phi}{\dif t}}
+\end{align*}
+یعنی درج ذیل \اصطلاح{تبادلہ دباو}\فرہنگ{تبادلہ!دباو}\فرہنگ{دباو!تبادلہ}\حاشیہب{voltage transformation}\فرہنگ{voltage!transformation}\فرہنگ{transformation!voltage} کی مساوات ملتی ہے۔
 \begin{align}\label{مساوات_مقناطیسی_ٹرانسفارمر_پ}
-\frac{v_1(t)}{v_2(t)}=\frac{N_1\frac{\dif \phi}{\dif t}}{N_2\frac{\dif \phi}{\dif t}}=\frac{N_1}{N_2}
+\frac{v_1(t)}{v_2(t)}=\frac{N_1}{N_2} \quad \quad \text{\RL{تبادلہ دباو}}
 \end{align}
 قانون ایمپیئر  کے تحت قالب کے گرد درج ذیل لکھا جا سکتا ہے
 \begin{align*}
-\oint H \cdot \dif l=i_{\text{گھیرا}}=N_1 i_1+N_2 i_2
+\oint H \cdot \dif l=i_{\text{گھیرا}}=N_1 i_1-N_2 i_2
 \end{align*} 
-جہاں تکمل کو قالب کے اندر گھومتے ہوئے حاصل کیا جاتا ہے جبکہ \عددی{H} قالب کے اندر \اصطلاح{مقناطیسی شدت}\فرہنگ{مقناطیسی!شدت}\حاشیہب{magnetic field intensity}\فرہنگ{magnetic field!intensity} ہے۔مقناطیسی قالب میں \عددی{H} کی قیمت قابل نظر انداز ہوتی ہے۔یوں \عددی{H} کا تکمل بھی قابل نظر انداز ہوتا ہے۔درج بالا مساوات میں تکمل کو صفر کے برابر پر کرنے سے درج ذیل 
+جہاں تکمل کو قالب کے اندر گھومتے ہوئے حاصل کیا جاتا ہے جبکہ \عددی{H} قالب کے اندر \اصطلاح{مقناطیسی شدت}\فرہنگ{مقناطیسی!شدت}\حاشیہب{magnetic field intensity}\فرہنگ{magnetic field!intensity} ہے۔مقناطیسی قالب میں \عددی{H} کی قیمت قابل نظر انداز ہوتی ہے۔یوں \عددی{H} کا تکمل بھی قابل نظر انداز ہوتا ہے۔درج بالا مساوات میں تکمل کو صفر کے برابر پر کرنے سے
 \begin{align}\label{مساوات_مقناطیسی_ٹرانسفارمر_ت}
-N_1 i_1 +N_2 i_2=0
+N_1 i_1 -N_2 i_2=0
 \end{align}
-یعنی
+یعنی درج ذیل \اصطلاح{تبادلہ رو}\فرہنگ{تبادلہ!رو}\فرہنگ{رو!تبادلہ}\حاشیہب{current transformation}\فرہنگ{current!transformation}\فرہنگ{transformation!current} کی مساوات ملتی ہے۔
 \begin{align}\label{مساوات_مقناطیسی_ٹرانسفارمر_ٹ}
-\frac{i_1}{i_2}=-\frac{N_2}{N_1}
+\frac{i_1}{i_2}=\frac{N_2}{N_1}\quad \quad \text{\RL{تبادلہ رو}}
 \end{align}
-حاصل ہوتا ہے۔مساوات \حوالہ{مساوات_مقناطیسی_ٹرانسفارمر_ت} کو \عددی{\tfrac{v_1}{N_1}} سے ضرب دینے سے
+تبادلہ رو کی مساوات سے ظاہر ہے کہ کم چکر والے لچھے میں زیادہ چکر والے لچھے کی نسبت زیادہ رو پائی جاتی ہے۔یوں کم چکر والے لچھے کے لئے زیادہ موٹی تار استعمال کی جائے گی۔
+ 
+مساوات \حوالہ{مساوات_مقناطیسی_ٹرانسفارمر_ت} کو \عددی{\tfrac{v_1}{N_1}} سے ضرب دینے سے
 \begin{align}
-v_1 i_1 +\frac{N_2}{N_1}v_1 i_2=0
+v_1 i_1 -\frac{N_2}{N_1}v_1 i_2=0
 \end{align}
-ملتا ہے  جس میں مساوات \حوالہ{مساوات_مقناطیسی_ٹرانسفارمر_پ} سے \عددی{\tfrac{N_2}{N_1}v_1=v_2} پر کرتے ہوئے  درج ذیل حاصل ہوتا ہے۔ 
+ملتا ہے  جس میں مساوات \حوالہ{مساوات_مقناطیسی_ٹرانسفارمر_پ} سے \عددی{\tfrac{N_2}{N_1}v_1=v_2} پر کرتے ہوئے  درج ذیل لکھا جا سکتا ہے۔ 
 \begin{align}
-v_1 i_1+v_2 i_2=0
+v_1 i_1=v_2 i_2
 \end{align}
-یہ مساوات کہتا ہے کہ کامل ٹرانسفارمر کو کل صفر طاقت درکار ہے یعنی کامل ٹرانسفارمر بے ضیاع پرزہ ہے۔
-%  
+یہ مساوات کہتا ہے کہ کامل ٹرانسفارمر وہی طاقت دائیں ہاتھ کے دور کو فراہم کرتا ہے جو اسے بائیں ہاتھ کے دور سے ملتا ہے۔اس حقیقت کو یوں بھی بیان کیا جا سکتا ہے کہ کامل ٹرانسفارمر میں طاقت کا ضیاع صفر ہے۔
 \begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
 \centering
 \begin{tikzpicture}[american voltages]
 \def\height{3};
@@ -1101,82 +1108,244 @@ v_1 i_1+v_2 i_2=0
 }
 \draw(0,\cTop-\TL*\p-\p) to [short]++ (-\x/4,0)coordinate(kBot);
 %right winding
-\draw (\width-\thick,\cTopR) to [out=135,in=180] ++(\thick/2,\p/2) to [short]++(\thick/2+\depthX,0) to [short,i<={$i_2(t)$}] ++(\x,0)coordinate(kTopR);
+\draw (\width-\thick,\cTopR) to [out=135,in=180] ++(\thick/2,\p/2) to [short]++(\thick/2+\depthX,0) to [short,-o]++(\x/2,0)coordinate(kTopR) to  [short,o-,i={$i_2$}] ++(\x/2,0)++(0,0.25)coordinate(kka);
 \foreach \l in {0,1,2,...,\TR}{
 \draw (\width+\depthX,\cTopR-\l*\p) to [out=-45,in=135] ++(-\thick-\depthX,-\p);
 }
-\draw(\width+\depthX,\cTopR-\TR*\p-\p) to [short]++ (\x,0)coordinate(kBotR);
+\draw(\width+\depthX,\cTopR-\TR*\p-\p) to [short,-o]++(\x/2,0)coordinate(kBotR) to [short,o-]++ (\x/2,0)++(0.5,-0.25)coordinate(kkb);
 %current
-\draw(kBot) to [short]++(-3/4*\x,0);
-\draw(kTop) to [short,i<_={$i_1(t)$}]++(-3/4*\x,0);
+\draw(kTop) to [short]++(-\x/2,0)coordinate(kvT) to [short,o-,i<_={$i_1$}]++(-\x/2,0)++(-0.5,0.25)coordinate(ka);
+\draw(kBot) to [short] ++(-\x/2,0)coordinate(kvB) to [short,o-]++(-\x/2,0)++(0,-0.25)coordinate(kb);
 %box ckt
-\draw(kBot)++(-3/4*\x,-0.25)coordinate(ka) rectangle ++(-0.5,2.25);
-\draw(kBotR)++(0,-0.25)coordinate(kb) rectangle ++(0.5,2.25);
+\draw(ka) rectangle (kb);
+\draw(kka) rectangle (kkb);
+%dots
+\draw[](-0.3,\height-0.3) node[circ]{};
+\draw[](\width+\depthX+0.3,\height-0.3) node[circ]{};
 %text
+\draw($(ka)!0.5!(kb)$)node[rotate=90]{\RL{بایاں دور}};
+\draw($(kka)!0.5!(kkb)$)node[rotate=90]{\RL{دایاں دور}};
 \draw(0,\height/2) node [left]{$N_1$};
 \draw(\width+\depthX,\height/2) node [right]{$N_2$};
-\draw(ka)++(0,1) node[right]{$\begin{aligned} &+ \\ &v_1(t) \\ &- \end{aligned}$};
-\draw(kb)++(0,1) node[left]{$\begin{aligned} &+ \\ &v_2(t) \\ &- \end{aligned}$};
+\draw($(kvT)!0.5!(kvB)$) node[]{$\begin{aligned} &+ \\ &v_1 \\ &- \end{aligned}$};
+\draw($(kTopR)!0.5!(kBotR)$) node[]{$\begin{aligned} &+ \\ &v_2 \\ &- \end{aligned}$};
+\draw[stealth-](4/5*\width,\height+\depthY) to [out=90,in=180]++(0.5,0.3)node[right]{\RL{قالب}};
 \end{tikzpicture}
-\caption{ٹرانسفارمر کی ساخت۔}
-\label{شکل_مقناطیسی_کامل_ٹرانسفارمر}
-\end{figure}
-
-شکل \حوالہ{شکل_مقناطیسی_کامل_ٹرانسفارمر} میں \عددی{i_2} کی سمت الٹ کرنے سے شکل \حوالہ{شکل_مقناطیسی_کامل_ٹرانسفارمر_ب} حاصل ہوتا ہے۔اس کے مساوات درج ذیل  ہیں جہاں دونوں اطراف کے رو کی تناسب میں منفی کی علامت نہیں پائی جاتی۔  
-\begin{align}
-\frac{v_1(t)}{v_2(t)}&=\frac{N_1}{N_2}\\
-\frac{i_1(t)}{i_2(t)}&=\frac{N_2}{N_1}
-\end{align}
-ٹرانسفارمر کو شکل \حوالہ{شکل_مقناطیسی_کامل_ٹرانسفارمر} سے ظاہر کیا جاتا ہے اور درج بالا دو عدد مساوات ٹرانسفارمر کے بنیادی مساوات لکھنے کا عمومی طریقہ ہے۔ 
-
-\begin{figure}
+\caption*{(الف) کامل ٹرانسفارمر کی بناوٹ۔}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
 \centering
-\begin{tikzpicture}[american voltages]
-\def\height{3};
-\def\width{1.5};
-\def\thick{0.4};
-\def\depthX{0.2};
-\def\depthY{0.2};
-\def\p{0.2};      %pitch
-\def\cTop{2.4}; %top of coil
-\def\TL{7};    %number of turns
-\def\cTopR{2.3}; %top of right coil
-\def\TR{6};    %number of right turns
-%flux
-\draw[gray,-stealth](\thick/2,\height-\thick) to [out=90,in=180]++(\thick/2,\thick/2) to [short]++(\width-2*\thick,0) to [out=0,in=90]++(\thick/2,-\thick/2);
-\draw(\width/2,\height-\thick/2)node[fill=white]{$\phi$};
-%core
-\draw(0,0)--++(0,\height)--++(\width,0)--++(0,-\height)--cycle;
-\draw(0,0)++(\thick,\thick)--++(0,\height-2*\thick)--++(\width-2*\thick,0)--++(0,-\height+2*\thick)--cycle;
-%
-\draw(\thick,\thick)--++(\depthX,\depthY) --++(0,\height-2*\thick-\depthY);
-\draw(\thick,\thick)--++(\depthX,\depthY) --++(\width-2*\thick-\depthX,0);
-\draw(0,\height)--++(\depthX,\depthY)--++(\width,0)--++(-\depthX,-\depthY);
-\draw(\width,0)--++(\depthX,\depthY)--++(0,\height)--++(-\depthX,-\depthY);
-%left winding
-\draw (\thick+\depthX,\cTop) to [out=45,in=0] ++(-\thick/2-\depthX,\p/2) to [short]++(-\thick/2,0) to [short] ++(-\x/4,0)coordinate(kTop);
-\foreach \l in {0,1,2,...,\TL}{
-\draw (0,\cTop-\l*\p) to [out=-135,in=45] ++(\thick+\depthX,-\p);
-}
-\draw(0,\cTop-\TL*\p-\p) to [short]++ (-\x/4,0)coordinate(kBot);
-%right winding
-\draw (\width-\thick,\cTopR) to [out=135,in=180] ++(\thick/2,\p/2) to [short]++(\thick/2+\depthX,0) to [short,i={$i_2(t)$}] ++(\x,0)coordinate(kTopR);
-\foreach \l in {0,1,2,...,\TR}{
-\draw (\width+\depthX,\cTopR-\l*\p) to [out=-45,in=135] ++(-\thick-\depthX,-\p);
-}
-\draw(\width+\depthX,\cTopR-\TR*\p-\p) to [short]++ (\x,0)coordinate(kBotR);
-%current
-\draw(kBot) to [short]++(-3/4*\x,0);
-\draw(kTop) to [short,i<_={$i_1(t)$}]++(-3/4*\x,0);
-%box ckt
-\draw(kBot)++(-3/4*\x,-0.25)coordinate(ka) rectangle ++(-0.5,2.25);
-\draw(kBotR)++(0,-0.25)coordinate(kb) rectangle ++(0.5,2.25);
-%text
-\draw(0,\height/2) node [left]{$N_1$};
-\draw(\width+\depthX,\height/2) node [right]{$N_2$};
-\draw(ka)++(0,1) node[right]{$\begin{aligned} &+ \\ &v_1(t) \\ &- \end{aligned}$};
-\draw(kb)++(0,1) node[left]{$\begin{aligned} &+ \\ &v_2(t) \\ &- \end{aligned}$};
+\begin{tikzpicture}
+\draw(0,0)node[transformer core](T){};
+\draw (T)node[above]{$N_1:N_2$};
+\draw(T.A1)++(0.4,-0.4)node[circ]{};
+\draw(T.B1)++(-0.4,-0.4)node[circ]{};
+\draw($(T.A1)!0.5!(T.A2)$)node{$\begin{aligned} &+ \\ &v_1 \\ &- \end{aligned}$};
+\draw($(T.B1)!0.5!(T.B2)$)node{$\begin{aligned} &+ \\ & v_2 \\ &- \end{aligned}$};
+\draw(T.A1) to [short,o-,i<_={$ i_1$}]++(-\x,0)++(0,0.25)coordinate(kTL);
+\draw(T.A2) to [short,o-]++(-\x,0)++(-0.5,-0.25)coordinate(kBL);
+\draw(kBL) rectangle (kTL);
+\draw($(kBL)!0.5!(kTL)$)node[rotate=90]{\RL{بایاں دور}};
+\draw(T.B1) to [short,o-,i={$ i_2$}]++(\x,0)++(0,0.25)coordinate(kA);
+\draw(T.B2) to [short,o-]++(\x,0)++(0.5,-0.25)coordinate(kB);
+\draw(kA) rectangle (kB);
+\draw($(kA)!0.5!(kB)$)node[rotate=90]{\RL{دایاں دور}};
 \end{tikzpicture}
-\caption{کامل ٹرانسفارمر کے دباو اور رو۔}
+\caption*{(ب) کامل ٹرانسفارمر کی علامت۔}
+\end{subfigure}
+\caption{کامل ٹرانسفارمر۔}
 \label{شکل_مقناطیسی_کامل_ٹرانسفارمر_ب}
 \end{figure}
+
+شکل \حوالہ{شکل_مقناطیسی_کامل_ٹرانسفارمر_ب}-ب میں کامل ٹرانسفارمر کی علامت دکھائی گئی ہے جہاں لچھوں کے درمیان افقی لکیریں مقناطیسی قالب کو ظاہر کرتی ہیں۔ بالائی جانب لچھوں کے چکروں کی نسبت \عددی{(N_1:N_2)} لکھی گئی ہے۔ہم جلد دیکھیں گے کہ ٹرانسفارمر استعمال کرنے والے ادوار میں  ٹرانسفارمر کے لچھوں کی امالہ \عددی{L_1} اور \عددی{L_2} جاننا ضروری نہیں ہوتا۔اسی طرح لچھوں کی مشترکہ امالہ \عددی{M} جاننا بھی درکار نہیں ہوتا۔یہی وجہ ہے کہ ان معلومات کا ذکر ٹرانسفارمر کی علامت پر نہیں کیا گیا ہے۔اس شکل میں ٹرانسفارمر کی علامت پر دونوں جانب کی رو اور دباو بھی دکھائے گئے ہیں۔ 
+
+شکل \حوالہ{شکل_مقناطیسی_ٹرانسفارمر_تبادلہ_بوجھ}-الف میں ٹرانسفارمر کے دائیں ہاتھ بوجھ \عددی{\bZ_L} لدا ہے۔دائیں جانب کے دباو اور رو کا تعلق درج ذیل ہے۔ 
+\begin{align}\label{مساوات_مقناطیسی_بوجھ}
+\bZ_L=\frac{\hat{V}_2}{\hat{I}_2}
+\end{align}
+یوں \عددی{\hat{V}_2=20\phase{30^{\circ}}\,\si{\volt}} اور \عددی{\hat{I}_2=2\phase{45^{\circ}}\,\si{\ampere}} کی صورت میں ٹرانسفارمر کے دائیں لچھے کو \عددی{10\phase{-15^{\circ}}\,\si{\ohm}} رکاوٹ نظر آئے گی۔اسی طرح بائیں جانب کے دور کو رکاوٹ \عددی{\bZ_L'} نظر آئے گی
+\begin{align}
+\bZ_L'=\frac{\hat{V}_1}{\hat{I}_1}
+\end{align}
+جسے مساوات \حوالہ{مساوات_مقناطیسی_ٹرانسفارمر_پ} اور مساوات \حوالہ{مساوات_مقناطیسی_ٹرانسفارمر_ٹ} کی مدد سے درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+\bZ_L' &=\frac{\frac{N_1}{N_2}\hat{V}_2}{\frac{N_2}{N_1}\hat{I}_2}=\left(\frac{N_1}{N_2}\right)^2\frac{\hat{V}_2}{\hat{I}_2}
+\end{align*}
+مساوات \حوالہ{مساوات_مقناطیسی_بوجھ} کو استعمال کرتے ہوئے ٹرانسفارمر پر لدے رکاوٹ \عددی{\bZ_L} اور بائیں جانب دور کو نظر آنے والی رکاوٹ \عددی{\bZ_L'} کا تعلق ملتا ہے جسے \اصطلاح{تبادلہ رکاوٹ}\فرہنگ{تبادلہ!رکاوٹ}\فرہنگ{رکاوٹ!تبادلہ}\حاشیہب{impedance transformation}\فرہنگ{impedance!transformation}\فرہنگ{transformation!impedance} کی مساوات کہتے ہیں۔
+\begin{align}
+\bZ_L'=\left(\frac{N_1}{N_2}\right)^2 \bZ_L \quad \quad \text{\RL{تبادلہ رکاوٹ}}
+\end{align}
+یوں جیسا شکل \حوالہ{شکل_مقناطیسی_ٹرانسفارمر_تبادلہ_بوجھ}-ب میں دکھایا گیا ہے، بائیں ہاتھ کے دور کو ٹرانسفارمر بمع بوجھ \عددی{\bZ_L} کی جگہ متبادل بوجھ \عددی{\bZ_L'} نظر آتا ہے۔
+% 
+\begin{figure}
+\centering
+\begin{subfigure}{0.6\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)node[transformer core](T){};
+\draw (T)node[above]{$N_1:N_2$};
+\draw(T.A1)++(0.4,-0.4)node[circ]{};
+\draw(T.B1)++(-0.4,-0.4)node[circ]{};
+\draw($(T.A1)!0.5!(T.A2)$)node{$\begin{aligned} &+ \\ &\hat{V}_1 \\ &- \end{aligned}$};
+\draw($(T.B1)!0.5!(T.B2)$)node{$\begin{aligned} &+ \\ &\hat{V}_2 \\ &- \end{aligned}$};
+\draw(T.A1) to [short,o-,i<_={$\hat{I}_1$}]++(-\x,0)++(0,0.25)coordinate(kTL);
+\draw(T.A2) to [short,o-]++(-\x,0)++(-0.5,-0.25)coordinate(kBL);
+\draw(kBL) rectangle (kTL);
+\draw($(kBL)!0.5!(kTL)$)node[rotate=90]{\RL{بایاں دور}};
+\draw(T.B1) to [short,o-,i={$\hat{I}_2$}]++(\x,0) to [european resistor,l={$\bZ_L$}]++(0,-\y)coordinate(kB);
+\draw(T.B2) to [short,o-]++(\x,0)-|(kB);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.4\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short]++(\x/2,0) to [short,o-]++(\x/2,0) to [european resistor,l_={$\bZ_L'$}]++(0,\y) to [short,-o]++(-\x/2,0) to [short,i<_={$\hat{I}_1$}]++(-\x/2,0);
+\draw(\x/2,\y/2)node{$\begin{aligned} &+ \\ & \hat{V}_1 \\ &- \end{aligned}$};
+\draw(0,-0.25) rectangle (-0.5,\y+0.5);
+\draw(-0.25,\y/2)node[rotate=90]{\RL{بایاں دور}};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{تبادلہ بوجھ۔}
+\label{شکل_مقناطیسی_ٹرانسفارمر_تبادلہ_بوجھ}
+\end{figure}
+%===========================
+\ابتدا{مثال}\شناخت{مثال_مقناطیسی_ٹرانسفارمر_مثال_الف}
+شکل \حوالہ{شکل_مقناطیسی_ٹرانسفارمر_مثال_الف} میں تمام دباو اور رو حاصل کریں۔ٹرانسفارمر کے دائیں لچھے کو کتنی مزاحمت نظر آتی ہے۔منبع کو کتنی مزاحمت نظر آتی ہے۔مساوات \حوالہ{مساوات_مقناطیسی_ٹرانسفارمر_پ} کے تحت زیادہ چکر والی جانب پر زیادہ دباو پایا جاتا ہے۔زیادہ چکروں والی جانب کو ٹرانسفارمر کی \اصطلاح{زیادہ دباو والی جانب}\فرہنگ{زیادہ دباو!جانب}\فرہنگ{جانب!زیادہ دباو}\حاشیہب{high voltage side, high tension side, HT}\فرہنگ{high voltage side}\فرہنگ{HT} کہا جاتا ہے جبکہ کم چکروں والی جانب کو ٹرانسفارمر کی \اصطلاح{کم دباو والی جانب}\فرہنگ{کم دباو!جانب}\فرہنگ{جانب!کم دباو}\حاشیہب{low voltage side,low tension side, LT}\فرہنگ{low voltage side}\فرہنگ{LT} کہا جاتا ہے۔ 
+\begin{figure}
+\centering
+\begin{subfigure}{0.6\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) node[transformer core](T){};
+\draw (T)node[above]{$200:50$};
+\draw(T.A1)++(0.4,-0.4)node[circ]{};
+\draw(T.B1)++(-0.4,-0.4)node[circ]{};
+\draw(T.A2) to [short,o-]++(-\x/2,0) to [american voltage source,l={$40\phase{0^{\circ}}\,\si{volt}$}]++(0,\y)coordinate(kTop);
+\draw(T.A1) to  [short,o-,i<_={$\hat{I}_m$}]++(-\x/2,0) |-(kTop);
+\draw(T.B1) to [short,o-,i={$\hat{I}_L$}]++(\x/2,0) to [resistor,l={$\SI{1}{\ohm}$},v={$\hat{V}_L$}]++(0,-\y)coordinate(kB);
+\draw(T.B2) to [short,o-]++(\x/3,0)-|(kB);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.4\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short]++(\x/3,0) to [short,o-]++(\x/3,0) to [resistor,l_={$\SI{16}{\ohm}$}]++(0,\y) to [short,-o]++(-\x/3,0) to [short,i<_={$\hat{I}_m$}]++(-\x/3,0);
+\draw(0,0) to [american voltage source,l={$40\phase{0^{\circ}}\,\si{\volt}$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{مثال \حوالہ{مثال_مقناطیسی_ٹرانسفارمر_مثال_الف} کا دور۔}
+\label{شکل_مقناطیسی_ٹرانسفارمر_مثال_الف}
+\end{figure}
+
+حل:ٹرانسفارمر کے چکروں کی تناسب \عددی{200:50} سے ٹرانسفارمر کی کم دباو جانب دباو حاصل کرتے ہیں۔
+\begin{align*}
+\hat{V}_L=(40\phase{0^{\circ}})\left(\frac{50}{200}\right)=10\phase{0^{\circ}} \, \si{\volt}
+\end{align*}
+بوجھ کا دباو جانتے ہوئے اس کی رو حاصل کرتے ہیں
+\begin{align*}
+\hat{I}_L=\frac{\hat{V}_L}{\bZ_L}=\frac{10\phase{0^{\circ}}}{1}=10\phase{0^{\circ}}\,\si{\ampere}
+\end{align*}
+جس سے منبع کی رو، یعنی زیادہ دباو والی جانب کی رو، حاصل کی جا سکتی ہے۔
+\begin{align*}
+\hat{I}_m=\left(\frac{N_2}{N_1}\right)\hat{I}_L=\left(\frac{50}{200}\right)(10\phase{0^{\circ}})=2.5\phase{0^{\circ}}\,\si{\ampere}
+\end{align*}
+جیسا شکل \حوالہ{شکل_مقناطیسی_ٹرانسفارمر_مثال_الف}-ب میں دکھایا گیا ہے، منبع کو ٹرانسفارمر بمع بوجھ، متبادل مزاحمت \عددی{\bZ_L'} نظر آتا ہے
+\begin{align*}
+\bZ_L'=\left(\frac{N_1}{N_2}\right)^2 \bZ_L=\left(\frac{200}{50}\right)^2 (\SI{1}{\ohm})=\SI{16}{\ohm}
+\end{align*} 
+جس سے منبع کی رو حاصل کی جا سکتی ہے۔
+\begin{align*}
+\hat{I}_m=\frac{40\phase{0^{\circ}}}{16}=2.5\phase{0^{\circ}}\,\si{\ampere}
+\end{align*}
+\انتہا{مثال}
+%============================
+
+\ابتدا{مثال}\شناخت{مثال_مقناطیسی_ٹرانسفارمر_مثال_ب}
+شکل \حوالہ{شکل_مقناطیسی_ٹرانسفارمر_مثال_ب}-الف میں تمام اجزاء کو ٹرانسفارمر کے بائیں جانب منتقل کرتے ہوئے منبع کی رو حاصل کریں۔اس رو سے بوجھ کی رو حاصل کریں۔ٹرانسفارمر کے ایک لچھے پر منبع سے طاقت فراہم کی جاتی ہے جبکہ ٹرانسفارمر اسی طاقت کو دوسرے لچھے  پر بیرونی جڑے دور کو فراہم کرتا ہے۔ٹرانسفارمر کو جس لچھے پر منبع سے طاقت فراہم کی جاتی ہے اس کو ٹرانسفارمر کا \اصطلاح{داخلی  لچھا}\فرہنگ{داخلی لچھا} یا \اصطلاح{ابتدائی لچھا}\فرہنگ{ابتدائی لچھا}\حاشیہب{primary coil}\فرہنگ{primary coil} کہا جاتا ہے اور ٹرانسفارمر کے اس ہاتھ کو \اصطلاح{داخلی ہاتھ}\فرہنگ{داخلی ہاتھ}\حاشیہب{input side}\فرہنگ{input side} یا \اصطلاح{ابتدائی جانب}\حاشیہب{primary side}\فرہنگ{primary side}کہا جاتا ہے۔جو لچھا بقایا دور کو طاقت فراہم کرتا ہے اس کو \اصطلاح{خارجی لچھا}\فرہنگ{خارجی لچھا} یا \اصطلاح{ثانوی لچھا}\فرہنگ{ثانوی لچھا}\حاشیہب{secondary coil}\فرہنگ{secondary coil} کہا جاتا ہے جبکہ ٹرانسفارمر کے اس ہاتھ کو \اصطلاح{خارجی ہاتھ}\فرہنگ{خارجی ہاتھ}\حاشیہب{output side}\فرہنگ{output side} یا \اصطلاح{ثانوی جانب}\حاشیہب{secondary side} کہا جاتا ہے۔ یوں شکل \حوالہ{شکل_مقناطیسی_ٹرانسفارمر_مثال_ب} میں ٹرانسفارمر کے بائیں جانب کو داخلی جانب یا زیادہ دباو والا ہاتھ یا ابتدائی ہاتھ پکارا جا سکتا ہے جبکہ ٹرانسفارمر کے دائیں جانب کو خارجی جانب یا کم دباو والا جانب یا ثانوی جان پکارا جاتسکا ہے۔یہاں یہ جاننا ضروری ہے کہ ٹرانسفارمر کے کسی بھی لچھے پر طاقت مہیا کرتے ہوئے دوسرے لچھے سے طاقت حاصل کی جا سکتی ہے لہٰذا ان اصطلاحات کو استعمال کرتے ہوئے ذرہ خیال رکھنا ضروری ہے۔ ادوار بناتے ہوئے داخلی لچھے کو عموماً بائیں جانب دکھایا جاتا ہے۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) node[transformer core](T){};
+\draw (T)node[above]{$400:40$};
+\draw(T.A1)++(0.4,-0.4)node[circ]{};
+\draw(T.B1)++(-0.4,-0.4)node[circ]{};
+\draw(T.A2) to [short,o-]++(-\x,0) to [american voltage source,l={$230\phase{0^{\circ}}\,\si{volt}$}]++(0,\y)coordinate(kTop);
+\draw(T.A1) to  [european resistor,o-,i_<={$\hat{I}_m$},l_={$6-j2 \,\si{\ohm}$}]++(-\x,0) |-(kTop);
+\draw(T.B1) to [short,o-,i={$\hat{I}_L$}]++(\x/2,0) to [european resistor,l={$0.04+j0.05 \, \si{\ohm}$},v={$\hat{V}_L$}]++(0,-\y)coordinate(kB);
+\draw(T.B2) to [short,o-]++(\x/3,0)-|(kB);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short]++(\x,0) to [short,o-]++(\x/3,0) to [european resistor,l_={$4+j5 \, \si{\ohm}$}]++(0,\y) to [short,-o]++(-\x/3,0)
+ to [european resistor,i_<={$\hat{I}_m$},l_={$6-j2 \,\si{\ohm}$}]++(-\x,0);
+\draw(0,0) to [american voltage source,l={$230\phase{0^{\circ}}\,\si{\volt}$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{مثال \حوالہ{مثال_مقناطیسی_ٹرانسفارمر_مثال_ب} کا دور۔}
+\label{شکل_مقناطیسی_ٹرانسفارمر_مثال_ب}
+\end{figure}
+
+حل:چکروں کی تناسب سے متبادل رکاوٹ حاصل کرتے ہیں۔
+\begin{align*}
+\bZ_L'=\left(\frac{N_1}{N_2}\right)^2\bZ_L=\left(\frac{400}{40}\right)^2 (0.04+j0.05)=4+j5 \, \si{\ohm}
+\end{align*}
+ٹرانسفارمر اور بوجھ کی جگہ متبادل رکاوٹ نسب کرتے ہوئے شکل \حوالہ{شکل_مقناطیسی_ٹرانسفارمر_مثال_ب}-ب ملتا ہے جہاں سے منبع کی رو حاصل کی جا سکتی ہے۔
+\begin{align*}
+\hat{I}_m=\frac{230\phase{0^{\circ}}}{6-j2+4+j5}=22\phase{-16.7^{\circ}}\,\si{\ampere}
+\end{align*}
+ٹرانسفارمر کی بوجھ جانب رو درج ذیل ہو گی۔
+\begin{align*}
+\hat{I}_L=\left(\frac{400}{40}\right)\hat{I}_m=\left(\frac{400}{40}\right)(22\phase{-16.7^{\circ}})=220\phase{-16.7^{\circ}} \, \si{\ampere}
+\end{align*}
+\انتہا{مثال}
+%=======================
+\ابتدا{مثال}\شناخت{مثال_مقناطیسی_ثانوی_جانب_منتقلی}
+شکل \حوالہ{شکل_مقناطیسی_ٹرانسفارمر_مثال_ب} میں تمام معلومات کو ثانوی جانب منتقل کرتے ہوئے بوجھ کی رو اور دباو دریافت کریں۔
+
+حل:تبادلہ کئے گئی قیمتوں پر \عددی{(')} کی علامت استعمال کی جاتی ہے۔ ابتدائی جانب لاگو دباو کو ثانوی جانب منتقل کرتے ہوئے درج ذیل حاصل ہوتا ہے۔
+\begin{align*}
+\hat{V}_m'=\frac{N_2}{N_1} \hat{V}_m=\frac{40}{400} (230\phase{0^{\circ}})=23\phase{0^{\circ}}\,\si{\volt}
+\end{align*}
+اسی طرح ابتدائی جانب رکاوٹ کو ثانوی جانب منتقل کرتے ہوئے درج ذیل رکاوٹ ملتی ہے۔
+\begin{align*}
+\bZ'=\frac{40^2}{400^2} (6-j2)=0.06-j0.02\,\si{\ohm}
+\end{align*}
+ان معلومات کو استعمال کرتے ہوئے شکل \حوالہ{شکل_مقناطیسی_ثانوی_جانب_منتقلی} حاصل ہوتا ہے جس سے  بوجھ کی رو لکھتے ہیں۔
+\begin{align*}
+\hat{I}_L=\frac{23\phase{0^{\circ}}}{0.06-j0.02+0.04+j0.05}=220\phase{-16.7^{\circ}}\,\si{\ampere}
+\end{align*}
+بوجھ کا دباو تقسیم دباو سے حاصل کرتے ہیں۔
+\begin{align*}
+\hat{V}_L=23\phase{0^{\circ}} \left(\frac{0.04+j0.05}{0.06-j0.02+0.04+j0.05}\right)=14.1\phase{34.64^{\circ}}\,\si{\volt}
+\end{align*}
+اسی جواب کو قانون اوہم سے بھی حاصل کیا جا سکتا ہے یعنی
+\begin{align*}
+\hat{V}_L=\hat{I}_L \bZ_L=(220\phase{-16.7^{\circ}})(0.04+j0.05)=14.1\phase{34.64^{\circ}}\,\si{\volt}
+\end{align*}
+ابتدائی رو کو تبادلہ رو کی مساوات سے حاصل کرتے ہیں۔
+\begin{align*}
+\hat{I}_m=\frac{N_2}{N_1} \hat{I}_L=\frac{40}{400} (220\phase{-16.7^{\circ}})=22\phase{-16.7^{\circ}}\,\si{\ampere}
+\end{align*}
+%
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short]++(\x+\x/2,0) to [short,o-]++(\x/3,0) to [european resistor,l_={$0.04+j0.05 \, \si{\ohm}$}]++(0,\y) to [short,i_<={$\hat{I}_L$},-o]++(-\x/3,0)
+ to [european resistor,l_={$0.06-j0.02 \,\si{\ohm}$}]++(-\x,0) to [short,i_<={$\hat{I}'_m$}]++(-\x/2,0);
+\draw(0,0) to [american voltage source,l={$23\phase{0^{\circ}}\,\si{\volt}$}]++(0,\y);
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_مقناطیسی_ثانوی_جانب_منتقلی} کا دور جس میں تمام معلومات ثانوی جانب منتقل کی گئی ہیں۔}
+\label{شکل_مقناطیسی_ثانوی_جانب_منتقلی}
+\end{figure}
+
+\انتہا{مثال}
