@@ -1074,7 +1074,7 @@ v_1 i_1 -\frac{N_2}{N_1}v_1 i_2=0
 \begin{align}
 v_1 i_1=v_2 i_2
 \end{align}
-یہ مساوات کہتا ہے کہ کامل ٹرانسفارمر وہی طاقت دائیں ہاتھ کے دور کو فراہم کرتا ہے جو اسے بائیں ہاتھ کے دور سے ملتا ہے۔اس حقیقت کو یوں بھی بیان کیا جا سکتا ہے کہ کامل ٹرانسفارمر میں طاقت کا ضیاع صفر ہے۔
+یہ مساوات کہتا ہے کہ کامل ٹرانسفارمر وہی طاقت دائیں ہاتھ کے دور کو فراہم کرتا ہے جو اسے بائیں ہاتھ کے دور سے ملتا ہے۔اس حقیقت کو یوں بھی بیان کیا جا سکتا ہے کہ کامل ٹرانسفارمر میں طاقت کا ضیاع صفر ہے۔حقیقی ٹرانسفارمر میں طاقت کا ضیاع انتہائی کم ہوتا ہے جسے اس کتاب میں نظر انداز کیا جائے گا۔ 
 \begin{figure}
 \centering
 \begin{subfigure}{1\textwidth}
@@ -1349,3 +1349,435 @@ v_1 i_1=v_2 i_2
 \end{figure}
 
 \انتہا{مثال}
+%=====================
+\ابتدا{مثال}\شناخت{مثال_مقناطیسی_ٹرانسفارمر_الٹ_دباو_الف}
+شکل\حوالہ{شکل_مقناطیسی_ٹرانسفارمر_الٹ_دباو_الف}-الف میں تمام نا معلوم مقدار حاصل کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) node[transformer core](T){};
+\draw (T)node[above]{$5:1$};
+\draw(T.A1)++(0.4,-0.4)node[circ]{};
+\draw(T.B2)++(-0.4,0.4)node[circ]{};
+\draw(T.A2) to [short,o-]++(-\x-\x/2,0) to [american voltage source,l={$100\phase{0^{\circ}}\,\si{volt}$}]++(0,\y)coordinate(kTop);
+\draw(T.A1) to  [european resistor,o-,l_={$2+j4 \,\si{\ohm}$}]++(-\x,0) to [short,i_<={$\hat{I}_1$}]++(-\x/2,0) |-(kTop);
+\draw(T.B1) to [european resistor,l={$0.1+j0.6$},o-]++(\x,0) to [short,i={$\hat{I}_2$}] ++(\x/2,0) to [european resistor,l={$0.2-j1 \, \si{\ohm}$},v={$\hat{V}_L$}]++(0,-\y)coordinate(kB);
+\draw(T.B2) to [short,o-]++(\x/3,0)-|(kB);
+\draw($(T.A1)!0.5!(T.A2)$)node{$\begin{aligned}&+ \\ &\hat{V}_1 \\ &-  \end{aligned}$};
+\draw($(T.B1)!0.5!(T.B2)$)node{$\begin{aligned}&+ \\ &\hat{V}_2 \\ &-  \end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [short]++(\x+\x/2,0) to [short,o-]++(\x/3,0) to [european resistor,l_={$7.5-j10 \, \si{\ohm}$},v^>={$\hat{V}_1$}]++(0,\y) to [short,-o]++(-\x/3,0)
+ to [european resistor,l_={$2+j4 \,\si{\ohm}$}]++(-\x,0) to [short,i_<={$\hat{I}_1$}]++(-\x/2,0);
+\draw(0,0) to [american voltage source,l={$100\phase{0^{\circ}}\,\si{\volt}$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_مقناطیسی_ٹرانسفارمر_الٹ_دباو_الف} کا دور۔}
+\label{شکل_مقناطیسی_ٹرانسفارمر_الٹ_دباو_الف}
+\end{figure}
+
+حل:شکل \حوالہ{شکل_مقناطیسی_ٹرانسفارمر_الٹ_دباو_الف}-الف میں نقطوں کا مقام شکل \حوالہ{شکل_مقناطیسی_کامل_ٹرانسفارمر_ب}-ب سے مختلف ہے لہٰذا دھیان سے چلنا ہو گا۔موجودہ شکل میں تبادلہ دباو اور تبادلہ رو کے مساوات درج ذیل لکھے جائیں گے۔
+\begin{align*}
+\frac{\hat{V}_1}{\hat{V}_2}&=-\frac{5}{1}\\
+\frac{\hat{I}_1}{\hat{I}_2}&=-\frac{1}{5}
+\end{align*}
+جبکہ تبادلہ رکاوٹ کی مساوات تبدیل نہیں ہو گی۔ثانوی جانب کل رکاوٹ کو ابتدائی جانب منتقل کرتے ہیں۔
+\begin{align*}
+\bZ_2'=\left(\frac{5}{1}\right)^2 (0.1+0.6j+0.2-j1)=7.5-j10\,\si{\ohm}
+\end{align*} 
+یوں شکل \حوالہ{شکل_مقناطیسی_ٹرانسفارمر_الٹ_دباو_الف}-ب حاصل ہوتا ہے جس سے \عددی{\hat{I}_1} اور \عددی{\hat{V}_1} حاصل کرتے ہیں۔
+\begin{align*}
+\hat{I}_1&=\frac{100\phase{0^{\circ}}}{2+j4+7.5-j10}=8.9\phase{32.3^{\circ}}\,\si{\ampere}\\
+\hat{V}_1&=\hat{I}_1 \bZ_2'=(8.9\phase{32.3^{\circ}})(7.5-j10)=111\phase{-20.9^{\circ}}\,\si{\volt}
+\end{align*}
+یوں تبادلہ دباو اور تبادلہ رو کے مساوات سے ثانوی جانب کے مقدار حاصل کرتے ہیں۔
+\begin{align*}
+\hat{I}_2&=-\hat{I}_1\left(\frac{N_1}{N_2}\right)=(8.9\phase{32.3^{\circ}})\left(\frac{5}{1}\right)=44.5\phase{212^{\circ}}\,\si{\ampere}\\
+\hat{V}_2&=-\hat{V}_1\left(\frac{N_2}{N_1}\right)=-(111\phase{-20.9^{\circ}})\left(\frac{1}{5}\right)=22.2\phase{159^{\circ}}\,\si{\volt}
+\end{align*}
+دباو \عددی{\hat{V}_2} جانتے ہوئے تقسیم دباو کے کلیے سے بوجھ کا دباو حاصل کرتے ہیں۔
+\begin{align*}
+\hat{V}_L=(22.2\phase{159^{\circ}}) \left(\frac{0.2-j1}{0.1+j0.6+0.2-j1}\right)=45\phase{134^{\circ}}\,\si{\volt}
+\end{align*}
+\انتہا{مثال}
+%======================
+\ابتدا{مشق}\شناخت{مشق_مقناطیسی_سادہ_ابتدائی_رو_الف}
+شکل \حوالہ{شکل_مقناطیسی_سادہ_ابتدائی_رو_الف} میں \عددی{\hat{I}_1} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) node[transformer core](T){};
+\draw (T)node[above]{$1:2$};
+\draw(T.A1)++(0.4,-0.4)node[circ]{};
+\draw(T.B1)++(-0.4,-0.4)node[circ]{};
+\draw(T.A2) to [short,o-]++(-\x-\x/2,0) to [american voltage source,l={$22\phase{0^{\circ}}\,\si{volt}$}]++(0,\y)coordinate(kTop);
+\draw(T.A1) to  [european resistor,o-,l_={$1-j1 \,\si{\ohm}$}]++(-\x,0) to [short,i_<={$\hat{I}_1$}]++(-\x/2,0) |-(kTop);
+\draw(T.B1) to [european resistor,l={$2+j2$},o-]++(\x,0) to [short] ++(\x/2,0) to [european resistor,l={$4 \, \si{\ohm}$}]++(0,-\y)coordinate(kB);
+\draw(T.B2) to [short,o-]++(\x/3,0)-|(kB);
+\draw($(T.A1)!0.5!(T.A2)$)node{$\begin{aligned}&+ \\ &\hat{V}_1 \\ &-  \end{aligned}$};
+\draw($(T.B1)!0.5!(T.B2)$)node{$\begin{aligned}&+ \\ &\hat{V}_2 \\ &-  \end{aligned}$};
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_مقناطیسی_سادہ_ابتدائی_رو_الف} کا دور۔}
+\label{شکل_مقناطیسی_سادہ_ابتدائی_رو_الف}
+\end{figure}
+
+جواب:\عددی{8.63\phase{11.3^{\circ}}\,\si{\volt}}
+\انتہا{مشق}
+%====================
+
+%======================
+\ابتدا{مشق}\شناخت{مشق_مقناطیسی_سادہ_ابتدائی_رو_ب}
+شکل \حوالہ{شکل_مقناطیسی_سادہ_ابتدائی_رو_ب} میں \عددی{\hat{I}_1}، \عددی{\hat{I}_2} اور \عددی{\hat{V}_1} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) node[transformer core](T){};
+\draw (T)node[above]{$2:1$};
+\draw(T.A1)++(0.4,-0.4)node[circ]{};
+\draw(T.B2)++(-0.4,0.4)node[circ]{};
+\draw(T.A2) to [european resistor,o-,l={$4-j4\,\si{\ohm}$}]++(-\x,0) to [short]++(-\x/2,0) to [american voltage source,l={$220\phase{0^{\circ}}\,\si{volt}$}]++(0,\y)coordinate(kTop);
+\draw(T.A1) to  [european resistor,o-,l_={$10+j14 \,\si{\ohm}$}]++(-\x,0) to [short,i_<={$\hat{I}_1$}]++(-\x/2,0) |-(kTop);
+\draw(T.B1) to [european resistor,l={$4+j4$},o-]++(\x,0)coordinate(kTR);
+\draw(T.B2) to [short,o-,i={$\hat{I}_2$}]++(\x,0) to [american voltage source,l_={${80\phase{30^{\circ}}}$}]++(0,\y)-|(kTR);
+\draw($(T.A1)!0.5!(T.A2)$)node{$\begin{aligned}&+ \\ &\hat{V}_1 \\ &-  \end{aligned}$};
+\draw($(T.B1)!0.5!(T.B2)$)node{$\begin{aligned}&- \\ &\hat{V}_2 \\ &+  \end{aligned}$};
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_مقناطیسی_سادہ_ابتدائی_رو_ب} کا دور۔}
+\label{شکل_مقناطیسی_سادہ_ابتدائی_رو_ب}
+\end{figure}
+
+جواب:\عددی{9.25\phase{-28.3^{\circ}}\,\si{\ampere}}، \عددی{18.5\phase{-28.3^{\circ}}\,\si{\ampere}}، \عددی{65.2\phase{-17.8^{\circ}}\,\si{\volt}}
+\انتہا{مشق}
+%====================
+\ابتدا{مشق}\شناخت{مشق_مقناطیسی_سادہ_ابتدائی_رو_پ}
+شکل \حوالہ{شکل_مقناطیسی_سادہ_ابتدائی_رو_پ} میں \عددی{\hat{I}_0} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0)node[transformer core](T1){};
+\draw(2*\x,0,0)node[transformer core](T2){};
+\draw(T1.A1)++(0.4,-0.4)node[circ]{};
+\draw(T1.B2)++(-0.4,0.4)node[circ]{};
+\draw(T2.A1)++(0.4,-0.4)node[circ]{};
+\draw(T2.B1)++(-0.4,-0.4)node[circ]{};
+\draw(T1)node[above]{$4:1$};
+\draw(T2)node[above]{$1:2$};
+%
+\draw(T1.B1) to [european resistor,l={$1-j0.5 \, \si{\ohm}$},i_>={$\hat{I}_2$}] (T2.A1);
+\draw(T1.B2) to [short] (T2.A2);
+%
+\draw(T1.A2) to [short]++(-\x,0) to [american voltage source,l={$220\phase{0^{\circ}}\,\si{\volt}$}]++(0,\y)coordinate(kTL);
+\draw(T1.A1) to [european resistor,l_={$8+j4\,\si{\ohm}$}]++(-\x,0) -|(kTL);
+%
+\draw(T2.B2) to [short]++(\x,0) to [american voltage source,l={$60\phase{0^{\circ}}\,\si{\volt}$}]++(0,\y)coordinate(kRT);
+\draw(T2.B1) to [european resistor,l={$2+j2\,\si{\ohm}$}]++(\x,0)-|(kRT);
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_مقناطیسی_سادہ_ابتدائی_رو_پ} کا دور۔}
+\label{شکل_مقناطیسی_سادہ_ابتدائی_رو_پ}
+\end{figure}
+
+جواب:\عددی{42.2\phase{173^{\circ}}\,\si{\ampere}}
+\انتہا{مشق}
+%======================
+\ابتدا{مشق}\شناخت{مشق_مقناطیسی_سادہ_ابتدائی_رو_ت}
+شکل \حوالہ{شکل_مقناطیسی_سادہ_ابتدائی_رو_ت} میں \عددی{\hat{I}_0=2\phase{-60^{\circ}}\,\si{ampere}} ہے۔منبع کا دباو \عددی{\hat{V}_m} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) node[transformer core](T){};
+\draw(T)node[above]{$4:3$};
+\draw(T.A2)++(0.4,0.4)node[circ]{};
+\draw(T.B1)++(-0.4,-0.4)node[circ]{};
+%
+\draw(T.A2) to [short]++(-2*\x,0) to [american voltage source,l={$\hat{V}_m$}]++(0,\y)coordinate(kTL);
+\draw(T.A1) to [capacitor,l_={$-j2\,\si{\ohm}$}]++(-\x,0)coordinate(kLM) to [resistor,l_={$\SI{4}{\ohm}$}]++(-\x,0)-|(kTL);
+\draw(T.A2)++(-\x,0) to [inductor,*-*,l={$j6\,\si{\ohm}$}](kLM);
+\draw(T.B1) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0)coordinate(kRM) to [capacitor,l={$-j4 \,\si{\ohm}$}]++(\x,0)coordinate(kTR);
+\draw(T.B2) to [short]++(2*\x,0) to [resistor,l_={$\SI{4}{\ohm}$},i_<={$\hat{I}_0$}](kTR);
+\draw(T.B2)++(\x,0) to [inductor,*-*,l={$j3\,\si{\ohm}$}](kRM);
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_مقناطیسی_سادہ_ابتدائی_رو_ت} کا دور۔}
+\label{شکل_مقناطیسی_سادہ_ابتدائی_رو_ت}
+\end{figure}
+
+جواب:\عددی{29.2\phase{13.5^{\circ}}\,\si{\volt}}
+\انتہا{مشق}
+%=========================
+
+کامل ٹرانسفارمر استعمال کرنے والے ادوار  کو مسئلہ تھونن یا مسئلہ نارٹن سے بھی حل کیا جا سکتا ہے۔اس ترکیب میں ٹرانسفارمر بمع ابتدائی جانب دور یا ثانوی جانب دور  کا تھونن یا نارٹن مساوی دور حاصل کرتے ہوئے مکمل دور کو حل کیا جاتا ہے۔آئیں شکل \حوالہ{شکل_مقناطیسی_تھونن_ترکیب_سے_حل}-الف کو مسئلہ تھونن  سے حل کرتے ہوئے اس ترکیب کو سیکھیں۔ٹرانسفارمر بمع بائیں ہاتھ کے دور کا مساوی تھونن حاصل کرتے ہیں۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) node[transformer core](T){};
+\draw(T.A1)++(0.4,-0.4)node[circ]{};
+\draw(T.B1)++(-0.4,-0.4)node[circ]{};
+\draw(T)node[above]{$N_1:N_2$};
+%
+\draw(T.A2) to [short]++(-\x,0) to [american voltage source,l={$\hat{V}_{m1}$}]++(0,\y)coordinate(kTL);
+\draw(T.A1) to [european resistor,i<_={$\hat{I}_1$},l_={$\bZ_1$}]++(-\x,0)-|(kTL);
+\draw(T.B2) to [short]++(\x,0) to [american voltage source,l_={$\hat{V}_{m2}$}]++(0,\y)coordinate(kTR);
+\draw(T.B1) to [european resistor,l={$\bZ_2$},i>^={$\hat{I}_2$}]++(\x,0)-|(kTR);
+%voltage
+\draw($(T.A1)!0.5!(T.A2)$)node{$\begin{aligned}&+ \\ &\hat{V}_1 \\ &-  \end{aligned}$};
+\draw($(T.B1)!0.5!(T.B2)$)node{$\begin{aligned}&+ \\ &\hat{V}_2 \\ &-  \end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{0.6\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) node[transformer core](T){};
+\draw(T.A1)++(0.4,-0.4)node[circ]{};
+\draw(T.B1)++(-0.4,-0.4)node[circ]{};
+\draw(T)node[above]{$N_1:N_2$};
+%
+\draw(T.A2) to [short]++(-\x,0) to [american voltage source,l={$\hat{V}_{m1}$}]++(0,\y)coordinate(kTL);
+\draw(T.A1) to [european resistor,i<_={$\hat{I}_1$},l_={$\bZ_1$},v^>={$\hat{V}_{Z1}$}]++(-\x,0)-|(kTL);
+\draw(T.B2) to [short ,-o]++(\x/2,0)coordinate(kBR);
+\draw(T.B1) to [short,-o,i={$\hat{I}_2$}]++(\x/2,0)coordinate(kTR);
+%voltage
+\draw($(T.A1)!0.5!(T.A2)$)node{$\begin{aligned}&+ \\ &\hat{V}_1 \\ &-  \end{aligned}$};
+\draw($(T.B1)!0.5!(T.B2)$)node{$\begin{aligned}&+ \\ &\hat{V}_2 \\ &-  \end{aligned}$};
+\draw($(kTR)!0.5!(kBR)$)node{$\begin{aligned}&+ \\ &\hat{V}_{\text{تھونن}} \\ &-  \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب) تھونن دباو کا حصول۔}
+\end{subfigure}%
+\begin{subfigure}{0.4\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) node[transformer core](T){};
+\draw(T.A1)++(0.4,-0.4)node[circ]{};
+\draw(T.B1)++(-0.4,-0.4)node[circ]{};
+\draw(T)node[above]{$N_1:N_2$};
+%
+\draw(T.A1) to [european resistor,l_={$\bZ_1$}]++(0,-\y)-|(T.A2);
+\draw(T.B2) to [short ,-o]++(\x/2,0)coordinate(kBR);
+\draw(T.B1) to [short,-o]++(\x/2,0)coordinate(kTR);
+%
+\draw[stealth-]($(kTR)!0.5!(kBR)$)++(-\x/4,0) --++(\x/4,0)--++(0,-\y/8)node[below]{$\bZ_{\text{تھونن}}$};
+\end{tikzpicture}
+\caption*{(پ) تھونن رکاوٹ کا حصول۔}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l_={$\hat{V}_{m2}$}]++(0,\y) to [european resistor,l_={$\bZ_2$},-o,i<_={$\hat{I}_2$}]++(-\x,0) to [european resistor,l_={$\left(\frac{N_2}{N_1}\right)^2\bZ_1$}]++(-\x,0)coordinate(kTL);
+\draw(0,0) to [short,-o]++(-\x,0) to [short]++(-\x,0) to [american voltage source,l={$\left(\frac{N_2}{N_1}\right) \hat{V}_{m1}$}]++(0,\y)-|(kTL);
+\end{tikzpicture}
+\caption*{(ت) تمام اجزاء کو دائیں ہاتھ منتقل کیا گیا ہے۔}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l_={$\left(\frac{N_1}{N_2}\right)\hat{V}_{m2}$}]++(0,\y) to [european resistor,l_={$\left(\frac{N_1}{N_2}\right)^2\bZ_2$},-o]++(-\x,0) to [european resistor,i<_={$\hat{I}_1$},l_={$\bZ_1$}]++(-\x,0)coordinate(kTL);
+\draw(0,0) to [short,-o]++(-\x,0) to [short]++(-\x,0) to [american voltage source,l={$\hat{V}_{m1}$}]++(0,\y)-|(kTL);
+\end{tikzpicture}
+\caption*{(ٹ) تمام اجزاء کو بائیں ہاتھ منتقل کیا گیا ہے۔}
+\end{subfigure}
+\caption{ٹرانسفارمر استعمال کرنے والا دور جسے مسئلہ تھونن سے حل کیا گیا ہے۔}
+\label{شکل_مقناطیسی_تھونن_ترکیب_سے_حل}
+\end{figure}
+
+شکل \حوالہ{شکل_مقناطیسی_تھونن_ترکیب_سے_حل}-ب میں ٹرانسفارمر کا دایاں جانب کھلا سر کیا گیا ہے جہاں سے تھونن دباو حاصل کیا جا سکتا ہے۔چونکہ دایاں جانب کھلے سر ہے لہٰذا \عددی{\hat{I}_2=\SI{0}{\ampere}} ہو گا اور یوں \عددی{\hat{I}_1} بھی صفر ایمپیئر ہو گا۔ رکاوٹ \عددی{\bZ_1} میں رو نہ گزرنے کی بدولت قانون اوہم کے تحت \عددی{\hat{V}_{Z1}}  بھی صفر ہو گا۔یوں \عددی{\hat{V}_1=\hat{V}_{m1}} ہو گا۔دباو \عددی{\hat{V}_1} جانتے ہوئے  تبادلہ دباو کی مساوات سے \عددی{\hat{V}_2} حاصل کیا جا سکتا ہے جو تھونن دباو کے برابر ہو گا۔
+\begin{align}
+\hat{V}_2=\left(\frac{N_2}{N_1}\right) \hat{V}_1=\left(\frac{N_2}{N_1}\right) \hat{V}_{m1}=\hat{V}_{\text{تھونن}}
+\end{align}
+شکل \حوالہ{شکل_مقناطیسی_تھونن_ترکیب_سے_حل}-پ میں منبع کو قصر دور  کرتے ہوئے  تھونن رکاوٹ کا حصول دکھایا گیا ہے۔تبادلہ رکاوٹ کی مساوات سے  تھونن رکاوٹ درج ذیل حاصل ہوتی ہے۔
+\begin{align}
+\bZ_{\text{تھونن}}=\left(\frac{N_2}{N_1}\right)^2 \bZ_1
+\end{align}
+تھونن دباو اور تھونن رکاوٹ استعمال کرتے ہوئے شکل-الف کو شکل-ت کے طرز پر بنایا جا سکتا ہے۔شکل \حوالہ{شکل_مقناطیسی_تھونن_ترکیب_سے_حل}-ت میں تمام اجزاء کو ٹرانسفارمر کے دائیں جانب منتقل کیا گیا ہے۔اس شکل سے \عددی{\hat{I}_2} حاصل کرتے ہیں۔
+\begin{align}
+\hat{I}_2=\frac{\frac{N_2}{N_1}\hat{V}_{m1}-\hat{V}_{m2}}{\frac{N_2^2}{N_1^2} \bZ_1+\bZ_2}
+\end{align}
+ہم تمام اجزاء کو بالکل اسی طرح بائیں  ہاتھ بھی منتقل کر سکتے ہیں۔ایسا کرنے سے  شکل \حوالہ{شکل_مقناطیسی_تھونن_ترکیب_سے_حل}-ٹ حاصل ہوتا ہے جہاں سے \عددی{\hat{I}_1} حاصل کیا جا سکتا ہے۔
+\begin{align}
+\hat{I}_1=\frac{\hat{V}_{m1}-\frac{N_1}{N_2} \hat{V}_{m2}}{\bZ_1+\frac{N_1^2}{N_2^2}\bZ_2}
+\end{align}
+
+%================================
+\ابتدا{مثال}
+شکل \حوالہ{شکل_مقناطیسی_ایک_جانب_منتقل} میں تمام پرزوں کو بائیں ہاتھ منتقل کرتے ہوئے \عددی{\hat{I}_1} اور \عددی{\hat{I}_2} حاصل کریں۔تمام پرزوں کو دائیں ہاتھ منتقل کرتے ہوئے دوبارہ حل کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) node[transformer core](T){};
+\draw(T)node[above]{$3:1$};
+\draw(T.A1)++(0.4,-0.4)node[circ]{};
+\draw(T.B2)++(-0.4,0.4)node[circ]{};
+%
+\draw(T.A1)  to [short]++(-\x/2,0) to  [european resistor,l_={$9+j18\,\si{\ohm}$},i<^={$\hat{I}_1$}]++(-\x,0) to [american voltage source,l_={$66\phase{30^{\circ}}\,\si{\volt}$}]++(0,-\y)|-(T.A2);
+\draw(T.B1) to [short]++(\x/2,0) to [european resistor,l={$2-j1\,\si{\ohm}$},i>_={$\hat{I}_2$}]++(\x,0)coordinate(kTR);
+\draw(T.B2)to [short]++(\x+\x/2,0) to [american voltage source,l_={$30\phase{0^{\circ}}\,\si{\volt}$}]++(0,\y)-|(kTR);
+%voltages
+\draw($(T.A1)!0.5!(T.A2)$)node{$\begin{aligned} &+ \\ &\hat{V}_1 \\ &- \end{aligned}$};
+\draw($(T.B1)!0.5!(T.B2)$)node{$\begin{aligned} &+ \\ &\hat{V}_2 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,o-]++(-\x/2,0) to [european resistor,l_={$9+j18\,\si{\ohm}$},i<^={$\hat{I}_1$}]++(-\x,0) to [american voltage source,l_={$66\phase{30^{\circ}}\,\si{\volt}$}]++(0,-\y) to [short,-o]++(\x+\x/2,0);
+\draw(0,0) to [short,o-]++(\x/2,0) to [european resistor,l={$18-j9\,\si{\ohm}$}]++(\x,0) to [american voltage source,l={$90\phase{0^{\circ}}\,\si{\volt}$}]++(0,-\y) to [short,-o]++(-\x-\x/2,0);
+\draw(0,-\y/2)node{$\begin{aligned} &+ \\ &\hat{V}_1 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب) بائیں منتقلی۔}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,o-]++(-\x/2,0) to [european resistor,l_={$1+j2\,\si{\ohm}$}]++(-\x,0);
+\draw(0,-\y) to [short,o-] ++(-\x-\x/2,0) to [american voltage source,l={$22\phase{30^{\circ}}\,\si{\volt}$}]++(0,\y);
+\draw(0,0) to [short,o-]++(\x/2,0) to [european resistor,l={$2-j1\,\si{\ohm}$},i>_={$\hat{I}_2$}]++(\x,0);
+\draw(0,-\y) to [short,o-]++(\x+\x/2,0) to [american voltage source,l_={$30\phase{0^{\circ}}\,\si{\volt}$}]++(0,\y);
+\draw(0,-\y/2)node{$\begin{aligned} &+ \\ &\hat{V}_2 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(پ) دائیں منتقلی۔}
+\end{subfigure}
+\caption{تمام پرزوں کی ایک جانب منتقلی۔}
+\label{شکل_مقناطیسی_ایک_جانب_منتقل}
+\end{figure}
+
+حل:لچھوں پر نقطوں کو دیکھتے ہوئے دباو کو ایک جانب سے دوسری جانب منتقل کریں۔شکل \حوالہ{شکل_مقناطیسی_ایک_جانب_منتقل}-ب میں تمام اجزاء کو بائیں جانب منتقل کیا گیا ہے جبکہ شکل-پ میں تمام اجزاء کو دائیں جانب منتقل کیا گیا ہے۔
+\انتہا{مثال}
+%===============================
+\ابتدا{مثال}
+شکل میں \عددی{\hat{V}_0} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) node[transformer core](T){};
+\draw(T)node[above]{$2:1$};
+\draw(T.A1)++(0.4,-0.4)node[circ]{};
+\draw(T.B1)++(-0.4,-0.4)node[circ]{};
+%
+\draw(T.A1) to [american voltage source,l_={$4\phase{0^{\circ}}\,\si{\volt}$}]++(-\x,0) to [european resistor,l_={$4-j1\,\si{\ohm}$}]++(-\x,0)coordinate(kTL) to [short]++(-\x,0) to [inductor,l_={$j2\,\si{\ohm}$}]++(0,-\y)|-(T.A2);
+\draw(T.A2)++(-2*\x,0) to [american current source,*-*,l_={$2\phase{0^{\circ}}\,\si{\ampere}$}](kTL);
+%
+\draw(T.B1) to [european resistor,l={$4-j8\,\si{\ohm}$}]++(\x,0) to [inductor,l={$j20\,\si{\ohm}$},v={$\hat{V}_0$}]++(0,-\y)|-(T.B2);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+%
+\draw(0,0) to [american voltage source,o-,l_={$4\phase{0^{\circ}}\,\si{\volt}$}]++(-\x,0) to [european resistor,l_={$4-j1\,\si{\ohm}$}]++(-\x,0)coordinate(kTL) to [short]++(-\x,0) to [inductor,l_={$j2\,\si{\ohm}$}]++(0,-\y)to [short,-o]++(3*\x,0);
+\draw(-2*\x,-\y) to [american current source,*-*,l_={$2\phase{0^{\circ}}\,\si{\ampere}$}](kTL);
+\draw(0,-\y/2)node{$\begin{aligned} &+ \\ &\hat{V}_{\text{تھونن}} \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) node[transformer core](T){};
+\draw(T)node[above]{$2:1$};
+\draw(T.A1)++(0.4,-0.4)node[circ]{};
+\draw(T.B1)++(-0.4,-0.4)node[circ]{};
+%
+\draw(T.A1)  to [european resistor,l_={$4+j1\,\si{\ohm}$}]++(-\x,0)coordinate(kTL) ;
+\draw(T.A2) to [short]++(-\x,0) to [american voltage source,l={$4\phase{150^{\circ}}\,\si{\volt}$}](kTL);
+%
+\draw(T.B1) to [european resistor,l={$4-j8\,\si{\ohm}$}]++(\x,0) to [inductor,l={$j20\,\si{\ohm}$},v={$\hat{V}_0$}]++(0,-\y)|-(T.B2);
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$2\phase{150^{\circ}}\,\si{\volt}$}]++(0,\y)to [european resistor,l={$1+j0.25\,\si{\ohm}$}]++(\x,0) to [european resistor,l={$4-j8\,\si{\ohm}$}]++(\x,0) to [inductor,l={$j20\,\si{\ohm}$},v={$\hat{V}_0$}]++(0,-\y)to [short] (0,0);
+\end{tikzpicture}
+\caption*{(ت)}
+\end{subfigure}
+\end{figure}
+
+حل:ہم ٹرانسفارمر کے بائیں جانب دور کا تھونن مساوی حاصل کرتے ہیں۔اس دور کو شکل-ب میں دکھایا گیا ہے۔شکل-ب میں منبع رو کی تمام رو امالہ سے گزرتی ہے لہٰذا امالہ پر دباو \عددی{4\phase{90^{\circ}}\,\si{\volt}} ہو گا۔منبع دباو کی رو صفر ہے۔یوں تھونن دباو \عددی{4\phase{90^{\circ}}-4\phase{30^{\circ}}=4\phase{150^{\circ}}\,\si{\volt}} ہو گا۔شکل-ب میں منبع رو کو کھلے سر اور منبع دباو کو قصر دور کرتے ہوئے تھونن رکاوٹ حاصل کرتے ہیں۔
+\begin{align*}
+\bZ_{\text{تھونن}}=4-j1+j2=4+j1\,\si{\ohm}
+\end{align*}
+تھونن مساوی دور استعمال کرتے ہوئے شکل-الف سے شکل-پ حاصل ہوتا ہے۔تمام پرزوں کو دائیں منتقل کرتے ہوئے شکل-ت حاصل ہوتا ہے جس کو دیکھ کر تقسیم دباو کے کلیے سے  \عددی{\hat{V}_0} لکھا جا سکتا ہے۔
+\begin{align*}
+\hat{V}_0=\left(\frac{j20}{1+j0.25+4-j8+j20}\right)(2\phase{150^{\circ}})=3\phase{-188^{\circ}}\,\si{\volt}
+\end{align*}
+\انتہا{مثال}
+%=========================
+\ابتدا{مشق}\شناخت{مشق_مقناطیسی_تھونن_مساوی_سے_حل_الف}
+شکل \حوالہ{شکل_مقناطیسی_تھونن_مساوی_سے_حل_الف} میں ٹرانسفارمر بمع دائیں ہاتھ دور کا تھونن مساوی حاصل کرتے ہوئے \عددی{\hat{I}_1} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) node[transformer core](T){};
+\draw(T)node[above]{$3:1$};
+\draw(T.A2)++(0.4,0.4)node[circ]{};
+\draw(T.B1)++(-0.4,-0.4)node[circ]{};
+%
+\draw(T.A1)to[european resistor,l_={$4-j6\,\si{\ohm}$},i<^={$\hat{I}_1$}]++(-\x,0) coordinate(kTL);
+\draw(T.A2) to [short]++(-\x,0) to [american voltage source,l={$40\phase{0^{\circ}}\,\si{\volt}$}]++(0,\y)-|(kTL);
+\draw(T.B1) to [european resistor,l={$2+j2\,\si{\ohm}$},i>_={$\hat{I}_2$}]++(\x,0)coordinate(kTR);
+\draw(T.B2) to [short]++(\x,0) to [american voltage source,l_={$15\phase{0^{\circ}}\,\si{\volt}$}]++(0,\y)-|(kTR);
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_مقناطیسی_تھونن_مساوی_سے_حل_الف} کا دور۔}
+\label{شکل_مقناطیسی_تھونن_مساوی_سے_حل_الف}
+\end{figure} 
+
+جواب:\عددی{3.39\phase{-28.6^{\circ}}\,\si{\ampere}}
+\انتہا{مشق}
+%=======================
+\ابتدا{مشق}
+شکل \حوالہ{شکل_مقناطیسی_تھونن_مساوی_سے_حل_الف} میں بائیں ہاتھ کے دور اور ٹرانسفارمر کا تھونن مساوی استعمال کرتے ہوئے \عددی{\hat{I}_2} دریافت کریں۔
+
+جواب:\عددی{10.17\phase{151.4^{\circ}}\,\si{\ampere}}
+\انتہا{مشق}
+%===============
+
+آپ نے دیکھا کہ تمام اجزاء کا تبادلہ ٹرانسفارمر کے ایک جانب کرنے سے دور نہایت آسانی سے حل ہوتا ہے۔یہاں بتلاتا چلوں کہ یہ ترکیب صرف اس صورت قابل استعمال ہے جب تک ٹرانسفارمر کے دونوں اطراف کے ادوار کسی طرح بھی آپس میں نہ جڑے ہوں۔اگر ٹرانسفارمر کے دونوں جانب کے ادوار آپس میں جڑے ہوں تب مکمل دور کے کرخوف مساوات لکھتے ہوئے دور حل کیا جاتا ہے۔  
+
+%==================
+\ابتدا{مشق}\شناخت{مشق_مقناطیسی_کرخوف_مساوات_سے_حل}
+شکل \حوالہ{شکل_مقناطیسی_کرخوف_مساوات_سے_حل} میں کرخوف کے مساوات اور ٹرانسفارمر کے مساوات تبادلہ استعمال کرتے ہوئے \عددی{\hat{I}_1}، \عددی{\hat{I}_2}، \عددی{\hat{V}_1} اور \عددی{\hat{V}_2} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) node[transformer core](T){};
+\draw(T)node[above]{$3:1$};
+\draw(T.A1)++(0.4,-0.4)node[circ]{};
+\draw(T.B2)++(-0.4,0.4)node[circ]{};
+%
+\draw(T.A1) to [short,i<_={$\hat{I}_1$}]++(-\x/2,0)coordinate(kTM) to [resistor,l_={$\SI{1}{\ohm}$}]++(-\x,0)coordinate(kTL);
+\draw(T.A2) to [short]++(-\x-\x/2,0) to [american voltage source,l={$20\phase{0^{\circ}}\,\si{\volt}$}]++(0,\y)|-(kTL);
+\draw(T.A2)++(-\x/2,0) to [inductor,*-*,l={$j8\,\si{\ohm}$}](kTM);
+%
+\draw(T.B1) to [short,-*,i={$\hat{I}_2$}]++(\x/2,0)coordinate(kTMR) to [short]++(\x/2,0) to [resistor,l={$\SI{4}{\ohm}$}]++(0,-\y)|-(T.B2);
+\draw(kTM)to [short]++(0,\y/2) to [capacitor,l={$-j6\,\si{\ohm}$}]++(2*\x,0) -|(kTMR);
+%text
+\draw($(T.A1)!0.5!(T.A2)$)node{$\begin{aligned} &+ \\ &\hat{V}_1 \\ &- \end{aligned}$};
+\draw($(T.B1)!0.5!(T.B2)$)node{$\begin{aligned} &+ \\ &\hat{V}_2 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_مقناطیسی_کرخوف_مساوات_سے_حل} کا دور۔}
+\label{شکل_مقناطیسی_کرخوف_مساوات_سے_حل}
+\end{figure}
+
+جوابات:\عددی{1.52\phase{59.98^{\circ}}\,\si{\ampere}}، \عددی{4.56\phase{239.98^{\circ}}\,\si{\ampere}}، \عددی{19.19\phase{-9.46^{\circ}}\,\si{\volt}}، \عددی{6.4\phase{170.5^{\circ}}\,\si{\volt}}
+\انتہا{مشق}
+%========================
+
+آگے بڑھنے سے پہلے چند حقائق پر غور کرتے ہیں۔ٹرانسفارمر کی ثانوی جانب کو کھلا دور رکھتے ہوئے اس کے ابتدائی جانب منبع دباو نسب کرنے سے ثانوی جانب کی رو صفر حاصل ہوتی ہے۔تبادلہ رو کے تحت یوں ابتدائی رو بھی صفر ہو گی۔حقیقت میں ٹرانسفارمر کے دونوں لچھے عام امالہ ہیں لہٰذا ابتدائی جانب منبع دباو نسب کرنے سے ابتدائی لچھے میں رو ضرور گزرے گی جسے ٹرانسفارمر کی \اصطلاح{ہیجان انگیز رو}\فرہنگ{ہیجان انگیز رو}\حاشیہب{excitation current}\فرہنگ{excitation current} کہتے ہیں۔کسی بھی ٹرانسفارمر جس پر اس کے استعداد کے مطابق پورا برقی بوجھ لدا ہو میں رو کی قیمتیں  ہیجان انگیز رو سے اتنی زیادہ ہوتی ہیں کہ ہیجان انگیز رو کو نظر انداز کیا جا سکتا ہے۔
+
+ٹرانسفارمر پر یک سمتی رو طاقت لاگو کرنے سے قالب میں ساکن مقناطیسی بہاو پیدا ہو گا۔قانون فیراڈے کے تحت ساکن مقناطیسی میدان صفر دباو پیدا کرتا ہے لہٰذا ٹرانسفارمر کے دونوں لچھوں میں صفر دباو پایا جائے گا۔ایسی صورت میں ٹرانسفارمر ہمارے کسی کام کا نہیں ہے۔اس کے برعکس ٹرانسفارمر کے ابتدائی جانب بدلتی رو طاقت لاگو کرنے سے قالب میں بدلتا مقناطیسی میدان پیدا ہوتا ہے جو دونوں لچھوں میں \اصطلاح{امالی دباو}\فرہنگ{امالی دباو}\فرہنگ{دباو!امالی}\حاشیہب{induced voltage}\فرہنگ{induced voltage} \عددی{v=\tfrac{\dif \lambda}{\dif t}} پیدا کرتا ہے۔ٹرانسفارمر کی مدد سے بدلتی دباو کو کم اور زیادہ کیا جاتا ہے۔یہی بنیادی وجہ ہے کہ تمام دنیا میں برقی طاقت کی ترسیل بدلتی رو طاقت کی صورت میں کی جاتی ہے۔
+
+\حصہ{حفاظتی اقدام}
