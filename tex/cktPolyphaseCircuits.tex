@@ -1,0 +1,184 @@
+\باب{کثیر دوری ادوار}
+\حصہ{تین دوری نظام}
+اب تک بدلتی رو طاقت کی بات کرتے ہوئے  ایک عدد منبع دباو کی بات کی جاتی رہی۔حقیقت میں بدلتی رو طاقت کی پیدا وار اور ترسیل تین دوری نظام سے کی جاتی ہے۔شکل \حوالہ{شکل_تین_دوری_تین_دوری_نظام} میں تین دوری نظام دکھایا گیا ہے جہاں تین عدد منبع استعمال کئے گئے ہیں جو آپس میں \عددی{120^{\circ}} زاویائی فاصلہ رکھتے ہیں۔تمام دباو کے حیطے یک برابر ہونے کی صورت میں اس کو \اصطلاح{متوازن تین دوری نظام}\فرہنگ{متوازن!تین دوری نظام}\فرہنگ{تین دور!متوازن}\حاشیہب{balanced three phase system}\فرہنگ{three phase balanced system} کہا جاتا ہے۔دکھائے گئے متوازن نظام کے دباو درج ذیل ہیں جن کے دوری سمتیات کو شکل-ب میں دکھایا گیا ہے۔
+\begin{gather}
+\begin{aligned}
+\hat{V}_{an}&=230 \phase{0^{\circ}}\,\si{\volt} \rms\\
+\hat{V}_{bn}&=230 \phase{-120^{\circ}}\,\si{\volt} \rms\\
+\hat{V}_{cn}&=230 \phase{-240^{\circ}}\,\si{\volt} \rms\\
+&=230 \phase{120^{\circ}}\,\si{\volt} \rms
+\end{aligned}
+\end{gather}
+انہیں کو وقتی دائرہ کار میں درج ذیل لکھا جائے گا۔شکل-پ میں انہیں دکھایا گیا ہے۔
+\begin{gather}
+\begin{aligned}\label{مساوات_تین_دوری_ستارہ_الف}
+v_{an}(t)&=230\sqrt{2} \cos\omega t \,\si{\volt}\\
+v_{bn}(t)&=230\sqrt{2} \cos(\omega t-120^{\circ})\,\si{\volt}\\
+v_{cn}(t)&=230\sqrt{2} \cos(\omega t +120^{\circ})\,\si{\volt}
+\end{aligned}
+\end{gather}
+متوازن بوجھ کی صورت میں تینوں رو کے حیطے اور زاوئے بھی برابر ہوں گے لہٰذا انہیں درج ذیل لکھا جائے گا۔
+\begin{gather}
+\begin{aligned}
+i_{an}(t)&=I_0 \cos(\omega t -\theta)\,\si{\ampere}\\
+i_{bn}(t)&=I_0 \cos(\omega t-120^{\circ}-\theta)\,\si{\ampere}\\
+i_{cn}(t)&=I_0 \cos(\omega t +120^{\circ}-\theta)\,\si{\ampere}
+\end{aligned}
+\end{gather}
+%
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)to [short]++(0,2*\y)  to [american voltage source,l_={${\hat{V}_{an}=230\phase{0^{\circ}}\,\si{\volt}\rms}$}]++(0,\y)  to [short,-o]++(4*\x,0)node[right]{$a$};
+\draw(1*\x,0) to [short]++(0,\y) to [american voltage source,l_={${\hat{V}_{bn}=230\phase{-120^{\circ}}\,\si{\volt}\rms}$}]++(0,\y) to [short,-o]++(3*\x,0)node[right]{$b$};
+\draw(2*\x,0) to [american voltage source,l_={${\hat{V}_{cn}=230\phase{120^{\circ}}\,\si{\volt}\rms}$}] ++(0,\y)to [short,-o]++(2*\x,0)node[right]{$c$};
+\draw(0,0) to [short,-*]++(1*\x,0) to [short,-*]++(1*\x,0) to [short,-o]++(2*\x,0)node[right]{$n$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{0.4\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\len}{\x}
+\draw[-latex](0,0)--++(0:\len)node[right]{$\hat{V}_{an}$};
+\draw[-latex](0,0)--++(-120:\len)node[left]{$\hat{V}_{bn}$};
+\draw[-latex](0,0)--++(120:\len)node[left]{$\hat{V}_{cn}$};
+\draw[stealth-stealth]([shift={(0:0.3)}]0,0) arc (0:120:0.3);
+\draw[stealth-stealth]([shift={(-120:0.3)}]0,0) arc (-120:0:0.3);
+\draw[stealth-stealth]([shift={(120:0.3)}]0,0) arc (120:240:0.3);
+\draw(60:0.8)node{$120^{\circ}$};
+\draw(-60:0.8)node{$120^{\circ}$};
+\draw(180:0.8)node{$120^{\circ}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\begin{subfigure}{0.6\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[kStyleCircuitsA,small,xlabel=$\omega t$, xtick={90,180,270,360},xticklabels={$90^{\circ}$,$180^{\circ}$,$270^{\circ}$,$360^{\circ}$},ytick={10},yticklabels={$230\sqrt{2}\,\si{\volt}$},]
+\addplot[domain=0:370,samples=100]{10*cos(1*x+0)}node[pos=0,above right]{$v_{an}$};
+\addplot[domain=0:370,samples=100]{10*cos(1*x-120)}node[pos=0.35,above right]{$v_{bn}$};
+\addplot[domain=0:370,samples=100]{10*cos(1*x+120)}node[pos=0.65,above right]{$v_{cn}$};
+\end{axis}%
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}%
+\caption{تین دوری نظام۔}
+\label{شکل_تین_دوری_تین_دوری_نظام}
+\end{figure} 
+
+تینوں دباو کو عمومی شکل میں لکھتے ہوئے
+\begin{gather}
+\begin{aligned}
+v_{an}(t)&=V_0 \cos\omega t \,\si{\volt}\\
+v_{bn}(t)&=V_0 \cos(\omega t-120^{\circ})\,\si{\volt}\\
+v_{cn}(t)&=V_0 \cos(\omega t +120^{\circ})\,\si{\volt}
+\end{aligned}
+\end{gather}
+
+آگے بڑھنے سے پہلے درج ذیل مثال میں ایک اہم مساوات ثابت کرتے ہیں۔
+%=================
+\ابتدا{مثال}\شناخت{مثال_تین_دوری_تکونی_صفر_برابر_ہے}
+درج ذیل مساوات کو ثابت کریں۔
+\begin{align}
+\cos \alpha+\cos(\alpha+120^{\circ})+\cos(\alpha-120^{\circ})&=0\label{مساوات_تین_دوری_تکونی_صفر_برابر_ہے}\\
+\cos \alpha+\cos(\alpha-240^{\circ})+\cos(\alpha+240^{\circ})&=0\label{مساوات_تین_دوری_تکونی_صفر_برابر_ب}
+\end{align}
+
+حل:مساوات \حوالہ{مساوات_تین_دوری_تکونی_صفر_برابر_ہے} میں دوسرے اور تیسرے اجزاء کو درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+\cos(\alpha+120^{\circ})&=\cos \alpha \cos 120^{\circ}-\sin \alpha \sin 120^{\circ}=-\frac{1}{2}\cos \alpha-\frac{\sqrt{3}}{2}\sin\alpha\\
+\cos(\alpha-120^{\circ})&=\cos \alpha \cos 120^{\circ}+\sin \alpha \sin 120^{\circ}=-\frac{1}{2}\cos \alpha+\frac{\sqrt{3}}{2}\sin\alpha
+\end{align*}
+یوں تینوں اجزاء کا مجموعہ درج ذیل ہے۔
+\begin{align*}
+(\cos \alpha)+(-\frac{1}{2}\cos \alpha-\frac{\sqrt{3}}{2}\sin\alpha)+(-\frac{1}{2}\cos \alpha+\frac{\sqrt{3}}{2}\sin\alpha)=0
+\end{align*}
+آئیں اب مساوات \حوالہ{مساوات_تین_دوری_تکونی_صفر_برابر_ب} کو ثابت کریں۔مساوات کے دوسرے جزو میں \عددی{\cos(\alpha-240^{\circ})=\cos(\alpha+120^{\circ})} استعمال کرتے ہوئے اور تیسرے جزو میں \عددی{\cos(\alpha+240^{\circ})=\cos(\alpha-120^{\circ})} استعمال کرتے ہوئے مساوات \حوالہ{مساوات_تین_دوری_تکونی_صفر_برابر_ہے} ملتا ہے جسے ہم ثابت کر چکے ہیں۔
+
+\انتہا{مثال}
+%=================
+تین دوری نظام میں علیحدہ علیحدہ دور کے لمحاتی طاقت لکھتے ہیں 
+\begin{align*}
+p_a(t)&=v_{an}i_{an}\\
+&=V_0 I_0 \cos \omega t \cos(\omega t -\theta)\\
+&=\frac{V_0 I_0}{2}[\cos \theta +\cos(2\omega t -\theta)]\\
+p_b(t)&=v_{bn}i_{bn}\\
+&=V_0 I_0 \cos(\omega t -120^{\circ})\cos(\omega t-120^{\circ} -\theta)\\
+&=\frac{V_0 I_0}{2}[\cos \theta +\cos(2\omega t -\theta-240^{\circ})]\\
+p_c(t)&=v_{cn}i_{cn}\\
+&=V_0 I_0 \cos (\omega t +120^{\circ})\cos(\omega t+120^{\circ} -\theta)\\
+&=\frac{V_0 I_0}{2}[\cos \theta +\cos(2\omega t -\theta+240^{\circ})]
+\end{align*}
+جہاں \عددی{\cos \alpha \cos \beta=\tfrac{1}{2} [\cos(\alpha-\beta)+\cos(\alpha+\beta)]} کا استعمال کیا گیا ہے۔یوں مکمل نظام کا لمحاتی طاقت \عددی{p(t)} درج بالا کا مجموعہ ہو گا۔
+\begin{align*}
+p(t)&=p_a(t)+p_b(t)+p_c(t)\\
+&=\frac{V_0 I_0}{2}[3\cos \theta +\cos(2\omega t-\theta)+\cos(2\omega t -\theta-240^{\circ})+\cos(2\omega t -\theta+240^{\circ})]
+\end{align*}
+درج بالا مساوات میں \عددی{2\omega t -\theta=\alpha} لکھتے ہوئے اور مساوات \حوالہ{مساوات_تین_دوری_تکونی_صفر_برابر_ب} استعمال کرتے ہوئے آخری تین اجزاء کے مجموعے کو صفر کے برابر لکھا جا سکتا ہے۔یوں لمحاتی طاقت درج ذیل حاصل ہوتی ہے۔
+\begin{align}\label{مساوات_تین_دوری_لمحاتی_طاقت_برقرار}
+p(t)=\frac{3V_0 I_0}{2}\cos \theta =3 \Vrms \Irms \cos \theta \,\si{\watt}
+\end{align}
+آپ مساوات \حوالہ{مساوات_تین_دوری_لمحاتی_طاقت_برقرار} کا \عددی{p_a(t)=\frac{V_0 I_0}{2}[\cos \theta +\cos(2\omega t -\theta)]} کے ساتھ موازنہ کریں جو دگنی تعدد یعنی \عددی{2\omega} کے ساتھ تبدیل ہوتا ہے۔آپ دیکھ سکتے ہیں کہ تین دوری نظام میں لمحاتی طاقت برقرار رہتا ہے۔یہ انتہائی اہم نتیجہ ہے۔تین دور کا موٹر برقرار میکانی قوت پیدا کرے گا لہٰذا اس میں ترتراہٹ کم سے کم ہو گی جو میکانی خرابی کی وجہ بنتی ہے۔
+
+\حصہ{ستارہ اور تکونی جوڑ}
+مساوات \حوالہ{مساوات_تین_دوری_ستارہ_الف} میں لمحہ \عددی{t=0} پر \عددی{v_{an}} کی چوٹی پائی جاتی ہے۔ہم کہتے ہیں کہ \عددی{v_{an}} کا زاویائی ہٹاو صفر کے برابر ہے۔اگر \عددی{v_{an}} کا زاویائی ہٹاو \عددی{\theta} ہو تب تین دوری نظام کے دوری سمتیات درج ذیل ہوں گے۔
+ \begin{gather}
+\begin{aligned}
+\hat{V}_{an}&=230 \phase{\theta}\,\si{\volt} \rms\\
+\hat{V}_{bn}&=230 \phase{\theta-120^{\circ}}\,\si{\volt} \rms\\
+\hat{V}_{cn}&=230 \phase{\theta-240^{\circ}}\,\si{\volt} \rms
+\end{aligned}
+\end{gather}
+ایسی صورت میں شکل \حوالہ{شکل_تین_دوری_تین_دوری_نظام}-ب کے تینوں دوری سمتیات \عددی{\theta} زاویہ گھوم جائیں گے۔تین دوری نظام کی بات کرتے ہوئے ہم \عددی{v_{an}} کا زاویہ ہٹاو صفر کے برابر لیں گے تا کہ بار بار اس کا ذکر نہ کرنا پڑے۔ساتھ ہی ساتھ جیسا شکل \حوالہ{شکل_تین_دوری_تین_دوری_نظام}-ب میں دکھایا گیا ہے ہم \عددی{v_{bn}} کو \عددی{v_{an}} سے \عددی{120^{\circ}} پیچے اور \عددی{v_{cn}} کو \عددی{v_{bn}} سے \عددی{120^{\circ}}  پیچے تصور کریں گے۔ایسے نظام کو \عددی{abc}\فرہنگ{abc} نظام کہا جاتا ہے۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)node[left]{$n$} to [american voltage source,*-o,l={$\hat{V}_{an}$}]++(0:\x)node[right]{$a$};
+\draw(0,0) to [american voltage source,-o,l={$\hat{V}_{bn}$}]++(-120:\x)node[left]{$b$};
+\draw(0,0) to [american voltage source,-o,l={$\hat{V}_{cn}$}]++(120:\x)node[left]{$c$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw[-latex](0,0)--++(0:\x)node[right]{$\hat{V}_{an}$};
+\draw[-latex](0,0)--++(-120:\x)node[left]{$\hat{V}_{bn}$};
+\draw[-latex](0,0)--++(120:\x)node[left]{$\hat{V}_{cn}$};
+\draw[stealth-stealth]([shift={(0:0.3)}]0,0) arc (0:120:0.3);
+\draw[stealth-stealth]([shift={(-120:0.3)}]0,0) arc (-120:0:0.3);
+\draw[stealth-stealth]([shift={(120:0.3)}]0,0) arc (120:240:0.3);
+\draw(60:0.8)node{$120^{\circ}$};
+\draw(-60:0.8)node{$120^{\circ}$};
+\draw(180:0.8)node{$120^{\circ}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{ستارہ نما جوڑ۔}
+\label{شکل_تین_دوری_ستارہ_نظام}
+\end{figure}
+
+
+شکل \حوالہ{شکل_تین_دوری_تین_دوری_نظام}-الف کے تین دوری \عددی{abc} نظام کو شکل \حوالہ{شکل_تین_دوری_ستارہ_نظام}-الف میں \اصطلاح{ستارہ نما جڑا}\فرہنگ{ستارہ نما جوڑ}\حاشیہب{star connected, Y connected}\فرہنگ{star connected}\فرہنگ{Y connected} دکھایا گیا ہے۔ساتھ ہی شکل-ب میں دوری سمتیات دکھائے گئے ہیں جو پہلے سے ستارہ شکل بناتے ہیں۔تین دوری نظام کو اس طرح کاغذ پر بناتے ہوئے مکمل معلومات بغیر لکھے دی جاتی ہے۔یوں شکل \حوالہ{شکل_تین_دوری_تین_دوری_نظام}-الف سے ظاہر ہے کہ \عددی{v_{an}} کا زاویہ ہٹاو صفر کے برابر ہے اور \عددی{v_{bn}} اس سے \عددی{120^{\circ}} پیچے ہے۔یوں ظاہر ہے کہ یہ نظام \عددی{abc} ہے۔ساتھ ہی آپ دیکھ سکتے ہیں کہ تینوں دباو کے حیطے برابر ہیں۔تینوں دباو کو نقطہ \عددی{n} سے ناپا جاتا ہے۔
+
+دوری سمتیات کا مجموعہ حاصل کرتے وقت ایک دوری سمتیہ کی نوک کے ساتھ دوسری دوری سمتیہ کی دم ملائی جاتی ہے۔اس ترکیب کو استعمال کرتے ہوئے شکل \حوالہ{شکل_تین_دوری_دباو_مجموعہ_صفر} میں درج ذیل مساوات ثابت کی گئی ہے۔
+\begin{align}
+\hat{V}_{an}+\hat{V}_{bn}+\hat{V}_{cn}=0
+\end{align} 
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw[-latex](0,0)--++(0:\x)coordinate(ka)node[above,pos=0.7]{$\hat{V}_{an}$};
+\draw[-latex](ka)--++(-120:\x)coordinate(kb)node[right,pos=0.7]{$\hat{V}_{bn}$};
+\draw[-latex](kb)--++(120:\x)node[left,pos=0.7]{$\hat{V}_{cn}$};
+\draw(-\x/2,-\y/2)node[left]{$\hat{V}_{an}+\hat{V}_{bn}+\hat{V}_{cn}=0$};
+\end{tikzpicture}
+\caption{تین دوری نظام کے تینوں دباو کا مجموعہ صفر کے برابر ہے۔}
+\label{شکل_تین_دوری_دباو_مجموعہ_صفر}
+\end{figure}

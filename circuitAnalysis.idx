@@ -1,68 +1,7 @@
-\indexentry{core!magnetic}{\RL {\arabicfont  499}}
-\indexentry{قالب!مقناطیسی}{\RL {\arabicfont  499}}
-\indexentry{coil}{\RL {\arabicfont  499}}
-\indexentry{لچھا}{\RL {\arabicfont  499}}
-\indexentry{flux!magnetic}{\RL {\arabicfont  499}}
-\indexentry{magnetic flux}{\RL {\arabicfont  499}}
-\indexentry{بہاو!مقناطیسی}{\RL {\arabicfont  499}}
-\indexentry{مقناطیسی بہاو}{\RL {\arabicfont  499}}
-\indexentry{flux linkage}{\RL {\arabicfont  500}}
-\indexentry{بہاو!ارتباط}{\RL {\arabicfont  500}}
-\indexentry{ارتباط بہاو}{\RL {\arabicfont  500}}
-\indexentry{self inductance}{\RL {\arabicfont  500}}
-\indexentry{inductance!self}{\RL {\arabicfont  500}}
-\indexentry{خود امالہ}{\RL {\arabicfont  500}}
-\indexentry{امالہ!خود}{\RL {\arabicfont  500}}
-\indexentry{inductance!self}{\RL {\arabicfont  502}}
-\indexentry{امالہ!خود}{\RL {\arabicfont  502}}
-\indexentry{خود امالہ}{\RL {\arabicfont  502}}
-\indexentry{inductance!mutual}{\RL {\arabicfont  502}}
-\indexentry{mutual inductance}{\RL {\arabicfont  502}}
-\indexentry{امالہ!مشترکہ}{\RL {\arabicfont  502}}
-\indexentry{مشترکہ امالہ}{\RL {\arabicfont  502}}
-\indexentry{coupled coils}{\RL {\arabicfont  502}}
-\indexentry{مربوط لچھے}{\RL {\arabicfont  502}}
-\indexentry{coupling coefficient}{\RL {\arabicfont  519}}
-\indexentry{ارتباطی مستقل}{\RL {\arabicfont  519}}
-\indexentry{coupling!strong}{\RL {\arabicfont  520}}
-\indexentry{رابطہ!مضبوط}{\RL {\arabicfont  520}}
-\indexentry{coupling!weak}{\RL {\arabicfont  520}}
-\indexentry{رابطہ!کمزور}{\RL {\arabicfont  520}}
-\indexentry{transformation!voltage}{\RL {\arabicfont  523}}
-\indexentry{voltage!transformation}{\RL {\arabicfont  523}}
-\indexentry{دباو!تبادلہ}{\RL {\arabicfont  523}}
-\indexentry{تبادلہ!دباو}{\RL {\arabicfont  523}}
-\indexentry{magnetic field!intensity}{\RL {\arabicfont  523}}
-\indexentry{مقناطیسی!شدت}{\RL {\arabicfont  523}}
-\indexentry{transformation!current}{\RL {\arabicfont  524}}
-\indexentry{current!transformation}{\RL {\arabicfont  524}}
-\indexentry{رو!تبادلہ}{\RL {\arabicfont  524}}
-\indexentry{تبادلہ!رو}{\RL {\arabicfont  524}}
-\indexentry{transformation!impedance}{\RL {\arabicfont  526}}
-\indexentry{impedance!transformation}{\RL {\arabicfont  526}}
-\indexentry{رکاوٹ!تبادلہ}{\RL {\arabicfont  526}}
-\indexentry{تبادلہ!رکاوٹ}{\RL {\arabicfont  526}}
-\indexentry{جانب!کم دباو}{\RL {\arabicfont  526}}
-\indexentry{کم دباو!جانب}{\RL {\arabicfont  526}}
-\indexentry{HT}{\RL {\arabicfont  526}}
-\indexentry{high voltage side}{\RL {\arabicfont  526}}
-\indexentry{جانب!زیادہ دباو}{\RL {\arabicfont  526}}
-\indexentry{زیادہ دباو!جانب}{\RL {\arabicfont  526}}
-\indexentry{LT}{\RL {\arabicfont  527}}
-\indexentry{low voltage side}{\RL {\arabicfont  527}}
-\indexentry{input side}{\RL {\arabicfont  528}}
-\indexentry{داخلی ہاتھ}{\RL {\arabicfont  528}}
-\indexentry{primary coil}{\RL {\arabicfont  528}}
-\indexentry{ابتدائی لچھا}{\RL {\arabicfont  528}}
-\indexentry{داخلی لچھا}{\RL {\arabicfont  528}}
-\indexentry{secondary coil}{\RL {\arabicfont  528}}
-\indexentry{ثانوی لچھا}{\RL {\arabicfont  528}}
-\indexentry{خارجی لچھا}{\RL {\arabicfont  528}}
-\indexentry{primary side}{\RL {\arabicfont  528}}
-\indexentry{output side}{\RL {\arabicfont  528}}
-\indexentry{خارجی ہاتھ}{\RL {\arabicfont  528}}
-\indexentry{excitation current}{\RL {\arabicfont  541}}
-\indexentry{ہیجان انگیز رو}{\RL {\arabicfont  541}}
-\indexentry{induced voltage}{\RL {\arabicfont  541}}
-\indexentry{دباو!امالی}{\RL {\arabicfont  541}}
-\indexentry{امالی دباو}{\RL {\arabicfont  541}}
+\indexentry{three phase balanced system}{\RL {\arabicfont  547}}
+\indexentry{تین دور!متوازن}{\RL {\arabicfont  547}}
+\indexentry{متوازن!تین دوری نظام}{\RL {\arabicfont  547}}
+\indexentry{abc}{\RL {\arabicfont  551}}
+\indexentry{Y connected}{\RL {\arabicfont  551}}
+\indexentry{star connected}{\RL {\arabicfont  551}}
+\indexentry{ستارہ نما جوڑ}{\RL {\arabicfont  551}}
