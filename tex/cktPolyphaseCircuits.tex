@@ -1,5 +1,5 @@
-\باب{کثیر دوری ادوار}
-\حصہ{تین دوری نظام}
+\باب{تین دوری نظام}
+\حصہ{تین دوری ستارہ دباو}
 اب تک بدلتی رو طاقت کی بات کرتے ہوئے  ایک عدد منبع دباو کی بات کی جاتی رہی۔حقیقت میں بدلتی رو طاقت کی پیدا وار اور ترسیل تین دوری نظام سے کی جاتی ہے۔شکل \حوالہ{شکل_تین_دوری_تین_دوری_نظام} میں تین دوری نظام دکھایا گیا ہے جہاں تین عدد منبع استعمال کئے گئے ہیں جو آپس میں \عددی{120^{\circ}} زاویائی فاصلہ رکھتے ہیں۔تمام دباو کے حیطے یک برابر ہونے کی صورت میں اس کو \اصطلاح{متوازن تین دوری نظام}\فرہنگ{متوازن!تین دوری نظام}\فرہنگ{تین دور!متوازن}\حاشیہب{balanced three phase system}\فرہنگ{three phase balanced system} کہا جاتا ہے۔دکھائے گئے متوازن نظام کے دباو درج ذیل ہیں جن کے دوری سمتیات کو شکل-ب میں دکھایا گیا ہے۔
 \begin{gather}
 \begin{aligned}
@@ -42,9 +42,9 @@ i_{cn}(t)&=I_0 \cos(\omega t +120^{\circ}-\theta)\,\si{\ampere}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\len}{\x}
-\draw[-latex](0,0)--++(0:\len)node[right]{$\hat{V}_{an}$};
-\draw[-latex](0,0)--++(-120:\len)node[left]{$\hat{V}_{bn}$};
-\draw[-latex](0,0)--++(120:\len)node[left]{$\hat{V}_{cn}$};
+\draw[-latex](0,0)--++(0:\len)coordinate(kva)node[right]{$\hat{V}_{an}$};
+\draw[-latex](0,0)--++(-120:\len)coordinate(kvb)node[left]{$\hat{V}_{bn}$};
+\draw[-latex](0,0)--++(120:\len)coordinate(kvc)node[left]{$\hat{V}_{cn}$};
 \draw[stealth-stealth]([shift={(0:0.3)}]0,0) arc (0:120:0.3);
 \draw[stealth-stealth]([shift={(-120:0.3)}]0,0) arc (-120:0:0.3);
 \draw[stealth-stealth]([shift={(120:0.3)}]0,0) arc (120:240:0.3);
@@ -69,7 +69,7 @@ i_{cn}(t)&=I_0 \cos(\omega t +120^{\circ}-\theta)\,\si{\ampere}
 \label{شکل_تین_دوری_تین_دوری_نظام}
 \end{figure} 
 
-تینوں دباو کو عمومی شکل میں لکھتے ہوئے
+مساوات \حوالہ{مساوات_تین_دوری_ستارہ_الف} کے تینوں دباو کو عمومی شکل میں لکھتے ہیں۔
 \begin{gather}
 \begin{aligned}
 v_{an}(t)&=V_0 \cos\omega t \,\si{\volt}\\
@@ -77,8 +77,88 @@ v_{bn}(t)&=V_0 \cos(\omega t-120^{\circ})\,\si{\volt}\\
 v_{cn}(t)&=V_0 \cos(\omega t +120^{\circ})\,\si{\volt}
 \end{aligned}
 \end{gather}
+شکل \حوالہ{شکل_تین_دوری_تین_دوری_نظام} میں \عددی{n} تا \عددی{a} کے دباو \عددی{\hat{V}_{an}} کو شاخ کا دباو یا \اصطلاح{دوری دباو}\فرہنگ{دوری دباو}\فرہنگ{دباو!دوری}\حاشیہب{phase voltage}\فرہنگ{voltage!phase}\فرہنگ{phase!voltage} کہا جاتا ہے۔اسی طرح  \عددی{n} تا \عددی{b} کے دباو \عددی{\hat{V}_{bn}} اور  \عددی{n} تا \عددی{c} کے دباو \عددی{\hat{V}_{cn}} بھی دوری دباو ہیں۔آئیں اس شکل سے \عددی{b} تا \عددی{a} دباو دریافت کریں جسے \اصطلاح{دباو تار}\فرہنگ{دباو!تار}\فرہنگ{تار!دباو}\حاشیہب{line to line voltage}\فرہنگ{line to line!voltage}\فرہنگ{voltage!line to line} کہا جاتا ہے۔
+\begin{align*}
+\hat{V}_{ab}&=\hat{V}_{an}-\hat{V}_{bn}\\
+&=V_0\phase{0^{\circ}}-V_0\phase{-120^{\circ}}\\
+&=V_0-V_0\left(-\frac{1}{2}-j\frac{\sqrt{3}}{2}\right)\\
+&=V_0\left(\frac{3}{2}-j\frac{\sqrt{3}}{2}\right)\\
+&=\sqrt{3}V_0\phase{30^{\circ}}
+\end{align*}
+یہی جواب شکل \حوالہ{شکل_تین_دوری_تار_تعلق}-الف میں ترسیمی طریقے سے حاصل کیا جا سکتا ہے جہاں تکون سے درج ذیل لکھتے
+\begin{align*}
+V^2_{ab}=V^2_0+V^2_0-2V^2_0\cos 120^{\circ}
+\end{align*}
+ہوئے
+\begin{align}
+V_{ab}=\sqrt{3}V_0
+\end{align}
+ملتا ہے اور زاویہ شکل سے \عددی{30^{\circ}} پڑھا جا سکتا ہے لہٰذا \عددی{\hat{V}_{ab}=\sqrt{3}V_0\phase{30^{\circ}}} ہو گا۔
 
-آگے بڑھنے سے پہلے درج ذیل مثال میں ایک اہم مساوات ثابت کرتے ہیں۔
+چونکہ \عددی{V_0} دور کا دباو ہے جبکہ \عددی{\sqrt{3}V_0} تار کا دباو ہے لہٰذا درج بالا مساوات کو درج ذیل لکھا جا سکتا ہے۔
+\begin{align}\label{مساوات_تین_ستارہ_دور_تار_دباو_تعلق}
+V_{\text{تار}}=\sqrt{3}V_{\text{دور}}
+\end{align} 
+%
+\begin{figure}
+\centering
+\begin{subfigure}{0.4\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\len}{\x}
+\draw[-latex,gray](0,0)--++(0:\len)coordinate(kva)node[shift={(0,0.5)}]{$\hat{V}_{an}$}node[above,pos=0.4]{$V_0$};
+\draw[-latex,gray](0,0)--++(-120:\len)coordinate(kvb)node[left]{$\hat{V}_{bn}$}node[left,pos=0.4]{$V_0$};
+\draw[-latex,gray](0,0)--++(120:\len)coordinate(kvc)node[left]{$\hat{V}_{cn}$};
+\draw[gray]([shift={(-120:0.3)}]0,0) arc (-120:0:0.3);
+%
+\draw[gray](-60:0.6)node{$120^{\circ}$};
+\draw([shift={(180:0.5)}]kva) arc (180:210:0.5);
+\draw[gray](kva)++(198:0.8)node{$30^{\circ}$};
+\draw([shift={(30:0.5)}]kvb) arc (30:60:0.5);
+\draw[gray](kvb)++(40:0.95)node{$30^{\circ}$};
+\draw[gray,dashed](kva)--++(1,0);
+\draw[gray,dashed](kva)--++(30:1);
+\draw[gray]([shift={(0:0.3)}]kva) arc (0:30:0.3);
+\draw[gray](kva)++(15:0.9)node{$30^{\circ}$};
+%
+\draw[-latex](kvb)--(kva)node[pos=0.5,below right]{$\hat{V}_{ab}$};
+\draw[-latex](kva)--(kvc)node[pos=0.5,above]{$\hat{V}_{ca}$};
+\draw[-latex](kvc)--(kvb)node[pos=0.5,left]{$\hat{V}_{bc}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.6\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\len}{\x*sqrt(3)}
+%
+\draw[-latex](0,0)--++(30:\len)coordinate(kva)node[right]{$\hat{V}_{ab}$}node[above left,pos=0.5]{$\sqrt{3}V_0$};
+\draw[-latex](0,0)--++(150:\len)coordinate(kvb)node[left]{$\hat{V}_{ca}$}node[above right,pos=0.5]{$\sqrt{3}V_0$};
+\draw[-latex](0,0)--++(-90:\len)coordinate(kvc)node[left]{$\hat{V}_{bc}$}node[left,pos=0.5]{$\sqrt{3}V_0$};
+\draw[gray](0,0)--++(2,0);
+\draw[-stealth]([shift={(0:0.8)}]0,0) arc (0:30:0.8);
+\draw(15:0.8)node[right]{$30^{\circ}$};
+\draw([shift={(150:0.4)}]0,0)arc (150:270:0.4);
+\draw(210:0.8)node{$120^{\circ}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{دوری دباو اور دباو تار کا تعلق۔}
+\label{شکل_تین_دوری_تار_تعلق}
+\end{figure}%
+
+یوں ہم تین دوری دباو تار لکھ سکتے ہیں جنہیں شکل \حوالہ{شکل_تین_دوری_تار_تعلق}-ب میں دکھایا گیا ہے۔
+\begin{gather}
+\begin{aligned}
+\hat{V}_{ab}&=\sqrt{3}V_0\phase{30^{\circ}}\\
+\hat{V}_{ca}&=\sqrt{3}V_0\phase{150^{\circ}}\\
+\hat{V}_{bc}&=\sqrt{3}V_0\phase{-90^{\circ}}
+\end{aligned}
+\end{gather}
+تین دوری دباو تار بھی آپس میں \عددی{120^{\circ}} زاویے پر پائے جاتے ہیں۔
+
+شکل \حوالہ{شکل_تین_دوری_تین_دوری_نظام}-ب میں  \عددی{v_{bn}} کو \عددی{v_{an}} سے \عددی{120^{\circ}} پیچھے اور \عددی{v_{cn}} کو \عددی{v_{bn}} سے \عددی{120^{\circ}}  پیچھے دکھایا گیا ہے لہٰذا اس نظام کی ترتیب \عددی{abc}\فرہنگ{abc} ہے۔
+
 %=================
 \ابتدا{مثال}\شناخت{مثال_تین_دوری_تکونی_صفر_برابر_ہے}
 درج ذیل مساوات کو ثابت کریں۔
@@ -97,8 +177,20 @@ v_{cn}(t)&=V_0 \cos(\omega t +120^{\circ})\,\si{\volt}
 (\cos \alpha)+(-\frac{1}{2}\cos \alpha-\frac{\sqrt{3}}{2}\sin\alpha)+(-\frac{1}{2}\cos \alpha+\frac{\sqrt{3}}{2}\sin\alpha)=0
 \end{align*}
 آئیں اب مساوات \حوالہ{مساوات_تین_دوری_تکونی_صفر_برابر_ب} کو ثابت کریں۔مساوات کے دوسرے جزو میں \عددی{\cos(\alpha-240^{\circ})=\cos(\alpha+120^{\circ})} استعمال کرتے ہوئے اور تیسرے جزو میں \عددی{\cos(\alpha+240^{\circ})=\cos(\alpha-120^{\circ})} استعمال کرتے ہوئے مساوات \حوالہ{مساوات_تین_دوری_تکونی_صفر_برابر_ہے} ملتا ہے جسے ہم ثابت کر چکے ہیں۔
-
 \انتہا{مثال}
+%=================
+\ابتدا{مشق}
+متوازن \عددی{abc} ترتیب کے تین دوری ستارہ دباو  میں \عددی{\hat{V}_{an}=230\phase{30^{\circ}}\,\si{\volt}\,\rms} ہے۔باقی دو موثر ستارہ دباو حاصل کرتے ہوئے موثر دباو تار بھی حاصل کریں۔
+
+جوابات: \عددی{\hat{V}_{bn}=230\phase{150^{\circ}}\,\si{\volt}\,\rms}، \عددی{\hat{V}_{cn}=-90\phase{30^{\circ}}\,\si{\volt}\,\rms}، \عددی{\hat{V}_{ab}=398.4\phase{60^{\circ}}\,\si{\volt}\,\rms}، \\
+\عددی{\hat{V}_{ca}=398.4\phase{180^{\circ}}\,\si{\volt}\,\rms}، \عددی{\hat{V}_{bc}=398.4\phase{-60^{\circ}}\,\si{\volt}\,\rms}
+\انتہا{مشق}
+%==================
+\ابتدا{مشق}
+متوازن تین دوری \عددی{abc} ستارہ نظام میں \عددی{\hat{V}_{ab}=415\phase{0^{\circ}}\,\si{\volt}\,\rms} ہے۔ دباو تار کا تکون شکل \حوالہ{شکل_تین_دوری_تار_تعلق}-الف کے طرز پر کھینچیں۔ترسیمی طریقے سے  موثر ستارہ دوری دباو حاصل کریں۔
+
+جوابات:\عددی{\hat{V}_{an}=239.4\phase{-30^{\circ}}\,\si{\volt}\,\rms}، \عددی{\hat{V}_{bn}=239.4\phase{-150^{\circ}}\,\si{\volt}\,\rms}، \\ \عددی{\hat{V}_{cn}=239.4\phase{90^{\circ}}\,\si{\volt}\,\rms}
+\انتہا{مشق}
 %=================
 تین دوری نظام میں علیحدہ علیحدہ دور کے لمحاتی طاقت لکھتے ہیں 
 \begin{align*}
@@ -123,7 +215,7 @@ p(t)=\frac{3V_0 I_0}{2}\cos \theta =3 \Vrms \Irms \cos \theta \,\si{\watt}
 \end{align}
 آپ مساوات \حوالہ{مساوات_تین_دوری_لمحاتی_طاقت_برقرار} کا \عددی{p_a(t)=\frac{V_0 I_0}{2}[\cos \theta +\cos(2\omega t -\theta)]} کے ساتھ موازنہ کریں جو دگنی تعدد یعنی \عددی{2\omega} کے ساتھ تبدیل ہوتا ہے۔آپ دیکھ سکتے ہیں کہ تین دوری نظام میں لمحاتی طاقت برقرار رہتا ہے۔یہ انتہائی اہم نتیجہ ہے۔تین دور کا موٹر برقرار میکانی قوت پیدا کرے گا لہٰذا اس میں ترتراہٹ کم سے کم ہو گی جو میکانی خرابی کی وجہ بنتی ہے۔
 
-\حصہ{ستارہ اور تکونی جوڑ}
+\حصہ{ستارہ ستارہ جوڑ}
 مساوات \حوالہ{مساوات_تین_دوری_ستارہ_الف} میں لمحہ \عددی{t=0} پر \عددی{v_{an}} کی چوٹی پائی جاتی ہے۔ہم کہتے ہیں کہ \عددی{v_{an}} کا زاویائی ہٹاو صفر کے برابر ہے۔اگر \عددی{v_{an}} کا زاویائی ہٹاو \عددی{\theta} ہو تب تین دوری نظام کے دوری سمتیات درج ذیل ہوں گے۔
  \begin{gather}
 \begin{aligned}
@@ -132,7 +224,7 @@ p(t)=\frac{3V_0 I_0}{2}\cos \theta =3 \Vrms \Irms \cos \theta \,\si{\watt}
 \hat{V}_{cn}&=230 \phase{\theta-240^{\circ}}\,\si{\volt} \rms
 \end{aligned}
 \end{gather}
-ایسی صورت میں شکل \حوالہ{شکل_تین_دوری_تین_دوری_نظام}-ب کے تینوں دوری سمتیات \عددی{\theta} زاویہ گھوم جائیں گے۔تین دوری نظام کی بات کرتے ہوئے ہم \عددی{v_{an}} کا زاویہ ہٹاو صفر کے برابر لیں گے تا کہ بار بار اس کا ذکر نہ کرنا پڑے۔ساتھ ہی ساتھ جیسا شکل \حوالہ{شکل_تین_دوری_تین_دوری_نظام}-ب میں دکھایا گیا ہے ہم \عددی{v_{bn}} کو \عددی{v_{an}} سے \عددی{120^{\circ}} پیچے اور \عددی{v_{cn}} کو \عددی{v_{bn}} سے \عددی{120^{\circ}}  پیچے تصور کریں گے۔ایسے نظام کو \عددی{abc}\فرہنگ{abc} نظام کہا جاتا ہے۔
+ایسی صورت میں شکل \حوالہ{شکل_تین_دوری_تین_دوری_نظام}-ب کے تینوں دوری سمتیات \عددی{\theta} زاویہ گھوم جائیں گے۔تین دوری \عددی{abc} نظام کی بات کرتے ہوئے ہم \عددی{v_{an}} کا زاویہ ہٹاو صفر کے برابر لیں گے تا کہ بار بار اس کا ذکر نہ کرنا پڑے۔
 \begin{figure}
 \centering
 \begin{subfigure}{0.5\textwidth}
@@ -159,12 +251,12 @@ p(t)=\frac{3V_0 I_0}{2}\cos \theta =3 \Vrms \Irms \cos \theta \,\si{\watt}
 \end{tikzpicture}
 \caption*{(ب)}
 \end{subfigure}%
-\caption{ستارہ نما جوڑ۔}
+\caption{ستارہ جوڑ۔}
 \label{شکل_تین_دوری_ستارہ_نظام}
 \end{figure}
 
 
-شکل \حوالہ{شکل_تین_دوری_تین_دوری_نظام}-الف کے تین دوری \عددی{abc} نظام کو شکل \حوالہ{شکل_تین_دوری_ستارہ_نظام}-الف میں \اصطلاح{ستارہ نما جڑا}\فرہنگ{ستارہ نما جوڑ}\حاشیہب{star connected, Y connected}\فرہنگ{star connected}\فرہنگ{Y connected} دکھایا گیا ہے۔ساتھ ہی شکل-ب میں دوری سمتیات دکھائے گئے ہیں جو پہلے سے ستارہ شکل بناتے ہیں۔تین دوری نظام کو اس طرح کاغذ پر بناتے ہوئے مکمل معلومات بغیر لکھے دی جاتی ہے۔یوں شکل \حوالہ{شکل_تین_دوری_تین_دوری_نظام}-الف سے ظاہر ہے کہ \عددی{v_{an}} کا زاویہ ہٹاو صفر کے برابر ہے اور \عددی{v_{bn}} اس سے \عددی{120^{\circ}} پیچے ہے۔یوں ظاہر ہے کہ یہ نظام \عددی{abc} ہے۔ساتھ ہی آپ دیکھ سکتے ہیں کہ تینوں دباو کے حیطے برابر ہیں۔تینوں دباو کو نقطہ \عددی{n} سے ناپا جاتا ہے۔
+شکل \حوالہ{شکل_تین_دوری_تین_دوری_نظام}-الف کے تین دوری \عددی{abc} نظام کو شکل \حوالہ{شکل_تین_دوری_ستارہ_نظام}-الف میں \اصطلاح{ستارہ جڑا}\فرہنگ{ستارہ جوڑ}\حاشیہب{star connected, Y connected}\فرہنگ{star connected}\فرہنگ{Y connected} دکھایا گیا ہے۔ساتھ ہی شکل-ب میں دوری سمتیات دکھائے گئے ہیں جو ستارہ شکل بناتے ہیں۔تین دوری نظام کو اس طرح کاغذ پر بناتے ہوئے مکمل معلومات بغیر لکھے دی جاتی ہے۔یوں شکل \حوالہ{شکل_تین_دوری_تین_دوری_نظام}-الف سے ظاہر ہے کہ \عددی{v_{an}} کا زاویہ ہٹاو صفر کے برابر ہے اور \عددی{v_{bn}} اس سے \عددی{120^{\circ}} پیچھے ہے۔یوں ظاہر ہے کہ اس نظام کی ترتیب \عددی{abc} ہے۔ساتھ ہی آپ دیکھ سکتے ہیں کہ تینوں دباو کے حیطے برابر ہیں۔تینوں دباو کو نقطہ \عددی{n} سے ناپا جاتا ہے۔
 
 دوری سمتیات کا مجموعہ حاصل کرتے وقت ایک دوری سمتیہ کی نوک کے ساتھ دوسری دوری سمتیہ کی دم ملائی جاتی ہے۔اس ترکیب کو استعمال کرتے ہوئے شکل \حوالہ{شکل_تین_دوری_دباو_مجموعہ_صفر} میں درج ذیل مساوات ثابت کی گئی ہے۔
 \begin{align}
@@ -182,3 +274,172 @@ p(t)=\frac{3V_0 I_0}{2}\cos \theta =3 \Vrms \Irms \cos \theta \,\si{\watt}
 \caption{تین دوری نظام کے تینوں دباو کا مجموعہ صفر کے برابر ہے۔}
 \label{شکل_تین_دوری_دباو_مجموعہ_صفر}
 \end{figure}
+
+شکل \حوالہ{شکل_تین_دوری_ستارہ_ستارہ_الف}-الف میں تین دوری نظام  کے تینوں منبع پر بوجھ لدا دکھایا گیا ہے۔اسی کو شکل-ب میں ستارہ صورت میں دکھایا گیا ہے۔منبع اور بوجھ دونوں ستارہ جڑے ہیں لہٰذا اس نظام کو \اصطلاح{ستارہ ستارہ}\فرہنگ{ستارہ ستارہ}\حاشیہب{star-star, Y-Y}\فرہنگ{star-star}\فرہنگ{Y-Y} نظام کہا جاتا ہے۔شاخ \عددی{a} پر نظر ڈالتے ہوئے معلوم ہوتا ہے کہ منبع \عددی{\hat{V}_{an}} کی دوری رو \عددی{\hat{I}_{a}} ہی منبع سے بوجھ تک تار میں پائے جانے والی رو تار \عددی{\hat{I}_a} ہے۔یوں ستارہ ستارہ نظام کے لئے درج ذیل لکھا جا سکتا ہے جہاں مساوات \حوالہ{مساوات_تین_ستارہ_دور_تار_دباو_تعلق} کو دوبارہ پیش کیا گیا ہے۔
+\begin{gather}
+\begin{aligned}
+I_{\text{تار}}&=I_{\text{دوری}}\\
+V_{\text{تار}}&=\sqrt{3}V_{\text{دوری}} \quad \quad \text{\RL{ستارہ ستارہ نظام میں دوری اور تار کے متغیرات کے تعلق}}
+\end{aligned}
+\end{gather}
+%
+ \begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l_={${\hat{V}_{an}}$},i={$\hat{I}_a$}]++(0,\y) to [short]++(0,\y) to [short]++(2*\x,0)  to [short,-o,i={$\hat{I}_a$}]++(1*\x,0)node[above]{$a$}coordinate(ka);
+\draw(1*\x,0)to [american voltage source,l_={${\hat{V}_{bn}}$},i={$\hat{I}_b$}]++(0,\y)  to [short]++(0,\y/2) to [short]++(\x,0)  to [short,-o,i={$\hat{I}_b$}]++(\x,0)node[above]{$b$}coordinate(kb);
+\draw(2*\x,0) to [american voltage source,l_={${\hat{V}_{cn}}$},i={$\hat{I}_c$}] ++(0,\y)to [short,-o,i={$\hat{I}_c$}]++(1*\x,0)node[above]{$c$}coordinate(kc);
+\draw(0,0) to [short,-*]++(1*\x,0) to [short,-*]++(1*\x,0) to [short,-o,i<_={$\hat{I}_n$}]++(1*\x,0)node[below]{$n$} to [short,o-]++(\x/2+2*\x,0);
+%load
+\draw(ka) to [short,o-]++(2*\x+\x/2,0) to [short]++(0,-\y) to [european resistor,l={$\bZ_a$}]++(0,-\y);
+\draw(kb) to [short,o-]++(\x+\x/2,0) to [short] ++(0,-\y/2) to [european resistor,-*,l={$\bZ_b$}]++(0,-\y);
+\draw(kc) to [short,o-]++(\x/2,0) to [european resistor,-*,l={$\bZ_c$}]++(0,-\y);
+%text
+\draw(0,\y)node[left]{\RL{رو دور}};
+\draw(2*\x+\x/2,2*\y)node[shift={(0,0.8)}]{\RL{رو تار}};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+%star voltages
+\draw(0,0)node[left]{$n$} to [american voltage source,l={$\hat{V}_{an}$}]++(0:\x)coordinate(ka);
+\draw(0,0) to [american voltage source,l={$\hat{V}_{bn}$}]++(-120:\x)coordinate(kb);
+\draw(0,0) to [american voltage source,l_={$\hat{V}_{cn}$}]++(120:\x)coordinate(kc);
+%star load
+\draw(3*\x,0)node[right]{$n$} to [european resistor,l_={$\bZ_Y$}]++(180:\x)coordinate(kaa);
+\draw(3*\x,0) to [european resistor,l_={$\bZ_Y$}]++(-60:\x)coordinate(kbb);
+\draw(3*\x,0) to [european resistor,l_={$\bZ_Y$}]++(60:\x)coordinate(kcc);
+%connections
+\draw(ka)--(kaa);
+\draw(kb)--(kbb);
+\draw(kc)--(kcc);
+\draw(0,0) to [short,*-]++(-45:3/4*\x)coordinate(nL);
+\draw (3*\x,0) to [short,*-]++(-135:3/4*\x)--(nL)node[above,pos=0.5]{\RL{تعدیلی تار}};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{متوازن ستارہ ستارہ نظام۔}
+\label{شکل_تین_دوری_ستارہ_ستارہ_الف}
+\end{figure} 
+
+متوازن ستارہ بوجھ کی صورت میں \عددی{\bZ_a=\bZ_b=\bZ_c=\bZ_Y} ہو گا۔ایسی صورت میں شکل \حوالہ{شکل_تین_دوری_ستارہ_ستارہ_الف}-الف میں تین دوری رو درج ذیل ہوں گی جہاں \عددی{\hat{V}_a} کا زاویہ ہٹاو صفر لیا گیا ہے اور \عددی{\tfrac{V_0}{Z_Y}} کو \عددی{I_0} لکھا گیا ہے۔
+\begin{gather}
+\begin{aligned}\label{مساوات_تین_دوری_ستارہ_رو}
+\hat{I}_a&=\frac{\hat{V}_a}{\bZ_Y}=\frac{V_0\phase{0^{\circ}}}{Z_Y\phase{\theta_{z}}}=\frac{V_0}{Z_Y}\phase{-\theta_z}=I_0\phase{-\theta_z}\\
+\hat{I}_b&=\frac{\hat{V}_b}{\bZ_Y}=\frac{V_0\phase{-120^{\circ}}}{Z_Y\phase{\theta_{z}}}=\frac{V_0}{Z_Y}\phase{-120^{\circ}-\theta_z}=I_0\phase{-120^{\circ}-\theta_z}\\
+\hat{I}_c&=\frac{\hat{V}_c}{\bZ_Y}=\frac{V_0\phase{120^{\circ}}}{Z_Y\phase{\theta_{z}}}=\frac{V_0}{Z_Y}\phase{120^{\circ}-\theta_z}=I_0\phase{120^{\circ}-\theta_z}
+\end{aligned}
+\end{gather} 
+شکل \حوالہ{شکل_تین_دوری_ستارہ_ستارہ_الف}-الف میں منبعوں کے جوڑ پر کرخوف قانون رو کی مدد سے  تعدیلی تار میں رو \عددی{\hat{I}_n} کی مساوات لکھتے ہیں
+\begin{align*}
+\hat{I}_n=\hat{I}_a+\hat{I}_b+\hat{I}_c
+\end{align*}
+جس میں مساوات \حوالہ{مساوات_تین_دوری_ستارہ_رو} پر کرتے ہوئے ثابت ہوتا ہے کہ \عددی{\hat{I}_n} صفر کے برابر ہے۔
+\begin{align}
+\hat{I}_n=\hat{I}_a+\hat{I}_b+\hat{I}_c=0\quad \quad \text{\RL{متوازن ستارہ ستارہ میں تعدیلی رو صفر ہے}}
+\end{align}
+شکل \حوالہ{شکل_تین_دوری_تعدیلی_رو_صفر} میں پیچھے جزو طاقت کی صورت میں ستارہ رو اور ان کا مجموعہ دکھایا گیا ہے۔آپ دیکھ سکتے ہیں کہ متوازن ستارہ منبع اور متوازن ستارہ بوجھ کی صورت میں تعدیلی رو صفر ہو گی لہٰذا تعدیلی تار اتارنے  سے نظام پر کوئی اثر نہیں ہو گا۔ ہاں اگر ایک بوجھ یا ایک منبع کی قیمت تبدیل کر دی جائے تب اس شاخ کی رو تبدیل ہو جائے گی اور یوں تینوں شاخوں کی رو کا مجموعہ صفر نہ رہ پائے گا لہٰذا غیر متوازن صورت میں تعدیلی رو پائی جائے گی۔ 
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ang}{-30}
+\draw[dashed](0,0)--++(\x,0);
+\draw([shift={(0:0.5)}]0,0) arc (0:\ang:0.5);
+\draw(1/2*\ang:0.8)node{$\theta$};
+%
+\draw[-latex](0,0)--++(\ang:\x)node[right]{$\hat{I}_a$};
+\draw[-latex](0,0)--++(\ang-120:\x)node[left]{$\hat{I}_b$};
+\draw[-latex](0,0)--++(\ang+120:\x)node[left]{$\hat{I}_c$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ang}{-30}
+\draw[-latex](0,0)--++(\ang:\x)node[pos=0.7,above]{$\hat{I}_a$};
+\draw[-latex](0,0)++(\ang:\x)--++(\ang-120:\x)node[pos=0.7,below]{$\hat{I}_b$};
+\draw[-latex](0,0)++(\ang:\x)++(\ang-120:\x)--++(\ang+120:\x)node[pos=0.7,left]{$\hat{I}_c$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\caption{متوازن منبع اور متوازن بوجھ کی صورت میں تعدیلی رو صفر  ہو گی۔}
+\label{شکل_تین_دوری_تعدیلی_رو_صفر}
+\end{figure}
+
+متوازن ستارہ ستارہ نظام میں تینوں رو کی قیمت برابر ہوتی ہے جبکہ ان میں زاویائی فاصلہ \عددی{120^{\circ}} پایا جاتا ہے۔یوں ہم صرف ایک منبع اور اس کے بوجھ کو حل کرتے ہوئے تمام جوابات اخذ کر سکتے ہیں۔اس نظام میں تینوں تار کی رکاوٹ بھی برابر ہوتی ہے لہٰذا تار کی رکاوٹ کے اثرات شامل کرتے ہوئے بھی صرف ایک دور حل کرنا پڑتا ہے۔چونکہ متوازن ستارہ ستارہ نظام کے تعدیلی تار میں رو صفر رہتی ہے لہٰذا اس تار کی رکاوٹ کا نظام میں دباو اور رو پر کوئی اثر نہیں ہوتا لہٰذا تعدیلی تار کی رکاوٹ غیر اہم ہے۔یوں تعدیلی تار کی رکاوٹ کچھ بھی تصور کی جا سکتی ہے۔ہم تعدیلی تار کی رکاوٹ صفر تصور کریں گے۔
+%================
+\ابتدا{مثال}\شناخت{مثال_تین_دوری_ستارہ_ستارہ_بوجھ_رکاوٹ_الف}
+متوازن تین دوری ستارہ ستارہ \عددی{abc} نظام میں موثر دوری دباو \عددی{\SI{230}{\volt}\,\rms} ہے جبکہ تار اور بوجھ کے رکاوٹ بالترتیب \عددی{0.5+j1\,\si{\ohm}} اور  \عددی{15+j12\,\si{\ohm}} ہیں۔تمام دباو بوجھ اور تار کی رو دریافت کریں۔
+
+حل:شاخ \عددی{a} کو صفر زاویے پر رکھتے ہوئے  تین منبع کے دباو لکھتے ہیں۔
+\begin{align*}
+\hat{V}_{an}&=230\phase{0^{\circ}}\,\si{\volt}\,\rms\\
+\hat{V}_{bn}&=230\phase{-120^{\circ}}\,\si{\volt}\,\rms\\
+\hat{V}_{acn}&=230\phase{120^{\circ}}\,\si{\volt}\,\rms
+\end{align*}
+ستارہ ستارہ نظام کے ایک شاخ کو شکل \حوالہ{شکل_تین_دوری_ستارہ_ستارہ_بوجھ_رکاوٹ_الف} میں دکھایا گیا ہے جہاں سے درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+\hat{I}_a&=\frac{230\phase{0^{\circ}}}{0.5+j1+15+j12}=11.37\phase{-40^{\circ}}\,\si{\ampere}\,\rms\\
+\hat{V}_{AN}&=\left(\frac{15+j12}{0.5+j1+15+j12}\right) 230\phase{0^{\circ}}=218.4\phase{-1.3^{\circ}}\,\si{\volt}\,\rms
+\end{align*}
+ان جوابات کو \عددی{120^{\circ}} ہٹاو دیتے ہوئے بقایا جوابات لکھتے ہیں۔
+\begin{align*}
+\hat{I}_b&=11.37\phase{-120^{\circ}-40^{\circ}}=11.37\phase{-160^{\circ}}\,\si{\ampere}\,\rms\\
+\hat{I}_c&=11.37\phase{+120^{\circ}-40^{\circ}}=11.37\phase{80^{\circ}}\,\si{\ampere}\,\rms\\
+\hat{V}_{BN}&=218.4\phase{-120^{\circ}-1.3^{\circ}}=218.4\phase{-121.3^{\circ}}\,\si{\volt}\,\rms\\
+\hat{V}_{CN}&=218.4\phase{+120^{\circ}-1.3^{\circ}}=218.4\phase{118.7^{\circ}}\,\si{\volt}\,\rms
+\end{align*} 
+%
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0)node[below]{$n$} to [american voltage source,l={${230\phase{0^{\circ}}}\,\si{\volt}\,\rms$}]++(0,\y)node[above]{$a$} to [short,i={$\hat{I}_a$}]++(\x/2,0) to [european resistor,l={$0.5+j1\,\si{\ohm}$}]++(\x,0)node[above]{$A$} to [european resistor,l={$15+j12\,\si{\ohm}$},v={$\hat{V}_{AN}$}]++(0,-\y)node[below]{$N$} to [short](0,0);
+\draw(0.3,0) to [open,v_>={$\hat{V}_{an}$}]++(0,\y);
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_تین_دوری_ستارہ_ستارہ_بوجھ_رکاوٹ_الف} کا دور۔}
+\label{شکل_تین_دوری_ستارہ_ستارہ_بوجھ_رکاوٹ_الف}
+\end{figure}
+\انتہا{مثال}
+%==================
+\ابتدا{مشق}
+متوازن \عددی{abc} ستارہ جڑے منبع میں \عددی{\hat{V}_{an}=100\phase{180^{\circ}}\,\si{\volt}} ہے۔دباو تار حاصل کریں۔
+
+جوابات:\عددی{\hat{V}_{ab}=173.2\phase{-150^{\circ}}\,\si{\volt}}، \عددی{\hat{V}_{ca}=173.2\phase{-30^{\circ}}\,\si{\volt}}، \عددی{\hat{V}_{bc}=173.2\phase{90^{\circ}}\,\si{\volt}}
+\انتہا{مشق}
+%================
+
+\ابتدا{مشق}
+متوازن \عددی{abc} ستارہ جڑے منبع میں \عددی{\hat{V}_{ab}=180\phase{150^{\circ}}\,\si{\volt}} ہے۔دوری دباو حاصل کریں۔
+
+جوابات:\عددی{\hat{V}_{an}=86.6\phase{90^{\circ}}\,\si{\volt}}، \عددی{\hat{V}_{bn}=86.6\phase{-30^{\circ}}\,\si{\volt}}، \عددی{\hat{V}_{cn}=86.6\phase{-150^{\circ}}\,\si{\volt}}
+\انتہا{مشق}
+%================
+\ابتدا{مشق}
+ستارہ ستارہ \عددی{abc} ترتیب کے نظام میں بوجھ پر دباو \عددی{\hat{V}_{AN}=220\phase{-15.6^{\circ}}\,\si{\volt}\,\rms} ہے۔ستارہ بوجھ کے ایک دور کی رکاوٹ \عددی{4+j2\,\si{\ohm}} اور تار کی رکاوٹ \عددی{1+j1.5\,\si{\ohm}} ہے۔ستارہ منبع کی دوری دباو حاصل کریں۔
+
+جوابات:\عددی{\hat{V}_{an}=300\phase{-7.2^{\circ}}\,\si{\volt}\,\rms}، \عددی{\hat{V}_{bn}=300\phase{-127.2^{\circ}}\,\si{\volt}\,\rms}، \\ \عددی{\hat{V}_{cn}=300\phase{112.8^{\circ}}\,\si{\volt}\,\rms}
+\انتہا{مشق}
+%================
+\ابتدا{مشق}
+متوازن ستارہ بوجھ کے ایک دور کی رکاوٹ \عددی{0.2-j0.12\,\si{\ohm}} ہے۔اس کو متوازن ستارہ منبع سے طاقت فراہم کی جاتی ہے جس کا دباو دور \عددی{\SI{110}{\volt}\,\rms} ہے۔نظام کی ترتیب \عددی{abc} ہے۔ دور \عددی{a} کا زاویہ ہٹاو صفر لیتے ہوئے تار کی رو دریافت کریں۔
+
+جوابات:\عددی{\hat{I}_{a}=471\phase{31^{\circ}}\,\si{\ampere}\,\rms}، \عددی{\hat{I}_{b}=471\phase{-89^{\circ}}\,\si{\ampere}\,\rms}، 
+\عددی{\hat{I}_{c}=471\phase{151^{\circ}}\,\si{\ampere}\,\rms}
+\انتہا{مشق}
+%==================
+\ابتدا{مشق}
+متوازن ستارہ ستارہ نظام میں تاروں میں کل ضیاع \عددی{\SI{962}{\watt}} ہے۔بوجھ کا دوری دباو \عددی{v_{AN}=240\phase{38^{\circ}}\,\si{\volt}\,\rms} جبکہ اس کا آگے جزو طاقت \عددی{0.69} ہے۔تار کی رکاوٹ \عددی{1.2+j1.5\,\si{\ohm}} ہے۔بوجھ کی دوری رکاوٹ دریافت کریں۔
+
+جواب:\عددی{10.13-j10.63\,\si{\ohm}}
+\انتہا{مشق}
+%===================
+
+\حصہ{تین دوری تکونی دباو}
+
