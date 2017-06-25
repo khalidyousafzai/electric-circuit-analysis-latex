@@ -94,5 +94,7 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 10}}کامل ٹرانسفارمر}{\RL {\arabicfont 523}}
 \contentsline {chapter}{\numberline {\RL {\arabicfont 11}}تین دوری نظام}{\RL {\arabicfont 547}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 11}}تین دوری ستارہ دباو}{\RL {\arabicfont 547}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 11}}ستارہ ستارہ جوڑ}{\RL {\arabicfont 553}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 11}}تین دوری تکونی دباو}{\RL {\arabicfont 559}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 11}}ستارہ ستارہ \tmspace +\thinmuskip {.1667em}(\ensuremath {YY}) \tmspace +\thinmuskip {.1667em} جوڑ}{\RL {\arabicfont 553}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 11}}تین دوری تکونی (\ensuremath {\Delta }) دباو}{\RL {\arabicfont 559}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 11}}تکونی بوجھ}{\RL {\arabicfont 564}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 11}}طاقتی تعلقات}{\RL {\arabicfont 569}}

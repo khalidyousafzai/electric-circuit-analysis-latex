@@ -1,0 +1,46 @@
+
+چونکہ تین دوری منبع کو ستارہ یا تکونی جوڑا جا سکتا ہے اور اسی طرح تین دوری بوجھ کو ستارہ یا تکونی جوڑا جا سکتا ہے لہٰذا انہیں آپس میں جوڑنے کے چار ممکنات پیدا ہوتے ہیں جنہیں شکل میں دکھایا گیا ہے۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\len}{\x+\x*sin(30)}
+%star supplies
+\draw(0,0) to [american voltage source,*-o,l={$V_p\phase{0^{\circ}}$}]++(0:\x)coordinate(ka)node[above]{$a$};
+\draw(0,0) to [american voltage source,l={$V_p\phase{-120^{\circ}}$}]++(-120:\x) to [short]++(0,-\y/2)to [short,-o]++(\len,0)coordinate(kb)node[above]{$b$};
+\draw(0,0) to [american voltage source,l={$V_p\phase{-120^{\circ}}$}]++(120:\x) to [short]++(0,\y/2)to [short,-o]++(\len,0)coordinate(kc)node[above]{$c$};
+\draw($(ka)!0.5!(kb)$)++(-0.4,0)node[right]{$\begin{aligned} &+\\ &V_{\text{تار}}=\sqrt{3}V_{\text{دور}} \\ &- \end{aligned}$};
+%wires
+\draw(ka) to [short,o-o,i={${I_{\text{تار}}=I_{\text{دور}}}$}]++(\x,0)coordinate(kaa);
+\draw(kb) to [short,o-o]++(\x,0)coordinate(kbb);
+\draw(kc) to [short,o-o]++(\x,0)coordinate(kcc);
+%star load
+\draw(3*\x,0) to [european resistor,*-o,l={$\bZ_Y$}]++(180:\x);
+\draw(3*\x,0) to [european resistor,l={$\bZ_Y$}]++(60:\x) to [short]++(0,\y/2) to [short,-o](kcc);
+\draw(3*\x,0) to [european resistor,l={$\bZ_Y$}]++(-60:\x) to [short]++(0,-\y/2) to [short,-o](kbb);
+\end{tikzpicture}
+\caption*{(الف) ستارہ ستارہ تعلق۔}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\len}{\x+\x*sin(30)}
+%star supplies
+\draw(0,0) to [american voltage source,*-o,l={$V_p\phase{0^{\circ}}$}]++(0:\x)coordinate(ka)node[above]{$a$};
+\draw(0,0) to [american voltage source,l={$V_p\phase{-120^{\circ}}$}]++(-120:\x) to [short]++(0,-\y/2)to [short,-o]++(\len,0)coordinate(kb)node[above]{$b$};
+\draw(0,0) to [american voltage source,l={$V_p\phase{-120^{\circ}}$}]++(120:\x) to [short]++(0,\y/2)to [short,-o]++(\len,0)coordinate(kc)node[above]{$c$};
+\draw($(ka)!0.5!(kb)$)++(-0.4,0)node[right]{$\begin{aligned} &+\\ &V_{\text{تار}}=\sqrt{3}V_{\text{دور}} \\ &- \end{aligned}$};
+%wires
+\draw(ka) to [short,o-o,i={${I_{\text{تار}}=I_{\text{دور}}}$}]++(\x,0)coordinate(kaa);
+\draw(kb) to [short,o-o]++(\x,0)coordinate(kbb);
+\draw(kc) to [short,o-o]++(\x,0)coordinate(kcc);
+%delta load
+\draw(2*\x,0) to [european resistor,*-*,l={$\bZ_{\Delta}$}]++(30:2*\x)coordinate(kccc) to [european resistor,l={$\bZ_{\Delta}$}]++(0,-2*\x);
+\draw(2*\x,0) to [european resistor,*-*,l={$\bZ_{\Delta}$}]++(-30:2*\x)coordinate(kbbb);
+\draw(kbb) to [short,o-]++(\x/4,0) -|(kbbb);
+\draw(kcc) to [short,o-]++(\x/4,0) -|(kccc);
+\end{tikzpicture}
+\caption*{(ب) ستارہ تکون تعلق۔}
+\end{subfigure}
+\end{figure}

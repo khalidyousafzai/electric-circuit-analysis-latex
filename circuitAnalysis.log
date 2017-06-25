@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  24 JUN 2017 19:30
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  25 JUN 2017 19:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3095,7 +3095,7 @@ Overfull \hbox (5.869pt too wide) in paragraph at lines 211--211
  []
 
 [552] [553]
-Overfull \hbox (9.22263pt too wide) in paragraph at lines 291--302
+Overfull \hbox (14.67184pt too wide) in paragraph at lines 291--302
  [][][][] 
  []
 
@@ -3111,7 +3111,33 @@ n/10 11[]\EU1/JameelNooriNastaleeq(1)/m/n/10 : متوازن ستارہ ستار�
 m/n/10 = \OT1/ppl/m/n/10 240[] [] []$[]
  []
 
-[558]) [559] [560
+[558] [559]
+Overfull \hbox (8.96545pt too wide) in paragraph at lines 515--519
+ [][][][] 
+ []
+
+[560] [561] [562]
+
+LaTeX Warning: Command \b invalid in math mode on input line 575.
+
+Missing character: There is no ̲ in font zplmr7m!
+
+LaTeX Warning: Command \b invalid in math mode on input line 575.
+
+Missing character: There is no ̲ in font zplmr7m!
+[563]
+Underfull \vbox (badness 2538) has occurred while \output is active []
+
+ [564]
+[565]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [566]
+
+LaTeX Warning: Command \b invalid in math mode on input line 700.
+
+Missing character: There is no ̲ in font zplmr7m!
+[567] [568]) [569] [570
 
 
 ] (./circuitAnalysis.aux (./tex/cktBasics.aux)
@@ -3129,12 +3155,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46579 strings out of 493918
- 1102579 string characters out of 6150562
- 1304219 words of memory out of 5000000
- 48972 multiletter control sequences out of 15000+600000
- 37463 words of font info for 147 fonts, out of 8000000 for 9000
+ 48960 strings out of 493918
+ 1154665 string characters out of 6150562
+ 1313798 words of memory out of 5000000
+ 51353 multiletter control sequences out of 15000+600000
+ 40914 words of font info for 158 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,20n,74p,10476b,3053s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (21 pages).
+Output written on circuitAnalysis.pdf (31 pages).
