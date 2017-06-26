@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  25 JUN 2017 19:24
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  26 JUN 2017 18:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3137,12 +3137,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: Command \b invalid in math mode on input line 700.
 
 Missing character: There is no ̲ in font zplmr7m!
-[567] [568]) [569] [570
+[567] [568] [569] [570] [571]
+Overfull \hbox (0.68802pt too wide) in paragraph at lines 873--875
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 اس طرح منبع کا کل حقیقی طاقت  $[] []$ ، ک
+ل متعاملی طاقت  $[] []$  اور کل ظاہری طاقت  $[] []$[]
+ []
+
+[572] [573] [574] [575]) [576] [577] [578
 
 
-] (./circuitAnalysis.aux (./tex/cktBasics.aux)
-(./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
-(./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
+] (./circuitAnalysis.aux
+(./tex/cktBasics.aux) (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux)
+(./tex/cktOpamp.aux) (./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
 (./tex/cktTransients.aux) (./tex/cktSteadyStateAC.aux)
 (./tex/cktSteadyStatePower.aux) (./tex/cktMagneticallyCoupledNetworks.aux)
 (./tex/cktPolyphaseCircuits.aux))
@@ -3155,12 +3161,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 48960 strings out of 493918
- 1154665 string characters out of 6150562
- 1313798 words of memory out of 5000000
- 51353 multiletter control sequences out of 15000+600000
- 40914 words of font info for 158 fonts, out of 8000000 for 9000
+ 49871 strings out of 493918
+ 1174541 string characters out of 6150562
+ 1320649 words of memory out of 5000000
+ 52263 multiletter control sequences out of 15000+600000
+ 44774 words of font info for 168 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,20n,74p,10476b,3053s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (31 pages).
+Output written on circuitAnalysis.pdf (39 pages).

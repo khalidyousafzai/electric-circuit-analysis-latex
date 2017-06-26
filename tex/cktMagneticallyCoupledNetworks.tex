@@ -203,8 +203,8 @@ v_2=\frac{\dif \lambda_2}{\dif t}=\frac{\dif}{\dif t}\left(N_2 \phi\right)=\frac
 \draw(2*\x+\x/2+\x/3,0) to [short]++(2*\x+\x/2,0) to [american current source,l_={$i_2$}]++(0,\y);
 %mutual
 \draw(2*\x+\x/2+\x/6,\y) node[above]{$M$};
-\draw[fill](2*\x+\x/2,\y)++(-0.5,-0.5) circle (\kdot);
-\draw[fill](2*\x+\x/2+\x/3,\y)++(0.5,-0.5) circle (\kdot);
+\draw(2*\x+\x/2,\y)++(-0.5,-0.5) node[circ]{};
+\draw(2*\x+\x/2+\x/3,\y)++(0.5,-0.5) node[circ]{};
 %voltages
 \draw(0.4,\y/2)node[right]{$\begin{aligned} &+ \\ & v_1=L_1 \frac{\dif i_1}{\dif t}+M\frac{\dif i_2}{\dif t} \\ &-  \end{aligned}$};
 \draw(4*\x+\x/2+\x/2+\x/3-0.4,\y/2)node[left]{$\begin{aligned} &+ \\ M\frac{\dif i_1}{\dif t}+L_2\frac{\dif i_2}{\dif t}=& v_2 \\ &-  \end{aligned}$};
@@ -284,8 +284,8 @@ v_2&=\frac{\dif \lambda_{2}}{\dif t}=L_{21}\frac{\dif  i_1}{\dif t} +L_{2} \frac
 \draw(2*\x+\x/2+\x/3,0) to [short]++(2*\x+\x/2,0) to [american current source,l_={$i_2$}]++(0,\y);
 %mutual
 \draw(2*\x+\x/2+\x/6,\y) node[above]{$M$};
-\draw[fill](2*\x+\x/2,\y)++(-0.5,-0.5) circle (\kdot);
-\draw[fill](2*\x+\x/2+\x/3,0)++(0.5,0.5) circle (\kdot);
+\draw(2*\x+\x/2,\y)++(-0.5,-0.5) node[circ]{};
+\draw(2*\x+\x/2+\x/3,0)++(0.5,0.5) node[circ]{};
 %voltages
 \draw(0.4,\y/2)node[right]{$\begin{aligned} &+ \\ & v_1=L_1 \frac{\dif i_1}{\dif t}-M\frac{\dif i_2}{\dif t} \\ &-  \end{aligned}$};
 \draw(4*\x+\x/2+\x/2+\x/3-0.4,\y/2)node[left]{$\begin{aligned} &+ \\ -M\frac{\dif i_1}{\dif t}+L_2\frac{\dif i_2}{\dif t}=& v_2 \\ &-  \end{aligned}$};
@@ -323,8 +323,8 @@ v_2&=-M\frac{\dif i_1}{\dif t}+L_2 \frac{\dif i_2}{\dif t}\label{مساوات_م
 \draw(0,0.25) to [short]++(\x,0)coordinate(BL) to [inductor,l={$L_1$}]++(0,\y)coordinate(TL) to [short,i<_={$i_1$}]++(-\x,0);
 \draw(\x+\x/3+\x,0.25) to [short]++(-\x,0)coordinate(BR) to [inductor,l_={$L_2$}]++(0,\y)coordinate(TR) to [short,i<^={$i_2$}]++(\x,0);
 \draw($(TL)!0.5!(TR)$)node[above]{$M$};
-\draw[fill](BL)++(-0.5,0.5) circle (\kdot); 
-\draw[fill](BR)++(0.5,0.5) circle (\kdot); 
+\draw(BL)++(-0.5,0.5) node[circ]{}; 
+\draw(BR)++(0.5,0.5) node[circ]{}; 
 \draw(2*\x+\x/3,0) rectangle ++(\boxW,\boxH);
 \draw(2*\x+\x/3,0)++(\boxW/2,\boxH/2) node[rotate=90]{\RL{دایاں دور}};
 \draw(0,\boxH/2) node[right]{$\begin{aligned} &+ \\ &v_1 \\ &-  \end{aligned}$};
@@ -357,8 +357,8 @@ v_2=-M\frac{\dif i_1}{\dif t}-L_2 \frac{\dif i_2}{\dif t}
 \begin{circuitikz}[american voltages]
 \draw(0,0) to [american voltage source,l={$v_m$}]++(0,\y) to [resistor,l={$R_1$}]++(\x,0)coordinate(kUL) to [inductor,l_={$L_1$},v^<=$v_1$]++(\x,0) to [inductor,l={$L_2$},v>={$v_2$}]++(0,-\y)coordinate(kSB) to [short](0,0);
 \draw(kSB) to [short,*-]++(\x,0) to [resistor,l_={$R_2$}]++(0,\y) to [short,-*]++(-\x,0);
-\draw[fill](kUL)++(0.5,-0.5) circle (\kdot)++(0.2,-0.2)coordinate(kA);
-\draw[fill](kSB)++(-0.5,0.5) circle (\kdot)++(-0.2,0.2)coordinate(kB);
+\draw(kUL)++(0.5,-0.5) node[circ]{} ++(0.2,-0.2)coordinate(kA);
+\draw(kSB)++(-0.5,0.5) node[circ]{} ++(-0.2,0.2)coordinate(kB);
 \draw[stealth-stealth] (kA) to [out=-90,in=180] (kB);
 \draw($(kA)!0.5!(kB)$)node[shift={(-135:0.5)}]{$M$};
 %currents
@@ -402,8 +402,8 @@ v_m&=i_1 R_1+L_1 \frac{\dif i_1}{\dif t}+M\frac{\dif}{\dif t}(i_2-i_1)-L_2 \frac
 \draw(0,0.25) to [short]++(\x,0)coordinate(BL) to [inductor,l={$L_1$}]++(0,\y)coordinate(TL) to [short,i>_={$i_1$}]++(-\x,0);
 \draw(\x+\x/3+\x,0.25) to [short]++(-\x,0)coordinate(BR) to [inductor,l_={$L_2$}]++(0,\y)coordinate(TR) to [short,i>^={$i_2$}]++(\x,0);
 \draw($(TL)!0.5!(TR)$)node[above]{$M$};
-\draw[fill](TL)++(-0.5,-0.5) circle (\kdot); 
-\draw[fill](BR)++(0.5,0.5) circle (\kdot); 
+\draw(TL)++(-0.5,-0.5) node[circ]{}; 
+\draw(BR)++(0.5,0.5) node[circ]{}; 
 \draw(2*\x+\x/3,0) rectangle ++(\boxW,\boxH);
 \draw(2*\x+\x/3,0)++(\boxW/2,\boxH/2) node[rotate=90]{\RL{دایاں دور}};
 \draw(0,\boxH/2) node[right]{$\begin{aligned} &+ \\ &v_1 \\ &-  \end{aligned}$};
@@ -432,8 +432,8 @@ v_m&=i_1 R_1+L_1 \frac{\dif i_1}{\dif t}+M\frac{\dif}{\dif t}(i_2-i_1)-L_2 \frac
 \draw(0,0.25) to [short]++(\x,0)coordinate(BL) to [inductor,l={$L_1$}]++(0,\y)coordinate(TL) to [short,i<_={$i_1$}]++(-\x,0);
 \draw(\x+\x/3+\x,0.25) to [short]++(-\x,0)coordinate(BR) to [inductor,l_={$L_2$}]++(0,\y)coordinate(TR) to [short,i<^={$i_2$}]++(\x,0);
 \draw($(TL)!0.5!(TR)$)node[above]{$M$};
-\draw[fill](TL)++(-0.5,-0.5) circle (\kdot); 
-\draw[fill](TR)++(0.5,-0.5) circle (\kdot); 
+\draw(TL)++(-0.5,-0.5) node[circ]{}; 
+\draw(TR)++(0.5,-0.5) node[circ]{}; 
 \draw(2*\x+\x/3,0) rectangle ++(\boxW,\boxH);
 \draw(0,\boxH/2) node[right]{$\begin{aligned} &+ \\ &v_1 \\ &-  \end{aligned}$};
 \draw(2*\x+\x/3,\boxH/2) node[left]{$\begin{aligned} &+ \\ &v_2 \\ &-  \end{aligned}$};
@@ -447,8 +447,8 @@ v_m&=i_1 R_1+L_1 \frac{\dif i_1}{\dif t}+M\frac{\dif}{\dif t}(i_2-i_1)-L_2 \frac
 \draw(0,0.25) to [short]++(\x,0)coordinate(BL) to [inductor,l={$j \omega L_1$}]++(0,\y)coordinate(TL) to [short,i<_={$\hat{I}_1$}]++(-\x,0);
 \draw(\x+\x/3+\x,0.25) to [short]++(-\x,0)coordinate(BR) to [inductor,l_={$j \omega L_2$}]++(0,\y)coordinate(TR) to [short,i<^={$\hat{I}_2$}]++(\x,0);
 \draw($(TL)!0.5!(TR)$)node[above]{$j \omega M$};
-\draw[fill](TL)++(-0.5,-0.5) circle (\kdot); 
-\draw[fill](TR)++(0.5,-0.5) circle (\kdot); 
+\draw(TL)++(-0.5,-0.5) node[circ]{}; 
+\draw(TR)++(0.5,-0.5) node[circ]{}; 
 \draw(2*\x+\x/3,0) rectangle ++(\boxW,\boxH);
 \draw(0,\boxH/2) node[right]{$\begin{aligned} &+ \\ &\hat{V}_1 \\ &-  \end{aligned}$};
 \draw(2*\x+\x/3,\boxH/2) node[left]{$\begin{aligned} &+ \\ &\hat{V}_2 \\ &-  \end{aligned}$};
@@ -468,8 +468,8 @@ v_m&=i_1 R_1+L_1 \frac{\dif i_1}{\dif t}+M\frac{\dif}{\dif t}(i_2-i_1)-L_2 \frac
 \centering
 \begin{tikzpicture}
 \draw(0,0) to [american voltage source,l={$\hat{V}_m$}]++(-2*\x,0) to [short,i={$\hat{I}$}]++(0,\y)coordinate(kA) to [inductor,l={$j\omega L_1$}]++(\x,0)coordinate(kB) to [inductor,l={$j\omega L_2$}]++(\x,0)coordinate(kC) to [short]++(0,-\y);
-\draw[fill] (kA)++(0.5,-0.5) circle(\kdot)++(0.2,-0.2)coordinate(kD);
-\draw[fill] (kB)++(0.5,-0.5) circle(\kdot);
+\draw (kA)++(0.5,-0.5) node[circ]{}++(0.2,-0.2)coordinate(kD);
+\draw (kB)++(0.5,-0.5) node[circ]{};
 \draw[stealth-stealth](kD) to [out=-45,in=-135]++(\x-0.4,0);
 \draw(kD)++(\x/2-0.2,-0.4)node[fill=white]{$j\omega M$};
 \draw(-\x,\y+\y/2)node[above]{$L_{\text{مساوی}}=L_1+L_2+2M$};
@@ -480,8 +480,8 @@ v_m&=i_1 R_1+L_1 \frac{\dif i_1}{\dif t}+M\frac{\dif}{\dif t}(i_2-i_1)-L_2 \frac
 \centering
 \begin{tikzpicture}
 \draw(0,0) to [american voltage source,l={$\hat{V}_m$}]++(-2*\x,0) to [short,i={$\hat{I}$}]++(0,\y)coordinate(kA) to [inductor,l={$j\omega L_1$}]++(\x,0)coordinate(kB) to [inductor,l={$j\omega L_2$}]++(\x,0)coordinate(kC) to [short]++(0,-\y);
-\draw[fill] (kA)++(0.5,-0.5) circle(\kdot)++(0.2,-0.2)coordinate(kD);
-\draw[fill] (kC)++(-0.5,-0.5) circle(\kdot)++(-0.2,-0.2)coordinate(kE);
+\draw (kA)++(0.5,-0.5) node[circ]{}++(0.2,-0.2)coordinate(kD);
+\draw (kC)++(-0.5,-0.5) node[circ]{}++(-0.2,-0.2)coordinate(kE);
 \draw[stealth-stealth](kD) to [out=-35,in=-145](kE);
 \draw($(kD)!0.5!(kE)$)++(0,-0.4)node[fill=white]{$j \omega M$};
 \draw(-\x,\y+\y/2)node[above]{$L_{\text{مساوی}}=L_1+L_2-2M$};
@@ -493,8 +493,8 @@ v_m&=i_1 R_1+L_1 \frac{\dif i_1}{\dif t}+M\frac{\dif}{\dif t}(i_2-i_1)-L_2 \frac
 \begin{tikzpicture}
 \draw(0,0) to [american voltage source,l={$\hat{V}_m$}]++(0,\y) to [short,i={$\hat{I}$}]++(3/4*\x,0)coordinate(kA) to [inductor,l={$j\omega L_1$},i={$\hat{I}_1$}]++(0,-\y)coordinate(kB) to [short](0,0);
 \draw(3/4*\x,\y) to [short,*-]++(\x,0)coordinate(kC) to [inductor,l={$j\omega L_2$},i={$\hat{I}_2$}]++(0,-\y)coordinate(kD) to [short,-*]++(-\x,0);
-\draw[fill](kA)++(-0.5,-0.5) circle (\kdot);
-\draw[fill](kC)++(-0.5,-0.5) circle (\kdot);
+\draw(kA)++(-0.5,-0.5) node[circ]{};
+\draw(kC)++(-0.5,-0.5) node[circ]{};
 \draw(3/4*\x+\x/2,\y)node[above]{$j\omega M$};
 \draw(\x/2+3/8*\x,\y+\y/2)node[above]{$L_{\text{مساوی}}=\frac{L_1 L_2 -M^2}{L_1+L_2-2M}$};
 \end{tikzpicture}
@@ -505,8 +505,8 @@ v_m&=i_1 R_1+L_1 \frac{\dif i_1}{\dif t}+M\frac{\dif}{\dif t}(i_2-i_1)-L_2 \frac
 \begin{tikzpicture}
 \draw(0,0) to [american voltage source,l={$\hat{V}_m$}]++(0,\y) to [short,i={$\hat{I}$}]++(3/4*\x,0)coordinate(kA) to [inductor,l={$j\omega L_1$}]++(0,-\y)coordinate(kB) to [short](0,0);
 \draw(3/4*\x,\y) to [short,*-]++(\x,0)coordinate(kC) to [inductor,l={$j\omega L_2$}]++(0,-\y)coordinate(kD) to [short,-*]++(-\x,0);
-\draw[fill](kA)++(-0.5,-0.5) circle (\kdot);
-\draw[fill](kD)++(-0.5,0.5) circle (\kdot);
+\draw(kA)++(-0.5,-0.5) node[circ]{};
+\draw(kD)++(-0.5,0.5) node[circ]{};
 \draw(3/4*\x+\x/2,\y)node[above]{$j\omega M$};
 \draw(\x/2+3/8*\x,\y+\y/2)node[above]{$L_{\text{مساوی}}=\frac{L_1 L_2 -M^2}{L_1+L_2+2M}$};
 \end{tikzpicture}
@@ -574,8 +574,8 @@ L_{\text{مساوی}}=\frac{L_1 L_2-M^2}{L_1+L_2+2M}
 \begin{tikzpicture}[american voltages]
 \draw(0,0) to [american voltage source,l={$30\phase{45^{\circ}}$}\,\si{\volt}]++(0,\y) to [resistor,l={$\SI{2}{\ohm}$}]++(2*\x,0)coordinate(kA) to [inductor,l_={$j2\,\si{\ohm}$}]++(0,-\y)coordinate(kB) to [short] (0,0);
 \draw(2*\x+\x/3,0)coordinate(kC) to [inductor,l_={$j4\,\si{\ohm}$}]++(0,\y)coordinate(kD) to [resistor,l={$\SI{4}{\ohm}$}]++(2*\x,0) to [inductor,l={$j6\,\si{\ohm}$},v={$\hat{V}_0$}]++(0,-\y) to [short]++(-2*\x,0);
-\draw[fill] (kA)++(-0.5,-0.5) circle (\kdot);
-\draw[fill] (kD)++(0.5,-0.5) circle (\kdot);
+\draw (kA)++(-0.5,-0.5) node[circ]{};
+\draw (kD)++(0.5,-0.5) node[circ]{};
 \draw(2*\x+\x/6,\y)node[above]{$j3\,\si{\ohm}$};
 %currents
 \draw[stealth-]([shift={(-135:\x/4)}]\x,\y/2) arc (-135:135:\x/4);
@@ -611,8 +611,8 @@ L_{\text{مساوی}}=\frac{L_1 L_2-M^2}{L_1+L_2+2M}
 \draw(0,0) to [american voltage source,l={$\hat{V}_m$}]++(0,2*\y) to [capacitor,l={$\frac{1}{j\omega C_1}$}]++(\x,0) to [resistor,l={$R_1$}]++(\x,0) to [resistor,l={$R_2$}]++(\x,0) to [capacitor,l={$\frac{1}{j\omega C_3}$}]++(0,-2*\y) to [short] (0,0);
 \draw(\x,0) to [resistor,*-,l={$R_3$}]++(0,\y) to [inductor,-*,l={$j\omega L_1$}]++(0,\y)coordinate(kA);
 \draw(2*\x,0) to [capacitor,*-,l_={$\frac{1}{j\omega C_2}$}]++(0,\y) to [inductor,-*,l_={$j\omega L_2$}]++(0,\y)coordinate(kB);
-\draw[fill](kA)++(-0.5,-0.5) circle (\kdot);
-\draw[fill](kB)++(0.5,-0.5) circle (\kdot);
+\draw(kA)++(-0.5,-0.5) node[circ]{};
+\draw(kB)++(0.5,-0.5) node[circ]{};
 %mutual
 \draw[-stealth](\x+\x/2,2*\y-0.7)--++(-0.5,-0.5);
 \draw[-stealth](\x+\x/2,2*\y-0.7)--++(0.5,-0.5);
@@ -658,8 +658,8 @@ L_{\text{مساوی}}=\frac{L_1 L_2-M^2}{L_1+L_2+2M}
 \draw(0,0) to [american voltage source,l={$20\phase{0^{\circ}}$}\,\si{\volt}]++(0,\y) to [capacitor,l={$-j1\,\si{\ohm}$}]++(2*\x,0)coordinate(kA) to [inductor,l_={$j4\,\si{\ohm}$}]++(0,-\y)coordinate(kB) to [short] (0,0);
 \draw(2*\x+\x/3,0)coordinate(kC) to [inductor,l_={$j6\,\si{\ohm}$}]++(0,\y)coordinate(kD) to [resistor,l={$\SI{2}{\ohm}$}]++(2*\x,0) to [capacitor,l={$-j2\,\si{\ohm}$},v={$\hat{V}_0$}]++(0,-\y) to [short]++(-2*\x,0);
 %dots
-\draw[fill] (kA)++(-0.5,-0.5) circle (\kdot);
-\draw[fill] (kC)++(0.5,0.5) circle (\kdot);
+\draw (kA)++(-0.5,-0.5) node[circ]{};
+\draw (kC)++(0.5,0.5) node[circ]{};
 \draw(2*\x+\x/6,\y)node[above]{$j2\,\si{\ohm}$};
 %currents
 \draw[stealth-]([shift={(-135:\x/4)}]\x,\y/2) arc (-135:135:\x/4);
@@ -683,8 +683,8 @@ L_{\text{مساوی}}=\frac{L_1 L_2-M^2}{L_1+L_2+2M}
 \draw(0,0) to [short]++(4*\x,0) to [american voltage source,l_={$\hat{V}_2$}] ++(0,\y);
 \draw(2*\x,0) to [capacitor,*-*,l={$\frac{1}{j\omega C_1}$}]++(0,\y);
 %dots
-\draw[fill](kA)++(-0.5,-0.25) circle (\kdot);
-\draw[fill](kA)++(0.5,-0.25) circle (\kdot);
+\draw(kA)++(-0.5,-0.25) node[circ]{};
+\draw(kA)++(0.5,-0.25) node[circ]{};
 %mutual
 \draw[-stealth](2*\x,\y+0.8)--++(-0.5,-0.5);
 \draw[-stealth](2*\x,\y+0.8)--++(0.5,-0.5);
@@ -714,8 +714,8 @@ L_{\text{مساوی}}=\frac{L_1 L_2-M^2}{L_1+L_2+2M}
 \draw(0,0) to [american voltage source,l={$20\phase{-30^{\circ}}\,\si{\volt}$}]++(0,\y) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [inductor,l={$j2 \,\si{\ohm}$}]++(\x,0)coordinate(kA) to [inductor,l_={$j4\,\si{\ohm}$}]++(0,-\y) to [capacitor,l={$-j1\,\si{\ohm}$}]++(-2*\x,0);
 \draw(2*\x+\x/3,0) to [american voltage source,l_={$40\phase{60^{\circ}}$}] ++(2*\x,0)coordinate(kN) to [inductor,l_={$j8 \,\si{\ohm}$}]++(0,\y) to [capacitor,l_={$-j6\,\si{\ohm}$}]++(-\x,0)coordinate(kP) to [resistor,l_={$\SI{4}{\ohm}$}]++(-\x,0)coordinate(kB) to [inductor,l={$j2\,\si{\ohm}$}]++(0,-\y);
 %dots
-\draw[fill](kA)++(-0.5,-0.5) circle (\kdot);
-\draw[fill](kB)++(0.5,-0.5) circle (\kdot);
+\draw(kA)++(-0.5,-0.5) node[circ]{};
+\draw(kB)++(0.5,-0.5) node[circ]{};
 %mutual
 \draw[-stealth](2*\x+\x/6,\y+0.8)--++(-0.5,-0.5);
 \draw[-stealth](2*\x+\x/6,\y+0.8)--++(0.5,-0.5);
@@ -743,8 +743,8 @@ L_{\text{مساوی}}=\frac{L_1 L_2-M^2}{L_1+L_2+2M}
 \draw(0,0) to [american voltage source,l={$60\phase{20^{\circ}}\,\si{\volt}$}]++(0,2*\y) to [inductor,l={$j4 \,\si{\ohm}$}]++(\x,0) to [resistor,l={$\SI{4}{\ohm}$}]++(\x,0) to [capacitor,l={$-j6 \, \si{\ohm}$}]++(\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(0,-\y) to [inductor,l={$j8\,\si{\ohm}$}]++(0,-\y)coordinate(kA) to [short] (0,0);
 \draw(\x,0) to [capacitor,*-,l={$-j6 \,\si{\ohm}$}] ++(0,\y) to [inductor,-*,l={$j8\,\si{\ohm}$}]++(0,\y)coordinate(kB);
 %dots
-\draw[fill](kA)++(-0.5,0.5) circle (\kdot);
-\draw[fill](kB)++(0.5,-0.5) circle (\kdot);
+\draw(kA)++(-0.5,0.5) node[circ]{};
+\draw(kB)++(0.5,-0.5) node[circ]{};
 %mutual
 \draw(kA)++(-0.5,\y/2)coordinate(kC);
 \draw(kB)++(0.5,-\y/2)coordinate(kD);
@@ -772,8 +772,8 @@ L_{\text{مساوی}}=\frac{L_1 L_2-M^2}{L_1+L_2+2M}
 \draw(kA)node[above]{$a$};
 \draw(kC)node[above]{$b$};
 %dots
-\draw[fill](kA)++(0.5,0.5) circle (\kdot);
-\draw[fill](kB)++(0.5,0.5) circle (\kdot);
+\draw(kA)++(0.5,0.5) node[circ]{};
+\draw(kB)++(0.5,0.5) node[circ]{};
 %mutual
 \draw[-stealth](2*\x,\y+0.8)--++(-0.5,-0.5);
 \draw[-stealth](2*\x,\y+0.8)--++(0.5,-0.5);
@@ -794,8 +794,8 @@ L_{\text{مساوی}}=\frac{L_1 L_2-M^2}{L_1+L_2+2M}
 \begin{tikzpicture}
 \draw(0,0) to [american voltage source,l={$\hat{V}_m$}]++(0,\y) to [european resistor,i>^={$\hat{I}_1$},l={$\bZ_1$}]++(2*\x,0)coordinate(kA) to [inductor,l_={$j\omega L_1$}]++(0,-\y) to [short]++(-2*\x,0);
 \draw(2*\x+\x/3,0) to [inductor,l_={$j\omega L_2$}]++(0,\y)coordinate(kB) to [short,i>^={$\hat{I}_2$}] ++(2*\x,0) to [european resistor,l={$\bZ_2$}]++(0,-\y) to [short] ++(-2*\x,0);
-\draw[fill] (kA)++(-0.5,-0.5) circle (\kdot);
-\draw[fill] (kB)++(0.5,-0.5) circle (\kdot);
+\draw (kA)++(-0.5,-0.5) node[circ]{};
+\draw (kB)++(0.5,-0.5) node[circ]{};
 \draw(2*\x+\x/6,\y+0.5) node{$j\omega M$};
 %text
 \draw[stealth-] (\x/2,\y/2)--++(-\x/8,0)--++(0,-\y/8)node[below]{$\bZ_{\text{داخلی}}$};
@@ -831,8 +831,8 @@ L_{\text{مساوی}}=\frac{L_1 L_2-M^2}{L_1+L_2+2M}
 \begin{tikzpicture}
 \draw(0,0) to [american voltage source,l={$\hat{V}_m$}]++(0,\y) to [european resistor,i>^={$\hat{I}_1$},l={$\bZ_1$}]++(2*\x,0) to [inductor,l_={$j\omega L_1$}]++(0,-\y)coordinate(kA) to [short]++(-2*\x,0);
 \draw(2*\x+\x/3,0) to [inductor,l_={$j\omega L_2$}]++(0,\y)coordinate(kB) to [short,i>^={$\hat{I}_2$}] ++(2*\x,0) to [european resistor,l={$\bZ_2$}]++(0,-\y) to [short] ++(-2*\x,0);
-\draw[fill] (kA)++(-0.5,0.5) circle (\kdot);
-\draw[fill] (kB)++(0.5,-0.5) circle (\kdot);
+\draw (kA)++(-0.5,0.5) node[circ]{};
+\draw (kB)++(0.5,-0.5) node[circ]{};
 \draw(2*\x+\x/6,\y+0.5) node{$j\omega M$};
 %text
 \draw[stealth-] (\x/2,\y/2)--++(-\x/8,0)--++(0,-\y/8)node[below]{$\bZ_{\text{داخلی}}$};
@@ -864,8 +864,8 @@ L_{\text{مساوی}}=\frac{L_1 L_2-M^2}{L_1+L_2+2M}
 \draw(0,0.25) to [short]++(\x,0)coordinate(BL) to [inductor,l={$L_1$}]++(0,\y)coordinate(TL) to [short,i<_={$i_1$}]++(-\x,0);
 \draw(\x+\x/3+\x,0.25) to [short]++(-\x,0)coordinate(BR) to [inductor,l_={$L_2$}]++(0,\y)coordinate(TR) to [short,i<^={$i_2$}]++(\x,0);
 \draw($(TL)!0.5!(TR)$)node[above]{$M$};
-\draw[fill](TL)++(-0.5,-0.5) circle (\kdot); 
-\draw[fill](TR)++(0.5,-0.5) circle (\kdot); 
+\draw(TL)++(-0.5,-0.5) node[circ]{}; 
+\draw(TR)++(0.5,-0.5) node[circ]{}; 
 \draw(2*\x+\x/3,0) rectangle ++(\boxW,\boxH);
 \draw(0,\boxH/2) node[right]{$\begin{aligned} &+ \\ &v_1 \\ &-  \end{aligned}$};
 \draw(2*\x+\x/3,\boxH/2) node[left]{$\begin{aligned} &+ \\ &v_2 \\ &-  \end{aligned}$};
@@ -941,8 +941,8 @@ k=\frac{M}{\sqrt{L_1 L_2}}
 \draw(0,0) to [american voltage source,l={$20\cos 314t \, \si{\volt}$}]++(0,\y) to [resistor,l={$\SI{4}{\ohm}$}]++(2*\x,0)coordinate(kA) to [inductor,l_={$L_1$}]++(0,-\y) to [short] ++(-2*\x,0);
 \draw(2*\x+\x/3,0) to [inductor,l_={$L_2$}]++(0,\y)coordinate(kB) to [short]++(2*\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(0,-\y) to [short]++(-2*\x,0);
 %dots
-\draw[fill](kA)++(-0.5,-0.5) circle (\kdot);
-\draw[fill](kB)++(0.5,-0.5) circle (\kdot);
+\draw(kA)++(-0.5,-0.5) node[circ]{};
+\draw(kB)++(0.5,-0.5) node[circ]{};
 \draw(2*\x+\x/6,\y)node[above]{$M$};
 %currents
 \draw[stealth-]([shift={(-135:\x/4)}]\x,\y/2) arc (-135:135:\x/4);
@@ -958,8 +958,8 @@ k=\frac{M}{\sqrt{L_1 L_2}}
 \draw(0,0) to [american voltage source,l={${20\phase{0^{\circ}}\, \si{\volt}}$}]++(0,\y) to [resistor,l={$\SI{4}{\ohm}$}]++(2*\x,0)coordinate(kA) to [inductor,l_={$j7.85\,\si{\ohm}$}]++(0,-\y) to [short] ++(-2*\x,0);
 \draw(2*\x+\x/3,0) to [inductor,l_={$j3.768\,\si{\ohm}$}]++(0,\y)coordinate(kB) to [short]++(2*\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(0,-\y) to [short]++(-2*\x,0);
 %dots
-\draw[fill](kA)++(-0.5,-0.5) circle (\kdot);
-\draw[fill](kB)++(0.5,-0.5) circle (\kdot);
+\draw(kA)++(-0.5,-0.5) node[circ]{};
+\draw(kB)++(0.5,-0.5) node[circ]{};
 \draw(2*\x+\x/6,\y)node[above]{$j5.439\,\si{\ohm}$};
 %currents
 \draw[stealth-]([shift={(-135:\x/5)}]\x,\y/2) arc (-135:135:\x/5);
@@ -1026,8 +1026,8 @@ w(t=\SI{6.2}{\milli\second})&=\frac{L_1 I_1^2}{2}+\frac{L_2 I_2^2}{2}+M I_1 I_2\
 \draw(0,0) to [american voltage source,l={${36\phase{45^{\circ}}\, \si{\volt}}$}]++(0,\y) to [capacitor,l={$-j44\,\si{\ohm}$}]++(2*\x,0)coordinate(kA) to [inductor,l_={$j20\,\si{\ohm}$}]++(0,-\y) to [short] ++(-2*\x,0);
 \draw(2*\x+\x/3,0) to [inductor,l_={$j15\,\si{\ohm}$}]++(0,\y)coordinate(kB) to [capacitor,l={$-j10\,\si{\ohm}$}]++(2*\x,0) to [resistor,l={$\SI{10}{\ohm}$}]++(0,-\y) to [short]++(-2*\x,0);
 %dots
-\draw[fill](kA)++(-0.5,-0.5) circle (\kdot);
-\draw[fill](kB)++(0.5,-0.5) circle (\kdot);
+\draw(kA)++(-0.5,-0.5) node[circ]{};
+\draw(kB)++(0.5,-0.5) node[circ]{};
 \draw(2*\x+\x/6,\y)node[above]{$M$};
 \end{tikzpicture}
 \caption{مشق \حوالہ{مشق_مقناطیسی_ارتباطی_مستقل_الف} کا دور۔}
@@ -1788,7 +1788,7 @@ v_1 i_1=v_2 i_2
 
 %=================
 \ابتدا{مثال}
-تربیلا ڈیم سے \عددی{\SI{10}{\mega\watt}} طاقت پنجاب کے صوبے کو منتقل کرنے کے لئے \اصطلاح{المونیم}\فرہنگ{المونیم}\حاشیہب{aluminium}\فرہنگ{aluminium} کا ترسیلی تار درکار ہے۔ترسیلی تار کی یک طرفہ لمبائی \عددی{\SI{500}{\kilo\meter}} ہے۔تار میں مزاحمتی ضیاع کو کل طاقت کے \عددی{\SI{5}{\percent}} سے کم رکھنا ہے۔طاقت کی ترسیل \عددی{\SI{110}{\kilo\volt}\,\rms} دباو پر کی جائے گی۔تار کی موٹائی دریافت کریں۔اگر طاقت کی ترسیل \عددی{\SI{230}{\volt}\,\rms} پر کی جائے، تب تار کی موٹائی کیا ہو گی۔المونیم کی موصلیت \عددی{\sigma=\SI{3.69e7}{\siemens\per\meter}} ہے۔
+تربیلا ڈیم سے \عددی{\SI{10}{\mega\watt}} طاقت اندرون ملک منتقل کرنے کے لئے \اصطلاح{المونیم}\فرہنگ{المونیم}\حاشیہب{aluminium}\فرہنگ{aluminium} کا ترسیلی تار درکار ہے۔ترسیلی تار کی یک طرفہ لمبائی \عددی{\SI{500}{\kilo\meter}} ہے۔تار میں مزاحمتی ضیاع کو کل طاقت کے \عددی{\SI{5}{\percent}} سے کم رکھنا ہے۔طاقت کی ترسیل \عددی{\SI{110}{\kilo\volt}\,\rms} دباو پر کی جائے گی۔تار کی موٹائی دریافت کریں۔اگر طاقت کی ترسیل \عددی{\SI{230}{\volt}\,\rms} پر کی جائے، تب تار کی موٹائی کیا ہو گی۔المونیم کی موصلیت \عددی{\sigma=\SI{3.69e7}{\siemens\per\meter}} ہے۔
 
 حل:طاقت کا ضیاع حاصل کرتے ہیں۔
 \begin{align*}
