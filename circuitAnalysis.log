@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  27 JUN 2017 14:54
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  27 JUN 2017 18:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1693,7 +1693,8 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux) (./tex/cktTheorems.aux)
 (./tex/cktCapacitorInductor.aux) (./tex/cktTransients.aux)
 (./tex/cktSteadyStateAC.aux) (./tex/cktSteadyStatePower.aux)
-(./tex/cktMagneticallyCoupledNetworks.aux) (./tex/cktPolyphaseCircuits.aux))
+(./tex/cktMagneticallyCoupledNetworks.aux) (./tex/cktPolyphaseCircuits.aux)
+(./tex/cktFrequencyResponse.aux))
 \openout1 = `circuitAnalysis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
@@ -1712,8 +1713,7 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 116.
 LaTeX Font Info:    ... okay on input line 116.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 116.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 116.
-
-(/usr/share/texmf/tex/latex/tipa/t3cmr.fd
+ (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 116.
@@ -3025,31 +3025,38 @@ ne 127.
 (./circuitAnalysis.toc
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 10.0pt on input line 2.
- [3] [4])
+ [3] [4]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/sl' in size <10>
+ not available
+(Font)              Font shape `EU1/JameelNooriNastaleeq(0)/bx/it' tried instea
+d on input line 102.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/it' will be
+(Font)              scaled to size 10.0pt on input line 102.
+ [5])
 \tf@toc=\write6
 \openout6 = `circuitAnalysis.toc'.
 
- [5] [6
+ [6]
+\openout2 = `./tex/cktFrequencyResponse.aux'.
+
+ (./tex/cktFrequencyResponse.tex
+[584
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ]
-\openout2 = `./tex/cktPolyphaseCircuits.aux'.
-
- (./tex/cktPolyphaseCircuits.tex
-[546
-
-
-
-
-
-
-
-
-
-
-
-
-]
-باب \RL {\arabicfont 11}.
+باب \RL {\arabicfont 12}.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
@@ -3057,94 +3064,79 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 2.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 14.4pt on input line 2.
-LaTeX Font Info:    Font shape `EU1/XBTabrizBold(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 3.
+(Font)              scaled to size 9.0pt on input line 17.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 7.6pt on input line 3.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 3.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 3.
+(Font)              scaled to size 8.0pt on input line 25.
+
+Overfull \hbox (9.10133pt too wide) in paragraph at lines 22--26
+ [][][][] 
+ []
+
+
+Overfull \hbox (9.62929pt too wide) in paragraph at lines 32--36
+ [][][][] 
+ []
+
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 9.5pt on input line 11.
+(Font)              scaled to size 9.5pt on input line 51.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 5.70004pt on input line 11.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 11.
-[547]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 39.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 64.
+(Font)              scaled to size 5.70004pt on input line 51.
+[585] [586]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (2.24843pt too wide) in paragraph at lines 108--127
+Overfull \hbox (8.38603pt too wide) in paragraph at lines 69--73
  [][][][] 
  []
 
 
-Overfull \hbox (1.91382pt too wide) in paragraph at lines 133--143
+Overfull \hbox (8.92235pt too wide) in paragraph at lines 79--83
  [][][][] 
  []
 
-[548] [549] [550] [551]
-Overfull \hbox (5.869pt too wide) in paragraph at lines 211--211
-[][] []
- []
 
-[552] [553]
-Overfull \hbox (14.67184pt too wide) in paragraph at lines 291--302
+Overfull \hbox (9.00058pt too wide) in paragraph at lines 113--117
  [][][][] 
  []
 
-[554] [555] [556] [557]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 452.
- [558] [559]
-Overfull \hbox (26.28732pt too wide) in paragraph at lines 486--488
-[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 مشق  []\EU1/JameelNooriNastaleeq(0)/bx/
-n/10 7[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/
-n/10 11[]\EU1/JameelNooriNastaleeq(1)/m/n/10 : متوازن ستارہ ستارہ نظام میں تارو
-ں میں کل ضیاع  $[] []$  ہے۔بوجھ کا دوری دباو  $\OML/zplm/m/it/10 v[] \OT1/zplm/
-m/n/10 = \OT1/ppl/m/n/10 240[] [] []$[]
- []
 
-[560]
-Overfull \hbox (8.96545pt too wide) in paragraph at lines 564--568
+Overfull \hbox (10.78905pt too wide) in paragraph at lines 123--127
  [][][][] 
  []
 
-[561] [562] [563] [564]
+[587]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
 
-LaTeX Warning: Command \b invalid in math mode on input line 624.
+NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (
+in y). (see also unbounded coords=jump). 
 
-Missing character: There is no ̲ in font zplmr7m!
-
-LaTeX Warning: Command \b invalid in math mode on input line 624.
-
-Missing character: There is no ̲ in font zplmr7m!
-[565] [566] [567]
-
-LaTeX Warning: Command \b invalid in math mode on input line 749.
-
-Missing character: There is no ̲ in font zplmr7m!
-[568] [569] [570] [571] [572]
-Overfull \hbox (0.68802pt too wide) in paragraph at lines 922--924
-[]\EU1/JameelNooriNastaleeq(1)/m/n/10 اس طرح منبع کا کل حقیقی طاقت  $[] []$ ، ک
-ل متعاملی طاقت  $[] []$  اور کل ظاہری طاقت  $[] []$[]
+Overfull \hbox (8.99808pt too wide) in paragraph at lines 158--162
+ [][][][] 
  []
 
-[573] [574] [575] [576] [577] [578] [579] [580] [581] [582]) [583] [584
+
+Overfull \hbox (10.78848pt too wide) in paragraph at lines 168--172
+ [][][][] 
+ []
+
+) [588] [589] [590
 
 
-]
-(./circuitAnalysis.aux (./tex/cktBasics.aux) (./tex/cktResistive.aux)
-(./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux) (./tex/cktTheorems.aux)
-(./tex/cktCapacitorInductor.aux) (./tex/cktTransients.aux)
-(./tex/cktSteadyStateAC.aux) (./tex/cktSteadyStatePower.aux)
-(./tex/cktMagneticallyCoupledNetworks.aux) (./tex/cktPolyphaseCircuits.aux))
+] (./circuitAnalysis.aux (./tex/cktBasics.aux)
+(./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
+(./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
+(./tex/cktTransients.aux) (./tex/cktSteadyStateAC.aux)
+(./tex/cktSteadyStatePower.aux) (./tex/cktMagneticallyCoupledNetworks.aux)
+(./tex/cktPolyphaseCircuits.aux) (./tex/cktFrequencyResponse.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 2.26395pt have occurred.
@@ -3154,12 +3146,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 50391 strings out of 493918
- 1185668 string characters out of 6150562
- 1380577 words of memory out of 5000000
- 52780 multiletter control sequences out of 15000+600000
- 44798 words of font info for 171 fonts, out of 8000000 for 9000
+ 45679 strings out of 493918
+ 1083876 string characters out of 6150562
+ 1271475 words of memory out of 5000000
+ 48075 multiletter control sequences out of 15000+600000
+ 37407 words of font info for 140 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,20n,74p,10476b,3053s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,18n,74p,10476b,2080s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (45 pages).
+Output written on circuitAnalysis.pdf (13 pages).

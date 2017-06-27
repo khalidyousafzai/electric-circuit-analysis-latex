@@ -99,3 +99,4 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 11}}تکونی بوجھ}{\RL {\arabicfont 566}}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 11}}طاقت کے کلیات}{\RL {\arabicfont 571}}
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 11}}جزو طاقت کی درستگی}{\RL {\arabicfont 580}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 12}}تعددی ردعمل}{\RL {\arabicfont 585}}
