@@ -134,11 +134,8 @@ Z_R=R\phase{0^{\circ}}
 سادہ ترین پرزوں کو نپٹانے کے بعد ذرہ مشکل ادوار دیکھتے ہیں۔شکل میں مزاحمت، امالہ گیر اور برق گیر سلسلہ وار جڑے دکھائے گئے ہیں۔ان کی کل رکاوٹ \عددی{\bZ_s} لکھتے ہیں
 \begin{align*}
 \bZ_s&=\bZ_R+\bZ_L+\bZ_C\\
-&=R+j\omega L+\frac{1}{j\omega C}
-\end{align*}
-جس کو درج ذیل لکھا جا سکتا ہے۔
-\begin{align*}
-\bZ_s=\frac{(j\omega)^2 L C+j\omega RC +1}{j\omega C}
+&=R+j\omega L+\frac{1}{j\omega C}\\
+&=R+j\left(\omega L-\frac{1}{\omega C}\right)
 \end{align*}
 اس تفاعل کو شکل \حوالہ{شکل_تعددی_مزاحمت_املہ_برق_گیر_سلسلہ_وار_ردعمل}-ب اور شکل \حوالہ{شکل_تعددی_مزاحمت_املہ_برق_گیر_سلسلہ_وار_ردعمل}-پ میں دکھایا گیا ہے۔
 %
@@ -175,3 +172,45 @@ Z_R=R\phase{0^{\circ}}
 \caption{سلسلہ وار جڑے مزاحمت، امالہ گیر اور برق گیر کا تعدد ردعمل۔}
 \label{شکل_تعددی_مزاحمت_املہ_برق_گیر_سلسلہ_وار_ردعمل}
 \end{figure}
+%======================
+\ابتدا{مثال}\شناخت{مثال_تعددی_بوڈا_خط_مزاحمت_امالہ_برق_گیر_رو_الف}
+شکل \حوالہ{شکل_تعددی_بوڈا_خط_مزاحمت_امالہ_برق_گیر_رو_الف}-الف میں دیے دور کی رو کے مقدار بالمقابل تعدد اور زاویہ بالمقابل تعدد کے خط کھینچیں۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [resistor,l={$\SI{10}{\ohm}$}]++(\x,0) to [inductor,l={$\SI{0.15}{\henry}$}]++(\x,0) to  [capacitor,l={$\SI{4}{\milli\farad}$}]++(0,-\y) to [short]++(-2*\x,0) to [american voltage source,l={$20\phase{0^{\circ}}\,\si{\volt}$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\node[anchor=south west,inner sep=0] (image) at (0,0) {\includegraphics[height=3cm,width=7cm]{bodeMagnitudeRLC}};
+\begin{scope}[x={(image.south east)},y={(image.north west)}]
+%	\draw[help lines,xstep=.1,ystep=.1] (0,0) grid (1,1);
+%	\foreach \x in {0,1,...,9} { \node [anchor=north] at (\x/10,0) {0.\x}; }
+%	\foreach \y in {0,1,...,9} { \node [anchor=east] at (0,\y/10) {0.\y}; }
+%
+\draw(0.28,0.1)node[below]{$10^{-1}$};
+\draw(0.45,0.1)node[below]{$10^{0}$};
+\draw(0.6,0.1)node[below]{$10^{1}$};
+\draw(0.75,0.1)node[below]{$10^{2}$};
+\draw(0.9,0.1)node[below]{$f(\si{\hertz})$};
+%
+\draw(0.14,0.76)node[left]{$10^2$};
+\draw(0.14,0.45)node[left]{$10^1$};
+\draw(0.14,0.12)node[left]{$10^{-1}$};
+\draw(0,0.45)node[left]{مقدار};
+\end{scope}
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_تعددی_بوڈا_خط_مزاحمت_امالہ_برق_گیر_رو_الف} کا دور۔}
+\label{شکل_تعددی_بوڈا_خط_مزاحمت_امالہ_برق_گیر_رو_الف}
+\end{figure}
+%
+
+\انتہا{مثال}
+%========================

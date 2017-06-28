@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  27 JUN 2017 18:23
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  28 JUN 2017 14:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3119,24 +3119,29 @@ Missing character: There is no 6 in font nullfont!
 NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
 
-Overfull \hbox (8.99808pt too wide) in paragraph at lines 158--162
+Overfull \hbox (8.99808pt too wide) in paragraph at lines 155--159
  [][][][] 
  []
 
 
-Overfull \hbox (10.78848pt too wide) in paragraph at lines 168--172
+Overfull \hbox (10.78848pt too wide) in paragraph at lines 165--169
  [][][][] 
  []
 
-) [588] [589] [590
-
-
-] (./circuitAnalysis.aux (./tex/cktBasics.aux)
-(./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
-(./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
-(./tex/cktTransients.aux) (./tex/cktSteadyStateAC.aux)
-(./tex/cktSteadyStatePower.aux) (./tex/cktMagneticallyCoupledNetworks.aux)
-(./tex/cktPolyphaseCircuits.aux) (./tex/cktFrequencyResponse.aux))
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+File: ./fig/figFreqResponse/bodeMagnitudeRLC.eps Graphic file (type eps)
+<./fig/figFreqResponse/bodeMagnitudeRLC.eps>) [588] [589] [590]
+(./circuitAnalysis.aux (./tex/cktBasics.aux) (./tex/cktResistive.aux)
+(./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux) (./tex/cktTheorems.aux)
+(./tex/cktCapacitorInductor.aux) (./tex/cktTransients.aux)
+(./tex/cktSteadyStateAC.aux) (./tex/cktSteadyStatePower.aux)
+(./tex/cktMagneticallyCoupledNetworks.aux) (./tex/cktPolyphaseCircuits.aux)
+(./tex/cktFrequencyResponse.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 2.26395pt have occurred.
@@ -3146,10 +3151,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 45679 strings out of 493918
- 1083876 string characters out of 6150562
- 1271475 words of memory out of 5000000
- 48075 multiletter control sequences out of 15000+600000
+ 45806 strings out of 493918
+ 1086884 string characters out of 6150562
+ 1279647 words of memory out of 5000000
+ 48191 multiletter control sequences out of 15000+600000
  37407 words of font info for 140 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,18n,74p,10476b,2080s stack positions out of 5000i,500n,10000p,200000b,80000s
