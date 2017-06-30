@@ -2,8 +2,13 @@
 %===================
 %testing tikz inside book
 \usepackage{circuitikz}
+\usepackage{pgfplotstable}
 \usepackage{pgfplots}
 \usepackage{tikz-3dplot}
+\pgfplotsset{compat=newest}
+\usepgfplotslibrary{units}
+%\pgfplotsset{compat=1.9}
+\usepgfplotslibrary{polar}
 \usepackage{ifdraft}
 \usetikzlibrary{3d,shadings,fadings,intersections,calc,decorations.markings,decorations.pathreplacing,external}
 
@@ -40,6 +45,8 @@
 \newcommand*{\bIrmsCC}{{\ensuremath{\hat{I}^{*}_{\textup{rms}}}}}           %conjugate phasor current
 
 \newcommand*{\bS}{{\ensuremath{{\boldsymbol{S}}}}}                         %complex power
+\newcommand*{\bH}{{\ensuremath{{\boldsymbol{H}}}}}                         %network functions
+\newcommand*{\bA}{{\ensuremath{{\boldsymbol{A}}}}}                         %network functions
 
 \newcommand*{\pf}{{\ensuremath{{\textup{pf}}}}}
 \newcommand*{\rms}{{\ensuremath{\textup{rms}}}}           %rms
@@ -88,7 +95,7 @@ every axis x label/.style={
 
 %\input{./tex/myElectronicsVariablesBetter.tex}         %these are all tested. to use at the very end when book is finished
 
-\graphicspath{{./fig/figFrontPage/}{./fig/figBasicConcepts/}{./fig/figResistive/}{./fig/figNodalLoop/}{./fig/figOpamp/}{./fig/figTheorem/}{./fig/figCapacitorInductor/}{./fig/figTransients}{./fig/figFreqResponse}}		%paths to figures
+\graphicspath{{./fig/figFrontPage/}{./fig/figBasicConcepts/}{./fig/figResistive/}{./fig/figNodalLoop/}{./fig/figOpamp/}{./fig/figTheorem/}{./fig/figCapacitorInductor/}{./fig/figTransients/}{./fig/figFreqResponse/}}		%paths to figures
 
 
 %\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktTheorems,./tex/cktCapacitorInductor,./tex/cktTransients,./tex/cktSteadyStateAC,./tex/cktSteadyStatePower,./tex/cktMagneticallyCoupledNetworks,./tex/cktPolyphaseCircuits,./tex/cktFrequencyResponse,./tex/cktToDoList}

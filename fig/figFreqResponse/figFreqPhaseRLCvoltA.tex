@@ -1,0 +1,40 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{steinmetz}		%\phase to show angle of phasors
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{pgfplots,filecontents}
+%\pgfplotsset{compat=1.9}
+%\usepgfplotslibrary{polar}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+%\usepackage{tikz-3dplot}
+%\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+%\input{../../tex/myEMTvectors.tex}
+\usepackage{graphics}
+\usepackage[]{graphicx} 
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+
+
+
+%\pgfplotsset{major y grid style={dashed}}
+
+\begin{document}
+\begin{urdufont}
+
+
+\begin{tikzpicture}%[]
+%broadside array
+\begin{semilogxaxis}[xlabel={$f\,(\si{\hertz})$},ylabel={$\phase{\hat{V}_R}$},ylabel style={rotate=-90},ytick={0,90,-90},yticklabels={$0^{\circ}$,$90^{\circ}$,$-90^{\circ}$}]
+\addplot [black] table [x index={0}, y index={1}]{figFreqPhaseRLCvoltA.dat};
+\end{semilogxaxis}%
+%
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}

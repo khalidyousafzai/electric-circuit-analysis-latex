@@ -174,43 +174,262 @@ Z_R=R\phase{0^{\circ}}
 \end{figure}
 %======================
 \ابتدا{مثال}\شناخت{مثال_تعددی_بوڈا_خط_مزاحمت_امالہ_برق_گیر_رو_الف}
-شکل \حوالہ{شکل_تعددی_بوڈا_خط_مزاحمت_امالہ_برق_گیر_رو_الف}-الف میں دیے دور کی رو کے مقدار بالمقابل تعدد اور زاویہ بالمقابل تعدد کے خط کھینچیں۔
+شکل \حوالہ{شکل_تعددی_بوڈا_خط_مزاحمت_امالہ_برق_گیر_رو_الف}-الف میں مزاحمت پر دباو حاصل کریں۔اس کے مقدار بالمقابل تعدد اور زاویہ بالمقابل تعدد کے خط کھینچیں۔
 \begin{figure}
 \centering
 \begin{subfigure}{1\textwidth}
 \centering
-\begin{tikzpicture}
-\draw(0,0) to [resistor,l={$\SI{10}{\ohm}$}]++(\x,0) to [inductor,l={$\SI{0.15}{\henry}$}]++(\x,0) to  [capacitor,l={$\SI{4}{\milli\farad}$}]++(0,-\y) to [short]++(-2*\x,0) to [american voltage source,l={$20\phase{0^{\circ}}\,\si{\volt}$}]++(0,\y);
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [capacitor,l={$\SI{4}{\milli\farad}$}]++(\x,0) to [inductor,l={$\SI{0.15}{\henry}$}]++(\x,0) to  [resistor,l={$\SI{10}{\ohm}$},v={$\hat{V}_R$}]++(0,-\y) to [short]++(-2*\x,0) to [american voltage source,l={$20\phase{0^{\circ}}\,\si{\volt}$}]++(0,\y);
 \end{tikzpicture}
 \caption*{(الف)}
 \end{subfigure}
 \begin{subfigure}{1\textwidth}
 \centering
-\begin{tikzpicture}
-\node[anchor=south west,inner sep=0] (image) at (0,0) {\includegraphics[height=3cm,width=7cm]{bodeMagnitudeRLC}};
-\begin{scope}[x={(image.south east)},y={(image.north west)}]
-%	\draw[help lines,xstep=.1,ystep=.1] (0,0) grid (1,1);
-%	\foreach \x in {0,1,...,9} { \node [anchor=north] at (\x/10,0) {0.\x}; }
-%	\foreach \y in {0,1,...,9} { \node [anchor=east] at (0,\y/10) {0.\y}; }
-%
-\draw(0.28,0.1)node[below]{$10^{-1}$};
-\draw(0.45,0.1)node[below]{$10^{0}$};
-\draw(0.6,0.1)node[below]{$10^{1}$};
-\draw(0.75,0.1)node[below]{$10^{2}$};
-\draw(0.9,0.1)node[below]{$f(\si{\hertz})$};
-%
-\draw(0.14,0.76)node[left]{$10^2$};
-\draw(0.14,0.45)node[left]{$10^1$};
-\draw(0.14,0.12)node[left]{$10^{-1}$};
-\draw(0,0.45)node[left]{مقدار};
-\end{scope}
-\end{tikzpicture}
-\caption*{(ب)}
+\includegraphics{figFreqMagRLCvoltA}
+\caption*{(ب) مقدار بالمقابل تعدد کا خط۔}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\includegraphics{figFreqPhaseRLCvoltA}
+\caption*{(پ) زاویہ بالمقابل تعدد کا خط۔}
 \end{subfigure}
 \caption{مثال \حوالہ{مثال_تعددی_بوڈا_خط_مزاحمت_امالہ_برق_گیر_رو_الف} کا دور۔}
 \label{شکل_تعددی_بوڈا_خط_مزاحمت_امالہ_برق_گیر_رو_الف}
 \end{figure}
-%
 
+حل:دور سے مزاحمت کا دباو درج ذیل لکھا جا سکتا ہے
+\begin{align*}
+\hat{V}_R=\frac{(4)(20\phase{0^{\circ}})}{4+j(2\pi f 0.15-\frac{1}{2\pi f 0.004})}
+\end{align*}
+جو مخلوط تفاعل ہے۔اس کی حتمی مقدار \عددی{\hat{V}_R} بالمقابل تعدد \عددی{f} کو شکل-ب میں دکھایا گیا ہے۔اس ترسیم میں دونوں محور کی پیمائش \اصطلاح{لاگ}\فرہنگ{لاگ}\حاشیہب{log}\فرہنگ{log} میں ہے۔اس طرز کے ترسیم کو \اصطلاح{لاگ لاگ}\فرہنگ{لاگ لاگ!ترسیم}\فرہنگ{ترسیم!لاگ لاگ}\حاشیہب{log-log}\فرہنگ{log-log!graph}\فرہنگ{graph!log-log} ترسیم کہا جاتا  ہے۔مقدار بالمقابل تعدد کے خط عموماً لاگ لاگ محور پر دکھائے جاتے ہیں۔ زاویہ دباو \عددی{\phase{\hat{V}_R}} بالمقابل تعدد کو شکل-پ میں \اصطلاح{نیم لاگ}\فرہنگ{نیم لاگ!ترسیم}\فرہنگ{ترسیم!نیم لاگ}\حاشیہب{semilog}\فرہنگ{semilog!axis}\فرہنگ{axis!semilog} محور پر دکھایا گیا ہے۔کم تعدد پر دباو کا زاویہ \عددی{+90^{\circ}} جبکہ بلند تعدد پر زاویہ \عددی{-90^{\circ}} ہے۔
 \انتہا{مثال}
 %========================
+
+یہاں لاگ لاگ اور نیم لاگ محور پر قیمتیں پڑھنا سیکھ لیں چونکہ اس باب میں انہیں کا استعمال ہو گا۔یوں شکل \حوالہ{شکل_تعددی_بوڈا_خط_مزاحمت_امالہ_برق_گیر_رو_الف}-ب میں  حتمی مقدار کی چوٹی \عددی{10^1} یعنی دس ہرٹز پر پائی جاتی ہے۔یہ چوٹی \عددی{10^1} یعنی دس وولٹ کو ظاہر کرتی ہے۔اسی طرح \عددی{\SI{e2}{\hertz}} یعنی سو ہرٹز پر دباو تقریباً  \عددی{\SI{1.6}{\volt}} ہے۔
+
+\اصطلاح{سمعی}\فرہنگ{سمعی}\حاشیہب{audio}\فرہنگ{audio} اشارات کو \اصطلاح{عددی صورت}\فرہنگ{عددی صورت}\حاشیہب{digital form}\فرہنگ{digital form} میں تبدیل کرتے ہوئے کمپیوٹر میں ذخیرہ کیا جاتا ہے۔ انہیں کو دوبارہ \اصطلاح{مماثل صورت}\فرہنگ{مماثل صورت}\حاشیہب{analog form}\فرہنگ{analog form} میں تبدیل کرتے ہوئے سنا جا سکتا ہے۔آئیں ان اشارات پر ایک مثال دیکھیں۔
+
+کمپیوٹر سے حاصل موسیقی کے مماثلی اشارات کی چوٹی \عددی{\SI{1.5}{\volt}} ہے۔ ہم چاہتے ہیں کہ \اصطلاح{سمعی دباو ایمپلیفائر}\فرہنگ{ایمپلیفائر!سمعی}\فرہنگ{سمعی ایمپلیفائر}\حاشیہب{voltage amplifier}\فرہنگ{voltage!amplifier} استعمال کرتے ہوئے \عددی{\SI{8}{\ohm}} کے \اصطلاح{سپیکر}\فرہنگ{سپیکر}\حاشیہب{loud speaker}\فرہنگ{speaker} کو \عددی{\SI{10}{\watt}} طاقت فراہم کی جائے۔ان حقائق سے ایمپلیفائر کے داخلی مماثل اشارہ کی موثر قیمت حاصل کرتے ہیں۔
+\begin{align*}
+v_m=\frac{1.5}{\sqrt{2}}=\SI{1.061}{\volt}\,\rms
+\end{align*}
+طاقت کے کلیے \عددی{P=\tfrac{\VrmsS}{R}} سے آٹھ اوہم کے سپیکر کو دس واٹ طاقت کے لئے درکار موثر دباو حاصل کرتے ہیں۔
+\begin{align*}
+v_0=\sqrt{(10)(8)}=\SI{8.944}{\volt}\,\rms
+\end{align*} 
+یوں ایمپلیفائر کی درکار افزائش دباو درج ذیل ہے۔
+\begin{align*}
+A_v=\frac{v_0}{v_m}=\frac{8.944}{1.061}=\SI{8.43}{\volt\per\volt}
+\end{align*}
+شکل \حوالہ{شکل_تعددی_افزائش_بالمقابل_تعددی_خط}-الف میں  ایمپلیفائر اور سپیکر دکھائے گئے ہیں جہاں \عددی{v_m} کمپیوٹر سے حاصل مماثل سمعی اشارہ ہے اور \عددی{A_v=\SI{10.53}{\volt\per\volt} کے برابر ہے}۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$v_m$}]++(0,\y)  to [resistor,l={$\substack{ \displaystyle  R_m \hfill \\ \displaystyle \SI{50}{\ohm}}$}]++(\x,0) to [short]++(\x+\x/4,0) to [resistor,l_={$\substack{\displaystyle R_i \hfill \\ \displaystyle \SI{1}{\mega\ohm}}$},v^<={$v_i$}]++(0,-\y) to [short]++(-2*\x-\x/4,0);
+\draw (\x+\x/4,0)node[ground]{} to [capacitor,*-*,l={$\substack{\displaystyle C_i \hfill\\ \displaystyle \SI{159.2}{\nano\farad}}$}]++(0,\y);
+\draw(2*\x+\x/4,0) to [short,*-*]++(3/4*\x,0) to [american controlled voltage source,l_={$\substack{\displaystyle A_v v_i \\ \displaystyle 10.53 v_i}$}]++(0,\y) to [resistor,l={$\substack{\displaystyle R_o \hfill\\ \displaystyle \SI{2}{\ohm}}$}]++(\x,0) to [capacitor,l={$\substack{\displaystyle  C \hfill \\ \displaystyle \SI{796}{\micro\farad}}$}]++(\x,0) to [resistor,l={$\substack{\displaystyle  R_s \hfill\\ \displaystyle \SI{8}{\ohm}}$},v_<={$v_0$}]++(0,-\y)coordinate(kSp) to [short]++(-2*\x,0);
+\draw(kSp)++(0.5,1/5*\y)node[]{سپیکر};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$v_m$}]++(0,\y)  to [resistor,l={$R_m $}]++(\x,0) to [short]++(\x+\x/4,0) to [resistor,l_={$R_i$},v^<={$v_i$}]++(0,-\y) to [short]++(-2*\x-\x/4,0);
+\draw (\x+\x/4,0)node[ground]{} to [capacitor,*-*,l={$\frac{1}{s C_i}$}]++(0,\y);
+\draw(2*\x+\x/4,0) to [short,*-*]++(3/4*\x,0) to [american controlled voltage source,l_={$A_v v_i$}]++(0,\y) to [resistor,l={$R_o$}]++(\x,0) to [capacitor,l={$\frac{1}{s C}$}]++(\x,0) to [resistor,l={$R_s$},v_<={$v_0$}]++(0,-\y)coordinate(kSp) to [short]++(-2*\x,0);
+\draw(kSp)++(0.5,1/5*\y)node[]{سپیکر};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+%axis
+\draw(0,0)--++(5.5,0)node[below]{$f$};
+\draw(0,0)--++(0,2.5)node[left]{$A_v$};
+%gain
+\draw(0.5,0.3)--++(0.5,1.5)--++(3,0)--++(0.5,-1.5);
+\draw[dashed](1,1.8)--(1,0)node[below]{$\SI{20}{\hertz}$};
+\draw[dashed](4,1.8)--(4,0)node[below]{$\SI{20}{\kilo\hertz}$};
+\draw(0,1.8)--++(-0.1,0)node[left]{$\SI{8.43}{\volt\per\volt}$};
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\includegraphics{figFreqAudioAmplifier}
+\caption*{(ت) ایمپلیفائر کی افزائش بالمقابل تعددی خط۔}
+\end{subfigure}
+\caption{ایمپلیفائر اور اس کی افزائش بالمقابل تعددی خط۔}
+\label{شکل_تعددی_افزائش_بالمقابل_تعددی_خط}
+\end{figure}
+انسان \عددی{\SI{20}{\hertz}} تا \عددی{\SI{20}{\kilo\hertz}} کے سمعی اشارات سن سکتا ہے لہٰذا ہمارے ایمپلیفائر کو اس \اصطلاح{تعددی پٹی}\فرہنگ{تعددی پٹی}\حاشیہب{frequency band}\فرہنگ{frequency!band} کے اشارات کا حیطہ بڑھانا ہو گا۔حیطہ بڑھاتے ہوئے اصل آواز کی خاصیت تبدیل نہیں ہونی چاہیے۔اگر پوری تعددی پٹی پر ایمپلیفائر کی افزائش  کی قیمت یکساں ہو تب آواز کی خاصیت برقرار رہے گی۔یوں ہم چاہیں گے  \عددی{\SI{20}{\hertz}} تا \عددی{\SI{20}{\kilo\hertz}} پر ایمپلیفائر کی افزائش  \عددی{\SI{8.43}{\volt\per\volt}} رہے۔ایمپلیفائر کے افزائش بالمقابل تعددی خط  کو شکل-پ میں دکھایا گیا ہے۔
+
+برق گیر کی رکاوٹ \عددی{\bZ_C=\tfrac{1}{j\omega C}} لکھی جاتی ہے جس میں \عددی{j\omega=s} پر کرتے ہوئے \عددی{\bZ_C=\tfrac{1}{sC}} لکھا جا سکتا ہے۔ایسا ہی کرتے ہوئے ایمپلیفائر کو دوبارہ شکل-پ میں دکھایا گیا ہے۔آپ میں سے کچھ طلبہ \عددی{s} کو پہچان گئے ہوں گے۔یہ \اصطلاح{لاپلاس بدل}\فرہنگ{لاپلاس بدل}\حاشیہب{Laplace transform}\فرہنگ{Laplace transform} کا متغیرہ ہے۔
+
+آئیں شکل-ب کو حل کریں۔داخلی جانب بالائی جوڑ پر کرخوف مساوات رو لکھتے ہیں
+\begin{align*}
+\frac{v_i-v_m}{R_m}+sC_i v_i+\frac{v_i}{R_i}=0
+\end{align*}
+جس کو درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+v_i\left(\frac{1}{R_m}+s C_i+\frac{1}{R_i}\right)=\frac{v_m}{R_m}
+\end{align*}
+اس میں قوسین کے اندر مزاحمتوں کو قریب قریب لکھتے ہوئے  \عددی{v_i} کے لئے حل کرتے ہیں۔
+\begin{align*}
+v_i&=\frac{v_m}{R_m\left(\frac{1}{R_m}+\frac{1}{R_i}+s C_i\right)}
+\end{align*}
+شکل \حوالہ{شکل_تعددی_افزائش_بالمقابل_تعددی_خط}-ب کے دائیں جانب تقسیم دباو کے کلیے سے \عددی{v_0} لکھتے ہیں۔
+\begin{align*}
+v_0=\frac{A_v v_i R_s}{R_o+R_s+\frac{1}{s C}}
+\end{align*}
+اس میں \عددی{v_i} کی قیمت پر کرتے ہیں
+\begin{align*}
+v_0&=\left(\frac{A_v R_s}{R_o+R_s+\frac{1}{sC}}\right)\frac{v_m}{R_m\left(\frac{1}{R_m}+\frac{1}{R_i}+s C_i\right)}\\
+&=\left[\frac{sC R_s A_v}{1+sC(R_o+R_s)}\right]\frac{v_m}{R_m\left(\frac{1}{R_m}+\frac{1}{R_i}\right)\left(1+\frac{s C_i}{\frac{1}{R_m}+\frac{1}{R_i}}\right)}\\
+&=\frac{R_s A_v v_m}{R_m\left(\frac{1}{R_m}+\frac{1}{R_i}\right)}\left[\frac{sC}{1+sC(R_o+R_s)}\right]\frac{1}{\left(1+\frac{s C_i}{\frac{1}{R_m}+\frac{1}{R_i}}\right)}
+\end{align*}
+جہاں دوسری قدم پر دائیں نچلی قوسین سے \عددی{\tfrac{1}{R_m}+\tfrac{1}{R_i}} باہر نکالا گیا اور تیسری قدم پر اسی کو پہلی قوسین کا حصہ بنایا گیا۔اس مساوات میں
+\begin{align*}
+\omega_{p1}&=\frac{1}{C(R_o+R_s)}\\
+\omega_{p2}&=\frac{1}{C_i}\left(\frac{1}{R_m}+\frac{1}{R_i}\right)
+\end{align*}
+لکھتے ہوئے درج ذیل صاف ستھرا مساوات حاصل ہوتا ہے جہاں \عددی{\omega_{p1}} اور \عددی{\omega_{p2}} مساوات کے  \اصطلاح{قطب}\فرہنگ{قطب}\حاشیہب{pole}\فرہنگ{pole}  کہلاتے ہیں اور انہیں تعدد کی اکائی یعنی ہرٹز \عددی{\si{\hertz}} یا ریڈیئن فی سیکنڈ \عددی{\si{\radian\per\second}} میں ناپا جاتا ہے۔
+\begin{align}
+\bA_v(s)=\frac{v_0}{v_m}=\dfrac{R_s A_v }{R_m\left(\dfrac{1}{R_m}+\frac{1}{R_i}\right)}\dfrac{sC}{\left(1+\dfrac{s}{\omega_{p1}}\right)\left(1+\dfrac{s}{\omega_{p2}}\right)}
+\end{align}
+شکل-الف میں دی گئی مزاحمتوں اور برق گیروں کی قیمتیں استعمال کرتے ہوئے درج ذیل ملتا ہے۔
+\begin{align*}
+\omega_{p1}&=\frac{1}{796\times 10^{-6}(2+8)}=\SI{125.63}{\radian\per\second}\\
+\omega_{p2}&=\frac{1}{159.2\times 10^{-9}}\left(\frac{1}{50}+\frac{1}{1000000}\right)=\SI{125.634}{\kilo\radian\per\second}\\
+\frac{R_s A_v}{R_m\left(\frac{1}{R_m}+\frac{1}{R_i}\right)}&=\frac{8 \times 10.53}{50\left(\frac{1}{50}+\frac{1}{1000000}\right)}\approx 84.2
+\end{align*}
+یوں درج ذیل لکھا جا سکتا ہے۔
+\begin{align}\label{مساوت_تعددی_تبادلی_تفاعل_ایمپلیفائر}
+\bA_v(s)= 84.2 \dfrac{sC}{\left(1+\dfrac{s}{125.63}\right)\left(1+\dfrac{s}{125634}\right)}
+\end{align}
+آئیں اس میں واپس \عددی{s=j\omega=j2\pi f} پر کرتے ہیں۔
+\begin{gather}
+\begin{aligned}\label{مساوت_تعددی_انقطاعی_تعدد}
+\bA_v(s)&= 84.2 \dfrac{j 2 \pi f \times 796\times 10^{-6}}{\left(1+\dfrac{j 2\pi f}{125.63}\right)\left(1+\dfrac{j 2 \pi f}{125634}\right)}\\
+&= \dfrac{j 0.421f}{\left(1+\dfrac{j f}{20}\right)\left(1+\dfrac{j f}{20000}\right)}\\
+\end{aligned}
+\end{gather}
+اس کے حتمی قیمت \عددی{\abs{\bA_v(s)}} بالمقابل تعدد \عددی{f} کو شکل \حوالہ{شکل_تعددی_افزائش_بالمقابل_تعددی_خط}-ت میں دکھایا گیا ہے۔
+\begin{align*}
+\abs{\bA_v(s)}=\frac{0.421 f }{\sqrt{1+\left(\frac{f}{20}\right)^2}\sqrt{1+\left(\frac{f}{20000}\right)^2}}
+\end{align*}
+
+شکل-ب میں \عددی{\SI{20}{\hertz}} کو \اصطلاح{پست انقطاعی تعدد}\فرہنگ{پست انقطاعی تعدد}\فرہنگ{تعدد!پست انقطاعی}\فرہنگ{انقطاعی!پست تعدد}\حاشیہب{low cut-off frequency}\فرہنگ{low cut-off frequency}\فرہنگ{cut-off!low frequency} اور \عددی{\SI{20}{\kilo\hertz}} کو \اصطلاح{بلند انقطاعی تعدد}\فرہنگ{بلند انقطاعی تعدد}\فرہنگ{تعدد!بلند انقطاعی}\فرہنگ{انقطاعی!بلند تعدد}\حاشیہب{high cut-off frequency}\فرہنگ{cut-off!high frequency}\فرہنگ{high cut-off frequency} کہتے ہیں۔ انہیں خط کے \اصطلاح{کونے کی تعدد}\فرہنگ{تعدد!کونے کی}\حاشیہب{corner frequencies}\فرہنگ{corner frequencies} بھی کہا جاتا ہے۔
+
+شکل \حوالہ{شکل_تعددی_افزائش_بالمقابل_تعددی_خط}-ت میں انقطاعی تعدد کے مابین \اصطلاح{درمیانی تعدد خطے}\فرہنگ{درمیانی تعدد خطہ}\حاشیہب{mid-frequency range}\فرہنگ{mid-frequency range} میں ایمپلیفائر کی افزائش \عددی{\SI{8.41}{\volt\per\volt}} ہے جو ہمیں درکار تھی۔اس کو درمیانی تعدد پر افزائش کہتے ہیں۔البتہ انقطاعی تعدد کے قریب ایمپلیفائر کی افزائش گھٹ جاتی ہے۔یوں پست اور بلند انقطاعی تعدد پر افزائش \عددی{\SI{5.95}{\volt\per\volt}} ہے۔جس تعدد پر افزائش کی قیمت درمیانی تعدد کے افزائش کے \عددی{\tfrac{1}{\sqrt{2}}} گنا رہ جاتی ہے اس کو انقطاعی تعدد کہتے ہیں۔چونکہ طاقت \عددی{P=\tfrac{\VrmsS}{R}} کے برابر ہے لہٰذا دباو کی قیمت \عددی{\tfrac{1}{\sqrt{2}}} گنا ہو جانے سے طاقت کی قیمت نصف ہو جاتی ہے۔یوں انقطاعی تعدد اس تعدد کو کہتے ہیں جس پر اشارے کی طاقت نصف رہ جاتی ہے۔ہمارے ایمپلیفائر کی درمیانی تعدد پر افزائش  \عددی{\SI{8.41}{\volt\per\volt}} ہے۔اس کا \عددی{\tfrac{1}{\sqrt{2}}} گنا \عددی{8.4\times\tfrac{1}{\sqrt{2}}=\SI{5.95}{\volt\per\volt}}  ہے۔
+
+حقیقت میں پرزوں کی قیمتیں یوں رکھی جائیں گی کہ پست انقطاعی تعدد \عددی{\SI{20}{\hertz}} سے کئی گنا کم ہو اور اسی طرح بلند انقطاعی تعدد \عددی{\SI{20}{\kilo\hertz}} سے کئی گنا زیادہ ہو۔یوں حقیقی ایمپلیفائر میں آپ انقطاعی تعدد کو \عددی{\SI{2}{\hertz}} اور \عددی{\SI{200}{\kilo\hertz}} رکھیں گے تا کہ پوری تعددی پٹی پر ایمپلیفائر سے درکار افزائش میسر ہو۔ 
+
+مساوات \حوالہ{مساوت_تعددی_انقطاعی_تعدد} میں درمیانی تعددی پٹی پر انقطاعی تعدد سے دور  تعدد
+\begin{align*}
+\SI{20}{\hertz} \ll f \ll \SI{20000}{\hertz}
+\end{align*}
+کی صورت میں \عددی{\tfrac{f}{20000} \ll 1} اور \عددی{\tfrac{f}{20} \gg 1} ہو گا۔یوں مساوات \حوالہ{مساوت_تعددی_انقطاعی_تعدد} کے بائیں قوسین میں \عددی{1+\tfrac{jf}{20}=\tfrac{jf}{20}}اور دائیں قوسین میں \عددی{1+\tfrac{j f }{20000}=1} لکھتے ہوئے درج ذیل لکھا جا سکتا ہے جو درمیانی تعدد پر افزائش ہے۔
+\begin{align*}
+\bA_v(s)&\approx  \dfrac{j 0.421f}{\left(\dfrac{jf }{20}\right)\left(1\right)}=8.42  \quad \quad (\SI{20}{\hertz} \ll f \ll \SI{20}{\kilo\hertz})
+\end{align*}
+%=====================
+
+\حصہ{جال}
+کسی بھی دور میں متعدد پرزے اور تار پائے جاتے ہیں جسے پرزوں اور تاروں کا جال تصور کیا جا سکتا ہے۔یوں دور کو \اصطلاح{برقی جال} یا صرف \اصطلاح{جال}\فرہنگ{جال}\حاشیہب{network}\فرہنگ{network} بھی کہا جاتا ہے۔گزشتہ حصے میں ایمپلیفائر کی افزائش دباو \عددی{\bA_v(s)} کی بات کی گئی جو جال کے مختلف تفاعل \عددی{\bH(s)} میں سے ایک ہے۔ جال میں کسی مقام پر ردعمل اور داخلی اشارے کی تناسب کو \عددی{\bH(s)} لکھا جاتا ہے۔چونکہ جال میں عموماً ردعمل کو اس مقام پر نہیں ناپا جاتا جس پر داخلی اشارہ لاگو کیا گیا ہو لہٰذا \عددی{\bH(s)} کو  \اصطلاح{تبادلی تفاعل}\فرہنگ{تبادلی تفاعل}\حاشیہب{transfer function}\فرہنگ{transfer function} کہا جاتا ہے۔ داخلی اشارہ دباو یا رو کا ہو سکتا ہے۔اسی طرح ردعمل بھی دباو یا رو کی صورت میں ممکن ہے لہٰذا تبادلی تفاعل کے چار اقسام ممکنہ پائے جاتے ہیں جنہیں جدول \حوالہ{جدول_تعددی_جال_تبادلی_تفاعل} میں پیش کیا گیا ہے۔
+\begin{table}\caption{جال کے تبادلی تفاعل}
+\centering
+\begin{tabular}{r r r l}
+داخلی & خارجی& تبادلی تفاعل& علامت\\
+\hline
+دباو&دباو&افزائش دباو&$\bA_v(s)$ \\
+رو&رو&افزائش رو&$\bA_i(s)$ \\
+دباو&رو&موصل نما افزائش& $\bA_g(s)$\\
+رو&دباو&دباو نما افزائش&$\bA_r(s)$ 
+\end{tabular}\label{جدول_تعددی_جال_تبادلی_تفاعل}
+\end{table} 
+
+%=================
+\ابتدا{مثال}\شناخت{مثال_تعددی_تبادلی_تفاعل_الف}
+شکل \حوالہ{شکل_تعددی_تبادلی_تفاعل_الف} میں تبادلی تفاعل \عددی{\bA_i(s)=\tfrac{\hat{I}_2}{\hat{I}_m}} اور \عددی{\bA_r(s)=\tfrac{\hat{V}_2}{\hat{I}_m}} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american current source,l={$\hat{I}_m$}]++(0,\y) to [short]++(\x,0) to [capacitor,l={$\frac{1}{sC}$}]++(\x,0) to [resistor,l={$R$},i>_={$\hat{I}_2$}]++(\x,0) to [inductor,l={$sL_2$},v={$\hat{V}_2$}]++(0,-\y) to [short] (0,0);
+\draw(\x,0) to [inductor,*-*,l={$sL_2$}]++(0,\y);
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_تعددی_تبادلی_تفاعل_الف} کا دور۔}
+\label{شکل_تعددی_تبادلی_تفاعل_الف}
+\end{figure}
+
+حل:تقسیم رو کے کلیے سے درج ذیل لکھتے ہیں
+\begin{align*}
+\hat{I}_2=\frac{ sL_1 \hat{I}_m}{sL_1+\frac{1}{sC}+R+sL_2}
+\end{align*}
+جس سے افزائش رو کی تفاعل لکھتے ہیں۔
+\begin{align*}
+\bA_i(s)=\frac{\hat{I}_2}{\hat{I}_m}=\frac{ s^2 L_1 C}{s^2 (L_1+L_2)C +s RC +1}
+\end{align*}
+رو \عددی{\hat{I}_2} جانتے ہوئے \عددی{\hat{V}_2} لکھتے ہیں
+\begin{align*}
+\hat{V}_2&= sL_2\hat{I}_2\\
+&=\frac{ s^3 L_1 L_2 C \hat{I}_m}{s^2 (L_1+L_2)C +s RC +1}
+\end{align*}
+جس سے مزاحمت نما افزائش لکھتے ہیں۔
+\begin{align*}
+\bA_r(s)&=\frac{\hat{V}_2}{\hat{I}_m}=\frac{ s^3 L_1 L_2 C}{s^2 (L_1+L_2)C +s RC +1}
+\end{align*}
+\انتہا{مثال}
+%======================
+
+\حصہ{صفر اور قطب}
+درج بالا مثال میں ہم نے دیکھا کہ تبادلی تفاعل کو دو سلسلوں کا تناسب \عددی{\tfrac{A(s)}{B(s)}} لکھا جا سکتا ہے جن کا متغیرہ \عددی{s} ہے۔چونکہ ادوار میں پرزوں کی قیمت اور تابع یا غیر تابع منبع کی قیمت حقیقی اعداد ہوتے ہیں لہٰذا ان سلسلوں کے سر حقیقی  اعداد ہوں گے۔یوں کسی بھی جال کا تبادلی تفاعل درج ذیل لکھا جا سکتا ہے
+\begin{align}\label{مساوات_تعددی_تبادلی_تفاعل_الف}
+\bH(s)=\frac{A(s)}{B(s)}=\frac{a_m s^m+a_{m-1} s^{m-1}+\cdots+a_2 s^2+a_1 s+a_0}{b_n s^n+b_{n-1} s^{n-1}+\cdots+b_2 s^2+b_1 s+b_0}
+\end{align}
+جہاں شمار کنندہ تسلسل \عددی{m} درجے کا ہے جبکہ  نسب نما تسلسل \عددی{n} درجے کا ہے۔مساوات \حوالہ{مساوات_تعددی_تبادلی_تفاعل_الف} کو بذریعہ تجزی درج ذیل لکھا جا سکتا ہے
+\begin{align}\label{مساوات_تعددی_تبادلی_تفاعل_ب}
+\bH(s)=\frac{K_0 (s-z_1)(s-z_2)\cdots (s-z_m)}{(s-p_1)(s-p_2) \cdots (s-p_n)}
+\end{align}
+جہاں \عددی{K_0} مساوات کا مستقل، \عددی{z_1} تا \عددی{z_m} شمار کنندہ کے  حل  اور \عددی{p_1} تا \عددی{p_n} نسب نما کے حل ہیں۔یہاں غور کریں کہ اگر \عددی{s=z_1} ہو تب \عددی{\bH(s)=0} ہو گا۔اسی طرح  اگر \عددی{s} کی قیمت \عددی{z_1} تا \عددی{z_m} میں کسی ایک کے بھی برابر ہو تو  \عددی{\bH(s)=0} ہو گا۔یہی وجہ ہے کہ \عددی{z_1} تا \عددی{z_m} تفاعل کے \اصطلاح{صفر}\فرہنگ{صفر}\حاشیہب{zeroes}\فرہنگ{zeroes} کہلاتے ہیں۔اس کے برعکس اگر \عددی{s} کی قیمت \عددی{p_1} تا \عددی{p_n} میں کسی بھی ایک کے برابر ہو تب \عددی{\bH(s)} کی قیمت لامتناہی ہو گی۔اسی لئے \عددی{p_1} تا \عددی{p_n} تفاعل کے \اصطلاح{قطب}\فرہنگ{قطب}\حاشیہب{poles}\فرہنگ{poles} کہلاتے ہیں۔تفاعل کے صفر اور قطب مخلوط اعداد ہو سکتے ہیں۔مخلوط اعداد کی صورت میں ان کی جوڑیاں پائی جاتی ہیں جہاں جوڑی کے دونوں اعداد ایک دوسرے کے جوڑی دار مخلوط اعداد ہوتے ہیں۔ایسی جوڑی کے قوسین ضرب کرنے سے حقیقی سر والے تسلسل دیتے ہیں جو ادوار کو ظاہر کر سکتے ہیں۔مساوات \حوالہ{مساوات_تعددی_تبادلی_تفاعل_ب} کسی بھی خطی اور وقت کے ساتھ نہ بدلنے والے نظام کے تبادلی تفاعل لکھنے کا انتہائی اہم طریقہ ہے چونکہ اس کے قطبین کو دیکھ کر تفاعل کی خاصیت کے بارے میں جانا جا سکتا ہے۔ایسے نظام کے تبادلی تفاعل کو عموماً اسی صورت میں لکھا جاتا ہے۔
+%==============
+\ابتدا{مشق}
+شکل \حوالہ{شکل_تعددی_افزائش_بالمقابل_تعددی_خط}-الف کا تبادلی تفاعل مساوات \حوالہ{مساوت_تعددی_تبادلی_تفاعل_ایمپلیفائر} میں دیا گیا ہے۔ اس کے صفر، قطب اور \عددی{K_0} دریافت کریں۔
+
+جوابات:\عددی{z_1=\SI{0}{\hertz}}، \عددی{p_1=\SI{20}{\hertz}}، \عددی{p_2=\SI{20}{\kilo\hertz}}، \عددی{K_0=1.06\times 10^6}
+\انتہا{مشق}
+%======================
+\ابتدا{مشق}
+شکل \حوالہ{شکل_تعددی_افزائش_بالمقابل_تعددی_خط}-الف میں داخلی اشارے کو درپیش رکاوٹ دریافت کریں۔
+
+جواب:\عددی{R_m+\frac{R_i}{1+sR_i C_i}}
+\انتہا{مشق}
+%=================
+\ابتدا{مشق}
+شکل میں تبادلی تفاعل \عددی{\tfrac{\hat{V}_0(s)}{\hat{V}_i(s)}} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [inductor,o-,l={$s L_1$}]++(\x,0) to [capacitor,l={$\frac{1}{sC_1}$}]++(\x,0) to [short]++(\x,0) to [short,-o]++(\x/2,0);
+\draw(0,-\y) to [short,o-o]++(3*\x+\x/2,0);
+\draw(2*\x,-\y) to [inductor,*-*,l={$sL_2$}]++(0,\y);
+\draw(3*\x,-\y) to [capacitor,*-*,l={$\frac{1}{sC_2}$}]++(0,\y);
+\draw(0,-\y/2)node{$\begin{aligned} &+ \\ &\hat{V}_i(s) \\ &- \end{aligned}$};
+\draw(3*\x+\x/2,-\y/2)node{$\begin{aligned} &+ \\ &\hat{V}_0(s) \\& - \end{aligned}$};
+\end{tikzpicture}
+\caption{}
+\label{}
+\end{figure}
+
+جواب:
+\begin{align*}
+\frac{\hat{V}_0(s)}{\hat{V}_i(s)}=\frac{s^2 L_2 C_1}{s^4 L_1 L_2 C_1 C_2 +s^2(L_1 C_1+L_2 C_2+L_2 C_1)+1}
+\end{align*}
+\انتہا{مشق}
+%================
+\حصہ{سائن نما تعددی تجزیہ}

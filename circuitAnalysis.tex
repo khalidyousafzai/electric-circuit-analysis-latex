@@ -2,8 +2,13 @@
 %===================
 %testing tikz inside book
 \usepackage{circuitikz}
+\usepackage{pgfplotstable}
 \usepackage{pgfplots}
 \usepackage{tikz-3dplot}
+\pgfplotsset{compat=newest}
+\usepgfplotslibrary{units}
+%\pgfplotsset{compat=1.9}
+\usepgfplotslibrary{polar}
 \usepackage{ifdraft}
 \usetikzlibrary{3d,shadings,fadings,intersections,calc,decorations.markings,decorations.pathreplacing,external}
 
@@ -40,6 +45,8 @@
 \newcommand*{\bIrmsCC}{{\ensuremath{\hat{I}^{*}_{\textup{rms}}}}}           %conjugate phasor current
 
 \newcommand*{\bS}{{\ensuremath{{\boldsymbol{S}}}}}                         %complex power
+\newcommand*{\bH}{{\ensuremath{{\boldsymbol{H}}}}}                         %network functions
+\newcommand*{\bA}{{\ensuremath{{\boldsymbol{A}}}}}                         %voltage gain
 
 \newcommand*{\pf}{{\ensuremath{{\textup{pf}}}}}
 \newcommand*{\rms}{{\ensuremath{\textup{rms}}}}           %rms

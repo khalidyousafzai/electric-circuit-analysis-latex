@@ -4,7 +4,7 @@ hold on
 set (gca (), "interpreter", 'tex')
 
 vs=10;
-R=2;
+R=1;
 L=0.01;
 C=0.02;
 

@@ -1,0 +1,49 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{steinmetz}		%\phase to show angle of phasors
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{pgfplots,filecontents}
+%\pgfplotsset{compat=1.9}
+%\usepgfplotslibrary{polar}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+%\usepackage{tikz-3dplot}
+%\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+%\input{../../tex/myEMTvectors.tex}
+\usepackage{graphics}
+\usepackage[]{graphicx} 
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+
+
+
+%\pgfplotsset{major y grid style={dashed}}
+
+\begin{document}
+\begin{urdufont}
+
+
+\begin{tikzpicture}%[]
+%broadside array
+\begin{semilogxaxis}[xlabel={$f\,(\si{\hertz})$},ylabel={$\abs{\boldsymbol{A}_v(s)}$},ylabel style={rotate=-90},]
+\addplot [black] table [x index={0}, y index={1}]{figFreqAudioAmplifier.dat};
+\draw[dashed](axis cs:20,0)--(axis cs:20,5.9538);
+\draw[dashed](axis cs:20000,0)--(axis cs:20000,5.9538);
+\draw[dashed](axis cs:0,5.9538)--(axis cs:20000,5.9538);
+\draw[dashed](axis cs:-0,8.41)--(axis cs:800,8.41);
+\draw[stealth-](axis cs:20,0) to [out=45,in=180]++(axis cs:2,1)node[right]{\RL{پست انقطاعی تعدد}};
+\draw (axis cs:20000,0.5)node[above left]{\RL{بلند انقطاعی تعدد}};
+\draw(axis cs:5000,0.4)coordinate(kA);
+\draw(axis cs:20000,0)coordinate(kB);
+\draw[stealth-] (kB) to [out=90,in=-90](kA);
+\end{semilogxaxis}%
+%
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}
