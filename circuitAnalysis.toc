@@ -102,4 +102,5 @@
 \contentsline {chapter}{\numberline {\RL {\arabicfont 12}}تعددی ردعمل}{\RL {\arabicfont 585}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 12}}جال}{\RL {\arabicfont 596}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 12}}صفر اور قطب}{\RL {\arabicfont 598}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 12}}سائن نما تعددی تجزیہ}{\RL {\arabicfont 599}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 12}}سائن نما تعددی تجزیہ}{\RL {\arabicfont 600}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 3}.\RL {\arabicfont 12}}بوڈا خطوط}{\RL {\arabicfont 600}}
