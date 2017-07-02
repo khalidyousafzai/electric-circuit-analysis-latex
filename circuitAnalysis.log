@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  1 JUL 2017 18:38
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  2 JUL 2017 17:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3228,13 +3228,38 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
  [599]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 442.
+(Font)              scaled to size 12.0pt on input line 451.
  [600] [601] [602]
 Missing character: There is no ; in font nullfont!
- [603] [604]
+ [603] [604] [605]
 Missing character: There is no ; in font nullfont!
- [605] [606]
-[607]) [608] (./circuitAnalysis.aux (./tex/cktBasics.aux)
+ [606]
+[607]
+Overfull \hbox (3.13242pt too wide) in paragraph at lines 681--710
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 درج بالا مساوات کے تینوں اجزاء کو شکل []\
+EU1/JameelNooriNastaleeq(0)/bx/n/10 13[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]
+\EU1/JameelNooriNastaleeq(0)/bx/n/10 12[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 
+-الف میں اور ان کے مجموعے کو شکل []\EU1/JameelNooriNastaleeq(0)/bx/n/10 13[]\EU
+1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 12[][]
+\EU1/JameelNooriNastaleeq(1)/m/n/10 -ب میں دکھایا گیا ہے۔درج[]
+ []
+
+
+Overfull \hbox (9.0327pt too wide) in paragraph at lines 681--710
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 بالا مساوات کو دیکھ کر بوڈا مقداری خط کھی
+نچا جاتا ہے جہاں  $\OML/zplm/m/it/10 ! \OT1/zplm/m/n/10 = [] []$  \EU1/JameelNo
+oriNastaleeq(1)/m/n/10 سے کم تعدد پر مقدار  $\OT1/ppl/m/n/10 20 [][] 10 \OT1/zp
+lm/m/n/10 =$[]
+ []
+
+[608] [609] [610] [611] [612]
+Overfull \hbox (20.4757pt too wide) in paragraph at lines 824--825
+[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 ہمیں عموماً درمیانی تعدد پر بوڈا خط میں
+ زیادہ دلچسپی ہوتی ہے۔ایسی صورت میں بوڈا مقداری خط درمیانی تعدد  $\OT1/zplm/m/n
+/10 ([] [] \OML/zplm/m/it/10 <$[]
+ []
+
+[613] [614]) [615] [616] (./circuitAnalysis.aux (./tex/cktBasics.aux)
 (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
 (./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
 (./tex/cktTransients.aux) (./tex/cktSteadyStateAC.aux)
@@ -3249,12 +3274,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 47461 strings out of 493918
- 1132925 string characters out of 6150562
- 1334650 words of memory out of 5000000
- 49807 multiletter control sequences out of 15000+600000
+ 47574 strings out of 493918
+ 1135310 string characters out of 6150562
+ 1358178 words of memory out of 5000000
+ 49920 multiletter control sequences out of 15000+600000
  46937 words of font info for 175 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,22n,81p,10476b,2966s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,24n,86p,10476b,3056s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (31 pages).
+Output written on circuitAnalysis.pdf (39 pages).
