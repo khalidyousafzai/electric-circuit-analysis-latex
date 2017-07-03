@@ -736,7 +736,7 @@ v_0&=\left(\frac{A_v R_s}{R_o+R_s+\frac{1}{sC}}\right)\frac{v_m}{R_m\left(\frac{
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{semilogxaxis}[ytick={0,45,90},yticklabels={$0^{\circ}$,$45^{\circ}$,$90^{\circ}$},xtick={1,10,100,1000,10000},xticklabels={$\frac{z_1}{100}$,$\frac{z_1}{10}$,$z_1$,$10z_1$,$100z_1$},xlabel={$\omega$},ylabel={$\phase{\bH(\omega)}$}]
+\begin{semilogxaxis}[ytick={0,45,90},yticklabels={$0^{\circ}$,$45^{\circ}$,$90^{\circ}$},xtick={1,10,100,1000,10000},xticklabels={$\frac{z_1}{100}$,$\frac{z_1}{10}$,$z_1$,$10z_1$,$100z_1$},xlabel={$\omega$},ylabel={$\phase{\bH(\omega)}$},ylabel style={rotate=-90}]
 \addplot[mark=none,color=gray,dashed,domain=1:10000]{atan(x/100)};
 \addplot[mark=none,color=black] coordinates {(1,0) (10,0)  (1000,90) (10000,90)};
 \addplot[mark=*,color=black] coordinates {(10,0) };
@@ -744,7 +744,7 @@ v_0&=\left(\frac{A_v R_s}{R_o+R_s+\frac{1}{sC}}\right)\frac{v_m}{R_m\left(\frac{
 \addplot[mark=none,color=black] coordinates {(10,65) }node[]{$\bH(\omega)=K_0(1+j\frac{\omega}{z_1})$};
 \end{semilogxaxis}
 \end{tikzpicture}
-\caption{ایک صفر والے تفاعل کا بوڈا زاویائی خط۔}
+\caption{ایک صفر والے تفاعل کا زاویائی بوڈا خط۔}
 \label{شکل_تعددی_زاویائی_بوڈا_ایک_صفر_الف}
 \end{figure}
 %================
@@ -761,7 +761,7 @@ v_0&=\left(\frac{A_v R_s}{R_o+R_s+\frac{1}{sC}}\right)\frac{v_m}{R_m\left(\frac{
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{semilogxaxis}[ytick={0,-45,-90},yticklabels={$0^{\circ}$,$-45^{\circ}$,$-90^{\circ}$},xtick={1,10,100,1000,10000},xticklabels={$1$,$10$,$100$,$1000$,$10000$},xlabel={$\omega$},ylabel={$\phase{\bH(\omega)}$}]
+\begin{semilogxaxis}[ytick={0,-45,-90},yticklabels={$0^{\circ}$,$-45^{\circ}$,$-90^{\circ}$},xtick={1,10,100,1000,10000},xticklabels={$1$,$10$,$100$,$1000$,$10000$},xlabel={$\omega$},ylabel={$\phase{\bH(\omega)}$},ylabel style={rotate=-90}]
 \addplot[mark=none,color=gray,dashed,domain=1:10000]{-atan(x/300)};
 \addplot[mark=none,color=black] coordinates {(1,0) (30,0)  (3000,-90) (10000,-90)};
 \addplot[mark=none,color=black] coordinates {(30,-65) }node[]{$\bH(\omega)=\frac{50}{1+j\frac{\omega}{300}}$};
@@ -777,11 +777,47 @@ v_0&=\left(\frac{A_v R_s}{R_o+R_s+\frac{1}{sC}}\right)\frac{v_m}{R_m\left(\frac{
 \phase{\bH(2000)}&=\phase{-\tan^{-1} \frac{3000}{300}}=\phase{-84.3^{\circ}}\\[0.5ex]
 \phase{\bH(20)}&=\phase{-\tan^{-1} \frac{30}{300}}=\phase{-5.7^{\circ}}
 \end{align*}
+\انتہا{مثال}
+%========================
+\ابتدا{مثال}\شناخت{مثال_تعددی_نوے_درجہ_الف}
+تبادلی تفاعل \عددی{\bH(\omega)=\frac{j20\omega(1+j\tfrac{\omega}{200})}{1+j\frac{\omega}{\num{30000}}}} کا زاویائی بوڈا خط کھینچیں۔
+
+حل:اس تفاعل کا زاویہ لکھتے ہیں۔
+\begin{align*}
+\phase{\bH(\omega)}=\phase{90^{\circ}}+\phase{\tan^{-1}\frac{\omega}{200}}-\phase{\tan^{-1}\frac{\omega}{\num{30000}}}
+\end{align*}
+شمار کنندہ میں \عددی{j20\omega=0+j20\omega} لکھتے ہوئے زاویہ \عددی{\tan^{-1}\tfrac{j20\omega}{0}=90^{\circ}} حاصل ہوتا ہے۔ دوسرا رکن \عددی{\SI{20}{\radian\per\second}} پر \عددی{0^{\circ}} اور \عددی{\SI{2}{\kilo\radian\per\second}} پر \عددی{90^{\circ}} جبکہ تیسرا رکن \عددی{\SI{300}{\radian\per\second}} پر \عددی{0^{\circ}} اور \عددی{\SI{300}{\kilo\radian\per\second}} پر \عددی{-90^{\circ}} ہے۔ان تمام ارکان کو شکل \حوالہ{شکل_تعددی_نوے_درجہ_الف} میں دکھایا گیا ہے۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{semilogxaxis}[xlabel={$\omega(\si{\radian\per\second})$},ylabel={$\phase{\bH(\omega)}$},ylabel style={rotate=-90},ytick={-90,-45,0,45,90},yticklabels={$-90^{\circ}$,$-45^{\circ}$,$0^{\circ}$,$45^{\circ}$,$90^{\circ}$}]
+\addplot[mark=none,color=black] coordinates {(1,90) (3000000,90)};
+\addplot[mark=none,color=black] coordinates {(1,0) (20,0) (2000,90) (3000000,90)};
+\addplot[mark=none,color=black] coordinates {(1,0) (3000,0) (30000,-90) (3000000,-90)};
+\end{semilogxaxis}
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{semilogxaxis}[xlabel={$\omega(\si{\radian\per\second})$},ylabel={$\phase{\bH(\omega)}$},ylabel style={rotate=-90},ytick={90,180},yticklabels={$90^{\circ}$,$180^{\circ}$}]
+\addplot[mark=none,color=black] coordinates {(1,90) (20,90) (2000,180) (3000,180) (300000,90) (3000000,90)};
+\addplot[mark=none,color=gray,dashed,domain=1:3000000]{90+atan(x/200)-atan(x/30000)};
+\end{semilogxaxis}
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_تعددی_نوے_درجہ_الف} کا زاویائی بوڈا خط۔}
+\label{شکل_تعددی_نوے_درجہ_الف}
+\end{figure}
 
 \انتہا{مثال}
 %=========================
 \ابتدا{مثال}
-تبادلی تفاعل \عددی{\bH()=\frac{j10\omega}{(1+j\frac{\omega}{100})(1+j\frac{\omega}{10000})}} کا مقداری بوڈا خط کھینچیں۔
+تبادلی تفاعل \عددی{\bH(\omega)=\frac{j10\omega}{(1+j\frac{\omega}{100})(1+j\frac{\omega}{10000})}} کا مقداری بوڈا خط کھینچیں۔
 
 حل:اس تفاعل کی حتمی قیمت 
 \begin{align*}
@@ -857,3 +893,135 @@ v_0&=\left(\frac{A_v R_s}{R_o+R_s+\frac{1}{sC}}\right)\frac{v_m}{R_m\left(\frac{
 
 \انتہا{مثال}
 %==================
+
+تبادلی تفاعل کے صفر اور قطب مخلوط اعداد بھی ہو سکتے ہیں۔ایسی صورت میں ان کے جوڑی دار جوڑے پائے جاتے ہیں۔آئیں ان پر غور کریں۔تبادلی تفاعل
+\begin{align*}
+\bH(s)=\frac{K}{(s+a)(s+b)}
+\end{align*}
+کے قوسین کو ضرب دیتے ہوئے ترتیب دیتے ہیں۔
+\begin{align*}
+\bH(s)&=\frac{K}{s^2+s(a+b)+ab}\\
+&=\frac{K}{ab[1+\frac{s(a+b)}{ab}+\frac{s^2}{ab}]}
+\end{align*}
+اس کو درج ذیل معیاری صورت میں لکھا جا سکتا ہے
+\begin{align}\label{مساوات_تعددی_دو_درجی_قطب}
+\bH(s)=\frac{K_0}{1+2\zeta (s \tau)+(s \tau)^2}
+\end{align}
+جہاں
+\begin{align*}
+\tau&=\frac{1}{\sqrt{ab}}\\
+\zeta&=\frac{a+b}{2\sqrt{ab}}
+\end{align*}
+کے برابر ہیں۔مساوات \حوالہ{مساوات_تعددی_دو_درجی_قطب} میں \عددی{\zeta}  کو \اصطلاح{تقصیری تناسب}\فرہنگ{تقصیری تناسب}\حاشیہب{damping ration}\فرہنگ{damping ratio} کہتے ہیں۔
+
+فرض کریں کہ ہمیں مساوات \حوالہ{مساوات_تعددی_دو_درجی_قطب} دی گئی ہے اور ہم اس کے قطب جاننا چاہتے ہیں۔قطب جاننے کے لئے نسب نما کے جذر حاصل کرنے ہوں گے جنہیں دو درجی مساوات کے کلیے سے حاصل کیا جا سکتا ہے۔
+\begin{align*}
+s&=\frac{-2\zeta \tau \mp\sqrt{4\zeta^2\tau^2-4\tau^2}}{2\tau^2}
+\end{align*}
+جذر کی علامت کے اندر مقدار کی قیمت  صفر سے زیادہ، صفر کے برابر یا صفر سے کم ممکن ہے یعنی
+\begin{align*}
+4\zeta^2\tau^2-4\tau^2>0\\
+4\zeta^2\tau^2-4\tau^2=0\\
+4\zeta^2\tau^2-4\tau^2<0
+\end{align*}
+جن سے  بالترتیب درج ذیل شرائط حاصل ہوتے ہیں۔
+\begin{gather}
+\begin{aligned}
+\zeta&>1 \quad \quad \text{\RL{حقیقی دو عدد مختلف قطب}}\\
+\zeta&=1\quad \quad \text{\RL{حقیقی دو عدد یکساں قطب}}\\
+\zeta&<1\quad \quad \text{\RL{جوڑی دار مخلوط قطب}}
+\end{aligned}
+\end{gather}
+تقصیری تناسب کی قیمت اکائی سے زیادہ یا اکائی کے برابر ہونے کی صورت میں حقیقی قطب پائے جاتے ہیں جن پر ہم غور کر چکے ہیں۔آئیں مخلوط قطب پر غور کریں۔
+%======================
+\ابتدا{مشق}
+تبادلی تفاعل \عددی{\bH(s)=\frac{35}{4s^2+2s+1}} کا \عددی{\tau} اور \عددی{\zeta} حاصل کریں۔اس تفاعل کے قطب بھی دریافت کریں۔تفاعل کو اجزائے ضربی کی صورت میں لکھیں۔
+
+جواب:\عددی{\tau=2}، \عددی{\zeta=0.5}، \عددی{p_1=-s_1=\tfrac{1}{4}+j\tfrac{\sqrt{3}}{4}}، \عددی{p_2=-s_2=\tfrac{1}{4}-j\tfrac{\sqrt{3}}{4}}،\\
+\عددی{\bH(s)=\tfrac{35}{(s+\tfrac{1}{4}+j\tfrac{\sqrt{3}}{4})(s+\tfrac{1}{4}-j\tfrac{\sqrt{3}}{4})}}
+\انتہا{مشق}
+%=======================
+
+مساوات \حوالہ{مساوات_تعددی_دو_درجی_قطب} میں \عددی{s=j\omega} پر کر کے ترتیب دیتے ہوئے
+\begin{align*}
+\bH(\omega)&=\frac{K_0}{1+2\zeta (j\omega \tau)+(j\omega \tau)^2}\\
+&=\frac{K_0}{1-\omega^2\tau^2 +j 2\zeta\omega \tau}
+\end{align*}
+اس کی حتمی مقدار کو ڈیسی بیل میں لکھتے ہیں۔
+\begin{align}\label{مساوات_تعددی_تقصیری_جزو}
+20\log_{10}\abs{\bH(\omega)}=20\log_{10} K_0 -20\log_{10}\sqrt{(1- \omega^2\tau^2)^2+(2\zeta\omega\tau)^2}
+\end{align}
+مساوات \حوالہ{مساوات_تعددی_تقصیری_جزو} کا پہلا جزو مستقل ہے جبکہ دوسرے جزو کی مقدار کا دارومدار تعدد کے علاوہ تقصیری تناسب پر بھی منحصر  ہے۔ شکل \حوالہ{شکل_تعددی_تقصیری_جزو}-الف میں مختلف \عددی{\zeta} کے  لئے مساوات \حوالہ{مساوات_تعددی_تقصیری_جزو} کے  دوسرے جزو کے خطوط دکھائے گئے ہیں۔اب تک ہم دیکھتے آ رہے ہیں کہ قطب پر مقداری خط گھٹنے شروع ہوتا ہے لیکن یہاں ایسا نہیں ہو رہا ہے۔مخلوط قطبین کی صورت میں مقداری خط گھٹنے سے پہلے بڑھتا ہے۔بڑھنے کی مقدار کا دارومدار \عددی{\zeta} پر ہے۔تقصیری تناسب کی قیمت صفر \عددی{(\zeta=0)} ہو نے کی صورت میں \عددی{\omega \tau=1} پر تفاعل بے قابو بڑھتا ہے۔شکل میں \عددی{\zeta=0.02} کے خط کو نقطہ دار لکیر سے دکھایا گیا ہے۔تقصیری تناسب کی قیمت صفر ہونا دور میں گونج یا \اصطلاح{گمک}\فرہنگ{گمک}\حاشیہب{resonance}\فرہنگ{resonance} کو ظاہر کرتی ہے۔
+
+شکل \حوالہ{شکل_تعددی_تقصیری_جزو}-ب میں تبادلی تفاعل کا زاویائی خط \عددی{\zeta=0.1, 0.2,0.4,0.6,0.8,1} کے لئے دکھایا گیا ہے۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{semilogxaxis}[xlabel={$\omega \tau (\si{\radian\per\second})$},ymax=20,ytick={10,0,-10,-20,-30},yticklabels={$\SI{10}{\deci\bel}$,$\SI{0}{\deci\bel}$,$\SI{-10}{\deci\bel}$,$\SI{-20}{\deci\bel}$,$\SI{-30}{\deci\bel}$},xtick={0.1,1,4},xticklabels={$0.1$,$1$,$4$},ylabel style={rotate=-90},ylabel={\RL{مقدار}}]
+%
+\addplot[mark=none,color=black,dashed,domain=0.1:4,samples=100]{-20*log10(sqrt((1-x^2)^2+(2*0.02*x)^2))}node[pos=0.22,pin={-145:{$\zeta=0.02$}}]{};
+\addplot[mark=none,color=black,domain=0.1:4,samples=200]{-20*log10(sqrt((1-x^2)^2+(2*0.1*x)^2))}node[pos=0.25,pin={[inner sep=0pt]30:{$\zeta=0.1$}}]{};
+\addplot[mark=none,color=black,domain=0.1:4,samples=100]{-20*log10(sqrt((1-x^2)^2+(2*0.2*x)^2))}node[pos=0.2,pin={[pin distance=1cm]20:{$\zeta=0.2$}}]{};
+\addplot[mark=none,color=black,domain=0.1:4,samples=100]{-20*log10(sqrt((1-x^2)^2+(2*0.4*x)^2))}node[pos=0.15,pin={[pin distance=1cm]30:{$\zeta=0.4$}}]{};
+\addplot[mark=none,color=black,domain=0.1:4,samples=100]{-20*log10(sqrt((1-x^2)^2+(2*0.6*x)^2))}node[pos=0.25,pin={30:{$\zeta=0.6$}}]{};
+\addplot[mark=none,color=black,domain=0.1:4,samples=100]{-20*log10(sqrt((1-x^2)^2+(2*0.8*x)^2))}node[pos=0.18,pin={[outer sep=0pt]-140:{$\zeta=0.8$}}]{};
+\addplot[mark=none,color=black,domain=0.1:4,samples=100]{-20*log10(sqrt((1-x^2)^2+(2*1*x)^2))}node[pos=0.6,pin={[inner sep=0pt]-140:{$\zeta=1$}}]{};
+\end{semilogxaxis}
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\includegraphics{figFreqDoublePolePhasePlot}
+\caption*{(ب)}
+\end{subfigure}
+\caption{مختلف تقصیری تناسب کے لئے مخلوط جوڑی دار قطب کے تفاعل کے خط۔}
+\label{شکل_تعددی_تقصیری_جزو}
+\end{figure} 
+%=====================
+
+\حصہ{گمکی ادوار}
+شکل \حوالہ{شکل_تعدد_سلسلہ_وار_الف} میں سلسلہ وار دور دکھایا گیا ہے جس کی رکاوٹ
+\begin{align}\label{مساوات_سلسلہ_وار_رکاوٹ_الف}
+\bZ(\omega)=R+j\omega L +\frac{1}{j\omega C}=R+j(\omega L-\frac{1}{\omega C})
+\end{align}
+ہے۔قوسین کی قیمت صفر ہونے کی صورت میں اس دور کی رکاوٹ حقیقی مقدار 
+\begin{align}
+\bZ(\omega)=R
+\end{align}
+یعنی مزاحمتی ہو گی۔ایسا ایک مخصوص تعدد \عددی{\omega_0} پر ممکن ہے جسے قوسین صفر کے برابر پر کرنے
+\begin{align*}
+\omega L-\frac{1}{\omega C}=0
+\end{align*}
+سے حاصل کیا جا سکتا ہے۔
+\begin{align}
+\omega_0=\frac{1}{\sqrt{LC}}\quad \quad \text{\RL{گمکی تعدد}}
+\end{align}
+اس تعدد \عددی{(\omega_0)} کو دور کی \اصطلاح{گمکی تعدد}\فرہنگ{گمکی تعدد}\حاشیہب{resonant frequency}\فرہنگ{resonant frequency} کہتے ہیں اور اس تعدد پر دور کو \اصطلاح{گمکی دور}\فرہنگ{گمکی دور}\حاشیہب{resonant circuit}\فرہنگ{resonant circuit} کہتے ہیں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [short,i={$\hat{I}$}]++(\x/2,0) to [capacitor,l={$C$},v={$\hat{V}_C$}]++(\x,0) to [inductor,l={$L$},v={$\hat{V}_L$}]++(\x,0) to [resistor,l_={$R$},v^<={$\hat{V}_R$}]++(0,-\y) to [short]++(-2*\x-\x/2,0);
+\draw(0,0.25) rectangle ++(-0.5,-\y-0.5);
+\draw(0,-\y/2)node[right]{$\begin{aligned} &+\\&\hat{V}_1 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption{سلسلہ وار \عددی{RLC} دور۔}
+\label{شکل_تعدد_سلسلہ_وار_الف}
+\end{figure}
+
+گمکی تعدد پر امالی متعاملیت اور برق گیر متعاملیت برابر ہوتے ہیں۔ چونکہ سلسلہ وار دور میں یکساں رو پائی جاتی ہے لہٰذا گمکی تعدد پر امالی دباو اور برق گیر دباو مقدار میں برابر لیکن آپس میں \عددی{180^{\circ}} زاویے پر ہوں گے۔زاویائی طور پر آپس میں بالکل الٹ ہونے کی بنا ان کا مجموعہ صفر کے برابر ہو گا اور یوں شکل \حوالہ{شکل_تعدد_سلسلہ_وار_الف} میں داخلی دباو \عددی{\hat{V}_1} اور مزاحمتی دباو \عددی{\hat{V}_R} برابر ہوں گے۔
+
+گمکی تعدد سے ہٹ کر کسی بھی تعدد پر مساوات \حوالہ{مساوات_سلسلہ_وار_رکاوٹ_الف} کا خیالی جزو صفر کے برابر نہیں ہو گا لہٰذا رکاوٹ کی حتمی قیمت \عددی{R} سے زیادہ ہو گی۔آپ دیکھ سکتے ہیں کہ گمکی تعدد پر رکاوٹ کی قیمت کم سے کم ہو گی اور رو کی قیمت زیادہ سے زیادہ ہو گی۔ گمکی تعدد پر دور میں رو اور داخلی دباو ہم زاویہ ہوں گے۔گمکی تعدد سے کم تعدد پر برق گیر متعاملیت کی مقدار امالی متعاملیت کے مقدار سے زیادہ ہو گی لہٰذا سلسلہ وار رکاوٹ برق گیر خاصیت رکھے گا اور داخلی دباو سے رو آگے پائی جائے گی۔اس کے برعکس گمکی تعدد سے زیادہ تعدد پر امالی متعاملیت کی مقدار برق گیر متعاملیت کی مقدار سے زیادہ ہو گی لہٰذا کل رکاوٹ امالی ہو گا اور داخلی دباو سے رو پیچھے ہو گی۔ رکاوٹ کی مقدار بالمقابل تعدد کو شکل \حوالہ{شکل_تعددی_رکاوٹ_بالمقابل_تعدد_سلسلہ_وار_دور} میں دکھایا گیا ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{axis}[xlabel={$\omega$},ylabel={$\abs{\bZ(\omega)}$},ylabel style={rotate=-90},xtick={50},xticklabels={${\omega_0=\frac{1}{\sqrt{LC}}}$},ytick={50},yticklabels={$R$}]
+\addplot[mark=none,color=black,domain=25:100,samples=100]{sqrt{50^2+(0.02*x-1/(0.02*x))^2}}node[pos=0.05,pin={45:{\RL{برق گیر رکاوٹ}}}]{}node[pos=0.8,pin=125:{\RL{امالی رکاوٹ}}]{};
+\addplot[mark=none,color=black] coordinates {(50,50)}node[pin={90:{\RL{مزاحمتی رکاوٹ}}}]{};
+\end{axis}
+\end{tikzpicture}
+\caption{سلسلہ وار \عددی{RLC} کی رکاوٹ بالمقابل تعدد کا خط۔}
+\label{شکل_تعددی_رکاوٹ_بالمقابل_تعدد_سلسلہ_وار_دور}
+\end{figure}

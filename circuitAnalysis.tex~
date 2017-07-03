@@ -5,7 +5,8 @@
 \usepackage{pgfplotstable}
 \usepackage{pgfplots}
 \usepackage{tikz-3dplot}
-\pgfplotsset{compat=newest}
+\pgfplotsset{compat=newest,}
+\pgfplotstabletypeset[search path={./fig/figFreqResponse}]
 \usepgfplotslibrary{units}
 %\pgfplotsset{compat=1.9}
 \usepgfplotslibrary{polar}
@@ -44,7 +45,7 @@
 \newcommand*{\bVrmsCC}{{\ensuremath{\hat{V}^{*}_{\textup{rms}}}}}                  %conjugate phasor voltage
 \newcommand*{\bIrmsCC}{{\ensuremath{\hat{I}^{*}_{\textup{rms}}}}}           %conjugate phasor current
 
-\newcommand*{\b}[1]{{\ensuremath{{\boldsymbol{#1}}}}}             %general bold command
+
 \newcommand*{\bS}{{\ensuremath{{\boldsymbol{S}}}}}                         %complex power
 \newcommand*{\bH}{{\ensuremath{{\boldsymbol{H}}}}}                         %network functions
 \newcommand*{\bA}{{\ensuremath{{\boldsymbol{A}}}}}                         %voltage gain

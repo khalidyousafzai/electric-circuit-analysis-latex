@@ -1,0 +1,45 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{steinmetz}		%\phase to show angle of phasors
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{pgfplots,filecontents}
+%\pgfplotsset{compat=1.9}
+%\usepgfplotslibrary{polar}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+%\usepackage{tikz-3dplot}
+%\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+%\input{../../tex/myEMTvectors.tex}
+\usepackage{graphics}
+\usepackage[]{graphicx} 
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+
+
+
+%\pgfplotsset{major y grid style={dashed}}
+
+\begin{document}
+\begin{urdufont}
+
+
+\begin{tikzpicture}%[]
+%broadside array
+\begin{semilogxaxis}[xlabel={$\omega \tau \,\si{\radian\per\second}$},ylabel style={rotate=-90},ylabel={\RL{زاویہ}},xtick={0.2,1,4},xticklabels={$0.2$,$1$,$4$},ytick={0,-50,-100,-150},yticklabels={$0^{\circ}$,$-50^{\circ}$,$-100^{\circ}$,$-150^{\circ}$}]
+\addplot [black] table [x index={0}, y index={1}]{figFreqDoublePolePhasePlotA.dat}node[pos=0.2,pin={45:{$\zeta=0.1$}}]{};
+\addplot [black] table [x index={0}, y index={1}]{figFreqDoublePolePhasePlotB.dat};
+\addplot [black] table [x index={0}, y index={1}]{figFreqDoublePolePhasePlotC.dat};
+\addplot [black] table [x index={0}, y index={1}]{figFreqDoublePolePhasePlotD.dat};
+\addplot [black] table [x index={0}, y index={1}]{figFreqDoublePolePhasePlotE.dat};
+\addplot [black] table [x index={0}, y index={1}]{figFreqDoublePolePhasePlotF.dat}node[pos=0.7,pin={45:{$\zeta=1$}}]{};
+\end{semilogxaxis}%
+%
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}
