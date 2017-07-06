@@ -1,0 +1,50 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{steinmetz}		%\phase to show angle of phasors
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{pgfplots,filecontents}
+%\pgfplotsset{compat=1.9}
+%\usepgfplotslibrary{polar}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+%\usepackage{tikz-3dplot}
+%\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+%\input{../../tex/myEMTvectors.tex}
+\usepackage{graphics}
+\usepackage[]{graphicx} 
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+
+
+
+%\pgfplotsset{major y grid style={dashed}}
+
+\begin{document}
+\begin{urdufont}
+
+
+\begin{tikzpicture}%[]
+\begin{semilogxaxis}[xlabel={$\omega \,\si{\radian\per\second}$},ylabel style={rotate=-90},ylabel={\RL{مقدار}},xtick={1000,10000,100000},xticklabels={$10^3$,$10^4$,$10^5$},ytick={40,20,0,-20},yticklabels={$\SI{40}{\deci\bel}$,$\SI{20}{\deci\bel}$,$\SI{0}{\deci\bel}$,$\SI{-20}{\deci\bel}$}]
+\addplot [black] table [x index={0}, y index={1}]{figFreqSelectivityAndQMagnitudeA.dat};
+\addplot [black] table [x index={0}, y index={1}]{figFreqSelectivityAndQMagnitudeB.dat};
+\addplot[mark=none,color=black] coordinates {(10000,40)}node[right]{$\SI{1}{\ohm}$};
+\addplot[mark=none,color=black] coordinates {(10000,5)}node[pin=-125:{$\SI{50}{\ohm}$}]{};
+\end{semilogxaxis}
+\end{tikzpicture}
+%
+\begin{tikzpicture}
+\begin{semilogxaxis}[xlabel={$\omega \,\si{\radian\per\second}$},ylabel style={rotate=-90},ylabel={\RL{زاویہ}},xtick={1000,10000,100000},xticklabels={$10^3$,$10^4$,$10^5$},ytick={0,-90,-180},yticklabels={$0^{\circ}$,$-90^{\circ}$,$-180^{\circ}$}]
+\addplot [black] table [x index={0}, y index={1}]{figFreqSelectivityAndQPhaseA.dat};
+\addplot [black] table [x index={0}, y index={1}]{figFreqSelectivityAndQPhaseB.dat};
+%\addplot[mark=none,color=black] coordinates {(10000,40)}node[right]{$\SI{1}{\ohm}$};
+%\addplot[mark=none,color=black] coordinates {(10000,5)}node[pin=-125:{$\SI{50}{\ohm}$}]{};
+\end{semilogxaxis}%
+\end{tikzpicture}
+\end{urdufont}
+\end{document}

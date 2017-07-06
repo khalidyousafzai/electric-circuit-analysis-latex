@@ -1077,7 +1077,7 @@ s&=\frac{-2\zeta \tau \mp\sqrt{4\zeta^2\tau^2-4\tau^2}}{2\tau^2}
 \end{figure}
 
 سلسلہ وار \عددی{RLC} دور کا \اصطلاح{معیاری مستقل}\فرہنگ{معیاری مستقل}\حاشیہب{quality factor}\فرہنگ{quality factor} \عددی{Q} نہایت اہم مقدار ہے جس کی تعریف درج ذیل مساوات دیتی ہے۔
-\begin{align}
+\begin{align}\label{مساوات_تعددی_معیاری_مستقل_تعریف}
 Q=\frac{\omega_0 L}{R}=\frac{1}{\omega_0 CR}=\frac{1}{R}\sqrt{\frac{L}{C}}
 \end{align}
 گمکی تعدد پر \عددی{\omega_0 L=\tfrac{1}{\omega_0 C}} ہوتا ہے لہٰذا رکاوٹ
@@ -1158,7 +1158,7 @@ V_C&=Q V_d=10\times 40=\SI{400}{\volt}
 \begin{align*}
 V_C=Q V_d=6\times 30=\SI{180}{\volt}\,\rms
 \end{align*}
-یوں اس دور کو استعمال کرنے سے پہلے تسلی کر لیں کہ استعمال ہونے والے برق گیر کی استعداد کم از کم \عددی{\SI{180}{\volt}\,\rms} ہو۔
+یوں اس دور کو استعمال کرنے سے پہلے تسلی کر لیں کہ استعمال ہونے والے برق گیر کی استعداد کم از کم \عددی{\SI{180}{\volt}\,\rms} ہے۔
 \انتہا{مثال}
 %==================
 \ابتدا{مشق}\شناخت{مشق_تعددی_امالہ_معیاری_مستقل_ب}
@@ -1175,9 +1175,362 @@ V_C=Q V_d=6\times 30=\SI{180}{\volt}\,\rms
 \انتہا{مشق}
 %=================
 
-آئیں شکل \حوالہ{شکل_تعدد_سلسلہ_وار_الف} میں دکھائے گئے سلسلہ وار \عددی{RLC} دور  میں \عددی{\tfrac{\hat{V}_R}{\hat{V}_d}} تناسب کے لئے \عددی{Q}، \عددی{\omega_0} اور \عددی{\omega} پر مبنی عمومی مساوات حاصل کریں۔اس کے رکاوٹ سے فراوانی کی مساوات لکھتے ہیں۔
+آئیں شکل \حوالہ{شکل_تعدد_سلسلہ_وار_الف} میں دکھائے گئے سلسلہ وار \عددی{RLC} دور  میں \عددی{\tfrac{\hat{V}_R}{\hat{V}_d}} تناسب کے لئے \عددی{Q}، \عددی{\omega_0} اور \عددی{\omega} پر مبنی عمومی مساوات حاصل کریں۔مساوات \حوالہ{مساوات_تعددی_معیاری_مستقل_تعریف} سے \عددی{\tfrac{L}{R}=\tfrac{Q}{\omega_0}} اور \عددی{\tfrac{1}{RC}=Q\omega_0} کو دور کے رکاوٹ میں  پر کرتے ہیں۔
 \begin{align*}
-\bY(j\omega)&=\frac{1}{R+j(\omega L-\frac{1}{\omega C})}\\
-&=\frac{1}{R[1+j(\frac{\omega L}{R} -\frac{1}{\omega RC})]}
+\bZ(j\omega)&=R+j\big(\omega L-\frac{1}{\omega C}\big)\\
+&=R\big[1+j\big(\frac{\omega L}{R} -\frac{1}{\omega RC}\big)\big]\\
+&=R\big[1+jQ\big(\frac{\omega}{\omega_0}-\frac{\omega_0}{\omega}\big)\big]
 \end{align*}
+دور میں رو
+\begin{align*}
+\hat{I}&=\frac{\hat{V}_d}{Z}\\
+&=\frac{\hat{V}_d}{R\big[1+jQ\big(\frac{\omega}{\omega_0}-\frac{\omega_0}{\omega}\big)\big]}
+\end{align*}
+سے مزاحمتی دباو \عددی{\hat{V}_R=\hat{I} R} لکھ کر دباو کا تناسب لکھتے ہیں
+\begin{align*}
+\frac{\hat{V}_R}{\hat{V}_d}&=\frac{1}{1+jQ\big(\frac{\omega}{\omega_0}-\frac{\omega_0}{\omega}\big)}
+\end{align*}
+جس کی حتمی مقدار \عددی{M(\omega)} اور زاویہ \عددی{\phi(\omega)} درج ذیل ہیں جنہیں شکل \حوالہ{شکل_تعددی_مقداری_اور_زاویائی_خط} میں دکھایا گیا ہے۔
+\begin{align}
+M(\omega)&=\frac{1}{\sqrt{1+Q^2\big(\frac{\omega}{\omega_0}-\frac{\omega_0}{\omega}\big)^2}}\label{مساوات_تعددی_مقداری_عمومی}\\
+\phi(\omega)&=-\tan^{-1} Q\big(\frac{\omega}{\omega_0}-\frac{\omega_0}{\omega}\big)\label{مساوات_تعددی_زاویائی_عمومی}
+\end{align}
+%
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\wL}{-1+sqrt(2)}
+\pgfmathsetmacro{\wH}{1+sqrt(2)}
+\pgfmathsetmacro{\hp}{1/sqrt(2)}
+\pgfmathsetmacro{\kyL}{1/sqrt(1+0.25*(\wL-1/\wL)^2)}
+%
+\begin{semilogxaxis}[xlabel={$\omega$},ylabel style={rotate=-90},ylabel={$M(\omega)$},xtick={\wL,1,\wH},xticklabels={$\omega_L$,$\omega_0$,$\omega_H$},ytick={\hp,1},yticklabels={$\frac{1}{\sqrt{2}}$,$1$}]
+\addplot[mark=none,color=black,domain=0.04:40,samples=40]{1/sqrt(1+0.25*(x-1/x)^2)};
+\addplot[mark=none,color=black,dashed,stealth-stealth] coordinates {(\wL,\hp) (\wH,\hp)} node[pos=0.5,fill=white]{$\BW$};
+\end{semilogxaxis}
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\wL}{-1+sqrt(2)}
+\pgfmathsetmacro{\wH}{1+sqrt(2)}
+\pgfmathsetmacro{\hp}{1/sqrt(2)}
+\begin{semilogxaxis}[xlabel={$\omega$},ylabel style={rotate=-90},ylabel={$\phi(\omega)$},xtick={\wL,1,\wH},xticklabels={$\omega_L$,$\omega_0$,$\omega_H$},ytick={90,45,0,-45,-90},yticklabels={${+90^{\circ}}$,${+45^{\circ}}$,${0^{\circ}}$,${-45^{\circ}}$,${-90^{\circ}}$}]
+\addplot[mark=none,color=black,domain=0.04:40,samples=100]{-atan(0.5*(x-1/x))};
+\end{semilogxaxis}
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\caption{مقدار بالمقابل تعدد اور زاویہ بالمقابل تعدد کے خط۔}
+\label{شکل_تعددی_مقداری_اور_زاویائی_خط}
+\end{figure}
 
+مقدار بالمقابل تعدد کا خط \اصطلاح{پٹی گزار فلٹر}\فرہنگ{پٹی گزار فلٹر}\حاشیہب{band-pass filter}\فرہنگ{band-pass filter} کی طرح ہے۔آئیں اس کے کونے دریافت کرتے ہیں۔کونوں پر طاقت کی قیمت نصف ہوتی ہے۔نصف طاقت \عددی{\tfrac{1}{\sqrt{2}}} گنا رو پر پایا جاتا ہے یوں مساوات \حوالہ{مساوات_تعددی_مقداری_عمومی} میں \عددی{M(\omega)=\tfrac{1}{\sqrt{2}}} پر کرنے سے کونوں کی تعدد (انقطاعی تعدد) دریافت کئے جا سکتے ہیں۔
+\begin{align*}
+\frac{1}{\sqrt{1+Q^2\big(\frac{\omega}{\omega_0}-\frac{\omega_0}{\omega}\big)^2}}=\frac{1}{\sqrt{2}}
+\end{align*}
+اس سے
+\begin{align*}
+Q\left(\frac{\omega}{\omega_0}-\frac{\omega_0}{\omega}\right)=\mp 1
+\end{align*}
+یعنی
+\begin{align*}
+\omega=\mp \frac{\omega_0}{2Q}\mp \omega_0 \sqrt{\frac{1}{(2Q)^2}+1}
+\end{align*}
+حاصل ہوتا ہے۔منفی تعدد کے جوابات رد کرتے ہوئے صرف مثبت جوابات تسلیم کرتے ہوئے درج ذیل کونے حاصل ہوتے ہیں۔
+ \begin{align}
+\omega_L &=\omega_0\left[-\frac{1}{2Q}+ \sqrt{\frac{1}{(2Q)^2}+1}\right]\\
+\omega_H &=\omega_0\left[+\frac{1}{2Q}+ \sqrt{\frac{1}{(2Q)^2}+1}\right]
+\end{align}
+پست تعددی کونے \عددی{\omega_L} اور بلند تعددی کونے \عددی{\omega_H}  کے مابین خطہ \اصطلاح{عرض پٹی}\فرہنگ{عرض پٹی}\حاشیہب{bandwidth}\فرہنگ{bandwidth} کہلاتا  اور \عددی{\BW} سے ظاہر کیا جاتا ہے۔ 
+\begin{align}\label{مساوات_تعددی_عرض_پٹی_تعریف}
+\BW=\omega_H-\omega_L=\frac{\omega_0}{Q} \quad \quad \text{\RL{عرض پٹی}}
+\end{align}
+عرض پٹی کے مساوات کو درج ذیل بھی لکھا جا سکتا ہے۔
+\begin{align}
+\BW=\frac{\omega_0}{Q}=\frac{\frac{1}{\sqrt{LC}}}{\frac{1}{R}\sqrt{\frac{L}{C}}}=\frac{R}{L}
+\end{align}
+چونکہ کونوں پر طاقت گھٹ کر نصف رہ جاتا ہے اور نصف طاقت \عددی{\SI{-3}{\deci\bel}} کہلاتا ہے لہٰذا تعددی پٹی کو \اصطلاح{تین ڈیسی بیل پٹی}\فرہنگ{پٹی!تین ڈیسی بیل}\حاشیہب{\SI{3}{\deci\bel} bandwidth}\فرہنگ{bandwidth!\SI{3}{\deci\bel}} بھی کہتے ہیں۔
+
+کونوں کے تعدد کو ضرب دینے سے درج ذیل حاصل ہوتا ہے لہٰذا گمکی تعدد دونوں انقطاعی تعدد کا ہندسی اوسط ہے۔ 
+\begin{align}
+\omega_H \omega_L=\omega_0^2
+\end{align}
+پست انقطاعی کونے پر زاویہ \عددی{45^{\circ}}، بلند انقطاعی کونے پر \عددی{-45^{\circ}} اور گمکی تعدد پر \عددی{0^{\circ}} ہے۔
+%=========================
+\ابتدا{مشق}
+شکل \حوالہ{شکل_تعددی_سلسلہ_وار_گمکی_تعدد_الف} کے دور کی پست انقطاعی تعدد \عددی{\omega_L}، بلند انقطاعی تعدد \عددی{\omega_H} اور عرض پٹی \عددی{\BW} دریافت کریں۔
+
+جوابات:\عددی{\omega_L=\SI{9512}{\radian\per\second}}، \عددی{\omega_H=\SI{10512}{\radian\per\second}}، \عددی{\BW=\SI{1000}{\radian\per\second}}
+\انتہا{مشق}
+%======================
+
+مساوات \حوالہ{مساوات_تعددی_معیاری_مستقل_تعریف} کے تحت زیادہ \عددی{Q} کے لئے کم \عددی{R} درکار ہے اور مساوات \حوالہ{مساوات_تعددی_عرض_پٹی_تعریف} کے تحت تنگ عرض پٹی کے لئے زیادہ \عددی{Q} درکار ہے۔یوں تنگ \عددی{Q} کم \عددی{R} کی صورت میں حاصل ہو گا۔تنگ عرض پٹی کا دور نہایت عمدگی سی مخصوص تعدد کو چننے کی صلاحیت رکھتا ہے۔شکل \حوالہ{شکل_تعددی_عرض_پٹی_بالمقابل_معیاری_مستقل} میں مختلف \عددی{Q} کے لئے مساوات \حوالہ{مساوات_تعددی_مقداری_عمومی} کو دکھایا گیا ہے۔داخلی اشارات سے صرف وہ اشارات خارجی جانب پہنچتے ہیں جو عرض پٹی پر پائے جاتے ہوں۔عرض پٹی سے باہر تعدد کے اشارات گھٹتے ہیں۔یوں \عددی{RLC} بطور پٹی گزار فلٹر کام کرتا ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\wL}{-1+sqrt(2)}
+\pgfmathsetmacro{\wH}{1+sqrt(2)}
+\pgfmathsetmacro{\hp}{1/sqrt(2)}
+\pgfmathsetmacro{\kyL}{1/sqrt(1+0.25*(\wL-1/\wL)^2)}
+%
+\begin{semilogxaxis}[xlabel={$\omega$},ylabel style={rotate=-90},ylabel={$M(\omega)$},xtick=\empty,ytick={\hp,1},yticklabels={$\frac{1}{\sqrt{2}}$,$1$}]
+\addplot[mark=none,color=black,domain=0.04:40,samples=40]{1/sqrt(1+0.1*(x-1/x)^2)}node[pos=0.6,pin={45:{$Q_1<Q$}}]{};
+\addplot[mark=none,color=black,domain=0.04:40,samples=40]{1/sqrt(1+0.25*(x-1/x)^2)}node[pos=0.65,pin={45:{$Q$}}]{};
+\addplot[mark=none,color=black,domain=0.04:40,samples=80]{1/sqrt(1+10*(x-1/x)^2)}node[pos=0.65,pin={[pin distance=1.5cm]45:{$Q_2>Q$}}]{};
+\end{semilogxaxis}
+\end{tikzpicture}
+\caption{عرض پٹی بالمقابل معیاری مستقل۔}
+\label{شکل_تعددی_عرض_پٹی_بالمقابل_معیاری_مستقل}
+\end{figure}
+
+معیاری مستقل \عددی{Q} کو توانائی کے نقطہ نظر سے دیکھا جا سکتا ہے۔شکل \حوالہ{شکل_تعددی_امالہ_معیاری_مستقل_توانائی_کے_نقطہ_نظر} پر غور کریں جہاں \عددی{RLC} کو گمکی تعدد کا اشارہ مہیا کیا گیا ہے۔گمکی تعدد پر رکاوٹ \عددی{\bZ=R} ہوتی ہے لہٰذا \عددی{i(t)=\tfrac{V_m}{R}\cos \omega_0 t\,\si{\ampere}} اور برق گیر کا دباو 
+\begin{align*}
+\hat{V}_C=\frac{1}{j\omega_0 C} \hat{I}=\frac{1}{j\omega_0 t}\frac{V_m}{R}\phase{0^{\circ}}=\frac{V_m}{\omega_0 RC}\phase{-90^{\circ}}
+\end{align*}
+یعنی
+\begin{align*}
+v_C(t)=\frac{V_m}{\omega_0 RC} \cos (\omega_0 t -90^{\circ})\,\si{\volt}=\frac{V_m}{\omega_0 RC} \sin \omega_0 t \,\si{\volt}
+\end{align*}
+لکھا جائے گا۔آپ کو یاد ہو گا کہ امالہ گیر میں \عددی{\tfrac{Li^2}{2}} اور برق گیر میں \عددی{\tfrac{Cv^2}{2}} توانائی ذخیرہ ہوتی ہے لہٰذا امالہ گیر کی توانائی
+\begin{align}\label{مساوات_تعددی_امالی_ذخیرہ_توانائی}
+w_L(t)=\frac{1}{2} L i^2(t)=\frac{1}{2} L \left(\frac{V_m}{R} \cos \omega_0 t\right)^2=\frac{L V_m^2}{2 R^2}\cos^2 \omega_0 t \, \si{\joule}
+\end{align}
+اور برق گیر کی توانائی
+\begin{align*}
+w_C(t)=\frac{1}{2} C v^2(t)=\frac{1}{2} C\left(\frac{V_m}{\omega_0 RC} \sin \omega_0 t\right)^2=\frac{V_m^2}{2\omega_0^2 R^2C}\sin^2 \omega_0 t \, \si{\joule}
+\end{align*}
+لکھی جائے گی۔گمکی تعدد پر \عددی{\omega_0^2=\tfrac{1}{LC}} ہوتا ہے لہٰذا برق گیر کی توانائی کو درج ذیل لکھا جا سکتا ہے۔
+\begin{align}\label{مساوات_تعددی_برق_گیر_ذخیرہ_توانائی}
+w_C(t)=\frac{V_m^2}{2\frac{1}{LC} R^2C}\sin^2 \omega_0 t=\frac{LV_m^2}{2R^2}\sin^2 \omega_0 t \, \si{\joule}
+\end{align}
+دور میں کل ذخیرہ توانائی ان دونوں کا مجموعہ ہے
+\begin{gather}
+\begin{aligned}\label{مساوات_تعددی_کل_ذخیرہ_توانائی}
+w_{\text{ذخیرہ}}&=w_L(t)+w_C(t)\\
+&=\frac{LV_m^2}{2R^2}\cos^2 \omega_0 t+\frac{LV_m^2}{2R^2}\sin^2 \omega_0 t\\
+&=\frac{LV_m^2}{2R^2}
+\end{aligned}
+\end{gather}
+جہاں آخری قدم پر \عددی{\cos^2 \theta+\sin^2 \theta=1} کا استعمال کیا گیا ہے۔یوں دور میں کل ذخیرہ توانائی وقت کے ساتھ تبدیل نہیں ہوتی اور اس کی مقدار اٹل ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$V_m \cos \omega_0 t\,\si{\volt}$}]++(0,\y) to [resistor,l={$R$},i={$i(t)$}]++(\x,0) to [inductor,l={$L$}]++(\x,0) to [capacitor,l={$C$},v={$v_C(t)$}]++(0,-\y) to [short] (0,0);
+\end{tikzpicture}
+\caption{سلسلہ وار \عددی{RLC} کو گمکی تعدد کا اشارہ مہیا کیا گیا ہے۔}
+\label{شکل_تعددی_امالہ_معیاری_مستقل_توانائی_کے_نقطہ_نظر}
+\end{figure}
+
+
+مساوات \حوالہ{مساوات_تعددی_امالی_ذخیرہ_توانائی} اور مساوات \حوالہ{مساوات_تعددی_برق_گیر_ذخیرہ_توانائی} کو شکل \حوالہ{شکل_تعددی_گمکی_توانائی_تبادلہ} میں دکھایا گیا ہے۔ان مساوات  کے تحت امالہ گیر اور برق گیر میں ذخیرہ توانائی وقت کے ساتھ تبدیل ہوتی ہے جبکہ مساوات \حوالہ{مساوات_تعددی_کل_ذخیرہ_توانائی} کے تحت ان کا مجموعہ اٹل مقدار ہے۔یہ ایک دلچسپ صورت حال ہے۔لمحہ \عددی{\omega_0 t=0^{\circ}} پر امالہ گیر کی توانائی زیادہ سے زیادہ جبکہ برق گیر کی توانائی صفر ہوتی ہے۔اس کے برعکس \عددی{\omega_0 t =90^{\circ}} پر امالہ گیر کی توانائی صفر جبکہ برق گیر کی توانائی زیادہ سے زیادہ ہوتی ہے۔آپ دیکھ سکتے ہیں کہ جیسے جیسے ایک پرزے میں ذخیرہ توانائی گھٹتی ہے ویسے ویسے دوسرے پرزے میں ذخیرہ توانائی بڑھتی ہے۔ہر لمحہ ایک پرزے میں توانائی کی کمی دوسرے پرزے میں توانائی کے اضافے کے برابر ہوتی ہے۔ 
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{axis}[xlabel={$\omega_0 t$},ylabel={توانائی},ylabel style={rotate=-90},ytick={0,0.5,1},yticklabels={$0$,$0.5\frac{LV_m^2}{2R^2}$,$\frac{LV_m^2}{2R^2}$},xtick={0,90,180,270,360},xticklabels={$0^{\circ}$,$90^{\circ}$,$180^{\circ}$,$270^{\circ}$,$360^{\circ}$}]
+\addplot[mark=none,color=black,domain=0:360,samples=100]{(cos(x))^2}node[pos=0.5,right]{$w_L(t)$};
+\addplot[mark=none,color=black,dashed,domain=0:360,samples=100]{(sin(x))^2}node[pos=0.25,right]{$w_C(t)$};
+\end{axis}
+\end{tikzpicture}
+\caption{گمکی دور میں توانائی کا تبادلہ۔}
+\label{شکل_تعددی_گمکی_توانائی_تبادلہ}
+\end{figure}
+
+گمکی تعدد پر سلسلہ وار \عددی{RLC} میں کل \عددی{\tfrac{LV_m^2}{2R^2}} توانائی ذخیرہ ہوتی ہے۔آئیں تعدد کے ایک چکر میں توانائی کا ضیاع \عددی{w_{\text{ضیاع}}} دریافت کریں۔توانائی صرف مزاحمت میں ضائع ہوتی ہے۔
+\begin{align*}
+w_{\text{ضیاع}}=\int_0^T i^2(t) R \dif t=\int_0^T \left(\frac{V_m}{R}\cos \omega_0 t\right)^2 R \dif t=\frac{V_m^2 T}{2R}
+\end{align*}
+کل ذخیرہ توانائی اور فی چکر توانائی کے ضیاع کا تناسب لکھتے ہیں۔
+\begin{align*}
+\frac{w_{\text{ذخیرہ}}}{w_{\text{ضیاع}}}=\frac{\frac{LV_m^2}{2R^2}}{\frac{V_m^2 T}{2R}}=\frac{L}{RT}=\frac{L}{R \frac{2\pi}{\omega_0}}=\frac{\omega_0 L}{2\pi R}
+\end{align*}
+چونکہ \عددی{\tfrac{\omega_0 L}{R}=Q} ہے لہٰذا درج ذیل لکھا جا سکتا ہے جو معیاری مستقل \عددی{Q} کی عمومی تعریف  ہے۔
+\begin{align}
+Q=2\pi \frac{w_{\text{ذخیرہ}}}{w_{\text{ضیاع}}} \quad \quad \text{\RL{معیاری مستقل کی عمومی تعریف}}
+\end{align}
+معیاری مستقل کی  عمومی تعریف  برقی میدان کے علاوہ میکانی میدان اور سمعی میدان میں بھی استعمال ہوتی ہے۔آپ دیکھ سکتے ہیں کہ کم مزاحمت ضیاع کے دور کا معیاری مستقل زیادہ ہو گا۔ 
+%===================
+\ابتدا{مثال}
+سلسلہ وار \عددی{RLC} دور میں \عددی{R=\SI{1}{\ohm}}، \عددی{L=\SI{2}{\milli\henry}} اور \عددی{C=\SI{20}{\micro\farad}} ہیں۔دور کی \عددی{\omega_0}، \عددی{Q} اور \عددی{\BW} حاصل کریں۔مزاحمت کی قیمت \عددی{R=\SI{0.1}{\ohm}} کرتے ہوئے تینوں قیمتیں دوبارہ حاصل کریں۔
+
+حل:درکار قیمتیں حاصل کرتے ہیں۔
+\begin{align*}
+\omega_0&=\frac{1}{\sqrt{LC}}=\frac{1}{\sqrt{2\times 10^{-3}\times 20\times 10^{-6}}}=\SI{5000}{\radian\per\second}\\
+Q&=\frac{1}{R}\sqrt{\frac{L}{C}}=\frac{1}{1}\sqrt{\frac{2\times 10^{-3}}{20\times 10^{-6}}}=10\\
+\BW&=\frac{\omega_0}{Q}=\frac{5000}{10}=\SI{500}{\radian\per\second}
+\end{align*}
+مزاحمت کی قیمت دس گنا کم کرنے کے بعد تمام قیمتیں دوبارہ حاصل کرتے ہیں۔چونکہ گمکی تعدد میں مزاحمت کا کوئی دخل نہیں ہے لہٰذا اس کی قیمت وہی رہے گی۔
+\begin{align*}
+Q&=\frac{1}{R}\sqrt{\frac{L}{C}}=\frac{1}{0.1}\sqrt{\frac{2\times 10^{-3}}{20\times 10^{-6}}}=100\\
+\BW&=\frac{\omega_0}{Q}=\frac{5000}{100}=\SI{50}{\radian\per\second}
+\end{align*}
+مزاحمت کی قیمت دس گنا کم کرنے سے معیاری مستقل کی قیمت دس گنا بڑھتی ہے جبکہ عرض پٹی دس گنا کم ہوتی ہے۔
+\انتہا{مثال}
+%====================
+\ابتدا{مشق}
+سلسلہ وار \عددی{RLC} دور میں \عددی{R=\SI{2}{\ohm}}، \عددی{L=\SI{1}{\milli\henry}} اور \عددی{C=\SI{2}{\micro\henry}} ہیں۔گمکی تعدد، معیاری مستقل اور عرض پٹی دریافت کریں۔
+
+جوابات:\عددی{\omega_0=\SI{22361}{\radian\per\second}}، \عددی{Q=11.2}، \عددی{\BW=\SI{2000}{\radian\per\second}}
+\انتہا{مشق}
+%===================
+\ابتدا{مشق}
+سلسلہ وار \عددی{RLC} دور کا \عددی{R=\SI{5}{\ohm}}، \عددی{\omega_0=\SI{6}{\kilo\radian\per\second}} اور \عددی{\BW=\SI{600}{\radian\per\second}} ہیں۔آپ سے گزارش ہے کہ \عددی{L} اور \عددی{C} دریافت کریں۔
+
+جوابات:\عددی{L=\SI{8.33}{\milli\henry}}، \عددی{C=\SI{3.33}{\micro\farad}}
+\انتہا{مشق}
+%==================
+\ابتدا{مثال}
+ایسا سلسلہ وار \عددی{RLC} دور تخلیق دیں کہ \عددی{\omega_0=\SI{1000}{\radian\per\second}} اور \عددی{\BW=\SI{80}{\radian\per\second}} ہوں۔
+
+حل:گمکی تعدد اور عرض پٹی کے مساوات درج ذیل ہیں۔
+\begin{align*}
+\omega_0&=\frac{1}{\sqrt{LC}}\\
+\BW&=\frac{\omega_0}{Q}=\frac{\frac{1}{\sqrt{LC}}}{\frac{1}{R}\sqrt{\frac{L}{C}}}=\frac{R}{L}
+\end{align*}
+ہم دیکھتے ہیں کہ درکار متغیرات تین جبکہ مساوات دو عدد ہیں۔ تخلیق کے دوران عموماً ایسی ہی مسائل درپیش آتے ہیں جہاں ممکنہ مساوات سے تمام جوابات حاصل کرنا ممکن نہیں ہوتا۔ایسے مسائل تجربے سے حل کئے جاتے ہیں۔تجربے کی بنیاد پر کسی ایک متغیرہ کو چنتے ہوئے بقایا کو مساوات کے ذریعہ حاصل کیا جاتا ہے۔اگر حاصل جوابات قابل قبول نہ ہوں تب متغیرہ کی قیمت تبدیل کرتے ہوئے دوبارہ حل کیا جاتا ہے۔یہ سلسلہ اس وقت تک جاری رکھا جاتا ہے جب تک قابل قبول جوابات حاصل نہ ہوں جائے۔
+
+ہم برق گیر کی قیمت ایسی چنتے ہیں جو دستیاب ہو مثلاً \عددی{C=\SI{10}{\micro\farad}} لہٰذا درج ذیل قیمتیں حاصل ہوتی ہیں۔
+\begin{align*}
+L&=\frac{1}{\omega_0^2 C}=\frac{1}{1000^2\times 10\times 10^{-6}}=\SI{0.1}{\henry}\\
+R&L\BW=0.1\times 80=\SI{8}{\ohm}
+\end{align*}
+\انتہا{مثال}
+%===============
+
+مساوات \حوالہ{مساوات_تعددی_گمکی_دباو_تعلقات} کے تحت سلسلہ وار \عددی{RLC} دور میں گمکی تعدد پر امالی دباو اور برق گیر دباو کی قیمتیں داخلی دباو کے \عددی{Q} گنا ہوتی ہیں۔ آئیں دیکھیں کہ آیا امالی دباو اور برق گیر دباو کی زیادہ سے زیادہ قیمت گمکی تعدد پر ہی پائی جاتی ہے یا کہ کسی دوسری تعدد پر۔شکل \حوالہ{شکل_تعددی_برق_گیر_زیادہ_سے_زیادہ-دباو} کو دیکھتے ہوئے برق گیر کا دباو لکھتے ہیں
+\begin{align*}
+\hat{V}_C&=\left(\frac{\frac{1}{j\omega C}}{R+j\omega L+ \frac{1}{j\omega C}}\right)\hat{V}_m
+\end{align*}
+جس کو ترتیب دے کر ذیل لکھا جا سکتا ہے۔
+\begin{align}\label{مساوات_تعددی_سلسلہ_وار_تبادلی_تفاعل_الف}
+\hat{V}_C&=\frac{\hat{V}_m}{1-\omega^2 LC+j\omega RC}
+\end{align}
+اس کی حتمی قیمت حاصل کرتے  ہیں۔
+\begin{align}\label{مساوات_تعدد_زیادہ_دباو_اور_تعدد}
+\abs{\hat{V}_C}&=\frac{\abs{\hat{V}_m}}{\sqrt{(1-\omega^2 LC)^2+(\omega RC)^2}}
+\end{align}
+زیادہ سے زیادہ \عددی{\abs{\hat{V}_C}} پر تعدد \عددی{\omega_{\text{\RL{بلندترطاقت}}}} درج ذیل عمل
+\begin{align*}
+\frac{\dif \abs{\hat{V}_C}}{\dif \omega}=0
+\end{align*}
+سے 
+\begin{align}
+\omega_{\text{\RL{بلندترطاقت}}}=\sqrt{\frac{1}{LC}-\frac{1}{2}\left(\frac{R}{L}\right)^2}
+\end{align}
+حاصل ہوتی ہے جس میں \عددی{\omega_0^2=\tfrac{1}{LC}} اور \عددی{Q=\tfrac{\omega_0 L}{R}} پر کرتے ہوئے
+\begin{gather}
+\begin{aligned}\label{مساوات_تعددی_زیادہ_سے_زیادہ_دباو_کی_تعدد}
+\omega_{\text{\RL{بلندترطاقت}}}&=\sqrt{\omega_0^2-\frac{1}{2}\left(\frac{\omega_0}{Q}\right)^2}\\
+&=\omega_0\sqrt{1-\frac{1}{2Q^2}}
+\end{aligned}
+\end{gather}
+لکھا جا سکتا ہے۔درج بالا مساوات کے تحت زیادہ سے زیادہ دباو گمکی تعدد پر نہیں پایا جاتا اگرچہ \عددی{Q} کی قیمت زیادہ ہونے کی صورت میں درج بالا تعدد تقریباً گمکی تعدد ہی ہو گی۔مساوات \حوالہ{مساوات_تعددی_زیادہ_سے_زیادہ_دباو_کی_تعدد} کو مساوات \حوالہ{مساوات_تعدد_زیادہ_دباو_اور_تعدد} میں پر کرتے ہوئے اور \عددی{\omega_0^2=\tfrac{1}{LC}} اور \عددی{\omega_0^2 R^2 C^2=\tfrac{1}{Q^2}} استعمال کرتے ہوئے زیادہ سے زیادہ دباو کی قیمت حاصل ہوتی ہے
+\begin{align}
+\abs{\hat{V}_C}_{\text{\RL{بلندتر}}}=\frac{Q\abs{\hat{V}_m}}{\sqrt{1-\frac{1}{4Q^2}}}
+\end{align}
+جو \عددی{Q\gg1} کی صورت میں درج ذیل قیمت اختیار کرتا ہے۔
+\begin{align}
+\abs{\hat{V}_C}_{\text{\RL{بلندتر}}}\approx Q\abs{\hat{V}_m}
+\end{align}
+
+
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$\hat{V}_m$}]++(0,\y) to [resistor,l={$R$}]++(\x,0) to [inductor,l={$L$}]++(\x,0) to [capacitor,l={$C$},v={$\hat{V}_C$}]++(0,-\y) to [short] (0,0);
+\end{tikzpicture}
+\caption{برق گیر پر زیادہ سے زیادہ دباو۔}
+\label{شکل_تعددی_برق_گیر_زیادہ_سے_زیادہ-دباو}
+\end{figure}
+%=======================
+\ابتدا{مثال}\شناخت{مثال_تعددی_پسند_اور_معیاری_مستقل}
+شکل \حوالہ{شکل_تعددی_برق_گیر_زیادہ_سے_زیادہ-دباو} میں \عددی{L=\SI{10}{\milli\henry}} اور \عددی{C=\SI{1}{\micro\farad}} ہیں۔مزاحمت کی قیمت \عددی{\SI{50}{\ohm}} اور \عددی{\SI{1}{\ohm}} ہونے کی صورت میں  \عددی{\omega_0} اور \عددی{\omega_{\text{\RL{بلندتر}}}} دریافت کریں۔
+
+حل:گمکی تعدد پر مزاحمت کا کوئی اثر نہیں ہے۔
+\begin{align*}
+\omega_0&=\frac{1}{\sqrt{LC}}=\frac{1}{\sqrt{10\times 10^{-3}\times 1\times 10^{-6}}}=\SI{10}{\kilo\radian\per\second}
+\end{align*}
+مزاحمت \عددی{\SI{50}{\ohm}} کی صورت میں
+\begin{align*}
+Q&=\frac{\omega_0 L}{R}=\frac{10000\times 10\times 10^{-3}}{50}=2
+\end{align*}
+اور
+\begin{align*}
+\omega_{\text{\RL{بلندتر}}}&=\omega_0\sqrt{1-\frac{1}{2Q^2}}\\
+&=10000\sqrt{1-\frac{1}{2\times 2^2}}\\
+&=\SI{9354}{\radian\per\second}
+\end{align*}
+مزاحمت \عددی{\SI{1}{\ohm}} کی صورت میں
+\begin{align*}
+Q&=\frac{\omega_0 L}{R}=\frac{10000\times 10\times 10^{-3}}{1}=100
+\end{align*}
+اور
+\begin{align*}
+\omega_{\text{\RL{بلندتر}}}&=\omega_0\sqrt{1-\frac{1}{2Q^2}}\\
+&=10000\sqrt{1-\frac{1}{2\times 100^2}}\\
+&\approx \SI{10000}{\radian\per\second}
+\end{align*}
+حاصل ہوتے ہیں۔
+
+آئیں تبادلی تفاعل \عددی{\tfrac{\hat{V}_C}{\hat{V}_m}} کے خطوط کھینچیں۔مساوات \حوالہ{مساوات_تعددی_سلسلہ_وار_تبادلی_تفاعل_الف} سے  \عددی{R=\SI{50}{\ohm}} کی صورت میں تبادلی تفاعل لکھتے ہیں۔ 
+\begin{align}
+\frac{\hat{V}_C}{\hat{V}_m}=\frac{1}{1-10^{-8}\omega^2+j50\times 10^{-6}\omega }
+\end{align}
+اسی طرح \عددی{R=\SI{1}{\ohm}} کی صورت میں تبادلی تفاعل لکھتے ہیں۔
+\begin{align}
+\frac{\hat{V}_C}{\hat{V}_m}=\frac{1}{1-10^{-8}\omega^2+j1\times 10^{-6}\omega }
+\end{align}
+ان تبادلی تفاعل کو شکل \حوالہ{شکل_تعددی_پسند_اور_معیاری_مستقل} میں دکھایا گیا ہے۔آپ نے دیکھا کہ زیادہ \عددی{Q} والا جال باریک بینی سے تعدد چنتا ہے جبکہ کم \عددی{Q} والا جال اتنی باریک بینی سے تعدد نہیں چنتا ہے۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\includegraphics{figFreqSelevtivityAndQMagnitude}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\includegraphics{figFreqSelevtivityAndQPhase}
+\caption*{(ب)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_تعددی_پسند_اور_معیاری_مستقل} کے خطوط۔}
+\label{شکل_تعددی_پسند_اور_معیاری_مستقل}
+\end{figure}
+\انتہا{مثال}
+%==========================
+\حصہء{متوازی گمک}
+اب تک ہم سلسلہ وار \عددی{RLC} کے گمک پر غور کرتے  رہے ہیں۔حقیقت میں متوازی جڑے اور سلسلہ وار جڑے \عددی{RLC} میں مشابہت زیادہ اور فرق کم پایا جاتا ہے۔شکل \حوالہ{شکل_تعددی_متوازی_گمک} میں متوازی \عددی{RLC} دکھایا گیا ہے جس کی کرخوف مساوات رو لکھتے ہیں
+\begin{align*}
+\hat{I}_m&=\hat{I}_R+\hat{I}_L+\hat{I}_C\\
+&=\frac{\hat{V}_m}{R}+j\omega C \hat{V}_m+\frac{\hat{V}_m}{j\omega L}\\
+&=\hat{V}_m\left[G+j\left(\omega C-\frac{1}{\omega L}\right)\right]
+\end{align*}
+جہاں آخری قدم پر \عددی{\tfrac{1}{R}=G} لکھا گیا ہے۔گمک تعدد پر \عددی{\omega C=\tfrac{1}{\omega L}} ہوتا ہے لہٰذا رو درج ذیل ہوتی ہے۔
+\begin{align*}
+\hat{I}_m=G\hat{V}_m
+\end{align*}
+دور کی داخلی فراوانی \عددی{\bY(j\omega)} درج ذیل ہے
+\begin{align}
+\bY(j\omega)=G+j\omega C+\frac{1}{j\omega L}
+\end{align}
+جو گمکی تعدد پر
+\begin{align}
+\bY(j\omega_0)=R
+\end{align}
+ہے۔
+%
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\hat{V}_m$}]++(0,\y) to [short,i={$\hat{I}_m$}]++(\x,0) to [short]++(2*\x,0) to [inductor,l={$L$},i={$\hat{I}_L$}]++(0,-\y) to [short] (0,0);
+\draw(\x,0) to [resistor,*-*,l={$R$},i<_={$\hat{I}_R$}]++(0,\y);
+\draw(2*\x,0) to [capacitor,*-*,l={$C$},i<_={$\hat{I}_C$}]++(0,\y);
+\end{tikzpicture}
+\caption{متوازی \عددی{RLC} کی گمک۔}
+\label{شکل_تعددی_متوازی_گمک}
+\end{figure}

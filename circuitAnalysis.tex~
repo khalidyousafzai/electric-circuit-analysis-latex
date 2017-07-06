@@ -6,7 +6,6 @@
 \usepackage{pgfplots}
 \usepackage{tikz-3dplot}
 \pgfplotsset{compat=newest,}
-\pgfplotstabletypeset[search path={./fig/figFreqResponse}]
 \usepgfplotslibrary{units}
 %\pgfplotsset{compat=1.9}
 \usepgfplotslibrary{polar}
