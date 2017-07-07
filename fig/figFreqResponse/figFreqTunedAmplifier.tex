@@ -1,0 +1,40 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{steinmetz}		%\phase to show angle of phasors
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{pgfplots,filecontents}
+%\pgfplotsset{compat=1.9}
+%\usepgfplotslibrary{polar}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+%\usepackage{tikz-3dplot}
+%\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+%\input{../../tex/myEMTvectors.tex}
+\usepackage{graphics}
+\usepackage[]{graphicx} 
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+
+
+
+%\pgfplotsset{major y grid style={dashed}}
+
+\begin{document}
+\begin{urdufont}
+
+
+\begin{tikzpicture}
+\begin{semilogxaxis}[xlabel={$\omega\, \si{\radian\per\second}$},ylabel={مقدار}, ylabel style={rotate=-90},ytick={0,-20,-40,-60},yticklabels={$\SI{0}{\deci\bel}$,$\SI{-20}{\deci\bel}$,$\SI{-40}{\deci\bel}$,$\SI{-60}{\deci\bel}$}]
+\addplot [black] table [x index={0}, y index={1}]{figFreqTunedAmplifierA.dat}node[pos=0.1,pin=90:{\RL{ایک ہمسر ایمپلیفائر}}]{};
+\addplot [black] table [x index={0}, y index={1}]{figFreqTunedAmplifierB.dat};
+\addplot [black] table [x index={0}, y index={1}]{figFreqTunedAmplifierC.dat}node[pos=0.1,pin=-30:{\RL{تین ہمسر ایمپلیفائر کا زنجیر}}]{};
+\end{semilogxaxis}%
+\end{tikzpicture}
+\end{urdufont}
+\end{document}

@@ -997,7 +997,7 @@ s&=\frac{-2\zeta \tau \mp\sqrt{4\zeta^2\tau^2-4\tau^2}}{2\tau^2}
 \omega L-\frac{1}{\omega C}=0
 \end{align*}
 سے حاصل کیا جا سکتا ہے۔
-\begin{align}
+\begin{align}\label{مساوات_تعددی_گمکی_تعدد_سلسلہ_وار}
 \omega_0=\frac{1}{\sqrt{LC}}\quad \quad \text{\RL{گمکی تعدد}}
 \end{align}
 اس تعدد \عددی{(\omega_0)} کو دور کی \اصطلاح{گمکی تعدد}\فرہنگ{گمکی تعدد}\حاشیہب{resonant frequency}\فرہنگ{resonant frequency} کہتے ہیں اور اس تعدد پر دور گونجتا یا گمکتا ہے۔ایسا دور جو گونج سکتا ہو کو \اصطلاح{گمکی دور}\فرہنگ{گمکی دور}\حاشیہب{resonant circuit}\فرہنگ{resonant circuit} کہتے ہیں۔
@@ -1350,7 +1350,7 @@ w_{\text{ضیاع}}=\int_0^T i^2(t) R \dif t=\int_0^T \left(\frac{V_m}{R}\cos \o
 \frac{w_{\text{ذخیرہ}}}{w_{\text{ضیاع}}}=\frac{\frac{LV_m^2}{2R^2}}{\frac{V_m^2 T}{2R}}=\frac{L}{RT}=\frac{L}{R \frac{2\pi}{\omega_0}}=\frac{\omega_0 L}{2\pi R}
 \end{align*}
 چونکہ \عددی{\tfrac{\omega_0 L}{R}=Q} ہے لہٰذا درج ذیل لکھا جا سکتا ہے جو معیاری مستقل \عددی{Q} کی عمومی تعریف  ہے۔
-\begin{align}
+\begin{align}\label{مساوات_تعددی_معیاری_مستقل_عمومی-تعریف}
 Q=2\pi \frac{w_{\text{ذخیرہ}}}{w_{\text{ضیاع}}} \quad \quad \text{\RL{معیاری مستقل کی عمومی تعریف}}
 \end{align}
 معیاری مستقل کی  عمومی تعریف  برقی میدان کے علاوہ میکانی میدان اور سمعی میدان میں بھی استعمال ہوتی ہے۔آپ دیکھ سکتے ہیں کہ کم مزاحمت ضیاع کے دور کا معیاری مستقل زیادہ ہو گا۔ 
@@ -1397,7 +1397,7 @@ Q&=\frac{1}{R}\sqrt{\frac{L}{C}}=\frac{1}{0.1}\sqrt{\frac{2\times 10^{-3}}{20\ti
 ہم برق گیر کی قیمت ایسی چنتے ہیں جو دستیاب ہو مثلاً \عددی{C=\SI{10}{\micro\farad}} لہٰذا درج ذیل قیمتیں حاصل ہوتی ہیں۔
 \begin{align*}
 L&=\frac{1}{\omega_0^2 C}=\frac{1}{1000^2\times 10\times 10^{-6}}=\SI{0.1}{\henry}\\
-R&L\BW=0.1\times 80=\SI{8}{\ohm}
+R&=(L)(\BW)=0.1\times 80=\SI{8}{\ohm}
 \end{align*}
 \انتہا{مثال}
 %===============
@@ -1505,32 +1505,373 @@ Q&=\frac{\omega_0 L}{R}=\frac{10000\times 10\times 10^{-3}}{1}=100
 %==========================
 \حصہء{متوازی گمک}
 اب تک ہم سلسلہ وار \عددی{RLC} کے گمک پر غور کرتے  رہے ہیں۔حقیقت میں متوازی جڑے اور سلسلہ وار جڑے \عددی{RLC} میں مشابہت زیادہ اور فرق کم پایا جاتا ہے۔شکل \حوالہ{شکل_تعددی_متوازی_گمک} میں متوازی \عددی{RLC} دکھایا گیا ہے جس کی کرخوف مساوات رو لکھتے ہیں
-\begin{align*}
-\hat{I}_m&=\hat{I}_R+\hat{I}_L+\hat{I}_C\\
-&=\frac{\hat{V}_m}{R}+j\omega C \hat{V}_m+\frac{\hat{V}_m}{j\omega L}\\
-&=\hat{V}_m\left[G+j\left(\omega C-\frac{1}{\omega L}\right)\right]
-\end{align*}
-جہاں آخری قدم پر \عددی{\tfrac{1}{R}=G} لکھا گیا ہے۔گمک تعدد پر \عددی{\omega C=\tfrac{1}{\omega L}} ہوتا ہے لہٰذا رو درج ذیل ہوتی ہے۔
-\begin{align*}
-\hat{I}_m=G\hat{V}_m
-\end{align*}
-دور کی داخلی فراوانی \عددی{\bY(j\omega)} درج ذیل ہے
+\begin{gather}
+\begin{aligned}\label{مساوات_تعددی_متوازی_رو_بالمقابل_تعدد}
+\hat{I}&=\hat{I}_R+\hat{I}_L+\hat{I}_C\\
+&=\frac{\hat{V}_d}{R}+j\omega C \hat{V}_d+\frac{\hat{V}_d}{j\omega L}\\
+&=\hat{V}_d\left[G+j\left(\omega C-\frac{1}{\omega L}\right)\right]
+\end{aligned}
+\end{gather}
+جہاں آخری قدم پر \عددی{\tfrac{1}{R}=G} لکھا گیا ہے۔گمکی تعدد \عددی{\omega_0} پر رو کم سے کم ہو گی۔کم سے کم رو \عددی{\omega_0 C=\tfrac{1}{\omega_0 L}} کی حالت میں حاصل ہوتی ہے جس سے گمکی تعدد حاصل ہوتی ہے۔
+\begin{align}
+\omega_0=\frac{1}{\sqrt{LC}} \quad \quad \text{\RL{گمکی تعدد}}
+\end{align}
+مساوات \حوالہ{مساوات_تعددی_گمکی_تعدد_سلسلہ_وار} میں سلسلہ وار \عددی{RLC} کی گمکی تعدد دی گئی ہے۔آپ دیکھ سکتے ہیں کہ سلسلہ وار \عددی{RLC} اور متوازی \عددی{RLC} کی گمکی تعدد یکساں ہے۔گمکی تعدد پر رو درج ذیل ہو گی۔
+\begin{align}\label{مساوات_تعددی_متوازی_کل_رو}
+\hat{I}=G\hat{V}_d
+\end{align}
+دور کی داخلی فراوانی \عددی{\bY(j\omega)} لکھتے ہیں
 \begin{align}
 \bY(j\omega)=G+j\omega C+\frac{1}{j\omega L}
 \end{align}
-جو گمکی تعدد پر
+جو گمکی تعدد پر درج ذیل ہو گی۔
 \begin{align}
 \bY(j\omega_0)=R
 \end{align}
-ہے۔
 %
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\draw(0,0) to [american voltage source,l={$\hat{V}_m$}]++(0,\y) to [short,i={$\hat{I}_m$}]++(\x,0) to [short]++(2*\x,0) to [inductor,l={$L$},i={$\hat{I}_L$}]++(0,-\y) to [short] (0,0);
+\draw(0,0) to [american voltage source,l={$\hat{V}_d$}]++(0,\y) to [short,i={$\hat{I}$}]++(\x,0) to [short,i={$\hat{I}_X$}]++(\x,0) to [short]++(\x,0) to [inductor,l={$L$},i={$\hat{I}_L$}]++(0,-\y) to [short] (0,0);
 \draw(\x,0) to [resistor,*-*,l={$R$},i<_={$\hat{I}_R$}]++(0,\y);
 \draw(2*\x,0) to [capacitor,*-*,l={$C$},i<_={$\hat{I}_C$}]++(0,\y);
 \end{tikzpicture}
 \caption{متوازی \عددی{RLC} کی گمک۔}
 \label{شکل_تعددی_متوازی_گمک}
 \end{figure}
+
+شکل \حوالہ{شکل_تعددی_متوازی_گمک} میں گمکی تعدد پر امالی اور برق گیر رو کا مجموعہ حاصل کرتے ہیں۔
+\begin{align*}
+\hat{I}_X&=\hat{I}_C+\hat{I}_L\\
+&=j \hat{V}_d\left(\omega_0 C -\frac{1}{\omega_0 L}\right)\\
+&=\SI{0}{\ampere}
+\end{align*}
+اس نتیجے کو سمجھنے کی خاطر  شکل \حوالہ{شکل_تعددی_گمکی_تعدد_متوازی_رکاوٹ} میں دکھائے گئے متوازی جڑے امالہ گیر اور برق گیر کا مجموعی رکاوٹ \عددی{\bZ_0} لکھتے ہیں
+\begin{align*}
+\frac{1}{\bZ_0}&=j\omega_0 C +\frac{1}{j\omega L}\\
+&=j\left(\omega_0 C-\frac{1}{\omega_0 L}\right)\\
+&=0
+\end{align*}
+جس سے  رکاوٹ لامتناہی حاصل ہوتی ہے۔
+\begin{align}
+\bZ_0=\infty
+\end{align}
+سلسلہ وار جڑے امالہ گیر اور برق گیر کی گمکی تعدد پر مجموعی رکاوٹ صفر ہوتی ہے جبکہ متوازی جڑے امالہ گیر اور برق گیر کی گمکی تعدد پر رکاوٹ لامتناہی ہوتی ہے۔لامتناہی رکاوٹ میں رو کی قیمت صفر ہی متوقع ہے۔اگرچہ گمکی تعدد پر امالہ گیر اور برق گیر کی مجموعی رو صفر کے برابر ہے، ان کی انفرادی رو ہرگز صفر نہیں ہے۔
+\begin{align*}
+\hat{I}_C&=j\omega_0 C \hat{V}_d\\
+\hat{I}_L&=-j\frac{\hat{V}_d}{\omega_0 L}
+\end{align*} 
+گمکی تعدد پر امالی رو اور برق گیر رو قیمت میں برابر لیکن زاویائی طور پر آپس میں الٹ قدم \عددی{(180^{\circ})} ہوتی ہیں۔ شکل \حوالہ{شکل_تعددی_متوازی_گمک} میں گمکی تعدد پر رو \عددی{\hat{I}=G\hat{V}_d} ہو گی۔لامتناہی مزاحمت کی صورت میں \عددی{G=\SI{0}{\siemens}} ہو گا لہٰذا ایسی صورت میں \عددی{\hat{I}=\SI{0}{\ampere}} ہو گی جبکہ \عددی{\hat{I}_C} اور \عددی{\hat{I}_L} درج بالا مساوات کے تحت ہوں گی۔یہاں بھی امالہ گیر اور برق گیر کے مابین توانائی کا تبادلہ ہوتا ہے۔جیسے جیسے ایک میں توانائی گھٹتی ہے ویسے ویسے دوسرے میں توانائی کا اضافہ ہوتا ہے۔
+%
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,o-]++(2*\x,0) to [inductor,l_={$j\omega_0 L$}]++(0,\y) to [short,-o]++(-2*\x,0);
+\draw(\x,0) to [capacitor,*-*,l_={$\frac{1}{j\omega_0 C}$}]++(0,\y);
+\draw[stealth-](\x/4,\y/2)--++(-\x/4,0)--++(0,-\y/8)node[below]{$\bZ_0 = \infty$};
+\end{tikzpicture}
+\caption{گمکی تعدد پر متوازی جڑے امالہ گیر اور برق گیر کی مجموعی رکاوٹ لامتناہی ہے۔}
+\label{شکل_تعددی_گمکی_تعدد_متوازی_رکاوٹ}
+\end{figure}
+
+مساوات \حوالہ{مساوات_تعددی_متوازی_رو_بالمقابل_تعدد} سے تبادلی تفاعل \عددی{\tfrac{\hat{I}}{\hat{V}_d}} لکھتے ہیں۔
+\begin{align}
+\frac{\hat{I}}{\hat{V}_d}=\bY(j\omega)=G+j\left(\omega C-\frac{1}{\omega L}\right)
+\end{align}
+شکل \حوالہ{شکل_تعددی_فراوانی_بالمقابل_تعدد} میں اس تبادلی تفاعل کا حتمی قیمت بالمقابل تعدد خط دکھایا گیا ہے۔گمکی تعدد پر امالی تاثیر زیادہ غالب ہے جبکہ زیادہ تعدد پر برق گیر تاثیر زیادہ غالب ہے۔عین گمکی تعدد پر ایصالی فراوانی پائی جاتی ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{semilogxaxis}[xlabel={$\omega$},ylabel style={rotate=-90},ylabel={$\abs{\bY(\omega)}$},ytick={1},yticklabels={$G$},xtick={1},xticklabels={$\omega_0=\frac{1}{\sqrt{LC}}$}]
+\addplot[mark=none,color=black,domain=0.1:10,samples=50]{sqrt(1+(x-1/x)^2)}node[pos=0.15,pin=45:{\RL{امالی فراوانی}}]{}node[pos=0.8,pin=125:{\RL{برق گیر فراوانی}}]{};
+\addplot[mark=none,color=black] coordinates {(1,1)}node[pin=90:{\RL{ایصالی فراوانی}}]{};
+\end{semilogxaxis}
+\end{tikzpicture}
+\caption{فراوانی کی مقدار بالمقابل تعدد۔}
+\label{شکل_تعددی_فراوانی_بالمقابل_تعدد}
+\end{figure}
+شکل \حوالہ{شکل_تعددی_متوازی_دوری_سمتیات} میں داخلی دباو \عددی{\hat{V}_d} کے حوالے سے متوازی \عددی{RLC} کے دوری سمتیات دکھائے گئے ہیں۔ گمکی تعدد سے کم تعدد پر امالی رو غالب ہے لہٰذا داخلی دباو سے رو پیچھے ہے جبکہ گمکی تعدد سے زیادہ تعدد پر برق گیر رو زیادہ غالب ہے لہٰذا داخلی دباو سے رو آگے ہے۔عین گمکی تعدد پر داخلی دباو اور رو ہم قدم ہیں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\l}{2}
+\pgfmathsetmacro{\ang}{30}
+\pgfmathsetmacro{\kh}{\l*cos(\ang)};
+\pgfmathsetmacro{\kv}{\l*sin(\ang)};
+%
+\draw[-latex](0,0)--++(\x+\x/4,0)node[below]{$\hat{V}_d$};
+\draw[-latex](0,0)--++(\ang:\l)coordinate(kTip)node[above]{$\hat{I}$};
+\draw[-latex](0,0)--++(\kh,0)node[below]{$\hat{I}_G$};
+\draw[-latex](0,0)--++(0,1/2*\y+\kv)node[above]{$\hat{I}_C$};
+\draw[-latex](0,0)--++(0,-1/2*\y)node[below]{$\hat{I}_L$};
+\draw([shift={(0:0.5)}]0,0) arc (0:\ang:0.5);
+\draw(3/4*\ang:0.5)node[right]{$\theta_z$};
+\draw[gray,dashed](kTip)--++(-\kh,0);
+\draw[gray,dashed](kTip)--++(0,-\kv);
+\draw(3/4*\x,-\y)node{$(\omega > \omega_0)$};
+%
+\begin{scope}[xshift=3cm]
+\draw[-latex](0,0)--++(\x+\x/4,0)node[below]{$\hat{V}_d$};
+\draw[-latex](0,0)--++(0:\l)coordinate(kTip)node[above,pos=0.7]{$\hat{I}_G=\hat{I}$};
+\draw[-latex](0,0)--++(0,3/4*\y)node[above]{$\hat{I}_C$};
+\draw[-latex](0,0)--++(0,-3/4*\y)node[below]{$\hat{I}_L$};
+\draw(3/4*\x,-\y)node{$(\omega = \omega_0)$};
+\end{scope}
+%
+\begin{scope}[xshift=6cm]
+\draw[-latex](0,0)--++(\x+\x/4,0)node[below]{$\hat{V}_d$};
+\draw[-latex](0,0)--++(-\ang:\l)coordinate(kTip)node[below]{$\hat{I}$};
+\draw[-latex](0,0)--++(\kh,0)node[above]{$\hat{I}_G$};
+\draw[-latex](0,0)--++(0,1/2*\y)node[above]{$\hat{I}_C$};
+\draw[-latex](0,0)--++(0,-1/2*\y-\kv)node[below]{$\hat{I}_L$};
+\draw([shift={(0:0.5)}]0,0) arc (0:-\ang:0.5);
+\draw(-3/4*\ang:0.5)node[right]{$\theta_z$};
+\draw[gray,dashed](kTip)--++(-\kh,0);
+\draw[gray,dashed](kTip)--++(0,\kv);
+\draw(3/4*\x,-\y)node{$(\omega <\omega_0)$};
+\end{scope}
+\end{tikzpicture}
+\caption{متوازی \عددی{RLC} کے دوری سمتیات۔}
+\label{شکل_تعددی_متوازی_دوری_سمتیات}
+\end{figure}
+
+مساوات \حوالہ{مساوات_تعددی_معیاری_مستقل_عمومی-تعریف} میں معیاری مستقل کی عمومی تعریف بیان کی گئی ہے۔آئیں اس کو استعمال کرتے ہوئے متوازی \عددی{RLC} دور کا \عددی{Q} دریافت کریں۔
+
+شکل \حوالہ{شکل_تعددی_متوازی_گمک} میں داخلی دباو گمکی تعدد پر تصور کرتے ہوئے \عددی{\hat{V}_d=V_m\phase{0^{\circ}}\,\si{\volt}} یعنی \عددی{v_d=V_m\cos \omega_0 t \,\si{\volt}} فرض کریں۔امالہ گیر کی رو
+\begin{align}\label{مساوات_تعددی_متوازی_رو_الف}
+\hat{I}_L=\frac{\hat{V}_d}{j\omega_0 L}=\frac{V_m\phase{0^{\circ}}}{j\omega_0 L}=\frac{V_m}{\omega_0 L}\phase{-90^{\circ}}
+\end{align}
+یعنی
+\begin{align*}
+i_L(t)=\frac{V_m}{\omega_0 L} \cos (\omega_0 t -90^{\circ})=\frac{V_m}{\omega_0 L} \sin \omega_0 t \,\si{\ampere}
+\end{align*}
+لکھی جائے گی۔ برق گیر اور مزاحمت کی رو درج ذیل لکھی جائے گی۔
+\begin{gather}
+\begin{aligned}\label{مساوات_تعددی_متوازی_رو_ب}
+\hat{I}_C&=\omega_0 C V_m \phase{90^{\circ}} \, \si{\ampere}\\
+\hat{I}_G&=GV_m\phase{0^{\circ}}\,\si{\ampere}
+\end{aligned}
+\end{gather}
+
+امالہ گیر میں ذخیرہ توانائی
+\begin{align}\label{مساوات_تعددی_متوازی_امالی_ذخیرہ_توانائی}
+w_L(t)=\frac{1}{2} L i_L^2(t)=\frac{1}{2} L \left(\frac{V_m}{\omega_0 L} \sin \omega_0 t\right)^2=\frac{V_m^2}{2\omega_0^2 L}\sin^2 \omega_0 t \, \si{\joule}
+\end{align}
+اور برق گیر میں ذخیرہ توانائی
+\begin{align*}
+w_C(t)=\frac{1}{2} C v_C^2(t)=\frac{1}{2} C\left(V_m \cos \omega_0 t\right)^2=\frac{CV_m^2}{2}\cos^2 \omega_0 t \, \si{\joule}
+\end{align*}
+لکھی جائے گی۔گمکی تعدد پر \عددی{\omega_0^2=\tfrac{1}{LC}} ہوتا ہے لہٰذا امالہ گیر کی توانائی کو درج ذیل لکھا جا سکتا ہے۔
+\begin{align}\label{مساوات_تعددی_متوازی_امالہ_گیر_ذخیرہ_توانائی}
+w_L(t)=\frac{V_m^2}{2\frac{1}{LC} L}\sin^2 \omega_0 t=\frac{CV_m^2}{2}\sin^2 \omega_0 t \, \si{\joule}
+\end{align}
+دور میں کل ذخیرہ توانائی ان دونوں کا مجموعہ ہے
+\begin{gather}
+\begin{aligned}\label{مساوات_تعددی_متوازی_کل_ذخیرہ_توانائی}
+w_{\text{ذخیرہ}}&=w_C(t)+w_L(t)\\
+&=\frac{CV_m^2}{2}\cos^2 \omega_0 t+\frac{CV_m^2}{2}\sin^2 \omega_0 t\\
+&=\frac{CV_m^2}{2}
+\end{aligned}
+\end{gather}
+جہاں آخری قدم پر \عددی{\cos^2 \theta+\sin^2 \theta=1} کا استعمال کیا گیا ہے۔یوں دور میں کل ذخیرہ توانائی وقت کے ساتھ تبدیل نہیں ہوتی اور اس کی مقدار اٹل ہے۔
+
+آئیں اب گمکی تعدد کے ایک چکر میں توانائی کا ضیاع دریافت کریں۔امالہ گیر اور برق گیر میں توانائی کا ضیاع ممکن نہیں ہے۔توانائی صرف \عددی{G} یعنی \عددی{R} میں ضائع ہو گی۔مزاحمت پر \عددی{V_m} حیطے کا دباو لاگو ہے جس کی موثر قیمت \عددی{\tfrac{V_m}{\sqrt{2}}} ہے۔یوں مزاحمت میں طاقتی ضیاع درج ذیل ہو گا۔
+\begin{align*}
+P_G=\frac{\left(\frac{V_m}{\sqrt{2}}\right)^2}{R}=\frac{GV_m^2}{2}
+\end{align*}
+گمکی تعدد پر ایک چکر کا دورانیہ \عددی{T=\tfrac{2\pi}{\omega_0}} کے برابر ہے جس میں مزاحمتی ضیاع درج ذیل ہو گا۔
+\begin{align}
+w_{\text{ضیاع}}=T P_G=\frac{2\pi GV_m^2}{2\omega_0}
+\end{align}
+مساوات \حوالہ{مساوات_تعددی_معیاری_مستقل_عمومی-تعریف} کو استعمال کرتے ہوئے متوازی \عددی{RLC} دور کا معیاری مستقل حاصل کرتے ہیں۔
+\begin{align*}
+Q&=2\pi \frac{w_{\text{ذخیرہ}}}{w_{\text{ضیاع}}}\\
+&=2\pi \frac{\frac{CV_m^2}{2}}{\frac{2\pi GV_m^2}{2\omega_0}}\\
+&=\frac{\omega_0 C}{G}
+\end{align*}
+گمکی تعدد پر \عددی{\omega_0 C=\tfrac{1}{\omega_0 L}} ہوتا ہے لہٰذا  متوازی \عددی{RLC} کے معیاری مستقل کو درج ذیل لکھا جا سکتا ہے۔
+\begin{align}
+Q=\frac{\omega_0 C}{G}=\frac{1}{\omega_0 L G}
+\end{align}
+سلسلہ وار \عددی{RLC} کے \عددی{Q} کے ساتھ موازنہ کرنے سے آپ دیکھ سکتے ہیں کہ متوازی \عددی{RLC} کا \عددی{Q} اس کے بالعکس متناسب ہے۔
+
+مساوات \حوالہ{مساوات_تعددی_متوازی_رو_الف} اور مساوات \حوالہ{مساوات_تعددی_متوازی_رو_الف} متوازی پرزوں کی رو دیتے ہیں جبکہ مساوات \حوالہ{مساوات_تعددی_متوازی_کل_رو} منبع کی رو دیتی ہے۔ان نتائج سے درج ذیل لکھا جا سکتا ہے۔
+\begin{gather}
+\begin{aligned}
+I_L&=Q I\\
+I_C&=Q I\\
+I_G&=I
+\end{aligned}
+\end{gather}
+یوں متوازی \عددی{RLC} دور میں رو کا کردار وہی ہے جو سلسلہ وار \عددی{RLC} میں دباو کا تھا۔متوازی \عددی{RLC} میں \عددی{Q>1} کی صورت میں گمکی تعدد پر امالہ گیر اور برق گیر کو رو منبع کی رو سے زیادہ ہو گی۔ 
+%==================
+\ابتدا{مثال}
+متوازی جڑے \عددی{RLC} میں \عددی{G=\SI{0.01}{\siemens}}، \عددی{L=\SI{1}{\milli\henry}} اور \عددی{C=\SI{10}{\micro\farad}} ہیں۔اس کو گمکی تعدد پر \عددی{\hat{V}_d=22\phase{0^{\circ}}\,\si{\volt}} دباو فراہم کی جاتی ہے۔گمکی تعدد اور پرزوں میں رو دریافت کریں۔ 
+
+حل:گمکی تعدد دریافت کرتے ہیں۔
+\begin{align*}
+\omega_0=\frac{1}{\sqrt{LC}}=\frac{1}{\sqrt{10^{-3} \times 10\times 10^{-6}}}=\SI{10}{\kilo\radian\per\second}
+\end{align*}
+یوں پرزوں کی رو درج ذیل ہو گی۔
+\begin{align*}
+\hat{I}_G&=G\hat{V}_d=0.01\times 22\phase{0^{\circ}}=0.22\phase{0^{\circ}}\,\si{\ampere}\\
+\hat{I}_L&=\frac{\hat{V}_d}{j\omega_0 L}=\frac{22\phase{0^{\circ}}}{j 10000 \times 0.001}=2.2\phase{-90^{\circ}}\,\si{\ampere}\\
+\hat{I}_C&=j\omega_0 C \hat{V}_d=j 10000\times 10\times 10^{-5} \times 22\phase{0^{\circ}}=2.2\phase{90^{\circ}}\,\si{\ampere}
+\end{align*}
+منبع کی رو ان تینوں کا مجموعہ ہو گا جو \عددی{\hat{I}_G} کے برابر ہو گا۔
+\begin{align*}
+\hat{I}&=\hat{I}_G+\hat{I}_L+\hat{I}_C\\
+&=0.22\phase{0^{\circ}}\,\si{\ampere}\\
+&=\hat{I}_G
+\end{align*}
+اس مثال میں امالی رو اور برق گیر رو کی قیمتیں منبع کی رو سے دس گنا زیادہ ہیں۔
+\انتہا{مثال}
+%====================
+\ابتدا{مثال}\شناخت{مثال_تعددی_متوازی_عرض_پٹی}
+شکل \حوالہ{شکل_تعددی_متوازی_عرض_پٹی} میں متوازی \عددی{RLC} دور دیا گیا ہے۔اس کا تبادلی تفاعل \عددی{\tfrac{\hat{V}}{\hat{I}}} حاصل کرتے ہوئے  نچلا اور بالائی کونا دریافت کریں۔عرض پٹی بھی حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american current source,l={$\hat{I}_d$}]++(0,\y) to [short]++(3*\x,0) to [inductor,l_={$L$},v^<={$\hat{V}_0$}]++(0,-\y) to [short] (0,0);
+\draw(\x,0) to [resistor,*-*,l={$R$}]++(0,\y);
+\draw(2*\x,0) to [capacitor,*-*,l={$C$}]++(0,\y);
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_تعددی_متوازی_عرض_پٹی} کا دور۔}
+\label{شکل_تعددی_متوازی_عرض_پٹی}
+\end{figure}
+
+حل:دور کی فراوانی
+\begin{align*}
+\bY=G+j(\omega C-\frac{1}{\omega L})
+\end{align*}
+استعمال کرتے ہوئے خارجی دباو لکھتے ہوئے
+\begin{align*}
+\hat{V}_0&=\frac{\hat{I}_d}{\bY}\\
+&=\frac{\hat{I}_d}{G+j(\omega C-\frac{1}{\omega L})}
+\end{align*}
+تبادلی تفاعل حاصل کرتے ہیں۔
+\begin{align}\label{مساوات_تعددی_متوازی_تبادلی_تفاعل_داخلی_رو}
+\frac{\hat{V}_0}{\hat{I}_d}=\frac{1}{G+j(\omega C-\frac{1}{\omega L})}
+\end{align}
+تبادلی تفاعل عین گمکی تعدد پر زیادہ سے زیادہ ہوتا ہے۔یوں گمکی تعدد پر قوسین صفر کے برابر ہو گی جس سے گمکی تعدد لکھی جا سکتی ہے۔
+\begin{align}
+\omega_0=\frac{1}{\sqrt{LC}}
+\end{align}
+گمکی تعدد پر مساوات \حوالہ{مساوات_تعددی_متوازی_تبادلی_تفاعل_داخلی_رو} میں قوسین صفر کے برابر ہے لہٰذا اس کو درج ذیل لکھا جا سکتا ہے جو تفاعل کی زیادہ سے زیادہ قیمت ہے۔
+\begin{align}\label{مساوات_تعددی_متوازی_تبادلی_تفاعل_زیادہ}
+\frac{\hat{V}_0}{\hat{I}_d}=\frac{1}{G}
+\end{align}
+گمکی تعدد پر تبادلی تفاعل کی مقدار زیادہ سے زیادہ مقدار کی \عددی{\tfrac{1}{\sqrt{2}}} گنا ہو گی۔یوں کونوں پر درج ذیل لکھا جا سکتا ہے۔
+\begin{align}
+\frac{1}{\sqrt{G^2+(\omega C-\frac{1}{\omega L})^2}}=\left(\frac{1}{G}\right)\left(\frac{1}{\sqrt{2}}\right)
+\end{align}
+دونوں اطراف کا مربع لیتے اور ترتیب دیتے ہوئے درج ذیل حاصل ہوتا ہے
+\begin{align}
+\omega^2\mp \omega \frac{G}{C} -\frac{1}{LC}=0
+\end{align}
+جس کے مثبت تعددی جوابات لکھتے ہیں۔
+\begin{align}
+\omega_{L}&=-\frac{G}{2C}+\sqrt{\left(\frac{G}{2C}\right)^2+\frac{1}{LC}}\\
+\omega_{H}&=+\frac{G}{2C}+\sqrt{\left(\frac{G}{2C}\right)^2+\frac{1}{LC}}
+\end{align}
+ان کونوں سے عرض پٹی حاصل کرتے ہیں۔
+\begin{align}
+\BW=\omega_{H}-\omega_{L}=\frac{G}{C}=\frac{1}{RC}
+\end{align}
+معیاری مستقل حاصل کرتے ہیں۔
+\begin{align}
+Q=\frac{\omega_0}{\BW}=\frac{1}{G}\sqrt{\frac{C}{L}}=R\sqrt{\frac{C}{L}}
+\end{align}
+گمکی تعدد ، معیاری مستقل اور عرض پٹی کے مساوات استعمال کرتے ہوئے کونوں کی تعدد کو درج ذیل لکھا جا سکتا ہے۔
+\begin{align}
+\omega_{L}=\omega_0 \left[-\frac{1}{2Q}+\sqrt{\frac{1}{(2Q)^2}+1}\right]\\
+\omega_{H}=\omega_0 \left[+\frac{1}{2Q}+\sqrt{\frac{1}{(2Q)^2}+1}\right]
+\end{align}
+\انتہا{مثال}
+%=====================
+\ابتدا{مثال}
+متوازی \عددی{RLC} میں \عددی{R=\SI{1}{\kilo\ohm}}، \عددی{L=\SI{1}{\milli\henry}} اور \عددی{C=\SI{20}{\micro\farad}} ہیں۔گمکی تعدد، معیاری مستقل اور عرض پٹی دریافت کریں۔
+
+حل:
+\begin{align*}
+\omega_0&=\frac{1}{\sqrt{LC}}=\frac{1}{\sqrt{10^{-3}\times 20 \times 10^{-6}}}=\SI{7071}{\radian\per\second}\\
+Q&=R\sqrt{\frac{C}{L}}=1000\sqrt{\frac{10^{-3}}{20\times 10^{-6}}}=141\\
+\BW&=\frac{1}{RC}=\frac{1}{1000\times 20\times 10^{-6}}=\SI{50}{\radian\per\second}
+\end{align*}
+\انتہا{مثال}
+%======================
+\ابتدا{مثال}
+\اصطلاح{برقناطیسی امواج}\فرہنگ{برقناطیسی موج}\حاشیہب{electromagnetic waves}\فرہنگ{electromagnetic waves} کو \اصطلاح{اینٹینا}\فرہنگ{اینٹینا}\حاشیہب{antenna}\فرہنگ{antenna} کے ذریعہ خلاء سے حاصل کرتے ہوئے \اصطلاح{ہمسر ایمپلیفائر}\فرہنگ{ہمسر ایمپلیفائر}\حاشیہب{tuned amplifier}\فرہنگ{tuned amplifier} تک پہنچایا جاتا ہے۔ہمسر ایمپلیفائر مخصوص  عرض پٹی کے تعدد کے اشارات کا حیطہ بڑھاتے ہوئے بقایا تعدد کے اشارات کو گھٹاتا ہے۔تعددی طور پر دو قریبی اشارات کو علیحدہ کرنے کے لئے ضروری ہے کہ ہمسر دور کی عرض پٹی اتنی تنگ ہو کہ اس میں سے صرف ایک اشارہ گزر سکے۔ بعض اوقات ایک عدد \عددی{RLC} دور سے اشارات کو علیحدہ کرنا ممکن نہیں ہوتا۔ایسی صورت میں متعدد ہمسر ایمپلیفائر کو زنجیری جوڑا جاتا ہے جہاں پہلے ایمپلیفائر کا خارجی اشارہ دوسرے ایمپلیفائر کو بطور داخلی اشارہ مہیا کیا جاتا ہے۔آئیں دیکھیں کہ زنجیری ایمپلیفائر سے کیسے عرض پٹی مزید تنگ کی جاتی ہے۔
+
+شکل \حوالہ{شکل_تعددی_تنگ_عرض_پٹی}-الف میں زنجیری ایمپلیفائر دکھایا گیا ہے۔داخلی اشارہ \عددی{\hat{V}_1} پہلے ایمپلیفائر کو مہیا کیا گیا ہے۔پہلے ایمپلیفائر کا خارجی اشارہ \عددی{\hat{V}_2} ہے جو دوسرے ایمپلیفائر کو بطور داخلی اشارہ مہیا کیا گیا ہے۔اسی طرح دوسرے ایمپلیفائر کا خارجی اشارہ \عددی{\hat{V}_3} تیسرے ایمپلیفائر کو مہیا کیا گیا ہے۔ شکل-ب میں ایک عدد  ہمسر ایمپلیفائر کا مساوی دور دکھایا گیا ہے۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kl}{\x/2*cos(30)}
+\pgfmathsetmacro{\kh}{\x*sin(30)}
+%
+\draw(0,0)coordinate(ka)--++(150:\x/2)--++(0,-\kh)--++(30:\x/2);
+\draw(ka)++(-\kl,0) to [short,-o]++(-\x/4,0)node[above]{$\hat{V}_3$};
+\draw(ka)++(0,0) to [short,-o]++(\x/4,0)node[above]{$\hat{V}_4$};
+\draw(ka)++(-\kl/2,\kh)node[above]{\RL{تیسرا}};
+%
+\draw(-\x/2-\kl,0)coordinate(ka)--++(150:\x/2)--++(0,-\kh)--++(30:\x/2);
+\draw(ka)++(-\kl,0) to [short,-o]++(-\x/4,0)node[above]{$\hat{V}_2$};
+\draw(ka)++(0,0) to [short,-o]++(\x/4,0);
+\draw(ka)++(-\kl/2,\kh)node[above]{\RL{دوسرا}};
+%
+\draw(-\x-2*\kl,0)coordinate(ka)--++(150:\x/2)--++(0,-\kh)--++(30:\x/2);
+\draw(ka)++(-\kl,0) to [short,-o]++(-\x/4,0)node[above]{$\hat{V}_1$};
+\draw(ka)++(0,0) to [short,-o]++(\x/4,0);
+\draw(ka)++(-\kl/2,\kh)node[above]{\RL{پہلا}};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american controlled current source,l={$A_g \hat{V}_1$}]++(0,-\y)to [short,-o]++(4*\x,0);
+\draw(0,0) to [short,-o]++(4*\x,0);
+\draw(1.5*\x,-\y) to [resistor,*-*,l={$R$}]++(0,\y);
+\draw(2.5*\x,-\y) to [inductor,*-*,l={$L$}]++(0,\y);
+\draw(3.5*\x,-\y) to [capacitor,*-*,l={$C$}]++(0,\y);
+%
+\draw(-\x/2,0) to [short,o-o]++(-\x/2,0);
+\draw(0,-\y) to [short,*-o]++(-\x,0);
+\draw(-\x,-\y/2)node{$\begin{aligned} &+ \\ &\hat{V}_1 \\ &- \end{aligned}$};
+\draw(4*\x,-\y/2)node{$\begin{aligned} &+ \\ &\hat{V}_2 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\caption{زنجیری ہمسر ایمپلیفائر سے عرض پٹی تنگ کی جاتی ہے۔}
+\label{شکل_تعددی_تنگ_عرض_پٹی}
+\end{figure} 
+ہمسر ایمپلیفائر کے دور میں \عددی{\hat{I}_d=-A_g\hat{V}_1} لینے سے شکل \حوالہ{شکل_تعددی_متوازی_عرض_پٹی} حاصل ہوتا ہے لہٰذا مساوات \حوالہ{مساوات_تعددی_متوازی_تبادلی_تفاعل_داخلی_رو} سے پہلے ہمسر ایمپلیفائر کے لئے
+\begin{align}\label{مساوات_تعددی_پہلا_ایمپلیفائر}
+\hat{V}_2=\frac{-A_g \hat{V}_1}{G+j(\omega C-\frac{1}{\omega L})}
+\end{align}
+لکھا جا سکتا ہے۔پہلے ایمپلیفائر کا خارجی اشارہ \عددی{\hat{V}_2} ہے جسے دوسرے ایمپلیفائر کو فراہم کیا جاتا ہے لہٰذا مساوات \حوالہ{مساوات_تعددی_متوازی_تبادلی_تفاعل_داخلی_رو} کو دوبارہ استعمال کرتے ہوئے دوسرے ایمپلیفائر کے لئے درج ذیل لکھا جا سکتا ہے
+\begin{align*}
+\hat{V}_3=\frac{-A_g \hat{V}_2}{G+j(\omega C-\frac{1}{\omega L})}
+\end{align*}
+جس میں مساوات \حوالہ{مساوات_تعددی_پہلا_ایمپلیفائر} سے \عددی{\hat{V}_2} پر کرتے ہوئے درج ذیل ملتا ہے۔
+\begin{align}\label{مساوات_تعددی_دوسرا_ایمپلیفائر}
+\hat{V}_3=\frac{(-A_g)^2 \hat{V}_1}{\left[G+j(\omega C-\frac{1}{\omega L})\right]^2}
+\end{align}
+اسی طرح تیسرے ایمپلیفائر کے لئے درج ذیل لکھ سکتے ہیں۔
+\begin{align}\label{مساوات_تعددی_تیسرا_ایمپلیفائر}
+\hat{V}_4=\frac{(-A_g)^3 \hat{V}_1}{\left[G+j(\omega C-\frac{1}{\omega L})\right]^3}
+\end{align}
+ہمسر دور میں \عددی{A_g=\SI{5}{\milli\siemens}}، \عددی{R=\SI{200}{\ohm}}، \عددی{L=\SI{2.2}{\micro\henry}} اور \عددی{C=\SI{5}{\pico\farad}} لیتے ہوئے مساوات \حوالہ{مساوات_تعددی_پہلا_ایمپلیفائر}، مساوات \حوالہ{مساوات_تعددی_دوسرا_ایمپلیفائر} اور مساوات \حوالہ{مساوات_تعددی_تیسرا_ایمپلیفائر} کے مقداری خط شکل \حوالہ{شکل_تعددی_زنجیری_تنگ_پٹی} میں کھینچے گئے ہیں۔آپ دیکھ سکتے ہیں کہ زیادہ تعداد میں ہمسر ایمپلیفائر زنجیری جوڑنے سے عرض پٹی کم کی جا سکتی ہے۔
+\begin{figure}
+\centering
+\includegraphics{figFreqTunedAmplifier}
+\caption{زنجیری ایمپلیفائر سے عرض پٹی تنگ کرنے کا عمل۔}
+\label{شکل_تعددی_زنجیری_تنگ_پٹی}
+\end{figure}
+یہاں رک کر تسلی کر لیں کہ شکل \حوالہ{شکل_تعددی_تنگ_عرض_پٹی} میں ایمپلیفائر کو استعمال کئے بغیر تین عدد متوازی \عددی{RLC} ادوار کو زنجیری جوڑنے سے  مساوات \حوالہ{مساوات_تعددی_تیسرا_ایمپلیفائر} نہیں ملتی۔بغیر ایمپلیفائر کے تین مزاحمت متوازی جڑ جاتے ہیں جن کا مجموعہ \عددی{\tfrac{R}{3}} ہو گا۔اسی طرح تین امالہ گیر متوازی جوڑنے سے \عددی{\tfrac{L}{3}} ملتا ہے اور تین برق گیر متوازی جوڑنے سے \عددی{3C} ملتا ہے۔یوں صرف \عددی{RLC} زنجیری جوڑنے سے ایک عدد \عددی{RLC} ملتا ہے۔
+\انتہا{مثال}
+%======================
+

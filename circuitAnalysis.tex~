@@ -51,6 +51,7 @@
 
 \newcommand*{\pf}{{\ensuremath{{\textup{pf}}}}}
 \newcommand*{\rms}{{\ensuremath{\textup{rms}}}}           %rms
+\newcommand*{\BW}{{\ensuremath{{\textup{BW}}}}}   %bandwidth
 %==========================
 %my styles
 \pgfplotsset{
@@ -79,12 +80,12 @@ every axis x label/.style={
 \usepackage{./tex/khalidUrduBooksEMT}                     %my sty file
 \usepackage{amsmath}
 \usepackage{amsbsy} %for bold Poynting
-\usepackage{ mathrsfs }   %for Poynting symbol
+\usepackage{ mathrsfs}   %for Poynting symbol
 \usepackage{IEEEtrantools}
 
 
 \sisetup{math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega}   %with mathpazo this is needed else must not be here. now micro is smaller
-\DeclareSIUnit \var {var}    %used in electric circuits
+\DeclareSIUnit \var {var}    %used in electric circuits volt-ampere-reactive
 
 
 \input{./tex/myUrduCommandsEMT.tex}                  %turning latex into urdu

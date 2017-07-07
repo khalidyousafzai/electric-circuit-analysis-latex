@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  6 JUL 2017 17:27
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  7 JUL 2017 17:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3369,7 +3369,60 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-) [640] (./circuitAnalysis.aux (./tex/cktBasics.aux)
+ [640]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \vbox (1.5449pt too high) has occurred while \output is active []
+
+
+[641]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [642]
+Overfull \vbox (1.5449pt too high) has occurred while \output is active []
+
+
+[643] [644]
+Overfull \vbox (1.5449pt too high) has occurred while \output is active []
+
+
+[645]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [646]
+Overfull \vbox (1.5449pt too high) has occurred while \output is active []
+
+
+[647] [648]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \vbox (1.5449pt too high) has occurred while \output is active []
+
+
+[649]
+File: ./fig/figFreqResponse/figFreqTunedAmplifier.pdf Graphic file (type QTm)
+ <use  "./fig/figFreqResponse/figFreqTunedAmplifier.pdf" > [650])
+Overfull \vbox (1.5449pt too high) has occurred while \output is active []
+
+
+[651] [652
+
+
+] (./circuitAnalysis.aux (./tex/cktBasics.aux)
 (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
 (./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
 (./tex/cktTransients.aux) (./tex/cktSteadyStateAC.aux)
@@ -3384,12 +3437,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 48581 strings out of 493918
- 1158631 string characters out of 6150562
- 1416507 words of memory out of 5000000
- 50924 multiletter control sequences out of 15000+600000
+ 49107 strings out of 493918
+ 1171440 string characters out of 6150562
+ 1417097 words of memory out of 5000000
+ 51449 multiletter control sequences out of 15000+600000
  46937 words of font info for 175 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,24n,86p,10476b,3056s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (63 pages).
+Output written on circuitAnalysis.pdf (75 pages).
