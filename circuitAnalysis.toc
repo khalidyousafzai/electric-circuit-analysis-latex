@@ -105,3 +105,6 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 12}}سائن نما تعددی تجزیہ}{\RL {\arabicfont 600}}
 \contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 3}.\RL {\arabicfont 12}}بوڈا خطوط}{\RL {\arabicfont 600}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 12}}گمکی ادوار}{\RL {\arabicfont 621}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 12}}چھلنی}{\RL {\arabicfont 655}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 13}}چھلنی}{\RL {\arabicfont 657}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 13}}چھلنی}{\RL {\arabicfont 657}}

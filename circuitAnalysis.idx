@@ -1,90 +1,34 @@
-\indexentry{graph!log-log}{\RL {\arabicfont  590}}
-\indexentry{log-log!graph}{\RL {\arabicfont  590}}
-\indexentry{ترسیم!لاگ لاگ}{\RL {\arabicfont  590}}
-\indexentry{لاگ لاگ!ترسیم}{\RL {\arabicfont  590}}
-\indexentry{log}{\RL {\arabicfont  590}}
-\indexentry{لاگ}{\RL {\arabicfont  590}}
-\indexentry{axis!semilog}{\RL {\arabicfont  590}}
-\indexentry{semilog!axis}{\RL {\arabicfont  590}}
-\indexentry{ترسیم!نیم لاگ}{\RL {\arabicfont  590}}
-\indexentry{نیم لاگ!ترسیم}{\RL {\arabicfont  590}}
-\indexentry{مماثل صورت}{\RL {\arabicfont  590}}
-\indexentry{digital form}{\RL {\arabicfont  590}}
-\indexentry{عددی صورت}{\RL {\arabicfont  590}}
-\indexentry{audio}{\RL {\arabicfont  590}}
-\indexentry{سمعی}{\RL {\arabicfont  590}}
-\indexentry{analog form}{\RL {\arabicfont  590}}
-\indexentry{voltage!amplifier}{\RL {\arabicfont  590}}
-\indexentry{سمعی ایمپلیفائر}{\RL {\arabicfont  590}}
-\indexentry{ایمپلیفائر!سمعی}{\RL {\arabicfont  590}}
-\indexentry{speaker}{\RL {\arabicfont  590}}
-\indexentry{سپیکر}{\RL {\arabicfont  590}}
-\indexentry{frequency!band}{\RL {\arabicfont  592}}
-\indexentry{تعددی پٹی}{\RL {\arabicfont  592}}
-\indexentry{Laplace transform}{\RL {\arabicfont  592}}
-\indexentry{لاپلاس بدل}{\RL {\arabicfont  592}}
-\indexentry{pole}{\RL {\arabicfont  594}}
-\indexentry{قطب}{\RL {\arabicfont  594}}
-\indexentry{high cut-off frequency}{\RL {\arabicfont  595}}
-\indexentry{cut-off!high frequency}{\RL {\arabicfont  595}}
-\indexentry{انقطاعی!بلند تعدد}{\RL {\arabicfont  595}}
-\indexentry{تعدد!بلند انقطاعی}{\RL {\arabicfont  595}}
-\indexentry{بلند انقطاعی تعدد}{\RL {\arabicfont  595}}
-\indexentry{cut-off!low frequency}{\RL {\arabicfont  595}}
-\indexentry{low cut-off frequency}{\RL {\arabicfont  595}}
-\indexentry{انقطاعی!پست تعدد}{\RL {\arabicfont  595}}
-\indexentry{تعدد!پست انقطاعی}{\RL {\arabicfont  595}}
-\indexentry{پست انقطاعی تعدد}{\RL {\arabicfont  595}}
-\indexentry{corner frequencies}{\RL {\arabicfont  595}}
-\indexentry{تعدد!کونے کی}{\RL {\arabicfont  595}}
-\indexentry{mid-frequency range}{\RL {\arabicfont  595}}
-\indexentry{درمیانی تعدد خطہ}{\RL {\arabicfont  595}}
-\indexentry{network}{\RL {\arabicfont  596}}
-\indexentry{جال}{\RL {\arabicfont  596}}
-\indexentry{transfer function}{\RL {\arabicfont  596}}
-\indexentry{تبادلی تفاعل}{\RL {\arabicfont  596}}
-\indexentry{zeroes}{\RL {\arabicfont  598}}
-\indexentry{صفر}{\RL {\arabicfont  598}}
-\indexentry{poles}{\RL {\arabicfont  598}}
-\indexentry{قطب}{\RL {\arabicfont  598}}
-\indexentry{complex conjugate}{\RL {\arabicfont  598}}
-\indexentry{جوڑی دار مخلوط}{\RL {\arabicfont  598}}
-\indexentry{characteristic!phase}{\RL {\arabicfont  600}}
-\indexentry{phase!characteristic}{\RL {\arabicfont  600}}
-\indexentry{خصلت!زاویائی}{\RL {\arabicfont  600}}
-\indexentry{زاویائی خصلت}{\RL {\arabicfont  600}}
-\indexentry{characteristic!magnitude}{\RL {\arabicfont  600}}
-\indexentry{magnitude!characteristic}{\RL {\arabicfont  600}}
-\indexentry{خصلت!مقداری}{\RL {\arabicfont  600}}
-\indexentry{مقداری خصلت}{\RL {\arabicfont  600}}
-\indexentry{Bode plot}{\RL {\arabicfont  600}}
-\indexentry{بوڈا خط}{\RL {\arabicfont  600}}
-\indexentry{frequency dependent}{\RL {\arabicfont  600}}
-\indexentry{تعدد تابع}{\RL {\arabicfont  600}}
-\indexentry{decibel}{\RL {\arabicfont  601}}
-\indexentry{ڈیسی بیل}{\RL {\arabicfont  601}}
-\indexentry{Bode!phase plot}{\RL {\arabicfont  609}}
-\indexentry{بوڈا!زاویائی خط}{\RL {\arabicfont  609}}
-\indexentry{زاویائی بوڈا خط}{\RL {\arabicfont  609}}
-\indexentry{damping ratio}{\RL {\arabicfont  618}}
-\indexentry{تقصیری تناسب}{\RL {\arabicfont  618}}
-\indexentry{resonance}{\RL {\arabicfont  619}}
-\indexentry{گمک}{\RL {\arabicfont  619}}
-\indexentry{resonant frequency}{\RL {\arabicfont  621}}
-\indexentry{گمکی تعدد}{\RL {\arabicfont  621}}
-\indexentry{resonant circuit}{\RL {\arabicfont  621}}
-\indexentry{گمکی دور}{\RL {\arabicfont  621}}
-\indexentry{quality factor}{\RL {\arabicfont  622}}
-\indexentry{معیاری مستقل}{\RL {\arabicfont  622}}
-\indexentry{band-pass filter}{\RL {\arabicfont  628}}
-\indexentry{پٹی گزار فلٹر}{\RL {\arabicfont  628}}
-\indexentry{bandwidth}{\RL {\arabicfont  630}}
-\indexentry{عرض پٹی}{\RL {\arabicfont  630}}
-\indexentry{bandwidth!\SI {3}{\deci \bel }}{\RL {\arabicfont  630}}
-\indexentry{پٹی!تین ڈیسی بیل}{\RL {\arabicfont  630}}
-\indexentry{tuned amplifier}{\RL {\arabicfont  649}}
-\indexentry{ہمسر ایمپلیفائر}{\RL {\arabicfont  649}}
-\indexentry{antenna}{\RL {\arabicfont  649}}
-\indexentry{اینٹینا}{\RL {\arabicfont  649}}
-\indexentry{electromagnetic waves}{\RL {\arabicfont  649}}
-\indexentry{برقناطیسی موج}{\RL {\arabicfont  649}}
+\indexentry{filter}{\RL {\arabicfont  657}}
+\indexentry{چھلنی}{\RL {\arabicfont  657}}
+\indexentry{filter!low-pass}{\RL {\arabicfont  657}}
+\indexentry{low-pass filter}{\RL {\arabicfont  657}}
+\indexentry{چھلنی!پست گزار}{\RL {\arabicfont  657}}
+\indexentry{پست گزار چھلنی}{\RL {\arabicfont  657}}
+\indexentry{filter!high-pass}{\RL {\arabicfont  657}}
+\indexentry{high-pass filter}{\RL {\arabicfont  657}}
+\indexentry{چھلنی!بلند گزار}{\RL {\arabicfont  657}}
+\indexentry{بلند گزار چھلنی}{\RL {\arabicfont  657}}
+\indexentry{filter!band-pass}{\RL {\arabicfont  657}}
+\indexentry{band-pass filter}{\RL {\arabicfont  657}}
+\indexentry{چھلنی!پٹی گزار}{\RL {\arabicfont  657}}
+\indexentry{پٹی گزار چھلنی}{\RL {\arabicfont  657}}
+\indexentry{filter!band-stop}{\RL {\arabicfont  657}}
+\indexentry{band-stop filter}{\RL {\arabicfont  657}}
+\indexentry{چھلنی!پٹی روک}{\RL {\arabicfont  657}}
+\indexentry{پٹی روک چھلنی}{\RL {\arabicfont  657}}
+\indexentry{phase characteristic}{\RL {\arabicfont  659}}
+\indexentry{زاویائی خصلت}{\RL {\arabicfont  659}}
+\indexentry{magnitude characteristic}{\RL {\arabicfont  659}}
+\indexentry{خصلت!مقداری}{\RL {\arabicfont  659}}
+\indexentry{مقداری خصلت}{\RL {\arabicfont  659}}
+\indexentry{time constant}{\RL {\arabicfont  659}}
+\indexentry{وقتی مستقل}{\RL {\arabicfont  659}}
+\indexentry{cut-off frequency}{\RL {\arabicfont  659}}
+\indexentry{انقطاعی تعدد}{\RL {\arabicfont  659}}
+\indexentry{ecg}{\RL {\arabicfont  662}}
+\indexentry{electrocardiogram}{\RL {\arabicfont  662}}
+\indexentry{برقی قلب نگار}{\RL {\arabicfont  662}}
+\indexentry{filter!notch}{\RL {\arabicfont  662}}
+\indexentry{notch filter}{\RL {\arabicfont  662}}
+\indexentry{چھلنی!دندانہ}{\RL {\arabicfont  662}}
+\indexentry{دندانہ چھلنی}{\RL {\arabicfont  662}}
