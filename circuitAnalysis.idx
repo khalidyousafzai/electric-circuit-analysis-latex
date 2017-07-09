@@ -1,34 +1,21 @@
-\indexentry{filter}{\RL {\arabicfont  657}}
-\indexentry{چھلنی}{\RL {\arabicfont  657}}
-\indexentry{filter!low-pass}{\RL {\arabicfont  657}}
-\indexentry{low-pass filter}{\RL {\arabicfont  657}}
-\indexentry{چھلنی!پست گزار}{\RL {\arabicfont  657}}
-\indexentry{پست گزار چھلنی}{\RL {\arabicfont  657}}
-\indexentry{filter!high-pass}{\RL {\arabicfont  657}}
-\indexentry{high-pass filter}{\RL {\arabicfont  657}}
-\indexentry{چھلنی!بلند گزار}{\RL {\arabicfont  657}}
-\indexentry{بلند گزار چھلنی}{\RL {\arabicfont  657}}
-\indexentry{filter!band-pass}{\RL {\arabicfont  657}}
-\indexentry{band-pass filter}{\RL {\arabicfont  657}}
-\indexentry{چھلنی!پٹی گزار}{\RL {\arabicfont  657}}
-\indexentry{پٹی گزار چھلنی}{\RL {\arabicfont  657}}
-\indexentry{filter!band-stop}{\RL {\arabicfont  657}}
-\indexentry{band-stop filter}{\RL {\arabicfont  657}}
-\indexentry{چھلنی!پٹی روک}{\RL {\arabicfont  657}}
-\indexentry{پٹی روک چھلنی}{\RL {\arabicfont  657}}
-\indexentry{phase characteristic}{\RL {\arabicfont  659}}
-\indexentry{زاویائی خصلت}{\RL {\arabicfont  659}}
-\indexentry{magnitude characteristic}{\RL {\arabicfont  659}}
-\indexentry{خصلت!مقداری}{\RL {\arabicfont  659}}
-\indexentry{مقداری خصلت}{\RL {\arabicfont  659}}
-\indexentry{time constant}{\RL {\arabicfont  659}}
-\indexentry{وقتی مستقل}{\RL {\arabicfont  659}}
-\indexentry{cut-off frequency}{\RL {\arabicfont  659}}
-\indexentry{انقطاعی تعدد}{\RL {\arabicfont  659}}
-\indexentry{ecg}{\RL {\arabicfont  662}}
-\indexentry{electrocardiogram}{\RL {\arabicfont  662}}
-\indexentry{برقی قلب نگار}{\RL {\arabicfont  662}}
-\indexentry{filter!notch}{\RL {\arabicfont  662}}
-\indexentry{notch filter}{\RL {\arabicfont  662}}
-\indexentry{چھلنی!دندانہ}{\RL {\arabicfont  662}}
-\indexentry{دندانہ چھلنی}{\RL {\arabicfont  662}}
+\indexentry{Laplace transform}{\RL {\arabicfont  669}}
+\indexentry{لاپلاس بدل}{\RL {\arabicfont  669}}
+\indexentry{frequency!complex}{\RL {\arabicfont  669}}
+\indexentry{complex!frequency}{\RL {\arabicfont  669}}
+\indexentry{تعدد!مخلوط}{\RL {\arabicfont  669}}
+\indexentry{مخلوط تعدد}{\RL {\arabicfont  669}}
+\indexentry{Fourier transform}{\RL {\arabicfont  670}}
+\indexentry{فوریئر بدل}{\RL {\arabicfont  670}}
+\indexentry{Laplace!inverse transform}{\RL {\arabicfont  670}}
+\indexentry{inverse Laplace transform}{\RL {\arabicfont  670}}
+\indexentry{لاپلاس بدل!الٹ}{\RL {\arabicfont  670}}
+\indexentry{الٹ لاپلاس بدل}{\RL {\arabicfont  670}}
+\indexentry{partial fraction expansion}{\RL {\arabicfont  670}}
+\indexentry{جزوی کسری پھیلاو}{\RL {\arabicfont  670}}
+\indexentry{impulse!function}{\RL {\arabicfont  670}}
+\indexentry{اکائی جھٹکا تفاعل}{\RL {\arabicfont  670}}
+\indexentry{unit step function}{\RL {\arabicfont  670}}
+\indexentry{سیڑھی!تفاعل}{\RL {\arabicfont  670}}
+\indexentry{اکائی سیڑھی تفاعل}{\RL {\arabicfont  670}}
+\indexentry{singularity function}{\RL {\arabicfont  670}}
+\indexentry{یکتائی تفاعل}{\RL {\arabicfont  670}}

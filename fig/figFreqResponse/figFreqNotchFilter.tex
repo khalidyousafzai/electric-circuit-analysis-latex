@@ -1,0 +1,40 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{steinmetz}		%\phase to show angle of phasors
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{pgfplots,filecontents}
+%\pgfplotsset{compat=1.9}
+%\usepgfplotslibrary{polar}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+%\usepackage{tikz-3dplot}
+%\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+%\input{../../tex/myEMTvectors.tex}
+\usepackage{graphics}
+\usepackage[]{graphicx} 
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+
+
+
+%\pgfplotsset{major y grid style={dashed}}
+
+\begin{document}
+\begin{urdufont}
+
+
+\begin{tikzpicture}
+\begin{axis}[scaled x ticks=false,xlabel={$t\,(\si{\milli\second})$},ylabel=\empty, ylabel style={rotate=-90},xtick={0.01,0.02,0.03,0.04},xticklabels={$10$,$20$,$30$,$40$},ytick={-1,1,-0.15,0.15},yticklabels={$\SI{-1}{\volt}$,$\SI{1}{\volt}$,$\SI{-0.15}{\volt}$,$\SI{0.15}{\volt}$}]
+\addplot [black] table [x index={0}, y index={1}]{figFreqNotchFilterA.dat}node[pos=0.07,pin=45:{\RL{داخلی اشارہ}}]{};
+\addplot [black] table [x index={0}, y index={1}]{figFreqNotchFilterB.dat};
+\addplot[mark=none,color=black]coordinates {(0.007,0.15)}node[pin=75:{\RL{خارجی اشارہ}}]{};
+\end{axis}%
+\end{tikzpicture}
+\end{urdufont}
+\end{document}

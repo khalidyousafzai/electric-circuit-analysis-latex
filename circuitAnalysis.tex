@@ -12,6 +12,7 @@
 \usepackage{ifdraft}
 \usetikzlibrary{3d,shadings,fadings,intersections,calc,decorations.markings,decorations.pathreplacing,external}
 
+
 %\tikzexternalize[mode=list and make] %disable to generate figures
 %\tikzexternaldisable  %enables figures after this command. put this is the tex file
 
@@ -52,6 +53,10 @@
 \newcommand*{\pf}{{\ensuremath{{\textup{pf}}}}}
 \newcommand*{\rms}{{\ensuremath{\textup{rms}}}}           %rms
 \newcommand*{\BW}{{\ensuremath{{\textup{BW}}}}}   %bandwidth
+
+\newcommand*{\Laplace}{\mathcal{L}}   %Laplace transform
+\newcommand*{\Fourier}{\mathcal{F}}   %Fourier transform
+\newcommand*{\bF}{{\ensuremath{{\textup{F}}}}}    %fourier transform of 
 %==========================
 %my styles
 \pgfplotsset{
@@ -100,8 +105,8 @@ every axis x label/.style={
 \graphicspath{{./fig/figFrontPage/}{./fig/figBasicConcepts/}{./fig/figResistive/}{./fig/figNodalLoop/}{./fig/figOpamp/}{./fig/figTheorem/}{./fig/figCapacitorInductor/}{./fig/figTransients/}{./fig/figFreqResponse/}}		%paths to figures
 
 
-%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktTheorems,./tex/cktCapacitorInductor,./tex/cktTransients,./tex/cktSteadyStateAC,./tex/cktSteadyStatePower,./tex/cktMagneticallyCoupledNetworks,./tex/cktPolyphaseCircuits,./tex/cktFrequencyResponse,./tex/cktToDoList}
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktFrequencyResponseFilter,./tex/cktToDoList}%
+%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktTheorems,./tex/cktCapacitorInductor,./tex/cktTransients,./tex/cktSteadyStateAC,./tex/cktSteadyStatePower,./tex/cktMagneticallyCoupledNetworks,./tex/cktPolyphaseCircuits,./tex/cktFrequencyResponse,./tex/cktLaplaceTransform,./tex/cktToDoList}
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktLaplaceTransform,./tex/cktToDoList}%
 
 
 
@@ -162,7 +167,7 @@ every axis x label/.style={
 \include{./tex/cktMagneticallyCoupledNetworks}
 \include{./tex/cktPolyphaseCircuits}
 \include{./tex/cktFrequencyResponse}
-\include{./tex/cktFrequencyResponseFilter}
+\include{./tex/cktLaplaceTransform}
 
 %\include{./tex/emtEndOfBookTableDivergenceCurlGradientLaplacian}
 %\include{./tex/toDoList}
