@@ -2,7 +2,7 @@
 
 \حصہ{تعریف}
 کسی تفاعل \عددی{f(t)} کا \اصطلاح{لاپلاس بدل}\فرہنگ{لاپلاس بدل}\حاشیہب{Laplace transform}\فرہنگ{Laplace transform} درج ذیل مساوات دیتا ہے
-\begin{align}
+\begin{align}\label{مساوات_لاپلاس_بدل_تعارف}
 \Laplace[f(t)]=\bF(s)=\int_0^{\infty} f(t) e^{-st}\dif t
 \end{align}
 جہاں \عددی{s} \اصطلاح{مخلوط تعدد}\فرہنگ{مخلوط تعدد}\فرہنگ{تعدد!مخلوط}\حاشیہب{complex frequency}\فرہنگ{complex!frequency}\فرہنگ{frequency!complex} ہے
@@ -31,3 +31,304 @@ f(t)=0\quad t<0
 
 \حصہ{تفاعل یکتائی}
 برقی ادوار میں \اصطلاح{اکائی سیڑھی تفاعل}\فرہنگ{اکائی سیڑھی تفاعل}\فرہنگ{سیڑھی!تفاعل}\حاشیہب{unit step function}\فرہنگ{unit step function} \عددی{u(t)} اور  \اصطلاح{اکائی جھٹکا تفاعل}\فرہنگ{اکائی جھٹکا تفاعل}\حاشیہب{unit impulse function}\فرہنگ{impulse!function}  \عددی{\sigma(t)} نہایت اہم ہیں۔ایسے تفاعل جو یا تو خود کہیں غیر متناہی ہوں اور یا ان کا تفرق  کہیں غیر متناہی ہو کو \اصطلاح{یکتائی تفاعل}\فرہنگ{یکتائی تفاعل}\حاشیہب{singularity function}\فرہنگ{singularity function} کہتا ہے۔ اکائی سیڑھی تفاعل اور اکائی جھٹکا تفاعل یکتائی تفاعل ہیں۔اکائی سیڑھی تفاعل پر صفحہ \حوالہصفحہ{حصہ_عارضی_دھڑکن} پر حصہ \حوالہ{حصہ_عارضی_دھڑکن} میں ہم غور کر چکے ہیں۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw[gray](-0.5,0)--(3,0)node[right]{$t$};
+\draw[gray](0,-0.5)--(0,2)node[left]{$u(t)$};
+\draw(-0.2,0)--(0,0)--(0,1)node[left]{$1$}--(3,1);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw[gray](-0.5,0)--(3,0)node[right]{$t$};
+\draw[gray](0,-0.5)--(0,2)node[left]{$u(t-a)$};
+\draw(-0.2,0)--(1,0)node[below]{$a$}--(1,1)--(3,1);
+\draw[dashed] (1,1)--(0,1)node[left]{$1$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{اکائی سیڑھی تفاعل۔}
+\label{شکل_لاپلاس_اکائی_سیڑھی_الف}
+\end{figure}
+
+شکل \حوالہ{شکل_لاپلاس_اکائی_سیڑھی_الف}-الف میں دکھایا گیا اکائی سیڑھی تفاعل درج ذیل لکھا جاتا ہے۔
+\begin{align}
+u(t)=
+\begin{cases}
+0 & t<0\\
+1& t>0
+\end{cases}
+\end{align}
+اکائی سیڑھی تفاعل \عددی{u(t)}، جیسے باب \حوالہ{باب_عارضی_رد_عمل} میں ذکر کیا گیا، لمحہ \عددی{t=\SI{0}{\second}} پر سوئچ چالو کرتے ہوئے  دور پر \عددی{\SI{1}{\volt}} یا \عددی{\SI{1}{\ampere}} لاگو کرنے کے مترادف ہے۔آئیں شکل \حوالہ{شکل_لاپلاس_اکائی_سیڑھی_الف}-الف میں دکھائے گئے  اکائی سیڑھی تفاعل کا لاپلاس بدل حاصل کریں۔
+%=====================
+\ابتدا{مثال}\شناخت{مثال_لاپلاس_اکائی_سیڑھی_بدل}
+شکل \حوالہ{شکل_لاپلاس_اکائی_سیڑھی_الف} کے تفاعل کا لاپلاس بدل حاصل کریں۔
+
+حل:مساوات \حوالہ{مساوات_لاپلاس_بدل_تعارف} کے استعمال سے شکل-الف کا لاپلاس بدل حاصل کرتے ہیں۔
+\begin{align*}
+\Laplace[u(t)]&=\int_0^{\infty} u(t) e^{-st}\dif t\\
+&=\int_0^{\infty} 1e^{-st} \dif t\\
+&=\left . \frac{e^{-st}}{-s}\right|_0^{\infty}\\
+&=\frac{e^{-\infty s}-e^{-0 s}}{-s}\\
+&=\frac{1}{s} \quad \sigma >0
+\end{align*}
+حاصل ہوتا ہے  جہاں آخری قدم پر \عددی{\sigma>0} کی بنا \عددی{e^{-\infty s}=0} لکھا گیا ہے۔ اس طرح اکائی سیڑھی تفاعل کا لاپلاس بدل درج ذیل ہے۔
+\begin{align}
+\Laplace[u(t)]=\bF(s)=\frac{1}{s}
+\end{align}
+شکل \حوالہ{شکل_لاپلاس_اکائی_سیڑھی_الف}-ب میں  وقت کے لحاظ سے منتقل ہوا اکائی سیڑھی تفاعل دکھایا گیا ہے جس کو \اصطلاح{وقتی منقولہ اکائی سیڑھی تفاعل}\فرہنگ{اکائی سیڑھی تفاعل!وقتی منقولہ}\حاشیہب{time-shifted unit step function}\فرہنگ{unit step function!time-shifted} کہتے ہیں۔آئیں اس کا لاپلاس بدل حاصل کریں۔
+\begin{align*}
+\Laplace[u(t-a)]&=\int_0^{\infty} u(t-a) e^{-st} \dif t\\
+&=\int_0^a 0 e^{-st} \dif t+\int_a^{\infty} 1 e^{-st}\dif t\\
+&=0+\left. \frac{e^{-st}}{-s}\right|_a^{\infty}\\
+&=\frac{e^{-as}}{s} \quad \sigma >0
+\end{align*} 
+اس طرح وقتی منقولہ اکائی سیڑھی تفاعل کا لاپلاس بدل درج ذیل ہے۔
+\begin{align}\label{مساوات_لاپلاس_منقولہ_اکائی_سیڑھی}
+\Laplace[u(t-a)]=F(s)=\frac{e^{-as}}{s}
+\end{align}
+\انتہا{مثال}
+%=============================
+\ابتدا{مثال}\شناخت{مثال_لاپلاس_دھڑکن}
+شکل \حوالہ{شکل_لاپلاس_دھڑکن}-الف میں دو عدد اکائی سیڑھی تفاعل سے دھڑکن کا حصول دکھایا گیا ہے۔دھڑکن کا لاپلاس بدل حاصل کریں۔شکل-ب میں وقت کے لحاظ سے منتقل شدہ دھڑکن دکھائی گئی ہے۔اس کا بھی لاپلاس بدل حاصل کریں۔ 
+ \begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw[gray](-0.5,0) --(3,0)node[below]{$t$};
+\draw[gray](0,-2)--(0,2)node[left]{$u(t)$};
+\draw (0,0)--(0,0)--(0,1)node[left]{$1$}--(3,1);
+\draw (-0.25,0)--(1,0)node[above]{$a$}--(1,-1)--(3,-1);
+\draw[dashed](1,-1)--(0,-1)node[left]{$-1$};
+\end{tikzpicture}
+\begin{tikzpicture}[yshift=-3cm]
+\draw[gray](-0.5,0) --(3,0)node[below]{$t$};
+\draw[gray](0,-0.25)--(0,2)node[left]{$u(t)$};
+\draw (-0.25,0)--(0,0)--(0,1)node[left]{$1$}--(1,1) --(1,0)node[below]{$a$}--(3,0);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw[gray](-0.5,0) --(3,0)node[below]{$t$};
+\draw[gray](0,-2)--(0,2)node[left]{$u(t)$};
+\draw (-0.25,0)--(1,0)node[below]{$b$}--(1,1)--(3,1);
+\draw (-0.25,0)--(2,0)node[above]{$c$}--(2,-1)--(3,-1);
+\draw[dashed](1,1)--(0,1)node[left]{$1$};
+\draw[dashed](2,-1)--(0,-1)node[left]{$-1$};
+\end{tikzpicture}
+\begin{tikzpicture}[yshift=-3cm]
+\draw[gray](-0.5,0) --(3,0)node[below]{$t$};
+\draw[gray](0,0)--(0,2)node[left]{$u(t)$};
+\draw (-0.25,0)--(1,0)node[below]{$b$}--(1,1)--(2,1) --(2,0)node[below]{$c$}--(3,0);
+\draw[dashed](1,1)--(0,1)node[left]{$1$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{مثال \حوالہ{مثال_لاپلاس_دھڑکن} کے  اشکال۔}
+\label{شکل_لاپلاس_دھڑکن}
+\end{figure}
+
+حل:شکل \حوالہ{شکل_لاپلاس_دھڑکن}-الف کے دھڑکن کو درج ذیل لکھا جا سکتا ہے۔
+\begin{align}
+f(t)=
+\begin{cases}
+0& t<0\\
+1& 0<t<a\\
+0& t>a
+\end{cases}
+\end{align}
+لہٰذا لاپلاس تکمل درج ذیل ہو گا
+\begin{align*}
+\Laplace[f(t)]&=\int_0^{\infty} f(t) e^{-st} \dif t\\
+&=\int_0^a 1e^{-st} \dif t\\
+&=\frac{1-e^{-as}}{s} \quad \sigma >0
+\end{align*}
+یعنی دھڑکن کا لاپلاس بدل
+\begin{align}
+\Laplace[f(t)]=\frac{1-e^{-as}}{s}
+\end{align}
+ہو گا۔شکل \حوالہ{شکل_لاپلاس_دھڑکن}-ب کے تفاعل کو اکائی سیڑھی تفاعل کا مجموعہ لکھتے ہوئے
+\begin{align*}
+f(t)=u(t-b)-u(t-c)
+\end{align*} 
+لاپلاس بدل لکھتے ہیں۔
+\begin{align*}
+\Laplace[f(t)]=\Laplace[u(t-b)]-\Laplace[u(t-c)]
+\end{align*}
+مساوات \حوالہ{مساوات_لاپلاس_منقولہ_اکائی_سیڑھی} کے استعمال سے درج بالا کو 
+\begin{align}
+\Laplace[f(t)]=\bF(s)=\frac{e^{-bs}-e^{-cs}}{s}
+\end{align}
+لکھ سکتے ہیں۔
+\انتہا{مثال}
+%===========================
+
+شکل \حوالہ{شکل_لاپلاس_اکائی_جھٹکا_تفاعل}-الف کے مستطیل کی چوڑائی \عددی{a} اور لمبائی \عددی{\tfrac{1}{a}} ہے لہٰذا اس کا رقبہ \عددی{(a\times \tfrac{1}{a}=1)}
+ اکائی کے برابر ہے۔مستطیل کی چوڑائی لامتناہی کم \عددی{(a \to 0)} کرنے سے اس کی لمبائی لامتناہی بڑھ \عددی{(\tfrac{1}{a} \to \infty)} جائے گی البتہ اس کا رقبہ اکائی ہی رہے گا۔ایسا مستطیل جس کی چوڑائی صفر کے قریب تر اور رقبہ اکائی ہو کو \اصطلاح{اکائی جھٹکا تفاعل}\فرہنگ{اکائی جھٹکا تفاعل}\حاشیہب{unit impulse function}\فرہنگ{impulse!unit}\فرہنگ{unit impulse function} تصور کیا جا سکتا ہے۔لمحہ \عددی{t_0} پر پائے جانے والے اکائی جھٹکا تفاعل کو \عددی{\delta(t-t_0)} لکھا جاتا ہے جس کو ترسیمی طور پر شکل \حوالہ{شکل_لاپلاس_اکائی_جھٹکا_تفاعل}-ب میں دکھایا گیا ہے۔اکائی جھٹکا تفاعل کو کئی دیگر تفاعل سے بھی ظاہر کیا جا سکتا ہے۔
+
+اکائی جھٹکا تفاعل کو الجبرائی صورت میں لکھتے ہیں۔
+\begin{gather}
+\begin{aligned}\label{مساوات_لاپلاس_اکائی_جھٹکا_تفاعل_الجبرائی_تعریف}
+\delta(t-t_0)&=0 \quad t\ne t_0\\
+\int_{t_0-\epsilon}^{t_0+\epsilon} \delta(t-t_0)\dif t &=1 \quad  \epsilon >0
+\end{aligned}
+\end{gather}
+اکائی جھٹکے کی قیمت لمحہ \عددی{t=t_0} پر غیر معین ہے جبکہ اس لمحے کے علاوہ اس کی قیمت صفر کے برابر ہے البتہ جھٹکے کا رقبہ اکائی ہے۔ جھٹکے کے رقبے کو تفاعل کا \اصطلاح{زور}\فرہنگ{زور} بھی کہتے ہیں۔
+ \begin{figure}
+\centering
+\begin{subfigure}{0.6\textwidth}
+\centering
+\begin{tikzpicture}
+\draw[gray](0,0)--(6,0)node[below]{$t$};
+\draw[gray](0,0)--(0,2.5)node[left]{$f(t)$};
+\draw(0,0)--(2.5,0)node[shift={(-0.3,-0.3)}]{$t_0-\frac{a}{2}$}--(2.5,2)--(4,2)--(4,0)node[shift={(0.3,-0.3)}]{$t_0+\frac{a}{2}$}--(6,0);
+\draw[stealth-stealth] (2.5,0)++(-0.3,0)--++(0,2)node[pos=0.5,fill=white]{$\frac{1}{a}$};
+\draw(3.25,0)node[below]{$t_0$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.4\textwidth}
+\centering
+\begin{tikzpicture}
+\draw[gray](0,0)--(3,0)node[below]{$t$};
+\draw[gray](0,0)--(0,2.5)node[left]{$f(t)$};
+ \draw[-latex](1.5,0)node[below]{$t_0$}--++(0,2)node[pos=0.7,right]{$\delta(t-t_0)$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{اکائی جھٹکا تفاعل۔}
+\label{شکل_لاپلاس_اکائی_جھٹکا_تفاعل}
+\end{figure}
+
+اکائی جھٹکا تفاعل کی ایک اہم خاصیت جسے \اصطلاح{خاصیت نمونہ بندی}\فرہنگ{خاصیت نمونہ بندی}\فرہنگ{نمونہ بندی!خاصیت}\حاشیہب{sampling property}\فرہنگ{sampling property} کہتے ہیں کو درج ذیل تکمل سے سمجھا جا سکتا ہے
+\begin{align*}
+\int_0^{\infty} f(t) \delta(t-t_0) \dif t&=\int_{t_0-\epsilon}^{t_0+\epsilon} f(t_0) \delta(t-t_0) \dif t\\
+&=f(t_0) \int_{t_0-\epsilon}^{t_0+\epsilon} \delta(t-t_0) \dif t\\
+&= f(t_0)
+\end{align*}
+جہاں \عددی{t_0-\epsilon} تا \عددی{t_0+\epsilon} کے علاوہ \عددی{\delta(t-t_0)=0} ہے لہٰذا تکمل کے حدود یہی کر دیے گئے ہیں۔چونکہ \عددی{\epsilon \to 0} ہے لہٰذا ان حدود کے مابین کسی بھی تفاعل کی قیمت میں تبدیلی کو نظر انداز کرتے ہوئے تفاعل کی قیمت \عددی{f(t_0)} لی جا سکتی ہے۔غیر تغیر \عددی{f(t_0)} کو تکمل کے باہر لے جایا جا سکتا ہے۔یوں ہمارے پاس صرف \عددی{\delta(t-t_0)} کا تکمل رہ جاتا ہے جو مساوات \حوالہ{مساوات_لاپلاس_اکائی_جھٹکا_تفاعل_الجبرائی_تعریف} کے تحت اکائی کے برابر ہے۔درج بالا مساوات کو درج ذیل لکھا جا سکتا ہے جہاں سے واضح ہے کہ اکائی جھٹکا تفاعل \عددی{f(t)} کا نمونہ \عددی{t=t_0} پر حاصل کرتا ہے۔
+\begin{align}\label{مساوات_لاپلاس_خاصیت_نمونہ_بندی}
+\int_{t_1}^{t_2} f(t) \delta(t-t_0)=
+\begin{cases}
+f(t_0)& t_1<t_0<t_2\\
+0&t_0<t_1, \, t_0>t_2 
+\end{cases}
+\end{align}
+
+اگرچہ حقیقی دنیا میں ہم لمحاتی طور پر لامحدود قیمت کا دباو یا رو کسی دور پر لاگو نہیں کر سکتے  ہیں لہٰذا حقیقی دنیا میں اکائی جھٹکا تفاعل نہیں پایا جاتا ہے۔اس کے باوجود یہ ایک اہم تفاعل ہے جس کو استعمال کرتے ہوئے الجبرائی طور پر مختلف اعمال کا مطالعہ ممکن بنایا جاتا ہے۔مثال کے طور پر آسمانی بجلی کو اکائی جھٹکا تصور کیا جا سکتا ہے۔اسی طرح آواز کو عددی صورت میں تبدیل کرنے کے عمل پر غور کے لئے اس تفاعل کا سہارا لیا جاتا ہے۔\اصطلاح{مماثل سے عددی مبادل کار}\فرہنگ{مماثل سے عددی مبادل کار}\حاشیہب{analog to digital converter, ADC}\فرہنگ{analog to digital converter}\فرہنگ{ADC}  کی مدد سے مماثل اشارے کو عددی صورت میں  تبدیل کیا جاتا ہے۔انسانی کان \عددی{\SI{20}{\hertz}} تا \عددی{\SI{20}{\kilo\hertz}} تک کی آواز سن سکتا ہے۔\اصطلاح{اصول نِی کوسٹ}\فرہنگ{اصول نی کوسٹ}\فرہنگ{نی کوسٹ!اصول}\حاشیہب{Nyquist criterion}\فرہنگ{Nyquist!criterion}  کے تحت کسی بھی اشارے کی مکمل معلومات برقرار رکھنے کی خاطر اشارے کی بلند تر تعدد کی دگنی تعدد پر نمونہ حاصل کرنا ضروری ہے۔یہی وجہ ہے کہ انسانی آواز کے عددی نمونے \عددی{\SI{44.1}{\kilo\hertz}} پر حاصل کئے جاتے ہیں۔
+%===================
+
+\ابتدا{مثال}
+اکائی جھٹکا تفاعل کا لاپلاس بدل حاصل کریں۔
+
+حل:لاپلاس تکمل لکھتے ہیں۔
+\begin{align*}
+\Laplace[\delta(t-t_0)]&=\int_0^{\infty} \delta(t-t_0) e^{-st} \dif t\\
+&=\int_{t_0-\epsilon}^{t_0+\epsilon} \delta(t-t_0) e^{-st} \dif t\\
+&=e^{-s t_0} \int_{t_0-\epsilon}^{t_0+\epsilon} \delta(t-t_0) \dif t\\
+&=e^{-st_0}
+\end{align*}
+اس جواب  کو مساوات \حوالہ{مساوات_لاپلاس_خاصیت_نمونہ_بندی} میں دی گئی خاصیت نمونہ بندی کی مدد سے بھی حاصل کیا جا سکتا ہے یعنی
+  \begin{align*}
+\Laplace[\delta(t-t_0)]&=\int_0^{\infty} \delta(t-t_0) e^{-st} \dif t
+\end{align*}
+میں \عددی{e^{-st}=f(t)} تصور کرتے ہوئے خاصیت نمونہ بندی استعمال کرتے  ہوئے درج ذیل لکھا جا سکتا ہے۔
+\begin{align}
+\Laplace[\delta(t-t_0)]=\bF(s)=e^{-st_0}
+\end{align}
+چونکہ \عددی{e^{-0 s} =1} کے برابر ہے لہٰذا درج بالا سے درج ذیل لکھا جا سکتا ہے۔
+\begin{align}
+\Laplace[\delta(t)]=\bF(s)=1
+\end{align}
+\انتہا{مثال}
+%====================
+\حصہ{لاپلاس بدل کی جوڑیاں}
+آئیں کئی اہم لاپلاس بدل کی جوڑیاں حاصل کریں۔
+
+%=======================
+\ابتدا{مثال}
+تفاعل \عددی{f(t)=1} کا لاپلاس بدل حاصل کریں۔
+
+حل:لاپلاس تکمل لکھتے ہوئے حل کرتے ہیں۔
+\begin{align*}
+\Laplace[1]&=\int_0^{\infty} 1 e^{-st} \dif t\\
+&=\left. \frac{e^{-st}}{-s} \right|_0^{\infty}\\
+&=\frac{1}{s}
+\end{align*}
+\انتہا{مثال}
+%=======================
+\ابتدا{مثال}
+تفاعل \عددی{f(t)=t} کا لاپلاس بدل دریافت کریں۔
+
+حل:لاپلاس تکمل استعمال کرتے ہیں۔
+\begin{align*}
+\bF(s)=\int_0^{\infty} t e^{-st} \dif t
+\end{align*}
+تکمل کو ٹکڑوں میں حاصل کرنے کی خاطر ہم 
+\begin{align*}
+u&=t\\
+\dif v&=e^{-st} \dif t
+\end{align*}
+ لیتے ہیں۔یوں
+\begin{align*}
+\dif u &= \dif t\\
+v&=\int e^{-st} \dif t=-\frac{e^{-st}}{-s}
+\end{align*}
+ہو گا لہٰذا
+\begin{gather}
+\begin{aligned}
+\bF(s)&=\left. -\frac{t}{s}e^{-st}\right|_0^{\infty}+\int_0^{\infty} \frac{e^{-st}}{s} \dif t\\
+&=\frac{1}{s^2} \quad \sigma>0
+\end{aligned}
+\end{gather}
+حاصل ہوتا ہے۔
+\انتہا{مثال}
+%==========================
+\ابتدا{مثال}
+تفاعل \عددی{e^{at}} کا لاپلاس بدل حاصل کریں۔
+
+حل:
+\begin{align*}
+\bF(s)&=\int_0^{\infty} e^{at} e^{-st} \dif t\\
+&=\int_0^{\infty} e^{-(s-a)t} \dif t\\
+&=\left. \frac{e^{-(s-a)t}}{-(s-a)}\right|_0^{\infty} \quad \sigma>0\\
+&=\frac{1}{s-a}
+\end{align*}
+\انتہا{مثال}
+%===========================
+\ابتدا{مثال}
+تفاعل \عددی{\cos \omega t} کا لاپلاس بدل حاصل کریں۔
+
+حل:کوسائن کو \عددی{\tfrac{e^{+j \omega t}+e^{-j\omega t}}{2}} لکھتے ہوئے لاپلاس تکمل حل کرتے ہیں۔
+\begin{align*}
+\bF(s)&=\int_0^{\infty} \frac{e^{+j\omega t}+e^{-j\omega t}}{2} e^{-st} \dif t\\
+&=\int_0^{\infty} \frac{e^{-(s-j\omega)t}+e^{-(s+j\omega)t}}{2} \dif t\\
+&=\frac{1}{2}\left(\frac{1}{s-j\omega}+\frac{1}{s+j\omega}\right) \quad \sigma>0\\
+&=\frac{s}{s^2+\omega^2}
+\end{align*}
+\انتہا{مثال}
+%=======================
+
+\ابتدا{مثال}
+تفاعل \عددی{\sin \omega t} کا لاپلاس بدل حاصل کریں۔
+
+حل:سائن کو \عددی{\tfrac{e^{+j \omega t}-e^{-j\omega t}}{j2}} لکھتے ہوئے لاپلاس تکمل حل کرتے ہیں۔
+\begin{align*}
+\bF(s)&=\int_0^{\infty} \frac{e^{+j\omega t}-e^{-j\omega t}}{j2} e^{-st} \dif t\\
+&=\int_0^{\infty} \frac{e^{-(s-j\omega)t}-e^{-(s+j\omega)t}}{j2} \dif t\\
+&=\frac{1}{j2}\left(\frac{1}{s-j\omega}-\frac{1}{s+j\omega}\right) \quad \sigma>0\\
+&=\frac{\omega}{s^2+\omega^2}
+\end{align*}
+\انتہا{مثال}
+%=======================
+
+جدول میں کئی لاپلاس بدل کی جوڑیاں پیش کی گئی ہیں۔

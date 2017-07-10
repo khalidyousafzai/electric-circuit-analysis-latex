@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  9 JUL 2017 19:40
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  10 JUL 2017 19:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3089,24 +3089,36 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 9.5pt on input line 7.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 7.5pt on input line 7.
-[669]) [670] (./circuitAnalysis.aux (./tex/cktBasics.aux)
-(./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
-(./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
-(./tex/cktTransients.aux) (./tex/cktSteadyStateAC.aux)
-(./tex/cktSteadyStatePower.aux) (./tex/cktMagneticallyCoupledNetworks.aux)
-(./tex/cktPolyphaseCircuits.aux) (./tex/cktFrequencyResponse.aux)
-(./tex/cktLaplaceTransform.aux))
+[669]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 44.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 5.70004pt on input line 68.
+ [670] [671] [672] [673] [674] [675] [676] [677] [678]) [679] [680
+
+
+]
+(./circuitAnalysis.aux (./tex/cktBasics.aux) (./tex/cktResistive.aux)
+(./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux) (./tex/cktTheorems.aux)
+(./tex/cktCapacitorInductor.aux) (./tex/cktTransients.aux)
+(./tex/cktSteadyStateAC.aux) (./tex/cktSteadyStatePower.aux)
+(./tex/cktMagneticallyCoupledNetworks.aux) (./tex/cktPolyphaseCircuits.aux)
+(./tex/cktFrequencyResponse.aux) (./tex/cktLaplaceTransform.aux))
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 2.26395pt have occurred.
+
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 45620 strings out of 493918
- 1085866 string characters out of 6150562
- 1250898 words of memory out of 5000000
- 47991 multiletter control sequences out of 15000+600000
- 29863 words of font info for 122 fonts, out of 8000000 for 9000
+ 45751 strings out of 493918
+ 1088804 string characters out of 6150562
+ 1251215 words of memory out of 5000000
+ 48119 multiletter control sequences out of 15000+600000
+ 37447 words of font info for 145 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,13n,81p,10476b,586s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,18n,81p,10476b,1104s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (9 pages).
+Output written on circuitAnalysis.pdf (19 pages).
