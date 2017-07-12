@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  11 JUL 2017 18:36
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  12 JUL 2017 17:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3097,12 +3097,12 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 5.70004pt on input line 68.
  [671] [672] [673] [674] [675] [676] [677] [678] [679] [680]
 [681]
-Overfull \hbox (45.38116pt too wide) in paragraph at lines 409--425
+Overfull \hbox (45.38116pt too wide) in paragraph at lines 412--428
  [][][][] 
  []
 
 
-Overfull \hbox (7.2312pt too wide) in paragraph at lines 427--429
+Overfull \hbox (7.2312pt too wide) in paragraph at lines 430--432
 [][]\EU1/JameelNooriNastaleeq(1)/m/n/10 مثال  []\EU1/JameelNooriNastaleeq(0)/bx
 /n/10 8[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx
 /n/10 13[]\EU1/JameelNooriNastaleeq(1)/m/n/10 : تفاعل  $[] \OML/zplm/m/it/10 !t
@@ -3113,7 +3113,7 @@ elNooriNastaleeq(0)/bx/n/10 13[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 میں م
  []
 
 [682] [683]
-Overfull \hbox (1.34988pt too wide) in paragraph at lines 455--457
+Overfull \hbox (1.34988pt too wide) in paragraph at lines 458--460
 [][]\EU1/JameelNooriNastaleeq(1)/m/n/10 مشق  []\EU1/JameelNooriNastaleeq(0)/bx/
 n/10 3[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/
 n/10 13[]\EU1/JameelNooriNastaleeq(1)/m/n/10 : تفاعل  $[] \OML/zplm/m/it/10 !t$
@@ -3122,19 +3122,31 @@ zplm/m/it/10 s\OT1/zplm/m/n/10 ) = []$  \EU1/JameelNooriNastaleeq(1)/m/n/10 ہے
 مسئلہ ضرب وقت کی مدد سے تفاعل  $\OML/zplm/m/it/10 t [] !t$[]
  []
 
-[684]
+[684] [685]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 485.
- [685] [686] [687] [688]) [689] [690
+(Font)              scaled to size 12.0pt on input line 488.
+ [686] [687] [688] [689] [690] [691] [692]
+Overfull \hbox (9.66963pt too wide) in paragraph at lines 709--709
+[][] []
+ []
 
 
-] (./circuitAnalysis.aux
-(./tex/cktBasics.aux) (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux)
-(./tex/cktOpamp.aux) (./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
-(./tex/cktTransients.aux) (./tex/cktSteadyStateAC.aux)
-(./tex/cktSteadyStatePower.aux) (./tex/cktMagneticallyCoupledNetworks.aux)
-(./tex/cktPolyphaseCircuits.aux) (./tex/cktFrequencyResponse.aux)
-(./tex/cktLaplaceTransform.aux))
+Overfull \hbox (9.66963pt too wide) in alignment at lines 709--709
+[] [] 
+ []
+
+[693] [694] [695] [696] [697]
+Overfull \hbox (1.44083pt too wide) in paragraph at lines 839--841
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 آپ دیکھ سکتے ہیں کہ وقتی دائرہ کار میں ال
+جھاو، تعددی دائرہ کار میں ضرب کے مترادف ہے۔آئیں اس پر ایک مثال دیکھیں۔ []
+ []
+
+) [698] (./circuitAnalysis.aux (./tex/cktBasics.aux) (./tex/cktResistive.aux)
+(./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux) (./tex/cktTheorems.aux)
+(./tex/cktCapacitorInductor.aux) (./tex/cktTransients.aux)
+(./tex/cktSteadyStateAC.aux) (./tex/cktSteadyStatePower.aux)
+(./tex/cktMagneticallyCoupledNetworks.aux) (./tex/cktPolyphaseCircuits.aux)
+(./tex/cktFrequencyResponse.aux) (./tex/cktLaplaceTransform.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 2.26395pt have occurred.
@@ -3144,12 +3156,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 45771 strings out of 493918
- 1089113 string characters out of 6150562
- 1251388 words of memory out of 5000000
- 48139 multiletter control sequences out of 15000+600000
+ 45787 strings out of 493918
+ 1089487 string characters out of 6150562
+ 1251677 words of memory out of 5000000
+ 48155 multiletter control sequences out of 15000+600000
  37447 words of font info for 145 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,18n,81p,10476b,1104s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,20n,81p,10476b,1104s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (29 pages).
+Output written on circuitAnalysis.pdf (37 pages).
