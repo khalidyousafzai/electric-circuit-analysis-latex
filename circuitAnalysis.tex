@@ -50,6 +50,7 @@
 \newcommand*{\bH}{{\ensuremath{{\boldsymbol{H}}}}}                         %network functions
 \newcommand*{\bA}{{\ensuremath{{\boldsymbol{A}}}}}                         %voltage gain
 
+\newcommand*{\kB}[1]{{\ensuremath{{\textup{#1}}}}}  %Laplace symbol
 \newcommand*{\pf}{{\ensuremath{{\textup{pf}}}}}
 \newcommand*{\rms}{{\ensuremath{\textup{rms}}}}           %rms
 \newcommand*{\BW}{{\ensuremath{{\textup{BW}}}}}   %bandwidth
@@ -59,6 +60,9 @@
 \newcommand*{\bF}{{\ensuremath{{\textup{F}}}}}    %Fourier transform of 
 \newcommand*{\bP}{{\ensuremath{{\textup{P}}}}}   %Laplace fraction
 \newcommand*{\bQ}{{\ensuremath{{\textup{Q}}}}}  %Laplace fraction
+\newcommand*{\bV}{{\ensuremath{{\textup{V}}}}}  %Laplace Voltage
+\newcommand*{\bI}{{\ensuremath{{\textup{I}}}}}  %Laplace Current
+
 %==========================
 %my styles
 \pgfplotsset{
@@ -108,7 +112,7 @@ every axis x label/.style={
 
 
 %\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktTheorems,./tex/cktCapacitorInductor,./tex/cktTransients,./tex/cktSteadyStateAC,./tex/cktSteadyStatePower,./tex/cktMagneticallyCoupledNetworks,./tex/cktPolyphaseCircuits,./tex/cktFrequencyResponse,./tex/cktLaplaceTransform,./tex/cktToDoList}
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktLaplaceTransform,./tex/cktToDoList}%
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktApplicationLaplace,./tex/cktToDoList}%
 
 
 
@@ -170,6 +174,7 @@ every axis x label/.style={
 \include{./tex/cktPolyphaseCircuits}
 \include{./tex/cktFrequencyResponse}
 \include{./tex/cktLaplaceTransform}
+\include{./tex/cktApplicationLaplace}
 
 %\include{./tex/emtEndOfBookTableDivergenceCurlGradientLaplacian}
 %\include{./tex/toDoList}

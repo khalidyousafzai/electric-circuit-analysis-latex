@@ -1,0 +1,193 @@
+\باب{ادوار کا حل بذریعہ لاپلاس بدل}
+\حصہ{ادوار کا حل}
+لاپلاس بدل کا استعمال دیکھنے کی خاطر شکل \حوالہ{شکل_لاپالس_حل_امالہ_مزاحمت} میں \عددی{RL} دور کو حل کرتے ہوئے \عددی{i(t)} دریافت کرتے ہیں۔دور کی کرخوف مساوات لکھتے ہیں۔
+\begin{align*}
+v_d(t)=i(t)R+L\frac{\dif i(t)}{\dif t}
+\end{align*}
+اس دور کے  فطری حل اور جبری حل  کا مجموعہ درکار حل ہو گا۔لاپلاس بدل سے دور حل کرتے ہوئے مکمل حل ایک ہی بار میں حاصل ہوتا ہے۔درج بالا مساوات کے دونوں اطراف کا لاپلاس بدل لیتے ہیں۔
+\begin{align*}
+\Laplace\left[10 u(t)\right]& =R \Laplace[i(t)]+L\Laplace\left[\frac{\dif i(t)}{\dif t}\right]
+\end{align*}   
+صفحہ \حوالہصفحہ{جدول_لاپلاس_بدل_جوڑیاں} پر جدول \حوالہ{جدول_لاپلاس_بدل_جوڑیاں} اور صفحہ \حوالہصفحہ{جدول_لاپلاس_مسئلے} پر جدول \حوالہ{جدول_لاپلاس_مسئلے} کی مدد لیتے ہیں۔
+\begin{align*}
+\frac{10}{s}& =R \bI(s)+L[s\bI(s) -i(0)]
+\end{align*} 
+چونکہ \عددی{i(0)=\SI{0}{\ampere}} ہے لہٰذا
+\begin{align*}
+\frac{10}{s}& =R \bI(s)+sL\bI(s)
+\end{align*} 
+یعنی
+\begin{align*}
+\bI(s)=\frac{10}{s(sL+R)}
+\end{align*}
+یا
+\begin{align*}
+\bI(s)=\frac{10}{R}\left(\frac{1}{s}-\frac{1}{s+\frac{R}{L}}\right)
+\end{align*}
+حاصل ہوتا ہے جہاں جزوی کسری پھیلاو لکھی گئی ہے۔درج بالا سے وقتی تفاعل  لکھتے ہیں۔
+\begin{align*}
+i(t)=\frac{10}{R}\left(1-e^{-\frac{R}{L}t}\right)u(t)
+\end{align*}
+آپ نے دیکھا کہ مکمل حل یک وقت حاصل ہوتا ہے۔دور کی ابتدائی معلومات لاپلاس بدل لیتے وقت استعمال کی جاتی ہے۔
+
+جیسا آپ نے دیکھا، لاپلاس بدل سے تفرقی و تکملی مساوات الجبرائی مساوات میں تبدیل ہو جاتی ہے جس سے درکار تفاعل کا لاپلاس بدل نہایت آسانی سے حاصل ہوتا ہے۔حاصل تفاعل کا الٹ لاپلاس بدل وقتی تفاعل دیتا ہے۔الٹ لاپالاس بدل جدول کی مدد سے حاصل کیا جاتا ہے۔
+\begin{figure}
+\centering
+\begin{circuitikz}
+\draw(0,0) to [american voltage source,l={${ v_d(t)=10u(t)}$}]++(0,\y) to [resistor,i^>={$i(t)$},l={$R$}]++(\x,0) to [inductor,l={$L$}]++(0,-\y) to [short] (0,0);
+\end{circuitikz}
+\caption{سلسلہ وار \عددی{RL} دور۔}
+\label{شکل_لاپالس_حل_امالہ_مزاحمت}
+\end{figure}
+
+%=================
+\حصہ{پرزوں کے مساوی لاپلاسی ادوار}
+برقی پرزوں کی خصوصیات سے ان کے مساوی لاپلاسی ادوار حاصل کئے جا سکتے ہیں۔تمام پرزوں کے دباو بالمقابل رو تعلق لکھتے ہوئے انفعالی رائج سمت استعمال کئے گئے ہیں۔مزاحمت کے دباو اور رو کا تعلق
+\begin{align}
+v(t)=R i(t)
+\end{align}
+ہے۔دونوں اطراف کا لاپلاس بدل لیتے ہوئے اس تعلق کو درج ذیل لکھا جا سکتا ہے۔
+\begin{align}
+\bV(s)=R \bI(s)
+\end{align}
+شکل \حوالہ{شکل_لاپلاس_دور_مزاحمت_اظہار} میں مزاحمت کے دباو بالمقابل کا تعلق وقتی دائرہ کار اور مخلوط تعددی دائرہ کار میں دکھائے گئے ہیں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,o-]++(\x,0) to [resistor,l_={$R$}]++(0,\y) to [short,-o,i<_={$i(t)$}]++(-\x,0);
+\draw(0,0) to [short,o-]++(-\x/4,0)coordinate(kBL);
+\draw(0,\y) to [short,o-]++(-\x/4,0);
+\draw(kBL)++(0,-0.25) rectangle ++(-0.5,\y+0.5);
+\draw(0,\y/2)node{$\begin{aligned}&+ \\&  v(t) \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,o-]++(\x,0) to [resistor,l_={$R$}]++(0,\y) to [short,-o,i<_={$\bI(s)$}]++(-\x,0);
+\draw(0,0) to [short,o-]++(-\x/4,0)coordinate(kBL);
+\draw(0,\y) to [short,o-]++(-\x/4,0);
+\draw(kBL)++(0,-0.25) rectangle ++(-0.5,\y+0.5);
+\draw(0,\y/2)node{$\begin{aligned}&+ \\&  \bV(s) \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{وقتی اور مخلوط تعددی دائرہ کار میں مزاحمت کا اظہار۔}
+\label{شکل_لاپلاس_دور_مزاحمت_اظہار}
+\end{figure}
+
+برق گیر کے تعلقات
+\begin{align}
+v(t)&=\frac{1}{C}\int_0^t i(t) \dif t +v(0)\\
+i(t)&=C\frac{\dif v(t)}{\dif t}
+\end{align}
+ہیں۔دونوں اطراف کا لاپلاس بدل لیتے ہوئے مخلوط تعددی دائرہ کار میں تعلقات حاصل ہوتے ہیں جنہیں شکل \حوالہ{شکل_لاپلاس_دور_برق_گیر_اظہار} میں دکھایا گیا ہے۔
+\begin{align}
+\bV(s)&=\frac{\bI(s)}{sC}+\frac{v(0)}{s}\\
+\bI(s)&=sC\bV(s)-Cv(0)
+\end{align}
+%
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,o-]++(\x,0) to [capacitor,l_={$C$}]++(0,\y) to [short,-o,i<_={$i(t)$}]++(-\x,0);
+\draw(0,0) to [short,o-]++(-\x/4,0)coordinate(kBL);
+\draw(0,\y) to [short,o-]++(-\x/4,0);
+\draw(kBL)++(0,-0.25) rectangle ++(-0.5,\y+0.5);
+\draw(0,\y/2)node{$\begin{aligned}&+ \\&  v(t) \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{0.4\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,o-]++(\x,0) to [american voltage source,l_={$\frac{v(0)}{C}$}]++(0,3/4*\y) to [capacitor,l_={$\frac{1}{sC}$}]++(0,3/4*\y) to [short,-o,i<_={$\bI(s)$}]++(-\x,0);
+\draw(0,0) to [short,o-]++(-\x/4,0)coordinate(kBL);
+\draw(0,\y+\y/2) to [short,o-]++(-\x/4,0);
+\draw(kBL)++(0,-0.25) rectangle ++(-0.5,\y+\y/2+0.5);
+\draw(0,\y/2+\y/4)node{$\begin{aligned}&+ \\ \\ &  \bV(s) \\  \\&- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\begin{subfigure}{0.6\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,o-]++(\x,0) to [capacitor,l_={$\frac{1}{sC}$}]++(0,\y) to [short,-o,i<_={$\bI(s)$}]++(-\x,0);
+\draw(0,0) to [short,o-]++(-\x/4,0)coordinate(kBL);
+\draw(\x,0) to [short,*-]++(\x,0) to [american current source,l_={$Cv(0)$}]++(0,\y) to [short,-*]++(-\x,0);
+\draw(0,\y) to [short,o-]++(-\x/4,0);
+\draw(kBL)++(0,-0.25) rectangle ++(-0.5,\y+0.5);
+\draw(0,\y/2)node{$\begin{aligned}&+ \\&  \bV(s) \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}%
+\caption{وقتی اور مخلوط تعددی دائرہ کار میں برق گیر کا اظہار۔}
+\label{شکل_لاپلاس_دور_برق_گیر_اظہار}
+\end{figure}
+
+امالہ گیر کے تعلقات
+\begin{align}
+v(t)&=L\frac{\dif i(t)}{\dif t}\\
+i(t)&=\frac{1}{L}\int_0^t v(t) \dif t+i(0)
+\end{align}
+ہیں جن سے
+\begin{align}
+\bV(s)&=sL\bI(s)-Li(0)\\
+\bI(s)&=\frac{\bV(s)}{sL}+\frac{i(0)}{s}
+\end{align}
+حاصل ہوتے ہیں۔انہیں شکل \حوالہ{شکل_لاپلاس_دور_امالہ_گیر_اظہار} میں دکھایا گیا ہے۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,o-]++(\x,0) to [inductor,l_={$L$}]++(0,\y) to [short,-o,i<_={$i(t)$}]++(-\x,0);
+\draw(0,0) to [short,o-]++(-\x/4,0)coordinate(kBL);
+\draw(0,\y) to [short,o-]++(-\x/4,0);
+\draw(kBL)++(0,-0.25) rectangle ++(-0.5,\y+0.5);
+\draw(0,\y/2)node{$\begin{aligned}&+ \\&  v(t) \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{0.4\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,\y+\y/2) to [short,o-,i>^={$\bI(s)$}]++(\x,0) to [inductor,l={$sL$}]++(0,-3/4*\y) to [american voltage source,l={$L i(0)$}]++(0,-3/4*\y)  to [short,-o,]++(-\x,0);
+\draw(0,0) to [short,o-]++(-\x/4,0)coordinate(kBL);
+\draw(0,\y+\y/2) to [short,o-]++(-\x/4,0);
+\draw(kBL)++(0,-0.25) rectangle ++(-0.5,\y+\y/2+0.5);
+\draw(0,\y/2+\y/4)node{$\begin{aligned}&+ \\ \\ &  \bV(s) \\  \\&- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\begin{subfigure}{0.6\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,o-]++(\x,0) to [inductor,l_={$sL$}]++(0,\y) to [short,-o,i<_={$\bI(s)$}]++(-\x,0);
+\draw(0,0) to [short,o-]++(-\x/4,0)coordinate(kBL);
+\draw(\x,\y) to [short,*-]++(\x,0) to [american current source,l={$\frac{i(0)}{s}$}]++(0,-\y) to [short,-*]++(-\x,0);
+\draw(0,\y) to [short,o-]++(-\x/4,0);
+\draw(kBL)++(0,-0.25) rectangle ++(-0.5,\y+0.5);
+\draw(0,\y/2)node{$\begin{aligned}&+ \\&  \bV(s) \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}%
+\caption{وقتی اور مخلوط تعددی دائرہ کار میں امالہ گیر کا اظہار۔}
+\label{شکل_لاپلاس_دور_امالہ_گیر_اظہار}
+\end{figure}
+
+شکل میں دکھائے گئے مربوط لچھوں کے تعلق درج ذیل ہیں۔
+\begin{align}
+v_1(t)&=L_1 \frac{\dif i_1(t)}{\dif t}+M\frac{\dif i_2(t)}{\dif t}\\
+v_2(t)&=L_2 \frac{\dif i_2(t)}{\dif t}+M\frac{i_1(t)}{\dif t}
+\end{align} 
+یہی مساوات \عددی{s} دائرہ کار میں درج ذیل لکھے جائیں گے۔
+\begin{align}
+\bV_1(s)&=sL_1 \bI_1(s)-L_1 i_1(0)+sM\bI_2(s)-M i_2(0)\\
+\bV_2(s)&=sL_2 \bI_2(s)-L_2 i_2(0)+sM\bI_1(s)-M i_1(0)
+\end{align}
