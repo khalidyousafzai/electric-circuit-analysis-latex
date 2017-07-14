@@ -174,7 +174,7 @@ every axis x label/.style={
 \include{./tex/cktPolyphaseCircuits}
 \include{./tex/cktFrequencyResponse}
 \include{./tex/cktLaplaceTransform}
-\include{./tex/cktLaplace}
+\include{./tex/cktApplicationLaplace}
 
 %\include{./tex/emtEndOfBookTableDivergenceCurlGradientLaplacian}
 %\include{./tex/toDoList}

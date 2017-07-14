@@ -84,7 +84,7 @@ v(t)=R i(t)
 v(t)&=\frac{1}{C}\int_0^t i(t) \dif t +v(0)\\
 i(t)&=C\frac{\dif v(t)}{\dif t}
 \end{align}
-ہیں۔دونوں اطراف کا لاپلاس بدل لیتے ہوئے مخلوط تعددی دائرہ کار میں تعلقات حاصل ہوتے ہیں جنہیں شکل \حوالہ{شکل_لاپلاس_دور_برق_گیر_اظہار} میں دکھایا گیا ہے۔
+ہیں۔دونوں اطراف کا لاپلاس بدل لیتے ہوئے مخلوط تعددی دائرہ کار میں تعلقات حاصل ہوتے ہیں جنہیں شکل \حوالہ{شکل_لاپلاس_دور_برق_گیر_اظہار} میں دکھایا گیا ہے۔ابتدائی معومات سے پیدا منبع رو کی سمت اور منبع دباو کے قطب پر غور کریں۔ابتدائی رو کی سمت الٹ کرنے یا ابتدائی دباو کے قطب الٹ کرنے سے پیدا منبع رو کی سمت اور منبع دباو کے قطب الٹ ہوں گے۔
 \begin{align}
 \bV(s)&=\frac{\bI(s)}{sC}+\frac{v(0)}{s}\\
 \bI(s)&=sC\bV(s)-Cv(0)
@@ -94,8 +94,8 @@ i(t)&=C\frac{\dif v(t)}{\dif t}
 \centering
 \begin{subfigure}{1\textwidth}
 \centering
-\begin{tikzpicture}
-\draw(0,0) to [short,o-]++(\x,0) to [capacitor,l_={$C$}]++(0,\y) to [short,-o,i<_={$i(t)$}]++(-\x,0);
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [short,o-]++(\x,0) to [capacitor,l={$C$},v_>={$v(0)$}]++(0,\y) to [short,-o,i<_={$i(t)$}]++(-\x,0);
 \draw(0,0) to [short,o-]++(-\x/4,0)coordinate(kBL);
 \draw(0,\y) to [short,o-]++(-\x/4,0);
 \draw(kBL)++(0,-0.25) rectangle ++(-0.5,\y+0.5);
@@ -140,7 +140,7 @@ i(t)&=\frac{1}{L}\int_0^t v(t) \dif t+i(0)
 \bV(s)&=sL\bI(s)-Li(0)\\
 \bI(s)&=\frac{\bV(s)}{sL}+\frac{i(0)}{s}
 \end{align}
-حاصل ہوتے ہیں۔انہیں شکل \حوالہ{شکل_لاپلاس_دور_امالہ_گیر_اظہار} میں دکھایا گیا ہے۔
+حاصل ہوتے ہیں۔انہیں شکل \حوالہ{شکل_لاپلاس_دور_امالہ_گیر_اظہار} میں دکھایا گیا ہے۔یہاں بھی ابتدائی معلومات سے پیدا منبع کا دارومدار ابتدائی رو کی سمت اور ابتدائی دباو کے قطب  پر ہے۔ 
 \begin{figure}
 \centering
 \begin{subfigure}{1\textwidth}
@@ -151,6 +151,7 @@ i(t)&=\frac{1}{L}\int_0^t v(t) \dif t+i(0)
 \draw(0,\y) to [short,o-]++(-\x/4,0);
 \draw(kBL)++(0,-0.25) rectangle ++(-0.5,\y+0.5);
 \draw(0,\y/2)node{$\begin{aligned}&+ \\&  v(t) \\ &- \end{aligned}$};
+\draw[latex-](\x,0)++(-0.4,\y/4)--++(0,\y/2)node[pos=0.5,left]{$i(0)$};
 \end{tikzpicture}
 \caption*{(الف)}
 \end{subfigure}
@@ -191,3 +192,337 @@ v_2(t)&=L_2 \frac{\dif i_2(t)}{\dif t}+M\frac{i_1(t)}{\dif t}
 \bV_1(s)&=sL_1 \bI_1(s)-L_1 i_1(0)+sM\bI_2(s)-M i_2(0)\\
 \bV_2(s)&=sL_2 \bI_2(s)-L_2 i_2(0)+sM\bI_1(s)-M i_1(0)
 \end{align}
+تابع اور غیر تابع منبع دباو اور منبع رو کو بھی \عددی{s} دائرہ کار میں ظاہر کیا جا سکتا ہے
+\begin{align}
+\bV_1(s)&=\Laplace[v_1(t)]\\
+\bI_2(s)&=\Laplace[i_2(t)]
+\end{align}
+اور اگر \عددی{v_1(t)=A_r i_2(t)} ہو جہاں \عددی{A_r} افزائش مزاحمت نما ہے تب 
+ \begin{align}
+\bV_1(s)=A_r \bI_2(s)
+\end{align}
+لکھا جا سکتا ہے۔
+
+\حصہ{تجزیاتی تراکیب}
+درج بالا حصے میں ہم نے برقی پرزوں کے \عددی{s} دائرہ کار میں مساوی ادوار حاصل کئے۔انہیں استعمال کرتے ہوئے ادوار حل کئے جا سکتے ہیں۔ایسا کرنے کی خاطر درج ذیل کرنا ہو گا۔
+
+\begin{itemize}
+\item
+ابتدائی حالت جاننے کے لئے \عددی{t<\SI{0}{\second}} کے لئے دور حل کریں۔اگر \عددی{t<\SI{0}{\second}} میں دور برقرار حالت میں ہو تب برق گیر کو کھلے سر اور امالہ گیر کو قصر دور تصور کرتے ہوئے ابتدائی رو اور ابتدائی دباو حاصل کئے جا سکتے ہیں۔
+\item
+ابتدائی معلومات شامل کرتے ہوئے تمام پرزوں کی جگہ ان کے مساوی مخلوط تعددی دائرہ کار کے ادوار نسب کریں۔
+\item
+کسی بھی ترکیب کو استعمال کرتے ہوئے دور کو حل کریں۔جوابات \عددی{s} دائرہ کار میں ہوں گے۔
+\item
+الٹ لاپلاس بدل لیتے ہوئے وقتی دائرہ کار میں جوابات حاصل کریں۔
+\end{itemize}
+%==================
+\ابتدا{مثال}\شناخت{مثال_لاپلاس_استعمال_مزاحمت_برق_گیر_الف}
+لاپلاس بدل کی مدد سے شکل \حوالہ{شکل_لاپلاس_استعمال_مزاحمت_برق_گیر_الف}-الف میں \عددی{v_C(t)} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$20u(t)$}]++(0,\y) to [resistor,l={$\SI{4}{\ohm}$}]++(\x,0) to [capacitor,l_={$\SI{2}{\farad}$},v^<={$v_C(t)$}]++(0,-\y) to [short](0,0);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$\frac{20}{s}$}]++(0,\y) to [resistor,l={$\SI{4}{\ohm}$}]++(\x,0) to [capacitor,l_={$\frac{1}{2s}$},v^<={$\bV_C(s)$}]++(0,-\y) to [short](0,0);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{مثال \حوالہ{مثال_لاپلاس_استعمال_مزاحمت_برق_گیر_الف} کا دور۔}
+\label{شکل_لاپلاس_استعمال_مزاحمت_برق_گیر_الف}
+\end{figure}
+
+حل:ابتدائی دباو \عددی{v_C(0)=\SI{0}{\volt}} ہے۔تمام پرزوں کی جگہ \عددی{s} دائرہ کار کے مساوی دور پر کرتے ہوئے شکل-ب حاصل ہوتا ہے۔شکل-ب میں تقسیم دباو کے کلیے سے برق گیر کا دباو لکھتے ہیں۔
+\begin{align*}
+\bV_C(s)&=\left(\frac{\frac{1}{2s}}{4+\frac{1}{2s}}\right)\frac{20}{s}\\
+&=20\left(\frac{1}{s}-\frac{1}{s+\frac{1}{8}}\right)
+\end{align*}
+الٹ لاپلاس بدل لیتے ہوئے \عددی{v_C(t)} حاصل کرتے ہیں۔
+\begin{align*}
+v_C(t)=20\left(1-e^{-\frac{t}{8}}\right)u(t)
+\end{align*}
+\انتہا{مثال}
+%====================
+\ابتدا{مثال}\شناخت{مثال_لاپلاس_استعمال_دائری_مساوات}
+شکل \حوالہ{شکل_لاپلاس_استعمال_دائری_مساوات} کے دائری مساوات اور مساوات جوڑ لکھیں۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$v_A(t)$}]++(0,2*\y) to [capacitor,l={$C_1$},v={$v_1(0)$}]++(\x,0) to  [resistor,l={$R_1$}]++(\x,0) to [inductor,l={$L_2$}]++(\x,0)coordinate(ka) to [resistor,l={$R_2$}]++(\x,0) to [american voltage source,l={$v_B(t)$}]++(0,-2*\y) to [short](0,0);
+\draw(2*\x,0)node[ground]{}coordinate(kb) to [inductor,*-,l={$L_1$}]++(0,\y) to [capacitor,-*,l={$C_2$},v={$v_2(0)$}]++(0,\y)node[above]{$v_0(t)$};
+%initial currents
+\draw[-latex] (ka)++(-\x/4,-0.3)node[below]{$i_2(0)$}--++(-\x/4,0);
+\draw[-latex] (kb)++(0.3,\y/4)node[right]{$i_1(0)$}--++(0,\y/4);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}[]
+\draw(0,0) to [american voltage source,l={$\bV_A(s)$}]++(0,3.5*\y) to [capacitor,l={$\frac{1}{sC_1}$}]++(\x,0) ++(3/4*\x,0) to [american voltage source,l_={$\frac{v_1(0)}{s}$}]++(-3/4*\x,0)++(3/4*\x,0)to  [resistor,l={$R_1$}]++(\x,0) to [inductor,l={$sL_2$}]++(\x,0)++(3/4*\x,0) to [american voltage source,l_={$L_2 i_2(0)$}]++(-3/4*\x,0)++(3/4*\x,0) to [resistor,l={$R_2$}]++(\x,0) to [american voltage source,l={$\bV_B(s)$}]++(0,-3.5*\y) to [short](0,0);
+\draw(2*\x+3/4*\x,0)node[ground]{} to [inductor,*-,l={$s L_1$}]++(0,\y) to [american voltage source,l={$L_1 i_1(0)$}]++(0,3/4*\y)++(0,3/4*\y) to [american voltage source,l_={$\frac{v_2(0)}{s}$}]++(0,-3/4*\y)++(0,3/4*\y)to [capacitor,-*,l={$\frac{1}{sC_2}$}]++(0,\y)node[above]{$\bV_0(s)$};
+%currents
+\draw[stealth-] ([shift={(-150:\x/2)}]1.375*\x,1.75*\y) arc (-150:150:\x/2);
+\draw[] (1.375*\x,1.75*\y) node{$\bI_1(s)$};
+\draw[stealth-] ([shift={(-150:\x/2)}]2.75*\x+1.375*\x,1.75*\y) arc (-150:150:\x/2);
+\draw[] (2.75*\x+1.375*\x,1.75*\y) node{$\bI_2(s)$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_لاپلاس_استعمال_دائری_مساوات} کا دور۔}
+\label{شکل_لاپلاس_استعمال_دائری_مساوات}
+\end{figure}
+
+حل:لاپلاس بدل شکل \حوالہ{شکل_لاپلاس_استعمال_دائری_مساوات}-ب میں دکھایا گیا ہے جہاں سے کرخوف دائری مساوات لکھتے ہیں۔
+\begin{align*}
+\bI_1(s)\left[\frac{1}{sC_1}+R_1+\frac{1}{sC_2}+sL_1\right]-\bI_2(s)\left[\frac{1}{sC_2}+sL_1\right]&=\bV_A(s)-\frac{v_1(0)}{s}+\frac{v_2(0)}{s}-L_1 i_1(0)\\
+-\bI_1(s)\left[sL_1+\frac{1}{sC_2}\right]+\bI_2(s)\left[sL_1+\frac{1}{sC_2}+sL_2+R_2\right]&=\bV_B(s)+L_1i_1(0)-\frac{v_2(0)}{s}-L_2i_2(0)
+\end{align*} 
+مساوات جوڑ لکھتے ہیں۔
+\begin{align*}
+\frac{\bV_0(s)-\bV_A(s)+\frac{v_1(0)}{s}}{R_1+\frac{1}{sC_1}}+\frac{\bV_0(s)+\frac{v_2(0)}{s}-L_1 i_1(0)}{\frac{1}{sC_2}+sL_1}+\frac{\bV_0(s)-L_2i_2(0)+\bV_B(s)}{sL_2+R_2}=0
+\end{align*}
+\انتہا{مثال}
+%===================
+\ابتدا{مثال}\شناخت{مثال_لاپلاس_استعمال_متعدد_طریقے_الف}
+شکل \حوالہ{شکل_لاپلاس_استعمال_متعدد_طریقے_الف}-الف میں دور دیا گیا ہے۔اس کو ہم دائری ترکیب، ترکیب جوڑ، مسئلہ نفاذ، تبادلہ منبع اور مسئلہ تھونن کی مدد سے حل کرتے ہیں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$8u(t)\,\si{\volt}$}]++(0,2*\y) to [inductor,l={$\SI{2}{\henry}$}]++(\x,0) to [capacitor,l={$\SI{0.25}{\farad}$}]++(\x,0) to [resistor,l_={$\SI{6}{\ohm}$},v^<={$v_0(t)$}]++(0,-2*\y) to [short](0,0); 
+\draw(\x,0)node[ground]{} to [american voltage source,*-,l={$2u(t)\,\si{\volt}$}]++(0,\y) to [resistor,-*,l={$\SI{2}{\ohm}$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={${\frac{8}{s}}$}]++(0,2*\y) to [inductor,l={$2s$}]++(\x,0) to [capacitor,l={$\frac{4}{s}$}]++(\x,0) to [resistor,l_={$6$},v^<={$\bV_0(s)$}]++(0,-2*\y) to [short](0,0); 
+\draw(\x,0)node[ground]{} to [american voltage source,*-,l={$\frac{2}{s}$}]++(0,\y) to [resistor,-*,l={$2$}]++(0,\y)node[above]{$\bV_1(s)$};
+%currents
+\draw[stealth-]([shift={(-150:\x/4)}]\x/2,\y) arc (-150:150:\x/4);
+\draw(\x/2,\y)node{$\bI_1(s)$};
+\draw[stealth-]([shift={(-150:\x/4)}]\x+\x/3,\y) arc (-150:150:\x/4);
+\draw(\x+\x/3,\y)node{$\bI_2(s)$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_لاپلاس_استعمال_متعدد_طریقے_الف} کا دور۔}
+\label{شکل_لاپلاس_استعمال_متعدد_طریقے_الف}
+\end{figure}
+
+حل: لاپلاس مساوی شکل-ب میں دکھایا گیا ہے۔ ہم جوڑ \عددی{\bV_1(s)} کو حاصل کرتے ہوئے \عددی{\bV_0(s)} کو تقسیم دباو کے کلیے سے حاصل کریں گے۔ مساوات جوڑ لکھتے ہیں
+\begin{align*}
+\frac{\bV_1(s)-\frac{8}{s}}{2s}+\frac{\bV_1(s)-\frac{2}{s}}{2}+\frac{\bV_1(s)}{6+\frac{4}{s}}=0
+\end{align*}
+جس سے
+\begin{align*}
+\bV_1(s)\left(\frac{1}{2s}+\frac{1}{2}+\frac{1}{6+\frac{4}{s}}\right)&=\frac{4}{s^2}+\frac{1}{s}
+\end{align*}
+یعنی
+\begin{align*}
+\bV_1(s)=\frac{2(s+4)(3s+2)}{s(4s^2+5s+2)}
+\end{align*}
+حاصل ہوتا ہے۔تقسیم دباو کے کلیے سے \عددی{\bV_0(s)} لکھتے ہیں۔
+\begin{align*}
+\bV_0(s)&=\left(\frac{6}{6+\frac{4}{s}}\right)\bV_1(s)\\
+&=\left(\frac{6s}{6s+4}\right)\left[\frac{2(s+4)(3s+2)}{s(4s^2+5s+2)}\right]\\
+&=\frac{6(s+4)}{4s^2+5s+2}
+\end{align*}
+اس دباو کا جزوی کسری پھیلاو لکھتے ہوئے وقتی تفاعل درج ذیل حاصل ہوتا ہے۔
+\begin{align*}
+v_0(t)=\frac{1}{4} e^{-\frac{5}{8}t}\left[6\cos\left(\frac{\sqrt{7} t}{8}\right)+\frac{162}{\sqrt{7}} \sin \left(\frac{\sqrt{7}t}{8}\right)\right] \,\si{\volt}
+\end{align*}
+
+آئیں یہی جواب دائری ترکیب سے حاصل کریں۔دائری مساوات لکھتے ہیں۔
+\begin{align*}
+\bI_1(s)\left(2s+2\right)-2\bI_2(s)&=\frac{8}{s}-\frac{2}{s}\\
+-2\bI_1(s)+\bI_2(s)\left(2+\frac{4}{s}+6\right)&=\frac{2}{s}
+\end{align*}
+ان ہمزاد مساوات کا حل درج ذیل ہے
+\begin{align*}
+\bI_1(s)&=\frac{13s+6}{4s^3+5s^2+2s}\\
+\bI_2(s)&=\frac{s+4}{4s^2+5s+2}
+\end{align*}
+جس سے خارجی دباو حاصل ہوتا ہے۔
+\begin{align*}
+\bV_0(s)=6\bI_2(s)=\frac{6(s+4)}{4s^2+5s+2}
+\end{align*}
+%
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={${\frac{8}{s}}$}]++(0,2*\y) to [inductor,l={$2s$}]++(\x,0) to [capacitor,l_={$\frac{4}{s}$}]++(\x,0) to [resistor,l_={$6$},v^<={$\bV'_0(s)$}]++(0,-2*\y) to [short](0,0); 
+\draw(\x,0)node[ground]{}  to [resistor,*-*,l_={$2$}]++(0,2*\y)node[above]{$\bV'_1(s)$};
+\draw [decorate,decoration={brace,amplitude=10pt,raise=4pt},yshift=0pt](\x-\x/8,2*\y+0.5) --++ (\x+\x/4,0) node [black,midway,yshift={0.8cm}] {\footnotesize $\bZ_1(s)$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [short]++(0,2*\y) to [inductor,l={$2s$}]++(\x,0) to [capacitor,l_={$\frac{4}{s}$}]++(\x,0) to [resistor,l_={$6$},v^<={$\bV''_0(s)$}]++(0,-2*\y) to [short](0,0); 
+\draw(\x,0)node[ground]{} to [american voltage source,*-,l={$\frac{2}{s}$}]++(0,\y) to [resistor,-*,l={$2$}]++(0,\y)node[above]{$\bV''_1(s)$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\caption{مسئلہ نفاذ سے حل کرتے ہوئے باری باری ایک ایک منبع کو نافذ کیا گیا ہے}
+\label{شکل_لاپلاس_استعمال_متعدد_طریقے_نفاذ}
+\end{figure}
+
+مسئلہ نفاذ سے اب اسی دور کو حل کرتے ہیں۔شکل \حوالہ{شکل_لاپلاس_استعمال_متعدد_طریقے_نفاذ} میں باری باری ایک ایک منبع کو لاگو کیا گیا ہے۔شکل \حوالہ{شکل_لاپلاس_استعمال_متعدد_طریقے_نفاذ}-الف کو دیکھ کر \عددی{\bZ_1(s} لکھتے ہیں۔
+\begin{align*}
+\bZ_1(s)=\frac{2(6+\frac{4}{s})}{2+6+\frac{4}{s}}=\frac{3s+2}{2s+1}
+\end{align*}
+یوں تقسیم دباو کے کلیے سے \عددی{\bV'_1(s)}  لکھا جا سکتا ہے۔
+\begin{align*}
+\bV'_1(s)&=\left(\frac{\bZ_1(s)}{2s+\bZ_1(s)}\right)\frac{8}{s}\\
+&=\left(\frac{\frac{3s+2}{2s+1}}{2s+\frac{3s+2}{2s+1}}\right)\frac{8}{s}\\
+&=\frac{\frac{8}{s}(3s+2)}{4s^2+5s+2}
+\end{align*}
+تقسیم دباو کے کلیے کو دوبارہ استعمال کرتے ہوئے \عددی{\bV'_1(s)} سے \عددی{\bV''_0(s)} لکھتے ہیں۔
+\begin{align*}
+\bV'_0(s)&=\left(\frac{6}{6+\frac{4}{s}}\right)\bV'_1(s)\\
+&=\left(\frac{3s}{3s+2}\right)\frac{\frac{8}{s}(3s+2)}{4s^2+5s+2}\\
+&=\frac{24}{4s^2+5s+2}
+\end{align*}
+اب شکل \حوالہ{شکل_لاپلاس_استعمال_متعدد_طریقے_نفاذ}-ب سے دوسرے منبع سے پیدا \عددی{\bV''_0(s)} حاصل کرتے ہیں۔یہاں \عددی{2s} اور \عددی{(6+\tfrac{4}{s})} متوازی جڑے ہیں جن کے مساوی کو \عددی{\bZ_2(s)} کہہ کر حاصل کرتے ہیں۔
+\begin{align*}
+\bZ_2(s)&=\frac{2s(6+\frac{4}{s})}{2s+6+\frac{4}{s}}\\
+&=\frac{2s(3s+2)}{s^2+3s+2}
+\end{align*}
+یوں تقسیم دباو کے کلیے سے درج ذیل لکھا جا سکتا ہے
+\begin{align*}
+\bV''_1(s)&=\left(\frac{\bZ_2(s)}{2+\bZ_2(s)}\right)\frac{2}{s}\\
+&=\left(\frac{\frac{2s(3s+2)}{s^2+3s+2}}{2+\frac{2s(3s+2)}{s^2+3s+2}}\right)\frac{2}{s}\\
+&=\frac{2(3s+2)}{4s^2+5s+2}
+\end{align*}
+اور ایک مرتبہ دوبارہ تقسیم دباو سے 
+\begin{align*}
+\bV''_0(s)&=\left(\frac{6}{6+\frac{4}{s}}\right)\bV''_1(s)\\
+&=\left(\frac{3s}{3s+2}\right)\frac{2(3s+2)}{4s^2+5s+2}\\
+&=\frac{6s}{4s^2+5s+2}
+\end{align*}
+حاصل ہوتا ہے۔یوں دونوں منبع کی موجودگی میں \عددی{\bV_0(s)=\bV'_0(s)+\bV''_0(s)} ہو گا۔
+\begin{align*}
+\bV_0(s)&=\frac{24}{4s^2+5s+2}+\frac{6s}{4s^2+5s+2}\\
+&=\frac{6(s+4)}{4s^2+5s+2}
+\end{align*}
+
+%  
+
+آئیں اب شکل \حوالہ{شکل_لاپلاس_استعمال_متعدد_طریقے_الف}-الف کو تبادلہ منبع سے حل کریں۔دونوں منبع دباو کے مساوی منبع رو نسب کرتے ہوئے شکل \حوالہ{شکل_لاپلاس_استعمال_تبادلہ_منبع_الف}-الف ملتا ہے جہاں منبع دباو \عددی{\tfrac{8}{s}} اور اس کے سلسلہ وار \عددی{2s} کو منبع رو \عددی{\tfrac{8/s}{2s}=\tfrac{4}{s^2}} جس کے متوازی \عددی{2s} جڑا ہے میں تبدیل کیا گیا ہے۔اسی طرح منبع دباو \عددی{\tfrac{2}{s}} اور سلسلہ وار \عددی{2} کو منبع رو \عددی{\tfrac{2/s}{2}=\tfrac{1}{s}} میں تبدیل کیا گیا ہے جس کے متوازی \عددی{2} نسب ہے۔
+
+شکل \حوالہ{شکل_لاپلاس_استعمال_تبادلہ_منبع_الف}-الف میں متوازی جڑے منبع رو کا مساوی منبع رو \عددی{\tfrac{4}{s^2}+\tfrac{1}{s}=\tfrac{s+4}{s^2}} ہے۔اسی طرح منبع کے متوازی \عددی{2} اور \عددی{2s} مل کر \عددی{\tfrac{2(2s)}{2+2s}=\tfrac{2s}{s+1}} دیتے ہیں۔یوں شکل-ب حاصل ہوتا ہے۔
+
+شکل \حوالہ{شکل_لاپلاس_استعمال_تبادلہ_منبع_الف}-ب میں منبع رو \عددی{\tfrac{s+4}{s^2}} اور متوازی رکاوٹ \عددی{\tfrac{2s}{s+1}} کو سلسلہ وار جڑے منبع دباو \عددی{(\tfrac{s+4}{s^2})(\tfrac{2s}{s+1})=\tfrac{2(s+4)}{s(s+1)}} اور رکاوٹ \عددی{\tfrac{2s}{s+1}} میں تبدیل کرتے ہوئے شکل-پ حاصل ہوتی ہے جس سے تقسیم دباو کے کلیے سے \عددی{\bV_0(s)} لکھتے ہیں۔
+\begin{align*}
+\bV_0(s)&=\left(\frac{6}{\frac{2s}{s+1}+\frac{4}{s}+6}\right)\frac{2(s+4)}{s(s+1)}\\
+&=\frac{6(s+4)}{4s^2+5s+2}
+\end{align*}
+%
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american current source,l={$\frac{4}{s^2}$}]++(0,\y) to [short]++(3*\x,0) to [capacitor,l={$\frac{4}{s}$}]++(\x,0) to [resistor,l={$6$},v_<={$\bV_0(s)$}]++(0,-\y) to [short](0,0);
+\draw(\x,0) to [inductor,*-*,l={$2s$}]++(0,\y);
+\draw(2*\x,0) to [american current source,*-*,l={$\frac{1}{s}$}]++(0,\y);
+\draw(3*\x,0) to [resistor,*-*,l={$2$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american current source,l={$\frac{s+4}{s^2}$}]++(0,\y) to [short]++(1*\x,0) to [capacitor,l={$\frac{4}{s}$}]++(\x,0) to [resistor,l={$6$},v_<={$\bV_0(s)$}]++(0,-\y) to [short](0,0);
+\draw(\x,0) to [european resistor,*-*,l={$\frac{2s}{s+1}$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$\frac{2(s+4)}{s(s+1)}$}]++(0,\y) to [european resistor,l={$\frac{2s}{s+1}$}]++(1*\x,0) to [capacitor,l={$\frac{4}{s}$}]++(\x,0) to [resistor,l={$6$},v_<={$\bV_0(s)$}]++(0,-\y) to [short](0,0);
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}
+\caption{منبع دباو کی جگہ منبع رو نسب کیا گیا ہے۔}
+\label{شکل_لاپلاس_استعمال_تبادلہ_منبع_الف}
+\end{figure}
+
+مسئلہ تھونن سے حل کرنے کی خاطر شکل \حوالہ{شکل_لاپلاس_استعمال_متعدد_طریقے_الف}-الف میں سلسلہ وار جڑے \عددی{\SI{6}{\ohm}} اور \عددی{\SI{0.25}{\farad}} کو بوجھ تصور کرتے ہوئے بقایا دور کا تھونن مساوی حاصل کرتے ہیں۔تھونن دباو شکل \حوالہ{شکل_لاپلاس_استعمال_متعدد_تھونن}-الف اور تھونن رکاوٹ شکل-ب سے حاصل کی جائے گی۔شکل-الف سے درج ذیل لکھتے
+\begin{align*}
+\bI(s)&=\frac{\frac{8}{s}-\frac{2}{s}}{2s+2}\\
+&=\frac{3}{s(s+1)}
+\end{align*}
+ہوئے تھونن دباو حاصل کی جا سکتی ہے۔
+\begin{align*}
+\bV_{\text{تھونن}}&=\frac{2}{s}+2\bI(s)\\
+&=\frac{2}{s}+\frac{6}{s(s+1)}\\
+&=\frac{2(s+4)}{s+1}
+\end{align*}
+شکل-ب سے تھونن رکاوٹ حاصل کرتے ہیں۔
+ \begin{align*}
+\bZ_{\text{تھونن}}&=\frac{(2)(2s)}{2+2s}\\
+&=\frac{2s}{s+1}
+\end{align*}
+تھونن دباو اور تھونن رکاوٹ استعمال کرتے ہوئے تھونن دور حاصل ہوتا ہے جس کے ساتھ بوجھ جوڑتے ہوئے  شکل \حوالہ{شکل_لاپلاس_استعمال_متعدد_تھونن}-پ حاصل ہوتی ہے جہاں سے تقسیم دباو کے کلیے سے \عددی{\bV_0(s)} حاصل ہو گا۔
+\begin{align*}
+\bV_0(s)&=\left(\frac{6}{\frac{2s}{s+1}+\frac{4}{s}+6}\right)\frac{2(s+4)}{s(s+1)}\\
+&=\frac{6(s+4)}{4s^2+5s+2}
+\end{align*}
+%
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={${\frac{8}{s}}$}]++(0,2*\y) to [inductor,l={$2s$}]++(\x,0) to [short,-o]++(\x/2,0);
+\draw(\x,0)node[circ]{} to [american voltage source,*-,l={$\frac{2}{s}$}]++(0,\y) to [resistor,-*,l={$2$}]++(0,\y);
+\draw(0,0) to [short,-o]++(\x+\x/2,0);
+\draw[stealth-]([shift={(-150:\x/4)}]\x/2,\y) arc (-150:150:\x/4);
+\draw[](\x/2,\y) node{$\bI (s)$};
+\draw(\x+\x/2,\y)node[]{$\begin{aligned} &+ \\ \\ \\ &\bV_{\text{تھونن}} \\ \\ \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [short]++(0,2*\y) to [inductor,l={$2s$}]++(\x,0) to [short,-o]++(\x/2,0);
+\draw(\x,0)node[circ]{} to [short]++(0,\y) to [resistor,-*,l={$2$}]++(0,\y);
+\draw(0,0) to [short,-o]++(\x+\x/2,0);
+\draw[latex-] (\x+\x/4,\y)--++(\x/4,0)--++(0,-\y/8)node[below]{$\bZ_{\text{تھونن}}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$\frac{2(s+4)}{s(s+1)}$}]++(0,2*\y) to [european resistor,l={$\frac{2s}{s+1}$}]++(\x,0) to [capacitor,l={$\frac{4}{s}$}]++(\x,0) to [resistor,l_={$6$},v^<={$\bV_0(s)$}]++(0,-2*\y) to [short](0,0); 
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_لاپلاس_استعمال_متعدد_طریقے_الف} کے دور کا تھونن سے حل۔}
+\label{شکل_لاپلاس_استعمال_متعدد_تھونن}
+\end{figure}
+\انتہا{مثال}
+%==========
+\ابتدا{مشق}
+شکل \حوالہ{شکل_لاپلاس_استعمال_متعدد_طریقے_الف}-الف کو مسئلہ نارٹن سے حل کریں۔
+\انتہا{مشق}
