@@ -106,7 +106,7 @@ i(t)&=C\frac{\dif v(t)}{\dif t}
 \begin{subfigure}{0.4\textwidth}
 \centering
 \begin{tikzpicture}
-\draw(0,0) to [short,o-]++(\x,0) to [american voltage source,l_={$\frac{v(0)}{C}$}]++(0,3/4*\y) to [capacitor,l_={$\frac{1}{sC}$}]++(0,3/4*\y) to [short,-o,i<_={$\bI(s)$}]++(-\x,0);
+\draw(0,0) to [short,o-]++(\x,0) to [american voltage source,l_={$\frac{v(0)}{s}$}]++(0,3/4*\y) to [capacitor,l_={$\frac{1}{sC}$}]++(0,3/4*\y) to [short,-o,i<_={$\bI(s)$}]++(-\x,0);
 \draw(0,0) to [short,o-]++(-\x/4,0)coordinate(kBL);
 \draw(0,\y+\y/2) to [short,o-]++(-\x/4,0);
 \draw(kBL)++(0,-0.25) rectangle ++(-0.5,\y+\y/2+0.5);
@@ -340,9 +340,29 @@ v_C(t)=20\left(1-e^{-\frac{t}{8}}\right)u(t)
 &=\left(\frac{6s}{6s+4}\right)\left[\frac{2(s+4)(3s+2)}{s(4s^2+5s+2)}\right]\\
 &=\frac{6(s+4)}{4s^2+5s+2}
 \end{align*}
-اس دباو کا جزوی کسری پھیلاو لکھتے ہوئے وقتی تفاعل درج ذیل حاصل ہوتا ہے۔
+
+اس دباو کا جزوی کسری پھیلاو لکھتے ہوئے وقتی تفاعل حاصل کرنا ہو گا۔ میں یہاں گزارش کروں گا ہوں کہ آپ صفحہ \حوالہصفحہ{مثال_تعددی_درست_تجزی} پر مثال \حوالہ{مثال_تعددی_درست_تجزی} کو ضرور دیکھیں۔
 \begin{align*}
-v_0(t)=\frac{1}{4} e^{-\frac{5}{8}t}\left[6\cos\left(\frac{\sqrt{7} t}{8}\right)+\frac{162}{\sqrt{7}} \sin \left(\frac{\sqrt{7}t}{8}\right)\right] \,\si{\volt}
+\bV_0(s)&=\frac{6(s+4)}{4(s^2+\frac{5}{4}s+\frac{1}{2})}\\
+&=\frac{6(s+4)}{4(s+\frac{5}{8}+j\frac{\sqrt{7}}{8})(s+\frac{5}{8}-j\frac{\sqrt{7}}{8})}\\
+&=\frac{K}{s+\frac{5}{8}+j\frac{\sqrt{7}}{8}}+\frac{K^*}{s+\frac{5}{8}-j\frac{\sqrt{7}}{8}}
+\end{align*}
+مستقل \عددی{K} اور \عددی{K^*} حاصل کرتے ہیں۔
+\begin{align*}
+K&=\left. \frac{6(s+4)}{4(s+\frac{5}{8}-j\frac{\sqrt{7}}{8})} \right|_{s=-\frac{5}{8}-j\frac{\sqrt{7}}{8}}\\
+&=\frac{3}{4}+j\frac{81}{4\sqrt{7}}\\
+K^*&=\left. \frac{6(s+4)}{4(s+\frac{5}{8}+j\frac{\sqrt{7}}{8})} \right|_{s=-\frac{5}{8}+j\frac{\sqrt{7}}{8}}\\
+&=\frac{3}{4}-j\frac{81}{4\sqrt{7}}
+\end{align*}
+یوں درج ذیل لکھا جائے گا۔
+\begin{align*}
+\bV_0(s)&=\frac{\frac{3}{4}+j\frac{81}{4\sqrt{7}}}{s+\frac{5}{8}+j\frac{\sqrt{7}}{8}}+\frac{\frac{3}{4}-j\frac{81}{4\sqrt{7}}}{s+\frac{5}{8}-j\frac{\sqrt{7}}{8}}
+\end{align*}
+الٹ لاپلاس بدل لیتے ہیں۔
+\begin{align*}
+v_0(t)&=\left(\frac{3}{4}+j\frac{81}{4\sqrt{7}}\right)e^{-(\frac{5}{8}+j\frac{\sqrt{7}}{8})t}+\left(\frac{3}{4}-j\frac{81}{4\sqrt{7}}\right)e^{-(\frac{5}{8}-j\frac{\sqrt{7}}{8})t}\\
+&=e^{-\frac{5}{8}t}\left[\frac{3}{4}\left(e^{-j\frac{\sqrt{7}}{8}t}+e^{j\frac{\sqrt{7}}{8}t}\right)+j\frac{81}{4\sqrt{7}}\left(e^{-j\frac{\sqrt{7}}{8}t}-e^{j\frac{\sqrt{7}}{8}t}\right)\right]\\
+&=\frac{1}{4} e^{-\frac{5}{8}t}\left[6\cos\left(\frac{\sqrt{7} t}{8}\right)+\frac{162}{\sqrt{7}} \sin \left(\frac{\sqrt{7}t}{8}\right)\right] \,\si{\volt}
 \end{align*}
 
 آئیں یہی جواب دائری ترکیب سے حاصل کریں۔دائری مساوات لکھتے ہیں۔
@@ -526,3 +546,253 @@ v_0(t)=\frac{1}{4} e^{-\frac{5}{8}t}\left[6\cos\left(\frac{\sqrt{7} t}{8}\right)
 \ابتدا{مشق}
 شکل \حوالہ{شکل_لاپلاس_استعمال_متعدد_طریقے_الف}-الف کو مسئلہ نارٹن سے حل کریں۔
 \انتہا{مشق}
+%=================
+\ابتدا{مثال}\شناخت{مثال_لاپلاس_استعمال_مخلوط_جوڑ}
+شکل \حوالہ{شکل_لاپلاس_استعمال_مخلوط_جوڑ}-الف میں \عددی{v_0(t)} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american controlled current source,l={$4i(t)$}]++(0,\y) to [short]++(\x,0) to [american voltage source,l={$10u(t)$}]++(\x,0) to [resistor,l={$\SI{1}{\ohm}$}]++(\x,0) to [capacitor,l_={$\SI{1}{\farad}$},v^<={$v_0(t)$}]++(0,-\y) to [short] (0,0);
+\draw(\x,0) to [capacitor,*-*,l={$\SI{0.5}{\farad}$}]++(0,\y)node[above]{$v_1(t)$};
+\draw(2*\x,0) to [resistor,*-*,l={$\SI{6}{\ohm}$},i<_={$i(t)$}]++(0,\y)node[above]{$v_2(t)$};
+\draw[dashed,gray] (3/4*\x,3/4*\y) rectangle ++(1.5*\x,3/4*\y)node[right]{\RL{مخلوط جوڑ}};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american controlled current source,l={$4\bI(s)$}]++(0,\y) to [short]++(\x,0) to [american voltage source,l={$\frac{10}{s}$}]++(\x,0) to [resistor,l={$1$}]++(\x,0) to [capacitor,l_={$\frac{1}{s}$},v^<={$\bV_0(s)$}]++(0,-\y) to [short] (0,0);
+\draw(\x,0) to [capacitor,*-*,l={$\frac{2}{s}$}]++(0,\y)node[above]{$\bV_1(s)$};
+\draw(2*\x,0) to [resistor,*-*,l={$6$},i<_={$\bI(s)$}]++(0,\y)node[above]{$\bV_2(s)$};
+\draw[dashed,gray] (3/4*\x,3/4*\y) rectangle ++(1.5*\x,3/4*\y+0.2)node[right]{\RL{مخلوط جوڑ}};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_لاپلاس_استعمال_مخلوط_جوڑ} کا دور۔}
+\label{شکل_لاپلاس_استعمال_مخلوط_جوڑ}
+\end{figure}
+
+حل: اگر \عددی{v_2(t)} معلوم کیا جائے تو \عددی{v_0(t)} کو تقسیم دباو کے کلیے سے حاصل کیا جا سکتا ہے۔اس دور میں مخلوط جوڑ پایا جاتا ہے لہٰذا مساوات جوڑ کی تعداد کم ہو گی۔ شکل-ب میں لاپلاس بدل  دکھایا گیا ہے جس سے کرخوف مساوات جوڑ لکھتے ہیں
+\begin{align*}
+\frac{\bV_2(s)}{6}+\frac{\bV_2(s)}{1+\frac{1}{s}}+\frac{\bV_2(s)-\frac{10}{s}}{\frac{2}{s}}-4\bI(s)=0
+\end{align*}
+جہاں
+\begin{align*}
+\bI(s)=\frac{\bV_2(s)}{6}
+\end{align*}
+ہے لہٰذا
+\begin{align*}
+\frac{\bV_2(s)}{6}+\frac{\bV_2(s)}{1+\frac{1}{s}}+\frac{\bV_2(s)-\frac{10}{s}}{\frac{2}{s}}-\frac{4\bV_2(s)}{6}=0
+\end{align*}
+یعنی
+\begin{align*}
+\frac{\bV_2(s)}{6}+\frac{s\bV_2(s)}{s+1}+\frac{s\bV_2(s)-10}{2}-\frac{2\bV_2(s)}{3}=0
+\end{align*}
+یا
+\begin{align*}
+\bV_2(s)=\frac{10(s+1)}{s^2+2s-1}
+\end{align*}
+حاصل ہوتا ہے۔تقسیم دباو کے کلیے سے درکار جواب لکھتے ہیں۔
+\begin{align*}
+\bV_0(s)&=\bV_2(s)\left(\frac{\frac{1}{s}}{1+\frac{1}{s}}\right)\\
+&=\frac{10(s+1)}{s^2+2s-1}\left(\frac{\frac{1}{s}}{1+\frac{1}{s}}\right)\\
+&=\frac{10}{s^2+2s-1}
+\end{align*}
+جزوی کسری پھیلاو حاصل کرتے ہوئے  وقتی دائرہ کار میں دباو حاصل ہو گا۔  نسب نما کے جذر \عددی{-1\mp \sqrt{2}} ہیں لہٰذا درج ذیل لکھا جا سکتا ہے
+\begin{align*}
+\bV_0(s)&=\frac{10}{(s+1-\sqrt{2})(s+1+\sqrt{2})}\\
+&=\frac{K_1}{s+1-\sqrt{2}}+\frac{K_2}{s+1+\sqrt{2}}
+\end{align*}
+جس سے 
+\begin{align*}
+K_1&=\left.\frac{10}{s+1+\sqrt{2}} \right|_{s=-1+\sqrt{2}}\\
+&=\frac{5}{\sqrt{2}}\\
+K_2&=\left.\frac{10}{s+1-\sqrt{2}} \right|_{s=-1-\sqrt{2}}\\
+&=-\frac{5}{\sqrt{2}}
+\end{align*}
+حاصل ہوتے ہیں۔یوں
+\begin{align*}
+\bV_0(s)=\frac{5}{\sqrt{2}}\left(\frac{1}{s+1-\sqrt{2}}-\frac{1}{s+1+\sqrt{2}}\right)
+\end{align*}
+لکھ کر الٹ لاپلاس بدل لیتے ہوئے درکار دباو حاصل ہو گا۔
+\begin{align*}
+v_0(t)&=\frac{5}{\sqrt{2}}\left[e^{-(1-\sqrt{2})t}-e^{-(1+\sqrt{2})t}\right]u(t)\\
+&=5\sqrt{2}e^{-t}\sinh (\sqrt{2}t) u(t) \, \si{\volt}
+\end{align*}
+\انتہا{مثال}
+%===================
+\ابتدا{مشق}\شناخت{مثال_لاپلاس_استعمال_مشق_الف}
+شکل \حوالہ{شکل_لاپلاس_استعمال_مشق_الف} میں \عددی{i_0(t)} بذریعہ مساوات جوڑ دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american current source,l={$4u(t)\,\si{\ampere}$}]++(0,\y) to [short]++(\x,0) to [american voltage source,l={$6u(t)\,\si{\volt}$}]++(\x,0) to [short]++(\x,0) to [resistor,l={$\SI{2}{\ohm}$},i={$i_0(t)$}]++(0,-\y) to [short](0,0);
+\draw(\x,0) to [inductor,*-*,l={$\SI{2}{\henry}$}]++(0,\y);
+\draw(2*\x,0) to [capacitor,*-*,l={$\SI{0.25}{\farad}$}]++(0,\y);
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_لاپلاس_استعمال_مشق_الف} کا دور۔}
+\label{شکل_لاپلاس_استعمال_مشق_الف}
+\end{figure}
+
+جواب:\عددی{i_0(t)=[e^{-t}(5\sin t-3\cos t)+3]u(t) \, \si{\ampere}}
+\انتہا{مشق}
+%===================
+\ابتدا{مشق}\شناخت{مثال_لاپلاس_استعمال_مشق_ب}
+شکل \حوالہ{شکل_لاپلاس_استعمال_مشق_ب} میں \عددی{v_0(t)} بذریعہ مساوات جوڑ دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american current source,l={$2u(t)\,\si{\ampere}$}]++(0,2*\y) to [short]++(\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [short]++(\x,0) to [resistor,l_={$\SI{6}{\ohm}$},v^<={$v_0(t)$}]++(0,-2*\y) to [short](0,0);
+\draw(\x,0) to [capacitor,*-*,l={$\SI{0.2}{\farad}$}]++(0,2*\y);
+\draw(2*\x,0) to [american voltage source,*-,l={$12u(t)\,\si{\volt}$}]++(0,\y) to [inductor,-*,l={$\SI{4}{\henry}$}]++(0,\y);
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_لاپلاس_استعمال_مشق_ب} کا دور۔}
+\label{شکل_لاپلاس_استعمال_مشق_ب}
+\end{figure}
+
+جواب:\عددی{v_0(t)=\left[e^{-\frac{t}{2}}\left(7.24\sin \frac{\sqrt{11}}{4}t-12\cos \frac{\sqrt{11}}{4}t\right)+12\right]u(t)\,\si{\volt}}
+\انتہا{مشق}
+%=============================
+\ابتدا{مشق}\شناخت{مثال_لاپلاس_استعمال_مشق_پ}
+شکل \حوالہ{شکل_لاپلاس_استعمال_مشق_پ} میں \عددی{v_0(t)} بذریعہ دائری مساوات دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [resistor,l={$2$}]++(0,\y) to [inductor,l={$4s$}]++(\x,0) to [capacitor,l={$\frac{2}{s}$}]++(\x,0) to [american voltage source,l={$\frac{6}{s}$}]++(\x,0) to [resistor,l_={$4$},v^<={$v_0(t)$}]++(0,-\y) to [short](0,0);
+\draw(\x,0) to [american current source,*-*,l_={$\frac{3}{s}$}]++(0,\y);
+%currents
+\draw[stealth-] ([shift={(-150:\x/4)}]\x/2,\y/2) arc (-150:150:\x/4);
+\draw(\x/2,\y/2) node{$\bI_1(s)$};
+\draw[stealth-] ([shift={(-150:\x/4)}]\x+\x,\y/2) arc (-150:150:\x/4);
+\draw(\x+\x,\y/2) node{$\bI_2(s)$};
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_لاپلاس_استعمال_مشق_پ} اور مثال \حوالہ{مثال_لاپلاس_استعمال_مشق_ت} کا دور۔}
+\label{شکل_لاپلاس_استعمال_مشق_پ}
+\end{figure}
+
+جواب:\عددی{v_0(t)=12e^{-\frac{t}{2}}\,\si{\volt}}
+\انتہا{مشق}
+%=================
+\ابتدا{مشق}\شناخت{مثال_لاپلاس_استعمال_مشق_ت}
+مسئلہ تھونن کی مدد سے شکل \حوالہ{شکل_لاپلاس_استعمال_مشق_پ} میں  \عددی{v_0(t)} حاصل کریں۔
+\انتہا{مشق}
+%==========================
+
+لاپلاس بدل کی مدد سے کچھ ادوار ہم حل کر چکے جن میں ابتدائی رو اور دباو صفر تھے۔ آئیں اب چند ایسے ادوار دیکھیں جن میں ابتدائی رو یا ابتدائی دباو پایا جاتا ہو۔اس طرز کے ادوار  ہم پہلے باب \حوالہ{باب_عارضی_رد_عمل} میں حل کر چکے ہیں۔اس باب کے شروع میں ابتدائی رو اور ابتدائی دباو کو شامل کرتے ہوئے پرزوں کے لاپلاس بدل حاصل کئے گئے نہیں شکل \حوالہ{شکل_لاپلاس_دور_مزاحمت_اظہار}، شکل \حوالہ{شکل_لاپلاس_دور_برق_گیر_اظہار} اور شکل \حوالہ{شکل_لاپلاس_دور_امالہ_گیر_اظہار} میں دکھایا گیا ہے۔انہیں کو استعمال کرتے ہوئے ادوار حل کئے جائیں گے۔
+%======================
+
+\ابتدا{مثال}\شناخت{مثال_لاپلاس_استعمال_عارضی_ردعمل_الف}
+شکل \حوالہ{شکل_لاپلاس_استعمال_عارضی_ردعمل_الف} میں ازل سے ایک سوئچ منقطع اور ایک سوئچ چالو ہے۔عین \عددی{t=\SI{0}{\second}} پر چالو سوئچ کو منقطع کر دیا جاتا ہے جبکہ منقطع سوئچ کو چالو کر دیا جاتا ہے۔لمحہ \عددی{t<0} پر دور کو حل کرتے ہوئے ابتدائی دباو اور ابتدائی رو حاصل کرتے ہوئے \عددی{t\ge 0} پر \عددی{i_0(t)} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{6}{\volt}$}]++(0,2*\y) to [cspst,l={${t=0}$}]++(\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [short]++(\x,0) to [resistor,l={$\SI{4}{\ohm}$}]++(\x,0) to [inductor,l={$\SI{3}{\henry}$},i={$i(t)$}]++(0,-2*\y) to [short] (0,0);
+\draw(2*\x,0) to [capacitor,*-*,l={$\SI{0.2}{\farad}$}]++(0,2*\y);
+\draw(3*\x,0) to [american voltage source,*-,l={$\SI{2}{\volt}$}]++(0,\y) to [ospst,-*,l={${t=0}$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{0.4\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l_={$\SI{2}{\volt}$}]++(0,\y) to [resistor,l={$\SI{4}{\ohm}$}]++(\x,0) to [short,i={$i_L(0)$}]++(0,-\y) to [short]++(-\x,0) to [short,*-o]++(-\x,0);
+\draw(0,\y) to [short,*-o]++(-\x,0);
+\draw(-\x,\y/2)node{$\begin{aligned} &+ \\ &v_C(0) \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\begin{subfigure}{0.6\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\frac{6}{s}$}]++(0,2*\y)  to [resistor,l={$2$}]++(\x,0) to [resistor,l={$4$}]++(\x,0) to [inductor,l={$3s$},i={$\bI(s)$}]++(0,-\y) to [american voltage source,l={$1.5$}]++(0,-\y)to [short] (0,0);
+\draw(\x,0)node[ground]{} to [american voltage source,*-,l={$\frac{2}{s}$}]++(0,\y)to [capacitor,-*,l={$\frac{5}{s}$}]++(0,\y)node[above]{$\bV_1(s)$};
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_لاپلاس_استعمال_عارضی_ردعمل_الف} کا دور۔}
+\label{شکل_لاپلاس_استعمال_عارضی_ردعمل_الف}
+\end{figure}
+
+حل: لمحہ \عددی{t<0} پر برق گیر کو کھلے دور جبکہ امالہ گیر کو قصر دور تصور کرتے ہوئے شکل-ب حاصل ہوتا ہے جہاں سے امالہ گیر کی ابتدائی رو \عددی{i_L(0)} اور برق گیر کا ابتدائی دباو \عددی{v_C(0)} حاصل ہوتے ہیں۔
+\begin{align*}
+i_L(0)&=\frac{2}{4}=\SI{0.5}{\ampere}\\
+v_C(0)&=\SI{2}{\volt}
+\end{align*}
+ابتدائی معلومات کو شامل کرتے ہوئے پرزوں کے لاپلاس مساوی دور پر کرنے سے  لمحہ \عددی{t\ge 0} کے لئے شکل حاصل ہوتا ہے۔مساوات جوڑ لکھتے ہیں
+\begin{align*}
+\frac{\bV_1(s)-\frac{6}{s}}{2}+\frac{\bV_1(s)-\frac{2}{s}}{\frac{5}{s}}+\frac{\bV_1(s)+1.5}{3s}=0
+\end{align*}
+جس سے 
+\begin{align*}
+\bV_1(s)&=\frac{12s^2+91s+120}{s(6s^2+23s+30)}
+\end{align*}
+حاصل ہوتا ہے۔یوں رو درج ذیل ہے
+\begin{align*}
+\bI(s)&=\frac{\bV_1(s)}{3s+4}\\
+&=\frac{12s^2+91s+120}{s(s+4)(6s^2+23s+30)}
+\end{align*}
+الٹ لاپلاس بدل لیتے ہوئے درج ذیل ملتا ہے۔
+\begin{align*}
+i(t)=\left[e^{-\frac{23}{12}t}\left(\frac{44}{\sqrt{191}} \sin \frac{\sqrt{191} t}{12}-2\cos\frac{\sqrt{191} t}{12} \right)+4\right]u(t)\,\si{\ampere}
+\end{align*}
+\انتہا{مثال}
+%==============
+\ابتدا{مثال}\شناخت{مثال_لاپلاس_استعمال_عارضی_ردعمل_ب}
+شکل \حوالہ{شکل_لاپلاس_استعمال_عارضی_ردعمل_ب} میں ازل سے چالو سوئچ کو لمحہ \عددی{} پر منقطع کیا جاتا ہے۔سوئچ منقطع ہونے کے بعد کی رو \عددی{i(t)} دریافت کریں۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{5}{\volt}$}]++(0,\y) to [ospst,l={${t=0}$}]++(\x,0) to [resistor,l={$\SI{5}{\ohm}$}]++(\x,0) to [resistor,l={$\SI{15}{\ohm}$}]++(\x,0) to [inductor,l={$\SI{3}{\henry}$},i={$i(t)$}]++(\x,0);
+\draw(0,0) to [short]++(4*\x,0) to [american voltage source,l_={$\SI{15}{\volt}$}]++(0,\y);
+\draw(2*\x,0) to [capacitor,*-*,l={$\SI{0.5}{\farad}$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{0.4\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{5}{\volt}$}]++(0,\y) to [resistor,l={$\SI{5}{\ohm}$}]++(\x,0) to [resistor,l={$\SI{15}{\ohm}$},i={$i_L(0)$}]++(\x,0);
+\draw(0,0) to [short]++(2*\x,0) to [american voltage source,l_={$\SI{15}{\volt}$}]++(0,\y);
+\draw(\x,0) to [short,*-o]++(0,\y/8);
+\draw(\x,\y) to [short,*-o]++(0,-\y/8);
+\draw(\x+0.3,\y/2)node{$\begin{aligned} &+ \\ &v_C(0) \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\begin{subfigure}{0.6\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)  to [american voltage source,l={$\frac{7.5}{s}$}] ++(0,\y)to [capacitor,l={$\frac{2}{s}$}]++(0,\y)to [resistor,l={$\frac{15}{s}$}]++(\x,0) to [inductor,l={$3s$},i={$\bI(s)$}]++(\x,0) ;
+\draw(0,0) to [short]++(2*\x,0) to [american voltage source,l_={$\frac{15}{s}$}]++(0,\y)to [american voltage source,l_={$1.5$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_لاپلاس_استعمال_عارضی_ردعمل_ب} کا دور۔}
+\label{شکل_لاپلاس_استعمال_عارضی_ردعمل_ب}
+\end{figure}
+
+حل:چالو سوئچ کی صورت میں برق گیر کو کھلا دور اور امالہ گیر کو قصر دور تصور کرتے ہوئے شکل-ب حاصل ہوتی ہے جہاں سے  امالہ گیر کی ابتدائی رو \عددی{i_L(0)} اور برق گیر کی ابتدائی دباو \عددی{v_C(0)} حاصل کرتے ہیں۔
+\begin{align*}
+i_L(0)&=\frac{10-20}{5+15}=\SI{-0.5}{\ampere}\\
+v_C(0)&=\frac{5\times 15+15\times 5 }{5+15}=\SI{7.5}{\volt}
+\end{align*}
+ابتدائی معلومات کو استعمال کرتے ہوئے، سوئچ منقطع ہونے کے بعد کا لاپلاس بدل دور شکل-پ میں دکھایا گیا ہے جہاں سے \عددی{\bI(s)} لکھتے ہیں۔
+\begin{align*}
+\bI(s)&=\frac{\frac{7.5}{s}-1.5-\frac{15}{s}}{\frac{2}{s}+15+3s}\\
+&=\frac{-(s+5)}{2(s^2+5s+\frac{2}{3})}\\
+&=\frac{-(s+5)}{2(s+\frac{5}{2}-\frac{\sqrt{201}}{6})(s+\frac{5}{2}+\frac{\sqrt{201}}{6})}
+\end{align*}
+اس کا الٹ لاپلاس بدل لیتے ہوئے درج ذیل حاصل ہوتا ہے۔
+ \begin{align*}
+i(t)=-e^{-\frac{5}{2}t}\left[\frac{45}{6\sqrt{201}} \sinh \left(\frac{\sqrt{201}t}{6}\right)+\frac{1}{2}\cosh \left(\frac{\sqrt{201}t}{6}\right)\right]u(t)\,\si{\ampere}
+\end{align*}
+\انتہا{مثال}
+%================
