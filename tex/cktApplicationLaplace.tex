@@ -182,7 +182,7 @@ i(t)&=\frac{1}{L}\int_0^t v(t) \dif t+i(0)
 \label{شکل_لاپلاس_دور_امالہ_گیر_اظہار}
 \end{figure}
 
-شکل میں دکھائے گئے مربوط لچھوں کے تعلق درج ذیل ہیں۔
+شکل \حوالہ{شکل_لاپلاس_استعمال_مشترک_امالہ_دباو_الف} میں دکھائے گئے مربوط لچھوں کے تعلق درج ذیل ہیں۔
 \begin{align}
 v_1(t)&=L_1 \frac{\dif i_1(t)}{\dif t}+M\frac{\dif i_2(t)}{\dif t}\\
 v_2(t)&=L_2 \frac{\dif i_2(t)}{\dif t}+M\frac{i_1(t)}{\dif t}
@@ -192,6 +192,47 @@ v_2(t)&=L_2 \frac{\dif i_2(t)}{\dif t}+M\frac{i_1(t)}{\dif t}
 \bV_1(s)&=sL_1 \bI_1(s)-L_1 i_1(0)+sM\bI_2(s)-M i_2(0)\\
 \bV_2(s)&=sL_2 \bI_2(s)-L_2 i_2(0)+sM\bI_1(s)-M i_1(0)
 \end{align}
+%
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{circuitikz}
+\draw(0,0) rectangle ++(-\boxW,\boxH);
+\draw(0,0.25) to [short,-o]++(\x/4,0) to [short,o-]++(3/4*\x,0)coordinate(BL) to [inductor,l={$L_1$}]++(0,\y)coordinate(TL) to [short,-o,i<_={$i_1$}]++(-3/4*\x,0) to [short,o-]++(-\x/4,0);
+\draw(\x+\x/3+\x,0.25) to [short,-o]++(-\x/4,0) to [short,o-]++(-3/4*\x,0)coordinate(BR) to [inductor,l_={$L_2$}]++(0,\y)coordinate(TR) to [short,-o,i<^={$i_2$}]++(3/4*\x,0) to [short,o-]++(\x/4,0);
+\draw($(TL)!0.5!(TR)$)node[above]{$M$};
+\draw(TL)++(-0.5,-0.5) node[circ]{}; 
+\draw(TR)++(0.5,-0.5) node[circ]{}; 
+\draw(2*\x+\x/3,0) rectangle ++(\boxW,\boxH);
+\draw(\x/4,\boxH/2) node[]{$\begin{aligned} &+ \\ &v_1 \\ &-  \end{aligned}$};
+\draw(2*\x+\x/3-\x/4,\boxH/2) node[]{$\begin{aligned} &+ \\ &v_2 \\ &-  \end{aligned}$};
+\end{circuitikz}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{circuitikz}
+\draw(0,0) rectangle ++(-\boxW,\boxH);
+\draw(0,0.25) to [short,-o]++(\x/2,0) to [short,o-]++(\x/2+\x,0)coordinate(BL) to [inductor,l={$sL_1$}]++(0,\y)coordinate(TL);
+\draw(0,0.25+\y) to [short,-o]++(\x/2,0) to [short,i>^={$\bI_1(s)$}]++(\x/2,0) to [american voltage source]++(\x,0)coordinate(upL);
+\draw(\x+\x/3+3*\x,0.25) to [short,-o]++(-\x/2,0) to [short,o-]++(-\x/2-\x,0)coordinate(BR) to [inductor,l_={$sL_2$}]++(0,\y)coordinate(TR);
+ \draw(\x+\x/3+2*\x+\x,0.25+\y)to [short,-o]++(-\x/2,0) to [short,i>_={$\bI_2(s)$}]++(-\x/2,0) to [american voltage source]++(-\x,0)coordinate(upR);
+\draw($(TL)!0.5!(TR)$)node[above]{$sM$};
+\draw(TL)++(-0.5,-0.5) node[circ]{}; 
+\draw(TR)++(0.5,-0.5) node[circ]{}; 
+\draw(2*\x+\x/3+2*\x,0) rectangle ++(\boxW,\boxH);
+\draw(\x/2+0.3,\boxH/2) node[]{$\begin{aligned} &+ \\ &\bV_1(s) \\ &-  \end{aligned}$};
+\draw(2*\x+\x/3-\x/2+2*\x+0.3,\boxH/2) node[]{$\begin{aligned} &+ \\ &\bV_2(s) \\ &-  \end{aligned}$};
+\draw(upL)++(-3/4*\x,0.9)node{$L_1i_1(0)+Mi_2(0)$};
+\draw(upR)++(3/4*\x,0.9)node{$L_2i_2(0)+Mi_1(0)$};
+\end{circuitikz}
+\caption*{(ب)}
+\end{subfigure}
+\caption{مشترکہ امالہ کا لاپلاسی بدل۔}
+\label{شکل_لاپلاس_استعمال_مشترک_امالہ_دباو_الف}
+\end{figure}
+
 تابع اور غیر تابع منبع دباو اور منبع رو کو بھی \عددی{s} دائرہ کار میں ظاہر کیا جا سکتا ہے
 \begin{align}
 \bV_1(s)&=\Laplace[v_1(t)]\\
@@ -784,7 +825,7 @@ i(t)=\left[e^{-\frac{23}{12}t}\left(\frac{44}{\sqrt{191}} \sin \frac{\sqrt{191} 
 i_L(0)&=\frac{10-20}{5+15}=\SI{-0.5}{\ampere}\\
 v_C(0)&=\frac{5\times 15+15\times 5 }{5+15}=\SI{7.5}{\volt}
 \end{align*}
-ابتدائی معلومات کو استعمال کرتے ہوئے، سوئچ منقطع ہونے کے بعد کا لاپلاس بدل دور شکل-پ میں دکھایا گیا ہے جہاں سے \عددی{\bI(s)} لکھتے ہیں۔
+ابتدائی معلومات کو استعمال کرتے ہوئے، سوئچ منقطع ہونے کے بعد کا لاپلاس بدل دور شکل-پ میں دکھایا گیا ہے۔ابتدائی رو منفی ہونے کی وجہ سے امالہ کے لاپلاسی اظہار میں \عددی{\SI{1.5}{\volt}} منبع کے قطبین شکل \حوالہ{شکل_لاپلاس_دور_امالہ_گیر_اظہار} کے الٹ ہیں۔ شکل \حوالہ{شکل_لاپلاس_استعمال_عارضی_ردعمل_ب}-ب سے \عددی{\bI(s)} لکھتے ہیں۔
 \begin{align*}
 \bI(s)&=\frac{\frac{7.5}{s}-1.5-\frac{15}{s}}{\frac{2}{s}+15+3s}\\
 &=\frac{-(s+5)}{2(s^2+5s+\frac{2}{3})}\\
@@ -792,7 +833,225 @@ v_C(0)&=\frac{5\times 15+15\times 5 }{5+15}=\SI{7.5}{\volt}
 \end{align*}
 اس کا الٹ لاپلاس بدل لیتے ہوئے درج ذیل حاصل ہوتا ہے۔
  \begin{align*}
-i(t)=-e^{-\frac{5}{2}t}\left[\frac{45}{6\sqrt{201}} \sinh \left(\frac{\sqrt{201}t}{6}\right)+\frac{1}{2}\cosh \left(\frac{\sqrt{201}t}{6}\right)\right]u(t)\,\si{\ampere}
+i(t)=-e^{-\frac{5}{2}t}\left[\frac{45}{6\sqrt{201}} \sinh \left(\frac{\sqrt{201}}{6}t\right)+\frac{1}{2}\cosh \left(\frac{\sqrt{201}}{6}t\right)\right]u(t)\,\si{\ampere}
 \end{align*}
 \انتہا{مثال}
 %================
+\ابتدا{مشق}\شناخت{مشق_لاپلاس_استعمال_سوئچ_الف}
+شکل \حوالہ{شکل_لاپلاس_استعمال_سوئچ_الف} میں \عددی{i_0(t)} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{10}{\volt}$}]++(0,\y) to [ospst,l={${t=0}$}]++(\x,0) to [resistor,l={$\SI{8}{\ohm}$}]++(\x,0) to [resistor,l={$\SI{4}{\ohm}$}]++(\x,0) to [inductor,l={$\SI{4}{\henry}$},i={$i(t)$}]++(\x,0);
+\draw(0,0) to [short]++(4*\x,0) to [american voltage source,l_={$\SI{12}{\volt}$}]++(0,\y);
+\draw(2*\x,0) to [capacitor,*-*,l={$\SI{1}{\farad}$}]++(0,\y);
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_لاپلاس_استعمال_سوئچ_الف} کا دور۔}
+\label{شکل_لاپلاس_استعمال_سوئچ_الف}
+\end{figure}
+
+جواب:\عددی{i_0(t)=-\frac{e^{-\frac{t}{2}}}{6}(1+\frac{t}{2})u(t)\,\si{\ampere}}
+\انتہا{مشق}
+%====================
+\ابتدا{مشق}\شناخت{مشق_لاپلاس_استعمال_سوئچ_ب}
+شکل \حوالہ{شکل_لاپلاس_استعمال_سوئچ_ب}-الف میں \عددی{v_0(t)} حاصل کریں۔شکل-ب میں داخلی دباو کی مستطیل صورت دی گئی ہے۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.6\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$v_d(t)$}]++(0,\y) to [resistor,l={$\SI{4}{\ohm}$}]++(\x,0) to [inductor,l={$\SI{4}{\henry}$}]++(\x,0) to [resistor,l={$\SI{2}{\ohm}$},v={$v_0(t)$}]++(0,-\y) to [short](0,0);
+\draw(\x,0) to [resistor,*-*,l={$\SI{2}{\ohm}$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.4\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)--++(0,2)node[left]{$v_d(t)$};
+\draw(0,0)--++(3,0)node[below]{$t\,(\si{\second})$};
+\draw(0,0)--++(0,1)node[left]{$\SI{20}{\volt}$}--++(1.5,0)--++(0,-1)node[below]{$2$}--(3,0);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{مشق \حوالہ{مشق_لاپلاس_استعمال_سوئچ_ب} کا دور۔}
+\label{شکل_لاپلاس_استعمال_سوئچ_ب}
+\end{figure}
+
+جواب:\عددی{v_0(t)=4(1-e^{-\frac{5}{6}t})u(t)+4(1-e^{-(\frac{5}{6}-2)t})u(t-2) \, \si{\volt}}
+\انتہا{مشق}
+%=================
+
+\حصہ{تبادلی تفاعل جال}
+دور میں کسی بھی دباو یا رو اور داخلی اشارے کے تناسب کو جال کی \اصطلاح{تبادلی تفاعل}\فرہنگ{تبادلی تفاعل}\حاشیہب{transfer function}\فرہنگ{transfer function} یا \اصطلاح{تفاعل جال}\فرہنگ{تفاعل!جال}\فرہنگ{جال!تفاعل}\حاشیہب{network function}\فرہنگ{network!function}\فرہنگ{function!network}  کہتے ہیں۔اگر دونوں متغیرات دباو ہوں تب تبادلی تفاعل \اصطلاح{افزائش دباو}\فرہنگ{افزائش!دباو}\فرہنگ{دباو!افزائش}\حاشیہب{voltage gain}\فرہنگ{voltage!gain}\فرہنگ{gain!voltage} کہلاتا ہے، اگر دونوں متغیرات رو ہوں تب اس کو \اصطلاح{افزائش رو}\فرہنگ{افزائش!رو}\فرہنگ{رو!افزائش}\حاشیہب{current gain}\فرہنگ{current!gain}\فرہنگ{gain!current} کہتے ہیں۔اسی طرح دباو اور رو کے تناسب کو \اصطلاح{افزائش مزاحمت نما}\فرہنگ{افزائش!مزاحمت نما}\فرہنگ{مزاحمت نما!افزائش}\حاشیہب{transresistance gain}\فرہنگ{transcresistance!gain}\فرہنگ{gain!transresistance} کہتے ہیں جبکہ رو اور دباو کے تناسب کو \اصطلاح{افزائش موصلیت نما}\فرہنگ{افزائش!موصلیت نما}\فرہنگ{موصلیت نما!افزائش}\حاشیہب{transconductance gain}\فرہنگ{transconductance!gain}\فرہنگ{gain!transconductance} کہتے ہیں۔تبادلی تفاعل کے حصول میں ابتدائی دباو اور ابتدائی رو کو صفر لیا جاتا ہے۔
+
+فرض کریں کہ کسی دور کا تبادلی تفاعل درج ذیل مساوات دیتی ہے جہاں \عددی{x_d(t)} داخلی اشارہ اور \عددی{y_0(t)} خارجی اشارہ ہیں۔
+\begin{multline*}
+b_n\frac{\dif^{\, n} y_0(t)}{\dif t^{n}}+b_{n-1}\frac{\dif^{\, n-1} y_0(t)}{\dif t^{n-1}}+\cdots+b_{1}\frac{\dif^{\, 1} y_0(t)}{\dif t^{1}}+b_0 y_0(t)=\\
+a_m\frac{\dif^{\, m} x_d(t)}{\dif t^{m}}+a_{m-1}\frac{\dif^{\, m-1} x_d(t)}{\dif t^{m-1}}+\cdots+a_{1}\frac{\dif^{\, 1} x_d(t)}{\dif t^{1}}+a_0 x_d(t)
+\end{multline*}
+تمام ابتدائی معلومات صفر ہونے کی صورت میں درج بالا کا لاپلاس بدل درج ذیل ہو گا
+\begin{multline*}
+\left(b_n s^n+b_{n-1}s^{n-1}+\cdots +b_1 s+b_0\right){\textup{Y}_0(s)}=\\
+\left(a_m s^m+a_{m-1}s^{m-1}+\cdots+a_1 s+a_0\right){\textup{X}_d(s)}
+\end{multline*}
+جس سے تبادلی تفاعل \عددی{\bH(s)} 
+\begin{align*}
+\bH(s)=\frac{{\textup{Y}_0(s)}}{{\textup{X}_d(s)}}=\frac{a_m s^m+a_{m-1}s^{m-1}+\cdots+a_1 s+a_0}{b_n s^n+b_{n-1}s^{n-1}+\cdots +b_1 s+b_0}
+\end{align*}
+یا
+\begin{align}\label{مساوات_لاپلاس_استعمال_عمومی_الف}
+{\textup{Y}_0(s)}=\bH(s){\textup{X}_d(s)}
+\end{align}
+لکھتے ہیں۔
+
+مساوات \حوالہ{مساوات_لاپلاس_استعمال_عمومی_الف} کہتی ہے کہ تبادلی تفاعل \عددی{\bH(s)} اور داخلی تفاعل \عددی{{\textup{X}_d}} کا حاصل ضرب خارجی تفاعل \عددی{{\textup{Y}_0(s)}} کے برابر ہے۔یوں \عددی{x_d(t)=\delta(t)} کی صورت میں چونکہ \عددی{{\textup{X}_d(s)}=1} ہے لہٰذا \عددی{{\textup{Y}_0(s)}=\bH(s)} ہو گا۔
+\begin{align}\label{مساوات_لاپلاس_استعمال_تبادلی_تفاعل_اور_خارجی_اشارہ}
+{\textup{Y}_0(s)}=\bH(s)\quad  \delta(t)
+\end{align}
+یہ ایک اہم نتیجہ ہے جس کے تحت کسی بھی دور پر اکائی ضرب تفاعل لاگو کرتے ہوئے خارجی اشارے سے دور کا تبادلی تفاعل حاصل کیا جا سکتا ہے۔ایک بار دور کا تبادلی تفاعل معلوم ہو جائے اس کے بعد کسی بھی داخلی اشارے پر دور کا ردعمل مساوات \حوالہ{مساوات_لاپلاس_استعمال_عمومی_الف} سے حاصل کیا جا سکتا ہے۔الٹ لاپلاس بدل لیتے ہوئے \عددی{h(t)} حاصل ہو گا۔چونکہ تجزیہ گاہ میں اکائی ضرب تفاعل پیدا کرنا مشکل بلکہ ناممکن کام ہے لہٰذا ہم دور پر اکائی سیڑھی تفاعل بھی لاگو کرتے ہوئے اس کا تبادلی تفاعل حاصل کر سکتے ہیں۔چونکہ \عددی{u(t)} کا لاپلاس بدل \عددی{\tfrac{1}{s}} ہے لہٰذا دور پر اکائی سیڑھی تفاعل لاگو کرتے ہوئے مساوات \حوالہ{مساوات_لاپلاس_استعمال_عمومی_الف} کے تحت درج ذیل لکھا جا سکتا ہے۔
+\begin{align}
+{\textup{Y}_0(s)}=\frac{\bH(s)}{s} \quad u(t)
+\end{align}
+یوں اکائی سیڑھی تفاعل لاگو کرتے ہوئے دور کا خارجی اشارہ ناپا جاتا ہے۔خارجی اشارے کو \عددی{s} سے  ضرب دیتے ہوئے تبادلی  تفاعل حاصل ہو گا۔آپ جانتے ہیں کہ مخلوط تعددی دائرہ کار میں \عددی{s} سے ضرب دینے سے مراد وقتی دائرہ کار میں تفاعل کا تفرق لینا ہے۔یوں  \عددی{h(t)=\tfrac{\dif y_0(t)}{\dif t}} ہو گا۔
+
+%==============
+
+\ابتدا{مثال}
+دور کا اکائی ضرب تفاعل رد عمل \عددی{\bH(s)=\tfrac{2}{s+5}} ہے۔داخلی اشارہ \عددی{v_d(t)=3e^{-4t}u(t)\,\si{\volt}} لاگو کرتے ہوئے خارجی اشارہ \عددی{v_0(t)} دریافت کریں۔
+
+حل:داخلی اشارے کا لاپلاس بدل لکھتے ہیں۔
+\begin{align*}
+\bV_d(s)=\frac{3}{s+4}
+\end{align*}
+یوں مساوات استعمال کرتے ہوئے
+\begin{align*}
+\bV_0(s)&=\bH(s) \bV_d(s)\\
+&=\frac{6}{(s+5)(s+4)}\\
+&=\frac{6}{s+4}-\frac{6}{s+5}
+\end{align*}
+الٹ لاپلاس بدل لیتے ہوئے خارجی اشارہ حاصل کرتے ہیں۔
+\begin{align*}
+v_0(t)=6\left(e^{-4t}-e^{-5t}\right)u(t)\,\si{\volt}
+\end{align*}
+\انتہا{مثال}
+%=================
+
+تبادلی تفاعل کے قطب سے دور کے ردعمل کے بارے میں بہت کچھ جانا جاتا ہے۔ہم ایک درجی اور دو درجہ ادوار پر باب \حوالہ{باب_عارضی_رد_عمل} میں غور کر چکے ہیں۔یہاں نتائج کو دوبارہ پیش کرتے ہیں۔ایک عدد امالہ گیر یا برق گیر کی صورت میں ردعمل \عددی{y(t)=y_0e^{-\frac{t}{\tau}}} صورت رکھتا ہے جہاں \عددی{\tau} دور کا وقتی مستقل ہے۔دو درجی ادوار کا ردعمل دور کے \اصطلاح{امتیازی مساوات}
+\begin{align*}
+s^2+2\zeta \omega_0 s+\omega_0^2=0
+\end{align*}
+کے قطبین پر منحصر ہوتا ہے۔یاد رہے کہ تبادلی تفاعل کا نسب نما امتیازی مساوات کہلاتا ہے۔امتیازی مساوات میں \عددی{ \zeta} \اصطلاح{تقصیری مستقل} اور \عددی{\omega_0} \اصطلاح{بلا تقصیر قدرتی تعدد} ہے اور یہی دو قیمتیں ردعمل کی تین ممکنہ صورتیں تعین کرتی ہیں۔
+%=====================
+\begin{description}
+\جزو{زیادہ تقصیر:} امتیازی مساوات میں \عددی{\zeta>1} اور مساوات  کے جذر
+\begin{align*}
+s_1&=-\zeta\omega_0-\omega_0\sqrt{\zeta^2-1}\\
+s_2&=-\zeta\omega_0+\omega_0\sqrt{\zeta^2-1}
+\end{align*}
+ہیں لہٰذا جال کا ردعمل درج ذیل ہے۔
+\begin{align*}
+y(t)=K_1e^{-(\zeta\omega_0+\omega_0\sqrt{\zeta^2-1})t}+K_2e^{-(\zeta\omega_0-\omega_0\sqrt{\zeta^2-1})t}
+\end{align*}
+\جزو{کم تقصیر:} امتیازی مساوات میں \عددی{\zeta<1} اور مساوات  کے جذر
+\begin{align*}
+s_1&=-\zeta\omega_0-j\omega_0\sqrt{1-\zeta^2}\\
+s_2&=-\zeta\omega_0+j\omega_0\sqrt{1-\zeta^2}
+\end{align*}
+ہیں لہٰذا جال کا ردعمل درج ذیل ہے۔
+\begin{align*}
+y(t)&=K_1e^{-(\zeta\omega_0+j\omega_0\sqrt{1-\zeta^2})t}+K_2e^{-(\zeta\omega_0-j\omega_0\sqrt{1-\zeta^2})t}\\
+&=Ke^{-\zeta \omega_0 t} \cos (\omega_0\sqrt{1-\zeta^2} t+\phi)
+\end{align*}
+\جزو{فاصل تقصیر:} امتیازی مساوات میں \عددی{\zeta=1} اور مساوات  کے جذر
+\begin{align*}
+s_1=s_2=-\omega_0\\
+\end{align*}
+ہیں لہٰذا جال کا ردعمل درج ذیل ہے۔
+\begin{align*}
+y(t)&=K_1e^{-\omega_0 t}+K_2 te^{-\omega_0 t}
+\end{align*}
+\end{description}
+%====================
+
+جال کے قطبین اور صفروں کو عموماً \اصطلاح{مخلوط سطح}\فرہنگ{مخلوط!سطح}\فرہنگ{سطح!مخلوط}\حاشیہب{complex plane}\فرہنگ{complex!plane}\فرہنگ{plane!complex} یا \عددی{s} سطح\فرہنگ{plane!s}\فرہنگ{s!plane} پر دکھایا جاتا ہے۔مخلوط سطح کے افقی محور پر \عددی{\sigma} اور عمودی محور پر \عددی{j\omega} رکھتے ہوئے مخلوط تعدد \عددی{s=\sigma+j\omega} دکھایا جاتا ہے۔اس سطح پر صفر کو \عددی{0} جبکہ قطبین کو \عددی{\times} سے ظاہر کیا جاتا ہے۔ اگرچہ ہمیں تفاعل جال کے  غیر لامتناہی قطبین اور صفر سے غرض ہے، یہاں اس حقیقت کا ذکر کرنا ضروری ہے کہ کسی بھی معقول تفاعل میں قطبین اور صفر کی تعداد برابر پائی جاتی ہے۔یوں اگر تبادلی تفاعل میں \عددی{n>m} ہو تب \عددی{n-m} صفر لامتناہی پر پائے جاتے ہیں اور اگر \عددی{n<m} ہو تب \عددی{m-n} قطب لامتناہی پر پائے جاتے ہیں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+%axis
+\draw(-2.25,0)--(2.25,0)node[below]{$\sigma$};
+\draw(0,-2.25)--(0,2.25)node[left]{$j\omega$};
+%
+\draw(-0.5,0)node[cross out,draw=black]{};
+\draw(-1.5,0)node[cross out,draw=black]{};
+\end{tikzpicture}
+\caption*{(الف) مخلوط سطح پر حقیقی سادہ قطبین کا اظہار۔}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[kStyleCircuitsA,small,xlabel={$t$},ylabel={$y(t)$},xmin=0,ymin=0,ymax=2.5,xtick=\empty,ytick=\empty]
+\addplot[mark=none,color=black,domain=0:4]{e^(-0.5*x)+e^(-1.5*x)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(ب) حقیقی منفی سادہ قطبین سے پیدا ردعمل۔}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+%axis
+\draw(-2.25,0)--(2.25,0)node[below]{$\sigma$};
+\draw(0,-2.25)--(0,2.25)node[left]{$j\omega$};
+%
+\draw(-1,0.5)node[cross out,draw=black]{};
+\draw(-1,-0.5)node[cross out,draw=black]{};
+\end{tikzpicture}
+\caption*{(پ) مخلوط سطح پر جوڑی دار مخلوط قطبین کا اظہار۔}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[kStyleCircuitsA,small,xlabel={$t$},ylabel={$y(t)$},xmin=0,xtick=\empty,ytick=\empty]
+\addplot[mark=none,color=black,domain=0:10,samples=100]{2*e^(-0.1*x)*cos(50*x)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(ت) مخلوط جوڑی دار قطبین سے پیدا ردعمل۔}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+%axis
+\draw(-2.25,0)--(2.25,0)node[below]{$\sigma$};
+\draw(0,-2.25)--(0,2.25)node[left]{$j\omega$};
+%
+\draw(-1,0)node[cross out,draw=black]{};
+\draw(-1,-0.15)node[cross out,draw=black]{};
+\end{tikzpicture}
+\caption*{(ٹ) کثیر ہم رقمی حقیقی منفی قطبین۔}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[kStyleCircuitsA,small,xlabel={$t$},ylabel={$y(t)$},xmin=0,ymin=0,ymax=2.5,xtick=\empty,ytick=\empty]
+\addplot[mark=none,color=black,domain=0:4]{e^(-1*x)+e^(-1*x)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(ث) کثیر ہم رقمی حقیقی منفی قطبین سے پیدا ردعمل۔}
+\end{subfigure}
+\caption{قطبین اور ردعمل}
+\label{شکل_لاپلاس_استعمال_قطبین_اور_ردعمل}
+\end{figure}
+
+شکل \حوالہ{شکل_لاپلاس_استعمال_قطبین_اور_ردعمل} میں سادہ اور علیحدہ قطبین، مخلوط قطبین اور کثیر  ہم رقمی قطبین مخلوط سطح پر دکھائے گئے ہیں۔شکل-ٹ میں دو عدد ہم رقمی قطبین کو علیحدہ علیحدہ کر کے دکھایا گیا ہے۔حقیقت میں یہ دونوں حقیقی محور پر ایک ہی نقطے پر پائے جاتے ہیں۔ساتھ ہی ساتھ ان سے حاصل ردعمل بھی دکھایا گیا ہے۔سادہ اور علیحدہ قطبین کے تفاعل  کی شرح تبدیلی کم ہوتی ہے لہٰذا اس کو صفر تک پہنچنے میں زیادہ وقت لگتا ہے۔ مخلوط قطبین کے تفاعل کی شرح تبدیلی زیادہ ہوتی ہے البتہ یہ صفر پر پہنچ کر دوسری جانب نکل جاتا ہے۔یوں مخلوط قطبین کا تفاعل \اصطلاح{مقصور سائن نما}\فرہنگ{مقصور سائن نما}\فرہنگ{سائن نما!مقصور}\حاشیہب{damped sinusoidal}\فرہنگ{damped!sinusoidal} ہوتی ہیں۔ کثیر ہم رقمی قطبین کا ردعمل ہے ان دونوں کے درمیان ہے۔یہ تیز تر ممکنہ رفتار سے صفر تک پہنچتا ہے، البتہ اتنا تیز نہیں کہ صفر پر رکھ نہ سکے اور دوسری جانب نکل جائے۔
+%======================
+
+\begin{figure}
+\centering
+\includegraphics{figLaplaceApplicationComplexPlane}
+\caption{مخلوط سطح پر مختلف قطبین اور ان کے تفاعل کے ردعمل۔}
+\label{شکل_لاپلاس_استعمال_مختلف_قطبین}
+\end{figure}
+
+شکل \حوالہ{شکل_لاپلاس_استعمال_مختلف_قطبین} میں مخلوط سطح پر مختلف تفاعل اور تفاعل کے  قطبین  دکھائے گئے۔اس شکل سے کئی حقائق کی وضاحت ہوتی ہے لہٰذا اس پر کچھ وقت صرف کرتے ہیں۔فرض کریں کہ \عددی{p_1} تا \عددی{p_5} بالترتیب \عددی{f_1(t)} تا \عددی{f_5(t)} تفاعل کو ظاہر کرتے ہیں۔مخلوط قطبین جوڑیوں میں پائے جاتے ہیں۔یوں \عددی{p_2} اور \عددی{p^*_2} مخلوط جوڑی ہے جو \عددی{f_2(t)} کو ظاہر کرتے ہیں۔حقیقی جزو صفر ہونے کی صورت میں خیالی قطبین کی جوڑی مثلاً \عددی{p_3} اور \عددی{p^*_3} ملتی ہے۔قطب کا حقیقی جزو اگر مثبت ہو تو تفاعل مسلسل بڑھتا ہے اور اگر حقیقی  جزو منفی ہو تب تفاعل مسلسل گھٹتا ہے۔یوں \عددی{f_4(t)} یا \عددی{f_5(t)} مسلسل بڑھتے تفاعل ہیں جبکہ \عددی{f_1(t)} اور \عددی{f_2(t)} مسلسل گھٹتے تفاعل ہیں۔قطب کا خیالی جزو صفر نہ ہونے کی صورت میں تفاعل سائن نما ہو گا لہٰذا \عددی{f_5(t)} مسلسل بڑھتا سائن نما تفاعل ہے جبکہ  \عددی{f_2(t)} مسلسل گھٹتا سائن نما تفاعل ہے۔خیالی قطبین کی جوڑی سائن نما تفاعل کو ظاہر کرتی ہے لہٰذا \عددی{f_3(t)} برقرار حیطے کا سائن نما تفاعل ہے۔حقیقی محور سے جتنا دور جایا جائے، تعدد اتنی بڑھتی ہے لہٰذا \عددی{f_5(t)} سے \عددی{f_2(t)} کا تعدد زیادہ ہے اور \عددی{f_3(t)} کا تعدد اس سے بھی زیادہ ہے۔اسی طرح خیالی محور سے جتنا دور جایا جائے، بڑھنے یا گھٹنے کی شرح اتنی بڑھتی ہے لہٰذا \عددی{f_4(t)} کے بڑھنے کی شرح سے \عددی{f_2(t)} کے گھٹنے کی شرح زیادہ ہو گی جبکہ \عددی{f_5(t)} اس سے زیادہ اور \عددی{f_1(t)} تمام سے زیادہ تیزی سے تبدیل ہو گا۔
