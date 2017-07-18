@@ -1,0 +1,40 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{commath}									%differentiation symbols
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,decorations.pathreplacing,decorations.markings}
+
+\input{../../tex/myEMTvectors.tex}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+
+\definecolor{lgray}{cmyk}{0,0,0,0.2}
+\definecolor{dgray}{cmyk}{0,0,0,0.7}
+
+% \draw[->-=0.5] (0,0)--(3,0); draws arrow at the middle
+\tikzset{->-/.style={decoration={markings, mark=at position #1 with {\arrow{latex}}},postaction={decorate}}}
+\tikzset{-<-/.style={decoration={markings, mark=at position #1 with {\arrow{latex reversed}}},postaction={decorate}}}
+
+\pgfmathsetmacro{\a}{1}
+\pgfmathsetmacro{\b}{1}
+\pgfmathsetmacro{\c}{0.2}
+
+\begin{document}
+\begin{urdufont}
+
+
+\begin{tikzpicture}
+\begin{axis}[xlabel={$\delta$},ylabel={$j\omega$},colormap={bw}{gray(0 cm)=(0);gray(1 cm)=(1)},zmax=10,zmin=0]
+\addplot3[surf,color=gray,domain=-4:2,y domain=-4:4,samples=60,samples y=60]{4*sqrt(x^2+y^2)/sqrt((x^2-y^2+4*x+8)^2+(2*x*y+4*y)^2)+0.001};
+\end{axis}
+
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}

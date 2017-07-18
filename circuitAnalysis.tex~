@@ -50,13 +50,15 @@
 \newcommand*{\bH}{{\ensuremath{{\boldsymbol{H}}}}}                         %network functions
 \newcommand*{\bA}{{\ensuremath{{\boldsymbol{A}}}}}                         %voltage gain
 
-\newcommand*{\kB}[1]{{\ensuremath{{\textup{#1}}}}}  %Laplace symbol
 \newcommand*{\pf}{{\ensuremath{{\textup{pf}}}}}
 \newcommand*{\rms}{{\ensuremath{\textup{rms}}}}           %rms
 \newcommand*{\BW}{{\ensuremath{{\textup{BW}}}}}   %bandwidth
 
 \newcommand*{\Laplace}{\mathcal{L}}   %Laplace transform
 \newcommand*{\Fourier}{\mathcal{F}}   %Fourier transform
+
+\newcommand*{\kB}[1]{{\ensuremath{{\textup{#1}}}}}  %Laplace symbol general use. 
+						%following were used too often so gave them specific symbols
 \newcommand*{\bF}{{\ensuremath{{\textup{F}}}}}    %Fourier transform of 
 \newcommand*{\bP}{{\ensuremath{{\textup{P}}}}}   %Laplace fraction
 \newcommand*{\bQ}{{\ensuremath{{\textup{Q}}}}}  %Laplace fraction
@@ -108,7 +110,7 @@ every axis x label/.style={
 
 %\input{./tex/myElectronicsVariablesBetter.tex}         %these are all tested. to use at the very end when book is finished
 
-\graphicspath{{./fig/figFrontPage/}{./fig/figBasicConcepts/}{./fig/figResistive/}{./fig/figNodalLoop/}{./fig/figOpamp/}{./fig/figTheorem/}{./fig/figCapacitorInductor/}{./fig/figTransients/}{./fig/figFreqResponse/}}		%paths to figures
+\graphicspath{{./fig/figFrontPage/}{./fig/figBasicConcepts/}{./fig/figResistive/}{./fig/figNodalLoop/}{./fig/figOpamp/}{./fig/figTheorem/}{./fig/figCapacitorInductor/}{./fig/figTransients/}{./fig/figFreqResponse/}{./fig/figLaplaceTransform/}{./fig/figLaplaceTransformApplication/}}		%paths to figures
 
 
 %\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktTheorems,./tex/cktCapacitorInductor,./tex/cktTransients,./tex/cktSteadyStateAC,./tex/cktSteadyStatePower,./tex/cktMagneticallyCoupledNetworks,./tex/cktPolyphaseCircuits,./tex/cktFrequencyResponse,./tex/cktLaplaceTransform,./tex/cktApplicationLaplace,./tex/cktToDoList}
