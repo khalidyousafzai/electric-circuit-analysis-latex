@@ -31,56 +31,58 @@
 \begin{tikzpicture}
 %axis
 \draw(-5,0)--(5,0)node[below]{$\sigma$};
-\draw(0,-4)--(0,5)node[left]{$j\omega$};
+\draw(0,-4.5)--(0,5)node[left]{$j\omega$};
 %text
-\draw[-stealth] (1,-4)--++(1,0)node[right]{\RL{غیر متوازن}};
-\draw[-stealth] (-1,-4)--++(-1,0)node[left]{\RL{متوازن}};
+\draw[-stealth] (1,-4.5)--++(1,0)node[right]{\RL{غیر متوازن}};
+\draw[-stealth] (-1,-4.5)--++(-1,0)node[left]{\RL{متوازن}};
 %poles
 \draw(0.75,0)node[cross out,draw=black]{}node[shift={(0,0.4)}]{$p_4$};
-\draw(2,1)node[cross out,draw=black]{}node[shift={(0,-0.4)}]{$p_5$};
 \draw(-3,0)node[cross out,draw=black]{}node[shift={(0,0.4)}]{$p_1$};
 %complex pair
 \draw(-1,2)node[cross out,draw=black]{}node[shift={(0,-0.4)}]{$p_2$};
 \draw(-1,-2)node[cross out,draw=black]{}node[shift={(0,-0.4)}]{$p^*_2$};
+\draw(2,1)node[cross out,draw=black]{}node[shift={(0,0.4)}]{$p_5$};
+\draw(2,-1)node[cross out,draw=black]{}node[shift={(0,0.4)}]{$p^*_5$};
 %imaginary
 \draw(0,3)node[cross out,draw=black]{}node[shift={(-0.4,0)}]{$p_3$};
 \draw(0,-3)node[cross out,draw=black]{}node[shift={(-0.4,0)}]{$p^*_3$};
 %arrows
-\draw[-stealth,dashed](0.75,0)++(0,-0.3) to [out=-90,in=125]++(0.5,-0.5);
+\draw[-stealth,dashed](0.75,0)++(0,-0.3) to [out=-90,in=125]++(0.3,-0.7);
 \draw[-stealth,dashed](2,1)++(0.3,0) to [out=0,in=-130]++(0.5,0.3);
+\draw[-stealth,dashed](2,-1)++(0.3,0) to [out=0,in=-130]++(0.5,0.3);
 \draw[-stealth,dashed](-3,0)++(0,-0.3) to [out=-90,in=60]++(-0.5,-0.5);
 \draw[-stealth,dashed](-1,2)++(-0.3,0) to [out=180,in=-45]++(-0.5,0.5);
 \draw[-stealth,dashed](-1,-2)++(0,0.3) to [out=90,in=-60]++(-0.3,0.8);
 \draw[-stealth,dashed](0,3)++(0.3,0) to [out=0,in=-160]++(0.4,0.1);
 \draw[-stealth,dashed](0,-3)++(0.3,0) to [out=45,in=-90]++(0.2,0.5) to [out=90,in=-100]++(0,2,0.5);
 %function graphs
-\begin{scope}[xshift=2cm,yshift=-3cm]
+\begin{scope}[xshift=2cm,yshift=-3.5cm]
 \draw(0,0)--++(3,0);
-\draw(0,0)--(0,1.5);
+\draw(0,0)--(0,1.5)node[left]{$f_4(t)$};
 \draw[color=black,domain=0:3] plot (\x, { 0.03*exp(\x) });
 \end{scope}
 %
 \begin{scope}[xshift=3cm,yshift=1.5cm]
 \draw(0,0)--++(2,0);
-\draw(0,0)--(0,1.5);
+\draw(0,0)--(0,1.5)node[pos=0.5,left]{$f_5(t)$};
 \draw[color=black,domain=0:100,samples=100] plot (\x/50, { 0.5*exp(\x/100)*sin(15*\x)});
 \end{scope}
 %
 \begin{scope}[xshift=-4.5cm,yshift=3cm]
 \draw(0,0)--++(3,0);
-\draw(0,0)--(0,1.5);
+\draw(0,0)--(0,1.5)node[left]{$f_2(t)$};
 \draw[color=black,domain=0:100,samples=100] plot (\x/50, { 1*exp(-\x/100)*cos(25*\x)});
 \end{scope}
 %
-\begin{scope}[xshift=-4.5cm,yshift=-3cm]
+\begin{scope}[xshift=-4.5cm,yshift=-3.5cm]
 \draw(0,0)--++(3,0);
-\draw(0,0)--(0,1.5);
+\draw(0,0)--(0,1.5)node[left]{$f_1(t)$};
 \draw[color=black,domain=0:100,samples=100] plot (\x/50, { 1*exp(-\x/20)});
 \end{scope}
 %
 \begin{scope}[xshift=1cm,yshift=3.5cm]
 \draw(0,0)--++(1.5,0);
-\draw(0,0)--(0,1);
+\draw(0,0)--(0,1)node[left]{$f_3(t)$};
 \draw[color=black,domain=0:75,samples=200] plot (\x/50, {0.5*cos(40*\x)});
 \end{scope}
 \end{tikzpicture}

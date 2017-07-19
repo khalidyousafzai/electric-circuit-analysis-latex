@@ -66,7 +66,7 @@
 \contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 2}.\RL {\arabicfont 7}}رد عمل کی عمومی مساوات}{\RL {\arabicfont 295}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 7}}دھڑکن}{\RL {\arabicfont 321}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 7}}دو درجی ادوار}{\RL {\arabicfont 328}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 8}}برقرار حالت بدلتی رو}{\RL {\arabicfont 359}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 8}}تجزیہ برقرار حال}{\RL {\arabicfont 359}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 8}}مخلوط اعداد}{\RL {\arabicfont 359}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 8}}سائن نما تفاعل}{\RL {\arabicfont 364}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 8}}سائن نما اور مخلوط جبری تفاعل}{\RL {\arabicfont 373}}
@@ -114,11 +114,11 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 13}}الٹ لاپلاس بدل کا حصول}{\RL {\arabicfont 686}}
 \contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 5}.\RL {\arabicfont 13}}جزوی کسری پھیلاو}{\RL {\arabicfont 687}}
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 13}}تکمل الجھاو}{\RL {\arabicfont 698}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 13}}مسئلہ ابتدائی قیمت اور مسئلہ اختتامی قیمت}{\RL {\arabicfont 701}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 14}}ادوار کا حل بذریعہ لاپلاس بدل}{\RL {\arabicfont 705}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 14}}ادوار کا حل}{\RL {\arabicfont 705}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 14}}پرزوں کے مساوی لاپلاسی ادوار}{\RL {\arabicfont 707}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 14}}تجزیاتی تراکیب}{\RL {\arabicfont 711}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 14}}تبادلی تفاعل جال}{\RL {\arabicfont 731}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 14}}ترسیم قطبین و صفر اور بوڈا خط}{\RL {\arabicfont 743}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 14}}برقرار حال ردعمل}{\RL {\arabicfont 745}}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 13}}مسئلہ ابتدائی قیمت اور مسئلہ اختتامی قیمت}{\RL {\arabicfont 702}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 14}}ادوار کا حل بذریعہ لاپلاس بدل}{\RL {\arabicfont 707}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 14}}ادوار کا حل}{\RL {\arabicfont 707}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 14}}پرزوں کے مساوی لاپلاسی ادوار}{\RL {\arabicfont 709}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 14}}تجزیاتی تراکیب}{\RL {\arabicfont 713}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 14}}تبادلی تفاعل جال}{\RL {\arabicfont 733}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 14}}ترسیم قطبین و صفر اور بوڈا خط}{\RL {\arabicfont 745}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 14}}برقرار حال ردعمل}{\RL {\arabicfont 747}}

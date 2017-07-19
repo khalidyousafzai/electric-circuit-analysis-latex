@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  16 JUL 2017 17:53
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  19 JUL 2017 08:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1490,12 +1490,12 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 ]
 (./figLaplaceApplicationComplexPlane.aux) ) 
 Here is how much of TeX's memory you used:
- 39390 strings out of 493918
- 946776 string characters out of 6150562
- 1094789 words of memory out of 5000000
- 42006 multiletter control sequences out of 15000+600000
+ 39393 strings out of 493918
+ 946859 string characters out of 6150562
+ 1101689 words of memory out of 5000000
+ 42009 multiletter control sequences out of 15000+600000
  6971 words of font info for 40 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,6n,74p,10512b,595s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,6n,74p,10512b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on figLaplaceApplicationComplexPlane.pdf (1 page).
