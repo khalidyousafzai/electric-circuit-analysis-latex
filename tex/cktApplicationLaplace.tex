@@ -1481,3 +1481,50 @@ R&=\frac{1}{2\zeta \omega_0 C}\\
 یوں مزاحمت کو تبدیل کرتے ہوئے \عددی{\SI{62.5}{\ohm}} کی جگہ \عددی{\SI{25}{\ohm}} نسب کرنے سے خارجی اشارہ درکار حد سے آگے گزرنا بند کر دیگا۔
 \انتہا{مثال}
 %=======================
+\ابتدا{مشق}
+شکل میں سلسلہ وار \عددی{RLC} دکھایا گیا ہے۔خارجی اشارہ مختلف پرزوں کے متوازی حاصل کرتے ہوئے اس دور کو بطور پست گزار، بلند گزار اور پٹی گزار چھلنی استعمال کیا جا سکتا ہے۔تینوں  کے تبادلی تفاعل \عددی{\bH(s)=\tfrac{\bV_0(s)}{\bV_d(s)}} لکھیں۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [resistor,o-,l={$R$}]++(\x,0) to [inductor,l={$sL$}]++(\x,0) to [capacitor,l={$\frac{1}{sC}$}]++(0,-\y) to [short,-o]++(-2*\x,0);
+\draw(2*\x,0) to [short,*-o]++(\x,0);
+\draw(2*\x,-\y) to [short,*-o]++(\x,0);
+\draw(0.3,-\y/2)node{$\begin{aligned} &+  \\ &\bV_d(s)  \\  &-\end{aligned}$};
+\draw(3*\x+0.3,-\y/2)node{$\begin{aligned} &+  \\ &\bV_0(s)  \\  &-\end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف) پست گزار چھلنی۔}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [resistor,o-,l={$R$}]++(\x,0)  to [capacitor,l={$\frac{1}{sC}$}]++(\x,0) to [inductor,l={$sL$}]++(0,-\y) to [short,-o]++(-2*\x,0);
+\draw(2*\x,0) to [short,*-o]++(\x,0);
+\draw(2*\x,-\y) to [short,*-o]++(\x,0);
+\draw(0.3,-\y/2)node{$\begin{aligned} &+  \\ &\bV_d(s)  \\  &-\end{aligned}$};
+\draw(3*\x+0.3,-\y/2)node{$\begin{aligned} &+  \\ &\bV_0(s)  \\  &-\end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب) بلند گزار چھلنی۔}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [inductor,l={$sL$}]++(\x,0) to [capacitor,l={$\frac{1}{sC}$}]++(\x,0)  to [resistor,o-,l={$R$}]++(0,-\y) to [short,-o]++(-2*\x,0);
+\draw(2*\x,0) to [short,*-o]++(\x,0);
+\draw(2*\x,-\y) to [short,*-o]++(\x,0);
+\draw(0.3,-\y/2)node{$\begin{aligned} &+  \\ &\bV_d(s)  \\  &-\end{aligned}$};
+\draw(3*\x+0.3,-\y/2)node{$\begin{aligned} &+  \\ &\bV_0(s)  \\  &-\end{aligned}$};
+\end{tikzpicture}
+\caption*{(پ) پٹی گزار چھلنی۔}
+\end{subfigure}
+\end{figure}
+
+جوابات:
+\begin{align*}
+\bH(s)&=\frac{\frac{1}{LC}}{s^2+\frac{R}{L}s+\frac{1}{LC}} \quad \text{\RL{پست گزار}}\\
+\bH(s)&=\frac{s^2}{s^2+\frac{R}{L}s+\frac{1}{LC}} \quad \text{\RL{بلند گزار}}\\
+\bH(s)&=\frac{\frac{R}{L}s}{s^2+\frac{R}{L}s+\frac{1}{LC}}  \quad \text{\RL{پٹی گزار}}
+\end{align*}
+\انتہا{مشق}
+%=======================

@@ -122,3 +122,4 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 14}}تبادلی تفاعل جال}{\RL {\arabicfont 733}}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 14}}ترسیم قطبین و صفر اور بوڈا خط}{\RL {\arabicfont 745}}
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 14}}برقرار حال ردعمل}{\RL {\arabicfont 747}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 15}}فوریئر تجزیہ}{\RL {\arabicfont 757}}
