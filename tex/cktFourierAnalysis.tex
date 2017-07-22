@@ -80,7 +80,7 @@ f(t)&=a_0+\sum_{n=1}^{\infty} [a_n \cos (n \omega_0 t) +b_n \sin (n \omega_0 t)]
 &\phantom{=a_0\,\,}+b_1\sin \omega_0t+b_2\sin (2\omega_0t)+b_3 \sin (3\omega_0t)+\cdots
 \end{aligned}
 \end{gather}
-جہاں \عددی{a_0}، \عددی{a_1}،\عددی{a_2}، \عددی{b_1} وغیرہ تسلسل کے \اصطلاح{عددی سر}\فرہنگ{عددی سر}\حاشیہب{coefficients}\فرہنگ{coefficients} کہلاتے ہیں۔فوریئر تسلسل کی اوسط قیمت \عددی{a_0} کے برابر ہے۔ایک دوری عرصہ \عددی{T_0} میں \عددی{\cos \omega_0 t} یا \عددی{\sin \omega_0 t} کی ایک لہر، \عددی{\cos (2\omega_0 t)} یا \عددی{\sin (2\omega_0 t)} کی دو لہریں اور \عددی{\cos (m\omega_0 t)} یا \عددی{\sin (m\omega_0 t)} کی \عددی{m} لہریں پوری آتی ہیں۔اس حقیقت کو شکل \حوالہ{شکل_فوریئر_ارکان_تعداد_فی_دوری_عرصہ} میں دکھایا گیا ہے جہاں وضاحت کی خاطر امواج کے حیطے مختلف رکھے گئے ہیں۔فوریئر تسلسل میں \عددی{a_1\cos \omega_0 t +b_1\sin \omega_0 t} \اصطلاح{بنیادی رکن}\فرہنگ{بنیادی رکن}\فرہنگ{ہارمونی!بنیادی رکن}\حاشیہب{fundamental component}\فرہنگ{fundamental component} یا \اصطلاح{بنیادی جزو} کہلاتا ہے،   \عددی{a_2\cos (2\omega_0 t) +b_2\sin (2\omega_0 t)} \اصطلاح{دوسرا ہارمونی رکن}\فرہنگ{دوسرا ہارمونی رکن}\فرہنگ{ہارمونی!دوسرا رکن}\حاشیہب{second harmonic}\فرہنگ{harmonic!second} کہلاتا ہے،  \عددی{a_3\cos (3\omega_0 t) +b_3\sin (3\omega_0 t)} تیسرا ہارمونی رکن اور اسی طرح \عددی{a_m\cos (m\omega_0 t) +b_m\sin (m\omega_0 t)} ایم ہارمونی رکن کہلاتا ہے۔
+جہاں \عددی{a_0}، \عددی{a_1}،\عددی{a_2}، \عددی{b_1} وغیرہ تسلسل کے \اصطلاح{عددی سر}\فرہنگ{عددی سر}\حاشیہب{coefficients}\فرہنگ{coefficients} کہلاتے ہیں۔فوریئر تسلسل کی اوسط قیمت \عددی{a_0} کے برابر ہے۔ایک دوری عرصہ \عددی{T_0} میں \عددی{\cos \omega_0 t} یا \عددی{\sin \omega_0 t} کی ایک لہر، \عددی{\cos (2\omega_0 t)} یا \عددی{\sin (2\omega_0 t)} کی دو لہریں اور \عددی{\cos (m\omega_0 t)} یا \عددی{\sin (m\omega_0 t)} کی \عددی{m} لہریں پوری آتی ہیں۔اس حقیقت کو شکل \حوالہ{شکل_فوریئر_ارکان_تعداد_فی_دوری_عرصہ} میں دکھایا گیا ہے جہاں وضاحت کی خاطر امواج کے حیطے مختلف رکھے گئے ہیں۔فوریئر تسلسل میں \عددی{a_1\cos \omega_0 t +b_1\sin \omega_0 t} \اصطلاح{بنیادی رکن}\فرہنگ{بنیادی رکن}\فرہنگ{ہارمونی!بنیادی رکن}\حاشیہب{fundamental component}\فرہنگ{fundamental component} یا \اصطلاح{پہلا ہارمونی رکن} کہلاتا ہے،   \عددی{a_2\cos (2\omega_0 t) +b_2\sin (2\omega_0 t)} \اصطلاح{دوسرا ہارمونی رکن}\فرہنگ{دوسرا ہارمونی رکن}\فرہنگ{ہارمونی!دوسرا رکن}\حاشیہب{second harmonic}\فرہنگ{harmonic!second} کہلاتا ہے،  \عددی{a_3\cos (3\omega_0 t) +b_3\sin (3\omega_0 t)} تیسرا ہارمونی رکن اور اسی طرح \عددی{a_m\cos (m\omega_0 t) +b_m\sin (m\omega_0 t)} ایم ہارمونی رکن کہلاتا ہے۔
 \begin{figure}
 \centering
 \begin{tikzpicture}
@@ -271,26 +271,32 @@ b_m&=\frac{2}{T_0}\int_0^{T_0}f(t) \sin (m \omega_0 t) \dif t
 %============
 
 \ابتدا{مثال}\شناخت{مثال_فوریئر_دندان_موج_الف}
-شکل \حوالہ{شکل_فوریئر_دندان_موج_الف} میں دکھائے گئے \اصطلاح{دندان موج}\فرہنگ{دندان موج}\فرہنگ{موج!دندان}\فرہنگ{saw tooth} کا فوریئر تسلسل حاصل کریں۔دو، تین اور دس فوریئر ارکان استعمال کرتے ہوئے  موج کا خط کھینچیں۔آپ دیکھ سکتے ہیں کہ موج کا دوری عرصہ \عددی{T_0=\SI{3}{\second}} ہے۔
+شکل \حوالہ{شکل_فوریئر_دندان_موج_الف}-الف میں دکھائے گئے \اصطلاح{دندان موج}\فرہنگ{دندان موج}\فرہنگ{موج!دندان}\فرہنگ{saw tooth} کا فوریئر تسلسل حاصل کریں۔دو، پانچ اور پچاس فوریئر ارکان استعمال کرتے ہوئے  موج کا خط کھینچیں۔آپ دیکھ سکتے ہیں کہ موج کا دوری عرصہ \عددی{T_0=\SI{3}{\second}} ہے۔
 \begin{figure}
 \centering
 \begin{subfigure}{0.5\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,xlabel={$t\,(\second)$},ylabel={$f(t)$},ylabel style={rotate=-90},xtick={3,6},xticklabels={$3$,$6$},ytick={1},yticklabels={$1$}]
-\addplot[] plot coordinates {(0,0)  (3,1)  (3,0) (6,1) (6,0) (7.5,0.5)};
+\begin{axis}[small,xlabel={$t\,(\second)$},ylabel style={rotate=-90},xtick={3,6},xticklabels={$3$,$6$},ytick={0,1},yticklabels={$0$,$1$},ymax=1.1]
+\addplot[] plot coordinates {(0,0.5)(0,0)  (3,1)  (3,0) (6,1) (6,0) (7.5,0.5)};
 \end{axis}
 \end{tikzpicture}
-\caption*{(الف)}
+\caption*{(الف) دندان موج۔}
 \end{subfigure}%
 \begin{subfigure}{0.5\textwidth}
 \centering
-\begin{tikzpicture}
-\begin{axis}[small,xlabel={$t\,(\second)$},ylabel={$f(t)$},ylabel style={rotate=-90},xtick={3,6},xticklabels={$3$,$6$},ytick={1},yticklabels={$1$}]
-\addplot[domain=0:7.5,samples=200]{1/2-1/pi*(sin(120*x)+1/2*sin(2*120*x)+1/3*sin(3*120*x)+1/4*sin(4*120*x)+1/5*sin(5*120*x))}; 
-\end{axis}
-\end{tikzpicture}
-\caption*{(ب)}
+\includegraphics{figFourierSawTooth2}
+\caption*{(ب) دو ہارمونی ارکان شامل کئے گئے ہیں۔}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\includegraphics{figFourierSawTooth5}
+\caption*{(پ) پانچ ہارمونی ارکان شامل کئے گئے ہیں۔}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\includegraphics{figFourierSawTooth50}
+\caption*{(ت) پچاس ہارمونی ارکان شامل کئے گئے ہیں۔}
 \end{subfigure}%
 \caption{مثال \حوالہ{مثال_فوریئر_دندان_موج_الف} کی دندان موج۔}
 \label{شکل_فوریئر_دندان_موج_الف}
@@ -349,7 +355,183 @@ b_3&=-\frac{1}{3\pi}\\
 &\vdots
 \end{align*}
 لہٰذا فوریئر تسلسل درج ذیل لکھی جائے گی۔
-\begin{align}
+\begin{align}\label{مساوات_فوریئر_دندان_موج}
 f(t)=\frac{1}{2}-\frac{1}{\pi}\left[\sin \omega_0 t+\frac{1}{2} \sin (2\omega_0 t) +\frac{1}{3} \sin (3\omega_0 t)+\cdots\right]
 \end{align}
+شکل \حوالہ{شکل_فوریئر_دندان_موج_الف}-ب میں  مساوات \حوالہ{مساوات_فوریئر_دندان_موج} کو \عددی{m=2} تک استعمال کرتے ہوئے خط کھینچا گیا ہے۔شکل-پ میں پانچ ہارمونی ارکان استعمال کئے گئے ہیں جبکہ شکل-ت میں پچاس ہارمونی ارکان استعمال کئے گئے ہیں۔آپ دیکھ سکتے ہیں کہ ارکان بڑھانے سے اصل موج کے قریب تر خط حاصل کیا جا سکتا ہے۔
 \انتہا{مثال}
+%========================
+\ابتدا{مثال}\شناخت{مثال_فوریئر_مستطیل_موج}
+آئیں شکل \حوالہ{شکل_فوریئر_مستطیل_موج_الف}-الف  میں دکھائے گئے  دوری مستطیل موج کا فوریئر تسلسل حاصل کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,xlabel={$t$},ylabel style={rotate=-90},xtick={-2,-1,0,1,2},xticklabels={$-\frac{T}{2}$,$-\frac{T}{4}$,$0$,$\frac{T}{4}$,$\frac{T}{2}$},ytick={-1,1},yticklabels={$-V_0$,$V_0$}]
+\addplot[] plot coordinates {(-4,1) (-3,1) (-3,-1) (-1,-1) (-1,1) (1,1) (1,-1) (3,-1) (3,1)(4,1)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(الف) مستطیل موج۔}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\includegraphics{figFourierSquareWave5}
+\caption*{(ب) ایک، تین اور پانچ ہارمونی ارکان کا مجموعہ یعنی \عددی{m=5} ہے۔}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\includegraphics{figFourierSquareWave10}
+\caption*{((پ) \عددی{m=9} تک ارکان کا مجموعہ۔}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\includegraphics{figFourierSquareWave50}
+\caption*{(ت) \عددی{m=49} تک ارکان کا مجموعہ۔}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_فوریئر_مستطیل_موج} کی مستطیل موج۔}
+\label{شکل_فوریئر_مستطیل_موج_الف}
+\end{figure}
+
+حل:افقی محور کے دونوں اطراف برابر موج پائی جاتی ہے لہٰذا اس کی اوسط قیمت صفر ہو گی اور یوں \عددی{a_0=0} ہو گا۔آئیں یہی جواب مساوات \حوالہ{مساوات_فوریئر_عددی_سر_ت} سے حاصل کریں۔اس مرتبہ ہم دوری عرصے کو \عددی{-\tfrac{T}{2} \le t \le \tfrac{T}{2}} لیتے ہیں۔شکل کو دیکھ معلوم ہوتا ہے کہ \عددی{-\tfrac{T}{4} \le t \le \tfrac{T}{4}} تفاعل کی قیمت \عددی{V_0} ہے جبکہ
+ \عددی{-\frac{T}{2}\le t \le -\tfrac{T}{4}} اور \عددی{\tfrac{T}{4} \le t \le \tfrac{T}{2}} پر تفاعل کی قیمت \عددی{-V_0} ہے۔
+\begin{align*}
+a_0&=\frac{1}{T}\int_0^T f(t) \dif t\\
+&=\frac{1}{T} \left(-V_0 \int_{-\frac{T}{2}}^{-\frac{T}{4}} \dif t+V_0\int_{-\frac{T}{4}}^{\frac{T}{4}}\dif t -V_0\int_{\frac{T}{4}}^{\frac{T}{2}} \dif t\right)\\
+&=\frac{1}{T}\left[-V_0\left(-\frac{T}{4}+\frac{T}{2}\right)+V_0\left(\frac{T}{4}+\frac{T}{4}\right)-V_0\left(\frac{T}{2}-\frac{T}{4}\right)\right]\\
+&=0
+\end{align*}
+کوسائن کے عددی سر \عددی{a_m} کو مساوات \حوالہ{مساوات_فوریئر_عددی_سر_ت} کی مدد سے حاصل کرتے ہیں۔مستقل \عددی{V_0} کو تکمل کے باہر لکھا گیا ہے۔
+\begin{align*}
+a_m&=\frac{2}{T}\int_0^T f(t)\cos(m\omega_0 t) \dif t\\
+&=-\frac{2}{T}V_0\int_{-\frac{T}{2}}^{-\frac{T}{4}} \cos (\frac{2\pi m}{T} t) \dif t+\frac{2}{T}V_0\int_{-\frac{T}{4}}^{\frac{T}{4}} \cos (\frac{2\pi m}{T} t) \dif t-\frac{2}{T}V_0\int_{\frac{T}{4}}^{\frac{T}{2}} \cos (\frac{2\pi m}{T} t) \dif t\\
+&=-\frac{2V_0}{T}\left.\frac{\sin (\frac{2\pi m}{T} t)}{\frac{2\pi m}{T}}\right|_{-\frac{T}{2}}^{-\frac{T}{4}}+\frac{2V_0}{T}\left.\frac{\sin (\frac{2\pi m}{T} t)}{\frac{2\pi m}{T}}\right|_{-\frac{T}{4}}^{\frac{T}{4}}-\frac{2V_0}{T}\left.\frac{\sin (\frac{2\pi m}{T} t)}{\frac{2\pi m}{T}}\right|_{\frac{T}{4}}^{\frac{T}{2}}\\
+&=\frac{4V_0}{m\pi} \sin(\frac{m\pi}{2})
+\end{align*}
+اس سے درج ذیل عددی سر لکھے جا سکتے ہیں۔
+\begin{align*}
+a_1&=\frac{4V_0}{1\pi} \sin(\frac{1\pi}{2})=\frac{4V_0}{\pi}\\
+a_2&=\frac{4V_0}{2\pi} \sin(\frac{2\pi}{2})=0\\
+a_3&=\frac{4V_0}{3\pi} \sin(\frac{3\pi}{2})=-\frac{4V_0}{3\pi}\\
+a_4&=\frac{4V_0}{4\pi} \sin(\frac{4\pi}{2})=0\\
+a_5&=\frac{4V_0}{5\pi} \sin(\frac{5\pi}{2})=\frac{4V_0}{5\pi}\\
+&\vdots
+\end{align*}
+سائن کے عددی سر \عددی{b_m} کو مساوات \حوالہ{مساوات_فوریئر_عددی_سر_ت} کی مدد سے حاصل کرتے ہیں۔مستقل \عددی{V_0} کو تکمل کے باہر لکھا گیا ہے۔
+\begin{align*}
+b_m&=\frac{2}{T}\int_0^T f(t)\sin(m\omega_0 t) \dif t\\
+&=-\frac{2}{T}V_0\int_{-\frac{T}{2}}^{-\frac{T}{4}} \sin (\frac{2\pi m}{T} t) \dif t+\frac{2}{T}V_0\int_{-\frac{T}{4}}^{\frac{T}{4}} \sin (\frac{2\pi m}{T} t) \dif t-\frac{2}{T}V_0\int_{\frac{T}{4}}^{\frac{T}{2}} \sin (\frac{2\pi m}{T} t) \dif t\\
+&=\frac{2V_0}{T}\left.\frac{\cos (\frac{2\pi m}{T} t)}{\frac{2\pi m}{T}}\right|_{-\frac{T}{2}}^{-\frac{T}{4}}-\frac{2V_0}{T}\left.\frac{\cos (\frac{2\pi m}{T} t)}{\frac{2\pi m}{T}}\right|_{-\frac{T}{4}}^{\frac{T}{4}}+\frac{2V_0}{T}\left.\frac{\cos (\frac{2\pi m}{T} t)}{\frac{2\pi m}{T}}\right|_{\frac{T}{4}}^{\frac{T}{2}}\\
+&=0
+\end{align*}
+اس معلومات کو استعمال کرتے ہوئے مستطیل موج کی فوریئر مساوات لکھتے ہیں۔
+\begin{align}\label{مساوات_فوریئر_مستطیل_موج}
+f(t)=\frac{4V_0}{\pi}\left[\cos (\omega_0 t)-\frac{1}{3}\cos(3\omega_0 t)+\frac{1}{5}\cos(5\omega_0 t)-\frac{1}{7}\cos(7\omega_0 t)+\cdots\right]
+\end{align}
+مختلف تعداد میں فوریئر تسلسل کے ارکان شامل کرتے ہوئے تفاعل کو شکل \حوالہ{شکل_فوریئر_مستطیل_موج_الف}-ب تا شکل \حوالہ{شکل_فوریئر_مستطیل_موج_الف}-ت میں دکھایا گیا ہے۔
+\انتہا{مثال}
+%=======================
+
+مثال \حوالہ{مثال_فوریئر_مستطیل_موج} میں مستطیل موج کی فوریئر تسلسل  حاصل کی گئی۔آئیں تسلسل کے ایک رکن سے شروع کرتے ہوئے دیکھیں کہ اس میں مزید ارکان شامل کرتے ہوئے مستطیل موج کیسے حاصل ہوتی ہے۔شکل \حوالہ{شکل_فوریئر_ابھرتا_مستطیل}-الف میں  مساوات \حوالہ{مساوات_فوریئر_مستطیل_موج} کا پہلا ہارمونی رکن \عددی{\tfrac{4V_0}{\pi}\cos\omega_0 t} اور تیسرا ہارمونی رکن \عددی{-\frac{4V_0}{3\pi}\cos(3\omega_0t)} ہلکی سیاہی میں دکھائے گئے ہیں۔دونوں سائن نما صورت رکھتے ہیں جس کا مستطیل سے دور دور تک کوئی واسطہ نہیں ہے۔اسی شکل میں دونوں کے مجموعے کو گہری سیاہی میں دکھایا گیا ہے۔آپ دیکھ سکتے ہیں کہ دو سائن نما امواج مل کر ایسی شکل بناتے ہیں جو مستطیل زیادہ اور سائن نما کم نظر آتا ہے۔مستطیل موج کی چوٹی \عددی{V_0} ہے جبکہ پہلے ہارمونی رکن کی چوٹی \عددی{\tfrac{4V_0}{\pi}=1.27V_0} ہے۔تیسرا ہارمونی رکن اس چوٹی کو نیچے کھینچتا ہے۔اسی طرح مستطیل موج \عددی{\mp \tfrac{T}{4}} پر یکدم قیمت تبدیل کرتی ہے جبکہ پہلا ہارمونی جزو نہایت صبروتحمل کے ساتھ منفی چوٹی سے مثبت چوٹی اور مثبت چوٹی سے منفی چوٹی پہنچتی ہے۔ یہاں بھی تیسرا ہارمونی رکن پہلے رکن کے اطراف کو کھینچ کر ان کی ڈھلوان بڑھاتی ہے۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,xlabel={$t$},ylabel style={rotate=-90},xtick={-2,-1,0,1,2},xticklabels={$-\frac{T}{2}$,$-\frac{T}{4}$,$0$,$\frac{T}{4}$,$\frac{T}{2}$},ytick={0,1},yticklabels={$0$,$V_0$}]
+\addplot[gray,domain=-1:1,samples=100]{4/pi*cos(90*x)};
+\addplot[gray,domain=-1:1,samples=100]{-4/(3*pi)*cos(3*90*x)};
+\addplot[black,domain=-1:1,samples=100]{4/pi*cos(90*x)-4/(3*pi)*cos(3*90*x)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(الف) پہلا اور تیسرا ہارمونی رکن مل کر مستطیل صورت بنانے کی کوشش کرتے ہیں۔}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,xlabel={$t$},ylabel style={rotate=-90},xtick={-2,-1,0,1,2},xticklabels={$-\frac{T}{2}$,$-\frac{T}{4}$,$0$,$\frac{T}{4}$,$\frac{T}{2}$},ytick={0,1},yticklabels={$0$,$V_0$}]
+\addplot[gray,domain=-1:1,samples=100]{4/pi*cos(90*x)-4/(3*pi)*cos(3*90*x)};
+\addplot[gray,domain=-1:1,samples=100]{4/(5*pi)*cos(5*90*x)};
+\addplot[black,domain=-1:1,samples=100]{4/pi*cos(90*x)-4/(3*pi)*cos(3*90*x)+4/(5*pi)*cos(5*90*x)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(ب) پہلے،تیسرا اور پانچواں ہارمونی ارکان مل کر مستطیل شکل بناتے ہیں۔}
+\end{subfigure}
+\caption{بتدریج زیادہ ارکان شامل کرتے ہوئے مستطیل موج کی صورت ابھرتے ہوئے دیکھتے ہیں۔}
+\label{شکل_فوریئر_ابھرتا_مستطیل}
+\end{figure}
+
+شکل \حوالہ{شکل_فوریئر_ابھرتا_مستطیل}-الف میں تیسرا رکن زیادہ جزبات میں آ کر پہلی رکن کی چوٹی ضرورت سے زیادہ نیچے کھینچ  دیتا ہے۔شکل-ب میں پہلے اور تیسرے ارکان سے حاصل موج کو ہلکی سیاہی میں دکھایا گیا ہے۔ساتھ ہی ساتھ پانچویں رکن کو بھی ہلکی سیاہی میں دکھایا گیا ہے۔ان کے مجموعے کو گہری سیاہی میں دکھایا گیا ہے۔آپ دیکھ سکتے ہیں پانچواں رکن ضرورت سے زیادہ نیچے کھینچی گئی چوٹی کو معمولی اٹھاتا ہے تا کہ یہ \عددی{V_0} کے قریب ہو جائے۔اسی طرح یہ رکن بھی موج کے اطراف کی ڈھلوان بڑھاتا ہے۔فوریئر تسلسل کے بقایا ارکان بھی اسی طرح مدد کرتے ہوئے اطراف کو زیادہ عمودی اور چوٹی کو بالکل چپٹی بنانے میں مدد دیتے ہیں حتٰی کہ ہمیں بالکل مستطیل موج نظر آتی ہے۔
+
+شکل \حوالہ{شکل_فوریئر_مستطیل_موج_الف}-ب، پ اور ت میں آپ دیکھتے ہیں کہ فوریئر تسلسل سے حاصل موج \عددی{\mp \tfrac{T}{4}} پر درکار قیمت سے تجاوز کرتے ہوئے آگے نکل جاتی ہے۔تسلسل میں ارکان کی تعداد بڑھانے سے ان تجاوزات کا خاتمہ نہیں ہوتا۔
+%======================
+
+\ابتدا{مشق}\شناخت{مشق_فوریئر_مشق_مستطیل}
+شکل \حوالہ{شکل_فوریئر_مشق_مستطیل}-الف میں دکھائے گئے مستطیل موج کی فوریئر تسلسل حاصل کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,xlabel={$t$},ylabel style={rotate=-90},xtick={0,1,2},xticklabels={$0$,$\frac{T}{2}$,$T$},ytick={-1,0,1},yticklabels={$-V_0$,$0$,$V_0$}]
+\addplot[] plot coordinates{(-0.25,-1) (0,-1) (0,1) (1,1) (1,-1) (2,-1) (2,1) (3,1) (3,-1) (3.25,-1)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(الف) مستطیل موج۔}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,xlabel={$t$},ylabel style={rotate=-90},xtick={-1,0,1,2,3,4},xticklabels={$-\frac{T}{4}$,$0$,$\frac{T}{4}$,$\frac{T}{2}$,$\frac{3}{4}T$,$T$},ytick={-1,0,1},yticklabels={$-V_0$,$0$,$V_0$}]
+\addplot[] plot coordinates{(-2,0)(-1,-1) (1,1) (3,-1) (5,1) };
+\end{axis}
+\end{tikzpicture}
+\caption*{(ب) تکونی موج۔}
+\end{subfigure}
+\caption{مشق \حوالہ{مشق_فوریئر_مشق_مستطیل} اور مشق \حوالہ{مشق_فوریئر_مشق_تکونی} کے امواج۔}
+\label{شکل_فوریئر_مشق_مستطیل}
+\end{figure}
+
+جواب:
+$f(t)=\frac{4V}{\pi}\left[\sin \omega_0 t+\frac{1}{3}\sin(3\omega_0 t)+\frac{1}{5}\sin(5\omega_0 t)+\cdots\right]$
+\انتہا{مشق}
+%=======================
+\ابتدا{مشق}\شناخت{مشق_فوریئر_مشق_تکونی}
+شکل \حوالہ{شکل_فوریئر_مشق_مستطیل}-ب میں دکھائے گئے تکونی موج کی فوریئر تسلسل حاصل کریں۔پہلے \عددی{-\tfrac{T}{4} \le t \le \tfrac{T}{4}} اور 
+\عددی{\tfrac{T}{4} \le t \le\tfrac{3T}{4}} سیدھے حصوں کے مساوات حاصل کریں۔
+
+حل:\عددی{f_1(t)=\tfrac{4V_0}{T}t}، \عددی{f_2(t)=2V_0(1-2\tfrac{t}{T})}، \\
+$f(t)=\tfrac{8V_0}{\pi^2}\left[\sin(\omega_0 t)-\tfrac{1}{3^2}\sin(3\omega_0 t)+\tfrac{1}{5^2}\sin(5\omega_0 t)-\cdots\right]$
+\انتہا{مشق}
+%=========================
+\ابتدا{مشق}\شناخت{مشق_فوریئر_مختلف_تفاعل_مشق}
+شکل \حوالہ{شکل_فوریئر_مختلف_تفاعل_مشق} میں دیے تفاعل کی فوریئر تسلسل حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{axis}[xtick={0,1,2,3,4},xticklabels={$0$,$1$,$2$,$3$,$4$},ytick={0,1,2},yticklabels={$0$,$1$,$2$}]
+\addplot[] plot coordinates {(0,0) (1,0) (1,1) (2,1) (2,2) (3,2) (3,0) (4,0) (4,1) (5,1) (5,2) (6,2) (6,0)};
+\end{axis}
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_فوریئر_مختلف_تفاعل_مشق} کا تفاعل۔}
+\label{شکل_فوریئر_مختلف_تفاعل_مشق}
+\end{figure}
+
+جواب:
+\begin{align*}
+1-\tfrac{3}{\pi}\left[\sin \omega_0 t+\tfrac{1}{2}\sin (2\omega_0 t)+\tfrac{1}{4}\sin(4\omega_0 t)+\tfrac{1}{5}\sin(5\omega_0 t)+\tfrac{1}{7}\sin(7\omega_0 t)+\cdots\right]
+\end{align*}
+\انتہا{مشق}
+%========================
+
+\حصہ{تشاکل تفاعل}
+آپ نے مختلف تفاعل کے فوریئر تسلسل دیکھے۔ان میں کئی ایسے تھے جن کے یا تمام \عددی{a_m} اور یا تمام \عددی{b_m} صفر کے برابر تھے۔آئیں اس کی وجہ سمجھیں اور تکملات حل کرنے سے پہلے یہ دریافت کرنا سیکھیں کہ آیا فوریئر تسلسل میں \عددی{a_m} اور یا تمام \عددی{b_m} صفر کے برابر ہوں گے۔فوریئر تسلسل کے ارکان کا دارومدار تفاعل کی شکل و صورت پر ہے۔ تین قسم کے تشاکل تفاعل پائے جاتے ہیں۔ان پر باری باری غور کرتے ہیں۔
+
+\جزوحصہ{جفت تفاعل تشاکل}
+جفت تفاعل سے مراد ایسا تفاعل ہے جو درج ذیل مساوات پر پورا اترتا ہو۔
+\begin{align}
+f(t)=f(-t)
+\end{align}
+جفت  تفاعل عمودی محور کے دونوں اطراف یکساں دکھائی دیتا ہے۔جفت تفاعل کی اہم مثال \عددی{\cos(n\omega_0 t)} ہے۔آپ جانتے ہیں کہ \عددی{\cos(\theta)=\cos(-\theta)} ہوتا ہے لہٰذا یہ جفت تفاعل ہے۔
+

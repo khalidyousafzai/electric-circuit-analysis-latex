@@ -1,0 +1,37 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{steinmetz}		%\phase to show angle of phasors
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{pgfplots,filecontents}
+%\pgfplotsset{compat=1.9}
+%\usepgfplotslibrary{polar}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+%\usepackage{tikz-3dplot}
+%\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+%\input{../../tex/myEMTvectors.tex}
+\usepackage{graphics}
+\usepackage[]{graphicx} 
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+
+
+
+%\pgfplotsset{major y grid style={dashed}}
+
+\begin{document}
+\begin{urdufont}
+
+\begin{tikzpicture}
+\begin{axis}[small,xlabel={$t$},ylabel style={rotate=-90},xtick={-2,-1,0,1,2},xticklabels={$-\frac{T}{2}$,$-\frac{T}{4}$,$0$,$\frac{T}{4}$,$\frac{T}{2}$},ytick={-1,1},yticklabels={$-V_0$,$V_0$}]
+\addplot [black] table [x index={0}, y index={1}]{figFourierSquareWave5.dat};
+\end{axis}%
+\end{tikzpicture}
+\end{urdufont}
+\end{document}
