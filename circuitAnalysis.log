@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  23 JUL 2017 17:27
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  24 JUL 2017 18:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3216,7 +3216,25 @@ eeq(0)/bx/n/10 15[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 -الف میں جفت �
 ایا گیا ہے۔اس کے فوریئر تکونیاتی تسلسل کے عددی سر حاصل کریں۔[]
  []
 
-[785] [786]) [787] [788] (./circuitAnalysis.aux (./tex/cktBasics.aux)
+[785] [786] [787] [788] [789]
+Overfull \hbox (11.71384pt too wide) in paragraph at lines 924--927
+ [][][][] 
+ []
+
+[790] [791] [792] [793] [794] [795]
+Overfull \hbox (9.59366pt too wide) in paragraph at lines 1086--1089
+ [][][][] 
+ []
+
+
+Overfull \hbox (14.09714pt too wide) in paragraph at lines 1094--1097
+ [][][][] 
+ []
+
+[796]) [797] [798
+
+
+] (./circuitAnalysis.aux (./tex/cktBasics.aux)
 (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
 (./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
 (./tex/cktTransients.aux) (./tex/cktSteadyStateAC.aux)
@@ -3233,12 +3251,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46915 strings out of 493918
- 1119442 string characters out of 6150562
- 1348605 words of memory out of 5000000
- 49229 multiletter control sequences out of 15000+600000
- 51183 words of font info for 186 fonts, out of 8000000 for 9000
+ 47381 strings out of 493918
+ 1130403 string characters out of 6150562
+ 1348091 words of memory out of 5000000
+ 49695 multiletter control sequences out of 15000+600000
+ 53113 words of font info for 191 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,19n,86p,10476b,2854s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,19n,86p,10476b,2899s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (38 pages).
+Output written on circuitAnalysis.pdf (48 pages).

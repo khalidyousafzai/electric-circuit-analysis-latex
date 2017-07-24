@@ -127,3 +127,7 @@
 \contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 1}.\RL {\arabicfont 15}}جفت تفاعل تشاکل}{\RL {\arabicfont 783}}
 \contentsline {subsection}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 1}.\RL {\arabicfont 15}}طاق تفاعل تشاکل}{\RL {\arabicfont 785}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 15}}منتقلی وقت}{\RL {\arabicfont 787}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 15}}تخلیق موج}{\RL {\arabicfont 789}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 15}}تعددی طیف}{\RL {\arabicfont 790}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 15}}برقرار حال برقی جال}{\RL {\arabicfont 795}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 5}.\RL {\arabicfont 15}}اوسط طاقت}{\RL {\arabicfont 795}}

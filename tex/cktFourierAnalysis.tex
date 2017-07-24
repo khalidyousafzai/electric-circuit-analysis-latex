@@ -614,7 +614,7 @@ D_n\phase{\theta_n}=2\kx{c}_n=a_n-jb_n
 \label{شکل_فوریئر_دندان_دوبارہ}
 \end{figure}%
 
-حل: مساوات \حوالہ{مساوات_فوریئر_عددی_سر_قوت_نما_ب} استعمال کرتے ہوئے  \عددی{c\kx{c}_0} حاصل کرتے ہیں۔
+حل: مساوات \حوالہ{مساوات_فوریئر_عددی_سر_قوت_نما_ب} استعمال کرتے ہوئے  \عددی{\kx{c}_0} حاصل کرتے ہیں۔
 \begin{align*}
 \kx{c}_0&=\frac{1}{T}\int_0^{T} f(t) \dif t\\
 &=\frac{1}{T}\int_0^{\frac{T}{2}} V_0 \dif t+\frac{1}{T}\int_{\frac{T}{2}}^{T}(-V_0)\dif t\\
@@ -821,15 +821,310 @@ f(t)=\sum_{n=-\infty}^{\infty} \kx{c}_n e^{jn\omega_0 t}
 \end{align}
 کو وقت کے لحاض سے منتقل کیا جاتا ہے۔تفاعل \عددی{f(t)} کو \عددی{t_0} سیکنڈ تاخیر سے  \عددی{f(t-t_0)} لکھا جاتا ہے۔
 \begin{gather}
-\begin{aligned}
+\begin{aligned}\label{مساوات_فوریئر_تبادلہ_وقت}
 f(t-t_0)&=\sum_{n=-\infty}^{\infty} \kx{c}_n e^{jn\omega_0 (t-t_0)}\\
 &=\sum_{n=-\infty}^{\infty} \left(\kx{c}_n e^{-jn\omega_0 t_0}\right) e^{jn\omega_0 t}
 \end{aligned}
 \end{gather}
-چونکہ \عددی{e^{-jn\omega_0 t_0}} سے مراد زاویائی فاصلہ ہے لہٰذا وقت میں منتقل تفاعل \عددی{f(t-t_0)} کے فوریئر عددی سر اصل تفاعل \عددی{f(t)} کے عددی سر ہوتے ہیں جن میں \عددی{e^{-jn\omega_0 t_0}} زاویائی فرق پایا جاتا ہے۔یہ فرق تعدد کے راست متناسب ہے۔اس طرح وقتی دائرہ کار میں تبادلے سے  تعددی دائرہ کار میں مراد  زاویائی تبادلہ ہے۔
+چونکہ \عددی{e^{-jn\omega_0 t_0}} سے مراد زاویائی فاصلہ ہے لہٰذا وقت میں منتقل تفاعل \عددی{f(t-t_0)} کے فوریئر عددی سر اصل تفاعل \عددی{f(t)} کے عددی سر ہوتے ہیں جن میں تعدد کے راست متناسب زاویائی ہٹاو \عددی{e^{-jn\omega_0 t_0}}  پایا جاتا ہے۔ اس طرح وقتی دائرہ کار میں تبادلے سے  تعددی دائرہ کار میں مراد  زاویائی تبادلہ ہے۔
 
 %============
-\ابتدا{مثال}
-
+\ابتدا{مثال}\شناخت{مثال_فوریئر_دندان_منتقل_دوبارہ}
+مثال \حوالہ{مثال_فوریئر_دندان_دوبارہ} میں ہم شکل \حوالہ{شکل_فوریئر_دندان_دوبارہ} کے تفاعل \عددی{f(t)} کا قوت نمائی فوریئر تسلسل حاصل کر چکے ہیں۔ اس تفاعل کو \عددی{\tfrac{T}{4}} بائیں منتقل کرتے ہوئے شکل \حوالہ{شکل_فوریئر_دندان_منتقل_دوبارہ} یعنی \عددی{f(t+\tfrac{T}{4})} حاصل ہوتا ہے جس کی قوت نمائی فوریئر تسلسل درکار ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,xlabel={$t$},ylabel style={rotate=-90},xtick={-0.5,0,0.5,1.5},xticklabels={$-\frac{T}{4}$,$0$,$\frac{T}{4}$,$\frac{3T}{4}$},ytick={-1,0,1},yticklabels={$-V_0$,$0$,$V_0$}]
+\addplot[] plot coordinates{(-0.75,-1) (-0.5,-1) (-0.5,1) (0.5,1) (0.5,-1) (1.5,-1) (1.5,1) (2.5,1) (2.5,-1) (2.75,-1)};
+\end{axis}
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_فوریئر_دندان_منتقل_دوبارہ} کا تفاعل۔}
+\label{شکل_فوریئر_دندان_منتقل_دوبارہ}
+\end{figure}%
+حل: اس کو تبادلہ وقت کے کلیے سے حل کرتے ہیں۔مساوات \حوالہ{مساوات_فوریئر_تبادلہ_وقت} کے ذریعہ نئے عددی سر حاصل کرتے ہیں۔چونکہ \عددی{t_0=-\tfrac{T}{4}} ہے لہٰذا زاویائی ہٹاو
+\begin{align*}
+-jn\omega_0 t_0=jn \frac{2\pi}{T} \frac{T}{4}=jn\frac{\pi}{2}
+\end{align*}
+ہو گا۔یوں بنیادی ہارمونی رکن کے عددی سر میں \عددی{90^{\circ}} کا زاویائی ہٹاو پایا جائے گا۔ مساوات \حوالہ{مساوات_فوریئر_مستطیل_دوسرا_جواب} میں ان زاویائی ہٹاو کو شامل کرتے ہوئے فوریئر تسلسل لکھتے ہیں۔
+\begin{align}
+f\left(t+\frac{T}{4}\right)&=\sum_{\substack{n=-\infty \\ n=\text{طاق}\\ n \ne 0} }^{\infty} -\frac{j2V_0}{n\pi}e^{jn\left(\omega_0 +\frac{\pi}{2}\right)t}
+\end{align}
 \انتہا{مثال}
 %============
+
+\حصہ{تخلیق موج}
+دو یا دو سے زیادہ امواج کا مجموعہ لیتے ہوئے دیگر امواج حاصل کئے جا سکتے ہیں۔یوں شکل \حوالہ{شکل_فوریئر_تخلیق_موج}-الف اور شکل-ب مل کر شکل-پ دیتے ہیں۔انفرادی امواج کے فوریئر تسلسل کا مجموعہ حاصل موج کی فوریئر تسلسل دے گی۔ فوریئر تسلسل میں تعددی ارکان کا دارومدار وقت کے لحاض سے موج کی صورت پر منحصر ہوتا ہے نا کہ موج کی حتمی قیمت پر۔یوں جس نسبت سے موج کا حیطہ تبدیل کیا جائے اسی نسبت سے تسلسل کو ضرب دیتے ہوئے کم یا زیادہ حیطے کی موج کا تسلسل حاصل کیا جا سکتا ہے۔ 
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,ytick={0,1},yticklabels={$0$,$1$},xtick={-2,0,2,4,8},xticklabels={$-2$,$0$,$2$,$4$,$8$},ymax=2.2,xmin=-2.5,xmax=8.5]
+\addplot[] plot coordinates {(-2.5,0)(-2,0) (-2,1) (2,1) (2,0) (4,0) (4,1) (8,1) (8,0)(8.5,0)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,ytick={0,1},yticklabels={$0$,$1$},xtick={-1,0,1,5,7},xticklabels={$-1$,$0$,$1$,$5$,$7$},ymax=2.2,xmin=-2.5,xmax=8.5]
+\addplot[] plot coordinates {(-2.5,0)(-1,0) (-1,1) (1,1) (1,0) (5,0) (5,1) (7,1) (7,0) (8.5,0)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,ytick={0,1,2},yticklabels={$0$,$1$,$2$},xtick={-2,-1,0,1,2,4,5,7,8},xticklabels={$-2$,$-1$,$0$,$1$,$2$,$4$,$5$,$7$,$8$},ymax=2.2,xmin=-2.5,xmax=8.5]
+\addplot[] plot coordinates {(-2.5,0)(-2,0) (-2,1) (-1,1) (-1,2) (1,2) (1,1) (2,1) (2,0) (4,0) (4,1) (5,1) (5,2) (7,2) (7,1) (8,1) (8,0)(8.5,0)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}
+\caption{دو یا دو سے زیادہ امواج کے جمع و منفی سے نئی موج کی تخلیق۔}
+\label{شکل_فوریئر_تخلیق_موج}
+\end{figure}
+
+فوریئر تسلسل میں \عددی{\sum a_n \cos (n\omega_0 t)} جفت موج کو ظاہر کرتی ہے جبکہ \عددی{\sum b_n \sin(n\omega_0 t)} طاق موج کو ظاہر کرتی ہے لہٰذا کسی بھی موج کو جفت موج اور طاق موج کا مجموعہ تصور کیا جا سکتا ہے۔
+%================
+
+\ابتدا{مشق}
+شکل \حوالہ{شکل_فوریئر_تخلیق_موج}-الف اور ب کی فوریئر قوت نمائی تسلسل کے عددی سر حاصل کریں۔ان کے مجموعے سے شکل-پ کی تسلسل کے عددی سر حاصل کریں۔
+
+جواب:\عددی{\kx{c}_0=1}، \عددی{\kx{c}_n=\tfrac{\sin\tfrac{2n\pi}{3}+\sin\tfrac{n\pi}{3}}{n\pi}}
+\انتہا{مشق}
+%======================
+\ابتدا{مشق}\شناخت{مشق_تخلیق_موج_ب}
+شکل \حوالہ{شکل_تخلیق_موج_ب}-ال اور ب کا مجموعہ شکل-پ ہے۔شکل-الف اور ب کے فوریئر تسلسل حاصل کرتے ہوئے شکل-پ کا تسلسل حاصل کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,ytick={-1,0,1},yticklabels={$-A$,$0$,$A$},xtick={-1,0,1},xticklabels={$-\frac{T}{2}$,$0$,$\frac{T}{2}$},ymax=2.2,xmin=-1.5,xmax=3]
+\addplot[] plot coordinates {(-1.5,0)(-1,-1) (0,1) (1,-1) (2,1) (3,-1)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,ytick={-1,0,1},yticklabels={$-A$,$0$,$A$},xtick={-1,0,1},xticklabels={$-\frac{T}{2}$,$0$,$\frac{T}{2}$},ymax=2.2,xmin=-1.5,xmax=3]
+\addplot[] plot coordinates {(-1.5,-1) (-1,-1) (-1,1) (0,1) (0,-1) (1,-1) (1,1) (2,1) (2,-1) (3,-1)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,ylabel={$f(t)$},ylabel style ={rotate=-90},ytick={-2,0,2},yticklabels={$-2A$,$0$,$2A$},xtick={-1,0,1},xticklabels={$-\frac{T}{2}$,$0$,$\frac{T}{2}$},ymax=2.2,xmin=-1.5,xmax=3]
+\addplot[] plot coordinates {(-1.5,-1)(-1,-2)(-1,0)(0,2) (0,0) (1,-2) (1,0) (2,2) (2,0) (3,-2)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}
+\caption{مشق \حوالہ{مشق_تخلیق_موج_ب} کے اشکال۔}
+\label{شکل_تخلیق_موج_ب}
+\end{figure}
+
+جواب:
+$f(t)=\sum_{\substack{n=1 \\ \text{طاق}}}^{\infty} \left[\frac{4A}{n\pi}\sin(n\omega_0 t)-\frac{8A}{n^2\pi^2} \cos(n\omega_0 t)\right]$
+\انتہا{مشق}
+%==========================
+\حصہ{تعددی طیف}
+تفاعل \عددی{f(t)} کے عددی سر کی مقدار بالمقابل تعدد کے ترسیم کو \اصطلاح{مقداری طیف}\فرہنگ{مقداری!طیف}\فرہنگ{طیف!مقداری}\حاشیہب{amplitude spectrum}\فرہنگ{spectrum!amplitude}\فرہنگ{amplitude!spectrum} کہتے ہیں جبکہ عددی سر کی زاویائی ہٹاو بالمقابل تعدد کے ترسیم کو \اصطلاح{زاویائی ہٹاو طیف}\فرہنگ{زاویائی ہٹاو!طیف}\فرہنگ{طیف!زاویائی ہٹاو}\حاشیہب{phase spectrum}\فرہنگ{phase!spectrum}\فرہنگ{spectrum!phase} کہتے ہیں۔ چونکہ طیف انفرادی لکیروں پر مشتمل ہے لہٰذا اسے \اصطلاح{انفرادی لکیری طیف}\فرہنگ{انفرادی لکیری طیف}\فرہنگ{طیف!انفرادی لکیری}\حاشیہب{discrete line spectra}\فرہنگ{discrete line spectra}
+\فرہنگ{spectrum!discrete line} کہتے ہیں۔انفرادی لکیری طیف تفاعل کی تعددی مواد کے بارے میں معلومات دیتی ہے۔
+
+%=====================
+\ابتدا{مثال}\شناخت{مثال_فوریئر_طیف_دیا_گیا_ہے}
+مشق \حوالہ{مشق_تخلیق_موج_ب} میں شکل \حوالہ{شکل_تخلیق_موج_ب}-پ کا تسلسل حاصل کیا گیا جو \عددی{A=5} کی صورت میں درج ذیل ہو گا۔
+\begin{align*}
+f(t)=\sum_{\substack{n=1 \\ \text{طاق}}}^{\infty} \left[\frac{20}{n\pi}\sin(n\omega_0 t)-\frac{40}{n^2\pi^2} \cos(n\omega_0 t)\right]
+\end{align*}
+تفاعل کی مقداری طیف اور زاویائی ہٹاو طیف درکار ہے۔
+
+حل:چونکہ \عددی{D_n\phase{\theta_n}=a_n-jb_n} ہے لہٰذا پہلے چار \عددی{D_n\phase{\theta_n}} درج ذیل ہوں گے۔
+\begin{align*}
+D_1\phase{\theta_1}&=-\frac{40}{\pi^2}-j\frac{20}{\pi}=7.5\phase{-122^{\circ}}\\
+D_3\phase{\theta_1}&=-\frac{40}{9\pi^2}-j\frac{20}{3\pi}=2.2\phase{-102^{\circ}}\\
+D_5\phase{\theta_1}&=-\frac{40}{25\pi^2}-j\frac{20}{5\pi}=1.3\phase{-97^{\circ}}\\
+D_7\phase{\theta_1}&=-\frac{40}{49\pi^2}-j\frac{20}{7\pi}=0.91\phase{-95^{\circ}}\\
+\end{align*}
+مقداری طیف اور زاویائی ہٹاو طیف کو شکل \حوالہ{شکل_فوریئر_طیف_دیا_گیا_ہے} میں دکھایا گیا ہے۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,axis lines*=middle,ylabel={$D_n$},ylabel style={rotate=-90},xlabel={$\omega_0$},xtick={1,3,5,7},xticklabels={$\omega_0$,$3\omega_0$,$5\omega_0$,$7\omega_0$},ytick={1,2,3,4,5,6,7,8},yticklabels={$1$,$2$,$3$,$4$,$5$,$6$,$7$,$8$},ymin=0,y label style={at={(axis description cs:0,1.1)}}]
+\addplot[] plot coordinates {(1,0) (1,7.5)};
+\addplot[] plot coordinates {(3,0) (3,2.2)};
+\addplot[] plot coordinates {(5,0) (5,1.3)};
+\addplot[] plot coordinates {(7,0) (7,0.91)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(الف) مقداری طیف۔}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,axis lines*=middle,ylabel={$\theta_n$},ylabel style={rotate=-90},xlabel={$\omega_0$},xtick={1,3,5,7},xticklabels={$\omega_0$,$3\omega_0$,$5\omega_0$,$7\omega_0$},ytick={-20,-40,-60,-80,-100,-120,-140},yticklabels={$-20^{\circ}$,$-40^{\circ}$,$-60^{\circ}$,$-80^{\circ}$,$-100^{\circ}$,$-120^{\circ}$,$-140^{\circ}$},ymax=20 ,x tick label style={above},x label style={at={(axis description cs:0.5,1.2)}},x tick style={draw=none},y label style={at={(axis description cs:0,1.05)}}]
+\addplot[] plot coordinates {(1,0) (1,-122)};
+\addplot[] plot coordinates {(3,0) (3,-102)};
+\addplot[] plot coordinates {(5,0) (5,-97)};
+\addplot[] plot coordinates {(7,0) (7,-95)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(ب) زاویائی ہٹاو طیف۔}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_فوریئر_طیف_دیا_گیا_ہے} کے طیف۔}
+\label{شکل_فوریئر_طیف_دیا_گیا_ہے}
+\end{figure}
+\انتہا{مثال}
+%==================
+\ابتدا{مشق}\شناخت{مشق_فوریئر_طیف_الف}
+شکل \حوالہ{شکل_فوریئر_طیف_الف} میں دیے تفاعل کے \عددی{D_n} عددی سر حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,xlabel={$t$},ylabel style={rotate=-90},xtick={-1,0,1,2,3},xticklabels={$-1$,$0$,$1$,$2$,$3$},ytick={0,1},yticklabels={$0$,$1$}]
+\addplot[] plot coordinates {(-1,0) (-1,1) (0,0) (0,1) (1,0) (1,1) (2,0) (2,1) (3,0)};
+\end{axis}
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_فوریئر_طیف_الف} کا تفاعل۔}
+\label{شکل_فوریئر_طیف_الف}
+\end{figure}
+جوابات:
+\begin{align*}
+a_0&=\frac{1}{2}\\
+D_1&=-\frac{j}{\pi}\\
+D_2&=-\frac{j}{2\pi}\\
+D_3&=-\frac{j}{3\pi}\\
+D_4&=-\frac{j}{4\pi}
+\end{align*}
+\انتہا{مشق}
+%==================
+\ابتدا{مشق}\شناخت{مشق_فوریئر_طیف_دیا_گیا}
+انفرادی لکیری طیف شکل \حوالہ{شکل_فوریئر_طیف_دیا_گیا} میں دکھائے گئے ہیں۔تفاعل کی تکونیاتی تسلسل لکھیں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,ylabel={$D_n$},ylabel style={rotate=-90},xlabel={$f\,(\si{\hertz})$},xtick={0,20,40,60,80},xticklabels={$0$,$20$,$40$,$60$,$80$},ytick=\empty,,ymin=0,ymax=1.7,y label style={at={(axis description cs:0,1.1)}}]
+\addplot[] plot coordinates {(0,0) (0,0.25)}node[circ]{}node[above]{$0.25$};
+\addplot[] plot coordinates {(20,0) (20,1.35)}node[circ]{}node[above]{$1.35$};
+\addplot[] plot coordinates {(40,0) (40,1)}node[circ]{}node[above]{$1$};
+\addplot[] plot coordinates {(60,0) (60,0.5)}node[circ]{}node[above]{$0.5$};
+\addplot[] plot coordinates {(80,0) (80,0.35)}node[circ]{}node[above]{$0.35$};
+\end{axis}
+\end{tikzpicture}
+\caption*{(الف) مقداری طیف۔}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,axis lines*=middle,ylabel={$\theta_n$},ylabel style={rotate=-90},xlabel={$f\,(\si{\hertz})$},xtick={0,20,40,60,80},xticklabels={$0$,$20$,$40$,$60$,$80$},ytick={-45,-90,-135},yticklabels={$-45^{\circ}$,$-90^{\circ}$,$-135^{\circ}$},ymax=20 ,x tick label style={above},x label style={at={(axis description cs:0.5,1.2)}},x tick style={draw=none},y label style={at={(axis description cs:0,1.05)}}]
+\addplot[] plot coordinates {(20,0) (20,-135)};
+\addplot[] plot coordinates {(40,0) (40,-90)};
+\addplot[] plot coordinates {(60,0) (60,-45)};
+\addplot[] plot coordinates {(80,0) (80,-135)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(ب) زاویائی ہٹاو طیف۔}
+\end{subfigure}
+\caption{مشق \حوالہ{مشق_فوریئر_طیف_دیا_گیا} کے طیف۔}
+\label{شکل_فوریئر_طیف_دیا_گیا}
+\end{figure}
+
+جواب:
+ \begin{multline*}
+f(t)=0.25+1.35\cos(40\pi t-135^{\circ})+1\cos(80\pi t-90^{\circ})\\
++0.5\cos(120\pi t-45^{\circ})+0.35\cos(160\pi t-135^{\circ})+\cdots
+\end{multline*}
+\انتہا{مشق}
+%===================
+
+\حصہ{برقرار حال برقی جال}
+کسی دور پر سائن نما دباو مسلط کرتے ہوئے دور میں مختلف مقامات پر دباو اور رو حاصل کرنا ہم دیکھ چکے ہیں۔فرض کریں کہ کسی دور پر  دوری دباو \عددی{v(t)} مسلط کی جاتی ہے۔ایسے دور کو حل کرنے  کی خاطر ہم مسلط دباو کا فوریئر تسلسل حاصل کرتے ہیں۔فوریئر تسلسل کا ہر رکن سائن نما دباو ہو گا۔انفرادی ہارمونی دباو کے لئے دور کو تعددی دائرہ کار میں حل کیا جاتا ہے۔ ان جوابات کا وقتی دائرہ کار میں مطلوبہ قیمت حاصل کی جاتی ہے۔تمام جوابات کا مجموعہ درکار جواب ہوتا ہے۔
+
+\جزوحصہ{اوسط طاقت}
+جیسا اوپر ذکر کیا گیا، دور پر دوری دباو یا دوری رو مسلط کرنے سے مختلف مقامات پر دباو اور رو پیدا ہوں گے جنہیں تسلسل کی صورت میں درج ذیل لکھا جا سکتا ہے۔ 
+\begin{align}
+v(t)&=V_{DC}+\sum_{n=1}^{\infty} V_n \cos (n\omega_0 t-\theta_{v,n})\\
+i(t)&=I_{DC}+\sum_{n=1}^{\infty} I_n \cos (n\omega_0 t-\theta_{i,n})
+\end{align}
+انفعالی رائج سمت استعمال کرتے ہوئے فرض کریں کہ کسی پرزے پر دباو اور اس میں رو درج بالا مساوات دیتے ہیں۔یوں اس پرزے کی اوسط طاقت درج ذیل ہو گی۔
+\begin{align}\label{مساوات_فوریئر_طاقت_الف}
+P&=\frac{1}{T}\int_0^T v(t)i(t) \dif t
+\end{align}
+درج بالا مساوات میں دو فوریئر تسلسل کے حاصل ضرب کا تکمل لیا گیا ہے۔ دو عدد فوریئر تسلسل کے حاصل ضرب  میں تین قسم کے ارکان پائے جاتے ہیں۔ایک رکن \عددی{V_{DC}I_{DC}} ہے جس کا تکمل تقسیم \عددی{T} از خود \عددی{V_{DC}I_{DC}} کے برابر ہے۔ دوسرا قسم وہ ہے جو \عددی{V_{DC} I_n\cos(n\omega_0 t -\theta_{i,n})} یا \عددی{I_{DC} V_n\cos(n\omega_0 t -\theta_{v,n})} صورت رکھتے ہیں۔ آپ جانتے ہیں کہ سائن نما تفاعل کا ایک دوری عرصے پر تکمل صفر کے برابر ہوتا ہے لہٰذا ایسے تمام ارکان صفر کے برابر ہوں گے۔تیسرا اور سب سے زیادہ تعداد میں  ارکان \عددی{\cos(m\omega_0 t -\theta_{v,n}) \cos(n\omega_0 t-\theta_{i,n})} صورت رکھتے ہیں۔آپ جانتے ہیں کہ \عددی{\cos(n\omega_0 t)} اور \عددی{\sin(n\omega_0 t)} آپس میں عمودی تفاعل ہیں لہٰذا \عددی{m \ne n} کی صورت میں تمام 
+ \عددی{\cos(m\omega_0 t -\theta_{v,n}) \cos(n\omega_0 t-\theta_{i,n})} کا ایک دوری عرصے پر تکمل صفر کے برابر ہو گا۔یوں صرف ایسے ارکان غیر صفر ہوں گے جن میں دباو کی تعدد  اور رو کی تعدد برابر ہو یعنی
+\begin{align*}
+\sum_{n=1}^{\infty} \frac{1}{T}\int_0^T V_n I_n \cos(n\omega_0 t-\theta_{v,n})\cos(n\omega_0 t-\theta_{i,n}) \dif t=\sum_{n=1}^{\infty} \frac{V_n I_n}{2} \cos(\theta_{v,n}-\theta_{i,n})
+\end{align*}
+اس طرح اوسط طاقت درج ذیل ہو گی۔
+\begin{align}
+P=V_{DC}I_{DC}+\sum_{n=1}^{\infty}\frac{ V_n I_n}{2} \cos(\theta_{v,n}-\theta_{i,n})
+\end{align}
+درج بالا مساوات کا مطلب ہے کہ تمام انفرادی ہارمونی اجزاء کے اوسط طاقت کا مجموعہ کل اوسط طاقت دیتا ہے۔
+%====================
+\ابتدا{مثال}\شناخت{مثال_فوریئر_دور_حل_الف}
+شکل \حوالہ{شکل_فوریئر_دور_حل_الف}-الف پر درج ذیل داخلی دباو \عددی{v_d(t)} مسلط کی گئی ہے۔خارجی دباو \عددی{v_0(t)} حاصل کریں۔
+\begin{align*}
+v_d(t)=\sum_{\substack{n=1 \\ \text{طاق}}}^{\infty} \frac{20}{n\pi}\sin (2nt)-\frac{40}{n^2\pi^2}\cos(2nt)
+\end{align*}
+% 
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$v_d(t)$}]++(0,\y) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [short]++(\x,0) to [resistor,l_={$\SI{4}{\ohm}$},v^<={$v_0(t)$}]++(0,-\y) to [short](0,0);
+\draw(\x,0) to [capacitor,*-*,l={$\SI{1}{\farad}$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$\bV_d(s)$}]++(0,\y) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [short]++(\x,0) to [resistor,l_={$\SI{4}{\ohm}$},v^<={$\bV_0(t)$}]++(0,-\y) to [short](0,0);
+\draw(\x,0) to [capacitor,*-*,l={$\frac{1}{s}$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_فوریئر_دور_حل_الف} کا دور۔}
+\label{شکل_فوریئر_دور_حل_الف}
+\end{figure}
+
+حل:داخلی دباو کو درج ذیل لکھا جا سکتا ہے۔
+ \begin{multline}\label{مساوات_فوریئر_لاگو_دباو_الف}
+v_d(t)=7.5\cos(2t-122^{\circ})+2.2\cos(6t-102^{\circ})\\
++1.3\cos(10t-97^{\circ})+0.91\cos(14t-95^{\circ})+\cdots
+\end{multline}
+شکل \حوالہ{شکل_فوریئر_دور_حل_الف}-ب میں تعددی دائرہ کار میں دور کو دکھایا گیا ہے جس میں متوازی جڑے برق گیر اور مزاحمت کی
+ رکاوٹ \عددی{\tfrac{4(1/j\omega)}{4+1/j\omega}=\tfrac{4}{1+j4\omega}} ہے  لہٰذا تقسیم دباو سے خارجی دباو درج ذیل لکھا جا سکتا ہے۔
+\begin{align}\label{مساوات_فوریئر_لاگو_دباو_ب}
+\bV_0(\omega)=\frac{\frac{4}{1+j4\omega}}{2+\frac{4}{1+j4\omega}} \bV_d(s)=\frac{2}{3+j4\omega} \bV_d
+\end{align}
+مساوات \حوالہ{مساوات_فوریئر_لاگو_دباو_الف} کے پہلے رکن سے  \عددی{\omega_0=\SI{2}{\radian\per\second}} دیکھا جا سکتا ہے لہٰذا تسلسل کے پہلے رکن سے پیدا خارجی دباو درج بالا مساوات سے
+\begin{align*}
+\bV_0(\omega_0)=\left(\frac{2}{3+j8}\right) 7.5\phase{-122^{\circ}} =1.7556\phase{-191.4^{\circ}}
+\end{align*}
+ہو گا۔داخلی دباو کے تسلسل میں اگلے رکن یعنی تیسرے ہارمونی جزو کی تعدد \عددی{\omega=3\omega_0=\SI{6}{\radian \per\second}} جبکہ  پانچویں ہارمونی رکن کی تعدد \عددی{5\omega_0} ہے۔یوں ان ارکان سے پیدا خارجی دباو کو مساوات \حوالہ{مساوات_فوریئر_لاگو_دباو_ب} میں درست تعدد پر کرتے ہوئے حاصل کی جا سکتی ہے۔
+\begin{align*}
+\bV_0(3\omega_0)=\frac{\frac{4}{1+j24}}{2+\frac{4}{1+j24}} 2.2\phase{-102^{\circ}}=0.1819\phase{-184.9^{\circ}}\\
+\bV_0(5\omega_0)=\frac{\frac{4}{1+j40}}{2+\frac{4}{1+j40}} 1.3\phase{-97^{\circ}}=0.0648\phase{-182.7^{\circ}}\\
+\bV_0(7\omega_0)=\frac{\frac{4}{1+j56}}{2+\frac{4}{1+j56}} 0.91\phase{-95^{\circ}}=0.0325\phase{-181.9^{\circ}}
+\end{align*}
+یوں برقرار خارجی دباو درج ذیل ہو گا۔
+ \begin{multline}
+v_d(t)=1.7556\cos(2t-191.4^{\circ})+0.1819\cos(6t-184.9^{\circ})\\
++0.0648\cos(10t-182.7^{\circ})+0.0325\cos(14t-181.9^{\circ})+\cdots
+\end{multline}
+\انتہا{مثال}
+%==================
