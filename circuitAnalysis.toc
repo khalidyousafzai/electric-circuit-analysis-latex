@@ -131,3 +131,4 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 15}}تعددی طیف}{\RL {\arabicfont 790}}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 15}}برقرار حال برقی جال}{\RL {\arabicfont 795}}
 \contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 5}.\RL {\arabicfont 15}}اوسط طاقت}{\RL {\arabicfont 795}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 15}}فوریئر بدل}{\RL {\arabicfont 800}}

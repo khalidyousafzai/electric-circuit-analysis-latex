@@ -1128,3 +1128,307 @@ v_d(t)=1.7556\cos(2t-191.4^{\circ})+0.1819\cos(6t-184.9^{\circ})\\
 \end{multline}
 \انتہا{مثال}
 %==================
+\ابتدا{مثال}\شناخت{مثال_فوریئر_اوسط_طاقت_الف}
+شکل \حوالہ{شکل_فوریئر_اوسط_طاقت_الف} میں سلسلہ وار \عددی{RLC} پر درج ذیل دباو \عددی{v_d(t)} مسلط کیا گیا ہے۔مزاحمت میں اوسط طاقت کا ضیاع دریافت کریں۔
+\begin{align*}
+v_d(t)=33+2\cos(100t-30^{\circ})+1.1\cos(200t-45^{\circ})+0.6\cos(300t-60^{\circ})+\cdots
+\end{align*}
+%
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$v_d(t)$}]++(0,\y) to [resistor,l={$\SI{2}{\ohm}$},i={$i(t)$}]++(\x,0) to [inductor,l={$\SI{20}{\milli\henry}$}]++(\x,0) to [capacitor,l={$\SI{10}{\milli\farad}$}]++(0,-\y) to [short] (0,0);
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_فوریئر_اوسط_طاقت_الف} کا دور۔}
+\label{شکل_فوریئر_اوسط_طاقت_الف}
+\end{figure}
+
+حل:برق گیر یک سے سمتی رو نہیں گزرتی لہٰذا داخلی دباو کا یک سمتی جزو یعنی \عددی{\SI{33}{\volt}} کوئی رو نہیں پیدا کر پائے گا اور \عددی{I_{DC}=0} ہو گا۔پہلے ہارمونی جزو سے \عددی{\omega_0=\SI{100}{\radian \per\second}} دیکھا جا سکتا ہے۔داخلی دباو کے تسلسل کے بقایا ارکان کو باری باری حل کرتے  ہوئے رو حاصل کرتے ہیں۔
+\begin{align*}
+\bI(\omega_0)=\frac{2\phase{-30^{\circ}}}{2+j100\times 0.02+\frac{1}{j100\times 0.01}}=0.89\phase{-56.6^{\circ}}\\
+\bI(2\omega_0)=\frac{1.1\phase{-45^{\circ}}}{2+j200\times 0.02+\frac{1}{j200\times 0.01}}=0.27\phase{-105.3^{\circ}}\\
+\bI(3\omega_0)=\frac{0.6\phase{-60^{\circ}}}{2+j300\times 0.02+\frac{1}{j300\times 0.01}}=0.099\phase{-130.6^{\circ}}
+\end{align*}
+یوں رو
+\begin{multline*}
+i(t)=0.89\cos(100t-56.6^{\circ})+0.27\cos(200t-105.3^{\circ})\\
++0.099\cos(300t-130.6^{\circ})+\cdots
+\end{multline*}
+ہو گی۔دور میں صرف مزاحمت طاقت ضائع کرتی ہے لہٰذا پورے دور کا ضیاع مزاحمتی ضیاع ہو گا۔دور میں کل اوسط طاقت کا ضیاع درج ذیل ہے
+\begin{multline*}
+P=\frac{2\times 0.89}{2}\cos(56.6^{\circ}-30^{\circ})+\frac{1.1\times 0.27}{2}\cos(105.3^{\circ}-45^{\circ})\\
++\frac{0.6\times 0.099}{2}\cos(130.6^{\circ}-60^{\circ})+\cdots
+\end{multline*}
+یعنی
+\begin{align*}
+P\approx\SI{0.61}{\watt}
+\end{align*}
+\انتہا{مثال}
+%===================
+\ابتدا{مشق}
+ایک دور کے داخلی دباو اور داخلی رو درج ذیل ہیں۔دور میں اوسط طاقت کا ضیاع دریافت کریں۔
+\begin{align*}
+v_d(t)=20+7\cos(100t-30^{\circ})+5\cos(200t-45^{\circ})+2\cos(300t-60^{\circ})+\cdots\\
+i_d(t)=5+3\cos(100t+40^{\circ})+1\cos(200t-45^{\circ})+0.2\cos(300t-70^{\circ})+\cdots
+\end{align*}
+
+جواب:\عددی{P=\SI{108.99}{\watt}}
+\انتہا{مشق}
+%====================
+\ابتدا{مشق}\شناخت{مشق_فوریئر_مشق_رو}
+شکل \حوالہ{شکل_فوریئر_مشق_رو} میں داخلی رو  دریافت کریں۔داخلی دباو درج ذیل ہے۔
+\begin{align*}
+v_d(t)=5\cos(50t-30^{\circ})+4\cos(100t+45^{\circ})+2\cos(150t-10^{\circ})\,\si{\volt}
+\end{align*}
+%
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$v_d(t)$}]++(0,\y) to [resistor,l={$\SI{4}{\ohm}$}]++(\x,0) to [inductor,l={$\SI{0.01}{\henry}$}]++(0,-\y) to [short](0,0);
+\draw(\x,0) to [short,*-]++(\x,0) to [capacitor,l_={$\SI{0.01}{\farad}$}]++(0,\y) to [short,-*]++(-\x,0);
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_فوریئر_مشق_رو} کا دور۔}
+\label{شکل_فوریئر_مشق_رو}
+\end{figure}
+
+جواب: متوازی امالہ اور برق گیر کی قدرتی تعدد \عددی{\SI{100}{\radian\per\second}} ہے جس پر ان کی رکاوٹ لامتناہی ہو جاتی ہے لہٰذا رو میں \عددی{\SI{100}{\radian\per\second}} کا جزو نہیں پایا جاتا۔\\
+ \عددی{i_d(t)=1.23\cos(50t-39.5^{\circ})+0.48\cos(150t+6.7^{\circ})\,\si{\ampere}}
+\انتہا{مشق}
+%=====================
+
+\حصہ{فوریئر بدل}
+ہم دوری تفاعل کو فوریئر تسلسل سے ظاہر کرنا دیکھ چکے ہیں۔آئیں اب \اصطلاح{غیر دوری}\فرہنگ{غیر دوری}\فرہنگ{دوری!غیر}\حاشیہب{aperiodic}\فرہنگ{aperiodic} تفاعل کو ظاہر کرنے پر غور کریں۔
+
+شکل \حوالہ{شکل_فوریئر_دوری_غیر_دوری}-الف میں غیر دوری تفاعل \عددی{f(t)} دکھایا گیا ہے۔شکل-ب میں اس تفاعل کو \عددی{T} دورانیے پر دہراتے ہوئے تفاعل \عددی{f_d(t)} حاصل کیا گیا ہے۔آپ جانتے ہیں کہ شکل-ب کے دوری تفاعل کو ہم قوت نمائی تسلسل سے ظاہر کر سکتے ہیں
+\begin{align}
+f_d(t)=\sum_{n=-\infty}^{\infty} \kx{c}_n e^{jn\omega_0 t}
+\end{align}
+جہاں
+\begin{align}\label{مساوات_فوریئر_لکیری_طیف_عددی_سر}
+\kx{c}_n=\frac{1}{T}\int_{-\frac{T}{2}}^{\frac{T}{2}} f_d(t) e^{-jn\omega_0 t} \dif t
+\end{align}
+اور
+\begin{align}
+\omega_0=\frac{2\pi}{T}
+\end{align}
+ہیں۔شکل \حوالہ{شکل_فوریئر_دوری_غیر_دوری}-ب میں \عددی{T \to \infty} کرنے سے  شکل-الف حاصل ہوتا ہے یعنی تفاعل غیر دوری ہو گا۔ایسی صورت میں \عددی{-T}، \عددی{T}، \عددی{2T} وغیرہ پر پائے جانے والے حصے لامتناہی پر پائے جائیں گے۔
+% 
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,axis lines*=middle,xtick={-120,0,120},xticklabels={$-\frac{T}{2}$,$0$,$\frac{T}{2}$},ytick=\empty,ymin=0,xmin=-360,xmax=360,ylabel={$f(t)$},xlabel={$t$},ylabel style={rotate=-90,at={(axis description cs:0.5,0.9)}}]
+\addplot[domain=-90:90,samples=100]{cos(x)+1/2*sin(2*x)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(الف) غیر دوری تفاعل۔}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,axis lines*=middle,xtick={-240,-120,0,120,240},xticklabels={$-T$,$-\frac{T}{2}$,$0$,$\frac{T}{2}$,$T$},ytick=\empty,ymin=0,xmin=-360,xmax=360,ylabel={$f_d(t)$},xlabel={$t$},ylabel style={rotate=-90,at={(axis description cs:0.5,0.9)}}]
+\addplot[domain=-90:90,samples=100]{cos(x)+1/2*sin(2*x)};
+\addplot[domain=240-90:240+90,samples=100]{cos(x-240)+1/2*sin(2*(x-240))};
+\addplot[domain=-240-90:-240+90,samples=100]{cos(x+240)+1/2*sin(2*(x+240))};
+\end{axis}
+\end{tikzpicture}
+\caption*{(ب) دوری تفاعل۔}
+\end{subfigure}
+\caption{دوری اور غیر دوری تفاعل۔}
+\label{شکل_فوریئر_دوری_غیر_دوری}
+\end{figure}
+
+دوری تفاعل کے لکیری طیف میں لکیریں ہارمونی تعدد \عددی{n\omega_0} پر پائی جاتی ہے لہٰذا دو قریبی لکیروں کے مابین تعددی فاصلہ
+\begin{align}
+\Delta \omega=(n+1)\omega_0-n\omega_0 =\omega_0=\frac{2\pi}{T}
+\end{align}
+ہو گا۔شکل \حوالہ{شکل_فوریئر_بدل_الف}-الف میں ان حقائق کی وضاحت کی گئی ہے۔دوری فاصلہ \عددی{T} بڑھانے سے طیفی لکیروں کے مابین تعددی فاصلہ کم ہو گا۔شکل-ب اور پ میں ایسا دکھایا گیا ہے۔جیسا شکل-ت میں دکھایا گیا ہے، \عددی{T \to \infty} کرنے سے \عددی{\Delta \omega \to \dif \omega} ہو گا، طیف اپنی لکیری خاصیت کھو دے گا اور یہ ایک مسلسل طیف کی صورت اختیار کر لیگا۔ایسی صورت میں طیف انفرادی تعدد \عددی{n\omega_0} کی بجائے تمام تعدد \عددی{\omega} پر پایا جائے گا لہٰذا \عددی{n\omega_0} کو \عددی{\omega} فرض کیا جا سکتا ہے یعنی
+\begin{align}\label{مساوات_فوریئر_لامتناہی_دوری_عرصہ_تعددی_فرق}
+n \omega_0 = \omega
+\end{align}
+%
+ \begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)--++(4,0)node[below]{$\omega$};
+\draw(0,0)--++(0,2)node[left]{$D_n$};
+\foreach \kx in {1,2,3,4,5}{\draw(\kx*0.72,0)--++(0,{1.75*cos(\kx*12.6)})node[circ]{};}
+\draw(0.72,0)node[below]{$1\omega_0$};
+\draw(0.72*2,0)node[below]{$2\omega_0$};
+\draw(0.72*3,-0.1)--++(0,-0.3);
+\draw(0.72*4,-0.1)--++(0,-0.3);
+\draw[stealth-stealth](0.72*3,-0.2)--(0.72*4,-0.2)node[pos=0.5,below]{$\Delta \omega$};
+\end{tikzpicture}
+\caption*{طیفی لکیروں کے مابین فاصلہ \عددی{\omega_0} ہے۔}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)--++(4,0)node[below]{$\omega$};
+\draw(0,0)--++(0,2)node[left]{$D_n$};
+\foreach \kx in {1,2,...,18}{\draw(\kx*0.2,0)--++(0,{1.75*cos(\kx*3.5)})node[circ]{};}
+\end{tikzpicture}
+\caption*{(ب) دوری عرصہ بڑھانے سے طیفی\\ لکیروں کے مابین فاصلہ کم ہوتا ہے۔}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)--++(4,0)node[below]{$\omega$};
+\draw(0,0)--++(0,2)node[left]{$D_n$};
+\foreach \kx in {1,2,...,36}{\draw(\kx*0.1,0)--++(0,{1.75*cos(\kx*1.75)})node[circ]{};}
+\end{tikzpicture}
+\caption*{(پ) دوری عرصہ بہت بڑھانے سے طیفی لکیروں\\ کے مابین فاصلہ نہایت کم ہو جاتا ہے۔}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)--++(4,0)node[below]{$\omega$};
+\draw(0,0)--++(0,2)node[left]{$\Fourier(\omega)$};
+\draw[shade,domain=0:63,variable=\t] plot ({\t*2/35},{1.75*cos(\t)}) --(3.6,0)--(0,0)--(0,1.75);
+\end{tikzpicture}
+\caption*{(ت) لامتناہی دوری عرصے کی صورت میں طیفی لکیریں آپس\\ میں مل جاتی ہیں اور ان میں فرق کرنا ممکن نہیں رہتا۔}
+\end{subfigure}
+\caption{لکیری طیف سے مسلسل طیف کا حصول۔}
+\label{شکل_فوریئر_بدل_الف}
+\end{figure}
+
+چونکہ \عددی{T \to \infty} کرنے سے مساوات \حوالہ{مساوات_فوریئر_لکیری_طیف_عددی_سر} میں \عددی{\kx{c}_n \to 0} ہوں گے لہٰذا ہم \عددی{\kx{c}_n T} پر نظر رکھتے ہوئے آگے بڑھتے ہیں۔
+\begin{align*}
+\kx{c}_n T=\int_{-\frac{T}{2}}^{\frac{T}{2}} f_d(t) e^{-jn\omega_0 t}\dif t
+\end{align*}
+دوری عرصے کی حد لامتناہی کرتے ہوئے درج بالا مساوات کو درج ذیل لکھا جا سکتا ہے
+\begin{align*}
+\lim_{T \to \infty} (\kx{c}_n T)&= \lim_{T \to \infty}\int_{-\frac{T}{2}}^{\frac{T}{2}} f_d(t) e^{-jn\omega_0 t}\dif t\\
+&=\int_{-\infty}^{\infty} f(t) e^{-j\omega t}\dif t
+\end{align*}
+جہاں مندرجہ بالا بحث کو مد نظر رکھتے ہوئے، دوسری قدم پر دوری تفاعل \عددی{f_d(t)} کی جگہ غیر دوری تفاعل\عددی{f(t)} پر کیا گیا ہے اور مساوات \حوالہ{مساوات_فوریئر_لامتناہی_دوری_عرصہ_تعددی_فرق} کا استعمال کیا گیا ہے۔ اس تکمل کو \اصطلاح{فوریئر بدل}\فرہنگ{فوریئر بدل}\فرہنگ{بدل!فوریئر}\حاشیہب{Fourier transform}\فرہنگ{Fourier transform} کہتے اور \عددی{\Fourier(\omega)} سے ظاہر کیا جاتا ہے۔
+\begin{align}\label{مساوات_فوریئر_الف}
+\bF(\omega)=\int_{-\infty}^{\infty} f(t) e^{-j\omega t}\dif t
+\end{align}
+اسی طرح دوری تفاعل کو درج ذیل لکھا جا سکتا ہے
+\begin{align*}
+f_d(t)&=\sum_{n=-\infty}^{\infty} \kx{c}_n e^{jn\omega_0 t}\\
+&=\sum_{n=-\infty}^{\infty} (\kx{c}_n T) e^{jn\omega_0 t} \frac{1}{T}\\
+&=\sum_{n=-\infty}^{\infty} (\kx{c}_n T) e^{jn\omega_0 t} \frac{\Delta \omega}{2\pi}
+\end{align*}
+جس کو \عددی{T \to \infty} کی صورت میں درج ذیل لکھا جا سکتا ہے
+\begin{align}\label{مساوات_فوریئر_ب}
+f(t)=\frac{1}{2\pi}\int_{-\infty}^{\infty} \bF(\omega)e^{j\omega t} \dif \omega
+\end{align}
+جہاں مساوات \حوالہ{مساوات_فوریئر_لامتناہی_دوری_عرصہ_تعددی_فرق} کا استعمال کیا گیا ہے۔
+
+مساوات \حوالہ{مساوات_فوریئر_الف} اور مساوات \حوالہ{مساوات_فوریئر_ب} فوریئر جوڑی کہلاتے ہیں۔چونکہ \عددی{f(t)} کا \اصطلاح{فوریئر بدل}\فرہنگ{فوریئر!بدل}\حاشیہب{Fourier transform}\فرہنگ{Fourier!transform} \عددی{\Fourier(\omega)} ہے لہٰذا \عددی{\Fourier(\omega)} کا \اصطلاح{الٹ فوریئر بدل}\فرہنگ{فوریئر!الٹ بدل}\حاشیہب{inverser Fourier transform}\فرہنگ{Fourier!inverse transform} \عددی{f(t)} ہے۔فوریئر جوڑی کو اکٹھے لکھتے ہیں۔
+\begin{gather}
+\begin{aligned}\label{مساوات_فوریئر_پ}
+\bF(\omega)=\Fourier[f(t)]&=\int_{-\infty}^{\infty} f(t) e^{-j\omega t}\dif t\\
+f(t)=\Fourier^{-1}[\bF(\omega)]&=\frac{1}{2\pi}\int_{-\infty}^{\infty} \bF(\omega)e^{j\omega t} \dif \omega
+\end{aligned}
+\end{gather}
+%==========
+
+\حصہء{چند اہم فوریئر بدل جوڑیاں}
+چند فوریئر بدل کی جوڑیاں حاصل کرتے ہیں۔
+%=======================
+\ابتدا{مثال}\شناخت{مثال_فوریئر_مستطیل_کا_بدل}
+شکل \حوالہ{شکل_فوریئر_مستطیل_کا_بدل}-الف میں دیے مستطیل تفاعل \عددی{f(t)} کی فوریئر بدل \عددی{\bF(\omega)} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,axis lines*=middle,ytick=\empty,xtick={-0.5,0,0.5},xticklabels={$-\frac{\delta}{2}$,$0$,$\frac{\delta}{2}$},xlabel={$t$},xmin=-6,xmax=6,ymin=0,ymax=1.5,ylabel={$v(t)$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0.5,0.9)}},xlabel style={at={(axis description cs:1.05,0)}}]
+\addplot[] plot coordinates {(-0.5,0) (-0.5,1) (0.5,1) (0.5,0)};
+\addplot[]plot coordinates{(-1.5,1)}node[font=\small]{$V$};
+\end{axis}
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,axis lines*=middle,ytick=\empty,xtick={-5,-0.5,0,0.5,5},xticklabels={$-T$,$-\frac{\delta}{2}$,$0$,$\frac{\delta}{2}$,$T$},xlabel={$t$},xmin=-6,xmax=6,ymin=0,ymax=1.5,ylabel={$v_d(t)$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0.5,0.9)}},xlabel style={at={(axis description cs:1.05,0)}}]
+\addplot[] plot coordinates {(-0.5,0) (-0.5,1) (0.5,1) (0.5,0)};
+\addplot[] plot coordinates {(5-0.5,0) (5-0.5,1) (5+0.5,1) (5+0.5,0)};
+\addplot[] plot coordinates {(-5-0.5,0) (-5-0.5,1) (-5+0.5,1) (-5+0.5,0)};
+\addplot[stealth-stealth] plot coordinates {(0,0.5) (5,0.5)}node[pos=0.5,above]{$T=5\delta$};
+\addplot[]plot coordinates{(-1.5,1)}node[font=\small]{$V$};
+\end{axis}
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[axis lines*=middle,ytick={1},yticklabels={$V \delta$},xtick={-360,-180,0,180,360},xticklabels={$-\frac{4\pi}{\delta}$,$-\frac{2\pi}{\delta}$,$0$,$\frac{2\pi}{\delta}$,$\frac{4\pi}{\delta}$},xlabel={$\omega$},xlabel style={at={(axis description cs:1.05,0.2)}},ylabel={$\bF(\omega)$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0.5,1)}},ymax=1.3]
+\addplot [domain = -600:600, samples = 100]{sin(x)/ (x*pi/180) };
+\end{axis}
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[axis lines*=middle,ytick={1},yticklabels={$\frac{V \delta}{T}$},xlabel={$\omega$},xlabel style={at={(axis description cs:1.05,0.2)}},ylabel={$\kx{c}_n$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0.5,1)}},ymax=1.3,xtick=\empty]
+\addplot [domain = -600:600, samples = 100]{sin(x)/ (x*pi/180) }node[pos=0.55,pin=45:{غلاف}]{};
+%
+\addplot[] plot coordinates {(36,0) (36,{sin(36)/ (36*pi/180) })};
+\addplot[] plot coordinates {(72,0) (72,{sin(72)/ (72*pi/180) })};
+\addplot[] plot coordinates {(108,0) (108,{sin(108)/ (108*pi/180) })};
+\addplot[] plot coordinates {(144,0) (144,{sin(144)/ (144*pi/180) })};
+\addplot[] plot coordinates {(216,0) (216,{sin(216)/ (216*pi/180) })};
+\addplot[] plot coordinates {(252,0) (252,{sin(252)/ (252*pi/180) })};
+\addplot[] plot coordinates {(288,0) (288,{sin(288)/ (288*pi/180) })};
+\addplot[] plot coordinates {(324,0) (324,{sin(324)/ (324*pi/180) })};
+%
+
+\addplot[] plot coordinates {(-36,0) (-36,{sin(-36)/ (-36*pi/180) })};
+\addplot[] plot coordinates {(-72,0) (-72,{sin(-72)/ (-72*pi/180) })};
+\addplot[] plot coordinates {(-108,0) (-108,{sin(-108)/ (-108*pi/180) })};
+\addplot[] plot coordinates {(-144,0) (-144,{sin(-144)/ (-144*pi/180) })};
+\addplot[] plot coordinates {(-216,0) (-216,{sin(-216)/ (-216*pi/180) })};
+\addplot[] plot coordinates {(-252,0) (-252,{sin(-252)/ (-252*pi/180) })};
+\addplot[] plot coordinates {(-288,0) (-288,{sin(-288)/ (-288*pi/180) })};
+\addplot[] plot coordinates {(-324,0) (-324,{sin(-324)/ (-324*pi/180) })};
+%
+\addplot[]plot coordinates {(180,-0.1) (180,-0.2)};
+\addplot[stealth-stealth]plot coordinates {(0,-0.15) (180,-0.15)}node[pos=0.5,below]{$\frac{2\pi}{\delta}$};
+\addplot[-stealth]plot coordinates {(18,0.3) (72,0.3)};
+\addplot[stealth-]plot coordinates {(108,0.3) (180,0.3) (200,0.35)}node[right]{$\frac{2\pi}{T}$};
+\end{axis}
+\end{tikzpicture}
+\caption*{(ت)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_فوریئر_مستطیل_کا_بدل} کا تفاعل۔}
+\label{شکل_فوریئر_مستطیل_کا_بدل}
+\end{figure}
+
+حل:مساوات \حوالہ{مساوات_فوریئر_پ} استعمال کرتے ہوئے فوریئر بدل حاصل کرتے ہیں۔
+\begin{align*}
+\bF(\omega)&=\int_{-\frac{\delta}{2}}^{\frac{\delta}{2}} V e^{-j\omega t} \dif t\\
+&=\left. \frac{V e^{-j\omega t}}{-j\omega}\right|_{-\frac{\delta}{2}}^{\frac{\delta}{2}}\\
+&=V\frac{e^{-j\omega \frac{\delta}{2}}-e^{+j\omega \frac{\delta}{2}}}{j\omega}\\
+&=V \delta \frac{\sin \frac{\omega \delta}{2}}{\frac{\omega \delta}{2}}
+\end{align*}
+یوں وقتی دائرہ کار کے تفاعل \عددی{f(t)}
+\begin{align}
+f(t)=
+\begin{cases}
+0 & -\infty < t \le -\frac{\delta}{2}\\
+V & -\frac{\delta}{2} < t < \frac{\delta}{2}\\
+0& \frac{\delta}{2} \le t < \infty
+\end{cases}
+\end{align}
+کا فوریئر بدل \عددی{\bF(\omega)} درج ذیل ہے۔
+\begin{align}
+\bF(\omega)=\Fourier[f(t)]=V \delta \frac{\sin \frac{\omega \delta}{2}}{\frac{\omega \delta}{2}}
+\end{align}
+اس مثال پر مزید غور کرتے ہیں۔شکل \حوالہ{شکل_فوریئر_مستطیل_کا_بدل}-الف کے تفاعل کو شکل-ب میں \عددی{T} فاصلے کے دورانیے پر دہراتے ہوئے  دوری تفاعل \عددی{f_d(t)} حاصل کیا گیا ہے۔دوری تفاعل \عددی{f_d(t)} کے فوریئر تسلسل کے عددی سر درج ذیل ہیں۔
+\begin{align}
+\kx{c}_n=\frac{V \delta}{T} \frac{\sin\frac{n\omega_0 \delta}{2}}{\frac{n\omega_0 \delta}{2}}
+\end{align}
+شکل \حوالہ{شکل_فوریئر_مستطیل_کا_بدل}-ت میں لکیری طیف دکھائی گئی ہے۔ساتھ ہی ساتھ شکل-پ کی مسلسل طیف بھی موازنے کے  لئے دکھائی گئی ہے۔آپ دیکھ سکتے ہیں کہ  لکیری طیف کا \اصطلاح{غلاف}\فرہنگ{غلاف}\حاشیہب{envelope}\فرہنگ{envelope} مسلسل طیف ہے۔
+\انتہا{مثال}
+%=======================
