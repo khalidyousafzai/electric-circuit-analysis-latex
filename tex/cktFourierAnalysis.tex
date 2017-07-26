@@ -1429,6 +1429,178 @@ V & -\frac{\delta}{2} < t < \frac{\delta}{2}\\
 \begin{align}
 \kx{c}_n=\frac{V \delta}{T} \frac{\sin\frac{n\omega_0 \delta}{2}}{\frac{n\omega_0 \delta}{2}}
 \end{align}
-شکل \حوالہ{شکل_فوریئر_مستطیل_کا_بدل}-ت میں لکیری طیف دکھائی گئی ہے۔ساتھ ہی ساتھ شکل-پ کی مسلسل طیف بھی موازنے کے  لئے دکھائی گئی ہے۔آپ دیکھ سکتے ہیں کہ  لکیری طیف کا \اصطلاح{غلاف}\فرہنگ{غلاف}\حاشیہب{envelope}\فرہنگ{envelope} مسلسل طیف ہے۔
+شکل \حوالہ{شکل_فوریئر_مستطیل_کا_بدل}-ت میں لکیری طیف دکھائی گئی ہے۔آپ دیکھ سکتے ہیں کہ  لکیری طیف کے \اصطلاح{غلاف}\فرہنگ{غلاف}\حاشیہب{envelope}\فرہنگ{envelope} کی شکل اور مسلسل طیف کی شکل بالکل یکساں ہیں۔
+
+اس مثال کے نتائج اور مساوات سے ظاہر ہے کہ \عددی{T \to \infty} کرنے سے دوری تفاعل تبدیل ہو کر غیر دوری تفاعل بن جاتا ہے۔ساتھ ہی ساتھ جیسے جیسے \عددی{T} بڑھتا ہے ویسے ویسے طیفی لکیر قریب ہوتے ہیں اور ان کا حیطہ کم  ہوتا ہے حتٰی کہ آخر کار لکیری طیف مسلسل طیف میں تبدیل ہو جاتا ہے۔چونکہ فوریئر تسلسل مخصوص تعدد پر اشارے کا حیطہ اور زاویائی ہٹاو دیتا ہے لہٰذا فوریئر بدل بھی اشارے کی تعددی معلومات دیتا ہے۔ 
 \انتہا{مثال}
 %=======================
+\ابتدا{مثال}
+اکائی ضرب تفاعل \عددی{\delta(t-a)} اور \عددی{\delta(t)} کا فوریئر بدل حاصل کریں۔
+
+حل:اکائی ضرب تفاعل کا فوریئر بدل تکمل سے حاصل کرتے ہیں۔
+\begin{gather}
+\begin{aligned}
+\bF(\omega)&=\int_0^{\infty} \delta(t-a)e^{-j\omega t} \dif t\\
+&=e^{-j\omega a}
+\end{aligned}
+\end{gather}
+تکمل کو حل میں اکائی ضرب تفاعل کی \اصطلاح{نمونہ بندی}\فرہنگ{نمونہ بندی!خاصیت}\فرہنگ{sampling!property} خاصیت استعمال کی گئی۔ درج بالا میں \عددی{a=0} پر کرنے سے اکائی ضرب تفاعل \عددی{\delta(t)} کا فوریئر بدل ملتا ہے۔
+\begin{align}
+\Fourier[\delta(t)]=1
+\end{align}
+آپ نے دیکھا کہ اکائی ضرب تفاعل \عددی{\delta(t)} کا فوریئر بدل ایک مستقل مقدار ہے جو تعدد کے ساتھ تبدیل نہیں ہوتا۔یہ اکائی ضرب تفاعل کی ایک اہم خصوصیت ہے۔
+ 
+\انتہا{مثال}
+%======================
+\ابتدا{مثال}
+تفاعل \عددی{e^{j\omega_0 t}} کا فوریئر بدل حاصل کریں۔
+
+حل:یہاں اگر \عددی{\bF(\omega)=2\pi \delta(t-t_0)} لیا جائے تب \عددی{f(t)} درج ذیل ہو گا
+\begin{gather}
+\begin{aligned}
+f(t)&=\frac{1}{2\pi}\int_{-\infty}^{\infty} 2\pi \delta(t-t_0)e^{j\omega t}\dif \omega\\
+&=e^{j\omega_0 t}
+\end{aligned}
+\end{gather} 
+جہاں \عددی{\delta(t-t_0)} کی نمونہ بندی کی خاصیت استعمال کی گئی۔یوں \عددی{f(t)=e^{j\omega_0 t}} اور \عددی{\bF(\omega)=2\pi\delta(t-t_0)} فوریئر بدل جوڑی ہیں۔ 
+\انتہا{مثال}
+%=======================
+\ابتدا{مشق}
+تفاعل \عددی{\cos \omega t} کا فوریئر بدل دریافت کریں۔
+
+جواب:\عددی{\bF(\omega)=\pi \delta(\omega-\omega_0)+\pi\delta(\omega+\omega_0)}
+\انتہا{مشق}
+%======================
+چند اہم فوریئر بدل جوڑیوں کو جدول \حوالہ{جدول_فوریئر_بدل_جوڑیاں} میں اکٹھے کیا گیا ہے۔
+\begin{table}
+\caption{فوریئر بدل جوڑیاں۔}
+\label{جدول_فوریئر_بدل_جوڑیاں}
+\centering
+\begin{tabular}{l l}
+$\Fourier(\omega)$ & $f(t)$ \Bstrut \\
+\hline
+$2\pi A \delta(\omega)$&$A$ \Tstrut \\[2ex]
+$1$&$\delta(t)$\\[1ex]
+$e^{-j\omega a}$&$\delta(t-t_0)$\\[1ex]
+ $2\pi \delta(\omega-\omega_0)$ &$e^{j\omega_0 t}$ \\[1ex]
+ $j\pi \delta(\omega+\omega_0)-j\pi\delta(\omega-\omega_0)$ &$\sin \omega_0 t$ \\[1ex]
+ $\pi \delta(\omega-\omega_0)+\pi\delta(\omega+\omega_0)$ &$\cos \omega_0 t$ \\[1ex]
+ $\frac{1}{a+j\omega}$&$e^{-at}u(t), \, a>0$  \\[1ex]
+ $\frac{2a}{a^2+\omega^2}$&$e^{-a\abs{t}}u(t), \, a>0 $  \\[1ex]
+ $\frac{\omega_0}{(j\omega+0)^2+\omega_0^2}$ &$e^{-at} \sin \omega_0 t\, u(t), \, a>0$ \\[1ex]
+ $\frac{j\omega+a}{(j\omega+0)^2+\omega_0^2}$ &$e^{-at} \cos \omega_0 t\, u(t), \, a>0$ 
+\end{tabular}
+\end{table}
+
+%=============
+\حصہ{فوریئر بدل کے خواص}
+فوریئر بدل کے چند مخصوص مسئلوں کو جدول \حوالہ{جدول_فوریئر_بدل_مسئلے} میں پیش کیا گیا ہے۔ان میں سے \اصطلاح{مسئلہ وقتی الجھاو}\فرہنگ{مسئلہ!وقتی الجھاو}\فرہنگ{وقتی الجھاو!مسئلہ}\حاشیہب{time convolution theorem}\فرہنگ{time convolution!theorem}\فرہنگ{theorem!time convolution} کو ثابت کرتے ہیں۔جدول میں دیے بقایا مسئلے بھی انتہائی آسانی سے ثابت کئے جا سکتے ہیں۔
+ 
+تفاعل \عددی{f(t)} کا فوریئر بدل درج ذیل ہے۔
+\begin{align}
+\Fourier[f(t)]=\bF(\omega)=\int_{-\infty}^{\infty}f(t) e^{-j\omega t} \dif t
+\end{align}
+فرض کریں کہ 
+\begin{align*}
+\Fourier[f_1(t)]&=\bF_1(\omega)\\
+\Fourier[f_2(t)]&=\bF_2(\omega)
+\end{align*}
+ہیں تب
+\begin{align*}
+\Fourier\left[\int_{-\infty}^{\infty}f_1(x)f_2(t-x)\dif x\right]&=\int_{t=-\infty}^{\infty}\int_{x=-\infty}^{\infty}f_1(x)f_2(t-x)\dif x  e^{-j\omega t}\dif t\\
+&=\int_{x=-\infty}^{\infty}f_1(x)\int_{t=-\infty}^{\infty}f_2(t-x)  e^{-j\omega t}\dif t \dif x
+\end{align*}
+اب  اگر ہم \عددی{u=t-x} پر کریں  تب درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+\Fourier\left[\int_{-\infty}^{\infty}f_1(x)f_2(t-x)\dif x\right]&=\int_{x=-\infty}^{\infty}f_1(x)\int_{t=-\infty}^{\infty}f_2(u)  e^{-j\omega (u+x)}\dif u \dif x\\
+&=\int_{x=-\infty}^{\infty}f_1(x) e^{-j\omega x}\dif x \int_{t=-\infty}^{\infty}f_2(u)  e^{-j\omega u}\dif u \\
+&=\bF_1(\omega) \bF_2(\omega)
+\end{align*}
+شکل \حوالہ{شکل_فوریئر_وقتی_الجھاو} کو دیکھتے ہوئے مسئلہ وقتی الجھاو کہتا ہے کہ اگر \عددی{\kB{V}_d(\omega)=\Fourier[v_d(t)]}،
+ \عددی{\kB{H}(\omega)=\Fourier[h(t)]} اور \عددی{\kB{V}_0(\omega)=\Fourier[v_0(t)]} ہوں تب
+\begin{align}
+\kB{V}_0(\omega)=\bH(\omega) \kB{V}_d(\omega)
+\end{align}
+ہو گا۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) rectangle ++(\x,\y/2);
+\draw(0,\y/4)--++(-\x/2,0)node[left]{$\kB{V}_d(\omega)$};
+\draw[-latex](\x,\y/4)--++(\x/2,0)node[right]{$\kB{V}_0(\omega)=\bH(\omega) \kB{V}_d(\omega)$};
+\draw(\x/2,\y/4)node{$\bH(\omega)$};
+\end{tikzpicture}
+\caption{وقتی الجھاو۔}
+\label{شکل_فوریئر_وقتی_الجھاو}
+\end{figure}
+%================
+\begin{table}
+\caption{فوریئر بدل کے مسئلے۔}
+\label{جدول_فوریئر_بدل_مسئلے}
+\centering
+\begin{tabular}{l l r}
+$\Fourier(\omega)$ & $f(t)$ & مسئلہ \Bstrut \\ 
+\hline
+$A\bF(\omega) $& $Af(t)$ & خطیت\Tstrut \\ [2ex]
+$\bF_1(\omega)\mp \bF_2(\omega) $& $f_1(t)\mp f_2(t)$&\\[2ex]
+$\frac{1}{a}\bF\left(\frac{\omega}{a}\right), \, a>0 $& $f(at)$ & مسئلہ متناسب وقت\\[2ex]
+$e^{-j\omega t_0} \bF(\omega)$ &$ f(t-t_0)$ & مسئلہ منتقلی وقت\\[2ex]
+$\bF(\omega-\omega_0)$ & $e^{j\omega t_0} f(t)$ & ترمیم تعدد\\[2ex]
+$(j\omega)^n \bF(\omega)$ &$\frac{\dif^{\,n} f(t)}{\dif t^n}$ & \\[2ex]
+$(j)^n \frac{\dif^{\, n} \bF(\omega)}{\dif \omega^n}$&$t^n f(t)$&تفرق\\[2ex]
+$\bF_1(\omega)\bF_2(\omega)$ & $\int_{-\infty}^{\infty} f_1(x) f_2(t-x) \dif x$ & \\[2ex]
+$\frac{1}{2\pi} \int_{-\infty}^{\infty} \bF_1(x)\bF_2(\omega-x) \dif x$&$f_1(t) f_2(t)$&الجھاو  
+\end{tabular}
+\end{table}
+%==================
+
+\ابتدا{مشق}\شناخت{مشق_فوریئر_دور_کا_حل}
+شکل \حوالہ{شکل_فوریئر_دور_کا_حل} میں داخلی دباو \عددی{v_d(t)=e^{-t}u(t)\,\si{\volt}}،  دور کا اکائی ضرب رد عمل \عددی{h(t)=e^{-2t}u(t)} جبکہ ابتدائی معلومات صفر ہیں۔خارجی دباو \عددی{v_0(t)} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) rectangle ++(\x,\y/2);
+\draw(0,\y/4)--++(-\x/2,0)node[left]{$v_d(t)$};
+\draw[-latex](\x,\y/4)--++(\x/2,0)node[right]{$v_0(t)$};
+\draw(\x/2,\y/4)node{$h(t)$};
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_فوریئر_دور_کا_حل} کا دور۔}
+\label{شکل_فوریئر_دور_کا_حل}
+\end{figure}
+
+
+جواب:\عددی{v_0(t)=(e^{-t}-e^{-2t})u(t)\,\si{\volt}}
+\انتہا{مشق}
+%================
+\ابتدا{مشق}\شناخت{مشق_فوریئر_دور_کا_حل_ب}
+شکل \حوالہ{شکل_فوریئر_دور_کا_حل_ب} میں \عددی{v_d(t)=42\cos 3t \,\si{\volt}} ہے۔فوریئر بدل کے طریقے سے \عددی{v_0(t)} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$v_d(t)$}]++(0,\y) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [capacitor,l={$\SI{0.2}{\farad}$}]++(\x,0) to [resistor,l_={$\SI{1}{\ohm}$},v^<={$v_0(t)$}]++(0,-\y) to [short] (0,0);
+\draw (\x,0) to [inductor,*-*,l={$\SI{0.4}{\henry}$}]++(0,\y);
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_فوریئر_دور_کا_حل_ب} کا دور۔}
+\label{شکل_فوریئر_دور_کا_حل_ب}
+\end{figure}
+
+جواب:\عددی{v_0(t)=12.57\cos(10t+86.2^{\circ})\,\si{\volt}}
+\انتہا{مشق}
+%=================
+
+\حصہ{مسئلہ پارسیوال}
+\اصطلاح{مسئلہ پارسیوال}\فرہنگ{مسئلہ!پارسیوال}\حاشیہب{پارسیوال!مسئلہ}\فرہنگ{Parseval's theorem}\فرہنگ{theorem!Parseval} کی الجبرائی صورت درج ذیل ہے۔
+\begin{align}
+\int_{-\infty}^{\infty} f^2(t) \dif t=\frac{1}{2\pi}\int_{-\infty}^{\infty} \abs{\bF(\omega)}^2\dif \omega
+\end{align}
+اس تعلق کو حاصل کرتے ہیں۔
+\begin{align*}
+\int_{-\infty}^{\infty} f^2(t) \dif t&=\int_{-\infty}^{\infty} f(t) \frac{1}{2\pi} \int_{-\infty}^{\infty} \bF(\omega) e^{j\omega t} \dif \omega \dif t\\
+&= \frac{1}{2\pi} \int_{-\infty}^{\infty}\bF(\omega)\int_{-\infty}^{\infty}  f(t) e^{-j(-\omega) t} \dif t \dif \omega \\
+&= \frac{1}{2\pi} \int_{-\infty}^{\infty}\bF(\omega)\bF(-\omega) \dif \omega \\
+&=\frac{1}{2\pi}  \int_{-\infty}^{\infty} \bF(\omega)\bF^*(\omega) \dif \omega \\
+&=\frac{1}{2\pi}  \int_{-\infty}^{\infty} \abs{\bF(\omega)}^2\dif \omega 
+\end{align*}
+فرض کریں کہ \عددی{\SI{1}{\ohm}} کی مزاحمت میں رو \عددی{f(t)} ہے۔یوں مزاحمت میں طاقت \عددی{f^2(t)} اور اس میں توانائی کا ضیاع \عددی{\int f^2(t) \dif t} ہو گا۔مسئلہ پارسیوال کہتا ہے کہ \عددی{\SI{1}{\ohm}} کی مزاحمتی ضیاع کو وقتی دائرہ کار یا تعددی دائرہ کار میں حاصل کیا جا سکتا ہے۔
+%==============
+

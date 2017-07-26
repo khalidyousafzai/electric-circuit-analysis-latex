@@ -59,12 +59,16 @@
 \newcommand*{\Fourier}{\mathcal{F}}   %Fourier transform
 
 \newcommand*{\kB}[1]{{\ensuremath{{\textup{#1}}}}}  %Laplace symbol general use. 
-						%following were used too often so gave them specific symbols
+									%following were used too often so gave them specific symbols
 \newcommand*{\bF}{{\ensuremath{{\textup{F}}}}}    %Fourier transform of 
 \newcommand*{\bP}{{\ensuremath{{\textup{P}}}}}   %Laplace fraction
 \newcommand*{\bQ}{{\ensuremath{{\textup{Q}}}}}  %Laplace fraction
 \newcommand*{\bV}{{\ensuremath{{\textup{V}}}}}  %Laplace Voltage
 \newcommand*{\bI}{{\ensuremath{{\textup{I}}}}}  %Laplace Current
+
+%for vertical spacing in tables use\Tstrut and \Bstrut  
+\newcommand\Tstrut{\rule{0pt}{2.6ex}}       % Top strut
+\newcommand\Bstrut{\rule[-1.2ex]{0pt}{0pt}} % Bottom strut
 
 \definecolor{lgray}{cmyk}{0,0,0,0.2}
 \definecolor{dgray}{cmyk}{0,0,0,0.7}
@@ -117,7 +121,7 @@ every axis x label/.style={
 \graphicspath{{./fig/figFrontPage/}{./fig/figBasicConcepts/}{./fig/figResistive/}{./fig/figNodalLoop/}{./fig/figOpamp/}{./fig/figTheorem/}{./fig/figCapacitorInductor/}{./fig/figTransients/}{./fig/figFreqResponse/}{./fig/figLaplaceTransform/}{./fig/figLaplaceTransformApplication/}{./fig/figFourierAnalysis/}}		%paths to figures
 
 
-%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktTheorems,./tex/cktCapacitorInductor,./tex/cktTransients,./tex/cktSteadyStateAC,./tex/cktSteadyStatePower,./tex/cktMagneticallyCoupledNetworks,./tex/cktPolyphaseCircuits,./tex/cktFrequencyResponse,./tex/cktLaplaceTransform,./tex/cktApplicationLaplace,./tex/cktToDoList}
+%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktTheorems,./tex/cktCapacitorInductor,./tex/cktTransients,./tex/cktSteadyStateAC,./tex/cktSteadyStatePower,./tex/cktMagneticallyCoupledNetworks,./tex/cktPolyphaseCircuits,./tex/cktFrequencyResponse,./tex/cktLaplaceTransform,./tex/cktApplicationLaplace,./tex/cktFourierAnalysis}
 \includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktFourierAnalysis,./tex/cktToDoList}%
 
 
