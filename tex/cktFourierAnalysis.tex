@@ -1518,7 +1518,7 @@ $e^{-j\omega a}$&$\delta(t-t_0)$\\[1ex]
 \end{align*}
 شکل \حوالہ{شکل_فوریئر_وقتی_الجھاو} کو دیکھتے ہوئے مسئلہ وقتی الجھاو کہتا ہے کہ اگر \عددی{\kB{V}_d(\omega)=\Fourier[v_d(t)]}،
  \عددی{\kB{H}(\omega)=\Fourier[h(t)]} اور \عددی{\kB{V}_0(\omega)=\Fourier[v_0(t)]} ہوں تب
-\begin{align}
+\begin{align}\label{مساوات_فوریئر_حل_دور}
 \kB{V}_0(\omega)=\bH(\omega) \kB{V}_d(\omega)
 \end{align}
 ہو گا۔
@@ -1589,7 +1589,7 @@ $\frac{1}{2\pi} \int_{-\infty}^{\infty} \bF_1(x)\bF_2(\omega-x) \dif x$&$f_1(t) 
 %=================
 
 \حصہ{مسئلہ پارسیوال}
-\اصطلاح{مسئلہ پارسیوال}\فرہنگ{مسئلہ!پارسیوال}\حاشیہب{پارسیوال!مسئلہ}\فرہنگ{Parseval's theorem}\فرہنگ{theorem!Parseval} کی الجبرائی صورت درج ذیل ہے۔
+\اصطلاح{مسئلہ پارسیوال}\فرہنگ{مسئلہ!پارسیوال}\حاشیہب{Parseval's theorem}\فرہنگ{Parseval's theorem}\فرہنگ{theorem!Parseval} کی الجبرائی صورت درج ذیل ہے۔
 \begin{align}
 \int_{-\infty}^{\infty} f^2(t) \dif t=\frac{1}{2\pi}\int_{-\infty}^{\infty} \abs{\bF(\omega)}^2\dif \omega
 \end{align}
@@ -1601,6 +1601,289 @@ $\frac{1}{2\pi} \int_{-\infty}^{\infty} \bF_1(x)\bF_2(\omega-x) \dif x$&$f_1(t) 
 &=\frac{1}{2\pi}  \int_{-\infty}^{\infty} \bF(\omega)\bF^*(\omega) \dif \omega \\
 &=\frac{1}{2\pi}  \int_{-\infty}^{\infty} \abs{\bF(\omega)}^2\dif \omega 
 \end{align*}
-فرض کریں کہ \عددی{\SI{1}{\ohm}} کی مزاحمت میں رو \عددی{f(t)} ہے۔یوں مزاحمت میں طاقت \عددی{f^2(t)} اور اس میں توانائی کا ضیاع \عددی{\int f^2(t) \dif t} ہو گا۔مسئلہ پارسیوال کہتا ہے کہ \عددی{\SI{1}{\ohm}} کی مزاحمتی ضیاع کو وقتی دائرہ کار یا تعددی دائرہ کار میں حاصل کیا جا سکتا ہے۔
-%==============
+فرض کریں کہ \عددی{\SI{1}{\ohm}} کی مزاحمت میں رو \عددی{f(t)} ہے۔اس مزاحمت میں طاقت \عددی{f^2(t)} اور توانائی کا ضیاع \عددی{\int f^2(t) \dif t} ہو گا۔مسئلہ پارسیوال کہتا ہے کہ \عددی{\SI{1}{\ohm}} کی مزاحمتی ضیاع یا تقابل پذیر ضیاع کو وقتی دائرہ کار یا تعددی دائرہ کار میں حاصل کیا جا سکتا ہے۔ 
 
+پٹی گزار چھلنی جو \عددی{\omega_1 \le \omega \le \omega_2} کے تعدد گزارتا ہو درج ذیل توانائی گزارے گی۔
+\begin{align}
+W=\int_{-\infty}^{\infty} f^2(t) \dif t&=\frac{1}{2\pi}  \int_{\omega_1}^{\omega_2} \abs{\bF(\omega)}^2\dif \omega 
+\end{align}
+یوں \عددی{\Delta \omega} کی باریک تعددی پٹی میں درج ذیل توانائی پائی جائے گی۔
+\begin{align}
+\Delta W=\frac{1}{2\pi} \abs{\bF(\omega)}^2 \Delta \omega
+\end{align}
+اگرچہ توانائی کو پارسیوال تکمل کے دونوں اطراف سے حاصل کیا جا سکتا ہے، تعددی دائرہ کار میں توانائی کسی مخصوص تعددی پٹی میں بھی حاصل کی جا سکتی ہے۔
+%==============
+\ابتدا{مثال}\شناخت{مثال_فوریئر_مزاحمت_امالہ}
+شکل \حوالہ{شکل_فوریئر_مزاحمت_امالہ} میں \عددی{v_d(t)=10e^{-4t} u(t)\,\si{\volt}} کی صورت میں \عددی{v_0(t)} فوریئر طریقے سے حاصل کریں۔ اسی دور کو فوریئر طریقے سے \عددی{v_d(t)=15\cos 5t\,\si{\volt}} کے لئے بھی حل کریں۔ 
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$v_d(t)$}]++(0,\y) to [resistor,l={$\SI{4}{\ohm}$}]++(\x,0) to [capacitor,l_={$\SI{0.5}{\farad}$},v^<={$v_0(t)$}]++(0,-\y) to [short] (0,0);
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_فوریئر_مزاحمت_امالہ} اور مثال \حوالہ{مثال_فوریئر_مزاحمت_برق_گیر} کا دور۔}
+\label{شکل_فوریئر_مزاحمت_امالہ}
+\end{figure}
+
+حل:داخلی دباو \عددی{v_d(t)} کا فوریئر بدل جدول \حوالہ{جدول_فوریئر_بدل_جوڑیاں} سے لکھتے ہیں۔
+\begin{align*}
+\bV_d(\omega)=\frac{10}{4+j\omega}
+\end{align*}
+دور کا \عددی{\bH(\omega)} درج ذیل ہے۔
+\begin{align*}
+\bH(\omega)=\frac{1}{1+j2\omega}
+\end{align*}
+مساوات \حوالہ{مساوات_فوریئر_حل_دور} کے تحت
+\begin{align*}
+\kB{V}_0(\omega)&=\bH(\omega) \kB{V}_d(\omega)\\
+&=\frac{10}{(1+j2\omega)(4+j\omega)}\\
+&=\frac{10}{7(j\omega+0.5)}-\frac{10}{7(j\omega+4)}
+\end{align*}
+ہو گا۔جدول \حوالہ{جدول_فوریئر_بدل_جوڑیاں} سے الٹ فوریئر بدل لیتے ہوئے درج ذیل حاصل ہوتا ہے۔
+\begin{align*}
+v_0(t)=\frac{10}{7} e^{-0.5t}u(t)-\frac{10}{7}e^{-4t}u(t) \,\si{\volt}
+\end{align*}
+آئیں اب \عددی{v_d(t)=15\cos 5t \,\si{\volt}} کا فوریئر بدل جدول سے لکھیں۔
+\begin{align*}
+\bV_d(\omega)&=15\pi\delta(\omega-5)+15\pi\delta(\omega+5)
+\end{align*}
+خارجی دباو لکھتے ہیں۔
+\begin{align*}
+\bV_0(\omega)&=\bH(\omega)\bV_d(\omega)\\
+&=\frac{15\pi}{1+j2\omega}[\delta(\omega-5)+\delta(\omega+5)]
+\end{align*}
+فوریئر الٹ بدل لیتے ہیں
+\begin{align*}
+v_0(t)&=\frac{1}{2\pi}\int_{-\infty}^{\infty} 15\pi \frac{\delta(\omega-5)+\delta(\omega+5)}{1+j2\omega} e^{j\omega t} \dif \omega\\
+&=7.5 \frac{e^{j5t}}{1+j10}+7.5\frac{e^{-j5t}}{1-j10}\\
+&=\frac{7.5e^{5t}}{\sqrt{101}e^{j84.3^{\circ}}}+\frac{7.5e^{-5t}}{\sqrt{101}e^{-j84.3^{\circ}}}\\
+&=1.493\cos(5t-84.3^{\circ})\,\si{\volt}
+\end{align*}
+جہاں تکمل کو نمونہ بندی کی خاصیت سے حاصل کیا گیا۔
+\انتہا{مثال}
+%================
+\ابتدا{مثال}\شناخت{مثال_فوریئر_مزاحمت_برق_گیر}
+شکل \حوالہ{شکل_فوریئر_مزاحمت_امالہ} میں  \عددی{v_d(t)=10e^{-4t} u(t)\,\si{\volt}} کی صورت میں داخلی اور خارجی تقابل پذیر توانائی دریافت کریں۔
+
+حل:اکائی اوہم داخلی توانائی حاصل کرتے ہیں۔
+\begin{align*}
+W_d&=\int_0^{\infty} f^2(t) \dif t\\
+&=\int_0^{\infty} 100 e^{-8t} \dif t\\
+&=\left. \frac{100e^{-8t}}{-8}\right|_{0}^{\infty}\\
+&=\SI{12.5}{\joule}
+\end{align*}
+خارجی توانائی کو مسئلہ پارسیوال سے حاصل کرتے ہیں۔گزشتہ مثال میں درج ذیل حاصل کیا گیا
+ \begin{align*}
+\kB{V}_0(\omega)&=\frac{10}{(j2\omega+1)(j\omega+4)}
+\end{align*}
+لہٰذا
+\begin{align*}
+\abs{\kB{V}_0}^2&=\frac{100}{(4\omega^2+1)(\omega^2+16)}\\
+&=\frac{100}{63(\omega^2+0.25)}-\frac{100}{63(\omega^2+16)}
+\end{align*}
+ہو گا اور تقابل پذیر خارجی توانائی
+\begin{align*}
+W_d&=\frac{1}{2\pi}\int_{-\infty}^{\infty}\abs{\bV_0(\omega)}^2 \dif \omega\\
+&=\frac{50}{63\pi}\left(\int_{-\infty}^{\infty}\frac{\dif \omega}{\omega^2+0.5^2}-\int_{-\infty}^{\infty}\frac{\dif \omega}{\omega^2+4^2} \right)\\
+&=\frac{50}{63\pi}\left(\left. \frac{1}{0.5}\tan^{-1} \frac{\omega}{0.5} \right|_{-\infty}^{\infty}-\left. \frac{1}{4}\tan^{-1} \frac{\omega}{4} \right|_{-\infty}^{\infty}\right)\\
+&=\frac{50}{63\pi}\left(\frac{\pi}{0.5}-\frac{\pi}{4}\right)\\
+&=\frac{25}{18}\,\si{\joule}
+\end{align*}
+ہو گی۔
+\انتہا{مثال}
+%==============================
+\ابتدا{مثال}
+تفاعل \عددی{f(t)=e^{-at}u(t)} کی اکائی اوہم توانائی دریافت کریں۔وہ  انقطاعی تعدد \عددی{\omega_0} دریافت کریں جس سے کم تعدد کی پٹی میں \عددی{\SI{95}{\percent}} توانائی پائی جاتی ہو۔
+
+حل:اکائی اوہم توانائی حاصل کرتے ہیں۔
+\begin{align*}
+W&=\int_{-\infty}^{\infty} f^2(t)\dif t\\
+&=\int_{-\infty}^{\infty} e^{-2at}u(t) \dif t\\
+&=&=\int_{0}^{\infty} e^{-2at} \dif t\\
+&=\left. \frac{e^{-2at}}{-2a}  \right|_{0}^{\infty}\dif t\\
+&=\frac{1}{2a}
+\end{align*}
+تفاعل کا فوریئر بدل درج ذیل ہے
+\begin{align*}
+\bF(\omega)=\frac{1}{j\omega+a}
+\end{align*}
+لہٰذا 
+\begin{align*}
+\frac{1}{2\pi}\int_{-\infty}^{\infty} \abs{\bF(\omega)}^2 \dif \omega=\frac{1}{2\pi}\int_{-\infty}^{\infty}\frac{\dif \omega}{\omega^2+a^2}  =\frac{1}{2a}
+\end{align*}
+ہو گا۔ درج بالا کو ثابت کیا جا سکتا ہے۔چونکہ \عددی{\bF(\omega)} جفت تفاعل ہے لہٰذا
+\begin{align*}
+\frac{1}{2\pi}\int_{-\infty}^{\infty}\frac{\dif \omega}{\omega^2+a^2}&=\frac{2}{2\pi}\int_{0}^{\infty}\frac{\dif \omega}{\omega^2+a^2}\\
+&=\left. \frac{1}{\pi a} \tan^{-1}\frac{\omega}{a}\right|_{0}^{\infty}\\
+&=\frac{1}{2a}
+\end{align*}
+ہم تعدد \عددی{\omega_0} جاننا چاہتے ہیں جس کے لئے درج ذیل لکھا جا سکتا ہے
+\begin{align*}
+\frac{0.95}{2a}&=\frac{1}{\pi}\int_0^{\omega_0} \frac{\dif \omega}{\omega^2+a^2}\\
+&=\left. \frac{1}{\pi a} \tan^{-1}\frac{\omega}{a} \right|_0^{\omega_0}\\
+&=\frac{1}{\pi a} \tan^{-1} \frac{\omega_0}{a}
+\end{align*}
+جس سے
+\begin{align*}
+\omega_0=\SI{12.706}{\radian}
+\end{align*}
+حاصل ہوتا ہے لہٰذا \عددی{\SI{95}{\percent}} توانائی \عددی{0 \le \omega \le \SI{12.706}{\radian}} کی پٹی میں پائی جاتی ہے۔ 
+\انتہا{مثال}
+%=============================
+\ابتدا{مشق}
+تفاعل \عددی{f(t)=e^{-4t}u(t)} کی اکائی اوہم توانائی وقتی دائرہ کار اور تعددی دائرہ کار میں حاصل کریں۔
+
+جواب:\عددی{\SI{125}{\milli\joule}}
+\انتہا{مشق}
+%===============================
+
+\ابتدا{مشق}
+تفاعل \عددی{f(t)=e^{-4t}u(t)} کی اکائی اوہم توانائی \عددی{0 \le \omega \le \SI{1}{\radian}} کی پٹی میں حاصل کریں۔
+
+جواب:\عددی{\SI{19.49}{\milli\joule}}
+\انتہا{مشق}
+%===============================
+\ابتدا{مشق}\شناخت{مشق_فوریئر_امالی_دور_الف}
+شکل \حوالہ{شکل_فوریئر_امالی_دور_الف} میں \عددی{v_0(t)} کی اکائی اوہم توانائی دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$6e^{-3t} u(t)$}]++(0,\y) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [inductor,l_={$\SI{1}{\henry}$},v^<={$v_0(t)$}]++(0,-\y) to [short] (0,0);
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_فوریئر_امالی_دور_الف} کا دور۔}
+\label{شکل_فوریئر_امالی_دور_الف}
+\end{figure}
+
+جواب:\عددی{W=\SI{3.6}{\joule}}
+\انتہا{مشق}
+%===============================
+\ابتدا{مثال}\شناخت{مثال_فوریئر_نشریات}
+بے تار نشریات میں بلند تعدد \عددی{v_c(t)=A\cos \omega_c t} کے سائن نما سواری پر سمعی اشارہ \عددی{f_s} سوار کیا جاتا ہے۔ سمعی اشارے کی تعدد \عددی{\SI{20}{\hertz} \le f_s \le \SI{20000}{\hertz}} ہوتی ہے جبکہ \عددی{f_c} کی قیمت اس کی نسبت انتہائی زیادہ ہوتی ہے۔سمعی اشارے \عددی{v_s(t)} سے سواری اشارے کا حیطہ ترمیم کرتے ہوئے حیطہ سوار اشارہ حاصل کیا جاتا ہے جس کی الجبرائی صورت درج ذیل ہے۔
+\begin{align}
+v(t)=[A+v_s(t)]\cos(\omega_c t)
+\end{align}
+اینٹینا کے ذریعہ \عددی{v(t)} کو نشر کیا جاتا ہے۔اشارہ حاصل کرنے والا اینٹینا \عددی{v(t)} کا دھندلا نقش  حاصل کرتا ہے جس کا حیطہ نہایت کم لیکن صورت ہوبہو \عددی{v(t)} جیسے ہوتی ہے۔
+
+آئیں سمعی اشارہ \عددی{v_s(t)}
+\begin{align}
+v_s(t)=\cos \omega_s t
+\end{align}
+اور  نشر اشارہ \عددی{v(t)}
+\begin{align}
+v(t)=[1+\cos \omega_s t] \cos \omega_c t
+\end{align}
+کے لکیری طیف حاصل کریں جہاں \عددی{f_s=\SI{1}{\kilo\hertz}}، \عددی{f_c=\SI{1260}{\kilo\hertz}} اور \عددی{A=1} ہیں۔پشاور شہر کے ریڈیو اسٹیشن کی نشریات \عددی{\SI{1260}{\kilo\hertz}} پر ہوتی ہے۔ 
+
+سمعی اشارے کے فوریئر بدل
+\begin{align}\label{مساوات_فوریئر_سمعی_اشارہ}
+\bV_s(\omega)=\Fourier[\cos \omega_s t]=\pi \delta(\omega-\omega_s)+\pi\delta(\omega+\omega_s)
+\end{align}
+کو شکل \حوالہ{شکل_فوریئر_نشریات}-الف میں دکھایا گیا ہے۔نشر اشارے کو درج ذیل لکھتے
+\begin{align*}
+v(t)=[1+v_s(t)]\cos \omega_c t=\cos \omega_c t+v_s(t) \cos \omega_c t
+\end{align*}
+ہیں جس میں \عددی{\cos \omega_c t} کا فوریئر بدل
+\begin{align}
+\Fourier[\cos \omega_c t]=\pi \delta(\omega-\omega_c)+\pi\delta(\omega+\omega_c)
+\end{align}
+ہے جبکہ
+\begin{align*}
+v_s(t)\cos \omega_c t=v_s(t) \frac{e^{j\omega_c t}+e^{-j\omega_c t}}{2}
+\end{align*}
+لکھتے ہوئے  فوریئر بدل کے مسئلہ ترمیم کی مدد سے درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+\Fourier[v_s(t)\cos \omega-c t]=\frac{1}{2}\left[\bV_s(\omega-\omega_c)+\bV_s(\omega+\omega_c)\right]
+\end{align*}
+مساوات \حوالہ{مساوات_فوریئر_سمعی_اشارہ} میں دیے سمعی اشارے کا بدل استعمال کرتے ہوئے یوں درج ذیل لکھا جا سکتا ہے۔
+\begin{multline*}
+\Fourier[v_s(t)\cos \omega_c t]=\frac{\pi}{2}\left[\delta(\omega-\omega_s-\omega_c)+\delta(\omega+\omega_s-\omega_c)\right.\\
+\left.+\delta(\omega-\omega_s+\omega_c)+\delta(\omega+\omega_s+\omega_c)\right]
+\end{multline*}
+ان تمام کو استعمال کرتے ہوئے نشر اشارے کا بدل لکھتے ہیں جسے شکل \حوالہ{شکل_فوریئر_نشریات}-ب میں دکھایا گیا ہے۔
+\begin{multline}
+\bV(\omega)=\frac{\pi}{2}\left[2\delta(\omega-\omega_c)+2\delta(\omega+\omega_c)+\delta(\omega-\omega_s-\omega_c)\right.\\
+\left.+\delta(\omega+\omega_s-\omega_c)+\delta(\omega-\omega_s+\omega_c)+\delta(\omega+\omega_s+\omega_c)\right]
+\end{multline}
+%
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(-2,0)--(2.5,0)node[right]{$f \,(\si{\hertz})$};
+\draw(0,0)--++(0,2.5)node[left]{$\bV_s(\omega)$};
+\draw[-latex](-1.5,0)node[below]{$-1000$}--++(0,1.5);
+\draw[-latex](1.5,0)node[below]{$1000$}--++(0,1.5);
+\draw(0,1.5)--++(-0.1,0)node[left]{$\pi$};
+\end{tikzpicture}
+\caption*{(الف) سمعی اشارے کا لکیری طیف۔}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(-5,0)--(5.5,0)node[right]{$f \,(\si{\kilo\hertz})$};
+\draw(0,0)--++(0,2.5)node[left]{$\bV(\omega)$};
+\draw[-latex](-3,0)node[below]{$-1260$}--++(0,1.5);
+\draw[-latex](-4.5,0)node[below]{$-1261$}--++(0,0.75);
+\draw[-latex](-1.5,0)node[below]{$-1259$}--++(0,0.75);
+\draw[-latex](3,0)node[below]{$1260$}--++(0,1.5);
+\draw[-latex](4.5,0)node[below]{$1261$}--++(0,0.75);
+\draw[-latex](1.5,0)node[below]{$1259$}--++(0,0.75);
+\draw(0,1.5)--++(-0.1,0)node[left]{$\pi$};
+\draw(0,0.75)--++(-0.1,0)node[left]{$\frac{\pi}{2}$};
+\end{tikzpicture}
+\caption*{(ب) نشر اشارے کا لکیری طیف۔}
+\end{subfigure}%
+\caption{مثال \حوالہ{مثال_فوریئر_نشریات} کے لکیری طیف۔}
+\label{شکل_فوریئر_نشریات}
+\end{figure}
+\انتہا{مثال}
+%=================================
+\ابتدا{مشق}\شناخت{مشق_فوریئر_انورٹر}
+انجنیئرنگ کی ڈگری لینے کے بعد میری پہلی ذمہ داری سائن نما \اصطلاح{انورٹر}\فرہنگ{انورٹر}\حاشیہب{inverter}\فرہنگ{inverter} کی تخلیق\حاشیہد{میں نے کام کا آغاز اسلام آباد کے نجی ادارے \تحریر{rwr} (موجودہ نام) سے کیا جہاں میں نے سائن نما انورٹر پر ہی انجنیئرنگ تخلیق سیکھی۔} تھی۔انورٹر یک سمتی دباو کو بدلتے دباو میں تبدیل کرتا ہے۔غیر سائن نما انورٹر مستطیلی دباو پیدا کرتا ہے جس کو شکل \حوالہ{شکل_فوریئر_انورٹر} میں دکھایا گیا ہے۔آئیں اس پر غور کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{axis}[xlabel={$t$},ylabel={$v(t)$},ylabel style={rotate=-90},ytick={-1,1},yticklabels={$-V_0$,$V_0$},xtick={-1.5,-0.75,0,0.75,1.5},xticklabels={$-\frac{T}{2}$,$-\frac{T}{4}$,$0$,$\frac{T}{4}$,$\frac{T}{2}$}]
+\addplot[] plot coordinates{(-2.5,0)(-2,0)(-2,-1)(-1,-1)(-1,0)(-0.5,0)(-0.5,1) (0.5,1)(0.5,0)(1,0)(1,-1)(2,-1)(2,0) (2.5,0)(2.5,1)(3.5,1)(3.5,0)(4,0)};
+\addplot[stealth-stealth] plot coordinates {(-0.5,0.5) (0.5,0.5)}node[pos=0.5,above]{$2\delta$};
+\addplot[stealth-stealth] plot coordinates {(1,-0.5) (2,-0.5)}node[pos=0.5,above]{$2\delta$};
+\end{axis}
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_فوریئر_انورٹر} کے انورٹر کا مستطیلی دباو۔}
+\label{شکل_فوریئر_انورٹر}
+\end{figure}    
+
+شکل میں دکھائے گئے دباو کی اوسط قیمت صفر ہے لہٰذا \عددی{a_0=0} ہو گا۔ساتھ ہی چونکہ دباو جفت ہے لہٰذا \عددی{b_n=0} ہوں گے۔آئیں \عددی{a_n} دریافت کریں۔
+\begin{align*}
+a_n&=\frac{4}{T}\int_0^{\frac{T}{2}} v(t)\cos (n\omega_0 t)\dif t\\
+&=\frac{4}{T}\left[\int_0^{\delta} V_0\cos(n\omega_0 t) \dif t-\int_{\frac{T}{2}-\delta}^{\frac{T}{2}}V_0 \cos(n\omega_0 t)\dif t\right]\\
+&=\frac{4V_0}{T}\left. \frac{\sin(n\omega_0 t)}{n\omega_0}\right|_{0}^{\delta}-\frac{4V_0}{T}\left. \frac{\sin(n\omega_0 t)}{n\omega_0}\right|_{\frac{T}{2}-\delta}^{\frac{T}{2}}\\
+&=\frac{4V_0}{n\omega_0 T}\sin(n\omega_0 \delta)-\frac{4V_0}{n\omega_0 T}\sin\left(n\omega_0 \frac{T}{2}\right)+\frac{4V_0}{n\omega_0 T}\sin[n\omega_0 (\frac{T}{2}-\delta)]
+\end{align*}
+اس میں \عددی{\omega_0=\tfrac{2\pi}{T}} پر کرتے ہیں۔
+\begin{align*}
+a_n&=\frac{4V_0}{n\frac{2\pi}{T} T}\sin(n\frac{2\pi}{T}\delta)-\frac{4V_0}{n\frac{2\pi}{T} T}\sin\left(n\frac{2\pi}{T} \frac{T}{2}\right)+\frac{4V_0}{n\frac{2\pi}{T} T}\sin[n\frac{2\pi}{T} (\frac{T}{2}-\delta)]\\
+&=\frac{2V_0}{n\pi}\sin(n\frac{2\pi}{T}\delta)-\frac{2V_0}{n\pi}\sin n\pi+\frac{2V_0}{n\pi}\sin[n\frac{2\pi}{T} (\frac{T}{2}-\delta)]\\
+&=\frac{2V_0}{n\pi}\sin\left(\frac{2n\pi\delta}{T}\right)+\frac{2V_0}{n\pi}\sin\left(n\pi-\frac{2n\pi\delta}{T}\right)
+\end{align*}
+یہاں دائیں ہاتھ پر \عددی{\sin(\alpha-\beta)=\sin \alpha\cos \beta-\cos\alpha\sin\beta} استعمال کرتے ہیں۔
+\begin{align*}
+a_n&=\frac{2V_0}{n\pi}\sin\left(\frac{2n\pi\delta}{T}\right)+\frac{2V_0}{n\pi}\left[\sin n\pi \cos(\frac{2n\pi\delta}{T})-\cos n\pi \sin(\frac{2n\pi\delta}{T})\right]\\
+&=\frac{2V_0}{n\pi}\sin\left(\frac{2n\pi\delta}{T}\right)-\frac{2V_0}{n\pi}\cos n\pi \sin(\frac{2n\pi\delta}{T})\\
+&=\frac{2V_0}{n\pi}\sin\left(\frac{2n\pi\delta}{T}\right)(1-\cos n\pi)
+\end{align*}
+اس مساوات میں \عددی{n=1,2,3,\cdots} پر کرتے ہوئے چند عددی سر لکھتے ہیں۔
+\begin{align*}
+a_1&=\frac{4V_0}{\pi}\sin\frac{2\pi\delta}{T}\\
+a_2&=0\\
+a_3&=\frac{4V_0}{3\pi}\sin\frac{6\pi\delta}{T}\\
+a_4&=0\\
+a_5&=\frac{4V_0}{5\pi}\sin\frac{10\pi\delta}{T}
+\end{align*}
+ہم درج بالا عددی سر کی معلومات استعمال کرتے ہوئے \عددی{\delta} یوں رکھ سکتے ہیں کہ مخصوص عددی سر صفر کے برابر ہو جائے مثلاً \عددی{\delta=\tfrac{T}{3}} رکھتے ہوئے
+\begin{align*}
+a_3=\frac{4V_0}{3\pi}\sin\frac{6\pi \frac{T}{3}}{T}=0
+\end{align*}
+حاصل ہوتا ہے۔
+\انتہا{مشق}
+%==================================

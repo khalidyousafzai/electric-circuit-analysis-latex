@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  26 JUL 2017 18:34
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  27 JUL 2017 17:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3281,27 +3281,34 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-Missing character: There is no پ in font [lmroman8-regular]:mapping=tex-text!
-Missing character: There is no ا in font [lmroman8-regular]:mapping=tex-text!
-Missing character: There is no ر in font [lmroman8-regular]:mapping=tex-text!
-Missing character: There is no س in font [lmroman8-regular]:mapping=tex-text!
-Missing character: There is no ی in font [lmroman8-regular]:mapping=tex-text!
-Missing character: There is no و in font [lmroman8-regular]:mapping=tex-text!
-Missing character: There is no ا in font [lmroman8-regular]:mapping=tex-text!
-Missing character: There is no ل in font [lmroman8-regular]:mapping=tex-text!
-Missing character: There is no م in font [lmroman8-regular]:mapping=tex-text!
-Missing character: There is no س in font [lmroman8-regular]:mapping=tex-text!
-Missing character: There is no ئ in font [lmroman8-regular]:mapping=tex-text!
-Missing character: There is no ل in font [lmroman8-regular]:mapping=tex-text!
-Missing character: There is no ہ in font [lmroman8-regular]:mapping=tex-text!
-[809]) [810] (./circuitAnalysis.aux (./tex/cktBasics.aux)
-(./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
-(./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
-(./tex/cktTransients.aux) (./tex/cktSteadyStateAC.aux)
-(./tex/cktSteadyStatePower.aux) (./tex/cktMagneticallyCoupledNetworks.aux)
-(./tex/cktPolyphaseCircuits.aux) (./tex/cktFrequencyResponse.aux)
-(./tex/cktLaplaceTransform.aux) (./tex/cktApplicationLaplace.aux)
-(./tex/cktFourierAnalysis.aux))
+[809]
+Overfull \hbox (5.96794pt too wide) in paragraph at lines 1603--1605
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 فرض کریں کہ  $[] []$  کی مزاحمت میں رو  $
+\OML/zplm/m/it/10 f\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$  \E
+U1/JameelNooriNastaleeq(1)/m/n/10 ہے۔اس مزاحمت میں طاقت  $\OML/zplm/m/it/10 f[]
+\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$  \EU1/JameelNooriNasta
+leeq(1)/m/n/10 اور توانائی کا ضیاع  $[] \OML/zplm/m/it/10 f[]\OT1/zplm/m/n/10 (
+\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) [] \OML/zplm/m/it/10 t$[]
+ []
+
+[810] [811] [812] [813] [814]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [815] [816] [817] [818]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [819])
+[820] (./circuitAnalysis.aux (./tex/cktBasics.aux) (./tex/cktResistive.aux)
+(./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux) (./tex/cktTheorems.aux)
+(./tex/cktCapacitorInductor.aux) (./tex/cktTransients.aux)
+(./tex/cktSteadyStateAC.aux) (./tex/cktSteadyStatePower.aux)
+(./tex/cktMagneticallyCoupledNetworks.aux) (./tex/cktPolyphaseCircuits.aux)
+(./tex/cktFrequencyResponse.aux) (./tex/cktLaplaceTransform.aux)
+(./tex/cktApplicationLaplace.aux) (./tex/cktFourierAnalysis.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.75237pt have occurred.
@@ -3311,12 +3318,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 48016 strings out of 493918
- 1144615 string characters out of 6150562
- 1376008 words of memory out of 5000000
- 50330 multiletter control sequences out of 15000+600000
+ 48191 strings out of 493918
+ 1148838 string characters out of 6150562
+ 1376322 words of memory out of 5000000
+ 50505 multiletter control sequences out of 15000+600000
  53113 words of font info for 191 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,19n,86p,10476b,2899s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (60 pages).
+Output written on circuitAnalysis.pdf (70 pages).
