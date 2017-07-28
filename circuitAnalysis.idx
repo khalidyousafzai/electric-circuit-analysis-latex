@@ -1,79 +1,15 @@
-\indexentry{time period}{\RL {\arabicfont  757}}
-\indexentry{دوری عرصہ}{\RL {\arabicfont  757}}
-\indexentry{periodic!function}{\RL {\arabicfont  757}}
-\indexentry{تفاعل!دوری}{\RL {\arabicfont  757}}
-\indexentry{دوری!تفاعل}{\RL {\arabicfont  757}}
-\indexentry{\si {\hertz }}{\RL {\arabicfont  757}}
-\indexentry{Hertz}{\RL {\arabicfont  757}}
-\indexentry{ہرٹز}{\RL {\arabicfont  757}}
-\indexentry{تعدد}{\RL {\arabicfont  757}}
-\indexentry{تعدد!زاویائی}{\RL {\arabicfont  757}}
-\indexentry{زاویائی تعدد}{\RL {\arabicfont  757}}
-\indexentry{periodic!wave}{\RL {\arabicfont  757}}
-\indexentry{موج!دوری}{\RL {\arabicfont  757}}
-\indexentry{دوری!موج}{\RL {\arabicfont  757}}
-\indexentry{Fourier series!trignometric}{\RL {\arabicfont  758}}
-\indexentry{تسلسل!فوریئر}{\RL {\arabicfont  758}}
-\indexentry{فوریئر تسلسل!تکونیاتی}{\RL {\arabicfont  758}}
-\indexentry{coefficients}{\RL {\arabicfont  758}}
-\indexentry{عددی سر}{\RL {\arabicfont  758}}
-\indexentry{harmonic!second}{\RL {\arabicfont  758}}
-\indexentry{ہارمونی!دوسرا رکن}{\RL {\arabicfont  758}}
-\indexentry{دوسرا ہارمونی رکن}{\RL {\arabicfont  758}}
-\indexentry{fundamental component}{\RL {\arabicfont  758}}
-\indexentry{ہارمونی!بنیادی رکن}{\RL {\arabicfont  758}}
-\indexentry{بنیادی رکن}{\RL {\arabicfont  758}}
-\indexentry{scalar product}{\RL {\arabicfont  760}}
-\indexentry{ضرب!غیر سمتی}{\RL {\arabicfont  760}}
-\indexentry{غیر سمتی ضرب}{\RL {\arabicfont  760}}
-\indexentry{dot product}{\RL {\arabicfont  760}}
-\indexentry{ضرب!نقطہ}{\RL {\arabicfont  760}}
-\indexentry{نقطہ ضرب}{\RL {\arabicfont  760}}
-\indexentry{orthogonal}{\RL {\arabicfont  760}}
-\indexentry{عمودی}{\RL {\arabicfont  760}}
-\indexentry{غیر سمتی}{\RL {\arabicfont  760}}
-\indexentry{scalar}{\RL {\arabicfont  760}}
-\indexentry{norm}{\RL {\arabicfont  761}}
-\indexentry{معیار}{\RL {\arabicfont  761}}
-\indexentry{saw tooth}{\RL {\arabicfont  768}}
-\indexentry{موج!دندان}{\RL {\arabicfont  768}}
-\indexentry{دندان موج}{\RL {\arabicfont  768}}
-\indexentry{فوریئر تسلسل!تکونیاتی}{\RL {\arabicfont  778}}
-\indexentry{Fourier series!exponential}{\RL {\arabicfont  779}}
-\indexentry{فوریئر تسلسل!قوت نمائی}{\RL {\arabicfont  779}}
-\indexentry{قوت نمائی فوریئر تسلسل}{\RL {\arabicfont  779}}
-\indexentry{amplitude!spectrum}{\RL {\arabicfont  790}}
-\indexentry{spectrum!amplitude}{\RL {\arabicfont  790}}
-\indexentry{طیف!مقداری}{\RL {\arabicfont  790}}
-\indexentry{مقداری!طیف}{\RL {\arabicfont  790}}
-\indexentry{spectrum!phase}{\RL {\arabicfont  790}}
-\indexentry{phase!spectrum}{\RL {\arabicfont  790}}
-\indexentry{طیف!زاویائی ہٹاو}{\RL {\arabicfont  790}}
-\indexentry{زاویائی ہٹاو!طیف}{\RL {\arabicfont  790}}
-\indexentry{spectrum!discrete line}{\RL {\arabicfont  790}}
-\indexentry{discrete line spectra}{\RL {\arabicfont  790}}
-\indexentry{طیف!انفرادی لکیری}{\RL {\arabicfont  790}}
-\indexentry{انفرادی لکیری طیف}{\RL {\arabicfont  790}}
-\indexentry{aperiodic}{\RL {\arabicfont  800}}
-\indexentry{دوری!غیر}{\RL {\arabicfont  800}}
-\indexentry{غیر دوری}{\RL {\arabicfont  800}}
-\indexentry{Fourier transform}{\RL {\arabicfont  802}}
-\indexentry{بدل!فوریئر}{\RL {\arabicfont  802}}
-\indexentry{فوریئر بدل}{\RL {\arabicfont  802}}
-\indexentry{Fourier!transform}{\RL {\arabicfont  803}}
-\indexentry{فوریئر!بدل}{\RL {\arabicfont  803}}
-\indexentry{Fourier!inverse transform}{\RL {\arabicfont  803}}
-\indexentry{فوریئر!الٹ بدل}{\RL {\arabicfont  803}}
-\indexentry{envelope}{\RL {\arabicfont  805}}
-\indexentry{غلاف}{\RL {\arabicfont  805}}
-\indexentry{sampling!property}{\RL {\arabicfont  806}}
-\indexentry{نمونہ بندی!خاصیت}{\RL {\arabicfont  806}}
-\indexentry{theorem!time convolution}{\RL {\arabicfont  807}}
-\indexentry{time convolution!theorem}{\RL {\arabicfont  807}}
-\indexentry{وقتی الجھاو!مسئلہ}{\RL {\arabicfont  807}}
-\indexentry{مسئلہ!وقتی الجھاو}{\RL {\arabicfont  807}}
-\indexentry{theorem!Parseval}{\RL {\arabicfont  810}}
-\indexentry{Parseval's theorem}{\RL {\arabicfont  810}}
-\indexentry{مسئلہ!پارسیوال}{\RL {\arabicfont  810}}
-\indexentry{inverter}{\RL {\arabicfont  817}}
-\indexentry{انورٹر}{\RL {\arabicfont  817}}
+\indexentry{admittance,short-circuit input}{\RL {\arabicfont  824}}
+\indexentry{داخلی فراوانی!قصر دور}{\RL {\arabicfont  824}}
+\indexentry{قصر دور!داخلی فراوانی}{\RL {\arabicfont  824}}
+\indexentry{output admittance!short-circuit}{\RL {\arabicfont  824}}
+\indexentry{transadmittance!short-circuit}{\RL {\arabicfont  824}}
+\indexentry{قصر دور!فراوانی نما}{\RL {\arabicfont  824}}
+\indexentry{open circuit!input impedance}{\RL {\arabicfont  829}}
+\indexentry{داخلی رکاوٹ!کھلے سر}{\RL {\arabicfont  829}}
+\indexentry{کھلے سر!داخلی رکاوٹ}{\RL {\arabicfont  829}}
+\indexentry{output impedance!open-circuit}{\RL {\arabicfont  829}}
+\indexentry{کھلے سر!خارجی رکاوٹ}{\RL {\arabicfont  829}}
+\indexentry{خارجی رکاوٹ!کھلے سر}{\RL {\arabicfont  829}}
+\indexentry{transimpedance!open-circuit}{\RL {\arabicfont  829}}
+\indexentry{رکاوٹ نما!کھلے سر}{\RL {\arabicfont  829}}
+\indexentry{کھلے سر!رکاوٹ نما}{\RL {\arabicfont  829}}

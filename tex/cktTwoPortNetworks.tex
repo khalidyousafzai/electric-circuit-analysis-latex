@@ -1,0 +1,259 @@
+\باب{ریاضی نمونے}
+
+حصہ{فراوانی نمونہ}
+شکل \حوالہ{شکل_نمونہ_ڈبہ_دور} میں دو جوڑی سروں والا ڈبہ دور دکھایا گیا ہے۔دور کے داخلی سروں کو بائیں ہاتھ اور خارجی سروں کو دائیں ہاتھ دکھایا جاتا ہے لہٰذا \عددی{AB} داخلی اور \عددی{CD} خارجی سرے ہیں۔داخلی اور خارجی سروں پر دباو کے قطب اور رو کی سمتیں دکھائی گئی ہیں۔یوں نچلے سروں کو حوالہ سرا لیا جاتا ہے اور دونوں اطراف سے ڈبے میں رو داخل ہوتی ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) rectangle ++(\xx,\yy);
+\draw(0,\yy-\yy/8) to [short,-o,i<_={$\bI_1$}]++(-\xx/2,0)node[left]{$A$};
+\draw(0,\yy/8) to [short,-o]++(-\xx/2,0)node[left]{$B$};
+\draw(\xx,\yy-\yy/8) to [short,-o,i<^={$\bI_2$}]++(\xx/2,0)node[right]{$C$};
+\draw(\xx,\yy/8) to [short,-o]++(\xx/2,0)node[right]{$D$};
+\draw(\xx/2,\yy/2) node{خطی دور};
+\draw(-\xx/2,\yy/2)node{$\begin{aligned} &+ \\ &\bV_1 \\ &- \end{aligned}$};
+\draw(\xx+\xx/2,\yy/2)node{$\begin{aligned} &+ \\ &\bV_2 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption{دو جوڑی سروں والا ڈبہ دور۔}
+\label{شکل_نمونہ_ڈبہ_دور}
+\end{figure}
+
+ داخلی متغیرات مثلا \عددی{\bI_1} اور \عددی{\bV_1} کو زیر نوشت میں \عددی{1} سے ظاہر کیا جاتا ہے  جبکہ خارجی متغیرات کو زیر نوشت میں \عددی{2} سے ظاہر کیا جاتا ہے۔ڈبہ دور خطی دور ہے جس میں غیر تابع منبع نہیں پائے جاتے لہٰذا \عددی{\bI_1} اور \عددی{\bI_2} حاصل کرتے ہوئے مسئلہ نفاذ استعمال کیا جا سکتا ہے۔ یوں \عددی{\bV_1} اور \عددی{\bV_2} سے پیدا داخلی جانب رو کا مجموعہ \عددی{\bI_1} ہو گا اور اسی طرح خارجی جانب دونوں اطراف کے دباو سے پیدا رو کا مجموعہ \عددی{\bI_2} ہو گا یعنی
+\begin{gather}
+\begin{aligned}\label{مساوات_نمونہ_الف}
+\bI_1&=y_{11}\bV_1+y_{12}\bV_2\\
+\bI_2&=y_{21}\bV_1+y_{22}\bV_2
+\end{aligned}
+\end{gather}  
+جہاں \عددی{y_{11}}، \عددی{y_{12}} وغیرہ مستقل ہیں جنہیں سیمنز \عددی{\si{\siemens}} میں ناپا جاتا ہے۔ان مساوات کو قالب کی شکل میں لکھتے ہیں۔\عددی{y_{11}}، \عددی{y_{12}}، \عددی{y_{21}} اور \عددی{y_{22}} کو \عددی{Y} مقدار کہتے ہیں۔اگر \عددی{Y} کی قیمتیں معلوم ہوں تب ڈبہ دور کی خارجی بالمقابل داخلی تعلقات مکمل طور پر تعین کی جا سکتی ہیں۔ 
+\begin{align}\label{مساوات_نمونہ_ب}
+\begin{bmatrix}
+\bI_1 \\
+\bI_2
+\end{bmatrix}
+=
+\begin{bmatrix}
+y_{11} & y_{12}\\
+y_{21} & y_{22}
+\end{bmatrix}
+\begin{bmatrix}
+\bV_1\\
+\bV_2
+\end{bmatrix}
+\end{align}
+
+مساوات \حوالہ{مساوات_نمونہ_الف} میں خارجی سروں کو قصر دور کرنے سے \عددی{\bV_2=0} ہو گا اور یوں \عددی{y_{11}} کو درج ذیل لکھا جا سکتا ہے۔
+\begin{align}
+y_{11}=\left. \frac{\bI_1}{\bV_1} \right|_{\bV_2=0}
+\end{align}
+\عددی{y_{11}} کو \اصطلاح{قصر دور داخلی فراوانی}\فرہنگ{قصر دور!داخلی فراوانی}\فرہنگ{داخلی فراوانی!قصر دور}\حاشیہب{short-circuit input admittance}\فرہنگ{admittance,short-circuit input} کہتے ہیں۔بقایا مقدار بھی اسی طرح حاصل کیے جا سکتے ہیں۔
+\begin{gather}
+\begin{aligned}
+y_{12}&=\left. \frac{\bI_1}{\bV_2} \right|_{\bV_1=0}\\
+y_{21}&=\left. \frac{\bI_2}{\bV_1} \right|_{\bV_2=0}\\
+y_{22}&=\left. \frac{\bI_2}{\bV_2} \right|_{\bV_1=0}
+\end{aligned}
+\end{gather}
+\عددی{y_{12}} اور \عددی{y_{21}} کو \اصطلاح{قصر دور فراوانی نما}\فرہنگ{قصر دور!فراوانی نما}\حاشیہب{short-circuit transadmittance}\فرہنگ{transadmittance!short-circuit} کہا جاتا ہے جبکہ \عددی{y_{22}} کو \اصطلاح{قصر دور خارجی فراوانی}\حاشیہب{short-circuit output admittance}\فرہنگ{output admittance!short-circuit} کہتے ہیں۔درج بالا مساوات کو استعمال کرتے ہوئے کسی بھی نامعلوم دور کے \عددی{Y} مقدار تجرباتی طور ناپے جا سکتا ہیں۔ 
+%================
+\ابتدا{مثال}\شناخت{مثال_نمونہ_مزاحمتی_دور_الف}
+شکل \حوالہ{شکل_نمونہ_مزاحمتی_دور_الف} میں دور دکھایا گیا ہے۔اس کے \عددی{Y} مقدار دریافت کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,o-,i={$\bI_1$}]++(\x,0) to [resistor,l={$\SI{4}{\ohm}$}]++(\x,0) to [short,,i<={$\bI_2$},-o]++(\x/2,0);
+\draw(0,-\y) to [short,o-o]++(2*\x+\x/2,0);
+\draw(\x,0) to [resistor,*-*,l={$\SI{2}{\ohm}$}]++(0,-\y);
+\draw(0,-\y/2)node{$\begin{aligned}  &+ \\ &\bV_1 \\ &- \end{aligned}$};
+\draw(2*\x+\x/2,-\y/2)node{$\begin{aligned}  &+ \\ &\bV_2 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,o-,i={$\bI_1$}]++(\x,0) to [resistor,l={$\SI{4}{\ohm}$}]++(\x,0) to[short,i<={$\bI_2$}]++(\x/4,0)to  [short]++(0,-\y);
+\draw(0,-\y) to [short,o-]++(2*\x+\x/4,0);
+\draw(\x,0) to [resistor,*-*,l={$\SI{2}{\ohm}$}]++(0,-\y);
+\draw(0,-\y/2)node{$\begin{aligned}  &+ \\ &\bV_1 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,i={$\bI_1$}]++(\x,0) to [resistor,l={$\SI{4}{\ohm}$}]++(\x,0) to [short,,i<={$\bI_2$},-o]++(\x/2,0);
+\draw(0,-\y) to [short,-o]++(2*\x+\x/2,0);
+\draw(\x,0) to [resistor,*-*,l={$\SI{2}{\ohm}$}]++(0,-\y);
+\draw(0,0) --++(0,-\y);
+\draw(2*\x+\x/2,-\y/2)node{$\begin{aligned}  &+ \\ &\bV_2 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,o-,i={$\bI_1$}]++(\x,0) to [resistor,l={$\SI{4}{\ohm}$}]++(\x,0) to [short,,i<={$\bI_2$},-o]++(\x/2,0);
+\draw(0,-\y) to [short,o-o]++(2*\x+\x/2,0);
+\draw(\x,0) to [resistor,*-*,l={$\SI{2}{\ohm}$}]++(0,-\y);
+\draw(0,-\y) to [short,o-]++(-\x/2,0) to [american current source,l={$\SI{2}{\ampere}$}]++(0,\y) to [short,-o]++(\x/2,0);
+\draw(2*\x+\x/2,0) to [short,o-]++(\x/2,0)  to [resistor,l={$\SI{3}{\ohm}$}]++(0,-\y) to [short,-o]++(-\x/2,0);
+\draw(0,-\y/2)node{$\begin{aligned}  &+ \\ &\bV_1 \\ &- \end{aligned}$};
+\draw(2*\x+\x/2,-\y/2)node{$\begin{aligned}  &+ \\ &\bV_2 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption*{(ت)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_نمونہ_مزاحمتی_دور_الف} کا دور۔}
+\label{شکل_نمونہ_مزاحمتی_دور_الف}
+\end{figure}
+
+حل:\عددی{y_{11}} حاصل کرنے کی خاطر خارجی سروں کو قصر دور کرتے ہوئے داخلی جانب \عددی{\bV_1} مسلط کرتے ہیں۔شکل-ب میں ایسا دکھایا گیا ہے جہاں سے 
+\begin{align*}
+\bI_1&=\frac{\bV_1}{\frac{2\times 4}{2+4}}=\frac{3}{4} \bV_1
+\end{align*}
+لکھتے ہوئے
+\begin{align*}
+y_{11}&=\left. \frac{\bI_1}{\bV_1}\right|_{\bV_2=0}=\frac{3}{4}\, \si{\siemens}
+\end{align*}
+حاصل ہوتا ہے۔شکل-ب سے \عددی{y_{21}} بھی حاصل کیا جا سکتا ہے۔دور کو دیکھ کر درج ذیل لکھا جا سکتا ہے
+\begin{align*}
+\bI_2=-\frac{\bV_1}{4}
+\end{align*}
+لہٰذا
+\begin{align*}
+y_{21}=\left. \frac{\bI_2}{\bV_1}\right|_{\bV_2=0}=-\frac{1}{4}\,\si{\siemens}
+\end{align*}
+ہو گا۔
+
+
+\عددی{y_{12}} حاصل کرنے کی خاطر داخلی سروں کو قصر دور کرتے ہوئے شکل-پ حاصل ہوتا ہے جس میں \عددی{\SI{2}{\ohm}} کے مزاحمت کو ہٹایا جا سکتا ہے۔اس دور سے درج ذیل لکھا جا سکتا ہے
+\begin{align*}
+\bI_1=-\frac{\bV_2}{4}
+\end{align*} 
+لہٰذا
+\begin{align*}
+y_{12}=\left.\frac{\bV_2}{\bI_1} \right|_{\bV_1=0}=-\frac{1}{4}\,\si{\siemens}
+\end{align*}
+ہو گا۔شکل-پ سے درج ذیل
+\begin{align*}
+\bI_2=\frac{\bV_2}{4}
+\end{align*}
+ لکھتے ہوئے
+\begin{align*}
+y_{22}=\left.\frac{\bI_2}{\bV_2} \right|_{\bV_1=0}=\frac{1}{4} \, \si{\siemens}
+\end{align*}
+حاصل ہوتا ہے۔
+
+ان معلومات کو استعمال کرتے ہوئے مساوات \حوالہ{مساوات_نمونہ_الف} لکھتے ہیں
+\begin{gather}
+\begin{aligned}\label{مساوات_نمونہ_مثال_الف}
+\bI_1&=\frac{3}{4}\bV_1-\frac{1}{4}\bV_2\\
+\bI_2&=-\frac{1}{4}\bV_1+\frac{1}{4}\bV_2
+\end{aligned}
+\end{gather}
+جنہیں قالب کی شکل میں لکھتے ہیں جو اس دور کو مکمل طور ظاہر کرتی ہے۔
+\begin{align*}
+\begin{bmatrix}
+\bI_1\\
+\bI_2
+\end{bmatrix}
+=
+\begin{bmatrix}
+\frac{3}{4} & -\frac{1}{4}\\
+-\frac{1}{4} & \frac{1}{4}
+\end{bmatrix}
+\begin{bmatrix}
+\bV_1\\
+\bV_2
+\end{bmatrix}
+\end{align*}
+
+اس مثال کو مکمل کرنے کی غرض سے  شکل \حوالہ{شکل_نمونہ_مزاحمتی_دور_الف}-الف کے داخلی جانب منبع رو اور خارجی جانب \عددی{\SI{3}{\ohm}} نسب کرتے ہوئے حل کرتے ہیں۔شکل-ت میں اسے دکھایا گیا ہے جہاں
+\begin{align*}
+\bI_1&=\SI{2}{\ampere}\\
+\bV_2&=-3\bI_2
+\end{align*}
+ہیں۔انہیں مساوات \حوالہ{مساوات_نمونہ_مثال_الف} میں پر کرتے ہوئے 
+\begin{align*}
+\begin{bmatrix}
+\frac{3}{4} & -\frac{1}{4}\\
+-\frac{1}{4}& \frac{1}{3}+\frac{1}{4}
+\end{bmatrix}
+\begin{bmatrix}
+\bV_1\\
+\bV_2
+\end{bmatrix}
+=
+\begin{bmatrix}
+2\\
+0
+\end{bmatrix}
+\end{align*}
+ملتا ہے جو عین کرخوف مساوات جوڑ ہیں۔ان سے 
+\begin{align*}
+\bV_1&=\frac{28}{9}\, \si{\volt}\\
+\bV_2&=\frac{4}{3} \, \si{\volt}
+\end{align*}
+حاصل ہوتا ہے۔ 
+\انتہا{مثال}
+%===================
+\ابتدا{مشق}\شناخت{مشق_نمونہ_مشق_الف}
+شکل \حوالہ{شکل_نمونہ_مشق_الف} میں دیے دور کے \عددی{Y} مقدار دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,o-]++(\x/2,0) to [resistor,l={$\SI{40}{\ohm}$}]++(\x,0) to [short,-o]++(\x/2,0);
+\draw(0,-\y) to [short,o-o]++(2*\x,0);
+\draw(\x/2,0) to [resistor,*-*,l={$\SI{20}{\ohm}$}]++(0,-\y);
+\draw(\x+\x/2,0) to [resistor,*-*,l={$\SI{10}{\ohm}$}]++(0,-\y);
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_نمونہ_مشق_الف} کا دور۔}
+\label{شکل_نمونہ_مشق_الف}
+\end{figure}
+
+جوابات:\عددی{y_{11}=\tfrac{3}{40}}، \عددی{y_{12}=-\tfrac{1}{40}}، \عددی{y_{21}=-\tfrac{1}{40}} اور \عددی{y_{22}=\tfrac{1}{8}}
+\انتہا{مشق}
+%==================
+\ابتدا{مشق}
+شکل \حوالہ{شکل_نمونہ_مشق_الف} میں داخلی جانب \عددی{\SI{3}{\ampere}} کا منبع رو نسب کیا جاتا ہے جبکہ خارجی جانب \عددی{\SI{30}{\ohm}} کا مزاحمت نسب کیا جاتا ہے۔گزشتہ مشق کے \عددی{Y} مقدار استعمال کرتے ہوئے \عددی{\bI_2} دریافت کریں۔
+
+جواب:\عددی{\bI_2=-\tfrac{2}{9}\,\si{\ampere}}
+\انتہا{مشق}
+%===================
+
+\حصہ{رکاوٹی نمانہ}
+گزشتہ حصے میں ہم نے بے منبع دور  کو \عددی{Y} نمونے سے ظاہر کیا۔اس حصے میں دور کے داخلی دباو \عددی{\bV_1} کو داخلی رو \عددی{\bI_1} اور خارجی رو \عددی{\bI_2} کا پیدا کردہ دباو تصور کرتے ہیں۔اسی طرح خارجی دباو کو بھی انہیں رو کا پیدا کردہ دباو تصور کرتے ہیں۔یوں 
+\begin{gather}
+\begin{aligned}
+\bV_1&=z_{11}\bI_1+z_{12}\bI_2\\
+\bV_2&=z_{21} \bI_1+z_{22} \bI_2
+\end{aligned}
+\end{gather}
+یا
+\begin{align}
+\begin{bmatrix}
+\bV_1\\
+\bV_2
+\end{bmatrix}
+=
+\begin{bmatrix}
+z_{11} & z_{12}\\
+z_{21}& z_{22}
+\end{bmatrix}
+\begin{bmatrix}
+\bI_1\\
+\bI_2
+\end{bmatrix}
+\end{align}
+لکھا جا سکتا ہے۔بالکل \عددی{Y} کی طرح \عددی{Z} مقدار درج ذیل لکھے جا سکتے ہیں۔
+\begin{gather}
+\begin{aligned} 
+z_{11}&=\left. \frac{\bV_1}{\bI_1}\right|_{\bI_2=0}\\
+z_{12}&=\left. \frac{\bV_1}{\bI_2}\right|_{\bI_1=0}\\
+z_{21}&=\left. \frac{\bV_2}{\bI_1}\right|_{\bI_2=0}\\
+z_{22}&=\left. \frac{\bV_2}{\bI_2}\right|_{\bI_1=0}
+\end{aligned}
+\end{gather}
+یاد رہے کہ رو کو صفر کرنے کی خاطر دور کو کھلے سر کیا جاتا ہے۔اس طرح \عددی{z_{11}} کو \اصطلاح{کھلے سر داخلی رکاوٹ}\فرہنگ{کھلے سر!داخلی رکاوٹ}\فرہنگ{داخلی رکاوٹ!کھلے سر}\حاشیہب{open-circuit input impedance}\فرہنگ{open circuit!input impedance}، \عددی{z_{12}} اور \عددی{z_{21}} کو \اصطلاح{کھلے سر رکاوٹ نما}\فرہنگ{کھلے سر!رکاوٹ نما}\فرہنگ{رکاوٹ نما!کھلے سر}\حاشیہب{open-circuit transimpedance}\فرہنگ{transimpedance!open-circuit} اور \عددی{z_{22}} کو \اصطلاح{کھلے سر خارجی رکاوٹ}\فرہنگ{خارجی رکاوٹ!کھلے سر}\فرہنگ{کھلے سر!خارجی رکاوٹ}\حاشیہب{open-circuit output impedance}\فرہنگ{output impedance!open-circuit} کہتے ہیں۔

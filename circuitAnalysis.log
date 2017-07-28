@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  27 JUL 2017 17:45
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  28 JUL 2017 17:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1715,7 +1715,8 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (./tex/cktSteadyStateAC.aux) (./tex/cktSteadyStatePower.aux)
 (./tex/cktMagneticallyCoupledNetworks.aux) (./tex/cktPolyphaseCircuits.aux)
 (./tex/cktFrequencyResponse.aux) (./tex/cktLaplaceTransform.aux)
-(./tex/cktApplicationLaplace.aux) (./tex/cktFourierAnalysis.aux))
+(./tex/cktApplicationLaplace.aux) (./tex/cktFourierAnalysis.aux)
+(./tex/cktTwoPortNetworks.aux))
 \openout1 = `circuitAnalysis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 146.
@@ -1734,8 +1735,7 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 146.
 LaTeX Font Info:    ... okay on input line 146.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 146.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 146.
-
-(/usr/share/texmf/tex/latex/tipa/t3cmr.fd
+ (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 146.
@@ -3056,274 +3056,83 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/it' will be
 \openout6 = `circuitAnalysis.toc'.
 
  [6]
-\openout2 = `./tex/cktFourierAnalysis.aux'.
+\openout2 = `./tex/cktTwoPortNetworks.aux'.
 
- (./tex/cktFourierAnalysis.tex
-باب \RL {\arabicfont 15}.
+ (./tex/cktTwoPortNetworks.tex [822
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
+باب \RL {\arabicfont 16}.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 7.6pt on input line 9.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 9.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 9.5pt on input line 21.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 7.5pt on input line 21.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 5.70004pt on input line 28.
+[823]
 LaTeX Font Info:    Font shape `EU1/XBTabrizBold(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 2.
+(Font)              scaled to size 10.0pt on input line 49.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 7.6pt on input line 2.
+(Font)              scaled to size 8.0pt on input line 49.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 2.
+(Font)              scaled to size 9.0pt on input line 72.
+ [824] [825] [826] [827]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 2.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 9.5pt on input line 24.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 5.70004pt on input line 24.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 40.
-[757
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-] [758] [759] [760] [761] [762]
-Overfull \hbox (12.25548pt too wide) in paragraph at lines 172--174
-[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 مثال  []\EU1/JameelNooriNastaleeq(0)/bx
-/n/10 4[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx
-/n/10 15[]\EU1/JameelNooriNastaleeq(1)/m/n/10 : تفاعل  $\OML/zplm/m/it/10 f\OT1
-/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) = [](\OML/zplm/m/it/10 m![]
-t\OT1/zplm/m/n/10 )$  \EU1/JameelNooriNastaleeq(1)/m/n/10 کا معیار  $\OT1/ppl/m
-/n/10 0 \OMS/zplm/m/n/10 ^^T \OML/zplm/m/it/10 t \OMS/zplm/m/n/10 ^^T \OML/zplm
-/m/it/10 T[]$  \EU1/JameelNooriNastaleeq(1)/m/n/10 فاصلے پر حاصل کریں جہاں  $[]
-$[]
- []
-
-
-Underfull \vbox (badness 3039) has occurred while \output is active []
-
- [763]
-[764]
-Overfull \hbox (4.33527pt too wide) in paragraph at lines 208--209
-[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 درج بالا تکملات حاصل کرنے کے بعد اصل مض
-مون یعنی فوریئر تسلسل پر دوبارہ آتے ہیں۔مساوات []\EU1/JameelNooriNastaleeq(0)/b
-x/n/10 9[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/b
-x/n/10 15[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 تا مساوات []\EU1/JameelNooriN
-astaleeq(0)/bx/n/10 15[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNoori
-Nastaleeq(0)/bx/n/10 15[][][]
- []
-
-
-Overfull \hbox (2.34227pt too wide) in paragraph at lines 208--209
-[]\EU1/JameelNooriNastaleeq(1)/m/n/10 کو استعمال کرتے ہوئے مساوات []\EU1/Jameel
-NooriNastaleeq(0)/bx/n/10 4[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/Jameel
-NooriNastaleeq(0)/bx/n/10 15[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 کے عددی سر
-  $\OML/zplm/m/it/10 a[]\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 a[]\OT1/ppl/m/n/10 
-, \OML/zplm/m/it/10 a[]\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 b[]\OT1/ppl/m/n/10 ,
- [] $  \EU1/JameelNooriNastaleeq(1)/m/n/10 حاصل کئے جا سکتے ہیں۔آئیں ایسا ہی کر
-یں۔ []
- []
-
-[765] [766]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 282.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 282.
-File: ./fig/figFourierAnalysis/figFourierSawTooth2.pdf Graphic file (type QTm)
- <use  "./fig/figFourierAnalysis/figFourierSawTooth2.pdf" >
-Overfull \hbox (11.25818pt too wide) in paragraph at lines 288--289
- [][][][][][] 
- []
-
-File: ./fig/figFourierAnalysis/figFourierSawTooth5.pdf Graphic file (type QTm)
-<use  "./fig/figFourierAnalysis/figFourierSawTooth5.pdf" >
-File: ./fig/figFourierAnalysis/figFourierSawTooth50.pdf Graphic file (type QTm)
-
-
-<use  "./fig/figFourierAnalysis/figFourierSawTooth50.pdf" >
-Overfull \hbox (11.25818pt too wide) in paragraph at lines 298--299
- [][][][][][] 
- []
-
-[767]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 308.
- [768] [769]
-Underfull \vbox (badness 4279) has occurred while \output is active []
-
- [770]
-File: ./fig/figFourierAnalysis/figFourierSquareWave5.pdf Graphic file (type QTm
-)
-
-<use  "./fig/figFourierAnalysis/figFourierSquareWave5.pdf" >
-File: ./fig/figFourierAnalysis/figFourierSquareWave10.pdf Graphic file (type QT
-m)
-
-<use  "./fig/figFourierAnalysis/figFourierSquareWave10.pdf" >
-File: ./fig/figFourierAnalysis/figFourierSquareWave50.pdf Graphic file (type QT
-m)
-
-<use  "./fig/figFourierAnalysis/figFourierSquareWave50.pdf" > [771] [772]
-Overfull \hbox (14.9422pt too wide) in paragraph at lines 410--410
-[][] []
- []
-
-
-Overfull \hbox (11.32196pt too wide) in paragraph at lines 426--426
-[][] []
- []
-
-
-Underfull \vbox (badness 1348) has occurred while \output is active []
-
- [773]
-Overfull \hbox (4.02808pt too wide) in paragraph at lines 435--436
-[]\EU1/JameelNooriNastaleeq(1)/m/n/10 پہلا ہارمونی رکن  $[] [] \OML/zplm/m/it/1
-0 ![]t$  \EU1/JameelNooriNastaleeq(1)/m/n/10 اور تیسرا ہارمونی رکن  $\OMS/zplm/
-m/n/10 ^^@[] []\OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 3\OML/zplm/m/it/10 ![]t\OT1/zp
-lm/m/n/10 )$  \EU1/JameelNooriNastaleeq(1)/m/n/10 ہلکی سیاہی میں دکھائے گئے ہیں
-۔دونوں[]
- []
-
-[774] [775] [776] [777] [778] [779] [780] [781] [782]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 692.
+(Font)              scaled to size 14.4pt on input line 226.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 14.4pt on input line 692.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 695.
- [783]
-Underfull \vbox (badness 5022) has occurred while \output is active []
-
- [784]
-Overfull \hbox (1.2823pt too wide) in paragraph at lines 762--787
-[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 مثال  []\EU1/JameelNooriNastaleeq(0)/bx
-/n/10 8[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx
-/n/10 15[]\EU1/JameelNooriNastaleeq(1)/m/n/10 :[] شکل []\EU1/JameelNooriNastale
-eq(0)/bx/n/10 11[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastal
-eeq(0)/bx/n/10 15[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 -الف میں جفت تفاعل دکھ
-ایا گیا ہے۔اس کے فوریئر تکونیاتی تسلسل کے عددی سر حاصل کریں۔[]
- []
-
-[785] [786] [787] [788] [789]
-Overfull \hbox (11.71384pt too wide) in paragraph at lines 924--927
- [][][][] 
- []
-
-[790] [791] [792] [793] [794] [795]
-Overfull \hbox (9.59366pt too wide) in paragraph at lines 1086--1089
- [][][][] 
- []
+(Font)              scaled to size 14.4pt on input line 226.
+ [828]) [829] [830
 
 
-Overfull \hbox (14.09714pt too wide) in paragraph at lines 1094--1097
- [][][][] 
- []
-
-[796] [797]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [798]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [799] [800] [801]
-Underfull \vbox (badness 1043) has occurred while \output is active []
-
- [802]
-Overfull \hbox (36.97258pt too wide) in paragraph at lines 1365--1368
- [][][][] 
- []
-
-
-Overfull \hbox (36.97258pt too wide) in paragraph at lines 1374--1401
- [][][][] 
- []
-
-
-LaTeX Warning: Float too large for page by 49.15718pt on input line 1406.
-
-[803] [804] [805] [806] [807] [808]
-Overfull \hbox (2.60175pt too wide) in paragraph at lines 1557--1570
-[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 مشق  []\EU1/JameelNooriNastaleeq(0)/bx/
-n/10 17[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx
-/n/10 15[]\EU1/JameelNooriNastaleeq(1)/m/n/10 :[] شکل []\EU1/JameelNooriNastale
-eq(0)/bx/n/10 25[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastal
-eeq(0)/bx/n/10 15[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 میں داخلی دباو  $\OML
-/zplm/m/it/10 v[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) = \OML
-/zplm/m/it/10 e[]u\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) []$ \
-EU1/JameelNooriNastaleeq(1)/m/n/10 ، دور کا اکائی ضرب رد عمل  $\OML/zplm/m/it/1
-0 h\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) = \OML/zplm/m/it/10 
-e[]u\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$[]
- []
-
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-[809]
-Overfull \hbox (5.96794pt too wide) in paragraph at lines 1603--1605
-[]\EU1/JameelNooriNastaleeq(1)/m/n/10 فرض کریں کہ  $[] []$  کی مزاحمت میں رو  $
-\OML/zplm/m/it/10 f\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$  \E
-U1/JameelNooriNastaleeq(1)/m/n/10 ہے۔اس مزاحمت میں طاقت  $\OML/zplm/m/it/10 f[]
-\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$  \EU1/JameelNooriNasta
-leeq(1)/m/n/10 اور توانائی کا ضیاع  $[] \OML/zplm/m/it/10 f[]\OT1/zplm/m/n/10 (
-\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) [] \OML/zplm/m/it/10 t$[]
- []
-
-[810] [811] [812] [813] [814]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [815] [816] [817] [818]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [819])
-[820] (./circuitAnalysis.aux (./tex/cktBasics.aux) (./tex/cktResistive.aux)
-(./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux) (./tex/cktTheorems.aux)
-(./tex/cktCapacitorInductor.aux) (./tex/cktTransients.aux)
-(./tex/cktSteadyStateAC.aux) (./tex/cktSteadyStatePower.aux)
-(./tex/cktMagneticallyCoupledNetworks.aux) (./tex/cktPolyphaseCircuits.aux)
-(./tex/cktFrequencyResponse.aux) (./tex/cktLaplaceTransform.aux)
-(./tex/cktApplicationLaplace.aux) (./tex/cktFourierAnalysis.aux))
+] (./circuitAnalysis.aux
+(./tex/cktBasics.aux) (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux)
+(./tex/cktOpamp.aux) (./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
+(./tex/cktTransients.aux) (./tex/cktSteadyStateAC.aux)
+(./tex/cktSteadyStatePower.aux) (./tex/cktMagneticallyCoupledNetworks.aux)
+(./tex/cktPolyphaseCircuits.aux) (./tex/cktFrequencyResponse.aux)
+(./tex/cktLaplaceTransform.aux) (./tex/cktApplicationLaplace.aux)
+(./tex/cktFourierAnalysis.aux) (./tex/cktTwoPortNetworks.aux))
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 3.75237pt have occurred.
+(Font)              up to 2.26395pt have occurred.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 48191 strings out of 493918
- 1148838 string characters out of 6150562
- 1376322 words of memory out of 5000000
- 50505 multiletter control sequences out of 15000+600000
- 53113 words of font info for 191 fonts, out of 8000000 for 9000
+ 47028 strings out of 493918
+ 1120481 string characters out of 6150562
+ 1328582 words of memory out of 5000000
+ 49374 multiletter control sequences out of 15000+600000
+ 37447 words of font info for 145 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,19n,86p,10476b,2899s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,20n,81p,10476b,1983s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (70 pages).
+Output written on circuitAnalysis.pdf (15 pages).
