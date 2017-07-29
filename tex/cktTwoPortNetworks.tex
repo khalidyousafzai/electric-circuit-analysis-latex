@@ -1,7 +1,7 @@
-\باب{ریاضی نمونے}
+\باب{چار سر ادوار کے ریاضی نمانے}
 
 حصہ{فراوانی نمونہ}
-شکل \حوالہ{شکل_نمونہ_ڈبہ_دور} میں دو جوڑی سروں والا ڈبہ دور دکھایا گیا ہے۔دور کے داخلی سروں کو بائیں ہاتھ اور خارجی سروں کو دائیں ہاتھ دکھایا جاتا ہے لہٰذا \عددی{AB} داخلی اور \عددی{CD} خارجی سرے ہیں۔داخلی اور خارجی سروں پر دباو کے قطب اور رو کی سمتیں دکھائی گئی ہیں۔یوں نچلے سروں کو حوالہ سرا لیا جاتا ہے اور دونوں اطراف سے ڈبے میں رو داخل ہوتی ہے۔
+شکل \حوالہ{شکل_نمونہ_ڈبہ_دور} میں چار سروں والا \اصطلاح{ڈبہ دور}\فرہنگ{ڈبہ دور}\حاشیہب{block diagram}\فرہنگ{block diagram} دکھایا گیا ہے جس کی اندرونی ساخت کے بار میں ہم کچھ نہیں جانتے۔دور کے داخلی سروں کو بائیں ہاتھ اور خارجی سروں کو دائیں ہاتھ دکھایا جاتا ہے لہٰذا \عددی{AB} داخلی اور \عددی{CD} خارجی سرے ہیں۔داخلی اور خارجی سروں پر دباو کے قطب اور رو کی سمتیں دکھائی گئی ہیں۔یوں نچلے سروں کو حوالہ سرا لیا جاتا ہے اور دونوں اطراف سے دور میں رو داخل ہوتی ہے۔
 \begin{figure}
 \centering
 \begin{tikzpicture}
@@ -14,7 +14,7 @@
 \draw(-\xx/2,\yy/2)node{$\begin{aligned} &+ \\ &\bV_1 \\ &- \end{aligned}$};
 \draw(\xx+\xx/2,\yy/2)node{$\begin{aligned} &+ \\ &\bV_2 \\ &- \end{aligned}$};
 \end{tikzpicture}
-\caption{دو جوڑی سروں والا ڈبہ دور۔}
+\caption{چار سروں والا دور۔}
 \label{شکل_نمونہ_ڈبہ_دور}
 \end{figure}
 
@@ -25,7 +25,7 @@
 \bI_2&=y_{21}\bV_1+y_{22}\bV_2
 \end{aligned}
 \end{gather}  
-جہاں \عددی{y_{11}}، \عددی{y_{12}} وغیرہ مستقل ہیں جنہیں سیمنز \عددی{\si{\siemens}} میں ناپا جاتا ہے۔ان مساوات کو قالب کی شکل میں لکھتے ہیں۔\عددی{y_{11}}، \عددی{y_{12}}، \عددی{y_{21}} اور \عددی{y_{22}} کو \عددی{Y} مقدار کہتے ہیں۔اگر \عددی{Y} کی قیمتیں معلوم ہوں تب ڈبہ دور کی خارجی بالمقابل داخلی تعلقات مکمل طور پر تعین کی جا سکتی ہیں۔ 
+جہاں \عددی{y_{11}}، \عددی{y_{12}} وغیرہ فراوانی مستقل ہیں جنہیں سیمنز \عددی{\si{\siemens}} میں ناپا جاتا ہے۔ان مساوات کو قالب کی صورت میں لکھتے ہیں۔\عددی{y_{11}}، \عددی{y_{12}}، \عددی{y_{21}} اور \عددی{y_{22}} کو فراوانی مقدار \عددی{Y} کہتے ہیں۔اگر \عددی{Y} کی قیمتیں معلوم ہوں تب ڈبہ دور کی خارجی بالمقابل داخلی تعلقات مکمل طور پر تعین کی جا سکتی ہیں۔ 
 \begin{align}\label{مساوات_نمونہ_ب}
 \begin{bmatrix}
 \bI_1 \\
@@ -54,7 +54,7 @@ y_{21}&=\left. \frac{\bI_2}{\bV_1} \right|_{\bV_2=0}\\
 y_{22}&=\left. \frac{\bI_2}{\bV_2} \right|_{\bV_1=0}
 \end{aligned}
 \end{gather}
-\عددی{y_{12}} اور \عددی{y_{21}} کو \اصطلاح{قصر دور فراوانی نما}\فرہنگ{قصر دور!فراوانی نما}\حاشیہب{short-circuit transadmittance}\فرہنگ{transadmittance!short-circuit} کہا جاتا ہے جبکہ \عددی{y_{22}} کو \اصطلاح{قصر دور خارجی فراوانی}\حاشیہب{short-circuit output admittance}\فرہنگ{output admittance!short-circuit} کہتے ہیں۔درج بالا مساوات کو استعمال کرتے ہوئے کسی بھی نامعلوم دور کے \عددی{Y} مقدار تجرباتی طور ناپے جا سکتا ہیں۔ 
+\عددی{y_{12}} اور \عددی{y_{21}} کو \اصطلاح{قصر دور فراوانی نما}\فرہنگ{قصر دور!فراوانی نما}\حاشیہب{short-circuit transadmittance}\فرہنگ{transadmittance!short-circuit} کہا جاتا ہے جبکہ \عددی{y_{22}} کو \اصطلاح{قصر دور خارجی فراوانی}\حاشیہب{short-circuit output admittance}\فرہنگ{output admittance!short-circuit} کہتے ہیں۔درج بالا مساوات کو استعمال کرتے ہوئے کسی بھی نا معلوم دور کے \عددی{Y} مقدار تجرباتی طور ناپے جا سکتے ہیں۔ مساوات \حوالہ{مساوات_نمونہ_ب} ڈبہ دور کا \اصطلاح{فراوانی نمونہ}\فرہنگ{فراوانی نمونہ}\فرہنگ{نمونہ!فراوانی}\حاشیہب{admittance model}\فرہنگ{admittance!model}\فرہنگ{model!admittance} ہے۔
 %================
 \ابتدا{مثال}\شناخت{مثال_نمونہ_مزاحمتی_دور_الف}
 شکل \حوالہ{شکل_نمونہ_مزاحمتی_دور_الف} میں دور دکھایا گیا ہے۔اس کے \عددی{Y} مقدار دریافت کریں۔
@@ -117,7 +117,7 @@ y_{22}&=\left. \frac{\bI_2}{\bV_2} \right|_{\bV_1=0}
 \begin{align*}
 y_{11}&=\left. \frac{\bI_1}{\bV_1}\right|_{\bV_2=0}=\frac{3}{4}\, \si{\siemens}
 \end{align*}
-حاصل ہوتا ہے۔شکل-ب سے \عددی{y_{21}} بھی حاصل کیا جا سکتا ہے۔دور کو دیکھ کر درج ذیل لکھا جا سکتا ہے
+حاصل ہوتا ہے۔چونکہ \عددی{y_{11}} اور \عددی{y_{21}} کے حصول میں \عددی{\bV_2} کو قسر دور کیا جاتا ہے لہٰذا یہ دونوں شکل-ب سے حاصل ہوں گے۔دور کو دیکھ کر درج ذیل لکھا جا سکتا ہے
 \begin{align*}
 \bI_2=-\frac{\bV_1}{4}
 \end{align*}
@@ -128,7 +128,7 @@ y_{21}=\left. \frac{\bI_2}{\bV_1}\right|_{\bV_2=0}=-\frac{1}{4}\,\si{\siemens}
 ہو گا۔
 
 
-\عددی{y_{12}} حاصل کرنے کی خاطر داخلی سروں کو قصر دور کرتے ہوئے شکل-پ حاصل ہوتا ہے جس میں \عددی{\SI{2}{\ohm}} کے مزاحمت کو ہٹایا جا سکتا ہے۔اس دور سے درج ذیل لکھا جا سکتا ہے
+\عددی{y_{12}} اور \عددی{y_{22}} کے حصول میں \عددی{\bV_1=0} کرنا ہو گا لہٰذا داخلی سروں کو قصر دور کرتے ہوئے شکل-پ حاصل کیا گیا ہے۔ اس میں \عددی{\SI{2}{\ohm}} کے مزاحمت کو ہٹایا جا سکتا ہے البتہ میں نے اس کو شکل میں دکھایا ہے۔اس دور سے درج ذیل لکھا جا سکتا ہے
 \begin{align*}
 \bI_1=-\frac{\bV_2}{4}
 \end{align*} 
@@ -223,8 +223,8 @@ y_{22}=\left.\frac{\bI_2}{\bV_2} \right|_{\bV_1=0}=\frac{1}{4} \, \si{\siemens}
 \انتہا{مشق}
 %===================
 
-\حصہ{رکاوٹی نمانہ}
-گزشتہ حصے میں ہم نے بے منبع دور  کو \عددی{Y} نمونے سے ظاہر کیا۔اس حصے میں دور کے داخلی دباو \عددی{\bV_1} کو داخلی رو \عددی{\bI_1} اور خارجی رو \عددی{\bI_2} کا پیدا کردہ دباو تصور کرتے ہیں۔اسی طرح خارجی دباو کو بھی انہیں رو کا پیدا کردہ دباو تصور کرتے ہیں۔یوں 
+\حصہ{رکاوٹی نمونہ}
+گزشتہ حصے میں ہم نے بے منبع دور  کو فراوانی نمونے سے ظاہر کیا۔اس حصے میں دور کے داخلی دباو  \عددی{\bV_1} اور خارجی دباو  \عددی{\bV_2} کو داخلی رو \عددی{\bI_1} اور خارجی رو \عددی{\bI_2} کا پیدا کردہ دباو تصور کرتے ہیں۔یوں دور کا \اصطلاح{رکاوٹی نمونہ}\فرہنگ{رکاوٹی نمونہ}\فرہنگ{نمونہ!رکاوٹی}\حاشیہب{impedance model}\فرہنگ{impedance!model}\فرہنگ{model!impedance} حاصل ہوتا ہے یعنی  
 \begin{gather}
 \begin{aligned}
 \bV_1&=z_{11}\bI_1+z_{12}\bI_2\\
@@ -232,7 +232,7 @@ y_{22}=\left.\frac{\bI_2}{\bV_2} \right|_{\bV_1=0}=\frac{1}{4} \, \si{\siemens}
 \end{aligned}
 \end{gather}
 یا
-\begin{align}
+\begin{align}\label{مساوات_نمونہ_رکاوٹی}
 \begin{bmatrix}
 \bV_1\\
 \bV_2
@@ -247,7 +247,7 @@ z_{21}& z_{22}
 \bI_2
 \end{bmatrix}
 \end{align}
-لکھا جا سکتا ہے۔بالکل \عددی{Y} کی طرح \عددی{Z} مقدار درج ذیل لکھے جا سکتے ہیں۔
+بالکل \عددی{Y} کی طرح \عددی{Z} مقدار تجرباتی طور حاصل کئے جا سکتے ہیں یعنی
 \begin{gather}
 \begin{aligned} 
 z_{11}&=\left. \frac{\bV_1}{\bI_1}\right|_{\bI_2=0}\\
@@ -257,3 +257,353 @@ z_{22}&=\left. \frac{\bV_2}{\bI_2}\right|_{\bI_1=0}
 \end{aligned}
 \end{gather}
 یاد رہے کہ رو کو صفر کرنے کی خاطر دور کو کھلے سر کیا جاتا ہے۔اس طرح \عددی{z_{11}} کو \اصطلاح{کھلے سر داخلی رکاوٹ}\فرہنگ{کھلے سر!داخلی رکاوٹ}\فرہنگ{داخلی رکاوٹ!کھلے سر}\حاشیہب{open-circuit input impedance}\فرہنگ{open circuit!input impedance}، \عددی{z_{12}} اور \عددی{z_{21}} کو \اصطلاح{کھلے سر رکاوٹ نما}\فرہنگ{کھلے سر!رکاوٹ نما}\فرہنگ{رکاوٹ نما!کھلے سر}\حاشیہب{open-circuit transimpedance}\فرہنگ{transimpedance!open-circuit} اور \عددی{z_{22}} کو \اصطلاح{کھلے سر خارجی رکاوٹ}\فرہنگ{خارجی رکاوٹ!کھلے سر}\فرہنگ{کھلے سر!خارجی رکاوٹ}\حاشیہب{open-circuit output impedance}\فرہنگ{output impedance!open-circuit} کہتے ہیں۔
+%======================
+\ابتدا{مثال}\شناخت{مثال_نمونہ_پائے}
+شکل \حوالہ{شکل_نمونہ_پائے}-الف کے دور کے \عددی{Z} مقدار معلوم کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,o-,i={$\bI_1$}] ++(\x,0) to [inductor,l={$j2\,\si{\ohm}$}]++(\x,0) to [short,-o,i<_={$\bI_2$}]++(\x,0);
+\draw(0,-\y) to [short,o-o]++(3*\x,0);
+\draw(\x,0) to [capacitor,*-*,l_={$-j4\,\si{\ohm}$}]++(0,-\y);
+\draw(2*\x,0) to [capacitor,*-*,l={$-j4\,\si{\ohm}$}]++(0,-\y);
+\draw(0,-\y/2)node{$\begin{aligned} &+ \\ &\bV_1 \\ &-  \end{aligned}$};
+\draw(3*\x,-\y/2)node{$\begin{aligned} &+ \\ &\bV_2 \\ &-  \end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,o-,i={$\bI_1$}] ++(\x,0) to [inductor,l={$j2\,\si{\ohm}$}]++(\x,0) to [short,-o,i<_={${\bI_2=0}$}]++(\x,0);
+\draw(0,-\y) to [short,o-o]++(3*\x,0);
+\draw(\x,0) to [capacitor,*-*,l_={$-j4\,\si{\ohm}$}]++(0,-\y);
+\draw(2*\x,0) to [capacitor,*-*,l={$-j4\,\si{\ohm}$}]++(0,-\y);
+\draw(3*\x,-\y/2)node{$\begin{aligned} &+ \\ &\bV_2 \\ &-  \end{aligned}$};
+\draw(0,-\y) to [short,o-]++(-\x/4,0) to [american voltage source,l={$\bV_1$}]++(0,\y) to [short,-o] ++(\x/4,0);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,o-,i={${\bI_1=0}$}] ++(\x,0) to [inductor,l={$j2\,\si{\ohm}$}]++(\x,0) to [short,-o,i<_={$\bI_2$}]++(\x,0);
+\draw(0,-\y) to [short,o-o]++(3*\x,0);
+\draw(\x,0) to [capacitor,*-*,l_={$-j4\,\si{\ohm}$}]++(0,-\y);
+\draw(2*\x,0) to [capacitor,*-*,l={$-j4\,\si{\ohm}$}]++(0,-\y);
+\draw(0,-\y/2)node{$\begin{aligned} &+ \\ &\bV_1 \\ &-  \end{aligned}$};
+\draw(3*\x,-\y) to [short,o-]++(\x/4,0) to [american voltage source,l_={$\bV_2$}]++(0,\y) to [short,-o] ++(-\x/4,0);
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_نمونہ_پائے} کا دور۔}
+\label{شکل_نمونہ_پائے}
+\end{figure}
+
+حل:شکل \حوالہ{شکل_نمونہ_پائے}-ب میں داخلی سروں پر \عددی{\bV_1} مسلط کی گئی ہے۔ خارجی سروں کو کھلے دور رکھ کر \عددی{\bI_2=0} کیا گیا ہے۔یوں درج ذیل لکھا جا سکتا ہے
+\begin{align*}
+\bV_1&=\bI_1\left[\frac{-j4(j2-j4)}{-j4+j2-j4}\right]=-j\frac{4}{3}\bI_1
+\end{align*}
+جس سے
+\begin{align*}
+z_{11}&=\left. \frac{\bV_1}{\bI_1}\right|_{\bI_2=0}=\frac{-j4(j2-j4)}{-j4+j2-j4}=-j\frac{4}{3}
+\end{align*}
+اور
+\begin{align*}
+\bI_1=j\frac{3}{4}\bV_1
+\end{align*}
+حاصل ہوتے ہیں۔شکل-ب سے کھلے دور خارجی دباو کو تقسیم دباو کے کلیے سے حاصل کرتے ہیں۔
+\begin{align*}
+\bV_2&=\frac{-j4}{j2-j4}\bV_1=2\bV_1
+\end{align*}
+یوں درج ذیل حاصل ہوتا ہے۔
+\begin{align*}
+z_{21}&=\left. \frac{\bV_2}{\bI_1}\right|_{\bI_2=0}=\frac{2\bV_1}{j\frac{3}{4}\bV_1}=-j\frac{8}{3}
+\end{align*}
+
+شکل \حوالہ{شکل_نمونہ_پائے}-پ میں خارجی سروں پر دباو مسلط کرتے ہوئے داخلی سروں کو کھلے سر رکھا گیا ہے جس سے \عددی{\bI_1=0} رکھا گیا ہے۔تقسیم دباو کے کلیے سے \عددی{\bV_1} حاصل کرتے ہیں۔
+\begin{align*}
+\bV_1=\frac{-j4}{j2-j4} \bV_2=2\bV_2
+\end{align*}
+خارجی رو درج ذیل ہے۔
+\begin{align*}
+\bI_2&=\frac{\bV_2}{-j4}+\frac{\bV_2}{j2-j4}=j\frac{3}{4}\bV_2
+\end{align*}
+اس طرح
+\begin{align*}
+z_{12}&=\left.\frac{\bV_1}{\bI_2} \right|_{\bI_1=0}=\frac{2\bV_2}{j\frac{3}{4}\bV_2}=-j\frac{8}{3}
+\end{align*}
+ہو گا۔شکل-پ سے \عددی{z_{22}} لکھتے ہیں۔
+\begin{align*}م
+z_{22}=\left.\frac{\bV_2}{\bI_2}\right|_{\bI_1=0}=\frac{-j4(j2-j4)}{-j4+j2-j4}=-j\frac{4}{3}
+\end{align*}
+ان معلومات کو استعمال کرتے ہوئے شکل-الف کے دور کو درج ذیل مساوات سے ظاہر کیا جا سکتا ہے۔
+\begin{align}\label{مساوات_مثال_نمونہ_رکاوٹی_الف}
+\begin{bmatrix}
+\bV_1 \\[2ex]
+\bV_2
+\end{bmatrix}
+=
+\begin{bmatrix}
+-j\frac{4}{3} & -j\frac{8}{3}\\[2ex]
+-j\frac{8}{3} & -j\frac{4}{3}
+\end{bmatrix}
+\begin{bmatrix}
+\bI_1\\[2ex]
+\bI_2
+\end{bmatrix}
+\end{align}
+یہاں تسلی کر لیں کہ دور کے خارجی سروں کو کھلے دور رکھتے ہوئے داخلی رکاوٹ \عددی{z_{11}} ہے۔اسی طرح داخلی سروں کو کھلے سر رکھتے ہوئے خارجی سروں پر
+ رکاوٹ \عددی{z_{22}} ہے۔
+\انتہا{مثال}
+%=========================
+\ابتدا{مثال}\شناخت{مثال_نمونہ_پائے_ب}
+شکل \حوالہ{شکل_نمونہ_پائے}-الف کے داخلی جانب \عددی{\bV_1=10\phase{0^{\circ}}\,\si{\volt}} نسب کرتے ہوئے خارجی جانب \عددی{\SI{6}{\ohm}} بوجھ ڈالا جاتا ہے۔اس دور کو شکل \حوالہ{شکل_نمونہ_پائے_ب} میں دکھایا گیا ہے۔دور کو حل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [short,o-,i={$\bI_1$}] ++(\x,0) to [inductor,l={$j2\,\si{\ohm}$}]++(\x,0) to [short,-o,i<_={$\bI_2$}]++(\x,0);
+\draw(0,-\y) to [short,o-o]++(3*\x,0);
+\draw(\x,0) to [capacitor,*-*,l_={$-j4\,\si{\ohm}$}]++(0,-\y);
+\draw(2*\x,0) to [capacitor,*-*,l={$-j4\,\si{\ohm}$}]++(0,-\y);
+\draw(0,-\y) to [short,o-]++(-\x/4,0) to [american voltage source,l={$10\phase{0^{\circ}}\,\si{\volt}$}]++(0,\y) to [short,-o]++(\x/4,0);
+\draw(3*\x,0) to [short,o-]++(\x/4,0) to [resistor,l={$\SI{6}{\ohm}$},v={$\bV_2$}]++(0,-\y) to [short,-o]++(-\x/4,0);
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_نمونہ_پائے_ب} کا دور۔}
+\label{شکل_نمونہ_پائے_ب}
+\end{figure}
+
+حل:گزشتہ مثال میں دور کے \عددی{Z} مقدار حاصل کرتے ہوئے مساوات  \حوالہ{مساوات_مثال_نمونہ_رکاوٹی_الف} حاصل کی گئی۔شکل \حوالہ{شکل_نمونہ_پائے_ب} میں 
+\begin{align*}
+\bV_1&=10\phase{0^{\circ}}\\
+\bV_2&=-6\bI_2
+\end{align*}
+ہیں جنہیں مساوات   \حوالہ{مساوات_مثال_نمونہ_رکاوٹی_الف} میں پر کرتے ہوئے درج ذیل ملتا ہے۔
+\begin{align*}
+\begin{bmatrix}
+-j\frac{4}{3} & -j\frac{8}{3}\\[2ex]
+-j\frac{8}{3} & 6-j\frac{4}{3}
+\end{bmatrix}
+\begin{bmatrix}
+\bI_1\\[2ex]
+\bI_2
+\end{bmatrix}
+=
+\begin{bmatrix}
+10\phase{0^{\circ}}\\[2ex]
+0
+\end{bmatrix}
+\end{align*}
+یہ مساوات کرخوف دائری مساوات ہیں جن سے درج ذیل رو حاصل ہوتی ہیں۔
+\begin{align*}
+\bI_1&=6.39\phase{43.8^{\circ}} \, \si{\ampere}\\
+\bI_2&=2.77\phase{146.3^{\circ}}\, \si{\ampere}
+\end{align*}
+\انتہا{مثال}
+%==========================
+\ابتدا{مشق}\شناخت{مشق_نمونہ_پائے_پ}
+شکل \حوالہ{شکل_نمونہ_پائے_پ} کے  رکاوٹی مقدار \عددی{Z} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [resistor,l={$\SI{6}{\ohm}$},o-]++(\x,0) to [resistor,l={$\SI{12}{\ohm}$},-o]++(\x,0);
+\draw(0,-\y) to [short,o-o]++(2*\x,0);
+\draw(\x,0) to [resistor,*-*,l={$\SI{4}{\ohm}$}]++(0,-\y);
+\end{tikzpicture}
+\caption{مشق \حوالہ{مشق_نمونہ_پائے_پ} کا دور۔}
+\label{شکل_نمونہ_پائے_پ}
+\end{figure}
+
+جوابات:\عددی{z_{11}=10}، \عددی{z_{12}=4}، \عددی{z_{21}=4} اور \عددی{z_{22}=12}
+\انتہا{مشق}
+%===========================
+\حصہ{دوغلائی نمونہ}
+چار سر دور میں کل چار متغیرات پائے جاتے ہیں یعنی \عددی{\bV_1}، \عددی{\bV_2}، \عددی{\bI_1} اور \عددی{\bI_2} جن میں سے کسی دو کو غیر تابع اور بقایا دو کو تابع متغیرات تصور کیا جا سکتا ہے۔فراوانی نمونے  میں دباو کو غیر تابع متغیرات تصور کیا جاتا ہے جبکہ رکاوٹی  نمونے میں رو کو غیر تابع متغیرات تصور کیا جاتا ہے۔دوغلائی نمونے میں \عددی{\bI_1} اور \عددی{\bV_2} کو غیر تابع متغیرات تصور کیا جاتا ہے جبکہ \عددی{\bI_2} اور \عددی{\bV_1} کو تابع متغیرات تصور کیا جاتا ہے۔یوں \اصطلاح{دوغلائی نمونے}\فرہنگ{دوغلائی نمونہ}\فرہنگ{نمونہ!دوغلائی}\حاشیہب{hybrid model}\فرہنگ{model!hybrid}\فرہنگ{hybrid model} کو
+\begin{gather}
+\begin{aligned}
+\bV_1&=h_{11} \bI_1+h_{12}\bV_2\\
+\bI_2&=h_{21}\bI_1+h_{22}\bV_2
+\end{aligned}
+\end{gather}
+یا
+\begin{align}
+\begin{bmatrix}
+\bV_1\\
+\bI_2
+\end{bmatrix}
+=
+\begin{bmatrix}
+h_{11} & h_{12}\\
+h_{21} & h_{22}
+\end{bmatrix}
+\begin{bmatrix}
+\bI_1\\
+\bV_2
+\end{bmatrix}
+\end{align}
+لکھا جا سکتا ہے جہاں
+\begin{gather}
+\begin{aligned}
+h_{11}&=\left. \frac{\bV_1}{\bI_1}\right|_{\bV_2=0}\\
+h_{12}&=\left. \frac{\bV_1}{\bV_2}\right|_{\bI_1=0}\\
+h_{21}&=\left. \frac{\bI_2}{\bI_1}\right|_{\bV_2=0}\\
+h_{22}&=\left. \frac{\bI_2}{\bV_2}\right|_{\bI_1=0}
+\end{aligned}
+\end{gather}
+ہیں۔\عددی{h_{11}}، \عددی{h_{12}}، \عددی{h_{21}} اور \عددی{h_{22}} بالترتیب \اصطلاح{قصر دور داخلی رکاوٹ}\فرہنگ{دوغلائی!قصر دور داخلی رکاوٹ}\حاشیہب{short-circuit input impedance}\فرہنگ{hybrid!h_{11}}، \اصطلاح{کھلے سر الٹ افزائش دباو}\فرہنگ{دوغلائی!کھلے سر الٹ افزائش دباو}\حاشیہب{open-circuit reverse voltage gain}\فرہنگ{hybrid!h_{12}}، \اصطلاح{قصر دور افزائش رو}\فرہنگ{دوغلائی!قصر دور افزائش رو}\حاشیہب{short-circuit current gain}\فرہنگ{hybrid!h_{21}} اور \اصطلاح{کھلے سر خارجی فراوانی}\فرہنگ{دوغلائی!کھلے سر خارجی فراوانی}\حاشیہب{open-circuit output admittance}\فرہنگ{hybrid!h_{22}} ہیں۔ 
+%===================
+\ابتدا{مشق}
+شکل \حوالہ{شکل_نمونہ_پائے_پ} کے دوغلائی مقدار حاصل کریں۔
+
+جوابات:\عددی{h_{11}=9}، \عددی{h_{12}=\tfrac{1}{4}}، \عددی{h_{21}=-\tfrac{1}{4}} اور \عددی{h_{22}=\tfrac{1}{16}}
+\انتہا{مشق}
+%==============
+\حصہ{ترسیلی نمونہ}
+\اصطلاح{ترسیلی نمونے}\فرہنگ{نمونہ!ترسیلی}\فرہنگ{ترسیلی نمونہ}\حاشیہب{transmission model}\فرہنگ{model!transmission} کے مساوات درج ذیل ہیں
+ \begin{gather}
+\begin{aligned}
+\bV_1&=A\bV_2-B\bI_2\\
+\bI_1&=C\bV_2-D\bI_2
+\end{aligned}
+\end{gather}
+جن کو قالبی صورت میں لکھتے ہیں۔
+\begin{align}
+\begin{bmatrix}
+\bV_1\\
+\bI_1
+\end{bmatrix}
+=
+\begin{bmatrix}
+A & B\\
+C & D
+\end{bmatrix}
+\begin{bmatrix}
+\bV_2\\
+-\bI_2
+\end{bmatrix}
+\end{align}
+\عددی{ABCD} کو تجرباتی طور حاصل کرنے کی ترکیب لکھتے ہیں۔
+\begin{gather}
+\begin{aligned}
+A&=\left. \frac{\bV_1}{\bV_2}\right|_{\bI_2=0}\\
+B&=\left. \frac{\bV_1}{-\bI_1}\right|_{\bV_2=0}\\
+C&=\left. \frac{\bI_1}{\bV_2}\right|_{\bI_2=0}\\
+D&=\left. \frac{\bI_1}{-\bI_2}\right|_{\bV_2=0}
+\end{aligned}
+\end{gather}
+\عددی{A}، \عددی{B}، \عددی{C} اور \عددی{D} بالترتیب \اصطلاح{کھلے سر تناسب دباو}\فرہنگ{کھلے سر تناسب دباو}\فرہنگ{ABCD parameters}، \اصطلاح{منفی قصر دور رکاوٹ نما}\فرہنگ{منفی قصر دور رکاوٹ نما}، \اصطلاح{کھلے سر فراوانی نما}\فرہنگ{کھلے سر فراوانی نما} اور \اصطلاح{منفی تناسب رو}\فرہنگ{منفی تناسب رو} ہیں۔ 
+%=============
+\ابتدا{مثال}\شناخت{مثال_نمونہ_الف_ب_پ_ت}
+شکل \حوالہ{شکل_نمونہ_الف_ب_پ_ت} میں دیے دور کے \عددی{ABCD} معلوم کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [capacitor,o-,l={$-j2\,\si{\ohm}$},i>^={$\bI_1$}]++(\x,0) to [inductor,-o,l={$j4\,\si{\ohm}$},i^<={$\bI_2$}]++(\x,0);
+\draw(0,-\y) to [short,o-o]++(2*\x,0);
+\draw(\x,0)node[above]{$\bV_x$} to [resistor,*-*,l={$\SI{6}{\ohm}$}]++(0,-\y)node[ground]{};
+\draw(0,-\y/2)node{$\begin{aligned} &+ \\ &\bV_1 \\ &- \end{aligned}$};
+\draw(2*\x,-\y/2)node{$\begin{aligned} &+ \\ &\bV_2 \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_نمونہ_الف_ب_پ_ت} کا دور۔}
+\label{شکل_نمونہ_الف_ب_پ_ت}
+\end{figure}
+
+حل:خارجی سروں کو کھلے سر کرتے ہوئے \عددی{A} حاصل کرتے ہیں۔تقسیم دباو کے کلیے سے
+\begin{align*}
+\bV_2&=\frac{6}{6-j2}\bV_1
+\end{align*}
+لکھے ہوئے 
+\begin{align*}
+A&=\left.\frac{\bV_1}{\bV_2} \right|_{\bI_2=0}=1-\frac{j}{3}
+\end{align*}
+حاصل ہوتا ہے۔اسی طرح  خارجی سروں کو کھلے سر رکھتے ہوئے \عددی{\bI_1} کی مساوات لکھتے
+\begin{align*}
+\bI_1=\frac{\bV_1}{6-j2}
+\end{align*} 
+ہوئے
+\begin{align*}
+C&=\left.\frac{\bI_1}{\bV_2} \right|_{\bI_2=0}=\frac{\frac{\bV_1}{6-j2}}{\frac{6}{6-j2}\bV_1}=\frac{1}{6}
+\end{align*}
+حاصل ہوتا ہے۔خارجی سروں کو قصر دور کرتے ہوئے \عددی{B} اور \عددی{D} حاصل ہوں گے۔جوڑ \عددی{\bV_x} پر کرخوف مساوات رو لکھتے
+\begin{align*}
+\frac{\bV_x-\bV_1}{-j2}+\frac{\bV_x}{6}+\frac{\bV_x}{j4}=0
+\end{align*}
+ہوئے
+\begin{align*}
+\bV_x=\frac{6j}{2+3j}\bV_1
+\end{align*}
+حاصل ہوتا ہے جس سے 
+\begin{align*}
+\bI_2=-\frac{\bV_x}{j4}=-\frac{\frac{6j}{2+3j}\bV_1}{j4}=(-\frac{3}{13}+j\frac{9}{26})\bV_1
+\end{align*}
+لکھا جا سکتا ہے۔یوں
+\begin{align*}
+B=\left. -\frac{\bV_1}{\bI_2}\right|_{\bV_2=0}=-\frac{1}{-\frac{3}{13}+j\frac{9}{26}}=-\frac{4}{3}-j3
+\end{align*}
+ہو گا۔تقسیم رو سے \عددی{\bI_2} حاصل کرتے ہیں
+\begin{align*}
+\bI_2=-\frac{6}{6+j4}\bI_1
+\end{align*}
+جس سے 
+\begin{align*}
+D=\left. -\frac{\bI_1}{\bI_2}\right|_{\bV_2=0}=1+j\frac{2}{3}
+\end{align*}
+حاصل ہوتا ہے۔
+\انتہا{مثال}
+%=============
+\حصہ{نمونہ ادوار  کے سلسلہ وار، متوازی اور زنجیری جوڑ۔}
+
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) rectangle ++(\xx,\yy);
+\draw(0,\yy/8) --++(-\xx/4,0)--++(-\xx/2,-\yy/2-\yy/4) to [short,*-o]++(-\xx,0)coordinate(b);
+\draw(0,\yy-\yy/8)to [short,i<_={$\bI_{1a}$}]++(-\xx/4,0)--++(-\xx/2,-\yy/2-\yy/4) to [short,*-o,i<_={$\bI_1$}]++(-\xx,0)coordinate(a);
+\draw(\xx,\yy/8)--++(\xx/4,0)--++(\xx/2,-\yy/2-\yy/4) to [short,*-]++(\xx,0);
+\draw(\xx,\yy-\yy/8)to [short,i<={$\bI_{2a}$}]++(\xx/4,0)--++(\xx/2,-\yy/2-\yy/4) to [short,*-o,i<={$\bI_2$}]++(\xx,0)coordinate(c);
+\draw(0,\yy-\yy/8) to [open,v={$\bV_{1a}$}]++(0,-3/4*\yy);
+\draw(\xx,\yy-\yy/8) to [open,v^<={$\bV_{2a}$}]++(0,-3/4*\yy);
+\draw(a) to [open,v={$\bV_1$}](b);
+\draw(\xx/2,\yy/2)node{$\begin{aligned} & y_{11a} \quad y_{12a}\\ &y_{21a} \quad y_{22a} \end{aligned}$};
+%
+\draw(0,-\yy-\yy/2)coordinate(LLB) rectangle ++(\xx,\yy);
+\draw(LLB)++(0,\yy/8)--++(-\xx/4,0)--++(-\xx/2,\yy/2+\yy/4);
+\draw(LLB)++(0,\yy-\yy/8)to [short,i<_={$\bI_{1b}$}]++(-\xx/4,0)--++(-\xx/2,\yy/2+\yy/4);
+\draw(LLB)++(\xx,\yy/8)--++(\xx/4,0)--++(\xx/2,\yy/2+\yy/4) to [short,*-o]++(\xx,0)coordinate(d);
+\draw(LLB)++(\xx,\yy-\yy/8)to [short,i<={$\bI_{2b}$}]++(\xx/4,0)--++(\xx/2,\yy/2+\yy/4) to [short,*-o]++(\xx,0);
+\draw(LLB)++(0,\yy-\yy/8) to [open,v={$\bV_{1b}$}]++(0,-3/4*\yy);
+\draw(LLB)++(\xx,\yy-\yy/8) to [open,v^<={$\bV_{2b}$}]++(0,-3/4*\yy);
+\draw(c) to [open,v={$\bV_2$}](d);
+\draw(LLB)++(\xx/2,\yy/2)node{$\begin{aligned} & y_{11b} \quad y_{12b}\\ &y_{21b} \quad y_{22b} \end{aligned}$};
+\end{tikzpicture}
+\caption{چار سر ادوار متوازی جڑے ہیں۔}
+\label{شکل_نمونہ_متوازی_ادوار}
+\end{figure}
+
+%=============================
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) rectangle ++(\xx,\yy);
+\draw(\xx/2,\yy/2)node{$\begin{aligned} &z_{11a} \quad z_{12a}\\ & z_{21a} \quad z_{22a} \end{aligned}$};
+\draw(0,\yy-\yy/8) to [short,-o,i<_={$\bI_1$}]++(-\xx,0)coordinate(a);
+\draw(\xx,\yy-\yy/8) to [short,-o,i<={$\bI_2$}]++(\xx,0)coordinate(c);
+\draw(0,\yy-\yy/8) to [open,v={$\bV_{1a}$}]++(0,-3/4*\yy);
+\draw(\xx,\yy-\yy/8) to [open,v^<={$\bV_{2a}$}]++(0,-3/4*\yy);
+%
+\draw(0,-\yy-\yy/2)coordinate(LLL) rectangle ++(\xx,\yy);
+\draw(LLL)++(\xx/2,\yy/2)node{$\begin{aligned} &z_{11a} \quad z_{12b}\\ & z_{21b} \quad z_{22b} \end{aligned}$};
+\draw(LLL)++(0,\yy-\yy/8) to [short,i<_={$\bI_1$}]++(-\xx/2,0)--++(0,\yy/2+\yy/4)--++(\xx/2,0);
+\draw(LLL)++(\xx,\yy-\yy/8) to [short,i<={$\bI_2$}]++(\xx/2,0)--++(0,\yy/2+\yy/4)--++(-\xx/2,0);
+\draw(LLL)++(0,\yy/8) to [short,-o]++(-\xx,0)coordinate(b);
+\draw(LLL)++(\xx,\yy/8) to [short,-o]++(\xx,0)coordinate(d);
+\draw(LLL)++(0,\yy-\yy/8) to [open,v={$\bV_{1b}$}]++(0,-3/4*\yy);
+\draw(LLL)++(\xx,\yy-\yy/8) to [open,v^<={$\bV_{2b}$}]++(0,-3/4*\yy);
+\draw(a) to [open,v={$\bV_1$}] (b);
+\draw(c) to [open,v={$\bV_2$}] (d);
+\end{tikzpicture}
+\caption{چار سر ادوار سلسلہ وار جڑے ہیں۔}
+\label{شکل_نمونہ_سلسلہ_وار_ادوار}
+\end{figure}

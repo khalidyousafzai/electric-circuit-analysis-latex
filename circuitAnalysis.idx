@@ -1,9 +1,19 @@
+\indexentry{block diagram}{\RL {\arabicfont  823}}
+\indexentry{ڈبہ دور}{\RL {\arabicfont  823}}
 \indexentry{admittance,short-circuit input}{\RL {\arabicfont  824}}
 \indexentry{داخلی فراوانی!قصر دور}{\RL {\arabicfont  824}}
 \indexentry{قصر دور!داخلی فراوانی}{\RL {\arabicfont  824}}
 \indexentry{output admittance!short-circuit}{\RL {\arabicfont  824}}
 \indexentry{transadmittance!short-circuit}{\RL {\arabicfont  824}}
 \indexentry{قصر دور!فراوانی نما}{\RL {\arabicfont  824}}
+\indexentry{model!admittance}{\RL {\arabicfont  824}}
+\indexentry{admittance!model}{\RL {\arabicfont  824}}
+\indexentry{نمونہ!فراوانی}{\RL {\arabicfont  824}}
+\indexentry{فراوانی نمونہ}{\RL {\arabicfont  824}}
+\indexentry{model!impedance}{\RL {\arabicfont  828}}
+\indexentry{impedance!model}{\RL {\arabicfont  828}}
+\indexentry{نمونہ!رکاوٹی}{\RL {\arabicfont  828}}
+\indexentry{رکاوٹی نمونہ}{\RL {\arabicfont  828}}
 \indexentry{open circuit!input impedance}{\RL {\arabicfont  829}}
 \indexentry{داخلی رکاوٹ!کھلے سر}{\RL {\arabicfont  829}}
 \indexentry{کھلے سر!داخلی رکاوٹ}{\RL {\arabicfont  829}}
@@ -13,3 +23,23 @@
 \indexentry{transimpedance!open-circuit}{\RL {\arabicfont  829}}
 \indexentry{رکاوٹ نما!کھلے سر}{\RL {\arabicfont  829}}
 \indexentry{کھلے سر!رکاوٹ نما}{\RL {\arabicfont  829}}
+\indexentry{hybrid model}{\RL {\arabicfont  833}}
+\indexentry{model!hybrid}{\RL {\arabicfont  833}}
+\indexentry{نمونہ!دوغلائی}{\RL {\arabicfont  833}}
+\indexentry{دوغلائی نمونہ}{\RL {\arabicfont  833}}
+\indexentry{hybrid!h_{12}}{\RL {\arabicfont  834}}
+\indexentry{دوغلائی!کھلے سر الٹ افزائش دباو}{\RL {\arabicfont  834}}
+\indexentry{hybrid!h_{11}}{\RL {\arabicfont  834}}
+\indexentry{دوغلائی!قصر دور داخلی رکاوٹ}{\RL {\arabicfont  834}}
+\indexentry{hybrid!h_{22}}{\RL {\arabicfont  834}}
+\indexentry{دوغلائی!کھلے سر خارجی فراوانی}{\RL {\arabicfont  834}}
+\indexentry{hybrid!h_{21}}{\RL {\arabicfont  834}}
+\indexentry{دوغلائی!قصر دور افزائش رو}{\RL {\arabicfont  834}}
+\indexentry{model!transmission}{\RL {\arabicfont  835}}
+\indexentry{ترسیلی نمونہ}{\RL {\arabicfont  835}}
+\indexentry{نمونہ!ترسیلی}{\RL {\arabicfont  835}}
+\indexentry{کھلے سر فراوانی نما}{\RL {\arabicfont  835}}
+\indexentry{منفی قصر دور رکاوٹ نما}{\RL {\arabicfont  835}}
+\indexentry{ABCD parameters}{\RL {\arabicfont  835}}
+\indexentry{کھلے سر تناسب دباو}{\RL {\arabicfont  835}}
+\indexentry{منفی تناسب رو}{\RL {\arabicfont  835}}
