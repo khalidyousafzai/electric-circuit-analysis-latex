@@ -1,4 +1,4 @@
-\باب{چار سر ادوار کے ریاضی نمانے}
+\باب{چار سر ادوار کے ریاضی نمونے}
 
 حصہ{فراوانی نمونہ}
 شکل \حوالہ{شکل_نمونہ_ڈبہ_دور} میں چار سروں والا \اصطلاح{ڈبہ دور}\فرہنگ{ڈبہ دور}\حاشیہب{block diagram}\فرہنگ{block diagram} دکھایا گیا ہے جس کی اندرونی ساخت کے بار میں ہم کچھ نہیں جانتے۔دور کے داخلی سروں کو بائیں ہاتھ اور خارجی سروں کو دائیں ہاتھ دکھایا جاتا ہے لہٰذا \عددی{AB} داخلی اور \عددی{CD} خارجی سرے ہیں۔داخلی اور خارجی سروں پر دباو کے قطب اور رو کی سمتیں دکھائی گئی ہیں۔یوں نچلے سروں کو حوالہ سرا لیا جاتا ہے اور دونوں اطراف سے دور میں رو داخل ہوتی ہے۔
@@ -18,7 +18,7 @@
 \label{شکل_نمونہ_ڈبہ_دور}
 \end{figure}
 
- داخلی متغیرات مثلا \عددی{\bI_1} اور \عددی{\bV_1} کو زیر نوشت میں \عددی{1} سے ظاہر کیا جاتا ہے  جبکہ خارجی متغیرات کو زیر نوشت میں \عددی{2} سے ظاہر کیا جاتا ہے۔ڈبہ دور خطی دور ہے جس میں غیر تابع منبع نہیں پائے جاتے لہٰذا \عددی{\bI_1} اور \عددی{\bI_2} حاصل کرتے ہوئے مسئلہ نفاذ استعمال کیا جا سکتا ہے۔ یوں \عددی{\bV_1} اور \عددی{\bV_2} سے پیدا داخلی جانب رو کا مجموعہ \عددی{\bI_1} ہو گا اور اسی طرح خارجی جانب دونوں اطراف کے دباو سے پیدا رو کا مجموعہ \عددی{\bI_2} ہو گا یعنی
+ داخلی متغیرات مثلاً \عددی{\bI_1} اور \عددی{\bV_1} کو زیر نوشت میں \عددی{1} سے ظاہر کیا جاتا ہے  جبکہ خارجی متغیرات کو زیر نوشت میں \عددی{2} سے ظاہر کیا جاتا ہے۔ڈبہ دور خطی دور ہے جس میں غیر تابع منبع نہیں پائے جاتے لہٰذا \عددی{\bI_1} اور \عددی{\bI_2} حاصل کرتے ہوئے مسئلہ نفاذ استعمال کیا جا سکتا ہے۔ یوں \عددی{\bV_1} اور \عددی{\bV_2} سے پیدا داخلی جانب رو کا مجموعہ \عددی{\bI_1} ہو گا اور اسی طرح خارجی جانب دونوں اطراف کے دباو سے پیدا رو کا مجموعہ \عددی{\bI_2} ہو گا یعنی
 \begin{gather}
 \begin{aligned}\label{مساوات_نمونہ_الف}
 \bI_1&=y_{11}\bV_1+y_{12}\bV_2\\
@@ -117,7 +117,7 @@ y_{22}&=\left. \frac{\bI_2}{\bV_2} \right|_{\bV_1=0}
 \begin{align*}
 y_{11}&=\left. \frac{\bI_1}{\bV_1}\right|_{\bV_2=0}=\frac{3}{4}\, \si{\siemens}
 \end{align*}
-حاصل ہوتا ہے۔چونکہ \عددی{y_{11}} اور \عددی{y_{21}} کے حصول میں \عددی{\bV_2} کو قسر دور کیا جاتا ہے لہٰذا یہ دونوں شکل-ب سے حاصل ہوں گے۔دور کو دیکھ کر درج ذیل لکھا جا سکتا ہے
+حاصل ہوتا ہے۔چونکہ \عددی{y_{11}} اور \عددی{y_{21}} کے حصول میں \عددی{\bV_2} کو قصر دور کیا جاتا ہے لہٰذا یہ دونوں شکل-ب سے حاصل ہوں گے۔دور کو دیکھ کر درج ذیل لکھا جا سکتا ہے
 \begin{align*}
 \bI_2=-\frac{\bV_1}{4}
 \end{align*}
@@ -553,8 +553,38 @@ D=\left. -\frac{\bI_1}{\bI_2}\right|_{\bV_2=0}=1+j\frac{2}{3}
 حاصل ہوتا ہے۔
 \انتہا{مثال}
 %=============
-\حصہ{نمونہ ادوار  کے سلسلہ وار، متوازی اور زنجیری جوڑ۔}
+\حصہ{چار سر ادوار  کے باہمی جوڑ}
+عموماً بڑا نظام متعدد چھوٹے حصوں پر مشتمل ہوتا ہے۔چھوٹے حصے پر مکمل توجہ دینا زیادہ آسان ہوتا ہے۔انفرادی چھوٹے حصوں کو مختلف طریقوں سے جوڑ کر مکمل نظام تخلیق دیا جاتا ہے۔ہر حصے کو چار سر دور تصور  کرتے ہوئے ہم دیکھتے ہیں کہ انہیں کس طرح آپس میں جوڑا جاتا ہے۔اس حصے میں متوازی، سلسلہ وار اور زنجیری جوڑ پر غور کیا جائے گا۔
 
+شکل \حوالہ{شکل_نمونہ_متوازی_ادوار} میں دو عدد چار سر ادوار کو متوازی جوڑا گیا ہے۔ہم فرض کرتے ہیں کہ انہیں متوازی جوڑنے سے انفرادی حصے کی کارکردگی تبدیل نہیں ہوتی۔اس مکمل نظام کی \عددی{Y} قالب حاصل کرتے ہیں۔چونکہ
+\begin{align*}
+\bI_1&=\bI_{1a}+\bI_{1b}\\
+\bI_2&=\bI_{2a}+\bI_{2b}
+\end{align*}
+ہے لہٰذا مساوات \حوالہ{مساوات_نمونہ_الف} استعمال کرتے ہوئے
+\begin{align*}
+\bI_1&=(y_{11a}\bV_{1a}+y_{12a}\bV_{2a})+(y_{11b}\bV_{1b}+y_{12b}\bV_{2b})\\
+\bI_2&=(y_{21a}\bV_{1b}+y_{22a}\bV_{2b})+(y_{21b}\bV_{1b}+y_{22b}\bV_{2b})
+\end{align*}
+
+لکھا جا سکتا ہے۔اس میں \عددی{\bV_{1a}=\bV_{2a}=\bV_1} پر کرتے ہوئے
+\begin{align*}
+\bI_1&=(y_{11a}+y_{11b})\bV_{1}+(y_{12a}+y_{12b})\bV_{2}\\
+\bI_2&=(y_{21a}+y_{21b})\bV_1+(y_{22a}+y_{22b})\bV_2
+\end{align*}
+ملتا ہے جس سے مکمل نظام کی \عددی{Y} قالب حاصل ہوتی ہے۔
+\begin{align}
+\begin{bmatrix}
+y_{11}&y_{12}\\
+y_{21}&y_{22}
+\end{bmatrix}
+=
+\begin{bmatrix}
+y_{11a}+y_{11b}& y_{12a}+y_{12b}\\
+y_{21a}+y_{21b}& y_{22a}+y_{22b}
+\end{bmatrix}
+\end{align}
+%
 \begin{figure}
 \centering
 \begin{tikzpicture}[american voltages]
@@ -582,6 +612,18 @@ D=\left. -\frac{\bI_1}{\bI_2}\right|_{\bV_2=0}=1+j\frac{2}{3}
 \label{شکل_نمونہ_متوازی_ادوار}
 \end{figure}
 
+شکل \حوالہ{شکل_نمونہ_سلسلہ_وار_ادوار} میں چار سر ادوار کو سلسلہ وار جوڑا گیا ہے۔مکمل دور کی \عددی{Z} قالب درج ذیل ہے۔ 
+\begin{align}
+\begin{bmatrix}
+z_{11}&z_{12}\\
+z_{21}&z_{22}
+\end{bmatrix}
+=
+\begin{bmatrix}
+z_{11a}+z_{11b}&z_{12a}+z_{12b}\\
+z_{21a}+z_{21b} & z_{22a}+z_{22b}
+\end{bmatrix}
+\end{align}
 %=============================
 \begin{figure}
 \centering
@@ -607,3 +649,178 @@ D=\left. -\frac{\bI_1}{\bI_2}\right|_{\bV_2=0}=1+j\frac{2}{3}
 \caption{چار سر ادوار سلسلہ وار جڑے ہیں۔}
 \label{شکل_نمونہ_سلسلہ_وار_ادوار}
 \end{figure}
+
+شکل \حوالہ{شکل_نمونہ_زنجیری_ادوار} میں چار سر ادوار زنجیری جڑے ہیں۔مکمل نظام کی مساوات  درج ذیل ہے۔
+\begin{align}
+\begin{bmatrix}
+\bV_1\\
+\bI_1
+\end{bmatrix}
+=
+\begin{bmatrix}
+A_a & B_a\\
+C_a & D_a
+\end{bmatrix}
+\begin{bmatrix}
+A_b & B_b\\
+C_b & D_b
+\end{bmatrix}
+\begin{bmatrix}
+\bV_2\\
+-\bI_2
+\end{bmatrix}
+\end{align}
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) rectangle ++(\xx,\yy);
+\draw(0,\yy-\yy/8) to [short,i_<={$\bI_{1a}$}]++(-\xx/4,0)to [short,-o,i_<={$\bI_1$}]++(-\xx/4,0);
+\draw(0,\yy/8) to [short,-o]++(-\xx/2,0);
+\draw(\xx,\yy-\yy/8) to [short,i^<={$\bI_{2a}$}]++(\xx/2,0) to [short,i={$\bI_{1b}$}]++(\xx/2,0);
+\draw(\xx,\yy/8) to [short]++(\xx,0);
+\draw(2*\xx,0) rectangle ++(\xx,\yy);
+\draw(3*\xx,\yy-\yy/8) to [short,i<={$\bI_{2a}$}]++(\xx/4,0) to [short,-o,i<={$\bI_2$}]++(\xx/4,0);
+\draw(3*\xx,\yy/8) to [short,-o]++(\xx/2,0);
+%
+\draw(-\xx/2,\yy-\yy/8) to [open,v={$\bV_1$}]++(0,-\yy+\yy/4);
+\draw(0,\yy-\yy/8) to [open,v={$\bV_{1a}$}]++(0,-\yy+\yy/4);
+\draw(\xx,\yy-\yy/8) to [open,v^<={$\bV_{2a}$}]++(0,-\yy+\yy/4);
+\draw(2*\xx,\yy-\yy/8) to [open,v={$\bV_{1b}$}]++(0,-\yy+\yy/4);
+\draw(3*\xx,\yy-\yy/8) to [open,v^<={$\bV_{2b}$}]++(0,-\yy+\yy/4);
+\draw(3*\xx+\xx/2,\yy-\yy/8) to [open,v^<={$\bV_{2}$}]++(0,-\yy+\yy/4);
+%
+\draw(\xx/2,\yy/2)node{$\begin{aligned} &A_a \quad B_a\\ &C_a \quad D_a \end{aligned}$};
+\draw(2*\xx+\xx/2,\yy/2)node{$\begin{aligned} &A_b \quad B_b\\ &C_b \quad D_b \end{aligned}$};
+\end{tikzpicture}
+\caption{چار سر ادوار زنجیری جڑے ہیں۔}
+\label{شکل_نمونہ_زنجیری_ادوار}
+\end{figure}
+%=====================
+\ابتدا{مثال}\شناخت{مثال_نمونہ_وائے}
+شکل \حوالہ{شکل_نمونہ_وائے}-الف کی \عددی{Y} قالب حاصل کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,o-]++(\x/4,0) to [resistor,l={$\SI{1}{\ohm}$}]++(\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [short,-o]++(\x/4,0);
+\draw(0,-\y) to [short,o-o]++(2*\x+\x/2,0);
+\draw(\x+\x/4,0) to [resistor,*-*,l={$\SI{2}{\ohm}$}]++(0,-\y);
+\draw(\x/4,0) to [short,*-]++(0,\y/2) to [inductor,l={$j4$}]++(2*\x,0) to [short,-*]++(0,-\y/2);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,o-]++(\x/4,0) to [resistor,l={$\SI{1}{\ohm}$}]++(\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [short,-o]++(\x/4,0);
+\draw(0,-\y) to [short,o-o]++(2*\x+\x/2,0);
+\draw(\x+\x/4,0) to [resistor,*-*,l={$\SI{2}{\ohm}$}]++(0,-\y);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,-\y) to [short,o-o]++(2*\x+\x/2,0);
+\draw(0,0) to [inductor,l={$j4$},o-o]++(2*\x+\x/2,0);
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_نمونہ_وائے} کا دور۔}
+\label{شکل_نمونہ_وائے}
+\end{figure}
+
+حل:شکل-ب اور شکل-پ کو متوازی جوڑنے سے شکل-الف حاصل ہوتی ہے۔آئیں شکل-ب اور شکل-پ کے قالب حاصل کرتے ہوئے شکل-الف کی قالب دریافت کرتے ہیں۔شکل-ب کی قالب درج ذیل ہے جو با آسانی حاصل ہوتی ہے۔
+\begin{align*}
+\begin{bmatrix}
+\frac{1}{2} & -1\\
+-\frac{1}{4}& \frac{3}{2}
+\end{bmatrix}
+\end{align*}
+ شکل-پ کی قالب درج ذیل ہے۔
+\begin{align*}
+\begin{bmatrix}
+\frac{1}{j4}& -\frac{1}{j4}\\
+-\frac{1}{j4}& \frac{1}{j4}
+\end{bmatrix}
+\end{align*}
+یوں مکمل نظام کی قالب درج ذیل حاصل ہوتی ہے۔
+\begin{align*}
+\begin{bmatrix}
+\frac{1}{2} +\frac{1}{j4}& -1-\frac{1}{j4}\\
+-\frac{1}{4}-\frac{1}{j4}& \frac{3}{2}+\frac{1}{j4}
+\end{bmatrix}
+\end{align*}
+آپ سے گزارش ہے شکل-الف سے یہی جواب حاصل کر کے دیکھیں۔آپ یقیناً ایسا کرنا زیادہ مشکل پائیں گے۔
+\انتہا{مثال}
+%=======================
+\ابتدا{مثال}\شناخت{مثال_نمونہ_چھلنی_زنجیری}
+شکل \حوالہ{شکل_نمونہ_چھلنی_زنجیری}-الف میں \عددی{T} دور دکھایا گیا ہے۔اس کی تین کڑیاں زنجیری جوڑنے سے شکل-ب حاصل ہوتا ہے۔شکل-ب کی \عددی{ABCD} قالب حاصل کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [resistor,o-,l={$\SI{1}{\ohm}$}]++(\x,0) to [resistor,-o,l={$\SI{1}{\ohm}$}]++(\x,0);
+\draw(0,-\y) to [short,o-o]++(2*\x,0);
+\draw(\x,-\y) to [capacitor,*-*,l={$\SI{1}{\farad}$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [resistor,o-,l={$\SI{1}{\ohm}$}]++(\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0)to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [resistor,-o,l={$\SI{1}{\ohm}$}]++(\x,0);
+\draw(0,-\y) to [short,o-o]++(4*\x,0);
+\draw(\x,-\y) to [capacitor,*-*,l={$\SI{1}{\farad}$}]++(0,\y);
+\draw(2*\x,-\y) to [capacitor,*-*,l={$\SI{1}{\farad}$}]++(0,\y);
+\draw(3*\x,-\y) to [capacitor,*-*,l={$\SI{1}{\farad}$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\caption{مثال \حوالہ{مثال_نمونہ_چھلنی_زنجیری} کا دور۔}
+\label{شکل_نمونہ_چھلنی_زنجیری}
+\end{figure}
+
+حل:متعدد \عددی{T} ادوار کو زنجیری جوڑنے سے بہتر چھلنی کا حصول ممکن بنایا جاتا ہے۔شکل-الف کی قالب با آسانی حاصل ہوتی ہے۔اس کو پیش کرتے ہیں۔
+\begin{align*}
+\begin{bmatrix}
+1+j\omega& 2+j\omega\\
+j\omega&1+j\omega
+\end{bmatrix}
+\end{align*}
+یوں مکمل دور کی قالب درج ذیل ہو گی۔
+\begin{align*}
+\begin{bmatrix}
+A& B\\
+C&D
+\end{bmatrix}
+=
+\begin{bmatrix}
+1+j\omega& 2+j\omega\\
+j\omega&1+j\omega
+\end{bmatrix}
+\begin{bmatrix}
+1+j\omega& 2+j\omega\\
+j\omega&1+j\omega
+\end{bmatrix}
+\begin{bmatrix}
+1+j\omega& 2+j\omega\\
+j\omega&1+j\omega
+\end{bmatrix}
+\end{align*}
+اس کو حل کرتے ہوئے درج ذیل ملتا ہے۔
+\begin{align*}
+\begin{bmatrix}
+A& B\\
+C&D
+\end{bmatrix}
+=
+\begin{bmatrix}
+1-12\omega^2+j\omega(9-4\omega^2) & 6-16\omega^2+j\omega(19-4\omega^2)\\
+-8\omega^2+j\omega(3-4\omega^2)&1-12\omega^2+j\omega(9-4\omega^2)
+\end{bmatrix}
+\end{align*}
+\انتہا{مثال}
+%=======================
