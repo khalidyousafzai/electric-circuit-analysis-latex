@@ -520,3 +520,525 @@ t=\frac{6120}{100\times 10^{-3}}=\SI{61200}{\second} =\SI{17}{\hour}
 سترہ گھنٹے درکار ہوں گے۔
 \انتہا{مثال}
 %=====================
+%==========================
+\حصہء{سوالات}
+\ابتدا{سوال}
+ایک تار میں \عددی{\SI{1.5}{\ampere}} رو پائی جاتی ہے۔اس تار پر کسی نقطے سے \عددی{\SI{45}{\second}} میں کتنا بار گزرتا ہے۔
+
+جواب:\عددی{\SI{67.5}{\coulomb}}
+\انتہا{سوال}
+%======================
+\ابتدا{سوال}
+ایک تار سے \عددی{\SI{22}{\second}} میں کل \عددی{10^{21}} الیکٹران گزرتے ہیں۔تار میں اوسط رو دریافت کریں۔
+ 
+جواب:\عددی{\SI{7.27}{\ampere}}
+\انتہا{سوال}
+%======================
+\ابتدا{سوال}
+\عددی{\SI{20}{\ampere}} بیٹری چارجر کتنی دیر میں \عددی{\SI{4000}{\coulomb}} بار فراہم کرے گا۔
+
+جواب:\عددی{\SI{200}{\second}} 
+\انتہا{سوال}
+%======================
+\ابتدا{سوال}
+آسمانی بجلی \عددی{\SI{60}{\micro\second}} کے لئے \عددی{\SI{20}{\kilo\ampere}} فراہم کرتی ہے۔آسمانی بجلی میں کل بار دریافت کریں۔
+
+جواب:\عددی{\SI{1.2}{\coulomb}}
+\انتہا{سوال}
+%======================
+\ابتدا{سوال}
+ایک تار میں \عددی{\SI{32}{\second}} میں \عددی{\SI{88}{\coulomb}} بار گزرتا ہے۔ تار میں رو دریافت کریں۔
+
+جواب:\عددی{\SI{2.75}{\ampere}}
+\انتہا{سوال}
+%====================
+\ابتدا{سوال}\شناخت{سوال_مزاحمتی_ضاع_الٹ_دباو}
+شکل \حوالہ{شکل_سوال_مزاحمتی_ضاع_الٹ_دباو} میں نقطہ-الف سے نقطہ-ب تک بیرونی پرزے میں دس کولومب کا بار گزرتا ہے جبکہ پرزے میں توانائی کا ضیاع پچاس جاول ہے۔دباو \عددی{V_1} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) rectangle ++(-0.5,\yy+0.5);
+\draw(0,0.25) to [short,-o]++(\xx/2,0)node[below]{\text{الف}}  to [short]++(\xx/2,0)to [european resistor]++(0,\yy) to [short,-o]++(-\xx/2,0)node[above]{\text{ب}} to [short]++(-\xx/2,0);
+\draw (\xx/2,\yy+0.25) to [open,v={$V_1$}]++(0,-\yy);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مزاحمتی_ضاع_الٹ_دباو} کا دور۔}
+\label{شکل_سوال_مزاحمتی_ضاع_الٹ_دباو}
+\end{figure}
+
+جواب:\عددی{V_1=\SI{-5}{\volt}}
+\انتہا{سوال}
+%=============
+\ابتدا{سوال}\شناخت{سوال_بنیادی_ترسیم_رو_بار}
+ایک پرزے کا رو بالمقابل وقت ترسیم شکل \حوالہ{شکل_سوال_بنیادی_ترسیم_رو_بار} میں دیا گیا ہے۔ان بیس سیکنڈ دورانیے میں کتنا بار پرزے میں داخل ہو گا۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\centering
+\begin{axis}[small,axis lines*=middle,xlabel={$t\,(\si{\second})$},ylabel={$i(t)\, (\si{\milli\ampere})$},ylabel style={rotate=-90},ytick={2},yticklabels={$20$},xtick={2,4,6},xticklabels={$2$,$4$,$6$}]
+\addplot[] plot coordinates{(0,2) (4,2) (6,0)};
+\end{axis}
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_بنیادی_ترسیم_رو_بار} کا ترسیم۔}
+\label{شکل_سوال_بنیادی_ترسیم_رو_بار}
+\end{figure}
+
+جواب:\عددی{\SI{100}{\milli\coulomb}}
+\انتہا{سوال}
+%==============
+\ابتدا{سوال}
+ایک پرزے کے مثبت سر سے \عددی{q(t)=22e^{-5t}\,\si{\milli\ampere}} بار داخل ہوتا ہے جبکہ پرزے پر دباو \عددی{v(t)=15e^{-2t}\,\si{\volt}} ہے۔دورانیے \عددی{0 \le t \le \SI{3}{\second}} میں پرزے کو کتنی توانائی منتقل ہوتی ہے۔
+
+جواب:\عددی{\SI{47.14}{\milli\joule}}
+\انتہا{سوال}
+%=================
+\ابتدا{سوال}\شناخت{سوال_بنیادی_طاقت_وقت}
+ایک پرزے کو منتقل توانائی بالمقابل وقت ترسیم شکل \حوالہ{شکل_سوال_بنیادی_طاقت_وقت} میں دیا گیا ہے جبکہ پرزے پر \عددی{\SI{2}{\volt}} دباو پایا جاتا ہے۔ان تیس سیکنڈ دورانیے میں پرزے کو کتنا بار فراہم کیا گیا ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\centering
+\begin{axis}[small,axis lines*=middle,xlabel={$t\,(\si{\second})$},ylabel={$w(t)\, (\si{\milli\joule})$},ylabel style={rotate=-90},ytick={20,30},yticklabels={$20$,$30$},xtick={8,12,15,20,30},xticklabels={$8$,$12$,$15$,$20$,$30$}]
+\addplot[] plot coordinates{(0,0) (8,20) (12,20) (15,30) (20,30) (30,0)};
+\end{axis}
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_بنیادی_طاقت_وقت} کا ترسیم۔}
+\label{شکل_سوال_بنیادی_طاقت_وقت}
+\end{figure}
+
+جواب:\عددی{\SI{107}{\milli\coulomb}}
+\انتہا{سوال}
+%==============
+\ابتدا{سوال}\شناخت{سوال_بنیادی_بار_وقت}
+ایک پرزے کے مثبت سر پر داخلی بار بالمقابل وقت ترسیم شکل \حوالہ{شکل_سوال_بنیادی_بار_وقت}-الف میں دیا گیا ہے جبکہ پرزے پر \عددی{\SI{6}{\volt}} دباو پایا جاتا ہے۔ان بیس سیکنڈ دورانیے میں پرزے کو کتنی توانائی فراہم کی جاتی ہے۔دور کو شکل-ب میں دکھایا گیا ہے۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.7\textwidth}
+\centering
+\begin{tikzpicture}
+\centering
+\begin{axis}[small,xlabel={$t\,(\si{\second})$},ylabel={$q(t)\, (\si{\milli\coulomb})$},ylabel style={rotate=-90},ytick={-10,0,4,6},yticklabels={$-10$,$0$,$4$,$6$},xtick={0,5,7,9,12,18,20},xticklabels={$0$,$5$,$7$,$9$,$12$,$18$,$20$}]
+\addplot[] plot coordinates{(0,4) (5,4) (7,0) (9,0) (12,-10) (18,6) (20,6)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.3\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) rectangle ++(\xx/2,\yy+0.5);
+\draw(0,0.25) to [short]++(-\xx/2,0) to [american voltage source,l={$\SI{6}{\volt}$}]++(0,\yy) to [short,i={$i(t)$}]++(\xx/2,0);
+\draw(\xx/4,\yy/2+0.25)node{ڈبہ};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\caption{سوال \حوالہ{سوال_بنیادی_بار_وقت} کا ترسیم۔}
+\label{شکل_سوال_بنیادی_بار_وقت}
+\end{figure}
+
+جواب:\عددی{\SI{159}{\milli\joule}}
+\انتہا{سوال}
+%=======================
+\ابتدا{سوال}\شناخت{سوال_بنیادی_توانائی_وقت}
+ایک ڈبے کو فراہم طاقت بالمقابل وقت ترسیم شکل \حوالہ{شکل_سوال_بنیادی_توانائی_وقت}-الف میں دیا گیا ہے۔ان تیس سیکنڈ دورانیے میں ڈبے کو کتنی توانائی فراہم کی گئی؟۔دور کو شکل-ب میں دکھایا گیا ہے۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.7\textwidth}
+\centering
+\begin{tikzpicture}
+\centering
+\begin{axis}[small,xlabel={$t\,(\si{\second})$},ylabel={$p(t)\, (\si{\watt})$},ylabel style={rotate=-90},ytick={-6,0,10},
+yticklabels={$-6$,$0$,$10$},xtick={0,5,12,20,25,30},xticklabels={$0$,$5$,$12$,$20$,$25$,$30$}]
+\addplot[] plot coordinates{(-1,0) (0,0) (5,10) (12,10) (20,0) (25,0) (25,-6) (30,0)(32,0)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.3\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) rectangle ++(\xx/2,\yy+0.5);
+\draw(0,0.25) to [short]++(-\xx/2,0) to [american voltage source,l={$\SI{8}{\volt}$}]++(0,\yy) to [short,i={$i(t)$}]++(\xx/2,0);
+\draw(\xx/4,\yy/2+0.25)node{ڈبہ};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\caption{سوال \حوالہ{سوال_بنیادی_توانائی_وقت} کا ترسیم۔}
+\label{شکل_سوال_بنیادی_توانائی_وقت}
+\end{figure}
+
+جواب:\عددی{\SI{120}{\joule}}
+\انتہا{سوال}
+%===============
+\ابتدا{سوال}\شناخت{سوال_بنیادی_طاقت_مہیا_حاصل_الف}
+شکل \حوالہ{شکل_بنیادی_طاقت_مہیا_حاصل_الف} میں پرزہ الف کو مہیا یا اس سے حاصل طاقت درج ذیل صورتوں میں دریافت کریں۔
+\begin{itemize}
+\item
+$V_1=\SI{6}{\volt}$ اور $I=\SI{2}{\ampere}$ ہیں۔
+\item
+$V_1=\SI{-3}{\volt}$ اور $I=\SI{7}{\ampere}$ ہیں۔
+\item
+$V_1=\SI{5}{\volt}$ اور $I=\SI{-4}{\ampere}$ ہیں۔
+\item
+$V_1=\SI{-4}{\volt}$ اور $I=\SI{-2}{\ampere}$ ہیں۔
+\end{itemize}
+%
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,-0.25) rectangle ++(-0.5,\yy+0.5);
+\draw(0,\yy) to [short,-o]++(\xx/2,0) to [short,o-,i={$I$}]++(\xx/2,0) to [european resistor,l={الف}]++(0,-\yy) to [short,-o]++(-\xx/2,0) to [short,o-]++(-\xx/2,0);
+\draw(\xx/2,\yy) to [open,v={$V_1$}]++(0,-\yy);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_بنیادی_طاقت_مہیا_حاصل_الف} کا دور۔}
+\label{شکل_بنیادی_طاقت_مہیا_حاصل_الف}
+\end{figure}
+
+جوابات:\عددی{\SI{12}{\watt}}، \عددی{\SI{-21}{\watt}}، \عددی{\SI{-20}{\watt}}، \عددی{\SI{8}{\watt}} 
+\انتہا{سوال}
+%===============
+\ابتدا{سوال}\شناخت{سوال_بنیادی_طاقت_مہیا_حاصل_ب}
+شکل \حوالہ{شکل_سوال_بنیادی_طاقت_مہیا_حاصل_ب} میں پرزہ الف اور ب کو مہیا یا حاصل طاقت  دریافت کریں۔
+%
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,-0.25) rectangle ++(-0.5,\yy+0.5);
+\draw(0,\yy) to [short,-o]++(\xx/2,0) to [short,o-,i={$\SI{2}{\ampere}$}]++(\xx/2,0) to [european resistor,v_>={$\SI{6}{\volt}$},l={الف}]++(0,-\yy) to [short,-o]++(-\xx/2,0) to [short,o-]++(-\xx/2,0);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,-0.25) rectangle ++(-0.5,\yy+0.5);
+\draw(0,\yy) to [short,-o]++(\xx/2,0) to [short,o-,i<={$\SI{3}{\ampere}$}]++(\xx/2,0) to [european resistor,v_>={$\SI{2}{\volt}$},l={ب}]++(0,-\yy) to [short,-o]++(-\xx/2,0) to [short,o-]++(-\xx/2,0);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_بنیادی_طاقت_مہیا_حاصل_ب} کا دور۔}
+\label{شکل_سوال_بنیادی_طاقت_مہیا_حاصل_ب}
+\end{figure}
+
+جوابات:پرزہ الف سے \عددی{\SI{12}{\watt}} طاقت حاصل کی جا رہی ہے۔ پرزہ ب کو \عددی{\SI{6}{\watt}} فراہم کی جا رہی ہے۔
+\انتہا{سوال}
+%===============
+\ابتدا{سوال}\شناخت{سوال_بنیادی_طاقت_مہیا_حاصل_پ}
+شکل \حوالہ{شکل_سوال_بنیادی_طاقت_مہیا_حاصل_پ} میں پرزہ الف کو \عددی{\SI{20}{\watt}} فراہم کی جا رہی ہے جبکہ پرزہ ب سے \عددی{\SI{12}{\watt}} حاصل کیا جا رہا ہے۔دباو \عددی{V_x} اور \عددی{V_y} دریافت کریں۔
+%
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,-0.25) rectangle ++(-0.5,\yy+0.5);
+\draw(0,\yy) to [short,-o]++(\xx/2,0) to [short,o-,i={$\SI{5}{\ampere}$}]++(\xx/2,0) to [european resistor,v_>={$V_x$},l={الف}]++(0,-\yy) to [short,-o]++(-\xx/2,0) to [short,o-]++(-\xx/2,0);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,-0.25) rectangle ++(-0.5,\yy+0.5);
+\draw(0,\yy) to [short,-o]++(\xx/2,0) to [short,o-,i<={$\SI{3}{\ampere}$}]++(\xx/2,0) to [european resistor,v_>={$V_y$},l={ب}]++(0,-\yy) to [short,-o]++(-\xx/2,0) to [short,o-]++(-\xx/2,0);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_بنیادی_طاقت_مہیا_حاصل_پ} کا دور۔}
+\label{شکل_سوال_بنیادی_طاقت_مہیا_حاصل_پ}
+\end{figure}
+س
+جوابات:\عددی{V_x=\SI{-4}{\volt}}، \عددی{V_y=\SI{-4}{\volt}}
+\انتہا{سوال}
+%===============
+\ابتدا{سوال}\شناخت{سوال_بنیادی_طاقت_مہیا_حاصل_ت}
+شکل \حوالہ{شکل_سوال_بنیادی_طاقت_مہیا_حاصل_ت} میں پرزہ الف کو \عددی{\SI{48}{\watt}} فراہم کی جا رہی ہے جبکہ پرزہ ب سے \عددی{\SI{36}{\watt}} حاصل کی جا رہی ہے۔رو \عددی{I_x} اور \عددی{I_y} دریافت کریں۔
+%
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,-0.25) rectangle ++(-0.5,\yy+0.5);
+\draw(0,\yy) to [short,-o]++(\xx/2,0) to [short,o-]++(\xx/2,0) to [european resistor,v_>={$\SI{12}{\volt}$},l={الف}]++(0,-\yy) to [short,-o,i={$I_x$}]++(-\xx/2,0) to [short,o-]++(-\xx/2,0);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,-0.25) rectangle ++(-0.5,\yy+0.5);
+\draw(0,\yy) to [short,-o]++(\xx/2,0) to [short,o-]++(\xx/2,0) to [european resistor,v_>={$\SI{6}{\volt}$},l={ب}]++(0,-\yy) to [short,-o,i<={$I_y$}]++(-\xx/2,0) to [short,o-]++(-\xx/2,0);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_بنیادی_طاقت_مہیا_حاصل_ت} کا دور۔}
+\label{شکل_سوال_بنیادی_طاقت_مہیا_حاصل_ت}
+\end{figure}
+
+جوابات:\عددی{I_x=\SI{-4}{\ampere}}، \عددی{I_y=\SI{-6}{\ampere}}
+\انتہا{سوال}
+%===============
+\ابتدا{سوال}\شناخت{سوال_بنیادی_طاقت_مہیا_حاصل_ٹ}
+شکل \حوالہ{شکل_سوال_بنیادی_طاقت_مہیا_حاصل_ٹ}-الف میں ایک پرزے کو \عددی{\SI{36}{\watt}} فراہم کئے جاتے ہیں جبکہ پرزے پر دباو \عددی{\SI{12}{\volt}} ہے۔پرزہ الف کی طاقت دریافت کریں۔کیا اس پرزے کو طاقت فراہم کی جا رہی ہے؟ شکل-ب میں پرزہ ب کے لئے بھی حل کریں۔
+%
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,-0.25) rectangle ++(-0.5,\yy+0.5);
+\draw(0,\yy) to [short,-o]++(\xx/2,0) to [european resistor,o-,v^<={$\substack{\SI{36}{\watt} \\ \SI{12}{\volt}}$}]++(\xx,0) to
+ [european resistor,v^<={$\SI{6}{\volt}$},l_={الف}]++(0,-\yy) to [short,-o]++(-\xx,0) to [short,o-]++(-\xx/2,0);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,-0.25) rectangle ++(-0.5,\yy+0.5);
+\draw(0,\yy) to [short,-o]++(\xx/2,0) to [european resistor,o-,v^<={$\substack{\SI{24}{\watt} \\ \SI{6}{\volt}}$}]++(\xx,0) to
+ [european resistor,v^>={$\SI{5}{\volt}$},l_={ب}]++(0,-\yy) to [short,-o]++(-\xx,0) to [short,o-]++(-\xx/2,0);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_بنیادی_طاقت_مہیا_حاصل_ٹ} کا دور۔}
+\label{شکل_سوال_بنیادی_طاقت_مہیا_حاصل_ٹ}
+\end{figure}
+
+جوابات:پرزہ الف کو \عددی{\SI{18}{\watt}} فراہم کی جاتی ہے جبکہ پرزہ ب سے \عددی{\SI{20}{\watt}} حاصل کیا جاتا ہے۔
+\انتہا{سوال}
+%===============
+\ابتدا{سوال}\شناخت{سوال_بنیادی_طاقت_مہیا_حاصل_ث}
+شکل \حوالہ{شکل_سوال_بنیادی_طاقت_مہیا_حاصل_ث}-الف میں  ایک پرزے کو \عددی{\SI{10}{\watt}} فراہم کئے جاتے ہیں جبکہ پرزے پر دباو \عددی{\SI{2}{\volt}} ہے۔پرزہ الف کی طاقت دریافت کریں۔کیا اس پرزے کو طاقت فراہم کی جا رہی ہے؟ شکل-ب کو بھی حل کریں۔
+%
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american current source,l={$\SI{8}{\ampere}$}]++(0,\yy) to [short]++(1.5*\xx,0) to [european resistor,l={$\substack{\SI{10}{\watt} \\ \SI{2}{\volt}}$}]++(0,-\yy) to [short]++(-1.5*\xx,0);
+\draw(3/4*\xx,0) to [european resistor,*-*,l={الف}]++(0,\yy);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american current source,l={$\SI{6}{\ampere}$}]++(0,\yy) to [short]++(1.5*\xx,0) to [european resistor,i={$\SI{2}{\ampere}$},l={$\SI{12}{\watt}$}]++(0,-\yy) to [short]++(-1.5*\xx,0);
+\draw(3/4*\xx,0) to [european resistor,*-*,l={ب}]++(0,\yy);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_بنیادی_طاقت_مہیا_حاصل_ث} کا دور۔}
+\label{شکل_سوال_بنیادی_طاقت_مہیا_حاصل_ث}
+\end{figure}
+
+جوابات:پرزہ الف کو \عددی{\SI{2}{\watt}} فراہم کئے جاتے ہیں۔ پرزہ ب کو \عددی{\SI{24}{\watt}} فراہم کئے جاتے ہیں۔
+\انتہا{سوال}
+%===============
+\ابتدا{سوال}\شناخت{سوال_بنیادی_طاقت_مہیا_حاصل_ج}
+شکل \حوالہ{شکل_بنیادی_سوال_طاقت_مہیا_حاصل_ج} میں پرزہ الف اور ب کی طاقر دریافت کریں۔ 
+%
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw (0,0) to [american current source,i={$\SI{4}{\ampere}$},v_>={$\SI{9}{\volt}$}]++(0,\yy) to [european resistor,l={الف}] ++(\xx,0);
+\draw(0,0) to [short]++(\xx,0) to [american voltage source,l_={$\SI{12}{\volt}$}]++(0,\yy);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw (0,0) to [american current source,i={$\SI{4}{\ampere}$},v_<={$\SI{9}{\volt}$}]++(0,\yy) to [european resistor,l={ب}] ++(\xx,0);
+\draw(0,0) to [short]++(\xx,0) to [american voltage source,l_={$\SI{12}{\volt}$}]++(0,\yy);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_بنیادی_طاقت_مہیا_حاصل_ج} کا دور۔}
+\label{شکل_بنیادی_سوال_طاقت_مہیا_حاصل_ج}
+\end{figure}
+
+جوابات:پرزہ الف \عددی{\SI{12}{\volt}} فراہم کرتا ہے۔ پرزہ ب سے \عددی{\SI{84}{\watt}} حاصل کیا جاتا  ہے۔
+\انتہا{سوال}
+%==============
+\ابتدا{سوال}\شناخت{سوال_بنیادی_طاقت_مہیا_حاصل_چ}
+شکل \حوالہ{شکل_بنیادی_سوال_طاقت_مہیا_حاصل_چ}-الف میں پرزہ الف \عددی{\SI{6}{\watt}} فراہم کرتا ہے۔اس میں رو کی مقدار اور سمت دریافت کریں۔شکل-ب میں پرزہ ب کو \عددی{\SI{12}{\watt}} طاقت فرہم کی جاتی ہے۔پرزہ ب میں رو دریافت کریں۔
+%
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw (0,0) to [american voltage source,l={$\SI{7}{\volt}$}]++(0,\yy) to [european resistor,l={الف}] ++(\xx,0);
+\draw(0,0) to [short]++(\xx,0) to [american voltage source,l_={$\SI{10}{\volt}$}]++(0,\yy);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw (0,0) to [american voltage source,l={$\SI{7}{\volt}$}]++(0,\yy) to [european resistor,l={ب}] ++(\xx,0);
+\draw(0,0) to [short]++(\xx,0) to [american voltage source,l_={$\SI{10}{\volt}$}]++(0,\yy);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_بنیادی_طاقت_مہیا_حاصل_چ} کا دور۔}
+\label{شکل_بنیادی_سوال_طاقت_مہیا_حاصل_چ}
+\end{figure}
+
+جوابات:پرزہ الف کے دائیں سر سے \عددی{\SI{2}{\ampere}} نکل کر \عددی{\SI{10}{\volt}} کے منبع میں داخل ہوتی ہے۔ پرزہ ب میں \عددی{\SI{4}{\ampere}} پائی جاتی ہے جو پرزے میں دائیں سے بائیں جانب رواں ہے۔ 
+\انتہا{سوال}
+%===============
+\ابتدا{سوال}\شناخت{سوال_بنیادی_طاقت_مہیا_حاصل_ح}
+شکل \حوالہ{شکل_بنیادی_سوال_طاقت_مہیا_حاصل_ح} میں پرزہ الف اور ب کی طاقت دریافت کریں۔
+%
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw (0,0) to [american controlled voltage source,l={$4 I_x $}]++(0,\yy) to [american voltage source,l={$\SI{20}{\volt}$}]++(\xx,0)
+ to [european resistor,v^<={$\SI{18}{\volt}$},l_={الف}]++(\xx,0) to [european resistor,v^<={$\SI{22}{\volt}$},l_={ب}]++(0,-\yy) to [short,i={$\SI{5}{\ampere}$}] (0,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_بنیادی_طاقت_مہیا_حاصل_ح} کا دور۔}
+\label{شکل_بنیادی_سوال_طاقت_مہیا_حاصل_ح}
+\end{figure}
+
+جوابات: پرزہ الف کو \عددی{\SI{90}{\watt}} مہیا کیا جاتا ہے۔ پرزہ ب کو \عددی{\SI{110}{\watt}} مہیا کیا جاتا ہے۔
+\انتہا{سوال}
+%===============
+\ابتدا{سوال}\شناخت{سوال_بنیادی_طاقت_مہیا_حاصل_خ}
+شکل \حوالہ{شکل_بنیادی_سوال_طاقت_مہیا_حاصل_خ} میں پرزہ الف، ب اور پ کی طاقت دریافت کریں۔
+%
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$\SI{36}{\volt}$},i={$\SI{5}{\ampere}$}]++(0,\yy) to [european resistor,v^<={$\SI{16}{\volt}$},l_={الف}]++(\xx,0) to [american voltage source,v^>={$\SI{6}{\volt}$} ,i={$\SI{2}{\ampere}$}]++(\xx,0) to [european resistor,v={$\SI{26}{\volt}$},l={پ}]++(0,-\yy) to [short] (0,0);
+\draw(\xx,\yy) to [european resistor,*-*,v={$\SI{20}{\volt}$},i={$\SI{3}{\ampere}$},l={ب}] ++(0,-\yy);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_بنیادی_طاقت_مہیا_حاصل_خ} کا دور۔}
+\label{شکل_بنیادی_سوال_طاقت_مہیا_حاصل_خ}
+\end{figure}
+
+جوابات: تینوں پرزوں کو طاقت فراہم کی جاتی ہے۔الف کو \عددی{\SI{80}{\watt}}، ب  کو \عددی{\SI{60}{\watt}} اور  پ کو \عددی{\SI{52}{\watt}} طاقت فراہم کی جاتی ہے۔ 
+\انتہا{سوال}
+%===============
+\ابتدا{سوال}\شناخت{سوال_بنیادی_طاقت_مہیا_حاصل_د}
+شکل \حوالہ{شکل_بنیادی_سوال_طاقت_مہیا_حاصل_د} میں رو \عددی{I_x} دریافت کریں۔
+%
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$\SI{36}{\volt}$},i={$I_x$}]++(0,\yy) to [european resistor,v^<={$\SI{16}{\volt}$},l_={الف}]++(\xx,0) to [american voltage source,v^>={$\SI{6}{\volt}$} ,i={$\SI{6}{\ampere}$}]++(\xx,0) to [european resistor,v={$\SI{26}{\volt}$},l={پ}]++(0,-\yy) to [short] (0,0);
+\draw(\xx,\yy) to [european resistor,*-*,v={$\SI{20}{\volt}$},i={$\SI{4}{\ampere}$},l={ب}] ++(0,-\yy);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_بنیادی_طاقت_مہیا_حاصل_د} کا دور۔}
+\label{شکل_بنیادی_سوال_طاقت_مہیا_حاصل_د}
+\end{figure}
+
+جوابات: \عددی{I_x=\SI{10}{\ampere}}
+\انتہا{سوال}
+%===============
+\ابتدا{سوال}\شناخت{سوال_بنیادی_طاقت_مہیا_حاصل_ڈ}
+شکل \حوالہ{شکل_بنیادی_سوال_طاقت_مہیا_حاصل_ڈ} میں پرزہ الف اور ب کا طاقت دریافت کریں۔
+%
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$\SI{36}{\volt}$},i={$I_x$}]++(0,\yy) to [european resistor,v^<={$\SI{16}{\volt}$},l_={الف}]++(\xx,0) to [american voltage source,v^>={$\SI{6}{\volt}$} ,i<={$\SI{6}{\ampere}$}]++(\xx,0) to [european resistor,v={$\SI{26}{\volt}$},l={پ}]++(0,-\yy) to [short] (0,0);
+\draw(\xx,\yy) to [american controlled current source,*-*,l={$4I_x$}] ++(0,-\yy);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_بنیادی_طاقت_مہیا_حاصل_ڈ} کا دور۔}
+\label{شکل_بنیادی_سوال_طاقت_مہیا_حاصل_ڈ}
+\end{figure}
+
+جوابات: پرزہ الف کو \عددی{\SI{32}{\watt}} فراہم کیا جاتا ہے جبکہ پرزہ ب سے \عددی{\SI{156}{\watt}} حاصل ہوتا ہے۔
+\انتہا{سوال}
+%===============
+\ابتدا{سوال}\شناخت{سوال_بنیادی_طاقت_مہیا_حاصل_ذ}
+شکل \حوالہ{شکل_بنیادی_سوال_طاقت_مہیا_حاصل_ذ}-الف میں پرزہ الف کا طاقت دریافت کریں۔شکل-ب میں پرزہ ب کی رو، دباو اور طاقت دریافت کریں۔
+%
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [european resistor,l={$\SI{36}{\watt}$}]++(0,\y) to [european resistor,l={$\SI{12}{\watt}$}]++(\x,0) to [european resistor,l={الف}] ++(0,-\y) to [short] (0,0);
+\end{tikzpicture}
+\caption*{الف}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [european resistor,l_={$\SI{24}{\watt}$},v^>={$\SI{6}{\volt}$}]++(0,\y) to [european resistor,l_={$\SI{12}{\watt}$},v^<={$\SI{2}{\volt}$}]++(\x,0) to [european resistor,l={ب}] ++(0,-\y) to [short] (0,0);
+\end{tikzpicture}
+\caption*{ب}
+\end{subfigure}
+\caption{سوال \حوالہ{سوال_بنیادی_طاقت_مہیا_حاصل_ذ} کا دور۔}
+\label{شکل_بنیادی_سوال_طاقت_مہیا_حاصل_ذ}
+\end{figure}
+
+جوابات: پرزہ الف کو \عددی{\SI{24}{\watt}} فراہم کیا جاتا ہے۔پرزہ ب کی رو \عددی{\SI{4}{\ampere}}، دباو \عددی{\SI{4}{\volt}} اور اس کو فراہم کردہ طاقت \عددی{\SI{16}{\watt}} ہے۔
+\انتہا{سوال}
+%===============
+\ابتدا{سوال}\شناخت{سوال_بنیادی_طاقت_مہیا_حاصل_ر}
+شکل \حوالہ{شکل_بنیادی_سوال_طاقت_مہیا_حاصل_ر}-الف میں پرزہ الف کا طاقت دریافت کریں۔شکل-ب میں پرزہ ب کی رو، دباو اور طاقت دریافت کریں۔
+%
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [european resistor,l_={$\SI{3}{\watt}$}]++(0,\y) to [european resistor,l={$\SI{-12}{\watt}$}]++(\x,0) to [european resistor,l={الف}] ++(0,-\y) to [short] (0,0);
+\draw(\x,\y) to [european resistor,*-,l={$\SI{5}{\watt}$}]++(\x,0) to [european resistor,l_={$\SI{13}{\watt}$}]++(0,-\y) to [short,-*]++(-\x,0);
+\end{tikzpicture}
+\caption*{الف}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [european resistor,l_={$\SI{6}{\watt}$},v^>={$\SI{2}{\volt}$}]++(0,\y) to [european resistor]++(\x,0) to [european resistor,v={$\SI{6}{\volt}$},l={ب}] ++(0,-\y) to [short] (0,0);
+\draw(\x,\y) to [european resistor,*-,v^<={$\SI{3}{\volt}$},l_={$\SI{6}{\watt}$}]++(\x,0) to [european resistor]++(0,-\y) to [short,-*]++(-\x,0);
+\end{tikzpicture}
+\caption*{ب}
+\end{subfigure}
+\caption{سوال \حوالہ{سوال_بنیادی_طاقت_مہیا_حاصل_ر} کا دور۔}
+\label{شکل_بنیادی_سوال_طاقت_مہیا_حاصل_ر}
+\end{figure}
+
+جوابات: پرزہ الف سے \عددی{\SI{9}{\watt}} حاصل کیا جاتا ہے۔پرزہ ب سے \عددی{\SI{30}{\watt}} حاصل کیا جاتا ہے۔
+\انتہا{سوال}
+%===============
+\ابتدا{سوال}\شناخت{سوال_بنیادی_طاقت_مہیا_حاصل_ڑ}
+شکل \حوالہ{شکل_بنیادی_سوال_طاقت_مہیا_حاصل_ڑ}-الف میں پرزہ الف کا طاقت دریافت کریں۔شکل-ب میں پرزہ ب کی رو، دباو اور طاقت دریافت کریں۔
+%
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [european resistor,l_={$\SI{10}{\watt}$},v^>={$\SI{2}{\volt}$}]++(0,\y) to [european resistor,v^>={$\SI{4}{\volt}$}]++(\x,0) to [european resistor,l={الف}] ++(0,-\y) to [short] (0,0);
+\draw(\x,\y) to [european resistor,*-]++(\x,0) to [european resistor,l={$\SI{24}{\watt}$},v={$\SI{4}{\volt}$}]++(0,-\y) to [short,-*]++(-\x,0);
+\end{tikzpicture}
+\caption*{الف}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [european resistor,l_={$\SI{-20}{\watt}$},v^>={$\SI{4}{\volt}$}]++(0,\y) to [european resistor,v^<={$\SI{6}{\volt}$}]++(\x,0) to [european resistor,l={ب}] ++(0,-\y) to [short] (0,0);
+\draw(\x,\y) to [european resistor,*-]++(\x,0) to [european resistor,l={$\SI{20}{\watt}$},v={$\SI{2}{\volt}$}]++(0,-\y) to [short,-*]++(-\x,0);
+\end{tikzpicture}
+\caption*{ب}
+\end{subfigure}
+\caption{سوال \حوالہ{سوال_بنیادی_طاقت_مہیا_حاصل_ڑ} کا دور۔}
+\label{شکل_بنیادی_سوال_طاقت_مہیا_حاصل_ڑ}
+\end{figure}
+
+جوابات: پرزہ الف سے \عددی{\SI{66}{\watt}} حاصل کیا جاتا ہے۔ پرزہ ب کو \عددی{\SI{10}{\watt}} فراہم کیا جاتا ہے۔
+\انتہا{سوال}
+%===============
+
+

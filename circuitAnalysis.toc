@@ -139,3 +139,4 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 16}}دوغلائی نمونہ}{\RL {\arabicfont 833}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 16}}ترسیلی نمونہ}{\RL {\arabicfont 835}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 16}}چار سر ادوار کے باہمی جوڑ}{\RL {\arabicfont 837}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 17}}مزاحمتی سوالات}{\RL {\arabicfont 843}}

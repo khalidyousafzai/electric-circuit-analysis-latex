@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  30 JUL 2017 11:28
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  1 AUG 2017 18:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1716,7 +1716,7 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (./tex/cktMagneticallyCoupledNetworks.aux) (./tex/cktPolyphaseCircuits.aux)
 (./tex/cktFrequencyResponse.aux) (./tex/cktLaplaceTransform.aux)
 (./tex/cktApplicationLaplace.aux) (./tex/cktFourierAnalysis.aux)
-(./tex/cktTwoPortNetworks.aux))
+(./tex/cktTwoPortNetworks.aux) (./tex/cktQuestions.aux))
 \openout1 = `circuitAnalysis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 146.
@@ -1735,7 +1735,8 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 146.
 LaTeX Font Info:    ... okay on input line 146.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 146.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 146.
- (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
+
+(/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 146.
@@ -3058,190 +3059,103 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/it' will be
  [7] [8
 
 ]
-\openout2 = `./tex/cktBasics.aux'.
+\openout2 = `./tex/cktQuestions.aux'.
 
- (./tex/cktBasics.tex
-باب \RL {\arabicfont 1}.
+ (./tex/cktQuestions.tex
+باب \RL {\arabicfont 17}.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 7.6pt on input line 10.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 4.56004pt on input line 10.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 12.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 9.5pt on input line 25.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 5.70004pt on input line 25.
+[843
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+] [844]
 LaTeX Font Info:    Font shape `EU1/XBTabrizBold(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 2.
+(Font)              scaled to size 10.0pt on input line 129.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 7.6pt on input line 2.
+(Font)              scaled to size 8.0pt on input line 129.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 2.
+(Font)              scaled to size 6.0pt on input line 129.
+
+Overfull \hbox (33.13564pt too wide) in paragraph at lines 142--144
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.43764pt too wide) in paragraph at lines 126--150
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 دریافت کریں۔شکل-ب میں ٹریکٹر کی سر بتیوں 
+کو بارہ وولٹ کی بیٹری سے جوڑا گیا ہے۔ایک سر بتی  $[] []$ لیتی ہے۔بیٹری[]
+ []
+
+[845] [846]
+Overfull \hbox (5.44513pt too wide) in paragraph at lines 221--225
+ [][][][] 
+ []
+
+
+Overfull \hbox (73.5729pt too wide) in paragraph at lines 239--244
+ [][][][] 
+ []
+
+[847] [848]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 2.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 9.5pt on input line 2.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 5.70004pt on input line 2.
-File: ./fig/figBasicConcepts/figBasicSIprefix.pdf Graphic file (type QTm)
-<use  "./fig/figBasicConcepts/figBasicSIprefix.pdf" >
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 10.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 14.4pt on input line 10.
- [1
+(Font)              scaled to size 7.0pt on input line 294.
+ [849] [850] [851] [852] [853] [854]) [855] [856
 
 
 ]
-File: ./fig/figBasicConcepts/figBasicCurrentAndDirection.pdf Graphic file (type
- QTm)
-
-<use  "./fig/figBasicConcepts/figBasicCurrentAndDirection.pdf" > [2]
-File: ./fig/figBasicConcepts/figBasicVoltageCurrentRelation.pdf Graphic file (t
-ype QTm)
-
-<use  "./fig/figBasicConcepts/figBasicVoltageCurrentRelation.pdf" >
-File: ./fig/figBasicConcepts/figBasicOhmLawPassiveConvention.pdf Graphic file (
-type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicOhmLawPassiveConvention.pdf" > [3]
-[4]
-File: ./fig/figBasicConcepts/figBasicVoltageHeight.pdf Graphic file (type QTm)
- <use  "./fig/figBasicConcepts/figBasicVoltageHeight.pdf" >
-File: ./fig/figBasicConcepts/figBasicVoltagePositiveNegativeSides.pdf Graphic f
-ile (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicVoltagePositiveNegativeSides.pdf" >
-[5] [6]
-File: ./fig/figBasicConcepts/figBasicOhmLawExamples.pdf Graphic file (type QTm)
-
- <use  "./fig/figBasicConcepts/figBasicOhmLawExamples.pdf" > [7]
-File: ./fig/figBasicConcepts/figBasicOhmLawGeneral.pdf Graphic file (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicOhmLawGeneral.pdf" > [8] [9]
-File: ./fig/figBasicConcepts/figBasicOhmsLaw.pdf Graphic file (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicOhmsLaw.pdf" >
-Missing character: There is no ا in font zplmr7m!
-Missing character: There is no ل in font zplmr7m!
-Missing character: There is no ف in font zplmr7m!
- [10]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 185.
- [11]
-File: ./fig/figBasicConcepts/figBasicPassiveSignExample.pdf Graphic file (type 
-QTm)
-
-<use  "./fig/figBasicConcepts/figBasicPassiveSignExample.pdf" > [12]
-File: ./fig/figBasicConcepts/figBasicPassiveSignQuiz.pdf Graphic file (type QTm
-)
-
-<use  "./fig/figBasicConcepts/figBasicPassiveSignQuiz.pdf" >
-File: ./fig/figBasicConcepts/figBasicPowerExample.pdf Graphic file (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicPowerExample.pdf" > [13]
-File: ./fig/figBasicConcepts/figBasicPowerQuiz.pdf Graphic file (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicPowerQuiz.pdf" > [14]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 267.
-File: ./fig/figBasicConcepts/figBasicIndependentVoltageSource.pdf Graphic file 
-(type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicIndependentVoltageSource.pdf" >
-File: ./fig/figBasicConcepts/figBasicIndependentCurrentSource.pdf Graphic file 
-(type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicIndependentCurrentSource.pdf" > [15]
-File: ./fig/figBasicConcepts/figBasicInternalResistanceExample.pdf Graphic file
- (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicInternalResistanceExample.pdf" >
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 297.
-File: ./fig/figBasicConcepts/figBasicInternalResistanceQuiz.pdf Graphic file (t
-ype QTm)
-
-<use  "./fig/figBasicConcepts/figBasicInternalResistanceQuiz.pdf" > [16]
-File: ./fig/figBasicConcepts/figBasicDependentVoltageSource.pdf Graphic file (t
-ype QTm)
-
-<use  "./fig/figBasicConcepts/figBasicDependentVoltageSource.pdf" >
-File: ./fig/figBasicConcepts/figBasicDependentCurrentSource.pdf Graphic file (t
-ype QTm)
-
-<use  "./fig/figBasicConcepts/figBasicDependentCurrentSource.pdf" >
-File: ./fig/figBasicConcepts/figBasicDependentResistanceSource.pdf Graphic file
- (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicDependentResistanceSource.pdf" >
-File: ./fig/figBasicConcepts/figBasicDependentConductanceSource.pdf Graphic fil
-e (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicDependentConductanceSource.pdf" >
-[17]
-File: ./fig/figBasicConcepts/figBasicDependentVoltageSourceExample.pdf Graphic 
-file (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicDependentVoltageSourceExample.pdf" >
-File: ./fig/figBasicConcepts/figBasicDependentCurrentSourceExample.pdf Graphic 
-file (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicDependentCurrentSourceExample.pdf" >
-[18]
-File: ./fig/figBasicConcepts/figBasicDependentVoltageSourceExamplePower.pdf Gra
-phic file (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicDependentVoltageSourceExamplePower.pdf" >
-File: ./fig/figBasicConcepts/figBasicDependentCurrentSourceExamplePower.pdf Gra
-phic file (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicDependentCurrentSourceExamplePower.pdf" >
-File: ./fig/figBasicConcepts/figBasicExampleTwoSourceThreeResistorPower.pdf Gra
-phic file (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicExampleTwoSourceThreeResistorPower.pdf" >
-[19] [20]
-File: ./fig/figBasicConcepts/figBasicPowerExampleMultiSupplies.pdf Graphic file
- (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicPowerExampleMultiSupplies.pdf" >
-File: ./fig/figBasicConcepts/figBasicChargeSuppliedToBox.pdf Graphic file (type
- QTm)
-
-<use  "./fig/figBasicConcepts/figBasicChargeSuppliedToBox.pdf" >
-File: ./fig/figBasicConcepts/figBasicChargeVersusCurrent.pdf Graphic file (type
- QTm)
-
-<use  "./fig/figBasicConcepts/figBasicChargeVersusCurrent.pdf" > [21] [22]
-File: ./fig/figBasicConcepts/figBasicChargeVersusCurrentAnswer.pdf Graphic file
- (type QTm)
-
-<use  "./fig/figBasicConcepts/figBasicChargeVersusCurrentAnswer.pdf" > [23]
-File: ./fig/figBasicConcepts/figBasicPowerSuppliedToBox.pdf Graphic file (type 
-QTm)
-
-<use  "./fig/figBasicConcepts/figBasicPowerSuppliedToBox.pdf" > [24] [25])
-[26] (./circuitAnalysis.aux (./tex/cktBasics.aux) (./tex/cktResistive.aux)
+(./circuitAnalysis.aux (./tex/cktBasics.aux) (./tex/cktResistive.aux)
 (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux) (./tex/cktTheorems.aux)
 (./tex/cktCapacitorInductor.aux) (./tex/cktTransients.aux)
 (./tex/cktSteadyStateAC.aux) (./tex/cktSteadyStatePower.aux)
 (./tex/cktMagneticallyCoupledNetworks.aux) (./tex/cktPolyphaseCircuits.aux)
 (./tex/cktFrequencyResponse.aux) (./tex/cktLaplaceTransform.aux)
 (./tex/cktApplicationLaplace.aux) (./tex/cktFourierAnalysis.aux)
-(./tex/cktTwoPortNetworks.aux))
+(./tex/cktTwoPortNetworks.aux) (./tex/cktQuestions.aux))
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 3.75237pt have occurred.
+(Font)              up to 2.26395pt have occurred.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46376 strings out of 493918
- 1105374 string characters out of 6150562
- 1272476 words of memory out of 5000000
- 48672 multiletter control sequences out of 15000+600000
- 46929 words of font info for 174 fonts, out of 8000000 for 9000
+ 51022 strings out of 493918
+ 1217852 string characters out of 6150562
+ 1483055 words of memory out of 5000000
+ 53364 multiletter control sequences out of 15000+600000
+ 37439 words of font info for 144 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,16n,81p,10476b,1222s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,15n,81p,10476b,2006s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (34 pages).
+Output written on circuitAnalysis.pdf (22 pages).
