@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  1 AUG 2017 18:27
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  2 AUG 2017 16:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3129,18 +3129,30 @@ Overfull \hbox (73.5729pt too wide) in paragraph at lines 239--244
 [847] [848]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 7.0pt on input line 294.
- [849] [850] [851] [852] [853] [854]) [855] [856
+ [849] [850] [851] [852] [853] [854]
+Overfull \hbox (6.1057pt too wide) in paragraph at lines 593--596
+ [][][][] 
+ []
 
 
-]
-(./circuitAnalysis.aux (./tex/cktBasics.aux) (./tex/cktResistive.aux)
-(./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux) (./tex/cktTheorems.aux)
-(./tex/cktCapacitorInductor.aux) (./tex/cktTransients.aux)
-(./tex/cktSteadyStateAC.aux) (./tex/cktSteadyStatePower.aux)
-(./tex/cktMagneticallyCoupledNetworks.aux) (./tex/cktPolyphaseCircuits.aux)
-(./tex/cktFrequencyResponse.aux) (./tex/cktLaplaceTransform.aux)
-(./tex/cktApplicationLaplace.aux) (./tex/cktFourierAnalysis.aux)
-(./tex/cktTwoPortNetworks.aux) (./tex/cktQuestions.aux))
+Overfull \hbox (1.09901pt too wide) in paragraph at lines 635--637
+ [][][][] 
+ []
+
+
+Overfull \hbox (3.489pt too wide) in paragraph at lines 643--646
+ [][][][] 
+ []
+
+) [855] [856] (./circuitAnalysis.aux (./tex/cktBasics.aux)
+(./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
+(./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
+(./tex/cktTransients.aux) (./tex/cktSteadyStateAC.aux)
+(./tex/cktSteadyStatePower.aux) (./tex/cktMagneticallyCoupledNetworks.aux)
+(./tex/cktPolyphaseCircuits.aux) (./tex/cktFrequencyResponse.aux)
+(./tex/cktLaplaceTransform.aux) (./tex/cktApplicationLaplace.aux)
+(./tex/cktFourierAnalysis.aux) (./tex/cktTwoPortNetworks.aux)
+(./tex/cktQuestions.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 2.26395pt have occurred.
@@ -3148,12 +3160,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 51022 strings out of 493918
- 1217852 string characters out of 6150562
- 1483055 words of memory out of 5000000
- 53364 multiletter control sequences out of 15000+600000
+ 51726 strings out of 493918
+ 1235038 string characters out of 6150562
+ 1484267 words of memory out of 5000000
+ 54068 multiletter control sequences out of 15000+600000
  37439 words of font info for 144 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,15n,81p,10476b,2006s stack positions out of 5000i,500n,10000p,200000b,80000s

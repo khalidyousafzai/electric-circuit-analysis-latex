@@ -487,7 +487,7 @@
 \begin{subfigure}{0.5\textwidth}
 \centering
 \begin{tikzpicture}
-\draw(0,\y)node[left]{$A$}  to [resistor,o-,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [resistor,l={$\SI{8}{\kilo\ohm}$}] ++(0,-\y) to [short](0,0)node[left]{$B$};
+\draw(0,\y)node[left]{$A$}  to [resistor,o-,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{8}{\kilo\ohm}$}] ++(0,-\y) to [short,-o](0,0)node[left]{$B$};
 \draw(\x,0) to [resistor,*-*,l={$\SI{4}{\kilo\ohm}$}]++(0,\y);
 \draw(\x,0) to [resistor,*-*,l={$\SI{4}{\kilo\ohm}$}]++(\x,\y);
 \draw[stealth-](\x/4,3/4*\y) --++(-\x/4,0)--++(0,-\y/8)node[below]{$R_{AB}$};
@@ -572,6 +572,90 @@
 \label{شکل_سوال_مزاحمتی_کرخوف_الف}
 \end{figure}
 
-جوابات:\عددی{I_1=\SI{1.5}{\milli\ampere}}، \عددی{V_2=\SI{8}{\volt}}
+جوابات:\عددی{I_1=\SI{1.5}{\milli\ampere}}، \عددی{V_1=\SI{8}{\volt}}
 \انتہا{سوال}
 %======================
+\ابتدا{سوال}\شناخت{سوال_مزاحمتی_کرخوف_ب}
+شکل \حوالہ{شکل_سوال_مزاحمتی_کرخوف_ب}-الف میں \عددی{V_{bc}} اور \عددی{V_{ad}} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [resistor,l={$\SI{1}{\ohm}$}]++(0,\y)node[left]{$d$} to [american voltage source,l={$\SI{22}{\volt}$}]++(0,\y) to [resistor,l={$\SI{4}{\ohm}$}]++(\x,0)node[right]{$c$} to [resistor,l={$\SI{8}{\ohm}$}]++(0,-2*\y) to [short]++(-\x,0);
+\draw(0,2*\y) to [resistor,*-,l_={$\SI{2}{\ohm}$}]++(-\x,0)node[left]{$b$} to [resistor,l={$\SI{6}{\ohm}$}]++(0,-2*\y)node[left]{$a$} to [short,-*]++(\x,0);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{40}{\volt}$}]++(0,\y) to [resistor,l={$\SI{10}{\ohm}$}]++(\x,0) to [resistor,l={$\SI{5}{\ohm}$}]++(\x,0) to [resistor,l={$\SI{5}{\ohm}$}]++(0,-\y)node[below]{$a$} to [resistor,l={$\SI{5}{\ohm}$}]++(-\x,0) to [resistor,l={$\SI{5}{\ohm}$}]++(-\x,0);
+\draw(\x,0) to [resistor,*-*,l={$\SI{10}{\ohm}$}]++(0,\y)node[above]{$b$};
+\draw(\x,0) to [resistor,-*,l={$\SI{10}{\ohm}$}]++(\x,\y);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_مزاحمتی_کرخوف_ب} اور سوال \حوالہ{سوال_مزاحمتی_کرخوف_پ} کے ادوار۔}
+\label{شکل_سوال_مزاحمتی_کرخوف_ب}
+\end{figure}
+
+جوابات:\عددی{V_{ad}=\tfrac{110}{29}\,\si{\volt}}، \عددی{V_{bc}=\tfrac{44}{29}\,\si{\volt}}
+\انتہا{سوال}
+%======================
+\ابتدا{سوال}\شناخت{سوال_مزاحمتی_کرخوف_پ}
+شکل \حوالہ{شکل_سوال_مزاحمتی_کرخوف_ب}-ب میں \عددی{V_{ba}} دریافت کریں۔
+
+جواب:\عددی{V_{ba}=\SI{7.5}{\volt}}
+\انتہا{سوال}
+%============================
+\ابتدا{سوال}\شناخت{سوال_مزاحمتی_کرخوف_ت}
+شکل \حوالہ{شکل_سوال_مزاحمتی_کرخوف_ت} میں \عددی{I_0} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american current source,l={$\SI{10}{\milli\ampere}$}]++(0,\y) to [short]++(\x,0) to [resistor,l={$\SI{5}{\kilo\ohm}$}]++(\x,0) to [short]++(\x,0) to [resistor,l={$\SI{16}{\kilo\ohm}$}]++(0,-\y) to [short] (0,0);
+\draw(\x,0) to [resistor,*-*,l={$\SI{10}{\kilo\ohm}$},i<={$I_0$}]++(0,\y);
+\draw(2*\x,0) to [resistor,*-*,l={$\SI{8}{\kilo\ohm}$}]++(0,\y);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مزاحمتی_کرخوف_ت} کا دور۔}
+\label{شکل_سوال_مزاحمتی_کرخوف_ت}
+\end{figure}
+
+جواب:\عددی{I_0=\tfrac{310}{61}\,\si{\milli\ampere}}
+\انتہا{سوال}
+%===========================
+\ابتدا{سوال}\شناخت{سوال_مزاحمتی_کرخوف_ٹ}
+شکل \حوالہ{شکل_سوال_مزاحمتی_کرخوف_ٹ}-الف میں \عددی{I_0=\SI{2}{\milli\ampere}} کی صورت میں \عددی{I_d} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american current source,l={$I_d$}]++(0,\y) to [short]++(\x,0) to [resistor,l={$\SI{8}{\kilo\ohm}$}]++(0,-\y) to [short]++(-\x,0);
+\draw(\x,\y)  to [short,*-]++(\x,0) to [resistor,l={$\SI{6}{\kilo\ohm}$},i={$I_0$}]++(0,-\y) to [short,-*] ++(-\x,0);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$V_d$}]++(0,\y) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{6}{\kilo\ohm}$},i={$I_0$}]++(0,-\y) to [short]++(-\x,0);
+\draw(\x,\y)  to [short,*-]++(\x,0) to [resistor,l={$\SI{3}{\kilo\ohm}$}]++(0,-\y) to [short,-*] ++(-\x,0);
+\draw(0,0) to [resistor,*-*,l_={$\SI{4}{\kilo\ohm}$}]++(\x,\y);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_مزاحمتی_کرخوف_ٹ} اور سوال \حوالہ{سوال_مزاحمتی_کرخوف_ث} کے ادوار۔}
+\label{شکل_سوال_مزاحمتی_کرخوف_ٹ}
+\end{figure}
+
+جواب:\عددی{I_d=\SI{3.5}{\milli\ampere}}
+\انتہا{سوال}
+%===========================
+\ابتدا{سوال}\شناخت{سوال_مزاحمتی_کرخوف_ث}
+شکل \حوالہ{شکل_سوال_مزاحمتی_کرخوف_ٹ}-ب میں \عددی{I_0=\SI{4}{\milli\ampere}} کی صورت میں \عددی{V_d} دریافت کریں۔
+
+جواب:\عددی{V_d=\SI{42}{\volt}}
+\انتہا{سوال}
+%===============================
