@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  2 AUG 2017 16:54
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  3 AUG 2017 18:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3070,81 +3070,57 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 7.6pt on input line 10.
+(Font)              scaled to size 7.6pt on input line 8.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 4.56004pt on input line 10.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 12.
+(Font)              scaled to size 4.56004pt on input line 8.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 9.5pt on input line 25.
+(Font)              scaled to size 9.5pt on input line 16.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 5.70004pt on input line 25.
-[843
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-] [844]
-LaTeX Font Info:    Font shape `EU1/XBTabrizBold(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 129.
+(Font)              scaled to size 5.70004pt on input line 16.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 129.
+(Font)              scaled to size 7.0pt on input line 58.
+
+Overfull \hbox (11.33846pt too wide) in paragraph at lines 74--77
+ [][][][] 
+ []
+
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 129.
+(Font)              scaled to size 9.0pt on input line 78.
 
-Overfull \hbox (33.13564pt too wide) in paragraph at lines 142--144
+Overfull \hbox (6.99281pt too wide) in paragraph at lines 82--86
+ [][][][] 
+ []
+
+[869
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+] [870]
+Overfull \hbox (11.66563pt too wide) in paragraph at lines 108--111
  [][][][] 
  []
 
 
-Overfull \hbox (2.43764pt too wide) in paragraph at lines 126--150
-[]\EU1/JameelNooriNastaleeq(1)/m/n/10 دریافت کریں۔شکل-ب میں ٹریکٹر کی سر بتیوں 
-کو بارہ وولٹ کی بیٹری سے جوڑا گیا ہے۔ایک سر بتی  $[] []$ لیتی ہے۔بیٹری[]
- []
-
-[845] [846]
-Overfull \hbox (5.44513pt too wide) in paragraph at lines 221--225
+Overfull \hbox (14.68565pt too wide) in paragraph at lines 153--156
  [][][][] 
  []
 
-
-Overfull \hbox (73.5729pt too wide) in paragraph at lines 239--244
- [][][][] 
- []
-
-[847] [848]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 294.
- [849] [850] [851] [852] [853] [854]
-Overfull \hbox (6.1057pt too wide) in paragraph at lines 593--596
- [][][][] 
- []
-
-
-Overfull \hbox (1.09901pt too wide) in paragraph at lines 635--637
- [][][][] 
- []
-
-
-Overfull \hbox (3.489pt too wide) in paragraph at lines 643--646
- [][][][] 
- []
-
-) [855] [856] (./circuitAnalysis.aux (./tex/cktBasics.aux)
+[871] [872]) [873] [874] (./circuitAnalysis.aux (./tex/cktBasics.aux)
 (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
 (./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
 (./tex/cktTransients.aux) (./tex/cktSteadyStateAC.aux)
@@ -3160,17 +3136,14 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 51726 strings out of 493918
- 1235038 string characters out of 6150562
- 1484267 words of memory out of 5000000
- 54068 multiletter control sequences out of 15000+600000
- 37439 words of font info for 144 fonts, out of 8000000 for 9000
+ 49013 strings out of 493918
+ 1168496 string characters out of 6150562
+ 1498001 words of memory out of 5000000
+ 51360 multiletter control sequences out of 15000+600000
+ 35517 words of font info for 135 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,15n,81p,10476b,2006s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,15n,81p,10476b,1993s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (22 pages).
+Output written on circuitAnalysis.pdf (14 pages).
