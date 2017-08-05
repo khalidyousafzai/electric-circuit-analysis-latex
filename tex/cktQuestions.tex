@@ -1,0 +1,41 @@
+\باب{سوالات مسئلے}
+%==================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_خطیت_الف}
+شکل \حوالہ{شکل_سوال_مسئلے_خطیت_الف} میں \عددی{V_0=\SI{2}{\volt}} فرض کرتے ہوئے مسئلہ خطیت کے استعمال سے \عددی{V_0} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0)to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(0,2*\y);
+\draw(\x,0)to [resistor,*-,l={$\SI{1}{\kilo\ohm}$}]++(0,\y) to [short,-*]++(0,\y);
+\draw(2*\x,0) to [short,*-]++(0,\y) to [resistor,-*,l={$\SI{1}{\kilo\ohm}$}]++(0,\y);
+\draw(3*\x,0)to [resistor,l={$\SI{2}{\kilo\ohm}$},v_>={$V_0$}]++(0,2*\y);
+\draw(0,0) to [short]++(3*\x,0);
+\draw(0,2*\y) to [short]++(\x,0) to [resistor,l_={$\SI{1}{\kilo\ohm}$}]++(\x,0) to [short]++(\x,0);
+\draw(\x,\y) to [american current source,*-*,l={$\SI{4}{\milli\ampere}$}]++(\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مسئلے_خطیت_الف} کا دور۔}
+\label{شکل_سوال_مسئلے_خطیت_الف}
+\end{figure}
+
+جواب:\عددی{V_0=-\tfrac{16}{21}\,\si{\volt}}
+\انتہا{سوال}
+%======================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_خطیت_ب}
+شکل \حوالہ{شکل_سوال_مسئلے_خطیت_ب} میں \عددی{I_0=\SI{1}{\milli\ampere}} فرض کرتے ہوئے مسئلہ خطیت کے استعمال سے \عددی{I_0} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0)to [resistor,l={$\SI{10}{\kilo\ohm}$}]++(0,\y);
+\draw(\x,\y)to [american current source,*-*,l_={$\SI{6}{\milli\ampere}$}]++(0,-\y);
+\draw(2*\x,0) to [resistor,*-*,l={$\SI{6}{\kilo\ohm}$}]++(0,\y);
+\draw(3*\x,0)to [resistor,l_={$\SI{2}{\kilo\ohm}$},i_<={$I_0$}]++(0,\y);
+\draw(0,0) to [short]++(3*\x,0);
+\draw(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مسئلے_خطیت_ب} کا دور۔}
+\label{شکل_سوال_مسئلے_خطیت_ب}
+\end{figure}
+
+جواب:\عددی{I_0=\SI{-1.895}{\milli\ampere}}
+\انتہا{سوال}
+%======================
