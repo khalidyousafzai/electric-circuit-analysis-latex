@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  5 AUG 2017 15:25
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  6 AUG 2017 16:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3075,7 +3075,7 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 5.70004pt on input line 4.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 7.0pt on input line 11.
-) [885
+[885
 
 
 
@@ -3094,9 +3094,29 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 
 
 
-] [886] (./circuitAnalysis.aux (./tex/cktBasics.aux)
-(./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
-(./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
+] [886]
+Overfull \hbox (6.99281pt too wide) in paragraph at lines 125--134
+ [][][][] 
+ []
+
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 135.
+[887] [888]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 7.5pt on input line 249.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 256.
+ [889]
+Overfull \hbox (11.66563pt too wide) in paragraph at lines 310--317
+ [][][][] 
+ []
+
+[890] [891] [892] [893] [894]) [895] [896
+
+
+] (./circuitAnalysis.aux
+(./tex/cktBasics.aux) (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux)
+(./tex/cktOpamp.aux) (./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
 (./tex/cktTransients.aux) (./tex/cktSteadyStateAC.aux)
 (./tex/cktSteadyStatePower.aux) (./tex/cktMagneticallyCoupledNetworks.aux)
 (./tex/cktPolyphaseCircuits.aux) (./tex/cktFrequencyResponse.aux)
@@ -3112,12 +3132,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46934 strings out of 493918
- 1118037 string characters out of 6150562
- 1286387 words of memory out of 5000000
- 49282 multiletter control sequences out of 15000+600000
- 35509 words of font info for 134 fonts, out of 8000000 for 9000
+ 50817 strings out of 493918
+ 1213627 string characters out of 6150562
+ 1518651 words of memory out of 5000000
+ 53162 multiletter control sequences out of 15000+600000
+ 35533 words of font info for 137 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,13n,81p,10476b,1842s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,15n,81p,10476b,1987s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (10 pages).
+Output written on circuitAnalysis.pdf (20 pages).
