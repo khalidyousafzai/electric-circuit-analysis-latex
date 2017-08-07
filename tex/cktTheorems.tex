@@ -2264,3 +2264,606 @@ R_{\text{بوجھ}}=\frac{4}{3} \, \si{\kilo\ohm}+\SI{4}{\kilo\ohm}=\frac{16}{3}
 \end{figure}
 \انتہا{مشق}
 %===================
+
+\حصہء{سوالات}
+%==================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_خطیت_الف}
+شکل \حوالہ{شکل_سوال_مسئلے_خطیت_الف} میں \عددی{V_0=\SI{2}{\volt}} فرض کرتے ہوئے مسئلہ خطیت کے استعمال سے اصل \عددی{V_0} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0)to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(0,2*\y);
+\draw(\x,0)to [resistor,*-,l={$\SI{1}{\kilo\ohm}$}]++(0,\y) to [short,-*]++(0,\y);
+\draw(2*\x,0) to [short,*-]++(0,\y) to [resistor,-*,l={$\SI{1}{\kilo\ohm}$}]++(0,\y);
+\draw(3*\x,0)to [resistor,l={$\SI{2}{\kilo\ohm}$},v_>={$V_0$}]++(0,2*\y);
+\draw(0,0) to [short]++(3*\x,0);
+\draw(0,2*\y) to [short]++(\x,0) to [resistor,l_={$\SI{1}{\kilo\ohm}$}]++(\x,0) to [short]++(\x,0);
+\draw(\x,\y) to [american current source,*-*,l={$\SI{4}{\milli\ampere}$}]++(\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مسئلے_خطیت_الف} کا دور۔}
+\label{شکل_سوال_مسئلے_خطیت_الف}
+\end{figure}
+
+جواب:\عددی{V_0=-\tfrac{16}{21}\,\si{\volt}}
+\انتہا{سوال}
+%======================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_خطیت_ب}
+شکل \حوالہ{شکل_سوال_مسئلے_خطیت_ب} میں \عددی{I_0=\SI{1}{\milli\ampere}} فرض کرتے ہوئے مسئلہ خطیت کے استعمال سے اصل \عددی{I_0} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0)to [resistor,l={$\SI{10}{\kilo\ohm}$}]++(0,\y);
+\draw(\x,\y)to [american current source,*-*,l_={$\SI{6}{\milli\ampere}$}]++(0,-\y);
+\draw(2*\x,0) to [resistor,*-*,l={$\SI{6}{\kilo\ohm}$}]++(0,\y);
+\draw(3*\x,0)to [resistor,l_={$\SI{2}{\kilo\ohm}$},i_<={$I_0$}]++(0,\y);
+\draw(0,0) to [short]++(3*\x,0);
+\draw(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مسئلے_خطیت_ب} کا دور۔}
+\label{شکل_سوال_مسئلے_خطیت_ب}
+\end{figure}
+
+جواب:\عددی{I_0=\SI{-1.895}{\milli\ampere}}
+\انتہا{سوال}
+%======================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_خطیت_پ}
+شکل \حوالہ{شکل_سوال_مسئلے_خطیت_پ} میں \عددی{I_0=\SI{1}{\milli\ampere}} فرض کرتے ہوئے مسئلہ خطیت کے استعمال سے اصل \عددی{I_0} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0)to [american current source,l={$\SI{20}{\milli\ampere}$}]++(0,\yy);
+\draw(\xx,\yy)to [resistor,*-*,l_={$\SI{2}{\kilo\ohm}$}]++(0,-\yy);
+\draw(2*\xx,0) to [resistor,*-*,l={$\SI{2}{\kilo\ohm}$}]++(0,\yy);
+\draw(3*\xx,0)to [resistor,l_={$\SI{2}{\kilo\ohm}$}]++(0,\yy);
+\draw(0,0) to [short]++(3*\xx,0);
+\draw(0,\yy) to [short]++(\xx,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\xx,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\xx,0);
+\draw(2*\xx,\yy) to [resistor,l={$\SI{4}{\kilo\ohm}$},i_>={$I_0$}]++(\xx,-\yy);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مسئلے_خطیت_پ} کا دور۔}
+\label{شکل_سوال_مسئلے_خطیت_پ}
+\end{figure}
+
+جواب:\عددی{I_0=\SI{2}{\milli\ampere}}
+\انتہا{سوال}
+%======================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_نفاذ_الف}
+شکل \حوالہ{شکل_سوال_مسئلے_نفاذ_الف} میں مسئلہ نفاذ کے استعمال سے \عددی{I_0} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0)to [american current source,l={$\SI{8}{\volt}$}]++(0,\y);
+\draw(\x,0)to [resistor,*-*,l={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [american current source,*-*,l={$\SI{2}{\milli\ampere}$}]++(0,\y);
+\draw(3*\x,0)to [resistor,l_={$\SI{4}{\kilo\ohm}$},i_<={$I_0$}]++(0,\y);
+\draw(0,0) to [short]++(3*\x,0);
+\draw(0,\y) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0) to [short]++(\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مسئلے_نفاذ_الف} کا دور۔}
+\label{شکل_سوال_مسئلے_نفاذ_الف}
+\end{figure}
+
+جواب:\عددی{I_0=\tfrac{8}{5}\,\si{\milli\ampere}}
+\انتہا{سوال}
+%======================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_نفاذ_ب}
+شکل \حوالہ{شکل_سوال_مسئلے_نفاذ_ب} میں مسئلہ نفاذ کے استعمال سے \عددی{I_0} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0)to [american voltage source,l={$\SI{6}{\volt}$}]++(0,\y);
+\draw(\x,0)to [resistor,*-*,l={$\SI{6}{\kilo\ohm}$},i<_={$I_0$}]++(0,\y);
+\draw(2*\x,0) to [american current source,*-*,l={$\SI{4}{\milli\ampere}$}]++(0,\y);
+\draw(3*\x,0)to [resistor,l_={$\SI{3}{\kilo\ohm}$}]++(0,\y);
+\draw(0,0) to [short]++(3*\x,0);
+\draw(0,\y) to [resistor,l={$\SI{3}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{3}{\kilo\ohm}$}]++(\x,0) to [short]++(\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مسئلے_نفاذ_ب} کا دور۔}
+\label{شکل_سوال_مسئلے_نفاذ_ب}
+\end{figure}
+
+جواب:\عددی{I_0=\SI{1}{\milli\ampere}}
+\انتہا{سوال}
+%======================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_نفاذ_پ}
+شکل \حوالہ{شکل_سوال_مسئلے_نفاذ_پ} میں مسئلہ نفاذ کے استعمال سے \عددی{V_0} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0)to [american voltage source,l={$\SI{12}{\volt}$}]++(0,\y);
+\draw(\x,0)to [resistor,*-*,l={$\SI{8}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,\y) to [american current source,*-*,l={$\SI{8}{\milli\ampere}$}]++(0,-\y);
+\draw(3*\x,0)to [resistor,l_={$\SI{2}{\kilo\ohm}$}]++(0,\y);
+\draw(0,0) to [short]++(3*\x,0);
+\draw(0,\y) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{6}{\kilo\ohm}$},v={$V_0$}]++(\x,0) to [short]++(\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مسئلے_نفاذ_پ} کا دور۔}
+\label{شکل_سوال_مسئلے_نفاذ_پ}
+\end{figure}
+
+جواب:\عددی{V_0=\SI{13.5}{\volt}}
+\انتہا{سوال}
+%======================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_نفاذ_ت}
+شکل \حوالہ{شکل_سوال_مسئلے_نفاذ_ت}-الف میں مسئلہ نفاذ کے استعمال سے \عددی{V_0} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0)to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\draw(\x,0)to [resistor,*-*,l={$\SI{2}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,\y) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(0,-\y);
+%\draw(3*\x,0)to [resistor,l_={$\SI{2}{\kilo\ohm}$}]++(0,\y);
+\draw(0,0) to [short]++(2*\x,0);
+\draw(0,\y) to [american voltage source,l={$\SI{8}{\volt}$}]++(\x,0);
+\draw(2*\x,\y) to [american current source,l={$\SI{4}{\milli\ampere}$}]++(-\x,0);
+\draw(0,\y) to [short,*-]++(0,3/4*\y) to [resistor,l={$\SI{8}{\kilo\ohm}$},v={$V_0$}]++(2*\x,0) to [short,-*]++(0,-3/4*\y);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,\y)to [american voltage source,l_={$\SI{8}{\volt}$}]++(0,-\y);
+\draw(\x,0)to [resistor,*-*,l_={$\SI{4}{\kilo\ohm}$}]++(0,\y) to [resistor,-*,l_={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,l={$\SI{6}{\kilo\ohm}$},v_>={$V_0$}]++(0,2*\y);
+%\draw(3*\x,0)to [resistor,l_={$\SI{2}{\kilo\ohm}$}]++(0,\y);
+\draw(0,0) to [short]++(2*\x,0);
+\draw(0,\y) to [american current source,l={$\SI{4}{\milli\ampere}$}]++(0,\y);
+\draw(0,2*\y) to [short]++(2*\x,0);
+\draw(0,\y) to [resistor,*-*,l={$\SI{8}{\kilo\ohm}$}]++(\x,0);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_مسئلے_نفاذ_ت} اور سوال \حوالہ{سوال_مسئلے_نفاذ_ٹ} کے ادوار۔}
+\label{شکل_سوال_مسئلے_نفاذ_ت}
+\end{figure}
+
+جواب:\عددی{V_0=\SI{9.6}{\volt}}
+\انتہا{سوال}
+%======================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_نفاذ_ٹ}
+شکل \حوالہ{شکل_سوال_مسئلے_نفاذ_ت}-ب میں مسئلہ نفاذ کے استعمال سے \عددی{V_0} دریافت کریں۔
+
+جواب:\عددی{V_0=\tfrac{56}{19}\,\si{\volt}}
+\انتہا{سوال}
+%======================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_تھونن_الف}
+شکل \حوالہ{شکل_سوال_مسئلے_تھونن_الف}-الف میں مسئلہ تھونن کی مدد سے \عددی{V_0} دریافت کریں۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [resistor,l={$\SI{6}{\kilo\ohm}$}]++(0,\y);
+\draw(\x,0) to [resistor,*-,l={$\SI{8}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$},v_>={$V_0$}]++(0,\y);
+\draw(0,0) to [short]++(2*\x,0);
+\draw(\x,\y) to [american voltage source,*-,l_={$\SI{12}{\volt}$}]++(-\x,0);
+\draw(\x,\y) to [american voltage source,l={$\SI{8}{\volt}$}]++(\x,0);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,\y) to [american current source,l_={$\SI{2}{\milli\ampere}$}]++(0,-\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{6}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [american voltage source,l={$\SI{8}{\volt}$}]++(0,\y);
+\draw(0,\y) to [short]++(2*\x,0);
+\draw(0,0) to [resistor,l_={$\SI{4}{\kilo\ohm}$}]++(\x,0) to [resistor,l_={$\SI{4}{\kilo\ohm}$}]++(\x,0);
+\draw(0,0) to [short,*-]++(0,-3/4*\y) to [resistor,l={$\SI{8}{\kilo\ohm}$},i={$I_0$}]++(2*\x,0) to [short,-*]++(0,3/4*\y);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_مسئلے_تھونن_الف} اور سوال \حوالہ{سوال_مسئلے_تھونن_ب} کے ادوار۔}
+\label{شکل_سوال_مسئلے_تھونن_الف}
+\end{figure}
+
+جواب:\عددی{V_0=\tfrac{8}{13}\,\si{\volt}}
+\انتہا{سوال}
+%====================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_تھونن_ب}
+شکل \حوالہ{شکل_سوال_مسئلے_تھونن_الف}-ب میں مسئلہ تھونن کی مدد سے \عددی{I_0} دریافت کریں۔
+
+جواب:\عددی{I_0=\tfrac{26}{27}\,\si{\milli\ampere}}
+\انتہا{سوال}
+%====================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_تھونن_پ}
+شکل \حوالہ{شکل_سوال_مسئلے_تھونن_پ}-الف میں مسئلہ تھونن کی مدد سے \عددی{V_0} دریافت کریں۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\draw(\x,0) to [american current source,*-*,l={$\SI{6}{\milli\ampere}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,l={$\SI{8}{\kilo\ohm}$},v_>={$V_0$}]++(0,\y);
+\draw(0,0) to [short]++(2*\x,0);
+\draw(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0);
+\draw(0,\y) to [short,*-]++(0,3/4*\y) to [american voltage source,l={$\SI{4}{\volt}$}]++(2*\x,0) to [short,-*]++(0,-3/4*\y);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(0,\y) to [american voltage source,l={$\SI{12}{\volt}$}]++(0,\y);
+\draw(\x,0) to [american current source,*-*,l_={$\SI{4}{\milli\ampere}$}]++(0,\y) to [resistor,-*,l_={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(0,2*\y);
+\draw(0,0) to [short]++(2*\x,0);
+\draw(0,2*\y) to [short]++(2*\x,0);
+\draw(0,\y) to [resistor,*-*,l={$\SI{1}{\kilo\ohm}$},i={$I_0$}]++(\x,0);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_مسئلے_تھونن_پ} اور سوال \حوالہ{سوال_مسئلے_تھونن_ت} کے ادوار۔}
+\label{شکل_سوال_مسئلے_تھونن_پ}
+\end{figure}
+
+جواب:\عددی{V_0=\tfrac{56}{3}\,\si{\volt}}
+\انتہا{سوال}
+%====================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_تھونن_ت}
+شکل \حوالہ{شکل_سوال_مسئلے_تھونن_پ}-ب میں مسئلہ تھونن کی مدد سے \عددی{I_0} دریافت کریں۔
+
+جواب:\عددی{I_0=-\tfrac{28}{5}\,\si{\milli\ampere}}
+\انتہا{سوال}
+%====================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_تھونن_ٹ}
+شکل \حوالہ{شکل_سوال_مسئلے_تھونن_ٹ}-الف میں \عددی{AB} سروں پر \عددی{\SI{2}{\kilo\ohm}} نسب کرنے سے مزاحمت میں \عددی{\tfrac{5}{2}\,\si{\milli\ampere}} پیدا ہوتی ہے  جبکہ ان سروں پر  \عددی{\SI{6}{\kilo\ohm}} نسب کرنے سے مزاحمت میں \عددی{\tfrac{5}{4}\,\si{\milli\ampere}} پیدا ہوتی ہے۔ دور کے متغیرات \عددی{V_{\text{تھونن}}} اور \عددی{R_{\text{تھونن}}} دریافت کریں۔ 
+
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0)node[right]{$B$} to [short,o-]++(-\x,0) to [american voltage source,l={$V_{\text{تھونن}}$}]++(0,\y) to [resistor,-o,l={$R_{\text{تھونن}}$}]++(\x,0)node[right]{$A$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) rectangle ++(-0.5,\y);
+\draw(0,\y-0.25) to [short,-o]++(\x,0)node[right]{$A$};
+\draw(0,0.25) to [short,-o]++(\x,0)node[right]{$B$};
+\draw(-0.25,\y/2)node[rotate=90]{\RL{خطی دور}};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_مسئلے_تھونن_ٹ} اور سوال \حوالہ{سوال_مسئلے_تھونن_ث} کے ادوار۔}
+\label{شکل_سوال_مسئلے_تھونن_ٹ}
+\end{figure}
+
+جواب:\عددی{\SI{10}{\volt}}، \عددی{\SI{2}{\kilo\ohm}}
+\انتہا{سوال}
+%====================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_تھونن_ث}
+شکل \حوالہ{شکل_سوال_مسئلے_تھونن_ٹ}-ب میں \عددی{AB} سروں پر \عددی{\SI{6}{\kilo\ohm}} نسب کرنے سے  \عددی{V_{AB}=\SI{6}{\volt}} حاصل ہوتا ہے جبکہ  \عددی{\SI{3}{\kilo\ohm}} نسب کرنے سے  \عددی{V_{AB}=\SI{4}{\volt}} حاصل ہوتا ہے۔خطی دور کے تھونن متغیرات \عددی{V_{\text{تھونن}}} اور \عددی{R_{\text{تھونن}}} دریافت کریں۔ 
+
+جواب:\عددی{\SI{12}{\volt}}، \عددی{\SI{6}{\kilo\ohm}}
+\انتہا{سوال}
+%====================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_نارٹن_الف}
+شکل \حوالہ{شکل_سوال_مسئلے_نارٹن_الف} میں مسئلہ نارٹن استعمال کرتے ہوئے \عددی{I_0} دریافت کریں۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$\SI{6}{\volt}$}]++(0,\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{2}{\kilo\ohm}$},i<_={$I_0$}]++(0,\y);
+\draw(2*\x,\y) to [american current source,*-*,l={$\SI{4}{\milli\ampere}$}]++(0,-\y);
+\draw(3*\x,0) to [resistor,l_={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\draw(0,0) to [short]++(3*\x,0);
+\draw(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [short]++(\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مسئلے_نارٹن_الف} کا دور۔}
+\label{شکل_سوال_مسئلے_نارٹن_الف}
+\end{figure}
+
+جواب:\عددی{I_0=\tfrac{1}{7}\,\si{\milli\ampere}}
+\انتہا{سوال}
+%====================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_نارٹن_ب}
+شکل \حوالہ{شکل_سوال_مسئلے_نارٹن_ب}-الف میں مسئلہ نارٹن استعمال کرتے ہوئے \عددی{I_0} دریافت کریں۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$\SI{18}{\volt}$}]++(0,\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{6}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,\y) to [resistor,l={$\SI{6}{\kilo\ohm}$}]++(0,-\y);
+\draw(0,\y) to [short,*-] ++(0,3/4*\y) to [resistor,l_={$\SI{4}{\kilo\ohm}$},i={$I_0$}]++(2*\x,0) to [short,-*]++(0,-3/4*\y);
+\draw(0,0) to [short]++(2*\x,0);
+\draw(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$\SI{8}{\volt}$}]++(0,\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{6}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,l={$\SI{8}{\kilo\ohm}$},v_>={$V_0$}]++(0,\y);
+%\draw(0,\y) to [short,*-] ++(0,3/4*\y) to [resistor,l_={$\SI{4}{\kilo\ohm}$},i={$I_0$}]++(2*\x,0) to [short,-*]++(0,-3/4*\y);
+\draw(0,0) to [short]++(2*\x,0);
+\draw(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$},v={$V_x$}]++(\x,0);
+\draw(2*\x,\y) to [american controlled voltage source,l_={$4V_x$}]++(-\x,0);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_مسئلے_نارٹن_ب} اور سوال \حوالہ{سوال_مسئلے_نارٹن_پ} کے ادوار۔}
+\label{شکل_سوال_مسئلے_نارٹن_ب}
+\end{figure}
+
+جواب:\عددی{I_0=\tfrac{90}{47}\,\si{\milli\ampere}}
+\انتہا{سوال}
+%====================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_نارٹن_پ}
+شکل \حوالہ{شکل_سوال_مسئلے_نارٹن_ب} -ب میں مسئلہ نارٹن استعمال کرتے ہوئے \عددی{V_0} دریافت کریں۔
+
+جواب:\عددی{V_0=-\tfrac{32}{31}\,\si{\volt}}
+\انتہا{سوال}
+%========================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_نارٹن_ت}
+شکل \حوالہ{شکل_سوال_مسئلے_نارٹن_ت} میں مسئلہ نارٹن استعمال کرتے ہوئے \عددی{I_0} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american current source,l={$\SI{4}{\milli\ampere}$}]++(0,2*\y);
+\draw(2*\x,\y) to [american voltage source,*-,l={$\SI{4}{\volt}$}]++(-\x,0) to [resistor,-*,l={$\SI{2}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,2*\y) to [resistor,*-,l={$\SI{4}{\kilo\ohm}$}]++(0,-\y) to [resistor,-*,l={$\SI{2}{\kilo\ohm}$},i={$I_0$}]++(0,-\y);
+\draw(0,2*\y) to [short]++(3*\x,0);
+\draw(0,0) to [short]++(3*\x,0) to [american voltage source,l_={$\SI{6}{\volt}$}]++(0,\y) to [resistor,l_={$\SI{2}{\kilo\ohm}$}]++(0,\y);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مسئلے_نارٹن_ت} کا دور۔}
+\label{شکل_سوال_مسئلے_نارٹن_ت}
+\end{figure}
+
+جواب:\عددی{I_0=\tfrac{17}{8}\,\si{\milli\ampere}}
+\انتہا{سوال}
+%========================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_نارٹن_ٹ}
+شکل \حوالہ{شکل_سوال_مسئلے_نارٹن_ٹ} میں مسئلہ تھونن استعمال کرتے ہوئے \عددی{V_0} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american controlled voltage source,l={$2V_x$}]++(0,\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{1}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [american current source,*-*,l={$\SI{2}{\milli\ampere}$}]++(0,\y);
+\draw(3*\x,0) to [resistor,*-*,l={$\SI{1}{\kilo\ohm}$},v_>={$V_x$}]++(0,\y);
+\draw(4*\x,0) to [resistor,l={$\SI{1}{\kilo\ohm}$},v_>={$V_0$}]++(0,\y) to [resistor,l_={$\SI{1}{\kilo\ohm}$}]++(-\x,0);
+\draw(0,0) to [short]++(4*\x,0);
+\draw(0,\y) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(\x,0) to [american voltage source,l={$\SI{2}{\volt}$}]++(\x,0) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(\x,0);
+\draw(0,\y) to [short,*-]++(0,3/4*\y) to [american current source,l={$\SI{4}{\milli\ampere}$}]++(3*\x,0) to [short]++(0,-3/4*\y);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مسئلے_نارٹن_ٹ} کا دور۔}
+\label{شکل_سوال_مسئلے_نارٹن_ٹ}
+\end{figure}
+
+جواب:\عددی{V_0=\tfrac{2}{3}\,\si{\volt}}
+\انتہا{سوال}
+%========================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_نارٹن_ث}
+شکل \حوالہ{شکل_سوال_مسئلے_نارٹن_ث} میں مسئلہ نارٹن استعمال کرتے ہوئے \عددی{V_0} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american current source,l={$\SI{4}{\milli\ampere}$}]++(0,\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{1}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,\y) to [american current source,*-*,l_={$\SI{6}{\milli\ampere}$}]++(0,-\y);
+\draw(3*\x,0) to [resistor,*-*,l={$\SI{1}{\kilo\ohm}$},v_>={$V_x$}]++(0,\y);
+\draw(4*\x,0) to [resistor,l={$\SI{1}{\kilo\ohm}$},v_>={$V_0$}]++(0,\y) to [resistor,l_={$\SI{1}{\kilo\ohm}$}]++(-\x,0);
+\draw(0,0) to [short]++(4*\x,0);
+\draw(0,\y) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(\x,0) to [american voltage source,l={$\SI{2}{\volt}$}]++(\x,0) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(\x,0);
+\draw(0,\y) to [short,*-]++(0,3/4*\y) to [american controlled voltage source,l={$4V_x$}]++(3*\x,0) to [short]++(0,-3/4*\y);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مسئلے_نارٹن_ث} کا دور۔}
+\label{شکل_سوال_مسئلے_نارٹن_ث}
+\end{figure}
+
+جواب:\عددی{V_0=\SI{-2}{\volt}}
+\انتہا{سوال}
+%========================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_تبادلہ_منبع_الف}
+شکل \حوالہ{شکل_سوال_مسئلے_تبادلہ_منبع_الف} کو تبادلہ منبع سے حل کرتے ہوئے \عددی{I_0}  معلوم کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{12}{\volt}$}]++(0,\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{12}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,*-*,l={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\draw(3*\x,0) to [resistor,l_={$\SI{3}{\kilo\ohm}$}]++(0,\y) to [resistor,l_={$\SI{9}{\kilo\ohm}$}]++(-\x,0);
+\draw(0,0) to [short]++(3*\x,0);
+\draw(2*\x,\y) to [american current source,l_={$\SI{8}{\milli\ampere}$}]++(-\x,0) to [resistor,l_={$\SI{6}{\kilo\ohm}$},i<={$I_0$}]+(-\x,0);
+\draw(\x,\y) to [short]++(0,3/4*\y) to [resistor,l={$\SI{3}{\kilo\ohm}$}]++(\x,0) to [short]++(0,-3/4*\y);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مسئلے_تبادلہ_منبع_الف} کا دور۔}
+\label{شکل_سوال_مسئلے_تبادلہ_منبع_الف}
+\end{figure}
+
+جواب:\عددی{I_0=-\tfrac{2}{5}\,\si{\milli\ampere}}
+\انتہا{سوال}
+%===========================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_تبادلہ_منبع_ب}
+شکل \حوالہ{شکل_سوال_مسئلے_تبادلہ_منبع_ب} کو تبادلہ منبع سے حل کرتے ہوئے \عددی{V_0}  معلوم کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(0,\y);
+\draw(\x,0) to [american current source,*-*,l={$\SI{4}{\milli\ampere}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,*-*,l={$\SI{12}{\kilo\ohm}$}]++(0,\y);
+\draw(3*\x,0) to [resistor,*-*,l_={$\SI{12}{\kilo\ohm}$}]++(0,\y);
+ \draw(4*\x,0) to [american voltage source,l_={$\SI{12}{\volt}$}]++(0,\y) to [resistor,l_={$\SI{3}{\kilo\ohm}$}]++(-\x,0);
+\draw(0,0) to [short]++(4*\x,0);
+\draw(3*\x,\y) to [resistor,l={$\SI{3}{\kilo\ohm}$},v={$V_0$}]++(-\x,0) to [short]++(-\x,0) to [resistor,l_={$\SI{2}{\kilo\ohm}$}]++(-\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مسئلے_تبادلہ_منبع_ب} کا دور۔}
+\label{شکل_سوال_مسئلے_تبادلہ_منبع_ب}
+\end{figure}
+
+جواب:\عددی{V_0=-\tfrac{6}{7}\,\si{\volt}}
+\انتہا{سوال}
+%===========================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_تبادلہ_منبع_پ}
+شکل \حوالہ{شکل_سوال_مسئلے_تبادلہ_منبع_پ} کو تبادلہ منبع سے حل کرتے ہوئے \عددی{I_0}  معلوم کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(0,\y);
+\draw(\x,0) to [american current source,*-*,l={$\SI{6}{\milli\ampere}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,*-*,l_={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\draw(3*\x,0) to [american current source,*-*,l_={$\SI{4}{\milli\ampere}$}]++(0,\y);
+ \draw(4*\x,0) to [american voltage source,l_={$\SI{8}{\volt}$},i_<={$I_0$}]++(0,\y) to [resistor,l_={$\SI{4}{\kilo\ohm}$}]++(-\x,0);
+\draw(0,0) to [short]++(4*\x,0);
+\draw(3*\x,\y) to [short]++(-\x,0) to  [resistor,l={$\SI{2}{\kilo\ohm}$}]++(-\x,0) to [short]++(-\x,0);
+\draw(\x,\y)to [short]++(0,3/4*\y) to [american current source,l_={$\SI{2}{\milli\ampere}$}]++(\x,0) to [short]++(0,-3/4*\y);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مسئلے_تبادلہ_منبع_پ} کا دور۔}
+\label{شکل_سوال_مسئلے_تبادلہ_منبع_پ}
+\end{figure}
+
+جواب:\عددی{I_0=\SI{2}{\milli\ampere}}
+\انتہا{سوال}
+%===========================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_تبادلہ_منبع_ت}
+شکل \حوالہ{شکل_سوال_مسئلے_تبادلہ_منبع_ت} کو تبادلہ منبع سے حل کرتے ہوئے \عددی{I_0}  معلوم کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(2*\x,0) to [resistor,l={$\SI{6}{\kilo\ohm}$}]++(-\x,0) to [american voltage source,l={$\SI{8}{\volt}$}]++(-\x,0);
+\draw(0,\y) to [resistor,l={$\SI{12}{\kilo\ohm}$}]++(\x,0) to [short]++(\x,0);
+\draw(0,2*\y) to [short]++(\x,0) to [resistor,l={$\SI{6}{\kilo\ohm}$}]++(\x,0);
+\draw(0,3*\y) to [short]++(\x,0) to [american voltage source,l={$\SI{6}{\volt}$}]++(\x,0);
+\draw(0,0) to [short,-*]++(0,\y) to [short,-*]++(0,\y) to [american current source,l={$\SI{12}{\milli\ampere}$}]++(0,\y);
+\draw(2*\x,0) to [short,-*]++(0,\y) to [resistor,-*,l={$\SI{2}{\kilo\ohm}$}]++(0,\y) to [short]++(0,\y);
+\draw(\x,2*\y) to [resistor,*-*,l={$\SI{6}{\kilo\ohm}$}]++(0,\y);
+\draw(\x,0) to [resistor,*-*,l_={$\SI{6}{\kilo\ohm}$},i_<={$I_0$}]++(0,\y);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مسئلے_تبادلہ_منبع_ت} کا دور۔}
+\label{شکل_سوال_مسئلے_تبادلہ_منبع_ت}
+\end{figure}
+
+جواب:\عددی{I_0=\tfrac{302}{111}\,\si{\milli\ampere}}
+\انتہا{سوال}
+%===========================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_بلند_تر_طاقت_الف}
+شکل \حوالہ{شکل_سوال_مسئلے_بلند_تر_طاقت_الف} میں بوجھ \عددی{R_L} کی وہ قیمت دریافت کریں جس پر اس کو زیادہ سے زیادہ طاقت منتقل ہو گا۔اس طاقت کا تخمینہ لگائیں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(0,\y) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [short]++(\x,0) to [resistor,l={$R_L$}]++(0,-\y) to [short](0,0);
+\draw(\x,0) to [american current source,*-*,l={$\SI{2}{\milli\ampere}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,*-*,l_={$\SI{2}{\kilo\ohm}$}]++(0,\y);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مسئلے_بلند_تر_طاقت_الف} کا دور۔}
+\label{شکل_سوال_مسئلے_بلند_تر_طاقت_الف}
+\end{figure}
+
+جوابات:\عددی{R_L=\tfrac{8}{3}\,\si{\kilo\ohm}}، \عددی{p=\tfrac{512}{507}\,\si{\milli\watt}}
+\انتہا{سوال}
+%======================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_بلند_تر_طاقت_ب}
+شکل \حوالہ{شکل_سوال_مسئلے_بلند_تر_طاقت_ب} میں بوجھ \عددی{R_L} کی وہ قیمت دریافت کریں جس پر اس کو زیادہ سے زیادہ طاقت منتقل ہو گا۔اس طاقت کا تخمینہ لگائیں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{3}{\volt}$}]++(0,\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{6}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,l_={$R_L$}]++(0,\y);
+\draw(0,0) to [short]++(2*\x,0);
+\draw(0,\y) to [resistor,l={$\SI{3}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0);
+\draw(\x,\y) to [short]++(0,3/4*\y) to [american current source,l={$\SI{1}{\milli\ampere}$}]++(\x,0) to [short,-*]++(0,-3/4*\y);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مسئلے_بلند_تر_طاقت_ب} کا دور۔}
+\label{شکل_سوال_مسئلے_بلند_تر_طاقت_ب}
+\end{figure}
+
+جوابات:\عددی{R_L=\SI{4}{\kilo\ohm}}، \عددی{p=\SI{1}{\milli\watt}}
+\انتہا{سوال}
+%======================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_بلند_تر_طاقت_پ}
+شکل \حوالہ{شکل_سوال_مسئلے_بلند_تر_طاقت_پ}-الف میں بوجھ \عددی{R_L} کی وہ قیمت دریافت کریں جس پر اس کو زیادہ سے زیادہ طاقت منتقل ہو گا۔اس طاقت کا تخمینہ لگائیں۔\عددی{\tfrac{R_L}{2}} اور \عددی{2R_L} بوجھ کی صورت میں بوجھ کو منتقل طاقت دریافت کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.6\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l_={$\SI{8}{\volt}$}]++(0,2*\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$R_L$}]++(\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0);
+\draw(\x,0) to [american current source,*-,l={$\SI{4}{\milli\ampere}$}]++(0,\y) to [resistor,-*,l={$\SI{6}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,*-*,l={$\SI{8}{\kilo\ohm}$}]++(0,2*\y);
+\draw(3*\x,0) to [american voltage source,l={$\SI{12}{\volt}$}]++(0,2*\y);
+\draw(0,0) to [short]++(3*\x,0);
+\end{tikzpicture}%
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.4\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american controlled voltage source,l={$4I_x$}]++(0,\y) to [resistor,l={$\SI{10}{\ohm}$}]++(0,\y);
+\draw(3/4*\x,0) to [resistor,*-,l={$R_L$}]++(0,\y) to [resistor,-*,l={$\SI{5}{\ohm}$}]++(0,\y);
+\draw(2*3/4*\x,0) to [american voltage source,l={$\SI{24}{\volt}$}]++(0,\y) to [resistor,l={$\SI{10}{\ohm}$},i<={$I_x$}]++(0,\y);
+\draw(0,0) to [short]++(2*3/4*\x,0);
+\draw(0,2*\y) to [short]++(2*3/4*\x,0);
+\end{tikzpicture}%
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_مسئلے_بلند_تر_طاقت_پ} اور سوال \حوالہ{سوال_مسئلے_بلند_تر_طاقت_پپ} کے ادوار۔}
+\label{شکل_سوال_مسئلے_بلند_تر_طاقت_پ}
+\end{figure}
+
+جوابات:\عددی{R_L=\tfrac{14}{3}\,\si{\kilo\ohm}}، \عددی{p=\tfrac{24}{7}\,\si{\milli\watt}}، \عددی{\tfrac{64}{21}\,\si{\milli\watt}}، 
+\عددی{\tfrac{64}{21}\,\si{\milli\watt}}
+\انتہا{سوال}
+%======================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_بلند_تر_طاقت_پپ}
+شکل \حوالہ{شکل_سوال_مسئلے_بلند_تر_طاقت_پ}-ب میں بوجھ \عددی{R_L} کی وہ قیمت دریافت کریں جس پر اس کو زیادہ سے زیادہ طاقت منتقل ہو گا۔اس طاقت کا تخمینہ لگائیں۔
+
+جوابات:\عددی{R_L=\tfrac{45}{4}\,\si{\ohm}}، \عددی{p=\tfrac{9}{5}\,\si{\watt}}
+\انتہا{سوال}
+%=======================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_بلند_تر_طاقت_ت}
+شکل \حوالہ{شکل_سوال_مسئلے_بلند_تر_طاقت_ت}-الف میں بوجھ \عددی{R_L} کی وہ قیمت دریافت کریں جس پر اس کو زیادہ سے زیادہ طاقت منتقل ہو گا۔اس طاقت کا تخمینہ لگائیں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{4}{\volt}$}]++(0,\y) to [short]++(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{6}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$R_L$}]++(0,-\y);
+\draw(\x,0)to [resistor,*-*,l={$\SI{6}{\kilo\ohm}$}]++(0,\y) to [american voltage source,-*,l={$\SI{6}{\volt}$}]++(0,\y);
+\draw(2*\x,0) to [american voltage source,-*,l_={$\SI{8}{\volt}$}]++(0,\y);
+\draw(0,\y) to [resistor,*-*,l={$\SI{6}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{6}{\kilo\ohm}$}]++(\x,0);
+\draw(0,0) to [short]++(2*\x,0);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$\SI{8}{\volt}$}]++(0,\y) to [resistor,l={$\SI{2}{\ohm}$}]++(0,\y);
+\draw(\x,0) to [american controlled current source,*-,l={$3I_x$}]++(0,\y) to [american controlled voltage source,-*,l={$2V_x$},i={$I_x$}]++(0,\y);
+\draw(2*\x,0) to [resistor,l={$\SI{8}{\ohm}$}]++(0,\y) to [american current source,l_={$\SI{2}{\ampere}$}]++(0,\y);
+\draw(0,0) to [short]++(2*\x,0);
+\draw(0,\y) to [resistor,*-*,l={$\SI{4}{\ohm}$},v_>={$V_x$}]++(\x,0) to [resistor,-*,l={$R_L$}]++(\x,0);
+\draw(0,2*\y) to [resistor,l={$\SI{4}{\ohm}$}]++(\x,0) to [resistor,l={$\SI{6}{\ohm}$}]++(\x,0);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_مسئلے_بلند_تر_طاقت_ت} اور سوال \حوالہ{سوال_مسئلے_بلند_تر_طاقت_ٹ} کے ادوار۔}
+\label{شکل_سوال_مسئلے_بلند_تر_طاقت_ت}
+\end{figure}
+
+جوابات:\عددی{R_L=\SI{7}{\kilo\ohm}}، \عددی{p=\tfrac{1}{28}\,\si{\milli\watt}}
+\انتہا{سوال}
+%======================
+\ابتدا{سوال}\شناخت{سوال_مسئلے_بلند_تر_طاقت_ٹ}
+شکل \حوالہ{شکل_سوال_مسئلے_بلند_تر_طاقت_ت}-ب میں بوجھ \عددی{R_L} کی وہ قیمت دریافت کریں جس پر اس کو زیادہ سے زیادہ طاقت منتقل ہو گا۔اس طاقت کا تخمینہ لگائیں۔
+
+جوابات:\عددی{R_L=\tfrac{20}{3}\,\si{\ohm}}، \عددی{p=\tfrac{484}{15}\,\si{\watt}}
+\انتہا{سوال}
+%======================
