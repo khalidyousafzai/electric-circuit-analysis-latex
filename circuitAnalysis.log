@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  7 AUG 2017 18:54
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  8 AUG 2017 18:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3069,86 +3069,38 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 7.6pt on input line 11.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 4.56004pt on input line 11.
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \hbox (26.21152pt too wide) in paragraph at lines 11--13
+ [][][][] 
+ []
+
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 14.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 20.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 9.5pt on input line 6.
+(Font)              scaled to size 9.5pt on input line 29.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 5.70004pt on input line 6.
+(Font)              scaled to size 5.70004pt on input line 29.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 10.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 42.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 42.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 42.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 42.
+(Font)              scaled to size 7.0pt on input line 46.
 
-Overfull \hbox (2.38707pt too wide) in paragraph at lines 40--43
+Overfull \hbox (11.66563pt too wide) in paragraph at lines 64--67
  [][][][] 
  []
 
 
-Overfull \hbox (1.32027pt too wide) in paragraph at lines 49--52
- [][][][] 
- []
-
-
-Overfull \hbox (1.32393pt too wide) in paragraph at lines 69--72
- [][][][] 
- []
-
-
-Overfull \hbox (7.71373pt too wide) in paragraph at lines 78--81
- [][][][] 
- []
-
-[909
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-] [910]
-Overfull \hbox (1.32155pt too wide) in paragraph at lines 107--112
- [][][][] 
- []
-
-
-Overfull \hbox (1.32536pt too wide) in paragraph at lines 129--132
- [][][][] 
- []
-
-
-Overfull \hbox (7.70824pt too wide) in paragraph at lines 158--161
- [][][][] 
- []
-
-
-Overfull \hbox (1.31844pt too wide) in paragraph at lines 167--170
- [][][][] 
- []
-
-[911] [912]
-Overfull \hbox (3.8849pt too wide) in paragraph at lines 241--244
- [][][][] 
- []
-
-
-Overfull \hbox (3.14267pt too wide) in paragraph at lines 250--253
+Overfull \hbox (4.70186pt too wide) in paragraph at lines 72--76
  [][][][] 
  []
 
@@ -3158,13 +3110,26 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-) [913] [914] [915] [916] (./circuitAnalysis.aux (./tex/cktBasics.aux)
+[921
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+] [922] [923]) [924] (./circuitAnalysis.aux (./tex/cktBasics.aux)
 (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
 (./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
 (./tex/cktTransients.aux) (./tex/cktSteadyStateAC.aux)
@@ -3182,12 +3147,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 47959 strings out of 493918
- 1145499 string characters out of 6150562
- 1413357 words of memory out of 5000000
- 50300 multiletter control sequences out of 15000+600000
- 37455 words of font info for 146 fonts, out of 8000000 for 9000
+ 48291 strings out of 493918
+ 1151160 string characters out of 6150562
+ 1430914 words of memory out of 5000000
+ 50634 multiletter control sequences out of 15000+600000
+ 35549 words of font info for 139 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,19n,81p,10476b,2894s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,17n,81p,10476b,1993s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (16 pages).
+Output written on circuitAnalysis.pdf (12 pages).
