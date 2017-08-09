@@ -2153,3 +2153,592 @@ V_0=\frac{V_I}{1-D}
 یہاں غور کریں کہ \عددی{t_1< T} ہے لہٰذا \عددی{D}  مثبت ہو گا جبکہ اس کی قیمت صفر تا اکائی \عددی{(0<D<1)} ممکن ہے۔یوں درج بالا مساوات کے تحت \عددی{V_0\ge V_I} ہو گا یعنی خارجی دباو کی قیمت داخلی دباو سے زیادہ ہو گی۔اسی لئے اس منبع کو \اصطلاح{اٹھان منبع}\فرہنگ{اٹھان منبع}\حاشیہب{boost converter}\فرہنگ{boost converter} کہتے ہیں۔دوری عرصہ \عددی{T} کو مستقل رکھتے ہوئے \عددی{V_0} کی قیمت کو \عددی{D} کی مدد سے تبدیل کیا جاتا ہے۔
 \انتہا{مثال}
 %============================
+
+\حصہء{سوالات}
+
+%==================
+\ابتدا{سوال}\شناخت{سوال_عارضی_الف}
+شکل \حوالہ{شکل_سوال_عارضی_الف}-الف میں  سوئچ منقطع کرنے کے بعد \عددی{i(t)} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.3\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l_={$\SI{20}{\volt}$}]++(0,2*\y) to [ospst,l={${t=0}$}]++(\x,0) to [resistor,l={$\SI{10}{\ohm}$}]++(0,-\y) to [inductor,l_={$\SI{4}{\henry}$}]++(0,-\y) to [short]++(-\x,0);
+\draw(\x,\y) to [short,*-]++(\x/2,0) to [resistor,l={$\SI{12}{\ohm}$},i<={$i(t)$}]++(0,-\y) to [short,-*]++(-\x/2,0); 
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.7\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american current source,l={$\SI{8}{\milli\ampere}$}]++(0,\y) to [ospst,l={${t=0}$}]++(\x,0) to [resistor,l_={$\SI{4}{\kilo\ohm}$},i={$i(t)$}]++(0,-\y)  to [short]++(-\x,0);
+\draw(\x,\y) to [short,*-]++(\x,0) to [capacitor,l_={$\SI{100}{\micro\farad}$}]++(0,-\y) to [short,-*]++(-\x,0); 
+\draw(0,0) to [short,*-]++(-\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(0,\y) to [short,-*]++(\x,0);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_عارضی_الف} اور سوال \حوالہ{سوال_عارضی_ب} کے ادوار۔}
+\label{شکل_سوال_عارضی_الف}
+\end{figure}
+
+جواب:\عددی{i(t)=2e^{-3t}\,\si{\ampere}}
+\انتہا{سوال}
+%====================
+\ابتدا{سوال}\شناخت{سوال_عارضی_ب}
+شکل \حوالہ{شکل_سوال_عارضی_الف}-ب میں  سوئچ منقطع کرنے کے بعد \عددی{i(t)} دریافت کریں۔
+
+جواب:\عددی{i(t)=4e^{-\tfrac{5t}{2}}\,\si{\milli\ampere}}
+\انتہا{سوال}
+%====================
+\ابتدا{سوال}\شناخت{سوال_عارضی_پ}
+شکل \حوالہ{شکل_سوال_عارضی_پ} میں  \عددی{t=0} پر سوئچ کو منبع کی جانب کر دیا جاتا ہے۔اس لمحے  کے بعد \عددی{v_0(t)} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) node[spdt,xscale=-1,yscale=-1](sw1){};
+\draw[-stealth,thick]([shift={(200:0.7)}]sw1.in) arc (200:140:0.7)node[above]{$t=0$};
+\draw(sw1.out 2)--++(-\x/2,0) ++(0,-\y)coordinate(kBL) to [american voltage source,l={$\SI{8}{\volt}$}]++(0,\y);
+\draw[name path=kbot](sw1.in) to [resistor,l={$\SI{10}{\kilo\ohm}$}]++(\x,0)coordinate(kT) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{6}{\kilo\ohm}$},v={$v_0(t)$}]++(0,-\y)coordinate(kBR) -|(kBL);
+\path[name path=kvrt](sw1.out 1)--++(0,-\y);
+\draw[name intersections={of=kvrt and kbot}] (sw1.out 1)--(intersection-1)node[circ]{};
+\draw(kT) to [capacitor,*-*,l_={$\SI{200}{\micro\farad}$}]++(0,-\y);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_عارضی_پ} کا دور۔}
+\label{شکل_سوال_عارضی_پ}
+\end{figure}
+
+جواب:\عددی{v_0(t)=\tfrac{12}{5}(1-e^{-t})\,\si{\volt}}
+\انتہا{سوال}
+%====================
+\ابتدا{سوال}\شناخت{سوال_عارضی_ت}
+شکل \حوالہ{شکل_سوال_عارضی_ت}-الف میں \عددی{v_0(t)} کو \عددی{t>0} کے لئے حاصل کریں۔ 
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$\SI{20}{\volt}$}]++(0,\y) to [ospst,l={${t=0}$}]++(\x,0) to [resistor,l={$\SI{8}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{8}{\kilo\ohm}$},v={$v_0(t)$}]++(0,-\y) to [short]++(-2*\x,0);
+\draw(\x,0) to [resistor,*-*,l={$\SI{8}{\kilo\ohm}$}]++(0,\y) to [short]++(0,3/4*\y) to [capacitor,l={$\SI{200}{\micro\farad}$}]++(\x,0) to [short,-*]++(0,-3/4*\y);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [resistor,*-,l={$\SI{4}{\kilo\ohm}$}]++(0,\y) to [american voltage source,l={$\SI{10}{\volt}$}]++(0,\y);
+\draw(\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$},v_>={$v_0(t)$}]++(0,2*\y) to [short,*-]++(0,3/4*\y) to [capacitor,l={$\SI{100}{\micro\farad}$}]++(-\x,0) to [short,-*]++(0,-3/4*\y);
+\draw(\x,0) to [short]++(-2*\x,0) to [ospst,l={${t=0}$}]++(0,\y) to [american voltage source,l={$\SI{6}{\volt}$}]++(0,\y) to [short,-*]++(\x,0) to [resistor,l_={$\SI{8}{\kilo\ohm}$}]++(\x,0);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_عارضی_ت} اور سوال \حوالہ{سوال_عارضی_ٹ} کے ادوار۔}
+\label{شکل_سوال_عارضی_ت}
+\end{figure}
+
+جواب:\عددی{v_0(t)=-5e^{-\tfrac{15t}{16}}\,\si{\volt}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_عارضی_ٹ}
+شکل \حوالہ{شکل_سوال_عارضی_ت}-ب میں \عددی{v_0(t)} کو \عددی{t>0} کے لئے حاصل کریں۔ 
+
+جواب:\عددی{v_0(t)=\tfrac{5}{2}+\tfrac{1}{2}e^{-\tfrac{5t}{2}}\,\si{\volt}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_عارضی_ث}
+شکل \حوالہ{شکل_سوال_عارضی_ث} میں \عددی{i_0(t)} کو \عددی{t>0} کے لئے حاصل کریں۔ 
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\SI{10}{\volt}$}]++(0,\y);
+\draw(\x,0) to [capacitor,*-*,l={$\SI{100}{\micro\farad}$}]++(0,\y);
+\draw(2*\x,0) to [cspst,*-*,l={${t=0}$}]++(0,\y);
+\draw(3*\x,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(0,\y);
+\draw(0,0) to [short]++(3*\x,0);
+\draw(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{6}{\kilo\ohm}$},i={$i(t)$}]++(\x,0) to [short]++(\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_عارضی_ث} کا دور۔}
+\label{شکل_سوال_عارضی_ث}
+\end{figure}
+
+جواب:\عددی{i(t)=\tfrac{5}{4}+\tfrac{1}{12}e^{-\tfrac{20t}{3}}\,\si{\milli\ampere}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_عارضی_ج}
+شکل \حوالہ{شکل_سوال_عارضی_ج} میں \عددی{i_0(t)} کو \عددی{t>0} کے لئے حاصل کریں۔ 
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [resistor,l={$\SI{4}{\kilo\ohm}$},i<={$i(t)$}]++(0,\y);
+\draw(\x,0) to [inductor,*-*,l={$\SI{4}{\henry}$}]++(0,\y);
+\draw(2*\x,0) to [american voltage source,l={$\SI{8}{\volt}$}]++(0,\y);
+\draw(0,0) to [short] ++(\x,0) to [ospst,l={${t=0}$}]++(\x,0);
+\draw(0,\y) to [short]++(\x,0) to [resistor,l={$\SI{1}{\kilo\ohm}$},]++(\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_عارضی_ج} کا دور۔}
+\label{شکل_سوال_عارضی_ج}
+\end{figure}
+
+جواب:\عددی{i(t)=-8e^{-1000t}\,\si{\milli\ampere}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_عارضی_چ}
+شکل \حوالہ{شکل_سوال_عارضی_چ} میں \عددی{i_0(t)} کو \عددی{t>0} کے لئے حاصل کریں۔ 
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\draw(\x,0) to [american current source,*-*,l={$\SI{6}{\milli\henry}$}]++(0,\y);
+\draw(2*\x,0) to [cspst,*-*,l={${t=0}$}]++(0,\y);
+\draw(3*\x,0) to [capacitor,*-*,l={$\SI{200}{\micro\farad}$}] ++(0,\y);
+\draw(4*\x,0) to [resistor,l={$\SI{2}{\kilo\ohm}$},i_<={$i(t)$}]++(0,\y);
+\draw(0,0) to [short]++(4*\x,0);
+\draw(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{6}{\kilo\ohm}$}]++(\x,0) to [short]++(\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_عارضی_چ} کا دور۔}
+\label{شکل_سوال_عارضی_چ}
+\end{figure}
+
+جواب:\عددی{i(t)=2e^{-\tfrac{10t}{3}}\,\si{\milli\ampere}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_عارضی_ح}
+شکل \حوالہ{شکل_سوال_عارضی_ح} میں \عددی{v_0(t)} کو \عددی{t>0} کے لئے حاصل کریں۔ 
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [american current source,*-*,l={$\SI{10}{\milli\ampere}$}]++(0,\y);
+\draw(3*\x,0) to [capacitor,*-*,l={$\SI{40}{\micro\farad}$}]++(0,\y);
+\draw(4*\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$},v_>={$v(t)$}]++(0,\y);
+\draw(0,0) to [short]++(4*\x,0);
+\draw(0,\y) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0) to [ospst,l={${t=0}$}]++(\x,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_عارضی_ح} کا دور۔}
+\label{شکل_سوال_عارضی_ح}
+\end{figure}
+
+جواب:\عددی{v(t)=40-20e^{-\tfrac{25t}{6}}\,\si{\volt}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_عارضی_خ}
+شکل \حوالہ{شکل_سوال_عارضی_خ} میں \عددی{v_0(t)} کو \عددی{t>0} کے لئے حاصل کریں۔ 
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [cspst,l={${t=0}$}]++(0,\y);
+\draw(\x,0) to [american current source,*-*,l={$\SI{6}{\milli\ampere}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,*-*,l={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\draw(3*\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$},v_>={$v(t)$}]++(0,\y);
+\draw(0,0) to [short]++(3*\x,0);
+\draw(0,\y) to [short]++(\x,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0)to [capacitor,l={$\SI{60}{\micro\farad}$}]++(\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_عارضی_خ} کا دور۔}
+\label{شکل_سوال_عارضی_خ}
+\end{figure}
+
+جواب:\عددی{v_0(t)=-18e^{-\tfrac{25t}{8}}\,\si{\volt}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_عارضی_د}
+شکل \حوالہ{شکل_سوال_عارضی_د}-الف میں \عددی{i_0(t)} کو \عددی{t>0} کے لئے حاصل کریں۔ 
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(0,\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{2}{\kilo\ohm}$},i<={$i_0(t)$}]++(0,\y);
+\draw(2*\x,0) to [capacitor,l={$\SI{80}{\micro\farad}$}]++(0,\y);
+\draw(0,0) to [short]++(2*\x,0);
+\draw(0,\y) to [cspst,l={${t=0}$}]++(\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0);
+\draw(0,\y) to [short,*-]++(0,3/4*\y) to [american voltage source,l={$\SI{8}{\volt}$}]++(2*\x,0) to [short,-*]++(0,-3/4*\y);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$\SI{12}{\volt}$}]++(0,2*\y);
+\draw(\x,0) to [american voltage source,*-,l={$\SI{10}{\volt}$}]++(0,\y) to [resistor,-*,l={$\SI{2}{\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,l={$\SI{4}{\ohm}$},v_>={$v_0(t)$}]++(0,2*\y);
+\draw(0,0) to [short]++(2*\x,0);
+\draw(0,2*\y) to [ospst,l={${t=0}$}]++(\x,0) to [resistor,l={$\SI{4}{\ohm}$}]++(\x,0);
+\draw(\x,2*\y) to [short]++(0,3/4*\y) to [inductor,l={$\SI{2}{\henry}$}]++(\x,0) to [short,-*]++(0,-3/4*\y);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_عارضی_د} اور سوال \حوالہ{سوال_عارضی_امالہ_الف} کے ادوار۔ }
+\label{شکل_سوال_عارضی_د}
+\end{figure}
+
+جواب:\عددی{i_0(t)=5e^{-\tfrac{25t}{2}}\,\si{\milli\ampere}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_عارضی_امالہ_الف}
+شکل \حوالہ{شکل_سوال_عارضی_د}-ب میں \عددی{v_0(t)} کو \عددی{t>0} کے لئے حاصل کریں۔ 
+
+جواب:\عددی{v_0(t)=\tfrac{112}{15}e^{-\tfrac{6t}{5}}-\tfrac{20}{3}\,\si{\volt}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_عارضی_امالہ_ب}
+شکل \حوالہ{شکل_سوال_عارضی_امالہ_ب} میں \عددی{v_0(t)} کو \عددی{t>0} کے لئے حاصل کریں۔ 
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american current source,l={$\SI{12}{\ampere}$}]++(0,2*\y);
+\draw(\x,0) to [inductor,*-,l={$\SI{6}{\henry}$}]++(0,\y) to [resistor,-*,l={$\SI{2}{\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,l={$\SI{4}{\ohm}$},v_>={$v_0(t)$}]++(0,2*\y);
+\draw(0,0) to [short]++(2*\x,0);
+\draw(0,2*\y) to [resistor,l={$\SI{4}{\ohm}$}]++(\x,0) to [resistor,l={$\SI{6}{\ohm}$}]++(\x,0);
+\draw(0,2*\y) to [short,*-]++(0,3/4*\y) to [cspst,l={${t=0}$}]++(2*\x,0) to [short,-*]++(0,-3/4*\y);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_عارضی_امالہ_ب} کا دور۔}
+\label{شکل_سوال_عارضی_امالہ_ب}
+\end{figure}
+
+جواب:\عددی{v_0(t)=\tfrac{176}{7}-\tfrac{120}{7}e^{-\tfrac{7t}{5}}\,\si{\volt}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_عارضی_امالہ_پ}
+شکل \حوالہ{شکل_سوال_عارضی_امالہ_پ} میں \عددی{i_0(t)} کو \عددی{t>0} کے لئے حاصل کریں۔ 
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$\SI{22}{\volt}$}]++(0,2*\y);
+\draw(\x,0) to [american voltage source,*-,l={$\SI{12}{\volt}$}]++(0,\y) to [ospst,-*,l={${t=0}$}]++(0,\y);
+\draw(2*\x,0) to [resistor,*-,l={$\SI{4}{\kilo\ohm}$},i<={$i_0(t)$}]++(0,\y) to [inductor,-*,l={$\SI{4}{\henry}$}]++(0,\y);
+\draw(3*\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(0,2*\y);
+\draw(0,0) to [short]++(3*\x,0);
+\draw(0,2*\y) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [short]++(\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_عارضی_امالہ_پ} کا دور۔}
+\label{شکل_سوال_عارضی_امالہ_پ}
+\end{figure}
+
+جواب:\عددی{i_0(t)=\tfrac{11}{5}-\tfrac{7}{10}e^{-\tfrac{10000t}{7}}\,\si{\milli\ampere}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_عارضی_امالہ_ت}
+شکل \حوالہ{شکل_سوال_عارضی_امالہ_ت} میں \عددی{i_0(t)} کو \عددی{t>0} کے لئے حاصل کریں۔ 
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$\SI{20}{\volt}$}]++(0,\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{4}{\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [inductor,*-*,l={$\SI{0.4}{\henry}$}]++(0,\y);
+\draw(4*\x,\y) to [american voltage source,l={$\SI{8}{\volt}$}]++(0,-\y);
+\draw(0,0) to [short]++(4*\x,0);
+\draw(0,\y) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [resistor,l={$\SI{4}{\ohm}$},i={$i_0(t)$}]++(\x,0) to [ospst,l={${t=0}$}]++(\x,0) to [resistor,l={$\SI{4}{\ohm}$}]++(\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_عارضی_امالہ_ت} کا دور۔}
+\label{شکل_سوال_عارضی_امالہ_ت}
+\end{figure}
+
+جواب:\عددی{i_0(t)=3e^{-\tfrac{40t}{3}}-2.5\,\si{\ampere}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_عارضی_امالہ_ٹ}
+شکل \حوالہ{شکل_سوال_عارضی_امالہ_ٹ} میں \عددی{i_0(t)} کو \عددی{t>0} کے لئے حاصل کریں۔ 
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$\SI{8}{\volt}$}]++(0,\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{4}{\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [cspst,*-*,l={${t=0}$}]++(0,\y);
+\draw(3*\x,0) to [american current source,*-*,l={$\SI{2}{\ampere}$}]++(0,\y);
+\draw(4*\x,0) to [resistor,l={$\SI{2}{\ohm}$},i<={$i_0(t)$}]++(0,\y);
+\draw(0,0) to [short]++(4*\x,0);
+\draw(0,\y) to [resistor,l={$\SI{4}{\ohm}$}]++(\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [inductor,l={$\SI{2}{\henry}$}]++(\x,0) to [short]++(\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_عارضی_امالہ_ٹ} کا دور۔}
+\label{شکل_سوال_عارضی_امالہ_ٹ}
+\end{figure}
+
+جواب:\عددی{i_0(t)=2e^{-t}\,\si{\ampere}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_عارضی_امالہ_ث}
+شکل \حوالہ{شکل_سوال_عارضی_امالہ_ث}-الف میں \عددی{v_0(t)} کو \عددی{t>0} کے لئے حاصل کریں۔ داخلی اشارہ شکل-ب میں دیا گیا ہے۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.4\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$v_s(t)$}]++(0,\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{4}{\kilo\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [capacitor,l={$\SI{100}{\micro\farad}$},v_>={$v_0(t)$}]++(0,\y);
+\draw(0,0) to [short]++(2*\x,0);
+\draw(0,\y) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [resistor,l={$\SI{1}{\ohm}$}]++(\x,0);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.6\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\begin{axis}[small,xlabel={$t \, (\si{\second})$},ylabel={$v_s(t) \, (\si{\volt})$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},xtick={0,2}, xticklabels={$0$,$2$},ytick={0,6},yticklabels={$0$,$6$}]
+\addplot[] plot coordinates {(-0.5,0) (0,0) (0,6) (2,6) (2,0) (4,0)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_عارضی_امالہ_ث} کا دور۔}
+\label{شکل_سوال_عارضی_امالہ_ث}
+\end{figure}
+
+جواب:
+\begin{align*}
+v_0(t)=
+\begin{cases}
+4(1-e^{-\frac{30t}{7}}) & 0<t<2\\
+4(1-e^{-\frac{60}{7}})e^{-\frac{30}{7}(t-2)} & 2<t
+\end{cases}
+\end{align*}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_عارضی_امالہ_ج}
+شکل \حوالہ{شکل_سوال_عارضی_امالہ_ج}-الف میں لمحہ \عددی{t=0} پر امالہ کی رو صفر کے برابر ہے۔امالہ کی رو کو \عددی{t=\SI{3}{\second}}، \عددی{t=\SI{5}{\second}} اور \عددی{t=\SI{6}{\second}} پر دریافت کریں۔ داخلی اشارہ شکل-ب میں دیا گیا ہے۔امالہ کو کامل تصور کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.4\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$v_s(t)$}]++(0,\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{6}{\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [inductor,l={$\SI{4}{\henry}$},i<={$i_L$}]++(0,\y);
+\draw(0,0) to [short]++(2*\x,0);
+\draw(0,\y) to [short]++(2*\x,0);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.6\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\begin{axis}[small,xlabel={$t \, (\si{\second})$},ylabel={$v_s(t) \, (\si{\volt})$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},xtick={0,3,5}, xticklabels={$0$,$3$,$5$},ytick={0,8,-8},yticklabels={$0$,$8$,$-8$}]
+\addplot[] plot coordinates {(-0.5,0) (0,0) (0,8) (3,8) (3,-8) (5,-8) (5,0) (5.5,0)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_عارضی_امالہ_ج} کا دور۔}
+\label{شکل_سوال_عارضی_امالہ_ج}
+\end{figure}
+
+جواب:\عددی{\SI{6}{\ampere}}، \عددی{\SI{2}{\ampere}}، \عددی{\SI{2}{\ampere}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_عارضی_دو_درجی_الف}
+ایک دور کی تفرقی مساوات درج ذیل ہے۔ \عددی{i(t)} کی مساوات حاصل کریں۔
+\begin{align*}
+\frac{\dif^{\,2} i}{\dif t^2 }+5\frac{\dif i}{\dif t}+6i=0
+\end{align*}
+
+جوابات:\عددی{i(t)=c_1e^{-2t}+c_2e^{-3t}}
+\انتہا{سوال}
+%========================
+\ابتدا{سوال}\شناخت{سوال_عارضی_دو_درجی_ب}
+ایک دور کی تفرقی مساوات درج ذیل ہے۔ \عددی{i(t)} کی مساوات حاصل کریں۔
+\begin{align*}
+\frac{\dif^{\,2} v}{\dif t^2 }+7\frac{\dif v}{\dif t}+6v=0
+\end{align*}
+
+جوابات:\عددی{v(t)=c_1e^{-t}+c_2e^{-6t}}
+\انتہا{سوال}
+%========================
+\ابتدا{سوال}\شناخت{سوال_عارضی_دو_درجی_پ}
+شکل \حوالہ{شکل_سوال_عارضی_دو_درجی_پ} میں امالہ کی ابتدائی رو \عددی{i_L(0)=\SI{2}{\ampere}} ہے  اور برق گیر کا ابتدائی دباو \عددی{v_C(0)=\SI{15}{\volt}} ہے۔ ابتدائی \عددی{\tfrac{\dif v(t)}{\dif t}} دریافت کریں۔دباو \عددی{v(t)} کی مساوات حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [capacitor,l={$\SI{2}{\farad}$},v_>={$v_C(t)$}]++(0,\yy);
+\draw(\xx,0) to [resistor,*-*,l={$\SI{10}{\ohm}$},v_>={$v(t)$}]++(0,\yy);
+\draw(2*\xx,0) to [inductor,l={$\SI{4}{\henry}$},i<={$i_L(t)$}]++(0,\yy);
+\draw(0,0) to [short]++(2*\xx,0);
+\draw(0,\yy) to [short]++(2*\xx,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_عارضی_دو_درجی_پ} کا دور۔}
+\label{شکل_سوال_عارضی_دو_درجی_پ}
+\end{figure}
+
+
+جوابات:\عددی{\tfrac{\dif v(t)}{\dif t}=\SI{-1.75}{\volt\per\second}}، \عددی{v(t)=e^{-\tfrac{t}{40}}[15\cos \tfrac{\sqrt{199} t}{40}-\tfrac{55}{\sqrt{199}}\sin \tfrac{\sqrt{199} t}{40}]\,\si{\volt}}
+\انتہا{سوال}
+%========================
+\ابتدا{سوال}\شناخت{سوال_عارضی_دو_درجی_ت}
+شکل \حوالہ{شکل_سوال_عارضی_دو_درجی_ت} میں ازل سے منقطع سوئچ کو \عددی{t=0} پر چالو کیا جاتا ہے۔سوئچ چالو کرنے کے فوراً بعد \عددی{\tfrac{\dif v_C(t)}{\dif t}} کی قیمت دریافت کریں۔\عددی{v_C(t)} کی مساوات \عددی{t>0} کے لئے حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american current source,l={$\SI{2}{\ampere}$}]++(0,\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{4}{\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [capacitor,*-*,l={$\SI{0.4}{\farad}$},v_>={$v_C(t)$}]++(0,\y);
+\draw(3*\x,0) to [inductor,l_={$\SI{2}{\henry}$}]++(0,\y);
+\draw(0,0) to [short]++(3*\x,0);
+\draw(0,\y) to [short]++(2*\x,0) to [cspst,l={${t=0}$}]++(\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_عارضی_دو_درجی_ت} کا دور۔}
+\label{شکل_سوال_عارضی_دو_درجی_ت}
+\end{figure}
+
+
+جوابات:\عددی{\tfrac{\dif v_c(t)}{\dif t}=\SI{0}{\volt\per\second}}، \عددی{v_C(t)=e^{-\tfrac{5t}{10}}[8\cos\tfrac{\sqrt{295}t}{16}+\tfrac{40}{\sqrt{295}}\sin\tfrac{\sqrt{295}t}{16}]\,\si{\volt}}
+\انتہا{سوال}
+%========================
+\ابتدا{سوال}\شناخت{سوال_عارضی_دو_درجی_ٹ}
+شکل \حوالہ{شکل_سوال_عارضی_دو_درجی_ٹ} میں لمحہ \عددی{t=0_+} پر \عددی{\tfrac{\dif i(t)}{\dif t}} کی قیمت دریافت کریں۔  \عددی{v_C(t)} کی مساوات \عددی{t>0} کے لئے حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$\SI{20}{\volt}$}]++(0,\y) to [cspst,l={${t=0}$}]++(\x,0) to [resistor,l={$\SI{1}{\kilo\ohm}$}]++(\x,0) to [inductor,l={$\SI{120}{\milli\henry}$}]++(\x,0) to [capacitor,l={$\SI{1}{\micro\farad}$},v={$v_C(t)$}]++(0,-\y) to [short] (0,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_عارضی_دو_درجی_ٹ} کا دور۔}
+\label{شکل_سوال_عارضی_دو_درجی_ٹ}
+\end{figure}
+
+جوابات:
+\begin{align*}
+\left. \frac{\dif i(t)}{\dif t}\right|_{t=0_+}&=\frac{500}{3}\,\si{\ampere\per\second}\\
+v_C(t)&=20+3.8675e^{-\tfrac{2500}{3}(\sqrt{13}+5)t}-23.8675e^{\tfrac{2500}{3}(\sqrt{13}-5)t}
+\end{align*}
+\انتہا{سوال}
+%=======================
+\ابتدا{سوال}\شناخت{سوال_عارضی_دو_درجی_ث}
+شکل \حوالہ{شکل_سوال_عارضی_دو_درجی_ث} میں لمحہ \عددی{t=0_+} پر سوئچ کو دوسری جانب کر دیا جاتا ہے۔اس لمحے \عددی{\tfrac{\dif v(t)}{\dif t}} کی قیمت دریافت کریں۔  \عددی{v(t)} کی مساوات \عددی{t>0} کے لئے حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) node[spdt,rotate=90](sw){};
+\draw(sw.out 1) to [resistor,l={$\SI{10}{\ohm}$}]++(-\x,0)++(0,-\y)coordinate(kBL) to [american voltage source,l={$\SI{20}{\volt}$}]++(0,\y);
+\draw(sw.in)coordinate(kTT) to [capacitor,l={$\SI{0.25}{\farad}$}]++(0,-\y)coordinate(kB)-|(kBL);
+\draw[name path={kbot}](sw.out 2) to [short]++(2*\x,0) to [resistor,l={$\SI{10}{\ohm}$},v={$v(t)$}]++(0,-\y)|-(kB)node[circ]{}; 
+\path[name path=kvert] (sw.out 2)++(\x,-0.5)--++(0,-1.5*\y);
+\path[name intersections={of=kvert and kbot}];
+\draw(sw.out 2)++(\x,0) to [inductor,*-*,l={$\SI{2}{\henry}$}] (intersection-1);
+\draw[thick,-stealth]([shift={(120:0.7)}]kTT) arc (120:60:0.7)node[right]{${t=0}$};
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_عارضی_دو_درجی_ث} کا دور۔}
+\label{شکل_سوال_عارضی_دو_درجی_ث}
+\end{figure}
+
+جوابات:\عددی{\tfrac{\dif v(0_+)}{\dif t}=\SI{-8}{\volt\per\second}}،
+ \عددی{v(t)=e^{-\tfrac{t}{5}}(20\cos \tfrac{7t}{5}-\tfrac{20}{7}\sin \tfrac{7t}{5})\,\si{\volt}}
+
+\انتہا{سوال}
+%========================
+\ابتدا{سوال}\شناخت{سوال_عارضی_دو_درجی_ج}
+شکل \حوالہ{شکل_سوال_عارضی_دو_درجی_ج} میں \عددی{v(t)} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$20e^{-t} u(t) \, \si{\volt}$}]++(0,\y)  to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [inductor,l={$\SI{4}{\henry}$},v={$v(t)$}]++(\x,0) to [short]++(0,-\y) to [short] (0,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_عارضی_دو_درجی_ج} کا دور۔}
+\label{شکل_سوال_عارضی_دو_درجی_ج}
+\end{figure}
+
+جواب:\عددی{v(t)=[30e^{-t}-10e^{-\tfrac{t}{2}}]u(t)\,\si{\volt}}
+\انتہا{سوال}
+%==================
+\ابتدا{سوال}\شناخت{سوال_عارضی_دو_درجی_چ}
+شکل \حوالہ{شکل_سوال_عارضی_دو_درجی_چ}-الف میں  \عددی{t=0} کے بعد \عددی{i(t)=\tfrac{5}{3}(1+2e^{-2t})\,\si{\ampere}} ہے۔دور میں \عددی{R_1}، \عددی{R_2} اور \عددی{L} کی قیمتیں دریافت کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$\SI{10}{\volt}$}]++(0,\y)  to [resistor,l={$R_1$}]++(\x,0) to [resistor,l={$R_2$}]++(\x,0)to
+ [inductor,l={$L$},i={$i(t)$}]++(0,-\y)  to [short] (0,0);
+\draw(0,\y) to [short,*-]++(0,3/4*\y) to [ospst,l={${t=0}$}]++(\x,0) to [short,-*]++(0,-3/4*\y);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [inductor,l={$\SI{4}{\henry}$}]++(0,\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{6}{\ohm}$},v_>={$v(t)$}]++(0,\y);
+\draw(2*\x,0) to [inductor,l={$\SI{2}{\henry}$},i_<={$i_2(t)$}]++(0,\y);
+\draw(0,0) to [short]++(2*\x,0);
+\draw(0,\y) to [short,i<={$i_1(t)$}]++(\x,0) to [cspst,l={${t=0}$}]++(\x,0);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_عارضی_دو_درجی_چ} کا دور۔}
+\label{شکل_سوال_عارضی_دو_درجی_چ}
+\end{figure}
+
+جواب:\عددی{R_1=\SI{4}{\ohm}}، \عددی{R_2=\SI{2}{\ohm}}، \عددی{L=\SI{3}{\henry}}
+\انتہا{سوال}
+%==================
+\ابتدا{سوال}\شناخت{سوال_عارضی_دو_درجی_ح} 
+شکل \حوالہ{شکل_سوال_عارضی_دو_درجی_چ}-ب میں \عددی{i_1(0_-)=\SI{6}{\ampere}} ہے۔لمحہ \عددی{t=0} پر سوئچ کو چالو کیا جاتا ہے۔\عددی{i_2(0_+)}، \عددی{v(0_+)} اور \عددی{i_1(t \to \infty)} دریافت کریں۔
+
+جوابات:\عددی{i_2(0_+)=\SI{0}{\ampere}}، \عددی{v(0_+)=\SI{-36}{\volt}}، \عددی{i_1(t \to \infty)=\SI{0}{\ampere}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_عارضی_دو_درجی_خ}
+شکل \حوالہ{شکل_سوال_عارضی_دو_درجی_خ} میں  \عددی{t=0} پر \عددی{R_2} کو منقطع کیا جاتا ہے جس کے بعد \عددی{v_C(t)=120-80e^{-\tfrac{t}{2}}\,\si{\volt}} حاصل ہوتا ہے۔دور میں \عددی{R_1}، \عددی{R_2} اور \عددی{C} کی قیمتیں دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american current source,l={$\SI{4}{\ampere}$}]++(0,2*\y);
+\draw(\x,0)  to [resistor,*-*,l={$R_1$}]++(0,2*\y);
+\draw(2*\x,0) to [ospst,*-,l={${t=0}$}]++(0,\y) to [resistor,-*,l={$R_2$}]++(0,\y);
+\draw(3*\x,0) to [capacitor,l={$C$},v_>={$v_C(t)$}]++(0,2*\y);
+\draw(0,0) to [short]++(3*\x,0);
+\draw(0,2*\y) to [short]++(3*\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_عارضی_دو_درجی_خ} کا دور۔}
+\label{شکل_سوال_عارضی_دو_درجی_خ}
+\end{figure}
+
+جواب:\عددی{R_1=\SI{20}{\ohm}}، \عددی{R_2=\SI{10}{\ohm}}، \عددی{C=\SI{0.1}{\farad}}
+\انتہا{سوال}
+%==================
+\ابتدا{سوال}\شناخت{سوال_عارضی_دو_درجی_د}
+شکل \حوالہ{شکل_سوال_عارضی_دو_درجی_د} میں \عددی{v_C(t)=\tfrac{20}{7}[e^(-\tfrac{t}{4})-e^(-2t)]\,\si{\volt}} ہے۔دور میں \عددی{C} کی قیمتیں دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$20e^{-2t}u(t)\,\si{\volt}$}]++(0,\y) to [resistor,l={$\SI{6}{\ohm}$}]++(\x,0) to [capacitor,l={$C$},v={$v_C(t)$}]++(\x,0) to [resistor,l={$\SI{4}{\ohm}$}]++(0,-\y) to [short] (0,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_عارضی_دو_درجی_د} کا دور۔}
+\label{شکل_سوال_عارضی_دو_درجی_د}
+\end{figure}
+
+جواب:\عددی{C=\SI{0.4}{\farad}}
+\انتہا{سوال}
+%==================
+\ابتدا{سوال}\شناخت{سوال_عارضی_دو_درجی_ڈ}
+شکل \حوالہ{شکل_سوال_عارضی_دو_درجی_ڈ} میں ازل سے منبع دور کے ساتھ منسلک ہے  جس کو \عددی{t=0} پر دور سے منقطع کیا جاتا ہے۔دور میں  \عددی{i_1(t)} اور \عددی{i_2(t)} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) node[spdt,rotate=90](sw){};
+\draw(sw.out 1) to [resistor,l={$\SI{2}{\ohm}$}]++(-\x,0)++(0,-\y)coordinate(kBL) to [american voltage source,l={$\SI{10}{\volt}$}]++(0,\y);
+\draw(sw.in)coordinate(kTT) to [inductor,l_={$\SI{3}{\henry}$}]++(0,-\y)coordinate(kB)-|(kBL);
+\draw[name path={kbot}](sw.out 2) to [short]++(2*\x,0) to [resistor,l={$\SI{10}{\ohm}$}]++(0,-\y)|-(kB)node[circ]{}; 
+\path[name path=kvert] (sw.out 2)++(\x,-0.5)--++(0,-1.5*\y);
+\path[name intersections={of=kvert and kbot}];
+\draw(sw.out 2)++(\x,0) to [inductor,*-*,l_={$\SI{2}{\henry}$}] (intersection-1);
+\draw[thick,-stealth]([shift={(120:0.7)}]kTT) arc (120:60:0.7)node[right]{${t=0}$};
+%currents
+\path(kB)++(\x/2,\y/2)coordinate(kC)++(\x+\x/4,0)coordinate(kD);
+\draw[stealth-]([shift={(150:\x/4)}]kC) arc (150:-150:\x/4);
+\draw[stealth-]([shift={(150:\x/4)}]kD) arc (150:-150:\x/4);
+\draw(kC)node{$i_1(t)$};
+\draw(kD)node{$i_2(t)$};
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_عارضی_دو_درجی_ڈ} کا دور۔}
+\label{شکل_سوال_عارضی_دو_درجی_ڈ}
+\end{figure}
+
+
+جواب:
+\begin{align*}
+i_1(t)&=-2e^{-\frac{25t}{3}}-3 \,\si{\ampere}\\
+i_2(t)&=-3e^{-\frac{25t}{3}}-3\,\si{\ampere}
+\end{align*}
+\انتہا{سوال}
+%==================
+
