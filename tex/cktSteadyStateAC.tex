@@ -2913,3 +2913,706 @@ i(t)&=i(t)'-i(t)''
 جواب:\عددی{\hat{V}_x=24.61\phase{-25.44^{\circ}}\,\si{\volt}}
 \انتہا{مشق}
 %=================
+
+
+\حصہء{سوالات}
+
+%======================
+\ابتدا{سوال}
+برقی دباو \عددی{v(t)=45\cos(100t-42^{\circ})\,\si{\volt}} کی تعدد، دوری عرصہ، زاویہ ہٹاو اور موثر دباو دریافت کریں۔
+
+جوابات:\عددی{\SI{15.92}{\hertz}}، \عددی{\SI{62.8}{\milli\second}}، \عددی{-42^{\circ}}، \عددی{\SI{31.82}{\volt}}
+\انتہا{سوال}
+%=======================
+\ابتدا{سوال}
+درج ذیل امواج کا زاویائی فرق بیان کریں۔
+\begin{align*}
+v_1&=310\cos(100t+32^{\circ})\,\si{\volt}\\
+v_2&=202\cos(100t-14^{\circ})\,\si{\volt}
+\end{align*}
+
+جواب:\عددی{v_2} سے \عددی{v_1} \عددی{46^{\circ}} آگے ہے۔
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}
+درج ذیل امواج کا زاویائی فرق بیان کریں۔
+\begin{align*}
+i&=2\cos(55t-80^{\circ})\,\si{\ampere}\\
+v&=202\sin(55t-30^{\circ})\,\si{\volt}
+\end{align*}
+
+جواب:رو \عددی{40^{\circ}} آگے ہے۔
+\انتہا{سوال}
+%=====================
+
+\ابتدا{سوال}
+درج ذیل امواج کا زاویائی فرق بیان کریں۔
+\begin{align*}
+i&=2\cos(314t-80^{\circ})\,\si{\ampere}\\
+v&=-54\sin(314t-30^{\circ})\,\si{\volt}
+\end{align*}
+
+جواب:رو \عددی{140^{\circ}} پیچے ہے۔
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_برقرار_برق_گیر_الف}
+شکل \حوالہ{شکل_سوال_برقرار_برق_گیر_الف}-الف میں درج ذیل دباو کی صورت میں رو کو وقتی دائرہ کار اور تعددی دائرہ کار میں لکھیں۔
+\begin{align*}
+v(t)&=10\cos (314t-30^{\circ})\\
+v(t)&=15\sin(314t+60^{\circ})
+\end{align*}
+%
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,-0.25) rectangle ++(-0.5,\y+0.5);
+\draw(0,0) to [short,-o]++(\x/2,0) to [short]++(\x,0) to [capacitor,l_={$\SI{0.1}{\micro\farad}$}]++(0,\y) to [short,i_<={$i(t)$},-o]++(-\x,0) to [short]++(-\x/2,0);
+\draw(\x/2,\y/2) node{$\begin{aligned}&+ \\ &v(t) \\ &-  \end{aligned}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [short,o-]++(2*\x,0) to [inductor,l_={$j6\,\si{\ohm}$}]++(0,\y) to [short,-o]++(-2*\x,0);
+\draw(\x,0) to [resistor,*-*,l_={$\SI{2}{\ohm}$}]++(0,\y);
+\draw[stealth-] (\x/4,\y/2)--++(-\x/4,0)--++(0,-\y/8)node[below]{$\bZ$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_برقرار_برق_گیر_الف} اور سوال \حوالہ{سوال_برقرار_رکاوٹ} کے ادوار۔}
+\label{شکل_سوال_برقرار_برق_گیر_الف}
+\end{figure}
+جوابات: (الف)  \عددی{-0.314\sin(314t-30^{\circ}) \, \si{\milli\ampere}}، \عددی{0.314\phase{60^{\circ}}\,\si{\milli\ampere}}؛\\
+ (ب) \عددی{0.511\cos(314t+60^{\circ})\,\si{\milli\ampere}}، \عددی{0.511\phase{60^{\circ}}\,\si{\milli\ampere}}
+\انتہا{سوال}
+%========================
+\ابتدا{سوال}\شناخت{سوال_برقرار_رکاوٹ}
+شکل \حوالہ{شکل_سوال_برقرار_برق_گیر_الف}-ب میں \عددی{\bZ} دریافت کریں۔
+
+جواب:\عددی{\bZ=\tfrac{9}{5}+j\tfrac{3}{5}\,\si{\ohm}}
+\انتہا{سوال}
+%===========================
+\ابتدا{سوال}\شناخت{سوال_برقرار_رکاوٹ_الف}
+تعدد \عددی{\SI{50}{\hertz}} پر شکل \حوالہ{شکل_سوال_برقرار_رکاوٹ_الف}-الف کی رکاوٹ \عددی{\bZ} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.4\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,o-] ++(2*\x,0) to [capacitor,l={$\SI{0.8}{\milli\farad}$}]++(0,\y) to [resistor,l_={$\SI{2}{\ohm}$}]++(-\x,0) to [inductor,-o,l_={$\SI{20}{\milli\henry}$}]++(-\x,0); 
+\draw(\x,0) to [resistor,*-*,l={$\SI{10}{\ohm}$}]++(0,\y);
+\draw[stealth-](\x/4,\y/2)--++(-\x/4,0)--++(0,-\y/8)node[below]{$\bZ$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.6\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,o-]++(3*\x,0) to [capacitor]++(0,\y) to [inductor,l_={$j6\,\si{\ohm}$}]++(-\x,0) to [resistor,l_={$\SI{4}{\ohm}$}]++(-\x,0) to [resistor,-o,l_={$\SI{2}{\ohm}$}]++(-\x,0);
+\draw(3*\x,3/4*\y)node[right]{$-j2\,\si{\ohm}$};
+\draw(\x,0) to [capacitor,*-*,l={$-j2\,\si{\ohm}$}]++(0,\y);
+\draw(\x,0) to [inductor,*-*]++(\x,\y);
+\draw(\x+\x/2+\x/8,\y/4)node[right,rotate=45]{$j4\,\si{\ohm}$};
+\draw(3*\x,0) to [resistor,*-*,l={$2\,\si{\ohm}$}]++(-\x,\y);
+\draw[stealth-](\x/4,3/4*\y)--++(-\x/4,0)--++(0,-\y/8)node[below]{$\bZ$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_برقرار_رکاوٹ_الف} اور سوال \حوالہ{سوال_برقرار_رکاوٹ_ب} کے ادوار۔}
+\label{شکل_سوال_برقرار_رکاوٹ_الف}
+\end{figure}
+
+جواب:\عددی{2.492+j3.794\,\si{\ohm}}
+\انتہا{سوال}
+%==============================
+\ابتدا{سوال}\شناخت{سوال_برقرار_رکاوٹ_ب}
+شکل \حوالہ{شکل_سوال_برقرار_رکاوٹ_الف}-ب کی رکاوٹ \عددی{\bZ} دریافت کریں۔
+
+جواب:\عددی{\bZ=2.769-j1.846\,\si{\ohm}}
+\انتہا{سوال}
+%==================================
+\ابتدا{سوال}\شناخت{سوال_برقرار_رکاوٹ_پ}
+شکل \حوالہ{شکل_سوال_برقرار_رکاوٹ_پ} میں امالہ \عددی{L} کی وہ قیمت دریافت کریں جس پر دباو اور رو ہم قدم ہوں۔ایسی صورت میں منبع کو کیا رکاوٹ نظر آئے گی۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$32\cos(500t+40^{\circ})\,\si{\volt}$}]++(0,\y) to [resistor,l={$\SI{6}{\ohm}$}]++(\x,0) to [inductor,l={$L$}]++(0,-\y) to [capacitor,l={$\SI{20}{\micro\farad}$}]++(-\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_رکاوٹ_پ} کا دور۔}
+\label{شکل_سوال_برقرار_رکاوٹ_پ}
+\end{figure}
+
+جواب:\عددی{\SI{5.066}{\milli\henry}}، \عددی{\SI{6}{\ohm}}
+\انتہا{سوال}
+%==================================
+\ابتدا{سوال}\شناخت{سوال_برقرار_رکاوٹ_ت}
+شکل \حوالہ{شکل_سوال_برقرار_رکاوٹ_ت} میں برق گیر \عددی{C} کی وہ قیمت دریافت کریں جس پر دباو منبع اور رو \عددی{i(t)} ہم قدم ہوں۔ایسی صورت میں منبع کو کیا رکاوٹ نظر آئے گی۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$40\cos(1000t-20^{\circ})\,\si{\volt}$}]++(0,\y) to [resistor,i={$i(t)$},l={$\SI{8}{\ohm}$}]++(\x,0)
+ to [resistor,l={$\SI{5}{\ohm}$}]++(\x,0) to [inductor,l={$\SI{6}{\milli\henry}$}]++(0,-\y) to [short](0,0);
+\draw(\x,0) to [capacitor,*-*,l={$C$}]++(0,\y);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_رکاوٹ_ت} کا دور۔}
+\label{شکل_سوال_برقرار_رکاوٹ_ت}
+\end{figure}
+
+جواب:\عددی{\SI{4.149}{\micro\farad}}
+\انتہا{سوال}
+%==================================
+\ابتدا{سوال}\شناخت{سوال_برقرار_رکاوٹ_ٹ}
+شکل \حوالہ{شکل_سوال_برقرار_رکاوٹ_ٹ} میں وہ تعدد دریافت کریں جس پر رو کی چوٹی \عددی{\SI{5}{\ampere}} ہو۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$60\cos(\omega t)\,\si{\volt}$}]++(0,\y) to [resistor,i={$i(t)$},l={$\SI{6}{\ohm}$}]++(\x,0)
+  to [capacitor,l={$\SI{1}{\milli\farad}$}]++(0,-\y) to [short](0,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_رکاوٹ_ٹ} کا دور۔}
+\label{شکل_سوال_برقرار_رکاوٹ_ٹ}
+\end{figure}
+
+جواب:\عددی{\SI{15.31}{\hertz}}
+\انتہا{سوال}
+%==================================
+\ابتدا{سوال}\شناخت{سوال_برقرار_رکاوٹ_ث}
+شکل \حوالہ{شکل_سوال_برقرار_رکاوٹ_ث} میں منبع درج ذیل ہیں۔
+\begin{align*}
+i_1(t)&=20\cos(10^8 t+20^{\circ})\,\si{\milli\ampere}\\
+i_2(t)&=15\sin(10^8 t+40^{\circ})\,\si{\milli\ampere}\\
+v_s(t)&=10\cos 10^8 t \,\si{\volt}
+\end{align*}
+اس دور کو تعددی دائرہ کار میں بنائیں اور \عددی{v_R(t)} کے لئے حل کریں۔حاصل جواب اور دوری سمتیات کے استعمال سے \عددی{v_C(t)} حاصل کریں۔ 
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american current source,l={$i_1(t)$}]++(0,\yy);
+\draw(\xx,\yy) to [american current source,*-*,l_={$i_2(t)$}]++(0,-\yy);
+\draw(2*\xx,0) to [resistor,*-*,l_={$\SI{40}{\ohm}$},v^>={$v_R(t)$}]++(0,\yy);
+\draw(3*\xx,0) to [american voltage source,l_={$v_s(t)$}]++(0,\yy);
+\draw(0,0) to [short]++(3*\xx,0);
+\draw(0,\yy) to [short]++(2*\xx,0) to [capacitor,l_={$\SI{0.5}{\nano\farad}$},v^>={$v_C(t)$}]++(\xx,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_رکاوٹ_ث} کا دور۔}
+\label{شکل_سوال_برقرار_رکاوٹ_ث}
+\end{figure}
+
+جواب:\عددی{v_R(t)=10.431\cos(10^8 t-0.84^{\circ})\,\si{\volt}}، \عددی{v_C(t)=0.456\cos(10^8 t+160.3^{\circ})\,\si{\volt}}
+\انتہا{سوال}
+%==================================
+\ابتدا{سوال}\شناخت{سوال_برقرار_کرخوف_الف}
+شکل \حوالہ{شکل_سوال_برقرار_کرخوف_الف} میں \عددی{v_R(t)} اور \عددی{v_C(t)} حاصل کریں۔منبع کا دباو \عددی{v_s(t)=40\cos 15t \, \si{\volt}} ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [inductor,l={$\SI{4}{\henry}$}]++(0,2*\y);
+\draw(\x,0) to [american voltage source,*-,l_={$v_s(t)$}]++(0,\y) to [resistor,-*,l={$\SI{5}{\ohm}$},v_>={$v_R(t)$}]++(0,\y);
+\draw(2*\x,0) to [resistor,*-*,l={$\SI{20}{\ohm}$}]++(0,2*\y);
+\draw(3*\x,0) to [capacitor,l_={$\SI{0.02}{\farad}$},v^>={$v_C(t)$}]++(0,2*\y);
+\draw(0,0) to [short]++(3*\x,0);
+\draw(0,2*\y) to [resistor,l={$\SI{6}{\ohm}$}]++(\x,0) to [inductor,l={$\SI{0.3}{\henry}$}]++(\x,0) to [short]++(\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_کرخوف_الف} کا دور۔}
+\label{شکل_سوال_برقرار_کرخوف_الف}
+\end{figure}
+
+جواب:\عددی{v_R=35.35\cos(15t+167.4^{\circ})\,\si{\volt}}، \عددی{v_C(t)=22.76\cos(15t-92.7^{\circ})\,\si{\volt}}
+\انتہا{سوال}
+%==================================
+\ابتدا{سوال}\شناخت{سوال_برقرار_کرخوف_ب}
+شکل \حوالہ{شکل_سوال_برقرار_کرخوف_ب} میں \عددی{v_L(t)} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$80\cos 100t \,\si{\volt}$}]++(0,\y) to [resistor,l={$\SI{2}{\ohm}$}]++(0,\y);
+\draw(\x,0) to [capacitor,*-,l_={$\SI{2}{\milli\farad}$}]++(0,\y) to [resistor,-*,l={$\SI{6}{\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [inductor,*-*,l={$\SI{0.04}{\henry}$},v_>={$v_L(t)$}]++(0,2*\y);
+\draw(3*\x,0) to [resistor,l_={$\SI{10}{\ohm}$}]++(0,2*\y);
+\draw(0,0) to [short]++(3*\x,0);
+\draw(0,2*\y) to [inductor,l={$\SI{0.02}{\henry}$}]++(\x,0) to [resistor,l={$\SI{4}{\ohm}$}]++(\x,0) to [capacitor,l={$\SI{1}{\milli\farad}$}]++(\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_کرخوف_ب} کا دور۔}
+\label{شکل_سوال_برقرار_کرخوف_ب}
+\end{figure}
+
+جواب:\عددی{v_L=37.3\cos(100t+18.9^{\circ})\,\si{\volt}}
+\انتہا{سوال}
+%==================================
+\ابتدا{سوال}\شناخت{سوال_برقرار_کرخوف_پ}
+شکل \حوالہ{شکل_سوال_برقرار_کرخوف_پ} میں \عددی{v_C(t)} اور \عددی{i(t)} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [capacitor,l={$\SI{0.02}{\farad}$},v_>={$v_C(t)$}]++(0,\y) to [resistor,l={$\SI{6}{\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [american voltage source,*-*,l={$60\cos 3t \,\si{\volt}$}]++(0,2*\y);
+\draw(3*\x,0) to [resistor,*-,l={$\SI{6}{\ohm}$}]++(0,\y) to [inductor,-*,l={$\SI{1}{\henry}$},i<_={$i(t)$}]++(0,\y);
+\draw(4*\x,0) to [resistor,l_={$\SI{4}{\ohm}$}]++(0,\y) to [capacitor,l={$\SI{0.2}{\farad}$}]++(0,\y);
+\draw(0,0) to [short]++(4*\x,0);
+\draw(0,2*\y) to [inductor,l={$\SI{2}{\henry}$}]++(2*\x,0) to [short]++(2*\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_کرخوف_پ} کا دور۔}
+\label{شکل_سوال_برقرار_کرخوف_پ}
+\end{figure}
+
+جواب:\عددی{vC(t)=81.7\cos(3t-29.4^{\circ})\,\si{\volt}}، \عددی{i(t)=4\sqrt{5}\cos(3t-26.6^{\circ})\,\si{\ampere}}
+\انتہا{سوال}
+%==================================
+\ابتدا{سوال}\شناخت{سوال_برقرار_کرخوف_ت}
+شکل \حوالہ{شکل_سوال_برقرار_کرخوف_ت} میں رو درج ذیل ہیں۔دباو \عددی{v(t)} دریافت کریں۔
+\begin{align*}
+i_1(t)&=6\cos(100t+22^{\circ})\,\si{\ampere}\\
+i_2(t)&=4\cos(100t-30^{\circ})\,\si{\ampere}
+\end{align*}
+%
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [resistor,l={$\SI{4}{\ohm}$}]++(0,\y);
+\draw(\x,0) to [american current source,*-*,l={$i_1(t)$}]++(0,\y);
+\draw(2*\x,0) to [inductor,*-*,l={$\SI{40}{\milli\henry}$}]++(0,\y);
+\draw(3*\x,\y) to [american current source,*-*,l_={$i_2(t)$}]++(0,-\y);
+\draw(4*\x,0) to [resistor,*-*,l={$\SI{6}{\ohm}$}]++(0,\y);
+\draw(5*\x,0) to [capacitor,l={$\SI{2}{\milli\farad}$},v_>={$v(t)$}]++(0,\y);
+\draw(0,0) to [short]++(5*\x,0);
+\draw(0,\y) to [short]++(5*\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_کرخوف_ت} کا دور۔}
+\label{شکل_سوال_برقرار_کرخوف_ت}
+\end{figure}
+
+جواب:\عددی{v(t)=11.29\cos(100t+70.5^{\circ})\,\si{\volt}}
+\انتہا{سوال}
+%==================================
+\ابتدا{سوال}\شناخت{سوال_برقرار_کرخوف_ٹ}
+شکل \حوالہ{شکل_سوال_برقرار_کرخوف_ٹ} میں  \عددی{v(t)} اور \عددی{i(t)} دریافت کریں۔
+%
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$30\cos 10t \,\si{\volt}$}]++(0,2*\y);
+\draw(\x,0) to [capacitor,*-,l={$\SI{0.04}{\farad}$}]++(0,\y) to [resistor,-*,l={$\SI{4}{\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [inductor,*-*,l={$\SI{0.6}{\henry}$}]++(0,2*\y);
+\draw(3*\x,0) to [resistor,*-*,l={$\SI{8}{\ohm}$}]++(0,2*\y);
+\draw(4*\x,0) to [capacitor,*-*,l={$\SI{0.05}{\farad}$}]++(0,2*\y);
+\draw(5*\x,0) to [capacitor,l={$\SI{0.02}{\farad}$},v_>={$v(t)$}]++(0,2*\y) to [resistor,l={$\SI{6}{\ohm}$}]++(-\x,0);
+\draw(0,0) to [short]++(2*\x,0) to [short,i<={$i(t)$}]++(\x,0) to [short]++(2*\x,0);
+\draw(0,2*\y) to [short]++(4*\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_کرخوف_ٹ} کا دور۔}
+\label{شکل_سوال_برقرار_کرخوف_ٹ}
+\end{figure}
+
+جواب:\عددی{v=19.2\cos(10t-50.2^{\circ})\,\si{\volt}}، \عددی{i(t)=17.7\cos(10t+80.4^{\circ})\,\si{\ampere}}
+\انتہا{سوال}
+%==================================
+\ابتدا{سوال}\شناخت{سوال_برقرار_کرخوف_ث}
+شکل \حوالہ{شکل_سوال_برقرار_کرخوف_ث} میں \عددی{v(t)}  دریافت کریں۔
+%
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$60\cos 60t \,\si{\volt}$}]++(0,\y) to [resistor,l={$\SI{8}{\ohm}$}]++(\x,0) to [inductor,-o,l={$\SI{0.2}{\henry}$}]++(\x,0)coordinate(kT) to [capacitor,l={$\SI{0.002}{\farad}$}]++(\x,0);
+\draw(0,0) to [resistor,l_={$\SI{2}{\ohm}$}]++(\x,0) to [short,-o]++(\x,0) to [inductor,l_={$\SI{0.4}{\henry}$}]++(\x,0) to [american voltage source,l_={$70\cos(60t-45^{\circ})\,\si{\volt}$}]++(0,\y);
+\draw(kT)++(0,-\y/2)node{$\begin{aligned} &+ \\ &v(t) \\ &- \end{aligned}$};
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_کرخوف_ث} کا دور۔}
+\label{شکل_سوال_برقرار_کرخوف_ث}
+\end{figure}
+
+جواب:\عددی{v(t)=47.1\cos(60t-22.5^{\circ})\,\si{\volt}}
+\انتہا{سوال}
+%==================================
+\ابتدا{سوال}\شناخت{سوال_برقرار_دوری_سمتیہ_الف}
+شکل \حوالہ{شکل_سوال_برقرار_دوری_سمتیہ_الف}-الف میں \عددی{\bV_0}  دریافت کریں۔
+%
+\begin{figure}
+\centering
+\begin{subfigure}{0.4\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$160\phase{0^{\circ}}\,\si{\volt}$}]++(0,\y) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0)
+ to [inductor,l_={$j4\,\si{\ohm}$},v^<={$\bV_0$}]++(0,-\y) to [short](0,0);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.6\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$10\phase{60^{\circ}}\,\si{\volt}$}]++(0,\y) to [resistor,l={$\SI{4}{\ohm}$}]++(\x,0) to [inductor,l={$j8\,\si{\ohm}$}]++(\x,0) to [capacitor,l_={$-j6\,\si{\ohm}$},v^<={$\bV_0$}]++(0,-\y) to [short](0,0);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_برقرار_دوری_سمتیہ_الف} اور سوال \حوالہ{سوال_برقرار_دوری_سمتیہ_ب} کے ادوار۔}
+\label{شکل_سوال_برقرار_دوری_سمتیہ_الف}
+\end{figure}
+
+جواب:\عددی{\bV_0=113.1\phase{45^{\circ}}\,\si{\volt}}
+\انتہا{سوال}
+%==================================
+\ابتدا{سوال}\شناخت{سوال_برقرار_دوری_سمتیہ_ب}
+شکل \حوالہ{شکل_سوال_برقرار_دوری_سمتیہ_الف}-ب میں \عددی{\bV_0}  دریافت کریں۔
+
+جواب:\عددی{\bV_0=13.4\phase{-56.6^{\circ}}\,\si{\volt}}
+\انتہا{سوال}
+%==================================
+\ابتدا{سوال}\شناخت{سوال_برقرار_دوری_سمتیہ_پ}
+شکل \حوالہ{شکل_سوال_برقرار_دوری_سمتیہ_پ}-الف میں \عددی{\bV_0}  دریافت کریں۔
+%
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [resistor,l={$\SI{10}{\ohm}$}]++(0,\yy);
+\draw(\xx,\yy) to [american current source,*-*,l_={$7\phase{60^{\circ}}\,\si{\ampere}$}]++(0,-\yy);
+\draw(2*\xx,0) to [capacitor,l={$-j8\,\si{\ohm}$},v_>={$\bV_0$}]++(0,\yy);
+\draw(0,0) to [short]++(2*\xx,0);
+\draw(0,\yy) to [short]++(\xx,0) to [resistor,l={$\SI{2}{\ohm}$}]++(\xx,0);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$40\phase{30^{\circ}}\,\si{\volt}$}]++(0,\yy);
+\draw(\xx,0) to [capacitor,*-*,l={$-j0.5\,\si{\ohm}$},v_>={$\bV_2$}]++(0,\yy);
+\draw(2*\xx,0) to [resistor,l={$\SI{4}{\ohm}$},v_>={$\bV_1$}]++(0,\yy);
+\draw(0,0) to [short]++(2*\xx,0);
+\draw(0,\yy) to [resistor,l={$\SI{2}{\ohm}$}]++(\xx,0) to [inductor,l={$j6\,\si{\ohm}$}]++(\xx,0);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_برقرار_دوری_سمتیہ_پ} اور سوال \حوالہ{سوال_برقرار_دوری_سمتیہ_ت} کے ادوار۔}
+\label{شکل_سوال_برقرار_دوری_سمتیہ_پ}
+\end{figure}
+
+جواب:\عددی{\bV_0=38.8\phase{183.7^{\circ}}\,\si{\volt}}
+\انتہا{سوال}
+%==================================
+\ابتدا{سوال}\شناخت{سوال_برقرار_دوری_سمتیہ_ت}
+شکل \حوالہ{شکل_سوال_برقرار_دوری_سمتیہ_پ}-ب میں \عددی{\bV_1} اور \عددی{\bV_2} دریافت کریں۔
+
+جوابات:\عددی{\bV_1=10.1\phase{-43^{\circ}}\,\si{\volt}}، \عددی{\bV_2=5.6\phase{261^{\circ}}\,\si{\volt}}
+\انتہا{سوال}
+%================================
+\ابتدا{سوال}\شناخت{سوال_برقرار_دوری_سمتیہ_ٹ}
+شکل \حوالہ{شکل_سوال_برقرار_دوری_سمتیہ_ٹ} میں \عددی{\bV_1=6\phase{0^{\circ}}\,\si{\volt}} ہونے کی صورت میں \عددی{\bI_s} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [inductor,l={$j2\,\si{\ohm}$}]++(0,\y);
+\draw(\x,0) to [american current source,*-*,l={$\bI_s$}]++(0,\y);
+\draw(2*\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(0,\y);
+\draw(0,0) to [short]++(2*\x,0);
+\draw(0,\y) to [resistor,l={$\SI{4}{\ohm}$},v_>={$\bV_1$}]++(\x,0) to [short]++(\x,0);
+\draw(0,\y) to [short,*-]++(0,3/4*\y) to [capacitor,l_={$-j2\,\si{\ohm}$}]++(2*\x,0) to [short,-*]++(0,-3/4*\y);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_دوری_سمتیہ_ٹ} کا دور۔}
+\label{شکل_سوال_برقرار_دوری_سمتیہ_ٹ}
+\end{figure}%
+
+جواب:\عددی{\bI_s=4.74\phase{71.6^{\circ}}\,\si{\ampere}}
+\انتہا{سوال}
+%==================
+\ابتدا{سوال}\شناخت{سوال_برقرار_دوری_سمتیہ_ث}
+شکل \حوالہ{شکل_سوال_برقرار_دوری_سمتیہ_ث} میں \عددی{\bI_1} اور \عددی{\bI_2} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [inductor,l={$j1\,\si{\ohm}$}]++(0,\yy) to [resistor,l={$\SI{1}{\ohm}$}]++(0,\yy);
+\draw(\xx,0) to [capacitor,*-,l={$-j2\,\si{\ohm}$}]++(0,\yy) to [american voltage source,-*,l={$8\phase{0^{\circ}}\,\si{\volt}$}]++(0,\yy);
+\draw(2*\xx,0) to [resistor,*-,l={$\SI{1}{\ohm}$}]++(0,\yy) to [american current source,-*,l={$2\phase{0^{\circ}}\,\si{\ampere}$}]++(0,\yy);
+\draw(3*\xx,0) to [american voltage source,l={$2\phase{0^{\circ}}\,\si{\volt}$}]++(0,\yy) to [resistor,l={$\SI{2}{\ohm}$}]++(0,\yy);
+\draw(0,0) to [short]++(3*\xx,0);
+\draw(0,2*\yy) to [short]++(3*\xx,0);
+\draw(0,\yy) to [resistor,*-*,l={$\SI{1}{\ohm}$},i={$\bI_1$}]++(\xx,0) to [resistor,-*,l={$\SI{1}{\ohm}$},i={$\bI_2$}]++(\xx,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_دوری_سمتیہ_ث} کا دور۔}
+\label{شکل_سوال_برقرار_دوری_سمتیہ_ث}
+\end{figure}%
+
+جواب:\عددی{\bI_1=3.1\phase{1.8^{\circ}}\,\si{\ampere}}، \عددی{\bI_2=0.95\phase{119.2^{\circ}}\,\si{\ampere}}
+\انتہا{سوال}
+%==================
+\ابتدا{سوال}\شناخت{سوال_برقرار_دوری_سمتیہ_ج}
+شکل \حوالہ{شکل_سوال_برقرار_دوری_سمتیہ_ج} میں \عددی{\bV_0=2\phase{30^{\circ}}\,\si{\volt}} ہے۔رکاوٹ \عددی{\bZ} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$8\phase{0^{\circ}}\,\si{\volt}$}]++(0,\yy);
+\draw(\xx,0) to [european resistor,*-*,l={$\bZ$}]++(0,\yy);
+\draw(2*\xx,0) to [european resistor,l={$\SI{2}{\ohm}$},v_>={$\bV_0$}]++(0,\yy);
+\draw(0,0) to [short]++(2*\xx,0);
+\draw(0,\yy) to [resistor,l={$\SI{3}{\ohm}$}]++(\xx,0) to [capacitor,l={$-j2\,\si{\ohm}$}]++(\xx,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_دوری_سمتیہ_ج} کا دور۔}
+\label{شکل_سوال_برقرار_دوری_سمتیہ_ج}
+\end{figure}%
+
+جواب:\عددی{\bZ=3.054+j0.056\,\si{\ohm}}
+\انتہا{سوال}
+%==================
+\ابتدا{سوال}\شناخت{سوال_برقرار_دوری_سمتیہ_چ}
+شکل \حوالہ{شکل_سوال_برقرار_دوری_سمتیہ_چ} میں \عددی{\bI_0=3\phase{0^{\circ}}\,\si{\ampere}} ہے۔رو \عددی{\bI_x} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [resistor,l={$\SI{1}{\ohm}$},i={$\bI_x$}]++(0,\yy) to [european resistor,l={$\bZ$}]++(0,\yy);
+\draw(\xx,0) to [american voltage source,*-*,l={$10\phase{0^{\circ}}\,\si{\volt}$}]++(0,\yy) to [inductor,-*,l={$j1\,\si{\ohm}$}]++(0,\yy);
+\draw(2*\xx,0) to [resistor,l_={$\SI{1}{\ohm}$},i<={$\bI_0$}]++(0,\yy) to [capacitor,l_={$-j1\,\si{\ohm}$}]++(0,\yy);
+\draw(0,0) to [short]++(2*\xx,0);
+\draw(0,2*\yy) to [short]++(2*\xx,0);
+\draw(0,\yy) to [american current source,*-,l={$3\phase{0^{\circ}}\,\si{\ampere}$}]++(\xx,0) to [resistor,-*,l={$\SI{1}{\ohm}$}]++(\xx,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_دوری_سمتیہ_چ} کا دور۔}
+\label{شکل_سوال_برقرار_دوری_سمتیہ_چ}
+\end{figure}%
+
+جواب:\عددی{\bI_x=3+j7\,\si{\ampere}}
+\انتہا{سوال}
+%==================
+\ابتدا{سوال}\شناخت{سوال_برقرار_دوری_سمتیہ_ح}
+شکل \حوالہ{شکل_سوال_برقرار_دوری_سمتیہ_ح} میں \عددی{\bI_0=5\phase{0^{\circ}}\,\si{\ampere}} ہے۔رو \عددی{\bI_x} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [european resistor,l={$\bZ$}]++(0,\yy) to [inductor,l={$j1\,\si{\ohm}$},i<={$\bI_x$}]++(0,\yy);
+\draw(\xx,0) to [american voltage source,*-*,l={$15\phase{0^{\circ}}\,\si{\volt}$}]++(0,\yy) to [resistor,-*,l={$\SI{2}{\ohm}$}]++(0,\yy);
+\draw(2*\xx,0) to [resistor,*-*,l={$\SI{1}{\ohm}$}]++(0,\yy) to [capacitor,-*,l={$-j2\,\si{\ohm}$}]++(0,\yy);
+\draw(3*\xx,0) to [resistor,l_={$\SI{2}{\ohm}$},i_<={$\bI_0$}]++(0,\yy) to [american current source,l_={$3\phase{0^{\circ}}\,\si{\ampere}$}]++(0,\yy);
+\draw(0,0) to [short]++(3*\xx,0);
+\draw(0,2*\yy) to [short]++(3*\xx,0);
+\draw(0,\yy) to [resistor,*-,l={$\SI{2}{\ohm}$}]++(\xx,0) to [resistor,l={$\SI{1}{\ohm}$}]++(\xx,0)  to [resistor,-*,l={$\SI{1}{\ohm}$}]++(\xx,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_دوری_سمتیہ_ح} کا دور۔}
+\label{شکل_سوال_برقرار_دوری_سمتیہ_ح}
+\end{figure}%
+
+جواب:\عددی{\bI_x=-32.5+j35\,\si{\ampere}}
+\انتہا{سوال}
+%==================
+\ابتدا{سوال}\شناخت{سوال_برقرار_جوڑ_الف}
+شکل \حوالہ{شکل_سوال_برقرار_جوڑ_الف} میں ترکیب جوڑ سے \عددی{\bI_0} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$20\phase{0^{\circ}}$}]++(0,\yy) to [inductor,l={$j4\,\si{\ohm}$}]++(0,\yy);
+\draw(\xx,2*\yy) to [american current source,*-*,l={$5\phase{0^{\circ}}\,\si{\ampere}$}]++(0,-2*\yy);
+\draw(2*\xx,0)node[ground]{} to [american voltage source,*-,l={$8\phase{0^{\circ}}\,\si{\volt}$}]++(0,\yy) to [capacitor,-*,l={$-j2\,\si{\ohm}$}]++(0,\yy)node[above]{$\bV_1$};
+\draw(3*\xx,0) to [capacitor,*-*,l_={$-j1\,\si{\ohm}$}]++(0,2*\yy);
+\draw(4*\xx,0) to [resistor,l_={$\SI{6}{\ohm}$},i_<={$\bI_0$}]++(0,2*\yy);
+\draw(0,0) to [short]++(4*\xx,0);
+\draw(0,2*\yy) to [short]++(4*\xx,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_جوڑ_الف} کا دور۔}
+\label{شکل_سوال_برقرار_جوڑ_الف}
+\end{figure}%
+
+جواب:\عددی{\bI_0=0.67\phase{108.9^{\circ}}\,\si{\ampere}}
+\انتہا{سوال}
+%==================
+\ابتدا{سوال}\شناخت{سوال_برقرار_جوڑ_ب}
+شکل \حوالہ{شکل_سوال_برقرار_جوڑ_ب} میں ترکیب جوڑ سے \عددی{\bV_0} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$18\phase{0^{\circ}}$}]++(0,2*\yy);
+\draw(2*\xx,0) to [american current source,*-*,l={$4\phase{0^{\circ}}\,\si{\ampere}$}]++(0,2*\yy);
+\draw(3*\xx,0)node[ground]{} to [resistor,*-,l={$\SI{4}{\ohm}$},v_>={$\bV_0$}]++(0,\yy) to [capacitor,-*,l={$-j2\,\si{\ohm}$}]++(0,\yy)node[above]{$\bV_1$};
+\draw(4*\xx,0) to [american voltage source,l_={$6\phase{0^{\circ}}\,\si{\volt}$}]++(0,2*\yy);
+\draw(0,0) to [short]++(4*\xx,0);
+\draw(0,2*\yy) to [resistor,l={$\SI{2}{\ohm}$}]++(\xx,0) to [inductor,l={$j4\,\si{\ohm}$}]++(\xx,0) to [short]++(\xx,0) to [resistor,l={$\SI{1}{\ohm}$}]++(\xx,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_جوڑ_ب} کا دور۔}
+\label{شکل_سوال_برقرار_جوڑ_ب}
+\end{figure}%
+
+جواب:\عددی{\bV_0=8.46\phase{14^{\circ}}\,\si{\volt}}
+\انتہا{سوال}
+%==================
+\ابتدا{سوال}\شناخت{سوال_برقرار_جوڑ_پ}
+شکل \حوالہ{شکل_سوال_برقرار_جوڑ_پ} میں ترکیب جوڑ سے \عددی{\bV_0} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [resistor,l_={$\SI{1}{\ohm}$},v^>={$\bV_x$}]++(0,\yy) to [american controlled current source,l={$3\bI_x$}]++(0,\yy);
+\draw(\xx,0) to [american voltage source,*-*,l_={$4\phase{0^{\circ}}\,\si{\volt}$}]++(0,\yy) to [capacitor,-*,l_={$-j1\,\si{\ohm}$}]++(0,\yy);
+\draw(2*\xx,0)node[ground]{} to [american controlled voltage source,l_={$2\bV_x$}]++(0,\yy) to [resistor,l_={$\SI{2}{\ohm}$},i_<={$\bI_x$}]++(0,\yy);
+\draw(0,0) to [short]++(2*\xx,0);
+\draw(0,2*\yy) to [short]++(2*\xx,0);
+\draw(0,\yy) to [resistor,*-,l={$\SI{2}{\ohm}$},v={$\bV_0$}]++(\xx,0) to [resistor,-*,l={$\SI{2}{\ohm}$}]++(\xx,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_جوڑ_پ} کا دور۔}
+\label{شکل_سوال_برقرار_جوڑ_پ}
+\end{figure}%
+
+جواب:\عددی{\bV_0=2.11\phase{161.6^{\circ}}\,\si{\volt}}
+\انتہا{سوال}
+%==================
+\ابتدا{سوال}\شناخت{سوال_برقرار_جوڑ_ت}
+شکل \حوالہ{شکل_سوال_برقرار_جوڑ_ت} میں ترکیب جوڑ سے \عددی{\bV_0} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american current source,l={$2\phase{-45^{\circ}}\,\si{\ampere}$}]++(0,\yy);
+\draw(\xx,0) to [inductor,*-*,l_={$j1\,\si{\ohm}$},i<={$\bI_x$}]++(0,\yy);
+\draw(2*\xx,0)node[ground]{} to [resistor,l={$\SI{1}{\ohm}$},v_>={$\bV_0$}]++(0,\yy);
+\draw(0,0) to [short]++(2*\xx,0);
+\draw(0,\yy) to [capacitor,*-,l={$-j2\,\si{\ohm}$}]++(\xx,0) to [american voltage source,-*,l={$8\phase{30^{\circ}}\,\si{\volt}$}]++(\xx,0);
+\draw(0,\yy) to [short,*-]++(0,3/4*\yy) to [american controlled current source,l={$2\bI_x$}]++(2*\xx,0) to [short,-*]++(0,-3/4*\yy);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_جوڑ_ت} کا دور۔}
+\label{شکل_سوال_برقرار_جوڑ_ت}
+\end{figure}%
+
+جواب:\عددی{\bV_0=7.03\phase{-12^{\circ}}\,\si{\volt}}
+\انتہا{سوال}
+%==================
+\ابتدا{سوال}\شناخت{سوال_برقرار_دائری_الف}
+شکل \حوالہ{شکل_سوال_برقرار_دائری_الف} میں دائری ترکیب سے \عددی{\bV_0} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,\yy) to [american voltage source,l_={$8\phase{0^{\circ}}\,\si{\volt}$}]++(0,-\yy);
+\draw(\xx,0) to [inductor,*-*,l_={$j4\,\si{\ohm}$}]++(0,\yy);
+\draw(2*\xx,0) to [resistor,l={$\SI{4}{\ohm}$},v_>={$\bV_0$}]++(0,\yy);
+\draw(0,0) to [short]++(2*\xx,0);
+\draw(0,\yy) to [capacitor,l={$-j1\,\si{\ohm}$}]++(\xx,0) to [american voltage source,l={$10\phase{-60^{\circ}}\,\si{\volt}$}]++(\xx,0);
+%currents
+\draw[stealth-]([shift={(-150:\xx/6)}]\xx/2,\yy/4) arc (-150:150:\xx/6);
+\draw(\xx/2,\yy/4)node{$\bI_1$};
+\draw[stealth-]([shift={(-150:\xx/6)}]\xx+\xx/2,\yy/4) arc (-150:150:\xx/6);
+\draw(\xx+\xx/2,\yy/4)node{$\bI_2$};
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_دائری_الف} کا دور۔}
+\label{شکل_سوال_برقرار_دائری_الف}
+\end{figure}%
+
+جواب:\عددی{\bV_0=9.82\phase{255.2^{\circ}}\,\si{\volt}}
+\انتہا{سوال}
+%==================
+\ابتدا{سوال}\شناخت{سوال_برقرار_دائری_ب}
+شکل \حوالہ{شکل_سوال_برقرار_دائری_ب} میں دائری ترکیب سے \عددی{\bV_0} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$22\phase{0^{\circ}}\,\si{\volt}$}]++(0,2*\yy);
+\draw(\xx,0) to [capacitor,*-,l={-$j2\,\si{\ohm}$},v_>={$\bV_0$}]++(0,\yy) to [resistor,-*,l={$\SI{4}{\ohm}$}]++(0,\yy);
+\draw(2*\xx,0) to [american current source,l_={$6\phase{90^{\circ}}\,\si{\ampere}$}]++(0,2*\yy);
+\draw(0,0) to [short]++(2*\xx,0);
+\draw(0,2*\yy) to [resistor,l={$\SI{2}{\ohm}$}]++(\xx,0) to [inductor,l={$j4\,\si{\ohm}$}]++(\xx,0);
+%currents
+\draw[stealth-]([shift={(-150:\xx/6)}]\xx/2,\yy) arc (-150:150:\xx/6);
+\draw(\xx/2,\yy)node{$\bI_1$};
+\draw[stealth-]([shift={(-150:\xx/6)}]\xx+\xx/2,\yy) arc (-150:150:\xx/6);
+\draw(\xx+\xx/2,\yy)node{$\bI_2$};
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_دائری_ب} کا دور۔}
+\label{شکل_سوال_برقرار_دائری_ب}
+\end{figure}%
+
+جواب:\عددی{\bV_0=7.92\phase{42.95^{\circ}}\,\si{\volt}}
+\انتہا{سوال}
+%==================
+\ابتدا{سوال}\شناخت{سوال_برقرار_دائری_پ}
+شکل \حوالہ{شکل_سوال_برقرار_دائری_پ} میں دائری ترکیب سے \عددی{\bV_0} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american current source,l={$4\phase{0^{\circ}}\,\si{\ampere}$}]++(0,\yy);
+\draw(\xx,0) to [american voltage source,*-*,l={$15\phase{0^{\circ}}\,\si{\volt}$}]++(0,\yy);
+\draw(2*\xx,0) to [inductor,*-*,l_={$j3\,\si{\ohm}$}]++(0,\yy);
+\draw(3*\xx,0) to [resistor,l={$\SI{2}{\ohm}$},v_>={$\bV_0$}]++(0,\yy);
+\draw(0,0) to [short]++(3*\xx,0);
+\draw(0,\yy) to [resistor,l={$\SI{2}{\ohm}$}]++(\xx,0) to [capacitor,l={$-j1\,\si{\ohm}$}]++(\xx,0) to [resistor,l={$\SI{1}{\ohm}$}]++(\xx,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_دائری_پ} کا دور۔}
+\label{شکل_سوال_برقرار_دائری_پ}
+\end{figure}%
+
+جواب:\عددی{\bV_0=13.4\phase{26.6^{\circ}}\,\si{\volt}}
+\انتہا{سوال}
+%==================
+\ابتدا{سوال}\شناخت{سوال_برقرار_دائری_ت}
+شکل \حوالہ{شکل_سوال_برقرار_دائری_ت} کو مسئلہ نفاذ سے حل کرتے ہوئے \عددی{\bV_0} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$30\phase{0^{\circ}}\,\si{\volt}$}]++(0,\yy);
+\draw(\xx,0) to [american current source,*-*,l={$4\phase{0^{\circ}}\,\si{\ampere}$}]++(0,\yy);
+\draw(2*\xx,0) to [resistor,l={$\SI{2}{\ohm}$},v_>={$\bV_0$}]++(0,\yy);
+\draw(0,0) to [short]++(2*\xx,0);
+\draw(0,\yy) to [capacitor,l={$-j1\,\si{\ohm}$}]++(\xx,0) to [inductor,l={$j4\,\si{\ohm}$}]++(\xx,0);
+\draw(0,\yy) to [short,*-]++(0,3/4*\yy) to [resistor,l_={$\SI{2}{\ohm}$}]++(2*\xx,0) to [short,-*]++(0,-3/4*\yy);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_دائری_ت} کا دور۔}
+\label{شکل_سوال_برقرار_دائری_ت}
+\end{figure}%
+
+جواب:\عددی{\bV_0=16.1\phase{-17.8^{\circ}}\,\si{\volt}}
+\انتہا{سوال}
+%==================
+\ابتدا{سوال}\شناخت{سوال_برقرار_دائری_ٹ}
+شکل \حوالہ{شکل_سوال_برقرار_دائری_ٹ} کو مسئلہ نفاذ سے حل کرتے ہوئے \عددی{\bV_0} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [capacitor,l={$-j1\,\si{\ohm}$}]++(0,\yy) to [american current source,l={$30\phase{0^{\circ}}\,\si{\ampere}$}]++(0,\yy);
+\draw(\xx,0) to [american voltage source,*-*,l={$8\phase{0^{\circ}}\,\si{\volt}$}]++(0,\yy) to [inductor,-*,l={$j2\,\si{\ohm}$}]++(0,\yy) ;
+\draw(2*\xx,0) to [resistor,l={$\SI{2}{\ohm}$},v_>={$\bV_0$}]++(0,\yy);
+\draw(2*\xx,2*\yy) to [american current source,l={$4\phase{0^{\circ}}\,\si{\ampere}$}]++(0,-\yy) ;
+\draw(0,0) to [short]++(2*\xx,0);
+\draw(0,2*\yy) to [short]++(2*\xx,0);
+\draw(0,\yy) to [resistor,*-,l={$\SI{1}{\ohm}$}]++(\xx,0) to [resistor,-*,l={$\SI{2}{\ohm}$}]++(\xx,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_دائری_ٹ} کا دور۔}
+\label{شکل_سوال_برقرار_دائری_ٹ}
+\end{figure}%
+
+جواب:\عددی{\bV_0=8\phase{0^{\circ}}\,\si{\volt}}
+\انتہا{سوال}
+%==================
+\ابتدا{سوال}\شناخت{سوال_برقرار_دائری_ث}
+شکل \حوالہ{شکل_سوال_برقرار_دائری_ث} کو تبادلہ منبع سے حل کرتے ہوئے \عددی{\bV_0} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$4\phase{0^{\circ}}\,\si{\volt}$}]++(0,\yy) ;
+\draw(\xx,0) to [resistor,*-*,l={$\SI{1}{\ohm}$}]++(0,\yy);
+\draw(2*\xx,\yy) to [american current source,*-*,l_={$3\phase{0^{\circ}}\,\si{\ampere}$}]++(0,-\yy) ;
+\draw(3*\xx,0) to [resistor,l={$\SI{4}{\ohm}$},v_>={$\bV_0$}]++(0,\yy);
+\draw(0,0) to [short]++(3*\xx,0);
+\draw(0,\yy) to [capacitor,l={$-j1\,\si{\ohm}$}]++(\xx,0) to [short]++(\xx,0) to [american voltage source,l={$6\phase{0^{\circ}}\,\si{\volt}$}]++(\xx,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_دائری_ث} کا دور۔}
+\label{شکل_سوال_برقرار_دائری_ث}
+\end{figure}%
+
+جواب:\عددی{6.52\phase{34.6^{\circ}}\,\si{\volt}}
+\انتہا{سوال}
+%==================
+\ابتدا{سوال}\شناخت{سوال_برقرار_دائری_ج}
+شکل \حوالہ{شکل_سوال_برقرار_دائری_ج} کو تبادلہ منبع سے حل کرتے ہوئے \عددی{\bI_0} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$10\phase{30^{\circ}}\,\si{\volt}$}]++(0,\yy) to [resistor,l={$\SI{2}{\ohm}$}]++(0,\yy) ;
+\draw(\xx,0) to [american current source,*-*,l_={$6\phase{60^{\circ}}\,\si{\ampere}$}]++(0,2*\yy) ;
+\draw(2*\xx,0) to [american voltage source,*-,l={$12\phase{0^{\circ}}\,\si{\volt}$}]++(0,\yy) to [inductor,-*,l={$j1\,\si{\ohm}$}]++(0,\yy) ;
+\draw(3*\xx,0) to [capacitor,*-*,l={$-j4\,\si{\ohm}$}]++(0,2*\yy);
+\draw(4*\xx,0) to [resistor,l_={$\SI{2}{\ohm}$},i_<={$\bI_0$}]++(0,2*\yy);
+\draw(0,0) to [short]++(4*\xx,0);
+\draw(0,2*\yy) to [short]++(4*\xx,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_برقرار_دائری_ج} کا دور۔}
+\label{شکل_سوال_برقرار_دائری_ج}
+\end{figure}%
+
+جواب:\عددی{\bI_0=3.4\phase{6.45^{\circ}}\,\si{\ampere}}
+\انتہا{سوال}
+%==================
+
