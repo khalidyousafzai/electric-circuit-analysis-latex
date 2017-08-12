@@ -1670,3 +1670,432 @@ Q_\text{بہتر}=\num{200000} \tan 25.84^{\circ}=\SI{97}{\kilo\var}
 یہاں بتلاتا چلوں کہ اسی طرح کے مسائل کو مد نظر رکھتے ہوئے برقی نظام  تخلیق دیا جاتا ہے تا کہ پرندوں اور جانوروں کو خطرے  میں نہ ڈالا جائے اور برقی نظام کو بھی محفوظ رکھا جا سکے۔
 \انتہا{مثال}
 %=========================
+
+\حصہء{سوالات}
+%===========
+\ابتدا{سوال}
+ایک دور کا دباو اور اس کی رو درج ذیل ہیں۔دور کی اوسط طاقت دریافت کریں۔
+\begin{align*}
+v(t)&=3\sin \omega t \, \si{\volt}\\
+i(t)&=10\cos \omega t \,\si{\ampere}
+\end{align*}
+جواب:\عددی{p=\SI{0}{\watt}}
+\انتہا{سوال}
+%===============
+\ابتدا{سوال}
+ایک دور کا دباو اور اس کی رو درج ذیل ہیں۔دور کی اوسط طاقت دریافت کریں۔
+\begin{align*}
+v(t)&=3\cos (\omega t+45^{\circ}) \, \si{\volt}\\
+i(t)&=10\cos (\omega t+60^{\circ}) \,\si{\ampere}
+\end{align*}
+جواب:\عددی{p=\SI{14.49}{\watt}}
+\انتہا{سوال}
+%===============
+\ابتدا{سوال}\شناخت{سوال_طاقت_الف}
+شکل \حوالہ{شکل_سوال_طاقت_الف}-الف میں رو حاصل کرتے ہوئے اوسط طاقت کا ضیاع دریافت کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.4\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$22\phase{40^{\circ}}\,\si{\volt}$}]++(0,\y) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [inductor,l={$j4\,\si{\ohm}$}]++(0,-\y) to [short] (0,0);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.6\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$v_s(t)$}]++(0,\y) to [resistor,l={$\SI{8}{\ohm}$}]++(\x,0) to [inductor,l={$\SI{50}{\milli\henry}$}]++(\x,0) to [resistor,l={$\SI{10}{\ohm}$}]++(0,-\y) to [short] (0,0);
+\draw(\x,0) to [capacitor,*-*,l={$\SI{1}{\milli\farad}$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_طاقت_الف} کا دور۔}
+\label{شکل_سوال_طاقت_الف}
+\end{figure}
+
+جواب:\عددی{p=\SI{24.2}{\watt}}
+\انتہا{سوال}
+%================
+\ابتدا{سوال}\شناخت{سوال_طاقت_ب}
+شکل \حوالہ{شکل_سوال_طاقت_الف}-ب میں \عددی{v_s(t)=120\cos 100t\,\si{\volt}} ہے۔دور میں اوسط طاقت کا ضیاع دریافت کریں۔
+
+جواب:\عددی{\SI{394.52}{\watt}}
+\انتہا{سوال}
+%========================
+\ابتدا{سوال}\شناخت{سوال_طاقت_پ}
+شکل \حوالہ{شکل_سوال_طاقت_پ} میں منبع کا اوسط طاقت دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american current source,l={$10\phase{45^{\circ}}\,\si{\ampere}$}]++(0,\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{6}{\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [capacitor,*-*,l={$-j2\,\si{\ohm}$}]++(0,\y);
+\draw(3*\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(0,\y);
+\draw(0,0) to [short]++(3*\x,0);
+\draw(0,\y) to [short]++(\x,0) to [inductor,l={$j1\,\si{\ohm}$}]++(\x,0) to [short]++(\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_طاقت_پ} کا دور۔}
+\label{شکل_سوال_طاقت_پ}
+\end{figure}
+
+جواب:\عددی{\SI{42.86}{\watt}}
+\انتہا{سوال}
+%=========================
+\ابتدا{سوال}\شناخت{سوال_طاقت_ت}
+شکل \حوالہ{شکل_سوال_طاقت_ت} کے \عددی{\SI{2}{\ohm}} مزاحمت میں اوسط طاقت کا ضیاع دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american current source,l={$15\phase{0^{\circ}}\,\si{\ampere}$}]++(0,2*\y);
+\draw(\x,2*\y) to [resistor,*-,l_={$\SI{2}{\ohm}$}]++(0,-\y) to [short]++(\x,0) to [inductor,-*,l_={$j4\,\si{\ohm}$}]++(0,\y);
+\draw(\x+\x/2,0) to [capacitor,*-*,l={$-j2\,\si{\ohm}$}]++(0,\y);
+\draw(3*\x,0) to [resistor,l_={$\SI{6}{\ohm}$}]++(0,2*\y);
+\draw(0,0) to [short]++(3*\x,0);
+\draw(0,2*\y) to [short]++(3*\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_طاقت_ت} کا دور۔}
+\label{شکل_سوال_طاقت_ت}
+\end{figure}
+
+جواب:\عددی{\SI{109.5}{\watt}}
+\انتہا{سوال}
+%=========================
+\ابتدا{سوال}\شناخت{سوال_طاقت_ٹ}
+شکل \حوالہ{شکل_سوال_طاقت_ٹ} میں \عددی{\SI{1}{\kilo\ohm}} کے بوجھ میں طاقت کی اوسط ضیاع دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) node[op amp](u1){};
+\draw(u1.+) to [short]++(-\x/8,0)++(0,-\y)node[ground]{} to [american voltage source,l={$0.75\cos 10t \,\si{\volt}$}]++(0,\y);
+\draw(u1.-) to [short,-*]++(-\x/8,0) to [resistor,l_={$\SI{2}{\kilo\ohm}$}]++(-\x,0)node[ground]{};
+\draw(u1.-)++(-\x/8,0) to [short]++(0,\y/2) to [resistor,l={$\SI{5}{\kilo\ohm}$}]++(\x+\x/4,0)-|(u1.out);
+\draw(u1.out) to [resistor,*-,l={$\SI{1}{\kilo\ohm}$}]++(0,-\y)node[ground]{};
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_طاقت_ٹ} کا دور۔}
+\label{شکل_سوال_طاقت_ٹ}
+\end{figure}
+
+جواب:\عددی{\SI{3.45}{\milli\watt}}
+\انتہا{سوال}
+%=========================
+\ابتدا{سوال}\شناخت{سوال_طاقت_ث}
+شکل \حوالہ{شکل_سوال_طاقت_ث} میں طاقت کا اوسط ضیاع \عددی{\SI{200}{\watt}} ہے۔نا معلوم رکاوٹ \عددی{\bZ_L} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$20\phase{30^{\circ}}\,\si{\volt}$}]++(0,\y);
+\draw(\x,0) to [resistor,*-*,l_={$\SI{2}{\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [european resistor,l={$\bZ_L$}]++(0,\y);
+\draw(0,0) to [short]++(2*\x,0);
+\draw(0,\y) to [short]++(\x,0) to [inductor,l={$j1\,\si{\ohm}$}]++(\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_طاقت_ث} کا دور۔}
+\label{شکل_سوال_طاقت_ث}
+\end{figure}
+
+جواب:\عددی{\bZ_L=\SI{1}{\ohm}}
+\انتہا{سوال}
+%=========================
+\ابتدا{سوال}\شناخت{سوال_طاقت_ج}
+شکل \حوالہ{شکل_سوال_طاقت_ج} \عددی{\bZ_L} کو زیادہ سے زیادہ اوسط طاقت منتقل کرنا ہے۔رکاوٹ \عددی{\bZ_L} کی قیمت دریافت کریں اور اس کو اوسط منتقل طاقت \عددی{p_Z} حاصل کریں۔منبع کا اوسط طاقت \عددی{p_m} حاصل کرتے ہوئے  \عددی{\bZ_L} کو طاقت منتقل کرنے کی کارگزاری دریافت کریں۔ 
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american current source,l={$20\phase{30^{\circ}}\,\si{\ampere}$}]++(0,\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{2}{\ohm}$}]++(0,\y);
+\draw(2*\x,0) to [european resistor,l={$\bZ_L$}]++(0,\y);
+\draw(0,0) to [short]++(2*\x,0);
+\draw(0,\y) to [short]++(\x,0) to [inductor,l={$j2\,\si{\ohm}$}]++(\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_طاقت_ج} کا دور۔}
+\label{شکل_سوال_طاقت_ج}
+\end{figure}
+
+جوابات:\عددی{\bZ_L=2-j2\,\si{\ohm}}، \عددی{p_Z=\SI{25}{\watt}}، \عددی{p_m=\SI{50}{\watt}}، \عددی{\SI{50}{\percent}}
+\انتہا{سوال}
+%=========================
+\ابتدا{سوال}\شناخت{سوال_طاقت_چ}
+شکل \حوالہ{شکل_سوال_طاقت_چ} \عددی{\bZ_L} کو زیادہ سے زیادہ اوسط طاقت منتقل کرنا ہے۔رکاوٹ \عددی{\bZ_L} کی قیمت  اور اس کو اوسط منتقل طاقت  حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$22\phase{45^{\circ}}\,\si{\volt}$}]++(0,\y);
+\draw(2*\x,0) to [american current source,*-*,l={$2\phase{30^{\circ}}\,\si{\ampere}$}]++(0,\y);
+\draw(4*\x,0) to [european resistor,l_={$\bZ_L$}]++(0,\y);
+\draw(0,0) to [short]++(4*\x,0);
+\draw(0,\y) to [resistor,l={$\SI{1}{\ohm}$}]++(\x,0) to [capacitor,l={$-j2\,\si{\ohm}$}]++(\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [inductor,l={$j1\,\si{\ohm}$}]++(\x,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_طاقت_چ} کا دور۔}
+\label{شکل_سوال_طاقت_چ}
+\end{figure}
+
+جوابات:\عددی{\bZ=3-j1\,\si{\ohm}}، \عددی{\SI{22.64}{\watt}}
+\انتہا{سوال}
+%=========================
+\ابتدا{سوال}\شناخت{سوال_طاقت_ح}
+شکل \حوالہ{شکل_سوال_طاقت_ح} \عددی{\bZ_L} کو زیادہ سے زیادہ اوسط طاقت منتقل کرنا ہے۔رکاوٹ \عددی{\bZ_L} کی قیمت  اور اس کو اوسط منتقل طاقت  حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [capacitor,l={$-j2\,\si{\ohm}$}]++(0,\y);
+\draw(\x,0) to [european resistor,*-*,l={$\bZ_L$}]++(0,\y);
+\draw(2*\x,0) to [resistor,l_={$\SI{1}{\ohm}$}]++(0,\y);
+\draw(0,0) to [short]++(2*\x,0);
+\draw(0,\y) to [resistor,l={$\SI{1}{\ohm}$}]++(\x,0) to [inductor,l={$j2\,\si{\ohm}$}]++(\x,0);
+\draw(0,\y) to [short,*-]++(0,3/4*\y) to [american voltage source,l={$10\phase{0^{\circ}}\,\si{\volt}$}]++(2*\x,0) to [short,-*]++(0,-3/4*\y);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_طاقت_ح} کا دور۔}
+\label{شکل_سوال_طاقت_ح}
+\end{figure}
+
+جوابات:\عددی{\bZ_L=\tfrac{8}{5}\,\si{\ohm}}، \عددی{\SI{2.8125}{\watt}}
+\انتہا{سوال}
+%=========================
+\ابتدا{سوال}\شناخت{سوال_طاقت_خ}
+شکل \حوالہ{شکل_سوال_طاقت_خ} \عددی{\bZ_L} کو زیادہ سے زیادہ اوسط طاقت منتقل کرنا ہے۔رکاوٹ \عددی{\bZ_L} کی قیمت  اور اس کو اوسط منتقل طاقت  حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american current source,l={$6\phase{0^{\circ}}\,\si{\ampere}$}]++(0,3*\y);
+\draw(\x,0) to [resistor,*-*,l={$\SI{6}{\ohm}$}]++(0,3*\y);
+\draw(2*\x+\x/2,3*\y) to [american voltage source,*-,l_={$10\phase{0^{\circ}}\,\si{\volt}$}]++(0,-\y) to [resistor,l={$\SI{1}{\ohm}$}]++(0,-\y) to [short,*-]++(-\x/2,0) to [capacitor,l_={$-j2 \,\si{\ohm}$}]++(0,-\y)to [resistor,l_={$\SI{1}{\ohm}$}]++(\x,0) to [inductor,l_={$j2\,\si{\ohm}$}]++(0,\y) to [short]++(-\x/2,0);
+\draw(0,0) to [short,-*]++(2*\x,0)++(\x,0) to [short,*-]++(\x,0) to [european resistor,l_={$\bZ_L$}]++(0,3*\y) to [resistor,l={$\SI{4}{\ohm}$}]++(-\x-\x/2,0);
+\draw(0,3*\y) to [short]++(2*\x+\x/2,0);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_طاقت_خ} کا دور۔}
+\label{شکل_سوال_طاقت_خ}
+\end{figure}
+
+جوابات:\عددی{\bZ_L=6.8-j1.6\,\si{\ohm}}، \عددی{\SI{2.18}{\watt}}
+\انتہا{سوال}
+%=========================
+\ابتدا{سوال}\شناخت{سوال_طاقت_موثر_الف}
+شکل \حوالہ{شکل_سوال_طاقت_موثر_الف}-الف میں دیے دباو کی موثر قیمت دریافت کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,ytick={-4,0,4},yticklabels={$-4$,$0$,$4$},xlabel={$t\,(\si{\second})$},ylabel={$v(t)\,(\si{\volt})$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\addplot[] plot coordinates {(-0.5,-4) (0,-4) (0,4) (1,4) (1,-4) (2,-4) (2,4) (3,4) (3,-4) (4,-4) (4,4)(5,4)(5,-4)(5.5,-4) };
+\end{axis}
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,ytick={-2,0,6},yticklabels={$-2$,$0$,$6$},xlabel={$t\,(\si{\second})$},ylabel={$i(t)\,(\si{\ampere})$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\addplot[] plot coordinates {(-0.5,-2) (0,-2) (0,6) (1,6) (1,-2) (2,-2) (2,6) (3,6) (3,-2) (4,-2) (4,6)(5,6)(5,-2)(5.5,-2) };
+\end{axis}
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_طاقت_موثر_الف} اور سوال \حوالہ{سوال_طاقت_موثر_ب} کے ترسیم۔}
+\label{شکل_سوال_طاقت_موثر_الف}
+\end{figure}
+
+جواب:\عددی{\Vrms=\SI{4}{\volt}}
+\انتہا{سوال}
+%==========================
+
+\ابتدا{سوال}\شناخت{سوال_طاقت_موثر_ب}
+شکل \حوالہ{شکل_سوال_طاقت_موثر_الف}-ب میں دیے رو کی موثر قیمت دریافت کریں۔
+
+جواب:\عددی{\Irms=\sqrt{20}\,\si{\ampere}}
+\انتہا{سوال}
+%======================
+\ابتدا{سوال}\شناخت{سوال_طاقت_موثر_پ}
+شکل \حوالہ{شکل_سوال_طاقت_موثر_پ}-الف میں دیے دباو کی موثر قیمت دریافت کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,ytick={-2,0,1,3},yticklabels={$-2$,$0$,$1$,$3$},xlabel={$t\,(\si{\second})$},ylabel={$v(t)\,(\si{\volt})$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\addplot[] plot coordinates {(-0.5,-2)(0,-2)(0,3) (2,3)( 2,1)(3,1)(3,-2)(4,-2)(4,3) (4.5,3) };
+\end{axis}
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,ytick={0,1,2,3},yticklabels={$0$,$1$,$2$,$3$},xlabel={$t\,(\si{\second})$},ylabel={$i(t)\,(\si{\ampere})$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},xtick={0,2,3,5,6,8,9,11},xticklabels={$0$,$2$,$3$,$5$,$6$,$8$,$9$,$11$}]
+\addplot[] plot coordinates {(-0.5,0) (0,0) (0,1) (2,1) (2,2) (3,2) (3,3) (5,3) (5,0) (6,0) (6,1)(8,1)(8,2)(9,2) (9,3) (11,3) (11,0) (11.5,0)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_طاقت_موثر_پ} اور سوال \حوالہ{سوال_طاقت_موثر_ت} کے ترسیم۔}
+\label{شکل_سوال_طاقت_موثر_پ}
+\end{figure}
+
+جواب:\عددی{\Vrms=\tfrac{\sqrt{23}}{2}\,\si{\volt}}
+\انتہا{سوال}
+%==========================
+
+\ابتدا{سوال}\شناخت{سوال_طاقت_موثر_ت}
+شکل \حوالہ{شکل_سوال_طاقت_موثر_الف}-ب میں دیے رو کی موثر قیمت دریافت کریں۔
+
+جواب:\عددی{\Irms=\SI{2}{\ampere}}
+\انتہا{سوال}
+%=========================
+\ابتدا{سوال}
+دباو \عددی{v(t)=15+10\cos(\omega t+30^{\circ})\,\si{\volt}} کی موثر قیمت دریافت کریں۔
+
+جواب:\عددی{\Vrms=\SI{13.398}{\volt}}
+\انتہا{سوال}
+%==============================
+\ابتدا{سوال}\شناخت{طاقت_صنعتی_الف}
+شکل \حوالہ{شکل_طاقت_صنعتی_بوجھ} میں صنعتی بوجھ کو طاقت مہیا کیا گیا ہے۔ ایمپیئر پیما موثر \عددی{\SI{130}{\ampere}} اور وولٹ پیما موثر \عددی{\SI{440}{\volt}} ناپتے ہیں جبکہ بوجھ کو \عددی{\SI{50}{\kilo\watt}} فراہم کیا جا رہے ہے۔صنعتی بوجھ کا امالی جزو طاقت دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$\bV_m$}]++(0,\y) to [european resistor,l={$\bZ_\text{\RL{تار}}$}]++(\x,0) to node [component]{A}++(\x+\x/2,0) to [european resistor,l={$\bZ_{\text{بوجھ}}$}] ++(0,-\y) to [short](0,0);
+\draw(\x,0) to node [component]{V}++(0,\y);
+\draw(\x,0) node[circ]{};
+\draw(\x,\y) node[circ]{};
+\draw(\x+3/4*\x,\y+\y/5)node[above]{\RL{ایمپیئر پیما}};
+\draw(\x+\x/2,\y/2)node[]{\RL{وولٹ پیما}};
+\end{tikzpicture}
+\caption{صنعتی بوجھ کو طاقت مہیا کیا گیا ہے۔}
+\label{شکل_طاقت_صنعتی_بوجھ}
+\end{figure}
+
+جواب:\عددی{\pf=0.874}
+\انتہا{سوال}
+%==================
+\ابتدا{سوال}\شناخت{طاقت_صنعتی_ب}
+شکل \حوالہ{شکل_طاقت_صنعتی_بوجھ} میں صنعتی بوجھ کو \عددی{\SI{80}{\kilo\watt}} طاقت مہیا کیا گیا ہے۔ ایمپیئر پیما \عددی{\SI{220}{\ampere}\,\rms} ناپتا ہے  جبکہ بوجھ کا امالی جزو طاقت \عددی{0.92} ہے۔موثر دباو حاصل کریں۔
+
+جواب: \عددی{\SI{395}{\volt}\,\rms}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{طاقت_صنعتی_پ}
+شکل \حوالہ{شکل_طاقت_صنعتی_بوجھ} میں صنعتی بوجھ کو \عددی{\pf=0.84} امالی پر  \عددی{\SI{60}{\kilo\watt}} طاقت مہیا کیا گیا ہے جبکہ منبع کا طاقت \عددی{\SI{64}{\kilo\watt}} ہے۔تار کی رکاوٹ \عددی{\bZ_{\text{تار}}=\SI{0.12}{\ohm}} ہے۔ ایمپیئر پیما اور وولٹ پیما کیا پڑھتے ہیں۔
+
+جواب:\عددی{\SI{199.2}{\ampere}\,\rms}، \عددی{\SI{358.57}{\volt}\,\rms}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{طاقت_صنعتی_ت}
+شکل \حوالہ{شکل_طاقت_صنعتی_بوجھ} میں صنعتی بوجھ کو \عددی{\pf=0.86} آگے جزو طاقت پر  \عددی{\SI{20}{\kilo\watt}} طاقت مہیا کیا گیا ہے۔بوجھ
+ پر دباو \عددی{240\phase{0^{\circ}}\,\si{\volt}\,\rms} ہے۔تار کی رکاوٹ \عددی{\bZ_{\text{تار}}=0.1+j0.15\,\si{\ohm}} ہے۔ منبع کا جزو طاقت اور مخلوط طاقت دریافت کریں۔
+
+جواب:جزو طاقت آگے \عددی{\pf=0.89} ہے اور منبع کا مخلوط طاقت \عددی{\bS=23.4\phase{-26.5^{\circ}}\,\si{\kilo\volt\ampere}} ہے۔
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{طاقت_صنعتی_ٹ}
+شکل \حوالہ{شکل_طاقت_صنعتی_ٹ} میں منبع کا جزو طاقت اور مخلوط طاقت دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$\bV_m$}]++(0,\y) to [european resistor,l={${0.02+j0.2\,\si{\ohm}}$}]++(2*\x,0) 
+to [european resistor,l={$\substack{\displaystyle \SI{20}{\kilo\volt\ampere}\hfill  \\ \displaystyle \pf=0.7 \\ \displaystyle \text{پیچھے}} \hfill$}, v={$280\phase{0^{\circ}}\,\si{\volt}\,\rms$}]++(0,-\y) to [short] (0,0);
+\draw(2*\x,\y) to [short,*-]++(\x+\x/2,0) to [european resistor,l={$\substack{\displaystyle \SI{15}{\kilo\volt\ampere}\hfill  \\ \displaystyle \pf=0.96 \\ \displaystyle \text{آگے}} \hfill$}]++(0,-\y) to [short,-*] ++(-\x-\x/2,0);
+\end{tikzpicture}
+\caption{شکل \حوالہ{طاقت_صنعتی_ٹ} کا دور۔}
+\label{شکل_طاقت_صنعتی_ٹ}
+\end{figure}
+
+جوابات:جزو طاقت \عددی{0.891} پیچھے ہے۔مخلوط طاقت \عددی{\bS=37964\phase{26.97^{\circ}}\,\si{\volt\ampere}} ہے۔
+\انتہا{سوال}
+%========================
+\ابتدا{سوال}\شناخت{طاقت_صنعتی_ث}
+شکل \حوالہ{شکل_طاقت_صنعتی_ث} میں کرخوف کے قوانین سے دباو منبع \عددی{\bV_m} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$\bV_m$}]++(0,\y) to [european resistor,l={${0.08+j0.22\,\si{\ohm}}$}]++(2*\x,0) 
+to [european resistor,l={$\substack{\displaystyle \SI{42}{\kilo\volt\ampere}\hfill  \\ \displaystyle \pf=0.82 \\ \displaystyle \text{پیچھے}} \hfill$}, v={$240\phase{0^{\circ}}\,\si{\volt}\,\rms$}]++(0,-\y) to [short] (0,0);
+\draw(2*\x,\y) to [short,*-]++(\x+\x/2,0) to [european resistor,l={$\substack{\displaystyle \SI{36}{\kilo\watt}\hfill  \\ \displaystyle \pf=0.75 \\ \displaystyle \text{آگے}} \hfill$}]++(0,-\y) to [short,-*] ++(-\x-\x/2,0);
+\end{tikzpicture}
+\caption{شکل \حوالہ{طاقت_صنعتی_ث} کا دور۔}
+\label{شکل_طاقت_صنعتی_ث}
+\end{figure}
+
+جوابات: \عددی{\bV_m=273.5\phase{15.33^{\circ}}\,\si{\volt}\,\rms}
+\انتہا{سوال}
+%========================
+\ابتدا{سوال}\شناخت{طاقت_صنعتی_ج}
+شکل \حوالہ{شکل_طاقت_صنعتی_ج} میں منبع کا جزو طاقت اور مخلوط طاقت دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$\bV_m$}]++(0,\y) to [european resistor,l={${0.08+j0.22\,\si{\ohm}}$}]++(2*\x,0) 
+to [european resistor,l_={$\substack{\displaystyle \SI{22}{\kilo\volt\ampere}\hfill  \\ \displaystyle \pf=0.88 \\ \displaystyle \text{پیچھے}} \hfill$}]++(0,-\y) to [short] (0,0);
+\draw(2*\x,\y) to [european resistor,*-,l={$0.04+j0.1\,\si{\ohm}$}]++(2*\x,0) to [european resistor,l={$\substack{\displaystyle \SI{30}{\kilo\watt}\hfill  \\ \displaystyle \pf=0.91 \\ \displaystyle \text{آگے}} \hfill$}, v={$260\phase{0^{\circ}}\,\si{\volt}\,\rms$}]++(0,-\y) to [short,-*] ++(-2*\x,0);
+\end{tikzpicture}
+\caption{شکل \حوالہ{طاقت_صنعتی_ج} کا دور۔}
+\label{شکل_طاقت_صنعتی_ج}
+\end{figure}
+
+جوابات: \عددی{\pf=0.988} امالی، \عددی{\bS=52.26\phase{8.95^{\circ}}\,\si{\kilo\volt\ampere}}
+\انتہا{سوال}
+%========================
+\ابتدا{سوال}\شناخت{طاقت_صنعتی_چ}
+شکل \حوالہ{شکل_طاقت_صنعتی_چ} میں منبع کا دباو دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$\bV_m$}]++(0,\y) to [european resistor,l={${0.06+j0.18\,\si{\ohm}}$}]++(2*\x,0) 
+to [european resistor,l_={$\substack{\displaystyle \SI{25}{\kilo\watt}\hfill  \\ \displaystyle \pf=0.9 \\ \displaystyle \text{پیچھے}} \hfill$}]++(0,-\y) to [short] (0,0);
+\draw(2*\x,\y) to [european resistor,*-,l={$0.01+j0.04\,\si{\ohm}$}]++(2*\x,0) to [european resistor,l={$\substack{\displaystyle \SI{15}{\kilo\watt}\hfill  \\ \displaystyle \pf=0.85 \\ \displaystyle \text{پیچھے}} \hfill$}, v={$220\phase{0^{\circ}}\,\si{\volt}\,\rms$}]++(0,-\y) to [short,-*] ++(-2*\x,0);
+\end{tikzpicture}
+\caption{شکل \حوالہ{طاقت_صنعتی_چ} کا دور۔}
+\label{شکل_طاقت_صنعتی_چ}
+\end{figure}
+
+جوابات: \عددی{\bV_m=252.4\phase{6.56^{\circ}}\,\si{\volt}\,\rms}
+\انتہا{سوال}
+%========================
+\ابتدا{سوال}
+ایک صنعتی بوجھ کو \عددی{\SI{50}{\hertz}} اور \عددی{\SI{260}{\volt}\,\rms} کے منبع سے طاقت مہیا کیا جاتا ہے۔بوجھ کا جزو طاقت \عددی{0.8} امالی اور طاقت \عددی{\SI{40}{\kilo\watt}} ہے۔ بوجھ کے متوازی کتنا برق گیر نسب کرنے سے جزو طاقت \عددی{0.9} امالی کیا جا سکتا ہے۔
+
+جواب:\عددی{C=\SI{500}{\micro\farad}}
+\انتہا{سوال}
+%========================
+\ابتدا{سوال}
+ایک صنعتی بوجھ کو \عددی{\SI{50}{\hertz}} اور \عددی{\SI{200}{\volt}\,\rms} کے منبع سے طاقت مہیا کیا جاتا ہے۔بوجھ کا جزو طاقت \عددی{0.8} امالی اور طاقت \عددی{\SI{40}{\kilo\watt}} ہے۔ بوجھ کے متوازی کتنا برق گیر نسب کرنے سے جزو طاقت \عددی{0.9} امالی کیا جا سکتا ہے۔
+
+جواب:\عددی{C=\SI{846}{\micro\farad}}
+\انتہا{سوال}
+%========================
+\ابتدا{سوال}
+ایک صنعتی بوجھ کو \عددی{\SI{50}{\hertz}} اور \عددی{\SI{480}{\volt}\,\rms} کے منبع سے طاقت مہیا کیا جاتا ہے۔بوجھ کا جزو طاقت \عددی{0.7} امالی اور طاقت \عددی{\SI{66}{\kilo\watt}} ہے۔ بوجھ کے متوازی کتنا برق گیر نسب کرنے سے جزو طاقت \عددی{0.92} امالی کیا جا سکتا ہے۔
+
+جواب:\عددی{C=\SI{542}{\micro\farad}}
+\انتہا{سوال}
+%========================
+\ابتدا{سوال}\شناخت{سوال_طاقت_مساوی_الف}
+شکل \حوالہ{شکل_سوال_طاقت_مساوی_الف}-الف امالی بوجھ کا مساوی دور \عددی{2+j2\,\si{\ohm}} دکھایا گیا ہے جس کو \عددی{\SI{50}{\hertz}} کے منبع سے طاقت فراہم کی گئی ہے۔بوجھ کے متوازی کتنا برق گیر نسب کرنے سے منبع کو \عددی{0.94} امالی جزو طاقت نظر آئے گا؟
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$220\phase{0^{\circ}}\,\si{\volt}\,\rms$}]++(0,2*\y) to [short]++(\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(0,-\y) to [inductor,l={$j2\,\si{\ohm}$}]++(0,-\y) to [short](0,0);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$240\phase{0^{\circ}}\,\si{\volt}\,\rms$}]++(0,2*\y) to [european resistor,l={$0.1+j0.2\,\si{\ohm}$}]++(\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(0,-\y) to [inductor,l={$j2\,\si{\ohm}$}]++(0,-\y) to [short](0,0);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_طاقت_مساوی_الف} اور سوال \حوالہ{سوال_طاقت_مساوی_ب} کے ادوار۔}
+\label{شکل_سوال_طاقت_مساوی_الف}
+\end{figure}
+
+جواب:\عددی{\SI{507}{\micro\farad}}
+\انتہا{سوال}
+%==========================
+\ابتدا{سوال}\شناخت{سوال_طاقت_مساوی_ب}
+شکل \حوالہ{شکل_سوال_طاقت_مساوی_الف}-ب امالی بوجھ کا مساوی دور \عددی{2+j2\,\si{\ohm}} دکھایا گیا ہے جس کو \عددی{\SI{50}{\hertz}} کے منبع سے طاقت فراہم کی گئی ہے۔بوجھ کے متوازی کتنا برق گیر نسب کرنے سے  بوجھ اور برق گیر کا کل جزو طاقت \عددی{0.94} امالی ہو گا؟
+
+جواب:\عددی{\SI{438}{\micro\farad}}
+\انتہا{سوال}
+%========================
