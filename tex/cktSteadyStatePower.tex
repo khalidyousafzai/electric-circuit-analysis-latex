@@ -1377,7 +1377,7 @@ V_{\textup{rms}}=\frac{\abs{\bS_{\text{منبع}}}}{I_{L,\textup{rms}}}=\frac{\n
 \draw(3/4*33:0.8)node[right]{$\theta_v-\theta_i$};
 \end{tikzpicture}
 \caption*{(ب)}
-\end{subfigure}
+\end{subfigure}%
 \begin{subfigure}{0.5\textwidth}
 \centering
 \begin{tikzpicture}[american voltages]
@@ -1388,16 +1388,30 @@ V_{\textup{rms}}=\frac{\abs{\bS_{\text{منبع}}}}{I_{L,\textup{rms}}}=\frac{\n
 \draw(3/4*18:1.3)node[right]{$\theta_{\text{بہتر}}$};
 \end{tikzpicture}
 \caption*{(پ)}
-\end{subfigure}%
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw[-latex](0,0)--++(3,2)node[above left,pos=0.6]{$S_b$};
+\draw[-latex](3,0)--++(0,2);
+\draw[-latex](0,0)--++(3,0)node[below,pos=0.6]{$P_b$};
+\draw[-latex](0,0)--++(3,1)node[above left,pos=0.9]{$S_{\text{بہتر}}$};
+\draw[-latex](3,0)--++(0,1);
+\draw[-latex] (3.3,2)--++(0,-1)node[right,pos=0.5]{$Q_C$};
+\draw[-stealth] ([shift={(0:1.3)}]0,0) arc (0:18.43:1.3);
+\draw(3/4*18:1.3)node[right]{$\theta_{\text{بہتر}}$};
+\end{tikzpicture}
+\caption*{(ت)}
+\end{subfigure}
 \caption{درستگی جزو طاقت کے اشکال۔}
 \label{شکل_طاقت_درستگی_جزو_طاقت_صنعتی_بہتر}
 \end{figure}
 
 مساوات \حوالہ{مساوات_طاقت_برق_گیر_مخلوط_طاقت} کے تحت برق گیر کا متعاملی طاقت درج ذیل ہے۔
 \begin{align}\label{مساوات_برقرار_طاقت_جزو_طاقت_درستگی_برق_گیر}
-\bS_C=-j \omega C \VrmsS\quad \quad \text{\RL{جزو طاقت درست کرنے کے لئے درکار برق گیر}}
+\bS_C=-jQ_C=-j \omega C \VrmsS\quad \quad \text{\RL{جزو طاقت درست کرنے کے لئے درکار برق گیر}}
 \end{align}
-کسی بھی جزو طاقت کے حصول کے لئے  \عددی{\bS_C} کو شکل \حوالہ{شکل_طاقت_درستگی_جزو_طاقت_صنعتی_بہتر}-پ سے حاصل کا جا سکتا ہے جسے استعمال کرتے ہوئے درج بالا مساوات سے درکار \عددی{C} حاصل کیا جا سکتا ہے۔ جزو طاقت قابو کرنے کے لئے برق گیر کی استعداد عموماً متعاملی وولٹ ایمپیئر \عددی{\var} میں ہی بیان کی جاتی ہے۔یوں \عددی{\SI{50}{\hertz}}، \عددی{\SI{440}{\volt}\,\rms} پر استعمال ہونے  والے \عددی{\SI{822}{\micro\farad}} برق گیر کو \عددی{\SI{50}{\kilo\var}} کا برق گیر کہا جائے گا۔
+کسی بھی جزو طاقت کے حصول کے لئے  \عددی{\bS_C} کو شکل \حوالہ{شکل_طاقت_درستگی_جزو_طاقت_صنعتی_بہتر}-ت سے حاصل کا جا سکتا ہے جسے استعمال کرتے ہوئے درج بالا مساوات سے درکار \عددی{C} حاصل کیا جا سکتا ہے۔ جزو طاقت قابو کرنے کے لئے برق گیر کی استعداد عموماً متعاملی وولٹ ایمپیئر \عددی{\var} میں ہی بیان کی جاتی ہے۔یوں \عددی{\SI{50}{\hertz}}، \عددی{\SI{440}{\volt}\,\rms} پر استعمال ہونے  والے \عددی{\SI{822}{\micro\farad}} برق گیر کو \عددی{\SI{50}{\kilo\var}} کا برق گیر کہا جائے گا۔
 
 %===============
 \ابتدا{مثال}\شناخت{مثال_طاقت_فرنس_الف}

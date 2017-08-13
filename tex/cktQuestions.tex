@@ -1,1 +1,581 @@
 \باب{سوالات}
+
+%======================
+\ابتدا{سوال}\شناخت{سوال_مقناطیسی_الف}
+شکل \حوالہ{شکل_سوال_مقناطیسی_الف}-الف میں \عددی{v_1}، \عددی{v_2}، \عددی{v_3} اور \عددی{v_4} کے مساوات لکھیں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{circuitikz}
+\draw(0,0) rectangle ++(-\boxW,\boxH);
+\draw(-0.25,\boxH/2) node[rotate=90]{\RL{بایاں دور}};
+\draw(0,0.25) to [short]++(\x,0)coordinate(BL) to [inductor,l={$L_1$}]++(0,\y)coordinate(TL) to [short,i<_={$i_1$}]++(-\x,0);
+\draw(\x+\x/3+\x,0.25) to [short]++(-\x,0)coordinate(BR) to [inductor,l_={$L_2$}]++(0,\y)coordinate(TR) to [short,i<^={$i_2$}]++(\x,0);
+\draw($(TL)!0.5!(TR)$)node[above]{$M$};
+\draw(BL)++(-0.5,0.5) node[circ]{}; 
+\draw(BR)++(0.5,0.5) node[circ]{}; 
+\draw(2*\x+\x/3,0) rectangle ++(\boxW,\boxH);
+\draw(2*\x+\x/3,0)++(\boxW/2,\boxH/2) node[rotate=90]{\RL{دایاں دور}};
+\draw(0,\boxH/2) node[right]{$\begin{aligned} &+ \\ &v_1 \\ &-  \end{aligned}$};
+\draw(2*\x+\x/3,\boxH/2) node[left]{$\begin{aligned} &- \\ &v_2 \\ &+  \end{aligned}$};
+\draw(\x/4,\boxH/2) node[right]{$\begin{aligned} &- \\ &v_3 \\ &+  \end{aligned}$};
+\draw(2*\x+\x/3-\x/4,\boxH/2) node[left]{$\begin{aligned} &+ \\ &v_4 \\ &-  \end{aligned}$};
+\end{circuitikz}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{circuitikz}
+\draw(0,0) rectangle ++(-\boxW,\boxH);
+\draw(-0.25,\boxH/2) node[rotate=90]{\RL{بایاں دور}};
+\draw(0,0.25) to [short]++(\x,0)coordinate(BL) to [inductor,l={$L_1$}]++(0,\y)coordinate(TL) to [short,i<_={$i_1$}]++(-\x,0);
+\draw(\x+\x/3+\x,0.25) to [short]++(-\x,0)coordinate(BR) to [inductor,l_={$L_2$}]++(0,\y)coordinate(TR) to [short,i>^={$i_2$}]++(\x,0);
+\draw($(TL)!0.5!(TR)$)node[above]{$M$};
+\draw(BL)++(-0.5,0.5) node[circ]{}; 
+\draw(BR)++(0.5,0.5) node[circ]{}; 
+\draw(2*\x+\x/3,0) rectangle ++(\boxW,\boxH);
+\draw(2*\x+\x/3,0)++(\boxW/2,\boxH/2) node[rotate=90]{\RL{دایاں دور}};
+\draw(0,\boxH/2) node[right]{$\begin{aligned} &+ \\ &v_1 \\ &-  \end{aligned}$};
+\draw(2*\x+\x/3,\boxH/2) node[left]{$\begin{aligned} &- \\ &v_2 \\ &+  \end{aligned}$};
+\draw(\x/4,\boxH/2) node[right]{$\begin{aligned} &- \\ &v_3 \\ &+  \end{aligned}$};
+\draw(2*\x+\x/3-\x/4,\boxH/2) node[left]{$\begin{aligned} &+ \\ &v_4 \\ &-  \end{aligned}$};
+\end{circuitikz}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_مقناطیسی_الف} اور سوال \حوالہ{سوال_مقناطیسی_ب} کے ادوار۔}
+\label{شکل_سوال_مقناطیسی_الف}
+\end{figure}
+
+جوابات:
+\begin{align*}
+v_1&=L_1 \frac{\dif i_1}{\dif t}+M\frac{\dif i_2}{\dif t}\\
+v_2&=-M\frac{\dif i_1}{\dif t}-L_2 \frac{\dif i_2}{\dif t}\\
+v_3&=-L_1 \frac{\dif i_1}{\dif t}-M\frac{\dif i_2}{\dif t}\\
+v_4&=M\frac{\dif i_1}{\dif t}+L_2 \frac{\dif i_2}{\dif t}
+\end{align*}
+\انتہا{سوال}
+%=======================
+\ابتدا{سوال}\شناخت{سوال_مقناطیسی_ب}
+شکل \حوالہ{شکل_سوال_مقناطیسی_الف}-ب میں \عددی{v_1}، \عددی{v_2}، \عددی{v_3} اور \عددی{v_4} کے مساوات لکھیں۔
+
+جوابات:
+\begin{align*}
+v_1&=L_1 \frac{\dif i_1}{\dif t}-M\frac{\dif i_2}{\dif t}\\
+v_2&=-M\frac{\dif i_1}{\dif t}+L_2 \frac{\dif i_2}{\dif t}\\
+v_3&=-L_1 \frac{\dif i_1}{\dif t}+M\frac{\dif i_2}{\dif t}\\
+v_4&=M\frac{\dif i_1}{\dif t}-L_2 \frac{\dif i_2}{\dif t}
+\end{align*}
+\انتہا{سوال}
+%=======================
+\ابتدا{سوال}\شناخت{سوال_مقناطیسی_پ}
+شکل \حوالہ{شکل_سوال_مقناطیسی_پ}-الف میں \عددی{v_1}، \عددی{v_2}، \عددی{v_3} اور \عددی{v_4} کے مساوات لکھیں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{circuitikz}
+\draw(0,0) rectangle ++(-\boxW,\boxH);
+\draw(-0.25,\boxH/2) node[rotate=90]{\RL{بایاں دور}};
+\draw(0,0.25) to [short,i<_={$i_1$}]++(\x,0)coordinate(BL) to [inductor,l={$L_1$}]++(0,\y)coordinate(TL) to [short]++(-\x,0);
+\draw(\x+\x/3+\x,0.25) to [short]++(-\x,0)coordinate(BR) to [inductor,l_={$L_2$}]++(0,\y)coordinate(TR) to [short,i<^={$i_2$}]++(\x,0);
+\draw($(TL)!0.5!(TR)$)node[above]{$M$};
+\draw(BL)++(-0.5,0.5) node[circ]{}; 
+\draw(TR)++(0.5,-0.5) node[circ]{}; 
+\draw(2*\x+\x/3,0) rectangle ++(\boxW,\boxH);
+\draw(2*\x+\x/3,0)++(\boxW/2,\boxH/2) node[rotate=90]{\RL{دایاں دور}};
+\draw(0,\boxH/2) node[right]{$\begin{aligned} &+ \\ &v_1 \\ &-  \end{aligned}$};
+\draw(2*\x+\x/3,\boxH/2) node[left]{$\begin{aligned} &- \\ &v_2 \\ &+  \end{aligned}$};
+\draw(\x/4,\boxH/2) node[right]{$\begin{aligned} &- \\ &v_3 \\ &+  \end{aligned}$};
+\draw(2*\x+\x/3-\x/4,\boxH/2) node[left]{$\begin{aligned} &+ \\ &v_4 \\ &-  \end{aligned}$};
+\end{circuitikz}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{circuitikz}
+\draw(0,0) rectangle ++(-\boxW,\boxH);
+\draw(-0.25,\boxH/2) node[rotate=90]{\RL{بایاں دور}};
+\draw(0,0.25) to [short,i>_={$i_1$}]++(\x,0)coordinate(BL) to [inductor,l={$L_1$}]++(0,\y)coordinate(TL) to [short]++(-\x,0);
+\draw(\x+\x/3+\x,0.25) to [short,i>^={$i_2$}]++(-\x,0)coordinate(BR) to [inductor,l_={$L_2$}]++(0,\y)coordinate(TR) to [short]++(\x,0);
+\draw($(TL)!0.5!(TR)$)node[above]{$M$};
+\draw(BL)++(-0.5,0.5) node[circ]{}; 
+\draw(TR)++(0.5,-0.5) node[circ]{}; 
+\draw(2*\x+\x/3,0) rectangle ++(\boxW,\boxH);
+\draw(2*\x+\x/3,0)++(\boxW/2,\boxH/2) node[rotate=90]{\RL{دایاں دور}};
+\draw(0,\boxH/2) node[right]{$\begin{aligned} &+ \\ &v_1 \\ &-  \end{aligned}$};
+\draw(2*\x+\x/3,\boxH/2) node[left]{$\begin{aligned} &- \\ &v_2 \\ &+  \end{aligned}$};
+\draw(\x/4,\boxH/2) node[right]{$\begin{aligned} &- \\ &v_3 \\ &+  \end{aligned}$};
+\draw(2*\x+\x/3-\x/4,\boxH/2) node[left]{$\begin{aligned} &+ \\ &v_4 \\ &-  \end{aligned}$};
+\end{circuitikz}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_مقناطیسی_پ} اور سوال \حوالہ{سوال_مقناطیسی_ت} کے ادوار۔}
+\label{شکل_سوال_مقناطیسی_پ}
+\end{figure}
+
+جوابات:
+\begin{align*}
+v_1&=L_1 \frac{\dif i_1}{\dif t}-M\frac{\dif i_2}{\dif t}\\
+v_2&=M\frac{\dif i_1}{\dif t}-L_2 \frac{\dif i_2}{\dif t}\\
+v_3&=-L_1 \frac{\dif i_1}{\dif t}+M\frac{\dif i_2}{\dif t}\\
+v_4&=-M\frac{\dif i_1}{\dif t}+L_2 \frac{\dif i_2}{\dif t}
+\end{align*}
+\انتہا{سوال}
+%=======================
+\ابتدا{سوال}\شناخت{سوال_مقناطیسی_ت}
+شکل \حوالہ{شکل_سوال_مقناطیسی_پ}-ب میں \عددی{v_1}، \عددی{v_2}، \عددی{v_3} اور \عددی{v_4} کے مساوات لکھیں۔
+
+جوابات:
+\begin{align*}
+v_1&=-L_1 \frac{\dif i_1}{\dif t}+M\frac{\dif i_2}{\dif t}\\
+v_2&=-M\frac{\dif i_1}{\dif t}+L_2 \frac{\dif i_2}{\dif t}\\
+v_3&=L_1 \frac{\dif i_1}{\dif t}-M\frac{\dif i_2}{\dif t}\\
+v_4&=M\frac{\dif i_1}{\dif t}-L_2 \frac{\dif i_2}{\dif t}
+\end{align*}
+\انتہا{سوال}
+%=======================
+\ابتدا{سوال}\شناخت{سوال_مقناطیسی_ٹ}
+شکل \حوالہ{شکل_سوال_مقناطیسی_ٹ} میں \عددی{\bV_0} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$8\phase{0^{\circ}}$}\,\si{\volt}]++(0,\y) to [resistor,l={$\SI{1}{\ohm}$}]++(2*\x,0)coordinate(kA) to [inductor,l_={$j3\,\si{\ohm}$}]++(0,-\y)coordinate(kB) to [short] (0,0);
+\draw(2*\x+\x/3,0)coordinate(kC) to [inductor,l_={$j4\,\si{\ohm}$}]++(0,\y)coordinate(kD) to [resistor,l={$\SI{1}{\ohm}$}]++(2*\x,0) to [resistor,l={$\SI{1}{\ohm}$},v={$\hat{V}_0$}]++(0,-\y) to [short]++(-2*\x,0);
+\draw (kA)++(-0.5,-0.5) node[circ]{};
+\draw (kD)++(0.5,-0.5) node[circ]{};
+\draw(2*\x+\x/6,\y)node[above]{$j2\,\si{\ohm}$};
+%currents
+\draw[stealth-]([shift={(-135:\x/4)}]\x,\y/2) arc (-135:135:\x/4);
+\draw(\x,\y/2)node{$\hat{I}_1$};
+\draw[stealth-]([shift={(-135:\x/4)}]2*\x+\x/3+\x,\y/2) arc (-135:135:\x/4);
+\draw(3*\x+\x/3,\y/2)node{$\hat{I}_2$};
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مقناطیسی_ٹ} کا دور۔}
+\label{شکل_سوال_مقناطیسی_ٹ}
+\end{figure}
+
+جواب:\عددی{1.37\phase{-30.96^{\circ}}\,\si{\volt}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_مقناطیسی_ث}
+شکل \حوالہ{شکل_سوال_مقناطیسی_ث} میں \عددی{\bV_0} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$20\phase{0^{\circ}}$}\,\si{\volt}]++(0,\y) to [resistor,l={$\SI{1}{\ohm}$}]++(\x,0) to [capacitor,l={$-j1\,\si{\ohm}$}]++(\x,0)coordinate(kA) to [inductor,l_={$j2\,\si{\ohm}$}]++(0,-\y)coordinate(kB) to [short] (0,0);
+\draw(2*\x+\x/3,0)coordinate(kC) to [inductor,l_={$j1\,\si{\ohm}$}]++(0,\y)coordinate(kD) to [resistor,l={$\SI{1}{\ohm}$}]++(2*\x,0) to [capacitor,l={$-j2\,\si{\ohm}$},v={$\hat{V}_0$}]++(0,-\y) to [short]++(-2*\x,0);
+\draw (kA)++(-0.5,-0.5) node[circ]{};
+\draw (kC)++(0.5,0.5) node[circ]{};
+\draw(2*\x+\x/6,\y)node[above]{$j2\,\si{\ohm}$};
+%currents
+\draw[stealth-]([shift={(-135:\x/4)}]\x,\y/2) arc (-135:135:\x/4);
+\draw(\x,\y/2)node{$\hat{I}_1$};
+\draw[stealth-]([shift={(-135:\x/4)}]2*\x+\x/3+\x,\y/2) arc (-135:135:\x/4);
+\draw(3*\x+\x/3,\y/2)node{$\hat{I}_2$};
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مقناطیسی_ث} کا دور۔}
+\label{شکل_سوال_مقناطیسی_ث}
+\end{figure}
+
+جواب:\عددی{13.33\phase{180^{\circ}}\,\si{\volt}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_مقناطیسی_ج}
+شکل \حوالہ{شکل_سوال_مقناطیسی_ج} میں \عددی{\bV_0} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$40\phase{-30^{\circ}}$}\,\si{\volt}]++(0,\y) to [resistor,l={$\SI{1}{\ohm}$}]++(\x,0) to [capacitor,l={$-j2\,\si{\ohm}$}]++(\x,0)coordinate(kA) to [inductor,l_={$j3\,\si{\ohm}$}]++(0,-\y)coordinate(kB) to [short] (0,0);
+\draw(2*\x+\x/3,0)coordinate(kC) to [inductor,l_={$j2\,\si{\ohm}$}]++(0,\y)coordinate(kD) to [capacitor,l={$-j1\,\si{\ohm}$}]++(2*\x,0) to [resistor,l={$\SI{2}{\ohm}$},v={$\hat{V}_0$}]++(0,-\y) to [short]++(-2*\x,0);
+\draw (kB)++(-0.5,0.5) node[circ]{};
+\draw (kD)++(0.5,-0.5) node[circ]{};
+\draw(2*\x+\x/6,\y)node[above]{$j1\,\si{\ohm}$};
+%currents
+\draw[stealth-]([shift={(-135:\x/4)}]\x,\y/2) arc (-135:135:\x/4);
+\draw(\x,\y/2)node{$\hat{I}_1$};
+\draw[stealth-]([shift={(-135:\x/4)}]2*\x+\x/3+\x,\y/2) arc (-135:135:\x/4);
+\draw(3*\x+\x/3,\y/2)node{$\hat{I}_2$};
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مقناطیسی_ج} کا دور۔}
+\label{شکل_سوال_مقناطیسی_ج}
+\end{figure}
+
+جواب:\عددی{22.2\phase{183.7^{\circ}}\,\si{\volt}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_مقناطیسی_چ}
+شکل \حوالہ{شکل_سوال_مقناطیسی_چ} میں \عددی{\bV_0} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$12\phase{0^{\circ}}$}\,\si{\volt}]++(0,\y) to [resistor,l={$\SI{1}{\ohm}$}]++(\x,0)coordinate(kA) to [inductor,l={$j3\,\si{\ohm}$}]++(\x,0)coordinate(kB) to [resistor,l_={$\SI{1}{\ohm}$}]++(0,-\y) to [short] (0,0);
+\draw(2*\x+\x/3,0) to [resistor,l_={$\SI{2}{\ohm}$}]++(0,\y)coordinate(kC) to [inductor,l={$j2\,\si{\ohm}$}]++(\x,0)coordinate(kD) to [resistor,l={$\SI{2}{\ohm}$},v={$\hat{V}_0$}]++(0,-\y) to [short]++(-\x,0);
+\draw (kA)++(0.5,-0.3) node[circ]{};
+\draw (kC)++(0.5,-0.3) node[circ]{};
+\draw[stealth-stealth](2*\x-\x/4,\y+0.4) to [out=20,in=160]++(\x/2+\x/3,0);
+\draw(2*\x+\x/6,\y+0.3)node[above,fill=white]{$j1\,\si{\ohm}$};
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مقناطیسی_چ} کا دور۔}
+\label{شکل_سوال_مقناطیسی_چ}
+\end{figure}
+
+جواب:\عددی{1.47\phase{190.6^{\circ}}\,\si{\volt}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_مقناطیسی_ح}
+شکل \حوالہ{شکل_سوال_مقناطیسی_ح} میں \عددی{\bV_0} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$60\phase{0^{\circ}}$}\,\si{\volt}]++(0,\y) to [capacitor,l={$-j2\,\si{\ohm}$}]++(\x,0)
+ to [resistor,l={$\SI{1}{\ohm}$}]++(\x,0)coordinate(kA) to [inductor,l_={$j3\,\si{\ohm}$}]++(0,-\y)coordinate(kB) to [short] (0,0);
+\draw(2*\x+\x/3,0)coordinate(kC) to [inductor,l_={$j6\,\si{\ohm}$}]++(0,\y)coordinate(kD) to [resistor,l={$\SI{1}{\ohm}$}]++(\x,0) to [capacitor,l={$-j1\,\si{\ohm}$}]++(\x,0) to [resistor,l={$\SI{1}{\ohm}$},v={$\hat{V}_0$}]++(0,-\y) to [short]++(-2*\x,0);
+\draw(\x,0) to [resistor,*-*,l={$\SI{4}{\ohm}$}]++(0,\y);
+\draw (kB)++(-0.5,0.5) node[circ]{};
+\draw (kC)++(0.5,0.5) node[circ]{};
+\draw(2*\x+\x/6,\y)node[above]{$j2\,\si{\ohm}$};
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مقناطیسی_ح} کا دور۔}
+\label{شکل_سوال_مقناطیسی_ح}
+\end{figure}
+
+جواب:\عددی{9.1\phase{29.5^{\circ}}\,\si{\volt}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_مقناطیسی_خ}
+شکل \حوالہ{شکل_سوال_مقناطیسی_خ} میں \عددی{\bV_0} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$24\phase{0^{\circ}}$}\,\si{\volt}]++(0,\y) to [resistor,l={$\SI{1}{\ohm}$}]++(\x,0) to [capacitor,l={$-j1\,\si{\ohm}$}]++(\x,0)coordinate(kA) to [inductor,l_={$j2\,\si{\ohm}$}]++(0,-\y)coordinate(kB) to [short] (0,0);
+\draw(2*\x,\y)coordinate(kC) to [inductor,*-,l={$j2\,\si{\ohm}$}]++(\x,0)coordinate(kD) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [american current source,l={$2\phase{0^{\circ}}\,\si{\ampere}$},v={$\hat{V}_0$}]++(0,-\y) to [short,-*]++(-2*\x,0);
+\draw(0,\y)  to [short,*-]++(0,3/4*\y) to [capacitor,l={$-j2\,\si{\ohm}$}]++(4*\x,0) to [short,-*]++(0,-3/4*\y);
+\draw (kA)++(-0.5,-0.5) node[circ]{};
+\draw (kD)++(-0.5,0.5) node[circ]{};
+\draw[stealth-stealth] (2*\x+\x/4,\y/3) to [out=0,in=-90]++(\x/2,\y/2);
+\draw(2*\x+\x/2+\x/4,\y/2)node[fill=white]{$j1\,\si{\ohm}$};
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مقناطیسی_خ} کا دور۔}
+\label{شکل_سوال_مقناطیسی_خ}
+\end{figure}
+
+جواب:\عددی{23.1\phase{9.73^{\circ}}\,\si{\volt}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_مقناطیسی_د}
+شکل \حوالہ{شکل_سوال_مقناطیسی_د} میں \عددی{\bI_0} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$18\phase{0^{\circ}}$}\,\si{\volt}]++(0,2*\y) to [capacitor,l={$-j6\,\si{\ohm}$}]++(\x,0)
+ to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0)coordinate(kA) to [inductor,l_={$j4\,\si{\ohm}$}]++(0,-\y)coordinate(kB) to [short]++ (\x/3,0);
+\draw(2*\x+\x/3,\y)coordinate(kC) to [inductor,l_={$j3\,\si{\ohm}$}]++(0,\y)coordinate(kD) to [resistor,l={$\SI{6}{\ohm}$}]++(\x,0) to [capacitor,l={$-j4\,\si{\ohm}$}]++(\x,0) to [short,i={$\bI_0$}]++(0,-2*\y) to [short](0,0);
+\draw(2*\x+\x/6,0) to [resistor,*-*,l={$\SI{4}{\ohm}$}]++(0,\y);
+\draw (kA)++(-0.5,-0.5) node[circ]{};
+\draw (kD)++(0.5,-0.5) node[circ]{};
+\draw(2*\x+\x/6,2*\y)node[above]{$j3\,\si{\ohm}$};
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مقناطیسی_د} کا دور۔}
+\label{شکل_سوال_مقناطیسی_د}
+\end{figure}
+
+جواب:\عددی{1.26\phase{81.3^{\circ}}\,\si{\ampere}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_مقناطیسی_ڈ}
+شکل \حوالہ{شکل_سوال_مقناطیسی_ڈ} میں منبع کو کیا رکاوٹ نظر آتی ہے؟
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$15\phase{0^{\circ}}$}\,\si{\volt}]++(0,\y) to [resistor,l={$\SI{1}{\ohm}$}]++(\x,0)  to [capacitor,l={$-j2\,\si{\ohm}$}]++(\x,0)coordinate(kA) to [inductor,l_={$j3\,\si{\ohm}$}]++(0,-\y)coordinate(kB) to [short] (0,0);
+\draw(2*\x+\x/3,0)coordinate(kC) to [inductor,l_={$j2\,\si{\ohm}$}]++(0,\y)coordinate(kD) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [capacitor,l={$-j1\,\si{\ohm}$}]++(\x,0) to [inductor,l={$j2\,\si{\ohm}$}]++(0,-\y) to [short]++(-2*\x,0);
+\draw(\x,0) to [resistor,*-*,l={$\SI{2}{\ohm}$}]++(0,\y);
+\draw (kA)++(-0.5,-0.5) node[circ]{};
+\draw (kC)++(0.5,0.5) node[circ]{};
+\draw(2*\x+\x/6,\y)node[above]{$j1\,\si{\ohm}$};
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مقناطیسی_ڈ} کا دور۔}
+\label{شکل_سوال_مقناطیسی_ڈ}
+\end{figure}
+
+جواب:\عددی{1.35+j0.59\,\si{\ohm}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_مقناطیسی_داخلی_رکاوٹ_الف}
+شکل \حوالہ{شکل_سوال_مقناطیسی_داخلی_رکاوٹ_الف} میں داخلی رکاوٹ \عددی{\bZ} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,\y) to [resistor,o-,l={$\SI{2}{\ohm}$}]++(\x,0) to [capacitor,l={$-j1\,\si{\ohm}$}]++(\x,0)coordinate(kA) to [inductor,l_={$j2\,\si{\ohm}$}]++(0,-\y)coordinate(kB) to [short,-o] (0,0);
+\draw(2*\x,\y)coordinate(kC) to [inductor,*-,l={$j2\,\si{\ohm}$}]++(\x,0)coordinate(kD) to [resistor,l={$\SI{4}{\ohm}$}]++(\x,0)
+ to [capacitor,l={$-j6\,\si{\ohm}$}]++(0,-\y) to [short,-*]++(-2*\x,0);
+\draw (kA)++(-0.5,-0.5) node[circ]{};
+\draw (kD)++(-0.5,0.5) node[circ]{};
+\draw[stealth-stealth] (2*\x+\x/4,\y/3) to [out=0,in=-90]++(\x/2,\y/2);
+\draw(2*\x+\x/2+\x/4,\y/2)node[fill=white]{$j2\,\si{\ohm}$};
+\draw[stealth-](\x/4,\y/2)--++(-\x/4,0)--++(0,-\y/8)node[below]{$\bZ$};
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مقناطیسی_داخلی_رکاوٹ_الف} کا دور۔}
+\label{شکل_سوال_مقناطیسی_داخلی_رکاوٹ_الف}
+\end{figure}
+
+جواب:\عددی{5+j36.9\,\si{\ohm}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_مقناطیسی_داخلی_رکاوٹ_ب}
+شکل \حوالہ{شکل_سوال_مقناطیسی_داخلی_رکاوٹ_ب} میں منبع کو کیا رکاوٹ نظر آتی ہے؟
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$20\phase{0^{\circ}}$}\,\si{\volt}]++(0,2*\y) to [resistor,l={$\SI{1}{\ohm}$}]++(\x,0)  to [capacitor,l={$-j2\,\si{\ohm}$}]++(\x,0) to [short]++(0,-\y/2)coordinate(kA) to [inductor,l_={$j3\,\si{\ohm}$}]++(0,-\y)coordinate(kB) to [short]++(0,-\y/2) to [short] (0,0);
+\draw(2*\x+\x/3,0)coordinate(kBot) to [short] ++(0,\y/2)coordinate(kC) to [inductor,l_={$j4\,\si{\ohm}$}]++(0,\y)coordinate(kD) to [short]++(0,\y/2);
+\draw(kBot) to [short]++(2*\x,0);
+\draw(kBot)++(0,2*\y) to [short]++(2*\x,0);
+\draw(kBot)++(\x,0)  to [capacitor,*-,l={$-j4\,\si{\ohm}$}]++(0,\y) to [resistor,-*,l={$\SI{1}{\ohm}$}]++(0,\y);
+\draw(kBot)++(2*\x,0)to [resistor,-*,l_={$\SI{1}{\ohm}$}]++(0,\y)  to [inductor,*-,l_={$j2\,\si{\ohm}$}]++(0,\y) ;
+\draw(kBot)++(\x,\y) to [resistor,*-*,l={$\SI{2}{\ohm}$}]++(\x,0);
+\draw (kA)++(-0.5,-0.5) node[circ]{};
+\draw (kC)++(0.5,0.5) node[circ]{};
+\draw(2*\x+\x/6,2*\y)node[above]{$j3\,\si{\ohm}$};
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مقناطیسی_داخلی_رکاوٹ_ب} کا دور۔}
+\label{شکل_سوال_مقناطیسی_داخلی_رکاوٹ_ب}
+\end{figure}
+
+جواب:\عددی{1.785-j0.5536\,\si{\ohm}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_مقناطیسی_داخلی_رکاوٹ_پ}
+شکل \حوالہ{شکل_سوال_مقناطیسی_داخلی_رکاوٹ_پ} میں \عددی{X_C} کی وہ قیمت دریافت کریں جس پر منبع کو مزاحمتی رکاوٹ نظر آتی ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$10\phase{0^{\circ}}$}\,\si{\volt}]++(0,\y) to [resistor,l={$\SI{12}{\ohm}$}]++(\x,0)coordinate(kA) to [inductor,l_={$j1\,\si{\ohm}$}]++(0,-\y)coordinate(kB) to [short] (0,0);
+\draw(\x+\x/3,0)coordinate(kBot) coordinate(kC) to [inductor,l_={$j50\,\si{\ohm}$}]++(0,\y)coordinate(kD) to [resistor,l={$\SI{6}{\ohm}$}]++(\x,0) to [capacitor,l={$-jX_C\,\si{\ohm}$}]++(\x,0) to [resistor,l={$\SI{8}{\ohm}$}]++(\x,0) to [inductor,l={$j6\,\si{\ohm}$}]++(0,-\y) to [short] (kC);
+\draw (kA)++(-0.5,-0.5) node[circ]{};
+\draw (kD)++(0.5,-0.5) node[circ]{};
+\draw(\x+\x/6,\y)node[above]{$j6\,\si{\ohm}$};
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مقناطیسی_داخلی_رکاوٹ_پ} کا دور۔}
+\label{شکل_سوال_مقناطیسی_داخلی_رکاوٹ_پ}
+\end{figure}
+
+جواب:\عددی{X_C=49.3137}، \عددی{X_C=26.686}
+\انتہا{سوال}
+%=====================
+%=====================
+\ابتدا{سوال}\شناخت{سوال_مقناطیسی_داخلی_رکاوٹ_ث}
+شکل \حوالہ{شکل_سوال_مقناطیسی_داخلی_رکاوٹ_ث} میں کامل ٹرانسفارمر استعمال کیا گیا ہے۔ تمام دباو اور رو دریافت کریں۔آپ دیکھیں گے کہ داخلی اور خارجی متغیرات ہم قدم ہیں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0)node[transformer core](T){};
+\draw (T)node[above]{$1:2$};
+\draw(T.A1)++(0.4,-0.4)node[circ]{};
+\draw(T.B1)++(-0.4,-0.4)node[circ]{};
+\draw($(T.A1)!0.5!(T.A2)$)node{$\begin{aligned} &+ \\ &\bV_1 \\ &- \end{aligned}$};
+\draw($(T.B1)!0.5!(T.B2)$)node{$\begin{aligned} &+ \\ & \bV_2 \\ &- \end{aligned}$};
+\draw(T.A2) to [short]++(-\x,0)to [american voltage source,l={$10\phase{0^{\circ}}$}\,\si{\volt}]++(0,\y)coordinate(kTL);
+\draw(T.A1) to [resistor,l_={$\SI{1}{\ohm}$},i_<={$\bI_1$}]++(-\x,0)-|(kTL);
+\draw(T.B1) to [resistor,l={$\SI{1}{\ohm}$},i={$\bI_2$}]++(\x,0) to [resistor,l={$\SI{1}{\ohm}$},v={$\bV_0$}]++(0,-\y)coordinate(kBR);
+\draw(T.B2)-|(kBR);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مقناطیسی_داخلی_رکاوٹ_ث} کا دور۔}
+\label{شکل_سوال_مقناطیسی_داخلی_رکاوٹ_ث}
+\end{figure}
+
+جواب:\عددی{\bI_1=\tfrac{20}{3}\phase{0^{\circ}}\,\si{\ampere}}، \عددی{\bI_2=\tfrac{10}{3}\phase{0^{\circ}}\,\si{\ampere}}،
+ \عددی{\bV_1=\tfrac{10}{3}\phase{0^{\circ}}\,\si{\volt}}،\\ \عددی{\bV_2=\tfrac{20}{3}\phase{0^{\circ}}\,\si{\volt}}،  
+\عددی{\bV_0=\tfrac{10}{3}\phase{0^{\circ}}\,\si{\volt}}
+
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_مقناطیسی_داخلی_رکاوٹ_ج}
+شکل \حوالہ{شکل_سوال_مقناطیسی_داخلی_رکاوٹ_ج} میں کامل ٹرانسفارمر استعمال کیا گیا ہے۔ تمام دباو اور رو دریافت کریں۔آپ دیکھیں گے کہ داخلی اور خارجی متغیرات میں \عددی{180^{\circ}} زاویائی فرق پایا جاتا ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0)node[transformer core](T){};
+\draw (T)node[above]{$1:2$};
+\draw(T.A1)++(0.4,-0.4)node[circ]{};
+\draw(T.B2)++(-0.4,0.4)node[circ]{};
+\draw($(T.A1)!0.5!(T.A2)$)node{$\begin{aligned} &+ \\ &\bV_1 \\ &- \end{aligned}$};
+\draw($(T.B1)!0.5!(T.B2)$)node{$\begin{aligned} &+ \\ & \bV_2 \\ &- \end{aligned}$};
+\draw(T.A2) to [short]++(-\x,0)to [american voltage source,l={$10\phase{0^{\circ}}$}\,\si{\volt}]++(0,\y)coordinate(kTL);
+\draw(T.A1) to [resistor,l_={$\SI{1}{\ohm}$},i_<={$\bI_1$}]++(-\x,0)-|(kTL);
+\draw(T.B1) to [resistor,l={$\SI{1}{\ohm}$},i={$\bI_2$}]++(\x,0) to [resistor,l={$\SI{1}{\ohm}$},v={$\bV_0$}]++(0,-\y)coordinate(kBR);
+\draw(T.B2)-|(kBR);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مقناطیسی_داخلی_رکاوٹ_ج} کا دور۔}
+\label{شکل_سوال_مقناطیسی_داخلی_رکاوٹ_ج}
+\end{figure}
+
+جواب:\عددی{\bI_1=\tfrac{20}{3}\phase{0^{\circ}}\,\si{\ampere}}، \عددی{\bI_2=\tfrac{10}{3}\phase{180^{\circ}}\,\si{\ampere}}،
+ \عددی{\bV_1=\tfrac{10}{3}\phase{0^{\circ}}\,\si{\volt}}،\\ \عددی{\bV_2=\tfrac{20}{3}\phase{180^{\circ}}\,\si{\volt}}،  
+\عددی{\bV_0=\tfrac{10}{3}\phase{180^{\circ}}\,\si{\volt}}
+
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_مقناطیسی_داخلی_رکاوٹ_ت}
+شکل \حوالہ{شکل_سوال_مقناطیسی_داخلی_رکاوٹ_ت} میں کامل ٹرانسفارمر استعمال کیا گیا ہے۔ تمام دباو اور رو دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0)node[transformer core](T){};
+\draw (T)node[above]{$1:4$};
+\draw(T.A1)++(0.4,-0.4)node[circ]{};
+\draw(T.B1)++(-0.4,-0.4)node[circ]{};
+\draw($(T.A1)!0.5!(T.A2)$)node{$\begin{aligned} &+ \\ &\bV_1 \\ &- \end{aligned}$};
+\draw($(T.B1)!0.5!(T.B2)$)node{$\begin{aligned} &+ \\ & \bV_2 \\ &- \end{aligned}$};
+\draw(T.A2) to [short]++(-\x,0)to [american voltage source,l={$40\phase{0^{\circ}}$}\,\si{\volt}]++(0,\y)coordinate(kTL);
+\draw(T.A1) to [resistor,l_={$\SI{1}{\ohm}$},i_<={$\bI_1$}]++(-\x,0)-|(kTL);
+\draw(T.B1) to [resistor,l={$\SI{4}{\ohm}$},i={$\bI_2$}]++(\x,0) to [inductor,l={$j8\,\si{\ohm}$}]++(0,-\y)coordinate(kBR);
+\draw(T.B2)-|(kBR);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مقناطیسی_داخلی_رکاوٹ_ت} کا دور۔}
+\label{شکل_سوال_مقناطیسی_داخلی_رکاوٹ_ت}
+\end{figure}
+
+جواب:\عددی{\bI_1=29.7\phase{-21.8^{\circ}}\,\si{\ampere}}، \عددی{\bI_2=7.43\phase{-21.8^{\circ}}\,\si{\ampere}}، \\
+\عددی{\bV_1=16.6\phase{41.6^{\circ}}\,\si{\volt}}، \عددی{\bV_2=66.4\phase{41.6^{\circ}}\,\si{\volt}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_مقناطیسی_داخلی_رکاوٹ_ٹ}
+شکل \حوالہ{شکل_سوال_مقناطیسی_داخلی_رکاوٹ_ٹ} میں \عددی{\bV_0} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0)node[transformer core](T){};
+\draw (T)node[above]{$3:1$};
+\draw(T.A2)++(0.4,0.4)node[circ]{};
+\draw(T.B1)++(-0.4,-0.4)node[circ]{};
+\draw(T.A2) to [short]++(-2*\x,0)to [american voltage source,l={$150\phase{45^{\circ}}$}\,\si{\volt}]++(0,\y)coordinate(kTL);
+\draw(T.A1) to [resistor,l_={$\SI{1}{\ohm}$}]++(-\x,0) to [capacitor,l_={$-j2\,\si{\ohm}$}]++(-\x,0)-|(kTL);
+\draw(T.B1) to [resistor,l={$\SI{1}{\ohm}$}]++(\x,0) to [capacitor,l={$-j4\,\si{\ohm}$},v={$\bV_0$}]++(0,-\y)coordinate(kBR);
+\draw(T.B2)-|(kBR);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مقناطیسی_داخلی_رکاوٹ_ٹ} کا دور۔}
+\label{شکل_سوال_مقناطیسی_داخلی_رکاوٹ_ٹ}
+\end{figure}
+
+جواب:\عددی{\bV_0=45.8\phase{210.3^{\circ}}\,\si{\volt}}
+\انتہا{سوال}
+%=================================
+\ابتدا{سوال}\شناخت{سوال_مقناطیسی_داخلی_رکاوٹ_چ}
+شکل \حوالہ{شکل_سوال_مقناطیسی_داخلی_رکاوٹ_چ} میں \عددی{\bV_0} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0)node[transformer core](T){};
+\draw (T)node[above]{$2:1$};
+\draw(T.A1)++(0.4,-0.4)node[circ]{};
+\draw(T.B1)++(-0.4,-0.4)node[circ]{};
+\draw(T.A2) to [short]++(-2*\x,0)coordinate(kBotL) to [american voltage source,l={$24\phase{0^{\circ}}$}\,\si{\volt}]++(0,\y)coordinate(kTL);
+\draw(T.A1)  to [capacitor,l_={$-j4\,\si{\ohm}$}]++(-\x,0) to [resistor,l_={$\SI{4}{\ohm}$}]++(-\x,0)-|(kTL);
+\draw(T.A1)++(-\x,0) to [american current source,*-,l={$\SI{2}{\phase{0^{\circ}}}\,\si{\ampere}$}]++(0,-\y)coordinate(kBotC)--($(T.A2)!(kBotC)!(kBotL)$)node[circ]{};
+\draw(T.B1) to [short]++(\x,0)coordinate(kTopR)to [inductor,l={$j2\,\si{\ohm}$}]++(\x,0) to [resistor,l={$\SI{4}{\ohm}$},v={$\bV_0$}]++(0,-\y)coordinate(kBR);
+\draw(T.B2)-|(kBR)coordinate[pos=0.2](kA)coordinate[pos=0.8](kB);
+\draw(kTopR) to [capacitor,*-,l_={$-j2\,\si{\ohm}$}]++(0,-\y)coordinate(kBotCR)--($(kA)!(kBotCR)!(kB)$)node[circ]{};
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مقناطیسی_داخلی_رکاوٹ_چ} کا دور۔}
+\label{شکل_سوال_مقناطیسی_داخلی_رکاوٹ_چ}
+\end{figure}
+
+جواب:\عددی{\bV_0=4.44\phase{-33.7^{\circ}}\,\si{\volt}}
+\انتہا{سوال}
+%=================================
+\ابتدا{سوال}\شناخت{سوال_مقناطیسی_ٹرانسفارمر_داخلی_رکاوٹ_الف}
+شکل \حوالہ{شکل_سوال_مقناطیسی_ٹرانسفارمر_داخلی_رکاوٹ_الف} میں منبع کو نظر آنے والی رکاوٹ حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0)node[transformer core](T){};
+\draw (T)node[above]{$1:2$};
+\draw(T.A2)++(0.4,0.4)node[circ]{};
+\draw(T.B1)++(-0.4,-0.4)node[circ]{};
+\draw(T.A2) to [short]++(-\x,0)to [american voltage source,l={$\bV_S$}]++(0,\y)coordinate(kTL);
+\draw(T.A1) to [resistor,l_={$\SI{2}{\ohm}$}]++(-\x,0)-|(kTL);
+\draw(T.B1) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [inductor,l={$j4\,\si{\ohm}$}]++(0,-\y)coordinate(kBR);
+\draw(T.B2)-|(kBR);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مقناطیسی_ٹرانسفارمر_داخلی_رکاوٹ_الف} کا دور۔}
+\label{شکل_سوال_مقناطیسی_ٹرانسفارمر_داخلی_رکاوٹ_الف}
+\end{figure}
+
+جواب:\عددی{\bZ=2.5+j1\,\si{\ohm}}
+\انتہا{سوال}
+%=================================
+\ابتدا{سوال}\شناخت{سوال_مقناطیسی_ٹرانسفارمر_داخلی_رکاوٹ_ب}
+شکل \حوالہ{شکل_سوال_مقناطیسی_ٹرانسفارمر_داخلی_رکاوٹ_ب} میں داخلی رکاوٹ دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0)node[transformer core](T){};
+\draw (T)node[above]{$4:1$};
+\draw(T.A1)++(0.4,-0.4)node[circ]{};
+\draw(T.B1)++(-0.4,-0.4)node[circ]{};
+\draw(T.A2) to [short]++(-2*\x,0)coordinate(kBotL) to [american voltage source,l={$\bV_S$}]++(0,\y)coordinate(kTL);
+\draw(T.A1)  to [capacitor,l_={$-j8\,\si{\ohm}$}]++(-\x,0) to [resistor,l_={$\SI{16}{\ohm}$}]++(-\x,0)-|(kTL);
+\draw(T.A1)++(-\x,0) to [inductor,*-,l={$j20\,\si{\ohm}$}]++(0,-\y)coordinate(kBotC)--($(T.A2)!(kBotC)!(kBotL)$)node[circ]{};
+\draw(T.B1) to [short]++(\x,0)coordinate(kTopR)to [inductor,l={$j2\,\si{\ohm}$}]++(\x,0) to [resistor,l={$\SI{1}{\ohm}$}]++(0,-\y)coordinate(kBR);
+\draw(T.B2)-|(kBR)coordinate[pos=0.2](kA)coordinate[pos=0.8](kB);
+\draw(kTopR) to [capacitor,*-,l_={$-j2\,\si{\ohm}$}]++(0,-\y)coordinate(kBotCR)--($(kA)!(kBotCR)!(kB)$)node[circ]{};
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مقناطیسی_ٹرانسفارمر_داخلی_رکاوٹ_ب} کا دور۔}
+\label{شکل_سوال_مقناطیسی_ٹرانسفارمر_داخلی_رکاوٹ_ب}
+\end{figure}
+
+جواب:\عددی{21.69+j21.78\,\si{\ohm}}
+\انتہا{سوال}
+%=================================
+\ابتدا{سوال}\شناخت{سوال_مقناطیسی_ٹرانسفارمر_داخلی_رکاوٹ_پ}
+شکل \حوالہ{شکل_سوال_مقناطیسی_ٹرانسفارمر_داخلی_رکاوٹ_پ} میں داخلی رکاوٹ دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0)node[transformer core](T){};
+\draw (T)node[above]{$2:1$};
+\draw(T.A1)++(0.4,-0.4)node[circ]{};
+\draw(T.B1)++(-0.4,-0.4)node[circ]{};
+\draw(2*\x,0)node[transformer core](Ta){};
+\draw (Ta)node[above]{$1:4$};
+\draw(Ta.A1)++(0.4,-0.4)node[circ]{};
+\draw(Ta.B1)++(-0.4,-0.4)node[circ]{};
+%
+\draw(T.B1) to [inductor,l={$j2\,\si{\ohm}$}]++(\x,0)--(Ta.A1);
+\draw(T.B2) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0)--(Ta.A2);
+
+\draw(T.A2) to [short]++(-\x,0)coordinate(kBotL) to [american voltage source,l={$\bV_S$}]++(0,\y)coordinate(kTL);
+\draw(T.A1)  to [capacitor,l_={$-j16\,\si{\ohm}$}]++(-\x,0) -|(kTL);
+\draw(Ta.B1)  to [resistor,l={$\SI{48}{\ohm}$}]++(\x,0) to [capacitor,l={$-j32\,\si{\ohm}$}]++(0,-\y)|-(Ta.B2);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مقناطیسی_ٹرانسفارمر_داخلی_رکاوٹ_پ} کا دور۔}
+\label{شکل_سوال_مقناطیسی_ٹرانسفارمر_داخلی_رکاوٹ_پ}
+\end{figure}
+
+جواب:\عددی{20-j16\,\si{\ohm}}
+\انتہا{سوال}
+%=================================
+\ابتدا{سوال}\شناخت{سوال_مقناطیسی_ٹرانسفارمر_داخلی_رکاوٹ_ت}
+شکل \حوالہ{شکل_سوال_مقناطیسی_ٹرانسفارمر_داخلی_رکاوٹ_ت} میں \عددی{\SI{32}{\ohm}} خارجی مزاحمت والے  ایمپلیفائر کے ساتھ ٹرانسفارمر کے ذریعہ  \عددی{\SI{8}{\ohm}} کا لاوڈ سپیکر جوڑا گیا ہے۔ایمپلیفائر کو اس کے تھونن مساوی دور سے ظاہر کیا گیا ہے۔لاوڈ سپیکر میں زیادہ سے زیادہ طاقت منتقل کرنے کی خاطر ٹرانسفارمر کی \عددی{\tfrac{N_1}{N_2}} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0)node[transformer core](T){};
+\draw (T)node[above]{$N_1:N_2$};
+\draw(T.A1)++(0.4,-0.4)node[circ]{};
+\draw(T.B1)++(-0.4,-0.4)node[circ]{};
+%
+
+\draw(T.A2) to [short]++(-\x,0)coordinate(kBotL) to [american voltage source,l={$\bV_ m$}]++(0,\y)coordinate(kTL);
+\draw(T.A1)  to [resistor,l_={$\SI{32}{\ohm}$}]++(-\x,0) -|(kTL);
+\draw(T.B1)  to [short]++(\x,0) to [resistor,l={$\SI{8}{\ohm}$}]++(0,-\y)|-(T.B2);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_مقناطیسی_ٹرانسفارمر_داخلی_رکاوٹ_ت} کا دور۔}
+\label{شکل_سوال_مقناطیسی_ٹرانسفارمر_داخلی_رکاوٹ_ت}
+\end{figure}
+
+جواب:\عددی{\tfrac{N_1}{N_2}=\tfrac{2}{1}}
+\انتہا{سوال}
+%=================================
