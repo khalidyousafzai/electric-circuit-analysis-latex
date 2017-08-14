@@ -434,3 +434,47 @@ Z4235:Z4*Z235/(Z4+Z235);
 Zin:Z1+Z4235;
 float(rectform(Zin));
 
+
+
+Print("======================================");
+kill(all);
+print("Q 10.25");
+
+Z1:4;
+Z2:-2*%i;
+Z3:2+1*%i;
+ia:4*%e^(60/180*%pi*%i);
+N1:1;
+N2:4;
+
+v2:ia*Z3;
+vv2:v2*N1/N2;
+ii2:ia*N2/N1;
+
+vR:vv2+ii2*Z2;
+iR:vR/Z1;
+
+ki:iR+ii2;
+
+float(abs(ki));
+float(carg(ki)*180/%pi);
+
+
+Print("======================================");
+kill(all);
+print("Q 10.26");
+
+Z1:2;
+Z2:4-2*%i;
+va:10*%e^(0/180*%pi*%i);
+N1:1;
+N2:2;
+
+ZZ1:Z1*(N1/N1)^2;
+vv1:va*N2/N1;
+
+i2:vv1/(ZZ1+Z2);
+kv:i2*4;
+
+float(abs(kv));
+float(carg(kv)*180/%pi);

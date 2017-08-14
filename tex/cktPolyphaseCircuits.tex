@@ -3,10 +3,10 @@
 اب تک بدلتی رو طاقت کی بات کرتے ہوئے  ایک عدد منبع دباو کی بات کی جاتی رہی۔حقیقت میں بدلتی رو طاقت کی پیدا وار اور ترسیل تین دوری نظام سے کی جاتی ہے۔شکل \حوالہ{شکل_تین_دوری_تین_دوری_نظام} میں تین دوری نظام دکھایا گیا ہے جہاں تین عدد منبع استعمال کئے گئے ہیں جو آپس میں \عددی{120^{\circ}} زاویائی فاصلہ رکھتے ہیں۔تمام دباو کے حیطے یک برابر ہونے کی صورت میں اس کو \اصطلاح{متوازن تین دوری نظام}\فرہنگ{متوازن!تین دوری نظام}\فرہنگ{تین دور!متوازن}\حاشیہب{balanced three phase system}\فرہنگ{three phase balanced system} کہا جاتا ہے۔دکھائے گئے متوازن نظام کے دباو درج ذیل ہیں جن کے دوری سمتیات کو شکل-ب میں دکھایا گیا ہے۔
 \begin{gather}
 \begin{aligned}
-\hat{V}_{an}&=230 \phase{0^{\circ}}\,\si{\volt} \rms\\
-\hat{V}_{bn}&=230 \phase{-120^{\circ}}\,\si{\volt} \rms\\
-\hat{V}_{cn}&=230 \phase{-240^{\circ}}\,\si{\volt} \rms\\
-&=230 \phase{120^{\circ}}\,\si{\volt} \rms
+\hat{V}_{an}&=230 \phase{0^{\circ}}\,\si{\volt}\, \rms\\
+\hat{V}_{bn}&=230 \phase{-120^{\circ}}\,\si{\volt}\, \rms\\
+\hat{V}_{cn}&=230 \phase{-240^{\circ}}\,\si{\volt}\, \rms\\
+&=230 \phase{120^{\circ}}\,\si{\volt}\, \rms
 \end{aligned}
 \end{gather}
 انہیں کو وقتی دائرہ کار میں درج ذیل لکھا جائے گا۔شکل-پ میں انہیں دکھایا گیا ہے۔
@@ -31,9 +31,9 @@ i_{cn}(t)&=I_0 \cos(\omega t +120^{\circ}-\theta)\,\si{\ampere}
 \begin{subfigure}{1\textwidth}
 \centering
 \begin{tikzpicture}
-\draw(0,0)to [short]++(0,2*\y)  to [american voltage source,l_={${\hat{V}_{an}=230\phase{0^{\circ}}\,\si{\volt}\rms}$}]++(0,\y)  to [short,-o]++(4*\x,0)node[right]{$a$};
-\draw(1*\x,0) to [short]++(0,\y) to [american voltage source,l_={${\hat{V}_{bn}=230\phase{-120^{\circ}}\,\si{\volt}\rms}$}]++(0,\y) to [short,-o]++(3*\x,0)node[right]{$b$};
-\draw(2*\x,0) to [american voltage source,l_={${\hat{V}_{cn}=230\phase{120^{\circ}}\,\si{\volt}\rms}$}] ++(0,\y)to [short,-o]++(2*\x,0)node[right]{$c$};
+\draw(0,0)to [short]++(0,2*\y)  to [american voltage source,l_={${\hat{V}_{an}=230\phase{0^{\circ}}\,\si{\volt}\,\rms}$}]++(0,\y)  to [short,-o]++(4*\x,0)node[right]{$a$};
+\draw(1*\x,0) to [short]++(0,\y) to [american voltage source,l_={${\hat{V}_{bn}=230\phase{-120^{\circ}}\,\si{\volt}\,\rms}$}]++(0,\y) to [short,-o]++(3*\x,0)node[right]{$b$};
+\draw(2*\x,0) to [american voltage source,l_={${\hat{V}_{cn}=230\phase{120^{\circ}}\,\si{\volt}\,\rms}$}] ++(0,\y)to [short,-o]++(2*\x,0)node[right]{$c$};
 \draw(0,0) to [short,-*]++(1*\x,0) to [short,-*]++(1*\x,0) to [short,-o]++(2*\x,0)node[right]{$n$};
 \end{tikzpicture}
 \caption*{(الف)}
@@ -219,9 +219,9 @@ p(t)=\frac{3V_0 I_0}{2}\cos \theta =3 \Vrms \Irms \cos \theta \,\si{\watt}
 مساوات \حوالہ{مساوات_تین_دوری_ستارہ_الف} میں لمحہ \عددی{t=0} پر \عددی{v_{an}} کی چوٹی پائی جاتی ہے۔ہم کہتے ہیں کہ \عددی{v_{an}} کا زاویائی ہٹاو صفر کے برابر ہے۔اگر \عددی{v_{an}} کا زاویائی ہٹاو \عددی{\theta} ہو تب تین دوری نظام کے دوری سمتیات درج ذیل ہوں گے۔
  \begin{gather}
 \begin{aligned}
-\hat{V}_{an}&=230 \phase{\theta}\,\si{\volt} \rms\\
-\hat{V}_{bn}&=230 \phase{\theta-120^{\circ}}\,\si{\volt} \rms\\
-\hat{V}_{cn}&=230 \phase{\theta-240^{\circ}}\,\si{\volt} \rms
+\hat{V}_{an}&=230 \phase{\theta}\,\si{\volt} \,\rms\\
+\hat{V}_{bn}&=230 \phase{\theta-120^{\circ}}\,\si{\volt}\, \rms\\
+\hat{V}_{cn}&=230 \phase{\theta-240^{\circ}}\,\si{\volt} \,\rms
 \end{aligned}
 \end{gather}
 ایسی صورت میں شکل \حوالہ{شکل_تین_دوری_تین_دوری_نظام}-ب کے تینوں دوری سمتیات \عددی{\theta} زاویہ گھوم جائیں گے۔تین دوری \عددی{abc} نظام کی بات کرتے ہوئے ہم \عددی{v_{an}} کا زاویہ ہٹاو صفر کے برابر لیں گے تا کہ بار بار زاویہ ہٹاو کا تعین نہ کرنا پڑے۔
@@ -759,9 +759,9 @@ I_a=\sqrt{I_0^2+I_0^2-2I_0^2\cos 120^{\circ}}=\sqrt{3}I_0
 
 حل:دباو تار درج ذیل ہیں جہاں تار کی رکاوٹ نہ ہونے کی وجہ سے منبع اور بوجھ کے دباو تار برابر ہیں۔
 \begin{align*}
-\hat{V}_{ab}=\sqrt{3}240\phase{72^{\circ}}=\hat{V}_{AB}\\
-\hat{V}_{bc}=\sqrt{3}240\phase{-48^{\circ}}=\hat{V}_{BC}\\
-\hat{V}_{ca}=\sqrt{3}240\phase{192^{\circ}}=\hat{V}_{CA}
+\hat{V}_{ab}=240\sqrt{3}\phase{72^{\circ}}=\hat{V}_{AB}\\
+\hat{V}_{bc}=240\sqrt{3}\phase{-48^{\circ}}=\hat{V}_{BC}\\
+\hat{V}_{ca}=240\sqrt{3}\phase{192^{\circ}}=\hat{V}_{CA}
 \end{align*}
 یوں بوجھ کے شاخوں کی رو درج ذیل ہو گی۔
 \begin{align*}
