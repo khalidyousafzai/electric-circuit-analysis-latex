@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  15 AUG 2017 12:11
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  15 AUG 2017 18:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3075,7 +3075,35 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-) [977
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 29.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 9.5pt on input line 40.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 7.5pt on input line 40.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 7.6pt on input line 51.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 4.56004pt on input line 51.
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+[977
 
 
 
@@ -3094,10 +3122,75 @@ Missing character: There is no 6 in font nullfont!
 
 
 
-] [978
+] [978]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 5.70004pt on input line 89.
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [979]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 139.
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 145.
+
+Overfull \hbox (14.98691pt too wide) in paragraph at lines 153--154
+[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات: $\OT1/ppl/m/n/10 20 []\OT1/zplm
+/m/n/10 (\OT1/ppl/m/n/10 500\OML/zplm/m/it/10 t \OT1/zplm/m/n/10 + \OT1/ppl/m/n
+/10 30[]\OT1/zplm/m/n/10 ) []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ،  $\OT1/ppl
+/m/n/10 2.640 []\OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 1000\OML/zplm/m/it/10 t \OMS/
+zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 52.4[]\OT1/zplm/m/n/10 ) []$ \EU1/JameelNooriNa
+staleeq(1)/m/n/10 ،  $\OT1/ppl/m/n/10 2.640 []\OT1/zplm/m/n/10 (\OT1/ppl/m/n/10
+ 250\OML/zplm/m/it/10 t \OT1/zplm/m/n/10 + \OT1/ppl/m/n/10 112.4[]\OT1/zplm/m/n
+/10 ) []$[]
+ []
 
 
-] (./circuitAnalysis.aux (./tex/cktBasics.aux)
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+[][]
+ []
+
+[980]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+) [981] [982] (./circuitAnalysis.aux (./tex/cktBasics.aux)
 (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
 (./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
 (./tex/cktTransients.aux) (./tex/cktSteadyStateAC.aux)
@@ -3107,16 +3200,20 @@ Missing character: There is no 6 in font nullfont!
 (./tex/cktFourierAnalysis.aux) (./tex/cktTwoPortNetworks.aux)
 (./tex/cktQuestions.aux))
 
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 3.75237pt have occurred.
+
+
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46924 strings out of 493918
- 1118084 string characters out of 6150562
- 1278935 words of memory out of 5000000
- 49280 multiletter control sequences out of 15000+600000
- 24471 words of font info for 98 fonts, out of 8000000 for 9000
+ 48244 strings out of 493918
+ 1149334 string characters out of 6150562
+ 1323168 words of memory out of 5000000
+ 50585 multiletter control sequences out of 15000+600000
+ 45015 words of font info for 166 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,9n,81p,10476b,1020s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,17n,81p,10476b,1989s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (10 pages).
+Output written on circuitAnalysis.pdf (14 pages).
