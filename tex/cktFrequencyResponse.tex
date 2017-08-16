@@ -2424,3 +2424,378 @@ v_d(t)=1\cos (2\pi 50 t)+0.15\cos(2\pi 1000 t)
 \label{شکل_تعددی_مثبت_ایمپلیفائر}
 \end{figure}
 
+%==============================
+%=========================================
+
+\حصہء{سوالات}
+%===================
+\ابتدا{سوال}\شناخت{سوال_تعددی_رکاوٹ_الف}
+شکل \حوالہ{شکل_سوال_تعددی_رکاوٹ_الف} میں داخلی رکاوٹ \عددی{\bZ(s)} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [resistor,o-,l={$R_1$}]++(\x,0) to [short]++(2*\x,0) to [capacitor,l={$C$}]++(0,-\y) to [short,-o]++(-3*\x,0);
+\draw(\x,0) to [resistor,*-*,l={$R_2$}]++(0,-\y);
+\draw(2*\x,0) to [inductor,*-*,l={$L$}]++(0,-\y);
+\draw[stealth-](\x/4,-\y/2)--++(-\x/4,0)--++(0,-\y/8)node[below]{$\bZ(s)$};
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_تعددی_رکاوٹ_الف} کا دور۔}
+\label{شکل_سوال_تعددی_رکاوٹ_الف}
+\end{figure}
+
+جواب:\عددی{\bZ(s)=R_1\tfrac{sR_2L}{S^2R_2LC+SL+R_2}}
+\انتہا{سوال}
+%====================
+\ابتدا{سوال}\شناخت{سوال_تعددی_رکاوٹ_ب}
+شکل \حوالہ{شکل_سوال_تعددی_رکاوٹ_ب} میں داخلی رکاوٹ \عددی{\bZ(s)} حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [short,o-]++(\x/2,0) to [capacitor,l={$C_1$}]++(\x,0) to [short,-o]++(\x,0);
+\draw(0,-2*\y) to [short,o-o]++(2*\x+\x/2,0);
+\draw(\x/2,0) to [short,*-]++(0,3/4*\y) to [inductor,l={$L_1$}]++(\x,0) to [short,-*]++(0,-3/4*\y);
+\draw(\x+\x/2,0) to [inductor,l={$L_2$}]++(0,-\y) to [capacitor,-*,l={$C_2$}]++(0,-\y);
+\draw(0,0) to [open,v={$v_d(t)$}]++(0,-2*\y);
+\draw(2*\x+\x/2,0) to [open,v^<={$v_0(t)$}]++(0,-2*\y);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_تعددی_رکاوٹ_ب} اور سوال \حوالہ{سوال_تعددی_رکاوٹ_پ} کا دور۔}
+\label{شکل_سوال_تعددی_رکاوٹ_ب}
+\end{figure}
+
+جواب:\عددی{\bZ(s)=\tfrac{sL_1}{s^2L_1C_1+1}+\tfrac{s^2L_2C_2+1}{sC_2}}
+\انتہا{سوال}
+%====================
+\ابتدا{سوال}\شناخت{سوال_تعددی_رکاوٹ_پ}
+شکل \حوالہ{شکل_سوال_تعددی_رکاوٹ_ب} میں تبادلی تفاعل \عددی{\tfrac{\bV_0(s)}{\bV_d(s)}} لکھیں۔
+
+جواب:
+$\tfrac{\bV_0(s)}{\bV_d(s)}=\tfrac{s^4L_1L_2C_1C_2+s^2(L_1C_1+L_2C_2)+1}{s^4L_1L_2C_1C_2+s^2*(L_1C_1+L_2C_2+L_1C_2)+1}$
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_تعددی_رکاوٹ_ت}
+شکل \حوالہ{شکل_سوال_تعددی_رکاوٹ_ت} کی داخلی رکاوٹ \عددی{\bZ(s)} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,o-]++(3*\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(0,2*\y) to [short]++(-\x,0) to [resistor,l={$\SI{6}{\ohm}$}]++(-\x,0) to [inductor,-o,l={$\SI{1}{\henry}$}]++(-\x,0);
+\draw(\x,2*\y) to [resistor,*-,l_={$\SI{6}{\ohm}$}]++(0,-\y) to [short]++(\x,0) to [resistor,-*,l_={$\SI{6}{\ohm}$}]++(0,\y);
+\draw(\x+\x/2,0) to [capacitor,*-*,l={$\SI{1}{\farad}$}]++(0,\y);
+\draw[stealth-](\x/4,\y)--++(-\x/4,0)--++(0,-\y/8)node[below]{$\bZ(s)$};
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_تعددی_رکاوٹ_ت} کا دور۔}
+\label{شکل_سوال_تعددی_رکاوٹ_ت}
+\end{figure}
+
+جواب:\عددی{\bZ(s)=\tfrac{6s^2+21s+6}{6s+1}}
+\انتہا{سوال}
+%====================
+\ابتدا{سوال}\شناخت{سوال_تعددی_رکاوٹ_ٹ}
+شکل \حوالہ{شکل_سوال_تعددی_رکاوٹ_ٹ} میں \عددی{c} اور \عددی{d} کو کھلے سر رکھتے ہوئے \عددی{a} اور \عددی{b} کے مابین رکاوٹ دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ang}{atan(\yy/(\xx+\xx/2))}
+\pgfmathsetmacro{\len}{\yy/sin(\ang)}
+\draw(0,0)node[left]{$a$} to [short,o-]++(\xx/2,0) to [resistor,l={$\SI{1}{\ohm}$}]++(\xx+\xx/2,0) to [short,-o]++(\xx/2,0)node[right]{$c$};
+\draw(0,0-\yy)node[left]{$b$} to [short,o-]++(\xx/2,0) to [capacitor,l_={$\SI{0.5}{\farad}$}]++(\xx+\xx/2,0) to [short,-o]++(\xx/2,0)node[right]{$d$};
+\draw(\x/2,0) to [resistor,*-,l_={$\SI{2}{\ohm}$}]++(-\ang:\xx) to [short,-*]++(-\ang:\len-\xx);
+\draw(\xx+\xx,0) to [inductor,*-,l={$\SI{1}{\henry}$}]++(-180+\ang:\xx) to [short,-*]++(-180+\ang:\len-\xx);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_تعددی_رکاوٹ_ٹ} کا دور۔}
+\label{شکل_سوال_تعددی_رکاوٹ_ٹ}
+\end{figure}
+
+جواب:\عددی{\bZ=\tfrac{2s+2}{s+2}}
+\انتہا{سوال}
+%====================
+\ابتدا{سوال}\شناخت{سوال_تعددی_رکاوٹ_ث}
+شکل \حوالہ{شکل_سوال_تعددی_رکاوٹ_ٹ} میں \عددی{c} اور \عددی{d} کو آپس میں قصر دور کرتے ہوئے \عددی{a} اور \عددی{b} کے مابین رکاوٹ دریافت کریں۔
+
+جواب:\عددی{\bZ:\tfrac{2s^2+6s+4}{3s^2+6}}
+\انتہا{سوال}
+%===========================
+\ابتدا{سوال}\شناخت{سوال_تعددی_رکاوٹ_ج}
+شکل \حوالہ{شکل_سوال_تعددی_رکاوٹ_ٹ} میں \عددی{c} اور \عددی{d} کے مابین \عددی{\SI{1}{\ohm}} مزاحمت نسب کرتے ہوئے \عددی{a} اور \عددی{b} کے مابین رکاوٹ دریافت کریں۔
+
+جواب:\عددی{\bZ(s)=\tfrac{4s^2+10s+6}{4s^2+3s+8}}
+\انتہا{سوال}
+%==========================
+\ابتدا{سوال}\شناخت{سوال_تعددی_رکاوٹ_چ}
+شکل \حوالہ{شکل_سوال_تعددی_رکاوٹ_چ} میں داخلی رکاوٹ \عددی{\bZ(s)} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,o-]++(\x/2,0) to [capacitor,l_={$\SI{1}{\farad}$}]++(\x,0);
+\draw(0,2*\y) to [short,o-]++(\x/2,0) to [capacitor,l={$\SI{0.5}{\farad}$}]++(\x,0);
+\draw(\x/2,\y)  to [resistor,*-*,l={$\SI{1}{\ohm}$}]++(\x,0);
+\draw(\x/2,0) to [resistor,*-,l={$\SI{2}{\ohm}$}]++(0,\y) to [inductor,-*,l={$\SI{2}{\henry}$}]++(0,\y);
+\draw(\x+\x/2,0) to [resistor,l={$\SI{1}{\ohm}$}]++(0,\y) to [inductor,l={$\SI{1}{\henry}$}]++(0,\y);
+\draw[stealth-](\x/8,\y+\y/4)--++(-\x/8,0)--++(0,-\y/8)node[below]{$\bZ(s)$};
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_تعددی_رکاوٹ_چ} کا دور۔}
+\label{شکل_سوال_تعددی_رکاوٹ_چ}
+\end{figure}
+
+جواب:
+$\bZ(s)=\tfrac{8s^4+12s^3+26s^2+14s+4}{12s^3+6s^2+9s+2}$
+\انتہا{سوال}
+%====================
+\ابتدا{سوال}\شناخت{سوال_تعددی_بوڈا_الف}
+تبادلی تفاعل \عددی{\bH(j\omega)=\tfrac{1}{(j\omega+1)(0.1j\omega+1)}} کا بوڈا خط کھینچیں۔
+\انتہا{سوال}
+%======================================
+\ابتدا{سوال}\شناخت{سوال_تعددی_بوڈا_ب}
+تبادلی تفاعل \عددی{\bH(j\omega)=\tfrac{100j\omega}{(j\omega+1)(j\omega+10)(j\omega+50)}} کا بوڈا خط کھینچیں۔
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_تعددی_بوڈا_پ}
+تبادلی تفاعل \عددی{\bH(j\omega)=\tfrac{100}{(j\omega)^2(j\omega+100)}} کا بوڈا خط کھینچیں۔
+\انتہا{سوال}
+%===============================
+\ابتدا{سوال}\شناخت{سوال_تعددی_بوڈا_ت}
+تبادلی تفاعل \عددی{\bH(j\omega)=\tfrac{500(j\omega+2)(j\omega+100)}{-\omega^2(j\omega+1000)^2}} کا بوڈا خط کھینچیں۔
+\انتہا{سوال}
+%==========================
+\ابتدا{سوال}\شناخت{سوال_تعددی_ردعمل_الف}
+شکل \حوالہ{شکل_سوال_تعددی_ردعمل_الف}-الف میں منبع کی تعدد \عددی{\omega} قابل تبدیل ہے۔دور کی قدرتی گمکی تعدد \عددی{\SI{500}{\radian\per\second}} ہونے کی صورت میں \عددی{C} کی قیمت کا تخمینہ لگائیں۔قدرتی تعدد \عددی{\omega_0} پر دور میں رو \عددی{i(t)} دریافت کریں۔تعدد \عددی{2\omega_0} اور \عددی{\tfrac{\omega_0}{2}} پر بھی رو دریافت کریں۔ 
+\begin{figure}
+\centering
+\begin{subfigure}{0.6\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$40\cos(\omega t+30^{\circ})\,\si{\volt}$}]++(0,\y) to [inductor,l={$\SI{20}{\milli\henry}$}]++(\x,0) to [resistor,l={$\SI{2}{\ohm}$},i={$i(t)$}]++(0,-\y) to [capacitor,l={$C$}]++(-\x,0);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.4\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$30\phase{0^{\circ}}\,\si{\volt}$}]++(0,\y) to [inductor,l={$\SI{10}{\milli\henry}$}]++(\x,0)
+ to [variable european resistor,l_={$\SI{10}{\ohm}$}]++(0,-\y) to [capacitor,l={$\SI{400}{\micro\farad}$}]++(-\x,0);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_تعددی_ردعمل_الف} اور سوال \حوالہ{سوال_تعددی_ردعمل_الف} کے ادوار۔}
+\label{شکل_سوال_تعددی_ردعمل_الف}
+\end{figure}
+
+جوابات:\عددی{20\cos(500t+30^{\circ})\,\si{\ampere}}، \عددی{2.640\cos(1000t-52.4^{\circ})\,\si{\ampere}}،  \عددی{2.640\cos(250t+112.4^{\circ})\,\si{\ampere}}
+\انتہا{سوال}
+%=========================
+\ابتدا{سوال}\شناخت{سوال_تعددی_ردعمل_ب}
+شکل \حوالہ{شکل_سوال_تعددی_ردعمل_الف}-ب میں عرض پٹی دریافت کریں۔متغیر مزاحمت کی قیمت تبدیل کرتے ہوئے عرض پٹی آدھی کریں۔مزاحمت کی قیمت کیا ہو گی؟
+
+جوابات:\عددی{\BW=\SI{1000}{\radian}}، \عددی{R=\SI{5}{\ohm}}
+\انتہا{سوال}
+%======================
+\ابتدا{سوال}
+ایک سلسلہ وار \عددی{RLC} دور کی گمکی تعدد \عددی{\omega_0=\SI{2}{\kilo\radian\per\second}} ہے جبکہ \عددی{C=\SI{40}{\micro\farad}} اور گمکی تعدد پر کل رکاوٹ \عددی{\SI{2.2}{\ohm}} ہے۔ مزاحمت اور امالہ کی قیمت دریافت کریں۔دور کی عرض پٹی اور معیاری مستقل بھی حاصل کریں۔
+
+جوابات:\عددی{R=\SI{2.2}{\ohm}}، \عددی{L=\SI{6.25}{\milli\henry}}، \عددی{\BW=\SI{352}{\radian}}، \عددی{Q=5.682}  
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}
+سلسلہ وار \عددی{RLC} دور کا معیاری مستقل \عددی{120} اور گمکی تعدد \عددی{\SI{15000}{\radian\per\second}} ہے۔ دور کی عرض پٹی، بلند انقطاعی تعدد اور پست انقطاعی تعدد دریافت کریں۔
+
+جوابات:\عددی{\BW=\SI{125}{\radian}}، \عددی{\omega_H=\SI{15063}{\radian\per\second}}، \عددی{\omega_L=\SI{14938}{\radian\per\second}}
+\انتہا{سوال}
+%==================
+\ابتدا{سوال}\شناخت{سوال_تعددی_ردعمل_دباو_الف}
+شکل \حوالہ{شکل_سوال_تعددی_ردعمل_دباو_الف}-الف میں گمکی تعدد \عددی{\omega_0}، معیاری مستقل \عددی{Q}، عرض پٹی \عددی{\BW} اور بلند انقطاعی تعدد \عددی{\omega_H} حاصل کریں۔زیادہ سے زیادہ \عددی{v_0(t)} بھی دریافت کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.6\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$10\cos \omega t\,\si{\volt}$}]++(0,\y) to [inductor,l={$\SI{4}{\milli\henry}$}]++(\x,0) to [resistor,l={$\SI{1}{\ohm}$}]++(0,-\y) to [capacitor,l={$\SI{20}{\micro\farad}$},v={$v_0(t)$}]++(-\x,0);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.4\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$v_d(t)$}]++(0,\y) to [inductor,l={$\SI{40}{\milli\henry}$}]++(\x,0)
+ to [variable european resistor,l_={$\SI{100}{\ohm}$}]++(0,-\y) to [capacitor,l={$\SI{60}{\micro\farad}$}]++(-\x,0);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_تعددی_ردعمل_دباو_الف} اور سوال \حوالہ{سوال_تعددی_ردعمل_دباو_ب} کے ادوار۔}
+\label{شکل_سوال_تعددی_ردعمل_دباو_الف}
+\end{figure}
+
+جوابات:\عددی{\omega_0=\SI{3536}{\radian\per\second}}، \عددی{Q=14.1}، \عددی{\BW=\SI{250}{\radian}}، \\ \عددی{\omega_H=\SI{3663}{\radian\per\second}}،  \عددی{v_{0\text{بلندتر}}=\SI{141.51}{\volt}}
+
+\انتہا{سوال}
+%=========================
+\ابتدا{سوال}\شناخت{سوال_تعددی_ردعمل_دباو_ب}
+شکل \حوالہ{شکل_سوال_تعددی_ردعمل_دباو_الف}-ب میں \عددی{v_d(t)=20\cos \omega t \,\si{\volt}} ہے۔قدرتی تعدد، معیاری مستقل، عرض پٹی اور گمکی تعدد پر دور میں طاقت کا ضیاع حاصل کریں۔
+
+جوابات:\عددی{\omega_0=\SI{645}{\radian\per\second}}، \عددی{Q=0.26}، \عددی{\BW=\SI{2500}{\radian}}، \عددی{p=\SI{2}{\watt}}
+\انتہا{سوال}
+%==================
+\ابتدا{سوال}
+متوازی \عددی{RLC} کی گمکی تعدد \عددی{\omega_0=\SI{1000}{\radian\per\second}} اور گمکی تعدد پر کل رکاوٹ \عددی{\bZ=\SI{10}{\ohm}} ہے۔دور میں \عددی{C=\SI{20}{\micro\farad}} ہے۔آپ سے گزارش ہے کہ \عددی{L}، \عددی{R}، \عددی{Q} اور \عددی{\BW} دریافت کریں۔
+
+جوابات:\عددی{L=\SI{50}{\milli\henry}}، \عددی{R=\SI{10}{\ohm}}، \عددی{Q=0.2}، \عددی{\BW=\SI{5}{\kilo\radian}}
+\انتہا{سوال}
+%===================
+\ابتدا{سوال}
+متوازی \عددی{RLC} کی گمکی تعدد \عددی{\SI{10}{\kilo\radian\per\second}} اور گمکی تعدد پر فراوانی \عددی{\bY=\SI{1}{\milli\siemens}} ہے۔دور میں \عددی{C=\SI{1.5}{\micro\farad}} ہے۔امالہ \عددی{L} اور مزاحمت \عددی{R} معلوم کریں۔
+
+جوابات:\عددی{L=\SI{6.67}{\milli\henry}}، \عددی{R=\SI{1}{\kilo\ohm}}
+\انتہا{سوال}
+%======================
+\ابتدا{سوال}
+متوازی \عددی{RLC} کو متغیر تعدد، \عددی{\SI{4}{\ampere}} کے منبع سے طاقت فراہم کیا گیا ہے۔دور میں \عددی{R=\SI{500}{\ohm}}، \عددی{L=\SI{80}{\milli\henry}} اور \عددی{C=\SI{10}{\micro\farad}} ہیں۔دور کی عرض پٹی، انقطاعی تعدد  اور انقطاعی تعدد پر دور کا دباو حاصل کریں۔
+
+جوابات:\عددی{\BW=\SI{200}{\radian}}، \عددی{\omega_H=\SI{1222}{\radian\per\second}}، \عددی{\omega_L=\SI{1022}{\radian\per\second}}، \عددی{\SI{1414}{\volt}}، \عددی{\SI{1414}{\volt}}
+\انتہا{سوال}
+%===================
+\ابتدا{سوال}
+ایک متوازی \عددی{RLC} دور کی گمکی تعدد \عددی{\SI{1}{\mega\radian\per\second}} اور عرض پٹی \عددی{\SI{100}{\radian}} ہے۔گمکی تعدد پر دور کی کل رکاوٹ \عددی{\SI{2000}{\ohm}} ہے۔دور کی امالہ، برق گیر گنجائش اور معیاری مستقل دریافت کریں۔
+
+جوابات:\عددی{L=\SI{0.2}{\micro\henry}}، \عددی{C=\SI{5}{\micro\farad}}، \عددی{Q=\num{10000}}
+\انتہا{سوال}
+%====================
+\ابتدا{سوال}
+\عددی{\SI{100}{\ohm}}، \عددی{\SI{100}{\micro\farad}} اور \عددی{L} کو متوازی جوڑا گیا ہے۔دور کی گمکی تعدد \عددی{\SI{1000}{\radian\per\second}} ہے۔دور کو \عددی{i_d(t)=\cos 1000t+\cos 1500t \,\si{\ampere}} منبع سے طاقت مہیا کیا گیا ہے۔امالہ \عددی{L}، معیاری مستقل، عرض پٹی \عددی{\BW} اور  \عددی{Q} حاصل کریں۔دور پر دباو \عددی{v_0(t)} بھی حاصل کریں۔
+
+جوابات:\عددی{L=\SI{10}{\milli\henry}}، \عددی{\BW=\SI{100}{\radian}}،  \عددی{Q=10}،\\
+ \عددی{v_0(t)=100\cos 1000t+11.9\cos(1500t-83^{\circ})\,\si{\volt}}
+\انتہا{سوال}
+%================
+\ابتدا{سوال}\شناخت{سوال_تعددی_گمک_الف}
+شکل \حوالہ{شکل_سوال_تعددی_گمک_الف} میں گمکی تعدد پر ہے۔برقی گیر گنجائش  \عددی{C} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$10\cos 4t \,\si{\volt}$}]++(0,2*\y) to [short]++(2*\x,0);
+\draw(0,0) to [short]++(2*\x,0);
+\draw(\x,0) to [resistor,*-,l={$\SI{8}{\ohm}$}]++(0,\y) to [capacitor,-*,l={$C$}]++(0,\y);
+\draw(2*\x,0) to [resistor,l_={$\SI{4}{\ohm}$}]++(0,\y) to [inductor,l_={$\SI{6}{\henry}$}]++(0,\y);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_تعددی_گمک_الف} کا دور۔}
+\label{شکل_سوال_تعددی_گمک_الف}
+\end{figure}
+
+جوابات:\عددی{C=\tfrac{37\mp\sqrt{793}}{768}\,\si{\farad}}
+\انتہا{سوال}
+%===================
+\ابتدا{سوال}\شناخت{سوال_تعددی_گمک_ب}
+شکل \حوالہ{شکل_سوال_تعددی_گمک_ب} کے گمکی تعدد کی مساوات حاصل کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [short,o-]++(\x/2,0) to [capacitor,l={$C$}] ++(\x,0) to [resistor,l={$R$}]++(0,-\y) to [short,-o]++(-\x-\x/2,0);
+\draw(\x/2,0) to [inductor,*-*,l={$L$}]++(0,-\y);
+\draw[stealth-](\x/4,-\y/2)--++(-\x/4,0)--++(0,-\y/8)node[below]{$\bZ$};
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_تعددی_گمک_ب} کا دور۔}
+\label{شکل_سوال_تعددی_گمک_ب}
+\end{figure}
+
+جوابات:\عددی{\omega_0=\tfrac{1}{\sqrt{\abs{C^2R^2-CL}}}}
+\انتہا{سوال}
+%===================
+\ابتدا{سوال}\شناخت{سوال_تعددی_تبادلی_تفاعل_الف}
+شکل \حوالہ{شکل_سوال_تعددی_تبادلی_تفاعل_الف}-الف کا تبادلی تفاعل \عددی{\tfrac{\bV_0(j\omega)}{\bV_d(j\omega)}} لکھیں اور اس کا بوڈا مقداری خط کھینچیں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [american voltage source,l={$v_d(t)$}]++(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{500}{\ohm}$}]++(\x,0) to [capacitor,l={$\SI{50}{\micro\farad}$},v={$v_0(t)$}]++(0,-\y) to [short]++(-2*\x,0);
+\draw(\x,0) to [resistor,*-*,l={$\SI{1}{\kilo\ohm}$}]++(0,\y);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{semilogxaxis}[small,xlabel={$\omega$},ylabel={$\abs{\bH}\,(\si{\deci\bel})$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\addplot[] plot coordinates {(1,0) (8,0) (80,-20)};
+\end{semilogxaxis}
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_تعددی_تبادلی_تفاعل_الف} کا دور۔}
+\label{شکل_سوال_تعددی_تبادلی_تفاعل_الف}
+\end{figure}
+
+جواب:\عددی{\tfrac{\bV_0(j\omega)}{\bV_d(j\omega)}=\tfrac{1}{1+j\tfrac{\omega}{8}}}، بوڈا مقداری خط شکل-ب میں دکھایا گیا ہے۔
+\انتہا{سوال}
+%====================
+\ابتدا{سوال}\شناخت{سوال_تعددی_تبادلی_تفاعل_ب}
+شکل \حوالہ{شکل_سوال_تعددی_تبادلی_تفاعل_ب}-الف کا تبادلی تفاعل \عددی{\tfrac{\bV_0(\omega)}{\bV_d(\omega)}} لکھیں۔چھلنی کی قسم لکھیں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [short,o-]++(\x/2,0) to [inductor,l={$L$}]++(\x,0) to [short,-o]++(\x/2,0);
+\draw(\x/2,0) to [short,*-]++(0,3/4*\y) to [resistor,l={$R_1$}]++(\x,0) to [short,-*]++(0,-3/4*\y);
+\draw(0,-\y) to [short,o-o]++(2*\x,0);
+\draw(\x+\x/2,0) to [resistor,*-*,l_={$R_2$}]++(0,-\y);
+\draw(0,0) to [open,v={$\bV_d(\omega)$}]++(0,-\y);
+\draw(2*\x,0) to [open,v^<={$\bV_0(\omega)$}]++(0,-\y);
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{semilogxaxis}[small,xlabel={$\omega$},ylabel={\abs{\bH}},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},xtick={10,100},xticklabels={$\tfrac{R_1R_2}{L(R_1+R_2)}$,$\tfrac{R_1}{L}$},ytick=\empty]
+\addplot[] plot coordinates {(5,0) (10,0) (100,20) (800,20)};
+\end{semilogxaxis}
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_تعددی_تبادلی_تفاعل_ب} کا دور۔}
+\label{شکل_سوال_تعددی_تبادلی_تفاعل_ب}
+\end{figure}
+
+جواب:$\bH=\tfrac{R_2L (j\omega+\tfrac{R_1}{L})}{j\omega+\tfrac{R_1R_2}{L(R_1+R_2)}}$، بلند گزار چھلنی۔
+
+\انتہا{سوال}
+%====================
+\ابتدا{سوال}\شناخت{سوال_تعددی_تبادلی_تفاعل_پ}
+شکل \حوالہ{شکل_سوال_تعددی_تبادلی_تفاعل_پ} کا تبادلی تفاعل \عددی{\tfrac{\bV_0(\omega)}{\bV_d(\omega)}} لکھیں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0) to [capacitor,l={$C$}]++(0,\y) to [resistor,l={$R$}]++(0,\y);
+\draw(\x,0) to [resistor,*-,l_={$\frac{R}{2}$}]++(0,\y) to [capacitor,-*,l_={$2C$}]++(0,\y);
+\draw(2*\x,0) to [capacitor,l_={$C$}]++(0,\y) to [resistor,l_={$R$}]++(0,\y);
+\draw(0,0) to [short]++(2*\x,0);
+\draw(0,2*\y) to [short]++(2*\x,0);
+\draw(\x,\y) to [short,*-]++(-\x/4,0)node[ground]{};
+\draw(0,\y) to [short,*-o]++(-\x,0)node[left]{$v_d(t)$};
+\draw(2*\x,\y) to [short,*-o]++(\x,0)node[right]{$v_0(t)$};
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_تعددی_تبادلی_تفاعل_پ} کا دور۔}
+\label{شکل_سوال_تعددی_تبادلی_تفاعل_پ}
+\end{figure}
+
+جواب:\عددی{\tfrac{-\omega^2+\tfrac{1}{R^2C^2}}{-\omega^2+\tfrac{j4\omega}{RC}+\tfrac{1}{R^2C^2}}}
+\انتہا{سوال}
+%===============================
+\ابتدا{سوال}\شناخت{سوال_تعددی_تبادلی_تفاعل_ت}
+شکل \حوالہ{شکل_سوال_تعددی_تبادلی_تفاعل_ت} کا تبادلی تفاعل \عددی{\tfrac{\bV_0(\omega)}{\bV_d(\omega)}} لکھیں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}[american voltages]
+\draw(0,0) to [inductor,o-,l={$\SI{8}{\henry}$}]++(\x,0) to [short,-o]++(\x+\x/2,0);
+\draw(\x,0) to [capacitor,*-*,l_={$\SI{500}{\micro\farad}$}]++(0,-\y);
+ \draw(\x+\x/2,0)to [resistor,*-*,l={$\SI{100}{\ohm}$}]++(0,-\y);
+\draw(0,-\y) to [short,o-o]++(2*\x+\x/2,0);
+\draw(0,0) to [open,v={$\bV_d(\omega)$}]++(0,-\y);
+\draw(2*\x+\x/2,0) to [open,v^<={$\bV_0(\omega)$}]++(0,-\y);
+\end{tikzpicture}
+\caption{سوال \حوالہ{سوال_تعددی_تبادلی_تفاعل_ت} کا دور۔}
+\label{شکل_سوال_تعددی_تبادلی_تفاعل_ت}
+\end{figure}
+
+جواب:\عددی{\bH=\tfrac{250}{-\omega^2+j20\omega+250}}
+
+\انتہا{سوال}
+%====================
