@@ -1,0 +1,19 @@
+Print("======================================");
+kill(all);
+print("ghafoor itl magnetic field");
+
+mu:4*%pi*10^(-7);
+Rin:38/2;
+Rout:200/2;
+AT:20000;
+
+r1:Rin/1000;
+r2:Rout/1000;
+h:50/1000;
+J:AT/((r2-r1)*(h));
+
+z0:h/2;
+
+f:(r^2)/((r^2+(z-z0)^2)^(3/2));
+H:integrate(integrate(f,z,0,h),r,r1,r2);
+B:2*%pi*mu*J*H/(4*%pi);
