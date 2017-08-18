@@ -1,0 +1,134 @@
+
+Print("======================================");
+kill(all);
+print("Q 15.1");
+
+(declare(n,integer), assume(n>0), facts());
+T:1;
+w:2*%pi/T;
+
+f1:1;
+
+a0:1/T*integrate(1,t,0,0.2);
+
+define (a(n), 2/T*integrate(f1*cos(n*w*t),t,0,0.2));
+define (b(n),2/T*integrate(f1*sin(n*w*t),t,0,0.2));
+map( 'a, makelist(i,i,1,7) );
+
+fs(nmax) := sum( a(m)*cos(m*w*t)+b(m)*sin(m*w*t),m,1,nmax);
+
+(load(draw) );
+draw2d(explicit(fs(20),t,0,2));
+
+map( 'a, makelist(i,i,1,7) );
+map( 'b, makelist(i,i,1,7) );
+
+
+Print("======================================");
+kill(all);
+print("Q 15.2");
+
+T:6;
+w:2*%pi/T;
+
+
+(declare(n,integer),assume(n>0),facts() );
+a0:1/T*(integrate(1,t,0,3)+integrate(-1,t,3,6));
+define(a(n),2/T*(integrate(1*cos(n*w*t),t,0,3)+integrate(-1*cos(n*w*t),t,3,6)));
+define(b(n),2/T*(integrate(1*sin(n*w*t),t,0,3)+integrate(-1*sin(n*w*t),t,3,6)));
+
+f(nmax):=a0+sum(a(n)*cos(n*w*t)+b(n)*sin(n*w*t),n,1,nmax);
+
+(load(draw));
+draw2d(explicit(f(5),t,0,6));
+
+map( 'a, makelist(i,i,1,7) );
+map( 'b, makelist(i,i,1,7) );
+
+Print("======================================");
+kill(all);
+print("Q 15.3");
+
+T:3;
+w:2*%pi/T;
+
+(declare (n,integer), assume (n>0), facts());
+
+a0:1/T*(integrate(2,t,0,1)+integrate(1,t,1,2));
+
+define(a(n),2/T*(integrate(2*cos(n*w*t),t,0,1)+integrate(1*cos(n*w*t),t,1,2)));
+define(b(n),2/T*(integrate(2*sin(n*w*t),t,0,1)+integrate(1*sin(n*w*t),t,1,2)));
+
+f(nmax):=a0+sum(a(n)*cos(n*w*t)+b(n)*sin(n*w*t),n,1,nmax);
+(load(draw));
+draw2d(explicit(f(7),t,0,5));
+
+map( 'a, makelist(i,i,1,7) );
+map( 'b, makelist(i,i,1,7) );
+
+Print("======================================");
+kill(all);
+print("Q 15.4");
+
+T:4;
+w:2*%pi/T;
+
+(declare (n,integer), assume (n>0), facts());
+
+a0:1/T*(integrate(1,t,0,1)+integrate(2,t,1,2)+integrate(1,t,2,3));
+
+define(a(n),2/T*(integrate(1*cos(n*w*t),t,0,1)+integrate(2*cos(n*w*t),t,1,2)+integrate(1*cos(n*w*t),t,2,3)));
+define(b(n),2/T*(integrate(1*sin(n*w*t),t,0,1)+integrate(2*sin(n*w*t),t,1,2)+integrate(1*sin(n*w*t),t,2,3)));
+
+f(nmax):=a0+sum(a(n)*cos(n*w*t)+b(n)*sin(n*w*t),n,1,nmax);
+(load(draw));
+draw2d(explicit(f(7),t,0,5));
+
+map( 'a, makelist(i,i,1,7) );
+map( 'b, makelist(i,i,1,7) );
+
+
+Print("======================================");
+kill(all);
+print("Q 15.5");
+
+T:3;
+w:2*%pi/T;
+f:3/2*t;
+(declare (n,integer), assume (n>0), facts());
+
+a0:1/T*(integrate(f,t,0,3));
+
+define(a(n),2/T*(integrate(f*cos(n*w*t),t,0,3)));
+define(b(n),2/T*(integrate(f*sin(n*w*t),t,0,3)));
+
+f(nmax):=a0+sum(a(n)*cos(n*w*t)+b(n)*sin(n*w*t),n,1,nmax);
+(load(draw));
+draw2d(explicit(f(7),t,0,5));
+
+map( 'a, makelist(i,i,1,7) );
+map( 'b, makelist(i,i,1,7) );
+
+
+Print("======================================");
+kill(all);
+print("Q 15.6");
+
+T:4;
+w:2*%pi/T;
+f1:t;
+f2:2;
+
+(declare (n,integer), assume (n>0), facts());
+
+a0:1/T*(integrate(f1,t,0,2)+integrate(f2,t,2,3));
+
+define(a(n),2/T*(integrate(f1*cos(n*w*t),t,0,2)+integrate(f2*cos(n*w*t),t,2,3)));
+define(b(n),2/T*(integrate(f1*sin(n*w*t),t,0,2)+integrate(f2*sin(n*w*t),t,2,3)));
+
+f(nmax):=a0+sum(a(n)*cos(n*w*t)+b(n)*sin(n*w*t),n,1,nmax);
+(load(draw));
+draw2d(explicit(f(7),t,0,5));
+
+expand(map( 'a, makelist(i,i,1,7) ));
+map( 'b, makelist(i,i,1,7) );

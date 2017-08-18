@@ -89,6 +89,17 @@ bn:2/T*(integrate(f1*sin(n*w*t),t,1,2)+integrate(f2*sin(n*w*t),t,2,3));
 
 a0;
 
+ev(an,n=1);
+ev(an,n=2);
+ev(an,n=3);
+ev(an,n=4);
+ev(an,n=5);
+ev(an,n=6);
+ev(an,n=7);
+ev(an,n=8);
+ev(an,n=9);
+ev(an,n=10);
+
 ev(bn,n=1);
 ev(bn,n=2);
 ev(bn,n=3);

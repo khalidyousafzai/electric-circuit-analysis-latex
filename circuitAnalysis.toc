@@ -122,21 +122,21 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 14}}تبادلی تفاعل جال}{\RL {\arabicfont 883}}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 14}}ترسیم قطبین و صفر اور بوڈا خط}{\RL {\arabicfont 895}}
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 14}}برقرار حال ردعمل}{\RL {\arabicfont 897}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 15}}فوریئر تجزیہ}{\RL {\arabicfont 907}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 15}}تشاکل تفاعل}{\RL {\arabicfont 933}}
-\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 1}.\RL {\arabicfont 15}}جفت تفاعل تشاکل}{\RL {\arabicfont 933}}
-\contentsline {subsection}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 1}.\RL {\arabicfont 15}}طاق تفاعل تشاکل}{\RL {\arabicfont 935}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 15}}منتقلی وقت}{\RL {\arabicfont 937}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 15}}تخلیق موج}{\RL {\arabicfont 939}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 15}}تعددی طیف}{\RL {\arabicfont 940}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 15}}برقرار حال برقی جال}{\RL {\arabicfont 945}}
-\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 5}.\RL {\arabicfont 15}}اوسط طاقت}{\RL {\arabicfont 945}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 15}}فوریئر بدل}{\RL {\arabicfont 950}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 15}}فوریئر بدل کے خواص}{\RL {\arabicfont 957}}
-\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 15}}مسئلہ پارسیوال}{\RL {\arabicfont 960}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 16}}چار سر ادوار کے ریاضی نمونے}{\RL {\arabicfont 973}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 16}}رکاوٹی نمونہ}{\RL {\arabicfont 978}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 16}}دوغلائی نمونہ}{\RL {\arabicfont 983}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 16}}ترسیلی نمونہ}{\RL {\arabicfont 985}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 16}}چار سر ادوار کے باہمی جوڑ}{\RL {\arabicfont 987}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 17}}سوالات لاپلاس}{\RL {\arabicfont 993}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 15}}فوریئر تجزیہ}{\RL {\arabicfont 919}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 15}}تشاکل تفاعل}{\RL {\arabicfont 945}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 1}.\RL {\arabicfont 15}}جفت تفاعل تشاکل}{\RL {\arabicfont 945}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 1}.\RL {\arabicfont 15}}طاق تفاعل تشاکل}{\RL {\arabicfont 947}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 15}}منتقلی وقت}{\RL {\arabicfont 949}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 15}}تخلیق موج}{\RL {\arabicfont 951}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 15}}تعددی طیف}{\RL {\arabicfont 952}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 15}}برقرار حال برقی جال}{\RL {\arabicfont 957}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 5}.\RL {\arabicfont 15}}اوسط طاقت}{\RL {\arabicfont 957}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 15}}فوریئر بدل}{\RL {\arabicfont 962}}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 15}}فوریئر بدل کے خواص}{\RL {\arabicfont 969}}
+\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 15}}مسئلہ پارسیوال}{\RL {\arabicfont 972}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 16}}چار سر ادوار کے ریاضی نمونے}{\RL {\arabicfont 985}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 16}}رکاوٹی نمونہ}{\RL {\arabicfont 990}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 16}}دوغلائی نمونہ}{\RL {\arabicfont 995}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 16}}ترسیلی نمونہ}{\RL {\arabicfont 997}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 16}}چار سر ادوار کے باہمی جوڑ}{\RL {\arabicfont 999}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 17}}سوالات}{\RL {\arabicfont 1005}}

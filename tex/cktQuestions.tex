@@ -1,268 +1,137 @@
-\باب{سوالات لاپلاس}
-
-%==================
-\ابتدا{سوال}\شناخت{سوال_لاپلاس_حل_رکاوٹ_الف}
-شکل \حوالہ{شکل_سوال_لاپلاس_حل_رکاوٹ_الف} کی داخلی رکاوٹ \عددی{\bZ(s)} حاصل کریں۔
-\begin{figure}
-\centering
-\begin{tikzpicture}
-\draw(0,0) to [short,o-]++(2*\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [capacitor,l={$\SI{0.5}{\farad}$}]++(0,-\y) to [resistor,l={$\SI{2}{\ohm}$}]++(-\x,0) to [short,-o]++(-2*\x,0);
-\draw(\x,0) to [resistor,*-*,l_={$\SI{1}{\ohm}$}]++(0,-\y);
-\draw(\x+\x/2,0) to [inductor,*-*,l={$\SI{1}{\henry}$}]++(0,-\y);
-\draw(3*\x,0) to [resistor,*-*,l={$\SI{1}{\ohm}$}]++(-\x-\x/2,-\y);
-\draw[stealth-](\x/4,-\y/2)--++(-\x/4,0)--++(0,-\y/8)node[below]{$\bZ(s)$};
-\end{tikzpicture}
-\caption{سوال \حوالہ{سوال_لاپلاس_حل_رکاوٹ_الف} کا دور۔}
-\label{شکل_سوال_لاپلاس_حل_رکاوٹ_الف}
-\end{figure}
-
-جواب:\عددی{\bZ(s)=\tfrac{2s(4s+3)}{11s^2+16s+6}}
-\انتہا{سوال}
-%=====================
-\ابتدا{سوال}\شناخت{سوال_لاپلاس_حل_رکاوٹ_ب}
-شکل \حوالہ{شکل_سوال_لاپلاس_حل_رکاوٹ_ب} میں \عددی{c} اور \عددی{d} کو کھلے سر رکھتے ہوئے \عددی{a} اور \عددی{b} کے مابین رکاوٹ دریافت کریں۔
-\begin{figure}
-\centering
-\begin{tikzpicture}
-\pgfmathsetmacro{\ang}{atan(\yy/(\xx+\xx/2))}
-\pgfmathsetmacro{\len}{\yy/sin(\ang)}
-\draw(0,0)node[left]{$a$} to [short,o-]++(\xx/2,0) to [resistor,l={$\SI{1}{\ohm}$}]++(\xx+\xx/2,0) to [short,-o]++(\xx/2,0)node[right]{$c$};
-\draw(0,0-\yy)node[left]{$b$} to [short,o-]++(\xx/2,0) to [capacitor,l_={$\SI{0.5}{\farad}$}]++(\xx+\xx/2,0) to [short,-o]++(\xx/2,0)node[right]{$d$};
-\draw(\x/2,0) to [resistor,*-,l_={$\SI{2}{\ohm}$}]++(-\ang:\xx) to [short,-*]++(-\ang:\len-\xx);
-\draw(\xx+\xx,0) to [inductor,*-,l={$\SI{1}{\henry}$}]++(-180+\ang:\xx) to [short,-*]++(-180+\ang:\len-\xx);
-\end{tikzpicture}
-\caption{سوال \حوالہ{سوال_لاپلاس_حل_رکاوٹ_ب} اور سوال \حوالہ{سوال_لاپلاس_حل_رکاوٹ_پ} کا دور۔}
-\label{شکل_سوال_لاپلاس_حل_رکاوٹ_ب}
-\end{figure}
-
-جواب:\عددی{\bZ(s)=\tfrac{2s+2}{s+2}}
-\انتہا{سوال}
-%====================
-\ابتدا{سوال}\شناخت{سوال_لاپلاس_حل_رکاوٹ_پ}
-شکل \حوالہ{شکل_سوال_لاپلاس_حل_رکاوٹ_ب} میں \عددی{c} اور \عددی{d} کو آپس میں قصر دور کرتے ہوئے \عددی{a} اور \عددی{b} کے مابین رکاوٹ دریافت کریں۔
-
-جواب:\عددی{\bZ(s):\tfrac{2s^2+6s+4}{3s^2+6}}
-\انتہا{سوال}
-%===========================
-\ابتدا{سوال}\شناخت{سوال_لاپلاس_حل_رکاوٹ_ت}
-شکل \حوالہ{شکل_سوال_لاپلاس_حل_رکاوٹ_ت}-الف میں \عددی{v_C(t)} حاصل کریں۔
+\باب{سوالات}
+%========================
+\ابتدا{سوال}\شناخت{سوال_فوریئر_چکور_الف}
+شکل \حوالہ{شکل_سوال_فوریئر_چکور_الف}-الف کے  عددی سر حاصل کرتے ہوئے اس کی تکونیاتی فوریئر تسلسل لکھیں۔
 \begin{figure}
 \centering
 \begin{subfigure}{0.5\textwidth}
 \centering
-\begin{tikzpicture}[american voltages]
-\draw(0,0) to [american voltage source,l={$10\,u(t)\,\si{\volt}$}]++(0,2*\y) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [inductor,l={$\SI{1}{\henry}$},v={$v_L(t)$}]++(0,-2*\y) to [short](0,0);
-\draw(\x,0) to[capacitor,*-,l={$\SI{0.5}{\farad}$},v_>={$v_C(t)$}]++(0,\y) to  [resistor,-*,l={$\SI{1}{\ohm}$}]++(0,\y);
+\begin{tikzpicture}
+\begin{axis}[small,xtick={0,0.2,1,1.2},xticklabels={$0$,$0.2$,$1$,$1.2$},ytick={0,1},yticklabels={$0$,$1$},xlabel={$t$},ylabel={$v(t)$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\addplot[] plot coordinates {(-0.1,0) (0,0) (0,1) (0.2,1) (0.2,0) (1,0) (1,1) (1.2,1) (1.2,0) (1.5,0)};
+\end{axis}
 \end{tikzpicture}
 \caption*{(الف)}
 \end{subfigure}%
 \begin{subfigure}{0.5\textwidth}
 \centering
-\begin{tikzpicture}[american voltages]
-\draw(0,0) to [american voltage source,l_={$6\,u(t)\,\si{\volt}$}]++(0,2*\y) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [capacitor,l={$\SI{1}{\farad}$},v={$v_0(t)$}]++(0,-2*\y) to [short](0,0);
-\draw(\x,0) to [resistor,*-,l={$\SI{2}{\ohm}$}]++(0,\y) to [inductor,-*,l={$\SI{2}{\henry}$}]++(0,\y);
+\begin{tikzpicture}
+\begin{axis}[small,xtick={0,3,6,9,12},xticklabels={$0$,$3$,$6$,$9$,$12$},ytick={-1,0,1},yticklabels={$-1$,$0$,$1$},xlabel={$t$},ylabel={$i(t)$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\addplot[] plot coordinates {(-0.5,-1) (0,-1)(0,1)(3,1)(3,-1)(6,-1) (6,1) (9,1) (9,-1) (12,-1) (12,1) (12.4,1)};
+\end{axis}
 \end{tikzpicture}
 \caption*{(ب)}
 \end{subfigure}%
-\caption{سوال \حوالہ{سوال_لاپلاس_حل_رکاوٹ_ت} تا سوال \حوالہ{سوال_لاپلاس_حل_رکاوٹ_ث} کے ادوار۔}
-\label{شکل_سوال_لاپلاس_حل_رکاوٹ_ت}
+\caption{سوال \حوالہ{سوال_فوریئر_چکور_الف} کی موج۔}
+\label{شکل_سوال_فوریئر_چکور_الف}
 \end{figure}
 
-جواب:\عددی{v_C(t)=[5-5e^{-\tfrac{4}{3}t}]\,u(t)\,\si{\volt}}
-
-\انتہا{سوال}
-%================
-\ابتدا{سوال}\شناخت{سوال_لاپلاس_حل_رکاوٹ_ٹ}
-شکل \حوالہ{شکل_سوال_لاپلاس_حل_رکاوٹ_ت}-الف میں \عددی{v_L(t)} حاصل کریں۔
-
-جواب:\عددی{v_L(t)=\tfrac{10}{3}e^{-\tfrac{4}{3}t}\, u(t)\,\si{\volt}}
+جوابات:\عددی{a_0=0.2}، \عددی{a_n=\tfrac{1}{n\pi}\sin \tfrac{2\pi n}{5}}، \عددی{b_n=\tfrac{1}{n\pi}(1-\cos \tfrac{2\pi n}{5})}، \\
+\begin{multline*}
+v(t)=0.2+0.3027\cos (2\pi t) +0.2199\sin (2\pi t)+0.0935\cos(4\pi t)\\
++0.2879\sin(4\pi t)-0.0623\cos(6\pi t)+0.1919\sin(6\pi t)+\cdots
+\end{multline*}
 \انتہا{سوال}
 %=========================
-\ابتدا{سوال}\شناخت{سوال_لاپلاس_حل_رکاوٹ_ث}
-شکل \حوالہ{شکل_سوال_لاپلاس_حل_رکاوٹ_ت}-ب میں \عددی{v_0(t)} حاصل کریں۔
+\ابتدا{سوال}\شناخت{سوال_فوریئر_چکور_ب}
+شکل \حوالہ{شکل_سوال_فوریئر_چکور_الف}-ب کے تکونی فوریئر تسلسل کے عددی سر حاصل کریں۔تسلسل کے شروع کے چند ارکان لکھیں۔
 
-جواب:
-$v_0(t)=\frac{1}{2\sqrt{17}}\left[6\sqrt{17}-(9+3\sqrt{17})e^{-\tfrac{7}{8}t}+(9-3\sqrt{17})e^{-\big(\tfrac{7+\sqrt{17}}{8}\big)t}\right]\,u(t)$
-\انتہا{سوال}
-%====================
-\ابتدا{سوال}\شناخت{سوال_لاپلاس_حل_رکاوٹ_ج}
-شکل \حوالہ{شکل_سوال_لاپلاس_حل_رکاوٹ_ج} میں \عددی{v_0(t)} حاصل کریں۔
-\begin{figure}
-\centering
-\begin{tikzpicture}[american voltages]
-\draw(0,0) to [resistor,l={$\SI{6}{\ohm}$}]++(0,\y);
-\draw(\x+\x/2,0) to [american current source,*-*,l={$10\,u(t)\,\si{\ampere}$}]++(0,\y);
-\draw(2*\x+\x/2,0) to [capacitor,*-*,l={$\SI{1}{\farad}$}]++(0,\y);
-\draw(3*\x+\x/2,0) to [resistor,l={$\SI{1}{\ohm}$},v_>={$v_0(t)$}]++(0,\y);
-\draw(0,0) to [short]++(3*\x+\x/2,0);
-\draw(0,\y) to [resistor,l={$\SI{4}{\ohm}$}]++(\x+\x/2,0) to [inductor,l={$\SI{1}{\henry}$}]++(\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0);
-\end{tikzpicture}
-\caption{سوال \حوالہ{سوال_لاپلاس_حل_رکاوٹ_ج} کا دور۔}
-\label{شکل_سوال_لاپلاس_حل_رکاوٹ_ج}
-\end{figure}
-
-جواب:
-$v_0(t)=\tfrac{100}{13}[1-e^{-\tfrac{31}{6}t}(\cosh \tfrac{\sqrt{805}t}{6}+\tfrac{31}{\sqrt{805}}\sinh \tfrac{\sqrt{805}t}{6})]\, u(t)\,\si{\volt}$
-\انتہا{سوال}
-%================
-\ابتدا{سوال}\شناخت{سوال_لاپلاس_حل_رکاوٹ_چ}
-شکل \حوالہ{شکل_سوال_لاپلاس_حل_رکاوٹ_چ} میں \عددی{v_C(t)} حاصل کریں۔
-\begin{figure}
-\centering
-\begin{tikzpicture}[american voltages]
-\draw(0,0) to [american voltage source,l={$3e^{-t}\,u(t)\,\si{\volt}$}]++(0,\y) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [inductor,l={$\SI{1}{\henry}$}]++(\x,0) to [capacitor,l={$\SI{0.25}{\farad}$},v={$v_C(t)$}]++(0,-\y) to [short] (0,0);
-\end{tikzpicture}
-\caption{سوال \حوالہ{سوال_لاپلاس_حل_رکاوٹ_چ} کا دور۔}
-\label{شکل_سوال_لاپلاس_حل_رکاوٹ_چ}
-\end{figure}
-
-جواب:$v_C(t)=4e^{-t}(1-\cos \sqrt{3}t)\,u(t)\,\si{\volt}$
-\انتہا{سوال}
-%================
-\ابتدا{سوال}\شناخت{سوال_لاپلاس_حل_رکاوٹ_ح}
-شکل \حوالہ{شکل_سوال_لاپلاس_حل_رکاوٹ_ح} میں \عددی{i_x(t)} حاصل کریں۔
-\begin{figure}
-\centering
-\begin{tikzpicture}[american voltages]
-\draw(0,0) to [american voltage source,l={$12\,u(t)\,\si{\volt}$}]++(0,\y) to [resistor,l={$\SI{1}{\ohm}$},i={$i_x(t)$}]++(\x,0) to [capacitor,l={$\SI{1}{\farad}$}]++(\x,0) to [american voltage source,l={$6\,u(t)\,\si{\volt}$}]++(0,-\y) to [short] (0,0);
-\draw(\x,0) to [inductor,*-*,l={$\SI{1}{\henry}$}]++(0,\y);
-\end{tikzpicture}
-\caption{سوال \حوالہ{سوال_لاپلاس_حل_رکاوٹ_ح} کا دور۔}
-\label{شکل_سوال_لاپلاس_حل_رکاوٹ_ح}
-\end{figure}
-
-جواب:
-$i_x(t)=[12-e^{-\tfrac{t}{2}}(10\sqrt{3} \sin \tfrac{\sqrt{3}t}{2}-6\cos \tfrac{\sqrt{3}t}{2})]\,u(t)\,\si{\ampere}$
-\انتہا{سوال}
-%================
-\ابتدا{سوال}\شناخت{سوال_لاپلاس_حل_رکاوٹ_خ}
-شکل \حوالہ{شکل_سوال_لاپلاس_حل_رکاوٹ_خ} میں \عددی{v_x=8\,u(t)\,\si{\volt}} ہے۔آپ سے گزارش ہے کہ \عددی{v_C(t)} حاصل کریں۔
-\begin{figure}
-\centering
-\begin{tikzpicture}[american voltages]
-\draw(0,0) to [american voltage source,l={$v_x(t)$}]++(0,\y) to [resistor,l={$\SI{1}{\ohm}$}]++(\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [american voltage source,l={$4\,u(t)\,\si{\volt}$}]++(0,-\y) to [short] (0,0);
-\draw(\x,0) to [capacitor,*-*,l={$\SI{1}{\farad}$},v_>={$v_C(t)$}]++(0,\y);
-\end{tikzpicture}
-\caption{سوال \حوالہ{سوال_لاپلاس_حل_رکاوٹ_خ} کا دور۔}
-\label{شکل_سوال_لاپلاس_حل_رکاوٹ_خ}
-\end{figure}
-
-جواب:
-$v_C(t)=4(1-e^{-\tfrac{3}{2}t})\,u(t)\,\si{\volt}$
-\انتہا{سوال}
-%================
-\ابتدا{سوال}\شناخت{سوال_لاپلاس_حل_رکاوٹ_د}
-شکل \حوالہ{شکل_سوال_لاپلاس_حل_رکاوٹ_خ} میں \عددی{v_x=8e^{-t}\,u(t)\,\si{\volt}} ہے۔ \عددی{v_C(t)} حاصل کریں۔
-
-جواب:
-$v_C(t)=\left(16e^{-t}-\tfrac{44}{3}e^{-\tfrac{3}{2}t}-\tfrac{4}{3}\right)\,u(t) \,\si{\volt}$
+جوابات:\عددی{a_0=0}، \عددی{a_n=0}، \عددی{b_n=\tfrac{2}{n\pi}(1-(-1)^n)}،
+\begin{align*}
+i(t)=\tfrac{4}{\pi}[\sin(\tfrac{\pi}{2}t)+\tfrac{1}{3}\sin(\tfrac{3\pi}{2}t)+\tfrac{1}{5}\sin(\tfrac{5\pi}{2}t)+\cdots]
+\end{align*}
 \انتہا{سوال}
 %==========================
-\ابتدا{سوال}\شناخت{سوال_لاپلاس_حل_رکاوٹ_ڈ}
-شکل \حوالہ{شکل_سوال_لاپلاس_حل_رکاوٹ_ڈ} میں  \عددی{v_C(t)} حاصل کریں۔
+\ابتدا{سوال}\شناخت{سوال_فوریئر_چکور_پ}
+شکل \حوالہ{شکل_سوال_فوریئر_چکور_پ}-الف کے  عددی سر حاصل کرتے ہوئے اس کی تکونیاتی فوریئر تسلسل لکھیں۔
 \begin{figure}
 \centering
-\begin{tikzpicture}[american voltages]
-\draw(0,0) to [american voltage source,l={$17\cos t \,u(t)\,\si{\volt}$}]++(0,\y) to [resistor,l={$\SI{1}{\ohm}$}]++(\x,0) to [resistor,l={$\SI{1}{\ohm}$}]++(\x,0) to [american voltage source,l={$1\,u(t)\,\si{\volt}$}]++(0,-\y) to [short] (0,0);
-\draw(\x,0) to [capacitor,*-*,l={$\SI{0.5}{\farad}$},v_>={$v_C(t)$}]++(0,\y);
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,xtick={0,1,2,3,4,5},xticklabels={$0$,$1$,$2$,$3$,$4$,$5$},ytick={0,1,2},yticklabels={$0$,$1$,$2$},xlabel={$t$},ylabel={$v(t)$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\addplot[] plot coordinates {(-0.5,0)(0,0)(0,2)(1,2)(1,1)(2,1) (2,0) (3,0)(3,2)(4,2)(4,1)(5,1) (5,0) (5.5,0)};
+\end{axis}
 \end{tikzpicture}
-\caption{سوال \حوالہ{سوال_لاپلاس_حل_رکاوٹ_ڈ} کا دور۔}
-\label{شکل_سوال_لاپلاس_حل_رکاوٹ_ڈ}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,xtick={0,1,2,3,4,5,6,7},xticklabels={$0$,$1$,$2$,$3$,$4$,$5$,$6$,$7$},ytick={0,1,2},yticklabels={$0$,$1$,$2$},xlabel={$t$},ylabel={$i(t)$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\addplot[] plot coordinates {(-0.5,0)(0,0)(0,1)(1,1)(1,2)(2,2) (2,1) (3,1)(3,0)(4,0)(4,1)(5,1) (5,2) (6,2) (6,1) (7,1) (7,0) (7.5,0)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_فوریئر_چکور_پ} کی موج۔}
+\label{شکل_سوال_فوریئر_چکور_پ}
 \end{figure}
 
-جواب:
-$v_C(t)=\left(8\cos t+2\sin t-7.5e^{-4t}-0.5\right)\,u(t)\,\si{\volt}$
+جوابات:
+\begin{align*}
+a_0&=1\\
+a_n&=0\\
+b_n&=\tfrac{3}{\pi}, \tfrac{3}{2\pi}, 0, \tfrac{3}{4\pi}, \tfrac{3}{5\pi}, 0, \tfrac{3}{7\pi}, \cdots\\
+i(t)&=1+\tfrac{3}{\pi}(\sin \tfrac{2\pi t}{3}+\tfrac{1}{2}\sin \tfrac{4\pi t}{3}+\tfrac{1}{4}\sin \tfrac{8\pi t}{3}+\cdots)
+\end{align*}
 \انتہا{سوال}
-%================
-\ابتدا{سوال}\شناخت{سوال_لاپلاس_حل_دور_الف}
-شکل \حوالہ{شکل_سوال_لاپلاس_حل_دور_الف} میں \عددی{v_s(t)=4 \,u(t)\,\si{\volt}} ہے۔آپ سے گزارش ہے کہ  \عددی{v_x(t)} حاصل کریں۔
+%=========================
+\ابتدا{سوال}\شناخت{سوال_فوریئر_چکور_ت}
+شکل \حوالہ{شکل_سوال_فوریئر_چکور_پ}-ب کے تکونی فوریئر تسلسل کے عددی سر حاصل کریں۔تسلسل کے شروع کے چند ارکان لکھیں۔
+
+جوابات:
+\begin{align*}
+a_0&=1\\
+a_n&=-\tfrac{2}{\pi},0,\tfrac{2}{3\pi},0,-\tfrac{2}{5\pi},0,\tfrac{2}{7\pi},\cdots\\
+b_n&=\tfrac{2}{\pi},0,\tfrac{2}{3\pi},0,\tfrac{2}{5\pi},0,\tfrac{2}{7\pi},\cdots\\
+i(t)&=1-\tfrac{2}{\pi}(\cos \tfrac{\pi t}{2}-\sin \tfrac{\pi t}{2}-\tfrac{1}{3}\cos \tfrac{3\pi t}{2}-\tfrac{1}{3}\sin \tfrac{\pi t}{2}+\cdots  )
+\end{align*}
+\انتہا{سوال}
+%==========================
+\ابتدا{سوال}\شناخت{سوال_فوریئر_چکور_ٹ}
+شکل \حوالہ{شکل_سوال_فوریئر_چکور_ٹ}-الف کے  عددی سر حاصل کرتے ہوئے اس کی تکونیاتی فوریئر تسلسل لکھیں۔
 \begin{figure}
 \centering
-\begin{tikzpicture}[american voltages]
-\draw(0,0) to [american voltage source,l={$v_s(t)$}]++(0,\y) to [inductor,l={$\SI{1}{\henry}$}]++(\x,0) to [resistor,l={$\SI{1}{\ohm}$}]++(\x,0) to [american voltage source,l={$e^{-t}\,u(t)\,\si{\volt}$}]++(0,-\y) to [short] (0,0);
-\draw(\x,0) to [resistor,*-*,l={$\SI{2}{\ohm}$},v_>={$v_x(t)$}]++(0,\y);
-\draw(0,\y) to [short,*-]++(0,3/4*\y) to [resistor,l={$\SI{1}{\ohm}$}]++(\x,0) to [capacitor,l={$\SI{1}{\farad}$}]++(\x,0) to [short,-*]++(0,-3/4*\y);
-\end{tikzpicture}
-\caption{سوال \حوالہ{سوال_لاپلاس_حل_دور_الف} کا دور۔}
-\label{شکل_سوال_لاپلاس_حل_دور_الف}
-\end{figure}
-
-جواب:
-$v_x(t)=[4-2e^{-t}-\tfrac{8}{3}e^{-\tfrac{2}{3}t}]\,u(t)\,\si{\volt}$
-\انتہا{سوال}
-%================
-\ابتدا{سوال}\شناخت{سوال_لاپلاس_حل_دور_ب}
-شکل \حوالہ{شکل_سوال_لاپلاس_حل_دور_الف} میں \عددی{v_s(t)=4e^{-2t} \,u(t)\,\si{\volt}} ہے۔آپ سے گزارش ہے کہ  \عددی{v_x(t)} حاصل کریں۔
-
-جواب:
-$v_x(t)=[\tfrac{10}{3}e^{-\tfrac{2}{3}t}-2e^{-t}-2e^{-2t}]\,u(t)\,\si{\volt}$
-\انتہا{سوال}
-%===============================
-\ابتدا{سوال}\شناخت{سوال_لاپلاس_حل_دور_پ}
-شکل \حوالہ{شکل_سوال_لاپلاس_حل_دور_پ} میں \عددی{v_0(t)} حاصل کریں۔
-\begin{figure}
+\begin{subfigure}{0.5\textwidth}
 \centering
-\begin{tikzpicture}[american voltages]
-\draw(0,0) to [american voltage source,l={$6\,u(t)\,\si{\volt}$}]++(0,\y) to [inductor,l={$\SI{1}{\henry}$}]++(\x+\x/2,0) to [capacitor,l={$\SI{0.5}{\farad}$}]++(\x,0) to [resistor,l={$\SI{2}{\ohm}$},v={$v_0(t)$}]++(0,-\y) to [short] (0,0);
-\draw(\x+\x/2,0) to [american current source,*-*,l={$2\,u(t)\,\si{\ampere}$}]++(0,\y);
+\begin{tikzpicture}
+\begin{axis}[small,xtick={0,3,6,9},xticklabels={$0$,$3$,$6$,$9$},ytick={0,1},yticklabels={$0$,$1$},xlabel={$t$},ylabel={$v(t)$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\addplot[] plot coordinates {(0,0)(3,1)(3,0)(6,1)(6,0)(9,1)(9,0)};
+\end{axis}
 \end{tikzpicture}
-\caption{سوال \حوالہ{سوال_لاپلاس_حل_دور_پ} کا دور۔}
-\label{شکل_سوال_لاپلاس_حل_دور_پ}
-\end{figure}
-
-جواب:
-$v_0(t)=e^{-t}(4\cos t+8\sin t)\,u(t)\,\si{\volt}$
-\انتہا{سوال}
-%============================
-\ابتدا{سوال}\شناخت{سوال_لاپلاس_حل_دور_ت}
-شکل \حوالہ{شکل_سوال_لاپلاس_حل_دور_ت} میں \عددی{v_0(t)} حاصل کریں۔
-\begin{figure}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
 \centering
-\begin{tikzpicture}[american voltages]
-\draw(0,0) to [american voltage source,l={$6\,u(t)\,\si{\volt}$}]++(0,\y) to [capacitor,l={$\SI{0.5}{\farad}$}]++(\x+\x/2,0) to [inductor,l={$\SI{1}{\henry}$}]++(\x,0)  to [resistor,l={$\SI{2}{\ohm}$},v={$v_0(t)$}]++(0,-\y) to [short] (0,0);
-\draw(\x+\x/2,0) to [american current source,*-*,l={$2\,u(t)\,\si{\ampere}$}]++(0,\y);
+\begin{tikzpicture}
+\begin{axis}[small,xtick={0,2,3,4,6,7,8},xticklabels={$0$,$2$,$3$,$4$,$6$,$7$,$8$},ytick={0,2},yticklabels={$0$,$2$},xlabel={$t$},ylabel={$i(t)$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\addplot[] plot coordinates {(-0.5,0)(0,0)(2,2)(3,2)(3,0)(4,0)(6,2)(7,2)(7,0)(7.5,0)};
+\end{axis}
 \end{tikzpicture}
-\caption{سوال \حوالہ{سوال_لاپلاس_حل_دور_ت} کا دور۔}
-\label{شکل_سوال_لاپلاس_حل_دور_ت}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{سوال \حوالہ{سوال_فوریئر_چکور_ٹ} کی موج۔}
+\label{شکل_سوال_فوریئر_چکور_ٹ}
 \end{figure}
 
-جواب:
-$v_0(t)=[4-e^{-t}(4\cos t-8\sin t)]\,u(t)\,\si{\volt}$
+جوابات:
+\begin{align*}
+a_0&=\tfrac{9}{4}\\
+a_n&=0\\
+b_n&=-\tfrac{9}{2n\pi}\\
+v(t)&=\tfrac{9}{4}-\tfrac{9}{2\pi}\sum_{n=1}^{\infty} \tfrac{1}{n}\sin \tfrac{2n\pi t}{3}
+\end{align*}
 \انتہا{سوال}
-%=============================
-\ابتدا{سوال}\شناخت{سوال_لاپلاس_حل_دور_ٹ}
-شکل \حوالہ{شکل_سوال_لاپلاس_حل_دور_ٹ} میں \عددی{v_0(t)} حاصل کریں۔
-\begin{figure}
-\centering
-\begin{tikzpicture}[american voltages]
-\draw(0,0) to [american current source,l={$2\,u(t)\,\si{\ampere}$}]++(0,2*\y) to [resistor,l={$\SI{1}{\ohm}$}]++(\x,0) to [capacitor,l={$\SI{0.5}{\farad}$}]++(\x,0) to [inductor,l={$\SI{1}{\henry}$}]++(\x,0)  to [resistor,l={$\SI{1}{\ohm}$},v={$v_0(t)$}]++(0,-2*\y) to [short] (0,0);
-\draw(\x,0) to [american voltage source,*-,l={$4\,u(t)\,\si{\volt}$}]++(0,\y) to [resistor,-*,l={$\SI{1}{\ohm}$}]++(0,\y);
-\draw(2*\x,0) to [resistor,*-*,l={$\SI{1}{\ohm}$}]++(0,2*\y);
-\end{tikzpicture}
-\caption{سوال \حوالہ{سوال_لاپلاس_حل_دور_ٹ} کا دور۔}
-\label{شکل_سوال_لاپلاس_حل_دور_ٹ}
-\end{figure}
+%=========================
+\ابتدا{سوال}\شناخت{سوال_فوریئر_چکور_ث}
+شکل \حوالہ{شکل_سوال_فوریئر_چکور_ٹ}-ب کے تکونی فوریئر تسلسل کے عددی سر حاصل کریں۔
 
-جواب:
-$v_0(t)=\tfrac{12}{\sqrt{15}}e^{-\tfrac{7}{4}t}\sin \tfrac{\sqrt{15} t}{4} \, u(t)\,\si{\volt}$
+جوابات:
+\begin{align*}
+a_0&=1\\
+a_n&=-\tfrac{2}{\pi}(1+\tfrac{2}{\pi}), \tfrac{2}{3\pi}(1-\tfrac{2}{3\pi}), -\tfrac{2}{5\pi}(1+\tfrac{2}{5\pi}), \tfrac{2}{7\pi}(1-\tfrac{2}{7\pi}),-\cdots\\
+b_n&=0,\tfrac{1}{\pi},0, -\tfrac{1}{2\pi},0,\tfrac{1}{3\pi},0,-\cdots
+\end{align*}
 \انتہا{سوال}
-%=======================
-\ابتدا{سوال}\شناخت{سوال_لاپلاس_حل_دور_ث}
-شکل \حوالہ{شکل_سوال_لاپلاس_حل_دور_ث} میں \عددی{v_0(t)} حاصل کریں۔
-\begin{figure}
-\centering
-\begin{tikzpicture}[american voltages]
-\draw(0,0) to [resistor,l={$\SI{1}{\ohm}$}]++(0,\y) to [american current source,l={$4e^{-t}\,u(t)\,\si{\ampere}$}]++(0,\y);
-\draw(\x+\x/2,2*\y) to [capacitor,*-,l_={$\SI{1}{\farad}$}]++(0,-\y) to [american current source,-*,l_={$2\,u(t)\,\si{\ampere}$}]++(0,-\y);
-\draw(2*\x+\x/2,0) to [resistor,l_={$\SI{1}{\ohm}$},v^>={$v_0(t)$}]++(0,\y) to [american current source,l_={$6\,u(t)\,\si{\ampere}$}]++(0,\y);
-\draw(0,0) to [short]++(2*\x+\x/2,0);
-\draw(0,2*\y) to [short]++(2*\x+\x/2,0);
-\draw(0,\y) to [resistor,*-*,l={$\SI{1}{\ohm}$}]++(\x+\x/2,0) to [inductor,-*,l={$\SI{1}{\henry}$}]++(\x,0);
-\end{tikzpicture}
-\caption{سوال \حوالہ{سوال_لاپلاس_حل_دور_ث} کا دور۔}
-\label{شکل_سوال_لاپلاس_حل_دور_ث}
-\end{figure}
-
-جواب:
-$v_0(t)=[2e^{-t}-\tfrac{22}{3}e^{-3t}-\tfrac{2}{3}]\,u(t)\,\si{\volt}$
-\انتہا{سوال}
+%==========================
