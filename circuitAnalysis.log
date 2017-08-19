@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  18 AUG 2017 18:31
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  19 AUG 2017 18:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1716,7 +1716,9 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (./tex/cktMagneticallyCoupledNetworks.aux) (./tex/cktPolyphaseCircuits.aux)
 (./tex/cktFrequencyResponse.aux) (./tex/cktLaplaceTransform.aux)
 (./tex/cktApplicationLaplace.aux) (./tex/cktFourierAnalysis.aux)
-(./tex/cktTwoPortNetworks.aux) (./tex/cktQuestions.aux))
+(./tex/cktTwoPortNetworks.aux)
+No file ./tex/cktQuestions.aux.
+)
 \openout1 = `circuitAnalysis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 149.
@@ -1735,8 +1737,7 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 149.
 LaTeX Font Info:    ... okay on input line 149.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 149.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 149.
-
-(/usr/share/texmf/tex/latex/tipa/t3cmr.fd
+ (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 149.
@@ -3052,7 +3053,22 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/sl' in size <10>
 d on input line 102.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/it' will be
 (Font)              scaled to size 10.0pt on input line 102.
- [5] [6])
+ [5] [6]
+Overfull \hbox (4.49997pt too wide) detected at line 139
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1003[][][][]
+ []
+
+
+Overfull \hbox (4.49997pt too wide) detected at line 140
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1005[][][][]
+ []
+
+
+Overfull \hbox (4.49997pt too wide) detected at line 141
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1007[][][][]
+ []
+
+)
 \tf@toc=\write6
 \openout6 = `circuitAnalysis.toc'.
 
@@ -3069,16 +3085,7 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 12.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 12.
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
-[][]
- []
-
-[1005
+) [1013
 
 
 
@@ -3097,7 +3104,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
 
 
-] [1006]) [1007] [1008] (./circuitAnalysis.aux (./tex/cktBasics.aux)
+] [1014
+
+
+] (./circuitAnalysis.aux (./tex/cktBasics.aux)
 (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux)
 (./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
 (./tex/cktTransients.aux) (./tex/cktSteadyStateAC.aux)
@@ -3111,12 +3121,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 47239 strings out of 493918
- 1127367 string characters out of 6150562
- 1300144 words of memory out of 5000000
- 49590 multiletter control sequences out of 15000+600000
- 29815 words of font info for 116 fonts, out of 8000000 for 9000
+ 46757 strings out of 493918
+ 1113585 string characters out of 6150562
+ 1281397 words of memory out of 5000000
+ 49115 multiletter control sequences out of 15000+600000
+ 24471 words of font info for 98 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,14n,81p,10476b,2101s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,9n,81p,10476b,575s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (12 pages).
+Output written on circuitAnalysis.pdf (10 pages).

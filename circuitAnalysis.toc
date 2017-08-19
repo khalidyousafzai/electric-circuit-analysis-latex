@@ -134,9 +134,9 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 15}}فوریئر بدل}{\RL {\arabicfont 962}}
 \contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 15}}فوریئر بدل کے خواص}{\RL {\arabicfont 969}}
 \contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 15}}مسئلہ پارسیوال}{\RL {\arabicfont 972}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 16}}چار سر ادوار کے ریاضی نمونے}{\RL {\arabicfont 985}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 16}}رکاوٹی نمونہ}{\RL {\arabicfont 990}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 16}}دوغلائی نمونہ}{\RL {\arabicfont 995}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 16}}ترسیلی نمونہ}{\RL {\arabicfont 997}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 16}}چار سر ادوار کے باہمی جوڑ}{\RL {\arabicfont 999}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 17}}سوالات}{\RL {\arabicfont 1005}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 16}}چار سر ادوار کے ریاضی نمونے}{\RL {\arabicfont 993}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 16}}رکاوٹی نمونہ}{\RL {\arabicfont 998}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 16}}دوغلائی نمونہ}{\RL {\arabicfont 1003}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 16}}ترسیلی نمونہ}{\RL {\arabicfont 1005}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 16}}چار سر ادوار کے باہمی جوڑ}{\RL {\arabicfont 1007}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 17}}سوالات چار سر ادوار}{\RL {\arabicfont 1013}}
