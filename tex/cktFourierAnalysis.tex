@@ -1,4 +1,6 @@
 \باب{فوریئر تجزیہ}
+
+\حصہ{تکونیاتی فوریئر تسلسل}
 \اصطلاح{دوری تفاعل}\فرہنگ{دوری!تفاعل}\فرہنگ{تفاعل!دوری}\حاشیہب{periodic function}\فرہنگ{periodic!function} سے مراد وہ تفاعل ہے جو درج ذیل مساوات پر پورا اترتا ہے جہاں \عددی{T_0}  \اصطلاح{دوری عرصہ}\فرہنگ{دوری عرصہ}\حاشیہب{time period}\فرہنگ{time period} کہلاتی ہے۔
 \begin{align}
 f(t)=f(t+nT_0), \quad n=\mp 1, \mp 2, \mp3, \cdots
@@ -202,7 +204,7 @@ f(t)&=a_0+\sum_{n=1}^{\infty} [a_n \cos (n \omega_0 t) +b_n \sin (n \omega_0 t)]
 \end{align}
 \انتہا{مشق}
 %====================
-مساوات \حوالہ{مساوات_فوریئر_مختلف_تکمل_الف}، مساوات \حوالہ{مساوات_فوریئر_مختلف_تکمل_ب} اور مساوات \حوالہ{مساوات_فوریئر_مختلف_تکمل_پ} مل کر ثابت کرتے ہیں کہ فوریئر تسلسل میں استعمال ہونے والا ہر تفاعل بقایا تمام تفاعل کے ساتھ \عددی{0 \le t \le T_0} فاصلے پر عمودی ہے۔یوں \عددی{\cos 3\omega_0 t} کو مثال بناتے ہوئے ہم دیکھتے ہیں کہ یہ \عددی{\cos (\omega_0 t)}، \عددی{\cos(2\omega_0 t)}،\عددی{\cos(4\omega_0 t)}، \عددی{\sin(\omega_0 t)}، \عددی{\sin(2\omega_0 t)}، \عددی{\sin(3\omega_0 t)} وغیرہ کے ساتھ عمودی ہے۔
+مساوات \حوالہ{مساوات_فوریئر_مختلف_تکمل_الف}، مساوات \حوالہ{مساوات_فوریئر_مختلف_تکمل_ب} اور مساوات \حوالہ{مساوات_فوریئر_مختلف_تکمل_پ} مل کر ثابت کرتے ہیں کہ فوریئر تسلسل میں استعمال ہونے والا ہر تفاعل بقایا تمام تفاعل کے ساتھ \عددی{0 \le t \le T_0} فاصلے پر عمودی ہے۔یوں \عددی{\cos (3\omega_0 t)} کو مثال بناتے ہوئے ہم دیکھتے ہیں کہ یہ \عددی{\cos \omega_0 t}، \عددی{\cos(2\omega_0 t)}،\عددی{\cos(4\omega_0 t)}، \عددی{\sin\omega_0 t}، \عددی{\sin(2\omega_0 t)}، \عددی{\sin(3\omega_0 t)} وغیرہ کے ساتھ عمودی ہے۔
 
 %====================
 درج بالا تکملات حاصل کرنے کے بعد اصل مضمون یعنی فوریئر تسلسل پر دوبارہ آتے ہیں۔مساوات \حوالہ{مساوات_فوریئر_مختلف_تکمل_الف} تا مساوات \حوالہ{مساوات_فوریئر_مختلف_تکمل_ج} کو استعمال کرتے ہوئے مساوات  \حوالہ{مساوات_فوریئر_تسلسل_سائن_نما_الف} کے عددی سر \عددی{a_0, a_1,a_2,b_1,\cdots} حاصل کئے جا سکتے ہیں۔آئیں ایسا ہی کریں۔
@@ -426,7 +428,7 @@ b_m&=\frac{2}{T}\int_0^T f(t)\sin(m\omega_0 t) \dif t\\
 \end{align*}
 اس معلومات کو استعمال کرتے ہوئے مستطیل موج کی فوریئر مساوات لکھتے ہیں۔
 \begin{align}\label{مساوات_فوریئر_مستطیل_موج}
-f(t)=\frac{4V_0}{\pi}\left[\cos (\omega_0 t)-\frac{1}{3}\cos(3\omega_0 t)+\frac{1}{5}\cos(5\omega_0 t)-\frac{1}{7}\cos(7\omega_0 t)+\cdots\right]
+f(t)=\frac{4V_0}{\pi}\left[\cos \omega_0 t-\frac{1}{3}\cos(3\omega_0 t)+\frac{1}{5}\cos(5\omega_0 t)-\frac{1}{7}\cos(7\omega_0 t)+\cdots\right]
 \end{align}
 مختلف تعداد میں فوریئر تسلسل کے ارکان شامل کرتے ہوئے تفاعل کو شکل \حوالہ{شکل_فوریئر_مستطیل_موج_الف}-ب تا شکل \حوالہ{شکل_فوریئر_مستطیل_موج_الف}-ت میں دکھایا گیا ہے۔
 \انتہا{مثال}
@@ -507,7 +509,7 @@ $f(t)=\frac{4V}{\pi}\left[\sin \omega_0 t+\frac{1}{3}\sin(3\omega_0 t)+\frac{1}{
 \عددی{\tfrac{T}{4} \le t \le\tfrac{3T}{4}} سیدھے حصوں کے مساوات حاصل کریں۔
 
 حل:\عددی{f_1(t)=\tfrac{4V_0}{T}t}، \عددی{f_2(t)=2V_0(1-2\tfrac{t}{T})}، \\
-$f(t)=\tfrac{8V_0}{\pi^2}\left[\sin(\omega_0 t)-\tfrac{1}{3^2}\sin(3\omega_0 t)+\tfrac{1}{5^2}\sin(5\omega_0 t)-\cdots\right]$
+$f(t)=\tfrac{8V_0}{\pi^2}\left[\sin\omega_0 t-\tfrac{1}{3^2}\sin(3\omega_0 t)+\tfrac{1}{5^2}\sin(5\omega_0 t)-\cdots\right]$
 \انتہا{مشق}
 %=========================
 \ابتدا{مشق}\شناخت{مشق_فوریئر_مختلف_تفاعل_مشق}
@@ -529,60 +531,89 @@ $f(t)=\tfrac{8V_0}{\pi^2}\left[\sin(\omega_0 t)-\tfrac{1}{3^2}\sin(3\omega_0 t)+
 \end{align*}
 \انتہا{مشق}
 %======================================================================
+%===============================
 
-فوریئر تسلسل کے \عددی{m} ہارمونی کو درج ذیل لکھا جا سکتا ہے
-\begin{align*}
-a_m\cos(m\omega_0 t)+b_m\sin(m\omega_0 t)=D_m\cos(m\omega_0 t+\theta_m)
-\end{align*} 
-جہاں
-\begin{align}\label{مساوات_فوریئر_رداس_زاویہ}
-D_m&=\sqrt{a_m^2+b_m^2}\\
-\theta_m&=\tan^{-1}\frac{b_m}{a_m}
-\end{align}
- ہیں۔یوں  \اصطلاح{تکونیاتی فوریئر تسلسل}\فرہنگ{فوریئر تسلسل!تکونیاتی} کی دوسری صورت درج ذیل لکھی جا سکتی ہے۔
+دوری سمتیہ کا حقیقی جزو اصل تفاعل ہوتا ہے لہٰذا دوری سمتیہ \عددی{(a_m-jb_m)e^{jm\omega t}} درج ذیل حقیقی تفاعل کو ظاہر کرتی ہے۔
 \begin{gather}
-\begin{aligned}\label{مساوات_فوریئر_تسلسل_صورت_ب}
-f(t)&=a_0+D_1\cos(\omega_0 t+\theta_1)+D_2\cos(2\omega_0 t+\theta_2)+\cdots\\
-&=a_0+\sum_{n=1}^{\infty} D_n \cos(n\omega_0 t +\theta_n)
+\begin{aligned}\label{مساوات_فوریئر_دوری_سمتی_الف}
+\left. (a_m-jb_m)e^{jm\omega_ t}\right|_{\text{حقیقی}}&=\left. (a_m-jb_m)[\cos(m\omega_0 t)+j\sin (m\omega_ t) ] \right|_{\text{حقیقی}}\\
+&=\left. a_m\cos(m\omega_0 t)+ja_m\sin(m\omega_0 t)-jb_m\cos(m\omega_0 t)+b_m\sin (m\omega_0 t)\right|_{\text{حقیقی}}\\
+&=a_m\cos (m\omega_0 t)+b_m\sin (m\omega_0 t)
 \end{aligned}
 \end{gather}
-چونکہ \عددی{\cos x=\tfrac{e^{jx}+e^{-jx}}{2}} لکھا جا سکتا ہے لہٰذا مساوات \حوالہ{مساوات_فوریئر_تسلسل_صورت_ب} کو درج ذیل لکھا جا سکتا ہے۔
-\begin{align*}
-f(t)&=a_0+\sum_{n=1}^{\infty} D_n \cos(n\omega_0 t +\theta_n)\\
-&=a_0+\sum_{n=1}^{\infty} D_n \frac{e^{j(n\omega_0 t+\theta_n)}+e^{-j(n\omega_0 t+\theta_n)}}{2}\\
-&=a_0+\sum_{n=1}^{\infty} \frac{D_n e^{j\theta_n}}{2} e^{jn\omega_0 t}+\sum_{n=1}^{\infty} \frac{D_n e^{-j\theta_n}}{2}e^{-jn\omega_0 t}
-\end{align*}
-مساوات \حوالہ{مساوات_فوریئر_رداس_زاویہ} کے تحت \عددی{D_m} حقیقی مقدار ہے لہٰذا درج بالا مساوات میں \عددی{\tfrac{D_ne^{j\theta_n}}{2}} اور
- \عددی{\tfrac{D_ne^{-j\theta_n}}{2}} آپس میں جوڑی دار مخلوط ہیں۔ یوں \عددی{\tfrac{D_ne^{j\theta_n}}{2}=\kx{d_n}} لکھتے ہوئے
- \عددی{\tfrac{D_ne^{-j\theta_n}}{2}=\kx{d}^*_n} لکھا جائے گا لہٰذا درج بالا کو درج ذیل لکھ سکتے ہیں۔
-\begin{align}\label{مساوات_فوریئر_تسلسل_پ}
-f(t)&=a_0+\sum_{n=1}^{\infty} \kx{d}_n e^{jn\omega_0 t}+\sum_{n=1}^{\infty} \kx{d}^*_n e^{-jn\omega_0 t}
-\end{align}
-دونوں مجموعوں کو پھیلا کر لکھتے ہیں
-\begin{multline*}
-\sum_{n=1}^{\infty} \kx{d}_n e^{jn\omega_0 t}+\sum_{n=1}^{\infty} \kx{d}^*_n e^{-jn\omega_0 t}\\
-=\kx{d}_1 e^{j1\omega_0 t}+\kx{d}_2 e^{j2\omega_0 t}+\cdots +\kx{d}^*_1 e^{-j1\omega_0 t}+\kx{d}^*_2 e^{-j2\omega_0 t}+\cdots \\
-=\cdots+\kx{d}^*_2 e^{-j2\omega_0 t}+\kx{d}^*_1 e^{-j1\omega_0 t}+\kx{d}_1 e^{j1\omega_0 t}+\kx{d}_2 e^{j2\omega_0 t}+\cdots
-\end{multline*}
-جہاں  آخری قدم پر \عددی{e} کی طاقت کے لہٰذا سے ترتیب دیا گیا ہے۔آپ دیکھ سکتے ہیں کہ \عددی{n=0} کے علاوہ درج بالا تسلسل کی وسعت منفی لامتناہی سے مثبت لامتناہی تک ہے۔اس تسلسل کو درج ذیل لکھا جا سکتا ہے جہاں عددی سر کو \عددی{\kx{c}_n} کہا گیا ہے۔
-\begin{align*}
-\sum_{n=1}^{\infty} \kx{d}_n e^{jn\omega_0 t}+\sum_{n=1}^{\infty} \kx{d}^*_n e^{-jn\omega_0 t}=\sum_{\substack{n=-\infty\\ n \ne 0 \hfill}}^{\infty} \kx{c}_n e^{jn\omega_0 t}
-\end{align*}
-یوں مساوات \حوالہ{مساوات_فوریئر_تسلسل_پ} سے فوریئر تسلسل کی تیسری صورت یعنی \اصطلاح{قوت نمائی فوریئر تسلسل}\فرہنگ{قوت نمائی فوریئر تسلسل}\فرہنگ{فوریئر تسلسل!قوت نمائی}\حاشیہب{exponential Fourier series}\فرہنگ{Fourier series!exponential} حاصل ہوتی ہے جہاں تسلسل کے عددی سر \عددی{\kx{c}_n} مخلوط مقدار ہیں۔
+مساوات \حوالہ{مساوات_فوریئر_دوری_سمتی_الف} کو استعمال کرتے ہوئے  مساوات \حوالہ{مساوات_فوریئر_تسلسل_سائن_نما_الف} کے فوریئر تسلسل کو
 \begin{gather}
-\begin{aligned}\label{مساوات_فوریئر_تسلسل_صورت_ت}
-f(t)&=a_0+\sum_{\substack{n=-\infty\\ n \ne 0 \hfill}}^{\infty} \kx{c}_n e^{jn\omega_0 t}\\
-&=\sum_{n=-\infty}^{\infty} \kx{c}_n e^{jn\omega_0 t}
+\begin{aligned}
+f(t)&=a_0+\sum_{n=1}^{\infty} \left. (a_n-jb_n)e^{jn\omega_0 t}\right|_{\text{حقیقی}}\\
+&=a_0+\sum_{n=1}^{\infty} \left. \kx{D}_n e^{jn\omega_0 t}\right|_{\text{حقیقی}}
 \end{aligned}
 \end{gather}
-مجموعے میں \عددی{n=0} کا رکن شامل کرتے ہوئے بیرونی رکن \عددی{a_0} کو مجموعے میں ضم کیا گیا ہے۔
-
-تینوں طرز کے فوریئر تسلسل کے عددی سر کا تعلق درج ذیل ہے۔
+لکھا جا سکتا ہے  جہاں
 \begin{align}
-D_n\phase{\theta_n}=2\kx{c}_n=a_n-jb_n
+\kx{D}_n=D_n\phase{\theta_n}=a_n-jb_n
+\end{align}
+کے برابر ہے۔
+%================================
+
+\حصہ{قوت نمائی فوریئر تسلسل}
+فوریئر تسلسل کی قوت نمائی صورت درج ذیل ہے۔
+\begin{align}\label{مساوات_فوریئر_قوت_نمائی_الف}
+f(t)=\sum_{n=-\infty}^{\infty} \kx{c}_ne^{jn\omega_0 t}
+\end{align}
+مساوات \حوالہ{مساوات_فوریئر_قوت_نمائی_الف} سے مساوات \حوالہ{مساوات_فوریئر_تسلسل_سائن_نما_الف} حاصل کرتے ہیں۔درج بالا کو پھیلا کر لکھتے ہیں۔
+\begin{multline*}
+f(t)=\cdots+\kx{c}_{-3}e^{-3j\omega_0 t}+\kx{c}_{-2}e^{-2j\omega_0 t}+\kx{c}_{-1}e^{-1j\omega_0 t}+\kx{c}_0\\
++\kx{c}_{1}e^{1j\omega_0 t}+\kx{c}_{2}e^{2j\omega_0 t}+\kx{c}_{3}e^{3j\omega_0 t}+\cdots
+\end{multline*}
+اس کو ترتیب دے کر جوڑیوں کی صورت میں لکھتے ہیں
+\begin{multline*}
+f(t)=\kx{c}_0+\kx{c}_{1}e^{1j\omega_0 t}+\kx{c}_{-1}e^{-1j\omega_0 t}+\kx{c}_{2}e^{2j\omega_0 t}+\kx{c}_{-2}e^{-2j\omega_0 t}+\kx{c}_{3}e^{3j\omega_0 t}+\kx{c}_{-3}e^{-3j\omega_0 t}\cdots
+\end{multline*}
+جس کو مجموعے کی صورت میں لکھا جا سکتا ہے۔
+\begin{gather}
+\begin{aligned}
+f(t)&=\kx{c}_0+\sum_{n=1}^{\infty} \kx{c}_ne^{jn\omega_0 t}+\kx{c}_{-n} e^{-jn\omega_0 t}\\
+&=\kx{c}_0+\sum_{n=1}^{\infty} \kx{c}_n[\cos (n\omega_0 t)+j\sin(n\omega_0 t)]+\kx{c}_{-n}[\cos (n\omega_0 t)-j\sin(n\omega_0 t)]\\
+&=\kx{c}_0+\sum_{n=1}^{\infty}(\kx{c}_n+\kx{c}_{-n})\cos(n\omega_0 t)+j(\kx{c}_n-\kx{c}_{-n})\sin(n\omega_0t)
+\end{aligned}
+\end{gather}
+درج بالا مساوات اور مساوات \حوالہ{مساوات_فوریئر_تسلسل_سائن_نما_الف} صرف اس صورت برابر ہوں گے جب
+\begin{gather}
+\begin{aligned}\label{مساوات_فوریئر_مستقل_تعلق}
+a_n&=\kx{c}_n+\kx{c}_{-n}\\
+b_n&=j(\kx{c}_n-\kx{c}_{-n})
+\end{aligned}
+\end{gather}
+ہوں۔اب تصور کریں کہ \عددی{\kx{c}_n=e+jf} اور \عددی{\kx{c}_{-n}=g+jh} ہیں تب درج بالا کے تحت
+\begin{align*}
+a_n&=e+jf+g+jh\\
+b_n&=j(e+jf-g-jh)
+\end{align*}
+ہو گا۔اب \عددی{a_n} اور \عددی{b_n} حقیقی قیمتیں ہیں لہٰذا پہلی مساوات میں \عددی{f=-h} ہو گا اور دوسری مساوات میں \عددی{e=g} ہو گا۔اس طرح
+\begin{align*}
+a_n=e+g=2e\\
+b_n=h-f=2h
+\end{align*}
+اور
+\begin{align*}
+\kx{c}_n&=e+jf\\
+\kx{c}_{-n}&=e-jf
+\end{align*}
+ہوں گے۔آپ نے دیکھا کہ \عددی{\kx{c}_n} اور \عددی{\kx{c}_{-n}} آپس میں مخلوط جوڑی ہے یعنی
+\begin{align}
+\kx{c}_{-n}=\kx{c}^*_n
+\end{align}
+مساوات \حوالہ{مساوات_فوریئر_مستقل_تعلق} سے درج ذیل لکھا جا سکتا ہے۔
+\begin{align}
+2\kx{c}_n=a_n-jb_n
+\end{align}
+%====================================
+فوریئر تسلسل کے تین اقسام کے عددی سر کا تعلق درج ذیل ہے۔
+\begin{align}
+\kx{D}_n=D_n\phase{\theta_n}=2\kx{c}_n=a_n-jb_n
 \end{align}
 
-قوت نمائی فوریئر تسلسل کا عددی سر \عددی{\kx{c}_m} حاصل کرنے کی خاطر مساوات \حوالہ{مساوات_فوریئر_تسلسل_صورت_ت} کے دونوں اطراف کو \عددی{e^{-jm\omega_0 t}} سے ضرب دیتے ہوئے \عددی{0 \le t \le T_0} پر ان کا تکمل حاصل کیا جاتا ہے۔
+قوت نمائی فوریئر تسلسل کا عددی سر \عددی{\kx{c}_m} حاصل کرنے کی خاطر مساوات \حوالہ{مساوات_فوریئر_قوت_نمائی_الف} کے دونوں اطراف کو \عددی{e^{-jm\omega_0 t}} سے ضرب دیتے ہوئے \عددی{0 \le t \le T_0} پر ان کا تکمل حاصل کیا جاتا ہے۔
 \begin{align}\label{مساوات_فوریئر_عددی_سر_قوت_نما_الف}
 \int_0^{T_0}f(t)e^{-jm\omega_0 t} \dif t=\sum_{n=-\infty}^{\infty} \int_0^{T_0}\kx{c}_ne^{j(n-m)\omega_0 t} \dif t
 \end{align}
@@ -2245,7 +2276,8 @@ $f(t)=\tfrac{A}{2}-\sum\limits_{\substack{n=-\infty \\ n \ne 0 \\ \text{طاق}}
 ایک دور کے داخلی دباو اور داخلی رو درج ذیل ہیں۔ دور کو منتقل طاقت حاصل کریں۔
 \begin{align*}
 v_d(t)&=10+6\cos(100t+20^{\circ})+4\cos(300t+80^{\circ})\,\si{\volt}\\
-i_d(t)&=2-3\cos(100t-40^{\circ})+2\cos(200t+30^{\circ})+3\cos(300t+60^{\circ})+8\cos(400t+40^{\circ})\,\si{\ampere}
+i_d(t)&=2-3\cos(100t-40^{\circ})+2\cos(200t+30^{\circ})\\
+&\quad \quad\quad\quad +3\cos(300t+60^{\circ})+8\cos(400t+40^{\circ})\,\si{\ampere}
 \end{align*} 
 
 جواب:\عددی{\SI{21.14}{\watt}}

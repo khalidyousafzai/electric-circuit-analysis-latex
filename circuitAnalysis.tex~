@@ -124,9 +124,9 @@ every axis x label/.style={
 \graphicspath{{./fig/figFrontPage/}{./fig/figBasicConcepts/}{./fig/figResistive/}{./fig/figNodalLoop/}{./fig/figOpamp/}{./fig/figTheorem/}{./fig/figCapacitorInductor/}{./fig/figTransients/}{./fig/figFreqResponse/}{./fig/figLaplaceTransform/}{./fig/figLaplaceTransformApplication/}{./fig/figFourierAnalysis/}}		%paths to figures
 
 
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktTheorems,./tex/cktCapacitorInductor,./tex/cktTransients,./tex/cktSteadyStateAC,./tex/cktSteadyStatePower,./tex/cktMagneticallyCoupledNetworks,./tex/cktPolyphaseCircuits,./tex/cktFrequencyResponse,./tex/cktLaplaceTransform,./tex/cktApplicationLaplace,./tex/cktFourierAnalysis,./tex/cktTwoPortNetworks}
+%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktTheorems,./tex/cktCapacitorInductor,./tex/cktTransients,./tex/cktSteadyStateAC,./tex/cktSteadyStatePower,./tex/cktMagneticallyCoupledNetworks,./tex/cktPolyphaseCircuits,./tex/cktFrequencyResponse,./tex/cktLaplaceTransform,./tex/cktApplicationLaplace,./tex/cktFourierAnalysis,./tex/cktTwoPortNetworks}
 %\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktPolyphaseCircuits,./tex/cktQuestions,./tex/cktToDoList}%
-%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktQuestions,./tex/cktToDoList}%
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktToDoList}%
 
 
 \author{
@@ -143,7 +143,7 @@ every axis x label/.style={
 \date{}                           %if absent gives date in arabic which is a rubbish
 
 %\linenumbers
-\makeindex
+%\makeindex
 
 %==========
 \begin{document}
@@ -160,9 +160,9 @@ every axis x label/.style={
 \tableofcontents
 \pagestyle{empty}
 \newpage
-%\include{./tex/cktPreface}
+\include{./tex/cktPreface}
 \newpage
-%\include{./tex/prefaceFirstBook}
+\include{./tex/prefaceFirstBook}
 %\newpage
 %\include{./tex/cktSymbols}
 
@@ -190,7 +190,7 @@ every axis x label/.style={
 \include{./tex/cktApplicationLaplace}
 \include{./tex/cktFourierAnalysis}
 \include{./tex/cktTwoPortNetworks}
-\include{./tex/cktQuestions}
+
 
 
 %\include{./tex/emtEndOfBookTableDivergenceCurlGradientLaplacian}
@@ -206,7 +206,7 @@ every axis x label/.style={
 \renewcommand*{\indexname}{فرہنگ}      %this command has to be placed right here just before printindex command
 \cleardoublepage
 \addcontentsline{toc}{chapter}{فرہنگ}
-%\printindex
+\printindex
 
 
 \end{urdufont}

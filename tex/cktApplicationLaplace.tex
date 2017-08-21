@@ -1582,16 +1582,16 @@ R&=\frac{1}{2\zeta \omega_0 C}\\
 \begin{subfigure}{0.5\textwidth}
 \centering
 \begin{tikzpicture}[american voltages]
-\draw(0,0) to [american voltage source,l={$10\,u(t)\,\si{\volt}$}]++(0,2*\yy) to [resistor,l={$\SI{2}{\ohm}$}]++(\xx,0) to [resistor,l={$\SI{2}{\ohm}$}]++(\xx,0) to [inductor,l={$\SI{1}{\henry}$},v={$v_L(t)$}]++(0,-2*\yy) to [short](0,0);
-\draw(\xx,0) to[capacitor,*-,l={$\SI{0.5}{\farad}$},v_>={$v_C(t)$}]++(0,\yy) to  [resistor,-*,l={$\SI{1}{\ohm}$}]++(0,\yy);
+\draw(0,0) to [american voltage source,l_={$10\,u(t)\,\si{\volt}$}]++(0,2*\y) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [inductor,l={$\SI{1}{\henry}$},v={$v_L(t)$}]++(0,-2*\y) to [short](0,0);
+\draw(\x,0) to[capacitor,*-,l={$\SI{0.5}{\farad}$},v_>={$v_C(t)$}]++(0,\y) to  [resistor,-*,l={$\SI{1}{\ohm}$}]++(0,\y);
 \end{tikzpicture}
 \caption*{(الف)}
 \end{subfigure}%
 \begin{subfigure}{0.5\textwidth}
 \centering
 \begin{tikzpicture}[american voltages]
-\draw(0,0) to [american voltage source,l_={$6\,u(t)\,\si{\volt}$}]++(0,2*\yy) to [resistor,l={$\SI{2}{\ohm}$}]++(\xx,0) to [resistor,l={$\SI{2}{\ohm}$}]++(\xx,0) to [capacitor,l={$\SI{1}{\farad}$},v={$v_0(t)$}]++(0,-2*\yy) to [short](0,0);
-\draw(\xx,0) to [resistor,*-,l={$\SI{2}{\ohm}$}]++(0,\yy) to [inductor,-*,l={$\SI{2}{\henry}$}]++(0,\yy);
+\draw(0,0) to [american voltage source,l_={$6\,u(t)\,\si{\volt}$}]++(0,2*\y) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [capacitor,l={$\SI{1}{\farad}$},v={$v_0(t)$}]++(0,-2*\y) to [short](0,0);
+\draw(\x,0) to [resistor,*-,l={$\SI{2}{\ohm}$}]++(0,\y) to [inductor,-*,l={$\SI{2}{\henry}$}]++(0,\y);
 \end{tikzpicture}
 \caption*{(ب)}
 \end{subfigure}%

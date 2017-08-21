@@ -1,0 +1,24 @@
+This is makeindex, version 2.15 [TeX Live 2013] (kpathsea + Thai support).
+Scanning input file circuitAnalysis.idx....
+!! Input index error (file = circuitAnalysis.idx, line = 877):
+   -- Incomplete first argument (premature LFD).
+.
+!! Input index error (file = circuitAnalysis.idx, line = 1040):
+   -- Incomplete first argument (premature LFD).
+
+!! Input index error (file = circuitAnalysis.idx, line = 1143):
+   -- Incomplete first argument (premature LFD).
+
+!! Input index error (file = circuitAnalysis.idx, line = 1145):
+   -- Incomplete first argument (premature LFD).
+
+!! Input index error (file = circuitAnalysis.idx, line = 1147):
+   -- Incomplete first argument (premature LFD).
+
+!! Input index error (file = circuitAnalysis.idx, line = 1149):
+   -- Incomplete first argument (premature LFD).
+done (1152 entries accepted, 6 rejected).
+Sorting entries............done (13159 comparisons).
+Generating output file circuitAnalysis.ind.....done (1299 lines written, 0 warnings).
+Output written in circuitAnalysis.ind.
+Transcript written in circuitAnalysis.ilg.
