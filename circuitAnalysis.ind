@@ -550,13 +550,13 @@
   \item transcresistance
     \subitem gain, 890
   \item transfer function, 734, 890
-
-\newpage
-
   \item transformation
     \subitem current, 644
     \subitem impedance, 646
     \subitem voltage, 643
+
+\newpage
+
   \item transformer, 329
     \subitem step down, 707
     \subitem step up, 707
@@ -581,16 +581,13 @@
   \item unit step function, 398, 818
     \subitem time-shifted, 820
   \item unstable, 226
-  \item USB, universal serial port, 25
+  \item USB, universal serial bus, 25
 
   \indexspace
 
   \item value
     \subitem typical, 87
   \item volt-ampere, 581
-
-\newpage 
-
   \item voltage
     \subitem amplifier, 728
     \subitem gain, 890
@@ -598,15 +595,19 @@
     \subitem phase, 678
     \subitem transformation, 643
   \item voltage gain, 19, 206
+\newpage
+
   \item voltage source, 10
     \subitem current controlled, 107
     \subitem voltage controlled, 104
 
-  \newpage
+  \indexspace
 
   \item WAPDA, 601
   \item watt, 10
   \item weightage, 221
+\newpage
+
   \item wire
     \subitem cold, 602
     \subitem hot, 602
@@ -623,10 +624,7 @@
 
   \item zeroes, 736
 \end{otherlanguage}
-
-
   \newpage
-
 \item آزاد
    \subitem منبع رو، 15
 \item آزاد متغیر، 317
@@ -1306,10 +1304,11 @@
 \item گمک، 758
 \item گمکی تعدد، 759
 \item گمکی دور، 759
+\newpage
 \item گنجائش
    \subitem برقی، 315، 316
 \item گھمکی تعدد، 505
-\newpage
+\indexspace
 \item ہارمونی
    \subitem بنیادی رکن، 930
    \subitem دوسرا رکن، 930

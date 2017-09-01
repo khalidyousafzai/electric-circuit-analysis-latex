@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  24 AUG 2017 18:06
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  1 SEP 2017 11:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3113,6 +3113,8 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 
 
 ]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 42.
 File: ./fig/figBasicConcepts/figBasicCurrentAndDirection.pdf Graphic file (type
  QTm)
 
@@ -3132,7 +3134,7 @@ File: ./fig/figBasicConcepts/figBasicVoltagePositiveNegativeSides.pdf Graphic f
 ile (type QTm)
 
 <use  "./fig/figBasicConcepts/figBasicVoltagePositiveNegativeSides.pdf" >
-Underfull \vbox (badness 3068) has occurred while \output is active []
+Underfull \vbox (badness 7047) has occurred while \output is active []
 
  [6]
 File: ./fig/figBasicConcepts/figBasicOhmLawExamples.pdf Graphic file (type QTm)
@@ -3149,7 +3151,7 @@ Missing character: There is no ا in font zplmr7m!
 Missing character: There is no ل in font zplmr7m!
 Missing character: There is no ف in font zplmr7m!
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 185.
+(Font)              scaled to size 7.5pt on input line 216.
  [11]
 File: ./fig/figBasicConcepts/figBasicPassiveSignExample.pdf Graphic file (type 
 QTm)
@@ -3166,7 +3168,7 @@ File: ./fig/figBasicConcepts/figBasicPowerQuiz.pdf Graphic file (type QTm)
 
 <use  "./fig/figBasicConcepts/figBasicPowerQuiz.pdf" > [14]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 267.
+(Font)              scaled to size 12.0pt on input line 298.
 File: ./fig/figBasicConcepts/figBasicIndependentVoltageSource.pdf Graphic file 
 (type QTm)
 
@@ -3179,13 +3181,11 @@ File: ./fig/figBasicConcepts/figBasicInternalResistanceExample.pdf Graphic file
  (type QTm)
 
 <use  "./fig/figBasicConcepts/figBasicInternalResistanceExample.pdf" >
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 297.
 File: ./fig/figBasicConcepts/figBasicInternalResistanceQuiz.pdf Graphic file (t
 ype QTm)
 
 <use  "./fig/figBasicConcepts/figBasicInternalResistanceQuiz.pdf" >
-Overfull \hbox (15.49501pt too wide) in paragraph at lines 309--310
+Overfull \hbox (15.49501pt too wide) in paragraph at lines 340--341
 []\EU1/JameelNooriNastaleeq(1)/m/n/10 رو پرزے میں داخل ہوتی ہے لہٰذا ان دونوں پ
 رزوں میں طاقت ضائع ہوتا ہے۔منبع کی طاقت  $[]$[]
  []
@@ -3215,11 +3215,11 @@ File: ./fig/figBasicConcepts/figBasicDependentCurrentSourceExample.pdf Graphic
 file (type QTm)
 
 <use  "./fig/figBasicConcepts/figBasicDependentCurrentSourceExample.pdf" >
-Overfull \hbox (8.40979pt too wide) in paragraph at lines 378--379
+Overfull \hbox (8.40979pt too wide) in paragraph at lines 409--410
 []\EU1/XBTabrizBold(0)/m/n/10 نما[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 کردار
  ادا کرتا ہے جہاں منبع کا مستقل \EU1/XBTabrizBold(0)/m/n/10 افزائش مزاحمت-نما[]
 [] \EU1/JameelNooriNastaleeq(1)/m/n/10 کہلاتا ہے۔شکل []\EU1/JameelNooriNastalee
-q(0)/bx/n/10 17[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastale
+q(0)/bx/n/10 18[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastale
 eq(0)/bx/n/10 1[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 -ت بطور \EU1/XBTabrizBol
 d(0)/m/n/10 ایمپلیفائر موصلیت-[]
  []
@@ -3257,7 +3257,7 @@ File: ./fig/figBasicConcepts/figBasicPowerSuppliedToBox.pdf Graphic file (type
 QTm)
 
 <use  "./fig/figBasicConcepts/figBasicPowerSuppliedToBox.pdf" > [24]
-Overfull \hbox (8.50505pt too wide) in paragraph at lines 508--509
+Overfull \hbox (8.50505pt too wide) in paragraph at lines 539--540
 [][]\EU1/JameelNooriNastaleeq(1)/m/n/10 یو-ایس-بی پھاٹک استعمال کرتے ہوئے موبائ
 ل کی \EU1/XBTabrizBold(0)/m/n/10 بے بار[][] \EU1/JameelNooriNastaleeq(1)/m/n/10
  بیٹری میں بار بھرا جاتا ہے۔بیٹری کی استعداد  $[] []$[]
@@ -3265,12 +3265,12 @@ Overfull \hbox (8.50505pt too wide) in paragraph at lines 508--509
 
 [25]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 562.
+(Font)              scaled to size 7.0pt on input line 593.
  [26]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 579.
+(Font)              scaled to size 5.0pt on input line 610.
  [27] [28] [29] [30] [31]
-Overfull \hbox (0.99254pt too wide) in paragraph at lines 828--831
+Overfull \hbox (0.99254pt too wide) in paragraph at lines 859--862
  [][][][] 
  []
 
@@ -3487,13 +3487,9 @@ Overfull \hbox (3.17418pt too wide) in paragraph at lines 998--999
  [][][][][][] 
  []
 
-[70]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [71]
+[70] [71]
 File: ./fig/figResistive/figResistancesInParallel.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistancesInParallel.pdf" > [72]
+ <use  "./fig/figResistive/figResistancesInParallel.pdf" > [72]
 File: ./fig/figResistive/figResistancesCurrentDivider.pdf Graphic file (type QT
 m)
 
@@ -8608,10 +8604,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 137165 strings out of 493918
- 3280832 string characters out of 6150562
- 4107862 words of memory out of 5000000
- 139204 multiletter control sequences out of 15000+600000
+ 136464 strings out of 493918
+ 3263401 string characters out of 6150562
+ 4092409 words of memory out of 5000000
+ 138503 multiletter control sequences out of 15000+600000
  56958 words of font info for 204 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  66i,24n,372p,10476b,3246s stack positions out of 5000i,500n,10000p,200000b,80000s

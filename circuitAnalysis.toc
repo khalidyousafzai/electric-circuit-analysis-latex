@@ -19,7 +19,7 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 2}}قوانین کرخوف}{\RL {\arabicfont 46}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 2}}سلسلہ وار جڑے پرزوں میں رو}{\RL {\arabicfont 63}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 2}}تقسیم دباو}{\RL {\arabicfont 63}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 2}}متعدد سلسلہ وار مزاحمتوں کا مساوی مزاحمت}{\RL {\arabicfont 67}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 2}}متعدد سلسلہ وار مزاحمتوں کا مساوی مزاحمت}{\RL {\arabicfont 66}}
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 2}}سلسلہ وار متعدد منبع دباو اور مزاحمت}{\RL {\arabicfont 70}}
 \contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 2}}متوازی جڑے مزاحمت پر یکساں دباو پایا جاتا ہے}{\RL {\arabicfont 72}}
 \contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 2}}تقسیم رو اور متعدد متوازی مزاحمتوں کا مساوی مزاحمت}{\RL {\arabicfont 72}}
