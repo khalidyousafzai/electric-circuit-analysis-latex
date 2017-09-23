@@ -1,5 +1,6 @@
 \begin{theindex}
 \begin{otherlanguage}{english}
+
   \item $\Delta $, 691
 
   \indexspace
@@ -73,7 +74,7 @@
   \item coil, 329, 619
   \item cold wire, 602
   \item comparator, 227
-  \item complementary solution, 373
+  \item complementary solution, 374
   \item complex
     \subitem frequency, 817
     \subitem number, 451
@@ -105,6 +106,7 @@
   \item current, 1
     \subitem gain, 890
     \subitem transformation, 644
+
   \item current gain, 19
   \item current source
     \subitem current controlled, 105
@@ -340,7 +342,7 @@
 
   \item natural frequency
     \subitem undamped, 408
-  \item natural response, 373
+  \item natural response, 374
   \item network, 734
     \subitem function, 890
   \item neutral wire, 602
@@ -381,7 +383,7 @@
 
   \item Parseval's theorem, 980
   \item partial fraction expansion, 818, 835
-  \item particular solution, 374
+  \item particular solution, 384, 409
   \item passive component, 10, 15
   \item passive sign convention, 5
   \item periodic
@@ -456,7 +458,7 @@
   \item resonant circuit, 759
   \item resonant frequency, 505, 759
   \item response
-    \subitem natural, 373
+    \subitem natural, 374
   \item roots, 409
 
   \indexspace
@@ -550,13 +552,13 @@
   \item transcresistance
     \subitem gain, 890
   \item transfer function, 734, 890
+
+\newpage
+
   \item transformation
     \subitem current, 644
     \subitem impedance, 646
     \subitem voltage, 643
-
-\newpage
-
   \item transformer, 329
     \subitem step down, 707
     \subitem step up, 707
@@ -588,6 +590,9 @@
   \item value
     \subitem typical, 87
   \item volt-ampere, 581
+
+\newpage
+
   \item voltage
     \subitem amplifier, 728
     \subitem gain, 890
@@ -595,8 +600,6 @@
     \subitem phase, 678
     \subitem transformation, 643
   \item voltage gain, 19, 206
-\newpage
-
   \item voltage source, 10
     \subitem current controlled, 107
     \subitem voltage controlled, 104
@@ -604,10 +607,11 @@
   \indexspace
 
   \item WAPDA, 601
-  \item watt, 10
-  \item weightage, 221
+
 \newpage
 
+  \item watt, 10
+  \item weightage, 221
   \item wire
     \subitem cold, 602
     \subitem hot, 602
@@ -623,8 +627,11 @@
   \indexspace
 
   \item zeroes, 736
+
 \end{otherlanguage}
-  \newpage
+
+\newpage
+
 \item آزاد
    \subitem منبع رو، 15
 \item آزاد متغیر، 317
@@ -1101,6 +1108,7 @@
 \item لچھا، 329، 619
 \indexspace
 \item ماسفیٹ، 103
+\item متجانس مساوات، 374
 \item متعاملیت، 488
 \item متعاملی طاقت، 585
 \item متغیر مزاحمت، 41
@@ -1110,6 +1118,7 @@
    \subitem تین دوری نظام، 677
 \item مثبت ایمپلیفائر، 216
 \item مثبت داخلی پنیا، 203
+\item مخصوص حل، 384، 409
 \item مخفی توانائی، 10، 318
 \item مخلوط
    \subitem سطح، 893
@@ -1145,7 +1154,7 @@
 \item مسئلہ نارٹن، 261
 \item مسئلہ نفاذ، 247
 \item مساوات
-   \subitem ہم جنسی، 374
+   \subitem متجانس، 374
 \item مساوی
    \subitem دور، 260
 \item مستحکم کار، 218
@@ -1304,7 +1313,9 @@
 \item گمک، 758
 \item گمکی تعدد، 759
 \item گمکی دور، 759
+
 \newpage
+
 \item گنجائش
    \subitem برقی، 315، 316
 \item گھمکی تعدد، 505
@@ -1313,7 +1324,6 @@
    \subitem بنیادی رکن، 930
    \subitem دوسرا رکن، 930
 \item ہرٹز، 457، 927
-\item ہم جنسی مساوات، 374
 \item ہم زاویہ، 460
 \item ہم قطب، 835
 \item ہمزاد مساوات، 49

@@ -442,18 +442,17 @@
 \indexentry{تکمل و تفرقی}{372}
 \indexentry{forcing function}{373}
 \indexentry{جبری قوت}{373}
-\indexentry{response!natural}{373}
-\indexentry{natural response}{373}
-\indexentry{complementary solution}{373}
 \indexentry{رد عمل!فطری}{373}
 \indexentry{فطری رد عمل}{373}
 \indexentry{forced response}{374}
-\indexentry{particular solution}{374}
 \indexentry{رد عمل!جبری}{374}
 \indexentry{جبری رد عمل}{374}
+\indexentry{response!natural}{374}
+\indexentry{natural response}{374}
+\indexentry{complementary solution}{374}
 \indexentry{homogenous equation}{374}
-\indexentry{مساوات!ہم جنسی}{374}
-\indexentry{ہم جنسی مساوات}{374}
+\indexentry{مساوات!متجانس}{374}
+\indexentry{متجانس مساوات}{374}
 \indexentry{time constant}{375}
 \indexentry{وقتی مستقل}{375}
 \indexentry{steady state solution}{375}
@@ -466,6 +465,8 @@
 \indexentry{سوئچ}{377}
 \indexentry{initial conditions}{380}
 \indexentry{ابتدائی شرائط}{380}
+\indexentry{مخصوص حل}{384}
+\indexentry{particular solution}{384}
 \indexentry{switch!spdt}{384}
 \indexentry{سوئچ!ایک قطب دو چال}{384}
 \indexentry{unit impulse function}{398}
@@ -482,6 +483,8 @@
 \indexentry{امتیازی مساوات}{408}
 \indexentry{roots}{409}
 \indexentry{جذر}{409}
+\indexentry{particular solution}{409}
+\indexentry{مخصوص حل}{409}
 \indexentry{over damped condition}{409}
 \indexentry{مقصور!زیادہ}{409}
 \indexentry{under damped condition}{410}

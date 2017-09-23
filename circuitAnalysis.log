@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  1 SEP 2017 11:14
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  23 SEP 2017 16:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4617,18 +4617,9 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
  [372] [373] [374] [375] [376]
 
-LaTeX Warning: Float too large for page by 17.94896pt on input line 204.
+LaTeX Warning: Float too large for page by 17.94896pt on input line 203.
 
-[377] [378]
-Overfull \hbox (0.37369pt too wide) in paragraph at lines 252--254
-[]\EU1/JameelNooriNastaleeq(1)/m/n/10 مکمل حل میں نا معلوم مستقل کو \EU1/XBTabr
-izBold(0)/m/n/10 ابتدائی شرائط[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 سے حاصل 
-کرتے ہیں جس کے تحت  $\OML/zplm/m/it/10 t \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 0[]
-$  \EU1/JameelNooriNastaleeq(1)/m/n/10 پر  $\OML/zplm/m/it/10 v[]\OT1/zplm/m/n/
-10 (\OT1/ppl/m/n/10 0[]\OT1/zplm/m/n/10 ) =$[]
- []
-
-[379] [380]
+[377] [378] [379] [380]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4637,7 +4628,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
  [381] [382] [383]
 
-LaTeX Warning: Float too large for page by 7.06815pt on input line 439.
+LaTeX Warning: Float too large for page by 7.06815pt on input line 438.
 
 [384] [385] [386]
 Missing character: There is no 0 in font nullfont!
@@ -4647,7 +4638,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (71.60121pt too wide) in paragraph at lines 488--490
+Overfull \hbox (71.60121pt too wide) in paragraph at lines 487--489
  [][][][] 
  []
 
@@ -4658,7 +4649,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (48.98094pt too wide) in paragraph at lines 526--539
+Overfull \hbox (48.98094pt too wide) in paragraph at lines 525--538
  [][][][] 
  []
 
@@ -4670,17 +4661,17 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
  [390]
-Overfull \hbox (73.24394pt too wide) in paragraph at lines 657--661
+Overfull \hbox (73.24394pt too wide) in paragraph at lines 656--660
  [][][][] 
  []
 
 
-Overfull \hbox (73.24394pt too wide) in paragraph at lines 667--673
+Overfull \hbox (73.24394pt too wide) in paragraph at lines 666--672
  [][][][] 
  []
 
 
-Overfull \hbox (99.7724pt too wide) in paragraph at lines 680--692
+Overfull \hbox (99.7724pt too wide) in paragraph at lines 679--691
  [][][][] 
  []
 
@@ -4692,12 +4683,12 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (58.57109pt too wide) in paragraph at lines 766--769
+Overfull \hbox (58.57109pt too wide) in paragraph at lines 765--768
  [][][][] 
  []
 
 
-Overfull \hbox (1.6656pt too wide) in paragraph at lines 775--777
+Overfull \hbox (1.6656pt too wide) in paragraph at lines 774--776
  [][][][] 
  []
 
@@ -4708,7 +4699,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (70.83897pt too wide) in paragraph at lines 798--811
+Overfull \hbox (70.83897pt too wide) in paragraph at lines 797--810
  [][][][] 
  []
 
@@ -4727,22 +4718,22 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
  [398] [399]
-Overfull \hbox (30.1699pt too wide) in paragraph at lines 1025--1028
+Overfull \hbox (30.1699pt too wide) in paragraph at lines 1024--1027
  [][][][] 
  []
 
 
-Overfull \hbox (30.1699pt too wide) in paragraph at lines 1034--1037
+Overfull \hbox (30.1699pt too wide) in paragraph at lines 1033--1036
  [][][][] 
  []
 
 [400] [401]
-Overfull \hbox (50.11972pt too wide) in paragraph at lines 1062--1066
+Overfull \hbox (50.11972pt too wide) in paragraph at lines 1061--1065
 [][][][] 
  []
 
 
-Overfull \hbox (75.78793pt too wide) in paragraph at lines 1090--1102
+Overfull \hbox (75.78793pt too wide) in paragraph at lines 1089--1101
  [][][][] 
  []
 
@@ -4761,7 +4752,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (47.84508pt too wide) in paragraph at lines 1226--1232
+Overfull \hbox (47.84508pt too wide) in paragraph at lines 1225--1231
  [][][][] 
  []
 
@@ -4794,7 +4785,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (68.32802pt too wide) in paragraph at lines 1629--1635
+Overfull \hbox (68.32802pt too wide) in paragraph at lines 1628--1634
  [][][][] 
  []
 
@@ -4805,7 +4796,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (45.90662pt too wide) in paragraph at lines 1641--1644
+Overfull \hbox (45.90662pt too wide) in paragraph at lines 1640--1643
  [][][][] 
  []
 
@@ -4831,7 +4822,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (61.09776pt too wide) in paragraph at lines 1787--1798
+Overfull \hbox (61.09776pt too wide) in paragraph at lines 1786--1797
 [][][][] 
  []
 
@@ -4843,7 +4834,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (4.59598pt too wide) in paragraph at lines 1889--1890
+Overfull \hbox (4.59598pt too wide) in paragraph at lines 1888--1889
  [][][][] 
  []
 
@@ -4860,12 +4851,12 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (72.47426pt too wide) in paragraph at lines 1904--1907
+Overfull \hbox (72.47426pt too wide) in paragraph at lines 1903--1906
  [][][][] 
  []
 
 
-Overfull \hbox (79.53087pt too wide) in paragraph at lines 1914--1926
+Overfull \hbox (79.53087pt too wide) in paragraph at lines 1913--1925
  [][][][] 
  []
 
@@ -4922,17 +4913,17 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (26.21152pt too wide) in paragraph at lines 2167--2169
+Overfull \hbox (26.21152pt too wide) in paragraph at lines 2166--2168
  [][][][] 
  []
 
 
-Overfull \hbox (11.66563pt too wide) in paragraph at lines 2220--2223
+Overfull \hbox (11.66563pt too wide) in paragraph at lines 2219--2222
  [][][][] 
  []
 
 
-Overfull \hbox (4.70186pt too wide) in paragraph at lines 2228--2232
+Overfull \hbox (4.70186pt too wide) in paragraph at lines 2227--2231
  [][][][] 
  []
 
@@ -4951,7 +4942,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (6.58041pt too wide) in paragraph at lines 2361--2368
+Overfull \hbox (6.58041pt too wide) in paragraph at lines 2360--2367
  [][][][] 
  []
 
@@ -4979,23 +4970,24 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
+
+Overfull \hbox (51.03581pt too wide) in paragraph at lines 2466--2472
+ [][][][] 
+ []
+
 [441] [442] [443]
-Overfull \hbox (51.03581pt too wide) in paragraph at lines 2467--2473
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \hbox (21.04114pt too wide) in paragraph at lines 2504--2510
  [][][][] 
  []
 
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-
-Overfull \hbox (21.04114pt too wide) in paragraph at lines 2505--2511
- [][][][] 
- []
-
-[444] [445]
+[444]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5014,7 +5006,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [446]
+ [445] [446]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5045,7 +5037,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [447] [448]
+ [447]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5058,7 +5050,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [449]) [450]
+ [448] [449]) [450]
 \openout2 = `./tex/cktSteadyStateAC.aux'.
 
  (./tex/cktSteadyStateAC.tex
@@ -8582,7 +8574,7 @@ Missing character: There is no 6 in font nullfont!
 
 ]
 [1030] [1031] [1032] [1033] [1034]
-Overfull \hbox (1.1658pt too wide) in paragraph at lines 525--526
+Overfull \hbox (1.1658pt too wide) in paragraph at lines 527--528
 []| \EU1/ppl/m/n/10 Source Transformation, 261, 266 
  []
 
@@ -8604,10 +8596,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 136464 strings out of 493918
- 3263401 string characters out of 6150562
- 4092409 words of memory out of 5000000
- 138503 multiletter control sequences out of 15000+600000
+ 136754 strings out of 493918
+ 3270399 string characters out of 6150562
+ 4102343 words of memory out of 5000000
+ 138793 multiletter control sequences out of 15000+600000
  56958 words of font info for 204 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  66i,24n,372p,10476b,3246s stack positions out of 5000i,500n,10000p,200000b,80000s
