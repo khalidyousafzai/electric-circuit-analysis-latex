@@ -336,7 +336,7 @@
 \indexentry{linear}{241}
 \indexentry{خطی}{241}
 \indexentry{superposition}{247}
-\indexentry{مسئلہ نفاذ}{247}
+\indexentry{مسئلہ خطی میل}{247}
 \indexentry{equivalent circuit}{260}
 \indexentry{مساوی!دور}{260}
 \indexentry{Thevenin!Resistance}{261}
@@ -797,14 +797,14 @@
 \indexentry{ٹرانسفارمر!دباو گھٹاتا}{707}
 \indexentry{graph!log-log}{728}
 \indexentry{log-log!graph}{728}
-\indexentry{ترسیم!لاگ لاگ}{728}
-\indexentry{لاگ لاگ!ترسیم}{728}
+\indexentry{ترسیم!لوگارتھم لوگارتھم}{728}
+\indexentry{لوگارتھم لوگارتھم!ترسیم}{728}
 \indexentry{log}{728}
-\indexentry{لاگ}{728}
+\indexentry{لوگارتھم}{728}
 \indexentry{axis!semilog}{728}
 \indexentry{semilog!axis}{728}
-\indexentry{ترسیم!نیم لاگ}{728}
-\indexentry{نیم لاگ!ترسیم}{728}
+\indexentry{ترسیم!نیم لوگارتھم}{728}
+\indexentry{نیم لوگارتھم!ترسیم}{728}
 \indexentry{digital form}{728}
 \indexentry{عددی صورت}{728}
 \indexentry{audio}{728}
@@ -939,7 +939,7 @@
 \indexentry{سیڑھی!تفاعل}{818}
 \indexentry{اکائی سیڑھی تفاعل}{818}
 \indexentry{singularity function}{818}
-\indexentry{یکتائی تفاعل}{818}
+\indexentry{غیر معمولی تفاعل}{818}
 \indexentry{unit step function!time-shifted}{820}
 \indexentry{اکائی سیڑھی تفاعل!وقتی منقولہ}{820}
 \indexentry{unit impulse function}{822}

@@ -1,6 +1,5 @@
 \begin{theindex}
 \begin{otherlanguage}{english}
-
   \item $\Delta $, 691
 
   \indexspace
@@ -106,7 +105,6 @@
   \item current, 1
     \subitem gain, 890
     \subitem transformation, 644
-
   \item current gain, 19
   \item current source
     \subitem current controlled, 105
@@ -552,13 +550,13 @@
   \item transcresistance
     \subitem gain, 890
   \item transfer function, 734, 890
-
-\newpage
-
   \item transformation
     \subitem current, 644
     \subitem impedance, 646
     \subitem voltage, 643
+
+\newpage
+
   \item transformer, 329
     \subitem step down, 707
     \subitem step up, 707
@@ -590,9 +588,6 @@
   \item value
     \subitem typical, 87
   \item volt-ampere, 581
-
-\newpage
-
   \item voltage
     \subitem amplifier, 728
     \subitem gain, 890
@@ -604,12 +599,9 @@
     \subitem current controlled, 107
     \subitem voltage controlled, 104
 
-  \indexspace
+  \newpage
 
   \item WAPDA, 601
-
-\newpage
-
   \item watt, 10
   \item weightage, 221
   \item wire
@@ -617,6 +609,8 @@
     \subitem hot, 602
     \subitem live, 602
     \subitem neutral, 602
+\newpage
+
   \item wye-delta transformation, 96
 
   \indexspace
@@ -627,11 +621,9 @@
   \indexspace
 
   \item zeroes, 736
-
 \end{otherlanguage}
 
-\newpage
-
+  \newpage
 \item آزاد
    \subitem منبع رو، 15
 \item آزاد متغیر، 317
@@ -780,8 +772,8 @@
 \item تربیعی
    \subitem طاقت، 585
 \item ترسیم
-   \subitem لاگ لاگ، 728
-   \subitem نیم لاگ، 728
+   \subitem لوگارتھم لوگارتھم، 728
+   \subitem نیم لوگارتھم، 728
 \item ترسیلی تار، 582
 \item ترسیلی نمونہ، 1014
 \item ترمیم تعدد
@@ -1059,6 +1051,7 @@
 \item غیر سمتی ضرب، 930
 \item غیر متوازن، 226
 \item غیر مطلوب، 319
+\item غیر معمولی تفاعل، 818
 \item غیر مقناطیسی مرکز، 329
 \indexspace
 \item فراوانی، 494
@@ -1102,10 +1095,10 @@
 \indexspace
 \item لاپلاس بدل، 730، 817
    \subitem الٹ، 818
-\item لاگ، 728
-\item لاگ لاگ
-   \subitem ترسیم، 728
 \item لچھا، 329، 619
+\item لوگارتھم، 728
+\item لوگارتھم لوگارتھم
+   \subitem ترسیم، 728
 \indexspace
 \item ماسفیٹ، 103
 \item متجانس مساوات، 374
@@ -1151,8 +1144,8 @@
    \subitem نارٹن، 266
    \subitem وقتی الجھاو، 977
 \item مسئلہ تھونن، 261
+\item مسئلہ خطی میل، 247
 \item مسئلہ نارٹن، 261
-\item مسئلہ نفاذ، 247
 \item مساوات
    \subitem متجانس، 374
 \item مساوی
@@ -1233,7 +1226,7 @@
    \subitem خاصیت، 823، 976
 \item نی کوسٹ
    \subitem اصول، 824
-\item نیم لاگ
+\item نیم لوگارتھم
    \subitem ترسیم، 728
 \indexspace
 \item واٹ، 10
@@ -1335,6 +1328,4 @@
 \item یولر مساوات، 455، 469
 \item یک درجی ادوار، 372
 \item یک سمتی رو، 3، 428
-\item یکتائی تفاعل، 818
-
 \end{theindex}
