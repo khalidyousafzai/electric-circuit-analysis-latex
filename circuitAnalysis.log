@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  5 OCT 2017 11:23
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  18 OCT 2017 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3041,22 +3041,22 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 10.0pt on input line 2.
  [3] [4] [5] [6]
 Overfull \hbox (4.49997pt too wide) detected at line 148
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1007[][][][]
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1011[][][][]
  []
 
 
 Overfull \hbox (4.49997pt too wide) detected at line 149
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1012[][][][]
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1016[][][][]
  []
 
 
 Overfull \hbox (4.49997pt too wide) detected at line 150
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1014[][][][]
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1018[][][][]
  []
 
 
 Overfull \hbox (4.49997pt too wide) detected at line 151
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1017[][][][]
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1021[][][][]
  []
 
 )
@@ -3498,7 +3498,7 @@ File: ./fig/figResistive/figResistancesParallelResisitorsEquivalent.pdf Graphic
  file (type QTm)
 
 <use  "./fig/figResistive/figResistancesParallelResisitorsEquivalent.pdf" >
-Overfull \hbox (17.15019pt too wide) in paragraph at lines 1057--1058
+Overfull \hbox (17.15019pt too wide) in paragraph at lines 1059--1060
  [][][][][][] 
  []
 
@@ -3507,7 +3507,7 @@ File: ./fig/figResistive/figResistancesMultipleInParallel.pdf Graphic file (typ
 e QTm)
 
 <use  "./fig/figResistive/figResistancesMultipleInParallel.pdf" >
-Overfull \hbox (38.15372pt too wide) in paragraph at lines 1164--1165
+Overfull \hbox (38.15372pt too wide) in paragraph at lines 1166--1167
  [][][][][][] 
  []
 
@@ -3516,7 +3516,7 @@ File: ./fig/figResistive/figResistancesMultipleParallelResisitorsEquivalent.pdf
 
 <use  "./fig/figResistive/figResistancesMultipleParallelResisitorsEquivalent.pd
 f" >
-Overfull \hbox (31.16742pt too wide) in paragraph at lines 1169--1170
+Overfull \hbox (31.16742pt too wide) in paragraph at lines 1171--1172
  [][][][][][] 
  []
 
@@ -3549,7 +3549,7 @@ File: ./fig/figResistive/figResistancesMixedSeriesParallelE.pdf Graphic file (t
 ype QTm)
 
 <use  "./fig/figResistive/figResistancesMixedSeriesParallelE.pdf" >
-Overfull \hbox (22.3998pt too wide) in paragraph at lines 1310--1311
+Overfull \hbox (22.3998pt too wide) in paragraph at lines 1312--1313
  [][][][][][] 
  []
 
@@ -3588,14 +3588,14 @@ File: ./fig/figResistive/figResistancesMixedSolutionExampleB.pdf Graphic file (
 type QTm)
 
 <use  "./fig/figResistive/figResistancesMixedSolutionExampleB.pdf" >
-Overfull \hbox (50.22882pt too wide) in paragraph at lines 1466--1467
+Overfull \hbox (50.22882pt too wide) in paragraph at lines 1468--1469
  [][][][][][] 
  []
 
 File: ./fig/figResistive/figResistancesMixedSolutionExampleC.pdf Graphic file (
 type QTm)
 <use  "./fig/figResistive/figResistancesMixedSolutionExampleC.pdf" >
-Overfull \hbox (3.56436pt too wide) in paragraph at lines 1471--1472
+Overfull \hbox (3.56436pt too wide) in paragraph at lines 1473--1474
  [][][][][][] 
  []
 
@@ -3608,7 +3608,7 @@ type QTm)
 File: ./fig/figResistive/figResistancesMixedSolutionQuizA.pdf Graphic file (typ
 e QTm)
  <use  "./fig/figResistive/figResistancesMixedSolutionQuizA.pdf" >
-Overfull \hbox (2.33488pt too wide) in paragraph at lines 1614--1615
+Overfull \hbox (2.33488pt too wide) in paragraph at lines 1616--1617
  [][][][][][] 
  []
 
@@ -3650,13 +3650,13 @@ File: ./fig/figResistive/figResistancesQuizYDeltaA.pdf Graphic file (type QTm)
 File: ./fig/figResistive/figResistancesQuizYDeltaB.pdf Graphic file (type QTm)
 
 <use  "./fig/figResistive/figResistancesQuizYDeltaB.pdf" >
-Overfull \hbox (15.44382pt too wide) in paragraph at lines 1838--1839
+Overfull \hbox (15.44382pt too wide) in paragraph at lines 1840--1841
  [][][][][][] 
  []
 
 File: ./fig/figResistive/figResistancesQuizYDeltaC.pdf Graphic file (type QTm)
 <use  "./fig/figResistive/figResistancesQuizYDeltaC.pdf" >
-Overfull \hbox (21.55663pt too wide) in paragraph at lines 1843--1844
+Overfull \hbox (21.55663pt too wide) in paragraph at lines 1845--1846
  [][][][][][] 
  []
 
@@ -3702,32 +3702,32 @@ File: ./fig/figResistive/figResistancesQuizControlledSourceE.pdf Graphic file (
 type QTm)
 
 <use  "./fig/figResistive/figResistancesQuizControlledSourceE.pdf" >
-Overfull \hbox (16.44374pt too wide) in paragraph at lines 2067--2068
+Overfull \hbox (16.44374pt too wide) in paragraph at lines 2069--2070
  [][][][][][] 
  []
 
 [110] [111] [112]
-Overfull \hbox (33.13564pt too wide) in paragraph at lines 2215--2217
+Overfull \hbox (33.13564pt too wide) in paragraph at lines 2217--2219
  [][][][] 
  []
 
 [113]
-Overfull \hbox (5.44513pt too wide) in paragraph at lines 2294--2298
+Overfull \hbox (5.44513pt too wide) in paragraph at lines 2296--2300
  [][][][] 
  []
 
 [114] [115] [116] [117] [118] [119] [120] [121] [122]
-Overfull \hbox (6.1057pt too wide) in paragraph at lines 2666--2669
+Overfull \hbox (6.1057pt too wide) in paragraph at lines 2668--2671
  [][][][] 
  []
 
 
-Overfull \hbox (1.09901pt too wide) in paragraph at lines 2708--2710
+Overfull \hbox (1.09901pt too wide) in paragraph at lines 2710--2712
  [][][][] 
  []
 
 
-Overfull \hbox (3.489pt too wide) in paragraph at lines 2716--2719
+Overfull \hbox (3.489pt too wide) in paragraph at lines 2718--2721
  [][][][] 
  []
 
@@ -3805,11 +3805,18 @@ File: ./fig/figNodalLoop/figNodalQuizControlledCurrentSourcesA.pdf Graphic file
 File: ./fig/figNodalLoop/figNodalQuizControlledCurrentSourcesB.pdf Graphic file
  (type QTm)
 
-<use  "./fig/figNodalLoop/figNodalQuizControlledCurrentSourcesB.pdf" > [147]
+<use  "./fig/figNodalLoop/figNodalQuizControlledCurrentSourcesB.pdf" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[147]
 File: ./fig/figNodalLoop/figNodalQuizControlledCurrentSourcesC.pdf Graphic file
  (type QTm)
+ <use  "./fig/figNodalLoop/figNodalQuizControlledCurrentSourcesC.pdf" >
 
-<use  "./fig/figNodalLoop/figNodalQuizControlledCurrentSourcesC.pdf" > [148]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[148] [149]
 File: ./fig/figNodalLoop/figNodalExampleIndependentVoltageSourceA.pdf Graphic f
 ile (type QTm)
 
@@ -3818,148 +3825,68 @@ File: ./fig/figNodalLoop/figNodalExampleIndependentVoltageSourceAA.pdf Graphic
 file (type QTm)
 
 <use  "./fig/figNodalLoop/figNodalExampleIndependentVoltageSourceAA.pdf" >
-[149] [150]
+[150]
 File: ./fig/figNodalLoop/figNodalQuizIndependentVoltageSourceA.pdf Graphic file
  (type QTm)
-
-<use  "./fig/figNodalLoop/figNodalQuizIndependentVoltageSourceA.pdf" >
+ <use  "./fig/figNodalLoop/figNodalQuizIndependentVoltageSourceA.pdf" >
 File: ./fig/figNodalLoop/figNodalQuizIndependentVoltageSourceB.pdf Graphic file
  (type QTm)
 
 <use  "./fig/figNodalLoop/figNodalQuizIndependentVoltageSourceB.pdf" > [151]
+[152]
 File: ./fig/figNodalLoop/figNodalSuperNodeA.pdf Graphic file (type QTm)
-
-<use  "./fig/figNodalLoop/figNodalSuperNodeA.pdf" >
+ <use  "./fig/figNodalLoop/figNodalSuperNodeA.pdf" >
 File: ./fig/figNodalLoop/figNodalSuperNodeB.pdf Graphic file (type QTm)
 
-<use  "./fig/figNodalLoop/figNodalSuperNodeB.pdf" > [152] [153] [154]
+<use  "./fig/figNodalLoop/figNodalSuperNodeB.pdf" > [153] [154]
 File: ./fig/figNodalLoop/figNodalSuperNodeExampleA.pdf Graphic file (type QTm)
 
 <use  "./fig/figNodalLoop/figNodalSuperNodeExampleA.pdf" >
 File: ./fig/figNodalLoop/figNodalSuperNodeExampleB.pdf Graphic file (type QTm)
 
-<use  "./fig/figNodalLoop/figNodalSuperNodeExampleB.pdf" > [155] [156]
+<use  "./fig/figNodalLoop/figNodalSuperNodeExampleB.pdf" > [155]
 File: ./fig/figNodalLoop/figNodalSuperNodeQuizA.pdf Graphic file (type QTm)
 
-<use  "./fig/figNodalLoop/figNodalSuperNodeQuizA.pdf" >
+<use  "./fig/figNodalLoop/figNodalSuperNodeQuizA.pdf" > [156] [157]
 File: ./fig/figNodalLoop/figNodalSuperNodeQuizB.pdf Graphic file (type QTm)
 
-<use  "./fig/figNodalLoop/figNodalSuperNodeQuizB.pdf" > [157]
+<use  "./fig/figNodalLoop/figNodalSuperNodeQuizB.pdf" >
 File: ./fig/figNodalLoop/figNodalDependentVoltageExampleA.pdf Graphic file (typ
 e QTm)
 
 <use  "./fig/figNodalLoop/figNodalDependentVoltageExampleA.pdf" > [158]
 [159] [160] [161] [162] [163] [164] [165] [166] [167] [168] [169] [170]
 [171] [172] [173] [174] [175] [176] [177] [178] [179] [180] [181] [182]
-[183]
+[183] [184]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [184]
-[185]
+ [185]
+[186]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [186]
-[187] [188]
-Overfull \hbox (68.24394pt too wide) in paragraph at lines 2097--2100
+ [187]
+[188] [189] [190] [191] [192] [193] [194] [195]
+Overfull \hbox (46.96347pt too wide) in paragraph at lines 2318--2327
  [][][][] 
  []
 
-
-Overfull \hbox (63.8983pt too wide) in paragraph at lines 2105--2109
- [][][][] 
- []
-
-
-Overfull \hbox (68.57112pt too wide) in paragraph at lines 2131--2134
- [][][][] 
- []
-
-
-Overfull \hbox (51.08617pt too wide) in paragraph at lines 2139--2144
- [][][][] 
- []
-
-
-Overfull \hbox (14.17355pt too wide) in paragraph at lines 2167--2170
- [][][][] 
- []
-
-
-Overfull \hbox (71.59114pt too wide) in paragraph at lines 2176--2179
- [][][][] 
- []
-
-[189] [190] [191] [192] [193]
-Overfull \hbox (46.96347pt too wide) in paragraph at lines 2311--2320
- [][][][] 
- []
-
-
-Overfull \hbox (74.46301pt too wide) in paragraph at lines 2334--2342
- [][][][] 
- []
-
-
-Overfull \hbox (77.96098pt too wide) in paragraph at lines 2347--2354
- [][][][] 
- []
-
-[194] [195]
-Overfull \hbox (34.79118pt too wide) in paragraph at lines 2377--2379
- [][][][] 
- []
-
-
-Overfull \hbox (12.26843pt too wide) in paragraph at lines 2385--2387
- [][][][] 
- []
-
-
-Overfull \hbox (7.59561pt too wide) in paragraph at lines 2410--2413
- [][][][] 
- []
-
-
-Overfull \hbox (31.07323pt too wide) in paragraph at lines 2418--2421
- [][][][] 
- []
-
-
-Overfull \hbox (18.24355pt too wide) in paragraph at lines 2444--2450
- [][][][] 
- []
-
-
-Overfull \hbox (44.18105pt too wide) in paragraph at lines 2455--2462
- [][][][] 
- []
-
-[196] [197] [198]
-Overfull \hbox (7.59561pt too wide) in paragraph at lines 2485--2488
- [][][][] 
- []
-
-
-Overfull \hbox (7.59561pt too wide) in paragraph at lines 2494--2497
- [][][][] 
- []
-
-[199]) [200] [201] [202]
+[196] [197] [198] [199] [200] [201] [202]) [203] [204] [205] [206]
 \openout2 = `./tex/cktOpamp.aux'.
 
- (./tex/cktOpamp.tex
+
+(./tex/cktOpamp.tex
 باب \RL {\arabicfont 4}.
 Missing character: There is no ; in font nullfont!
-[203
+[207
 
 
 
-] [204]
+] [208]
 Underfull \vbox (badness 4913) has occurred while \output is active []
 
- [205]
-[206] [207] [208] [209] [210] [211] [212] [213] [214] [215] [216] [217]
-[218] [219] [220] [221] [222] [223] [224] [225] [226] [227]
+ [209]
+[210] [211] [212] [213] [214] [215] [216] [217] [218] [219] [220] [221]
+[222] [223] [224] [225] [226] [227] [228] [229] [230] [231]
 Overfull \hbox (3.52464pt too wide) in paragraph at lines 761--764
  [][][][] 
  []
@@ -3979,11 +3906,11 @@ Overfull \hbox (4.1349pt too wide) in paragraph at lines 799--802
  [][][][] 
  []
 
-[228] [229] [230] [231] [232] [233] [234] [235] [236] [237] [238]) [239]
+[232] [233] [234] [235] [236] [237] [238] [239] [240] [241] [242]) [243]
 \openout2 = `./tex/cktTheorems.aux'.
 
 
-(./tex/cktTheorems.tex [240
+(./tex/cktTheorems.tex [244
 
 
 
@@ -3994,12 +3921,12 @@ Overfull \hbox (0.96758pt too wide) in paragraph at lines 45--51
  [][][][] 
  []
 
-[241] [242] [243] [244] [245] [246] [247] [248]
+[245] [246] [247] [248] [249] [250] [251] [252]
 Overfull \hbox (11.66563pt too wide) in paragraph at lines 384--387
  [][][][] 
  []
 
-[249] [250] [251]
+[253] [254] [255]
 Overfull \hbox (9.08589pt too wide) in paragraph at lines 427--431
  [][][][] 
  []
@@ -4014,25 +3941,25 @@ Overfull \hbox (9.08589pt too wide) in paragraph at lines 446--449
  [][][][] 
  []
 
-[252] [253] [254] [255] [256]
+[256] [257] [258] [259] [260]
 Overfull \hbox (6.66563pt too wide) in paragraph at lines 604--610
  [][][][] 
  []
 
-[257] [258] [259] [260] [261] [262] [263] [264] [265] [266]
+[261] [262] [263] [264] [265] [266] [267] [268] [269] [270]
 Overfull \hbox (20.90952pt too wide) in paragraph at lines 1042--1049
  [][][][] 
  []
 
-[267] [268] [269]
+[271] [272] [273]
 Missing character: There is no ق in font zplmr7m!
 Missing character: There is no ص in font zplmr7m!
 Missing character: There is no ر in font zplmr7m!
- [270]
+ [274]
 
 LaTeX Warning: Float too large for page by 98.15869pt on input line 1188.
 
-[271] [272]
+[275] [276]
 Overfull \hbox (18.63463pt too wide) in paragraph at lines 1239--1243
  [][][][] 
  []
@@ -4042,17 +3969,17 @@ Overfull \hbox (28.02452pt too wide) in paragraph at lines 1319--1324
  [][][][] 
  []
 
-[273] [274] [275]
+[277] [278] [279]
 Overfull \hbox (24.7095pt too wide) in paragraph at lines 1416--1422
  [][][][] 
  []
 
-[276] [277] [278] [279] [280]
+[280] [281] [282] [283] [284]
 Overfull \hbox (5.134pt too wide) in paragraph at lines 1530--1539
  [][][][] 
  []
 
-[281] [282] [283] [284] [285]
+[285] [286] [287] [288] [289]
 Overfull \hbox (20.34787pt too wide) in paragraph at lines 1749--1755
  [][][][] 
  []
@@ -4062,7 +3989,7 @@ Overfull \hbox (15.31964pt too wide) in paragraph at lines 1771--1775
  [][][][] 
  []
 
-[286] [287]
+[290] [291]
 Overfull \hbox (19.7095pt too wide) in paragraph at lines 1814--1823
  [][][][] 
  []
@@ -4072,22 +3999,22 @@ Overfull \hbox (45.11105pt too wide) in paragraph at lines 1861--1868
  [][][][] 
  []
 
-[288] [289] [290] [291] [292] [293]
+[292] [293] [294] [295] [296] [297]
 Overfull \hbox (2.1379pt too wide) in paragraph at lines 2021--2031
  [][][][] 
  []
 
-[294] [295] [296] [297] [298] [299] [300] [301] [302]
+[298] [299] [300] [301] [302] [303] [304] [305] [306]
 Overfull \hbox (6.99281pt too wide) in paragraph at lines 2392--2401
  [][][][] 
  []
 
-[303] [304] [305]
+[307] [308] [309]
 Overfull \hbox (11.66563pt too wide) in paragraph at lines 2577--2584
  [][][][] 
  []
 
-[306] [307] [308] [309] [310] [311]
+[310] [311] [312] [313] [314] [315]
 Overfull \hbox (6.33846pt too wide) in paragraph at lines 2837--2842
  [][][][] 
  []
@@ -4097,17 +4024,17 @@ Overfull \hbox (6.89836pt too wide) in paragraph at lines 2847--2854
  [][][][] 
  []
 
-) [312] [313]
+) [316] [317]
 \openout2 = `./tex/cktCapacitorInductor.aux'.
 
- (./tex/cktCapacitorInductor.tex [314
+ (./tex/cktCapacitorInductor.tex [318
 
 
 
 ]
 باب \RL {\arabicfont 6}.
-[315] [316] [317] [318] [319] [320] [321] [322] [323] [324] [325] [326]
-[327] [328] [329] [330]
+[319] [320] [321] [322] [323] [324] [325] [326] [327] [328] [329] [330]
+[331] [332] [333] [334]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4130,10 +4057,10 @@ Overfull \hbox (1.55396pt too wide) in paragraph at lines 507--515
  [][][][] 
  []
 
-[331]
+[335]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [332]
+ [336]
 Overfull \hbox (8.62637pt too wide) in paragraph at lines 556--562
 [][][][] 
  []
@@ -4143,7 +4070,7 @@ Overfull \hbox (10.22102pt too wide) in paragraph at lines 567--574
 [][][][] 
  []
 
-[333] [334]
+[337] [338]
 Overfull \hbox (4.06415pt too wide) in paragraph at lines 625--632
  [][][][] 
  []
@@ -4163,7 +4090,7 @@ Overfull \hbox (11.90959pt too wide) in paragraph at lines 686--696
  [][][][] 
  []
 
-[335]
+[339]
 Overfull \hbox (14.69957pt too wide) in paragraph at lines 714--724
  [][][][] 
  []
@@ -4173,7 +4100,7 @@ Overfull \hbox (14.40959pt too wide) in paragraph at lines 730--741
  [][][][] 
  []
 
-[336]
+[340]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4186,7 +4113,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [337]
+ [341]
 Overfull \hbox (11.63133pt too wide) in paragraph at lines 832--841
  [][][][] 
  []
@@ -4201,7 +4128,7 @@ Overfull \hbox (19.69124pt too wide) in paragraph at lines 863--873
  [][][][] 
  []
 
-[338] [339] [340] [341] [342] [343] [344] [345] [346] [347]
+[342] [343] [344] [345] [346] [347] [348] [349] [350] [351]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4256,8 +4183,8 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [348] [349]
-[350]
+ [352] [353]
+[354]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4312,7 +4239,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [351]
+ [355]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4403,7 +4330,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [352] [353] [354]
+ [356] [357] [358]
 Overfull \hbox (9.69957pt too wide) in paragraph at lines 1486--1496
  [][][][] 
  []
@@ -4413,7 +4340,7 @@ Overfull \hbox (9.69957pt too wide) in paragraph at lines 1502--1511
  [][][][] 
  []
 
-[355] [356]
+[359] [360]
 Overfull \hbox (6.34969pt too wide) in paragraph at lines 1553--1561
  [][][][] 
  []
@@ -4423,7 +4350,7 @@ Overfull \hbox (9.69957pt too wide) in paragraph at lines 1567--1576
  [][][][] 
  []
 
-[357] [358]
+[361] [362]
 Overfull \hbox (2.38707pt too wide) in paragraph at lines 1649--1652
  [][][][] 
  []
@@ -4453,7 +4380,7 @@ Overfull \hbox (1.32536pt too wide) in paragraph at lines 1738--1741
  [][][][] 
  []
 
-[359] [360] [361]
+[363] [364] [365]
 Overfull \hbox (7.70824pt too wide) in paragraph at lines 1767--1770
  [][][][] 
  []
@@ -4463,7 +4390,7 @@ Overfull \hbox (1.31844pt too wide) in paragraph at lines 1776--1779
  [][][][] 
  []
 
-[362]
+[366]
 Overfull \hbox (3.8849pt too wide) in paragraph at lines 1850--1853
  [][][][] 
  []
@@ -4485,7 +4412,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-[363] [364] [365] [366]
+[367] [368] [369] [370]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4588,7 +4515,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [367] [368] [369]) [370]
+ [371] [372] [373]) [374]
 \openout2 = `./tex/cktTransients.aux'.
 
  (./tex/cktTransients.tex
@@ -4604,7 +4531,7 @@ Overfull \hbox (4.26701pt too wide) in paragraph at lines 20--22
  [][][][] 
  []
 
-[371
+[375
 
 
 
@@ -4615,22 +4542,22 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [372] [373] [374] [375] [376]
+ [376] [377] [378] [379] [380]
 
 LaTeX Warning: Float too large for page by 17.94896pt on input line 203.
 
-[377] [378] [379] [380]
+[381] [382] [383] [384]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [381] [382] [383]
+ [385] [386] [387]
 
 LaTeX Warning: Float too large for page by 7.06815pt on input line 438.
 
-[384] [385] [386]
+[388] [389] [390]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4653,14 +4580,14 @@ Overfull \hbox (48.98094pt too wide) in paragraph at lines 525--538
  [][][][] 
  []
 
-[387] [388] [389]
+[391] [392] [393]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [390]
+ [394]
 Overfull \hbox (73.24394pt too wide) in paragraph at lines 656--660
  [][][][] 
  []
@@ -4675,7 +4602,7 @@ Overfull \hbox (99.7724pt too wide) in paragraph at lines 679--691
  [][][][] 
  []
 
-[391] [392] [393]
+[395] [396] [397]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4703,21 +4630,21 @@ Overfull \hbox (70.83897pt too wide) in paragraph at lines 797--810
  [][][][] 
  []
 
-[394] [395] [396]
+[398] [399] [400]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [397]
+ [401]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [398] [399]
+ [402] [403]
 Overfull \hbox (30.1699pt too wide) in paragraph at lines 1024--1027
  [][][][] 
  []
@@ -4727,7 +4654,7 @@ Overfull \hbox (30.1699pt too wide) in paragraph at lines 1033--1036
  [][][][] 
  []
 
-[400] [401]
+[404] [405]
 Overfull \hbox (50.11972pt too wide) in paragraph at lines 1061--1065
 [][][][] 
  []
@@ -4737,14 +4664,14 @@ Overfull \hbox (75.78793pt too wide) in paragraph at lines 1089--1101
  [][][][] 
  []
 
-[402] [403] [404]
+[406] [407] [408]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [405]
+ [409]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4762,22 +4689,22 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-[406] [407] [408] [409] [410] [411]
+[410] [411] [412] [413] [414] [415]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [412] [413] [414] [415]
+ [416] [417] [418] [419]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [416] [417]
-[418]
+ [420] [421]
+[422]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4800,21 +4727,21 @@ Overfull \hbox (45.90662pt too wide) in paragraph at lines 1640--1643
  [][][][] 
  []
 
-[419] [420] [421] [422]
+[423] [424] [425] [426]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [423]
+ [427]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [424]
+ [428]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4826,7 +4753,7 @@ Overfull \hbox (61.09776pt too wide) in paragraph at lines 1786--1797
 [][][][] 
  []
 
-[425] [426] [427] [428]
+[429] [430] [431] [432]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4860,7 +4787,7 @@ Overfull \hbox (79.53087pt too wide) in paragraph at lines 1913--1925
  [][][][] 
  []
 
-[429] [430] [431] [432]
+[433] [434] [435] [436]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4905,7 +4832,7 @@ Missing character: There is no ل in font [lmroman8-regular]:mapping=tex-text!
 Missing character: There is no ہ in font [lmroman8-regular]:mapping=tex-text!
 Missing character: There is no ے in font [lmroman8-regular]:mapping=tex-text!
 Missing character: There is no ۔ in font [lmroman8-regular]:mapping=tex-text!
- [433] [434] [435] [436]
+ [437] [438] [439] [440]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4927,14 +4854,14 @@ Overfull \hbox (4.70186pt too wide) in paragraph at lines 2227--2231
  [][][][] 
  []
 
-[437] [438]
+[441] [442]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [439] [440]
+ [443] [444]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4975,7 +4902,7 @@ Overfull \hbox (51.03581pt too wide) in paragraph at lines 2466--2472
  [][][][] 
  []
 
-[441] [442] [443]
+[445] [446] [447]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4987,7 +4914,7 @@ Overfull \hbox (21.04114pt too wide) in paragraph at lines 2504--2510
  [][][][] 
  []
 
-[444]
+[448]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5006,7 +4933,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [445] [446]
+ [449] [450]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5037,7 +4964,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [447]
+ [451]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5050,24 +4977,24 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [448] [449]) [450]
+ [452] [453]) [454]
 \openout2 = `./tex/cktSteadyStateAC.aux'.
 
  (./tex/cktSteadyStateAC.tex
 باب \RL {\arabicfont 8}.
-[451
+[455
 
 
 
 ]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [452]
+ [456]
 Overfull \hbox (0.5818pt too wide) in paragraph at lines 96--96
 [][] []
  []
 
-[453] [454] [455]
+[457] [458] [459]
 Underfull \hbox (badness 10000) in paragraph at lines 184--184
 [][][]\EU1/JameelNooriNastaleeq(0)/m/n/8 ایک ماہر ریاضی اپنی خیالی دنیا میں کوس
 ائن  $[] \OML/zplm/m/it/8 ^^R$  \EU1/JameelNooriNastaleeq(0)/m/n/8 تفاعل کے سات
@@ -5075,35 +5002,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--184
 ل اس کا فوراً جواب اکائی []
  []
 
-[456] [457]
+[460] [461]
 Overfull \hbox (3.4406pt too wide) in paragraph at lines 261--267
  [][][][] 
  []
 
-[458] [459] [460] [461]
+[462] [463] [464] [465]
 Overfull \hbox (3.43816pt too wide) in paragraph at lines 416--419
  [][][][] 
  []
 
-[462] [463] [464]
+[466] [467] [468]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [465] [466] [467] [468] [469] [470] [471]
+ [469] [470] [471] [472] [473] [474] [475]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [472] [473]
-[474]
+ [476] [477]
+[478]
 Overfull \hbox (27.88605pt too wide) in paragraph at lines 801--801
 [][] []
  []
 
-[475] [476] [477] [478] [479] [480] [481]
+[479] [480] [481] [482] [483] [484] [485]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5116,40 +5043,13 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [482] [483] [484] [485] [486]
-[487] [488]
+ [486] [487] [488] [489] [490]
+[491] [492]
 Underfull \hbox (badness 10000) in paragraph at lines 1455--1458
 [][]
  []
 
-[489] [490] [491]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [492]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [493] [494]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [495]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
+[493] [494] [495]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5157,6 +5057,33 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
  [496]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [497] [498]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [499]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [500]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5186,7 +5113,7 @@ Overfull \hbox (10.79147pt too wide) in paragraph at lines 1688--1694
  [][][][] 
  []
 
-[497] [498] [499]
+[501] [502] [503]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5199,14 +5126,14 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [500]
+ [504]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [501] [502] [503]
+ [505] [506] [507]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5218,14 +5145,14 @@ Overfull \hbox (8.63191pt too wide) in paragraph at lines 1945--1947
  [][][][] 
  []
 
-[504] [505] [506]
+[508] [509] [510]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [507] [508]
+ [511] [512]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5238,7 +5165,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [509] [510]
+ [513] [514]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5250,7 +5177,7 @@ Overfull \hbox (43.49474pt too wide) in paragraph at lines 2208--2211
  [][][][] 
  []
 
-[511] [512] [513]
+[515] [516] [517]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5275,46 +5202,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [514] [515]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [516]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [517] [518]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [519]
+ [518] [519]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5340,13 +5228,52 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
+ [521] [522]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [521] [522]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [523]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [524]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [525] [526]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5370,14 +5297,14 @@ Overfull \hbox (2.03564pt too wide) in paragraph at lines 2631--2636
  [][][][] 
  []
 
-[523] [524]
+[527] [528]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [525] [526]
+ [529] [530]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5401,7 +5328,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-[527] [528]
+[531] [532]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5426,7 +5353,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [529] [530]
+ [533] [534]
 Overfull \hbox (9.92772pt too wide) in paragraph at lines 2831--2831
 [][] []
  []
@@ -5436,7 +5363,7 @@ Overfull \hbox (9.92772pt too wide) in alignment at lines 2831--2831
 [] [] 
  []
 
-[531]
+[535]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5461,14 +5388,14 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [532] [533]
+ [536] [537]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [534]
+ [538]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5498,26 +5425,14 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-[535]
+[539]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [536]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
+ [540]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5542,7 +5457,19 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [537] [538]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [541] [542]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5584,7 +5511,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-[539] [540]
+[543] [544]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5615,7 +5542,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [541] [542] [543]
+ [545] [546] [547]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5656,7 +5583,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-[544] [545] [546]
+[548] [549] [550]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5669,7 +5596,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [547]
+ [551]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5687,36 +5614,23 @@ Overfull \hbox (20.64056pt too wide) in paragraph at lines 3602--3610
  [][][][] 
  []
 
-[548] [549]) [550]
+[552] [553]) [554]
 \openout2 = `./tex/cktSteadyStatePower.aux'.
 
  (./tex/cktSteadyStatePower.tex
 باب \RL {\arabicfont 9}.
-[551
+[555
 
 
 
-] [552] [553] [554] [555]
+] [556] [557] [558] [559]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [556]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [557]
+ [560]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5729,14 +5643,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [558]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [559]
+ [561]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5749,14 +5656,34 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
+ [562]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [560] [561] [562]
-[563]
+ [563]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [564] [565] [566]
+[567]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5819,18 +5746,18 @@ Missing character: There is no 6 in font nullfont!
 
 LaTeX Warning: Float too large for page by 127.20483pt on input line 501.
 
-[564] [565] [566] [567] [568] [569] [570] [571] [572] [573] [574]
+[568] [569] [570] [571] [572] [573] [574] [575] [576] [577] [578]
 Missing character: There is no ; in font nullfont!
- [575]
+ [579]
 Missing character: There is no ; in font nullfont!
 
-[576] [577]
+[580] [581]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [578]
+ [582]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [579] [580] [581] [582]
+ [583] [584] [585] [586]
 Overfull \hbox (1.94528pt too wide) in paragraph at lines 990--991
 [][]\EU1/JameelNooriNastaleeq(1)/m/n/10 آپ نے مثال []\EU1/JameelNooriNastaleeq(
 0)/bx/n/10 12[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq
@@ -5838,33 +5765,33 @@ Overfull \hbox (1.94528pt too wide) in paragraph at lines 990--991
 تبدیلی سے ترسیلی تاروں میں طاقت کے ضیاع تبدیل ہوتا ہے۔مساوات[]
  []
 
-[583] [584] [585] [586] [587]
+[587] [588] [589] [590] [591]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [588] [589] [590] [591]
+ [592] [593] [594] [595]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [592] [593] [594]
-[595] [596] [597]
+ [596] [597] [598]
+[599] [600] [601]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [598] [599] [600] [601] [602]
+ [602] [603] [604] [605] [606]
 Underfull \vbox (badness 2478) has occurred while \output is active []
 
- [603]
-[604] [605] [606]
+ [607]
+[608] [609] [610]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5882,7 +5809,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-[607]
+[611]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5901,7 +5828,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [608] [609]
+ [612] [613]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5920,7 +5847,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [610] [611]
+ [614] [615]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5947,7 +5874,7 @@ Overfull \hbox (1.63548pt too wide) in paragraph at lines 1939--1942
  [][][][] 
  []
 
-[612] [613] [614] [615] [616]
+[616] [617] [618] [619] [620]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5960,17 +5887,17 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-) [617]
+) [621]
 \openout2 = `./tex/cktMagneticallyCoupledNetworks.aux'.
 
  (./tex/cktMagneticallyCoupledNetworks.tex
-[618
+[622
 
 
 
 ]
 باب \RL {\arabicfont 10}.
-[619]
+[623]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -5996,7 +5923,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [620] [621]
+ [624] [625]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -6029,7 +5956,7 @@ Overfull \hbox (7.5015pt too wide) in paragraph at lines 205--215
  [][][][] 
  []
 
-[622]
+[626]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -6062,7 +5989,7 @@ Overfull \hbox (7.5015pt too wide) in paragraph at lines 286--296
  [][][][] 
  []
 
-[623]
+[627]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -6075,7 +6002,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [624]
+ [628]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -6088,99 +6015,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [625]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [626]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [627] [628] [629]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
+ [629]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -6206,6 +6041,98 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [631] [632] [633]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [634]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
 
 Overfull \hbox (2.0737pt too wide) in paragraph at lines 653--653
 [][] []
@@ -6216,7 +6143,7 @@ Overfull \hbox (2.0737pt too wide) in alignment at lines 652--653
 [] [] 
  []
 
-[631]
+[635]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -6229,87 +6156,6 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [632]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [633] [634]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [635]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -6335,7 +6181,6 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [637] [638] [639]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -6360,7 +6205,13 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [640] [641]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [637] [638]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -6373,18 +6224,57 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [642]
-[643]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [639]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [640]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [641] [642] [643]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -6398,6 +6288,43 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
  [644] [645]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [646]
+[647]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [648] [649]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -6427,7 +6354,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-[646] [647]
+[650] [651]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -6440,7 +6367,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [648] [649]
+ [652] [653]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -6458,7 +6385,7 @@ Overfull \hbox (4.75833pt too wide) in paragraph at lines 1363--1374
  [][][][] 
  []
 
-[650] [651]
+[654] [655]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -6512,7 +6439,7 @@ Overfull \hbox (7.17068pt too wide) in paragraph at lines 1468--1485
  [][][][] 
  []
 
-[652]
+[656]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -6573,7 +6500,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [653] [654] [655]
+ [657] [658] [659]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -6651,7 +6578,7 @@ Overfull \hbox (3.89352pt too wide) in paragraph at lines 1713--1714
 ھونن مساوی حاصل کرتے ہیں۔اس دور کو شکل-ب میں دکھایا گیا ہے۔شکل-[]
  []
 
-[656] [657] [658]
+[660] [661] [662]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -6664,7 +6591,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [659]
+ [663]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -6683,7 +6610,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [660] [661] [662] [663]
+ [664] [665] [666] [667]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -6738,7 +6665,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [664]
+ [668]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -6763,7 +6690,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [665]
+ [669]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -6788,7 +6715,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [666]
+ [670]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -6813,7 +6740,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [667]
+ [671]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -6899,7 +6826,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-[668] [669] [670]
+[672] [673] [674]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -6942,7 +6869,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [671]
+ [675]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7038,7 +6965,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-[672] [673]
+[676] [677]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7116,16 +7043,16 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-[674]) [675]
+[678]) [679]
 \openout2 = `./tex/cktPolyphaseCircuits.aux'.
 
- (./tex/cktPolyphaseCircuits.tex [676
+ (./tex/cktPolyphaseCircuits.tex [680
 
 
 
 ]
 باب \RL {\arabicfont 11}.
-[677]
+[681]
 Overfull \hbox (2.24843pt too wide) in paragraph at lines 108--127
  [][][][] 
  []
@@ -7135,22 +7062,22 @@ Overfull \hbox (1.91382pt too wide) in paragraph at lines 133--143
  [][][][] 
  []
 
-[678] [679] [680] [681]
+[682] [683] [684] [685]
 Overfull \hbox (5.869pt too wide) in paragraph at lines 211--211
 [][] []
  []
 
-[682] [683]
+[686] [687]
 Overfull \hbox (14.67184pt too wide) in paragraph at lines 291--302
  [][][][] 
  []
 
-[684] [685] [686] [687] [688] [689] [690] [691]
+[688] [689] [690] [691] [692] [693] [694] [695]
 Overfull \hbox (8.96545pt too wide) in paragraph at lines 564--568
  [][][][] 
  []
 
-[692] [693] [694]
+[696] [697] [698]
 
 LaTeX Warning: Command \b invalid in math mode on input line 624.
 
@@ -7159,18 +7086,18 @@ Missing character: There is no ̲ in font zplmr7m!
 LaTeX Warning: Command \b invalid in math mode on input line 624.
 
 Missing character: There is no ̲ in font zplmr7m!
-[695] [696] [697] [698]
+[699] [700] [701] [702]
 
 LaTeX Warning: Command \b invalid in math mode on input line 749.
 
 Missing character: There is no ̲ in font zplmr7m!
-[699] [700] [701] [702] [703]
+[703] [704] [705] [706] [707]
 Overfull \hbox (11.37451pt too wide) in paragraph at lines 922--924
 []\EU1/JameelNooriNastaleeq(1)/m/n/10 اس طرح منبع کا کل حقیقی طاقت  $[] []$ ، ک
 ل متعاملی طاقت  $[] []$  اور کل ظاہری طاقت  $[] []$[]
  []
 
-[704] [705] [706] [707] [708] [709] [710] [711] [712]
+[708] [709] [710] [711] [712] [713] [714] [715] [716]
 Overfull \hbox (0.20024pt too wide) in paragraph at lines 1209--1211
 [][]\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات: $[][] \OT1/zplm/m/n/10 = \OT1/p
 pl/m/n/10 381[] [] []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ،  $[][] \OT1/zplm/m
@@ -7183,7 +7110,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1209--1211
 [][]
  []
 
-[713]
+[717]
 Overfull \hbox (2.77682pt too wide) in paragraph at lines 1223--1225
 [][]\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات: $[][] \OT1/zplm/m/n/10 = \OT1/p
 pl/m/n/10 115[] [] []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ،  $[][] \OT1/zplm/m
@@ -7209,7 +7136,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1230--1232
 [][]
  []
 
-[714]
+[718]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7242,7 +7169,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1357--1358
 [][]
  []
 
-[715] [716]
+[719] [720]
 Overfull \hbox (9.62901pt too wide) in paragraph at lines 1364--1369
 [] \EU1/JameelNooriNastaleeq(1)/m/n/10 سوال  []\EU1/JameelNooriNastaleeq(0)/bx/
 n/10 14[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx
@@ -7282,7 +7209,7 @@ n/10 18[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx
 جاتا ہے۔منبع دباو  $[] \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 120[] []$[]
  []
 
-[717]
+[721]
 Overfull \hbox (14.31839pt too wide) in paragraph at lines 1436--1437
 [][]\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات: $[] \OT1/zplm/m/n/10 = \OT1/ppl
 /m/n/10 58.4[] [] []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ،  $[] \OT1/zplm/m/n/
@@ -7303,10 +7230,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 1436--1437
 [][]
  []
 
-[718] [719] [720]) [721]
+[722] [723] [724]) [725]
 \openout2 = `./tex/cktFrequencyResponse.aux'.
 
- (./tex/cktFrequencyResponse.tex [722
+ (./tex/cktFrequencyResponse.tex [726
 
 
 
@@ -7322,7 +7249,7 @@ Overfull \hbox (9.62929pt too wide) in paragraph at lines 32--36
  [][][][] 
  []
 
-[723] [724]
+[727] [728]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7349,7 +7276,7 @@ Overfull \hbox (10.78905pt too wide) in paragraph at lines 123--127
  [][][][] 
  []
 
-[725]
+[729]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7383,7 +7310,7 @@ File: ./fig/figFreqResponse/figFreqPhaseRLCvoltA.pdf Graphic file (type QTm)
 
 LaTeX Warning: Float too large for page by 50.35431pt on input line 199.
 
-[726] [727] [728] [729]
+[730] [731] [732] [733]
 Missing character: There is no ک in font zplmr7m!
 Missing character: There is no ے in font zplmr7m!
 Missing character: There is no ب in font zplmr7m!
@@ -7399,24 +7326,11 @@ File: ./fig/figFreqResponse/figFreqAudioAmplifier.pdf Graphic file (type QTm)
 
 LaTeX Warning: Float too large for page by 103.33435pt on input line 269.
 
-[730] [731]
+[734] [735]
 Underfull \vbox (badness 3396) has occurred while \output is active []
 
- [732]
-[733]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [734] [735] [736] [737]
+ [736]
+[737]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7430,18 +7344,31 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
  [738] [739] [740] [741]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [742] [743] [744] [745]
 Missing character: There is no ; in font nullfont!
- [742] [743] [744]
+ [746] [747] [748]
 Missing character: There is no ; in font nullfont!
 
-[745] [746] [747] [748] [749] [750] [751] [752] [753]
+[749] [750] [751] [752] [753] [754] [755] [756] [757]
 Overfull \hbox (30.6533pt too wide) in paragraph at lines 876--877
 [][]\EU1/JameelNooriNastaleeq(1)/m/n/10 ہمیں عموماً درمیانی تعدد پر بوڈا خط میں
  زیادہ دلچسپی ہوتی ہے۔ایسی صورت میں بوڈا مقداری خط درمیانی تعدد  $\OT1/zplm/m/n
 /10 ([] [] \OML/zplm/m/it/10 <$[]
  []
 
-[754] [755] [756] [757] [758]
+[758] [759] [760] [761] [762]
 File: ./fig/figFreqResponse/figFreqDoublePolePhasePlot.pdf Graphic file (type Q
 Tm)
 
@@ -7456,44 +7383,14 @@ Missing character: There is no 6 in font nullfont!
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[759] [760]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-
-Overfull \vbox (1.5449pt too high) has occurred while \output is active []
-
-
-[761] [762]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-
-Overfull \vbox (1.5449pt too high) has occurred while \output is active []
-
-
 [763] [764]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
 
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
 [765] [766]
-Overfull \vbox (1.5449pt too high) has occurred while \output is active []
-
-
-[767] [768]
-Overfull \vbox (1.5449pt too high) has occurred while \output is active []
-
-
-[769] [770]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7501,6 +7398,21 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
+Overfull \vbox (1.5449pt too high) has occurred while \output is active []
+
+
+[767] [768]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \vbox (1.5449pt too high) has occurred while \output is active []
+
+
+[769] [770]
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
@@ -7509,28 +7421,21 @@ Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
 [773] [774]
-Overfull \vbox (1.5449pt too high) has occurred while \output is active []
-
-
-[775]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [776]
+
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[777]
-File: ./fig/figFreqResponse/figFreqSelevtivityAndQMagnitude.pdf Graphic file (t
-ype QTm)
- <use  "./fig/figFreqResponse/figFreqSelevtivityAndQMagnitude.pdf" >
-File: ./fig/figFreqResponse/figFreqSelevtivityAndQPhase.pdf Graphic file (type 
-QTm)
+[775] [776]
+Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
-<use  "./fig/figFreqResponse/figFreqSelevtivityAndQPhase.pdf" > [778]
+
+[777] [778]
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
@@ -7542,67 +7447,89 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
  [780]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
 [781]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- [782]
+File: ./fig/figFreqResponse/figFreqSelevtivityAndQMagnitude.pdf Graphic file (t
+ype QTm)
+ <use  "./fig/figFreqResponse/figFreqSelevtivityAndQMagnitude.pdf" >
+File: ./fig/figFreqResponse/figFreqSelevtivityAndQPhase.pdf Graphic file (type 
+QTm)
+
+<use  "./fig/figFreqResponse/figFreqSelevtivityAndQPhase.pdf" > [782]
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[783] [784]
-Overfull \vbox (1.5449pt too high) has occurred while \output is active []
-
-
-[785]
+[783]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
+ [784]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \vbox (1.5449pt too high) has occurred while \output is active []
+
+
+[785]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
  [786]
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
 [787] [788]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
 [789]
-File: ./fig/figFreqResponse/figFreqTunedAmplifier.pdf Graphic file (type QTm)
- <use  "./fig/figFreqResponse/figFreqTunedAmplifier.pdf" > [790]
-Overfull \vbox (1.5449pt too high) has occurred while \output is active []
-
-
-[791]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [792]
+ [790]
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[793] [794] [795] [796]
+[791] [792]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \vbox (1.5449pt too high) has occurred while \output is active []
+
+
+[793]
+File: ./fig/figFreqResponse/figFreqTunedAmplifier.pdf Graphic file (type QTm)
+ <use  "./fig/figFreqResponse/figFreqTunedAmplifier.pdf" > [794]
+Overfull \vbox (1.5449pt too high) has occurred while \output is active []
+
+
+[795]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [796]
+Overfull \vbox (1.5449pt too high) has occurred while \output is active []
+
+
+[797] [798] [799] [800]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7614,14 +7541,14 @@ Overfull \hbox (46.80446pt too wide) in paragraph at lines 2128--2130
  [][][][] 
  []
 
-[797] [798] [799]
+[801] [802] [803]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [800]
+ [804]
 File: ./fig/figFreqResponse/figFreqNotchFilter.pdf Graphic file (type QTm)
  <use  "./fig/figFreqResponse/figFreqNotchFilter.pdf" >
 Missing character: There is no 0 in font nullfont!
@@ -7631,7 +7558,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-[801] [802] [803] [804] [805]
+[805] [806] [807] [808] [809]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7662,7 +7589,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [806] [807] [808]
+ [810] [811] [812]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7675,7 +7602,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [809]
+ [813]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7705,7 +7632,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2582--2583
 [][]
  []
 
-[810]
+[814]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7718,7 +7645,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [811] [812]
+ [815] [816]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7752,29 +7679,29 @@ Overfull \hbox (7.1656pt too wide) in paragraph at lines 2734--2741
  [][][][] 
  []
 
-[813] [814] [815]
+[817] [818] [819]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-) [816]
+) [820]
 \openout2 = `./tex/cktLaplaceTransform.aux'.
 
  (./tex/cktLaplaceTransform.tex
 باب \RL {\arabicfont 13}.
-[817
+[821
 
 
 
-] [818] [819] [820] [821] [822] [823] [824] [825] [826] [827] [828]
-[829] [830]
+] [822] [823] [824] [825] [826] [827] [828] [829] [830] [831] [832]
+[833] [834]
 Overfull \hbox (45.38116pt too wide) in paragraph at lines 424--442
  [][][][] 
  []
 
-[831] [832] [833] [834] [835] [836] [837] [838] [839] [840] [841]
+[835] [836] [837] [838] [839] [840] [841] [842] [843] [844] [845]
 Overfull \hbox (9.66963pt too wide) in paragraph at lines 725--725
 [][] []
  []
@@ -7784,21 +7711,21 @@ Overfull \hbox (9.66963pt too wide) in alignment at lines 725--725
 [] [] 
  []
 
-[842] [843] [844] [845] [846] [847]
+[846] [847] [848] [849] [850] [851]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [848] [849] [850] [851] [852] [853]
-[854] [855] [856] [857] [858] [859] [860] [861]) [862]
+ [852] [853] [854] [855] [856] [857]
+[858] [859] [860] [861] [862] [863] [864] [865]) [866]
 \openout2 = `./tex/cktApplicationLaplace.aux'.
 
 
 (./tex/cktApplicationLaplace.tex
 باب \RL {\arabicfont 14}.
-[863
+[867
 
 
 
@@ -7809,7 +7736,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [864] [865] [866]
+ [868] [869] [870]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7828,7 +7755,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [867]
+ [871]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7853,7 +7780,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [868] [869]
+ [872] [873]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7910,7 +7837,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-[870] [871] [872] [873]
+[874] [875] [876] [877]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7923,7 +7850,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [874] [875] [876]
+ [878] [879] [880]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7935,7 +7862,7 @@ Overfull \hbox (3.00569pt too wide) in paragraph at lines 520--522
  [][][][] 
  []
 
-[877]
+[881]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7948,7 +7875,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [878] [879] [880] [881]
+ [882] [883] [884] [885]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7961,7 +7888,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [882] [883]
+ [886] [887]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7985,7 +7912,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-[884] [885] [886]
+[888] [889] [890]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8003,7 +7930,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-[887]
+[891]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8016,11 +7943,11 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [888]
+ [892]
 Underfull \vbox (badness 1681) has occurred while \output is active []
 
- [889]
-[890] [891] [892]
+ [893]
+[894] [895] [896]
 Overfull \hbox (8.0014pt too wide) in paragraph at lines 996--999
  [][][][] 
  []
@@ -8039,7 +7966,7 @@ File: ./fig/figLaplaceTransformApplication/figLaplaceApplicationComplexPlane.pd
 f Graphic file (type QTm)
 
 <use  "./fig/figLaplaceTransformApplication/figLaplaceApplicationComplexPlane.p
-df" > [893] [894] [895]
+df" > [897] [898] [899]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8052,11 +7979,11 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [896]
+ [900]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [897]
-[898] [899] [900] [901] [902]
+ [901]
+[902] [903] [904] [905] [906]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8082,7 +8009,7 @@ File: ./fig/figLaplaceTransformApplication/figLaplaceApplicationPoleZeroPlotRLC
 D.pdf Graphic file (type QTm)
 
 <use  "./fig/figLaplaceTransformApplication/figLaplaceApplicationPoleZeroPlotRL
-CD.pdf" > [903] [904] [905] [906]
+CD.pdf" > [907] [908] [909] [910]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8109,58 +8036,7 @@ n/10 )$  \EU1/JameelNooriNastaleeq(1)/m/n/10 دریافت کریں جہاں  $\O
 /10 ) []$[]
  []
 
-[907] [908]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [909]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [910]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [911] [912]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
+[911] [912]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8180,6 +8056,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
+ [914]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8192,14 +8069,31 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [914] [915]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [916]
+ [915] [916]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8225,6 +8119,21 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
+ [918] [919]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [920]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [921]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8237,8 +8146,26 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [918]
-[919]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [922]
+[923]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8262,7 +8189,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-[920] [921]
+[924] [925]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8281,7 +8208,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [922]
+ [926]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8299,16 +8226,16 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-[923] [924]) [925]
+[927] [928]) [929]
 \openout2 = `./tex/cktFourierAnalysis.aux'.
 
- (./tex/cktFourierAnalysis.tex [926
+ (./tex/cktFourierAnalysis.tex [930
 
 
 
 ]
 باب \RL {\arabicfont 15}.
-[927]
+[931]
 Overfull \hbox (19.01079pt too wide) in paragraph at lines 84--99
 []\EU1/XBTabrizBold(0)/m/n/10 ہارمونی رکن[][] \EU1/JameelNooriNastaleeq(1)/m/n/
 10 کہلاتا ہے،  $\OML/zplm/m/it/10 a[] []\OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 3\OML
@@ -8318,7 +8245,7 @@ astaleeq(1)/m/n/10 تیسرا ہارمونی رکن اور اسی طرح  $\OML/
 /zplm/m/n/10 (\OML/zplm/m/it/10 m![]t\OT1/zplm/m/n/10 ) +$[]
  []
 
-[928] [929] [930] [931] [932] [933] [934] [935] [936] [937]
+[932] [933] [934] [935] [936] [937] [938] [939] [940] [941]
 File: ./fig/figFourierAnalysis/figFourierSawTooth2.pdf Graphic file (type QTm)
 
 <use  "./fig/figFourierAnalysis/figFourierSawTooth2.pdf" >
@@ -8336,10 +8263,10 @@ Overfull \hbox (11.25818pt too wide) in paragraph at lines 300--301
  [][][][][][] 
  []
 
-[938] [939]
+[942] [943]
 Underfull \vbox (badness 4279) has occurred while \output is active []
 
- [940]
+ [944]
 File: ./fig/figFourierAnalysis/figFourierSquareWave5.pdf Graphic file (type QTm
 )
 
@@ -8351,7 +8278,7 @@ m)
 File: ./fig/figFourierAnalysis/figFourierSquareWave50.pdf Graphic file (type QT
 m)
 
-<use  "./fig/figFourierAnalysis/figFourierSquareWave50.pdf" > [941] [942]
+<use  "./fig/figFourierAnalysis/figFourierSquareWave50.pdf" > [945] [946]
 Overfull \hbox (14.9422pt too wide) in paragraph at lines 412--412
 [][] []
  []
@@ -8361,7 +8288,7 @@ Overfull \hbox (11.32196pt too wide) in paragraph at lines 428--428
 [][] []
  []
 
-[943] [944] [945] [946]
+[947] [948] [949] [950]
 Overfull \hbox (45.92307pt too wide) in paragraph at lines 543--543
 [][] []
  []
@@ -8371,7 +8298,7 @@ Overfull \hbox (45.92307pt too wide) in alignment at lines 543--543
 [] [] 
  []
 
-[947]
+[951]
 Overfull \hbox (24.72366pt too wide) detected at line 571
  []$[]  \OML/zplm/m/it/10 f\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/1
 0 ) = \OML/cmm/b/it/10 c[] \OT1/zplm/m/n/10 + \OML/cmm/b/it/10 c[]\OML/zplm/m/i
@@ -8382,16 +8309,16 @@ plm/m/it/10 e[] \OT1/zplm/m/n/10 + \OML/cmm/b/it/10 c[]\OML/zplm/m/it/10 e[] []
   $ 
  []
 
-[948] [949] [950]
+[952] [953] [954]
 Underfull \vbox (badness 3375) has occurred while \output is active []
 
- [951]
-[952] [953] [954] [955] [956] [957] [958] [959] [960]
+ [955]
+[956] [957] [958] [959] [960] [961] [962] [963] [964]
 Overfull \hbox (11.71384pt too wide) in paragraph at lines 955--958
  [][][][] 
  []
 
-[961] [962] [963] [964] [965]
+[965] [966] [967] [968] [969]
 Overfull \hbox (9.59366pt too wide) in paragraph at lines 1117--1120
  [][][][] 
  []
@@ -8401,21 +8328,21 @@ Overfull \hbox (14.09714pt too wide) in paragraph at lines 1125--1128
  [][][][] 
  []
 
-[966] [967]
+[970] [971]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [968]
+ [972]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [969] [970] [971] [972]
+ [973] [974] [975] [976]
 Overfull \hbox (36.97258pt too wide) in paragraph at lines 1396--1399
  [][][][] 
  []
@@ -8428,28 +8355,28 @@ Overfull \hbox (36.97258pt too wide) in paragraph at lines 1405--1432
 
 LaTeX Warning: Float too large for page by 49.15718pt on input line 1437.
 
-[973] [974] [975] [976] [977] [978] [979]
+[977] [978] [979] [980] [981] [982] [983]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [980] [981] [982] [983]
+ [984] [985] [986] [987]
 Underfull \vbox (badness 1596) has occurred while \output is active []
 
- [984]
-[985]
+ [988]
+[989]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [986] [987] [988] [989]
+ [990] [991] [992] [993]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [990]
+ [994]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8479,24 +8406,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 1981--1982
 [][]
  []
 
-[991] [992] [993] [994] [995] [996] [997] [998]
+[995] [996] [997] [998] [999] [1000] [1001] [1002]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [999]) [1000]
+ [1003]) [1004]
 \openout2 = `./tex/cktTwoPortNetworks.aux'.
 
 
 (./tex/cktTwoPortNetworks.tex
 باب \RL {\arabicfont 16}.
-[1001
+[1005
 
 
 
-] [1002] [1003] [1004] [1005] [1006] [1007] [1008]
+] [1006] [1007] [1008] [1009] [1010] [1011] [1012]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8515,31 +8442,18 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [1009]
+ [1013]
 Missing character: There is no م in font zplmr7m!
 Missing character: There is no م in font zplmr7m!
- [1010]
+ [1014]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [1011]
-[1012] [1013] [1014]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [1015] [1016] [1017] [1018]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
+ [1015]
+[1016] [1017] [1018]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8547,34 +8461,47 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
  [1019] [1020] [1021] [1022]
-[1023]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [1024] [1025]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-) [1026] [1027] [1028
+ [1023] [1024] [1025] [1026]
+[1027]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [1028] [1029]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+) [1030] [1031] [1032
 
 
-] (./circuitAnalysis.ind [1029
+] (./circuitAnalysis.ind [1033
 
 
 
 ]
-[1030] [1031] [1032] [1033] [1034]
+[1034] [1035] [1036] [1037] [1038]
 Overfull \hbox (1.1658pt too wide) in paragraph at lines 525--526
-[]| \EU1/ppl/m/n/10 Source Transformation, 261, 266 
+[]| \EU1/ppl/m/n/10 Source Transformation, 265, 270 
  []
 
-[1035] [1036] [1037] [1038] [1039] [1040] [1041] [1042] [1043] [1044] [1045])
+[1039] [1040] [1041] [1042] [1043] [1044] [1045] [1046] [1047] [1048] [1049])
 (./circuitAnalysis.aux (./tex/cktPreface.aux) (./tex/prefaceFirstBook.aux)
 (./tex/cktBasics.aux) (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux)
 (./tex/cktOpamp.aux) (./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
@@ -8592,12 +8519,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 137132 strings out of 493918
- 3279712 string characters out of 6150562
- 4101939 words of memory out of 5000000
- 139171 multiletter control sequences out of 15000+600000
+ 136240 strings out of 493918
+ 3257568 string characters out of 6150562
+ 4107511 words of memory out of 5000000
+ 138279 multiletter control sequences out of 15000+600000
  56958 words of font info for 204 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  66i,24n,372p,10476b,3246s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (1057 pages).
+Output written on circuitAnalysis.pdf (1061 pages).

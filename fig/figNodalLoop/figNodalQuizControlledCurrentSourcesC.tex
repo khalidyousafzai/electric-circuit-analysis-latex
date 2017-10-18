@@ -36,7 +36,7 @@
 \begin{tikzpicture}[]
 %\boxLeft[p]{0,0} 
 %grid
-\draw(0,0) to [american current source,l={$\SI{1}{\milli\ampere}$}]++(0,\y) to [short]++(\x,0) to [resistor,i={$I_a$},l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{8}{\kilo\ohm}$}]++(0,-\y) to [short]++(-3*\x,0);
+\draw(0,0) to [american current source,l={$\SI{1}{\milli\ampere}$}]++(0,\y) to [short]++(\x,0)node[above left]{$V_0$} to [resistor,i={$I_a$},l={$\SI{2}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(\x,0) to [resistor,l={$\SI{8}{\kilo\ohm}$}]++(0,-\y) to [short]++(-3*\x,0);
 \draw(\x,0)node[ground]{};
 \draw(\x,0) to [resistor,*-*,l={$\SI{2}{\kilo\ohm}$}]++(0,\y) to [short]++(0,\y/2) to [american controlled current source,l={$3 I_a$}]++(2*\x,0) to [short,-*]++(0,-\y/2);
 \draw(2*\x,0) to [resistor,*-*,l={$\SI{6}{\kilo\ohm}$}]++(0,\y);

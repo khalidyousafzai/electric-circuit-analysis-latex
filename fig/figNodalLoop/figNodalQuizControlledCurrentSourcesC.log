@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  1 APR 2017 19:52
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  18 OCT 2017 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1333,12 +1333,12 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 ]
 (./figNodalQuizControlledCurrentSourcesC.aux) ) 
 Here is how much of TeX's memory you used:
- 31928 strings out of 493918
- 712602 string characters out of 6150562
- 811400 words of memory out of 5000000
- 34686 multiletter control sequences out of 15000+600000
+ 31934 strings out of 493918
+ 712710 string characters out of 6150562
+ 812400 words of memory out of 5000000
+ 34692 multiletter control sequences out of 15000+600000
  6987 words of font info for 42 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 56i,10n,65p,10498b,1382s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,10n,65p,10498b,1388s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on figNodalQuizControlledCurrentSourcesC.pdf (1 page).
