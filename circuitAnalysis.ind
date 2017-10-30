@@ -46,7 +46,7 @@
   \item battery cell, 114
   \item block diagram, 1005
   \item Bode
-    \subitem phase plot, 752
+    \subitem phase plot, 754
   \item Bode plot, 743
   \item boost converter, 441
   \item branch, 46, 47
@@ -78,7 +78,7 @@
     \subitem frequency, 821
     \subitem number, 455
     \subitem plane, 455, 897
-  \item complex conjugate, 740
+  \item complex conjugate, 741
   \item complex function, 473
   \item complex power, 588
   \item computer, 25, 437
@@ -94,7 +94,7 @@
   \item core
     \subitem magnetic, 333, 623
     \subitem non-magnetic, 333
-  \item corner frequencies, 737
+  \item corner frequencies, 738
   \item Coulomb, 2
   \item coupled coils, 626
   \item coupling
@@ -110,8 +110,8 @@
     \subitem current controlled, 105
     \subitem voltage controlled, 106
   \item cut-off
-    \subitem high frequency, 737
-    \subitem low frequency, 737
+    \subitem high frequency, 738
+    \subitem low frequency, 738
   \item cut-off frequency, 800
 
   \indexspace
@@ -124,7 +124,7 @@
   \item data
     \subitem digital, 25
   \item DC, 3, 432
-  \item decibel, 743
+  \item decibel, 744
   \item delta connection, 695
   \item depended
     \subitem current source, 18
@@ -226,7 +226,7 @@
   \item heat convection, 85
   \item Henry, 333
   \item Hertz, 461, 931
-  \item high cut-off frequency, 737
+  \item high cut-off frequency, 738
   \item high voltage side, 651
   \item high-pass filter, 798
   \item homogenous equation, 378
@@ -290,7 +290,7 @@
   \item lag, 464
   \item Laplace
     \subitem inverse transform, 822
-  \item Laplace transform, 734, 821
+  \item Laplace transform, 735, 821
   \item law
     \subitem conservation of energy, 13
   \item lead, 464
@@ -310,7 +310,7 @@
   \item loop current, 166
   \item loss, 11
   \item lossless components, 560
-  \item low cut-off frequency, 737
+  \item low cut-off frequency, 738
   \item low voltage side, 651
   \item low-pass filter, 798
   \item LT, 651
@@ -327,7 +327,7 @@
     \subitem conductance, 140
     \subitem current, 141
   \item matrix equation, 133
-  \item mid-frequency range, 737
+  \item mid-frequency range, 738
   \item model, 18, 209
     \subitem admittance, 1006
     \subitem hybrid, 1017
@@ -405,8 +405,8 @@
   \item plane
     \subitem complex, 897
     \subitem s, 897
-  \item pole, 736
-  \item poles, 740
+  \item pole, 737
+  \item poles, 741
   \item port
     \subitem input-output, 25
   \item potential energy, 10, 322
@@ -549,7 +549,7 @@
   \item transconductance gain, 20
   \item transcresistance
     \subitem gain, 894
-  \item transfer function, 738, 894
+  \item transfer function, 739, 894
 \newpage
 
   \item transformation
@@ -604,9 +604,9 @@
 
   \item WAPDA, 605
   \item watt, 10
-  \item weightage, 225
 \newpage
 
+  \item weightage, 225
   \item wire
     \subitem cold, 606
     \subitem hot, 606
@@ -621,9 +621,10 @@
 
   \indexspace
 
-  \item zeroes, 740
+  \item zeroes, 741
 \end{otherlanguage}
-  \newpage
+  
+\newpage
 \item آزاد
    \subitem منبع رو، 15
 \item آزاد متغیر، 321
@@ -677,8 +678,8 @@
 \item انفعال پرزہ، 10، 15
 \item انفعالی سمت کی ترکیب، 5
 \item انقطاعی
-   \subitem بلند تعدد، 737
-   \subitem پست تعدد، 737
+   \subitem بلند تعدد، 738
+   \subitem پست تعدد، 738
 \item انقطاعی تعدد، 800
 \item انورٹر، 992
 \item اوہم، 38
@@ -725,13 +726,13 @@
 \item بُعد، 18
 \item بلا جوڑ
    \subitem تفاعل، 323، 335
-\item بلند انقطاعی تعدد، 737
+\item بلند انقطاعی تعدد، 738
 \item بلند گزار چھلنی، 798
 \item بنیادی رکن، 934
 \item بوجھ
    \subitem تکونی، 700
 \item بوڈا
-   \subitem زاویائی خط، 752
+   \subitem زاویائی خط، 754
 \item بوڈا خط، 743
 \item بہاو
    \subitem ارتباط، 624
@@ -765,7 +766,8 @@
    \subitem ستارہ-تکون، 96
 \item تبادلہ منبع
    \subitem مسئلہ، 270
-\item تبادلی تفاعل، 738، 894
+\item تبادلی تفاعل، 739، 894
+\item تبدیل محل قالب، 134
 \item تجزیہ گاہ، 895
 \item تجزیہ نظام، 850
 \item تختہ غوطہ، 60
@@ -781,10 +783,10 @@
 \item تسلسل
    \subitem فوریئر، 932
 \item تعدد، 461، 931
-   \subitem بلند انقطاعی، 737
-   \subitem پست انقطاعی، 737
+   \subitem بلند انقطاعی، 738
+   \subitem پست انقطاعی، 738
    \subitem زاویائی، 931
-   \subitem کونے کی، 737
+   \subitem کونے کی، 738
    \subitem مخلوط، 821
 \item تعدد تابع، 743
 \item تعددی پٹی، 734
@@ -847,9 +849,8 @@
 \item جوڑ، 46، 59
    \subitem ترکیب، 127
    \subitem مخلوط، 155
-\item جوڑی دار مخلوط، 740
+\item جوڑی دار مخلوط، 741
 \indexspace
-\item حتمی قیمت، 134
 \item حد، 854
 \item حرارت
    \subitem اتصال، 85
@@ -905,7 +906,7 @@
    \subitem دوری، 682
    \subitem ضابط، 18
 \item دباو پکڑ، 436
-\item درمیانی تعدد خطہ، 737
+\item درمیانی تعدد خطہ، 738
 \item دلیل، 461
 \item دندان موج، 942
 \item دندانہ چھلنی، 804
@@ -952,7 +953,6 @@
 \item رکاوٹ نما
    \subitem کھلے سر، 1012
 \item رکاوٹی نمونہ، 1011
-\item ریاضی معکوس، 134
 \item ریاضی نمومے، 18
 \indexspace
 \item زاویہ
@@ -960,7 +960,7 @@
    \subitem امالی جزو طاقت، 585
    \subitem برق گیر جزو طاقت، 585
    \subitem پیچھے جزو طاقت، 585
-\item زاویائی بوڈا خط، 752
+\item زاویائی بوڈا خط، 754
 \item زاویائی تعدد، 931
 \item زاویائی خصلت، 743، 799
 \item زاویائی رفتار، 461
@@ -1005,9 +1005,8 @@
 \item سیمنز، 40
 \indexspace
 \item شاخ، 46، 47
-\item شریک قالب، 134
 \indexspace
-\item صفر، 740
+\item صفر، 741
 \indexspace
 \item ضابط
    \subitem دباو، 18
@@ -1085,7 +1084,7 @@
    \subitem داخلی فراوانی، 1006
    \subitem فراوانی نما، 1006
 \item قصری ارتعاش، 415
-\item قطب، 736، 740
+\item قطب، 737، 741
    \subitem ہم، 839
 \item قوت نمائی
    \subitem انحطاط، 381
@@ -1093,7 +1092,7 @@
 \item قیمت
    \subitem علامتی، 87
 \indexspace
-\item لاپلاس بدل، 734، 821
+\item لاپلاس بدل، 735، 821
    \subitem الٹ، 822
 \item لچھا، 333، 623
 \item لوگارتھم، 732
@@ -1153,8 +1152,7 @@
 \item مستحکم کار، 222
 \item مستطیلی طرز، 456
 \item مشترکہ امالہ، 626
-\item معکوس
-   \subitem ریاضی، 134
+\item معکوس، 134
 \item معیار، 935
 \item معیاری مستقل، 767
 \item مقداری
@@ -1165,6 +1163,7 @@
    \subitem فاصل، 902
    \subitem کم، 414، 901
 \item مقصور سائن نما، 897، 900
+\item مقطع قالب، 134
 \item مقناطیسی
    \subitem شدت، 647
 \item مقناطیسی بہاو، 623
@@ -1252,7 +1251,7 @@
 \item پرزہ
    \subitem انفعال، 10
    \subitem عامل، 10
-\item پست انقطاعی تعدد، 737
+\item پست انقطاعی تعدد، 738
 \item پست گزار چھلنی، 798
 \item پنیا
    \subitem طاقتی، 207
@@ -1281,7 +1280,7 @@
 \indexspace
 \item ڈبہ دور، 1005
 \item ڈھلوان، 37
-\item ڈیسی بیل، 743
+\item ڈیسی بیل، 744
 \indexspace
 \item کارتیسی محدد، 37، 460
 \item کامل حسابی ایمپلیفائر، 217
@@ -1304,10 +1303,9 @@
 \indexspace
 \item گرم تار، 606
 \item گمک، 762
-
-\newpage
 \item گمکی تعدد، 763
 \item گمکی دور، 763
+\newpage
 \item گنجائش
    \subitem برقی، 319، 320
 \item گھمکی تعدد، 509
@@ -1327,4 +1325,5 @@
 \item یولر مساوات، 459، 473
 \item یک درجی ادوار، 376
 \item یک سمتی رو، 3، 432
+
 \end{theindex}

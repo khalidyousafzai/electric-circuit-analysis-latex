@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  18 OCT 2017 17:27
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  30 OCT 2017 17:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3464,15 +3464,6 @@ pe QTm)
 
 <use  "./fig/figResistive/figResistancePowerFedViaLongWireC.pdf" > [68]
 [69]
-Overfull \hbox (29.34587pt too wide) in paragraph at lines 977--977
-[][] []
- []
-
-
-Overfull \hbox (29.34587pt too wide) in alignment at lines 977--977
-[] [] 
- []
-
 File: ./fig/figResistive/figResistanceVoltageDividerMultipleSuppliesAndResistor
 s.pdf Graphic file (type QTm)
 
@@ -3957,70 +3948,70 @@ Missing character: There is no ص in font zplmr7m!
 Missing character: There is no ر in font zplmr7m!
  [274]
 
-LaTeX Warning: Float too large for page by 98.15869pt on input line 1188.
+LaTeX Warning: Float too large for page by 47.15869pt on input line 1191.
 
 [275] [276]
-Overfull \hbox (18.63463pt too wide) in paragraph at lines 1239--1243
+Overfull \hbox (18.63463pt too wide) in paragraph at lines 1242--1246
  [][][][] 
  []
 
 
-Overfull \hbox (28.02452pt too wide) in paragraph at lines 1319--1324
+Overfull \hbox (28.02452pt too wide) in paragraph at lines 1322--1327
  [][][][] 
  []
 
 [277] [278] [279]
-Overfull \hbox (24.7095pt too wide) in paragraph at lines 1416--1422
+Overfull \hbox (24.7095pt too wide) in paragraph at lines 1419--1425
  [][][][] 
  []
 
 [280] [281] [282] [283] [284]
-Overfull \hbox (5.134pt too wide) in paragraph at lines 1530--1539
+Overfull \hbox (5.134pt too wide) in paragraph at lines 1533--1542
  [][][][] 
  []
 
 [285] [286] [287] [288] [289]
-Overfull \hbox (20.34787pt too wide) in paragraph at lines 1749--1755
+Overfull \hbox (20.34787pt too wide) in paragraph at lines 1752--1758
  [][][][] 
  []
 
 
-Overfull \hbox (15.31964pt too wide) in paragraph at lines 1771--1775
+Overfull \hbox (15.31964pt too wide) in paragraph at lines 1774--1778
  [][][][] 
  []
 
 [290] [291]
-Overfull \hbox (19.7095pt too wide) in paragraph at lines 1814--1823
+Overfull \hbox (19.7095pt too wide) in paragraph at lines 1817--1826
  [][][][] 
  []
 
 
-Overfull \hbox (45.11105pt too wide) in paragraph at lines 1861--1868
+Overfull \hbox (45.11105pt too wide) in paragraph at lines 1864--1871
  [][][][] 
  []
 
 [292] [293] [294] [295] [296] [297]
-Overfull \hbox (2.1379pt too wide) in paragraph at lines 2021--2031
+Overfull \hbox (2.1379pt too wide) in paragraph at lines 2024--2034
  [][][][] 
  []
 
 [298] [299] [300] [301] [302] [303] [304] [305] [306]
-Overfull \hbox (6.99281pt too wide) in paragraph at lines 2392--2401
+Overfull \hbox (6.99281pt too wide) in paragraph at lines 2395--2404
  [][][][] 
  []
 
 [307] [308] [309]
-Overfull \hbox (11.66563pt too wide) in paragraph at lines 2577--2584
+Overfull \hbox (11.66563pt too wide) in paragraph at lines 2580--2587
  [][][][] 
  []
 
 [310] [311] [312] [313] [314] [315]
-Overfull \hbox (6.33846pt too wide) in paragraph at lines 2837--2842
+Overfull \hbox (6.33846pt too wide) in paragraph at lines 2840--2845
  [][][][] 
  []
 
 
-Overfull \hbox (6.89836pt too wide) in paragraph at lines 2847--2854
+Overfull \hbox (6.89836pt too wide) in paragraph at lines 2850--2857
  [][][][] 
  []
 
@@ -4048,12 +4039,12 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (1.55396pt too wide) in paragraph at lines 495--501
+Overfull \hbox (1.55396pt too wide) in paragraph at lines 497--503
  [][][][] 
  []
 
 
-Overfull \hbox (1.55396pt too wide) in paragraph at lines 507--515
+Overfull \hbox (1.55396pt too wide) in paragraph at lines 509--517
  [][][][] 
  []
 
@@ -4061,42 +4052,42 @@ Overfull \hbox (1.55396pt too wide) in paragraph at lines 507--515
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [336]
-Overfull \hbox (8.62637pt too wide) in paragraph at lines 556--562
+Overfull \hbox (8.62637pt too wide) in paragraph at lines 558--564
 [][][][] 
  []
 
 
-Overfull \hbox (10.22102pt too wide) in paragraph at lines 567--574
+Overfull \hbox (10.22102pt too wide) in paragraph at lines 569--576
 [][][][] 
  []
 
 [337] [338]
-Overfull \hbox (4.06415pt too wide) in paragraph at lines 625--632
+Overfull \hbox (4.06415pt too wide) in paragraph at lines 627--634
  [][][][] 
  []
 
 
-Overfull \hbox (11.85413pt too wide) in paragraph at lines 638--646
+Overfull \hbox (11.85413pt too wide) in paragraph at lines 640--648
  [][][][] 
  []
 
 
-Overfull \hbox (11.85413pt too wide) in paragraph at lines 670--680
+Overfull \hbox (11.85413pt too wide) in paragraph at lines 672--682
  [][][][] 
  []
 
 
-Overfull \hbox (11.90959pt too wide) in paragraph at lines 686--696
+Overfull \hbox (11.90959pt too wide) in paragraph at lines 688--698
  [][][][] 
  []
 
 [339]
-Overfull \hbox (14.69957pt too wide) in paragraph at lines 714--724
+Overfull \hbox (14.69957pt too wide) in paragraph at lines 716--726
  [][][][] 
  []
 
 
-Overfull \hbox (14.40959pt too wide) in paragraph at lines 730--741
+Overfull \hbox (14.40959pt too wide) in paragraph at lines 732--743
  [][][][] 
  []
 
@@ -4114,17 +4105,17 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
  [341]
-Overfull \hbox (11.63133pt too wide) in paragraph at lines 832--841
+Overfull \hbox (11.63133pt too wide) in paragraph at lines 834--843
  [][][][] 
  []
 
 
-Overfull \hbox (19.69124pt too wide) in paragraph at lines 847--857
+Overfull \hbox (19.69124pt too wide) in paragraph at lines 849--859
  [][][][] 
  []
 
 
-Overfull \hbox (19.69124pt too wide) in paragraph at lines 863--873
+Overfull \hbox (19.69124pt too wide) in paragraph at lines 865--875
  [][][][] 
  []
 
@@ -4331,72 +4322,72 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
  [356] [357] [358]
-Overfull \hbox (9.69957pt too wide) in paragraph at lines 1486--1496
+Overfull \hbox (9.69957pt too wide) in paragraph at lines 1488--1498
  [][][][] 
  []
 
 
-Overfull \hbox (9.69957pt too wide) in paragraph at lines 1502--1511
+Overfull \hbox (9.69957pt too wide) in paragraph at lines 1504--1513
  [][][][] 
  []
 
 [359] [360]
-Overfull \hbox (6.34969pt too wide) in paragraph at lines 1553--1561
+Overfull \hbox (6.34969pt too wide) in paragraph at lines 1555--1563
  [][][][] 
  []
 
 
-Overfull \hbox (9.69957pt too wide) in paragraph at lines 1567--1576
+Overfull \hbox (9.69957pt too wide) in paragraph at lines 1569--1578
  [][][][] 
  []
 
 [361] [362]
-Overfull \hbox (2.38707pt too wide) in paragraph at lines 1649--1652
+Overfull \hbox (2.38707pt too wide) in paragraph at lines 1651--1654
  [][][][] 
  []
 
 
-Overfull \hbox (1.32027pt too wide) in paragraph at lines 1658--1661
+Overfull \hbox (1.32027pt too wide) in paragraph at lines 1660--1663
  [][][][] 
  []
 
 
-Overfull \hbox (1.32393pt too wide) in paragraph at lines 1678--1681
+Overfull \hbox (1.32393pt too wide) in paragraph at lines 1680--1683
  [][][][] 
  []
 
 
-Overfull \hbox (7.71373pt too wide) in paragraph at lines 1687--1690
+Overfull \hbox (7.71373pt too wide) in paragraph at lines 1689--1692
  [][][][] 
  []
 
 
-Overfull \hbox (1.32155pt too wide) in paragraph at lines 1716--1721
+Overfull \hbox (1.32155pt too wide) in paragraph at lines 1718--1723
  [][][][] 
  []
 
 
-Overfull \hbox (1.32536pt too wide) in paragraph at lines 1738--1741
+Overfull \hbox (1.32536pt too wide) in paragraph at lines 1740--1743
  [][][][] 
  []
 
 [363] [364] [365]
-Overfull \hbox (7.70824pt too wide) in paragraph at lines 1767--1770
+Overfull \hbox (7.70824pt too wide) in paragraph at lines 1769--1772
  [][][][] 
  []
 
 
-Overfull \hbox (1.31844pt too wide) in paragraph at lines 1776--1779
+Overfull \hbox (1.31844pt too wide) in paragraph at lines 1778--1781
  [][][][] 
  []
 
 [366]
-Overfull \hbox (3.8849pt too wide) in paragraph at lines 1850--1853
+Overfull \hbox (3.8849pt too wide) in paragraph at lines 1852--1855
  [][][][] 
  []
 
 
-Overfull \hbox (3.14267pt too wide) in paragraph at lines 1859--1862
+Overfull \hbox (3.14267pt too wide) in paragraph at lines 1861--1864
  [][][][] 
  []
 
@@ -7322,15 +7313,8 @@ Missing character: There is no ہ in font zplmr7m!
 Missing character: There is no ے in font zplmr7m!
 File: ./fig/figFreqResponse/figFreqAudioAmplifier.pdf Graphic file (type QTm)
 
-<use  "./fig/figFreqResponse/figFreqAudioAmplifier.pdf" >
-
-LaTeX Warning: Float too large for page by 103.33435pt on input line 269.
-
-[734] [735]
-Underfull \vbox (badness 3396) has occurred while \output is active []
-
- [736]
-[737]
+<use  "./fig/figFreqResponse/figFreqAudioAmplifier.pdf" > [734] [735] [736]
+[737] [738]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7343,7 +7327,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [738] [739] [740] [741]
+ [739] [740] [741]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7361,8 +7345,12 @@ Missing character: There is no ; in font nullfont!
  [746] [747] [748]
 Missing character: There is no ; in font nullfont!
 
-[749] [750] [751] [752] [753] [754] [755] [756] [757]
-Overfull \hbox (30.6533pt too wide) in paragraph at lines 876--877
+[749] [750] [751]
+Underfull \vbox (badness 3375) has occurred while \output is active []
+
+ [752]
+[753] [754] [755] [756] [757]
+Overfull \hbox (30.6533pt too wide) in paragraph at lines 881--882
 [][]\EU1/JameelNooriNastaleeq(1)/m/n/10 ہمیں عموماً درمیانی تعدد پر بوڈا خط میں
  زیادہ دلچسپی ہوتی ہے۔ایسی صورت میں بوڈا مقداری خط درمیانی تعدد  $\OT1/zplm/m/n
 /10 ([] [] \OML/zplm/m/it/10 <$[]
@@ -7537,7 +7525,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (46.80446pt too wide) in paragraph at lines 2128--2130
+Overfull \hbox (46.80446pt too wide) in paragraph at lines 2133--2135
  [][][][] 
  []
 
@@ -7616,7 +7604,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (18.6761pt too wide) in paragraph at lines 2582--2583
+Overfull \hbox (18.6761pt too wide) in paragraph at lines 2587--2588
 [][]\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات: $\OT1/ppl/m/n/10 20 []\OT1/zplm
 /m/n/10 (\OT1/ppl/m/n/10 500\OML/zplm/m/it/10 t \OT1/zplm/m/n/10 + \OT1/ppl/m/n
 /10 30[]\OT1/zplm/m/n/10 ) []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ،  $\OT1/ppl
@@ -7628,7 +7616,7 @@ staleeq(1)/m/n/10 ،  $\OT1/ppl/m/n/10 2.640 []\OT1/zplm/m/n/10 (\OT1/ppl/m/n/10
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2582--2583
+Underfull \hbox (badness 10000) in paragraph at lines 2587--2588
 [][]
  []
 
@@ -7659,12 +7647,12 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (23.45338pt too wide) in paragraph at lines 2706--2709
+Overfull \hbox (23.45338pt too wide) in paragraph at lines 2711--2714
  [][][][] 
  []
 
 
-Overfull \hbox (10.54774pt too wide) in paragraph at lines 2715--2718
+Overfull \hbox (10.54774pt too wide) in paragraph at lines 2720--2723
  [][][][] 
  []
 
@@ -7675,7 +7663,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (7.1656pt too wide) in paragraph at lines 2734--2741
+Overfull \hbox (7.1656pt too wide) in paragraph at lines 2739--2746
  [][][][] 
  []
 
@@ -8519,10 +8507,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 136240 strings out of 493918
- 3257568 string characters out of 6150562
- 4107511 words of memory out of 5000000
- 138279 multiletter control sequences out of 15000+600000
+ 137684 strings out of 493918
+ 3293625 string characters out of 6150562
+ 4101406 words of memory out of 5000000
+ 139723 multiletter control sequences out of 15000+600000
  56958 words of font info for 204 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  66i,24n,372p,10476b,3246s stack positions out of 5000i,500n,10000p,200000b,80000s

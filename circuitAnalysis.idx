@@ -255,12 +255,12 @@
 \indexentry{matrix equation}{133}
 \indexentry{قالبی مساوات}{133}
 \indexentry{transpose matrix}{134}
-\indexentry{شریک قالب}{134}
+\indexentry{تبدیل محل قالب}{134}
 \indexentry{inverse}{134}
-\indexentry{معکوس!ریاضی}{134}
-\indexentry{ریاضی معکوس}{134}
+\indexentry{معکوس}{134}
+\indexentry{معکوس}{134}
 \indexentry{determinant}{134}
-\indexentry{حتمی قیمت}{134}
+\indexentry{مقطع قالب}{134}
 \indexentry{matrix!conductance}{140}
 \indexentry{موصلیت!قالب}{140}
 \indexentry{قالب!موصلیت}{140}
@@ -818,34 +818,34 @@
 \indexentry{سپیکر}{732}
 \indexentry{frequency!band}{734}
 \indexentry{تعددی پٹی}{734}
-\indexentry{Laplace transform}{734}
-\indexentry{لاپلاس بدل}{734}
-\indexentry{pole}{736}
-\indexentry{قطب}{736}
-\indexentry{high cut-off frequency}{737}
-\indexentry{cut-off!high frequency}{737}
-\indexentry{انقطاعی!بلند تعدد}{737}
-\indexentry{تعدد!بلند انقطاعی}{737}
-\indexentry{بلند انقطاعی تعدد}{737}
-\indexentry{cut-off!low frequency}{737}
-\indexentry{low cut-off frequency}{737}
-\indexentry{انقطاعی!پست تعدد}{737}
-\indexentry{تعدد!پست انقطاعی}{737}
-\indexentry{پست انقطاعی تعدد}{737}
-\indexentry{corner frequencies}{737}
-\indexentry{تعدد!کونے کی}{737}
-\indexentry{mid-frequency range}{737}
-\indexentry{درمیانی تعدد خطہ}{737}
+\indexentry{Laplace transform}{735}
+\indexentry{لاپلاس بدل}{735}
+\indexentry{pole}{737}
+\indexentry{قطب}{737}
+\indexentry{high cut-off frequency}{738}
+\indexentry{cut-off!high frequency}{738}
+\indexentry{انقطاعی!بلند تعدد}{738}
+\indexentry{تعدد!بلند انقطاعی}{738}
+\indexentry{بلند انقطاعی تعدد}{738}
+\indexentry{cut-off!low frequency}{738}
+\indexentry{low cut-off frequency}{738}
+\indexentry{انقطاعی!پست تعدد}{738}
+\indexentry{تعدد!پست انقطاعی}{738}
+\indexentry{پست انقطاعی تعدد}{738}
+\indexentry{corner frequencies}{738}
+\indexentry{تعدد!کونے کی}{738}
+\indexentry{mid-frequency range}{738}
+\indexentry{درمیانی تعدد خطہ}{738}
 \indexentry{network}{738}
 \indexentry{جال}{738}
-\indexentry{transfer function}{738}
-\indexentry{تبادلی تفاعل}{738}
-\indexentry{zeroes}{740}
-\indexentry{صفر}{740}
-\indexentry{poles}{740}
-\indexentry{قطب}{740}
-\indexentry{complex conjugate}{740}
-\indexentry{جوڑی دار مخلوط}{740}
+\indexentry{transfer function}{739}
+\indexentry{تبادلی تفاعل}{739}
+\indexentry{zeroes}{741}
+\indexentry{صفر}{741}
+\indexentry{poles}{741}
+\indexentry{قطب}{741}
+\indexentry{complex conjugate}{741}
+\indexentry{جوڑی دار مخلوط}{741}
 \indexentry{characteristic!phase}{743}
 \indexentry{phase!characteristic}{743}
 \indexentry{خصلت!زاویائی}{743}
@@ -858,11 +858,11 @@
 \indexentry{بوڈا خط}{743}
 \indexentry{frequency dependent}{743}
 \indexentry{تعدد تابع}{743}
-\indexentry{decibel}{743}
-\indexentry{ڈیسی بیل}{743}
-\indexentry{Bode!phase plot}{752}
-\indexentry{بوڈا!زاویائی خط}{752}
-\indexentry{زاویائی بوڈا خط}{752}
+\indexentry{decibel}{744}
+\indexentry{ڈیسی بیل}{744}
+\indexentry{Bode!phase plot}{754}
+\indexentry{بوڈا!زاویائی خط}{754}
+\indexentry{زاویائی بوڈا خط}{754}
 \indexentry{damping ratio}{761}
 \indexentry{تقصیری تناسب}{761}
 \indexentry{resonance}{762}
