@@ -37,11 +37,11 @@
 %\boxLeft[p]{0,0} 
 %grid
 
-\draw(0,0) to [american controlled current source,l_={$0.002 V_0$}] ++(0,2*\y) to [short]++(-\x,0) to [resistor,l={$\SI{12}{\kilo\ohm}$}]++(0,-2*\y) to [short]++(\x,0);
+\draw(0,0) to [american controlled current source,l_={$0.002 V_a$}] ++(0,2*\y) to [short]++(-\x,0) to [resistor,l={$\SI{12}{\kilo\ohm}$}]++(0,-2*\y) to [short]++(\x,0);
 \draw(0,0) to [short,*-]++(1.5*\x,0) to [resistor,l={$\SI{4}{\kilo\ohm}$}]++(0,\y) to [resistor,l={$\SI{2}{\kilo\ohm}$}] ++(0,\y) to [short,-*]++(-1.5*\x,0);
 \draw(1.5*\x,0) to [short,*-]++(\x,0) to [american current source,l={$\SI{3}{\milli\ampere}$}]++(0,2*\y) to [short,-*]++(-\x,0);
 \draw(1.5*\x+0.2,1.5*\y)node[right]{$\begin{aligned}&+ \\ & V_0 \\ &- \end{aligned}$};
-\draw[gray] (-\x-0.2,\y)node[left]{$\begin{aligned} &+ \\ & V_a \\ &- \end{aligned}$};
+\draw[] (-\x-0.2,\y)node[left]{$\begin{aligned} &+ \\ & V_a \\ &- \end{aligned}$};
 \end{tikzpicture}%
 \end{urdufont}
 \end{document}

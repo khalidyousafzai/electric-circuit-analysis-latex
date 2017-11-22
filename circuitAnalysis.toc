@@ -53,11 +53,11 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 5}}مساوی دور}{\RL {\arabicfont 245}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 5}}مسئلہ خطیّت}{\RL {\arabicfont 245}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 5}}مسئلہ خطی میل}{\RL {\arabicfont 249}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 5}}مساوی ادوار}{\RL {\arabicfont 261}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 5}}مسئلہ تھونن، مسئلہ نارٹن اور مسئلہ تبادلہ منبع}{\RL {\arabicfont 264}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 5}}مساوی ادوار}{\RL {\arabicfont 260}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 5}}مسئلہ تھونن، مسئلہ نارٹن اور مسئلہ تبادلہ منبع}{\RL {\arabicfont 265}}
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 5}}تابع منبع استعمال کرنے والے ادوار}{\RL {\arabicfont 285}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 5}}تابع منبع اور غیر تابع منبع دونوں استعمال کرنے والے ادوار}{\RL {\arabicfont 290}}
-\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 5}}زیادہ سے زیادہ طاقت منتقل کرنے کا مسئلہ}{\RL {\arabicfont 297}}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 5}}تابع منبع اور غیر تابع منبع دونوں استعمال کرنے والے ادوار}{\RL {\arabicfont 291}}
+\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 5}}زیادہ سے زیادہ طاقت منتقل کرنے کا مسئلہ}{\RL {\arabicfont 298}}
 \contentsline {chapter}{\numberline {\RL {\arabicfont 6}}برق گیر اور امالہ گیر}{\RL {\arabicfont 319}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 6}}برق گیر}{\RL {\arabicfont 319}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 6}}امالہ گیر}{\RL {\arabicfont 333}}

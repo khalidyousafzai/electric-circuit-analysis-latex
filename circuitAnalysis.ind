@@ -351,8 +351,8 @@
     \subitem pin, 207
   \item norm, 935
   \item norton
-    \subitem current, 270
-  \item Norton theorem, 265, 270
+    \subitem current, 271
+  \item Norton theorem, 266, 269
   \item notch filter, 804
   \item Nyquist
     \subitem criterion, 828
@@ -489,7 +489,7 @@
   \item socket, 606
   \item source
     \subitem voltage, 10
-  \item Source Transformation theorem, 270
+  \item Source Transformation theorem, 269
   \item speaker, 732
   \item spectrum
     \subitem amplitude, 966
@@ -505,7 +505,7 @@
   \item step, 323, 335
   \item stray, 323
   \item subtractor, 224
-  \item superposition, 251
+  \item superposition, 252
   \item susceptance, 498
   \item switch, 381
     \subitem spdt, 388
@@ -520,19 +520,19 @@
     \subitem frequency modulation, 835
     \subitem frequency-shifting, 835
     \subitem initial value, 854
-    \subitem Norton, 270
+    \subitem Norton, 269
     \subitem Parseval, 984
-    \subitem Source Transformation, 265, 270
-    \subitem Thevenin, 270
+    \subitem Source Transformation, 266, 269
+    \subitem Thevenin, 269
     \subitem time convolution, 981
     \subitem time-scaling, 834
     \subitem time-shifting, 834
   \item thermal energy, 10
   \item thermal loss, 11
   \item Thevenin
-    \subitem Resistance, 265
-  \item Thevenin theorem, 265, 270
-  \item thevenin voltage, 270
+    \subitem Resistance, 266
+  \item Thevenin theorem, 266, 269
+  \item thevenin voltage, 271
   \item three phase balanced system, 681
   \item time constant, 379, 799
   \item time convolution
@@ -604,9 +604,9 @@
 
   \item WAPDA, 605
   \item watt, 10
+  \item weightage, 225
 \newpage
 
-  \item weightage, 225
   \item wire
     \subitem cold, 606
     \subitem hot, 606
@@ -623,8 +623,7 @@
 
   \item zeroes, 741
 \end{otherlanguage}
-  
-\newpage
+  \newpage
 \item آزاد
    \subitem منبع رو، 15
 \item آزاد متغیر، 321
@@ -765,7 +764,7 @@
    \subitem رو، 648
    \subitem ستارہ-تکون، 96
 \item تبادلہ منبع
-   \subitem مسئلہ، 270
+   \subitem مسئلہ، 269
 \item تبادلی تفاعل، 739، 894
 \item تبدیل محل قالب، 134
 \item تجزیہ گاہ، 895
@@ -819,9 +818,9 @@
    \subitem حرارتی، 10
    \subitem مخفی، 10، 322
 \item تھونن
-   \subitem دباو، 270
-   \subitem مزاحمت، 265
-   \subitem مسئلہ، 270
+   \subitem دباو، 271
+   \subitem مزاحمت، 266
+   \subitem مسئلہ، 269
 \item تین تار
    \subitem ستارہ ستارہ، 690
    \subitem نظام، 700
@@ -902,7 +901,7 @@
    \subitem تابع منبع، 17
    \subitem تار، 682
    \subitem تبادلہ، 647
-   \subitem تھونن، 270
+   \subitem تھونن، 271
    \subitem دوری، 682
    \subitem ضابط، 18
 \item دباو پکڑ، 436
@@ -940,7 +939,7 @@
    \subitem تبادلہ، 648
    \subitem دائری، 166
    \subitem قالب، 141
-   \subitem نارٹن، 270
+   \subitem نارٹن، 271
    \subitem یک سمتی، 3
 \item رابطہ
    \subitem کمزور، 644
@@ -1125,7 +1124,7 @@
    \subitem غیر مقناطیسی، 333
    \subitem مقناطیسی، 333
 \item مزاحمت، 38، 492
-   \subitem تھونن، 265
+   \subitem تھونن، 266
    \subitem متغیر، 41
 \item مزاحمت نما
    \subitem افزائش، 894
@@ -1134,17 +1133,17 @@
    \subitem ابتدائی قیمت، 854
    \subitem اختتامی قیمت، 855
    \subitem پارسیوال، 984
-   \subitem تبادلہ منبع، 265، 270
+   \subitem تبادلہ منبع، 266، 269
    \subitem ترمیم تعدد، 835
-   \subitem تھونن، 270
+   \subitem تھونن، 269
    \subitem متناسب وقت، 834
    \subitem منتقلی تعدد، 835
    \subitem منقلی وقت، 834
-   \subitem نارٹن، 270
+   \subitem نارٹن، 269
    \subitem وقتی الجھاو، 981
-\item مسئلہ تھونن، 265
-\item مسئلہ خطی میل، 251
-\item مسئلہ نارٹن، 265
+\item مسئلہ تھونن، 266
+\item مسئلہ خطی میل، 252
+\item مسئلہ نارٹن، 266
 \item مساوات
    \subitem متجانس، 378
 \item مساوی
@@ -1209,8 +1208,8 @@
 \item میٹر، 667
 \indexspace
 \item نارٹن
-   \subitem رو، 270
-   \subitem مسئلہ، 270
+   \subitem رو، 271
+   \subitem مسئلہ، 269
 \item نظام اکائی
    \subitem بین الاقوامی، 1
 \item نقطہ ضرب، 934
@@ -1305,11 +1304,10 @@
 \item گمک، 762
 \item گمکی تعدد، 763
 \item گمکی دور، 763
-\newpage
 \item گنجائش
    \subitem برقی، 319، 320
 \item گھمکی تعدد، 509
-\indexspace
+\newpage
 \item ہارمونی
    \subitem بنیادی رکن، 934
    \subitem دوسرا رکن، 934
@@ -1325,5 +1323,4 @@
 \item یولر مساوات، 459، 473
 \item یک درجی ادوار، 376
 \item یک سمتی رو، 3، 432
-
 \end{theindex}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  30 OCT 2017 17:30
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  22 NOV 2017 17:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3681,10 +3681,10 @@ type QTm)
 File: ./fig/figResistive/figResistancesQuizControlledSourceB.pdf Graphic file (
 type QTm)
  <use  "./fig/figResistive/figResistancesQuizControlledSourceB.pdf" >
+[109]
 File: ./fig/figResistive/figResistancesQuizControlledSourceC.pdf Graphic file (
 type QTm)
-
-<use  "./fig/figResistive/figResistancesQuizControlledSourceC.pdf" > [109]
+ <use  "./fig/figResistive/figResistancesQuizControlledSourceC.pdf" >
 File: ./fig/figResistive/figResistancesQuizControlledSourceD.pdf Graphic file (
 type QTm)
 
@@ -3693,32 +3693,32 @@ File: ./fig/figResistive/figResistancesQuizControlledSourceE.pdf Graphic file (
 type QTm)
 
 <use  "./fig/figResistive/figResistancesQuizControlledSourceE.pdf" >
-Overfull \hbox (16.44374pt too wide) in paragraph at lines 2069--2070
+Overfull \hbox (16.44374pt too wide) in paragraph at lines 2075--2076
  [][][][][][] 
  []
 
-[110] [111] [112]
-Overfull \hbox (33.13564pt too wide) in paragraph at lines 2217--2219
+[110] [111]
+Overfull \hbox (33.13564pt too wide) in paragraph at lines 2225--2227
  [][][][] 
  []
 
-[113]
-Overfull \hbox (5.44513pt too wide) in paragraph at lines 2296--2300
+[112] [113]
+Overfull \hbox (5.44513pt too wide) in paragraph at lines 2304--2308
  [][][][] 
  []
 
 [114] [115] [116] [117] [118] [119] [120] [121] [122]
-Overfull \hbox (6.1057pt too wide) in paragraph at lines 2668--2671
+Overfull \hbox (6.1057pt too wide) in paragraph at lines 2676--2679
  [][][][] 
  []
 
 
-Overfull \hbox (1.09901pt too wide) in paragraph at lines 2710--2712
+Overfull \hbox (1.09901pt too wide) in paragraph at lines 2718--2720
  [][][][] 
  []
 
 
-Overfull \hbox (3.489pt too wide) in paragraph at lines 2718--2721
+Overfull \hbox (3.489pt too wide) in paragraph at lines 2726--2729
  [][][][] 
  []
 
@@ -3848,16 +3848,12 @@ e QTm)
 <use  "./fig/figNodalLoop/figNodalDependentVoltageExampleA.pdf" > [158]
 [159] [160] [161] [162] [163] [164] [165] [166] [167] [168] [169] [170]
 [171] [172] [173] [174] [175] [176] [177] [178] [179] [180] [181] [182]
-[183] [184]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [185]
-[186]
+[183] [184] [185] [186]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [187]
 [188] [189] [190] [191] [192] [193] [194] [195]
-Overfull \hbox (46.96347pt too wide) in paragraph at lines 2318--2327
+Overfull \hbox (46.96347pt too wide) in paragraph at lines 2320--2329
  [][][][] 
  []
 
@@ -3912,119 +3908,123 @@ Overfull \hbox (0.96758pt too wide) in paragraph at lines 45--51
  [][][][] 
  []
 
-[245] [246] [247] [248] [249] [250] [251] [252]
-Overfull \hbox (11.66563pt too wide) in paragraph at lines 384--387
+[245] [246] [247] [248] [249] [250] [251] [252] [253]
+Overfull \hbox (11.66563pt too wide) in paragraph at lines 401--404
  [][][][] 
  []
 
-[253] [254] [255]
-Overfull \hbox (9.08589pt too wide) in paragraph at lines 427--431
- [][][][] 
- []
-
-
-Overfull \hbox (9.08589pt too wide) in paragraph at lines 437--440
+[254]
+Overfull \hbox (9.08589pt too wide) in paragraph at lines 444--448
  [][][][] 
  []
 
 
-Overfull \hbox (9.08589pt too wide) in paragraph at lines 446--449
+Overfull \hbox (9.08589pt too wide) in paragraph at lines 454--457
  [][][][] 
  []
 
-[256] [257] [258] [259] [260]
-Overfull \hbox (6.66563pt too wide) in paragraph at lines 604--610
+
+Overfull \hbox (9.08589pt too wide) in paragraph at lines 463--466
  [][][][] 
  []
 
-[261] [262] [263] [264] [265] [266] [267] [268] [269] [270]
-Overfull \hbox (20.90952pt too wide) in paragraph at lines 1042--1049
+[255] [256] [257] [258] [259]
+Overfull \hbox (6.66563pt too wide) in paragraph at lines 627--633
  [][][][] 
  []
 
-[271] [272] [273]
+[260] [261] [262] [263] [264] [265] [266] [267] [268]
+Overfull \vbox (1.02899pt too high) has occurred while \output is active []
+
+
+[269] [270] [271] [272]
+Overfull \hbox (20.90952pt too wide) in paragraph at lines 1065--1072
+ [][][][] 
+ []
+
+[273] [274]
 Missing character: There is no ق in font zplmr7m!
 Missing character: There is no ص in font zplmr7m!
 Missing character: There is no ر in font zplmr7m!
- [274]
+ [275]
 
-LaTeX Warning: Float too large for page by 47.15869pt on input line 1191.
+LaTeX Warning: Float too large for page by 47.15869pt on input line 1214.
 
-[275] [276]
-Overfull \hbox (18.63463pt too wide) in paragraph at lines 1242--1246
+[276] [277]
+Overfull \hbox (18.63463pt too wide) in paragraph at lines 1265--1269
  [][][][] 
  []
 
 
-Overfull \hbox (28.02452pt too wide) in paragraph at lines 1322--1327
+Overfull \hbox (28.02452pt too wide) in paragraph at lines 1345--1350
  [][][][] 
  []
 
-[277] [278] [279]
-Overfull \hbox (24.7095pt too wide) in paragraph at lines 1419--1425
+[278] [279] [280]
+Overfull \hbox (24.7095pt too wide) in paragraph at lines 1442--1448
  [][][][] 
  []
 
-[280] [281] [282] [283] [284]
-Overfull \hbox (5.134pt too wide) in paragraph at lines 1533--1542
+[281] [282] [283] [284] [285]
+Overfull \hbox (5.134pt too wide) in paragraph at lines 1560--1569
  [][][][] 
  []
 
-[285] [286] [287] [288] [289]
-Overfull \hbox (20.34787pt too wide) in paragraph at lines 1752--1758
- [][][][] 
- []
-
-
-Overfull \hbox (15.31964pt too wide) in paragraph at lines 1774--1778
- [][][][] 
- []
-
-[290] [291]
-Overfull \hbox (19.7095pt too wide) in paragraph at lines 1817--1826
+[286] [287] [288] [289] [290]
+Overfull \hbox (20.34787pt too wide) in paragraph at lines 1779--1785
  [][][][] 
  []
 
 
-Overfull \hbox (45.11105pt too wide) in paragraph at lines 1864--1871
+Overfull \hbox (15.31964pt too wide) in paragraph at lines 1801--1805
  [][][][] 
  []
 
-[292] [293] [294] [295] [296] [297]
-Overfull \hbox (2.1379pt too wide) in paragraph at lines 2024--2034
- [][][][] 
- []
-
-[298] [299] [300] [301] [302] [303] [304] [305] [306]
-Overfull \hbox (6.99281pt too wide) in paragraph at lines 2395--2404
- [][][][] 
- []
-
-[307] [308] [309]
-Overfull \hbox (11.66563pt too wide) in paragraph at lines 2580--2587
- [][][][] 
- []
-
-[310] [311] [312] [313] [314] [315]
-Overfull \hbox (6.33846pt too wide) in paragraph at lines 2840--2845
+[291] [292]
+Overfull \hbox (19.7095pt too wide) in paragraph at lines 1844--1853
  [][][][] 
  []
 
 
-Overfull \hbox (6.89836pt too wide) in paragraph at lines 2850--2857
+Overfull \hbox (45.11105pt too wide) in paragraph at lines 1891--1898
  [][][][] 
  []
 
-) [316] [317]
+[293] [294] [295] [296] [297] [298]
+Overfull \hbox (2.1379pt too wide) in paragraph at lines 2057--2067
+ [][][][] 
+ []
+
+[299] [300] [301] [302] [303] [304] [305] [306] [307] [308]
+Overfull \hbox (6.99281pt too wide) in paragraph at lines 2433--2442
+ [][][][] 
+ []
+
+[309] [310]
+Overfull \hbox (11.66563pt too wide) in paragraph at lines 2618--2625
+ [][][][] 
+ []
+
+[311] [312] [313] [314] [315] [316]
+Overfull \hbox (6.33846pt too wide) in paragraph at lines 2878--2883
+ [][][][] 
+ []
+
+
+Overfull \hbox (6.89836pt too wide) in paragraph at lines 2888--2895
+ [][][][] 
+ []
+
+) [317] [318]
 \openout2 = `./tex/cktCapacitorInductor.aux'.
 
- (./tex/cktCapacitorInductor.tex [318
-
-
-
-]
+ (./tex/cktCapacitorInductor.tex
 باب \RL {\arabicfont 6}.
-[319] [320] [321] [322] [323] [324] [325] [326] [327] [328] [329] [330]
+[319
+
+
+
+] [320] [321] [322] [323] [324] [325] [326] [327] [328] [329] [330]
 [331] [332] [333] [334]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
@@ -4039,12 +4039,12 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (1.55396pt too wide) in paragraph at lines 497--503
+Overfull \hbox (1.55396pt too wide) in paragraph at lines 505--511
  [][][][] 
  []
 
 
-Overfull \hbox (1.55396pt too wide) in paragraph at lines 509--517
+Overfull \hbox (1.55396pt too wide) in paragraph at lines 517--525
  [][][][] 
  []
 
@@ -4052,42 +4052,42 @@ Overfull \hbox (1.55396pt too wide) in paragraph at lines 509--517
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [336]
-Overfull \hbox (8.62637pt too wide) in paragraph at lines 558--564
+Overfull \hbox (8.62637pt too wide) in paragraph at lines 566--572
 [][][][] 
  []
 
 
-Overfull \hbox (10.22102pt too wide) in paragraph at lines 569--576
+Overfull \hbox (10.22102pt too wide) in paragraph at lines 577--584
 [][][][] 
  []
 
 [337] [338]
-Overfull \hbox (4.06415pt too wide) in paragraph at lines 627--634
+Overfull \hbox (4.06415pt too wide) in paragraph at lines 635--642
  [][][][] 
  []
 
 
-Overfull \hbox (11.85413pt too wide) in paragraph at lines 640--648
+Overfull \hbox (11.85413pt too wide) in paragraph at lines 648--656
  [][][][] 
  []
 
 
-Overfull \hbox (11.85413pt too wide) in paragraph at lines 672--682
+Overfull \hbox (11.85413pt too wide) in paragraph at lines 680--690
  [][][][] 
  []
 
 
-Overfull \hbox (11.90959pt too wide) in paragraph at lines 688--698
+Overfull \hbox (11.90959pt too wide) in paragraph at lines 696--706
  [][][][] 
  []
 
 [339]
-Overfull \hbox (14.69957pt too wide) in paragraph at lines 716--726
+Overfull \hbox (14.69957pt too wide) in paragraph at lines 724--734
  [][][][] 
  []
 
 
-Overfull \hbox (14.40959pt too wide) in paragraph at lines 732--743
+Overfull \hbox (14.40959pt too wide) in paragraph at lines 740--751
  [][][][] 
  []
 
@@ -4105,17 +4105,17 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
  [341]
-Overfull \hbox (11.63133pt too wide) in paragraph at lines 834--843
+Overfull \hbox (11.63133pt too wide) in paragraph at lines 842--851
  [][][][] 
  []
 
 
-Overfull \hbox (19.69124pt too wide) in paragraph at lines 849--859
+Overfull \hbox (19.69124pt too wide) in paragraph at lines 857--867
  [][][][] 
  []
 
 
-Overfull \hbox (19.69124pt too wide) in paragraph at lines 865--875
+Overfull \hbox (19.69124pt too wide) in paragraph at lines 873--883
  [][][][] 
  []
 
@@ -4322,72 +4322,72 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
  [356] [357] [358]
-Overfull \hbox (9.69957pt too wide) in paragraph at lines 1488--1498
+Overfull \hbox (9.69957pt too wide) in paragraph at lines 1494--1504
  [][][][] 
  []
 
 
-Overfull \hbox (9.69957pt too wide) in paragraph at lines 1504--1513
+Overfull \hbox (9.69957pt too wide) in paragraph at lines 1510--1519
  [][][][] 
  []
 
 [359] [360]
-Overfull \hbox (6.34969pt too wide) in paragraph at lines 1555--1563
+Overfull \hbox (6.34969pt too wide) in paragraph at lines 1561--1569
  [][][][] 
  []
 
 
-Overfull \hbox (9.69957pt too wide) in paragraph at lines 1569--1578
+Overfull \hbox (9.69957pt too wide) in paragraph at lines 1575--1584
  [][][][] 
  []
 
 [361] [362]
-Overfull \hbox (2.38707pt too wide) in paragraph at lines 1651--1654
+Overfull \hbox (2.38707pt too wide) in paragraph at lines 1657--1660
  [][][][] 
  []
 
 
-Overfull \hbox (1.32027pt too wide) in paragraph at lines 1660--1663
+Overfull \hbox (1.32027pt too wide) in paragraph at lines 1666--1669
  [][][][] 
  []
 
 
-Overfull \hbox (1.32393pt too wide) in paragraph at lines 1680--1683
+Overfull \hbox (1.32393pt too wide) in paragraph at lines 1686--1689
  [][][][] 
  []
 
 
-Overfull \hbox (7.71373pt too wide) in paragraph at lines 1689--1692
+Overfull \hbox (7.71373pt too wide) in paragraph at lines 1695--1698
  [][][][] 
  []
 
 
-Overfull \hbox (1.32155pt too wide) in paragraph at lines 1718--1723
+Overfull \hbox (1.32155pt too wide) in paragraph at lines 1724--1729
  [][][][] 
  []
 
 
-Overfull \hbox (1.32536pt too wide) in paragraph at lines 1740--1743
+Overfull \hbox (1.32536pt too wide) in paragraph at lines 1746--1749
  [][][][] 
  []
 
 [363] [364] [365]
-Overfull \hbox (7.70824pt too wide) in paragraph at lines 1769--1772
+Overfull \hbox (7.70824pt too wide) in paragraph at lines 1775--1778
  [][][][] 
  []
 
 
-Overfull \hbox (1.31844pt too wide) in paragraph at lines 1778--1781
+Overfull \hbox (1.31844pt too wide) in paragraph at lines 1784--1787
  [][][][] 
  []
 
 [366]
-Overfull \hbox (3.8849pt too wide) in paragraph at lines 1852--1855
+Overfull \hbox (3.8849pt too wide) in paragraph at lines 1858--1861
  [][][][] 
  []
 
 
-Overfull \hbox (3.14267pt too wide) in paragraph at lines 1861--1864
+Overfull \hbox (3.14267pt too wide) in paragraph at lines 1867--1870
  [][][][] 
  []
 
@@ -7070,26 +7070,26 @@ Overfull \hbox (8.96545pt too wide) in paragraph at lines 564--568
 
 [696] [697] [698]
 
-LaTeX Warning: Command \b invalid in math mode on input line 624.
+LaTeX Warning: Command \b invalid in math mode on input line 626.
 
 Missing character: There is no ̲ in font zplmr7m!
 
-LaTeX Warning: Command \b invalid in math mode on input line 624.
+LaTeX Warning: Command \b invalid in math mode on input line 626.
 
 Missing character: There is no ̲ in font zplmr7m!
 [699] [700] [701] [702]
 
-LaTeX Warning: Command \b invalid in math mode on input line 749.
+LaTeX Warning: Command \b invalid in math mode on input line 751.
 
 Missing character: There is no ̲ in font zplmr7m!
 [703] [704] [705] [706] [707]
-Overfull \hbox (11.37451pt too wide) in paragraph at lines 922--924
+Overfull \hbox (11.37451pt too wide) in paragraph at lines 924--926
 []\EU1/JameelNooriNastaleeq(1)/m/n/10 اس طرح منبع کا کل حقیقی طاقت  $[] []$ ، ک
 ل متعاملی طاقت  $[] []$  اور کل ظاہری طاقت  $[] []$[]
  []
 
 [708] [709] [710] [711] [712] [713] [714] [715] [716]
-Overfull \hbox (0.20024pt too wide) in paragraph at lines 1209--1211
+Overfull \hbox (0.20024pt too wide) in paragraph at lines 1211--1213
 [][]\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات: $[][] \OT1/zplm/m/n/10 = \OT1/p
 pl/m/n/10 381[] [] []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ،  $[][] \OT1/zplm/m
 /n/10 = \OT1/ppl/m/n/10 381[] [] []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ،  $[]
@@ -7097,12 +7097,12 @@ pl/m/n/10 381[] [] []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ،  $[][] \OT1/zplm/m
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1209--1211
+Underfull \hbox (badness 10000) in paragraph at lines 1211--1213
 [][]
  []
 
 [717]
-Overfull \hbox (2.77682pt too wide) in paragraph at lines 1223--1225
+Overfull \hbox (2.77682pt too wide) in paragraph at lines 1225--1227
 [][]\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات: $[][] \OT1/zplm/m/n/10 = \OT1/p
 pl/m/n/10 115[] [] []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ،  $[][] \OT1/zplm/m
 /n/10 = \OT1/ppl/m/n/10 115[] [] []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ،  $[]
@@ -7110,12 +7110,12 @@ pl/m/n/10 115[] [] []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ،  $[][] \OT1/zplm/m
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1223--1225
+Underfull \hbox (badness 10000) in paragraph at lines 1225--1227
 [][]
  []
 
 
-Overfull \hbox (8.90015pt too wide) in paragraph at lines 1230--1232
+Overfull \hbox (8.90015pt too wide) in paragraph at lines 1232--1234
 [][]\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات: $[][] \OT1/zplm/m/n/10 = \OT1/p
 pl/m/n/10 416[] [] []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ،  $[][] \OT1/zplm/m
 /n/10 = \OT1/ppl/m/n/10 416[] [] []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ،  $[]
@@ -7123,7 +7123,7 @@ pl/m/n/10 416[] [] []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ،  $[][] \OT1/zplm/m
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1230--1232
+Underfull \hbox (badness 10000) in paragraph at lines 1232--1234
 [][]
  []
 
@@ -7135,7 +7135,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (19.31839pt too wide) in paragraph at lines 1350--1351
+Overfull \hbox (19.31839pt too wide) in paragraph at lines 1352--1353
 [][]\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات: $[] \OT1/zplm/m/n/10 = \OT1/ppl
 /m/n/10 8.61[] [] []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ،  $[] \OT1/zplm/m/n/
 10 = \OT1/ppl/m/n/10 8.61[] [] []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ،  $[] \
@@ -7143,12 +7143,12 @@ OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 8.61[] [] []$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1350--1351
+Underfull \hbox (badness 10000) in paragraph at lines 1352--1353
 [][]
  []
 
 
-Overfull \hbox (14.31839pt too wide) in paragraph at lines 1357--1358
+Overfull \hbox (14.31839pt too wide) in paragraph at lines 1359--1360
 [][]\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات: $[] \OT1/zplm/m/n/10 = \OT1/ppl
 /m/n/10 17.1[] [] []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ،  $[] \OT1/zplm/m/n/
 10 = \OT1/ppl/m/n/10 17.1[] [] []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ،  $[] \
@@ -7156,12 +7156,12 @@ OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 17.1[] [] []$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1357--1358
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1360
 [][]
  []
 
 [719] [720]
-Overfull \hbox (9.62901pt too wide) in paragraph at lines 1364--1369
+Overfull \hbox (9.62901pt too wide) in paragraph at lines 1366--1371
 [] \EU1/JameelNooriNastaleeq(1)/m/n/10 سوال  []\EU1/JameelNooriNastaleeq(0)/bx/
 n/10 14[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx
 /n/10 11[]\EU1/JameelNooriNastaleeq(1)/m/n/10 : متوازن تکون بوجھ کو ستارہ منبع 
@@ -7170,7 +7170,7 @@ n/10 14[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx
  []
 
 
-Overfull \hbox (14.31839pt too wide) in paragraph at lines 1370--1371
+Overfull \hbox (14.31839pt too wide) in paragraph at lines 1372--1373
 [][]\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات: $[] \OT1/zplm/m/n/10 = \OT1/ppl
 /m/n/10 39.7[] [] []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ،  $[] \OT1/zplm/m/n/
 10 = \OT1/ppl/m/n/10 39.7[] [] []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ،  $[] \
@@ -7178,12 +7178,12 @@ OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 39.7[] [] []$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1370--1371
+Underfull \hbox (badness 10000) in paragraph at lines 1372--1373
 [][]
  []
 
 
-Overfull \hbox (9.62901pt too wide) in paragraph at lines 1371--1376
+Overfull \hbox (9.62901pt too wide) in paragraph at lines 1373--1378
 [] \EU1/JameelNooriNastaleeq(1)/m/n/10 سوال  []\EU1/JameelNooriNastaleeq(0)/bx/
 n/10 15[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx
 /n/10 11[]\EU1/JameelNooriNastaleeq(1)/m/n/10 : متوازن تکون بوجھ کو ستارہ منبع 
@@ -7192,7 +7192,7 @@ n/10 15[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx
  []
 
 
-Overfull \hbox (3.5909pt too wide) in paragraph at lines 1392--1397
+Overfull \hbox (3.5909pt too wide) in paragraph at lines 1394--1399
 [] \EU1/JameelNooriNastaleeq(1)/m/n/10 سوال  []\EU1/JameelNooriNastaleeq(0)/bx/
 n/10 18[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx
 /n/10 11[]\EU1/JameelNooriNastaleeq(1)/m/n/10 : متوازن تکون بوجھ کو ستارہ منبع 
@@ -7201,7 +7201,7 @@ n/10 18[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx
  []
 
 [721]
-Overfull \hbox (14.31839pt too wide) in paragraph at lines 1436--1437
+Overfull \hbox (14.31839pt too wide) in paragraph at lines 1438--1439
 [][]\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات: $[] \OT1/zplm/m/n/10 = \OT1/ppl
 /m/n/10 58.4[] [] []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ،  $[] \OT1/zplm/m/n/
 10 = \OT1/ppl/m/n/10 58.4[] [] []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ،  $[] \
@@ -7209,7 +7209,7 @@ OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 58.4[] [] []$[]
  []
 
 
-Overfull \hbox (2.6283pt too wide) in paragraph at lines 1436--1437
+Overfull \hbox (2.6283pt too wide) in paragraph at lines 1438--1439
 []\EU1/JameelNooriNastaleeq(1)/m/n/10 ،  $[] \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10
  33.7[] [] []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ،  $[] \OT1/zplm/m/n/10 = \O
 T1/ppl/m/n/10 33.7[] [] []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ،  $[] \OT1/zpl
@@ -7217,7 +7217,7 @@ m/m/n/10 = \OT1/ppl/m/n/10 33.7[] [] []$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1436--1437
+Underfull \hbox (badness 10000) in paragraph at lines 1438--1439
 [][]
  []
 
@@ -7890,7 +7890,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (18.63165pt too wide) in paragraph at lines 744--747
+Overfull \hbox (18.63165pt too wide) in paragraph at lines 746--749
  [][][][] 
  []
 
@@ -7908,7 +7908,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (46.39424pt too wide) in paragraph at lines 803--808
+Overfull \hbox (46.39424pt too wide) in paragraph at lines 805--810
  [][][][] 
  []
 
@@ -7936,17 +7936,17 @@ Underfull \vbox (badness 1681) has occurred while \output is active []
 
  [893]
 [894] [895] [896]
-Overfull \hbox (8.0014pt too wide) in paragraph at lines 996--999
+Overfull \hbox (8.0014pt too wide) in paragraph at lines 998--1001
  [][][][] 
  []
 
 
-Overfull \hbox (7.99359pt too wide) in paragraph at lines 1017--1020
+Overfull \hbox (7.99359pt too wide) in paragraph at lines 1019--1022
  [][][][] 
  []
 
 
-Overfull \hbox (8.0014pt too wide) in paragraph at lines 1038--1041
+Overfull \hbox (8.0014pt too wide) in paragraph at lines 1040--1043
  [][][][] 
  []
 
@@ -8011,7 +8011,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (17.31891pt too wide) in paragraph at lines 1356--1379
+Overfull \hbox (17.31891pt too wide) in paragraph at lines 1358--1381
 [][]\EU1/JameelNooriNastaleeq(1)/m/n/10 مثال  []\EU1/JameelNooriNastaleeq(0)/bx
 /n/10 10[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/b
 x/n/10 14[]\EU1/JameelNooriNastaleeq(1)/m/n/10 :[] شکل []\EU1/JameelNooriNastal
@@ -8162,7 +8162,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
 
-LaTeX Warning: Command \u invalid in math mode on input line 1850.
+LaTeX Warning: Command \u invalid in math mode on input line 1852.
 
 Missing character: There is no ̆ in font zplmr7m!
 Missing character: There is no 0 in font nullfont!
@@ -8204,7 +8204,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (1.14105pt too wide) in paragraph at lines 1941--1945
+Overfull \hbox (1.14105pt too wide) in paragraph at lines 1943--1947
  [][][][] 
  []
 
@@ -8486,7 +8486,7 @@ Missing character: There is no 6 in font nullfont!
 ]
 [1034] [1035] [1036] [1037] [1038]
 Overfull \hbox (1.1658pt too wide) in paragraph at lines 525--526
-[]| \EU1/ppl/m/n/10 Source Transformation, 265, 270 
+[]| \EU1/ppl/m/n/10 Source Transformation, 266, 269 
  []
 
 [1039] [1040] [1041] [1042] [1043] [1044] [1045] [1046] [1047] [1048] [1049])
@@ -8507,10 +8507,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 137684 strings out of 493918
- 3293625 string characters out of 6150562
- 4101406 words of memory out of 5000000
- 139723 multiletter control sequences out of 15000+600000
+ 137217 strings out of 493918
+ 3281660 string characters out of 6150562
+ 4117232 words of memory out of 5000000
+ 139256 multiletter control sequences out of 15000+600000
  56958 words of font info for 204 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  66i,24n,372p,10476b,3246s stack positions out of 5000i,500n,10000p,200000b,80000s
