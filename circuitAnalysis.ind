@@ -550,12 +550,13 @@
   \item transcresistance
     \subitem gain, 894
   \item transfer function, 739, 894
-\newpage
-
   \item transformation
     \subitem current, 648
     \subitem impedance, 650
     \subitem voltage, 647
+
+\newpage
+
   \item transformer, 333
     \subitem step down, 711
     \subitem step up, 711
@@ -587,8 +588,6 @@
   \item value
     \subitem typical, 87
   \item volt-ampere, 585
-\newpage
-
   \item voltage
     \subitem amplifier, 732
     \subitem gain, 894
@@ -600,18 +599,19 @@
     \subitem current controlled, 107
     \subitem voltage controlled, 104
 
-  \indexspace
+  \newpage
 
   \item WAPDA, 605
   \item watt, 10
   \item weightage, 225
-\newpage
-
   \item wire
     \subitem cold, 606
     \subitem hot, 606
     \subitem live, 606
     \subitem neutral, 606
+
+\newpage 
+
   \item wye-delta transformation, 96
 
   \indexspace
@@ -1308,6 +1308,7 @@
    \subitem برقی، 319، 320
 \item گھمکی تعدد، 509
 \newpage
+
 \item ہارمونی
    \subitem بنیادی رکن، 934
    \subitem دوسرا رکن، 934
@@ -1323,4 +1324,5 @@
 \item یولر مساوات، 459، 473
 \item یک درجی ادوار، 376
 \item یک سمتی رو، 3، 432
+
 \end{theindex}

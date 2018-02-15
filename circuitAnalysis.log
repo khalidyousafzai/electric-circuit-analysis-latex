@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  8 DEC 2017 13:54
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  15 FEB 2018 14:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3134,13 +3134,10 @@ File: ./fig/figBasicConcepts/figBasicVoltagePositiveNegativeSides.pdf Graphic f
 ile (type QTm)
 
 <use  "./fig/figBasicConcepts/figBasicVoltagePositiveNegativeSides.pdf" >
-Underfull \vbox (badness 7047) has occurred while \output is active []
-
- [6]
+[6]
 File: ./fig/figBasicConcepts/figBasicOhmLawExamples.pdf Graphic file (type QTm)
 
-
-<use  "./fig/figBasicConcepts/figBasicOhmLawExamples.pdf" > [7]
+ <use  "./fig/figBasicConcepts/figBasicOhmLawExamples.pdf" > [7]
 File: ./fig/figBasicConcepts/figBasicOhmLawGeneral.pdf Graphic file (type QTm)
 
 <use  "./fig/figBasicConcepts/figBasicOhmLawGeneral.pdf" > [8] [9]
@@ -3433,11 +3430,8 @@ le (type QTm)
 File: ./fig/figResistive/figResistanceVoltageDivider.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figResistive/figResistanceVoltageDivider.pdf" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [62]
-[63] [64] [65] [66]
+<use  "./fig/figResistive/figResistanceVoltageDivider.pdf" > [62] [63] [64]
+[65] [66]
 File: ./fig/figResistive/figResistanceVoltageDividerMultipleResistors.pdf Graph
 ic file (type QTm)
 
@@ -3868,12 +3862,9 @@ Missing character: There is no ; in font nullfont!
 
 
 
-] [208]
-Underfull \vbox (badness 4913) has occurred while \output is active []
-
- [209]
-[210] [211] [212] [213] [214] [215] [216] [217] [218] [219] [220] [221]
-[222] [223] [224] [225] [226] [227] [228] [229] [230] [231]
+] [208] [209] [210] [211] [212] [213] [214] [215] [216] [217] [218]
+[219] [220] [221] [222] [223] [224] [225] [226] [227] [228] [229] [230]
+[231]
 Overfull \hbox (3.52464pt too wide) in paragraph at lines 761--764
  [][][][] 
  []
@@ -3971,22 +3962,12 @@ Overfull \hbox (5.134pt too wide) in paragraph at lines 1560--1569
  []
 
 [286] [287] [288] [289] [290]
-Overfull \hbox (20.34787pt too wide) in paragraph at lines 1779--1785
- [][][][] 
- []
-
-
 Overfull \hbox (15.31964pt too wide) in paragraph at lines 1801--1805
  [][][][] 
  []
 
 [291] [292]
-Overfull \hbox (19.7095pt too wide) in paragraph at lines 1844--1853
- [][][][] 
- []
-
-
-Overfull \hbox (45.11105pt too wide) in paragraph at lines 1891--1898
+Overfull \hbox (10.05528pt too wide) in paragraph at lines 1891--1898
  [][][][] 
  []
 
@@ -5778,11 +5759,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [602] [603] [604] [605] [606]
-Underfull \vbox (badness 2478) has occurred while \output is active []
-
- [607]
-[608] [609] [610]
+ [602] [603] [604] [605] [606] [607] [608] [609] [610]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8507,10 +8484,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 136551 strings out of 493918
- 3265376 string characters out of 6150562
- 4102762 words of memory out of 5000000
- 138590 multiletter control sequences out of 15000+600000
+ 135939 strings out of 493918
+ 3250856 string characters out of 6150562
+ 4112602 words of memory out of 5000000
+ 137978 multiletter control sequences out of 15000+600000
  56958 words of font info for 204 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  66i,24n,372p,10476b,3246s stack positions out of 5000i,500n,10000p,200000b,80000s
