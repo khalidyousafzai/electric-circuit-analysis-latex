@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  12 APR 2018 13:36
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  26 APR 2018 11:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4513,7 +4513,16 @@ Missing character: There is no 6 in font nullfont!
 
 LaTeX Warning: Float too large for page by 17.94896pt on input line 203.
 
-[383] [384] [385] [386]
+[383] [384]
+Overfull \hbox (3.24234pt too wide) in paragraph at lines 251--253
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 عمومی حل میں نا معلوم مستقل کو \EU1/XBTab
+rizBold(0)/m/n/10 ابتدائی شرائط[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 سے حاصل
+ کرتے ہیں جس کے تحت  $\OML/zplm/m/it/10 t \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 0[
+]$  \EU1/JameelNooriNastaleeq(1)/m/n/10 پر  $\OML/zplm/m/it/10 v[]\OT1/zplm/m/n
+/10 (\OT1/ppl/m/n/10 0[]\OT1/zplm/m/n/10 ) =$[]
+ []
+
+[385] [386]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8479,10 +8488,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 137400 strings out of 493918
- 3286430 string characters out of 6150563
- 4111174 words of memory out of 5000000
- 139440 multiletter control sequences out of 15000+600000
+ 136573 strings out of 493918
+ 3265755 string characters out of 6150563
+ 4111772 words of memory out of 5000000
+ 138613 multiletter control sequences out of 15000+600000
  56958 words of font info for 204 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  66i,24n,372p,10476b,3246s stack positions out of 5000i,500n,10000p,200000b,80000s
