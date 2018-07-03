@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  16 MAY 2018 17:40
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  3 JUL 2018 11:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1721,26 +1721,26 @@ LaTeX Font Warning: Font shape `EU1/ppl/m/n' undefined
 (./tex/cktTwoPortNetworks.aux))
 \openout1 = `circuitAnalysis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 150.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 150.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 151.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 151.
  (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    ... okay on input line 151.
 
 ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
@@ -1758,1177 +1758,1177 @@ File: siunitx-abbreviations.cfg 2013/07/31 v2.5s siunitx: Abbreviated units
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \of with arg. spec. '' on line 150.
+. Defining document command \of with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \highlight with arg. spec. '' on line 150.
+. Defining document command \highlight with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \per with arg. spec. '' on line 150.
+. Defining document command \per with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \raiseto with arg. spec. '' on line 150.
+. Defining document command \raiseto with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \tothe with arg. spec. '' on line 150.
+. Defining document command \tothe with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kilogram with arg. spec. '' on line 150.
+. Defining document command \kilogram with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \metre with arg. spec. '' on line 150.
+. Defining document command \metre with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \meter with arg. spec. '' on line 150.
+. Defining document command \meter with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mole with arg. spec. '' on line 150.
+. Defining document command \mole with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \second with arg. spec. '' on line 150.
+. Defining document command \second with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ampere with arg. spec. '' on line 150.
+. Defining document command \ampere with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kelvin with arg. spec. '' on line 150.
+. Defining document command \kelvin with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \candela with arg. spec. '' on line 150.
+. Defining document command \candela with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \gram with arg. spec. '' on line 150.
+. Defining document command \gram with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \yocto with arg. spec. '' on line 150.
+. Defining document command \yocto with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \zepto with arg. spec. '' on line 150.
+. Defining document command \zepto with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \atto with arg. spec. '' on line 150.
+. Defining document command \atto with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \femto with arg. spec. '' on line 150.
+. Defining document command \femto with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \pico with arg. spec. '' on line 150.
+. Defining document command \pico with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nano with arg. spec. '' on line 150.
+. Defining document command \nano with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \micro with arg. spec. '' on line 150.
+. Defining document command \micro with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \milli with arg. spec. '' on line 150.
+. Defining document command \milli with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \centi with arg. spec. '' on line 150.
+. Defining document command \centi with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \deci with arg. spec. '' on line 150.
+. Defining document command \deci with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \deca with arg. spec. '' on line 150.
+. Defining document command \deca with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \deka with arg. spec. '' on line 150.
+. Defining document command \deka with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \hecto with arg. spec. '' on line 150.
+. Defining document command \hecto with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kilo with arg. spec. '' on line 150.
+. Defining document command \kilo with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mega with arg. spec. '' on line 150.
+. Defining document command \mega with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \giga with arg. spec. '' on line 150.
+. Defining document command \giga with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \tera with arg. spec. '' on line 150.
+. Defining document command \tera with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \peta with arg. spec. '' on line 150.
+. Defining document command \peta with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \exa with arg. spec. '' on line 150.
+. Defining document command \exa with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \zetta with arg. spec. '' on line 150.
+. Defining document command \zetta with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \yotta with arg. spec. '' on line 150.
+. Defining document command \yotta with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \becquerel with arg. spec. '' on line 150.
+. Defining document command \becquerel with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \celsius with arg. spec. '' on line 150.
+. Defining document command \celsius with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \degreeCelsius with arg. spec. '' on line 150.
+. Defining document command \degreeCelsius with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \coulomb with arg. spec. '' on line 150.
+. Defining document command \coulomb with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \farad with arg. spec. '' on line 150.
+. Defining document command \farad with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \gray with arg. spec. '' on line 150.
+. Defining document command \gray with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \hertz with arg. spec. '' on line 150.
+. Defining document command \hertz with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \henry with arg. spec. '' on line 150.
+. Defining document command \henry with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \joule with arg. spec. '' on line 150.
+. Defining document command \joule with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \katal with arg. spec. '' on line 150.
+. Defining document command \katal with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \lumen with arg. spec. '' on line 150.
+. Defining document command \lumen with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \lux with arg. spec. '' on line 150.
+. Defining document command \lux with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \newton with arg. spec. '' on line 150.
+. Defining document command \newton with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ohm with arg. spec. '' on line 150.
+. Defining document command \ohm with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \pascal with arg. spec. '' on line 150.
+. Defining document command \pascal with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \radian with arg. spec. '' on line 150.
+. Defining document command \radian with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \siemens with arg. spec. '' on line 150.
+. Defining document command \siemens with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \sievert with arg. spec. '' on line 150.
+. Defining document command \sievert with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \steradian with arg. spec. '' on line 150.
+. Defining document command \steradian with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \tesla with arg. spec. '' on line 150.
+. Defining document command \tesla with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \volt with arg. spec. '' on line 150.
+. Defining document command \volt with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \watt with arg. spec. '' on line 150.
+. Defining document command \watt with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \weber with arg. spec. '' on line 150.
+. Defining document command \weber with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \arcmin with arg. spec. '' on line 150.
+. Defining document command \arcmin with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \arcminute with arg. spec. '' on line 150.
+. Defining document command \arcminute with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \arcsecond with arg. spec. '' on line 150.
+. Defining document command \arcsecond with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \degree with arg. spec. '' on line 150.
+. Defining document command \degree with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \hectare with arg. spec. '' on line 150.
+. Defining document command \hectare with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \hour with arg. spec. '' on line 150.
+. Defining document command \hour with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \litre with arg. spec. '' on line 150.
+. Defining document command \litre with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \liter with arg. spec. '' on line 150.
+. Defining document command \liter with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \minute with arg. spec. '' on line 150.
+. Defining document command \minute with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \percent with arg. spec. '' on line 150.
+. Defining document command \percent with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \tonne with arg. spec. '' on line 150.
+. Defining document command \tonne with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \astronomicalunit with arg. spec. '' on line 150.
+. Defining document command \astronomicalunit with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \atomicmassunit with arg. spec. '' on line 150.
+. Defining document command \atomicmassunit with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \electronvolt with arg. spec. '' on line 150.
+. Defining document command \electronvolt with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \dalton with arg. spec. '' on line 150.
+. Defining document command \dalton with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \clight with arg. spec. '' on line 150.
+. Defining document command \clight with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \electronmass with arg. spec. '' on line 150.
+. Defining document command \electronmass with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \planckbar with arg. spec. '' on line 150.
+. Defining document command \planckbar with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \elementarycharge with arg. spec. '' on line 150.
+. Defining document command \elementarycharge with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \bohr with arg. spec. '' on line 150.
+. Defining document command \bohr with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \hartree with arg. spec. '' on line 150.
+. Defining document command \hartree with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \angstrom with arg. spec. '' on line 150.
+. Defining document command \angstrom with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \barn with arg. spec. '' on line 150.
+. Defining document command \barn with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \bel with arg. spec. '' on line 150.
+. Defining document command \bel with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \decibel with arg. spec. '' on line 150.
+. Defining document command \decibel with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \knot with arg. spec. '' on line 150.
+. Defining document command \knot with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mmHg with arg. spec. '' on line 150.
+. Defining document command \mmHg with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nauticalmile with arg. spec. '' on line 150.
+. Defining document command \nauticalmile with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \neper with arg. spec. '' on line 150.
+. Defining document command \neper with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \square with arg. spec. '' on line 150.
+. Defining document command \square with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \squared with arg. spec. '' on line 150.
+. Defining document command \squared with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \cubic with arg. spec. '' on line 150.
+. Defining document command \cubic with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \cubed with arg. spec. '' on line 150.
+. Defining document command \cubed with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Square with arg. spec. '' on line 150.
+. Defining document command \Square with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ssquare with arg. spec. '' on line 150.
+. Defining document command \ssquare with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \BAR with arg. spec. '' on line 150.
+. Defining document command \BAR with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \bbar with arg. spec. '' on line 150.
+. Defining document command \bbar with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Day with arg. spec. '' on line 150.
+. Defining document command \Day with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \dday with arg. spec. '' on line 150.
+. Defining document command \dday with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Gray with arg. spec. '' on line 150.
+. Defining document command \Gray with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ggray with arg. spec. '' on line 150.
+. Defining document command \ggray with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \atomicmass with arg. spec. '' on line 150.
+. Defining document command \atomicmass with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \are with arg. spec. '' on line 150.
+. Defining document command \are with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \curie with arg. spec. '' on line 150.
+. Defining document command \curie with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \gal with arg. spec. '' on line 150.
+. Defining document command \gal with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \millibar with arg. spec. '' on line 150.
+. Defining document command \millibar with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \rad with arg. spec. '' on line 150.
+. Defining document command \rad with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \rem with arg. spec. '' on line 150.
+. Defining document command \rem with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \roentgen with arg. spec. '' on line 150.
+. Defining document command \roentgen with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \micA with arg. spec. '' on line 150.
+. Defining document command \micA with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \micmol with arg. spec. '' on line 150.
+. Defining document command \micmol with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \micl with arg. spec. '' on line 150.
+. Defining document command \micl with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \micL with arg. spec. '' on line 150.
+. Defining document command \micL with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nanog with arg. spec. '' on line 150.
+. Defining document command \nanog with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \micg with arg. spec. '' on line 150.
+. Defining document command \micg with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \picm with arg. spec. '' on line 150.
+. Defining document command \picm with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \micm with arg. spec. '' on line 150.
+. Defining document command \micm with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Sec with arg. spec. '' on line 150.
+. Defining document command \Sec with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mics with arg. spec. '' on line 150.
+. Defining document command \mics with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \cmc with arg. spec. '' on line 150.
+. Defining document command \cmc with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \dmc with arg. spec. '' on line 150.
+. Defining document command \dmc with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \cms with arg. spec. '' on line 150.
+. Defining document command \cms with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \centimetrecubed with arg. spec. '' on line 150.
+. Defining document command \centimetrecubed with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \centimetresquared with arg. spec. '' on line 150.
+. Defining document command \centimetresquared with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \cubiccentimetre with arg. spec. '' on line 150.
+. Defining document command \cubiccentimetre with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \cubicdecimetre with arg. spec. '' on line 150.
+. Defining document command \cubicdecimetre with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \squarecentimetre with arg. spec. '' on line 150.
+. Defining document command \squarecentimetre with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \squaremetre with arg. spec. '' on line 150.
+. Defining document command \squaremetre with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \squarekilometre with arg. spec. '' on line 150.
+. Defining document command \squarekilometre with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \parsec with arg. spec. '' on line 150.
+. Defining document command \parsec with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \lightyear with arg. spec. '' on line 150.
+. Defining document command \lightyear with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \gmol with arg. spec. '' on line 150.
+. Defining document command \gmol with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kgmol with arg. spec. '' on line 150.
+. Defining document command \kgmol with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \lbmol with arg. spec. '' on line 150.
+. Defining document command \lbmol with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \molar with arg. spec. '' on line 150.
+. Defining document command \molar with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Molar with arg. spec. '' on line 150.
+. Defining document command \Molar with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \torr with arg. spec. '' on line 150.
+. Defining document command \torr with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \gon with arg. spec. '' on line 150.
+. Defining document command \gon with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \micron with arg. spec. '' on line 150.
+. Defining document command \micron with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mrad with arg. spec. '' on line 150.
+. Defining document command \mrad with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \gauss with arg. spec. '' on line 150.
+. Defining document command \gauss with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \eVperc with arg. spec. '' on line 150.
+. Defining document command \eVperc with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nanobarn with arg. spec. '' on line 150.
+. Defining document command \nanobarn with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \picobarn with arg. spec. '' on line 150.
+. Defining document command \picobarn with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \femtobarn with arg. spec. '' on line 150.
+. Defining document command \femtobarn with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \attobarn with arg. spec. '' on line 150.
+. Defining document command \attobarn with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \zeptobarn with arg. spec. '' on line 150.
+. Defining document command \zeptobarn with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \yoctobarn with arg. spec. '' on line 150.
+. Defining document command \yoctobarn with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nb with arg. spec. '' on line 150.
+. Defining document command \nb with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \pb with arg. spec. '' on line 150.
+. Defining document command \pb with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \fb with arg. spec. '' on line 150.
+. Defining document command \fb with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ab with arg. spec. '' on line 150.
+. Defining document command \ab with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \zb with arg. spec. '' on line 150.
+. Defining document command \zb with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \yb with arg. spec. '' on line 150.
+. Defining document command \yb with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \var with arg. spec. '' on line 150.
+. Defining document command \var with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \A with arg. spec. '' on line 150.
+. Defining document command \A with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \pA with arg. spec. '' on line 150.
+. Defining document command \pA with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nA with arg. spec. '' on line 150.
+. Defining document command \nA with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \uA with arg. spec. '' on line 150.
+. Defining document command \uA with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mA with arg. spec. '' on line 150.
+. Defining document command \mA with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kA with arg. spec. '' on line 150.
+. Defining document command \kA with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Hz with arg. spec. '' on line 150.
+. Defining document command \Hz with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mHz with arg. spec. '' on line 150.
+. Defining document command \mHz with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kHz with arg. spec. '' on line 150.
+. Defining document command \kHz with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \MHz with arg. spec. '' on line 150.
+. Defining document command \MHz with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \GHz with arg. spec. '' on line 150.
+. Defining document command \GHz with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \THz with arg. spec. '' on line 150.
+. Defining document command \THz with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mol with arg. spec. '' on line 150.
+. Defining document command \mol with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \fmol with arg. spec. '' on line 150.
+. Defining document command \fmol with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \pmol with arg. spec. '' on line 150.
+. Defining document command \pmol with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nmol with arg. spec. '' on line 150.
+. Defining document command \nmol with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \umol with arg. spec. '' on line 150.
+. Defining document command \umol with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mmol with arg. spec. '' on line 150.
+. Defining document command \mmol with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kmol with arg. spec. '' on line 150.
+. Defining document command \kmol with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \V with arg. spec. '' on line 150.
+. Defining document command \V with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \pV with arg. spec. '' on line 150.
+. Defining document command \pV with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nV with arg. spec. '' on line 150.
+. Defining document command \nV with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \uV with arg. spec. '' on line 150.
+. Defining document command \uV with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mV with arg. spec. '' on line 150.
+. Defining document command \mV with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kV with arg. spec. '' on line 150.
+. Defining document command \kV with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \hl with arg. spec. '' on line 150.
+. Defining document command \hl with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ml with arg. spec. '' on line 150.
+. Defining document command \ml with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ul with arg. spec. '' on line 150.
+. Defining document command \ul with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \hL with arg. spec. '' on line 150.
+. Defining document command \hL with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mL with arg. spec. '' on line 150.
+. Defining document command \mL with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \uL with arg. spec. '' on line 150.
+. Defining document command \uL with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \fg with arg. spec. '' on line 150.
+. Defining document command \fg with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \pg with arg. spec. '' on line 150.
+. Defining document command \pg with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ug with arg. spec. '' on line 150.
+. Defining document command \ug with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mg with arg. spec. '' on line 150.
+. Defining document command \mg with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \g with arg. spec. '' on line 150.
+. Defining document command \g with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kg with arg. spec. '' on line 150.
+. Defining document command \kg with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \amu with arg. spec. '' on line 150.
+. Defining document command \amu with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \W with arg. spec. '' on line 150.
+. Defining document command \W with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \uW with arg. spec. '' on line 150.
+. Defining document command \uW with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mW with arg. spec. '' on line 150.
+. Defining document command \mW with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kW with arg. spec. '' on line 150.
+. Defining document command \kW with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \MW with arg. spec. '' on line 150.
+. Defining document command \MW with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \GW with arg. spec. '' on line 150.
+. Defining document command \GW with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \J with arg. spec. '' on line 150.
+. Defining document command \J with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kJ with arg. spec. '' on line 150.
+. Defining document command \kJ with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \eV with arg. spec. '' on line 150.
+. Defining document command \eV with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \meV with arg. spec. '' on line 150.
+. Defining document command \meV with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \keV with arg. spec. '' on line 150.
+. Defining document command \keV with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \MeV with arg. spec. '' on line 150.
+. Defining document command \MeV with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \GeV with arg. spec. '' on line 150.
+. Defining document command \GeV with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \TeV with arg. spec. '' on line 150.
+. Defining document command \TeV with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kWh with arg. spec. '' on line 150.
+. Defining document command \kWh with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nm with arg. spec. '' on line 150.
+. Defining document command \nm with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \um with arg. spec. '' on line 150.
+. Defining document command \um with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mm with arg. spec. '' on line 150.
+. Defining document command \mm with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \cm with arg. spec. '' on line 150.
+. Defining document command \cm with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \dm with arg. spec. '' on line 150.
+. Defining document command \dm with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \km with arg. spec. '' on line 150.
+. Defining document command \km with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \K with arg. spec. '' on line 150.
+. Defining document command \K with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \dB with arg. spec. '' on line 150.
+. Defining document command \dB with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \F with arg. spec. '' on line 150.
+. Defining document command \F with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \fF with arg. spec. '' on line 150.
+. Defining document command \fF with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \pF with arg. spec. '' on line 150.
+. Defining document command \pF with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \N with arg. spec. '' on line 150.
+. Defining document command \N with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mN with arg. spec. '' on line 150.
+. Defining document command \mN with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kN with arg. spec. '' on line 150.
+. Defining document command \kN with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \MN with arg. spec. '' on line 150.
+. Defining document command \MN with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Pa with arg. spec. '' on line 150.
+. Defining document command \Pa with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kPa with arg. spec. '' on line 150.
+. Defining document command \kPa with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \MPa with arg. spec. '' on line 150.
+. Defining document command \MPa with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \GPa with arg. spec. '' on line 150.
+. Defining document command \GPa with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mohm with arg. spec. '' on line 150.
+. Defining document command \mohm with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kohm with arg. spec. '' on line 150.
+. Defining document command \kohm with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Mohm with arg. spec. '' on line 150.
+. Defining document command \Mohm with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \s with arg. spec. '' on line 150.
+. Defining document command \s with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \as with arg. spec. '' on line 150.
+. Defining document command \as with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \fs with arg. spec. '' on line 150.
+. Defining document command \fs with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ps with arg. spec. '' on line 150.
+. Defining document command \ps with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ns with arg. spec. '' on line 150.
+. Defining document command \ns with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \us with arg. spec. '' on line 150.
+. Defining document command \us with arg. spec. '' on line 151.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ms with arg. spec. '' on line 150.
+. Defining document command \ms with arg. spec. '' on line 151.
 .................................................
 
 *geometry* driver: auto-detecting
@@ -2969,51 +2969,51 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box65
 \c__siunitx_mathsf_int=\count306
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 150.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 151.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 150
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 151
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 150
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 151
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 150
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 151
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 150
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 151
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 150.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 151.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 \c__siunitx_mathtt_int=\count307
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 12.5pt on input line 151.
+(Font)              scaled to size 12.5pt on input line 152.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 21.59999pt on input line 159.
+(Font)              scaled to size 21.59999pt on input line 160.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 15.0pt on input line 159.
+(Font)              scaled to size 15.0pt on input line 160.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 11.25pt on input line 159.
+(Font)              scaled to size 11.25pt on input line 160.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 159.
+(Font)              scaled to size 12.0pt on input line 160.
  [1
 
 
@@ -3022,41 +3022,41 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/sl' in size <10> 
 not available
 (Font)              Font shape `EU1/JameelNooriNastaleeq(0)/m/it' tried instead
- on input line 161.
+ on input line 162.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 161.
+(Font)              scaled to size 10.0pt on input line 162.
  [2
 
 ]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 161.
+(Font)              scaled to size 24.88pt on input line 162.
 
 
 LaTeX Font Warning: Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' undefined
 (Font)              using `EU1/JameelNooriNastaleeq(0)/m/n' instead on input li
-ne 161.
+ne 162.
 
 (./circuitAnalysis.toc
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 10.0pt on input line 2.
  [3] [4] [5] [6]
 Overfull \hbox (4.49997pt too wide) detected at line 148
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1013[][][][]
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1015[][][][]
  []
 
 
 Overfull \hbox (4.49997pt too wide) detected at line 149
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1018[][][][]
- []
-
-
-Overfull \hbox (4.49997pt too wide) detected at line 150
  [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1020[][][][]
  []
 
 
+Overfull \hbox (4.49997pt too wide) detected at line 150
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1022[][][][]
+ []
+
+
 Overfull \hbox (4.49997pt too wide) detected at line 151
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1023[][][][]
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1025[][][][]
  []
 
 )
@@ -3359,17 +3359,16 @@ File: ./fig/figResistive/figResistanceKCLexampleBranchesOnlySolution.pdf Graphi
 c file (type QTm)
 
 <use  "./fig/figResistive/figResistanceKCLexampleBranchesOnlySolution.pdf" >
-[50] [51]
+[50]
 File: ./fig/figResistive/figResistanceKCLwithControlledSources.pdf Graphic file
  (type QTm)
-
-<use  "./fig/figResistive/figResistanceKCLwithControlledSources.pdf" > [52]
+ <use  "./fig/figResistive/figResistanceKCLwithControlledSources.pdf" >
+[51]
 File: ./fig/figResistive/figResistanceKCLexampleA.pdf Graphic file (type QTm)
-
-<use  "./fig/figResistive/figResistanceKCLexampleA.pdf" >
+ <use  "./fig/figResistive/figResistanceKCLexampleA.pdf" >
 File: ./fig/figResistive/figResistanceKCLexampleB.pdf Graphic file (type QTm)
 
-<use  "./fig/figResistive/figResistanceKCLexampleB.pdf" > [53]
+<use  "./fig/figResistive/figResistanceKCLexampleB.pdf" > [52]
 File: ./fig/figResistive/figResistanceKCLexampleC.pdf Graphic file (type QTm)
 
 <use  "./fig/figResistive/figResistanceKCLexampleC.pdf" >
@@ -3378,13 +3377,13 @@ File: ./fig/figResistive/figResistanceKCLsurfacesA.pdf Graphic file (type QTm)
 <use  "./fig/figResistive/figResistanceKCLsurfacesA.pdf" >
 File: ./fig/figResistive/figResistanceKCLsurfacesB.pdf Graphic file (type QTm)
 
-<use  "./fig/figResistive/figResistanceKCLsurfacesB.pdf" > [54]
+<use  "./fig/figResistive/figResistanceKCLsurfacesB.pdf" > [53] [54]
 File: ./fig/figResistive/figResistanceKCLquizA.pdf Graphic file (type QTm)
 
 <use  "./fig/figResistive/figResistanceKCLquizA.pdf" >
 File: ./fig/figResistive/figResistanceKCLquizB.pdf Graphic file (type QTm)
 
-<use  "./fig/figResistive/figResistanceKCLquizB.pdf" > [55]
+<use  "./fig/figResistive/figResistanceKCLquizB.pdf" >
 File: ./fig/figResistive/figResistanceKCLquizC.pdf Graphic file (type QTm)
 
 <use  "./fig/figResistive/figResistanceKCLquizC.pdf" >
@@ -3394,20 +3393,23 @@ Overfull \hbox (17.00716pt too wide) in paragraph at lines 575--576
 
 File: ./fig/figResistive/figResistanceKCLquizD.pdf Graphic file (type QTm)
 <use  "./fig/figResistive/figResistanceKCLquizD.pdf" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[55]
 File: ./fig/figResistive/figResistanceKVLvoltageRisevoltageFallA.pdf Graphic fi
 le (type QTm)
-
-<use  "./fig/figResistive/figResistanceKVLvoltageRisevoltageFallA.pdf" >
+ <use  "./fig/figResistive/figResistanceKVLvoltageRisevoltageFallA.pdf" >
 [56]
 File: ./fig/figResistive/figResistanceKVLasHeight.pdf Graphic file (type QTm)
  <use  "./fig/figResistive/figResistanceKVLasHeight.pdf" >
 File: ./fig/figResistive/figResistanceKVLasHeightCircuit.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figResistive/figResistanceKVLasHeightCircuit.pdf" > [57] [58]
+<use  "./fig/figResistive/figResistanceKVLasHeightCircuit.pdf" > [57]
 File: ./fig/figResistive/figResistanceKVLgoats.pdf Graphic file (type QTm)
 
-<use  "./fig/figResistive/figResistanceKVLgoats.pdf" > [59]
+<use  "./fig/figResistive/figResistanceKVLgoats.pdf" > [58] [59]
 File: ./fig/figResistive/figResistanceKVLexampleSwimmingPool.pdf Graphic file (
 type QTm)
 
@@ -3518,14 +3520,14 @@ ype QTm)
 File: ./fig/figResistive/figResistancesMixedSeriesParallelB.pdf Graphic file (t
 ype QTm)
  <use  "./fig/figResistive/figResistancesMixedSeriesParallelB.pdf" >
+[82]
 File: ./fig/figResistive/figResistancesMixedSeriesParallelC.pdf Graphic file (t
 ype QTm)
-
-<use  "./fig/figResistive/figResistancesMixedSeriesParallelC.pdf" > [82]
-[83]
+ <use  "./fig/figResistive/figResistancesMixedSeriesParallelC.pdf" >
 File: ./fig/figResistive/figResistancesMixedSeriesParallelD.pdf Graphic file (t
 ype QTm)
- <use  "./fig/figResistive/figResistancesMixedSeriesParallelD.pdf" >
+
+<use  "./fig/figResistive/figResistancesMixedSeriesParallelD.pdf" >
 File: ./fig/figResistive/figResistancesMixedSeriesParallelE.pdf Graphic file (t
 ype QTm)
 
@@ -3552,15 +3554,15 @@ ype QTm)
 File: ./fig/figResistive/figResistancesMixedSeriesParallelI.pdf Graphic file (t
 ype QTm)
 
-<use  "./fig/figResistive/figResistancesMixedSeriesParallelI.pdf" >
+<use  "./fig/figResistive/figResistancesMixedSeriesParallelI.pdf" > [83]
 File: ./fig/figResistive/figResistancesQuizMixedSeriesParallelA.pdf Graphic fil
 e (type QTm)
 
 <use  "./fig/figResistive/figResistancesQuizMixedSeriesParallelA.pdf" >
-[84] [85] [86] [87] [88]
+[84] [85] [86]
 File: ./fig/figResistive/figResistancesRating.pdf Graphic file (type QTm)
- <use  "./fig/figResistive/figResistancesRating.pdf" >
-[89]
+ <use  "./fig/figResistive/figResistancesRating.pdf" > [87]
+[88]
 File: ./fig/figResistive/figResistancesMixedSolutionExampleA.pdf Graphic file (
 type QTm)
  <use  "./fig/figResistive/figResistancesMixedSolutionExampleA.pdf" >
@@ -3579,12 +3581,12 @@ Overfull \hbox (3.56436pt too wide) in paragraph at lines 1536--1537
  [][][][][][] 
  []
 
-[90] [91] [92]
+[89] [90] [91]
 File: ./fig/figResistive/figResistancesMixedSolutionExampleD.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figResistive/figResistancesMixedSolutionExampleD.pdf" > [93]
-[94]
+<use  "./fig/figResistive/figResistancesMixedSolutionExampleD.pdf" > [92]
+[93]
 File: ./fig/figResistive/figResistancesMixedSolutionQuizA.pdf Graphic file (typ
 e QTm)
  <use  "./fig/figResistive/figResistancesMixedSolutionQuizA.pdf" >
@@ -3594,28 +3596,28 @@ Overfull \hbox (2.33488pt too wide) in paragraph at lines 1679--1680
 
 File: ./fig/figResistive/figResistancesMixedSolutionQuizB.pdf Graphic file (typ
 e QTm)
-<use  "./fig/figResistive/figResistancesMixedSolutionQuizB.pdf" > [95]
+<use  "./fig/figResistive/figResistancesMixedSolutionQuizB.pdf" >
 File: ./fig/figResistive/figResistancesMixedSolutionQuizD.pdf Graphic file (typ
 e QTm)
 
-<use  "./fig/figResistive/figResistancesMixedSolutionQuizD.pdf" > [96]
+<use  "./fig/figResistive/figResistancesMixedSolutionQuizD.pdf" > [94]
 File: ./fig/figResistive/figResistancesMixedSolutionQuizE.pdf Graphic file (typ
 e QTm)
 
-<use  "./fig/figResistive/figResistancesMixedSolutionQuizE.pdf" >
+<use  "./fig/figResistive/figResistancesMixedSolutionQuizE.pdf" > [95]
 File: ./fig/figResistive/figResistancesMixedSolutionQuizF.pdf Graphic file (typ
 e QTm)
 
-<use  "./fig/figResistive/figResistancesMixedSolutionQuizF.pdf" > [97]
+<use  "./fig/figResistive/figResistancesMixedSolutionQuizF.pdf" >
 File: ./fig/figResistive/figResistancesYDeltaA.pdf Graphic file (type QTm)
 
-<use  "./fig/figResistive/figResistancesYDeltaA.pdf" > [98]
+<use  "./fig/figResistive/figResistancesYDeltaA.pdf" > [96]
 File: ./fig/figResistive/figResistancesYDeltaB.pdf Graphic file (type QTm)
 
 <use  "./fig/figResistive/figResistancesYDeltaB.pdf" >
 File: ./fig/figResistive/figResistancesYDeltaC.pdf Graphic file (type QTm)
 
-<use  "./fig/figResistive/figResistancesYDeltaC.pdf" > [99] [100]
+<use  "./fig/figResistive/figResistancesYDeltaC.pdf" > [97] [98]
 File: ./fig/figResistive/figResistancesDeltaReplacedWithY.pdf Graphic file (typ
 e QTm)
 
@@ -3623,10 +3625,10 @@ e QTm)
 File: ./fig/figResistive/figResistancesDeltaReplacedWithYb.pdf Graphic file (ty
 pe QTm)
 
-<use  "./fig/figResistive/figResistancesDeltaReplacedWithYb.pdf" > [101]
-[102]
+<use  "./fig/figResistive/figResistancesDeltaReplacedWithYb.pdf" > [99]
+[100] [101]
 File: ./fig/figResistive/figResistancesQuizYDeltaA.pdf Graphic file (type QTm)
- <use  "./fig/figResistive/figResistancesQuizYDeltaA.pdf" > [103]
+ <use  "./fig/figResistive/figResistancesQuizYDeltaA.pdf" > [102]
 File: ./fig/figResistive/figResistancesQuizYDeltaB.pdf Graphic file (type QTm)
 
 <use  "./fig/figResistive/figResistancesQuizYDeltaB.pdf" >
@@ -3640,16 +3642,16 @@ Overfull \hbox (21.55663pt too wide) in paragraph at lines 1914--1915
  [][][][][][] 
  []
 
-[104] [105]
+[103] [104]
 File: ./fig/figResistive/figResistancesExampleControlledSourceA.pdf Graphic fil
 e (type QTm)
 
 <use  "./fig/figResistive/figResistancesExampleControlledSourceA.pdf" >
-[106]
+[105]
 File: ./fig/figResistive/figResistancesExampleControlledSourceB.pdf Graphic fil
 e (type QTm)
  <use  "./fig/figResistive/figResistancesExampleControlledSourceB.pdf" >
-[107]
+[106]
 File: ./fig/figResistive/figResistancesExampleControlledSourceC.pdf Graphic fil
 e (type QTm)
  <use  "./fig/figResistive/figResistancesExampleControlledSourceC.pdf" >
@@ -3657,20 +3659,20 @@ File: ./fig/figResistive/figResistancesExampleControlledSourceCequivalent.pdf G
 raphic file (type QTm)
 
 <use  "./fig/figResistive/figResistancesExampleControlledSourceCequivalent.pdf"
- > [108]
+ > [107]
 File: ./fig/figResistive/figResistancesExampleControlledSourceD.pdf Graphic fil
 e (type QTm)
 
 <use  "./fig/figResistive/figResistancesExampleControlledSourceD.pdf" >
-[109]
+[108]
 File: ./fig/figResistive/figResistancesQuizControlledSourceA.pdf Graphic file (
 type QTm)
  <use  "./fig/figResistive/figResistancesQuizControlledSourceA.pdf" >
-[110]
+[109]
 File: ./fig/figResistive/figResistancesQuizControlledSourceB.pdf Graphic file (
 type QTm)
  <use  "./fig/figResistive/figResistancesQuizControlledSourceB.pdf" >
-[111]
+[110]
 File: ./fig/figResistive/figResistancesQuizControlledSourceC.pdf Graphic file (
 type QTm)
  <use  "./fig/figResistive/figResistancesQuizControlledSourceC.pdf" >
@@ -3686,17 +3688,17 @@ Overfull \hbox (16.44374pt too wide) in paragraph at lines 2144--2145
  [][][][][][] 
  []
 
-[112] [113]
+[111] [112]
 Overfull \hbox (33.13564pt too wide) in paragraph at lines 2294--2296
  [][][][] 
  []
 
-[114] [115]
+[113] [114]
 Overfull \hbox (5.44513pt too wide) in paragraph at lines 2373--2377
  [][][][] 
  []
 
-[116] [117] [118] [119] [120] [121] [122] [123] [124]
+[115] [116] [117] [118] [119] [120] [121] [122] [123]
 Overfull \hbox (6.1057pt too wide) in paragraph at lines 2745--2748
  [][][][] 
  []
@@ -3711,18 +3713,18 @@ Overfull \hbox (3.489pt too wide) in paragraph at lines 2795--2798
  [][][][] 
  []
 
-[125]) [126] [127] [128]
+[124]) [125] [126] [127]
 \openout2 = `./tex/cktNodalLoop.aux'.
 
- (./tex/cktNodalLoop.tex
-باب \RL {\arabicfont 3}.
-File: ./fig/figNodalLoop/figNodalCurrentsFromNodeVoltages.pdf Graphic file (typ
-e QTm)
-<use  "./fig/figNodalLoop/figNodalCurrentsFromNodeVoltages.pdf" > [129
+ (./tex/cktNodalLoop.tex [128
 
 
 
 ]
+باب \RL {\arabicfont 3}.
+File: ./fig/figNodalLoop/figNodalCurrentsFromNodeVoltages.pdf Graphic file (typ
+e QTm)
+<use  "./fig/figNodalLoop/figNodalCurrentsFromNodeVoltages.pdf" > [129]
 [130] [131]
 File: ./fig/figNodalLoop/figNodalIndependantSourcesNodalEquationsA.pdf Graphic 
 file (type QTm)
@@ -3777,7 +3779,10 @@ ile (type QTm)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[147] [148]
+[147]
+Underfull \vbox (badness 4543) has occurred while \output is active []
+
+ [148]
 File: ./fig/figNodalLoop/figNodalQuizControlledCurrentSourcesA.pdf Graphic file
  (type QTm)
 
@@ -4680,7 +4685,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
  [422] [423]
-[424]
+[424] [425]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4703,21 +4708,20 @@ Overfull \hbox (45.90662pt too wide) in paragraph at lines 1640--1643
  [][][][] 
  []
 
-[425] [426] [427] [428]
+[426] [427] [428]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [429]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [430]
+ [429] [430]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4873,12 +4877,11 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-
+[447] [448] [449]
 Overfull \hbox (51.03581pt too wide) in paragraph at lines 2466--2472
  [][][][] 
  []
 
-[447] [448] [449]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4890,7 +4893,7 @@ Overfull \hbox (21.04114pt too wide) in paragraph at lines 2504--2510
  [][][][] 
  []
 
-[450]
+[450] [451]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4909,7 +4912,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [451] [452]
+ [452]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4940,7 +4943,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [453]
+ [453] [454]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4953,7 +4956,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [454] [455]) [456]
+ [455]) [456]
 \openout2 = `./tex/cktSteadyStateAC.aux'.
 
  (./tex/cktSteadyStateAC.tex
@@ -4983,12 +4986,12 @@ Overfull \hbox (3.4406pt too wide) in paragraph at lines 261--267
  [][][][] 
  []
 
-[464] [465] [466] [467]
+[464] [465] [466] [467] [468]
 Overfull \hbox (3.43816pt too wide) in paragraph at lines 416--419
  [][][][] 
  []
 
-[468] [469] [470]
+[469] [470]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -5000,8 +5003,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [478] [479]
-[480]
+ [478] [479] [480]
 Overfull \hbox (27.88605pt too wide) in paragraph at lines 801--801
 [][] []
  []
@@ -7308,7 +7310,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [741] [742] [743]
+ [741] [742] [743] [744]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7321,23 +7323,23 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [744] [745] [746] [747]
+ [745] [746] [747] [748]
 Missing character: There is no ; in font nullfont!
- [748] [749] [750]
+ [749] [750]
+[751]
 Missing character: There is no ; in font nullfont!
-
-[751] [752] [753]
+ [752] [753] [754]
 Underfull \vbox (badness 3375) has occurred while \output is active []
 
- [754]
-[755] [756] [757] [758] [759]
+ [755]
+[756] [757] [758] [759] [760]
 Overfull \hbox (30.6533pt too wide) in paragraph at lines 881--882
 [][]\EU1/JameelNooriNastaleeq(1)/m/n/10 ہمیں عموماً درمیانی تعدد پر بوڈا خط میں
  زیادہ دلچسپی ہوتی ہے۔ایسی صورت میں بوڈا مقداری خط درمیانی تعدد  $\OT1/zplm/m/n
 /10 ([] [] \OML/zplm/m/it/10 <$[]
  []
 
-[760] [761] [762] [763] [764]
+[761] [762] [763] [764] [765]
 File: ./fig/figFreqResponse/figFreqDoublePolePhasePlot.pdf Graphic file (type Q
 Tm)
 
@@ -7348,40 +7350,36 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-
+ [766]
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[765] [766]
+[767]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-
+ [768]
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[767] [768]
+[769]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-
+ [770]
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[769] [770]
+[771]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-
-Overfull \vbox (1.5449pt too high) has occurred while \output is active []
-
-
-[771] [772]
+ [772]
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
@@ -7390,17 +7388,17 @@ Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
 [775] [776]
+Overfull \vbox (1.5449pt too high) has occurred while \output is active []
+
+
+[777]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-
-Overfull \vbox (1.5449pt too high) has occurred while \output is active []
-
-
-[777] [778]
+ [778]
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
@@ -7408,36 +7406,30 @@ Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[781]
+[781] [782]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [782]
+
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[783]
+[783] [784]
 File: ./fig/figFreqResponse/figFreqSelevtivityAndQMagnitude.pdf Graphic file (t
 ype QTm)
- <use  "./fig/figFreqResponse/figFreqSelevtivityAndQMagnitude.pdf" >
+
+<use  "./fig/figFreqResponse/figFreqSelevtivityAndQMagnitude.pdf" >
 File: ./fig/figFreqResponse/figFreqSelevtivityAndQPhase.pdf Graphic file (type 
 QTm)
 
-<use  "./fig/figFreqResponse/figFreqSelevtivityAndQPhase.pdf" > [784]
+<use  "./fig/figFreqResponse/figFreqSelevtivityAndQPhase.pdf" >
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[785]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [786]
+[785] [786]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7449,9 +7441,16 @@ Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
 [787]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
  [788]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
@@ -7459,46 +7458,46 @@ Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[791]
+[791] [792]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [792]
+
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
 [793] [794]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
 [795]
-File: ./fig/figFreqResponse/figFreqTunedAmplifier.pdf Graphic file (type QTm)
- <use  "./fig/figFreqResponse/figFreqTunedAmplifier.pdf" > [796]
-Overfull \vbox (1.5449pt too high) has occurred while \output is active []
-
-
-[797]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [798]
+ [796]
+File: ./fig/figFreqResponse/figFreqTunedAmplifier.pdf Graphic file (type QTm)
+ <use  "./fig/figFreqResponse/figFreqTunedAmplifier.pdf" >
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[799] [800] [801] [802]
+[797] [798]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \vbox (1.5449pt too high) has occurred while \output is active []
+
+
+[799] [800] [801] [802] [803]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7510,14 +7509,14 @@ Overfull \hbox (46.80446pt too wide) in paragraph at lines 2133--2135
  [][][][] 
  []
 
-[803] [804] [805]
+[804] [805] [806]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [806]
+ [807]
 File: ./fig/figFreqResponse/figFreqNotchFilter.pdf Graphic file (type QTm)
  <use  "./fig/figFreqResponse/figFreqNotchFilter.pdf" >
 Missing character: There is no 0 in font nullfont!
@@ -7527,7 +7526,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-[807] [808] [809] [810] [811]
+[808] [809] [810] [811] [812]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7558,7 +7557,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [812] [813] [814]
+ [813] [814] [815]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7571,7 +7570,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [815]
+ [816]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7601,7 +7600,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2587--2588
 [][]
  []
 
-[816]
+[817]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7614,7 +7613,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [817] [818]
+ [818] [819]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7648,29 +7647,29 @@ Overfull \hbox (7.1656pt too wide) in paragraph at lines 2739--2746
  [][][][] 
  []
 
-[819] [820] [821]
+[820] [821] [822]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-) [822]
+) [823]
 \openout2 = `./tex/cktLaplaceTransform.aux'.
 
- (./tex/cktLaplaceTransform.tex
+ (./tex/cktLaplaceTransform.tex [824
+
+
+
+]
 باب \RL {\arabicfont 13}.
-[823
-
-
-
-] [824] [825] [826] [827] [828] [829] [830] [831] [832] [833] [834]
-[835] [836]
+[825] [826] [827] [828] [829] [830] [831] [832] [833] [834] [835] [836]
+[837] [838]
 Overfull \hbox (45.38116pt too wide) in paragraph at lines 424--442
  [][][][] 
  []
 
-[837] [838] [839] [840] [841] [842] [843] [844] [845] [846] [847]
+[839] [840] [841] [842] [843] [844] [845] [846] [847] [848] [849]
 Overfull \hbox (9.66963pt too wide) in paragraph at lines 725--725
 [][] []
  []
@@ -7680,21 +7679,21 @@ Overfull \hbox (9.66963pt too wide) in alignment at lines 725--725
 [] [] 
  []
 
-[848] [849] [850] [851] [852] [853]
+[850] [851] [852] [853] [854] [855]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [854] [855] [856] [857] [858] [859]
-[860] [861] [862] [863] [864] [865] [866] [867]) [868]
+ [856] [857] [858] [859] [860] [861]
+[862] [863] [864] [865] [866] [867] [868] [869]) [870]
 \openout2 = `./tex/cktApplicationLaplace.aux'.
 
 
 (./tex/cktApplicationLaplace.tex
 باب \RL {\arabicfont 14}.
-[869
+[871
 
 
 
@@ -7705,7 +7704,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [870] [871] [872]
+ [872] [873] [874]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7724,7 +7723,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [873]
+ [875]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7749,7 +7748,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [874] [875]
+ [876] [877]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7806,7 +7805,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-[876] [877] [878] [879]
+[878] [879] [880] [881]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7819,7 +7818,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [880] [881] [882]
+ [882] [883] [884]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7831,7 +7830,7 @@ Overfull \hbox (3.00569pt too wide) in paragraph at lines 520--522
  [][][][] 
  []
 
-[883]
+[885]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7844,7 +7843,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [884] [885] [886] [887]
+ [886] [887] [888] [889]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7857,7 +7856,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [888] [889]
+ [890] [891]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7881,7 +7880,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-[890] [891] [892]
+[892] [893] [894]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7899,7 +7898,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-[893]
+[895]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7912,11 +7911,11 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [894]
+ [896]
 Underfull \vbox (badness 1681) has occurred while \output is active []
 
- [895]
-[896] [897] [898]
+ [897]
+[898] [899] [900]
 Overfull \hbox (8.0014pt too wide) in paragraph at lines 998--1001
  [][][][] 
  []
@@ -7935,7 +7934,7 @@ File: ./fig/figLaplaceTransformApplication/figLaplaceApplicationComplexPlane.pd
 f Graphic file (type QTm)
 
 <use  "./fig/figLaplaceTransformApplication/figLaplaceApplicationComplexPlane.p
-df" > [899] [900] [901]
+df" > [901] [902] [903]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7948,11 +7947,11 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [902]
+ [904]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [903]
-[904] [905] [906] [907] [908]
+ [905]
+[906] [907] [908] [909] [910]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -7978,7 +7977,7 @@ File: ./fig/figLaplaceTransformApplication/figLaplaceApplicationPoleZeroPlotRLC
 D.pdf Graphic file (type QTm)
 
 <use  "./fig/figLaplaceTransformApplication/figLaplaceApplicationPoleZeroPlotRL
-CD.pdf" > [909] [910] [911] [912]
+CD.pdf" > [911] [912] [913] [914]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8005,7 +8004,7 @@ n/10 )$  \EU1/JameelNooriNastaleeq(1)/m/n/10 دریافت کریں جہاں  $\O
 /10 ) []$[]
  []
 
-[913] [914]
+[915] [916]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8018,33 +8017,14 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [915]
+ [917]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [916]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [917] [918]
+ [918]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8063,46 +8043,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [919]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [920] [921]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [922]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [923]
+ [919] [920]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8127,6 +8068,26 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
+ [921]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [922] [923]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8134,7 +8095,45 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
  [924]
-[925]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [925]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [926]
+[927]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8158,7 +8157,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-[926] [927]
+[928] [929]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8177,7 +8176,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [928]
+ [930]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8195,16 +8194,16 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-[929] [930]) [931]
+[931] [932]) [933]
 \openout2 = `./tex/cktFourierAnalysis.aux'.
 
- (./tex/cktFourierAnalysis.tex [932
+ (./tex/cktFourierAnalysis.tex [934
 
 
 
 ]
 باب \RL {\arabicfont 15}.
-[933]
+[935]
 Overfull \hbox (19.01079pt too wide) in paragraph at lines 84--99
 []\EU1/XBTabrizBold(0)/m/n/10 ہارمونی رکن[][] \EU1/JameelNooriNastaleeq(1)/m/n/
 10 کہلاتا ہے،  $\OML/zplm/m/it/10 a[] []\OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 3\OML
@@ -8214,7 +8213,7 @@ astaleeq(1)/m/n/10 تیسرا ہارمونی رکن اور اسی طرح  $\OML/
 /zplm/m/n/10 (\OML/zplm/m/it/10 m![]t\OT1/zplm/m/n/10 ) +$[]
  []
 
-[934] [935] [936] [937] [938] [939] [940] [941] [942] [943]
+[936] [937] [938] [939] [940] [941] [942] [943] [944] [945]
 File: ./fig/figFourierAnalysis/figFourierSawTooth2.pdf Graphic file (type QTm)
 
 <use  "./fig/figFourierAnalysis/figFourierSawTooth2.pdf" >
@@ -8232,10 +8231,10 @@ Overfull \hbox (11.25818pt too wide) in paragraph at lines 300--301
  [][][][][][] 
  []
 
-[944] [945]
+[946] [947]
 Underfull \vbox (badness 4279) has occurred while \output is active []
 
- [946]
+ [948]
 File: ./fig/figFourierAnalysis/figFourierSquareWave5.pdf Graphic file (type QTm
 )
 
@@ -8247,7 +8246,7 @@ m)
 File: ./fig/figFourierAnalysis/figFourierSquareWave50.pdf Graphic file (type QT
 m)
 
-<use  "./fig/figFourierAnalysis/figFourierSquareWave50.pdf" > [947] [948]
+<use  "./fig/figFourierAnalysis/figFourierSquareWave50.pdf" > [949] [950]
 Overfull \hbox (14.9422pt too wide) in paragraph at lines 412--412
 [][] []
  []
@@ -8257,7 +8256,7 @@ Overfull \hbox (11.32196pt too wide) in paragraph at lines 428--428
 [][] []
  []
 
-[949] [950] [951] [952]
+[951] [952] [953] [954]
 Overfull \hbox (45.92307pt too wide) in paragraph at lines 543--543
 [][] []
  []
@@ -8267,7 +8266,7 @@ Overfull \hbox (45.92307pt too wide) in alignment at lines 543--543
 [] [] 
  []
 
-[953]
+[955]
 Overfull \hbox (24.72366pt too wide) detected at line 571
  []$[]  \OML/zplm/m/it/10 f\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/1
 0 ) = \OML/cmm/b/it/10 c[] \OT1/zplm/m/n/10 + \OML/cmm/b/it/10 c[]\OML/zplm/m/i
@@ -8278,16 +8277,16 @@ plm/m/it/10 e[] \OT1/zplm/m/n/10 + \OML/cmm/b/it/10 c[]\OML/zplm/m/it/10 e[] []
   $ 
  []
 
-[954] [955] [956]
+[956] [957] [958]
 Underfull \vbox (badness 3375) has occurred while \output is active []
 
- [957]
-[958] [959] [960] [961] [962] [963] [964] [965] [966]
+ [959]
+[960] [961] [962] [963] [964] [965] [966] [967] [968]
 Overfull \hbox (11.71384pt too wide) in paragraph at lines 955--958
  [][][][] 
  []
 
-[967] [968] [969] [970] [971]
+[969] [970] [971] [972] [973]
 Overfull \hbox (9.59366pt too wide) in paragraph at lines 1117--1120
  [][][][] 
  []
@@ -8297,21 +8296,21 @@ Overfull \hbox (14.09714pt too wide) in paragraph at lines 1125--1128
  [][][][] 
  []
 
-[972] [973]
+[974] [975]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [974]
+ [976]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [975] [976] [977] [978]
+ [977] [978] [979] [980]
 Overfull \hbox (36.97258pt too wide) in paragraph at lines 1396--1399
  [][][][] 
  []
@@ -8324,28 +8323,28 @@ Overfull \hbox (36.97258pt too wide) in paragraph at lines 1405--1432
 
 LaTeX Warning: Float too large for page by 49.15718pt on input line 1437.
 
-[979] [980] [981] [982] [983] [984] [985]
+[981] [982] [983] [984] [985] [986] [987]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [986] [987] [988] [989]
+ [988] [989] [990] [991]
 Underfull \vbox (badness 1596) has occurred while \output is active []
 
- [990]
-[991]
+ [992]
+[993]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [992] [993] [994] [995]
+ [994] [995] [996] [997]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [996]
+ [998]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8375,24 +8374,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 1981--1982
 [][]
  []
 
-[997] [998] [999] [1000] [1001] [1002] [1003] [1004]
+[999] [1000] [1001] [1002] [1003] [1004] [1005] [1006]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [1005]) [1006]
+ [1007]) [1008]
 \openout2 = `./tex/cktTwoPortNetworks.aux'.
 
 
 (./tex/cktTwoPortNetworks.tex
 باب \RL {\arabicfont 16}.
-[1007
+[1009
 
 
 
-] [1008] [1009] [1010] [1011] [1012] [1013] [1014]
+] [1010] [1011] [1012] [1013] [1014] [1015] [1016]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8405,16 +8404,6 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
- [1015]
-Missing character: There is no م in font zplmr7m!
-Missing character: There is no م in font zplmr7m!
- [1016]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8422,14 +8411,24 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
  [1017]
-[1018] [1019] [1020]
+Missing character: There is no م in font zplmr7m!
+Missing character: There is no م in font zplmr7m!
+ [1018]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [1021] [1022] [1023] [1024]
+ [1019]
+[1020] [1021] [1022]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [1023] [1024] [1025]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -8442,35 +8441,34 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [1025] [1026] [1027] [1028]
-[1029]
+ [1026] [1027] [1028] [1029] [1030]
+[1031] [1032] [1033]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [1030] [1031]
+ [1034]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-) [1032] [1033] [1034
+) [1035] [1036] (./circuitAnalysis.ind [1037
 
 
-] (./circuitAnalysis.ind [1035
 
 
 
 ]
-[1036] [1037] [1038] [1039] [1040]
+[1038] [1039] [1040] [1041] [1042]
 Overfull \hbox (1.1658pt too wide) in paragraph at lines 526--527
 []| \EU1/ppl/m/n/10 Source Transformation, 268, 271 
  []
 
-[1041] [1042] [1043] [1044] [1045] [1046] [1047] [1048] [1049] [1050] [1051])
+[1043] [1044] [1045] [1046] [1047] [1048] [1049] [1050] [1051] [1052] [1053])
 (./circuitAnalysis.aux (./tex/cktPreface.aux) (./tex/prefaceFirstBook.aux)
 (./tex/cktBasics.aux) (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux)
 (./tex/cktOpamp.aux) (./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
@@ -8488,12 +8486,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 136753 strings out of 493918
- 3270628 string characters out of 6150563
- 4104068 words of memory out of 5000000
- 138793 multiletter control sequences out of 15000+600000
+ 137130 strings out of 493918
+ 3279798 string characters out of 6150563
+ 4110957 words of memory out of 5000000
+ 139170 multiletter control sequences out of 15000+600000
  56958 words of font info for 204 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  66i,24n,372p,10476b,3246s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (1063 pages).
+Output written on circuitAnalysis.pdf (1065 pages).
