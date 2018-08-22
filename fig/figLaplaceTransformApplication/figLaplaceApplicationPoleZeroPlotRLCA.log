@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  30 OCT 2017 15:50
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  20 JUL 2018 14:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1222,7 +1222,7 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 ] (./figLaplaceApplicationPoleZeroPlotRLCA.aux) ) 
 Here is how much of TeX's memory you used:
  32823 strings out of 493918
- 758409 string characters out of 6150562
+ 758409 string characters out of 6150563
  4136836 words of memory out of 5000000
  35521 multiletter control sequences out of 15000+600000
  6947 words of font info for 37 fonts, out of 8000000 for 9000
