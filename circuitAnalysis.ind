@@ -1,6 +1,5 @@
 \begin{theindex}
 \begin{otherlanguage}{english}
-
   \item $\Delta $, 697
 
   \indexspace
@@ -551,7 +550,6 @@
   \item transcresistance
     \subitem gain, 898
   \item transfer function, 741, 898
-
 \newpage
 
   \item transformation
@@ -584,13 +582,11 @@
   \item unstable, 232
   \item USB, universal serial bus, 25
 
-  \indexspace
+  \newpage
 
   \item value
     \subitem typical, 88
   \item volt-ampere, 587
-\newpage
-
   \item voltage
     \subitem amplifier, 734
     \subitem gain, 898
@@ -602,12 +598,11 @@
     \subitem current controlled, 108
     \subitem voltage controlled, 105
 
-  \indexspace
+  \newpage
 
   \item WAPDA, 607
   \item watt, 10
   \item weightage, 227
-\newpage
   \item wire
     \subitem cold, 608
     \subitem hot, 608
@@ -623,9 +618,9 @@
   \indexspace
 
   \item zeroes, 743
-
 \end{otherlanguage}
-  \newpage
+ 
+ \newpage
 \item آزاد
    \subitem منبع رو، 15
 \item آزاد متغیر، 323
@@ -643,8 +638,6 @@
    \subitem مسئلہ، 859
 \item ارتباط بہاو، 626
 \item ارتباطی مستقل، 645
-\item استعداد
-   \subitem طاقت، 86
 \item اشارہ، 210
    \subitem داخلی تفرقی، 210
 \item اصول نی کوسٹ، 832
@@ -990,6 +983,8 @@
    \subitem مخلوط، 901
 \item سطحی
    \subitem دور، 169
+\item سکت
+   \subitem طاقت، 86
 \item سمت کار، 434
    \subitem مکمل لہر، 1005
    \subitem نصف لہر، 1004
@@ -1016,10 +1011,10 @@
    \subitem حرارتی، 11
 \indexspace
 \item طاقت، 10
-   \subitem استعداد، 86
    \subitem تربیعی، 592
    \subitem جزو، 587
    \subitem حقیقی، 587
+   \subitem سکت، 86
    \subitem ظاہری، 587
    \subitem متعاملی، 592
    \subitem مخلوط، 591
@@ -1276,8 +1271,7 @@
    \subitem پٹی گزار، 802
    \subitem پست گزار، 801
    \subitem دندانہ، 807
-\newpage
-
+\indexspace
 \item ڈبہ دور، 1009
 \item ڈھلوان، 37
 \item ڈیسی بیل، 747
