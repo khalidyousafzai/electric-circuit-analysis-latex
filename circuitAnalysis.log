@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  9 OCT 2018 08:51
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  14 NOV 2018 16:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7329,7 +7329,7 @@ Missing character: There is no ; in font nullfont!
 [751]
 Missing character: There is no ; in font nullfont!
  [752] [753] [754]
-Underfull \vbox (badness 3375) has occurred while \output is active []
+Underfull \vbox (badness 3250) has occurred while \output is active []
 
  [755]
 [756] [757] [758] [759] [760]
@@ -8486,10 +8486,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 136698 strings out of 493918
- 3269430 string characters out of 6150563
- 4107696 words of memory out of 5000000
- 138738 multiletter control sequences out of 15000+600000
+ 136896 strings out of 493918
+ 3274170 string characters out of 6150563
+ 4106435 words of memory out of 5000000
+ 138936 multiletter control sequences out of 15000+600000
  56958 words of font info for 204 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  66i,24n,372p,10476b,3246s stack positions out of 5000i,500n,10000p,200000b,80000s

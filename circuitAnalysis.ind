@@ -550,12 +550,12 @@
   \item transcresistance
     \subitem gain, 898
   \item transfer function, 741, 898
-\newpage
-
   \item transformation
     \subitem current, 650
     \subitem impedance, 652
     \subitem voltage, 649
+\newpage
+
   \item transformer, 335
     \subitem step down, 713
     \subitem step up, 713
@@ -582,7 +582,7 @@
   \item unstable, 232
   \item USB, universal serial bus, 25
 
-  \newpage
+  \indexspace
 
   \item value
     \subitem typical, 88
@@ -610,7 +610,7 @@
     \subitem neutral, 608
   \item wye-delta transformation, 97
 
-  \indexspace
+  \newpage
 
   \item Y connected, 689
   \item YY, 690
@@ -619,8 +619,8 @@
 
   \item zeroes, 743
 \end{otherlanguage}
- 
- \newpage
+
+  \newpage
 \item آزاد
    \subitem منبع رو، 15
 \item آزاد متغیر، 323
@@ -1275,7 +1275,7 @@
 \item ڈبہ دور، 1009
 \item ڈھلوان، 37
 \item ڈیسی بیل، 747
-\indexspace
+\newpage
 \item کارتیسی محدد، 37، 462
 \item کامل حسابی ایمپلیفائر، 219
 \item کرخوف
@@ -1299,10 +1299,11 @@
 \item گمک، 766
 \item گمکی تعدد، 766
 \item گمکی دور، 766
+\newpage
 \item گنجائش
    \subitem برقی، 321، 322
 \item گھمکی تعدد، 511
-\newpage
+\indexspace
 \item ہارمونی
    \subitem بنیادی رکن، 938
    \subitem دوسرا رکن، 938
