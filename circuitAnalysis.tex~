@@ -112,6 +112,8 @@ every axis x label/.style={
 \sisetup{math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega}   %with mathpazo this is needed else must not be here. now micro is smaller
 \DeclareSIUnit \var {var}    %used in electric circuits volt-ampere-reactive
 
+\newtagform{brackets}{)}{(}   			%mathtools command to correct braces around equation numbers
+\usetagform{brackets}				%had to do this after ubuntu upgrade messed up braces around eq numbers.
 
 \input{./tex/myUrduCommandsEMT.tex}                  %turning latex into urdu
 \input{./tex/myUrduGreek.tex}
