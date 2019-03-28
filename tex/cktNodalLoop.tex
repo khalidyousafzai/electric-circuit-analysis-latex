@@ -1193,7 +1193,7 @@ i_7&=i_D-i_A
 \centering
 \begin{tikzpicture}
 \draw(0,0) to [resistor,i<_={$i_1$},l={$R_1$}]++(0,\yy)node[left]{$v_A$} to [american current source,l={$i_6$}]++(0,\yy) to [short]++(2*\xx,0) to [resistor,i>_={$i_4$},l={$R_4$}]++(0,-\yy) to [resistor,i={$i_5$},l={$R_5$}]++(0,-\yy) to [short]++(-2*\xx,0);
-\draw(2*\xx,\yy)node[right]{$v_D$} to [american voltage source,i_={$i_8$},*-*]++(-\xx,0)node[above left]{$v_C$}  to [resistor,i={$i_2$},-*,l_={$R_2$}]++(-\xx,0);
+\draw(2*\xx,\yy)node[right]{$v_D$} to [american voltage source,i_={$i_8$},*-*]++(-\xx,0)node[below left]{$v_C$}  to [resistor,i={$i_2$},-*,l_={$R_2$}]++(-\xx,0);
 \draw(\xx,0)node[below]{$v_E$} to [american voltage source,i>^={$i_7$},*-]++(0,\yy) to [resistor,-*,i<={$i_3$},l={$R_3$}]++(0,\yy)node[above]{$v_B$};
 \draw(\xx,\yy/2)node[shift={(-45:0.75)}]{$v_1$};
 \draw(\xx+\xx/2,\yy)node[shift={(-45:0.75)}]{$v_2$};

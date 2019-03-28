@@ -147,7 +147,7 @@ every axis x label/.style={
 \date{}                           %if absent gives date in arabic which is a rubbish
 
 %\linenumbers
-\makeindex
+%\makeindex
 
 %==========
 \begin{document}
@@ -211,7 +211,7 @@ every axis x label/.style={
 \cleardoublepage
 \addcontentsline{toc}{chapter}{فرہنگ}
 
-%\printindex
+\printindex
 
 
 \end{urdufont}
