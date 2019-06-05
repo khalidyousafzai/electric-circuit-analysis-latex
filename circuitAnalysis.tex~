@@ -112,8 +112,6 @@ every axis x label/.style={
 \sisetup{math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega}   %with mathpazo this is needed else must not be here. now micro is smaller
 \DeclareSIUnit \var {var}    %used in electric circuits volt-ampere-reactive
 
-\newtagform{brackets}{)}{(}   			%mathtools command to correct braces around equation numbers
-\usetagform{brackets}				%had to do this after ubuntu upgrade messed up braces around eq numbers.
 
 \input{./tex/myUrduCommandsEMT.tex}                  %turning latex into urdu
 \input{./tex/myUrduGreek.tex}
@@ -145,6 +143,15 @@ every axis x label/.style={
 
 \title{برقی ادوار}
 \date{}                           %if absent gives date in arabic which is a rubbish
+
+%included the following to correct the RTL issues with equation numbering after upgradation to ubuntu 18.04
+%might break bidi package as said on the internet
+\makeatletter
+\def\maketag@@@#1{\hbox{\m@th\normalfont\RTL{{\beginR #1\endR}}}}
+\def\tagform@#1{\maketag@@@{(\ignorespaces{\beginR#1\endR}\unskip)}}
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %\linenumbers
 %\makeindex
