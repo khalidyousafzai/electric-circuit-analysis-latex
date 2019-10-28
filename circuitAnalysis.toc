@@ -7,148 +7,148 @@
 \select@language {english}
 \select@language {arabic}
 \contentsline {chapter}{میری پہلی کتاب کا دیباچہ}{xi}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 1}}بنیاد}{\RL {\arabicfont 1}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 1}}برقی بار، برقی رو اور برقی دباو}{\RL {\arabicfont 1}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 1}}قانونِ اوہم}{\RL {\arabicfont 7}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 1}}توانائی اور طاقت}{\RL {\arabicfont 8}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 1}}برقی پرزے}{\RL {\arabicfont 15}}
-\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 4}.\RL {\arabicfont 1}}غیر تابع منبع}{\RL {\arabicfont 15}}
-\contentsline {subsection}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 4}.\RL {\arabicfont 1}}تابع منبع}{\RL {\arabicfont 17}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 2}}مزاحمتی ادوار}{\RL {\arabicfont 37}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 2}}قانون اوہم}{\RL {\arabicfont 37}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 2}}قوانین کرخوف}{\RL {\arabicfont 46}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 2}}سلسلہ وار جڑے پرزوں میں رو}{\RL {\arabicfont 62}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 2}}تقسیم دباو}{\RL {\arabicfont 63}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 2}}متعدد سلسلہ وار مزاحمتوں کا مساوی مزاحمت}{\RL {\arabicfont 66}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 2}}سلسلہ وار متعدد منابع دباو اور مزاحمت}{\RL {\arabicfont 70}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 2}}متوازی جڑے مزاحمت پر یکساں دباو پایا جاتا ہے}{\RL {\arabicfont 72}}
-\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 2}}تقسیم رو اور متعدد متوازی مزاحمتوں کا مساوی مزاحمت}{\RL {\arabicfont 72}}
-\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 2}}سلسلہ وار اور متوازی مزاحمت}{\RL {\arabicfont 80}}
-\contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 2}}تخصیص مزاحمت}{\RL {\arabicfont 86}}
-\contentsline {section}{\numberline {\RL {\arabicfont 11}.\RL {\arabicfont 2}}سلسلہ وار اور متوازی مزاحمتوں کے ادوار کا حل}{\RL {\arabicfont 89}}
-\contentsline {section}{\numberline {\RL {\arabicfont 12}.\RL {\arabicfont 2}}ستارہ-تکون تبادلہ}{\RL {\arabicfont 97}}
-\contentsline {section}{\numberline {\RL {\arabicfont 13}.\RL {\arabicfont 2}}تابع منبع استعمال کرنے والے ادوار}{\RL {\arabicfont 104}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 3}}ترکیب جوڑ اور دائری ترکیب}{\RL {\arabicfont 129}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 3}}تجزیہ جوڑ}{\RL {\arabicfont 129}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 3}}غیر تابع منبع رو استعمال کرنے والے ادوار}{\RL {\arabicfont 132}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 3}}تابع منبع رو استعمال کرنے والے ادوار}{\RL {\arabicfont 145}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 3}}غیر تابع منبع دباو استعمال کرنے والے ادوار}{\RL {\arabicfont 151}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 3}}تابع منبع دباو استعمال کرنے والے ادوار}{\RL {\arabicfont 162}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 3}}دائری تجزیہ}{\RL {\arabicfont 168}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 3}}غیر تابع منبع استعمال کرنے والے ادوار}{\RL {\arabicfont 169}}
-\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 3}}غیر تابع منبع رو استعمال کرنے والے ادوار}{\RL {\arabicfont 178}}
-\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 3}}تابع منبع استعمال کرنے والے ادوار}{\RL {\arabicfont 184}}
-\contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 3}}دائری ترکیب اور ترکیب جوڑ کا موازنہ}{\RL {\arabicfont 188}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 4}}حسابی ایمپلیفائر}{\RL {\arabicfont 209}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 4}}کامل حسابی ایمپلیفائر}{\RL {\arabicfont 219}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 4}}منفی ایمپلیفائر}{\RL {\arabicfont 219}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 4}}مثبت ایمپلیفائر}{\RL {\arabicfont 222}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 4}}مستحکم کار}{\RL {\arabicfont 224}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 4}}منفی کار}{\RL {\arabicfont 224}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 4}}جمع کار}{\RL {\arabicfont 226}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 4}}متوازن اور غیر متوازن صورت}{\RL {\arabicfont 229}}
-\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 4}}موازنہ کار}{\RL {\arabicfont 233}}
-\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 4}}آلاتی ایمپلیفائر}{\RL {\arabicfont 233}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 5}}مسئلے}{\RL {\arabicfont 247}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 5}}مساوی دور}{\RL {\arabicfont 247}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 5}}مسئلہ خطیّت}{\RL {\arabicfont 247}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 5}}مسئلہ خطی میل}{\RL {\arabicfont 251}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 5}}مساوی ادوار}{\RL {\arabicfont 262}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 5}}مسئلہ تھونن، مسئلہ نارٹن اور مسئلہ تبادلہ منبع}{\RL {\arabicfont 268}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 5}}تابع منبع استعمال کرنے والے ادوار}{\RL {\arabicfont 288}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 5}}تابع منبع اور غیر تابع منبع دونوں استعمال کرنے والے ادوار}{\RL {\arabicfont 294}}
-\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 5}}زیادہ سے زیادہ طاقت منتقل کرنے کا مسئلہ}{\RL {\arabicfont 301}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 6}}برق گیر اور امالہ گیر}{\RL {\arabicfont 321}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 6}}برق گیر}{\RL {\arabicfont 321}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 6}}امالہ گیر}{\RL {\arabicfont 335}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 6}}برق گیر اور امالہ گیر کے خصوصیات}{\RL {\arabicfont 343}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 6}}سلسلہ وار جڑے برق گیر}{\RL {\arabicfont 347}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 6}}متوازی جڑے برق گیر}{\RL {\arabicfont 350}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 6}}سلسلہ وار امالہ گیر}{\RL {\arabicfont 354}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 6}}متوازی امالہ گیر}{\RL {\arabicfont 356}}
-\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 6}}حسابی ایمپلیفائر کے \tmspace +\medmuskip {.2222em} \ensuremath {RC} \tmspace +\medmuskip {.2222em} ادوار}{\RL {\arabicfont 359}}
-\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 6}}تفرق کار}{\RL {\arabicfont 360}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 7}}عارضی رد عمل}{\RL {\arabicfont 377}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 7}}تعارف}{\RL {\arabicfont 377}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 7}}یک رتبی ادوار}{\RL {\arabicfont 377}}
-\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 2}.\RL {\arabicfont 7}}رد عمل کی عمومی مساوات}{\RL {\arabicfont 379}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 7}}دھڑکن}{\RL {\arabicfont 403}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 7}}دو رتبی ادوار}{\RL {\arabicfont 410}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 8}}تجزیہ برقرار حال}{\RL {\arabicfont 455}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 8}}مخلوط اعداد}{\RL {\arabicfont 455}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 8}}سائن نما تفاعل}{\RL {\arabicfont 460}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 8}}سائن نما اور مخلوط جبری تفاعل}{\RL {\arabicfont 469}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 8}}دوری سمتیہ}{\RL {\arabicfont 477}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 8}}مزاحمت، امالہ گیر اور برق گیر کے انفرادی دوری سمتی تعلق}{\RL {\arabicfont 483}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 8}}برقی رکاوٹ اور برقی فراوانی}{\RL {\arabicfont 492}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 8}}دوری سمتیات کے اشکال}{\RL {\arabicfont 505}}
-\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 8}}کرخوف مساوات}{\RL {\arabicfont 515}}
-\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 8}}تجزیاتی تراکیب}{\RL {\arabicfont 520}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 9}}برقرار برقی طاقت}{\RL {\arabicfont 555}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 9}}لمحاتی طاقت}{\RL {\arabicfont 555}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 9}}اوسط طاقت}{\RL {\arabicfont 558}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 9}}زیادہ سے زیادہ اوسط طاقت منتقل کرنے کا مسئلہ}{\RL {\arabicfont 565}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 9}}موثر قیمت}{\RL {\arabicfont 575}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 9}}جزو طاقت}{\RL {\arabicfont 585}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 9}}مخلوط طاقت}{\RL {\arabicfont 589}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 9}}جزو طاقت کی درستگی}{\RL {\arabicfont 597}}
-\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 9}}برقی جھٹکا}{\RL {\arabicfont 602}}
-\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 9}}نم زمین}{\RL {\arabicfont 605}}
-\contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 9}}ایک دور کا نظام}{\RL {\arabicfont 605}}
-\contentsline {section}{\numberline {\RL {\arabicfont 11}.\RL {\arabicfont 9}}حفاظتی تدابیر}{\RL {\arabicfont 610}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 10}}مقناطیسی جڑے ادوار}{\RL {\arabicfont 623}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 10}}مشترکہ امالہ}{\RL {\arabicfont 623}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 10}}مشترکہ امالہ میں توانائی کا ذخیرہ}{\RL {\arabicfont 641}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 10}}کامل ٹرانسفارمر}{\RL {\arabicfont 647}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 11}}تین دوری نظام}{\RL {\arabicfont 681}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 11}}تین دوری ستارہ دباو}{\RL {\arabicfont 681}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 11}}ستارہ ستارہ \tmspace +\thinmuskip {.1667em}(\ensuremath {YY}) \tmspace +\thinmuskip {.1667em} جوڑ}{\RL {\arabicfont 687}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 11}}تین دوری تکونی (\ensuremath {\Delta }) دباو}{\RL {\arabicfont 695}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 11}}تکونی بوجھ}{\RL {\arabicfont 700}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 11}}طاقت کے کلیات}{\RL {\arabicfont 705}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 11}}جزو طاقت کی درستگی}{\RL {\arabicfont 715}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 12}}تعددی ردعمل}{\RL {\arabicfont 727}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 12}}جال}{\RL {\arabicfont 739}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 12}}صفر اور قطب}{\RL {\arabicfont 741}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 12}}سائن نما تعددی تجزیہ}{\RL {\arabicfont 744}}
-\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 3}.\RL {\arabicfont 12}}بوڈا خطوط}{\RL {\arabicfont 744}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 12}}گمکی ادوار}{\RL {\arabicfont 764}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 12}}چھلنی}{\RL {\arabicfont 800}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 13}}لاپلاس بدل}{\RL {\arabicfont 823}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 13}}تعریف}{\RL {\arabicfont 823}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 13}}نادر تفاعل}{\RL {\arabicfont 824}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 13}}لاپلاس بدل کی جوڑیاں}{\RL {\arabicfont 831}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 13}}خواص البدل}{\RL {\arabicfont 835}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 13}}الٹ لاپلاس بدل کا حصول}{\RL {\arabicfont 840}}
-\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 5}.\RL {\arabicfont 13}}جزوی کسری پھیلاو}{\RL {\arabicfont 841}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 13}}تکمل الجھاو}{\RL {\arabicfont 852}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 13}}مسئلہ ابتدائی قیمت اور مسئلہ اختتامی قیمت}{\RL {\arabicfont 856}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 14}}ادوار کا حل بذریعہ لاپلاس بدل}{\RL {\arabicfont 869}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 14}}ادوار کا حل}{\RL {\arabicfont 869}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 14}}پرزوں کے مساوی لاپلاسی ادوار}{\RL {\arabicfont 871}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 14}}تجزیاتی تراکیب}{\RL {\arabicfont 875}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 14}}تبادلی تفاعل جال}{\RL {\arabicfont 896}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 14}}ترسیم قطبین و صفر اور بوڈا خط}{\RL {\arabicfont 908}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 14}}برقرار حال ردعمل}{\RL {\arabicfont 909}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 15}}فوریئر تجزیہ}{\RL {\arabicfont 933}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 15}}تکونیاتی فوریئر تسلسل}{\RL {\arabicfont 933}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 15}}قوت نمائی فوریئر تسلسل}{\RL {\arabicfont 954}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 15}}تشاکل تفاعل}{\RL {\arabicfont 959}}
-\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 3}.\RL {\arabicfont 15}}جفت تشاکل تفاعل}{\RL {\arabicfont 960}}
-\contentsline {subsection}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 3}.\RL {\arabicfont 15}}طاق تشاکل تفاعل}{\RL {\arabicfont 961}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 15}}منتقلی وقت}{\RL {\arabicfont 964}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 15}}تخلیق موج}{\RL {\arabicfont 965}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 15}}تعددی طیف}{\RL {\arabicfont 968}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 15}}برقرار حال برقی جال}{\RL {\arabicfont 970}}
-\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 7}.\RL {\arabicfont 15}}اوسط طاقت}{\RL {\arabicfont 971}}
-\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 15}}فوریئر بدل}{\RL {\arabicfont 976}}
-\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 15}}فوریئر بدل کے خواص}{\RL {\arabicfont 983}}
-\contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 15}}مسئلہ پارسیوال}{\RL {\arabicfont 986}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 16}}چار سر ادوار کے ریاضی نمونے}{\RL {\arabicfont 1007}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 16}}رکاوٹی نمونہ}{\RL {\arabicfont 1013}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 16}}دوغلائی نمونہ}{\RL {\arabicfont 1018}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 16}}ترسیلی نمونہ}{\RL {\arabicfont 1020}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 16}}چار سر ادوار کے باہمی جوڑ}{\RL {\arabicfont 1023}}
-\contentsline {chapter}{فرہنگ}{\RL {\arabicfont 1035}}
+\contentsline {chapter}{\numberline {1}بنیاد}{1}
+\contentsline {section}{\numberline {1.1}برقی بار، برقی رو اور برقی دباو}{1}
+\contentsline {section}{\numberline {2.1}قانونِ اوہم}{8}
+\contentsline {section}{\numberline {3.1}توانائی اور طاقت}{10}
+\contentsline {section}{\numberline {4.1}برقی پرزے}{17}
+\contentsline {subsection}{\numberline {1.4.1}غیر تابع منبع}{17}
+\contentsline {subsection}{\numberline {2.4.1}تابع منبع}{20}
+\contentsline {chapter}{\numberline {2}مزاحمتی ادوار}{41}
+\contentsline {section}{\numberline {1.2}قانون اوہم}{41}
+\contentsline {section}{\numberline {2.2}قوانین کرخوف}{50}
+\contentsline {section}{\numberline {3.2}سلسلہ وار جڑے پرزوں میں رو}{68}
+\contentsline {section}{\numberline {4.2}تقسیم دباو}{68}
+\contentsline {section}{\numberline {5.2}متعدد سلسلہ وار مزاحمتوں کا مساوی مزاحمت}{72}
+\contentsline {section}{\numberline {6.2}سلسلہ وار متعدد منابع دباو اور مزاحمت}{76}
+\contentsline {section}{\numberline {7.2}متوازی جڑے مزاحمت پر یکساں دباو پایا جاتا ہے}{78}
+\contentsline {section}{\numberline {8.2}تقسیم رو اور متعدد متوازی مزاحمتوں کا مساوی مزاحمت}{78}
+\contentsline {section}{\numberline {9.2}سلسلہ وار اور متوازی مزاحمت}{88}
+\contentsline {section}{\numberline {10.2}تخصیص مزاحمت}{93}
+\contentsline {section}{\numberline {11.2}سلسلہ وار اور متوازی مزاحمتوں کے ادوار کا حل}{96}
+\contentsline {section}{\numberline {12.2}ستارہ-تکون تبادلہ}{104}
+\contentsline {section}{\numberline {13.2}تابع منبع استعمال کرنے والے ادوار}{111}
+\contentsline {chapter}{\numberline {3}ترکیب جوڑ اور دائری ترکیب}{137}
+\contentsline {section}{\numberline {1.3}تجزیہ جوڑ}{137}
+\contentsline {section}{\numberline {2.3}غیر تابع منبع رو استعمال کرنے والے ادوار}{141}
+\contentsline {section}{\numberline {3.3}تابع منبع رو استعمال کرنے والے ادوار}{155}
+\contentsline {section}{\numberline {4.3}غیر تابع منبع دباو استعمال کرنے والے ادوار}{161}
+\contentsline {section}{\numberline {5.3}تابع منبع دباو استعمال کرنے والے ادوار}{171}
+\contentsline {section}{\numberline {6.3}دائری تجزیہ}{178}
+\contentsline {section}{\numberline {7.3}غیر تابع منبع استعمال کرنے والے ادوار}{179}
+\contentsline {section}{\numberline {8.3}غیر تابع منبع رو استعمال کرنے والے ادوار}{188}
+\contentsline {section}{\numberline {9.3}تابع منبع استعمال کرنے والے ادوار}{194}
+\contentsline {section}{\numberline {10.3}دائری ترکیب اور ترکیب جوڑ کا موازنہ}{198}
+\contentsline {chapter}{\numberline {4}حسابی ایمپلیفائر}{217}
+\contentsline {section}{\numberline {1.4}کامل حسابی ایمپلیفائر}{227}
+\contentsline {section}{\numberline {2.4}منفی ایمپلیفائر}{228}
+\contentsline {section}{\numberline {3.4}مثبت ایمپلیفائر}{231}
+\contentsline {section}{\numberline {4.4}مستحکم کار}{233}
+\contentsline {section}{\numberline {5.4}منفی کار}{235}
+\contentsline {section}{\numberline {6.4}جمع کار}{236}
+\contentsline {section}{\numberline {7.4}متوازن اور غیر متوازن صورت}{239}
+\contentsline {section}{\numberline {8.4}موازنہ کار}{243}
+\contentsline {section}{\numberline {9.4}آلاتی ایمپلیفائر}{243}
+\contentsline {chapter}{\numberline {5}مسئلے}{259}
+\contentsline {section}{\numberline {1.5}مساوی دور}{259}
+\contentsline {section}{\numberline {2.5}مسئلہ خطیّت}{261}
+\contentsline {section}{\numberline {3.5}مسئلہ خطی میل}{265}
+\contentsline {section}{\numberline {4.5}مساوی ادوار}{275}
+\contentsline {section}{\numberline {5.5}مسئلہ تھونن، مسئلہ نارٹن اور مسئلہ تبادلہ منبع}{281}
+\contentsline {section}{\numberline {6.5}تابع منبع استعمال کرنے والے ادوار}{302}
+\contentsline {section}{\numberline {7.5}تابع منبع اور غیر تابع منبع دونوں استعمال کرنے والے ادوار}{308}
+\contentsline {section}{\numberline {8.5}زیادہ سے زیادہ طاقت منتقل کرنے کا مسئلہ}{316}
+\contentsline {chapter}{\numberline {6}برق گیر اور امالہ گیر}{339}
+\contentsline {section}{\numberline {1.6}برق گیر}{339}
+\contentsline {section}{\numberline {2.6}امالہ گیر}{354}
+\contentsline {section}{\numberline {3.6}برق گیر اور امالہ گیر کے خصوصیات}{362}
+\contentsline {section}{\numberline {4.6}سلسلہ وار جڑے برق گیر}{367}
+\contentsline {section}{\numberline {5.6}متوازی جڑے برق گیر}{370}
+\contentsline {section}{\numberline {6.6}سلسلہ وار امالہ گیر}{374}
+\contentsline {section}{\numberline {7.6}متوازی امالہ گیر}{376}
+\contentsline {section}{\numberline {8.6}حسابی ایمپلیفائر کے \tmspace +\medmuskip {.2222em} \ensuremath {RC} \tmspace +\medmuskip {.2222em} ادوار}{380}
+\contentsline {section}{\numberline {9.6}تفرق کار}{381}
+\contentsline {chapter}{\numberline {7}عارضی رد عمل}{399}
+\contentsline {section}{\numberline {1.7}تعارف}{399}
+\contentsline {section}{\numberline {2.7}یک رتبی ادوار}{399}
+\contentsline {subsection}{\numberline {1.2.7}رد عمل کی عمومی مساوات}{401}
+\contentsline {section}{\numberline {3.7}دھڑکن}{426}
+\contentsline {section}{\numberline {4.7}دو رتبی ادوار}{433}
+\contentsline {chapter}{\numberline {8}تجزیہ برقرار حال}{481}
+\contentsline {section}{\numberline {1.8}مخلوط اعداد}{481}
+\contentsline {section}{\numberline {2.8}سائن نما تفاعل}{486}
+\contentsline {section}{\numberline {3.8}سائن نما اور مخلوط جبری تفاعل}{496}
+\contentsline {section}{\numberline {4.8}دوری سمتیہ}{504}
+\contentsline {section}{\numberline {5.8}مزاحمت، امالہ گیر اور برق گیر کے انفرادی دوری سمتی تعلق}{510}
+\contentsline {section}{\numberline {6.8}برقی رکاوٹ اور برقی فراوانی}{520}
+\contentsline {section}{\numberline {7.8}دوری سمتیات کے اشکال}{533}
+\contentsline {section}{\numberline {8.8}کرخوف مساوات}{545}
+\contentsline {section}{\numberline {9.8}تجزیاتی تراکیب}{550}
+\contentsline {chapter}{\numberline {9}برقرار برقی طاقت}{587}
+\contentsline {section}{\numberline {1.9}لمحاتی طاقت}{587}
+\contentsline {section}{\numberline {2.9}اوسط طاقت}{590}
+\contentsline {section}{\numberline {3.9}زیادہ سے زیادہ اوسط طاقت منتقل کرنے کا مسئلہ}{597}
+\contentsline {section}{\numberline {4.9}موثر قیمت}{608}
+\contentsline {section}{\numberline {5.9}جزو طاقت}{618}
+\contentsline {section}{\numberline {6.9}مخلوط طاقت}{623}
+\contentsline {section}{\numberline {7.9}جزو طاقت کی درستگی}{632}
+\contentsline {section}{\numberline {8.9}برقی جھٹکا}{637}
+\contentsline {section}{\numberline {9.9}نم زمین}{640}
+\contentsline {section}{\numberline {10.9}ایک دور کا نظام}{641}
+\contentsline {section}{\numberline {11.9}حفاظتی تدابیر}{645}
+\contentsline {chapter}{\numberline {10}مقناطیسی جڑے ادوار}{659}
+\contentsline {section}{\numberline {1.10}مشترکہ امالہ}{659}
+\contentsline {section}{\numberline {2.10}مشترکہ امالہ میں توانائی کا ذخیرہ}{679}
+\contentsline {section}{\numberline {3.10}کامل ٹرانسفارمر}{684}
+\contentsline {chapter}{\numberline {11}تین دوری نظام}{719}
+\contentsline {section}{\numberline {1.11}تین دوری ستارہ دباو}{719}
+\contentsline {section}{\numberline {2.11}ستارہ ستارہ \tmspace +\thinmuskip {.1667em}(\ensuremath {YY}) \tmspace +\thinmuskip {.1667em} جوڑ}{725}
+\contentsline {section}{\numberline {3.11}تین دوری تکونی (\ensuremath {\Delta }) دباو}{734}
+\contentsline {section}{\numberline {4.11}تکونی بوجھ}{739}
+\contentsline {section}{\numberline {5.11}طاقت کے کلیات}{744}
+\contentsline {section}{\numberline {6.11}جزو طاقت کی درستگی}{754}
+\contentsline {chapter}{\numberline {12}تعددی ردعمل}{767}
+\contentsline {section}{\numberline {1.12}جال}{779}
+\contentsline {section}{\numberline {2.12}صفر اور قطب}{780}
+\contentsline {section}{\numberline {3.12}سائن نما تعددی تجزیہ}{784}
+\contentsline {subsection}{\numberline {1.3.12}بوڈا خطوط}{784}
+\contentsline {section}{\numberline {4.12}گمکی ادوار}{805}
+\contentsline {section}{\numberline {5.12}چھلنی}{843}
+\contentsline {chapter}{\numberline {13}لاپلاس بدل}{867}
+\contentsline {section}{\numberline {1.13}تعریف}{867}
+\contentsline {section}{\numberline {2.13}نادر تفاعل}{869}
+\contentsline {section}{\numberline {3.13}لاپلاس بدل کی جوڑیاں}{876}
+\contentsline {section}{\numberline {4.13}خواص البدل}{880}
+\contentsline {section}{\numberline {5.13}الٹ لاپلاس بدل کا حصول}{886}
+\contentsline {subsection}{\numberline {1.5.13}جزوی کسری پھیلاو}{886}
+\contentsline {section}{\numberline {6.13}تکمل الجھاو}{898}
+\contentsline {section}{\numberline {7.13}مسئلہ ابتدائی قیمت اور مسئلہ اختتامی قیمت}{902}
+\contentsline {chapter}{\numberline {14}ادوار کا حل بذریعہ لاپلاس بدل}{915}
+\contentsline {section}{\numberline {1.14}ادوار کا حل}{915}
+\contentsline {section}{\numberline {2.14}پرزوں کے مساوی لاپلاسی ادوار}{917}
+\contentsline {section}{\numberline {3.14}تجزیاتی تراکیب}{920}
+\contentsline {section}{\numberline {4.14}تبادلی تفاعل جال}{942}
+\contentsline {section}{\numberline {5.14}ترسیم قطبین و صفر اور بوڈا خط}{954}
+\contentsline {section}{\numberline {6.14}برقرار حال ردعمل}{957}
+\contentsline {chapter}{\numberline {15}فوریئر تجزیہ}{979}
+\contentsline {section}{\numberline {1.15}تکونیاتی فوریئر تسلسل}{979}
+\contentsline {section}{\numberline {2.15}قوت نمائی فوریئر تسلسل}{1001}
+\contentsline {section}{\numberline {3.15}تشاکل تفاعل}{1007}
+\contentsline {subsection}{\numberline {1.3.15}جفت تشاکل تفاعل}{1007}
+\contentsline {subsection}{\numberline {2.3.15}طاق تشاکل تفاعل}{1009}
+\contentsline {section}{\numberline {4.15}منتقلی وقت}{1012}
+\contentsline {section}{\numberline {5.15}تخلیق موج}{1013}
+\contentsline {section}{\numberline {6.15}تعددی طیف}{1017}
+\contentsline {section}{\numberline {7.15}برقرار حال برقی جال}{1019}
+\contentsline {subsection}{\numberline {1.7.15}اوسط طاقت}{1020}
+\contentsline {section}{\numberline {8.15}فوریئر بدل}{1025}
+\contentsline {section}{\numberline {9.15}فوریئر بدل کے خواص}{1033}
+\contentsline {section}{\numberline {10.15}مسئلہ پارسیوال}{1036}
+\contentsline {chapter}{\numberline {16}چار سر ادوار کے ریاضی نمونے}{1057}
+\contentsline {section}{\numberline {1.16}رکاوٹی نمونہ}{1063}
+\contentsline {section}{\numberline {2.16}دوغلائی نمونہ}{1068}
+\contentsline {section}{\numberline {3.16}ترسیلی نمونہ}{1070}
+\contentsline {section}{\numberline {4.16}چار سر ادوار کے باہمی جوڑ}{1073}
+\contentsline {chapter}{فرہنگ}{1085}
 \select@language {english}
 \select@language {arabic}
