@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.10.27)  28 OCT 2019 12:29
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.10.27)  28 OCT 2019 17:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3242,84 +3242,24 @@ e 171.
 (./circuitAnalysis.toc
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 10.0pt on input line 2.
- [3] [4] [5]
-Overfull \hbox (2.0195pt too wide) detected at line 135
- [][][]\TU/JameelNooriNastaleeq(0)/bx/n/10 1001[][][]
- []
-
-
-Overfull \hbox (1.7363pt too wide) detected at line 136
- [][][]\TU/JameelNooriNastaleeq(0)/bx/n/10 1007[][][]
- []
-
-
-Overfull \hbox (1.7363pt too wide) detected at line 137
- [][][]\TU/JameelNooriNastaleeq(0)/bx/n/10 1007[][][]
- []
-
-
-Overfull \hbox (1.7363pt too wide) detected at line 138
- [][][]\TU/JameelNooriNastaleeq(0)/bx/n/10 1009[][][]
- []
-
-
-Overfull \hbox (2.00485pt too wide) detected at line 139
- [][][]\TU/JameelNooriNastaleeq(0)/bx/n/10 1012[][][]
- []
-
-
-Overfull \hbox (2.11227pt too wide) detected at line 140
- [][][]\TU/JameelNooriNastaleeq(0)/bx/n/10 1013[][][]
- []
-
-
-Overfull \hbox (2.03903pt too wide) detected at line 141
+ [3] [4] [5] [6]
+Overfull \hbox (4.49997pt too wide) detected at line 148
  [][][]\TU/JameelNooriNastaleeq(0)/bx/n/10 1017[][][]
  []
 
-[6]
-Overfull \hbox (2.03903pt too wide) detected at line 142
- [][][]\TU/JameelNooriNastaleeq(0)/bx/n/10 1019[][][]
+
+Overfull \hbox (4.49997pt too wide) detected at line 149
+ [][][]\TU/JameelNooriNastaleeq(0)/bx/n/10 1022[][][]
  []
 
 
-Overfull \hbox (1.70212pt too wide) detected at line 143
- [][][]\TU/JameelNooriNastaleeq(0)/bx/n/10 1020[][][]
+Overfull \hbox (4.49997pt too wide) detected at line 150
+ [][][]\TU/JameelNooriNastaleeq(0)/bx/n/10 1024[][][]
  []
 
 
-Overfull \hbox (1.78024pt too wide) detected at line 144
- [][][]\TU/JameelNooriNastaleeq(0)/bx/n/10 1025[][][]
- []
-
-
-Overfull \hbox (1.90231pt too wide) detected at line 145
- [][][]\TU/JameelNooriNastaleeq(0)/bx/n/10 1033[][][]
- []
-
-
-Overfull \hbox (1.82907pt too wide) detected at line 146
- [][][]\TU/JameelNooriNastaleeq(0)/bx/n/10 1036[][][]
- []
-
-
-Overfull \hbox (1.82907pt too wide) detected at line 148
- [][][]\TU/JameelNooriNastaleeq(0)/bx/n/10 1063[][][]
- []
-
-
-Overfull \hbox (1.8193pt too wide) detected at line 149
- [][][]\TU/JameelNooriNastaleeq(0)/bx/n/10 1068[][][]
- []
-
-
-Overfull \hbox (1.7363pt too wide) detected at line 150
- [][][]\TU/JameelNooriNastaleeq(0)/bx/n/10 1070[][][]
- []
-
-
-Overfull \hbox (1.82907pt too wide) detected at line 151
- [][][]\TU/JameelNooriNastaleeq(0)/bx/n/10 1073[][][]
+Overfull \hbox (4.49997pt too wide) detected at line 151
+ [][][]\TU/JameelNooriNastaleeq(0)/bx/n/10 1027[][][]
  []
 
 )
@@ -3378,62 +3318,53 @@ LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(0)/bx/n' will be
 ]
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 42.
- [2]
 File: ./fig/figBasicConcepts/figBasicCurrentAndDirection.pdf Graphic file (type
  pdf)
 <use ./fig/figBasicConcepts/figBasicCurrentAndDirection.pdf>
+ [2]
 File: ./fig/figBasicConcepts/figBasicVoltageCurrentRelation.pdf Graphic file (t
 ype pdf)
 <use ./fig/figBasicConcepts/figBasicVoltageCurrentRelation.pdf>
 File: ./fig/figBasicConcepts/figBasicOhmLawPassiveConvention.pdf Graphic file (
 type pdf)
 <use ./fig/figBasicConcepts/figBasicOhmLawPassiveConvention.pdf>
- [3] [4] [5]
+ [3] [4]
 File: ./fig/figBasicConcepts/figBasicVoltageHeight.pdf Graphic file (type pdf)
 <use ./fig/figBasicConcepts/figBasicVoltageHeight.pdf>
 File: ./fig/figBasicConcepts/figBasicVoltagePositiveNegativeSides.pdf Graphic f
 ile (type pdf)
 <use ./fig/figBasicConcepts/figBasicVoltagePositiveNegativeSides.pdf>
- [6] [7]
+ [5] [6]
 File: ./fig/figBasicConcepts/figBasicOhmLawExamples.pdf Graphic file (type pdf)
 
 <use ./fig/figBasicConcepts/figBasicOhmLawExamples.pdf>
- [8]
+ [7]
 File: ./fig/figBasicConcepts/figBasicOhmLawGeneral.pdf Graphic file (type pdf)
 <use ./fig/figBasicConcepts/figBasicOhmLawGeneral.pdf>
- [9] [10]
+ [8] [9]
 File: ./fig/figBasicConcepts/figBasicOhmsLaw.pdf Graphic file (type pdf)
 <use ./fig/figBasicConcepts/figBasicOhmsLaw.pdf>
- [11]
+ [10]
 Missing character: There is no ا in font zplmr7m!
 Missing character: There is no ل in font zplmr7m!
 Missing character: There is no ف in font zplmr7m!
- [12]
+ [11]
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 7.5pt on input line 217.
-
-Overfull \hbox (9.72775pt too wide) detected at line 217
-[]
- []
-
-
-Overfull \hbox (22.22775pt too wide) detected at line 231
-[]
- []
-
 File: ./fig/figBasicConcepts/figBasicPassiveSignExample.pdf Graphic file (type 
 pdf)
 <use ./fig/figBasicConcepts/figBasicPassiveSignExample.pdf>
-[13] [14]
+ [12]
 File: ./fig/figBasicConcepts/figBasicPassiveSignQuiz.pdf Graphic file (type pdf
 )
 <use ./fig/figBasicConcepts/figBasicPassiveSignQuiz.pdf>
+ [13]
 File: ./fig/figBasicConcepts/figBasicPowerExample.pdf Graphic file (type pdf)
 <use ./fig/figBasicConcepts/figBasicPowerExample.pdf>
- [15]
+ [14]
 File: ./fig/figBasicConcepts/figBasicPowerQuiz.pdf Graphic file (type pdf)
 <use ./fig/figBasicConcepts/figBasicPowerQuiz.pdf>
- [16]
+ [15]
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 299.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(0)/bx/n' will be
@@ -3444,14 +3375,19 @@ File: ./fig/figBasicConcepts/figBasicIndependentVoltageSource.pdf Graphic file
 File: ./fig/figBasicConcepts/figBasicIndependentCurrentSource.pdf Graphic file 
 (type pdf)
 <use ./fig/figBasicConcepts/figBasicIndependentCurrentSource.pdf>
- [17]
 File: ./fig/figBasicConcepts/figBasicInternalResistanceExample.pdf Graphic file
  (type pdf)
 <use ./fig/figBasicConcepts/figBasicInternalResistanceExample.pdf>
 File: ./fig/figBasicConcepts/figBasicInternalResistanceQuiz.pdf Graphic file (t
 ype pdf)
 <use ./fig/figBasicConcepts/figBasicInternalResistanceQuiz.pdf>
- [18] [19]
+ [16]
+Overfull \hbox (15.49501pt too wide) in paragraph at lines 341--342
+[]\TU/JameelNooriNastaleeq(1)/m/n/10 رو پرزے میں داخل ہوتی ہے لہٰذا ان دونوں پر
+زوں میں طاقت ضائع ہوتا ہے۔منبع کی طاقت  $[]$[]
+ []
+
+[17]
 File: ./fig/figBasicConcepts/figBasicDependentVoltageSource.pdf Graphic file (t
 ype pdf)
 <use ./fig/figBasicConcepts/figBasicDependentVoltageSource.pdf>
@@ -3464,14 +3400,14 @@ File: ./fig/figBasicConcepts/figBasicDependentResistanceSource.pdf Graphic file
 File: ./fig/figBasicConcepts/figBasicDependentConductanceSource.pdf Graphic fil
 e (type pdf)
 <use ./fig/figBasicConcepts/figBasicDependentConductanceSource.pdf>
- [20]
+ [18]
 File: ./fig/figBasicConcepts/figBasicDependentVoltageSourceExample.pdf Graphic 
 file (type pdf)
 <use ./fig/figBasicConcepts/figBasicDependentVoltageSourceExample.pdf>
 File: ./fig/figBasicConcepts/figBasicDependentCurrentSourceExample.pdf Graphic 
 file (type pdf)
 <use ./fig/figBasicConcepts/figBasicDependentCurrentSourceExample.pdf>
- [21]
+ [19]
 File: ./fig/figBasicConcepts/figBasicDependentVoltageSourceExamplePower.pdf Gra
 phic file (type pdf)
 <use ./fig/figBasicConcepts/figBasicDependentVoltageSourceExamplePower.pdf>
@@ -3481,56 +3417,62 @@ phic file (type pdf)
 File: ./fig/figBasicConcepts/figBasicExampleTwoSourceThreeResistorPower.pdf Gra
 phic file (type pdf)
 <use ./fig/figBasicConcepts/figBasicExampleTwoSourceThreeResistorPower.pdf>
- [22]
+ [20] [21]
 File: ./fig/figBasicConcepts/figBasicPowerExampleMultiSupplies.pdf Graphic file
  (type pdf)
 <use ./fig/figBasicConcepts/figBasicPowerExampleMultiSupplies.pdf>
- [23]
+ [22]
 File: ./fig/figBasicConcepts/figBasicChargeSuppliedToBox.pdf Graphic file (type
  pdf)
 <use ./fig/figBasicConcepts/figBasicChargeSuppliedToBox.pdf>
 File: ./fig/figBasicConcepts/figBasicChargeVersusCurrent.pdf Graphic file (type
  pdf)
 <use ./fig/figBasicConcepts/figBasicChargeVersusCurrent.pdf>
- [24] [25]
+ [23]
 File: ./fig/figBasicConcepts/figBasicChargeVersusCurrentAnswer.pdf Graphic file
  (type pdf)
 <use ./fig/figBasicConcepts/figBasicChargeVersusCurrentAnswer.pdf>
- [26]
+ [24]
 File: ./fig/figBasicConcepts/figBasicPowerSuppliedToBox.pdf Graphic file (type 
 pdf)
 <use ./fig/figBasicConcepts/figBasicPowerSuppliedToBox.pdf>
- [27]
-[28] [29]
+ [25]
+Overfull \hbox (1.76433pt too wide) in paragraph at lines 540--541
+[][]\TU/JameelNooriNastaleeq(1)/m/n/10 یو-ایس-بی پھاٹک استعمال کرتے ہوئے موبائل
+ کی \TU/AASameerSagarNastaleeqBold(0)/m/n/10 بے بار[][] \TU/JameelNooriNastalee
+q(1)/m/n/10 بیٹری میں بار بھرا جاتا ہے۔بیٹری کی سکت  $[] []$[]
+ []
+
+[26]
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 7.0pt on input line 594.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 5.0pt on input line 611.
- [30] [31] [32] [33] [34]
+ [27] [28] [29] [30] [31] [32]
 Overfull \hbox (0.99254pt too wide) in paragraph at lines 860--864
  [][][][][][] 
  []
 
-[35] [36] [37] [38] [39]) [40]
+[33] [34] [35] [36]) [37]
 \openout2 = `./tex/cktResistive.aux'.
 
- (./tex/cktResistive.tex
+ (./tex/cktResistive.tex [38
+
+
+
+]
 باب 2.
 File: ./fig/figResistive/figResistiveStraightLines.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistiveStraightLines.pdf>
 File: ./fig/figResistive/figResistiveOhmLaw.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistiveOhmLaw.pdf>
-[41
-
-
-
-]
+[39]
 File: ./fig/figResistive/figResistiveIncadecentBulb.pdf Graphic file (type pdf)
 
 <use ./fig/figResistive/figResistiveIncadecentBulb.pdf>
 File: ./fig/figResistive/figResistanceOhmLawPower.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistanceOhmLawPower.pdf>
- [42] [43] [44]
+ [40] [41] [42]
 File: ./fig/figResistive/figResistanceVariableResistance.pdf Graphic file (type
  pdf)
 <use ./fig/figResistive/figResistanceVariableResistance.pdf>
@@ -3543,19 +3485,19 @@ File: ./fig/figResistive/figResistanceShortCircuit.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistanceShortCircuit.pdf>
 File: ./fig/figResistive/figResistanceOpenCircuit.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistanceOpenCircuit.pdf>
-[45]
+[43]
 File: ./fig/figResistive/figResistanceExampleA.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistanceExampleA.pdf>
 File: ./fig/figResistive/figResistanceExampleB.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistanceExampleB.pdf>
 File: ./fig/figResistive/figResistanceExampleC.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistanceExampleC.pdf>
- [46]
+ [44]
 File: ./fig/figResistive/figResistanceExampleD.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistanceExampleD.pdf>
 File: ./fig/figResistive/figResistanceExampleE.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistanceExampleE.pdf>
- [47] [48]
+ [45] [46]
 File: ./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizA.pdf Graphic
  file (type pdf)
 <use ./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizA.pdf>
@@ -3565,7 +3507,7 @@ File: ./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizB.pdf Graphic
 File: ./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizC.pdf Graphic
  file (type pdf)
 <use ./fig/figResistive/figResistanceResistorsPowerAndCurrentQuizC.pdf>
- [49]
+ [47]
 File: ./fig/figResistive/figResistanceNodesAndLoopsA.pdf Graphic file (type pdf
 )
 <use ./fig/figResistive/figResistanceNodesAndLoopsA.pdf>
@@ -3577,42 +3519,40 @@ Overfull \hbox (5.53682pt too wide) in paragraph at lines 303--304
  [][][][][][] 
  []
 
-[50] [51] [52] [53]
+[48] [49] [50]
 File: ./fig/figResistive/figResistanceKCLgoats.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistanceKCLgoats.pdf>
 File: ./fig/figResistive/figResistanceKCLgoatsSurface.pdf Graphic file (type pd
 f)
 <use ./fig/figResistive/figResistanceKCLgoatsSurface.pdf>
- [54]
+ [51]
 File: ./fig/figResistive/figResistanceKCLexampleBranchesOnly.pdf Graphic file (
 type pdf)
 <use ./fig/figResistive/figResistanceKCLexampleBranchesOnly.pdf>
 File: ./fig/figResistive/figResistanceKCLexampleBranchesOnlySolution.pdf Graphi
 c file (type pdf)
 <use ./fig/figResistive/figResistanceKCLexampleBranchesOnlySolution.pdf>
- [55]
+ [52]
 File: ./fig/figResistive/figResistanceKCLwithControlledSources.pdf Graphic file
  (type pdf)
 <use ./fig/figResistive/figResistanceKCLwithControlledSources.pdf>
- [56]
+ [53]
 File: ./fig/figResistive/figResistanceKCLexampleA.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistanceKCLexampleA.pdf>
 File: ./fig/figResistive/figResistanceKCLexampleB.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistanceKCLexampleB.pdf>
- [57]
+ [54]
 File: ./fig/figResistive/figResistanceKCLexampleC.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistanceKCLexampleC.pdf>
- [58]
 File: ./fig/figResistive/figResistanceKCLsurfacesA.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistanceKCLsurfacesA.pdf>
 File: ./fig/figResistive/figResistanceKCLsurfacesB.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistanceKCLsurfacesB.pdf>
- [59]
+ [55] [56]
 File: ./fig/figResistive/figResistanceKCLquizA.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistanceKCLquizA.pdf>
 File: ./fig/figResistive/figResistanceKCLquizB.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistanceKCLquizB.pdf>
- [60]
 File: ./fig/figResistive/figResistanceKCLquizC.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistanceKCLquizC.pdf>
 
@@ -3622,44 +3562,40 @@ Overfull \hbox (17.00716pt too wide) in paragraph at lines 575--576
 
 File: ./fig/figResistive/figResistanceKCLquizD.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistanceKCLquizD.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[57]
 File: ./fig/figResistive/figResistanceKVLvoltageRisevoltageFallA.pdf Graphic fi
 le (type pdf)
 <use ./fig/figResistive/figResistanceKVLvoltageRisevoltageFallA.pdf>
-[61]
+ [58]
 File: ./fig/figResistive/figResistanceKVLasHeight.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistanceKVLasHeight.pdf>
 File: ./fig/figResistive/figResistanceKVLasHeightCircuit.pdf Graphic file (type
  pdf)
 <use ./fig/figResistive/figResistanceKVLasHeightCircuit.pdf>
- [62]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [63]
+ [59]
 File: ./fig/figResistive/figResistanceKVLgoats.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistanceKVLgoats.pdf>
-
-[64]
+ [60] [61]
 File: ./fig/figResistive/figResistanceKVLexampleSwimmingPool.pdf Graphic file (
 type pdf)
 <use ./fig/figResistive/figResistanceKVLexampleSwimmingPool.pdf>
 File: ./fig/figResistive/figResistanceKVLexampleA.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistanceKVLexampleA.pdf>
- [65]
+ [62]
 File: ./fig/figResistive/figResistanceKVLdependentEquations.pdf Graphic file (t
 ype pdf)
 <use ./fig/figResistive/figResistanceKVLdependentEquations.pdf>
- [66] [67]
+ [63]
 File: ./fig/figResistive/figResistanceSeriesConnectedSameCurrent.pdf Graphic fi
 le (type pdf)
 <use ./fig/figResistive/figResistanceSeriesConnectedSameCurrent.pdf>
 File: ./fig/figResistive/figResistanceVoltageDivider.pdf Graphic file (type pdf
 )
 <use ./fig/figResistive/figResistanceVoltageDivider.pdf>
- [68]
-Underfull \vbox (badness 1052) has occurred while \output is active []
-
- [69]
-[70] [71] [72]
+ [64] [65] [66] [67] [68]
 File: ./fig/figResistive/figResistanceVoltageDividerMultipleResistors.pdf Graph
 ic file (type pdf)
 <use ./fig/figResistive/figResistanceVoltageDividerMultipleResistors.pdf>
@@ -3672,7 +3608,7 @@ File: ./fig/figResistive/figResistanceVoltageDividerMultipleResistorsEquivalent
 .pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistanceVoltageDividerMultipleResistorsEquivalent.
 pdf>
-[73]
+[69]
 File: ./fig/figResistive/figResistancePowerFedViaLongWireA.pdf Graphic file (ty
 pe pdf)
 <use ./fig/figResistive/figResistancePowerFedViaLongWireA.pdf>
@@ -3682,7 +3618,7 @@ pe pdf)
 File: ./fig/figResistive/figResistancePowerFedViaLongWireC.pdf Graphic file (ty
 pe pdf)
 <use ./fig/figResistive/figResistancePowerFedViaLongWireC.pdf>
- [74] [75]
+ [70] [71]
 File: ./fig/figResistive/figResistanceVoltageDividerMultipleSuppliesAndResistor
 s.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistanceVoltageDividerMultipleSuppliesAndResistors
@@ -3696,14 +3632,10 @@ Overfull \hbox (3.17418pt too wide) in paragraph at lines 987--988
  [][][][][][] 
  []
 
-[76]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [77]
+[72] [73]
 File: ./fig/figResistive/figResistancesInParallel.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistancesInParallel.pdf>
-
-[78]
+ [74]
 File: ./fig/figResistive/figResistancesCurrentDivider.pdf Graphic file (type pd
 f)
 <use ./fig/figResistive/figResistancesCurrentDivider.pdf>
@@ -3715,7 +3647,7 @@ Overfull \hbox (17.15019pt too wide) in paragraph at lines 1048--1049
  [][][][][][] 
  []
 
-[79] [80] [81]
+[75] [76] [77]
 File: ./fig/figResistive/figResistancesMultipleInParallel.pdf Graphic file (typ
 e pdf)
 <use ./fig/figResistive/figResistancesMultipleInParallel.pdf>
@@ -3733,22 +3665,23 @@ Overfull \hbox (31.16742pt too wide) in paragraph at lines 1160--1161
  [][][][][][] 
  []
 
-[82] [83]
+[78] [79]
 File: ./fig/figResistive/figResistanceQuizParallelResistorsCurrent.pdf Graphic 
 file (type pdf)
 <use ./fig/figResistive/figResistanceQuizParallelResistorsCurrent.pdf>
- [84]
+ [80]
 File: ./fig/figResistive/figResistanceQuizSeriesResistorsVoltage.pdf Graphic fi
 le (type pdf)
 <use ./fig/figResistive/figResistanceQuizSeriesResistorsVoltage.pdf>
- [85] [86] [87]
+ [81]
 File: ./fig/figResistive/figResistancesMixedSeriesParallelA.pdf Graphic file (t
 ype pdf)
 <use ./fig/figResistive/figResistancesMixedSeriesParallelA.pdf>
- [88]
+ [82] [83]
 File: ./fig/figResistive/figResistancesMixedSeriesParallelB.pdf Graphic file (t
 ype pdf)
 <use ./fig/figResistive/figResistancesMixedSeriesParallelB.pdf>
+ [84]
 File: ./fig/figResistive/figResistancesMixedSeriesParallelC.pdf Graphic file (t
 ype pdf)
 <use ./fig/figResistive/figResistancesMixedSeriesParallelC.pdf>
@@ -3778,14 +3711,14 @@ ype pdf)
 File: ./fig/figResistive/figResistancesMixedSeriesParallelI.pdf Graphic file (t
 ype pdf)
 <use ./fig/figResistive/figResistancesMixedSeriesParallelI.pdf>
-[89]
+[85]
 File: ./fig/figResistive/figResistancesQuizMixedSeriesParallelA.pdf Graphic fil
 e (type pdf)
 <use ./fig/figResistive/figResistancesQuizMixedSeriesParallelA.pdf>
- [90] [91] [92] [93] [94]
+ [86] [87] [88]
 File: ./fig/figResistive/figResistancesRating.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistancesRating.pdf>
- [95]
+ [89] [90]
 File: ./fig/figResistive/figResistancesMixedSolutionExampleA.pdf Graphic file (
 type pdf)
 <use ./fig/figResistive/figResistancesMixedSolutionExampleA.pdf>
@@ -3805,15 +3738,11 @@ Overfull \hbox (3.56436pt too wide) in paragraph at lines 1536--1537
  [][][][][][] 
  []
 
-[96] [97] [98]
+[91] [92] [93]
 File: ./fig/figResistive/figResistancesMixedSolutionExampleD.pdf Graphic file (
 type pdf)
 <use ./fig/figResistive/figResistancesMixedSolutionExampleD.pdf>
- [99]
-Underfull \vbox (badness 3514) has occurred while \output is active []
-
- [100]
-[101]
+ [94] [95]
 File: ./fig/figResistive/figResistancesMixedSolutionQuizA.pdf Graphic file (typ
 e pdf)
 <use ./fig/figResistive/figResistancesMixedSolutionQuizA.pdf>
@@ -3828,32 +3757,32 @@ e pdf)
 File: ./fig/figResistive/figResistancesMixedSolutionQuizD.pdf Graphic file (typ
 e pdf)
 <use ./fig/figResistive/figResistancesMixedSolutionQuizD.pdf>
-[102]
+[96]
 File: ./fig/figResistive/figResistancesMixedSolutionQuizE.pdf Graphic file (typ
 e pdf)
 <use ./fig/figResistive/figResistancesMixedSolutionQuizE.pdf>
+ [97]
 File: ./fig/figResistive/figResistancesMixedSolutionQuizF.pdf Graphic file (typ
 e pdf)
 <use ./fig/figResistive/figResistancesMixedSolutionQuizF.pdf>
- [103]
 File: ./fig/figResistive/figResistancesYDeltaA.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistancesYDeltaA.pdf>
- [104]
+ [98]
 File: ./fig/figResistive/figResistancesYDeltaB.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistancesYDeltaB.pdf>
 File: ./fig/figResistive/figResistancesYDeltaC.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistancesYDeltaC.pdf>
- [105] [106]
+ [99] [100]
 File: ./fig/figResistive/figResistancesDeltaReplacedWithY.pdf Graphic file (typ
 e pdf)
 <use ./fig/figResistive/figResistancesDeltaReplacedWithY.pdf>
 File: ./fig/figResistive/figResistancesDeltaReplacedWithYb.pdf Graphic file (ty
 pe pdf)
 <use ./fig/figResistive/figResistancesDeltaReplacedWithYb.pdf>
- [107] [108]
+ [101] [102] [103]
 File: ./fig/figResistive/figResistancesQuizYDeltaA.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistancesQuizYDeltaA.pdf>
- [109]
+ [104]
 File: ./fig/figResistive/figResistancesQuizYDeltaB.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistancesQuizYDeltaB.pdf>
 
@@ -3868,36 +3797,37 @@ Overfull \hbox (21.55663pt too wide) in paragraph at lines 1914--1915
  [][][][][][] 
  []
 
-[110] [111]
+[105] [106]
 File: ./fig/figResistive/figResistancesExampleControlledSourceA.pdf Graphic fil
 e (type pdf)
 <use ./fig/figResistive/figResistancesExampleControlledSourceA.pdf>
- [112]
+ [107]
 File: ./fig/figResistive/figResistancesExampleControlledSourceB.pdf Graphic fil
 e (type pdf)
 <use ./fig/figResistive/figResistancesExampleControlledSourceB.pdf>
- [113]
+ [108]
 File: ./fig/figResistive/figResistancesExampleControlledSourceC.pdf Graphic fil
 e (type pdf)
 <use ./fig/figResistive/figResistancesExampleControlledSourceC.pdf>
 File: ./fig/figResistive/figResistancesExampleControlledSourceCequivalent.pdf G
 raphic file (type pdf)
 <use ./fig/figResistive/figResistancesExampleControlledSourceCequivalent.pdf>
- [114]
+ [109]
 File: ./fig/figResistive/figResistancesExampleControlledSourceD.pdf Graphic fil
 e (type pdf)
 <use ./fig/figResistive/figResistancesExampleControlledSourceD.pdf>
- [115] [116]
+ [110]
 File: ./fig/figResistive/figResistancesQuizControlledSourceA.pdf Graphic file (
 type pdf)
 <use ./fig/figResistive/figResistancesQuizControlledSourceA.pdf>
+ [111]
 File: ./fig/figResistive/figResistancesQuizControlledSourceB.pdf Graphic file (
 type pdf)
 <use ./fig/figResistive/figResistancesQuizControlledSourceB.pdf>
+ [112]
 File: ./fig/figResistive/figResistancesQuizControlledSourceC.pdf Graphic file (
 type pdf)
 <use ./fig/figResistive/figResistancesQuizControlledSourceC.pdf>
- [117] [118]
 File: ./fig/figResistive/figResistancesQuizControlledSourceD.pdf Graphic file (
 type pdf)
 <use ./fig/figResistive/figResistancesQuizControlledSourceD.pdf>
@@ -3909,17 +3839,17 @@ Overfull \hbox (16.44374pt too wide) in paragraph at lines 2144--2145
  [][][][][][] 
  []
 
-[119] [120] [121]
-Overfull \hbox (33.204pt too wide) in paragraph at lines 2294--2297
+[113] [114]
+Overfull \hbox (33.13564pt too wide) in paragraph at lines 2294--2297
  [][][][][][] 
  []
 
-[122] [123]
+[115] [116]
 Overfull \hbox (5.44513pt too wide) in paragraph at lines 2373--2378
  [][][][][][] 
  []
 
-[124]
+[117] [118]
 Overfull \hbox (2.75714pt too wide) in paragraph at lines 2445--2449
  [][][][][][] 
  []
@@ -3929,17 +3859,17 @@ Overfull \hbox (2.75714pt too wide) in paragraph at lines 2453--2457
  [][][][][][] 
  []
 
-
+[119] [120]
 Overfull \hbox (2.75714pt too wide) in paragraph at lines 2472--2476
  [][][][][][] 
  []
 
-[125] [126] [127] [128] [129]
+[121] [122] [123]
 Overfull \hbox (6.1057pt too wide) in paragraph at lines 2745--2749
  [][][][][][] 
  []
 
-[130] [131]
+[124] [125] [126]
 Overfull \hbox (1.09901pt too wide) in paragraph at lines 2787--2790
  [][][][][][] 
  []
@@ -3949,69 +3879,68 @@ Overfull \hbox (3.489pt too wide) in paragraph at lines 2795--2799
  [][][][][][] 
  []
 
-[132] [133]) [134] [135]
+[127]) [128] [129]
 \openout2 = `./tex/cktNodalLoop.aux'.
 
- (./tex/cktNodalLoop.tex [136
+ (./tex/cktNodalLoop.tex [130
 
 
 
 ]
 باب 3.
-[137]
 File: ./fig/figNodalLoop/figNodalCurrentsFromNodeVoltages.pdf Graphic file (typ
 e pdf)
 <use ./fig/figNodalLoop/figNodalCurrentsFromNodeVoltages.pdf>
- [138]
-Underfull \vbox (badness 7362) has occurred while \output is active []
-
- [139]
-[140]
+[131] [132] [133]
 File: ./fig/figNodalLoop/figNodalIndependantSourcesNodalEquationsA.pdf Graphic 
 file (type pdf)
 <use ./fig/figNodalLoop/figNodalIndependantSourcesNodalEquationsA.pdf>
- [141] [142] [143] [144] [145]
+ [134]
+Overfull \hbox (1.19577pt too wide) in paragraph at lines 112--114
+[]\TU/JameelNooriNastaleeq(1)/m/n/10 مساوات 3.2[] اور مساوات 3.4[] کے مجموعے کو
+ منفی ایک سے ضرب دینے سے مساوات 3.6[] حاصل ہوتا ہے۔مساوات[]
+ []
+
+[135] [136] [137] [138]
 File: ./fig/figNodalLoop/figNodalEquationNotDependentOnChosenCurrentDirectionsA
 .pdf Graphic file (type pdf)
 <use ./fig/figNodalLoop/figNodalEquationNotDependentOnChosenCurrentDirectionsA.
 pdf>
- [146] [147]
+ [139] [140]
 File: ./fig/figNodalLoop/figNodalEquationNotDependentOnChosenCurrentDirectionsB
 .pdf Graphic file (type pdf)
 <use ./fig/figNodalLoop/figNodalEquationNotDependentOnChosenCurrentDirectionsB.
 pdf>
-
-Underfull \vbox (badness 3612) has occurred while \output is active []
-
- [148]
+ [141]
 File: ./fig/figNodalLoop/figNodalAssumeCurrentsLeavingEveryNodeA.pdf Graphic fi
 le (type pdf)
 <use ./fig/figNodalLoop/figNodalAssumeCurrentsLeavingEveryNodeA.pdf>
 File: ./fig/figNodalLoop/figNodalAssumeCurrentsLeavingEveryNodeB.pdf Graphic fi
 le (type pdf)
 <use ./fig/figNodalLoop/figNodalAssumeCurrentsLeavingEveryNodeB.pdf>
-
-[149] [150] [151] [152]
+ [142] [143] [144] [145]
 File: ./fig/figNodalLoop/figNodalQuizThree.pdf Graphic file (type pdf)
 <use ./fig/figNodalLoop/figNodalQuizThree.pdf>
 File: ./fig/figNodalLoop/figNodalQuizFour.pdf Graphic file (type pdf)
 <use ./fig/figNodalLoop/figNodalQuizFour.pdf>
- [153]
-File: ./fig/figNodalLoop/figNodalQuizFive.pdf Graphic file (type pdf)
-<use ./fig/figNodalLoop/figNodalQuizFive.pdf>
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[154]
-Underfull \vbox (badness 2538) has occurred while \output is active []
+File: ./fig/figNodalLoop/figNodalQuizFive.pdf Graphic file (type pdf)
+<use ./fig/figNodalLoop/figNodalQuizFive.pdf>
 
- [155]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[146]
+Underfull \vbox (badness 2134) has occurred while \output is active []
+
+ [147]
 File: ./fig/figNodalLoop/figNodalDependantCurrentSourceDestroysSymmetry.pdf Gra
 phic file (type pdf)
 <use ./fig/figNodalLoop/figNodalDependantCurrentSourceDestroysSymmetry.pdf>
 
-[156]
+[148]
 File: ./fig/figNodalLoop/figNodalExampleControlledCurrentSourcesA.pdf Graphic f
 ile (type pdf)
 <use ./fig/figNodalLoop/figNodalExampleControlledCurrentSourcesA.pdf>
@@ -4019,7 +3948,10 @@ ile (type pdf)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[157] [158]
+[149]
+Underfull \vbox (badness 4543) has occurred while \output is active []
+
+ [150]
 File: ./fig/figNodalLoop/figNodalQuizControlledCurrentSourcesA.pdf Graphic file
  (type pdf)
 <use ./fig/figNodalLoop/figNodalQuizControlledCurrentSourcesA.pdf>
@@ -4030,67 +3962,72 @@ File: ./fig/figNodalLoop/figNodalQuizControlledCurrentSourcesB.pdf Graphic file
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[151]
 File: ./fig/figNodalLoop/figNodalQuizControlledCurrentSourcesC.pdf Graphic file
  (type pdf)
 <use ./fig/figNodalLoop/figNodalQuizControlledCurrentSourcesC.pdf>
 
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[159] [160]
+[152] [153]
 File: ./fig/figNodalLoop/figNodalExampleIndependentVoltageSourceA.pdf Graphic f
 ile (type pdf)
 <use ./fig/figNodalLoop/figNodalExampleIndependentVoltageSourceA.pdf>
 File: ./fig/figNodalLoop/figNodalExampleIndependentVoltageSourceAA.pdf Graphic 
 file (type pdf)
 <use ./fig/figNodalLoop/figNodalExampleIndependentVoltageSourceAA.pdf>
- [161] [162]
+ [154]
 File: ./fig/figNodalLoop/figNodalQuizIndependentVoltageSourceA.pdf Graphic file
  (type pdf)
 <use ./fig/figNodalLoop/figNodalQuizIndependentVoltageSourceA.pdf>
 File: ./fig/figNodalLoop/figNodalQuizIndependentVoltageSourceB.pdf Graphic file
  (type pdf)
 <use ./fig/figNodalLoop/figNodalQuizIndependentVoltageSourceB.pdf>
- [163] [164]
+ [155] [156]
 File: ./fig/figNodalLoop/figNodalSuperNodeA.pdf Graphic file (type pdf)
 <use ./fig/figNodalLoop/figNodalSuperNodeA.pdf>
 File: ./fig/figNodalLoop/figNodalSuperNodeB.pdf Graphic file (type pdf)
 <use ./fig/figNodalLoop/figNodalSuperNodeB.pdf>
- [165] [166] [167]
+ [157] [158] [159]
 File: ./fig/figNodalLoop/figNodalSuperNodeExampleA.pdf Graphic file (type pdf)
 <use ./fig/figNodalLoop/figNodalSuperNodeExampleA.pdf>
 File: ./fig/figNodalLoop/figNodalSuperNodeExampleB.pdf Graphic file (type pdf)
 <use ./fig/figNodalLoop/figNodalSuperNodeExampleB.pdf>
- [168] [169]
 File: ./fig/figNodalLoop/figNodalSuperNodeQuizA.pdf Graphic file (type pdf)
 <use ./fig/figNodalLoop/figNodalSuperNodeQuizA.pdf>
+ [160] [161]
 File: ./fig/figNodalLoop/figNodalSuperNodeQuizB.pdf Graphic file (type pdf)
 <use ./fig/figNodalLoop/figNodalSuperNodeQuizB.pdf>
- [170]
 File: ./fig/figNodalLoop/figNodalDependentVoltageExampleA.pdf Graphic file (typ
 e pdf)
 <use ./fig/figNodalLoop/figNodalDependentVoltageExampleA.pdf>
+ [162] [163]
+[164] [165] [166] [167] [168] [169] [170] [171] [172] [173] [174] [175]
+[176] [177] [178] [179] [180] [181] [182] [183] [184] [185] [186] [187]
+[188] [189] [190]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[171] [172] [173] [174] [175] [176] [177] [178] [179] [180] [181] [182]
-[183] [184] [185] [186] [187] [188] [189] [190] [191] [192] [193] [194]
-[195] [196] [197] [198] [199] [200] [201] [202] [203] [204] [205] [206]
-[207]
+ [191]
+[192] [193] [194] [195] [196] [197] [198] [199]
 Overfull \hbox (50.96347pt too wide) in paragraph at lines 2320--2330
  [][][][][][] 
  []
 
-[208] [209] [210] [211] [212] [213]) [214] [215] [216]
+[200] [201] [202] [203] [204] [205] [206] [207] [208] [209]) [210]
 \openout2 = `./tex/cktOpamp.aux'.
 
- (./tex/cktOpamp.tex
+
+(./tex/cktOpamp.tex
 باب 4.
 Missing character: There is no ; in font nullfont!
-[217
+[211
 
 
 
-] [218] [219] [220] [221] [222] [223] [224] [225] [226] [227] [228]
-[229] [230] [231] [232] [233] [234] [235] [236] [237] [238] [239] [240]
-[241] [242] [243] [244]
+] [212] [213] [214] [215] [216] [217] [218] [219] [220] [221] [222]
+[223] [224] [225] [226] [227] [228] [229] [230] [231] [232] [233] [234]
+[235]
 Overfull \hbox (3.52464pt too wide) in paragraph at lines 761--765
  [][][][][][] 
  []
@@ -4110,11 +4047,11 @@ Overfull \hbox (4.1349pt too wide) in paragraph at lines 799--803
  [][][][][][] 
  []
 
-[245] [246] [247] [248] [249] [250] [251] [252] [253] [254] [255] [256])
-[257]
+[236] [237] [238] [239] [240] [241] [242] [243] [244] [245] [246]) [247]
 \openout2 = `./tex/cktTheorems.aux'.
 
- (./tex/cktTheorems.tex [258
+
+(./tex/cktTheorems.tex [248
 
 
 
@@ -4125,12 +4062,12 @@ Overfull \hbox (0.96758pt too wide) in paragraph at lines 45--52
  [][][][][][] 
  []
 
-[259] [260] [261] [262] [263] [264] [265] [266] [267] [268]
+[249] [250] [251] [252] [253] [254] [255] [256] [257]
 Overfull \hbox (11.66563pt too wide) in paragraph at lines 401--405
  [][][][][][] 
  []
 
-[269] [270]
+[258] [259]
 Overfull \hbox (7.41927pt too wide) in paragraph at lines 444--449
  [][][][][][] 
  []
@@ -4145,61 +4082,74 @@ Overfull \hbox (7.41927pt too wide) in paragraph at lines 463--467
  [][][][][][] 
  []
 
-[271] [272] [273] [274]
+[260] [261] [262] [263]
 Overfull \hbox (6.66563pt too wide) in paragraph at lines 627--634
  [][][][][][] 
  []
 
-[275] [276] [277] [278] [279] [280] [281] [282] [283] [284] [285] [286]
-[287] [288] [289]
+[264] [265] [266] [267] [268] [269] [270] [271] [272] [273]
+Overfull \hbox (5.68167pt too wide) in paragraph at lines 940--967
+[][]\TU/JameelNooriNastaleeq(1)/m/n/10 مساوات 5.5[] \TU/AASameerSagarNastaleeqB
+old(0)/m/n/10 مسئلہ نارٹن[][][][] \TU/JameelNooriNastaleeq(1)/m/n/10 بیان کرتی 
+ہے جسے شکل 5.21[]-الف میں دکھایا گیا ہے جبکہ مساوات 5.9[] \TU/AASameerSagarNast
+aleeqBold(0)/m/n/10 مسئلہ تھونن[][][][][]
+ []
+
+[274] [275]
 Overfull \hbox (20.0762pt too wide) in paragraph at lines 1065--1073
  [][][][][][] 
  []
 
-[290]
+[276] [277] [278]
 Missing character: There is no ق in font zplmr7m!
 Missing character: There is no ص in font zplmr7m!
 Missing character: There is no ر in font zplmr7m!
- [291]
+ [279]
 
-LaTeX Warning: Float too large for page by 40.35777pt on input line 1214.
+LaTeX Warning: Float too large for page by 44.3861pt on input line 1214.
 
-[292] [293]
+[280] [281]
 Overfull \hbox (17.80132pt too wide) in paragraph at lines 1265--1270
  [][][][][][] 
  []
 
-[294] [295]
+
 Overfull \hbox (27.19121pt too wide) in paragraph at lines 1345--1351
  [][][][][][] 
  []
 
-[296] [297]
+[282] [283] [284]
 Overfull \hbox (23.87619pt too wide) in paragraph at lines 1442--1449
  [][][][][][] 
  []
 
-[298] [299] [300] [301] [302]
+[285] [286] [287] [288] [289]
 Overfull \hbox (5.134pt too wide) in paragraph at lines 1560--1570
  [][][][][][] 
  []
 
-[303] [304] [305] [306] [307]
+[290] [291] [292] [293] [294] [295]
 Overfull \hbox (14.48633pt too wide) in paragraph at lines 1801--1806
  [][][][][][] 
  []
 
-[308] [309] [310]
+[296] [297]
 Overfull \hbox (10.05528pt too wide) in paragraph at lines 1891--1899
  [][][][][][] 
  []
 
-[311] [312] [313] [314] [315] [316]
+
+Overfull \hbox (0.65378pt too wide) in paragraph at lines 1923--1925
+[]\TU/JameelNooriNastaleeq(1)/m/n/10 5.36[]-ب کے برقی سر قصر دور کرتے ہوئے شکل-
+پ حاصل ہوتا ہے جسے شکل-ت کی طرز پر بنایا جا سکتا ہے۔شکل-[]
+ []
+
+[298] [299] [300] [301] [302]
 Overfull \hbox (1.30458pt too wide) in paragraph at lines 2057--2068
  [][][][][][] 
  []
 
-[317] [318] [319] [320] [321] [322] [323] [324]
+[303] [304] [305] [306] [307] [308] [309] [310] [311] [312]
 Overfull \hbox (6.99281pt too wide) in paragraph at lines 2433--2443
  [][][][][][] 
  []
@@ -4209,12 +4159,12 @@ Overfull \hbox (3.7804pt too wide) in paragraph at lines 2447--2457
  [][][][][][] 
  []
 
-[325] [326] [327] [328]
+[313] [314]
 Overfull \hbox (11.66563pt too wide) in paragraph at lines 2618--2626
  [][][][][][] 
  []
 
-[329] [330] [331] [332] [333] [334] [335]
+[315] [316] [317] [318] [319] [320]
 Overfull \hbox (6.33846pt too wide) in paragraph at lines 2878--2884
  [][][][][][] 
  []
@@ -4224,21 +4174,17 @@ Overfull \hbox (6.89836pt too wide) in paragraph at lines 2888--2896
  [][][][][][] 
  []
 
-) [336] [337]
+) [321] [322]
 \openout2 = `./tex/cktCapacitorInductor.aux'.
 
- (./tex/cktCapacitorInductor.tex [338
-
-
-
-]
+ (./tex/cktCapacitorInductor.tex
 باب 6.
-[339] [340] [341] [342] [343]
-Overfull \hbox (9.18982pt too wide) detected at line 127
-[]
- []
+[323
 
-[344] [345] [346] [347] [348] [349] [350] [351] [352] [353] [354] [355]
+
+
+] [324] [325] [326] [327] [328] [329] [330] [331] [332] [333] [334]
+[335] [336] [337] [338]
 Overfull \hbox (1.55396pt too wide) in paragraph at lines 505--512
  [][][][][][] 
  []
@@ -4248,10 +4194,10 @@ Overfull \hbox (1.55396pt too wide) in paragraph at lines 517--526
  [][][][][][] 
  []
 
-[356]
-Underfull \vbox (badness 1210) has occurred while \output is active []
+[339]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [357]
+ [340]
 Overfull \hbox (8.62637pt too wide) in paragraph at lines 566--573
 [][][][][] []
  []
@@ -4261,7 +4207,7 @@ Overfull \hbox (10.22102pt too wide) in paragraph at lines 577--585
 [][][][][] []
  []
 
-[358] [359]
+[341] [342]
 Overfull \hbox (4.06415pt too wide) in paragraph at lines 635--643
  [][][][][][] 
  []
@@ -4271,7 +4217,7 @@ Overfull \hbox (11.85413pt too wide) in paragraph at lines 648--657
  [][][][][][] 
  []
 
-[360]
+
 Overfull \hbox (11.85413pt too wide) in paragraph at lines 680--691
  [][][][][][] 
  []
@@ -4281,7 +4227,7 @@ Overfull \hbox (11.90959pt too wide) in paragraph at lines 696--707
  [][][][][][] 
  []
 
-
+[343]
 Overfull \hbox (14.69957pt too wide) in paragraph at lines 724--735
  [][][][][][] 
  []
@@ -4291,23 +4237,23 @@ Overfull \hbox (14.40959pt too wide) in paragraph at lines 740--752
  [][][][][][] 
  []
 
-[361] [362] [363]
-Overfull \hbox (10.7866pt too wide) in paragraph at lines 842--852
+[344] [345]
+Overfull \hbox (11.63133pt too wide) in paragraph at lines 842--852
  [][][][][][] 
  []
 
 
-Overfull \hbox (18.84651pt too wide) in paragraph at lines 857--868
+Overfull \hbox (19.69124pt too wide) in paragraph at lines 857--868
  [][][][][][] 
  []
 
 
-Overfull \hbox (18.84651pt too wide) in paragraph at lines 873--884
+Overfull \hbox (19.69124pt too wide) in paragraph at lines 873--884
  [][][][][][] 
  []
 
-[364] [365] [366] [367] [368] [369] [370] [371] [372] [373] [374] [375]
-[376] [377] [378] [379] [380]
+[346] [347] [348] [349] [350] [351] [352] [353] [354] [355] [356] [357]
+[358] [359] [360] [361] [362]
 Overfull \hbox (9.69957pt too wide) in paragraph at lines 1494--1505
  [][][][][][] 
  []
@@ -4317,7 +4263,7 @@ Overfull \hbox (9.69957pt too wide) in paragraph at lines 1510--1520
  [][][][][][] 
  []
 
-[381] [382]
+[363] [364]
 Overfull \hbox (6.34969pt too wide) in paragraph at lines 1561--1570
  [][][][][][] 
  []
@@ -4327,7 +4273,7 @@ Overfull \hbox (9.69957pt too wide) in paragraph at lines 1575--1585
  [][][][][][] 
  []
 
-[383] [384]
+[365] [366]
 Overfull \hbox (2.38707pt too wide) in paragraph at lines 1657--1661
  [][][][][][] 
  []
@@ -4352,7 +4298,7 @@ Overfull \hbox (1.32155pt too wide) in paragraph at lines 1724--1730
  [][][][][][] 
  []
 
-[385] [386]
+[367] [368]
 Overfull \hbox (1.32536pt too wide) in paragraph at lines 1746--1750
  [][][][][][] 
  []
@@ -4367,7 +4313,7 @@ Overfull \hbox (1.31844pt too wide) in paragraph at lines 1784--1788
  [][][][][][] 
  []
 
-[387] [388]
+[369] [370]
 Overfull \hbox (3.8849pt too wide) in paragraph at lines 1858--1862
  [][][][][][] 
  []
@@ -4377,41 +4323,41 @@ Overfull \hbox (3.14267pt too wide) in paragraph at lines 1867--1871
  [][][][][][] 
  []
 
-[389] [390] [391] [392] [393] [394] [395] [396]) [397]
+[371] [372] [373] [374] [375] [376] [377] [378]) [379]
 \openout2 = `./tex/cktTransients.aux'.
 
- (./tex/cktTransients.tex [398
+ (./tex/cktTransients.tex [380
 
 
 
 ]
 باب 7.
-[399]
+
 Overfull \hbox (4.26701pt too wide) in paragraph at lines 20--23
  [][][][][][] 
  []
 
-[400] [401] [402]
+[381] [382] [383] [384]
 Overfull \hbox (90.3099pt too wide) in paragraph at lines 128--156
 [][][][][][][][] []
  []
 
-[403] [404]
+[385]
 Overfull \hbox (256.18677pt too wide) in paragraph at lines 171--201
  [][][][][][][][][][][][] 
  []
 
-[405] [406] [407]
+[386] [387] [388]
 Overfull \hbox (30.95345pt too wide) in paragraph at lines 295--310
  [][][][][][][][][] 
  []
 
-[408] [409] [410]
-Overfull \hbox (637.01814pt too wide) in paragraph at lines 395--436
+[389] [390] [391]
+Overfull \hbox (638.7076pt too wide) in paragraph at lines 395--436
  [][][][][][][][][][][][][][][] 
  []
 
-[411] [412]
+[392] [393]
 Overfull \hbox (71.60121pt too wide) in paragraph at lines 487--490
  [][][][][][] 
  []
@@ -4421,7 +4367,7 @@ Overfull \hbox (48.9811pt too wide) in paragraph at lines 525--539
  [][][][][][] 
  []
 
-[413] [414] [415] [416] [417]
+[394] [395] [396] [397] [398]
 Overfull \hbox (73.24394pt too wide) in paragraph at lines 656--661
  [][][][][][] 
  []
@@ -4436,7 +4382,7 @@ Overfull \hbox (99.7714pt too wide) in paragraph at lines 679--692
  [][][][][][] 
  []
 
-[418] [419]
+[399] [400]
 Overfull \hbox (58.57109pt too wide) in paragraph at lines 765--769
  [][][][][][] 
  []
@@ -4451,7 +4397,7 @@ Overfull \hbox (70.83913pt too wide) in paragraph at lines 797--811
  [][][][][][] 
  []
 
-[420] [421] [422] [423] [424] [425] [426]
+[401] [402] [403] [404] [405] [406] [407]
 Overfull \hbox (30.1699pt too wide) in paragraph at lines 1024--1028
  [][][][][][] 
  []
@@ -4461,7 +4407,7 @@ Overfull \hbox (30.1699pt too wide) in paragraph at lines 1033--1037
  [][][][][][] 
  []
 
-[427] [428]
+[408] [409]
 Overfull \hbox (49.2864pt too wide) in paragraph at lines 1061--1066
 [][][][][] []
  []
@@ -4471,13 +4417,13 @@ Overfull \hbox (75.78793pt too wide) in paragraph at lines 1089--1102
  [][][][][][] 
  []
 
-[429] [430] [431] [432] [433]
+[410] [411] [412] [413]
 Overfull \hbox (47.84508pt too wide) in paragraph at lines 1225--1232
  [][][][][][] 
  []
 
-[434] [435] [436] [437] [438] [439] [440] [441] [442] [443] [444] [445]
-[446] [447]
+[414] [415] [416] [417] [418] [419] [420] [421] [422] [423] [424] [425]
+[426] [427]
 Overfull \hbox (68.32802pt too wide) in paragraph at lines 1628--1635
  [][][][][][] 
  []
@@ -4487,12 +4433,12 @@ Overfull \hbox (44.23999pt too wide) in paragraph at lines 1640--1644
  [][][][][][] 
  []
 
-[448] [449] [450] [451] [452]
+[428] [429] [430] [431] [432]
 Overfull \hbox (61.0979pt too wide) in paragraph at lines 1786--1798
 [][][][][] []
  []
 
-[453] [454] [455] [456] [457]
+[433] [434] [435] [436]
 Overfull \hbox (4.59598pt too wide) in paragraph at lines 1888--1890
  [][][][][][] 
  []
@@ -4507,7 +4453,7 @@ Overfull \hbox (79.5309pt too wide) in paragraph at lines 1913--1926
  [][][][][][] 
  []
 
-[458] [459] [460] [461]
+[437] [438] [439] [440]
 Missing character: There is no د in font [lmroman8-regular]:mapping=tex-text;!
 Missing character: There is no ک in font [lmroman8-regular]:mapping=tex-text;!
 Missing character: There is no ھ in font [lmroman8-regular]:mapping=tex-text;!
@@ -4540,12 +4486,12 @@ Missing character: There is no ل in font [lmroman8-regular]:mapping=tex-text;!
 Missing character: There is no ہ in font [lmroman8-regular]:mapping=tex-text;!
 Missing character: There is no ے in font [lmroman8-regular]:mapping=tex-text;!
 Missing character: There is no ۔ in font [lmroman8-regular]:mapping=tex-text;!
- [462] [463] [464] [465]
+ [441] [442] [443] [444]
 Overfull \hbox (26.21152pt too wide) in paragraph at lines 2166--2169
  [][][][][][] 
  []
 
-[466] [467]
+
 Overfull \hbox (11.66563pt too wide) in paragraph at lines 2219--2223
  [][][][][][] 
  []
@@ -4555,39 +4501,39 @@ Overfull \hbox (8.70186pt too wide) in paragraph at lines 2227--2232
  [][][][][][] 
  []
 
-[468] [469]
+[445] [446] [447] [448]
 Overfull \hbox (10.58041pt too wide) in paragraph at lines 2360--2368
  [][][][][][] 
  []
 
-[470] [471]
+[449] [450] [451]
 Overfull \hbox (55.03581pt too wide) in paragraph at lines 2466--2473
  [][][][][][] 
  []
 
-[472] [473]
+
 Overfull \hbox (18.21342pt too wide) in paragraph at lines 2504--2511
  [][][][][][] 
  []
 
-[474] [475] [476] [477]) [478] [479]
+[452] [453] [454] [455] [456]) [457] [458]
 \openout2 = `./tex/cktSteadyStateAC.aux'.
 
- (./tex/cktSteadyStateAC.tex [480
+ (./tex/cktSteadyStateAC.tex
+باب 8.
+[459
 
 
 
 ]
-باب 8.
-[481]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [482]
+ [460]
 Overfull \hbox (0.5818pt too wide) detected at line 96
 []
  []
 
-[483] [484] [485]
+[461] [462] [463]
 Underfull \hbox (badness 10000) in paragraph at lines 184--184
 [][][]\TU/JameelNooriNastaleeq(0)/m/n/8 ایک ماہر ریاضی اپنی خیالی دنیا میں کوسا
 ئن  $[] \OML/zplm/m/it/8 ^^R$  \TU/JameelNooriNastaleeq(0)/m/n/8 تفاعل کے ساتھ 
@@ -4595,146 +4541,143 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--184
 اس کا فوراً جواب اکائی []
  []
 
-[486] [487]
+[464] [465]
 Overfull \hbox (3.44089pt too wide) in paragraph at lines 261--268
  [][][][][][] 
  []
 
-[488] [489] [490] [491] [492]
+[466] [467] [468] [469] [470]
 Overfull \hbox (3.43843pt too wide) in paragraph at lines 416--420
  [][][][][][] 
  []
 
-[493] [494] [495] [496] [497] [498] [499] [500] [501] [502]
+[471] [472] [473] [474] [475] [476] [477] [478] [479] [480]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [503] [504]
-[505] [506]
+ [481] [482]
+[483]
 Overfull \hbox (27.88605pt too wide) detected at line 801
 []
  []
 
-[507] [508] [509] [510] [511] [512] [513] [514] [515] [516] [517] [518]
-[519] [520]
+[484] [485] [486] [487] [488] [489] [490] [491] [492] [493] [494] [495]
+[496] [497]
 Underfull \hbox (badness 10000) in paragraph at lines 1455--1458
 [][]
  []
 
-[521] [522] [523] [524] [525] [526] [527] [528] [529]
+[498] [499] [500] [501] [502] [503] [504] [505]
 Overfull \hbox (10.79147pt too wide) in paragraph at lines 1688--1695
  [][][][][][] 
  []
 
-[530] [531] [532] [533] [534] [535] [536] [537]
+[506] [507] [508] [509] [510] [511] [512]
 Overfull \hbox (8.63191pt too wide) in paragraph at lines 1945--1948
  [][][][][][] 
  []
 
-[538] [539] [540] [541] [542] [543] [544]
-Overfull \hbox (43.35374pt too wide) in paragraph at lines 2208--2212
+[513] [514] [515] [516] [517] [518] [519]
+Overfull \hbox (43.49474pt too wide) in paragraph at lines 2208--2212
  [][][][][][] 
  []
 
-[545] [546] [547] [548] [549] [550] [551] [552] [553] [554] [555] [556]
+[520] [521] [522] [523] [524] [525] [526] [527] [528] [529] [530] [531]
 Overfull \hbox (2.03564pt too wide) in paragraph at lines 2631--2637
  [][][][][][] 
  []
 
-[557] [558] [559] [560]
+[532] [533] [534] [535]
 Overfull \hbox (23.79825pt too wide) in paragraph at lines 2729--2732
  [][][][][][] 
  []
 
-[561] [562] [563] [564]
-Overfull \hbox (7.73238pt too wide) detected at line 2831
+[536] [537] [538] [539]
+Overfull \hbox (8.2611pt too wide) detected at line 2831
 []
  []
 
 
-Overfull \hbox (7.73238pt too wide) in alignment at lines 2831--2831
+Overfull \hbox (8.2611pt too wide) in alignment at lines 2831--2831
 [] [] 
  []
 
-[565] [566] [567] [568]
+[540] [541] [542] [543]
 Overfull \hbox (1.75946pt too wide) in paragraph at lines 3014--3022
  [][][][][][] 
  []
 
-[569] [570] [571]
+[544] [545] [546] [547]
 Overfull \hbox (40.01164pt too wide) in paragraph at lines 3195--3205
  [][][][][][] 
  []
 
-[572] [573] [574] [575] [576] [577] [578]
-Overfull \hbox (6.61298pt too wide) in paragraph at lines 3402--3411
+[548] [549] [550] [551] [552]
+Overfull \hbox (6.75397pt too wide) in paragraph at lines 3402--3411
  [][][][][][] 
  []
 
 
-Overfull \hbox (25.79135pt too wide) in paragraph at lines 3422--3430
+Overfull \hbox (26.07333pt too wide) in paragraph at lines 3422--3430
  [][][][][][] 
  []
 
-[579] [580] [581] [582]
-Overfull \hbox (20.49957pt too wide) in paragraph at lines 3602--3611
+[553] [554] [555]
+Overfull \hbox (20.64056pt too wide) in paragraph at lines 3602--3611
  [][][][][][] 
  []
 
-[583] [584]) [585]
+) [556] [557] [558]
 \openout2 = `./tex/cktSteadyStatePower.aux'.
 
- (./tex/cktSteadyStatePower.tex [586
-
-
-
-]
+ (./tex/cktSteadyStatePower.tex
 باب 9.
-[587] [588] [589] [590] [591] [592] [593] [594] [595] [596] [597] [598]
-[599]
-Overfull \hbox (1.02383pt too wide) in paragraph at lines 413--417
+[559
+
+
+
+] [560] [561] [562] [563] [564] [565] [566] [567] [568] [569] [570]
+[571]
+Overfull \hbox (1.16483pt too wide) in paragraph at lines 413--417
  [][][][][][] 
  []
 
-[600] [601]
 
-LaTeX Warning: Float too large for page by 122.18146pt on input line 501.
+LaTeX Warning: Float too large for page by 126.61261pt on input line 501.
 
-[602] [603] [604] [605] [606] [607] [608] [609] [610] [611]
+[572] [573] [574] [575] [576] [577] [578] [579] [580] [581] [582]
 Missing character: There is no ; in font nullfont!
- [612] [613]
+ [583]
 Missing character: There is no ; in font nullfont!
 
-[614]
+[584] [585]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [615]
+ [586]
 Missing character: There is no ; in font nullfont!
- [616]
 Missing character: There is no ; in font nullfont!
- [617] [618] [619] [620] [621] [622] [623] [624] [625]
-[626] [627] [628] [629] [630] [631] [632] [633]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [587] [588] [589] [590]
+Overfull \hbox (5.69528pt too wide) in paragraph at lines 990--991
+[][]\TU/JameelNooriNastaleeq(1)/m/n/10 آپ نے مثال 9.12[] میں دیکھا کہ جزو طاقت 
+کی تبدیلی سے ترسیلی تاروں میں طاقت کے ضیاع تبدیل ہوتا ہے۔مساوات[]
+ []
 
- [634]
-[635] [636]
+[591] [592] [593] [594] [595] [596] [597] [598] [599] [600] [601] [602]
+[603] [604] [605]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [637] [638] [639]
-Underfull \vbox (badness 1546) has occurred while \output is active []
-
- [640]
-[641] [642] [643] [644] [645] [646]
-Overfull \hbox (6.5815pt too wide) in paragraph at lines 1715--1717
+ [606] [607] [608] [609] [610] [611] [612] [613] [614]
+[615]
+Overfull \hbox (6.72249pt too wide) in paragraph at lines 1715--1717
  [][][][][][] 
  []
 
-[647] [648] [649] [650]
+[616] [617] [618]
 Overfull \hbox (6.32043pt too wide) in paragraph at lines 1894--1898
  [][][][][][] 
  []
@@ -4744,7 +4687,7 @@ Overfull \hbox (4.8263pt too wide) in paragraph at lines 1903--1907
  [][][][][][] 
  []
 
-
+[619] [620]
 Overfull \hbox (8.2586pt too wide) in paragraph at lines 1930--1934
  [][][][][][] 
  []
@@ -4754,17 +4697,17 @@ Overfull \hbox (1.63548pt too wide) in paragraph at lines 1939--1943
  [][][][][][] 
  []
 
-[651] [652] [653] [654] [655]) [656] [657]
+[621] [622] [623] [624]) [625]
 \openout2 = `./tex/cktMagneticallyCoupledNetworks.aux'.
 
-
-(./tex/cktMagneticallyCoupledNetworks.tex [658
+ (./tex/cktMagneticallyCoupledNetworks.tex
+[626
 
 
 
 ]
 باب 10.
-[659]
+[627]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -4784,7 +4727,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [660] [661]
+ [628] [629]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -4805,7 +4748,7 @@ Overfull \hbox (7.5015pt too wide) in paragraph at lines 205--216
  [][][][][][] 
  []
 
-[662]
+[630]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -4826,7 +4769,7 @@ Overfull \hbox (7.5015pt too wide) in paragraph at lines 286--297
  [][][][][][] 
  []
 
-[663] [664] [665] [666] [667] [668] [669] [670] [671] [672]
+[631] [632] [633] [634] [635] [636] [637] [638]
 Overfull \hbox (2.0737pt too wide) detected at line 653
 []
  []
@@ -4836,8 +4779,15 @@ Overfull \hbox (2.0737pt too wide) in alignment at lines 652--653
 [] [] 
  []
 
-[673] [674] [675] [676] [677] [678] [679] [680] [681] [682] [683] [684]
-[685]
+[639] [640] [641] [642] [643] [644] [645] [646] [647] [648] [649] [650]
+Overfull \hbox (4.87024pt too wide) in paragraph at lines 1062--1064
+[]\TU/JameelNooriNastaleeq(1)/m/n/10 جہاں تکمل کو قالب کے اندر گھومتے ہوئے حاصل
+ کیا جاتا ہے جبکہ  $\OML/zplm/m/it/10 H$  \TU/JameelNooriNastaleeq(1)/m/n/10 قا
+لب کے اندر \TU/AASameerSagarNastaleeqBold(0)/m/n/10 مقناطیسی شدت[][] \TU/Jameel
+NooriNastaleeq(1)/m/n/10 ہے۔مقناطیسی[]
+ []
+
+[651]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -4848,27 +4798,33 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [686] [687]
-Overfull \hbox (3.9978pt too wide) in paragraph at lines 1189--1202
+ [652] [653]
+Overfull \hbox (3.97168pt too wide) in paragraph at lines 1189--1202
  [][][][][][] 
  []
 
-[688] [689] [690] [691]
-Overfull \hbox (4.61734pt too wide) in paragraph at lines 1363--1375
+[654] [655] [656] [657]
+Overfull \hbox (4.75833pt too wide) in paragraph at lines 1363--1375
  [][][][][][] 
  []
 
-[692] [693] [694]
-Overfull \hbox (7.0297pt too wide) in paragraph at lines 1468--1486
+[658] [659]
+Overfull \hbox (7.17068pt too wide) in paragraph at lines 1468--1486
  [][][][][][] 
  []
 
-[695] [696] [697] [698] [699]
+[660] [661] [662] [663]
 Overfull \hbox (2.63948pt too wide) in paragraph at lines 1666--1677
  [][][][][][] 
  []
 
-[700] [701] [702] [703] [704] [705] [706]
+
+Overfull \hbox (3.89352pt too wide) in paragraph at lines 1713--1714
+[][]\TU/JameelNooriNastaleeq(1)/m/n/10 حل:ہم ٹرانسفارمر کے بائیں جانب دور کا تھ
+ونن مساوی حاصل کرتے ہیں۔اس دور کو شکل-ب میں دکھایا گیا ہے۔شکل-[]
+ []
+
+[664] [665] [666] [667] [668] [669] [670] [671]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -4881,27 +4837,27 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [707] [708] [709] [710] [711]
-[712] [713] [714] [715]
-Overfull \hbox (18.34497pt too wide) in paragraph at lines 2417--2429
+ [672] [673] [674] [675]
+[676] [677] [678] [679]
+Overfull \hbox (18.48596pt too wide) in paragraph at lines 2417--2429
  [][][][][][] 
  []
 
-
-Overfull \hbox (19.69229pt too wide) in paragraph at lines 2484--2501
+[680] [681]
+Overfull \hbox (20.95206pt too wide) in paragraph at lines 2484--2501
  [][][][][][] 
  []
 
-[716] [717]) [718]
+[682]) [683]
 \openout2 = `./tex/cktPolyphaseCircuits.aux'.
 
- (./tex/cktPolyphaseCircuits.tex
+ (./tex/cktPolyphaseCircuits.tex [684
+
+
+
+]
 باب 11.
-[719
-
-
-
-] [720] [721]
+[685]
 Overfull \hbox (2.24843pt too wide) in paragraph at lines 108--128
  [][][][][][] 
  []
@@ -4911,22 +4867,22 @@ Overfull \hbox (1.91382pt too wide) in paragraph at lines 133--144
  [][][][][][] 
  []
 
-[722] [723]
+[686] [687] [688] [689]
 Overfull \hbox (5.869pt too wide) detected at line 211
 []
  []
 
-[724] [725] [726]
-Overfull \hbox (13.88571pt too wide) in paragraph at lines 291--303
+[690] [691]
+Overfull \hbox (14.67184pt too wide) in paragraph at lines 291--303
  [][][][][][] 
  []
 
-[727] [728] [729] [730] [731] [732] [733] [734]
-Overfull \hbox (8.89496pt too wide) in paragraph at lines 564--569
+[692] [693] [694] [695] [696] [697] [698] [699]
+Overfull \hbox (8.96545pt too wide) in paragraph at lines 564--569
  [][][][][][] 
  []
 
-[735] [736] [737]
+[700] [701] [702]
 
 LaTeX Warning: Command \b invalid in math mode on input line 626.
 
@@ -4935,22 +4891,126 @@ Missing character: There is no ̲ in font zplmr7m!
 LaTeX Warning: Command \b invalid in math mode on input line 626.
 
 Missing character: There is no ̲ in font zplmr7m!
-[738] [739] [740] [741]
+[703] [704] [705] [706]
 
 LaTeX Warning: Command \b invalid in math mode on input line 751.
 
 Missing character: There is no ̲ in font zplmr7m!
-[742] [743] [744] [745] [746] [747] [748] [749] [750] [751] [752] [753]
-[754] [755] [756]
-Underfull \hbox (badness 10000) in paragraph at lines 1218--1220
+[707] [708] [709] [710] [711]
+Overfull \hbox (11.37451pt too wide) in paragraph at lines 924--926
+[]\TU/JameelNooriNastaleeq(1)/m/n/10 اس طرح منبع کا کل حقیقی طاقت  $[] []$ ، کل
+ متعاملی طاقت  $[] []$  اور کل ظاہری طاقت  $[] []$[]
+ []
+
+[712] [713]
+Overfull \hbox (9.67686pt too wide) in paragraph at lines 987--1006
+[][]\TU/JameelNooriNastaleeq(1)/m/n/10 مثال  11.11: []شکل 11.18[] میں متوازن تی
+ن دوری نظام دکھایا گیا ہے۔تار میں کل ضیاع کو بوجھ پر  $[] [] []$[]
+ []
+
+[714] [715] [716] [717] [718] [719] [720]
+Overfull \hbox (0.20024pt too wide) in paragraph at lines 1211--1213
+[][]\TU/JameelNooriNastaleeq(1)/m/n/10 جوابات: $[][] \OT1/zplm/m/n/10 = \OT1/pp
+l/m/n/10 381[] [] []$ \TU/JameelNooriNastaleeq(1)/m/n/10 ،  $[][] \OT1/zplm/m/n
+/10 = \OT1/ppl/m/n/10 381[] [] []$ \TU/JameelNooriNastaleeq(1)/m/n/10 ،  $[][] 
+\OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 381[] [] []$[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1211--1213
 [][]
  []
 
-[757] [758] [759] [760] [761] [762] [763] [764]) [765]
+[721]
+Overfull \hbox (2.77682pt too wide) in paragraph at lines 1225--1227
+[][]\TU/JameelNooriNastaleeq(1)/m/n/10 جوابات: $[][] \OT1/zplm/m/n/10 = \OT1/pp
+l/m/n/10 115[] [] []$ \TU/JameelNooriNastaleeq(1)/m/n/10 ،  $[][] \OT1/zplm/m/n
+/10 = \OT1/ppl/m/n/10 115[] [] []$ \TU/JameelNooriNastaleeq(1)/m/n/10 ،  $[][] 
+\OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 115[] [] []$[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1225--1227
+[][]
+ []
+
+
+Overfull \hbox (8.90015pt too wide) in paragraph at lines 1232--1234
+[][]\TU/JameelNooriNastaleeq(1)/m/n/10 جوابات: $[][] \OT1/zplm/m/n/10 = \OT1/pp
+l/m/n/10 416[] [] []$ \TU/JameelNooriNastaleeq(1)/m/n/10 ،  $[][] \OT1/zplm/m/n
+/10 = \OT1/ppl/m/n/10 416[] [] []$ \TU/JameelNooriNastaleeq(1)/m/n/10 ،  $[][] 
+\OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 416[] [] []$[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1232--1234
+[][]
+ []
+
+[722] [723] [724]
+Overfull \hbox (19.31839pt too wide) in paragraph at lines 1352--1353
+[][]\TU/JameelNooriNastaleeq(1)/m/n/10 جوابات: $[] \OT1/zplm/m/n/10 = \OT1/ppl/
+m/n/10 8.61[] [] []$ \TU/JameelNooriNastaleeq(1)/m/n/10 ،  $[] \OT1/zplm/m/n/10
+ = \OT1/ppl/m/n/10 8.61[] [] []$ \TU/JameelNooriNastaleeq(1)/m/n/10 ،  $[] \OT1
+/zplm/m/n/10 = \OT1/ppl/m/n/10 8.61[] [] []$[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1352--1353
+[][]
+ []
+
+
+Overfull \hbox (14.31839pt too wide) in paragraph at lines 1359--1360
+[][]\TU/JameelNooriNastaleeq(1)/m/n/10 جوابات: $[] \OT1/zplm/m/n/10 = \OT1/ppl/
+m/n/10 17.1[] [] []$ \TU/JameelNooriNastaleeq(1)/m/n/10 ،  $[] \OT1/zplm/m/n/10
+ = \OT1/ppl/m/n/10 17.1[] [] []$ \TU/JameelNooriNastaleeq(1)/m/n/10 ،  $[] \OT1
+/zplm/m/n/10 = \OT1/ppl/m/n/10 17.1[] [] []$[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1360
+[][]
+ []
+
+
+Overfull \hbox (14.31839pt too wide) in paragraph at lines 1372--1373
+[][]\TU/JameelNooriNastaleeq(1)/m/n/10 جوابات: $[] \OT1/zplm/m/n/10 = \OT1/ppl/
+m/n/10 39.7[] [] []$ \TU/JameelNooriNastaleeq(1)/m/n/10 ،  $[] \OT1/zplm/m/n/10
+ = \OT1/ppl/m/n/10 39.7[] [] []$ \TU/JameelNooriNastaleeq(1)/m/n/10 ،  $[] \OT1
+/zplm/m/n/10 = \OT1/ppl/m/n/10 39.7[] [] []$[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1372--1373
+[][]
+ []
+
+[725] [726]
+Overfull \hbox (14.31839pt too wide) in paragraph at lines 1438--1439
+[][]\TU/JameelNooriNastaleeq(1)/m/n/10 جوابات: $[] \OT1/zplm/m/n/10 = \OT1/ppl/
+m/n/10 58.4[] [] []$ \TU/JameelNooriNastaleeq(1)/m/n/10 ،  $[] \OT1/zplm/m/n/10
+ = \OT1/ppl/m/n/10 58.4[] [] []$ \TU/JameelNooriNastaleeq(1)/m/n/10 ،  $[] \OT1
+/zplm/m/n/10 = \OT1/ppl/m/n/10 58.4[] [] []$[]
+ []
+
+
+Overfull \hbox (2.6283pt too wide) in paragraph at lines 1438--1439
+[]\TU/JameelNooriNastaleeq(1)/m/n/10 ،  $[] \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 
+33.7[] [] []$ \TU/JameelNooriNastaleeq(1)/m/n/10 ،  $[] \OT1/zplm/m/n/10 = \OT1
+/ppl/m/n/10 33.7[] [] []$ \TU/JameelNooriNastaleeq(1)/m/n/10 ،  $[] \OT1/zplm/m
+/n/10 = \OT1/ppl/m/n/10 33.7[] [] []$[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1438--1439
+[][]
+ []
+
+[727] [728]) [729]
 \openout2 = `./tex/cktFrequencyResponse.aux'.
 
-
-(./tex/cktFrequencyResponse.tex [766
+ (./tex/cktFrequencyResponse.tex [730
 
 
 
@@ -4962,21 +5022,21 @@ Overfull \hbox (9.10133pt too wide) in paragraph at lines 22--27
  []
 
 
-Overfull \hbox (9.5024pt too wide) in paragraph at lines 32--37
+Overfull \hbox (9.62929pt too wide) in paragraph at lines 32--37
  [][][][][][] 
  []
 
-[767] [768]
+[731] [732]
 Overfull \hbox (8.38603pt too wide) in paragraph at lines 69--74
  [][][][][][] 
  []
 
 
-Overfull \hbox (8.79546pt too wide) in paragraph at lines 79--84
+Overfull \hbox (8.92235pt too wide) in paragraph at lines 79--84
  [][][][][][] 
  []
 
-[769]
+
 Overfull \hbox (9.00058pt too wide) in paragraph at lines 113--118
  [][][][][][] 
  []
@@ -4986,10 +5046,7 @@ Overfull \hbox (10.78905pt too wide) in paragraph at lines 123--128
  [][][][][][] 
  []
 
-
-Underfull \vbox (badness 2913) has occurred while \output is active []
-
- [770]
+[733]
 NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
 
@@ -5007,9 +5064,9 @@ File: ./fig/figFreqResponse/figFreqMagRLCvoltA.pdf Graphic file (type pdf)
 File: ./fig/figFreqResponse/figFreqPhaseRLCvoltA.pdf Graphic file (type pdf)
 <use ./fig/figFreqResponse/figFreqPhaseRLCvoltA.pdf>
 
-LaTeX Warning: Float too large for page by 50.42839pt on input line 199.
+LaTeX Warning: Float too large for page by 51.23405pt on input line 199.
 
-[771] [772] [773]
+[734] [735] [736] [737]
 Missing character: There is no ک in font zplmr7m!
 Missing character: There is no ے in font zplmr7m!
 Missing character: There is no ب in font zplmr7m!
@@ -5021,17 +5078,17 @@ Missing character: There is no ہ in font zplmr7m!
 Missing character: There is no ے in font zplmr7m!
 File: ./fig/figFreqResponse/figFreqAudioAmplifier.pdf Graphic file (type pdf)
 <use ./fig/figFreqResponse/figFreqAudioAmplifier.pdf>
- [774] [775] [776] [777] [778] [779] [780] [781] [782]
-[783] [784] [785] [786] [787]
+ [738] [739] [740] [741] [742] [743] [744] [745]
+[746] [747] [748] [749] [750]
 Package pgfplots info on input line 551: Using 'lua backend=false' for axis: xm
 ode=log unsupported (yet).
 Package pgfplots info on input line 567: Using 'lua backend=false' for axis: xm
 ode=log unsupported (yet).
 Missing character: There is no ; in font nullfont!
- [788] [789]
+ [751]
 Package pgfplots info on input line 596: Using 'lua backend=false' for axis: xm
 ode=log unsupported (yet).
- [790]
+ [752] [753] [754]
 Package pgfplots info on input line 634: Using 'lua backend=false' for axis: xm
 ode=log unsupported (yet).
 Package pgfplots info on input line 651: Using 'lua backend=false' for axis: xm
@@ -5039,88 +5096,96 @@ ode=log unsupported (yet).
 Missing character: There is no ; in font nullfont!
 Package pgfplots info on input line 681: Using 'lua backend=false' for axis: xm
 ode=log unsupported (yet).
- [791] [792] [793]
+ [755] [756]
 Package pgfplots info on input line 709: Using 'lua backend=false' for axis: xm
 ode=log unsupported (yet).
 Package pgfplots info on input line 720: Using 'lua backend=false' for axis: xm
 ode=log unsupported (yet).
- [794]
-[795]
+ [757]
 Package pgfplots info on input line 760: Using 'lua backend=false' for axis: xm
 ode=log unsupported (yet).
- [796]
+
+[758] [759]
 Package pgfplots info on input line 785: Using 'lua backend=false' for axis: xm
 ode=log unsupported (yet).
- [797]
+ [760]
 Package pgfplots info on input line 816: Using 'lua backend=false' for axis: xm
 ode=log unsupported (yet).
 Package pgfplots info on input line 827: Using 'lua backend=false' for axis: xm
 ode=log unsupported (yet).
+ [761]
 Package pgfplots info on input line 857: Using 'lua backend=false' for axis: xm
 ode=log unsupported (yet).
 Package pgfplots info on input line 870: Using 'lua backend=false' for axis: xm
 ode=log unsupported (yet).
- [798] [799] [800] [801]
+
+Overfull \hbox (30.6533pt too wide) in paragraph at lines 881--882
+[][]\TU/JameelNooriNastaleeq(1)/m/n/10 ہمیں عموماً درمیانی تعدد پر بوڈا خط میں 
+زیادہ دلچسپی ہوتی ہے۔ایسی صورت میں بوڈا مقداری خط درمیانی تعدد  $\OT1/zplm/m/n/
+10 ([] [] \OML/zplm/m/it/10 <$[]
+ []
+
+[762] [763] [764]
 Package pgfplots info on input line 904: Using 'lua backend=false' for axis: xm
 ode=log unsupported (yet).
- [802] [803] [804]
+ [765]
+Underfull \vbox (badness 3701) has occurred while \output is active []
+
+ [766]
+[767]
 Package pgfplots info on input line 983: Using 'lua backend=false' for axis: xm
 ode=log unsupported (yet).
 File: ./fig/figFreqResponse/figFreqDoublePolePhasePlot.pdf Graphic file (type p
 df)
 <use ./fig/figFreqResponse/figFreqDoublePolePhasePlot.pdf>
-
+ [768]
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[805] [806]
-Overfull \vbox (1.5449pt too high) has occurred while \output is active []
-
-
-[807] [808]
+[769] [770]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[809] [810]
+[771] [772]
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[811] [812]
+[773] [774]
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[813]
+[775]
 Package pgfplots info on input line 1230: Using 'lua backend=false' for axis: x
 mode=log unsupported (yet).
 Package pgfplots info on input line 1243: Using 'lua backend=false' for axis: x
 mode=log unsupported (yet).
- [814]
+ [776]
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[815] [816]
+[777] [778]
 Package pgfplots info on input line 1302: Using 'lua backend=false' for axis: x
 mode=log unsupported (yet).
 
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[817] [818]
+[779] [780]
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[819] [820]
+[781] [782]
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[821] [822]
+[783] [784]
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[823] [824]
+[785] [786]
 File: ./fig/figFreqResponse/figFreqSelevtivityAndQMagnitude.pdf Graphic file (t
 ype pdf)
 <use ./fig/figFreqResponse/figFreqSelevtivityAndQMagnitude.pdf>
@@ -5131,11 +5196,11 @@ pdf)
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[825] [826]
+[787] [788]
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[827] [828]
+[789] [790]
 Package pgfplots info on input line 1606: Using 'lua backend=false' for axis: x
 mode=log unsupported (yet).
 Missing character: There is no ; in font nullfont!
@@ -5144,70 +5209,80 @@ Missing character: There is no ; in font nullfont!
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[829] [830]
+[791] [792]
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[831] [832]
+[793] [794]
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[833] [834]
+[795] [796]
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[835] [836]
-Overfull \vbox (1.5449pt too high) has occurred while \output is active []
-
-
-[837]
+[797] [798]
 File: ./fig/figFreqResponse/figFreqTunedAmplifier.pdf Graphic file (type pdf)
 <use ./fig/figFreqResponse/figFreqTunedAmplifier.pdf>
- [838]
+
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[839] [840]
+[799] [800]
 Overfull \vbox (1.5449pt too high) has occurred while \output is active []
 
 
-[841] [842]
+[801] [802]
+Overfull \vbox (1.5449pt too high) has occurred while \output is active []
+
+
+[803]
 Overfull \hbox (1.12894pt too wide) in paragraph at lines 2042--2045
  [][][][][][] 
  []
 
 Package pgfplots info on input line 2050: Using 'lua backend=false' for axis: x
 mode=log unsupported (yet).
-[843] [844] [845]
+[804] [805] [806]
 Package pgfplots info on input line 2104: Using 'lua backend=false' for axis: x
 mode=log unsupported (yet).
- [846]
+
 Overfull \hbox (50.80446pt too wide) in paragraph at lines 2133--2136
  [][][][][][] 
  []
 
 Package pgfplots info on input line 2141: Using 'lua backend=false' for axis: x
 mode=log unsupported (yet).
-[847]
-Underfull \vbox (badness 5985) has occurred while \output is active []
-
- [848]
-[849]
+[807] [808] [809] [810]
 File: ./fig/figFreqResponse/figFreqNotchFilter.pdf Graphic file (type pdf)
 <use ./fig/figFreqResponse/figFreqNotchFilter.pdf>
- [850] [851] [852] [853] [854] [855] [856] [857] [858]
-Overfull \hbox (0.6892pt too wide) in paragraph at lines 2587--2588
+ [811] [812] [813] [814] [815] [816] [817] [818]
+[819]
+Overfull \hbox (16.6078pt too wide) in paragraph at lines 2562--2586
+[] \TU/JameelNooriNastaleeq(1)/m/n/10 سوال  12.13: []شکل 12.56[]-الف میں منبع ک
+ی تعدد  $\OML/zplm/m/it/10 !$  \TU/JameelNooriNastaleeq(1)/m/n/10 قابل تبدیل ہے
+۔دور کی قدرتی گمکی تعدد  $[] []$[]
+ []
+
+
+Overfull \hbox (18.6761pt too wide) in paragraph at lines 2587--2588
 [][]\TU/JameelNooriNastaleeq(1)/m/n/10 جوابات: $\OT1/ppl/m/n/10 20 []\OT1/zplm/
 m/n/10 (\OT1/ppl/m/n/10 500\OML/zplm/m/it/10 t \OT1/zplm/m/n/10 + \OT1/ppl/m/n/
 10 30[]\OT1/zplm/m/n/10 ) []$ \TU/JameelNooriNastaleeq(1)/m/n/10 ،  $\OT1/ppl/m
 /n/10 2.640 []\OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 1000\OML/zplm/m/it/10 t \OMS/zp
 lm/m/n/10 ^^@ \OT1/ppl/m/n/10 52.4[]\OT1/zplm/m/n/10 ) []$ \TU/JameelNooriNasta
 leeq(1)/m/n/10 ،  $\OT1/ppl/m/n/10 2.640 []\OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 25
-0\OML/zplm/m/it/10 t \OT1/zplm/m/n/10 +$[]
+0\OML/zplm/m/it/10 t \OT1/zplm/m/n/10 + \OT1/ppl/m/n/10 112.4[]\OT1/zplm/m/n/10
+ ) []$[]
  []
 
-[859] [860] [861] [862]
-Overfull \hbox (22.60866pt too wide) in paragraph at lines 2711--2715
+
+Underfull \hbox (badness 10000) in paragraph at lines 2587--2588
+[][]
+ []
+
+[820] [821] [822]
+Overfull \hbox (23.45338pt too wide) in paragraph at lines 2711--2715
  [][][][][][] 
  []
 
@@ -5218,61 +5293,61 @@ Overfull \hbox (10.54774pt too wide) in paragraph at lines 2720--2724
  [][][][][][] 
  []
 
-[863]
-Overfull \hbox (15.05617pt too wide) in paragraph at lines 2739--2747
+
+Overfull \hbox (17.5757pt too wide) in paragraph at lines 2739--2747
  [][][][][][] 
  []
 
 Package pgfplots info on input line 2752: Using 'lua backend=false' for axis: x
 mode=log unsupported (yet).
-[864] [865]) [866]
+[823] [824] [825]) [826]
 \openout2 = `./tex/cktLaplaceTransform.aux'.
 
  (./tex/cktLaplaceTransform.tex
 باب 13.
-[867
+[827
 
 
 
-] [868] [869] [870] [871] [872] [873] [874] [875] [876] [877] [878]
-[879] [880] [881]
-Overfull \hbox (44.16046pt too wide) in paragraph at lines 424--442
+] [828] [829] [830] [831] [832] [833] [834] [835] [836] [837] [838]
+[839] [840]
+Overfull \hbox (45.38116pt too wide) in paragraph at lines 424--442
  [][][][] 
  []
 
-[882] [883] [884] [885] [886] [887] [888] [889] [890] [891] [892] [893]
-Overfull \hbox (6.54427pt too wide) detected at line 725
+[841] [842] [843] [844] [845] [846] [847] [848] [849] [850] [851]
+Overfull \hbox (8.003pt too wide) detected at line 725
 []
  []
 
 
-Overfull \hbox (6.54427pt too wide) in alignment at lines 725--725
+Overfull \hbox (8.003pt too wide) in alignment at lines 725--725
 [] [] 
  []
 
-[894] [895] [896] [897] [898] [899] [900] [901] [902] [903] [904] [905]
-[906] [907] [908] [909] [910] [911] [912] [913]) [914]
+[852] [853] [854] [855] [856] [857] [858] [859] [860] [861] [862] [863]
+[864] [865] [866] [867] [868] [869] [870] [871]) [872]
 \openout2 = `./tex/cktApplicationLaplace.aux'.
 
 
 (./tex/cktApplicationLaplace.tex
 باب 14.
-[915
+[873
 
 
 
-] [916] [917] [918] [919] [920] [921]
-Overfull \hbox (51.87277pt too wide) in paragraph at lines 311--320
+] [874] [875] [876] [877] [878] [879]
+Overfull \hbox (54.3923pt too wide) in paragraph at lines 311--320
  [][][][][][] 
  []
 
 
-Overfull \hbox (39.8219pt too wide) detected at line 330
+Overfull \hbox (42.67834pt too wide) detected at line 330
 []
  []
 
 
-Overfull \hbox (2.20422pt too wide) detected at line 334
+Overfull \hbox (10.07776pt too wide) detected at line 334
 []
  []
 
@@ -5281,30 +5356,36 @@ Overfull \hbox (23.5503pt too wide) in paragraph at lines 343--347
  [][][][][][] 
  []
 
-[922] [923] [924] [925] [926]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [927]
-[928]
+[880] [881] [882] [883] [884] [885] [886]
 Overfull \hbox (3.00569pt too wide) in paragraph at lines 520--523
  [][][][][][] 
  []
 
-
-Underfull \vbox (badness 2689) has occurred while \output is active []
-
- [929]
-[930] [931] [932] [933] [934] [935] [936]
+[887] [888] [889] [890] [891] [892] [893]
 Overfull \hbox (17.79834pt too wide) in paragraph at lines 746--750
  [][][][][][] 
  []
 
-[937] [938]
+[894] [895] [896]
 Overfull \hbox (46.39424pt too wide) in paragraph at lines 805--811
  [][][][][][] 
  []
 
-[939] [940] [941] [942] [943] [944]
+[897] [898]
+Underfull \vbox (badness 1418) has occurred while \output is active []
+
+ [899]
+[900]
+Overfull \hbox (3.04567pt too wide) in paragraph at lines 923--925
+[][]\TU/JameelNooriNastaleeq(1)/m/n/10 مثال  14.7:  دور کا اکائی ضرب تفاعل رد ع
+مل  $\OML/cmm/b/it/10 H\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 s\OT1/zplm/m/n/10 ) 
+= []$  \TU/JameelNooriNastaleeq(1)/m/n/10 ہے۔داخلی اشارہ  $\OML/zplm/m/it/10 v[
+]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) = \OT1/ppl/m/n/10 3\OM
+L/zplm/m/it/10 e[]u\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) []$[
+]
+ []
+
+[901] [902]
 Overfull \hbox (8.0014pt too wide) in paragraph at lines 998--1002
  [][][][][][] 
  []
@@ -5323,15 +5404,11 @@ File: ./fig/figLaplaceTransformApplication/figLaplaceApplicationComplexPlane.pd
 f Graphic file (type pdf)
 <use ./fig/figLaplaceTransformApplication/figLaplaceApplicationComplexPlane.pdf
 >
-[945] [946] [947] [948] [949] [950] [951]
-Overfull \hbox (7.68672pt too wide) in paragraph at lines 1150--1165
-[][]\TU/JameelNooriNastaleeq(1)/m/n/10 جواب:قطبین اور صفر کو شکل 14.23[] میں دک
-ھایا گیا ہے۔ $\OML/zplm/m/it/10 y\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm
-/m/n/10 ) = \OML/zplm/m/it/10 e[] [] u\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1
-/zplm/m/n/10 )$[]
- []
+[903] [904] [905] [906]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[952] [953] [954]
+ [907]
+[908] [909] [910] [911] [912]
 File: ./fig/figLaplaceTransformApplication/figLaplaceApplicationPoleZeroPlotRLC
 A.pdf Graphic file (type pdf)
 <use ./fig/figLaplaceTransformApplication/figLaplaceApplicationPoleZeroPlotRLCA
@@ -5348,37 +5425,36 @@ File: ./fig/figLaplaceTransformApplication/figLaplaceApplicationPoleZeroPlotRLC
 D.pdf Graphic file (type pdf)
 <use ./fig/figLaplaceTransformApplication/figLaplaceApplicationPoleZeroPlotRLCD
 .pdf>
- [955] [956] [957] [958] [959] [960] [961] [962] [963]
-[964] [965] [966] [967] [968] [969] [970] [971]
+ [913] [914] [915] [916] [917] [918] [919]
+[920] [921] [922] [923] [924] [925] [926] [927] [928] [929]
 
 LaTeX Warning: Command \u invalid in math mode on input line 1852.
 
 Missing character: There is no ̆ in font zplmr7m!
-[972] [973] [974]
+[930] [931] [932]
 Overfull \hbox (1.14105pt too wide) in paragraph at lines 1943--1948
  [][][][][][] 
  []
 
-[975]) [976] [977]
+[933] [934]) [935]
 \openout2 = `./tex/cktFourierAnalysis.aux'.
 
- (./tex/cktFourierAnalysis.tex [978
+ (./tex/cktFourierAnalysis.tex [936
 
 
 
 ]
 باب 15.
-[979] [980] [981] [982] [983]
-Underfull \vbox (badness 1221) has occurred while \output is active []
+[937] [938] [939] [940] [941] [942] [943] [944]
+Overfull \hbox (2.4175pt too wide) in paragraph at lines 210--211
+[]\TU/JameelNooriNastaleeq(1)/m/n/10 15.15[] کو استعمال کرتے ہوئے مساوات 15.4[]
+ کے عددی سر  $\OML/zplm/m/it/10 a[]\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 a[]\OT1/
+ppl/m/n/10 , \OML/zplm/m/it/10 a[]\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 b[]\OT1/p
+pl/m/n/10 , [] $  \TU/JameelNooriNastaleeq(1)/m/n/10 حاصل کئے جا سکتے ہیں۔آئیں[
+]
+ []
 
- [984]
-Underfull \vbox (badness 1221) has occurred while \output is active []
-
- [985]
-Underfull \vbox (badness 1975) has occurred while \output is active []
-
- [986]
-[987] [988] [989] [990]
+[945] [946] [947]
 File: ./fig/figFourierAnalysis/figFourierSawTooth2.pdf Graphic file (type pdf)
 <use ./fig/figFourierAnalysis/figFourierSawTooth2.pdf>
 
@@ -5396,10 +5472,10 @@ Overfull \hbox (11.25818pt too wide) in paragraph at lines 300--301
  [][][][][][] 
  []
 
-[991] [992]
-Underfull \vbox (badness 4168) has occurred while \output is active []
+[948] [949]
+Underfull \vbox (badness 4279) has occurred while \output is active []
 
- [993]
+ [950]
 File: ./fig/figFourierAnalysis/figFourierSquareWave5.pdf Graphic file (type pdf
 )
 <use ./fig/figFourierAnalysis/figFourierSquareWave5.pdf>
@@ -5410,7 +5486,7 @@ File: ./fig/figFourierAnalysis/figFourierSquareWave50.pdf Graphic file (type pd
 f)
 <use ./fig/figFourierAnalysis/figFourierSquareWave50.pdf>
 
-[994] [995]
+[951] [952]
 Overfull \hbox (14.9422pt too wide) detected at line 412
 []
  []
@@ -5420,7 +5496,7 @@ Overfull \hbox (11.32196pt too wide) detected at line 428
 []
  []
 
-[996] [997] [998] [999] [1000]
+[953] [954] [955] [956]
 Overfull \hbox (44.25644pt too wide) detected at line 543
 []
  []
@@ -5430,7 +5506,7 @@ Overfull \hbox (44.25644pt too wide) in alignment at lines 543--543
 [] [] 
  []
 
-
+[957]
 Overfull \hbox (24.72366pt too wide) detected at line 571
  []$[]  \OML/zplm/m/it/10 f\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/1
 0 ) = \OML/cmm/b/it/10 c[] \OT1/zplm/m/n/10 + \OML/cmm/b/it/10 c[]\OML/zplm/m/i
@@ -5441,30 +5517,26 @@ plm/m/it/10 e[] \OT1/zplm/m/n/10 + \OML/cmm/b/it/10 c[]\OML/zplm/m/it/10 e[] []
   $ 
  []
 
-[1001] [1002] [1003]
-Underfull \vbox (badness 7415) has occurred while \output is active []
+[958] [959] [960]
+Underfull \vbox (badness 3375) has occurred while \output is active []
 
- [1004]
-[1005] [1006] [1007]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1008]
-[1009] [1010] [1011] [1012] [1013] [1014]
+ [961]
+[962] [963] [964] [965] [966] [967] [968] [969] [970]
 Overfull \hbox (11.71384pt too wide) in paragraph at lines 955--959
  [][][][][][] 
  []
 
-[1015] [1016] [1017] [1018] [1019] [1020]
+[971] [972] [973] [974] [975]
 Overfull \hbox (13.59366pt too wide) in paragraph at lines 1117--1121
  [][][][][][] 
  []
 
 
-Overfull \hbox (15.5776pt too wide) in paragraph at lines 1125--1129
+Overfull \hbox (18.09714pt too wide) in paragraph at lines 1125--1129
  [][][][][][] 
  []
 
-[1021] [1022] [1023] [1024] [1025] [1026] [1027] [1028]
+[976] [977] [978] [979] [980] [981] [982]
 Overfull \hbox (36.97256pt too wide) in paragraph at lines 1396--1400
  [][][][][][] 
  []
@@ -5477,46 +5549,47 @@ Overfull \hbox (36.97256pt too wide) in paragraph at lines 1405--1433
 
 LaTeX Warning: Float too large for page by 49.15718pt on input line 1437.
 
-[1029] [1030] [1031] [1032] [1033] [1034] [1035] [1036] [1037] [1038] [1039]
-[1040] [1041] [1042] [1043] [1044]
+[983] [984] [985] [986] [987] [988] [989] [990] [991] [992] [993]
+Underfull \vbox (badness 1596) has occurred while \output is active []
+
+ [994]
+[995] [996] [997] [998] [999]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [1045]
-[1046] [1047]
+ [1000]
 Underfull \hbox (badness 10000) in paragraph at lines 1981--1982
 [][]
  []
 
-[1048] [1049] [1050] [1051] [1052] [1053] [1054] [1055]) [1056]
+[1001] [1002] [1003] [1004] [1005] [1006] [1007] [1008] [1009]) [1010]
 \openout2 = `./tex/cktTwoPortNetworks.aux'.
 
 
 (./tex/cktTwoPortNetworks.tex
 باب 16.
-[1057
+[1011
 
 
 
-] [1058] [1059] [1060] [1061] [1062] [1063] [1064] [1065]
+] [1012] [1013] [1014] [1015] [1016] [1017] [1018] [1019]
 Missing character: There is no م in font zplmr7m!
 Missing character: There is no م in font zplmr7m!
- [1066] [1067]
-[1068] [1069] [1070] [1071] [1072] [1073] [1074] [1075] [1076] [1077] [1078]
-[1079] [1080] [1081] [1082]) [1083] [1084] (./circuitAnalysis.ind [1085
+ [1020] [1021]
+[1022] [1023] [1024] [1025] [1026] [1027] [1028] [1029] [1030] [1031] [1032]
+[1033] [1034]) [1035] [1036] [1037] [1038
 
 
+] (./circuitAnalysis.ind [1039
 
 
 
 ]
-[1086] [1087] [1088] [1089] [1090]
-Overfull \hbox (1.1658pt too wide) in paragraph at lines 526--527
-[][]| \TU/ppl/m/n/10 Source Transformation, 269, 273 []
+[1040] [1041] [1042] [1043] [1044]
+Overfull \hbox (1.1658pt too wide) in paragraph at lines 532--533
+[][]| \TU/ppl/m/n/10 Source Transformation, 271, 275 []
  []
 
-[1091] [1092] [1093] [1094] [1095] [1096] [1097] [1098] [1099] [1100] [1101
-
-])
+[1045] [1046] [1047] [1048] [1049] [1050] [1051] [1052] [1053] [1054] [1055])
 (./circuitAnalysis.aux (./tex/cktPreface.aux) (./tex/prefaceFirstBook.aux)
 (./tex/cktBasics.aux) (./tex/cktResistive.aux) (./tex/cktNodalLoop.aux)
 (./tex/cktOpamp.aux) (./tex/cktTheorems.aux) (./tex/cktCapacitorInductor.aux)
@@ -5534,12 +5607,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 164102 strings out of 493007
- 4068829 string characters out of 6136718
- 4271473 words of memory out of 5000000
- 166835 multiletter control sequences out of 15000+600000
+ 164924 strings out of 493007
+ 4088342 string characters out of 6136718
+ 4278968 words of memory out of 5000000
+ 167657 multiletter control sequences out of 15000+600000
  587214 words of font info for 230 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  74i,24n,378p,10439b,3454s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on circuitAnalysis.pdf (1113 pages).
+Output written on circuitAnalysis.pdf (1067 pages).
