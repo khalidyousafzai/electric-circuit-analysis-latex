@@ -1,154 +1,154 @@
 \select@language {arabic}
-\contentsline {chapter}{دیباچہ}{ix}
+\contentsline {chapter}{دیباچہ}{ix}% 
 \select@language {english}
 \select@language {arabic}
 \select@language {english}
 \select@language {arabic}
 \select@language {english}
 \select@language {arabic}
-\contentsline {chapter}{میری پہلی کتاب کا دیباچہ}{xi}
-\contentsline {chapter}{\numberline {1}بنیاد}{1}
-\contentsline {section}{\numberline {1.1}برقی بار، برقی رو اور برقی دباو}{1}
-\contentsline {section}{\numberline {1.2}قانونِ اوہم}{7}
-\contentsline {section}{\numberline {1.3}توانائی اور طاقت}{8}
-\contentsline {section}{\numberline {1.4}برقی پرزے}{15}
-\contentsline {subsection}{\numberline {1.4.1}غیر تابع منبع}{16}
-\contentsline {subsection}{\numberline {1.4.2}تابع منبع}{18}
-\contentsline {chapter}{\numberline {2}مزاحمتی ادوار}{39}
-\contentsline {section}{\numberline {2.1}قانون اوہم}{39}
-\contentsline {section}{\numberline {2.2}قوانین کرخوف}{48}
-\contentsline {section}{\numberline {2.3}سلسلہ وار جڑے پرزوں میں رو}{64}
-\contentsline {section}{\numberline {2.4}تقسیم دباو}{65}
-\contentsline {section}{\numberline {2.5}متعدد سلسلہ وار مزاحمتوں کا مساوی مزاحمت}{68}
-\contentsline {section}{\numberline {2.6}سلسلہ وار متعدد منابع دباو اور مزاحمت}{72}
-\contentsline {section}{\numberline {2.7}متوازی جڑے مزاحمت پر یکساں دباو پایا جاتا ہے}{74}
-\contentsline {section}{\numberline {2.8}تقسیم رو اور متعدد متوازی مزاحمتوں کا مساوی مزاحمت}{74}
-\contentsline {section}{\numberline {2.9}سلسلہ وار اور متوازی مزاحمت}{82}
-\contentsline {section}{\numberline {2.10}تخصیص مزاحمت}{88}
-\contentsline {section}{\numberline {2.11}سلسلہ وار اور متوازی مزاحمتوں کے ادوار کا حل}{91}
-\contentsline {section}{\numberline {2.12}ستارہ-تکون تبادلہ}{99}
-\contentsline {section}{\numberline {2.13}تابع منبع استعمال کرنے والے ادوار}{106}
-\contentsline {chapter}{\numberline {3}ترکیب جوڑ اور دائری ترکیب}{131}
-\contentsline {section}{\numberline {3.1}تجزیہ جوڑ}{131}
-\contentsline {section}{\numberline {3.2}غیر تابع منبع رو استعمال کرنے والے ادوار}{134}
-\contentsline {section}{\numberline {3.3}تابع منبع رو استعمال کرنے والے ادوار}{147}
-\contentsline {section}{\numberline {3.4}غیر تابع منبع دباو استعمال کرنے والے ادوار}{153}
-\contentsline {section}{\numberline {3.5}تابع منبع دباو استعمال کرنے والے ادوار}{164}
-\contentsline {section}{\numberline {3.6}دائری تجزیہ}{170}
-\contentsline {section}{\numberline {3.7}غیر تابع منبع استعمال کرنے والے ادوار}{171}
-\contentsline {section}{\numberline {3.8}غیر تابع منبع رو استعمال کرنے والے ادوار}{180}
-\contentsline {section}{\numberline {3.9}تابع منبع استعمال کرنے والے ادوار}{186}
-\contentsline {section}{\numberline {3.10}دائری ترکیب اور ترکیب جوڑ کا موازنہ}{190}
-\contentsline {chapter}{\numberline {4}حسابی ایمپلیفائر}{211}
-\contentsline {section}{\numberline {4.1}کامل حسابی ایمپلیفائر}{221}
-\contentsline {section}{\numberline {4.2}منفی ایمپلیفائر}{221}
-\contentsline {section}{\numberline {4.3}مثبت ایمپلیفائر}{224}
-\contentsline {section}{\numberline {4.4}مستحکم کار}{226}
-\contentsline {section}{\numberline {4.5}منفی کار}{226}
-\contentsline {section}{\numberline {4.6}جمع کار}{228}
-\contentsline {section}{\numberline {4.7}متوازن اور غیر متوازن صورت}{231}
-\contentsline {section}{\numberline {4.8}موازنہ کار}{235}
-\contentsline {section}{\numberline {4.9}آلاتی ایمپلیفائر}{235}
-\contentsline {chapter}{\numberline {5}مسئلے}{249}
-\contentsline {section}{\numberline {5.1}مساوی دور}{249}
-\contentsline {section}{\numberline {5.2}مسئلہ خطیّت}{249}
-\contentsline {section}{\numberline {5.3}مسئلہ خطی میل}{253}
-\contentsline {section}{\numberline {5.4}مساوی ادوار}{264}
-\contentsline {section}{\numberline {5.5}مسئلہ تھونن، مسئلہ نارٹن اور مسئلہ تبادلہ منبع}{270}
-\contentsline {section}{\numberline {5.6}تابع منبع استعمال کرنے والے ادوار}{290}
-\contentsline {section}{\numberline {5.7}تابع منبع اور غیر تابع منبع دونوں استعمال کرنے والے ادوار}{296}
-\contentsline {section}{\numberline {5.8}زیادہ سے زیادہ طاقت منتقل کرنے کا مسئلہ}{303}
-\contentsline {chapter}{\numberline {6}برق گیر اور امالہ گیر}{323}
-\contentsline {section}{\numberline {6.1}برق گیر}{323}
-\contentsline {section}{\numberline {6.2}امالہ گیر}{337}
-\contentsline {section}{\numberline {6.3}برق گیر اور امالہ گیر کے خصوصیات}{345}
-\contentsline {section}{\numberline {6.4}سلسلہ وار جڑے برق گیر}{349}
-\contentsline {section}{\numberline {6.5}متوازی جڑے برق گیر}{352}
-\contentsline {section}{\numberline {6.6}سلسلہ وار امالہ گیر}{356}
-\contentsline {section}{\numberline {6.7}متوازی امالہ گیر}{358}
-\contentsline {section}{\numberline {6.8}حسابی ایمپلیفائر کے \tmspace +\medmuskip {.2222em} \ensuremath {RC} \tmspace +\medmuskip {.2222em} ادوار}{361}
-\contentsline {section}{\numberline {6.9}تفرق کار}{362}
-\contentsline {chapter}{\numberline {7}عارضی رد عمل}{381}
-\contentsline {section}{\numberline {7.1}تعارف}{381}
-\contentsline {section}{\numberline {7.2}یک رتبی ادوار}{381}
-\contentsline {subsection}{\numberline {7.2.1}رد عمل کی عمومی مساوات}{383}
-\contentsline {section}{\numberline {7.3}دھڑکن}{406}
-\contentsline {section}{\numberline {7.4}دو رتبی ادوار}{414}
-\contentsline {chapter}{\numberline {8}تجزیہ برقرار حال}{459}
-\contentsline {section}{\numberline {8.1}مخلوط اعداد}{459}
-\contentsline {section}{\numberline {8.2}سائن نما تفاعل}{464}
-\contentsline {section}{\numberline {8.3}سائن نما اور مخلوط جبری تفاعل}{474}
-\contentsline {section}{\numberline {8.4}دوری سمتیہ}{481}
-\contentsline {section}{\numberline {8.5}مزاحمت، امالہ گیر اور برق گیر کے انفرادی دوری سمتی تعلق}{487}
-\contentsline {section}{\numberline {8.6}برقی رکاوٹ اور برقی فراوانی}{497}
-\contentsline {section}{\numberline {8.7}دوری سمتیات کے اشکال}{510}
-\contentsline {section}{\numberline {8.8}کرخوف مساوات}{520}
-\contentsline {section}{\numberline {8.9}تجزیاتی تراکیب}{525}
-\contentsline {chapter}{\numberline {9}برقرار برقی طاقت}{559}
-\contentsline {section}{\numberline {9.1}لمحاتی طاقت}{559}
-\contentsline {section}{\numberline {9.2}اوسط طاقت}{562}
-\contentsline {section}{\numberline {9.3}زیادہ سے زیادہ اوسط طاقت منتقل کرنے کا مسئلہ}{569}
-\contentsline {section}{\numberline {9.4}موثر قیمت}{579}
-\contentsline {section}{\numberline {9.5}جزو طاقت}{589}
-\contentsline {section}{\numberline {9.6}مخلوط طاقت}{593}
-\contentsline {section}{\numberline {9.7}جزو طاقت کی درستگی}{601}
-\contentsline {section}{\numberline {9.8}برقی جھٹکا}{606}
-\contentsline {section}{\numberline {9.9}نم زمین}{609}
-\contentsline {section}{\numberline {9.10}ایک دور کا نظام}{609}
-\contentsline {section}{\numberline {9.11}حفاظتی تدابیر}{614}
-\contentsline {chapter}{\numberline {10}مقناطیسی جڑے ادوار}{627}
-\contentsline {section}{\numberline {10.1}مشترکہ امالہ}{627}
-\contentsline {section}{\numberline {10.2}مشترکہ امالہ میں توانائی کا ذخیرہ}{645}
-\contentsline {section}{\numberline {10.3}کامل ٹرانسفارمر}{651}
-\contentsline {chapter}{\numberline {11}تین دوری نظام}{685}
-\contentsline {section}{\numberline {11.1}تین دوری ستارہ دباو}{685}
-\contentsline {section}{\numberline {11.2}ستارہ ستارہ \tmspace +\thinmuskip {.1667em}(\ensuremath {YY}) \tmspace +\thinmuskip {.1667em} جوڑ}{691}
-\contentsline {section}{\numberline {11.3}تین دوری تکونی (\ensuremath {\Delta }) دباو}{699}
-\contentsline {section}{\numberline {11.4}تکونی بوجھ}{704}
-\contentsline {section}{\numberline {11.5}طاقت کے کلیات}{709}
-\contentsline {section}{\numberline {11.6}جزو طاقت کی درستگی}{719}
-\contentsline {chapter}{\numberline {12}تعددی ردعمل}{731}
-\contentsline {section}{\numberline {12.1}جال}{743}
-\contentsline {section}{\numberline {12.2}صفر اور قطب}{745}
-\contentsline {section}{\numberline {12.3}سائن نما تعددی تجزیہ}{748}
-\contentsline {subsection}{\numberline {12.3.1}بوڈا خطوط}{748}
-\contentsline {section}{\numberline {12.4}گمکی ادوار}{768}
-\contentsline {section}{\numberline {12.5}چھلنی}{804}
-\contentsline {chapter}{\numberline {13}لاپلاس بدل}{827}
-\contentsline {section}{\numberline {13.1}تعریف}{827}
-\contentsline {section}{\numberline {13.2}نادر تفاعل}{828}
-\contentsline {section}{\numberline {13.3}لاپلاس بدل کی جوڑیاں}{835}
-\contentsline {section}{\numberline {13.4}خواص البدل}{839}
-\contentsline {section}{\numberline {13.5}الٹ لاپلاس بدل کا حصول}{844}
-\contentsline {subsection}{\numberline {13.5.1}جزوی کسری پھیلاو}{845}
-\contentsline {section}{\numberline {13.6}تکمل الجھاو}{856}
-\contentsline {section}{\numberline {13.7}مسئلہ ابتدائی قیمت اور مسئلہ اختتامی قیمت}{860}
-\contentsline {chapter}{\numberline {14}ادوار کا حل بذریعہ لاپلاس بدل}{873}
-\contentsline {section}{\numberline {14.1}ادوار کا حل}{873}
-\contentsline {section}{\numberline {14.2}پرزوں کے مساوی لاپلاسی ادوار}{875}
-\contentsline {section}{\numberline {14.3}تجزیاتی تراکیب}{879}
-\contentsline {section}{\numberline {14.4}تبادلی تفاعل جال}{900}
-\contentsline {section}{\numberline {14.5}ترسیم قطبین و صفر اور بوڈا خط}{912}
-\contentsline {section}{\numberline {14.6}برقرار حال ردعمل}{913}
-\contentsline {chapter}{\numberline {15}فوریئر تجزیہ}{937}
-\contentsline {section}{\numberline {15.1}تکونیاتی فوریئر تسلسل}{937}
-\contentsline {section}{\numberline {15.2}قوت نمائی فوریئر تسلسل}{958}
-\contentsline {section}{\numberline {15.3}تشاکل تفاعل}{963}
-\contentsline {subsection}{\numberline {15.3.1}جفت تشاکل تفاعل}{964}
-\contentsline {subsection}{\numberline {15.3.2}طاق تشاکل تفاعل}{965}
-\contentsline {section}{\numberline {15.4}منتقلی وقت}{968}
-\contentsline {section}{\numberline {15.5}تخلیق موج}{969}
-\contentsline {section}{\numberline {15.6}تعددی طیف}{972}
-\contentsline {section}{\numberline {15.7}برقرار حال برقی جال}{974}
-\contentsline {subsection}{\numberline {15.7.1}اوسط طاقت}{975}
-\contentsline {section}{\numberline {15.8}فوریئر بدل}{980}
-\contentsline {section}{\numberline {15.9}فوریئر بدل کے خواص}{987}
-\contentsline {section}{\numberline {15.10}مسئلہ پارسیوال}{990}
-\contentsline {chapter}{\numberline {16}چار سر ادوار کے ریاضی نمونے}{1011}
-\contentsline {section}{\numberline {16.1}رکاوٹی نمونہ}{1017}
-\contentsline {section}{\numberline {16.2}دوغلائی نمونہ}{1022}
-\contentsline {section}{\numberline {16.3}ترسیلی نمونہ}{1024}
-\contentsline {section}{\numberline {16.4}چار سر ادوار کے باہمی جوڑ}{1027}
-\contentsline {chapter}{فرہنگ}{1039}
+\contentsline {chapter}{میری پہلی کتاب کا دیباچہ}{xi}% 
+\contentsline {chapter}{\numberline {1}بنیاد}{1}% 
+\contentsline {section}{\numberline {1.1}برقی بار، برقی رو اور برقی دباو}{1}% 
+\contentsline {section}{\numberline {1.2}قانونِ اوہم}{6}% 
+\contentsline {section}{\numberline {1.3}توانائی اور طاقت}{9}% 
+\contentsline {section}{\numberline {1.4}برقی پرزے}{15}% 
+\contentsline {subsection}{\numberline {1.4.1}غیر تابع منبع}{16}% 
+\contentsline {subsection}{\numberline {1.4.2}تابع منبع}{18}% 
+\contentsline {chapter}{\numberline {2}مزاحمتی ادوار}{39}% 
+\contentsline {section}{\numberline {2.1}قانون اوہم}{39}% 
+\contentsline {section}{\numberline {2.2}قوانین کرخوف}{48}% 
+\contentsline {section}{\numberline {2.3}سلسلہ وار جڑے پرزوں میں رو}{64}% 
+\contentsline {section}{\numberline {2.4}تقسیم دباو}{64}% 
+\contentsline {section}{\numberline {2.5}متعدد سلسلہ وار مزاحمتوں کا مساوی مزاحمت}{68}% 
+\contentsline {section}{\numberline {2.6}سلسلہ وار متعدد منابع دباو اور مزاحمت}{71}% 
+\contentsline {section}{\numberline {2.7}متوازی جڑے مزاحمت پر یکساں دباو پایا جاتا ہے}{73}% 
+\contentsline {section}{\numberline {2.8}تقسیم رو اور متعدد متوازی مزاحمتوں کا مساوی مزاحمت}{73}% 
+\contentsline {section}{\numberline {2.9}سلسلہ وار اور متوازی مزاحمت}{81}% 
+\contentsline {section}{\numberline {2.10}تخصیص مزاحمت}{87}% 
+\contentsline {section}{\numberline {2.11}سلسلہ وار اور متوازی مزاحمتوں کے ادوار کا حل}{90}% 
+\contentsline {section}{\numberline {2.12}ستارہ-تکون تبادلہ}{98}% 
+\contentsline {section}{\numberline {2.13}تابع منبع استعمال کرنے والے ادوار}{105}% 
+\contentsline {chapter}{\numberline {3}ترکیب جوڑ اور دائری ترکیب}{129}% 
+\contentsline {section}{\numberline {3.1}تجزیہ جوڑ}{129}% 
+\contentsline {section}{\numberline {3.2}غیر تابع منبع رو استعمال کرنے والے ادوار}{132}% 
+\contentsline {section}{\numberline {3.3}تابع منبع رو استعمال کرنے والے ادوار}{145}% 
+\contentsline {section}{\numberline {3.4}غیر تابع منبع دباو استعمال کرنے والے ادوار}{151}% 
+\contentsline {section}{\numberline {3.5}تابع منبع دباو استعمال کرنے والے ادوار}{162}% 
+\contentsline {section}{\numberline {3.6}دائری تجزیہ}{168}% 
+\contentsline {section}{\numberline {3.7}غیر تابع منبع استعمال کرنے والے ادوار}{170}% 
+\contentsline {section}{\numberline {3.8}غیر تابع منبع رو استعمال کرنے والے ادوار}{178}% 
+\contentsline {section}{\numberline {3.9}تابع منبع استعمال کرنے والے ادوار}{184}% 
+\contentsline {section}{\numberline {3.10}دائری ترکیب اور ترکیب جوڑ کا موازنہ}{188}% 
+\contentsline {chapter}{\numberline {4}حسابی ایمپلیفائر}{207}% 
+\contentsline {section}{\numberline {4.1}کامل حسابی ایمپلیفائر}{217}% 
+\contentsline {section}{\numberline {4.2}منفی ایمپلیفائر}{217}% 
+\contentsline {section}{\numberline {4.3}مثبت ایمپلیفائر}{220}% 
+\contentsline {section}{\numberline {4.4}مستحکم کار}{221}% 
+\contentsline {section}{\numberline {4.5}منفی کار}{222}% 
+\contentsline {section}{\numberline {4.6}جمع کار}{225}% 
+\contentsline {section}{\numberline {4.7}متوازن اور غیر متوازن صورت}{226}% 
+\contentsline {section}{\numberline {4.8}موازنہ کار}{230}% 
+\contentsline {section}{\numberline {4.9}آلاتی ایمپلیفائر}{230}% 
+\contentsline {chapter}{\numberline {5}مسئلے}{245}% 
+\contentsline {section}{\numberline {5.1}مساوی دور}{245}% 
+\contentsline {section}{\numberline {5.2}مسئلہ خطیّت}{245}% 
+\contentsline {section}{\numberline {5.3}مسئلہ خطی میل}{249}% 
+\contentsline {section}{\numberline {5.4}مساوی ادوار}{260}% 
+\contentsline {section}{\numberline {5.5}مسئلہ تھونن، مسئلہ نارٹن اور مسئلہ تبادلہ منبع}{266}% 
+\contentsline {section}{\numberline {5.6}تابع منبع استعمال کرنے والے ادوار}{286}% 
+\contentsline {section}{\numberline {5.7}تابع منبع اور غیر تابع منبع دونوں استعمال کرنے والے ادوار}{292}% 
+\contentsline {section}{\numberline {5.8}زیادہ سے زیادہ طاقت منتقل کرنے کا مسئلہ}{299}% 
+\contentsline {chapter}{\numberline {6}برق گیر اور امالہ گیر}{319}% 
+\contentsline {section}{\numberline {6.1}برق گیر}{319}% 
+\contentsline {section}{\numberline {6.2}امالہ گیر}{333}% 
+\contentsline {section}{\numberline {6.3}برق گیر اور امالہ گیر کے خصوصیات}{341}% 
+\contentsline {section}{\numberline {6.4}سلسلہ وار جڑے برق گیر}{345}% 
+\contentsline {section}{\numberline {6.5}متوازی جڑے برق گیر}{348}% 
+\contentsline {section}{\numberline {6.6}سلسلہ وار امالہ گیر}{352}% 
+\contentsline {section}{\numberline {6.7}متوازی امالہ گیر}{354}% 
+\contentsline {section}{\numberline {6.8}حسابی ایمپلیفائر کے \tmspace +\medmuskip {.2222em} \ensuremath {RC} \tmspace +\medmuskip {.2222em} ادوار}{357}% 
+\contentsline {section}{\numberline {6.9}تفرق کار}{358}% 
+\contentsline {chapter}{\numberline {7}عارضی رد عمل}{375}% 
+\contentsline {section}{\numberline {7.1}تعارف}{375}% 
+\contentsline {section}{\numberline {7.2}یک رتبی ادوار}{375}% 
+\contentsline {subsection}{\numberline {7.2.1}رد عمل کی عمومی مساوات}{377}% 
+\contentsline {section}{\numberline {7.3}دھڑکن}{400}% 
+\contentsline {section}{\numberline {7.4}دو رتبی ادوار}{408}% 
+\contentsline {chapter}{\numberline {8}تجزیہ برقرار حال}{453}% 
+\contentsline {section}{\numberline {8.1}مخلوط اعداد}{453}% 
+\contentsline {section}{\numberline {8.2}سائن نما تفاعل}{458}% 
+\contentsline {section}{\numberline {8.3}سائن نما اور مخلوط جبری تفاعل}{467}% 
+\contentsline {section}{\numberline {8.4}دوری سمتیہ}{475}% 
+\contentsline {section}{\numberline {8.5}مزاحمت، امالہ گیر اور برق گیر کے انفرادی دوری سمتی تعلق}{481}% 
+\contentsline {section}{\numberline {8.6}برقی رکاوٹ اور برقی فراوانی}{490}% 
+\contentsline {section}{\numberline {8.7}دوری سمتیات کے اشکال}{503}% 
+\contentsline {section}{\numberline {8.8}کرخوف مساوات}{513}% 
+\contentsline {section}{\numberline {8.9}تجزیاتی تراکیب}{518}% 
+\contentsline {chapter}{\numberline {9}برقرار برقی طاقت}{553}% 
+\contentsline {section}{\numberline {9.1}لمحاتی طاقت}{553}% 
+\contentsline {section}{\numberline {9.2}اوسط طاقت}{556}% 
+\contentsline {section}{\numberline {9.3}زیادہ سے زیادہ اوسط طاقت منتقل کرنے کا مسئلہ}{563}% 
+\contentsline {section}{\numberline {9.4}موثر قیمت}{573}% 
+\contentsline {section}{\numberline {9.5}جزو طاقت}{583}% 
+\contentsline {section}{\numberline {9.6}مخلوط طاقت}{587}% 
+\contentsline {section}{\numberline {9.7}جزو طاقت کی درستگی}{595}% 
+\contentsline {section}{\numberline {9.8}برقی جھٹکا}{600}% 
+\contentsline {section}{\numberline {9.9}نم زمین}{603}% 
+\contentsline {section}{\numberline {9.10}ایک دور کا نظام}{603}% 
+\contentsline {section}{\numberline {9.11}حفاظتی تدابیر}{608}% 
+\contentsline {chapter}{\numberline {10}مقناطیسی جڑے ادوار}{621}% 
+\contentsline {section}{\numberline {10.1}مشترکہ امالہ}{621}% 
+\contentsline {section}{\numberline {10.2}مشترکہ امالہ میں توانائی کا ذخیرہ}{639}% 
+\contentsline {section}{\numberline {10.3}کامل ٹرانسفارمر}{645}% 
+\contentsline {chapter}{\numberline {11}تین دوری نظام}{679}% 
+\contentsline {section}{\numberline {11.1}تین دوری ستارہ دباو}{679}% 
+\contentsline {section}{\numberline {11.2}ستارہ ستارہ \tmspace +\thinmuskip {.1667em}(\ensuremath {YY}) \tmspace +\thinmuskip {.1667em} جوڑ}{685}% 
+\contentsline {section}{\numberline {11.3}تین دوری تکونی (\ensuremath {\Delta }) دباو}{693}% 
+\contentsline {section}{\numberline {11.4}تکونی بوجھ}{698}% 
+\contentsline {section}{\numberline {11.5}طاقت کے کلیات}{703}% 
+\contentsline {section}{\numberline {11.6}جزو طاقت کی درستگی}{713}% 
+\contentsline {chapter}{\numberline {12}تعددی ردعمل}{725}% 
+\contentsline {section}{\numberline {12.1}جال}{737}% 
+\contentsline {section}{\numberline {12.2}صفر اور قطب}{739}% 
+\contentsline {section}{\numberline {12.3}سائن نما تعددی تجزیہ}{742}% 
+\contentsline {subsection}{\numberline {12.3.1}بوڈا خطوط}{742}% 
+\contentsline {section}{\numberline {12.4}گمکی ادوار}{762}% 
+\contentsline {section}{\numberline {12.5}چھلنی}{797}% 
+\contentsline {chapter}{\numberline {13}لاپلاس بدل}{819}% 
+\contentsline {section}{\numberline {13.1}تعریف}{819}% 
+\contentsline {section}{\numberline {13.2}نادر تفاعل}{820}% 
+\contentsline {section}{\numberline {13.3}لاپلاس بدل کی جوڑیاں}{827}% 
+\contentsline {section}{\numberline {13.4}خواص البدل}{831}% 
+\contentsline {section}{\numberline {13.5}الٹ لاپلاس بدل کا حصول}{836}% 
+\contentsline {subsection}{\numberline {13.5.1}جزوی کسری پھیلاو}{836}% 
+\contentsline {section}{\numberline {13.6}تکمل الجھاو}{847}% 
+\contentsline {section}{\numberline {13.7}مسئلہ ابتدائی قیمت اور مسئلہ اختتامی قیمت}{851}% 
+\contentsline {chapter}{\numberline {14}ادوار کا حل بذریعہ لاپلاس بدل}{865}% 
+\contentsline {section}{\numberline {14.1}ادوار کا حل}{865}% 
+\contentsline {section}{\numberline {14.2}پرزوں کے مساوی لاپلاسی ادوار}{867}% 
+\contentsline {section}{\numberline {14.3}تجزیاتی تراکیب}{871}% 
+\contentsline {section}{\numberline {14.4}تبادلی تفاعل جال}{892}% 
+\contentsline {section}{\numberline {14.5}ترسیم قطبین و صفر اور بوڈا خط}{904}% 
+\contentsline {section}{\numberline {14.6}برقرار حال ردعمل}{905}% 
+\contentsline {chapter}{\numberline {15}فوریئر تجزیہ}{929}% 
+\contentsline {section}{\numberline {15.1}تکونیاتی فوریئر تسلسل}{929}% 
+\contentsline {section}{\numberline {15.2}قوت نمائی فوریئر تسلسل}{950}% 
+\contentsline {section}{\numberline {15.3}تشاکل تفاعل}{955}% 
+\contentsline {subsection}{\numberline {15.3.1}جفت تشاکل تفاعل}{956}% 
+\contentsline {subsection}{\numberline {15.3.2}طاق تشاکل تفاعل}{957}% 
+\contentsline {section}{\numberline {15.4}منتقلی وقت}{960}% 
+\contentsline {section}{\numberline {15.5}تخلیق موج}{961}% 
+\contentsline {section}{\numberline {15.6}تعددی طیف}{964}% 
+\contentsline {section}{\numberline {15.7}برقرار حال برقی جال}{966}% 
+\contentsline {subsection}{\numberline {15.7.1}اوسط طاقت}{967}% 
+\contentsline {section}{\numberline {15.8}فوریئر بدل}{972}% 
+\contentsline {section}{\numberline {15.9}فوریئر بدل کے خواص}{979}% 
+\contentsline {section}{\numberline {15.10}مسئلہ پارسیوال}{983}% 
+\contentsline {chapter}{\numberline {16}چار سر ادوار کے ریاضی نمونے}{1003}% 
+\contentsline {section}{\numberline {16.1}رکاوٹی نمونہ}{1009}% 
+\contentsline {section}{\numberline {16.2}دوغلائی نمونہ}{1014}% 
+\contentsline {section}{\numberline {16.3}ترسیلی نمونہ}{1016}% 
+\contentsline {section}{\numberline {16.4}چار سر ادوار کے باہمی جوڑ}{1019}% 
+\contentsline {chapter}{فرہنگ}{1031}% 
 \select@language {english}
 \select@language {arabic}

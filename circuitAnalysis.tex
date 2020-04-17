@@ -1,7 +1,7 @@
 \documentclass[leqno,b5paper]{book}
 %===================
 %testing tikz inside book
-\usepackage[oldvoltagedirection]{circuitikz}
+\usepackage[arrowmos,oldvoltagedirection]{circuitikz}
 \usepackage{pgfplotstable}
 \usepackage{pgfplots}
 \usepackage{tikz-3dplot}
@@ -117,10 +117,8 @@ every axis x label/.style={
 \input{./tex/myUrduGreek.tex}
 \input{./tex/myEMTvectors.tex}
 \input{./tex/myDeclareFunctions.tex}     %\sech, \csch, \arcsh, \arcs   hyperbolic and arc-secant etc
-
-
-
 %\input{./tex/myElectronicsVariablesBetter.tex}         %these are all tested. to use at the very end when book is finished
+
 
 \graphicspath{{./fig/figFrontPage/}{./fig/figBasicConcepts/}{./fig/figResistive/}{./fig/figNodalLoop/}{./fig/figOpamp/}{./fig/figTheorem/}{./fig/figCapacitorInductor/}{./fig/figTransients/}{./fig/figFreqResponse/}{./fig/figLaplaceTransform/}{./fig/figLaplaceTransformApplication/}{./fig/figFourierAnalysis/}}		%paths to figures
 
@@ -207,6 +205,8 @@ every axis x label/.style={
 %\include{./tex/emtEndOfBookTableDivergenceCurlGradientLaplacian}
 %\include{./tex/toDoList}
 %\include{./tex/emtQuestions}
+
+
 \backmatter
 
 \cleardoublepage
