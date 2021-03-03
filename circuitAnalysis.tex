@@ -124,7 +124,7 @@ every axis x label/.style={
 
 
 \includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktTheorems,./tex/cktCapacitorInductor,./tex/cktTransients,./tex/cktSteadyStateAC,./tex/cktSteadyStatePower,./tex/cktMagneticallyCoupledNetworks,./tex/cktPolyphaseCircuits,./tex/cktFrequencyResponse,./tex/cktLaplaceTransform,./tex/cktApplicationLaplace,./tex/cktFourierAnalysis,./tex/cktTwoPortNetworks}
-%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics}%
+%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktPolyphaseCircuits}%
 %\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktTwoPortNetworks}%
 
 
@@ -140,7 +140,7 @@ every axis x label/.style={
 
 
 \title{برقی ادوار}
-\date{}                           %if absent gives date in arabic which is a rubbish
+%\date{}                           %if absent gives date in arabic which is a rubbish
 
 %included the following to correct the RTL issues with equation numbering after upgradation to ubuntu 18.04
 %might break bidi package as said on the internet
@@ -156,10 +156,9 @@ every axis x label/.style={
 
 %==========
 \begin{document}
-\begin{urdufont}
+\sloppy
 
-
-\renewcommand*{\contentsname}{عنوان}    %this command has to be placed right here
+%\renewcommand*{\contentsname}{عنوان}    %this command has to be placed right here
 
 \frontmatter                          %just added instead of \pagenumbering{roman}
 %%\pagenumbering{roman}
@@ -177,7 +176,7 @@ every axis x label/.style={
 
 
 \mainmatter                      %added this
-\renewcommand*{\chaptername}{باب}
+%\renewcommand*{\chaptername}{باب}
 %%\pagenumbering{arabic}   %instead of this
 
 \pagestyle{headings}
@@ -214,12 +213,11 @@ every axis x label/.style={
 %\include{./tex/emtLinearAlgebra}
 %\include{./tex/emtCoordinatesRelations}
 
-\renewcommand*{\indexname}{فرہنگ}      %this command has to be placed right here just before printindex command
+%\renewcommand*{\indexname}{فرہنگ}      %this command has to be placed right here just before printindex command
 \cleardoublepage
-\addcontentsline{toc}{chapter}{فرہنگ}
+\addcontentsline{toc}{chapter}{اشاریہ}
 
 \printindex
 
 
-\end{urdufont}
 \end{document}
