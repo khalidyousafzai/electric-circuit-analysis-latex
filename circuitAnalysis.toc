@@ -70,7 +70,7 @@
 \contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {5}}متوازی جڑے برق گیر}{\arabicdigits {321}}%
 \contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {6}}سلسلہ وار امالہ گیر}{\arabicdigits {324}}%
 \contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {7}}متوازی امالہ گیر}{\arabicdigits {326}}%
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {8}}حسابی ایمپلیفائر کے \tmspace +\medmuskip {.2222em} \ensuremath {RC} \tmspace +\medmuskip {.2222em} ادوار}{\arabicdigits {330}}%
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {8}}حسابی ایمپلیفائر کے \tmspace +\medmuskip {.2222em}\(RC\)\tmspace +\medmuskip {.2222em} ادوار}{\arabicdigits {330}}%
 \contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {9}}تفرق کار}{\arabicdigits {330}}%
 \contentsline {chapter}{\numberline {\arabicdigits {7}}عارضی رد عمل}{\arabicdigits {347}}%
 \contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {1}}تعارف}{\arabicdigits {347}}%
@@ -106,8 +106,8 @@
 \contentsline {section}{\numberline {\arabicdigits {10}.\arabicdigits {3}}کامل ٹرانسفارمر}{\arabicdigits {592}}%
 \contentsline {chapter}{\numberline {\arabicdigits {11}}تین دوری نظام}{\arabicdigits {625}}%
 \contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {1}}تین دوری ستارہ دباو}{\arabicdigits {625}}%
-\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {2}}ستارہ ستارہ \tmspace +\thinmuskip {.1667em}(\ensuremath {YY}) \tmspace +\thinmuskip {.1667em} جوڑ}{\arabicdigits {630}}%
-\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {3}}تین دوری تکونی (\ensuremath {\Delta }) دباو}{\arabicdigits {637}}%
+\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {2}}ستارہ ستارہ \tmspace +\thinmuskip {.1667em}(\(YY\)) \tmspace +\thinmuskip {.1667em} جوڑ}{\arabicdigits {630}}%
+\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {3}}تین دوری تکونی (\(\Delta \)) دباو}{\arabicdigits {637}}%
 \contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {4}}تکونی بوجھ}{\arabicdigits {642}}%
 \contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {5}}طاقت کے کلیات}{\arabicdigits {647}}%
 \contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {6}}جزو طاقت کی درستگی}{\arabicdigits {655}}%
