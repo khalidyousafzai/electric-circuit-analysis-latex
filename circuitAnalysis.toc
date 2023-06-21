@@ -1,5 +1,5 @@
 \selectlanguage *{urdu}
-\contentsline {chapter}{دیباچہ}{ix}%
+\contentsline {chapter}{دیباچہ}{ix}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -10,150 +10,150 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {chapter}{میری پہلی کتاب کا دیباچہ}{xi}%
-\contentsline {chapter}{\numberline {\arabicdigits {1}}بنیاد}{\arabicdigits {1}}%
-\contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {1}}برقی بار، برقی رو اور برقی دباو}{\arabicdigits {1}}%
-\contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {2}}قانونِ اوہم}{\arabicdigits {6}}%
-\contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {3}}توانائی اور طاقت}{\arabicdigits {8}}%
-\contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {4}}برقی پرزے}{\arabicdigits {14}}%
-\contentsline {subsection}{\numberline {\arabicdigits {1}.\arabicdigits {4}.\arabicdigits {1}}غیر تابع منبع}{\arabicdigits {14}}%
-\contentsline {subsection}{\numberline {\arabicdigits {1}.\arabicdigits {4}.\arabicdigits {2}}تابع منبع}{\arabicdigits {16}}%
-\contentsline {chapter}{\numberline {\arabicdigits {2}}مزاحمتی ادوار}{\arabicdigits {35}}%
-\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {1}}قانون اوہم}{\arabicdigits {35}}%
-\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {2}}قوانین کرخوف}{\arabicdigits {43}}%
-\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {3}}سلسلہ وار جڑے پرزوں میں رو}{\arabicdigits {57}}%
-\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {4}}تقسیم دباو}{\arabicdigits {57}}%
-\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {5}}متعدد سلسلہ وار مزاحمتوں کا مساوی مزاحمت}{\arabicdigits {61}}%
-\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {6}}سلسلہ وار متعدد منابع دباو اور مزاحمت}{\arabicdigits {64}}%
-\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {7}}متوازی جڑے مزاحمت پر یکساں دباو پایا جاتا ہے}{\arabicdigits {66}}%
-\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {8}}تقسیم رو اور متعدد متوازی مزاحمتوں کا مساوی مزاحمت}{\arabicdigits {66}}%
-\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {9}}سلسلہ وار اور متوازی مزاحمت}{\arabicdigits {73}}%
-\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {10}}تخصیص مزاحمت}{\arabicdigits {79}}%
-\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {11}}سلسلہ وار اور متوازی مزاحمتوں کے ادوار کا حل}{\arabicdigits {82}}%
-\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {12}}ستارہ-تکون تبادلہ}{\arabicdigits {89}}%
-\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {13}}تابع منبع استعمال کرنے والے ادوار}{\arabicdigits {96}}%
-\contentsline {chapter}{\numberline {\arabicdigits {3}}ترکیب جوڑ اور دائری ترکیب}{\arabicdigits {119}}%
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {1}}تجزیہ جوڑ}{\arabicdigits {119}}%
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {2}}غیر تابع منبع رو استعمال کرنے والے ادوار}{\arabicdigits {122}}%
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {3}}تابع منبع رو استعمال کرنے والے ادوار}{\arabicdigits {135}}%
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {4}}غیر تابع منبع دباو استعمال کرنے والے ادوار}{\arabicdigits {140}}%
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {5}}تابع منبع دباو استعمال کرنے والے ادوار}{\arabicdigits {149}}%
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {6}}دائری تجزیہ}{\arabicdigits {155}}%
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {7}}غیر تابع منبع استعمال کرنے والے ادوار}{\arabicdigits {156}}%
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {8}}غیر تابع منبع رو استعمال کرنے والے ادوار}{\arabicdigits {164}}%
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {9}}تابع منبع استعمال کرنے والے ادوار}{\arabicdigits {170}}%
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {10}}دائری ترکیب اور ترکیب جوڑ کا موازنہ}{\arabicdigits {174}}%
-\contentsline {chapter}{\numberline {\arabicdigits {4}}حسابی ایمپلیفائر}{\arabicdigits {193}}%
-\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {1}}کامل حسابی ایمپلیفائر}{\arabicdigits {202}}%
-\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {2}}منفی ایمپلیفائر}{\arabicdigits {203}}%
-\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {3}}مثبت ایمپلیفائر}{\arabicdigits {205}}%
-\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {4}}مستحکم کار}{\arabicdigits {207}}%
-\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {5}}منفی کار}{\arabicdigits {207}}%
-\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {6}}جمع کار}{\arabicdigits {209}}%
-\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {7}}متوازن اور غیر متوازن صورت}{\arabicdigits {211}}%
-\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {8}}موازنہ کار}{\arabicdigits {214}}%
-\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {9}}آلاتی ایمپلیفائر}{\arabicdigits {215}}%
-\contentsline {chapter}{\numberline {\arabicdigits {5}}مسئلے}{\arabicdigits {229}}%
-\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {1}}مساوی دور}{\arabicdigits {229}}%
-\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {2}}مسئلہ خطیّت}{\arabicdigits {229}}%
-\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {3}}مسئلہ خطی میل}{\arabicdigits {233}}%
-\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {4}}مساوی ادوار}{\arabicdigits {242}}%
-\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {5}}مسئلہ تھونن، مسئلہ نارٹن اور مسئلہ تبادلہ منبع}{\arabicdigits {247}}%
-\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {6}}تابع منبع استعمال کرنے والے ادوار}{\arabicdigits {265}}%
-\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {7}}تابع منبع اور غیر تابع منبع دونوں استعمال کرنے والے ادوار}{\arabicdigits {270}}%
-\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {8}}زیادہ سے زیادہ طاقت منتقل کرنے کا مسئلہ}{\arabicdigits {277}}%
-\contentsline {chapter}{\numberline {\arabicdigits {6}}برق گیر اور امالہ گیر}{\arabicdigits {295}}%
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {1}}برق گیر}{\arabicdigits {295}}%
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {2}}امالہ گیر}{\arabicdigits {307}}%
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {3}}برق گیر اور امالہ گیر کے خصوصیات}{\arabicdigits {314}}%
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {4}}سلسلہ وار جڑے برق گیر}{\arabicdigits {318}}%
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {5}}متوازی جڑے برق گیر}{\arabicdigits {321}}%
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {6}}سلسلہ وار امالہ گیر}{\arabicdigits {324}}%
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {7}}متوازی امالہ گیر}{\arabicdigits {326}}%
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {8}}حسابی ایمپلیفائر کے \tmspace +\medmuskip {.2222em}\(RC\)\tmspace +\medmuskip {.2222em} ادوار}{\arabicdigits {330}}%
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {9}}تفرق کار}{\arabicdigits {330}}%
-\contentsline {chapter}{\numberline {\arabicdigits {7}}عارضی رد عمل}{\arabicdigits {347}}%
-\contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {1}}تعارف}{\arabicdigits {347}}%
-\contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {2}}یک رتبی ادوار}{\arabicdigits {347}}%
-\contentsline {subsection}{\numberline {\arabicdigits {7}.\arabicdigits {2}.\arabicdigits {1}}رد عمل کی عمومی مساوات}{\arabicdigits {349}}%
-\contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {3}}دھڑکن}{\arabicdigits {371}}%
-\contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {4}}دو رتبی ادوار}{\arabicdigits {377}}%
-\contentsline {chapter}{\numberline {\arabicdigits {8}}تجزیہ برقرار حال}{\arabicdigits {419}}%
-\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {1}}مخلوط اعداد}{\arabicdigits {419}}%
-\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {2}}سائن نما تفاعل}{\arabicdigits {423}}%
-\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {3}}سائن نما اور مخلوط جبری تفاعل}{\arabicdigits {432}}%
-\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {4}}دوری سمتیہ}{\arabicdigits {438}}%
-\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {5}}مزاحمت، امالہ گیر اور برق گیر کے انفرادی دوری سمتی تعلق}{\arabicdigits {443}}%
-\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {6}}برقی رکاوٹ اور برقی فراوانی}{\arabicdigits {452}}%
-\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {7}}دوری سمتیات کے اشکال}{\arabicdigits {464}}%
-\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {8}}کرخوف مساوات}{\arabicdigits {473}}%
-\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {9}}تجزیاتی تراکیب}{\arabicdigits {478}}%
-\contentsline {chapter}{\numberline {\arabicdigits {9}}برقرار برقی طاقت}{\arabicdigits {511}}%
-\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {1}}لمحاتی طاقت}{\arabicdigits {511}}%
-\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {2}}اوسط طاقت}{\arabicdigits {513}}%
-\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {3}}زیادہ سے زیادہ اوسط طاقت منتقل کرنے کا مسئلہ}{\arabicdigits {520}}%
-\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {4}}موثر قیمت}{\arabicdigits {529}}%
-\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {5}}جزو طاقت}{\arabicdigits {538}}%
-\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {6}}مخلوط طاقت}{\arabicdigits {541}}%
-\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {7}}جزو طاقت کی درستگی}{\arabicdigits {549}}%
-\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {8}}برقی جھٹکا}{\arabicdigits {553}}%
-\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {9}}نم زمین}{\arabicdigits {555}}%
-\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {10}}ایک دور کا نظام}{\arabicdigits {556}}%
-\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {11}}حفاظتی تدابیر}{\arabicdigits {560}}%
-\contentsline {chapter}{\numberline {\arabicdigits {10}}مقناطیسی جڑے ادوار}{\arabicdigits {571}}%
-\contentsline {section}{\numberline {\arabicdigits {10}.\arabicdigits {1}}مشترکہ امالہ}{\arabicdigits {571}}%
-\contentsline {section}{\numberline {\arabicdigits {10}.\arabicdigits {2}}مشترکہ امالہ میں توانائی کا ذخیرہ}{\arabicdigits {587}}%
-\contentsline {section}{\numberline {\arabicdigits {10}.\arabicdigits {3}}کامل ٹرانسفارمر}{\arabicdigits {592}}%
-\contentsline {chapter}{\numberline {\arabicdigits {11}}تین دوری نظام}{\arabicdigits {625}}%
-\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {1}}تین دوری ستارہ دباو}{\arabicdigits {625}}%
-\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {2}}ستارہ ستارہ \tmspace +\thinmuskip {.1667em}(\(YY\)) \tmspace +\thinmuskip {.1667em} جوڑ}{\arabicdigits {630}}%
-\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {3}}تین دوری تکونی (\(\Delta \)) دباو}{\arabicdigits {637}}%
-\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {4}}تکونی بوجھ}{\arabicdigits {642}}%
-\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {5}}طاقت کے کلیات}{\arabicdigits {647}}%
-\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {6}}جزو طاقت کی درستگی}{\arabicdigits {655}}%
-\contentsline {chapter}{\numberline {\arabicdigits {12}}تعددی ردعمل}{\arabicdigits {665}}%
-\contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {1}}جال}{\arabicdigits {676}}%
-\contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {2}}صفر اور قطب}{\arabicdigits {678}}%
-\contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {3}}سائن نما تعددی تجزیہ}{\arabicdigits {680}}%
-\contentsline {subsection}{\numberline {\arabicdigits {12}.\arabicdigits {3}.\arabicdigits {1}}بوڈا خطوط}{\arabicdigits {681}}%
-\contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {4}}گمکی ادوار}{\arabicdigits {699}}%
-\contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {5}}چھلنی}{\arabicdigits {731}}%
-\contentsline {chapter}{\numberline {\arabicdigits {13}}لاپلاس بدل}{\arabicdigits {753}}%
-\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {1}}تعریف}{\arabicdigits {753}}%
-\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {2}}نادر تفاعل}{\arabicdigits {754}}%
-\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {3}}لاپلاس بدل کی جوڑیاں}{\arabicdigits {760}}%
-\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {4}}خواص البدل}{\arabicdigits {763}}%
-\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {5}}الٹ لاپلاس بدل کا حصول}{\arabicdigits {769}}%
-\contentsline {subsection}{\numberline {\arabicdigits {13}.\arabicdigits {5}.\arabicdigits {1}}جزوی کسری پھیلاو}{\arabicdigits {769}}%
-\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {6}}تکمل الجھاو}{\arabicdigits {779}}%
-\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {7}}مسئلہ ابتدائی قیمت اور مسئلہ اختتامی قیمت}{\arabicdigits {782}}%
-\contentsline {chapter}{\numberline {\arabicdigits {14}}ادوار کا حل بذریعہ لاپلاس بدل}{\arabicdigits {795}}%
-\contentsline {section}{\numberline {\arabicdigits {14}.\arabicdigits {1}}ادوار کا حل}{\arabicdigits {795}}%
-\contentsline {section}{\numberline {\arabicdigits {14}.\arabicdigits {2}}پرزوں کے مساوی لاپلاسی ادوار}{\arabicdigits {796}}%
-\contentsline {section}{\numberline {\arabicdigits {14}.\arabicdigits {3}}تجزیاتی تراکیب}{\arabicdigits {801}}%
-\contentsline {section}{\numberline {\arabicdigits {14}.\arabicdigits {4}}تبادلی تفاعل جال}{\arabicdigits {820}}%
-\contentsline {section}{\numberline {\arabicdigits {14}.\arabicdigits {5}}ترسیم قطبین و صفر اور بوڈا خط}{\arabicdigits {831}}%
-\contentsline {section}{\numberline {\arabicdigits {14}.\arabicdigits {6}}برقرار حال ردعمل}{\arabicdigits {833}}%
-\contentsline {chapter}{\numberline {\arabicdigits {15}}فوریئر تجزیہ}{\arabicdigits {853}}%
-\contentsline {section}{\numberline {\arabicdigits {15}.\arabicdigits {1}}تکونیاتی فوریئر تسلسل}{\arabicdigits {853}}%
-\contentsline {section}{\numberline {\arabicdigits {15}.\arabicdigits {2}}قوت نمائی فوریئر تسلسل}{\arabicdigits {872}}%
-\contentsline {section}{\numberline {\arabicdigits {15}.\arabicdigits {3}}تشاکل تفاعل}{\arabicdigits {877}}%
-\contentsline {subsection}{\numberline {\arabicdigits {15}.\arabicdigits {3}.\arabicdigits {1}}جفت تشاکل تفاعل}{\arabicdigits {877}}%
-\contentsline {subsection}{\numberline {\arabicdigits {15}.\arabicdigits {3}.\arabicdigits {2}}طاق تشاکل تفاعل}{\arabicdigits {879}}%
-\contentsline {section}{\numberline {\arabicdigits {15}.\arabicdigits {4}}منتقلی وقت}{\arabicdigits {881}}%
-\contentsline {section}{\numberline {\arabicdigits {15}.\arabicdigits {5}}تخلیق موج}{\arabicdigits {882}}%
-\contentsline {section}{\numberline {\arabicdigits {15}.\arabicdigits {6}}تعددی طیف}{\arabicdigits {885}}%
-\contentsline {section}{\numberline {\arabicdigits {15}.\arabicdigits {7}}برقرار حال برقی جال}{\arabicdigits {888}}%
-\contentsline {subsection}{\numberline {\arabicdigits {15}.\arabicdigits {7}.\arabicdigits {1}}اوسط طاقت}{\arabicdigits {888}}%
-\contentsline {section}{\numberline {\arabicdigits {15}.\arabicdigits {8}}فوریئر بدل}{\arabicdigits {893}}%
-\contentsline {section}{\numberline {\arabicdigits {15}.\arabicdigits {9}}فوریئر بدل کے خواص}{\arabicdigits {899}}%
-\contentsline {section}{\numberline {\arabicdigits {15}.\arabicdigits {10}}مسئلہ پارسیوال}{\arabicdigits {902}}%
-\contentsline {chapter}{\numberline {\arabicdigits {16}}چار سر ادوار کے ریاضی نمونے}{\arabicdigits {923}}%
-\contentsline {section}{\numberline {\arabicdigits {16}.\arabicdigits {1}}رکاوٹی نمونہ}{\arabicdigits {928}}%
-\contentsline {section}{\numberline {\arabicdigits {16}.\arabicdigits {2}}دوغلائی نمونہ}{\arabicdigits {933}}%
-\contentsline {section}{\numberline {\arabicdigits {16}.\arabicdigits {3}}ترسیلی نمونہ}{\arabicdigits {935}}%
-\contentsline {section}{\numberline {\arabicdigits {16}.\arabicdigits {4}}چار سر ادوار کے باہمی جوڑ}{\arabicdigits {937}}%
-\contentsline {chapter}{اشاریہ}{\arabicdigits {949}}%
+\contentsline {chapter}{میری پہلی کتاب کا دیباچہ}{xi}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {1}}بنیاد}{\arabicdigits {1}}{}%
+\contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {1}}برقی بار، برقی رو اور برقی دباو}{\arabicdigits {1}}{}%
+\contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {2}}قانونِ اوہم}{\arabicdigits {6}}{}%
+\contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {3}}توانائی اور طاقت}{\arabicdigits {8}}{}%
+\contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {4}}برقی پرزے}{\arabicdigits {14}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {1}.\arabicdigits {4}.\arabicdigits {1}}غیر تابع منبع}{\arabicdigits {14}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {1}.\arabicdigits {4}.\arabicdigits {2}}تابع منبع}{\arabicdigits {16}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {2}}مزاحمتی ادوار}{\arabicdigits {35}}{}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {1}}قانون اوہم}{\arabicdigits {35}}{}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {2}}قوانین کرخوف}{\arabicdigits {43}}{}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {3}}سلسلہ وار جڑے پرزوں میں رو}{\arabicdigits {57}}{}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {4}}تقسیم دباو}{\arabicdigits {57}}{}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {5}}متعدد سلسلہ وار مزاحمتوں کا مساوی مزاحمت}{\arabicdigits {61}}{}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {6}}سلسلہ وار متعدد منابع دباو اور مزاحمت}{\arabicdigits {64}}{}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {7}}متوازی جڑے مزاحمت پر یکساں دباو پایا جاتا ہے}{\arabicdigits {66}}{}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {8}}تقسیم رو اور متعدد متوازی مزاحمتوں کا مساوی مزاحمت}{\arabicdigits {66}}{}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {9}}سلسلہ وار اور متوازی مزاحمت}{\arabicdigits {73}}{}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {10}}تخصیص مزاحمت}{\arabicdigits {79}}{}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {11}}سلسلہ وار اور متوازی مزاحمتوں کے ادوار کا حل}{\arabicdigits {82}}{}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {12}}ستارہ-تکون تبادلہ}{\arabicdigits {89}}{}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {13}}تابع منبع استعمال کرنے والے ادوار}{\arabicdigits {96}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {3}}ترکیب جوڑ اور دائری ترکیب}{\arabicdigits {119}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {1}}تجزیہ جوڑ}{\arabicdigits {119}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {2}}غیر تابع منبع رو استعمال کرنے والے ادوار}{\arabicdigits {122}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {3}}تابع منبع رو استعمال کرنے والے ادوار}{\arabicdigits {135}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {4}}غیر تابع منبع دباو استعمال کرنے والے ادوار}{\arabicdigits {140}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {5}}تابع منبع دباو استعمال کرنے والے ادوار}{\arabicdigits {149}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {6}}دائری تجزیہ}{\arabicdigits {155}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {7}}غیر تابع منبع استعمال کرنے والے ادوار}{\arabicdigits {156}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {8}}غیر تابع منبع رو استعمال کرنے والے ادوار}{\arabicdigits {164}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {9}}تابع منبع استعمال کرنے والے ادوار}{\arabicdigits {170}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {10}}دائری ترکیب اور ترکیب جوڑ کا موازنہ}{\arabicdigits {174}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {4}}حسابی ایمپلیفائر}{\arabicdigits {193}}{}%
+\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {1}}کامل حسابی ایمپلیفائر}{\arabicdigits {202}}{}%
+\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {2}}منفی ایمپلیفائر}{\arabicdigits {203}}{}%
+\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {3}}مثبت ایمپلیفائر}{\arabicdigits {205}}{}%
+\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {4}}مستحکم کار}{\arabicdigits {207}}{}%
+\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {5}}منفی کار}{\arabicdigits {207}}{}%
+\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {6}}جمع کار}{\arabicdigits {209}}{}%
+\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {7}}متوازن اور غیر متوازن صورت}{\arabicdigits {211}}{}%
+\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {8}}موازنہ کار}{\arabicdigits {214}}{}%
+\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {9}}آلاتی ایمپلیفائر}{\arabicdigits {215}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {5}}مسئلے}{\arabicdigits {229}}{}%
+\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {1}}مساوی دور}{\arabicdigits {229}}{}%
+\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {2}}مسئلہ خطیّت}{\arabicdigits {229}}{}%
+\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {3}}مسئلہ خطی میل}{\arabicdigits {233}}{}%
+\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {4}}مساوی ادوار}{\arabicdigits {242}}{}%
+\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {5}}مسئلہ تھونن، مسئلہ نارٹن اور مسئلہ تبادلہ منبع}{\arabicdigits {247}}{}%
+\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {6}}تابع منبع استعمال کرنے والے ادوار}{\arabicdigits {265}}{}%
+\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {7}}تابع منبع اور غیر تابع منبع دونوں استعمال کرنے والے ادوار}{\arabicdigits {270}}{}%
+\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {8}}زیادہ سے زیادہ طاقت منتقل کرنے کا مسئلہ}{\arabicdigits {277}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {6}}برق گیر اور امالہ گیر}{\arabicdigits {295}}{}%
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {1}}برق گیر}{\arabicdigits {295}}{}%
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {2}}امالہ گیر}{\arabicdigits {307}}{}%
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {3}}برق گیر اور امالہ گیر کے خصوصیات}{\arabicdigits {314}}{}%
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {4}}سلسلہ وار جڑے برق گیر}{\arabicdigits {318}}{}%
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {5}}متوازی جڑے برق گیر}{\arabicdigits {321}}{}%
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {6}}سلسلہ وار امالہ گیر}{\arabicdigits {324}}{}%
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {7}}متوازی امالہ گیر}{\arabicdigits {326}}{}%
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {8}}حسابی ایمپلیفائر کے \:\(RC\)\: ادوار}{\arabicdigits {330}}{}%
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {9}}تفرق کار}{\arabicdigits {330}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {7}}عارضی رد عمل}{\arabicdigits {347}}{}%
+\contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {1}}تعارف}{\arabicdigits {347}}{}%
+\contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {2}}یک رتبی ادوار}{\arabicdigits {347}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {7}.\arabicdigits {2}.\arabicdigits {1}}رد عمل کی عمومی مساوات}{\arabicdigits {349}}{}%
+\contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {3}}دھڑکن}{\arabicdigits {371}}{}%
+\contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {4}}دو رتبی ادوار}{\arabicdigits {377}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {8}}تجزیہ برقرار حال}{\arabicdigits {419}}{}%
+\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {1}}مخلوط اعداد}{\arabicdigits {419}}{}%
+\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {2}}سائن نما تفاعل}{\arabicdigits {423}}{}%
+\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {3}}سائن نما اور مخلوط جبری تفاعل}{\arabicdigits {432}}{}%
+\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {4}}دوری سمتیہ}{\arabicdigits {438}}{}%
+\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {5}}مزاحمت، امالہ گیر اور برق گیر کے انفرادی دوری سمتی تعلق}{\arabicdigits {443}}{}%
+\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {6}}برقی رکاوٹ اور برقی فراوانی}{\arabicdigits {452}}{}%
+\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {7}}دوری سمتیات کے اشکال}{\arabicdigits {464}}{}%
+\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {8}}کرخوف مساوات}{\arabicdigits {473}}{}%
+\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {9}}تجزیاتی تراکیب}{\arabicdigits {478}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {9}}برقرار برقی طاقت}{\arabicdigits {511}}{}%
+\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {1}}لمحاتی طاقت}{\arabicdigits {511}}{}%
+\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {2}}اوسط طاقت}{\arabicdigits {513}}{}%
+\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {3}}زیادہ سے زیادہ اوسط طاقت منتقل کرنے کا مسئلہ}{\arabicdigits {520}}{}%
+\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {4}}موثر قیمت}{\arabicdigits {529}}{}%
+\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {5}}جزو طاقت}{\arabicdigits {538}}{}%
+\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {6}}مخلوط طاقت}{\arabicdigits {541}}{}%
+\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {7}}جزو طاقت کی درستگی}{\arabicdigits {549}}{}%
+\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {8}}برقی جھٹکا}{\arabicdigits {553}}{}%
+\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {9}}نم زمین}{\arabicdigits {555}}{}%
+\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {10}}ایک دور کا نظام}{\arabicdigits {556}}{}%
+\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {11}}حفاظتی تدابیر}{\arabicdigits {560}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {10}}مقناطیسی جڑے ادوار}{\arabicdigits {571}}{}%
+\contentsline {section}{\numberline {\arabicdigits {10}.\arabicdigits {1}}مشترکہ امالہ}{\arabicdigits {571}}{}%
+\contentsline {section}{\numberline {\arabicdigits {10}.\arabicdigits {2}}مشترکہ امالہ میں توانائی کا ذخیرہ}{\arabicdigits {587}}{}%
+\contentsline {section}{\numberline {\arabicdigits {10}.\arabicdigits {3}}کامل ٹرانسفارمر}{\arabicdigits {592}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {11}}تین دوری نظام}{\arabicdigits {625}}{}%
+\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {1}}تین دوری ستارہ دباو}{\arabicdigits {625}}{}%
+\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {2}}ستارہ ستارہ \,(\(YY\)) \, جوڑ}{\arabicdigits {630}}{}%
+\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {3}}تین دوری تکونی (\(\Delta \)) دباو}{\arabicdigits {637}}{}%
+\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {4}}تکونی بوجھ}{\arabicdigits {642}}{}%
+\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {5}}طاقت کے کلیات}{\arabicdigits {647}}{}%
+\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {6}}جزو طاقت کی درستگی}{\arabicdigits {655}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {12}}تعددی ردعمل}{\arabicdigits {665}}{}%
+\contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {1}}جال}{\arabicdigits {676}}{}%
+\contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {2}}صفر اور قطب}{\arabicdigits {678}}{}%
+\contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {3}}سائن نما تعددی تجزیہ}{\arabicdigits {680}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {12}.\arabicdigits {3}.\arabicdigits {1}}بوڈا خطوط}{\arabicdigits {681}}{}%
+\contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {4}}گمکی ادوار}{\arabicdigits {699}}{}%
+\contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {5}}چھلنی}{\arabicdigits {731}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {13}}لاپلاس بدل}{\arabicdigits {753}}{}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {1}}تعریف}{\arabicdigits {753}}{}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {2}}نادر تفاعل}{\arabicdigits {754}}{}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {3}}لاپلاس بدل کی جوڑیاں}{\arabicdigits {760}}{}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {4}}خواص البدل}{\arabicdigits {763}}{}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {5}}الٹ لاپلاس بدل کا حصول}{\arabicdigits {769}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {13}.\arabicdigits {5}.\arabicdigits {1}}جزوی کسری پھیلاو}{\arabicdigits {769}}{}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {6}}تکمل الجھاو}{\arabicdigits {779}}{}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {7}}مسئلہ ابتدائی قیمت اور مسئلہ اختتامی قیمت}{\arabicdigits {782}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {14}}ادوار کا حل بذریعہ لاپلاس بدل}{\arabicdigits {795}}{}%
+\contentsline {section}{\numberline {\arabicdigits {14}.\arabicdigits {1}}ادوار کا حل}{\arabicdigits {795}}{}%
+\contentsline {section}{\numberline {\arabicdigits {14}.\arabicdigits {2}}پرزوں کے مساوی لاپلاسی ادوار}{\arabicdigits {796}}{}%
+\contentsline {section}{\numberline {\arabicdigits {14}.\arabicdigits {3}}تجزیاتی تراکیب}{\arabicdigits {801}}{}%
+\contentsline {section}{\numberline {\arabicdigits {14}.\arabicdigits {4}}تبادلی تفاعل جال}{\arabicdigits {820}}{}%
+\contentsline {section}{\numberline {\arabicdigits {14}.\arabicdigits {5}}ترسیم قطبین و صفر اور بوڈا خط}{\arabicdigits {831}}{}%
+\contentsline {section}{\numberline {\arabicdigits {14}.\arabicdigits {6}}برقرار حال ردعمل}{\arabicdigits {833}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {15}}فوریئر تجزیہ}{\arabicdigits {853}}{}%
+\contentsline {section}{\numberline {\arabicdigits {15}.\arabicdigits {1}}تکونیاتی فوریئر تسلسل}{\arabicdigits {853}}{}%
+\contentsline {section}{\numberline {\arabicdigits {15}.\arabicdigits {2}}قوت نمائی فوریئر تسلسل}{\arabicdigits {872}}{}%
+\contentsline {section}{\numberline {\arabicdigits {15}.\arabicdigits {3}}تشاکل تفاعل}{\arabicdigits {877}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {15}.\arabicdigits {3}.\arabicdigits {1}}جفت تشاکل تفاعل}{\arabicdigits {877}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {15}.\arabicdigits {3}.\arabicdigits {2}}طاق تشاکل تفاعل}{\arabicdigits {879}}{}%
+\contentsline {section}{\numberline {\arabicdigits {15}.\arabicdigits {4}}منتقلی وقت}{\arabicdigits {881}}{}%
+\contentsline {section}{\numberline {\arabicdigits {15}.\arabicdigits {5}}تخلیق موج}{\arabicdigits {882}}{}%
+\contentsline {section}{\numberline {\arabicdigits {15}.\arabicdigits {6}}تعددی طیف}{\arabicdigits {885}}{}%
+\contentsline {section}{\numberline {\arabicdigits {15}.\arabicdigits {7}}برقرار حال برقی جال}{\arabicdigits {888}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {15}.\arabicdigits {7}.\arabicdigits {1}}اوسط طاقت}{\arabicdigits {888}}{}%
+\contentsline {section}{\numberline {\arabicdigits {15}.\arabicdigits {8}}فوریئر بدل}{\arabicdigits {893}}{}%
+\contentsline {section}{\numberline {\arabicdigits {15}.\arabicdigits {9}}فوریئر بدل کے خواص}{\arabicdigits {899}}{}%
+\contentsline {section}{\numberline {\arabicdigits {15}.\arabicdigits {10}}مسئلہ پارسیوال}{\arabicdigits {902}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {16}}چار سر ادوار کے ریاضی نمونے}{\arabicdigits {923}}{}%
+\contentsline {section}{\numberline {\arabicdigits {16}.\arabicdigits {1}}رکاوٹی نمونہ}{\arabicdigits {928}}{}%
+\contentsline {section}{\numberline {\arabicdigits {16}.\arabicdigits {2}}دوغلائی نمونہ}{\arabicdigits {933}}{}%
+\contentsline {section}{\numberline {\arabicdigits {16}.\arabicdigits {3}}ترسیلی نمونہ}{\arabicdigits {935}}{}%
+\contentsline {section}{\numberline {\arabicdigits {16}.\arabicdigits {4}}چار سر ادوار کے باہمی جوڑ}{\arabicdigits {937}}{}%
+\contentsline {chapter}{اشاریہ}{\arabicdigits {949}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 

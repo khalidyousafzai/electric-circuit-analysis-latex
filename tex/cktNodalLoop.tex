@@ -1889,7 +1889,7 @@ V_0=4000i_3+4=\SI{6}{\volt}
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\draw(0,0) to [american controlled voltage source,l={$2\si{\kilo}I_x$}]++(0,\yy) to [american current source,l={$\SI{2}{\milli\ampere}$}]++(0,\yy) to [short]++(2*\xxx,0) to [american controlled current source,l={$\tfrac{V_a}{1\si{\kilo}}$}]++(0,-\yy) to [resistor,i<={$I_x$},l={$\SI{6}{\kilo\ohm}$}]++(-\xxx,0) to [resistor,-*,l={$\SI{4}{\kilo\ohm}$}]++(-\xxx,0);
+\draw(0,0) to [american controlled voltage source,l={$2 k I_x$}]++(0,\yy) to [american current source,l={$\SI{2}{\milli\ampere}$}]++(0,\yy) to [short]++(2*\xxx,0) to [american controlled current source,l={$\tfrac{V_a}{1k}$}]++(0,-\yy) to [resistor,i<={$I_x$},l={$\SI{6}{\kilo\ohm}$}]++(-\xxx,0) to [resistor,-*,l={$\SI{4}{\kilo\ohm}$}]++(-\xxx,0);
 \draw(0,0) to [short]++(2*\xxx,0) to [american voltage source,-*,l_={$\SI{10}{\volt}$}]++(0,\yy);
 \draw(\xxx,0) to [resistor,*-*]++(0,\yy) to [resistor,-*]++(0,\yy);
 \draw(\xxx-\dx,\yy+3/4*\yy)node[left]{$\SI{2}{\kilo\ohm}$};
@@ -1911,14 +1911,14 @@ V_0=4000i_3+4=\SI{6}{\volt}
 
 حل:چار خانوں کے مساوات درج ذیل ہیں
 \begin{align*}
--2\si{\kilo} I_x+4\si{\kilo}(i_1-i_2)+4\si{\kilo}(i_1-i_4)&=0\\
-i_2&=\frac{2}{1\si{\kilo}}\\
-i_3&=\frac{V_a}{1\si{\kilo}}\\
-4\si{\kilo}(i_4-i_1)+6\si{\kilo}(i_4-i_3)+10&=0
+-2k I_x+4k(i_1-i_2)+4k(i_1-i_4)&=0\\
+i_2&=\frac{2}{1k}\\
+i_3&=\frac{V_a}{1k}\\
+4k(i_4-i_1)+6k(i_4-i_3)+10&=0
 \end{align*}
 جن میں
 \begin{align*}
-V_a&=4\si{\kilo}(i_1-i_2)\\
+V_a&=4k(i_1-i_2)\\
 I_x&=i_4-i_3
 \end{align*}
 پُر کرتے اور ترتیب  دیتے ہوئے
