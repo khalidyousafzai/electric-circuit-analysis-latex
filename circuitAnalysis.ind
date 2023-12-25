@@ -1,8 +1,6 @@
 \begin{theindex}
-\begin{otherlanguage}{english}
-  \item $\Delta $, 637
 
-  \indexspace
+\begin{otherlanguage}{english}
 
   \item abc, 628
   \item ABCD parameters, 935
@@ -559,6 +557,8 @@
     \subitem current, 593
     \subitem impedance, 595
     \subitem voltage, 593
+    \newpage
+    
   \item transformer, 307
     \subitem step down, 652
     \subitem step up, 652
@@ -601,7 +601,7 @@
     \subitem current controlled, 99
     \subitem voltage controlled, 97
 
-  \indexspace
+  \newpage
 
   \item WAPDA, 556
   \item watt, 9
@@ -613,7 +613,7 @@
     \subitem neutral, 556
   \item wye-delta transformation, 89
 
-  \indexspace
+  \newpage
 
   \item Y connected, 631
   \item YY, 632
@@ -622,6 +622,8 @@
 
   \item zeroes, 678
 \end{otherlanguage}
+
+
   \newpage
 \item آزاد
    \subitem منبع رو، 14

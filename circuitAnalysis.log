@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  20 DEC 2023 15:26
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  25 DEC 2023 15:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1494,9 +1494,6 @@ LaTeX Info: Redefining \ttfamily on input line 10.
 LaTeX Info: Redefining \rmfamily on input line 18.
 LaTeX Info: Redefining \sffamily on input line 18.
 LaTeX Info: Redefining \ttfamily on input line 18.
-LaTeX Info: Redefining \rmfamily on input line 25.
-LaTeX Info: Redefining \sffamily on input line 25.
-LaTeX Info: Redefining \ttfamily on input line 25.
 LaTeX Info: Redefining \rmfamily on input line 26.
 LaTeX Info: Redefining \sffamily on input line 26.
 LaTeX Info: Redefining \ttfamily on input line 26.
@@ -1506,6 +1503,9 @@ LaTeX Info: Redefining \ttfamily on input line 34.
 LaTeX Info: Redefining \rmfamily on input line 42.
 LaTeX Info: Redefining \sffamily on input line 42.
 LaTeX Info: Redefining \ttfamily on input line 42.
+LaTeX Info: Redefining \rmfamily on input line 50.
+LaTeX Info: Redefining \sffamily on input line 50.
+LaTeX Info: Redefining \ttfamily on input line 50.
 )
 (./tex/prefaceFirstBook.aux) (./tex/cktBasics.aux) (./tex/cktResistive.aux)
 (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux) (./tex/cktTheorems.aux)
@@ -1514,37 +1514,44 @@ LaTeX Info: Redefining \ttfamily on input line 42.
 (./tex/cktMagneticallyCoupledNetworks.aux) (./tex/cktPolyphaseCircuits.aux)
 (./tex/cktFrequencyResponse.aux) (./tex/cktLaplaceTransform.aux)
 (./tex/cktApplicationLaplace.aux) (./tex/cktFourierAnalysis.aux)
-(./tex/cktTwoPortNetworks.aux))
+(./tex/cktTwoPortNetworks.aux)
+LaTeX Info: Redefining \rmfamily on input line 31.
+LaTeX Info: Redefining \sffamily on input line 31.
+LaTeX Info: Redefining \ttfamily on input line 31.
+LaTeX Info: Redefining \rmfamily on input line 54.
+LaTeX Info: Redefining \sffamily on input line 54.
+LaTeX Info: Redefining \ttfamily on input line 54.
+)
 \openout1 = `circuitAnalysis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 154.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 166.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-54.
+66.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 Package translations Info: no dictionary file `translations-basic-dictionary-hi
-ndustani.trsl' found. on input line 154.
+ndustani.trsl' found. on input line 166.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-english.trsl
@@ -1552,7 +1559,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 
-Package chemgreek Info: Activating mapping `fontspec' on line 154.
+Package chemgreek Info: Activating mapping `fontspec' on line 166.
 
 
 *geometry* driver: auto-detecting
@@ -1591,55 +1598,55 @@ Package chemgreek Info: Activating mapping `fontspec' on line 154.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \rmfamily on input line 154.
-LaTeX Info: Redefining \sffamily on input line 154.
-LaTeX Info: Redefining \ttfamily on input line 154.
-LaTeX Info: Redefining \rmfamily on input line 154.
-LaTeX Info: Redefining \sffamily on input line 154.
-LaTeX Info: Redefining \ttfamily on input line 154.
+LaTeX Info: Redefining \rmfamily on input line 166.
+LaTeX Info: Redefining \sffamily on input line 166.
+LaTeX Info: Redefining \ttfamily on input line 166.
+LaTeX Info: Redefining \rmfamily on input line 166.
+LaTeX Info: Redefining \sffamily on input line 166.
+LaTeX Info: Redefining \ttfamily on input line 166.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 162.
+(Font)              scaled to size 17.28pt on input line 174.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 162.
+(Font)              scaled to size 12.0pt on input line 174.
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 1
-62.
+74.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-162.
+174.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-162.
+174.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-162.
+174.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-162.
+174.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 16
-2.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 17
+4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 162.
+(Font)              scaled to size 9.0pt on input line 174.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 162.
+(Font)              scaled to size 12.0pt on input line 174.
  [1
 
 
@@ -1648,18 +1655,18 @@ LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/m/n' will be
 
 LaTeX Font Warning: Font shape `TU/JameelNooriNastaleeq(2)/m/sl' undefined
 (Font)              using `TU/JameelNooriNastaleeq(2)/m/n' instead on input lin
-e 164.
+e 176.
 
 [2
 
 ]
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 164.
+(Font)              scaled to size 24.88pt on input line 176.
 
 
 LaTeX Font Warning: Font shape `TU/JameelNooriNastaleeq(2)/b/n' undefined
 (Font)              using `TU/JameelNooriNastaleeq(2)/m/n' instead on input lin
-e 164.
+e 176.
 
 (./circuitAnalysis.toc
 LaTeX Info: Redefining \rmfamily on input line 1.
@@ -1673,9 +1680,6 @@ LaTeX Info: Redefining \ttfamily on input line 4.
 LaTeX Info: Redefining \rmfamily on input line 6.
 LaTeX Info: Redefining \sffamily on input line 6.
 LaTeX Info: Redefining \ttfamily on input line 6.
-LaTeX Info: Redefining \rmfamily on input line 7.
-LaTeX Info: Redefining \sffamily on input line 7.
-LaTeX Info: Redefining \ttfamily on input line 7.
 LaTeX Info: Redefining \rmfamily on input line 8.
 LaTeX Info: Redefining \sffamily on input line 8.
 LaTeX Info: Redefining \ttfamily on input line 8.
@@ -1685,10 +1689,20 @@ LaTeX Info: Redefining \ttfamily on input line 10.
 LaTeX Info: Redefining \rmfamily on input line 12.
 LaTeX Info: Redefining \sffamily on input line 12.
 LaTeX Info: Redefining \ttfamily on input line 12.
+LaTeX Info: Redefining \rmfamily on input line 14.
+LaTeX Info: Redefining \sffamily on input line 14.
+LaTeX Info: Redefining \ttfamily on input line 14.
  [3]
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/sl' will be
-(Font)              scaled to size 10.0pt on input line 75.
- [4] [5] [6])
+(Font)              scaled to size 10.0pt on input line 77.
+ [4] [5] [6]
+LaTeX Info: Redefining \rmfamily on input line 160.
+LaTeX Info: Redefining \sffamily on input line 160.
+LaTeX Info: Redefining \ttfamily on input line 160.
+LaTeX Info: Redefining \rmfamily on input line 162.
+LaTeX Info: Redefining \sffamily on input line 162.
+LaTeX Info: Redefining \ttfamily on input line 162.
+)
 \tf@toc=\write4
 \openout4 = `circuitAnalysis.toc'.
 
@@ -1746,9 +1760,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
+Underfull \hbox (badness 4752) in paragraph at lines 18--19
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 لاپلاس بدل اور فوریئر بدل پر تبصرے کے ب
-عد ان کی مدد سے ادوار حل کرنا سکھایا گیا ہے۔امید کی جاتی ہے کہ طلباء[]
+عد ان کی مدد سے ادوار حل کرنا سکھایا گیا ہے۔امید کی جاتی ہے کہ طلبہ[]
  []
 
 
@@ -1780,27 +1794,27 @@ LaTeX Info: Redefining \ttfamily on input line 29.
 LaTeX Info: Redefining \rmfamily on input line 31.
 LaTeX Info: Redefining \sffamily on input line 31.
 LaTeX Info: Redefining \ttfamily on input line 31.
-LaTeX Info: Redefining \rmfamily on input line 36.
-LaTeX Info: Redefining \sffamily on input line 36.
-LaTeX Info: Redefining \ttfamily on input line 36.
+LaTeX Info: Redefining \rmfamily on input line 37.
+LaTeX Info: Redefining \sffamily on input line 37.
+LaTeX Info: Redefining \ttfamily on input line 37.
+LaTeX Info: Redefining \rmfamily on input line 40.
+LaTeX Info: Redefining \sffamily on input line 40.
+LaTeX Info: Redefining \ttfamily on input line 40.
 LaTeX Info: Redefining \rmfamily on input line 43.
 LaTeX Info: Redefining \sffamily on input line 43.
 LaTeX Info: Redefining \ttfamily on input line 43.
-LaTeX Info: Redefining \rmfamily on input line 45.
-LaTeX Info: Redefining \sffamily on input line 45.
-LaTeX Info: Redefining \ttfamily on input line 45.
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 آپ سے گزارش ہے کہ اس کتاب کو زیادہ سے ز
 یادہ طلبہ و طالبات تک پہنچائیں اور کتاب میں غلطیوں کی[]
  []
 
+LaTeX Info: Redefining \rmfamily on input line 46.
+LaTeX Info: Redefining \sffamily on input line 46.
+LaTeX Info: Redefining \ttfamily on input line 46.
 LaTeX Info: Redefining \rmfamily on input line 48.
 LaTeX Info: Redefining \sffamily on input line 48.
 LaTeX Info: Redefining \ttfamily on input line 48.
-LaTeX Info: Redefining \rmfamily on input line 50.
-LaTeX Info: Redefining \sffamily on input line 50.
-LaTeX Info: Redefining \ttfamily on input line 50.
 ) [10]
 \openout2 = `./tex/prefaceFirstBook.aux'.
 
@@ -1873,7 +1887,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
 Underfull \hbox (badness 10000) in paragraph at lines 16--17
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 مدد دیں اور انہیں جہاں اس کتاب میں غلطی ن
-ظر آئے وہ اس کی نشاندہی میری ای-میل پر کریں۔میں ان کا[]
+ظر آئے وہ اس کی نشاندہی میرے برقیاتی پتہ پر کریں۔میں[]
  []
 
 [11
@@ -2843,9 +2857,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 341--342
 
 
 Underfull \hbox (badness 1701) in paragraph at lines 341--342
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 طاقت $[]$ ہے جبکہ پرزہ-‏1 کی طاقت $\OT1/p
-pl/m/n/10 5 \OMS/zplm/m/n/10 ^^B \OT1/ppl/m/n/10 4 \OT1/zplm/m/n/10 = \OT1/ppl/
-m/n/10 20 W$ \TU/JameelNooriNastaleeq(2)/m/sl/10 اور پرزہ-‏2 کی طاقت[]
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 طاقت $[]$ ہے جبکہ پرزہ-1 کی طاقت $\OT1/pp
+l/m/n/10 5 \OMS/zplm/m/n/10 ^^B \OT1/ppl/m/n/10 4 \OT1/zplm/m/n/10 = \OT1/ppl/m
+/n/10 20 W$ \TU/JameelNooriNastaleeq(2)/m/sl/10 اور پرزہ-2 کی طاقت[]
  []
 
 [15]
@@ -2855,9 +2869,9 @@ LaTeX Info: Redefining \ttfamily on input line 345.
 
 Underfull \hbox (badness 10000) in paragraph at lines 347--348
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 جوابات:منبع رو کی طاقت $\OMS/zplm/m/n/1
-0 ^^@\OT1/ppl/m/n/10 16 W$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔پرزہ-‏1 کی طا
-قت $\OT1/ppl/m/n/10 20 W$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔پرزہ-‏2 بھی من
-بع ہے اور اس کی طاقت[]
+0 ^^@\OT1/ppl/m/n/10 16 W$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔پرزہ-1 کی طاق
+ت $\OT1/ppl/m/n/10 20 W$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔پرزہ-2 بھی منبع
+ ہے اور اس کی طاقت[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 352.
@@ -30746,22 +30760,20 @@ LaTeX Info: Redefining \ttfamily on input line 1198.
 
 
 ] (./circuitAnalysis.ind
-LaTeX Info: Redefining \rmfamily on input line 2.
-LaTeX Info: Redefining \sffamily on input line 2.
-LaTeX Info: Redefining \ttfamily on input line 2.
+LaTeX Info: Redefining \rmfamily on input line 4.
+LaTeX Info: Redefining \sffamily on input line 4.
+LaTeX Info: Redefining \ttfamily on input line 4.
  [949
 
 
 
 ] [950]
 [951] [952] [953] [954] [955]
-LaTeX Info: Redefining \rmfamily on input line 624.
-LaTeX Info: Redefining \sffamily on input line 624.
-LaTeX Info: Redefining \ttfamily on input line 624.
+LaTeX Info: Redefining \rmfamily on input line 625.
+LaTeX Info: Redefining \sffamily on input line 625.
+LaTeX Info: Redefining \ttfamily on input line 625.
  [956] [957] [958] [959] [960] [961] [962]
-[963] [964] [965
-
-])
+[963] [964] [965])
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -30823,9 +30835,6 @@ LaTeX Info: Redefining \ttfamily on input line 10.
 LaTeX Info: Redefining \rmfamily on input line 18.
 LaTeX Info: Redefining \sffamily on input line 18.
 LaTeX Info: Redefining \ttfamily on input line 18.
-LaTeX Info: Redefining \rmfamily on input line 25.
-LaTeX Info: Redefining \sffamily on input line 25.
-LaTeX Info: Redefining \ttfamily on input line 25.
 LaTeX Info: Redefining \rmfamily on input line 26.
 LaTeX Info: Redefining \sffamily on input line 26.
 LaTeX Info: Redefining \ttfamily on input line 26.
@@ -30835,6 +30844,9 @@ LaTeX Info: Redefining \ttfamily on input line 34.
 LaTeX Info: Redefining \rmfamily on input line 42.
 LaTeX Info: Redefining \sffamily on input line 42.
 LaTeX Info: Redefining \ttfamily on input line 42.
+LaTeX Info: Redefining \rmfamily on input line 50.
+LaTeX Info: Redefining \sffamily on input line 50.
+LaTeX Info: Redefining \ttfamily on input line 50.
 )
 (./tex/prefaceFirstBook.aux) (./tex/cktBasics.aux) (./tex/cktResistive.aux)
 (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux) (./tex/cktTheorems.aux)
@@ -30847,9 +30859,9 @@ LaTeX Info: Redefining \ttfamily on input line 42.
 LaTeX Info: Redefining \rmfamily on input line 31.
 LaTeX Info: Redefining \sffamily on input line 31.
 LaTeX Info: Redefining \ttfamily on input line 31.
-LaTeX Info: Redefining \rmfamily on input line 53.
-LaTeX Info: Redefining \sffamily on input line 53.
-LaTeX Info: Redefining \ttfamily on input line 53.
+LaTeX Info: Redefining \rmfamily on input line 54.
+LaTeX Info: Redefining \sffamily on input line 54.
+LaTeX Info: Redefining \ttfamily on input line 54.
 )
 
 LaTeX Font Warning: Size substitutions with differences
@@ -30860,10 +30872,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 217161 strings out of 476191
- 6890967 string characters out of 9562072
- 5942403 words of memory out of 7000000
- 236686 multiletter control sequences out of 15000+600000
+ 217281 strings out of 476191
+ 6892650 string characters out of 9562072
+ 5943788 words of memory out of 7000000
+ 236806 multiletter control sequences out of 15000+600000
  506371 words of font info for 162 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  115i,21n,375p,2073b,2905s stack positions out of 5000i,500n,10000p,200000b,80000s
