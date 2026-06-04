@@ -1,1326 +1,1322 @@
 \begin{theindex}
-
 \begin{otherlanguage}{english}
-
-  \item abc, 628
-  \item ABCD parameters, 935
-  \item AC, 2, 398
-  \item active component, 9, 14
-  \item ADC, 759
-  \item adder, 209
-  \item admittance, 457
-    \subitem model, 924
-  \item admittance,short-circuit input, 924
-  \item alternating current, 2
-  \item alternating current, AC, 398
-  \item aluminium, 610
+  \item abc, 610
+  \item ABCD parameters, 907
+  \item AC, 3, 386
+  \item active component, 9, 13
+  \item ADC, 737
+  \item adder, 202
+  \item admittance, 444
+    \subitem model, 896
+  \item admittance,short-circuit input, 896
+  \item alternating current, 3
+  \item alternating current, AC, 386
+  \item aluminium, 593
   \item Ampere, 2
   \item amplifier
-    \subitem common emitter, 99
-    \subitem current, 18
-    \subitem inverting, 204
-    \subitem non-inverting, 205
-    \subitem transconductance, 18, 101
-    \subitem transresistance, 18
-    \subitem voltage, 18
-  \item amplitude, 424
-    \subitem spectrum, 885
-  \item analog form, 671
-  \item analog to digital converter, 759
-  \item angular form, 420
-  \item angular speed, 424
-  \item antenna, 726
-  \item aperiodic, 893
-  \item argument, 424
-  \item audio, 671
+    \subitem common emitter, 95
+    \subitem current, 17
+    \subitem inverting, 197
+    \subitem non-inverting, 198
+    \subitem transconductance, 17, 97
+    \subitem transresistance, 17
+    \subitem voltage, 17
+  \item amplitude, 412
+    \subitem spectrum, 858
+  \item analog form, 651
+  \item analog to digital converter, 737
+  \item angular form, 408
+  \item angular speed, 412
+  \item antenna, 704
+  \item aperiodic, 865
+  \item argument, 412
+  \item audio, 651
   \item axis
-    \subitem semilog, 671
+    \subitem semilog, 651
 
   \indexspace
 
-  \item band-pass filter, 706, 731
-  \item band-stop filter, 731
-  \item bandwidth, 708
-  \item battery cell, 105
-  \item block diagram, 923
+  \item band-pass filter, 685, 709
+  \item band-stop filter, 709
+  \item bandwidth, 687
+  \item battery cell, 101
+  \item block diagram, 895
   \item Bode
-    \subitem phase plot, 689
-  \item Bode plot, 681
-  \item boost converter, 406
-  \item branch, 43
+    \subitem phase plot, 668
+  \item Bode plot, 660
+  \item boost converter, 393
+  \item branch, 41, 42
   \item breaker
-    \subitem ground fault interrupter, 557
-  \item buffer, 207
+    \subitem ground fault interrupter, 541
+  \item buffer, 200
 
   \indexspace
 
-  \item capacitance, 295, 296
+  \item capacitance, 285, 286
   \item capacitive
-    \subitem power factor, 539
-  \item capacitor, 295
-  \item Cartesian coordinates, 35, 423
+    \subitem power factor, 524
+  \item capacitor, 285
+  \item Cartesian coordinates, 33, 411
   \item characteristic
-    \subitem magnitude, 681
-    \subitem phase, 681
-  \item characteristic equation, 380
+    \subitem magnitude, 660
+    \subitem phase, 660
+  \item characteristic equation, 368
   \item charge, 1
-  \item circuit, 2
-  \item circuit breaker, 557
+  \item circuit, 1
+  \item circuit breaker, 541
   \item clockwise, 9
-  \item coefficients, 854
-  \item coil, 307, 571
-  \item cold wire, 556
-  \item comparator, 214
-  \item complementary solution, 349
+  \item coefficients, 828
+  \item coil, 297, 555
+  \item cold wire, 541
+  \item comparator, 207
+  \item complementary solution, 339
   \item complex
-    \subitem frequency, 753
-    \subitem number, 419
-    \subitem plane, 419, 823
-  \item complex conjugate, 678
-  \item complex function, 435
-  \item complex power, 541
-  \item computer, 22, 402
-  \item conductance, 37, 457
+    \subitem frequency, 731
+    \subitem number, 407
+    \subitem plane, 407, 798
+  \item complex conjugate, 658
+  \item complex function, 423
+  \item complex power, 526
+  \item computer, 22, 390
+  \item conductance, 35, 444
   \item conduction
-    \subitem heat, 79
+    \subitem heat, 75
   \item continuous
-    \subitem function, 298, 309
-  \item control equation, 170
-  \item control voltage, 16
+    \subitem function, 288, 299
+  \item control equation, 164
+  \item control voltage, 15
   \item convolution
-    \subitem integral, 779
+    \subitem integral, 756
   \item core
-    \subitem magnetic, 307, 571
-    \subitem non-magnetic, 307
-  \item corner frequencies, 676
+    \subitem magnetic, 297, 555
+    \subitem non-magnetic, 297
+  \item corner frequencies, 656
   \item Coulomb, 2
-  \item coupled coils, 573
+  \item coupled coils, 557
   \item coupling
-    \subitem strong, 590
-    \subitem weak, 590
-  \item coupling coefficient, 589
-  \item critical damped, 827
+    \subitem strong, 573
+    \subitem weak, 573
+  \item coupling coefficient, 573
+  \item critical damped, 802
   \item current, 1
-    \subitem gain, 820
-    \subitem transformation, 593
-  \item current gain, 18
+    \subitem gain, 795
+    \subitem transformation, 577
+  \item current gain, 17
   \item current source
-    \subitem current controlled, 98
-    \subitem voltage controlled, 99
+    \subitem current controlled, 93
+    \subitem voltage controlled, 95
   \item cut-off
-    \subitem high frequency, 676
-    \subitem low frequency, 676
-  \item cut-off frequency, 733
+    \subitem high frequency, 656
+    \subitem low frequency, 656
+  \item cut-off frequency, 711
 
   \indexspace
 
   \item damped
-    \subitem oscillation, 382
-    \subitem over, 828
-    \subitem sinusoidal, 823, 826
-  \item damping ratio, 379, 697
+    \subitem oscillation, 370
+    \subitem over, 802
+    \subitem sinusoidal, 798
+  \item damping ratio, 368, 676
   \item data
-    \subitem digital, 23
-  \item DC, 2, 398
-  \item decibel, 681
-  \item delta connection, 637
+    \subitem digital, 22
+  \item DC, 3, 386
+  \item decibel, 660
+  \item delta connection, 619
   \item depended
-    \subitem current source, 16
+    \subitem current source, 15
   \item dependent
-    \subitem transconductance source, 16
-    \subitem transresistance source, 16
-    \subitem voltage source, 16
-  \item dependent current source, 16
-  \item dependent equation, 57
-  \item dependent variable, 297
-  \item dependent voltage source, 16
-  \item determinant, 126
-  \item differential equation, 349
-    \subitem first order, 347
-    \subitem second order, 347
+    \subitem transconductance source, 15
+    \subitem transresistance source, 15
+    \subitem voltage source, 15
+  \item dependent current source, 15
+  \item dependent equation, 54
+  \item dependent variable, 287
+  \item dependent voltage source, 15
+  \item determinant, 121
+  \item differential equation, 338
+    \subitem first order, 337
+    \subitem second order, 337
   \item differential form, 2
-  \item differentiator, 331
-  \item digital circuit, 23
-  \item digital data, 23
-  \item digital form, 671
-  \item dimension, 16
-  \item dimensionless, 16, 371
-  \item direct current, 2
-  \item direct current, DC, 398
-  \item discharged, 23
-  \item discrete line spectra, 885
-  \item diving board, 55
-  \item dot product, 856
-  \item duty cycle, 406
+  \item differentiator, 321
+  \item digital circuit, 22
+  \item digital data, 22
+  \item digital form, 651
+  \item dimension, 15
+  \item dimensionless, 15, 360
+  \item direct current, 3
+  \item direct current, DC, 386
+  \item discharged, 22
+  \item discrete line spectra, 858
+  \item diving board, 52
+  \item dot product, 830
+  \item duty cycle, 393
 
   \indexspace
 
-  \item earth, 557
-  \item ecg, 736
-  \item electric constant, 295
+  \item earth, 541
+  \item ecg, 714
+  \item electric constant, 285
   \item electric field, 8
-  \item electrocardiogram, 736
-  \item electromagnetic waves, 726
-  \item electronics, 96, 211
-  \item energy meter, 611
-  \item envelope, 382, 898
-  \item equivalent circuit, 246
-  \item Euler's equation, 423, 435
-  \item excitation current, 609
-  \item exponential decay, 352
+  \item electrocardiogram, 714
+  \item electromagnetic waves, 704
+  \item electronics, 92, 204
+  \item energy meter, 594
+  \item envelope, 370, 870
+  \item equivalent circuit, 238
+  \item Euler's equation, 411, 423
+  \item excitation current, 592
+  \item exponential decay, 341
 
   \indexspace
 
-  \item filter, 307, 731
-    \subitem band-pass, 731
-    \subitem band-stop, 731
-    \subitem high-pass, 731
-    \subitem low-pass, 731
-    \subitem notch, 737
-  \item final value theorem, 783
+  \item filter, 297, 709
+    \subitem band-pass, 709
+    \subitem band-stop, 709
+    \subitem high-pass, 709
+    \subitem low-pass, 709
+    \subitem notch, 714
+  \item final value theorem, 760
   \item first order
-    \subitem circuits, 347
+    \subitem circuits, 337
   \item flux
-    \subitem magnetic, 571
-  \item flux linkage, 571
-  \item forced response, 349
-  \item forcing function, 349
+    \subitem magnetic, 555
+  \item flux linkage, 555
+  \item forced response, 339
+  \item forcing function, 339
   \item Fourier
-    \subitem inverse transform, 895
-    \subitem transform, 895
+    \subitem inverse transform, 868
+    \subitem transform, 868
   \item Fourier series
-    \subitem trignometric, 854
-  \item Fourier transform, 754, 895
-  \item frequency, 424
-    \subitem band, 672
-    \subitem complex, 753
-  \item frequency dependent, 681
-  \item frequency form, 441
-  \item frequency modulation theorem, 766
+    \subitem trignometric, 828
+  \item Fourier transform, 732, 867
+  \item frequency, 412
+    \subitem band, 651
+    \subitem complex, 731
+  \item frequency dependent, 660
+  \item frequency form, 428
+  \item frequency modulation theorem, 743
   \item function
-    \subitem continuous, 298, 309
-    \subitem network, 820
-  \item fundamental component, 854
+    \subitem continuous, 288, 299
+    \subitem network, 795
+  \item fundamental component, 828
 
   \indexspace
 
-  \item gain, 194
-    \subitem current, 820
-    \subitem transconductance, 101, 820
-    \subitem transresistance, 820
-    \subitem voltage, 99, 196, 820
+  \item gain, 188
+    \subitem current, 795
+    \subitem transconductance, 97, 795
+    \subitem transresistance, 795
+    \subitem voltage, 95, 190, 795
   \item graph
-    \subitem log-log, 671
-  \item gravitational field, 8
+    \subitem log-log, 651
+  \item gravitational field, 7
   \item ground
-    \subitem electrical, 6
+    \subitem electrical, 5
   \item ground fault
-    \subitem circuit interrupter, 557
+    \subitem circuit interrupter, 541
 
   \indexspace
 
   \item harmonic
-    \subitem second, 854
-  \item heat convection, 79
-  \item Henry, 307
-  \item Hertz, 424, 853
-  \item high cut-off frequency, 676
-  \item high voltage side, 595
-  \item high-pass filter, 731
-  \item homogenous equation, 349
-  \item hot wire, 556
-  \item HT, 595
+    \subitem second, 828
+  \item heat convection, 75
+  \item Henry, 297
+  \item Hertz, 412, 827
+  \item high cut-off frequency, 656
+  \item high voltage side, 579
+  \item high-pass filter, 709
+  \item homogenous equation, 339
+  \item hot wire, 541
+  \item HT, 579
   \item hybrid
-    \subitem $h_{11}$, 934
-    \subitem $h_{12}$, 934
-    \subitem $h_{21}$, 934
-    \subitem $h_{22}$, 934
-  \item hybrid model, 933
+    \subitem $h_{11}$, 906
+    \subitem $h_{12}$, 906
+    \subitem $h_{21}$, 906
+    \subitem $h_{22}$, 906
+  \item hybrid model, 905
 
   \indexspace
 
-  \item imaginary, 436
-    \subitem number, 419
-  \item impedance, 452
-    \subitem model, 928
-    \subitem transformation, 595
+  \item imaginary, 423
+    \subitem number, 407
+  \item impedance, 439
+    \subitem model, 900
+    \subitem transformation, 579
   \item impulse
-    \subitem function, 754
-    \subitem unit, 758
-  \item in phase, 427
+    \subitem function, 732
+    \subitem unit, 736
+  \item in phase, 415
   \item independent
     \subitem current source, 14
-  \item independent variable, 297
-  \item independent voltage source, 14
-  \item induced voltage, 609
-  \item inductance, 307
-    \subitem mutual, 573
-    \subitem self, 572, 573
+  \item independent variable, 287
+  \item independent voltage source, 13
+  \item induced voltage, 592
+  \item inductance, 297
+    \subitem mutual, 557
+    \subitem self, 556, 557
   \item inductive
-    \subitem power factor, 539
-  \item inductive kick, 400
-  \item inductor, 307
-  \item initial conditions, 354
-  \item initial value theorem, 783
-  \item input port, 23
-  \item input side, 597
+    \subitem power factor, 524
+  \item inductive kick, 388
+  \item inductor, 297
+  \item initial conditions, 343
+  \item initial value theorem, 760
+  \item input port, 22
+  \item input side, 581
   \item integral
-    \subitem convolution, 779
+    \subitem convolution, 756
   \item integral form, 2
-  \item integrated circuit, IC, 211
-  \item integrator, 330
-  \item integro-differential equation, 349
-  \item inverse, 126
-  \item inverse Laplace transform, 754
-  \item inverter, 909
+  \item integrated circuit, IC, 204
+  \item integrator, 320
+  \item integro-differential equation, 338
+  \item inverse, 121
+  \item inverse Laplace transform, 732
+  \item inverter, 882
   \item inverting
-    \subitem pin, 193
+    \subitem pin, 187
 
   \indexspace
 
-  \item KCL, 44
-  \item kickback, 400
-  \item kilowatt-hour, 559
+  \item KCL, 42
+  \item kickback, 388
+  \item kilowatt-hour, 543
   \item Kirchoff
-    \subitem  current law, 44
-    \subitem voltage law, 51
-  \item Kirchoff's laws, 43
-  \item kWh, 559
+    \subitem  current law, 42
+    \subitem voltage law, 49
+  \item Kirchoff's laws, 40
+  \item kWh, 543
 
   \indexspace
 
-  \item lab, 821
-  \item lag, 427
+  \item lab, 796
+  \item lag, 413
   \item Laplace
-    \subitem inverse transform, 754
-  \item Laplace transform, 672, 753
+    \subitem inverse transform, 732
+  \item Laplace transform, 653, 731
   \item law
-    \subitem conservation of energy, 12
-  \item lead, 427
+    \subitem conservation of energy, 11
+  \item lead, 413
   \item leading
-    \subitem power factor, 539
-  \item limit, 783
+    \subitem power factor, 524
+  \item limit, 760
   \item line to line
-    \subitem voltage, 626
-  \item linear, 36, 198, 229
-  \item linear component, 36
-  \item live wire, 556
-  \item log, 671
+    \subitem voltage, 608
+  \item linear, 34, 192, 221
+  \item linear component, 34
+  \item live wire, 541
+  \item log, 651
   \item log-log
-    \subitem graph, 671
-  \item loop, 43
-  \item loop analysis, 155
-  \item loop current, 155
-  \item loss, 10
-  \item lossless components, 515
-  \item low cut-off frequency, 676
-  \item low voltage side, 595
-  \item low-pass filter, 731
-  \item LT, 595
+    \subitem graph, 651
+  \item loop, 41
+  \item loop analysis, 150
+  \item loop current, 150
+  \item loss, 9
+  \item lossless components, 501
+  \item low cut-off frequency, 656
+  \item low voltage side, 579
+  \item low-pass filter, 709
+  \item LT, 579
 
   \indexspace
 
   \item magnetic field
-    \subitem intensity, 593
-  \item magnetic flux, 571
+    \subitem intensity, 577
+  \item magnetic flux, 555
   \item magnitude
-    \subitem characteristic, 681
-  \item magnitude characteristic, 733
+    \subitem characteristic, 660
+  \item magnitude characteristic, 711
   \item matrix
-    \subitem conductance, 131
-    \subitem current, 132
-  \item matrix equation, 124
-  \item mid-frequency range, 676
-  \item model, 16, 194
-    \subitem admittance, 924
-    \subitem hybrid, 933
-    \subitem impedance, 928
-    \subitem transmission, 935
-  \item MOSFET, 16, 96
-  \item mutual inductance, 573
+    \subitem conductance, 127
+    \subitem current, 127
+  \item matrix equation, 120
+  \item mid-frequency range, 656
+  \item model, 15, 188
+    \subitem admittance, 896
+    \subitem hybrid, 905
+    \subitem impedance, 900
+    \subitem transmission, 907
+  \item MOSFET, 15, 92
+  \item mutual inductance, 557
 
   \indexspace
 
   \item natural frequency
-    \subitem undamped, 379
-  \item natural response, 349
-  \item network, 676
-    \subitem function, 820
-  \item neutral wire, 556
-  \item nodal analysis, 119
-  \item node, 43, 54
-    \subitem super, 145
+    \subitem undamped, 368
+  \item natural response, 339
+  \item network, 656
+    \subitem function, 795
+  \item neutral wire, 541
+  \item nodal analysis, 115
+  \item node, 41, 51
+    \subitem super, 140
   \item non-inverting
-    \subitem pin, 193
-  \item norm, 857
+    \subitem pin, 187
+  \item norm, 830
   \item norton
-    \subitem current, 252
-  \item Norton theorem, 248, 251
-  \item notch filter, 737
+    \subitem current, 243
+  \item Norton theorem, 239, 242
+  \item notch filter, 714
   \item Nyquist
-    \subitem criterion, 759
+    \subitem criterion, 737
 
   \indexspace
 
-  \item Ohm, 36
-    \subitem law, 5, 9
-  \item Ohm's law, 6, 36
-  \item opamp, 193
-    \subitem ideal, 202
-  \item open circuit, 39
-    \subitem input impedance, 929
-  \item open delta, 639
-  \item orthogonal, 856
-  \item out of phase, 427
+  \item Ohm, 34
+    \subitem law, 3, 9
+  \item Ohm's law, 6, 34
+  \item opamp, 187
+    \subitem ideal, 196
+  \item open circuit, 37
+    \subitem input impedance, 901
+  \item open delta, 620
+  \item orthogonal, 830
+  \item out of phase, 415
   \item output admittance
-    \subitem short-circuit, 924
+    \subitem short-circuit, 896
   \item output impedance
-    \subitem open-circuit, 929
-  \item output port, 23
-  \item output side, 597
-  \item over damped condition, 380
+    \subitem open-circuit, 901
+  \item output port, 22
+  \item output side, 581
+  \item over damped condition, 369
 
   \indexspace
 
-  \item Parseval's theorem, 902
-  \item partial fraction expansion, 754, 769
-  \item particular solution, 357, 380
-  \item passive component, 9, 14
+  \item Parseval's theorem, 874
+  \item partial fraction expansion, 732, 746
+  \item particular solution, 347, 369
+  \item passive component, 9, 13
   \item passive sign convention, 3
   \item periodic
-    \subitem function, 853
-    \subitem wave, 853
-  \item permitivity, 295
+    \subitem function, 827
+    \subitem wave, 827
+  \item permitivity, 285
   \item phase
-    \subitem characteristic, 681
-    \subitem in, 427
-    \subitem out of, 427
-    \subitem spectrum, 885
-    \subitem voltage, 626
-  \item phase angle, 425
-  \item phase characteristic, 733
-  \item phase difference, 427
-  \item phasor, 440
-  \item phasor diagram, 440
+    \subitem characteristic, 660
+    \subitem in, 415
+    \subitem out of, 415
+    \subitem spectrum, 858
+    \subitem voltage, 608
+  \item phase angle, 413
+  \item phase characteristic, 711
+  \item phase difference, 413
+  \item phasor, 427
+  \item phasor diagram, 427
   \item pins
-    \subitem power, 193
-  \item planar, 155
+    \subitem power, 187
+  \item planar, 150
   \item plane
-    \subitem complex, 823
-    \subitem s, 823
-  \item pole, 675
-  \item poles, 678
+    \subitem complex, 798
+    \subitem s, 798
+  \item pole, 655
+  \item poles, 658
   \item port
-    \subitem input-output, 23
-  \item potential energy, 10, 298
-  \item power, 9
-    \subitem apparent, 538
-    \subitem complex, 541
-    \subitem quadrature, 542
-    \subitem rating, 79
-    \subitem reactive, 542
-    \subitem real, 538
-  \item power electronics, 398
-  \item power factor, 538
-    \subitem capacitive, 539
-    \subitem inductive, 539
-    \subitem lagging, 539
-    \subitem leading, 539
-  \item power factor angle, 538
-  \item power loss, 10
-  \item power triangle, 544
-  \item primary coil, 597
-  \item primary side, 597
+    \subitem input-output, 22
+  \item potential energy, 9, 288
+  \item power, 8
+    \subitem apparent, 524
+    \subitem complex, 526
+    \subitem quadrature, 527
+    \subitem rating, 75
+    \subitem reactive, 527
+    \subitem real, 524
+  \item power electronics, 386
+  \item power factor, 524
+    \subitem capacitive, 524
+    \subitem inductive, 524
+    \subitem lagging, 524
+    \subitem leading, 524
+  \item power factor angle, 524
+  \item power loss, 9
+  \item power triangle, 529
+  \item primary coil, 581
+  \item primary side, 581
 
   \indexspace
 
-  \item quality factor, 701
+  \item quality factor, 681
 
   \indexspace
 
   \item rating
-    \subitem power, 79
-  \item reactance, 452
+    \subitem power, 75
+  \item reactance, 439
   \item reactive
-    \subitem power, 542
-  \item real, 436
-    \subitem number, 419
-  \item rectangular form, 419
-  \item rectifier, 398
-    \subitem full wave, 917
-    \subitem half wave, 917
+    \subitem power, 527
+  \item real, 423
+    \subitem number, 407
+  \item rectangular form, 407
+  \item rectifier, 386
+    \subitem full wave, 889
+    \subitem half wave, 889
   \item reference, 5
-  \item resistance, 9, 36
-  \item resistive, 452
-  \item resistive loss, 10
+  \item resistance, 9, 34
+  \item resistive, 439
+  \item resistive loss, 9
   \item resistor
-    \subitem variable, 38
-  \item resonance, 699
-  \item resonant circuit, 699
-  \item resonant frequency, 468, 699
+    \subitem variable, 36
+  \item resonance, 677
+  \item resonant circuit, 679
+  \item resonant frequency, 454, 679
   \item response
-    \subitem natural, 349
-  \item roots, 380
+    \subitem natural, 339
+  \item roots, 368
 
   \indexspace
 
   \item s
-    \subitem plane, 823
+    \subitem plane, 798
   \item sampling
-    \subitem property, 898
-  \item sampling property, 759
-  \item saw tooth, 862
-  \item scalar, 856
-  \item scalar product, 856
+    \subitem property, 871
+  \item sampling property, 736
+  \item saw tooth, 836
+  \item scalar, 830
+  \item scalar product, 830
   \item second order
-    \subitem circuits, 347
-  \item secondary coil, 597
-  \item self inductance, 572
+    \subitem circuits, 337
+  \item secondary coil, 581
+  \item self inductance, 556
   \item semilog
-    \subitem axis, 671
-  \item short circuit, 39
+    \subitem axis, 651
+  \item short circuit, 36
   \item SI system, 1
-  \item Siemens, 37
+  \item Siemens, 35
   \item signal
-    \subitem difference, 194
-  \item signals, 194
-  \item simultaneous equations, 45
-  \item singularity function, 754
-  \item sinusoidal, 423
-  \item slope, 35
-  \item snubber, 401
-  \item socket, 557
+    \subitem difference, 188
+  \item signals, 188
+  \item simultaneous equations, 43
+  \item singularity function, 732
+  \item sinusoidal, 411
+  \item slope, 33
+  \item snubber, 389
+  \item socket, 541
   \item source
     \subitem voltage, 9
-  \item Source Transformation theorem, 252
-  \item speaker, 671
+  \item Source Transformation theorem, 243
+  \item speaker, 651
   \item spectrum
-    \subitem amplitude, 885
-    \subitem discrete line, 885
-    \subitem phase, 885
-  \item stable, 213
-  \item star connected, 631
+    \subitem amplitude, 858
+    \subitem discrete line, 858
+    \subitem phase, 858
+  \item stable, 206
+  \item star connected, 613
   \item star-star
-    \subitem four-wire, 632
-    \subitem three-wire, 633
-  \item steady state, 347
-  \item steady state solution, 351
-  \item step, 298, 309
-  \item stray, 298
-  \item subtractor, 208
-  \item superposition, 235
-  \item susceptance, 457
-  \item switch, 352
-    \subitem spdt, 358
-  \item switching supply, 402
-  \item systems analysis, 779
+    \subitem four-wire, 613
+    \subitem three-wire, 615
+  \item steady state, 337
+  \item steady state solution, 340
+  \item step, 288, 299
+  \item stray, 288
+  \item subtractor, 201
+  \item superposition, 226
+  \item susceptance, 444
+  \item switch, 341
+    \subitem spdt, 347
+  \item switching supply, 390
+  \item systems analysis, 756
 
   \indexspace
 
-  \item television, TV, 402
+  \item television, TV, 390
   \item theorem
-    \subitem final value, 783
-    \subitem frequency modulation, 766
-    \subitem frequency-shifting, 766
-    \subitem initial value, 783
-    \subitem Norton, 251
-    \subitem Parseval, 902
-    \subitem Source Transformation, 248, 252
-    \subitem Thevenin, 252
-    \subitem time convolution, 899
-    \subitem time-scaling, 765
-    \subitem time-shifting, 765
-  \item thermal energy, 10
-  \item thermal loss, 10
+    \subitem final value, 760
+    \subitem frequency modulation, 743
+    \subitem frequency-shifting, 743
+    \subitem initial value, 760
+    \subitem Norton, 242
+    \subitem Parseval, 874
+    \subitem Source Transformation, 239, 243
+    \subitem Thevenin, 242
+    \subitem time convolution, 872
+    \subitem time-scaling, 742
+    \subitem time-shifting, 743
+  \item thermal energy, 9
+  \item thermal loss, 9
   \item Thevenin
-    \subitem Resistance, 248
-  \item Thevenin theorem, 248, 252
-  \item thevenin voltage, 252
-  \item three phase balanced system, 625
-  \item time constant, 351, 733
+    \subitem Resistance, 239
+  \item Thevenin theorem, 239, 242
+  \item thevenin voltage, 243
+  \item three phase balanced system, 607
+  \item time constant, 340, 711
   \item time convolution
-    \subitem theorem, 899
-  \item time domain, 441
-  \item time period, 424, 853
-  \item time-scaling theorem, 765
-  \item time-shifting theorem, 765
-  \item tolerance, 79
+    \subitem theorem, 872
+  \item time domain, 428
+  \item time period, 412, 827
+  \item time-scaling theorem, 742
+  \item time-shifting theorem, 743
+  \item tolerance, 75
   \item transadmittance
-    \subitem short-circuit, 924
+    \subitem short-circuit, 896
   \item transconductance
-    \subitem gain, 820
-  \item transconductance gain, 18
+    \subitem gain, 795
+  \item transconductance gain, 17
   \item transcresistance
-    \subitem gain, 820
-  \item transfer function, 676, 820
+    \subitem gain, 795
+  \item transfer function, 656, 795
   \item transformation
-    \subitem current, 593
-    \subitem impedance, 595
-    \subitem voltage, 593
-    \newpage
-    
-  \item transformer, 307
-    \subitem step down, 652
-    \subitem step up, 652
-  \item transient state, 347
+    \subitem current, 577
+    \subitem impedance, 579
+    \subitem voltage, 576
+  \item transformer, 297
+    \subitem step down, 633
+    \subitem step up, 633
+  \item transient state, 337
   \item transimpedance
-    \subitem open-circuit, 929
-  \item transistor, 211
-    \subitem BJT, 96
-    \subitem FET, 96
-  \item transistor, BJT, 16
-  \item transmission lines, 539
-  \item transpose matrix, 126
-  \item transresistance gian, 18
-  \item tuned amplifier, 726
-  \item TV, 402
+    \subitem open-circuit, 901
+  \item transistor, 204
+    \subitem BJT, 92
+    \subitem FET, 92
+  \item transistor, BJT, 15
+  \item transmission lines, 525
+  \item transpose matrix, 121
+  \item transresistance gian, 17
+  \item tuned amplifier, 704
+  \item TV, 390
 
   \indexspace
 
-  \item under damped condition, 381
-  \item underdamped, 827
-  \item unit impulse function, 371, 758
-  \item unit step function, 371, 754
-    \subitem time-shifted, 756
-  \item unstable, 214
+  \item under damped condition, 369
+  \item underdamped, 802
+  \item unit impulse function, 360, 736
+  \item unit step function, 360, 732
+    \subitem time-shifted, 733
+  \item unstable, 207
   \item USB, universal serial bus, 22
 
   \indexspace
 
   \item value
-    \subitem typical, 81
-  \item volt-ampere, 538
+    \subitem typical, 77
+  \item volt-ampere, 524
   \item voltage
-    \subitem amplifier, 671
-    \subitem gain, 820
-    \subitem line to line, 626
-    \subitem phase, 626
-    \subitem transformation, 593
-  \item voltage gain, 18, 196
+    \subitem amplifier, 651
+    \subitem gain, 795
+    \subitem line to line, 608
+    \subitem phase, 608
+    \subitem transformation, 576
+  \item voltage gain, 17, 190
   \item voltage source, 9
-    \subitem current controlled, 99
-    \subitem voltage controlled, 97
-
-  \newpage
-
-  \item WAPDA, 556
-  \item watt, 9
-  \item weightage, 210
-  \item wire
-    \subitem cold, 556
-    \subitem hot, 556
-    \subitem live, 556
-    \subitem neutral, 556
-  \item wye-delta transformation, 89
-
-  \newpage
-
-  \item Y connected, 631
-  \item YY, 632
+    \subitem current controlled, 96
+    \subitem voltage controlled, 93
 
   \indexspace
 
-  \item zeroes, 678
-\end{otherlanguage}
-
+  \item WAPDA, 539
+  \item watt, 8
+  \item weightage, 203
+  \item wire
+    \subitem cold, 541
+    \subitem hot, 541
+    \subitem live, 541
+    \subitem neutral, 541
+  \item wye-delta transformation, 85
 
   \newpage
+
+  \item Y connected, 613
+  \item YY, 613
+
+  \indexspace
+
+  \item zeroes, 658
+\end{otherlanguage}
+
+\newpage
+
 \item آزاد
    \subitem منبع رو، 14
-\item آزاد متغیر، 297
-\item آگے، 427
-\item آگے جزو طاقت، 539
-\item آگے زاویہ جزو طاقت، 539
+\item آزاد متغیر، 287
+\item آگے، 413
+\item آگے جزو طاقت، 524
+\item آگے زاویہ جزو طاقت، 524
 \indexspace
-\item ابتدائی شرائط، 354
+\item ابتدائی شرائط، 343
 \item ابتدائی قیمت
-   \subitem مسئلہ، 783
-\item ابتدائی لچھا، 597
-\item اتصال حرارت، 79
-\item اٹھان منبع، 406
+   \subitem مسئلہ، 760
+\item ابتدائی لچھا، 581
+\item اتصال حرارت، 75
+\item اٹھان منبع، 393
 \item اختتامی قیمت
-   \subitem مسئلہ، 783
-\item ارتباط بہاو، 571
-\item ارتباطی مستقل، 589
-\item اشارہ، 194
-   \subitem داخلی تفرقی، 194
-\item اصول نی کوسٹ، 759
-\item افزائش، 194
-   \subitem دباو، 18، 196، 820
-   \subitem رو، 18، 820
-   \subitem مزاحمت نما، 820
-   \subitem مزاحمت-نما، 18
-   \subitem موصلیت نما، 820
-   \subitem موصلیت-نما، 18
-\item افزائش دباو، 99
-\item افزائش موصلیت نما، 101
-\item اکائی جھٹکا تفاعل، 371
-\item اکائی سیڑھی تفاعل، 371، 754
-   \subitem وقتی منقولہ، 756
-\item اکائی ضرب تفاعل، 754، 758
-\item الٹ لاپلاس بدل، 754
-\item الجھاو، 779
-\item الگ زاویہ، 427
-\item المونیم، 610
-\item امالہ، 307
-   \subitem خود، 572، 573
-   \subitem مشترکہ، 573
+   \subitem مسئلہ، 760
+\item ارتباط بہاو، 555
+\item ارتباطی مستقل، 573
+\item اشارہ، 187
+   \subitem داخلی تفرقی، 188
+\item اصول نی کوسٹ، 737
+\item افزائش، 188
+   \subitem دباو، 17، 190، 795
+   \subitem رو، 17، 795
+   \subitem مزاحمت نما، 795
+   \subitem مزاحمت-نما، 17
+   \subitem موصلیت نما، 795
+   \subitem موصلیت-نما، 17
+\item افزائش دباو، 95
+\item افزائش موصلیت نما، 97
+\item اکائی جھٹکا تفاعل، 360
+\item اکائی سیڑھی تفاعل، 360، 732
+   \subitem وقتی منقولہ، 733
+\item اکائی ضرب تفاعل، 732، 736
+\item الٹ لاپلاس بدل، 732
+\item الجھاو، 756
+\item الگ زاویہ، 415
+\item المونیم، 593
+\item امالہ، 297
+   \subitem خود، 556، 557
+   \subitem مشترکہ، 557
 \item امالی
-   \subitem جزو طاقت، 539
-   \subitem زاویہ جزو طاقت، 539
-\item امالہ گیر، 307
-\item امالی دباو، 609
-\item امالی لات، 400
-\item امتیازی مساوات، 380
-\item انفرادی لکیری طیف، 885
+   \subitem جزو طاقت، 524
+   \subitem زاویہ جزو طاقت، 524
+\item امالہ گیر، 297
+\item امالی دباو، 592
+\item امالی لات، 388
+\item امتیازی مساوات، 368
+\item انفرادی لکیری طیف، 858
 \item انقطاعی
-   \subitem بلند تعدد، 676
-   \subitem پست تعدد، 676
-\item انقطاعی تعدد، 733
-\item انورٹر، 909
-\item اوہم، 36
-   \subitem قانون، 5، 6، 9، 36
-\item ایصال حرارت، 79
-\item ایصالیت، 457
+   \subitem بلند تعدد، 656
+   \subitem پست تعدد، 656
+\item انقطاعی تعدد، 711
+\item انورٹر، 882
+\item اوہم، 34
+   \subitem قانون، 3، 6، 9، 34
+\item ایصال حرارت، 75
+\item ایصالیت، 444
 \item ایمپلیفائر
-   \subitem ایمٹر مشترک، 99
-   \subitem حسابی، 193
-   \subitem دباو، 18
-   \subitem رو، 18
-   \subitem سمعی، 671
-   \subitem مزاحمت-نما، 18
-   \subitem موصلیت نما، 101
-   \subitem موصلیت-نما، 18
+   \subitem ایمٹر مشترک، 95
+   \subitem حسابی، 187
+   \subitem دباو، 17
+   \subitem رو، 17
+   \subitem سمعی، 651
+   \subitem مزاحمت-نما، 17
+   \subitem موصلیت نما، 97
+   \subitem موصلیت-نما، 17
 \item ایمپیئر، 2
-\item اینٹینا، 726
+\item اینٹینا، 704
 \indexspace
 \item بدل
-   \subitem فوریئر، 895
-\item بدلتا رو، 2، 398
+   \subitem فوریئر، 867
+\item بدلتا رو، 3، 386
 \item برقی
-   \subitem رکاوٹ، 452
-\item برقرار حالت، 347
-\item برقرار حالت:حل، 351
-\item برقرار حالت حل، 351
-\item برق گیر، 295
-   \subitem تغیر پذیر، 826
-   \subitem جزو طاقت، 539
-\item برق گیر زاویہ جزو طاقت، 539
-\item برقناطیسی موج، 726
-\item برقیات، 96، 211
+   \subitem رکاوٹ، 439
+\item برقرار حالت، 337
+\item برقرار حالت:حل، 340
+\item برقرار حالت حل، 340
+\item برق گیر، 285
+   \subitem تغیر پذیر، 801
+   \subitem جزو طاقت، 524
+\item برق گیر زاویہ جزو طاقت، 524
+\item برقناطیسی موج، 704
+\item برقیات، 92، 204
 \item برقی بار، 1
-\item برقی دور، 2
+\item برقی دور، 1
 \item برقی رو، 1
-\item برقی زمین، 557
-\item برقی قلب نگار، 736
-\item برقی گنجائش، 295، 296
+\item برقی زمین، 541
+\item برقی قلب نگار، 714
+\item برقی گنجائش، 285، 286
 \item برقی مزاحمت، 9
-\item برقی مستقل، 295
+\item برقی مستقل، 285
 \item برقی میدان، 8
-\item بُعد، 16
+\item بُعد، 15
 \item بلا جوڑ
-   \subitem تفاعل، 298، 309
-\item بلند انقطاعی تعدد، 676
-\item بلند گزار چھلنی، 731
-\item بنیادی رکن، 854
+   \subitem تفاعل، 288، 299
+\item بلند انقطاعی تعدد، 656
+\item بلند گزار چھلنی، 709
+\item بنیادی رکن، 828
 \item بوجھ
-   \subitem تکونی، 642
+   \subitem تکونی، 623
 \item بوڈا
-   \subitem زاویائی خط، 689
-\item بوڈا خط، 681
+   \subitem زاویائی خط، 668
+\item بوڈا خط، 660
 \item بہاو
-   \subitem ارتباط، 571
-   \subitem مقناطیسی، 571
-\item بیٹری سیل، 105
+   \subitem ارتباط، 555
+   \subitem مقناطیسی، 555
+\item بیٹری سیل، 101
 \item بین الاقوامی نظام اکائی، 1
-\item بے بار، 23
-\item بے بعد، 16، 371
-\item بے ضیاع پرزے، 515
+\item بے بار، 22
+\item بے بعد، 15، 360
+\item بے ضیاع پرزے، 501
 \indexspace
 \item تار
-   \subitem تعدیلی، 556
-   \subitem ٹھنڈی، 556، 634
-   \subitem دباو، 626
-   \subitem زمین، 557
-   \subitem زندہ، 556
-   \subitem سرد، 556
-   \subitem گرم، 556
+   \subitem تعدیلی، 541
+   \subitem ٹھنڈی، 541، 616
+   \subitem دباو، 608
+   \subitem زمین، 541
+   \subitem زندہ، 541
+   \subitem سرد، 541
+   \subitem گرم، 541
 \item تابع
-   \subitem منبع دباو، 16
-   \subitem منبع رو، 16
-\item تابع متغیر، 297
-\item تابع مساوات، 57
-\item تابع منبع مزاحمت-نما، 16
-\item تابع منبع موصلیت-نما، 16
-\item تاثریت، 457
+   \subitem منبع دباو، 15
+   \subitem منبع رو، 15
+\item تابع متغیر، 287
+\item تابع مساوات، 54
+\item تابع منبع مزاحمت-نما، 15
+\item تابع منبع موصلیت-نما، 15
+\item تاثریت، 444
 \item تبادلہ
-   \subitem دباو، 593
-   \subitem رکاوٹ، 595
-   \subitem رو، 593
-   \subitem ستارہ-تکون، 89
+   \subitem دباو، 576
+   \subitem رکاوٹ، 579
+   \subitem رو، 577
+   \subitem ستارہ-تکون، 85
 \item تبادلہ منبع
-   \subitem مسئلہ، 252
-\item تبادلی تفاعل، 676، 820
-\item تبدیل محل قالب، 126
-\item تجزیہ گاہ، 821
-\item تجزیہ نظام، 779
-\item تختہ غوطہ، 55
+   \subitem مسئلہ، 243
+\item تبادلی تفاعل، 656، 795
+\item تبدیل محل قالب، 121
+\item تجزیہ گاہ، 796
+\item تجزیہ نظام، 756
+\item تختہ غوطہ، 52
 \item تربیعی
-   \subitem طاقت، 542
+   \subitem طاقت، 527
 \item ترسیم
-   \subitem لوگارتھم لوگارتھم، 671
-   \subitem نیم لوگارتھم، 671
-\item ترسیلی تار، 539
-\item ترسیلی نمونہ، 935
+   \subitem لوگارتھم لوگارتھم، 651
+   \subitem نیم لوگارتھم، 651
+\item ترسیلی تار، 525
+\item ترسیلی نمونہ، 907
 \item ترمیم تعدد
-   \subitem مسئلہ، 766
+   \subitem مسئلہ، 743
 \item تسلسل
-   \subitem فوریئر، 854
-\item تعدد، 424، 853
-   \subitem بلند انقطاعی، 676
-   \subitem پست انقطاعی، 676
-   \subitem زاویائی، 853
-   \subitem کونے کی، 676
-   \subitem مخلوط، 753
-\item تعدد تابع، 681
-\item تعددی پٹی، 672
-\item تعددی دائرہ کار، 441
-\item تعدیلی تار، 556
-\item تغیر پذیر برق گیر، 826
+   \subitem فوریئر، 828
+\item تعدد، 412، 827
+   \subitem بلند انقطاعی، 656
+   \subitem پست انقطاعی، 656
+   \subitem زاویائی، 827
+   \subitem کونے کی، 656
+   \subitem مخلوط، 731
+\item تعدد تابع، 660
+\item تعددی پٹی، 651
+\item تعددی دائرہ کار، 428
+\item تعدیلی تار، 541
+\item تغیر پذیر برق گیر، 801
 \item تفاعل
-   \subitem بلا جوڑ، 298، 309
-   \subitem جال، 820
-   \subitem دوری، 853
-\item تفرق کار، 331
+   \subitem بلا جوڑ، 288، 299
+   \subitem جال، 795
+   \subitem دوری، 827
+\item تفرق کار، 321
 \item تفرقی صورت، 2
-\item تفرقی مساوات، 349
-   \subitem دو رتبی، 347
-   \subitem یک رتبی، 347
-\item تقصیری تناسب، 379، 697
+\item تفرقی مساوات، 338
+   \subitem دو رتبی، 337
+   \subitem یک رتبی، 337
+\item تقصیری تناسب، 368، 676
 \item تکمل
-   \subitem الجھاو، 779
-\item تکمل الجھاو، 779
-\item تکمل کار، 330
-\item تکمل و تفرقی، 349
+   \subitem الجھاو، 756
+\item تکمل الجھاو، 756
+\item تکمل کار، 320
+\item تکمل و تفرقی، 338
 \item تکملہ صورت، 2
 \item تکون
-   \subitem طاقت، 544
-   \subitem کھلا، 639
+   \subitem طاقت، 529
+   \subitem کھلا، 620
 \item تکونی
-   \subitem بوجھ، 642
-\item تکونی جوڑ، 637
+   \subitem بوجھ، 623
+\item تکونی جوڑ، 619
 \item توانائی
-   \subitem حرارتی، 10
-   \subitem مخفی، 10، 298
+   \subitem حرارتی، 9
+   \subitem مخفی، 9، 288
 \item تھونن
-   \subitem دباو، 252
-   \subitem مزاحمت، 248
-   \subitem مسئلہ، 252
+   \subitem دباو، 243
+   \subitem مزاحمت، 239
+   \subitem مسئلہ، 242
 \item تین تار
-   \subitem ستارہ ستارہ، 633
-   \subitem نظام، 642
+   \subitem ستارہ ستارہ، 615
+   \subitem نظام، 623
 \item تین دور
-   \subitem متوازن، 625
+   \subitem متوازن، 607
 \indexspace
-\item ثانوی لچھا، 597
-\item ثقلی میدان، 8
+\item ثانوی لچھا، 581
+\item ثقلی میدان، 7
 \indexspace
-\item جال، 676
-   \subitem تفاعل، 820
+\item جال، 656
+   \subitem تفاعل، 795
 \item جانب
-   \subitem زیادہ دباو، 595
-   \subitem کم دباو، 595
-\item جبری رد عمل، 349
-\item جبری قوت، 349
-\item جذر، 380
-\item جزو طاقت، 538
-   \subitem آگے، 539
-   \subitem امالی، 539
-   \subitem برق گیر، 539
-   \subitem پیچھے، 539
-\item جزوی کسری پھیلاو، 754، 769
-\item جمع کار، 209
-\item جوڑ، 43، 54
-   \subitem ترکیب، 119
-   \subitem مخلوط، 145
-\item جوڑی دار مخلوط، 678
+   \subitem زیادہ دباو، 579
+   \subitem کم دباو، 579
+\item جبری رد عمل، 339
+\item جبری قوت، 339
+\item جذر، 368
+\item جزو طاقت، 524
+   \subitem آگے، 524
+   \subitem امالی، 524
+   \subitem برق گیر، 524
+   \subitem پیچھے، 524
+\item جزوی کسری پھیلاو، 732، 746
+\item جمع کار، 202
+\item جوڑ، 41، 51
+   \subitem ترکیب، 115
+   \subitem مخلوط، 140
+\item جوڑی دار مخلوط، 658
 \indexspace
-\item حد، 783
+\item حد، 760
 \item حرارت
-   \subitem اتصال، 79
-   \subitem ایصال، 79
-\item حرارتی توانائی، 10
-\item حرارتی ضیاع، 10
-\item حسابی ایمپلیفائر، 193
-   \subitem کامل، 202
-   \subitem نمونہ، 194
-\item حقیقی، 436
-   \subitem عدد، 419
-\item حقیقی طاقت، 538
-\item حل:برقرار حالت، 351
+   \subitem اتصال، 75
+   \subitem ایصال، 75
+\item حرارتی توانائی، 9
+\item حرارتی ضیاع، 9
+\item حسابی ایمپلیفائر، 187
+   \subitem کامل، 196
+   \subitem نمونہ، 188
+\item حقیقی، 423
+   \subitem عدد، 407
+\item حقیقی طاقت، 524
+\item حل:برقرار حالت، 340
 \item حوالہ، 5
-\item حیطہ، 424
+\item حیطہ، 412
 \indexspace
-\item خارجی پھاٹک، 23
+\item خارجی پھاٹک، 22
 \item خارجی رکاوٹ
-   \subitem کھلے سر، 929
-\item خارجی لچھا، 597
-\item خارجی ہاتھ، 597
-\item خاصیت نمونہ بندی، 759
+   \subitem کھلے سر، 901
+\item خارجی لچھا، 581
+\item خارجی ہاتھ، 581
+\item خاصیت نمونہ بندی، 736
 \item خصلت
-   \subitem زاویائی، 681
-   \subitem مقداری، 681، 733
-\item خطی، 36، 229
-\item خطی پرزہ، 36
-\item خطی تعلق، 198
-\item خلل، 79
-\item خود امالہ، 572، 573
-\item خیالی، 436
-   \subitem عدد، 419
+   \subitem زاویائی، 660
+   \subitem مقداری، 660، 711
+\item خطی، 34، 221
+\item خطی پرزہ، 34
+\item خطی تعلق، 192
+\item خلل، 75
+\item خود امالہ، 556، 557
+\item خیالی، 423
+   \subitem عدد، 407
 \indexspace
-\item داخلی پھاٹک، 23
-\item داخلی تفرقی اشارہ، 194
-\item داخلی-خارجی پھاٹک، 23
+\item داخلی پھاٹک، 22
+\item داخلی تفرقی اشارہ، 188
+\item داخلی-خارجی پھاٹک، 22
 \item داخلی رکاوٹ
-   \subitem کھلے سر، 929
+   \subitem کھلے سر، 901
 \item داخلی فراوانی
-   \subitem قصر دور، 924
-\item داخلی لچھا، 597
-\item داخلی ہاتھ، 597
-\item دائرہ، 43
-\item دائری ترکیب، 155
-\item دائری رو، 155
+   \subitem قصر دور، 896
+\item داخلی لچھا، 581
+\item داخلی ہاتھ، 581
+\item دائرہ، 41
+\item دائری ترکیب، 150
+\item دائری رو، 150
 \item دباو
-   \subitem افزائش، 820
-   \subitem امالی، 609
-   \subitem تابع منبع، 16
-   \subitem تار، 626
-   \subitem تبادلہ، 593
-   \subitem تھونن، 252
-   \subitem دوری، 626
-   \subitem ضابط، 16
-\item دباو پکڑ، 401
-\item درمیانی تعدد خطہ، 676
-\item دلیل، 424
-\item دندان موج، 862
-\item دندانہ چھلنی، 737
+   \subitem افزائش، 795
+   \subitem امالی، 592
+   \subitem تابع منبع، 15
+   \subitem تار، 608
+   \subitem تبادلہ، 576
+   \subitem تھونن، 243
+   \subitem دوری، 608
+   \subitem ضابط، 15
+\item دباو پکڑ، 389
+\item درمیانی تعدد خطہ، 656
+\item دلیل، 412
+\item دندان موج، 836
+\item دندانہ چھلنی، 714
 \item دور
-   \subitem دو رتبی، 347
-   \subitem سطحی، 155
-   \subitem یک رتبی، 347
+   \subitem دو رتبی، 337
+   \subitem سطحی، 150
+   \subitem یک رتبی، 337
 \item دوری
-   \subitem تفاعل، 853
-   \subitem غیر، 893
-   \subitem موج، 853
+   \subitem تفاعل، 827
+   \subitem غیر، 865
+   \subitem موج، 827
 \item دو رتبی
-   \subitem ادوار، 347
-   \subitem تفرقی مساوات، 347
-\item دوری دباو، 626
-\item دوری سمتیہ، 440
-\item دوری سمتیہ شکل، 440
-\item دوری عرصہ، 424، 853
-\item دوسرا ہارمونی رکن، 854
+   \subitem ادوار، 337
+   \subitem تفرقی مساوات، 337
+\item دوری دباو، 608
+\item دوری سمتیہ، 427
+\item دوری سمتیہ شکل، 427
+\item دوری عرصہ، 412، 827
+\item دوسرا ہارمونی رکن، 828
 \item دوغلائی
-   \subitem قصر دور افزائش رو، 934
-   \subitem قصر دور داخلی رکاوٹ، 934
-   \subitem کھلے سر الٹ افزائش دباو، 934
-   \subitem کھلے سر خارجی فراوانی، 934
-\item دوغلائی نمونہ، 933
+   \subitem قصر دور افزائش رو، 906
+   \subitem قصر دور داخلی رکاوٹ، 906
+   \subitem کھلے سر الٹ افزائش دباو، 906
+   \subitem کھلے سر خارجی فراوانی، 906
+\item دوغلائی نمونہ، 905
 \indexspace
 \item رو
-   \subitem افزائش، 820
-   \subitem بدلتا، 2
-   \subitem تابع منبع، 16
-   \subitem تبادلہ، 593
-   \subitem دائری، 155
-   \subitem قالب، 132
-   \subitem نارٹن، 252
-   \subitem یک سمت، 2
+   \subitem افزائش، 795
+   \subitem بدلتا، 3
+   \subitem تابع منبع، 15
+   \subitem تبادلہ، 577
+   \subitem دائری، 150
+   \subitem قالب، 127
+   \subitem نارٹن، 243
+   \subitem یک سمت، 3
 \item رابطہ
-   \subitem کمزور، 590
-   \subitem مضبوط، 590
+   \subitem کمزور، 573
+   \subitem مضبوط، 573
 \item رد عمل
-   \subitem جبری، 349
-   \subitem فطری، 349
-\item رکاوٹ، 452
-   \subitem تبادلہ، 595
+   \subitem جبری، 339
+   \subitem فطری، 339
+\item رکاوٹ، 439
+   \subitem تبادلہ، 579
 \item رکاوٹ نما
-   \subitem کھلے سر، 929
-\item رکاوٹی نمونہ، 928
-\item ریاضی نمومے، 16
+   \subitem کھلے سر، 901
+\item رکاوٹی نمونہ، 900
+\item ریاضی نمومے، 15
 \indexspace
 \item زاویہ
-   \subitem آگے جزو طاقت، 539
-   \subitem امالی جزو طاقت، 539
-   \subitem برق گیر جزو طاقت، 539
-   \subitem پیچھے جزو طاقت، 539
-\item زاویائی بوڈا خط، 689
-\item زاویائی تعدد، 853
-\item زاویائی خصلت، 681، 733
-\item زاویائی رفتار، 424
-\item زاویائی طرز، 420
-\item زاویائی فرق، 425
-\item زاویائی ہٹاو، 425
-   \subitem طیف، 885
-\item زاویہ جزو طاقت، 538
-\item زمین، 557
-   \subitem برقی، 6
-\item زمینی تار، 557
-\item زندہ تار، 556
-\item زور، 758
+   \subitem آگے جزو طاقت، 524
+   \subitem امالی جزو طاقت، 524
+   \subitem برق گیر جزو طاقت، 524
+   \subitem پیچھے جزو طاقت، 524
+\item زاویائی بوڈا خط، 668
+\item زاویائی تعدد، 827
+\item زاویائی خصلت، 660، 711
+\item زاویائی رفتار، 412
+\item زاویائی طرز، 408
+\item زاویائی فرق، 413
+\item زاویائی ہٹاو، 413
+   \subitem طیف، 858
+\item زاویہ جزو طاقت، 524
+\item زمین، 541
+   \subitem برقی، 5
+\item زمینی تار، 541
+\item زندہ تار، 541
+\item زور، 736
 \item زیادہ دباو
-   \subitem جانب، 595
+   \subitem جانب، 579
 \indexspace
-\item ساکٹ، 557
-\item سائن نما، 423
-   \subitem مقصور، 823، 826
-\item سپیکر، 671
-\item ستارہ-تکون تبادلہ، 89
-\item ستارہ جوڑ، 631
+\item ساکٹ، 541
+\item سائن نما، 411
+   \subitem مقصور، 798
+\item سپیکر، 651
+\item ستارہ-تکون تبادلہ، 85
+\item ستارہ جوڑ، 613
 \item ستارہ ستارہ
-   \subitem تین تار، 633
-   \subitem چار تار، 632
-\item سرد تار، 556
+   \subitem تین تار، 615
+   \subitem چار تار، 613
+\item سرد تار، 541
 \item سطح
-   \subitem مخلوط، 823
+   \subitem مخلوط، 798
 \item سطحی
-   \subitem دور، 155
+   \subitem دور، 150
 \item سکت
-   \subitem طاقت، 79
-\item سمت کار، 398
-   \subitem مکمل لہر، 917
-   \subitem نصف لہر، 917
+   \subitem طاقت، 75
+\item سمت کار، 386
+   \subitem مکمل لہر، 889
+   \subitem نصف لہر، 889
 \item سمت گھڑی، 9
-\item سمعی، 671
-\item سمعی ایمپلیفائر، 671
-\item سوئچ، 352
-   \subitem ایک قطب دو چال، 358
+\item سمعی، 651
+\item سمعی ایمپلیفائر، 651
+\item سوئچ، 341
+   \subitem ایک قطب دو چال، 347
 \item سیڑھی
-   \subitem تفاعل، 754
-\item سیڑھی نما، 298، 309
-\item سیمنز، 37
+   \subitem تفاعل، 732
+\item سیڑھی نما، 288، 299
+\item سیمنز، 35
 \indexspace
-\item شاخ، 43
+\item شاخ، 41، 42
 \indexspace
-\item صفر، 678
+\item صفر، 658
 \indexspace
 \item ضابط
-   \subitem دباو، 16
+   \subitem دباو، 15
 \item ضرب
-   \subitem غیر سمتی، 856
-   \subitem نقطہ، 856
-\item ضیاع، 10
-   \subitem حرارتی، 10
+   \subitem غیر سمتی، 830
+   \subitem نقطہ، 830
+\item ضیاع، 9
+   \subitem حرارتی، 9
 \indexspace
-\item طاقت، 9
-   \subitem تربیعی، 542
-   \subitem جزو، 538
-   \subitem حقیقی، 538
-   \subitem سکت، 79
-   \subitem ظاہری، 538
-   \subitem متعاملی، 542
-   \subitem مخلوط، 541
-\item طاقتی پنیے، 193
-\item طاقتی تکون، 544
-\item طاقتی ضیاع، 10
+\item طاقت، 8
+   \subitem تربیعی، 527
+   \subitem جزو، 524
+   \subitem حقیقی، 524
+   \subitem سکت، 75
+   \subitem ظاہری، 524
+   \subitem متعاملی، 527
+   \subitem مخلوط، 526
+\item طاقتی پنیے، 187
+\item طاقتی تکون، 529
+\item طاقتی ضیاع، 9
 \item طیف
-   \subitem انفرادی لکیری، 885
-   \subitem زاویائی ہٹاو، 885
-   \subitem مقداری، 885
+   \subitem انفرادی لکیری، 858
+   \subitem زاویائی ہٹاو، 858
+   \subitem مقداری، 858
 \indexspace
-\item ظاہری طاقت، 538
+\item ظاہری طاقت، 524
 \indexspace
-\item عارضی حالت، 347
-\item عددی دور، 23
-\item عددی سر، 854
-\item عددی صورت، 671
-\item عددی مواد، 23
-\item عرض پٹی، 708
-\item علامتی قیمت، 81
-\item عمودی، 856
+\item عارضی حالت، 337
+\item عددی دور، 22
+\item عددی سر، 828
+\item عددی صورت، 651
+\item عددی مواد، 22
+\item عرض پٹی، 687
+\item علامتی قیمت، 77
+\item عمودی، 830
 \indexspace
-\item غلاف، 382، 898
-\item غیر تابع منبع دباو، 14
-\item غیر دوری، 893
-\item غیر سمتی، 856
-\item غیر سمتی ضرب، 856
-\item غیر فعال پرزہ، 9، 14
+\item غلاف، 370، 870
+\item غیر تابع منبع دباو، 13
+\item غیر دوری، 865
+\item غیر سمتی، 830
+\item غیر سمتی ضرب، 830
+\item غیر فعال پرزہ، 9، 13
 \item غیر فعال سمت کی ترکیب، 3
-\item غیر متوازن، 214
-\item غیر مطلوب، 298
-\item غیر مقناطیسی قالب، 307
+\item غیر متوازن، 207
+\item غیر مطلوب، 288
+\item غیر مقناطیسی قالب، 297
 \indexspace
-\item فراوانی، 457
-\item فراوانی نمونہ، 924
-\item فطری رد عمل، 349
-\item فعال پرزہ، 9، 14
-\item فعال عرصہ، 406
-\item فلٹر، 307
+\item فراوانی، 444
+\item فراوانی نمونہ، 896
+\item فطری رد عمل، 339
+\item فعال پرزہ، 9، 13
+\item فعال عرصہ، 393
+\item فلٹر، 297
 \item فوریئر
-   \subitem الٹ بدل، 895
-   \subitem بدل، 895
-\item فوریئر بدل، 754، 895
+   \subitem الٹ بدل، 868
+   \subitem بدل، 868
+\item فوریئر بدل، 732، 867
 \item فوریئر تسلسل
-   \subitem تکونیاتی، 854
+   \subitem تکونیاتی، 828
 \indexspace
-\item قابو مساوات، 170
+\item قابو مساوات، 164
 \item قالب
-   \subitem رو، 132
-   \subitem غیر مقناطیسی، 307
-   \subitem مقناطیسی، 307، 571
-   \subitem موصلیت، 131
-\item قالبی مساوات، 124
+   \subitem رو، 127
+   \subitem غیر مقناطیسی، 297
+   \subitem مقناطیسی، 297، 555
+   \subitem موصلیت، 127
+\item قالبی مساوات، 120
 \item قانون
-   \subitem اوہم، 6، 36
-   \subitem  بقا، 12
-\item قانون اوہم، 5، 9
-\item قانون کرخوف، 43
-\item قدر، 210
-\item قدرتی تعدد، 468
-   \subitem بلا تقصیر، 379
+   \subitem اوہم، 6، 34
+   \subitem  بقا، 11
+\item قانون اوہم، 3، 9
+\item قانون کرخوف، 40
+\item قدر، 203
+\item قدرتی تعدد، 454
+   \subitem بلا تقصیر، 368
 \item قصر دور
-   \subitem داخلی فراوانی، 924
-   \subitem فراوانی نما، 924
-\item قصری ارتعاش، 382
-\item قطب، 675، 678
-   \subitem ہم، 769
+   \subitem داخلی فراوانی، 896
+   \subitem فراوانی نما، 896
+\item قصری ارتعاش، 370
+\item قطب، 655، 658
+   \subitem ہم، 747
 \item قوت نمائی
-   \subitem انحطاط، 352
-\item قوی برقیات، 398
+   \subitem انحطاط، 341
+\item قوی برقیات، 386
 \item قیمت
-   \subitem علامتی، 81
+   \subitem علامتی، 77
 \indexspace
-\item لاپلاس بدل، 672، 753
-   \subitem الٹ، 754
-\item لچھا، 307، 571
-\item لوگارتھم، 671
+\item لاپلاس بدل، 653، 731
+   \subitem الٹ، 732
+\item لچھا، 297، 555
+\item لوگارتھم، 651
 \item لوگارتھم لوگارتھم
-   \subitem ترسیم، 671
+   \subitem ترسیم، 651
 \indexspace
-\item ماسفیٹ، 96
-\item متجانس مساوات، 349
-\item متعاملیت، 452
-\item متعاملی طاقت، 542
-\item متغیر مزاحمت، 38
+\item ماسفیٹ، 92
+\item متجانس مساوات، 339
+\item متعاملیت، 439
+\item متعاملی طاقت، 527
+\item متغیر مزاحمت، 36
 \item متناسب وقت
-   \subitem مسئلہ، 765
-\item متوازن، 213
-   \subitem تین دوری نظام، 625
-\item مثبت ایمپلیفائر، 205
-\item مثبت داخلی پنیا، 193
-\item مخصوص حل، 357، 380
-\item مخفی توانائی، 10، 298
+   \subitem مسئلہ، 742
+\item متوازن، 206
+   \subitem تین دوری نظام، 607
+\item مثبت ایمپلیفائر، 198
+\item مثبت داخلی پنیا، 187
+\item مخصوص حل، 347، 369
+\item مخفی توانائی، 9، 288
 \item مخلوط
-   \subitem سطح، 823
-   \subitem عدد، 419
-\item مخلوط تعدد، 753
-\item مخلوط تفاعل، 435
-\item مخلوط دور، 211
-\item مخلوط سطح، 419
-\item مخلوط طاقت، 541
-\item مربوط لچھے، 573
-\item مزاحمت، 36، 452
-   \subitem تھونن، 248
-   \subitem متغیر، 38
+   \subitem سطح، 798
+   \subitem عدد، 407
+\item مخلوط تعدد، 731
+\item مخلوط تفاعل، 423
+\item مخلوط دور، 204
+\item مخلوط سطح، 407
+\item مخلوط طاقت، 526
+\item مربوط لچھے، 557
+\item مزاحمت، 34، 439
+   \subitem تھونن، 239
+   \subitem متغیر، 36
 \item مزاحمت نما
-   \subitem افزائش، 820
-\item مزاحمتی ضیاع، 10
+   \subitem افزائش، 795
+\item مزاحمتی ضیاع، 9
 \item مساوی
-   \subitem دور، 246
+   \subitem دور، 238
 \item مساوات
-   \subitem متجانس، 349
+   \subitem متجانس، 339
 \item مسئلہ
-   \subitem ابتدائی قیمت، 783
-   \subitem اختتامی قیمت، 783
-   \subitem پارسیوال، 902
-   \subitem تبادلہ منبع، 248، 252
-   \subitem ترمیم تعدد، 766
-   \subitem تھونن، 252
-   \subitem متناسب وقت، 765
-   \subitem منتقلی تعدد، 766
-   \subitem منقلی وقت، 765
-   \subitem نارٹن، 251
-   \subitem وقتی الجھاو، 899
-\item مسئلہ تھونن، 248
-\item مسئلہ خطی میل، 235
-\item مسئلہ نارٹن، 248
-\item مستحکم کار، 207
-\item مستطیلی طرز، 419
-\item مشترکہ امالہ، 573
-\item معکوس، 126
-\item معیار، 857
-\item معیاری مستقل، 701
+   \subitem ابتدائی قیمت، 760
+   \subitem اختتامی قیمت، 760
+   \subitem پارسیوال، 874
+   \subitem تبادلہ منبع، 239، 243
+   \subitem ترمیم تعدد، 743
+   \subitem تھونن، 242
+   \subitem متناسب وقت، 742
+   \subitem منتقلی تعدد، 743
+   \subitem منقلی وقت، 743
+   \subitem نارٹن، 242
+   \subitem وقتی الجھاو، 872
+\item مسئلہ تھونن، 239
+\item مسئلہ خطی میل، 226
+\item مسئلہ نارٹن، 239
+\item مستحکم کار، 200
+\item مستطیلی طرز، 407
+\item مشترکہ امالہ، 557
+\item معکوس، 121
+\item معیار، 830
+\item معیاری مستقل، 681
 \item مقداری
-   \subitem طیف، 885
-\item مقداری خصلت، 681، 733
+   \subitem طیف، 858
+\item مقداری خصلت، 660، 711
 \item مقصور
-   \subitem زیادہ، 380، 828
-   \subitem فاصل، 827
-   \subitem کم، 381، 827
-\item مقصور سائن نما، 823، 826
-\item مقطع قالب، 126
+   \subitem زیادہ، 369، 802
+   \subitem فاصل، 802
+   \subitem کم، 369، 802
+\item مقصور سائن نما، 798
+\item مقطع قالب، 121
 \item مقناطیسی
-   \subitem شدت، 593
-\item مقناطیسی بہاو، 571
-\item مقناطیسی قالب، 307
-\item مماثل سے عددی مبادل کار، 759
-\item مماثل صورت، 671
+   \subitem شدت، 577
+\item مقناطیسی بہاو، 555
+\item مقناطیسی قالب، 297
+\item مماثل سے عددی مبادل کار، 737
+\item مماثل صورت، 651
 \item منبع
    \subitem برقی دباو، 9
 \item منبع دباو
-   \subitem تابع، 16
-   \subitem دباو تابع، 97
-   \subitem رو تابع، 99
-   \subitem غیر تابع، 14
+   \subitem تابع، 15
+   \subitem دباو تابع، 93
+   \subitem رو تابع، 96
+   \subitem غیر تابع، 13
 \item منبع رو
-   \subitem تابع، 16
-   \subitem دباو تابع، 99
-   \subitem رو تابع، 98
+   \subitem تابع، 15
+   \subitem دباو تابع، 95
+   \subitem رو تابع، 93
    \subitem غیر تابع، 14
 \item منتقلی تعدد
-   \subitem مسئلہ، 766
-\item منفی ایمپلیفائر، 204
-\item منفی تناسب رو، 935
-\item منفی داخلی سرا، 193
-\item منفی قصر دور رکاوٹ نما، 935
-\item منفی کار، 208
-\item منقطع کار، 557
-   \subitem زمینی نقص، 557
+   \subitem مسئلہ، 743
+\item منفی ایمپلیفائر، 197
+\item منفی تناسب رو، 907
+\item منفی داخلی سرا، 187
+\item منفی قصر دور رکاوٹ نما، 907
+\item منفی کار، 201
+\item منقطع کار، 541
+   \subitem زمینی نقص، 541
 \item منقلی وقت
-   \subitem مسئلہ، 765
+   \subitem مسئلہ، 743
 \item مواد
-   \subitem عددی، 23
-\item موازنہ کار، 214
-\item موثر، 529
+   \subitem عددی، 22
+\item موازنہ کار، 207
+\item موثر، 515
 \item موج
-   \subitem دندان، 862
-   \subitem دوری، 853
-\item موصلیت، 37
-   \subitem قالب، 131
+   \subitem دندان، 836
+   \subitem دوری، 827
+\item موصلیت، 35
+   \subitem قالب، 127
 \item موصلیت نما
-   \subitem افزائش، 820
+   \subitem افزائش، 795
 \item میدان
-   \subitem ثقلی، 8
-\item میٹر، 611
+   \subitem ثقلی، 7، 8
+\item میٹر، 594
 \indexspace
-\item نادر تفاعل، 754
+\item نادر تفاعل، 732
 \item نارٹن
-   \subitem رو، 252
-   \subitem مسئلہ، 251
+   \subitem رو، 243
+   \subitem مسئلہ، 242
 \item نظام اکائی
    \subitem بین الاقوامی، 1
-\item نقطہ ضرب، 856
+\item نقطہ ضرب، 830
 \item نمونہ
-   \subitem ترسیلی، 935
-   \subitem حسابی ایمپلیفائر، 194
-   \subitem دوغلائی، 933
-   \subitem رکاوٹی، 928
-   \subitem ریاضی، 16
-   \subitem فراوانی، 924
+   \subitem ترسیلی، 907
+   \subitem حسابی ایمپلیفائر، 188
+   \subitem دوغلائی، 905
+   \subitem رکاوٹی، 900
+   \subitem ریاضی، 15
+   \subitem فراوانی، 896
 \item نمونہ بندی
-   \subitem خاصیت، 759، 898
+   \subitem خاصیت، 736، 871
 \item نی کوسٹ
-   \subitem اصول، 759
+   \subitem اصول، 737
 \item نیم لوگارتھم
-   \subitem ترسیم، 671
+   \subitem ترسیم، 651
 \indexspace
-\item واٹ، 9
-\item واپڈا، 556
+\item واٹ، 8
+\item واپڈا، 539
 \item وقتی الجھاو
-   \subitem مسئلہ، 899
-\item وقتی دائرہ کار، 441
-\item وقتی مستقل، 351، 733
-\item وولٹ ایمپیئر، 538
+   \subitem مسئلہ، 872
+\item وقتی دائرہ کار، 428
+\item وقتی مستقل، 340، 711
+\item وولٹ ایمپیئر، 524
 \indexspace
-\item ْقصر دور، 39
+\item ْقصر دور، 36
 \indexspace
-\item ٹرانزسٹر، 211
-   \subitem دو جوڑ، 16، 96
-   \subitem میدانی، 16، 96
-\item ٹرانسفارمر، 307
-   \subitem دباو بڑھاتا، 652
-   \subitem دباو گھٹاتا، 652
-\item ٹھنڈی تار، 556، 634
-\item ٹیلی ویژن، 635
-\item ٹیلیویژن، 402
+\item ٹرانزسٹر، 204
+   \subitem دو جوڑ، 15، 92
+   \subitem میدانی، 15، 92
+\item ٹرانسفارمر، 297
+   \subitem دباو بڑھاتا، 633
+   \subitem دباو گھٹاتا، 633
+\item ٹھنڈی تار، 541، 616
+\item ٹیلی ویژن، 617
+\item ٹیلیویژن، 390
 \indexspace
 \item پرزہ
    \subitem عامل، 9
    \subitem غیر فعال، 9
-\item پست انقطاعی تعدد، 676
-\item پست گزار چھلنی، 731
+\item پست انقطاعی تعدد، 656
+\item پست گزار چھلنی، 709
 \item پنیا
-   \subitem طاقتی، 193
-   \subitem مثبت داخلی، 193
-   \subitem منفی داخلی، 193
+   \subitem طاقتی، 187
+   \subitem مثبت داخلی، 187
+   \subitem منفی داخلی، 187
 \item پٹی
-   \subitem تین ڈیسی بیل، 708
-\item پٹی روک چھلنی، 731
-\item پٹی گزار چھلنی، 706، 731
+   \subitem تین ڈیسی بیل، 687
+\item پٹی روک چھلنی، 709
+\item پٹی گزار چھلنی، 685، 709
 \item پھاٹک
-   \subitem خارجی، 23
-   \subitem داخلی، 23
+   \subitem خارجی، 22
+   \subitem داخلی، 22
    \subitem عمومی سلسلہ وار، 22
-\item پیچھے، 427
-   \subitem زاویہ جزو طاقت، 539
-\item پیچھے زاویہ جزو طاقت، 539
+\item پیچھے، 413
+   \subitem زاویہ جزو طاقت، 524
+\item پیچھے زاویہ جزو طاقت، 524
 \indexspace
 \item چار تار
-   \subitem ستارہ ستارہ، 632
-\item چھلنی، 731
-   \subitem بلند گزار، 731
-   \subitem پٹی روک، 731
-   \subitem پٹی گزار، 731
-   \subitem پست گزار، 731
-   \subitem دندانہ، 737
+   \subitem ستارہ ستارہ، 613
+\item چھلنی، 709
+   \subitem بلند گزار، 709
+   \subitem پٹی روک، 709
+   \subitem پٹی گزار، 709
+   \subitem پست گزار، 709
+   \subitem دندانہ، 714
 \indexspace
-\item ڈبہ دور، 923
-\item ڈھلوان، 35
-\item ڈیسی بیل، 681
+\item ڈبہ دور، 895
+\item ڈھلوان، 33
+\item ڈیسی بیل، 660
 \indexspace
-\item کارتیسی محدد، 35، 423
-\item کامل حسابی ایمپلیفائر، 202
+\item کارتیسی محدد، 33، 411
+\item کامل حسابی ایمپلیفائر، 196
 \item کرخوف
-   \subitem قانون دباو، 51
-   \subitem قانون رو، 44
-\item کلو واٹ گھنٹہ، 559
+   \subitem قانون دباو، 49
+   \subitem قانون رو، 42
+\item کلو واٹ گھنٹہ، 543
 \item کم دباو
-   \subitem جانب، 595
-\item کمپیوٹر، 22، 402، 635
+   \subitem جانب، 579
+\item کمپیوٹر، 22، 390، 617
 \item کولمب، 2
-\item کھلا تکون، 639
-\item کھلا دور، 39
+\item کھلا تکون، 620
+\item کھلا دور، 37
 \item کھلے سر
-   \subitem خارجی رکاوٹ، 929
-   \subitem داخلی رکاوٹ، 929
-   \subitem رکاوٹ نما، 929
-\item کھلے سر تناسب دباو، 935
-\item کھلے سر فراوانی نما، 935
+   \subitem خارجی رکاوٹ، 901
+   \subitem داخلی رکاوٹ، 901
+   \subitem رکاوٹ نما، 901
+\item کھلے سر تناسب دباو، 907
+\item کھلے سر فراوانی نما، 907
 \indexspace
-\item گرم تار، 556
-\item گمک، 699
-\item گمکی تعدد، 699
-\item گمکی دور، 699
+\item گرم تار، 541
+\item گمک، 677
+\item گمکی تعدد، 679
+\item گمکی دور، 679
 \item گنجائش
-   \subitem برقی، 295، 296
-\item گھمکی تعدد، 468
+   \subitem برقی، 285، 286
+\item گھمکی تعدد، 454
 \indexspace
 \item ہارمونی
-   \subitem بنیادی رکن، 854
-   \subitem دوسرا رکن، 854
-\item ہرٹز، 424، 853
-\item ہم زاویہ، 427
-\item ہم قطب، 769
-\item ہمزاد مساوات، 45
-\item ہمسر ایمپلیفائر، 726
-\item ہیجان انگیز رو، 609
-\item ہینری، 307
+   \subitem بنیادی رکن، 828
+   \subitem دوسرا رکن، 828
+\item ہرٹز، 412، 827
+\item ہم زاویہ، 415
+\item ہم قطب، 747
+\item ہمزاد مساوات، 43
+\item ہمسر ایمپلیفائر، 704
+\item ہیجان انگیز رو، 592
+\item ہینری، 297
 \indexspace
 \item یو-ایس-بی، 22
-\item یولر مساوات، 423، 435
+\item یولر مساوات، 411، 423
 \item یک رتبی
-   \subitem تفرقی مساوات، 347
-\item یک رتبی ادوار، 347
-\item یک سمت رو، 2، 398
+   \subitem تفرقی مساوات، 337
+\item یک رتبی ادوار، 337
+\item یک سمت رو، 3، 386
 
 \end{theindex}
