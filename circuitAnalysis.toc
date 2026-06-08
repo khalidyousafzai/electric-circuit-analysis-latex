@@ -4,11 +4,11 @@
 \contentsline {chapter}{میری پہلی کتاب کا دیباچہ}{xi}{}%
 \contentsline {chapter}{\numberline {\farsidigits {1}}بنیاد}{\farsidigits {1}}{}%
 \contentsline {section}{\numberline {\farsidigits {1}.\farsidigits {1}}برقی بار، برقی رو اور برقی دباو}{\farsidigits {1}}{}%
-\contentsline {section}{\numberline {\farsidigits {1}.\farsidigits {2}}قانونِ اوہم}{\farsidigits {6}}{}%
+\contentsline {section}{\numberline {\farsidigits {1}.\farsidigits {2}}قانونِ اوہم}{\farsidigits {5}}{}%
 \contentsline {section}{\numberline {\farsidigits {1}.\farsidigits {3}}توانائی اور طاقت}{\farsidigits {7}}{}%
-\contentsline {section}{\numberline {\farsidigits {1}.\farsidigits {4}}برقی پرزے}{\farsidigits {13}}{}%
+\contentsline {section}{\numberline {\farsidigits {1}.\farsidigits {4}}برقی پرزے}{\farsidigits {12}}{}%
 \contentsline {subsection}{\numberline {\farsidigits {1}.\farsidigits {4}.\farsidigits {1}}غیر تابع منبع}{\farsidigits {13}}{}%
-\contentsline {subsection}{\numberline {\farsidigits {1}.\farsidigits {4}.\farsidigits {2}}تابع منبع}{\farsidigits {15}}{}%
+\contentsline {subsection}{\numberline {\farsidigits {1}.\farsidigits {4}.\farsidigits {2}}تابع منبع}{\farsidigits {14}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {2}}مزاحمتی ادوار}{\farsidigits {33}}{}%
 \contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {1}}قانون اوہم}{\farsidigits {33}}{}%
 \contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {2}}قوانین کرخوف}{\farsidigits {40}}{}%

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  4 JUN 2026 14:19
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  8 JUN 2026 19:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1371,28 +1371,28 @@ Package siunitx Warning: Option "math-degree" has been removed in this
 (./tex/cktTwoPortNetworks.aux))
 \openout1 = `circuitAnalysis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 166.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 167.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-66.
+67.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
@@ -1404,7 +1404,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 
-Package chemgreek Info: Activating mapping `fontspec' on line 166.
+Package chemgreek Info: Activating mapping `fontspec' on line 167.
 
 
 *geometry* driver: auto-detecting
@@ -1472,50 +1472,50 @@ xt;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 166.
+(Font)              scaled to size 10.0pt on input line 167.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 174.
+(Font)              scaled to size 17.28pt on input line 175.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 174.
+(Font)              scaled to size 12.0pt on input line 175.
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 1
-74.
+75.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-174.
+175.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-174.
+175.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-174.
+175.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-174.
+175.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 17
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 174.
+(Font)              scaled to size 9.0pt on input line 175.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 174.
+(Font)              scaled to size 12.0pt on input line 175.
 
 Missing character: There is no ؍ (U+060D) in font Jameel Noori Nastaleeq/OT:scr
 ipt=arab;language=dflt;mapping=tex-text;!
@@ -1527,19 +1527,19 @@ ipt=arab;language=dflt;mapping=tex-text;!
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/sl' in size <10> n
 ot available
 (Font)              Font shape `TU/JameelNooriNastaleeq(2)/m/it' tried instead 
-on input line 176.
+on input line 177.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 176.
+(Font)              scaled to size 10.0pt on input line 177.
  [2
 
 ]
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 176.
+(Font)              scaled to size 24.88pt on input line 177.
 
 
 LaTeX Font Warning: Font shape `TU/JameelNooriNastaleeq(2)/b/n' undefined
 (Font)              using `TU/JameelNooriNastaleeq(2)/m/n' instead on input lin
-e 176.
+e 177.
 
 (./circuitAnalysis.toc
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/b/n' will be
@@ -1814,18 +1814,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--13
 []\TU/JameelNooriNastaleeq(2)/b/n/10 اس کتاب میں \TU/AASameerSagarNastaleeqBold
 (0)/m/n/10 برقی بار[][] \TU/JameelNooriNastaleeq(2)/b/n/10 اور \TU/AASameerSaga
 rNastaleeqBold(0)/m/n/10 برقی رو[][]  \TU/JameelNooriNastaleeq(2)/b/n/10 کلیدی 
-کردار ادا کریں گے۔ برقی بار کی اصطلاح کو چھوٹا کر کے صرف \TU/AASameerSagarNasta
-leeqBold(0)/m/n/10 برق \TU/JameelNooriNastaleeq(2)/b/n/10 یا صرف \TU/AASameerSa
-garNastaleeqBold(0)/m/n/10 بار \TU/JameelNooriNastaleeq(2)/b/n/10 کی اصطلاح است
-عمال کی جائے گی[]
+کردار ادا کریں گے۔ برقی بار کی اصطلاح چھوٹی کر کے صرف \TU/AASameerSagarNastalee
+qBold(0)/m/n/10 برق \TU/JameelNooriNastaleeq(2)/b/n/10 یا صرف \TU/AASameerSagar
+NastaleeqBold(0)/m/n/10 بار \TU/JameelNooriNastaleeq(2)/b/n/10 کی اصطلاح استعما
+ل کی جائے گی[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--13
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 جبکہ برقی رو کی اصطلاح کو چھوٹا کر کے \TU/
-AASameerSagarNastaleeqBold(0)/m/n/10 رو \TU/JameelNooriNastaleeq(2)/b/n/10 کی ا
-صطلاح استعمال کی جائے گی۔برقی بار کی حرکت کو برقی رو کہتے ہیں۔چونکہ بار کی حرکت
- سے توانائی ایک مقام سے[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 جبکہ برقی رو کی اصطلاح چھوٹی کر کے \TU/AAS
+ameerSagarNastaleeqBold(0)/m/n/10 رو \TU/JameelNooriNastaleeq(2)/b/n/10 کی اصطل
+اح استعمال کی جائے گی۔برقی بار کی حرکت کو برقی رو کہتے ہیں۔چونکہ بار کی حرکت سے
+ توانائی ایک مقام سے[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 14.
@@ -1859,6 +1859,23 @@ LaTeX Info: Redefining \ttfamily on input line 16.
 LaTeX Info: Redefining \rmfamily on input line 20.
 LaTeX Info: Redefining \sffamily on input line 20.
 LaTeX Info: Redefining \ttfamily on input line 20.
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 لکھا جا سکتا ہے جہاں برقی بار کو $\OML/zpl
+m/m/it/10 q$ \TU/JameelNooriNastaleeq(2)/b/n/10 سے ظاہر کیا گیا ہے اور برقی رو 
+کو $\OML/zplm/m/it/10 i$ \TU/JameelNooriNastaleeq(2)/b/n/10 سے ظاہر کیا گیا ہے۔
+بدلتی رو متغیرات کو انگریزی کے چھوٹے حروف تہجی مثلاً $\OML/zplm/m/it/10 i$ \TU/
+JameelNooriNastaleeq(2)/b/n/10 یا $\OML/zplm/m/it/10 q$[]
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 23--25
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 سے ظاہر کیا جاتا ہے جبکہ غیر متغیر مقدار ک
+و انگریزی کے بڑے حروف تہجی سے ظاہر کیا جاتا ہے۔یوں غیر متغیر رو کو $\OML/zplm/m
+/it/10 I$ \TU/JameelNooriNastaleeq(2)/b/n/10 اور غیر متغیر بار کو $\OML/zplm/m/
+it/10 Q$ \TU/JameelNooriNastaleeq(2)/b/n/10 سے ظاہر کیا جائے[]
+ []
+
 LaTeX Info: Redefining \rmfamily on input line 26.
 LaTeX Info: Redefining \sffamily on input line 26.
 LaTeX Info: Redefining \ttfamily on input line 26.
@@ -1913,7 +1930,14 @@ LaTeX Info: Redefining \ttfamily on input line 61.
 File: ./fig/figBasicConcepts/figBasicCurrentAndDirection.pdf Graphic file (type
  pdf)
 <use ./fig/figBasicConcepts/figBasicCurrentAndDirection.pdf>
-[2]
+
+Underfull \hbox (badness 7133) in paragraph at lines 61--68
+[][]\TU/JameelNooriNastaleeq(2)/b/n/10 غیر متغیر برقی رو کو \TU/AASameerSagarNa
+staleeqBold(0)/m/n/10 یک سمت رو[][] \TU/JameelNooriNastaleeq(2)/b/n/10 کہتے ہیں
+۔یک سمت رو کی مقدار وقت کے ساتھ تبدیل نہیں ہوتی۔وقت کے ساتھ تبدیل ہوتی برقی رو 
+کو \TU/AASameerSagarNastaleeqBold(0)/m/n/10 بدلتی رو[][][]
+ []
+
 LaTeX Info: Redefining \rmfamily on input line 69.
 LaTeX Info: Redefining \sffamily on input line 69.
 LaTeX Info: Redefining \ttfamily on input line 69.
@@ -2007,6 +2031,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
 ست سمتوں کا کوئی[]
  []
 
+[2] [3]
 LaTeX Info: Redefining \rmfamily on input line 90.
 LaTeX Info: Redefining \sffamily on input line 90.
 LaTeX Info: Redefining \ttfamily on input line 90.
@@ -2037,7 +2062,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--97
 لق اونچائی کوئی معنی نہیں[]
  []
 
-[3] [4]
 LaTeX Info: Redefining \rmfamily on input line 98.
 LaTeX Info: Redefining \sffamily on input line 98.
 LaTeX Info: Redefining \ttfamily on input line 98.
@@ -2097,10 +2121,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--109
 رابر لیا جاتا ہے۔جب کسی نقطے کے[]
  []
 
+[4]
 LaTeX Info: Redefining \rmfamily on input line 110.
 LaTeX Info: Redefining \sffamily on input line 110.
 LaTeX Info: Redefining \ttfamily on input line 110.
-[5]
 LaTeX Info: Redefining \rmfamily on input line 114.
 LaTeX Info: Redefining \sffamily on input line 114.
 LaTeX Info: Redefining \ttfamily on input line 114.
@@ -2136,6 +2160,7 @@ m/n/10 ^^@\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(2)/b/n/10 کی علامت
  ظاہر کی جاتی ہے۔یوں غیر فعال سمت کی ترکیب[]
  []
 
+[5]
 File: ./fig/figBasicConcepts/figBasicOhmLawExamples.pdf Graphic file (type pdf)
 
 <use ./fig/figBasicConcepts/figBasicOhmLawExamples.pdf>
@@ -2158,7 +2183,6 @@ V[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 کی قیمت منفی حاصل ہوئی
  حقیقت میں مزاحمت پر برقی دباو چنی گئی سمت کے الٹ ہے۔اسی طرح رو[]
  []
 
-[6]
 LaTeX Info: Redefining \rmfamily on input line 142.
 LaTeX Info: Redefining \sffamily on input line 142.
 LaTeX Info: Redefining \ttfamily on input line 142.
@@ -2170,13 +2194,14 @@ LaTeX Info: Redefining \ttfamily on input line 156.
 LaTeX Info: Redefining \rmfamily on input line 156.
 LaTeX Info: Redefining \sffamily on input line 156.
 LaTeX Info: Redefining \ttfamily on input line 156.
- [7]
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 159--162
 []\TU/JameelNooriNastaleeq(2)/b/n/10 توانائی درکار ہے۔برقی میدان میں ابتدائی نق
 طے سے اختتامی نقطے تک اکائی برقی بار منتقل کرنے کے لئے درکار توانائی کو ابتدائی
  نقطے کے حوالے سے اختتامی نقطے کا[]
  []
 
+[7]
 LaTeX Info: Redefining \rmfamily on input line 177.
 LaTeX Info: Redefining \sffamily on input line 177.
 LaTeX Info: Redefining \ttfamily on input line 177.
@@ -2209,7 +2234,6 @@ ameerSagarNastaleeqBold(0)/m/n/10 واٹ[][] $\OT1/ppl/m/n/10 W$ \TU/JameelNoori
 staleeq(2)/b/n/10 ہے۔مندرجہ بالا مساوات کی تکملہ[]
  []
 
-[8]
 LaTeX Info: Redefining \rmfamily on input line 196.
 LaTeX Info: Redefining \sffamily on input line 196.
 LaTeX Info: Redefining \ttfamily on input line 196.
@@ -2296,9 +2320,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 198--205
 TU/AASameerSagarNastaleeqBold(0)/m/n/10 مخفی[]
  []
 
+[8]
 LaTeX Info: Redefining \rmfamily on input line 206.
 LaTeX Info: Redefining \sffamily on input line 206.
 LaTeX Info: Redefining \ttfamily on input line 206.
+
 Missing character: There is no ا ("627) in font zplmr7m!
 Missing character: There is no ل ("644) in font zplmr7m!
 Missing character: There is no ف ("641) in font zplmr7m!
@@ -2310,7 +2336,6 @@ lNooriNastaleeq(2)/b/n/10 اور مزاحمت کے دباو کو $\OML/zplm/m/it
 meelNooriNastaleeq(2)/b/n/10 چننے کے بعد ان دباو کے مثبت سر[]
  []
 
-[9]
 LaTeX Info: Redefining \rmfamily on input line 213.
 LaTeX Info: Redefining \sffamily on input line 213.
 LaTeX Info: Redefining \ttfamily on input line 213.
@@ -2328,6 +2353,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 217--219
 LaTeX Info: Redefining \rmfamily on input line 220.
 LaTeX Info: Redefining \sffamily on input line 220.
 LaTeX Info: Redefining \ttfamily on input line 220.
+[9]
 LaTeX Info: Redefining \rmfamily on input line 236.
 LaTeX Info: Redefining \sffamily on input line 236.
 LaTeX Info: Redefining \ttfamily on input line 236.
@@ -2372,20 +2398,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 245--246
 رزے کی طاقت[]
  []
 
-[10]
+
 Underfull \hbox (badness 10000) in paragraph at lines 247--248
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 شکل-ب میں رو نچلی تار میں دائیں سے بائیں
  طرف رواں ہے۔یوں بیرونی پرزے کے مثبت سرے سے رو خارج ہوتی ہے جبکہ بقایا دور کے م
 ثبت سرے میں رو[]
  []
 
+[10]
 LaTeX Info: Redefining \rmfamily on input line 252.
 LaTeX Info: Redefining \sffamily on input line 252.
 LaTeX Info: Redefining \ttfamily on input line 252.
 File: ./fig/figBasicConcepts/figBasicPassiveSignQuiz.pdf Graphic file (type pdf
 )
 <use ./fig/figBasicConcepts/figBasicPassiveSignQuiz.pdf>
-[11]
 LaTeX Info: Redefining \rmfamily on input line 265.
 LaTeX Info: Redefining \sffamily on input line 265.
 LaTeX Info: Redefining \ttfamily on input line 265.
@@ -2398,7 +2424,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 273--274
 ی دور میں گھڑی کے[]
  []
 
-
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 275--276
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 شکل-ب میں بیرونی پرزے کی طاقت مثبت ہے لہ
 ٰذا اس میں طاقت کا ضیاع ہو گا اور برقی رو مثبت سرے سے پرزے میں داخل ہو گی۔دور م
@@ -2437,10 +2463,7 @@ Underfull \hbox (badness 6725) in paragraph at lines 295--296
 الے پرزوں کو \TU/AASameerSagarNastaleeqBold(0)/m/n/10 غیر[]
  []
 
-
-Underfull \vbox (badness 2073) has occurred while \output is active []
-
- [12]
+[12]
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/b/n' will be
 (Font)              scaled to size 12.0pt on input line 299.
 LaTeX Info: Redefining \rmfamily on input line 300.
@@ -2494,7 +2517,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 309--316
  کوئی اثر نہیں پایا جاتا۔منبع رو میں مثبت رو[]
  []
 
-[13]
 LaTeX Info: Redefining \rmfamily on input line 317.
 LaTeX Info: Redefining \sffamily on input line 317.
 LaTeX Info: Redefining \ttfamily on input line 317.
@@ -2505,6 +2527,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 319--320
  دباو برقرار رکھے گا، حقیقت میں[]
  []
 
+[13]
 LaTeX Info: Redefining \rmfamily on input line 323.
 LaTeX Info: Redefining \sffamily on input line 323.
 LaTeX Info: Redefining \ttfamily on input line 323.
@@ -2521,7 +2544,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 341--342
 ں داخل ہوتی ہے لہٰذا ان[]
  []
 
-[14]
 LaTeX Info: Redefining \rmfamily on input line 345.
 LaTeX Info: Redefining \sffamily on input line 345.
 LaTeX Info: Redefining \ttfamily on input line 345.
@@ -2565,6 +2587,7 @@ staleeqBold(0)/m/n/10 ریاضی نمونے[][] \TU/JameelNooriNastaleeq(2)/b/n/
 اضی نمونوں کی مدد سے[]
  []
 
+[14]
 File: ./fig/figBasicConcepts/figBasicDependentVoltageSource.pdf Graphic file (t
 ype pdf)
 <use ./fig/figBasicConcepts/figBasicDependentVoltageSource.pdf>
@@ -2661,7 +2684,6 @@ eeqBold(0)/m/n/10 افزائش دباو[][] $\OT1/ppl/m/n/10 7$ \TU/JameelNooriN
 2)/b/n/10 ہے۔اسی طرح[]
  []
 
-[16]
 LaTeX Info: Redefining \rmfamily on input line 410.
 LaTeX Info: Redefining \sffamily on input line 410.
 LaTeX Info: Redefining \ttfamily on input line 410.
@@ -2697,6 +2719,7 @@ phic file (type pdf)
 File: ./fig/figBasicConcepts/figBasicDependentCurrentSourceExamplePower.pdf Gra
 phic file (type pdf)
 <use ./fig/figBasicConcepts/figBasicDependentCurrentSourceExamplePower.pdf>
+[16]
 LaTeX Info: Redefining \rmfamily on input line 438.
 LaTeX Info: Redefining \sffamily on input line 438.
 LaTeX Info: Redefining \ttfamily on input line 438.
@@ -2709,7 +2732,7 @@ LaTeX Info: Redefining \ttfamily on input line 443.
 LaTeX Info: Redefining \rmfamily on input line 443.
 LaTeX Info: Redefining \sffamily on input line 443.
 LaTeX Info: Redefining \ttfamily on input line 443.
-[17]
+ [17]
 LaTeX Info: Redefining \rmfamily on input line 453.
 LaTeX Info: Redefining \sffamily on input line 453.
 LaTeX Info: Redefining \ttfamily on input line 453.
@@ -2762,20 +2785,19 @@ LaTeX Info: Redefining \ttfamily on input line 507.
 LaTeX Info: Redefining \rmfamily on input line 507.
 LaTeX Info: Redefining \sffamily on input line 507.
 LaTeX Info: Redefining \ttfamily on input line 507.
+LaTeX Info: Redefining \rmfamily on input line 515.
+LaTeX Info: Redefining \sffamily on input line 515.
+LaTeX Info: Redefining \ttfamily on input line 515.
+LaTeX Info: Redefining \rmfamily on input line 515.
+LaTeX Info: Redefining \sffamily on input line 515.
+LaTeX Info: Redefining \ttfamily on input line 515.
  [20]
-LaTeX Info: Redefining \rmfamily on input line 515.
-LaTeX Info: Redefining \sffamily on input line 515.
-LaTeX Info: Redefining \ttfamily on input line 515.
-LaTeX Info: Redefining \rmfamily on input line 515.
-LaTeX Info: Redefining \sffamily on input line 515.
-LaTeX Info: Redefining \ttfamily on input line 515.
 File: ./fig/figBasicConcepts/figBasicPowerSuppliedToBox.pdf Graphic file (type 
 pdf)
 <use ./fig/figBasicConcepts/figBasicPowerSuppliedToBox.pdf>
 LaTeX Info: Redefining \rmfamily on input line 534.
 LaTeX Info: Redefining \sffamily on input line 534.
 LaTeX Info: Redefining \ttfamily on input line 534.
- [21]
 LaTeX Info: Redefining \rmfamily on input line 538.
 LaTeX Info: Redefining \sffamily on input line 538.
 LaTeX Info: Redefining \ttfamily on input line 538.
@@ -2835,6 +2857,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 537--539
 10 100 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 برقی رو فراہم کر سکتا ہے[]
  []
 
+
+Underfull \vbox (badness 4899) has occurred while \output is active []
+
+ [21]
 LaTeX Info: Redefining \rmfamily on input line 540.
 LaTeX Info: Redefining \sffamily on input line 540.
 LaTeX Info: Redefining \ttfamily on input line 540.
@@ -2873,6 +2899,7 @@ LaTeX Info: Redefining \ttfamily on input line 613.
 LaTeX Info: Redefining \rmfamily on input line 613.
 LaTeX Info: Redefining \sffamily on input line 613.
 LaTeX Info: Redefining \ttfamily on input line 613.
+[23]
 LaTeX Info: Redefining \rmfamily on input line 627.
 LaTeX Info: Redefining \sffamily on input line 627.
 LaTeX Info: Redefining \ttfamily on input line 627.
@@ -2907,7 +2934,6 @@ T1/ppl/m/n/10 6 V$ \TU/JameelNooriNastaleeq(2)/b/n/10 دباو پایا جاتا
 سیکنڈ[]
  []
 
-[23] [24]
 LaTeX Info: Redefining \rmfamily on input line 674.
 LaTeX Info: Redefining \sffamily on input line 674.
 LaTeX Info: Redefining \ttfamily on input line 674.
@@ -2945,6 +2971,7 @@ LaTeX Info: Redefining \ttfamily on input line 752.
 LaTeX Info: Redefining \rmfamily on input line 752.
 LaTeX Info: Redefining \sffamily on input line 752.
 LaTeX Info: Redefining \ttfamily on input line 752.
+[24] [25]
 LaTeX Info: Redefining \rmfamily on input line 760.
 LaTeX Info: Redefining \sffamily on input line 760.
 LaTeX Info: Redefining \ttfamily on input line 760.
@@ -2985,7 +3012,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 785--811
  اور $\OML/zplm/m/it/10 I[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 دریافت[]
  []
 
-[25] [26]
 LaTeX Info: Redefining \rmfamily on input line 816.
 LaTeX Info: Redefining \sffamily on input line 816.
 LaTeX Info: Redefining \ttfamily on input line 816.
@@ -3024,6 +3050,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 843--869
 /n/10 ہے۔پرزہ الف کی طاقت دریافت کریں۔کیا[]
  []
 
+[26] [27]
 LaTeX Info: Redefining \rmfamily on input line 874.
 LaTeX Info: Redefining \sffamily on input line 874.
 LaTeX Info: Redefining \ttfamily on input line 874.
@@ -3052,7 +3079,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 899--925
  W$[]
  []
 
-[27] [28]
+
 Underfull \hbox (badness 10000) in paragraph at lines 926--927
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 جوابات:پرزہ الف کے دائیں سر سے $\OT1/ppl
 /m/n/10 2 A$ \TU/JameelNooriNastaleeq(2)/b/n/10 نکل کر $\OT1/ppl/m/n/10 10 V$ \
@@ -3096,6 +3123,7 @@ LaTeX Info: Redefining \ttfamily on input line 970.
 LaTeX Info: Redefining \rmfamily on input line 970.
 LaTeX Info: Redefining \sffamily on input line 970.
 LaTeX Info: Redefining \ttfamily on input line 970.
+[28] [29]
 LaTeX Info: Redefining \rmfamily on input line 978.
 LaTeX Info: Redefining \sffamily on input line 978.
 LaTeX Info: Redefining \ttfamily on input line 978.
@@ -3107,7 +3135,6 @@ LaTeX Info: Redefining \ttfamily on input line 986.
 LaTeX Info: Redefining \rmfamily on input line 986.
 LaTeX Info: Redefining \sffamily on input line 986.
 LaTeX Info: Redefining \ttfamily on input line 986.
-[29] [30]
 LaTeX Info: Redefining \rmfamily on input line 994.
 LaTeX Info: Redefining \sffamily on input line 994.
 LaTeX Info: Redefining \ttfamily on input line 994.
@@ -3146,10 +3173,15 @@ LaTeX Info: Redefining \ttfamily on input line 1068.
 LaTeX Info: Redefining \rmfamily on input line 1068.
 LaTeX Info: Redefining \sffamily on input line 1068.
 LaTeX Info: Redefining \ttfamily on input line 1068.
-) [31] [32]
+) [30] [31]
 \openout2 = `./tex/cktResistive.aux'.
 
- (./tex/cktResistive.tex
+ (./tex/cktResistive.tex [32
+
+
+
+
+]
 باب \farsidigits{2}.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
@@ -3198,12 +3230,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
  کے ساتھ موازنہ کرتے[]
  []
 
-[33
-
-
-
-
-]
+[33]
 LaTeX Info: Redefining \rmfamily on input line 28.
 LaTeX Info: Redefining \sffamily on input line 28.
 LaTeX Info: Redefining \ttfamily on input line 28.
@@ -25666,10 +25693,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 220353 strings out of 474878
- 6975747 string characters out of 9512517
- 6138314 words of memory out of 7000000
- 241428 multiletter control sequences out of 15000+600000
+ 219199 strings out of 474878
+ 6938266 string characters out of 9512517
+ 6113921 words of memory out of 7000000
+ 240274 multiletter control sequences out of 15000+600000
  595205 words of font info for 173 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  117i,21n,375p,2073b,2972s stack positions out of 10000i,1000n,20000p,200000b,200000s
