@@ -52,7 +52,7 @@
 \contentsline {section}{\numberline {\farsidigits {5}.\farsidigits {5}}مسئلہ تھونن، مسئلہ نارٹن اور مسئلہ تبادلہ منبع}{\farsidigits {238}}{}%
 \contentsline {section}{\numberline {\farsidigits {5}.\farsidigits {6}}تابع منبع استعمال کرنے والے ادوار}{\farsidigits {256}}{}%
 \contentsline {section}{\numberline {\farsidigits {5}.\farsidigits {7}}تابع منبع اور غیر تابع منبع دونوں استعمال کرنے والے ادوار}{\farsidigits {260}}{}%
-\contentsline {section}{\numberline {\farsidigits {5}.\farsidigits {8}}زیادہ سے زیادہ طاقت منتقل کرنے کا مسئلہ}{\farsidigits {266}}{}%
+\contentsline {section}{\numberline {\farsidigits {5}.\farsidigits {8}}زیادہ سے زیادہ طاقت منتقل کرنے کا مسئلہ}{\farsidigits {267}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {6}}برق گیر اور امالہ گیر}{\farsidigits {285}}{}%
 \contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {1}}برق گیر}{\farsidigits {285}}{}%
 \contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {2}}امالہ گیر}{\farsidigits {297}}{}%
