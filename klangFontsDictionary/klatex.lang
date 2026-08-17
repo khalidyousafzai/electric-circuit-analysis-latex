@@ -310,10 +310,12 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
   	     <keyword>منفی</keyword>
   	     <keyword>مبش</keyword>
   	     <keyword>مبشق</keyword>
+  	     <keyword>خاص</keyword>
   
         </context>
 
     <context id="kMas" style-ref="kMasculine">
+<keyword>مذکر</keyword>
 <keyword>آخر</keyword>
 <keyword>پٹھا</keyword>
 <keyword>پٹھے</keyword>
@@ -376,6 +378,7 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 <keyword>فاصلوں</keyword>
 <keyword>فاصل</keyword>
 <keyword>قدم</keyword>
+<keyword>قدموں</keyword>
 <keyword>قطر</keyword>
 <keyword>کام</keyword>
 <keyword>کاموں</keyword>
@@ -453,6 +456,7 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 <keyword>دانت</keyword>
 <keyword>سمتکار</keyword>
 <keyword>میدان</keyword>
+<keyword>میدانوں</keyword>
 <keyword>رکن</keyword>
 <keyword>ارکان</keyword>
 <keyword>اصول</keyword>
@@ -708,6 +712,8 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 <keyword>ترک</keyword>
 <keyword>محکمہ</keyword>
 <keyword>تجربہ</keyword>
+<keyword>تجربے</keyword>
+<keyword>تجربوں.</keyword>
 <keyword>اتفاق</keyword>
 <keyword>پہلو</keyword>
 <keyword>دھماکہ</keyword>
@@ -758,6 +764,7 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 <keyword>ضیاع</keyword>
 <keyword>اطراف</keyword>
 <keyword>جھٹکا</keyword>
+<keyword>جھٹکے</keyword>
 <keyword>ایندھن</keyword>
 <keyword>ثبوت</keyword>
 <keyword>قطع</keyword>
@@ -804,6 +811,7 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 <keyword>پیر</keyword>
 <keyword>غبارہ</keyword>
 <keyword>قرص</keyword>
+<keyword>اقراس</keyword>
 <keyword>دھنس</keyword>
 <keyword>لکڑ</keyword>
 <keyword>تختہ</keyword>
@@ -1172,6 +1180,7 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 <keyword>ضلعوں</keyword>
 <keyword>ضلعے</keyword>
 <keyword>تماثل</keyword>
+<keyword>اول</keyword>
 <keyword>دوم</keyword>
 <keyword>تقاطع</keyword>
 <keyword>نظریہ</keyword>
@@ -1264,7 +1273,6 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 <keyword>تگنا</keyword>
 <keyword>قرض</keyword>
 <keyword>قرضہ</keyword>
-<keyword>شہ</keyword>
 <keyword>خاندان</keyword>
 <keyword>برقیہ</keyword>
 <keyword>کھاد</keyword>
@@ -1449,6 +1457,7 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 <keyword>مشرق</keyword>
 <keyword>فریج</keyword>
 <keyword>پیالہ</keyword>
+<keyword>پیالے</keyword>
 <keyword>جگ</keyword>
 <keyword>درخت</keyword>
 <keyword>درختوں</keyword>
@@ -1492,6 +1501,7 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 <keyword>مادَّہ</keyword>
 <keyword>مادّے</keyword>
 <keyword>موضوع</keyword>
+<keyword>موضوعات</keyword>
 <keyword>افق</keyword>
 <keyword>انتصاب</keyword>
 <keyword>ترکھان</keyword>
@@ -1505,16 +1515,110 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 <keyword>نقش</keyword>
 <keyword>اثر</keyword>
 <keyword>اثرات</keyword>
-
-
+<keyword>ضابطہ</keyword>
+<keyword>با</keyword>
+<keyword>پتھر</keyword>
+<keyword>سیکنڈ</keyword>
+<keyword>سیکنڈوں</keyword>
+<keyword>منٹ</keyword>
+<keyword>منٹوں</keyword>
+<keyword>گھنٹہ</keyword>
+<keyword>گھنٹوں</keyword>
+<keyword>درد</keyword>
+<keyword>اسقاط</keyword>
+<keyword>پٹرول</keyword>
+<keyword>مستری</keyword>
+<keyword>پمپ</keyword>
+<keyword>انجن</keyword>
+<keyword>دواساز</keyword>
+<keyword>ساز</keyword>
+<keyword>گرام</keyword>
+<keyword>کلوگرام</keyword>
+<keyword>لٹر</keyword>
+<keyword>قابو</keyword>
+<keyword>متناہی</keyword>
+<keyword>لامتناہی</keyword>
+<keyword>شعبہ</keyword>
+<keyword>شعبوں</keyword>
+<keyword>قطعہ</keyword>
+<keyword>قطعے</keyword>
+<keyword>قطعوں</keyword>
+<keyword>وصول</keyword>
+<keyword>مطلب</keyword>
+<keyword>مشغلہ</keyword>
+<keyword>خسارہ</keyword>
+<keyword>مضرب</keyword>
+<keyword>خون</keyword>
+<keyword>حکیم</keyword>
+<keyword>اقتصاد</keyword>
+<keyword>گھر</keyword>
+<keyword>مریخ</keyword>
+<keyword>مشتری</keyword>
+<keyword>فلک</keyword>
+<keyword>جرثوم</keyword>
+<keyword>جرثومہ</keyword>
+<keyword>جرثومے</keyword>
+<keyword>جرثوموں</keyword>
+<keyword>جراثیم</keyword>
+<keyword>گلاس</keyword>
+<keyword>سوار</keyword>
+<keyword>حصول</keyword>
+<keyword>قطب</keyword>
+<keyword>قطبین</keyword>
+<keyword>دندان</keyword>
+<keyword>دل</keyword>
+<keyword>علم</keyword>
+<keyword>یقین</keyword>
+<keyword>زہر</keyword>
+<keyword>مطلوب</keyword>
+<keyword>مددگار</keyword>
 
         </context>
 
     <context id="kFem" style-ref="kFeminine">
+<keyword>مونث</keyword>
 <keyword>اساس</keyword>
+<keyword>تحقیق</keyword>
+<keyword>سوئی</keyword>
+<keyword>موٹروے</keyword>
+<keyword>دھات</keyword>
+<keyword>دہائی</keyword>
+<keyword>لکھائی</keyword>
+<keyword>پڑھائی</keyword>
+<keyword>مینار</keyword>
+<keyword>ٹینکی</keyword>
+<keyword>بندوق</keyword>
+<keyword>شے</keyword>
+<keyword>فروخت</keyword>
+<keyword>اشیاء</keyword>
+<keyword>ترقی</keyword>
+<keyword>جِلد</keyword>
+<keyword>اقتصادیات</keyword>
+<keyword>فنیات</keyword>
+<keyword>گیس</keyword>
+<keyword>تکمیل</keyword>
+<keyword>چوڑائی</keyword>
+<keyword>تیاری</keyword>
+<keyword>سائنس</keyword>
+<keyword>تبدیل</keyword>
+<keyword>اساس</keyword>
+<keyword>گہرائی</keyword>
+<keyword>بلندی</keyword>
+<keyword>اونچائی</keyword>
+<keyword>مرمت</keyword>
+<keyword>برداشت</keyword>
+<keyword>کمپنی</keyword>
 <keyword>حیات</keyword>
+<keyword>گنی</keyword>
+<keyword>وجودیت</keyword>
 <keyword>اہمیت</keyword>
 <keyword>مماثلت</keyword>
+<keyword>مکھی</keyword>
+<keyword>مکھیاں</keyword>
+<keyword>مکھیوں</keyword>
+<keyword>چٹان</keyword>
+<keyword>چٹانیں</keyword>
+<keyword>چٹانوں</keyword>
 <keyword>بندی</keyword>
 <keyword>منتقلی</keyword>
 <keyword>جوڑی</keyword>
@@ -1550,9 +1654,6 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 <keyword>پیالی</keyword>
 <keyword>یخنی</keyword>
 <keyword>ٹھنڈک</keyword>
-<keyword>چٹان</keyword>
-<keyword>چٹانیں</keyword>
-<keyword>چٹانوں</keyword>
 <keyword>تاریکی</keyword>
 <keyword>ارب</keyword>
 <keyword>افراط</keyword>
@@ -2366,6 +2467,7 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 	<keyword>جذریں</keyword>
 	<keyword>جذروں</keyword>
 	<keyword>مقطع</keyword>
+	<keyword>قطوع</keyword>
 	<keyword>مقاطع</keyword>
 	<keyword>کریمر</keyword>
 	<keyword>گرین</keyword>
@@ -2377,15 +2479,17 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 	<keyword>بند</keyword>
 	<keyword>اثر</keyword>
 	<keyword>آثار</keyword>
+	<keyword>حاشیہ</keyword>
+	<keyword>برقی دباؤ</keyword>
 
         </context>
 
 
     <context id="kTechFeminine" style-ref="kTechnicalFeminine">
 	<keyword>رو</keyword>
-	<keyword>ڈھلان</keyword>
-	<keyword>کثیررکنی</keyword>
-	<keyword>رکنی</keyword>
+	<keyword>برقی رو</keyword>
+	<keyword>مماسات</keyword>
+	<keyword>مکملیت</keyword>
 	<keyword>فلکیات</keyword>
 	<keyword>نظرثانی</keyword>
 	<keyword>شدت</keyword>
@@ -2441,8 +2545,8 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 	<keyword>طبیعیہ</keyword>
 	<keyword>رگڑ</keyword>
 	<keyword>دُم</keyword>
-<keyword>مستویات</keyword>
-<keyword>نفوذیت</keyword>
+	<keyword>مستویات</keyword>
+	<keyword>نفوذیت</keyword>
 
 
         </context>
@@ -2517,7 +2621,21 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 	<keyword>ہرمشی</keyword>
 	<keyword>منحنی</keyword>
 	<keyword>دوریت</keyword>
+	<keyword>کثیررکنی</keyword>
+	<keyword>کثیررکنیاں</keyword>
+	<keyword>کثیررکنیوں</keyword>
         </context>
+
+<!-- the following two retains the colours of their counter part as can be seen from style-ref=kTechnicalMasculineCoined
+-->
+
+<context id="kTechMasculineCoinedMulti" style-ref="kTechnicalMasculineCoined">
+    <match>برقی\s+دباؤ</match>
+</context>
+
+<context id="kTechFeminineCoinedMulti" style-ref="kTechnicalFeminineCoined">
+    <match>کثیر\s+رکنی</match>
+</context>
 
  <context id="kPink" style-ref="kPinkPainted">
 	<keyword>کا</keyword>
@@ -2715,7 +2833,9 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
                 <context ref="kSpellWrongMasculine"/>
                 <context ref="kSpellWrongFeminine"/>
                 <context ref="kTechMasculineCoined"/>
+                 <context ref="kTechMasculineCoinedMulti"/>
                 <context ref="kTechFeminineCoined"/>
+                <context ref="kTechFeminineCoinedMulti"/>
                 <context ref="kPink"/>
                 <context ref="kRed"/>
 
