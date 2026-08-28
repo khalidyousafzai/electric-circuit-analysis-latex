@@ -21,7 +21,7 @@
 \contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {9}}سلسلہ وار اور متوازی مزاحمت}{\farsidigits {69}}{}%
 \contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {10}}تخصیص مزاحمت}{\farsidigits {75}}{}%
 \contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {11}}سلسلہ وار اور متوازی مزاحمتوں کے ادوار کا حل}{\farsidigits {78}}{}%
-\contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {12}}ستارہ-تکون تبادلہ}{\farsidigits {85}}{}%
+\contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {12}}ستارہ و تکون تبادلیت}{\farsidigits {85}}{}%
 \contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {13}}تابع منبع استعمال کرنے والے ادوار}{\farsidigits {92}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {3}}ترکیب جوڑ اور دائری ترکیب}{\farsidigits {115}}{}%
 \contentsline {section}{\numberline {\farsidigits {3}.\farsidigits {1}}تجزیہ جوڑ}{\farsidigits {115}}{}%
@@ -114,7 +114,7 @@
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {2}}نادر تفاعل}{\farsidigits {732}}{}%
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {3}}لاپلاس بدل کی جوڑیاں}{\farsidigits {738}}{}%
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {4}}خواص البدل}{\farsidigits {742}}{}%
-\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {5}}الٹ لاپلاس بدل کا حصول}{\farsidigits {746}}{}%
+\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {5}}معکوس لاپلاس بدل کا حصول}{\farsidigits {746}}{}%
 \contentsline {subsection}{\numberline {\farsidigits {13}.\farsidigits {5}.\farsidigits {1}}جزوی کسری پھیلاو}{\farsidigits {747}}{}%
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {6}}تکمل الجھاو}{\farsidigits {756}}{}%
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {7}}مسئلہ ابتدائی قیمت اور مسئلہ اختتامی قیمت}{\farsidigits {759}}{}%

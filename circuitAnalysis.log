@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  20 AUG 2026 16:49
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  24 AUG 2026 17:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4127,16 +4127,8 @@ Underfull \hbox (badness 7344) in paragraph at lines 663--664
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 663--664
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 لگانے کی خاطر اونچائی پر تختہ نسب ہوتا ہے 
-جہاں سے غوطہ خور قلابازیاں کھاتا ہوا پانی تک پہنچتا ہے۔ شکل [][]۲.۲۰[][][]-الف 
-میں ایسا ہی \TU/AASameerSagarNastaleeqBold(0)/m/n/10 تختہ غوطہ[][] \TU/JameelNo
-oriNastaleeq(2)/b/n/10 دکھایا گیا ہے جس[]
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 663--664
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 تک بائیں جانب نسب سیڑھی کے ذریعہ پہنچا جا 
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 تک بائیں جانب نصب سیڑھی کے ذریعہ پہنچا جا 
 سکتا ہے۔اس سیڑھی کو استعمال کرتے ہوئے غوطہ خور $\OML/zplm/m/it/10 a$ \TU/Jameel
 NooriNastaleeq(2)/b/n/10 سے $\OML/zplm/m/it/10 b$ \TU/JameelNooriNastaleeq(2)/b
 /n/10 تک چڑھتا ہے۔یہاں سے وہ دوڑ لگاتا ہوا $\OML/zplm/m/it/10 c$[]
@@ -4273,14 +4265,14 @@ LaTeX Info: Redefining \ttfamily on input line 723.
 Underfull \hbox (badness 10000) in paragraph at lines 722--725
 []\TU/JameelNooriNastaleeq(2)/b/n/10 شکل [][]۲.۲۱[][] []صرف دو عدد غیر تابع مسا
 وات مہیا کرتا ہے لہٰذا اگرچہ ہم اس دور کے لیے تین مساوات لکھ سکتے ہیں لیکن ایسا
- کرنے کی کوئی ضرورت نہیں۔کسی[]
+ کرنے کی کوئی ضرورت نہیں۔کسی بھی[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 722--725
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 بھی دور میں مساوات لکھنے سے پہلے بند دائرے
- چنے جاتے ہیں۔بند دائرے یوں چنیں کہ دور میں نسب تمام اجزاء کسی نہ کسی دائرے کا 
-حصہ بنے۔یوں کم سے کم[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 دور میں مساوات لکھنے سے پہلے بند دائرے چنے
+ جاتے ہیں۔بند دائرے یوں چنیں کہ دور میں نصب تمام اجزاء کسی نہ کسی دائرے کا حصہ 
+بنے۔یوں کم سے کم[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 727.
@@ -4448,7 +4440,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 864--883
 
 Underfull \hbox (badness 10000) in paragraph at lines 864--883
 []\TU/JameelNooriNastaleeq(2)/b/n/10 ہیں۔آپ دیکھ سکتے ہیں کہ متعدد سلسلہ وار جڑ
-ے مزاحمت کی جگہ ان کا مجموعی مزاحمت نسب کیا جا سکتا ہے۔مساوات [][]۲.۳۳[][] []مت
+ے مزاحمت کی جگہ ان کا مجموعی مزاحمت نصب کیا جا سکتا ہے۔مساوات [][]۲.۳۳[][] []مت
 عدد سلسلہ وار جڑے مزاحمتوں کا[]
  []
 
@@ -4458,7 +4450,7 @@ LaTeX Info: Redefining \ttfamily on input line 885.
 
 Underfull \hbox (badness 10000) in paragraph at lines 884--886
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مثال  ۲.۱۱:  شکل [][]۲.۲۳[][][]-الف میں 
-چار عدد مزاحمت نسب ہیں جن کی قیمتیں $\OT1/ppl/m/n/10 100 []$\TU/JameelNooriNast
+چار عدد مزاحمت نصب ہیں جن کی قیمتیں $\OT1/ppl/m/n/10 100 []$\TU/JameelNooriNast
 aleeq(2)/b/n/10 ، $\OT1/ppl/m/n/10 50 []$\TU/JameelNooriNastaleeq(2)/b/n/10 ، $
 \OT1/ppl/m/n/10 120 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 اور $\OT1/ppl/m/n/10
  30 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 ہیں۔منبع دباو $\OT1/ppl/m/n/10 9 V$[
@@ -4555,17 +4547,24 @@ Overfull \hbox (3.17418pt too wide) in paragraph at lines 987--988
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 975--993
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 کیا جا سکتا ہے اور اسی طرح تمام سلسلہ وار 
-جڑے منبع کی جگہ ان کا مجموعہ نسب کیا جا سکتا ہے۔جیسا شکل [][]۲.۲۵[][][]-ب میں د
-کھایا گیا ہے،منبع کا مجموعہ حاصل کرتے[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 حاصل ہوتا ہے۔اس مساوات سے حاصل دور کو شکل 
+[][]۲.۲۵[][][]-ب میں دکھایا گیا ہے۔آپ دیکھ سکتے ہیں کہ تمام سلسلہ وار جڑے مزاحم
+ت کی جگہ ان کا مجموعہ[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 975--993
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 وقت بڑھتے دباو کو مثبت اور گھٹتے دباو کو م
-نفی لیا جاتا ہے۔یوں مساوات [][]۲.۴۰[][] []میں مساوی نشان $\OT1/zplm/m/n/10 (=)$
- \TU/JameelNooriNastaleeq(2)/b/n/10 کے بائیں جانب بڑھتے دباو کا مجموعہ اور نشان
- کے دائیں[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 نصب کیا جا سکتا ہے اور اسی طرح تمام سلسلہ 
+وار جڑے منبع کی جگہ ان کا مجموعہ نصب کیا جا سکتا ہے۔جیسا شکل [][]۲.۲۵[][][]-ب م
+یں دکھایا گیا ہے،منبع کا مجموعہ حاصل[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 975--993
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 کرتے وقت بڑھتے دباو کو مثبت اور گھٹتے دباو
+ کو منفی لیا جاتا ہے۔یوں مساوات [][]۲.۴۰[][] []میں مساوی نشان $\OT1/zplm/m/n/10
+ (=)$ \TU/JameelNooriNastaleeq(2)/b/n/10 کے بائیں جانب بڑھتے دباو کا مجموعہ اور
+ نشان کے[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 995.
@@ -4836,7 +4835,7 @@ LaTeX Info: Redefining \ttfamily on input line 1327.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1326--1328
 []\TU/JameelNooriNastaleeq(2)/b/n/10 ان سلسلہ وار جڑے مزاحمتوں کی جگہ ان کا مسا
-وی مزاحمت $\OML/zplm/m/it/10 R[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 نسب کرتے ہ
+وی مزاحمت $\OML/zplm/m/it/10 R[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 نصب کرتے ہ
 وئے شکل [][]۲.۳۴[][] []حاصل ہوتا ہے۔اس شکل میں $\OML/zplm/m/it/10 F$ \TU/Jameel
 NooriNastaleeq(2)/b/n/10 اور $\OML/zplm/m/it/10 G$ \TU/JameelNooriNastaleeq(2)/
 b/n/10 نقطوں[]
@@ -4861,7 +4860,7 @@ LaTeX Info: Redefining \ttfamily on input line 1343.
 Underfull \hbox (badness 10000) in paragraph at lines 1343--1344
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 نقطہ $\OML/zplm/m/it/10 F$ \TU/JameelNoo
 riNastaleeq(2)/b/n/10 اور نقطہ $\OML/zplm/m/it/10 G$ \TU/JameelNooriNastaleeq(2
-)/b/n/10 کے درمیان مساوی مزاحمت نسب کرنے سے شکل [][]۲.۳۵[][] []حاصل ہوتا ہے۔اب 
+)/b/n/10 کے درمیان مساوی مزاحمت نصب کرنے سے شکل [][]۲.۳۵[][] []حاصل ہوتا ہے۔اب 
 آپ دیکھ سکتے ہیں کہ $\OML/zplm/m/it/10 EGF$ \TU/JameelNooriNastaleeq(2)/b/n/10 
 پر $\OT1/ppl/m/n/10 0.6 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 اور[]
  []
@@ -4925,16 +4924,9 @@ File: ./fig/figResistive/figResistancesQuizMixedSeriesParallelA.pdf Graphic fil
 e (type pdf)
 <use ./fig/figResistive/figResistancesQuizMixedSeriesParallelA.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 1434--1436
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 اس جوڑ پر کوئی تیسرا پرزہ نہیں جڑا ہو سکتا
-۔یوں پہلے مزاحمت سے گزرتی رو دوسری مزاحمت سے بھی گزرتی ہے۔اگر جوڑ پر تیسرا پرزہ
- بھی نسب ہو[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1438--1439
+Underfull \hbox (badness 6300) in paragraph at lines 1438--1439
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 متواتر سلسلہ وار اور متوازی مزاحمتوں کی 
-جگہ ان کا مساوی مزاحمت نسب کرتے ہوئے دور کے داخلی سروں تک پہنچ کر پورے دور کا م
+جگہ ان کا مساوی مزاحمت نصب کرتے ہوئے دور کے داخلی سروں تک پہنچ کر پورے دور کا م
 ساوی مزاحمت[]
  []
 
@@ -5219,7 +5211,7 @@ File: ./fig/figResistive/figResistancesYDeltaA.pdf Graphic file (type pdf)
 
 Underfull \hbox (badness 10000) in paragraph at lines 1743--1750
 []\TU/JameelNooriNastaleeq(2)/b/n/10 ہم نے اب تک ایسے ادوار دیکھے جن میں سلسلہ 
-وار مزاحمتوں اور متوازی مزاحمتوں کی جگہ مساوی مزاحمت نسب کرتے ہوئے سادہ دور حاص
+وار مزاحمتوں اور متوازی مزاحمتوں کی جگہ مساوی مزاحمت نصب کرتے ہوئے سادہ دور حاص
 ل کیا گیا۔اس حصے[]
  []
 
@@ -5231,10 +5223,17 @@ eelNooriNastaleeq(2)/b/n/10 حاصل کرنے کی کوشش کریں۔آپ دی�
  []
 
 
-Underfull \hbox (badness 3471) in paragraph at lines 1743--1750
+Underfull \hbox (badness 10000) in paragraph at lines 1743--1750
 []\TU/JameelNooriNastaleeq(2)/b/n/10 میں کوئی بھی دو مزاحمت سلسلہ وار یا متوازی
  نہیں جڑے لہٰذا اس دور کی سادہ صورت گزشتہ ترکیب سے حاصل نہیں کی جا سکتی۔کیا اچھ
-ا ہوتا اگر ایسی صورت میں[]
+ا ہوتا اگر ایسی صورت[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1743--1750
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 میں دور کے کچھ حصے کی جگہ متبادل دور نصب ک
+رتے ہوئے اسے قابل حل بنانا ممکن ہوتا۔خوش قسمتی سے ایسا کرنا ممکن ہے۔ اس ترکیب ک
+و \TU/AASameerSagarNastaleeqBold(0)/m/n/10 ستارہ و تکونی[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1752.
@@ -5245,30 +5244,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 1752--1753
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 شکل [][]۲.۴۷[][][]-الف میں تین مزاحمت تک
 ون کی شکل $\OT1/zplm/m/n/10 ^^A$ \TU/JameelNooriNastaleeq(2)/b/n/10 میں جڑے ہیں
  جبکہ شکل-ب میں تین مزاحمت ستارہ کی شکل $\OML/zplm/m/it/10 Y$ \TU/JameelNooriNa
-staleeq(2)/b/n/10 میں جڑے ہیں۔ہم ستارہ مزاحمت کی[]
+staleeq(2)/b/n/10 میں جڑے ہیں۔ہم ستارہ مزاحمت[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1752--1753
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 جگہ تکونی مزاحمت یا تکونی مزاحمت کی جگہ ست
-ارہ مزاحمت اس صورت نسب کر سکتے ہیں جب اس تبدیلی سے بقایا دور پر کوئی اثر نہ پڑے
-۔یوں اگر کسی دور میں تین[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 کی جگہ تکونی مزاحمت یا تکونی مزاحمت کی جگہ
+ ستارہ مزاحمت اس صورت نصب کر سکتے ہیں جب اس تبدیلی سے بقایا دور پر کوئی اثر نہ 
+پڑے۔یوں اگر کسی دور میں[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1752--1753
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 نقطوں $\OML/zplm/m/it/10 A$\TU/JameelNoori
-Nastaleeq(2)/b/n/10 ، $\OML/zplm/m/it/10 B$ \TU/JameelNooriNastaleeq(2)/b/n/10 
-اور $\OML/zplm/m/it/10 C$ \TU/JameelNooriNastaleeq(2)/b/n/10 کے درمیان تکونی مز
-احمت (ستارہ مزاحمت) جڑے ہوں تب انہیں تین نقطوں پر مبدل ستارہ مزاحمت (تکونی مزاح
-مت) نسب کرنے[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 تین نقطوں $\OML/zplm/m/it/10 A$\TU/JameelN
+ooriNastaleeq(2)/b/n/10 ، $\OML/zplm/m/it/10 B$ \TU/JameelNooriNastaleeq(2)/b/n
+/10 اور $\OML/zplm/m/it/10 C$ \TU/JameelNooriNastaleeq(2)/b/n/10 کے درمیان تکون
+ی مزاحمت (ستارہ مزاحمت) جڑے ہوں تب انہیں تین نقطوں پر ستارہ تبادل مزاحمت (تکونی
+ مزاحمت) نصب[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1752--1753
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 سے بقایا دور میں کسی بھی مقام پر دباو اور 
-رو میں تبدیلی رو نما نہیں ہونی چاہیے۔ایسا تب ممکن ہو گا کہ ان تین نقطوں پر بھی 
-دباو اور رو میں کوئی تبدیلی نہ پیدا ہو یعنی[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 کرنے سے بقایا دور میں کسی بھی مقام پر دباو
+ اور رو میں تبدیلی رو نما نہیں ہونی چاہیے۔ایسا تب ممکن ہو گا کہ ان تین نقطوں پر
+ بھی دباو اور رو میں کوئی تبدیلی نہ پیدا[]
  []
 
 [85]
@@ -5281,11 +5280,10 @@ LaTeX Info: Redefining \sffamily on input line 1769.
 LaTeX Info: Redefining \ttfamily on input line 1769.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1769--1770
-[][]\TU/JameelNooriNastaleeq(2)/b/n/10 ستارہ-تکونی تبادلہ $\OML/zplm/m/it/10 AB
-C$ \TU/JameelNooriNastaleeq(2)/b/n/10 کے ساتھ کسی بھی دور کے لیے کارآمد ہونا چا
-ہیے۔یوں یہ تبادلہ اس صورت بھی کارآمد ہونا ضروری ہے جب $\OML/zplm/m/it/10 A$ \TU
-/JameelNooriNastaleeq(2)/b/n/10 اور $\OML/zplm/m/it/10 B$ \TU/JameelNooriNastal
-eeq(2)/b/n/10 دور[]
+[][]\TU/JameelNooriNastaleeq(2)/b/n/10 ستارہ و تکون تبادلیت $\OML/zplm/m/it/10 
+ABC$ \TU/JameelNooriNastaleeq(2)/b/n/10 کے ساتھ کسی بھی دور کے لیے کارآمد ہونا 
+چاہیے۔یوں یہ تبادلیت اس صورت بھی کارآمد ہونا ضروری ہے جب $\OML/zplm/m/it/10 A$ 
+\TU/JameelNooriNastaleeq(2)/b/n/10 اور $\OML/zplm/m/it/10 B$[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1773.
@@ -5345,9 +5343,9 @@ lNooriNastaleeq(2)/b/n/10 اور $\OML/zplm/m/it/10 R[]$[]
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1820--1836
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 کا مبدل ستارہ ہلکی سیاہی میں دکھایا گیا ہے
-۔ شکل [][]۲.۴۸[][][]-ب میں تکون کی جگہ ستارہ نسب دکھایا گیا ہے جہاں سے واضح ہے 
-کہ نیا دور قابل حل ہے۔نئی شکل میں[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 کا ستارہ تبادل ہلکی سیاہی میں دکھایا گیا ہ
+ے۔ شکل [][]۲.۴۸[][][]-ب میں تکون کی جگہ ستارہ نصب دکھایا گیا ہے جہاں سے واضح ہے
+ کہ نیا دور قابل حل ہے۔نئی شکل میں[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1839.
@@ -6494,7 +6492,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 457--459
 []\TU/JameelNooriNastaleeq(2)/b/n/10 پر منبع کی رو $\OML/zplm/m/it/10 i[]$ \TU/
 JameelNooriNastaleeq(2)/b/n/10 ہے جو جوڑ سے خارجی جانب ہے لہٰذا اسے قالب رو میں
  $\OMS/zplm/m/n/10 ^^@\OML/zplm/m/it/10 i[]$ \TU/JameelNooriNastaleeq(2)/b/n/10
- لکھا گیا ہے۔دوسرے جوڑ پر کوئی منبع رو نسب نہیں لہٰذا قالب کا دوسرا رکن[]
+ لکھا گیا ہے۔دوسرے جوڑ پر کوئی منبع رو نصب نہیں لہٰذا قالب کا دوسرا رکن[]
  []
 
 [127]
@@ -6732,7 +6730,7 @@ LaTeX Info: Redefining \ttfamily on input line 826.
 Underfull \hbox (badness 10000) in paragraph at lines 812--829
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مثال  ۳.۶: []شکل [][]۳.۱۷[][] []میں $\OT
 1/ppl/m/n/10 10 V$ \TU/JameelNooriNastaleeq(2)/b/n/10 کا منبع دباو زمین سے ہٹ ک
-ر دو جوڑوں کے درمیان نسب ہے۔گزشتہ تمام مثالوں میں جوڑ پر رو یا تو منبع رو سے اخ
+ر دو جوڑوں کے درمیان نصب ہے۔گزشتہ تمام مثالوں میں جوڑ پر رو یا تو منبع رو سے اخ
 ذ کی[]
  []
 
@@ -6741,7 +6739,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 812--829
 []\TU/JameelNooriNastaleeq(2)/b/n/10 جا سکتیں تھیں اور یا انہیں مزاحمتی شاخ پر 
 قانون اوہم لاگو کرتے ہوئے اخذ کیا جا سکتا تھا۔موجودہ شکل میں جوڑ $\OML/zplm/m/i
 t/10 V[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 اور $\OML/zplm/m/it/10 V[]$ \TU/Ja
-meelNooriNastaleeq(2)/b/n/10 کے درمیان نہ تو منبع رو نسب[]
+meelNooriNastaleeq(2)/b/n/10 کے درمیان نہ تو منبع رو نصب[]
  []
 
 
@@ -6793,7 +6791,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 856--857
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 856--857
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 ضروری ہے کہ دو جوڑوں کے مابین نسب منبع دبا
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 ضروری ہے کہ دو جوڑوں کے مابین نصب منبع دبا
 و کی رو کو دونوں جوڑوں پر خارجی تصور نہیں کیا جا سکتا۔منبع دباو کے رو کی کوئی ب
 ھی سمت چننے کے بعد دونوں[]
  []
@@ -6826,7 +6824,7 @@ LaTeX Info: Redefining \ttfamily on input line 860.
 
 Underfull \hbox (badness 10000) in paragraph at lines 860--861
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 شکل [][]۳.۱۷[][][]-ب میں زمین سے ہٹ کر د
-و جوڑوں کے مابین نسب منبع دباو کے گرد نقطہ دار دائرہ کھینچا گیا ہے۔اس بند دائرے
+و جوڑوں کے مابین نصب منبع دباو کے گرد نقطہ دار دائرہ کھینچا گیا ہے۔اس بند دائرے
  کو \TU/AASameerSagarNastaleeqBold(0)/m/n/10 مخلوط جوڑ[][] \TU/JameelNooriNasta
 leeq(2)/b/n/10 کہا جاتا ہے۔آپ[]
  []
@@ -6934,10 +6932,10 @@ LaTeX Info: Redefining \rmfamily on input line 1090.
 LaTeX Info: Redefining \sffamily on input line 1090.
 LaTeX Info: Redefining \ttfamily on input line 1090.
 
-Underfull \hbox (badness 1132) in paragraph at lines 1090--1091
+Underfull \hbox (badness 10000) in paragraph at lines 1090--1091
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 حل: شکل [][]۳.۲۳[][][]-ب میں نچلے جوڑ کو
- زمین چنتے ہوئے بقایا جوڑوں کی نشاندہی کی گئی ہے۔مخلوط جوڑوں کو نقطہ دار چکور س
-ے ظاہر کیا گیا ہے۔یہاں رک کر تسلی کر[]
+ زمین چنتے ہوئے بقایا جوڑوں کی نشاندہی کی گئی ہے۔مخلوط جوڑوں کو نقطہ دار چوکور 
+سے ظاہر کیا گیا ہے۔یہاں رک کر تسلی[]
  []
 
 [147] [148]
@@ -7063,24 +7061,24 @@ lNooriNastaleeq(2)/b/n/10 اور $\OML/zplm/m/it/10 i[]$ \TU/JameelNooriNastalee
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1218--1219
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 دونوں رو کو گھڑی کے الٹ بھی تصور کر سکتے ہ
-یں اور ایسا بھی کر سکتے ہیں کہ ایک دائری رو گھڑی کی سمت اور دوسری رو گھڑی کی ال
-ٹ تصور کی جائے۔ترکیب[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 دونوں رو کو گھڑی مخالف بھی تصور کر سکتے ہی
+ں اور ایسا بھی کر سکتے ہیں کہ ایک دائری رو گھڑی کی سمت اور دوسری رو گھڑی مخالف 
+تصور کی جائے۔ترکیب جوڑ[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1218--1219
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 جوڑ کی طرح یہاں بھی اگر حقیقت میں کسی رو ک
-ی سمت تصور کردہ سمت کے الٹ ہو تو ایسی صورت میں رو کی قیمت منفی حاصل ہو گی۔اس کت
-اب میں ہم دائری رو[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 کی طرح یہاں بھی اگر حقیقت میں کسی رو کی سم
+ت تصور کردہ سمت کے الٹ ہو تو ایسی صورت میں رو کی قیمت منفی حاصل ہو گی۔اس کتاب م
+یں ہم دائری رو کو[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1218--1219
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 کو گھڑی کی سمت ہی تصور کریں گے۔ اسی طرح ہم
- دو عدد دائرے یوں بھی چن سکتے ہیں کہ پہلا دائرہ $\OML/zplm/m/it/10 abcfa$ \TU/J
-ameelNooriNastaleeq(2)/b/n/10 اور دوسرا دائرہ $\OML/zplm/m/it/10 abdea$ \TU/Jam
-eelNooriNastaleeq(2)/b/n/10 لیں جن سے شکل[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 گھڑی کی سمت ہی تصور کریں گے۔ اسی طرح ہم دو
+ عدد دائرے یوں بھی چن سکتے ہیں کہ پہلا دائرہ $\OML/zplm/m/it/10 abcfa$ \TU/Jame
+elNooriNastaleeq(2)/b/n/10 اور دوسرا دائرہ $\OML/zplm/m/it/10 abdea$ \TU/Jameel
+NooriNastaleeq(2)/b/n/10 لیں جن سے شکل[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1270.
@@ -7944,7 +7942,7 @@ LaTeX Info: Redefining \ttfamily on input line 246.
 
 Underfull \hbox (badness 10000) in paragraph at lines 246--247
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 حل:شکل [][]۴.۶[][][]-الف میں حسابی ایمپل
-یفائر کی جگہ اس کا نمونہ نسب کرنے سے شکل-ب حاصل ہوتا ہے جسے کرخوف کے قوانین سے 
+یفائر کی جگہ اس کا نمونہ نصب کرنے سے شکل-ب حاصل ہوتا ہے جسے کرخوف کے قوانین سے 
 حل کیا جا سکتا ہے۔شکل-[]
  []
 
@@ -8140,10 +8138,10 @@ LaTeX Info: Redefining \ttfamily on input line 464.
 
 Underfull \hbox (badness 10000) in paragraph at lines 464--478
 []\TU/JameelNooriNastaleeq(2)/b/n/10 شکل [][]۴.۱۰[][] []میں $\OML/zplm/m/it/10 
-R[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 دو جگہ نسب ہے۔اس کا مطلب ہے کہ دونوں جگ
+R[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 دو جگہ نصب ہے۔اس کا مطلب ہے کہ دونوں جگ
 ہ پر $\OML/zplm/m/it/10 R[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 قیمت کے مزاحمت 
-نسب ہیں۔اسی طرح دو جگہوں پر $\OML/zplm/m/it/10 R[]$ \TU/JameelNooriNastaleeq(2)
-/b/n/10 نسب ہے جس کا[]
+نصب ہیں۔اسی طرح دو جگہوں پر $\OML/zplm/m/it/10 R[]$ \TU/JameelNooriNastaleeq(2)
+/b/n/10 نصب ہے جس[]
  []
 
 [200]
@@ -8557,15 +8555,15 @@ LaTeX Info: Redefining \ttfamily on input line 5.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 []\TU/JameelNooriNastaleeq(2)/b/n/10 آپ جانتے ہیں کہ سلسلہ وار مزاحمتوں کی جگہ 
-ان کا مساوی مزاحمت نسب کرتے ہوئے ان کی رو حاصل کی جا سکتی ہے۔اسی طرح متوازی مزا
-حمتوں کی جگہ ان[]
+ان کا مساوی مزاحمت نصب کرتے ہوئے ان کی رو حاصل کی جا سکتی ہے۔اسی طرح متوازی مزا
+حمتوں کی جگہ ان کا[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 کا مساوی مزاحمت نسب کرتے ہوئے ان پر دباو ح
-اصل کیا جا سکتا ہے۔یہ عمل شکل [][]۵.۱[][] []میں دکھائے گئے ہیں۔اسی طرح سلسلہ وا
-ر منبع دباو کا مساوی اور متوازی[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 مساوی مزاحمت نصب کرتے ہوئے ان پر دباو حاصل
+ کیا جا سکتا ہے۔یہ عمل شکل [][]۵.۱[][] []میں دکھائے گئے ہیں۔اسی طرح سلسلہ وار م
+نبع دباو کا مساوی اور متوازی[]
  []
 
 
@@ -8815,16 +8813,16 @@ n/10 10 []$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--431
+Underfull \hbox (badness 7504) in paragraph at lines 429--431
 []\TU/JameelNooriNastaleeq(2)/b/n/10 متوازی جڑے ہیں لہٰذا ان کی جگہ $[] \OT1/zp
-lm/m/n/10 = [] []$ \TU/JameelNooriNastaleeq(2)/b/n/10 نسب کیا جا سکتا ہے۔ایسا ہ
+lm/m/n/10 = [] []$ \TU/JameelNooriNastaleeq(2)/b/n/10 نصب کیا جا سکتا ہے۔ایسا ہ
 ی شکل-ب میں کیا گیا ہے جہاں $[] []$ اور[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 429--431
 []$\OT1/ppl/m/n/10 8 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 سلسلہ وار جڑے ہیں ل
-ہٰذا ان کی جگہ شکل-پ میں $[] []$ نسب کیا گیا ہے۔شکل-ت میں متوازی جڑے $[] []$ او
+ہٰذا ان کی جگہ شکل-پ میں $[] []$ نصب کیا گیا ہے۔شکل-ت میں متوازی جڑے $[] []$ او
 ر $\OT1/ppl/m/n/10 12 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 کی جگہ[]
  []
 
@@ -8928,7 +8926,7 @@ LaTeX Info: Redefining \ttfamily on input line 619.
 Underfull \hbox (badness 10000) in paragraph at lines 618--620
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مثال  ۵.۴: []شکل [][]۵.۱۴[][][]-الف اور 
 شکل [][]۵.۱۴[][][]-ب کے برقی سروں پر $\OT1/ppl/m/n/10 8 []$ \TU/JameelNooriNast
-aleeq(2)/b/n/10 مزاحمت نسب کرتے ہوئے برقی سروں پر دباو اور رو حاصل کریں۔بند[]
+aleeq(2)/b/n/10 مزاحمت نصب کرتے ہوئے برقی سروں پر دباو اور رو حاصل کریں۔بند[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 621.
@@ -8979,17 +8977,17 @@ LaTeX Info: Redefining \rmfamily on input line 726.
 LaTeX Info: Redefining \sffamily on input line 726.
 LaTeX Info: Redefining \ttfamily on input line 726.
 
-Underfull \hbox (badness 10000) in paragraph at lines 726--727
+Underfull \hbox (badness 2538) in paragraph at lines 726--727
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مندرجہ بالا دو مثالوں کے تجربات سے گمان 
 ہوتا ہے کہ شکل [][]۵.۱۴[][] []کے دونوں بند ڈبوں میں یکساں ادوار پائے جاتے ہیں۔ 
-دیکھا یہ گیا ہے کہ دونوں بند ڈبوں[]
+دیکھا یہ گیا ہے کہ دونوں بند ڈبوں کے[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 726--727
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 کے بیرونی برقی سروں پر یکساں دور نسب کرنے 
-سے بالکل یکساں جوابات حاصل ہوتے ہیں۔یہ ایک دلچسپ صورت حال ہے۔ایسی صورت میں ہم ک
-ہتے ہیں کہ[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 بیرونی برقی سروں پر یکساں دور نصب کرنے سے 
+بالکل یکساں جوابات حاصل ہوتے ہیں۔یہ ایک دلچسپ صورت حال ہے۔ایسی صورت میں ہم کہتے
+ ہیں کہ[]
  []
 
 
@@ -9036,10 +9034,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 762--763
  []
 
 
-Underfull \hbox (badness 2042) in paragraph at lines 762--763
+Underfull \hbox (badness 10000) in paragraph at lines 762--763
 []\TU/JameelNooriNastaleeq(2)/b/n/10 اگر جوڑ $\OML/zplm/m/it/10 v[]$ \TU/Jameel
 NooriNastaleeq(2)/b/n/10 پر دباو اسی قیمت پر رکھا جائے جو لکیر کے دائیں جانب دو
-ر کے نسب کرنے سے حاصل ہوتا ہے، تب لکیر کے بائیں جانب دور کے متغیرات جوں کے[]
+ر کے نصب کرنے سے حاصل ہوتا ہے، تب لکیر کے بائیں جانب دور کے متغیرات جوں[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 764.
@@ -9113,7 +9111,7 @@ leeq(2)/b/n/10 مہیا کی جاتی ہے۔اگر شکل-ب میں بائیں[]
 
 Underfull \hbox (badness 10000) in paragraph at lines 802--803
 []\TU/JameelNooriNastaleeq(2)/b/n/10 ڈبے دور کی جگہ اس کا مساوی تھونن دور یا مس
-اوی نارٹن دور نسب کرنے سے $\OML/zplm/m/it/10 v[]$ \TU/JameelNooriNastaleeq(2)/b
+اوی نارٹن دور نصب کرنے سے $\OML/zplm/m/it/10 v[]$ \TU/JameelNooriNastaleeq(2)/b
 /n/10 اور $\OML/zplm/m/it/10 i$ \TU/JameelNooriNastaleeq(2)/b/n/10 کی قیمتوں پر
  فرق نہیں پڑے تب دائیں ڈبے کی نقطہ نظر سے دور میں[]
  []
@@ -9316,7 +9314,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1028--1029
 [243] [244]
 Underfull \hbox (badness 10000) in paragraph at lines 1041--1043
 []\TU/JameelNooriNastaleeq(2)/b/n/10 لکھا جا سکتا ہے۔یوں شکل-ب کی جگہ اس کا مسا
-وی تھونن دور نسب کرتے ہوئے شکل-الف کی جگہ شکل-ت حاصل ہوتا ہے جسے دیکھتے ہوئے تق
+وی تھونن دور نصب کرتے ہوئے شکل-الف کی جگہ شکل-ت حاصل ہوتا ہے جسے دیکھتے ہوئے تق
 سیم دباو کے[]
  []
 
@@ -9446,7 +9444,7 @@ eq(2)/b/n/10 اور $\OML/zplm/m/it/10 b$[]
 Underfull \hbox (badness 10000) in paragraph at lines 1219--1221
 []\TU/JameelNooriNastaleeq(2)/b/n/10 حاصل ہوتا ہے۔نقطہ $\OML/zplm/m/it/10 a$ \T
 U/JameelNooriNastaleeq(2)/b/n/10 اور $\OML/zplm/m/it/10 b$ \TU/JameelNooriNasta
-leeq(2)/b/n/10 کے بائیں جانب تھونن دور کی جگہ یوں مساوی نارٹن دور نسب کیا جا سک
+leeq(2)/b/n/10 کے بائیں جانب تھونن دور کی جگہ یوں مساوی نارٹن دور نصب کیا جا سک
 تا ہے۔شکل-ب میں ایسا ہی کیا ہوا دکھایا گیا ہے جہاں[]
  []
 
@@ -9467,7 +9465,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1225--1227
 []\TU/JameelNooriNastaleeq(2)/b/n/10 حاصل کیا جاتا ہے۔شکل-پ میں $\OT1/ppl/m/n/1
 0 4 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 اور $[] []$ کے نارٹن دور کی جگہ $[] 
 \OT1/ppl/m/n/10 V$ \TU/JameelNooriNastaleeq(2)/b/n/10 اور $[] []$ کا تھونن دور 
-نسب کرنے سے شکل-ت[]
+نصب کرنے سے شکل-ت[]
  []
 
 [247] [248]
@@ -9497,7 +9495,7 @@ LaTeX Info: Redefining \ttfamily on input line 1286.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1286--1287
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 شکل [][]۵.۲۶[][][]-ب میں $[] []$ اور $[]
- []$ نارٹن دور کی جگہ ان کا مساوی تھونن دور نسب کرنے سے شکل-پ حاصل ہوتا ہے جس م
+ []$ نارٹن دور کی جگہ ان کا مساوی تھونن دور نصب کرنے سے شکل-پ حاصل ہوتا ہے جس م
 یں[]
  []
 
@@ -9529,12 +9527,12 @@ LaTeX Info: Redefining \ttfamily on input line 1365.
 Underfull \hbox (badness 10000) in paragraph at lines 1368--1370
 []\TU/JameelNooriNastaleeq(2)/b/n/10 ملتا ہے۔یوں شکل-ب کا مساوی نارٹن دور شکل-پ
  حاصل ہوتا ہے جسے شکل-الف میں $\OML/zplm/m/it/10 cd$ \TU/JameelNooriNastaleeq(2
-)/b/n/10 کے بائیں جانب دور کی جگہ نسب کرنے سے شکل-ت ملتا[]
+)/b/n/10 کے بائیں جانب دور کی جگہ نصب کرنے سے شکل-ت ملتا[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1372--1374
-[]$\OT1/ppl/m/n/10 8 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 کی منبع نسب کی جا س
+[]$\OT1/ppl/m/n/10 8 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 کی منبع نصب کی جا س
 کتی ہے جس سے شکل-ٹ حاصل ہوتا ہے۔شکل-ٹ میں سلسلہ وار جڑے $\OT1/ppl/m/n/10 4 []$ 
 \TU/JameelNooriNastaleeq(2)/b/n/10 اور $\OT1/ppl/m/n/10 3 []$ \TU/JameelNooriNa
 staleeq(2)/b/n/10 از خود $[] []$ کے[]
@@ -9609,10 +9607,10 @@ LaTeX Info: Redefining \rmfamily on input line 1488.
 LaTeX Info: Redefining \sffamily on input line 1488.
 LaTeX Info: Redefining \ttfamily on input line 1488.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1477--1491
+Underfull \hbox (badness 4467) in paragraph at lines 1477--1491
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مشق  ۵.۷: []شکل [][]۵.۲۹[][] []میں دور د
 کھایا گیا ہے جسے مسئلہ تھونن سے حل کرتے ہوئے $\OML/zplm/m/it/10 V[]$ \TU/Jameel
-NooriNastaleeq(2)/b/n/10 حاصل کریں۔(دائیں جانب نسب $\OT1/ppl/m/n/10 2 []$ \TU/J
+NooriNastaleeq(2)/b/n/10 حاصل کریں۔(دائیں جانب نصب $\OT1/ppl/m/n/10 2 []$ \TU/J
 ameelNooriNastaleeq(2)/b/n/10 سے دیکھتے ہوئے[]
  []
 
@@ -9647,7 +9645,7 @@ LaTeX Info: Redefining \ttfamily on input line 1524.
 Underfull \hbox (badness 10000) in paragraph at lines 1515--1527
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مشق  ۵.۹: []مسئلہ نارٹن کی مدد سے شکل []
 []۵.۳۱[][] []میں $\OML/zplm/m/it/10 I[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 حاص
-ل کریں۔(دائیں جانب نسب $\OT1/ppl/m/n/10 4$$[]$ \TU/JameelNooriNastaleeq(2)/b/n/
+ل کریں۔(دائیں جانب نصب $\OT1/ppl/m/n/10 4$$[]$ \TU/JameelNooriNastaleeq(2)/b/n/
 10 مزاحمت کے ساتھ منسلک دور کا نارٹن مساوی حاصل[]
  []
 
@@ -9876,7 +9874,7 @@ Underfull \hbox (badness 1466) in paragraph at lines 1945--1946
 
 Underfull \hbox (badness 10000) in paragraph at lines 1945--1946
 []\TU/JameelNooriNastaleeq(2)/b/n/10 صرف تابع منبع پائے جاتے ہیں۔ان ادوار کے بر
-قی سروں پر پیمائشی منبع دباو یا پیمائشی منبع رو نسب کرتے ہوئے برقی سروں پر دباو
+قی سروں پر پیمائشی منبع دباو یا پیمائشی منبع رو نصب کرتے ہوئے برقی سروں پر دباو
  اور رو حاصل کی جاتی ہے۔برقی[]
  []
 
@@ -10189,7 +10187,7 @@ LaTeX Info: Redefining \ttfamily on input line 2557.
 Underfull \hbox (badness 10000) in paragraph at lines 2554--2558
 [] \TU/JameelNooriNastaleeq(2)/b/n/10 سوال  ۵.۱۳: []شکل [][]۵.۵۵[][][]-الف میں 
 $\OML/zplm/m/it/10 AB$ \TU/JameelNooriNastaleeq(2)/b/n/10 سروں پر $\OT1/ppl/m/n
-/10 2 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 نسب کرنے سے مزاحمت میں $[] []$ پید
+/10 2 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 نصب کرنے سے مزاحمت میں $[] []$ پید
 ا ہوتی ہے جبکہ ان سروں پر $\OT1/ppl/m/n/10 6 []$[]
  []
 
@@ -12616,7 +12614,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1877--1878
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1877--1878
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 فرض کر لیں کہ چونکہ آپ نے دور میں امالہ نس
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 فرض کر لیں کہ چونکہ آپ نے دور میں امالہ نص
 ب نہیں کیا لہٰذا آپ کو اس مسئلے سے واسطہ نہیں ہے چونکہ منبع اور برق گیر کو آپس 
 میں جوڑنے والی تار اذ خود بطور[]
  []
@@ -12728,7 +12726,7 @@ LaTeX Info: Redefining \ttfamily on input line 1977.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1976--1978
 []\TU/JameelNooriNastaleeq(2)/b/n/10 ہو گا۔سوئچ کے متوازی $\OML/zplm/m/it/10 RC
-$ \TU/JameelNooriNastaleeq(2)/b/n/10 نسب کرنے سے بے قابو بڑھتے ہوئے دباو پر قاب
+$ \TU/JameelNooriNastaleeq(2)/b/n/10 نصب کرنے سے بے قابو بڑھتے ہوئے دباو پر قاب
 و پاتے ہوئے دباو کو قابل قبول حد تک محدود کیا جاتا ہے۔قوی برقیات کے[]
  []
 
@@ -13741,7 +13739,7 @@ LaTeX Info: Redefining \ttfamily on input line 726.
 
 Underfull \hbox (badness 10000) in paragraph at lines 726--727
 []\TU/JameelNooriNastaleeq(2)/b/n/10 درج بالا حصے میں ہم نے دیکھا کہ حقیقی جبری
- تفاعل کی جگہ مخلوط جبری تفاعل نسب کرتے ہوئے مخلوط حل حاصل کیا جا سکتا ہے جس کا
+ تفاعل کی جگہ مخلوط جبری تفاعل نصب کرتے ہوئے مخلوط حل حاصل کیا جا سکتا ہے جس کا
  حقیقی جزو حقیقی جبری رد[]
  []
 
@@ -14112,7 +14110,7 @@ LaTeX Info: Redefining \ttfamily on input line 1474.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1473--1475
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مشق  ۸.۹:  صفحہ ۵۹[] پر شکل [][]۲.۲۳[][]
- []میں سلسلہ وار مزاحمت جڑے دکھائے گئے ہیں۔مزاحمتوں کی جگہ رکاوٹ نسب کرتے ہوئے،
+ []میں سلسلہ وار مزاحمت جڑے دکھائے گئے ہیں۔مزاحمتوں کی جگہ رکاوٹ نصب کرتے ہوئے،
  مخلوط دباو اور مخلوط رو کے[]
  []
 
@@ -14788,6 +14786,14 @@ LaTeX Info: Redefining \ttfamily on input line 2580.
 LaTeX Info: Redefining \rmfamily on input line 2580.
 LaTeX Info: Redefining \sffamily on input line 2580.
 LaTeX Info: Redefining \ttfamily on input line 2580.
+
+Underfull \hbox (badness 2189) in paragraph at lines 2584--2585
+[][]\TU/JameelNooriNastaleeq(2)/b/n/10 حل:منبع رو کے متوازی رکاوٹ $\OT1/ppl/m/n
+/10 2 \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 j\OT1/ppl/m/n/10 4$ \TU/JameelNoor
+iNastaleeq(2)/b/n/10 جڑی ہے۔ان کو نارٹن مساوی دور تصور کرتے ہوئے ان کی جگہ تھون
+ن مساوی دور نصب کرتے ہوئے شکل-ب[]
+ []
+
 LaTeX Info: Redefining \rmfamily on input line 2588.
 LaTeX Info: Redefining \sffamily on input line 2588.
 LaTeX Info: Redefining \ttfamily on input line 2588.
@@ -15543,87 +15549,87 @@ LaTeX Info: Redefining \rmfamily on input line 344.
 LaTeX Info: Redefining \sffamily on input line 344.
 LaTeX Info: Redefining \ttfamily on input line 344.
 
-Underfull \hbox (badness 7362) in paragraph at lines 350--353
+Underfull \hbox (badness 7362) in paragraph at lines 350--352
 []\TU/JameelNooriNastaleeq(2)/b/n/10 ہم جانتے ہیں کہ $\OML/zplm/m/it/10 X$ \TU/
 JameelNooriNastaleeq(2)/b/n/10 میں طاقت ضائع نہیں ہوتا لہٰذا اس کو اوسطاً صفر ط
 اقت منتقل ہوتا ہے۔درج بالا مساوات میں کسر کے نسب نما میں $\OML/zplm/m/it/10 X[]
  \OT1/zplm/m/n/10 + \OML/zplm/m/it/10 X[]$[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 356.
-LaTeX Info: Redefining \sffamily on input line 356.
-LaTeX Info: Redefining \ttfamily on input line 356.
-LaTeX Info: Redefining \rmfamily on input line 356.
-LaTeX Info: Redefining \sffamily on input line 356.
-LaTeX Info: Redefining \ttfamily on input line 356.
+LaTeX Info: Redefining \rmfamily on input line 355.
+LaTeX Info: Redefining \sffamily on input line 355.
+LaTeX Info: Redefining \ttfamily on input line 355.
+LaTeX Info: Redefining \rmfamily on input line 355.
+LaTeX Info: Redefining \sffamily on input line 355.
+LaTeX Info: Redefining \ttfamily on input line 355.
 [507]
-Underfull \hbox (badness 10000) in paragraph at lines 359--361
+Underfull \hbox (badness 10000) in paragraph at lines 358--360
 []\TU/JameelNooriNastaleeq(2)/b/n/10 آئیں جانتے ہیں کہ کس قیمت کے $\OML/zplm/m/
 it/10 R[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 کو زیادہ سے زیادہ طاقت منتقل ہو گ
 ی۔یہ جاننے کے لیے درج بالا مساوات کے تفرق کو صفر کے برابر پُر کرتے ہوئے[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 368.
-LaTeX Info: Redefining \sffamily on input line 368.
-LaTeX Info: Redefining \ttfamily on input line 368.
-LaTeX Info: Redefining \rmfamily on input line 368.
-LaTeX Info: Redefining \sffamily on input line 368.
-LaTeX Info: Redefining \ttfamily on input line 368.
+LaTeX Info: Redefining \rmfamily on input line 367.
+LaTeX Info: Redefining \sffamily on input line 367.
+LaTeX Info: Redefining \ttfamily on input line 367.
+LaTeX Info: Redefining \rmfamily on input line 367.
+LaTeX Info: Redefining \sffamily on input line 367.
+LaTeX Info: Redefining \ttfamily on input line 367.
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--369
+Underfull \hbox (badness 10000) in paragraph at lines 366--368
 []\TU/JameelNooriNastaleeq(2)/b/n/10 حاصل ہوتا ہے۔اس نتیجے کے تحت بوجھ کو اس صو
 رت زیادہ سے زیادہ طاقت منتقل ہو گی جب بوجھ کی مزاحمت دور کے تھونن مزاحمت کے برا
 بر ہو۔مساوات[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 375.
-LaTeX Info: Redefining \sffamily on input line 375.
-LaTeX Info: Redefining \ttfamily on input line 375.
-LaTeX Info: Redefining \rmfamily on input line 379.
-LaTeX Info: Redefining \sffamily on input line 379.
-LaTeX Info: Redefining \ttfamily on input line 379.
-LaTeX Info: Redefining \rmfamily on input line 390.
-LaTeX Info: Redefining \sffamily on input line 390.
-LaTeX Info: Redefining \ttfamily on input line 390.
-LaTeX Info: Redefining \rmfamily on input line 426.
-LaTeX Info: Redefining \sffamily on input line 426.
-LaTeX Info: Redefining \ttfamily on input line 426.
-LaTeX Info: Redefining \rmfamily on input line 426.
-LaTeX Info: Redefining \sffamily on input line 426.
-LaTeX Info: Redefining \ttfamily on input line 426.
+LaTeX Info: Redefining \rmfamily on input line 374.
+LaTeX Info: Redefining \sffamily on input line 374.
+LaTeX Info: Redefining \ttfamily on input line 374.
+LaTeX Info: Redefining \rmfamily on input line 378.
+LaTeX Info: Redefining \sffamily on input line 378.
+LaTeX Info: Redefining \ttfamily on input line 378.
+LaTeX Info: Redefining \rmfamily on input line 389.
+LaTeX Info: Redefining \sffamily on input line 389.
+LaTeX Info: Redefining \ttfamily on input line 389.
+LaTeX Info: Redefining \rmfamily on input line 425.
+LaTeX Info: Redefining \sffamily on input line 425.
+LaTeX Info: Redefining \ttfamily on input line 425.
+LaTeX Info: Redefining \rmfamily on input line 425.
+LaTeX Info: Redefining \sffamily on input line 425.
+LaTeX Info: Redefining \ttfamily on input line 425.
 
-Underfull \hbox (badness 10000) in paragraph at lines 389--429
+Underfull \hbox (badness 10000) in paragraph at lines 388--428
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مثال  ۹.۵: []شکل [][]۹.۱۱[][] []میں بوجھ
  کے رکاوٹ کی وہ قیمت دریافت کریں جس پر بوجھ کو زیادہ سے زیادہ طاقت منتقل ہو گا۔
 اس طاقت کی قیمت بھی دریافت[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--431
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 حل:سب سے پہلے بوجھ کو ہٹاتے ہوئے بقایا د
 ور کا تھونن مساوی حاصل کرنا ہو گا۔شکل-ب میں منبع دباو کو قصر دور کیا گیا ہے تا 
 کہ تھونن مزاحمت حاصل کی جا[]
  []
 
 [508] [509]
-LaTeX Info: Redefining \rmfamily on input line 455.
-LaTeX Info: Redefining \sffamily on input line 455.
-LaTeX Info: Redefining \ttfamily on input line 455.
+LaTeX Info: Redefining \rmfamily on input line 454.
+LaTeX Info: Redefining \sffamily on input line 454.
+LaTeX Info: Redefining \ttfamily on input line 454.
 \absvshift=\dimen532
 \absvshift=\dimen533
 \absvshift=\dimen534
-LaTeX Info: Redefining \rmfamily on input line 499.
-LaTeX Info: Redefining \sffamily on input line 499.
-LaTeX Info: Redefining \ttfamily on input line 499.
-LaTeX Info: Redefining \rmfamily on input line 499.
-LaTeX Info: Redefining \sffamily on input line 499.
-LaTeX Info: Redefining \ttfamily on input line 499.
+LaTeX Info: Redefining \rmfamily on input line 498.
+LaTeX Info: Redefining \sffamily on input line 498.
+LaTeX Info: Redefining \ttfamily on input line 498.
+LaTeX Info: Redefining \rmfamily on input line 498.
+LaTeX Info: Redefining \sffamily on input line 498.
+LaTeX Info: Redefining \ttfamily on input line 498.
 
 
-LaTeX Warning: Float too large for page by 113.94794pt on input line 501.
+LaTeX Warning: Float too large for page by 113.94794pt on input line 500.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--502
+Underfull \hbox (badness 10000) in paragraph at lines 453--501
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مثال  ۹.۶: []شکل [][]۹.۱۲[][] []میں بوجھ
  کے رکاوٹ $\OML/cmm/b/it/10 Z[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 کی وہ قیمت 
 دریافت کریں جس پر اس کو زیادہ سے زیادہ اوسط طاقت منتقل ہو گا۔اس طاقت کو تخمینہ 
@@ -15631,58 +15637,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 454--502
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 503--504
+Underfull \hbox (badness 10000) in paragraph at lines 502--503
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 حل:بوجھ کے ساتھ جڑے دور کا تھونن مساوی ح
 اصل کرتے ہیں۔شکل-ب سے نارٹن دباو $[]$ حاصل ہو گا۔شکل-ب کے بائیں دائرے کی مساوات
  لکھتے[]
  []
 
 [510] [511] [512]
-LaTeX Info: Redefining \rmfamily on input line 552.
-LaTeX Info: Redefining \sffamily on input line 552.
-LaTeX Info: Redefining \ttfamily on input line 552.
-LaTeX Info: Redefining \rmfamily on input line 559.
-LaTeX Info: Redefining \sffamily on input line 559.
-LaTeX Info: Redefining \ttfamily on input line 559.
-LaTeX Info: Redefining \rmfamily on input line 559.
-LaTeX Info: Redefining \sffamily on input line 559.
-LaTeX Info: Redefining \ttfamily on input line 559.
+LaTeX Info: Redefining \rmfamily on input line 551.
+LaTeX Info: Redefining \sffamily on input line 551.
+LaTeX Info: Redefining \ttfamily on input line 551.
+LaTeX Info: Redefining \rmfamily on input line 558.
+LaTeX Info: Redefining \sffamily on input line 558.
+LaTeX Info: Redefining \ttfamily on input line 558.
+LaTeX Info: Redefining \rmfamily on input line 558.
+LaTeX Info: Redefining \sffamily on input line 558.
+LaTeX Info: Redefining \ttfamily on input line 558.
 
-Underfull \hbox (badness 10000) in paragraph at lines 551--562
+Underfull \hbox (badness 10000) in paragraph at lines 550--561
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مشق  ۹.۶: []شکل [][]۹.۱۳[][] []میں بوجھ 
 $\OML/cmm/b/it/10 Z[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 کے رکاوٹ کی وہ قیمت د
 ریافت کریں جس پر بوجھ کو زیادہ سے زیادہ اوسط طاقت منتقل ہو گا۔زیادہ سے زیادہ من
 تقل[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 567.
-LaTeX Info: Redefining \sffamily on input line 567.
-LaTeX Info: Redefining \ttfamily on input line 567.
-LaTeX Info: Redefining \rmfamily on input line 574.
-LaTeX Info: Redefining \sffamily on input line 574.
-LaTeX Info: Redefining \ttfamily on input line 574.
-LaTeX Info: Redefining \rmfamily on input line 574.
-LaTeX Info: Redefining \sffamily on input line 574.
-LaTeX Info: Redefining \ttfamily on input line 574.
+LaTeX Info: Redefining \rmfamily on input line 566.
+LaTeX Info: Redefining \sffamily on input line 566.
+LaTeX Info: Redefining \ttfamily on input line 566.
+LaTeX Info: Redefining \rmfamily on input line 573.
+LaTeX Info: Redefining \sffamily on input line 573.
+LaTeX Info: Redefining \ttfamily on input line 573.
+LaTeX Info: Redefining \rmfamily on input line 573.
+LaTeX Info: Redefining \sffamily on input line 573.
+LaTeX Info: Redefining \ttfamily on input line 573.
 
-Underfull \hbox (badness 10000) in paragraph at lines 566--577
+Underfull \hbox (badness 10000) in paragraph at lines 565--576
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مشق  ۹.۷: []شکل [][]۹.۱۴[][] []میں بوجھ 
 $\OML/cmm/b/it/10 Z[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 کے رکاوٹ کی وہ قیمت د
 ریافت کریں جس پر بوجھ کو زیادہ سے زیادہ اوسط طاقت منتقل ہو گا۔زیادہ سے زیادہ من
 تقل[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 582.
-LaTeX Info: Redefining \sffamily on input line 582.
-LaTeX Info: Redefining \ttfamily on input line 582.
-LaTeX Info: Redefining \rmfamily on input line 591.
-LaTeX Info: Redefining \sffamily on input line 591.
-LaTeX Info: Redefining \ttfamily on input line 591.
-LaTeX Info: Redefining \rmfamily on input line 591.
-LaTeX Info: Redefining \sffamily on input line 591.
-LaTeX Info: Redefining \ttfamily on input line 591.
+LaTeX Info: Redefining \rmfamily on input line 581.
+LaTeX Info: Redefining \sffamily on input line 581.
+LaTeX Info: Redefining \ttfamily on input line 581.
+LaTeX Info: Redefining \rmfamily on input line 590.
+LaTeX Info: Redefining \sffamily on input line 590.
+LaTeX Info: Redefining \ttfamily on input line 590.
+LaTeX Info: Redefining \rmfamily on input line 590.
+LaTeX Info: Redefining \sffamily on input line 590.
+LaTeX Info: Redefining \ttfamily on input line 590.
 
-Underfull \hbox (badness 10000) in paragraph at lines 581--594
+Underfull \hbox (badness 10000) in paragraph at lines 580--593
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مشق  ۹.۸: []شکل [][]۹.۱۵[][] []میں بوجھ 
 $\OML/cmm/b/it/10 Z[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 کے رکاوٹ کی وہ قیمت د
 ریافت کریں جس پر بوجھ کو زیادہ سے زیادہ اوسط طاقت منتقل ہو گا۔زیادہ سے زیادہ من
@@ -15690,17 +15696,17 @@ $\OML/cmm/b/it/10 Z[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 کے رکاوٹ کی �
  []
 
 [513]
-LaTeX Info: Redefining \rmfamily on input line 599.
-LaTeX Info: Redefining \sffamily on input line 599.
-LaTeX Info: Redefining \ttfamily on input line 599.
-LaTeX Info: Redefining \rmfamily on input line 607.
-LaTeX Info: Redefining \sffamily on input line 607.
-LaTeX Info: Redefining \ttfamily on input line 607.
-LaTeX Info: Redefining \rmfamily on input line 607.
-LaTeX Info: Redefining \sffamily on input line 607.
-LaTeX Info: Redefining \ttfamily on input line 607.
+LaTeX Info: Redefining \rmfamily on input line 598.
+LaTeX Info: Redefining \sffamily on input line 598.
+LaTeX Info: Redefining \ttfamily on input line 598.
+LaTeX Info: Redefining \rmfamily on input line 606.
+LaTeX Info: Redefining \sffamily on input line 606.
+LaTeX Info: Redefining \ttfamily on input line 606.
+LaTeX Info: Redefining \rmfamily on input line 606.
+LaTeX Info: Redefining \sffamily on input line 606.
+LaTeX Info: Redefining \ttfamily on input line 606.
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--610
+Underfull \hbox (badness 10000) in paragraph at lines 597--609
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مشق  ۹.۹: []شکل [][]۹.۱۶[][] []میں بوجھ 
 $\OML/cmm/b/it/10 Z[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 کے رکاوٹ کی وہ قیمت د
 ریافت کریں جس پر بوجھ کو زیادہ سے زیادہ اوسط طاقت منتقل ہو گا۔زیادہ سے زیادہ من
@@ -15708,7 +15714,7 @@ $\OML/cmm/b/it/10 Z[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 کے رکاوٹ کی �
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 616--617
+Underfull \hbox (badness 10000) in paragraph at lines 615--616
 []\TU/JameelNooriNastaleeq(2)/b/n/10 یک سمت رو ادوار پر ہم تفصیلاً غور کر چکے ہ
 یں جہاں ہم نے دیکھا کہ مزاحمت $\OML/zplm/m/it/10 R$ \TU/JameelNooriNastaleeq(2)
 /b/n/10 میں یک سمت رو $\OML/zplm/m/it/10 I$ \TU/JameelNooriNastaleeq(2)/b/n/10 
@@ -15717,7 +15723,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 616--617
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 616--617
+Underfull \hbox (badness 10000) in paragraph at lines 615--616
 []\TU/JameelNooriNastaleeq(2)/b/n/10 ہے۔یک سمت رو کی مقدار تبدیل نہیں ہوتی لہٰذ
 ا مزاحمت کو ہر لمحہ برقرار $\OML/zplm/m/it/10 I[]R$ \TU/JameelNooriNastaleeq(2)
 /b/n/10 طاقت فراہم ہوتا ہے۔ غیر تغیر طاقت کا اوسط بھی $\OML/zplm/m/it/10 I[]R$ 
@@ -15725,14 +15731,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 616--617
  []
 
 
-Underfull \hbox (badness 6625) in paragraph at lines 616--617
+Underfull \hbox (badness 6625) in paragraph at lines 615--616
 []\TU/JameelNooriNastaleeq(2)/b/n/10 منتقل اوسط طاقت $[]$ حاصل ہوتا ہے۔یوں $\OM
 L/zplm/m/it/10 I[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 حیطے کی سائن نما رو مزاح
 مت کو $[]$ قیمت کے یک سمت رو برابر طاقت فراہم کرتا ہے۔ہم کہہ سکتے ہیں[]
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 616--617
+Underfull \hbox (badness 2142) in paragraph at lines 615--616
 []\TU/JameelNooriNastaleeq(2)/b/n/10 کہ $\OML/zplm/m/it/10 I[]$ \TU/JameelNoori
 Nastaleeq(2)/b/n/10 حیطے کی سائن نما رو کی \TU/AASameerSagarNastaleeqBold(0)/m/
 n/10 موثر \TU/JameelNooriNastaleeq(2)/b/n/10 قیمت $[]$ ہے۔اسی طرح کسی بھی شکل ک
@@ -15745,37 +15751,37 @@ Underfull \vbox (badness 2689) has occurred while \output is active []
 
  [514]
 [515]
-LaTeX Info: Redefining \rmfamily on input line 634.
-LaTeX Info: Redefining \sffamily on input line 634.
-LaTeX Info: Redefining \ttfamily on input line 634.
+LaTeX Info: Redefining \rmfamily on input line 633.
+LaTeX Info: Redefining \sffamily on input line 633.
+LaTeX Info: Redefining \ttfamily on input line 633.
 
-Underfull \hbox (badness 10000) in paragraph at lines 636--637
+Underfull \hbox (badness 10000) in paragraph at lines 635--636
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 موثر دباو کو بھی اسی طرح حاصل کیا جا سکت
 ا ہے۔مزاحمت $\OML/zplm/m/it/10 R$ \TU/JameelNooriNastaleeq(2)/b/n/10 کے متوازی 
 دباو $\OML/zplm/m/it/10 v\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 
-)$ \TU/JameelNooriNastaleeq(2)/b/n/10 نسب کرنے سے مزاحمت کو لمحاتی طور پر $[]$ 
+)$ \TU/JameelNooriNastaleeq(2)/b/n/10 نصب کرنے سے مزاحمت کو لمحاتی طور پر $[]$ 
 طاقت منتقل ہو[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 647--650
+Underfull \hbox (badness 10000) in paragraph at lines 646--649
 []\TU/JameelNooriNastaleeq(2)/b/n/10 آئیں ان مساوات کی مدد سے چند امواج کی موثر
  قیمتیں دریافت کریں۔درج بالا مساوات سے آپ دیکھ سکتے ہیں کہ سائن نما موج کی موثر
  قیمت حاصل کرنے کی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 647--650
+Underfull \hbox (badness 10000) in paragraph at lines 646--649
 []\TU/JameelNooriNastaleeq(2)/b/n/10 خاطر مربع حیطہ کی اوسط کا جذر لیا جاتا ہے۔
 دباو اور رو کے موثر قیمتوں کو عموماً $[]$ اور $[]$ لکھا جاتا ہے۔آخر میں یاد رہے
  کہ جذر کا مثبت جواب موثر[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 653.
-LaTeX Info: Redefining \sffamily on input line 653.
-LaTeX Info: Redefining \ttfamily on input line 653.
+LaTeX Info: Redefining \rmfamily on input line 652.
+LaTeX Info: Redefining \sffamily on input line 652.
+LaTeX Info: Redefining \ttfamily on input line 652.
 [516]
-Underfull \hbox (badness 10000) in paragraph at lines 679--681
+Underfull \hbox (badness 10000) in paragraph at lines 678--680
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مثال  ۹.۸:  ہمارے ملک پاکستان میں $\OT1/
 ppl/m/n/10 50 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 تعدد اور $\OT1/ppl/m/n/10 
 220 V$ \TU/JameelNooriNastaleeq(2)/b/n/10 تا $\OT1/ppl/m/n/10 240 V$ \TU/Jameel
@@ -15783,38 +15789,38 @@ NooriNastaleeq(2)/b/n/10 موثر قیمت کا سائن نما برقی دبا�
 کا جاتا ہے۔دباو کا[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 682.
-LaTeX Info: Redefining \sffamily on input line 682.
-LaTeX Info: Redefining \ttfamily on input line 682.
-LaTeX Info: Redefining \rmfamily on input line 697.
-LaTeX Info: Redefining \sffamily on input line 697.
-LaTeX Info: Redefining \ttfamily on input line 697.
+LaTeX Info: Redefining \rmfamily on input line 681.
+LaTeX Info: Redefining \sffamily on input line 681.
+LaTeX Info: Redefining \ttfamily on input line 681.
+LaTeX Info: Redefining \rmfamily on input line 696.
+LaTeX Info: Redefining \sffamily on input line 696.
+LaTeX Info: Redefining \ttfamily on input line 696.
 [517]
-Underfull \hbox (badness 10000) in paragraph at lines 702--704
+Underfull \hbox (badness 10000) in paragraph at lines 701--703
 []\TU/JameelNooriNastaleeq(2)/b/n/10 بدلتا رو مشینوں کے دباو اور رو کی عموماً م
 وثر قیمتیں بیان کی جاتی ہیں۔یوں $\OT1/ppl/m/n/10 230 V$ \TU/JameelNooriNastalee
 q(2)/b/n/10 پر چلنے والا گھریلو پنکھا درحقیقت $\OT1/ppl/m/n/10 230 V$ \TU/Jamee
 lNooriNastaleeq(2)/b/n/10 کے موثر دباو پر چلے گا۔اس[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 705.
-LaTeX Info: Redefining \sffamily on input line 705.
-LaTeX Info: Redefining \ttfamily on input line 705.
-LaTeX Info: Redefining \rmfamily on input line 722.
-LaTeX Info: Redefining \sffamily on input line 722.
-LaTeX Info: Redefining \ttfamily on input line 722.
+LaTeX Info: Redefining \rmfamily on input line 704.
+LaTeX Info: Redefining \sffamily on input line 704.
+LaTeX Info: Redefining \ttfamily on input line 704.
+LaTeX Info: Redefining \rmfamily on input line 721.
+LaTeX Info: Redefining \sffamily on input line 721.
+LaTeX Info: Redefining \ttfamily on input line 721.
 Missing character: There is no ; ("3B) in font nullfont!
-LaTeX Info: Redefining \rmfamily on input line 737.
-LaTeX Info: Redefining \sffamily on input line 737.
-LaTeX Info: Redefining \ttfamily on input line 737.
-LaTeX Info: Redefining \rmfamily on input line 737.
-LaTeX Info: Redefining \sffamily on input line 737.
-LaTeX Info: Redefining \ttfamily on input line 737.
-LaTeX Info: Redefining \rmfamily on input line 741.
-LaTeX Info: Redefining \sffamily on input line 741.
-LaTeX Info: Redefining \ttfamily on input line 741.
+LaTeX Info: Redefining \rmfamily on input line 736.
+LaTeX Info: Redefining \sffamily on input line 736.
+LaTeX Info: Redefining \ttfamily on input line 736.
+LaTeX Info: Redefining \rmfamily on input line 736.
+LaTeX Info: Redefining \sffamily on input line 736.
+LaTeX Info: Redefining \ttfamily on input line 736.
+LaTeX Info: Redefining \rmfamily on input line 740.
+LaTeX Info: Redefining \sffamily on input line 740.
+LaTeX Info: Redefining \ttfamily on input line 740.
 
-Underfull \hbox (badness 10000) in paragraph at lines 741--742
+Underfull \hbox (badness 10000) in paragraph at lines 740--741
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 حل:یہاں دوری عرصہ $\OML/zplm/m/it/10 T$ 
 \TU/JameelNooriNastaleeq(2)/b/n/10 ہے جس میں $\OML/zplm/m/it/10 t[]$ \TU/Jameel
 NooriNastaleeq(2)/b/n/10 مدت کے لیے دباو پایا جاتا ہے جبکہ $\OML/zplm/m/it/10 T
@@ -15823,19 +15829,19 @@ NooriNastaleeq(2)/b/n/10 مدت کے لیے دباو پایا جاتا ہے جب
  []
 
 [518]
-LaTeX Info: Redefining \rmfamily on input line 765.
-LaTeX Info: Redefining \sffamily on input line 765.
-LaTeX Info: Redefining \ttfamily on input line 765.
+LaTeX Info: Redefining \rmfamily on input line 764.
+LaTeX Info: Redefining \sffamily on input line 764.
+LaTeX Info: Redefining \ttfamily on input line 764.
 
 Missing character: There is no ; ("3B) in font nullfont!
-LaTeX Info: Redefining \rmfamily on input line 781.
-LaTeX Info: Redefining \sffamily on input line 781.
-LaTeX Info: Redefining \ttfamily on input line 781.
-LaTeX Info: Redefining \rmfamily on input line 781.
-LaTeX Info: Redefining \sffamily on input line 781.
-LaTeX Info: Redefining \ttfamily on input line 781.
+LaTeX Info: Redefining \rmfamily on input line 780.
+LaTeX Info: Redefining \sffamily on input line 780.
+LaTeX Info: Redefining \ttfamily on input line 780.
+LaTeX Info: Redefining \rmfamily on input line 780.
+LaTeX Info: Redefining \sffamily on input line 780.
+LaTeX Info: Redefining \ttfamily on input line 780.
 
-Underfull \hbox (badness 10000) in paragraph at lines 764--784
+Underfull \hbox (badness 10000) in paragraph at lines 763--783
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مثال  ۹.۱۰: []شکل [][]۹.۱۸[][] []میں $\O
 ML/zplm/m/it/10 D$ \TU/JameelNooriNastaleeq(2)/b/n/10 کی قیمت $\OT1/ppl/m/n/10 
 30 %$\TU/JameelNooriNastaleeq(2)/b/n/10 ، $\OT1/ppl/m/n/10 50 %$ \TU/JameelNoor
@@ -15844,20 +15850,20 @@ iNastaleeq(2)/b/n/10 اور $\OT1/ppl/m/n/10 70 %$ \TU/JameelNooriNastaleeq(2)/b
  []
 
 [519] [520]
-LaTeX Info: Redefining \rmfamily on input line 810.
-LaTeX Info: Redefining \sffamily on input line 810.
-LaTeX Info: Redefining \ttfamily on input line 810.
+LaTeX Info: Redefining \rmfamily on input line 809.
+LaTeX Info: Redefining \sffamily on input line 809.
+LaTeX Info: Redefining \ttfamily on input line 809.
 
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
-LaTeX Info: Redefining \rmfamily on input line 826.
-LaTeX Info: Redefining \sffamily on input line 826.
-LaTeX Info: Redefining \ttfamily on input line 826.
-LaTeX Info: Redefining \rmfamily on input line 826.
-LaTeX Info: Redefining \sffamily on input line 826.
-LaTeX Info: Redefining \ttfamily on input line 826.
+LaTeX Info: Redefining \rmfamily on input line 825.
+LaTeX Info: Redefining \sffamily on input line 825.
+LaTeX Info: Redefining \ttfamily on input line 825.
+LaTeX Info: Redefining \rmfamily on input line 825.
+LaTeX Info: Redefining \sffamily on input line 825.
+LaTeX Info: Redefining \ttfamily on input line 825.
 
-Underfull \hbox (badness 10000) in paragraph at lines 830--831
+Underfull \hbox (badness 10000) in paragraph at lines 829--830
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 حل:یہاں دباو مسلسل تبدیل ہو رہا ہے لہٰذا
  اس کے خط کی مساوات درکار ہو گی۔دباو کا سیدھا خط $\OT1/zplm/m/n/10 (\OT1/ppl/m/
 n/10 0, 0\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(2)/b/n/10 تا $\OT1/zplm/m
@@ -15869,51 +15875,51 @@ n/10 0, 0\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(2)/b/n/10 تا $\OT1/zplm/
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [521]
-LaTeX Info: Redefining \rmfamily on input line 852.
-LaTeX Info: Redefining \sffamily on input line 852.
-LaTeX Info: Redefining \ttfamily on input line 852.
+LaTeX Info: Redefining \rmfamily on input line 851.
+LaTeX Info: Redefining \sffamily on input line 851.
+LaTeX Info: Redefining \ttfamily on input line 851.
 
 Missing character: There is no ; ("3B) in font nullfont!
-LaTeX Info: Redefining \rmfamily on input line 869.
-LaTeX Info: Redefining \sffamily on input line 869.
-LaTeX Info: Redefining \ttfamily on input line 869.
-LaTeX Info: Redefining \rmfamily on input line 869.
-LaTeX Info: Redefining \sffamily on input line 869.
-LaTeX Info: Redefining \ttfamily on input line 869.
-LaTeX Info: Redefining \rmfamily on input line 877.
-LaTeX Info: Redefining \sffamily on input line 877.
-LaTeX Info: Redefining \ttfamily on input line 877.
+LaTeX Info: Redefining \rmfamily on input line 868.
+LaTeX Info: Redefining \sffamily on input line 868.
+LaTeX Info: Redefining \ttfamily on input line 868.
+LaTeX Info: Redefining \rmfamily on input line 868.
+LaTeX Info: Redefining \sffamily on input line 868.
+LaTeX Info: Redefining \ttfamily on input line 868.
+LaTeX Info: Redefining \rmfamily on input line 876.
+LaTeX Info: Redefining \sffamily on input line 876.
+LaTeX Info: Redefining \ttfamily on input line 876.
 Missing character: There is no ; ("3B) in font nullfont!
-LaTeX Info: Redefining \rmfamily on input line 896.
-LaTeX Info: Redefining \sffamily on input line 896.
-LaTeX Info: Redefining \ttfamily on input line 896.
-LaTeX Info: Redefining \rmfamily on input line 896.
-LaTeX Info: Redefining \sffamily on input line 896.
-LaTeX Info: Redefining \ttfamily on input line 896.
+LaTeX Info: Redefining \rmfamily on input line 895.
+LaTeX Info: Redefining \sffamily on input line 895.
+LaTeX Info: Redefining \ttfamily on input line 895.
+LaTeX Info: Redefining \rmfamily on input line 895.
+LaTeX Info: Redefining \sffamily on input line 895.
+LaTeX Info: Redefining \ttfamily on input line 895.
 [522]
-LaTeX Info: Redefining \rmfamily on input line 904.
-LaTeX Info: Redefining \sffamily on input line 904.
-LaTeX Info: Redefining \ttfamily on input line 904.
-LaTeX Info: Redefining \rmfamily on input line 921.
-LaTeX Info: Redefining \sffamily on input line 921.
-LaTeX Info: Redefining \ttfamily on input line 921.
-LaTeX Info: Redefining \rmfamily on input line 921.
-LaTeX Info: Redefining \sffamily on input line 921.
-LaTeX Info: Redefining \ttfamily on input line 921.
-LaTeX Info: Redefining \rmfamily on input line 930.
-LaTeX Info: Redefining \sffamily on input line 930.
-LaTeX Info: Redefining \ttfamily on input line 930.
+LaTeX Info: Redefining \rmfamily on input line 903.
+LaTeX Info: Redefining \sffamily on input line 903.
+LaTeX Info: Redefining \ttfamily on input line 903.
+LaTeX Info: Redefining \rmfamily on input line 920.
+LaTeX Info: Redefining \sffamily on input line 920.
+LaTeX Info: Redefining \ttfamily on input line 920.
+LaTeX Info: Redefining \rmfamily on input line 920.
+LaTeX Info: Redefining \sffamily on input line 920.
+LaTeX Info: Redefining \ttfamily on input line 920.
+LaTeX Info: Redefining \rmfamily on input line 929.
+LaTeX Info: Redefining \sffamily on input line 929.
+LaTeX Info: Redefining \ttfamily on input line 929.
+LaTeX Info: Redefining \rmfamily on input line 933.
+LaTeX Info: Redefining \sffamily on input line 933.
+LaTeX Info: Redefining \ttfamily on input line 933.
 LaTeX Info: Redefining \rmfamily on input line 934.
 LaTeX Info: Redefining \sffamily on input line 934.
 LaTeX Info: Redefining \ttfamily on input line 934.
 LaTeX Info: Redefining \rmfamily on input line 935.
 LaTeX Info: Redefining \sffamily on input line 935.
 LaTeX Info: Redefining \ttfamily on input line 935.
-LaTeX Info: Redefining \rmfamily on input line 936.
-LaTeX Info: Redefining \sffamily on input line 936.
-LaTeX Info: Redefining \ttfamily on input line 936.
 
-Underfull \hbox (badness 10000) in paragraph at lines 933--937
+Underfull \hbox (badness 10000) in paragraph at lines 932--936
 []\TU/JameelNooriNastaleeq(2)/b/n/10 اس مساوات میں $[][]$ کے حاصل ضرب کو \TU/AA
 SameerSagarNastaleeqBold(0)/m/n/10 ظاہری طاقت[][]  \TU/JameelNooriNastaleeq(2)/
 b/n/10 کہا جاتا ہے جبکہ $\OML/zplm/m/it/10 P$ \TU/JameelNooriNastaleeq(2)/b/n/1
@@ -15923,7 +15929,7 @@ staleeq(2)/b/n/10 کہا جاتا ہے۔ظاہری طاقت کو \TU/AASameerSag
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 933--937
+Underfull \hbox (badness 10000) in paragraph at lines 932--936
 []\TU/JameelNooriNastaleeq(2)/b/n/10 بھی حقیقت میں وولٹ ایمپیئر $\OT1/ppl/m/n/1
 0 V A$ \TU/JameelNooriNastaleeq(2)/b/n/10 ہی ہے جسے واٹ $\OT1/ppl/m/n/10 W$ \TU
 /JameelNooriNastaleeq(2)/b/n/10 کا خصوصی نام دیا گیا ہے۔حقیقی طاقت اور ظاہری طا
@@ -15931,26 +15937,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 933--937
  []
 
 [523]
-LaTeX Info: Redefining \rmfamily on input line 938.
-LaTeX Info: Redefining \sffamily on input line 938.
-LaTeX Info: Redefining \ttfamily on input line 938.
+LaTeX Info: Redefining \rmfamily on input line 937.
+LaTeX Info: Redefining \sffamily on input line 937.
+LaTeX Info: Redefining \ttfamily on input line 937.
+LaTeX Info: Redefining \rmfamily on input line 945.
+LaTeX Info: Redefining \sffamily on input line 945.
+LaTeX Info: Redefining \ttfamily on input line 945.
+LaTeX Info: Redefining \rmfamily on input line 945.
+LaTeX Info: Redefining \sffamily on input line 945.
+LaTeX Info: Redefining \ttfamily on input line 945.
 LaTeX Info: Redefining \rmfamily on input line 946.
 LaTeX Info: Redefining \sffamily on input line 946.
 LaTeX Info: Redefining \ttfamily on input line 946.
 LaTeX Info: Redefining \rmfamily on input line 946.
 LaTeX Info: Redefining \sffamily on input line 946.
 LaTeX Info: Redefining \ttfamily on input line 946.
-LaTeX Info: Redefining \rmfamily on input line 947.
-LaTeX Info: Redefining \sffamily on input line 947.
-LaTeX Info: Redefining \ttfamily on input line 947.
-LaTeX Info: Redefining \rmfamily on input line 947.
-LaTeX Info: Redefining \sffamily on input line 947.
-LaTeX Info: Redefining \ttfamily on input line 947.
-LaTeX Info: Redefining \rmfamily on input line 947.
-LaTeX Info: Redefining \sffamily on input line 947.
-LaTeX Info: Redefining \ttfamily on input line 947.
+LaTeX Info: Redefining \rmfamily on input line 946.
+LaTeX Info: Redefining \sffamily on input line 946.
+LaTeX Info: Redefining \ttfamily on input line 946.
 
-Underfull \hbox (badness 10000) in paragraph at lines 945--948
+Underfull \hbox (badness 10000) in paragraph at lines 944--947
 []\TU/JameelNooriNastaleeq(2)/b/n/10 کے برابر ہے۔زاویہ $\OML/zplm/m/it/10 ^^R[]
  \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 ^^R[]$ \TU/JameelNooriNastaleeq(2)/b/n/
 10 درحقیقت بوجھ کے رکاوٹ کا زاویہ ہٹاو $\OML/zplm/m/it/10 ^^R[]$ \TU/JameelNoor
@@ -15959,7 +15965,7 @@ iNastaleeq(2)/b/n/10 ہے اور اسے \TU/AASameerSagarNastaleeqBold(0)/m/n/10
  []
 
 
-Underfull \hbox (badness 6157) in paragraph at lines 945--948
+Underfull \hbox (badness 6157) in paragraph at lines 944--947
 []$[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 ^^R[] \OMS/zplm/m/n/10 ^^@ \OML/zplm/m
 /it/10 ^^R[]\OT1/zplm/m/n/10 ) = [](\OML/zplm/m/it/10 ^^R[] \OMS/zplm/m/n/10 ^^
 @ \OML/zplm/m/it/10 ^^R[]\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(2)/b/n/10
@@ -15969,7 +15975,7 @@ SameerSagarNastaleeqBold(0)/m/n/10 پیچھے جزو[]
  []
 
 
-Underfull \hbox (badness 2573) in paragraph at lines 945--948
+Underfull \hbox (badness 2573) in paragraph at lines 944--947
 []\TU/AASameerSagarNastaleeqBold(0)/m/n/10 طاقت[][] \TU/JameelNooriNastaleeq(2)
 /b/n/10 کہا جاتا ہے جبکہ برق گیر بوجھ کی صورت میں اس کو \TU/AASameerSagarNastal
 eeqBold(0)/m/n/10 برق گیر جزو طاقت[][] \TU/JameelNooriNastaleeq(2)/b/n/10 یا \T
@@ -15978,7 +15984,7 @@ q(2)/b/n/10 کہا جاتا ہے۔اسی طرح امالی بوجھ کی صور�
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 945--948
+Underfull \hbox (badness 1331) in paragraph at lines 944--947
 []\TU/JameelNooriNastaleeq(2)/b/n/10 زاویہ جزو طاقت کو \TU/AASameerSagarNastale
 eqBold(0)/m/n/10 امالی زاویہ جزو طاقت \TU/JameelNooriNastaleeq(2)/b/n/10 یا \TU
 /AASameerSagarNastaleeqBold(0)/m/n/10 پیچھے زاویہ جزو طاقت \TU/JameelNooriNasta
@@ -15988,7 +15994,7 @@ rNastaleeqBold(0)/m/n/10 برق گیر زاویہ جزو طاقت \TU/JameelNoor
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 949--950
+Underfull \hbox (badness 1609) in paragraph at lines 948--949
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مزاحمتی بوجھ کا $\OML/zplm/m/it/10 ^^R[]
  \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 0[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 ہوت
 ا ہے لہٰذا مزاحمتی بوجھ کا جزو طاقت $[] \OML/zplm/m/it/10 ^^R[] \OT1/zplm/m/n/1
@@ -15998,7 +16004,7 @@ iNastaleeq(2)/b/n/10 ہے لہٰذا اس کا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 949--950
+Underfull \hbox (badness 10000) in paragraph at lines 948--949
 []$\OT1/ppl/m/n/10 90[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 ممکن ہے لہٰذا ایسے 
 دور کا امالی جزو طاقت $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(2)/b/n/10 تا
  $\OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(2)/b/n/10 ممکن ہے۔اسی طرح برق گیر
@@ -16008,7 +16014,7 @@ riNastaleeq(2)/b/n/10 ممکن ہے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 949--950
+Underfull \hbox (badness 10000) in paragraph at lines 948--949
 []\TU/JameelNooriNastaleeq(2)/b/n/10 لہٰذا ایسے دور کا برق گیر جزو طاقت $\OT1/p
 pl/m/n/10 1$ \TU/JameelNooriNastaleeq(2)/b/n/10 تا $\OT1/ppl/m/n/10 0$ \TU/Jame
 elNooriNastaleeq(2)/b/n/10 ممکن ہے۔مزاحمت، امالہ اور برق گیر پر مبنی دور کے رکا
@@ -16018,7 +16024,7 @@ T1/ppl/m/n/10 90$ \TU/JameelNooriNastaleeq(2)/b/n/10 ممکن ہے لہٰذا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 951--953
+Underfull \hbox (badness 10000) in paragraph at lines 950--952
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 آگے زاویہ اور پیچھے زاویہ سے مراد دباو ک
 ے لہٰذا سے رو کا زاویہ ہے۔چونکہ امالی دور میں دباو سے رو پیچھے رہتی ہے لہٰذا ای
 سے ادوار \TU/AASameerSagarNastaleeqBold(0)/m/n/10 پیچھے ادوار \TU/JameelNooriNa
@@ -16026,7 +16032,7 @@ staleeq(2)/b/n/10 کہلاتے ہیں اور[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 951--953
+Underfull \hbox (badness 10000) in paragraph at lines 950--952
 []\TU/JameelNooriNastaleeq(2)/b/n/10 ان کا زاویہ اور جزو طاقت بھی \TU/AASameerS
 agarNastaleeqBold(0)/m/n/10 پیچھے \TU/JameelNooriNastaleeq(2)/b/n/10 کہلاتے ہیں
 ۔اس کے برعکس برق گیر دور میں دباو سے رو آگے رہتی ہے لہٰذا ان ادوار کو \TU/AASam
@@ -16035,114 +16041,114 @@ eerSagarNastaleeqBold(0)/m/n/10 آگے ادوار \TU/JameelNooriNastaleeq(2)/b/
  []
 
 [524]
-LaTeX Info: Redefining \rmfamily on input line 954.
-LaTeX Info: Redefining \sffamily on input line 954.
-LaTeX Info: Redefining \ttfamily on input line 954.
+LaTeX Info: Redefining \rmfamily on input line 953.
+LaTeX Info: Redefining \sffamily on input line 953.
+LaTeX Info: Redefining \ttfamily on input line 953.
 \absvshift=\dimen535
 
-Underfull \hbox (badness 10000) in paragraph at lines 953--963
+Underfull \hbox (badness 10000) in paragraph at lines 952--962
 []\TU/JameelNooriNastaleeq(2)/b/n/10 بوجھ تک \TU/AASameerSagarNastaleeqBold(0)/
 m/n/10 ترسیلی تاروں[][] [][] \TU/JameelNooriNastaleeq(2)/b/n/10 کے ذریعہ پہنچای
 ا جاتا ہے۔ترسیلی تار کی مزاحمت $\OT1/ppl/m/n/10 0.06 []$ \TU/JameelNooriNastale
 eq(2)/b/n/10 ہے۔ترسیلی تار میں طاقت کا ضیاع دریافت کریں۔منبع طاقت کتنا[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 964.
-LaTeX Info: Redefining \sffamily on input line 964.
-LaTeX Info: Redefining \ttfamily on input line 964.
-LaTeX Info: Redefining \rmfamily on input line 964.
-LaTeX Info: Redefining \sffamily on input line 964.
-LaTeX Info: Redefining \ttfamily on input line 964.
+LaTeX Info: Redefining \rmfamily on input line 963.
+LaTeX Info: Redefining \sffamily on input line 963.
+LaTeX Info: Redefining \ttfamily on input line 963.
+LaTeX Info: Redefining \rmfamily on input line 963.
+LaTeX Info: Redefining \sffamily on input line 963.
+LaTeX Info: Redefining \ttfamily on input line 963.
 [525]
-LaTeX Info: Redefining \rmfamily on input line 990.
-LaTeX Info: Redefining \sffamily on input line 990.
-LaTeX Info: Redefining \ttfamily on input line 990.
-LaTeX Info: Redefining \rmfamily on input line 990.
-LaTeX Info: Redefining \sffamily on input line 990.
-LaTeX Info: Redefining \ttfamily on input line 990.
+LaTeX Info: Redefining \rmfamily on input line 989.
+LaTeX Info: Redefining \sffamily on input line 989.
+LaTeX Info: Redefining \ttfamily on input line 989.
+LaTeX Info: Redefining \rmfamily on input line 989.
+LaTeX Info: Redefining \sffamily on input line 989.
+LaTeX Info: Redefining \ttfamily on input line 989.
 
-Underfull \hbox (badness 10000) in paragraph at lines 990--991
+Underfull \hbox (badness 10000) in paragraph at lines 989--990
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 آپ نے مثال [][]۹.۱۲[][] []میں دیکھا کہ ج
 زو طاقت کی تبدیلی سے ترسیلی تاروں میں طاقت کے ضیاع تبدیل ہوتا ہے۔مساوات [][]۹.۳
 ۴[][] []سے ظاہر ہے کہ جزو طاقت[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 990--991
+Underfull \hbox (badness 10000) in paragraph at lines 989--990
 []\TU/JameelNooriNastaleeq(2)/b/n/10 کی قیمت بڑھانے سے رو کی قیمت کم ہوتی ہے۔جز
 و طاقت کی زیادہ سے زیادہ قیمت اکائی ہے۔یوں اکائی جزو طاقت پر کم سے کم رو درکار 
 ہو گی۔کم سے کم ور کی[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 992.
-LaTeX Info: Redefining \sffamily on input line 992.
-LaTeX Info: Redefining \ttfamily on input line 992.
+LaTeX Info: Redefining \rmfamily on input line 991.
+LaTeX Info: Redefining \sffamily on input line 991.
+LaTeX Info: Redefining \ttfamily on input line 991.
 
-Underfull \hbox (badness 10000) in paragraph at lines 994--995
-[][]\TU/JameelNooriNastaleeq(2)/b/n/10 بجلی کا میٹر صارف کے ہاں نسب ہوتا ہے جو 
+Underfull \hbox (badness 10000) in paragraph at lines 993--994
+[][]\TU/JameelNooriNastaleeq(2)/b/n/10 بجلی کا میٹر صارف کے ہاں نصب ہوتا ہے جو 
 خرچ کیے توانائی کا حساب رکھتا ہے۔یہ میٹر ترسیلی تاروں میں ضائع توانائی کو نہیں 
 ناپ سکتا۔برقی طاقت کے پیدا کار[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 994--995
+Underfull \hbox (badness 10000) in paragraph at lines 993--994
 []\TU/JameelNooriNastaleeq(2)/b/n/10 صنعت کو صارف کی درکار طاقت کے ساتھ ساتھ تر
 سیلی تاروں میں ضائع ہونے والا طاقت بھی پیدا کرنا پڑتا ہے لہٰذا ان کی دلچسپی اس 
 بات میں ہو گی کہ ترسیلی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 994--995
+Underfull \hbox (badness 10000) in paragraph at lines 993--994
 []\TU/JameelNooriNastaleeq(2)/b/n/10 تاروں میں طاقت کا ضیاع کم سے کم ہو۔یہی وجہ
  ہے کہ پیدا کار صنعت کوشش کرتی ہے کہ صارف کو مجبور کرے کہ اس کا جزو طاقت اکائی 
 کے قریب ترین[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 994--995
+Underfull \hbox (badness 10000) in paragraph at lines 993--994
 []\TU/JameelNooriNastaleeq(2)/b/n/10 ہو۔اگر صارف اپنے جزو طاقت پر قابو نہیں پات
 ا تو پیدا کار اس پر جرمانہ عائد کرتا ہے۔اس کتاب کے لکھتے وقت پاکستان میں $\OT1/
 ppl/m/n/10 0.9$ \TU/JameelNooriNastaleeq(2)/b/n/10 سے کم جزو طاقت کی صورت[]
  []
 
 
-Underfull \hbox (badness 5893) in paragraph at lines 994--995
+Underfull \hbox (badness 5893) in paragraph at lines 993--994
 []\TU/JameelNooriNastaleeq(2)/b/n/10 میں صارف صنعت پر جرمانہ عائد کیا جاتا ہے ا
 لبتہ گھریلو صارفین پر فی الحال کم جزو طاقت کی صورت میں کوئی جرمانہ عائد نہیں کی
 ا جاتا۔عموماً صنعتوں میں بوجھ کا بیشتر[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 996.
-LaTeX Info: Redefining \sffamily on input line 996.
-LaTeX Info: Redefining \ttfamily on input line 996.
-LaTeX Info: Redefining \rmfamily on input line 1005.
-LaTeX Info: Redefining \sffamily on input line 1005.
-LaTeX Info: Redefining \ttfamily on input line 1005.
-LaTeX Info: Redefining \rmfamily on input line 1018.
-LaTeX Info: Redefining \sffamily on input line 1018.
-LaTeX Info: Redefining \ttfamily on input line 1018.
+LaTeX Info: Redefining \rmfamily on input line 995.
+LaTeX Info: Redefining \sffamily on input line 995.
+LaTeX Info: Redefining \ttfamily on input line 995.
+LaTeX Info: Redefining \rmfamily on input line 1004.
+LaTeX Info: Redefining \sffamily on input line 1004.
+LaTeX Info: Redefining \ttfamily on input line 1004.
+LaTeX Info: Redefining \rmfamily on input line 1017.
+LaTeX Info: Redefining \sffamily on input line 1017.
+LaTeX Info: Redefining \ttfamily on input line 1017.
 [526]
-LaTeX Info: Redefining \rmfamily on input line 1040.
-LaTeX Info: Redefining \sffamily on input line 1040.
-LaTeX Info: Redefining \ttfamily on input line 1040.
-LaTeX Info: Redefining \rmfamily on input line 1040.
-LaTeX Info: Redefining \sffamily on input line 1040.
-LaTeX Info: Redefining \ttfamily on input line 1040.
-LaTeX Info: Redefining \rmfamily on input line 1040.
-LaTeX Info: Redefining \sffamily on input line 1040.
-LaTeX Info: Redefining \ttfamily on input line 1040.
-LaTeX Info: Redefining \rmfamily on input line 1049.
-LaTeX Info: Redefining \sffamily on input line 1049.
-LaTeX Info: Redefining \ttfamily on input line 1049.
+LaTeX Info: Redefining \rmfamily on input line 1039.
+LaTeX Info: Redefining \sffamily on input line 1039.
+LaTeX Info: Redefining \ttfamily on input line 1039.
+LaTeX Info: Redefining \rmfamily on input line 1039.
+LaTeX Info: Redefining \sffamily on input line 1039.
+LaTeX Info: Redefining \ttfamily on input line 1039.
+LaTeX Info: Redefining \rmfamily on input line 1039.
+LaTeX Info: Redefining \sffamily on input line 1039.
+LaTeX Info: Redefining \ttfamily on input line 1039.
+LaTeX Info: Redefining \rmfamily on input line 1048.
+LaTeX Info: Redefining \sffamily on input line 1048.
+LaTeX Info: Redefining \ttfamily on input line 1048.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1048--1051
+Underfull \hbox (badness 10000) in paragraph at lines 1047--1050
 []\TU/JameelNooriNastaleeq(2)/b/n/10 ہیں۔مساوات [][]۹.۴۱[][] []سے ظاہر ہے کہ مخ
 لوط طاقت کے حیطے کو ہم ظاہری طاقت کہتے ہیں جبکہ مخلوط طاقت کے زاویہ کو ہم زاویہ
  جزو طاقت کہتے ہیں۔ مخلوط طاقت[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1048--1051
+Underfull \hbox (badness 10000) in paragraph at lines 1047--1050
 []\TU/JameelNooriNastaleeq(2)/b/n/10 کو ظاہری طاقت کی طرح وولٹ ایمپیئر $\OT1/pp
 l/m/n/10 V A$ \TU/JameelNooriNastaleeq(2)/b/n/10 میں ناپا جاتا ہے، حقیقی طاقت ک
 و واٹ $\OT1/ppl/m/n/10 W$ \TU/JameelNooriNastaleeq(2)/b/n/10 میں ناپا جاتا ہے ج
@@ -16151,78 +16157,78 @@ l/m/n/10 V A$ \TU/JameelNooriNastaleeq(2)/b/n/10 میں ناپا جاتا ہے،
  []
 
 [527]
-LaTeX Info: Redefining \rmfamily on input line 1065.
-LaTeX Info: Redefining \sffamily on input line 1065.
-LaTeX Info: Redefining \ttfamily on input line 1065.
-LaTeX Info: Redefining \rmfamily on input line 1065.
-LaTeX Info: Redefining \sffamily on input line 1065.
-LaTeX Info: Redefining \ttfamily on input line 1065.
+LaTeX Info: Redefining \rmfamily on input line 1064.
+LaTeX Info: Redefining \sffamily on input line 1064.
+LaTeX Info: Redefining \ttfamily on input line 1064.
+LaTeX Info: Redefining \rmfamily on input line 1064.
+LaTeX Info: Redefining \sffamily on input line 1064.
+LaTeX Info: Redefining \ttfamily on input line 1064.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1077--1078
+Underfull \hbox (badness 10000) in paragraph at lines 1076--1077
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 ہم نے دیکھا کہ مزاحمت حقیقی طاقت جذب کرت
 ا ہے جبکہ امالہ گیر اور برق گیر بالترتیب متعاملی طاقت جذب اور مہیا کرتے ہیں۔ ان
  پرزوں میں بنیادی فرق یہ ہے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1077--1078
+Underfull \hbox (badness 10000) in paragraph at lines 1076--1077
 []\TU/JameelNooriNastaleeq(2)/b/n/10 کہ مزاحمت میں طاقت ضائع ہوتا ہے جبکہ امالہ
  گیر اور برق گیر طاقت ذخیرہ کرتے ہوئے اسے دور کو واپس منتقل کرنے کی صلاحیت رکھت
 ے ہیں۔ان حقائق سے ہم[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1079.
-LaTeX Info: Redefining \sffamily on input line 1079.
-LaTeX Info: Redefining \ttfamily on input line 1079.
-LaTeX Info: Redefining \rmfamily on input line 1083.
-LaTeX Info: Redefining \sffamily on input line 1083.
-LaTeX Info: Redefining \ttfamily on input line 1083.
-LaTeX Info: Redefining \rmfamily on input line 1083.
-LaTeX Info: Redefining \sffamily on input line 1083.
-LaTeX Info: Redefining \ttfamily on input line 1083.
-LaTeX Info: Redefining \rmfamily on input line 1083.
-LaTeX Info: Redefining \sffamily on input line 1083.
-LaTeX Info: Redefining \ttfamily on input line 1083.
-LaTeX Info: Redefining \rmfamily on input line 1087.
-LaTeX Info: Redefining \sffamily on input line 1087.
-LaTeX Info: Redefining \ttfamily on input line 1087.
+LaTeX Info: Redefining \rmfamily on input line 1078.
+LaTeX Info: Redefining \sffamily on input line 1078.
+LaTeX Info: Redefining \ttfamily on input line 1078.
+LaTeX Info: Redefining \rmfamily on input line 1082.
+LaTeX Info: Redefining \sffamily on input line 1082.
+LaTeX Info: Redefining \ttfamily on input line 1082.
+LaTeX Info: Redefining \rmfamily on input line 1082.
+LaTeX Info: Redefining \sffamily on input line 1082.
+LaTeX Info: Redefining \ttfamily on input line 1082.
+LaTeX Info: Redefining \rmfamily on input line 1082.
+LaTeX Info: Redefining \sffamily on input line 1082.
+LaTeX Info: Redefining \ttfamily on input line 1082.
+LaTeX Info: Redefining \rmfamily on input line 1086.
+LaTeX Info: Redefining \sffamily on input line 1086.
+LaTeX Info: Redefining \ttfamily on input line 1086.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1086--1088
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1087
 []\TU/JameelNooriNastaleeq(2)/b/n/10 اس مساوات کے تحت جوڑی دار مخلوط فراوانی کو
  دباو کی موثر قیمت سے ضرب دیتے ہوئے فراوانی کی طاقت حاصل کی جا سکتی ہے۔یہ وہ طا
 قت ہے جو فراوانی[]
  []
 
 [528]
-LaTeX Info: Redefining \rmfamily on input line 1093.
-LaTeX Info: Redefining \sffamily on input line 1093.
-LaTeX Info: Redefining \ttfamily on input line 1093.
-LaTeX Info: Redefining \rmfamily on input line 1093.
-LaTeX Info: Redefining \sffamily on input line 1093.
-LaTeX Info: Redefining \ttfamily on input line 1093.
-LaTeX Info: Redefining \rmfamily on input line 1093.
-LaTeX Info: Redefining \sffamily on input line 1093.
-LaTeX Info: Redefining \ttfamily on input line 1093.
+LaTeX Info: Redefining \rmfamily on input line 1092.
+LaTeX Info: Redefining \sffamily on input line 1092.
+LaTeX Info: Redefining \ttfamily on input line 1092.
+LaTeX Info: Redefining \rmfamily on input line 1092.
+LaTeX Info: Redefining \sffamily on input line 1092.
+LaTeX Info: Redefining \ttfamily on input line 1092.
+LaTeX Info: Redefining \rmfamily on input line 1092.
+LaTeX Info: Redefining \sffamily on input line 1092.
+LaTeX Info: Redefining \ttfamily on input line 1092.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1093--1094
+Underfull \hbox (badness 10000) in paragraph at lines 1092--1093
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 شکل [][]۹.۲۵[][] []طاقت کے تعلقات پر مزی
 د روشنی ڈالتا ہے۔شکل-الف کے تحت رو کو دو ٹکڑوں میں تقسیم کیا جا سکتا ہے۔پہلا ٹک
 ڑا $[]$ کے ہم زاویہ ہے جبکہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1093--1094
+Underfull \hbox (badness 10000) in paragraph at lines 1092--1093
 []\TU/JameelNooriNastaleeq(2)/b/n/10 دوسرا ٹکڑا دباو کے ساتھ $\OT1/ppl/m/n/10 9
 0[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 کا زاویہ بناتا ہے۔مساوات [][]۹.۴۳[][] [
 ]کے تحت دباو اور اس کے ہم زاویہ رو مل کر حقیقی طاقت $\OML/zplm/m/it/10 P$ \TU/J
 ameelNooriNastaleeq(2)/b/n/10 پیدا کرتے ہیں۔اسی طرح[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1097.
-LaTeX Info: Redefining \sffamily on input line 1097.
-LaTeX Info: Redefining \ttfamily on input line 1097.
+LaTeX Info: Redefining \rmfamily on input line 1096.
+LaTeX Info: Redefining \sffamily on input line 1096.
+LaTeX Info: Redefining \ttfamily on input line 1096.
 
-Underfull \hbox (badness 6063) in paragraph at lines 1096--1099
+Underfull \hbox (badness 6063) in paragraph at lines 1095--1098
 []\TU/JameelNooriNastaleeq(2)/b/n/10 افقی محور سے گھڑی کی گردش کے الٹ جانب گھوم
 تے ہوئے ناپا جاتا ہے لہٰذا مثبت زاویہ حقیقی محور سے اوپر کو ہو گا۔یوں امالی بوج
 ھ کا $\OML/zplm/m/it/10 Q$ \TU/JameelNooriNastaleeq(2)/b/n/10 مثبت ہے۔برق گیر ب
@@ -16230,14 +16236,14 @@ Underfull \hbox (badness 6063) in paragraph at lines 1096--1099
  []
 
 \absvshift=\dimen536
-LaTeX Info: Redefining \rmfamily on input line 1150.
-LaTeX Info: Redefining \sffamily on input line 1150.
-LaTeX Info: Redefining \ttfamily on input line 1150.
-LaTeX Info: Redefining \rmfamily on input line 1150.
-LaTeX Info: Redefining \sffamily on input line 1150.
-LaTeX Info: Redefining \ttfamily on input line 1150.
+LaTeX Info: Redefining \rmfamily on input line 1149.
+LaTeX Info: Redefining \sffamily on input line 1149.
+LaTeX Info: Redefining \ttfamily on input line 1149.
+LaTeX Info: Redefining \rmfamily on input line 1149.
+LaTeX Info: Redefining \sffamily on input line 1149.
+LaTeX Info: Redefining \ttfamily on input line 1149.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1143--1153
+Underfull \hbox (badness 10000) in paragraph at lines 1142--1152
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مثال  ۹.۱۴: []امالی بوجھ کو $\OT1/ppl/m/
 n/10 50 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 طاقت فراہم کی جا رہی ہے۔بوجھ پر 
 موثر دباو $\OT1/ppl/m/n/10 230 V$\TU/JameelNooriNastaleeq(2)/b/n/10 ، تعدد $\OT
@@ -16245,33 +16251,33 @@ n/10 50 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 طاقت فراہم کی جا ر�
 /ppl/m/n/10 0.9$ \TU/JameelNooriNastaleeq(2)/b/n/10 ہے۔ترسیلی[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1154.
-LaTeX Info: Redefining \sffamily on input line 1154.
-LaTeX Info: Redefining \ttfamily on input line 1154.
+LaTeX Info: Redefining \rmfamily on input line 1153.
+LaTeX Info: Redefining \sffamily on input line 1153.
+LaTeX Info: Redefining \ttfamily on input line 1153.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1154--1155
+Underfull \hbox (badness 10000) in paragraph at lines 1153--1154
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 حل:دور کو شکل [][]۹.۲۶[][] []میں دکھایا 
 گیا ہے جہاں ترسیلی تار کی رکاوٹ صرف بالائی تار پر دکھائی گئی ہے۔حقیقت میں بالائ
 ی اور نچلی تار کی رکاوٹیں سلسلہ وار جڑی[]
  []
 
 [529] [530]
-LaTeX Info: Redefining \rmfamily on input line 1209.
-LaTeX Info: Redefining \sffamily on input line 1209.
-LaTeX Info: Redefining \ttfamily on input line 1209.
+LaTeX Info: Redefining \rmfamily on input line 1208.
+LaTeX Info: Redefining \sffamily on input line 1208.
+LaTeX Info: Redefining \ttfamily on input line 1208.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1214
+Underfull \hbox (badness 10000) in paragraph at lines 1212--1213
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 اس مسئلے کو کرخوف مساوات سے حل کرتے ہیں۔
 آگے جزو طاقت $\OT1/ppl/m/n/10 0.9$ \TU/JameelNooriNastaleeq(2)/b/n/10 سے رو کا 
 زاویہ حاصل کرتے ہیں۔آگے جزو طاقت برق گیر بوجھ کی نشاندہی کرتا ہے[]
  []
 
 [531]
-LaTeX Info: Redefining \rmfamily on input line 1234.
-LaTeX Info: Redefining \sffamily on input line 1234.
-LaTeX Info: Redefining \ttfamily on input line 1234.
+LaTeX Info: Redefining \rmfamily on input line 1233.
+LaTeX Info: Redefining \sffamily on input line 1233.
+LaTeX Info: Redefining \ttfamily on input line 1233.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1233--1235
+Underfull \hbox (badness 10000) in paragraph at lines 1232--1234
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مشق  ۹.۱۵:  شکل [][]۹.۲۶[][] []میں بقایا
  تمام معلومات وہی ہیں البتہ آگے جزو طاقت $\OT1/ppl/m/n/10 0.8$ \TU/JameelNooriN
 astaleeq(2)/b/n/10 ہے۔منبع طاقت کا موثر دباو اور جزو طاقت حاصل کریں۔منبع کتنا ط
@@ -16279,7 +16285,7 @@ astaleeq(2)/b/n/10 ہے۔منبع طاقت کا موثر دباو اور جزو 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1239--1241
+Underfull \hbox (badness 10000) in paragraph at lines 1238--1240
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مشق  ۹.۱۶:  ایک صنعتی بوجھ کو $\OT1/ppl/
 m/n/10 30 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 طاقت $\OT1/ppl/m/n/10 0.82$ \T
 U/JameelNooriNastaleeq(2)/b/n/10 پیچھے جزو طاقت پر درکار ہے۔بوجھ پر موثر دباو $
@@ -16288,7 +16294,7 @@ n/10 50 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 ہے۔منبع[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1245--1247
+Underfull \hbox (badness 10000) in paragraph at lines 1244--1246
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مشق  ۹.۱۷:  صنعتی بوجھ کو $\OT1/ppl/m/n/
 10 0.86$ \TU/JameelNooriNastaleeq(2)/b/n/10 امالی جزو طاقت پر $\OT1/ppl/m/n/10 
 25 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 طاقت $\OT1/ppl/m/n/10 230 V []$ \TU/J
@@ -16297,45 +16303,45 @@ eeq(2)/b/n/10 تعدد پر فراہم کی جا رہی ہے۔ترسیلی تا�
  []
 
 [532]
-LaTeX Info: Redefining \rmfamily on input line 1252.
-LaTeX Info: Redefining \sffamily on input line 1252.
-LaTeX Info: Redefining \ttfamily on input line 1252.
+LaTeX Info: Redefining \rmfamily on input line 1251.
+LaTeX Info: Redefining \sffamily on input line 1251.
+LaTeX Info: Redefining \ttfamily on input line 1251.
 \absvshift=\dimen537
-LaTeX Info: Redefining \rmfamily on input line 1259.
-LaTeX Info: Redefining \sffamily on input line 1259.
-LaTeX Info: Redefining \ttfamily on input line 1259.
-LaTeX Info: Redefining \rmfamily on input line 1259.
-LaTeX Info: Redefining \sffamily on input line 1259.
-LaTeX Info: Redefining \ttfamily on input line 1259.
-LaTeX Info: Redefining \rmfamily on input line 1268.
-LaTeX Info: Redefining \sffamily on input line 1268.
-LaTeX Info: Redefining \ttfamily on input line 1268.
-LaTeX Info: Redefining \rmfamily on input line 1272.
-LaTeX Info: Redefining \sffamily on input line 1272.
-LaTeX Info: Redefining \ttfamily on input line 1272.
+LaTeX Info: Redefining \rmfamily on input line 1258.
+LaTeX Info: Redefining \sffamily on input line 1258.
+LaTeX Info: Redefining \ttfamily on input line 1258.
+LaTeX Info: Redefining \rmfamily on input line 1258.
+LaTeX Info: Redefining \sffamily on input line 1258.
+LaTeX Info: Redefining \ttfamily on input line 1258.
+LaTeX Info: Redefining \rmfamily on input line 1267.
+LaTeX Info: Redefining \sffamily on input line 1267.
+LaTeX Info: Redefining \ttfamily on input line 1267.
+LaTeX Info: Redefining \rmfamily on input line 1271.
+LaTeX Info: Redefining \sffamily on input line 1271.
+LaTeX Info: Redefining \ttfamily on input line 1271.
 \absvshift=\dimen538
 \absvshift=\dimen539
  [533]
-LaTeX Info: Redefining \rmfamily on input line 1319.
-LaTeX Info: Redefining \sffamily on input line 1319.
-LaTeX Info: Redefining \ttfamily on input line 1319.
+LaTeX Info: Redefining \rmfamily on input line 1318.
+LaTeX Info: Redefining \sffamily on input line 1318.
+LaTeX Info: Redefining \ttfamily on input line 1318.
 \absvshift=\dimen540
 
-Underfull \hbox (badness 10000) in paragraph at lines 1319--1349
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1348
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 درج بالا مثال میں آپ نے دیکھا کہ امالی ب
 وجھ کے متوازی برق گیر جوڑنے سے جزو طاقت میں بہتری پیدا ہوتی ہے۔جیسا ہم پہلے بھی
  بتلا چکے ہیں، صنعتی بوجھ عموماً[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1319--1349
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1348
 []\TU/JameelNooriNastaleeq(2)/b/n/10 امالی جزو طاقت رکھتا ہے۔شکل [][]۹.۲۹[][] [
 ]میں عمومی صورت حال دکھائی گئی ہے جہاں صنعتی بوجھ پر $[]$ دباو مسلط کیا گیا ہے۔
 صنعتی بوجھ منبع طاقت سے $[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1319--1349
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1348
 []\TU/JameelNooriNastaleeq(2)/b/n/10 رو لیتا ہے۔ شکل-ب میں طاقتی تکون دکھایا گی
 ا ہے۔زاویہ $\OML/zplm/m/it/10 ^^R[] \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 ^^R[
 ]$ \TU/JameelNooriNastaleeq(2)/b/n/10 کم کرتے ہوئے جزو طاقت بہتر بنایا جا سکتا 
@@ -16344,7 +16350,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1319--1349
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1319--1349
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1348
 []\TU/JameelNooriNastaleeq(2)/b/n/10 برقرار رکھتے ہوئے $\OML/zplm/m/it/10 P$ \T
 U/JameelNooriNastaleeq(2)/b/n/10 کے بڑھانے سے یہ زاویہ کم کیا جا سکتا ہے۔اس کے 
 برعکس $\OML/zplm/m/it/10 P$ \TU/JameelNooriNastaleeq(2)/b/n/10 کو برقرار رکھتے 
@@ -16353,32 +16359,32 @@ U/JameelNooriNastaleeq(2)/b/n/10 کے بڑھانے سے یہ زاویہ کم ک�
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1350--1351
+Underfull \hbox (badness 10000) in paragraph at lines 1349--1350
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 کوئی بھی صنعت حقیقی طاقت $\OML/zplm/m/it
 /10 P$ \TU/JameelNooriNastaleeq(2)/b/n/10 استعمال کرتے ہوئے کام سرانجام دیتی ہے
 ۔کوئی بھی صنعت قائم کرنے سے پہلے اس کی پیدا وار طے کی جاتی ہے۔اس پیدا وار[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1350--1351
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 کو حاصل کرنے کے لیے درکار مشین نسب کیے جات
+Underfull \hbox (badness 10000) in paragraph at lines 1349--1350
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 کو حاصل کرنے کے لیے درکار مشین نصب کیے جات
 ے ہیں۔غیر ضروری طور پر $\OML/zplm/m/it/10 P$ \TU/JameelNooriNastaleeq(2)/b/n/10
- بڑھانے سے مراد، ضرورت سے زیادہ بڑی مشینیں نسب کرنا ہے، جس سے[]
+ بڑھانے سے مراد، ضرورت سے زیادہ بڑی مشینیں نصب کرنا ہے، جس[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1350--1351
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 صنعت قائم کرنے کا خرچہ بڑھتا ہے۔جزو طاقت ب
-ہتر کرنے کا یہ انتہائی مہنگا طریقہ ہو گا جسے کبھی بھی نہیں اپنایا جاتا۔ساتھ ہی 
-ساتھ زیادہ پیداوار کے لیے زیادہ[]
+Underfull \hbox (badness 10000) in paragraph at lines 1349--1350
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 سے صنعت قائم کرنے کا خرچہ بڑھتا ہے۔جزو طاق
+ت بہتر کرنے کا یہ انتہائی مہنگا طریقہ ہو گا جسے کبھی بھی نہیں اپنایا جاتا۔ساتھ 
+ہی ساتھ زیادہ پیداوار کے لیے[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1352.
-LaTeX Info: Redefining \sffamily on input line 1352.
-LaTeX Info: Redefining \ttfamily on input line 1352.
+LaTeX Info: Redefining \rmfamily on input line 1351.
+LaTeX Info: Redefining \sffamily on input line 1351.
+LaTeX Info: Redefining \ttfamily on input line 1351.
 \absvshift=\dimen541
 
-Underfull \hbox (badness 10000) in paragraph at lines 1352--1409
+Underfull \hbox (badness 10000) in paragraph at lines 1351--1408
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 آئیں اب $\OML/zplm/m/it/10 Q$ \TU/Jameel
 NooriNastaleeq(2)/b/n/10 کم کرتے ہیں۔جیسا درج بالا مثال میں دکھایا گیا، امالی ب
 وجھ کے متوازی برق گیر جوڑنے سے $\OML/zplm/m/it/10 Q$ \TU/JameelNooriNastaleeq(2
@@ -16386,28 +16392,28 @@ NooriNastaleeq(2)/b/n/10 کم کرتے ہیں۔جیسا درج بالا مثال
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1352--1409
+Underfull \hbox (badness 10000) in paragraph at lines 1351--1408
 []\TU/JameelNooriNastaleeq(2)/b/n/10 مشینوں کی نسبت بہت کم ہوتی ہے لہٰذا جزو طا
 قت کو برق گیر سے ہی بہتر بنایا جاتا ہے۔شکل [][]۹.۳۰[][] []-الف میں صنعتی بوجھ ک
-ے متوازی برق گیر نسب کیا گیا[]
+ے متوازی برق گیر نصب کیا گیا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1352--1409
+Underfull \hbox (badness 10000) in paragraph at lines 1351--1408
 []\TU/JameelNooriNastaleeq(2)/b/n/10 ہے۔شکل-ب میں بوجھ کا طاقتی تکون دکھایا گیا
  ہے جس میں برق گیر متعاملی طاقت بھی دکھائی گئی ہے۔شکل-پ میں منبع طاقت کو درپیش 
 صنعتی بوجھ اور برق[]
  []
 
 [534]
-LaTeX Info: Redefining \rmfamily on input line 1410.
-LaTeX Info: Redefining \sffamily on input line 1410.
-LaTeX Info: Redefining \ttfamily on input line 1410.
-LaTeX Info: Redefining \rmfamily on input line 1414.
-LaTeX Info: Redefining \sffamily on input line 1414.
-LaTeX Info: Redefining \ttfamily on input line 1414.
+LaTeX Info: Redefining \rmfamily on input line 1409.
+LaTeX Info: Redefining \sffamily on input line 1409.
+LaTeX Info: Redefining \ttfamily on input line 1409.
+LaTeX Info: Redefining \rmfamily on input line 1413.
+LaTeX Info: Redefining \sffamily on input line 1413.
+LaTeX Info: Redefining \ttfamily on input line 1413.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1413--1415
+Underfull \hbox (badness 10000) in paragraph at lines 1412--1414
 []\TU/JameelNooriNastaleeq(2)/b/n/10 جا سکتا ہے۔ جزو طاقت قابو کرنے کے لیے برق 
 گیر کی سکت عموماً متعاملی وولٹ ایمپیئر $[]$ میں ہی بیان کی جاتی ہے۔یوں $\OT1/pp
 l/m/n/10 50 []$\TU/JameelNooriNastaleeq(2)/b/n/10 ، $\OT1/ppl/m/n/10 440 V []$[
@@ -16415,7 +16421,7 @@ l/m/n/10 50 []$\TU/JameelNooriNastaleeq(2)/b/n/10 ، $\OT1/ppl/m/n/10 440 V []$[
  []
 
 [535]
-Underfull \hbox (badness 10000) in paragraph at lines 1417--1419
+Underfull \hbox (badness 10000) in paragraph at lines 1416--1418
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مثال  ۹.۱۷: []ایک صنعت $\OT1/ppl/m/n/10 
 1200 V []$\TU/JameelNooriNastaleeq(2)/b/n/10 ، $\OT1/ppl/m/n/10 50 []$ \TU/Jame
 elNooriNastaleeq(2)/b/n/10 اور $\OT1/ppl/m/n/10 0.7$ \TU/JameelNooriNastaleeq(2
@@ -16423,18 +16429,18 @@ elNooriNastaleeq(2)/b/n/10 اور $\OT1/ppl/m/n/10 0.7$ \TU/JameelNooriNastaleeq
 )/b/n/10 طاقت خرچ کرتا ہے۔پاکستان میں $\OT1/ppl/m/n/10 0.9$[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1420.
-LaTeX Info: Redefining \sffamily on input line 1420.
-LaTeX Info: Redefining \ttfamily on input line 1420.
+LaTeX Info: Redefining \rmfamily on input line 1419.
+LaTeX Info: Redefining \sffamily on input line 1419.
+LaTeX Info: Redefining \ttfamily on input line 1419.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1440--1441
-[][]\TU/JameelNooriNastaleeq(2)/b/n/10 اگرچہ صنعت کار زیادہ برق گیر نسب کرتے ہو
+Underfull \hbox (badness 10000) in paragraph at lines 1439--1440
+[][]\TU/JameelNooriNastaleeq(2)/b/n/10 اگرچہ صنعت کار زیادہ برق گیر نصب کرتے ہو
 ئے اکائی جزو طاقت بھی حاصل کر سکتا ہے لیکن اس کو ایسا کرنے سے کوئی اضافی فائدہ 
 نہیں ہو گا۔جرمانہ صرف[]
  []
 
 
-Underfull \hbox (badness 7168) in paragraph at lines 1440--1441
+Underfull \hbox (badness 7168) in paragraph at lines 1439--1440
 []$\OT1/ppl/m/n/10 0.9$ \TU/JameelNooriNastaleeq(2)/b/n/10 جزو طاقت سے کم پر عا
 ئد ہوتا ہے۔جزو طاقت کو $\OT1/ppl/m/n/10 0.9$ \TU/JameelNooriNastaleeq(2)/b/n/10
  سے بہت بہتر کرنے پر توانائی کی قیمت میں چھوٹ نہیں ملتی لہٰذا صنعت کار اضافی خر
@@ -16442,7 +16448,7 @@ Underfull \hbox (badness 7168) in paragraph at lines 1440--1441
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1443--1445
+Underfull \hbox (badness 10000) in paragraph at lines 1442--1444
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مثال  ۹.۱۸:  پاکستان کی سب سے بڑی صنعت ک
 پاس سے روئی کا دھاگا بناتی ہے۔ایسی ایک صنعت کا جزو طاقت $\OT1/ppl/m/n/10 0.84$ 
 \TU/JameelNooriNastaleeq(2)/b/n/10 امالی اور حقیقی طاقت $\OT1/ppl/m/n/10 200 []
@@ -16450,21 +16456,21 @@ $[]
  []
 
 [536]
-LaTeX Info: Redefining \rmfamily on input line 1446.
-LaTeX Info: Redefining \sffamily on input line 1446.
-LaTeX Info: Redefining \ttfamily on input line 1446.
+LaTeX Info: Redefining \rmfamily on input line 1445.
+LaTeX Info: Redefining \sffamily on input line 1445.
+LaTeX Info: Redefining \ttfamily on input line 1445.
 
-Underfull \hbox (badness 2142) in paragraph at lines 1446--1448
+Underfull \hbox (badness 2142) in paragraph at lines 1445--1447
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 حل:شکل [][]۹.۳۰[][] []کے طاقتی تکون سے گ
 زشتہ متعاملی طاقت حاصل کرتے ہیں۔جزو طاقت سے طاقتی تکون کا زاویہ $[][] \OT1/ppl/
 m/n/10 0.84 \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 32.86[]$[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1459.
-LaTeX Info: Redefining \sffamily on input line 1459.
-LaTeX Info: Redefining \ttfamily on input line 1459.
+LaTeX Info: Redefining \rmfamily on input line 1458.
+LaTeX Info: Redefining \sffamily on input line 1458.
+LaTeX Info: Redefining \ttfamily on input line 1458.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1458--1460
+Underfull \hbox (badness 10000) in paragraph at lines 1457--1459
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مشق  ۹.۱۹:  مثال [][]۹.۱۷[][] []کے صنعت 
 کار زیادہ محتاط ہیں۔وہ جزو طاقت کو $\OT1/ppl/m/n/10 0.7$ \TU/JameelNooriNastale
 eq(2)/b/n/10 سے بہتر کرتے ہوئے $\OT1/ppl/m/n/10 0.95$ \TU/JameelNooriNastaleeq(
@@ -16472,7 +16478,7 @@ eq(2)/b/n/10 سے بہتر کرتے ہوئے $\OT1/ppl/m/n/10 0.95$ \TU/JameelNo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1465--1466
+Underfull \hbox (badness 10000) in paragraph at lines 1464--1465
 []\TU/JameelNooriNastaleeq(2)/b/n/10 برقی دباو اور طاقت کے بارے میں علم حاصل کر
 تے وقت ضروری ہے کہ ان سے لاحق خطرات اور ان خطرات سے بچنے کے حفاظتی اقدامات اور 
 تدابیر پر بھی[]
@@ -16485,21 +16491,21 @@ Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 1467--1496
+Underfull \hbox (badness 10000) in paragraph at lines 1466--1495
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 میں چھوٹا بچہ تھا جب مجھے پہلی مرتبہ بجل
 ی کا جھٹکا لگا۔آپ میں سے بیشتر طلباء بھی اس کٹھن تجربے سے گزر چکے ہوں گے۔کسی بھ
 ی دو مختلف اجسام کے رگڑ سے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1467--1496
+Underfull \hbox (badness 10000) in paragraph at lines 1466--1495
 []\TU/JameelNooriNastaleeq(2)/b/n/10 اونی جرسی اتارتے ہوئے شعلے ضرور دیکھے ہوں 
 گے جو اسی ساکن دباو کی وجہ سے پیدا ہوتے ہیں۔آپ کو ساکن دباو کے جھٹکے بھی لگے ہو
 ں گے جن سے جسم میں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1497--1498
+Underfull \hbox (badness 10000) in paragraph at lines 1496--1497
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 انسانی جلد مردہ خلیوں سے بنی ہے۔خشک جلد 
 کی مزاحمت $\OT1/ppl/m/n/10 100 [] [][]$ \TU/JameelNooriNastaleeq(2)/b/n/10 تا $
 \OT1/ppl/m/n/10 300 [] [][]$ \TU/JameelNooriNastaleeq(2)/b/n/10 ہوتی ہے جبکہ مک
@@ -16507,7 +16513,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1497--1498
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1497--1498
+Underfull \hbox (badness 10000) in paragraph at lines 1496--1497
 []\TU/JameelNooriNastaleeq(2)/b/n/10 کم ہو کر $\OT1/ppl/m/n/10 1 [] [][]$ \TU/J
 ameelNooriNastaleeq(2)/b/n/10 تا $\OT1/ppl/m/n/10 3 [] [][]$ \TU/JameelNooriNas
 taleeq(2)/b/n/10 رہ جاتی ہے۔انسانی جلد $\OT1/ppl/m/n/10 230 V []$ \TU/JameelNoo
@@ -16516,7 +16522,7 @@ riNastaleeq(2)/b/n/10 دباو برداشت نہیں کر سکتی اور اس �
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1499--1500
+Underfull \hbox (badness 10000) in paragraph at lines 1498--1499
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 انسانی جسم تقریباً $\OT1/ppl/m/n/10 1 []
 $ \TU/JameelNooriNastaleeq(2)/b/n/10 تک کے تعدد تک مزاحمتی خاصیت رکھتا ہے جبکہ 
 اس سے زیادہ تعدد پر یہ $\OML/zplm/m/it/10 RC$ \TU/JameelNooriNastaleeq(2)/b/n/1
@@ -16525,42 +16531,42 @@ b/n/10 کے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1499--1500
+Underfull \hbox (badness 10000) in paragraph at lines 1498--1499
 []\TU/JameelNooriNastaleeq(2)/b/n/10 بدلتا رو میں دلچسپی رکھتے ہیں لہٰذا اسی تع
 دد پر بات کی جائے گی۔دو ہاتھوں کے مابین تقریباً $\OT1/ppl/m/n/10 2330 []$ \TU/J
 ameelNooriNastaleeq(2)/b/n/10 جبکہ ایک طرف کے ہاتھ اور دوسری طرف کے پیر کے[]
  []
 
 [537] [538]
-LaTeX Info: Redefining \rmfamily on input line 1501.
-LaTeX Info: Redefining \sffamily on input line 1501.
-LaTeX Info: Redefining \ttfamily on input line 1501.
-LaTeX Info: Redefining \rmfamily on input line 1501.
-LaTeX Info: Redefining \sffamily on input line 1501.
-LaTeX Info: Redefining \ttfamily on input line 1501.
+LaTeX Info: Redefining \rmfamily on input line 1500.
+LaTeX Info: Redefining \sffamily on input line 1500.
+LaTeX Info: Redefining \ttfamily on input line 1500.
+LaTeX Info: Redefining \rmfamily on input line 1500.
+LaTeX Info: Redefining \sffamily on input line 1500.
+LaTeX Info: Redefining \ttfamily on input line 1500.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1503--1504
+Underfull \hbox (badness 10000) in paragraph at lines 1502--1503
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 جسم میں تقریباً $\OT1/ppl/m/n/10 16 []$ 
 \TU/JameelNooriNastaleeq(2)/b/n/10 سے زیادہ رو گزرنے سے پٹھے کھینچ جاتے ہیں۔انگ
 لیاں مٹھی کی شکل اختیار کر لیتی ہیں۔انگلیاں جس چیز کے گرد لپٹ جائیں،[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1503--1504
+Underfull \hbox (badness 10000) in paragraph at lines 1502--1503
 []\TU/JameelNooriNastaleeq(2)/b/n/10 انسان اس چیز کو چھوڑنے کی صلاحیت نہیں رکھت
 ا۔عام طور ہم کہتے ہیں کہ بجلی کی تار نے انسان کو پکڑ لیا ہے۔خواتین تقریباً $\OT
 1/ppl/m/n/10 10.5 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 اور مرد تقریباً[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1503--1504
+Underfull \hbox (badness 10000) in paragraph at lines 1502--1503
 []$\OT1/ppl/m/n/10 16 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 کی رو تک اپنے پٹھو
 ں کو استعمال کرنے کی صلاحیت رکھ پاتے ہیں اور وہ اپنے مٹھی کھول سکتے ہیں۔کبھی بھ
 ی اپنے ہاتھ سے پکڑ کر کسی کو بجلی سے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1505--1506
+Underfull \hbox (badness 10000) in paragraph at lines 1504--1505
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 خواتین کے پٹھے $\OT1/ppl/m/n/10 15 []$ \
 TU/JameelNooriNastaleeq(2)/b/n/10 پر اور مرد کے پٹھے $\OT1/ppl/m/n/10 23 []$ \T
 U/JameelNooriNastaleeq(2)/b/n/10 پر مفلوج ہو جاتے ہیں۔رو سانس کے پٹھوں تک پہنچ 
@@ -16568,7 +16574,7 @@ U/JameelNooriNastaleeq(2)/b/n/10 پر مفلوج ہو جاتے ہیں۔رو سا
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1507--1508
+Underfull \hbox (badness 10000) in paragraph at lines 1506--1507
 [][]$\OT1/ppl/m/n/10 100 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 تا $\OT1/ppl/m/
 n/10 200 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 کی رو انتہائی خطرناک ثابت ہوتی 
 ہے۔قلب کے دھڑکن کا خود کار نظام درہم برہم ہو جاتا ہے اور قلب تھرتھراہٹ کا شکار 
@@ -16576,63 +16582,63 @@ n/10 200 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 کی رو انتہائی خطر�
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1507--1508
+Underfull \hbox (badness 10000) in paragraph at lines 1506--1507
 []\TU/JameelNooriNastaleeq(2)/b/n/10 جاتا ہے۔بجلی جلد منقطع نہ ہونے کی صورت میں
  جان لیوا ثابت ہوتا ہے۔بجلی منقطع ہونے کی صورت میں بھی عموماً طبی امداد کے بغیر
  قلب دوبارہ از خود دھڑکنا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1511--1513
+Underfull \hbox (badness 10000) in paragraph at lines 1510--1512
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 زیادہ رو پر مزاحمتی ضیاع کی وجہ سے رو کے
  راستے میں آنے والے اعضاء گرم ہو کر جل جاتے ہیں۔اگر جاں بخش اعضاء میں رو نہ گزر
 ے تب غیر جان لیوا ثابت[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1514.
-LaTeX Info: Redefining \sffamily on input line 1514.
-LaTeX Info: Redefining \ttfamily on input line 1514.
+LaTeX Info: Redefining \rmfamily on input line 1513.
+LaTeX Info: Redefining \sffamily on input line 1513.
+LaTeX Info: Redefining \ttfamily on input line 1513.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1514--1527
+Underfull \hbox (badness 10000) in paragraph at lines 1513--1526
 []\TU/JameelNooriNastaleeq(2)/b/n/10 زمین کی سطح عموماً ریتیلی، پٹھریلی یا مٹی 
 کی ہوتی ہے۔زمینی سطح کے نیچے نمی پائی جاتی ہے جو موصل ثابت ہوتی ہے۔شکل [][]۹.۳۲
 [][] []میں منبع طاقت کے ایک تار کو نمی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1514--1527
+Underfull \hbox (badness 10000) in paragraph at lines 1513--1526
 []\TU/JameelNooriNastaleeq(2)/b/n/10 تک پہنچایا گیا ہے۔اسی طرح بوجھ کے ایک سرے 
 کو بھی نمی تک پہنچایا گیا ہے۔منبع اور بوجھ کو ایک عدد تار سے جوڑا گیا ہے۔تجربے 
 سے ثابت ہوتا ہے کہ ایسی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1514--1527
+Underfull \hbox (badness 10000) in paragraph at lines 1513--1526
 []\TU/JameelNooriNastaleeq(2)/b/n/10 ہے چونکہ بعض اوقات شدید خشک سالی میں نمی ک
 ی سطح نیچے چلے جاتی ہے اور دونوں جانب زمینی تاروں کے مابین مزاحمت بڑھ جاتی ہے۔خ
 شکی کی صورت میں[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1530.
-LaTeX Info: Redefining \sffamily on input line 1530.
-LaTeX Info: Redefining \ttfamily on input line 1530.
-LaTeX Info: Redefining \rmfamily on input line 1530.
-LaTeX Info: Redefining \sffamily on input line 1530.
-LaTeX Info: Redefining \ttfamily on input line 1530.
-LaTeX Info: Redefining \rmfamily on input line 1541.
-LaTeX Info: Redefining \sffamily on input line 1541.
-LaTeX Info: Redefining \ttfamily on input line 1541.
-LaTeX Info: Redefining \rmfamily on input line 1541.
-LaTeX Info: Redefining \sffamily on input line 1541.
-LaTeX Info: Redefining \ttfamily on input line 1541.
-LaTeX Info: Redefining \rmfamily on input line 1541.
-LaTeX Info: Redefining \sffamily on input line 1541.
-LaTeX Info: Redefining \ttfamily on input line 1541.
-LaTeX Info: Redefining \rmfamily on input line 1541.
-LaTeX Info: Redefining \sffamily on input line 1541.
-LaTeX Info: Redefining \ttfamily on input line 1541.
+LaTeX Info: Redefining \rmfamily on input line 1529.
+LaTeX Info: Redefining \sffamily on input line 1529.
+LaTeX Info: Redefining \ttfamily on input line 1529.
+LaTeX Info: Redefining \rmfamily on input line 1529.
+LaTeX Info: Redefining \sffamily on input line 1529.
+LaTeX Info: Redefining \ttfamily on input line 1529.
+LaTeX Info: Redefining \rmfamily on input line 1540.
+LaTeX Info: Redefining \sffamily on input line 1540.
+LaTeX Info: Redefining \ttfamily on input line 1540.
+LaTeX Info: Redefining \rmfamily on input line 1540.
+LaTeX Info: Redefining \sffamily on input line 1540.
+LaTeX Info: Redefining \ttfamily on input line 1540.
+LaTeX Info: Redefining \rmfamily on input line 1540.
+LaTeX Info: Redefining \sffamily on input line 1540.
+LaTeX Info: Redefining \ttfamily on input line 1540.
+LaTeX Info: Redefining \rmfamily on input line 1540.
+LaTeX Info: Redefining \sffamily on input line 1540.
+LaTeX Info: Redefining \ttfamily on input line 1540.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1541--1542
+Underfull \hbox (badness 10000) in paragraph at lines 1540--1541
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 منبع کے دو تاروں کے مابین $\OT1/ppl/m/n/
 10 50 []$\TU/JameelNooriNastaleeq(2)/b/n/10 ، $\OT1/ppl/m/n/10 230 V$ \TU/Jamee
 lNooriNastaleeq(2)/b/n/10 پایا جاتا ہے۔منبع کے قریب ایک موصل تار کو زمین میں ات
@@ -16640,7 +16646,7 @@ lNooriNastaleeq(2)/b/n/10 پایا جاتا ہے۔منبع کے قریب ایک 
  []
 
 
-Underfull \hbox (badness 5741) in paragraph at lines 1541--1542
+Underfull \hbox (badness 5741) in paragraph at lines 1540--1541
 []\TU/JameelNooriNastaleeq(2)/b/n/10 مسلسل نمی پائی جاتی ہو۔زمین میں دھنسے تار 
 کو منبع کے ایک تار کے ساتھ جوڑا جاتا ہے۔منبع کی اس تار کو عام فہم میں \TU/AASam
 eerSagarNastaleeqBold(0)/m/n/10 سرد تار[][] \TU/JameelNooriNastaleeq(2)/b/n/10 
@@ -16650,17 +16656,17 @@ ooriNastaleeq(2)/b/n/10 کہا[]
  []
 
 [539] [540]
-LaTeX Info: Redefining \rmfamily on input line 1543.
-LaTeX Info: Redefining \sffamily on input line 1543.
-LaTeX Info: Redefining \ttfamily on input line 1543.
-LaTeX Info: Redefining \rmfamily on input line 1543.
-LaTeX Info: Redefining \sffamily on input line 1543.
-LaTeX Info: Redefining \ttfamily on input line 1543.
-LaTeX Info: Redefining \rmfamily on input line 1543.
-LaTeX Info: Redefining \sffamily on input line 1543.
-LaTeX Info: Redefining \ttfamily on input line 1543.
+LaTeX Info: Redefining \rmfamily on input line 1542.
+LaTeX Info: Redefining \sffamily on input line 1542.
+LaTeX Info: Redefining \ttfamily on input line 1542.
+LaTeX Info: Redefining \rmfamily on input line 1542.
+LaTeX Info: Redefining \sffamily on input line 1542.
+LaTeX Info: Redefining \ttfamily on input line 1542.
+LaTeX Info: Redefining \rmfamily on input line 1542.
+LaTeX Info: Redefining \sffamily on input line 1542.
+LaTeX Info: Redefining \ttfamily on input line 1542.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1543--1544
+Underfull \hbox (badness 10000) in paragraph at lines 1542--1543
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 گھر پر ایک عدد موصل تار کو زمین میں اتنی
  گہرائی تک دھنسا جاتا ہے کہ وہاں پورا سال مسلسل نمی پائی جاتی ہو۔اس تار کو \TU/
 AASameerSagarNastaleeqBold(0)/m/n/10 برقی زمین[][] \TU/JameelNooriNastaleeq(2)/
@@ -16669,7 +16675,7 @@ taleeq(2)/b/n/10 کہا جاتا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1543--1544
+Underfull \hbox (badness 10000) in paragraph at lines 1542--1543
 []\TU/JameelNooriNastaleeq(2)/b/n/10 ہے۔بجلی کے \TU/AASameerSagarNastaleeqBold(
 0)/m/n/10 ساکٹوں[][] \TU/JameelNooriNastaleeq(2)/b/n/10 میں تین سوراخ ہوتے ہیں 
 جو گرم تار، سرد تار اور زمینی تار کے ساتھ جڑے ہوتے ہیں۔گھر میں کئی مشین استعمال
@@ -16677,236 +16683,228 @@ Underfull \hbox (badness 10000) in paragraph at lines 1543--1544
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1543--1544
+Underfull \hbox (badness 10000) in paragraph at lines 1542--1543
 []\TU/JameelNooriNastaleeq(2)/b/n/10 استری، ڈنڈے کا پنکھا، پانی کا پمپ، فریج، ک
 پڑے دھونے کی مشین اور مویشیوں کا چارا کاٹنے کی مشین شامل ہیں۔ بجلی کے جھٹکے سے 
 ہلاک ہونے سے بچنے کے[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1545.
-LaTeX Info: Redefining \sffamily on input line 1545.
-LaTeX Info: Redefining \ttfamily on input line 1545.
-LaTeX Info: Redefining \rmfamily on input line 1545.
-LaTeX Info: Redefining \sffamily on input line 1545.
-LaTeX Info: Redefining \ttfamily on input line 1545.
-LaTeX Info: Redefining \rmfamily on input line 1545.
-LaTeX Info: Redefining \sffamily on input line 1545.
-LaTeX Info: Redefining \ttfamily on input line 1545.
+LaTeX Info: Redefining \rmfamily on input line 1544.
+LaTeX Info: Redefining \sffamily on input line 1544.
+LaTeX Info: Redefining \ttfamily on input line 1544.
+LaTeX Info: Redefining \rmfamily on input line 1544.
+LaTeX Info: Redefining \sffamily on input line 1544.
+LaTeX Info: Redefining \ttfamily on input line 1544.
+LaTeX Info: Redefining \rmfamily on input line 1544.
+LaTeX Info: Redefining \sffamily on input line 1544.
+LaTeX Info: Redefining \ttfamily on input line 1544.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1545--1580
+Underfull \hbox (badness 10000) in paragraph at lines 1544--1579
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 شکل [][]۹.۳۴[][] []میں گھریلو تار بندی ک
 ا نقشہ دکھایا گیا ہے۔گھر میں واپڈا کی تاریں داخل ہوتے ہی میٹر کو جاتی ہیں۔میٹر 
 سے نکل کر تاریں مرکزی سوئچ کو جاتی ہیں جو[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1545--1580
+Underfull \hbox (badness 10000) in paragraph at lines 1544--1579
 []\TU/JameelNooriNastaleeq(2)/b/n/10 گرم اور سرد دونوں تاروں کو گھریلو تاروں سے
  مکمل طور پر منقطع کر سکتا ہے۔اس شکل میں ہر کمرے کو تین عدد تار جاتے دکھائے گئے
  ہیں۔ان میں گرم تار پر[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1545--1580
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 فتیلہ نسب ہے جو قصر دور کی صورت میں پگھل ک
+Underfull \hbox (badness 10000) in paragraph at lines 1544--1579
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 فتیلہ نصب ہے جو قصر دور کی صورت میں پگھل ک
 ر برقی رو کو منقطع کرتے ہوئے تاروں کو آگ پکڑنے سے بچاتا ہے۔ حقیقت میں ہر کمرے ک
 و تین عدد نسبتاً کم[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1545--1580
+Underfull \hbox (badness 10000) in paragraph at lines 1544--1579
 []\TU/JameelNooriNastaleeq(2)/b/n/10 قطر کے تار چھوٹی بوجھ کو طاقت فراہم کرتے ہ
 یں اور تین عدد زیادہ قطر کے تار بڑی بوجھ اور ساکٹوں کو طاقت فراہم کرتے ہیں۔چھوٹ
 ے بوجھ سے مراد بلب اور[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1545--1580
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 پنکھے ہیں جبکہ بڑے بوجھ سے مراد فریج اور م
-وٹر ہیں۔چھوٹے بوجھ کی تار پر عموماً $\OT1/ppl/m/n/10 15 A$ \TU/JameelNooriNasta
-leeq(2)/b/n/10 کا فتیلہ جبکہ بڑی بوجھ کی تار پر $\OT1/ppl/m/n/10 20 A$ \TU/Jame
-elNooriNastaleeq(2)/b/n/10 کا فتیلہ نسب کیا جاتا ہے۔ فتیلے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1545--1580
+Underfull \hbox (badness 10000) in paragraph at lines 1544--1579
 []\TU/JameelNooriNastaleeq(2)/b/n/10 کی جگہ خود کار \TU/AASameerSagarNastaleeqB
 old(0)/m/n/10 منقطع کار[][] \TU/JameelNooriNastaleeq(2)/b/n/10 بھی استعمال کیا 
 جاتا ہے۔ جدید تار بندی میں ایسے خود کار منقطع کار استعمال کیے جاتے ہیں جو گرم ت
 ار اور سرد تار کی رو میں فرق ناپتے[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1584.
-LaTeX Info: Redefining \sffamily on input line 1584.
-LaTeX Info: Redefining \ttfamily on input line 1584.
+LaTeX Info: Redefining \rmfamily on input line 1583.
+LaTeX Info: Redefining \sffamily on input line 1583.
+LaTeX Info: Redefining \ttfamily on input line 1583.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1583--1601
+Underfull \hbox (badness 10000) in paragraph at lines 1582--1600
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مثال  ۹.۱۹: []عموماً گھرانوں میں برقی طا
 قت کا استعمال روزانہ دہرایا جاتا ہے۔ایسے ہی ایک چھوٹے گھرانے میں روزانہ طاقت کا
  استعمال جدول [][]۹.۱[][] []میں دیا گیا[]
  []
 
 [541] [542]
-LaTeX Info: Redefining \rmfamily on input line 1629.
-LaTeX Info: Redefining \sffamily on input line 1629.
-LaTeX Info: Redefining \ttfamily on input line 1629.
-LaTeX Info: Redefining \rmfamily on input line 1629.
-LaTeX Info: Redefining \sffamily on input line 1629.
-LaTeX Info: Redefining \ttfamily on input line 1629.
-LaTeX Info: Redefining \rmfamily on input line 1629.
-LaTeX Info: Redefining \sffamily on input line 1629.
-LaTeX Info: Redefining \ttfamily on input line 1629.
+LaTeX Info: Redefining \rmfamily on input line 1628.
+LaTeX Info: Redefining \sffamily on input line 1628.
+LaTeX Info: Redefining \ttfamily on input line 1628.
+LaTeX Info: Redefining \rmfamily on input line 1628.
+LaTeX Info: Redefining \sffamily on input line 1628.
+LaTeX Info: Redefining \ttfamily on input line 1628.
+LaTeX Info: Redefining \rmfamily on input line 1628.
+LaTeX Info: Redefining \sffamily on input line 1628.
+LaTeX Info: Redefining \ttfamily on input line 1628.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1629--1630
+Underfull \hbox (badness 10000) in paragraph at lines 1628--1629
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مثال [][]۹.۱۹[][] []میں آپ نے دیکھا کہ چ
 ھوٹے گھرانے کی توانائی کا تخمینہ لگاتے ہوئے بھی ہمیں بڑے بڑے اعداد کا سامنہ پڑا
  جس سے ثابت ہوتا ہے کہ جاول $\OT1/ppl/m/n/10 J$[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1633.
-LaTeX Info: Redefining \sffamily on input line 1633.
-LaTeX Info: Redefining \ttfamily on input line 1633.
+LaTeX Info: Redefining \rmfamily on input line 1632.
+LaTeX Info: Redefining \sffamily on input line 1632.
+LaTeX Info: Redefining \ttfamily on input line 1632.
 [543]
-LaTeX Info: Redefining \rmfamily on input line 1640.
-LaTeX Info: Redefining \sffamily on input line 1640.
-LaTeX Info: Redefining \ttfamily on input line 1640.
+LaTeX Info: Redefining \rmfamily on input line 1639.
+LaTeX Info: Redefining \sffamily on input line 1639.
+LaTeX Info: Redefining \ttfamily on input line 1639.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1655--1656
+Underfull \hbox (badness 10000) in paragraph at lines 1654--1655
 []\TU/JameelNooriNastaleeq(2)/b/n/10 برقی طاقت کا استعمال جاننے کے بعد بنیادی ح
 فاظتی تدابیر پر غور کرتے ہیں۔حفاظتی اقدامات از خود ایک وسیع شعبہ ہے۔یہاں بتلائے
  گئے اقدام بالکل بنیادی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1657--1658
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1657
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 شکل میں ایک مشین کو بدلتا رو طاقت فراہم 
 کی گئی ہے۔عموماً مشینوں کا غلاف موصل دھات سے بنا ہوتا ہے۔ فرض کریں کہ غلاف کو ز
 مینی تار کے ساتھ نہیں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1657--1658
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1657
 []\TU/JameelNooriNastaleeq(2)/b/n/10 جوڑا گیا ہے۔مشین میں نقص کی وجہ سے غلاف تک
  دباو پہنچ سکتا ہے۔شکل میں ایسا ہی ایک نقص دکھایا گیا ہے جہاں غلاف میں داخل ہوت
 ا گرم تار غلاف کے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1657--1658
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1657
 []\TU/JameelNooriNastaleeq(2)/b/n/10 ساتھ قصر دور ہو گیا ہے۔اب اگر کوئی شخص اس 
 مشین کے غلاف کو چھوئے تو اس کو خطر ناک جھٹکا لگے گا جو جان لیوا ثابت ہو سکتا ہے
 ۔رو منبع سے گرم تار کے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1657--1658
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1657
 []\TU/JameelNooriNastaleeq(2)/b/n/10 ذریعے غلاف تک پہنچتے ہوئے اس بد قسمت شخص ک
 ے جسم میں گزرتے ہوئے زمین کے ذریعے واپس منبع تک پہنچے گی۔آپ دیکھ سکتے ہیں کہ جی
 سے ہی یہ شخص[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1657--1658
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1657
 []\TU/JameelNooriNastaleeq(2)/b/n/10 غلاف کو چھوتا ہے، رو کو اس شخص کے جسم سے گ
 زرتا ہوا مکمل راستہ فراہم ہوتا ہے۔انسانی جسم سے عموماً اتنی زیادہ رو نہیں گزر پ
 اتی کہ وہ فتیلے کو پگھلا پائے اور اگر[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1659--1660
+Underfull \hbox (badness 10000) in paragraph at lines 1658--1659
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 اب تصور کریں کہ غلاف کو زمینی تار کے سات
 ھ جوڑا گیا ہے۔اب جوں ہی گرم تار غلاف کے ساتھ قصر دور ہوتی ہے، زمینی تار کے راست
 ے رو کو مکمل راستہ ملتا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1659--1660
+Underfull \hbox (badness 10000) in paragraph at lines 1658--1659
 []\TU/JameelNooriNastaleeq(2)/b/n/10 ہے۔زمینی تار سے اتنی زیادہ رو گزرتی ہے کہ 
 فتیلہ فوراً پگھل جاتا ہے اور غلاف پر دباو نہیں رہ پاتا۔آپ نے دیکھا کہ اتنے سادہ
  تدبیر سے انسان کی جان بچ جاتی[]
  []
 
 [544]
-Underfull \hbox (badness 10000) in paragraph at lines 1682--1683
+Underfull \hbox (badness 10000) in paragraph at lines 1681--1682
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 جواب:کوے کو جھٹکا صرف اس صورت میں لگ سکت
 ا ہے جب اس کے جسم میں رو گزرے۔ اگرچہ کوے کا جسم $\OT1/ppl/m/n/10 230 V []$ \TU/
 JameelNooriNastaleeq(2)/b/n/10 دباو پر ہے تاہم اس کو کسی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1682--1683
+Underfull \hbox (badness 10000) in paragraph at lines 1681--1682
 []\TU/JameelNooriNastaleeq(2)/b/n/10 قسم کا خطرہ لاحق نہیں ہے۔اگر بدقسمتی سے کھ
 مبے پر بیٹھا دوسرا کوا اس پہلے کوے کو چونچ مارے تب صورت حال یک دم تبدیل ہو جائے
  گی۔کھمبے کو زمینی تار[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1684--1685
+Underfull \hbox (badness 10000) in paragraph at lines 1683--1684
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 یہاں بتلاتا چلوں کہ اسی طرح کے مسائل کو 
 مد نظر رکھتے ہوئے برقی نظام تخلیق دیا جاتا ہے تا کہ پرندوں اور جانوروں کو خطرے 
 میں نہ ڈالا جائے اور برقی نظام کو[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1709.
-LaTeX Info: Redefining \sffamily on input line 1709.
-LaTeX Info: Redefining \ttfamily on input line 1709.
-LaTeX Info: Redefining \rmfamily on input line 1727.
-LaTeX Info: Redefining \sffamily on input line 1727.
-LaTeX Info: Redefining \ttfamily on input line 1727.
-LaTeX Info: Redefining \rmfamily on input line 1727.
-LaTeX Info: Redefining \sffamily on input line 1727.
-LaTeX Info: Redefining \ttfamily on input line 1727.
+LaTeX Info: Redefining \rmfamily on input line 1708.
+LaTeX Info: Redefining \sffamily on input line 1708.
+LaTeX Info: Redefining \ttfamily on input line 1708.
+LaTeX Info: Redefining \rmfamily on input line 1726.
+LaTeX Info: Redefining \sffamily on input line 1726.
+LaTeX Info: Redefining \ttfamily on input line 1726.
+LaTeX Info: Redefining \rmfamily on input line 1726.
+LaTeX Info: Redefining \sffamily on input line 1726.
+LaTeX Info: Redefining \ttfamily on input line 1726.
 [545]
-LaTeX Info: Redefining \rmfamily on input line 1735.
-LaTeX Info: Redefining \sffamily on input line 1735.
-LaTeX Info: Redefining \ttfamily on input line 1735.
-LaTeX Info: Redefining \rmfamily on input line 1741.
-LaTeX Info: Redefining \sffamily on input line 1741.
-LaTeX Info: Redefining \ttfamily on input line 1741.
-LaTeX Info: Redefining \rmfamily on input line 1752.
-LaTeX Info: Redefining \sffamily on input line 1752.
-LaTeX Info: Redefining \ttfamily on input line 1752.
-LaTeX Info: Redefining \rmfamily on input line 1752.
-LaTeX Info: Redefining \sffamily on input line 1752.
-LaTeX Info: Redefining \ttfamily on input line 1752.
-LaTeX Info: Redefining \rmfamily on input line 1760.
-LaTeX Info: Redefining \sffamily on input line 1760.
-LaTeX Info: Redefining \ttfamily on input line 1760.
-LaTeX Info: Redefining \rmfamily on input line 1771.
-LaTeX Info: Redefining \sffamily on input line 1771.
-LaTeX Info: Redefining \ttfamily on input line 1771.
-LaTeX Info: Redefining \rmfamily on input line 1771.
-LaTeX Info: Redefining \sffamily on input line 1771.
-LaTeX Info: Redefining \ttfamily on input line 1771.
-LaTeX Info: Redefining \rmfamily on input line 1779.
-LaTeX Info: Redefining \sffamily on input line 1779.
-LaTeX Info: Redefining \ttfamily on input line 1779.
-LaTeX Info: Redefining \rmfamily on input line 1789.
-LaTeX Info: Redefining \sffamily on input line 1789.
-LaTeX Info: Redefining \ttfamily on input line 1789.
-LaTeX Info: Redefining \rmfamily on input line 1789.
-LaTeX Info: Redefining \sffamily on input line 1789.
-LaTeX Info: Redefining \ttfamily on input line 1789.
-LaTeX Info: Redefining \rmfamily on input line 1797.
-LaTeX Info: Redefining \sffamily on input line 1797.
-LaTeX Info: Redefining \ttfamily on input line 1797.
-LaTeX Info: Redefining \rmfamily on input line 1807.
-LaTeX Info: Redefining \sffamily on input line 1807.
-LaTeX Info: Redefining \ttfamily on input line 1807.
-LaTeX Info: Redefining \rmfamily on input line 1807.
-LaTeX Info: Redefining \sffamily on input line 1807.
-LaTeX Info: Redefining \ttfamily on input line 1807.
-LaTeX Info: Redefining \rmfamily on input line 1815.
-LaTeX Info: Redefining \sffamily on input line 1815.
-LaTeX Info: Redefining \ttfamily on input line 1815.
-LaTeX Info: Redefining \rmfamily on input line 1825.
-LaTeX Info: Redefining \sffamily on input line 1825.
-LaTeX Info: Redefining \ttfamily on input line 1825.
-LaTeX Info: Redefining \rmfamily on input line 1825.
-LaTeX Info: Redefining \sffamily on input line 1825.
-LaTeX Info: Redefining \ttfamily on input line 1825.
+LaTeX Info: Redefining \rmfamily on input line 1734.
+LaTeX Info: Redefining \sffamily on input line 1734.
+LaTeX Info: Redefining \ttfamily on input line 1734.
+LaTeX Info: Redefining \rmfamily on input line 1740.
+LaTeX Info: Redefining \sffamily on input line 1740.
+LaTeX Info: Redefining \ttfamily on input line 1740.
+LaTeX Info: Redefining \rmfamily on input line 1751.
+LaTeX Info: Redefining \sffamily on input line 1751.
+LaTeX Info: Redefining \ttfamily on input line 1751.
+LaTeX Info: Redefining \rmfamily on input line 1751.
+LaTeX Info: Redefining \sffamily on input line 1751.
+LaTeX Info: Redefining \ttfamily on input line 1751.
+LaTeX Info: Redefining \rmfamily on input line 1759.
+LaTeX Info: Redefining \sffamily on input line 1759.
+LaTeX Info: Redefining \ttfamily on input line 1759.
+LaTeX Info: Redefining \rmfamily on input line 1770.
+LaTeX Info: Redefining \sffamily on input line 1770.
+LaTeX Info: Redefining \ttfamily on input line 1770.
+LaTeX Info: Redefining \rmfamily on input line 1770.
+LaTeX Info: Redefining \sffamily on input line 1770.
+LaTeX Info: Redefining \ttfamily on input line 1770.
+LaTeX Info: Redefining \rmfamily on input line 1778.
+LaTeX Info: Redefining \sffamily on input line 1778.
+LaTeX Info: Redefining \ttfamily on input line 1778.
+LaTeX Info: Redefining \rmfamily on input line 1788.
+LaTeX Info: Redefining \sffamily on input line 1788.
+LaTeX Info: Redefining \ttfamily on input line 1788.
+LaTeX Info: Redefining \rmfamily on input line 1788.
+LaTeX Info: Redefining \sffamily on input line 1788.
+LaTeX Info: Redefining \ttfamily on input line 1788.
+LaTeX Info: Redefining \rmfamily on input line 1796.
+LaTeX Info: Redefining \sffamily on input line 1796.
+LaTeX Info: Redefining \ttfamily on input line 1796.
+LaTeX Info: Redefining \rmfamily on input line 1806.
+LaTeX Info: Redefining \sffamily on input line 1806.
+LaTeX Info: Redefining \ttfamily on input line 1806.
+LaTeX Info: Redefining \rmfamily on input line 1806.
+LaTeX Info: Redefining \sffamily on input line 1806.
+LaTeX Info: Redefining \ttfamily on input line 1806.
+LaTeX Info: Redefining \rmfamily on input line 1814.
+LaTeX Info: Redefining \sffamily on input line 1814.
+LaTeX Info: Redefining \ttfamily on input line 1814.
+LaTeX Info: Redefining \rmfamily on input line 1824.
+LaTeX Info: Redefining \sffamily on input line 1824.
+LaTeX Info: Redefining \ttfamily on input line 1824.
+LaTeX Info: Redefining \rmfamily on input line 1824.
+LaTeX Info: Redefining \sffamily on input line 1824.
+LaTeX Info: Redefining \ttfamily on input line 1824.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1812--1828
+Underfull \hbox (badness 10000) in paragraph at lines 1811--1827
 [] \TU/JameelNooriNastaleeq(2)/b/n/10 سوال  ۹.۹: []شکل [][]۹.۴۱[][] $\OML/cmm/b
 /it/10 Z[]$ []\TU/JameelNooriNastaleeq(2)/b/n/10 کو زیادہ سے زیادہ اوسط طاقت من
 تقل کرنا ہے۔رکاوٹ $\OML/cmm/b/it/10 Z[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 کی 
@@ -16914,161 +16912,161 @@ Underfull \hbox (badness 10000) in paragraph at lines 1812--1828
  []
 
 [546] [547]
-LaTeX Info: Redefining \rmfamily on input line 1833.
-LaTeX Info: Redefining \sffamily on input line 1833.
-LaTeX Info: Redefining \ttfamily on input line 1833.
-LaTeX Info: Redefining \rmfamily on input line 1843.
-LaTeX Info: Redefining \sffamily on input line 1843.
-LaTeX Info: Redefining \ttfamily on input line 1843.
-LaTeX Info: Redefining \rmfamily on input line 1843.
-LaTeX Info: Redefining \sffamily on input line 1843.
-LaTeX Info: Redefining \ttfamily on input line 1843.
-LaTeX Info: Redefining \rmfamily on input line 1851.
-LaTeX Info: Redefining \sffamily on input line 1851.
-LaTeX Info: Redefining \ttfamily on input line 1851.
-LaTeX Info: Redefining \rmfamily on input line 1862.
-LaTeX Info: Redefining \sffamily on input line 1862.
-LaTeX Info: Redefining \ttfamily on input line 1862.
-LaTeX Info: Redefining \rmfamily on input line 1862.
-LaTeX Info: Redefining \sffamily on input line 1862.
-LaTeX Info: Redefining \ttfamily on input line 1862.
-LaTeX Info: Redefining \rmfamily on input line 1870.
-LaTeX Info: Redefining \sffamily on input line 1870.
-LaTeX Info: Redefining \ttfamily on input line 1870.
-LaTeX Info: Redefining \rmfamily on input line 1880.
-LaTeX Info: Redefining \sffamily on input line 1880.
-LaTeX Info: Redefining \ttfamily on input line 1880.
-LaTeX Info: Redefining \rmfamily on input line 1880.
-LaTeX Info: Redefining \sffamily on input line 1880.
-LaTeX Info: Redefining \ttfamily on input line 1880.
-LaTeX Info: Redefining \rmfamily on input line 1888.
-LaTeX Info: Redefining \sffamily on input line 1888.
-LaTeX Info: Redefining \ttfamily on input line 1888.
+LaTeX Info: Redefining \rmfamily on input line 1832.
+LaTeX Info: Redefining \sffamily on input line 1832.
+LaTeX Info: Redefining \ttfamily on input line 1832.
+LaTeX Info: Redefining \rmfamily on input line 1842.
+LaTeX Info: Redefining \sffamily on input line 1842.
+LaTeX Info: Redefining \ttfamily on input line 1842.
+LaTeX Info: Redefining \rmfamily on input line 1842.
+LaTeX Info: Redefining \sffamily on input line 1842.
+LaTeX Info: Redefining \ttfamily on input line 1842.
+LaTeX Info: Redefining \rmfamily on input line 1850.
+LaTeX Info: Redefining \sffamily on input line 1850.
+LaTeX Info: Redefining \ttfamily on input line 1850.
+LaTeX Info: Redefining \rmfamily on input line 1861.
+LaTeX Info: Redefining \sffamily on input line 1861.
+LaTeX Info: Redefining \ttfamily on input line 1861.
+LaTeX Info: Redefining \rmfamily on input line 1861.
+LaTeX Info: Redefining \sffamily on input line 1861.
+LaTeX Info: Redefining \ttfamily on input line 1861.
+LaTeX Info: Redefining \rmfamily on input line 1869.
+LaTeX Info: Redefining \sffamily on input line 1869.
+LaTeX Info: Redefining \ttfamily on input line 1869.
+LaTeX Info: Redefining \rmfamily on input line 1879.
+LaTeX Info: Redefining \sffamily on input line 1879.
+LaTeX Info: Redefining \ttfamily on input line 1879.
+LaTeX Info: Redefining \rmfamily on input line 1879.
+LaTeX Info: Redefining \sffamily on input line 1879.
+LaTeX Info: Redefining \ttfamily on input line 1879.
+LaTeX Info: Redefining \rmfamily on input line 1887.
+LaTeX Info: Redefining \sffamily on input line 1887.
+LaTeX Info: Redefining \ttfamily on input line 1887.
 
-Overfull \hbox (6.32043pt too wide) in paragraph at lines 1894--1898
+Overfull \hbox (6.32043pt too wide) in paragraph at lines 1893--1897
  [][][][][][] 
  []
 
 
-Overfull \hbox (4.8263pt too wide) in paragraph at lines 1903--1907
+Overfull \hbox (4.8263pt too wide) in paragraph at lines 1902--1906
  [][][][][][] 
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1909.
-LaTeX Info: Redefining \sffamily on input line 1909.
-LaTeX Info: Redefining \ttfamily on input line 1909.
-LaTeX Info: Redefining \rmfamily on input line 1909.
-LaTeX Info: Redefining \sffamily on input line 1909.
-LaTeX Info: Redefining \ttfamily on input line 1909.
-LaTeX Info: Redefining \rmfamily on input line 1909.
-LaTeX Info: Redefining \sffamily on input line 1909.
-LaTeX Info: Redefining \ttfamily on input line 1909.
-LaTeX Info: Redefining \rmfamily on input line 1909.
-LaTeX Info: Redefining \sffamily on input line 1909.
-LaTeX Info: Redefining \ttfamily on input line 1909.
-LaTeX Info: Redefining \rmfamily on input line 1918.
-LaTeX Info: Redefining \sffamily on input line 1918.
-LaTeX Info: Redefining \ttfamily on input line 1918.
-LaTeX Info: Redefining \rmfamily on input line 1924.
-LaTeX Info: Redefining \sffamily on input line 1924.
-LaTeX Info: Redefining \ttfamily on input line 1924.
+LaTeX Info: Redefining \rmfamily on input line 1908.
+LaTeX Info: Redefining \sffamily on input line 1908.
+LaTeX Info: Redefining \ttfamily on input line 1908.
+LaTeX Info: Redefining \rmfamily on input line 1908.
+LaTeX Info: Redefining \sffamily on input line 1908.
+LaTeX Info: Redefining \ttfamily on input line 1908.
+LaTeX Info: Redefining \rmfamily on input line 1908.
+LaTeX Info: Redefining \sffamily on input line 1908.
+LaTeX Info: Redefining \ttfamily on input line 1908.
+LaTeX Info: Redefining \rmfamily on input line 1908.
+LaTeX Info: Redefining \sffamily on input line 1908.
+LaTeX Info: Redefining \ttfamily on input line 1908.
+LaTeX Info: Redefining \rmfamily on input line 1917.
+LaTeX Info: Redefining \sffamily on input line 1917.
+LaTeX Info: Redefining \ttfamily on input line 1917.
+LaTeX Info: Redefining \rmfamily on input line 1923.
+LaTeX Info: Redefining \sffamily on input line 1923.
+LaTeX Info: Redefining \ttfamily on input line 1923.
 
-Overfull \hbox (8.2586pt too wide) in paragraph at lines 1930--1934
+Overfull \hbox (8.2586pt too wide) in paragraph at lines 1929--1933
  [][][][][][] 
  []
 
 
-Overfull \hbox (1.63548pt too wide) in paragraph at lines 1939--1943
+Overfull \hbox (1.63548pt too wide) in paragraph at lines 1938--1942
  [][][][][][] 
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1945.
-LaTeX Info: Redefining \sffamily on input line 1945.
-LaTeX Info: Redefining \ttfamily on input line 1945.
-LaTeX Info: Redefining \rmfamily on input line 1945.
-LaTeX Info: Redefining \sffamily on input line 1945.
-LaTeX Info: Redefining \ttfamily on input line 1945.
-LaTeX Info: Redefining \rmfamily on input line 1945.
-LaTeX Info: Redefining \sffamily on input line 1945.
-LaTeX Info: Redefining \ttfamily on input line 1945.
-LaTeX Info: Redefining \rmfamily on input line 1945.
-LaTeX Info: Redefining \sffamily on input line 1945.
-LaTeX Info: Redefining \ttfamily on input line 1945.
+LaTeX Info: Redefining \rmfamily on input line 1944.
+LaTeX Info: Redefining \sffamily on input line 1944.
+LaTeX Info: Redefining \ttfamily on input line 1944.
+LaTeX Info: Redefining \rmfamily on input line 1944.
+LaTeX Info: Redefining \sffamily on input line 1944.
+LaTeX Info: Redefining \ttfamily on input line 1944.
+LaTeX Info: Redefining \rmfamily on input line 1944.
+LaTeX Info: Redefining \sffamily on input line 1944.
+LaTeX Info: Redefining \ttfamily on input line 1944.
+LaTeX Info: Redefining \rmfamily on input line 1944.
+LaTeX Info: Redefining \sffamily on input line 1944.
+LaTeX Info: Redefining \ttfamily on input line 1944.
 [548] [549] [550]
-LaTeX Info: Redefining \rmfamily on input line 1954.
-LaTeX Info: Redefining \sffamily on input line 1954.
-LaTeX Info: Redefining \ttfamily on input line 1954.
-LaTeX Info: Redefining \rmfamily on input line 1966.
-LaTeX Info: Redefining \sffamily on input line 1966.
-LaTeX Info: Redefining \ttfamily on input line 1966.
+LaTeX Info: Redefining \rmfamily on input line 1953.
+LaTeX Info: Redefining \sffamily on input line 1953.
+LaTeX Info: Redefining \ttfamily on input line 1953.
+LaTeX Info: Redefining \rmfamily on input line 1965.
+LaTeX Info: Redefining \sffamily on input line 1965.
+LaTeX Info: Redefining \ttfamily on input line 1965.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1963--1980
+Underfull \hbox (badness 10000) in paragraph at lines 1962--1979
 [] \TU/JameelNooriNastaleeq(2)/b/n/10 سوال  ۹.۱۸: []شکل [][]۹.۴۷[][] []میں صنعت
 ی بوجھ کو طاقت مہیا کیا گیا ہے۔ ایمپیئر پیما موثر $\OT1/ppl/m/n/10 130 A$ \TU/J
 ameelNooriNastaleeq(2)/b/n/10 اور وولٹ پیما موثر $\OT1/ppl/m/n/10 440 V$ \TU/Ja
 meelNooriNastaleeq(2)/b/n/10 ناپتے ہیں جبکہ بوجھ کو[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1985.
-LaTeX Info: Redefining \sffamily on input line 1985.
-LaTeX Info: Redefining \ttfamily on input line 1985.
+LaTeX Info: Redefining \rmfamily on input line 1984.
+LaTeX Info: Redefining \sffamily on input line 1984.
+LaTeX Info: Redefining \ttfamily on input line 1984.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1982--1986
+Underfull \hbox (badness 10000) in paragraph at lines 1981--1985
 [] \TU/JameelNooriNastaleeq(2)/b/n/10 سوال  ۹.۱۹: []شکل [][]۹.۴۷[][] []میں صنعت
 ی بوجھ کو $\OT1/ppl/m/n/10 80 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 طاقت مہیا 
 کیا گیا ہے۔ ایمپیئر پیما $\OT1/ppl/m/n/10 220 A []$ \TU/JameelNooriNastaleeq(2)
 /b/n/10 ناپتا ہے جبکہ بوجھ کا امالی جزو طاقت $\OT1/ppl/m/n/10 0.92$[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1991.
-LaTeX Info: Redefining \sffamily on input line 1991.
-LaTeX Info: Redefining \ttfamily on input line 1991.
-LaTeX Info: Redefining \rmfamily on input line 1997.
-LaTeX Info: Redefining \sffamily on input line 1997.
-LaTeX Info: Redefining \ttfamily on input line 1997.
-LaTeX Info: Redefining \rmfamily on input line 2004.
-LaTeX Info: Redefining \sffamily on input line 2004.
-LaTeX Info: Redefining \ttfamily on input line 2004.
+LaTeX Info: Redefining \rmfamily on input line 1990.
+LaTeX Info: Redefining \sffamily on input line 1990.
+LaTeX Info: Redefining \ttfamily on input line 1990.
+LaTeX Info: Redefining \rmfamily on input line 1996.
+LaTeX Info: Redefining \sffamily on input line 1996.
+LaTeX Info: Redefining \ttfamily on input line 1996.
+LaTeX Info: Redefining \rmfamily on input line 2003.
+LaTeX Info: Redefining \sffamily on input line 2003.
+LaTeX Info: Redefining \ttfamily on input line 2003.
 \absvshift=\dimen542
-LaTeX Info: Redefining \rmfamily on input line 2012.
-LaTeX Info: Redefining \sffamily on input line 2012.
-LaTeX Info: Redefining \ttfamily on input line 2012.
-LaTeX Info: Redefining \rmfamily on input line 2012.
-LaTeX Info: Redefining \sffamily on input line 2012.
-LaTeX Info: Redefining \ttfamily on input line 2012.
-LaTeX Info: Redefining \rmfamily on input line 2020.
-LaTeX Info: Redefining \sffamily on input line 2020.
-LaTeX Info: Redefining \ttfamily on input line 2020.
+LaTeX Info: Redefining \rmfamily on input line 2011.
+LaTeX Info: Redefining \sffamily on input line 2011.
+LaTeX Info: Redefining \ttfamily on input line 2011.
+LaTeX Info: Redefining \rmfamily on input line 2011.
+LaTeX Info: Redefining \sffamily on input line 2011.
+LaTeX Info: Redefining \ttfamily on input line 2011.
+LaTeX Info: Redefining \rmfamily on input line 2019.
+LaTeX Info: Redefining \sffamily on input line 2019.
+LaTeX Info: Redefining \ttfamily on input line 2019.
 \absvshift=\dimen543
-LaTeX Info: Redefining \rmfamily on input line 2028.
-LaTeX Info: Redefining \sffamily on input line 2028.
-LaTeX Info: Redefining \ttfamily on input line 2028.
-LaTeX Info: Redefining \rmfamily on input line 2028.
-LaTeX Info: Redefining \sffamily on input line 2028.
-LaTeX Info: Redefining \ttfamily on input line 2028.
-LaTeX Info: Redefining \rmfamily on input line 2036.
-LaTeX Info: Redefining \sffamily on input line 2036.
-LaTeX Info: Redefining \ttfamily on input line 2036.
+LaTeX Info: Redefining \rmfamily on input line 2027.
+LaTeX Info: Redefining \sffamily on input line 2027.
+LaTeX Info: Redefining \ttfamily on input line 2027.
+LaTeX Info: Redefining \rmfamily on input line 2027.
+LaTeX Info: Redefining \sffamily on input line 2027.
+LaTeX Info: Redefining \ttfamily on input line 2027.
+LaTeX Info: Redefining \rmfamily on input line 2035.
+LaTeX Info: Redefining \sffamily on input line 2035.
+LaTeX Info: Redefining \ttfamily on input line 2035.
 \absvshift=\dimen544
-LaTeX Info: Redefining \rmfamily on input line 2044.
-LaTeX Info: Redefining \sffamily on input line 2044.
-LaTeX Info: Redefining \ttfamily on input line 2044.
-LaTeX Info: Redefining \rmfamily on input line 2044.
-LaTeX Info: Redefining \sffamily on input line 2044.
-LaTeX Info: Redefining \ttfamily on input line 2044.
+LaTeX Info: Redefining \rmfamily on input line 2043.
+LaTeX Info: Redefining \sffamily on input line 2043.
+LaTeX Info: Redefining \ttfamily on input line 2043.
+LaTeX Info: Redefining \rmfamily on input line 2043.
+LaTeX Info: Redefining \sffamily on input line 2043.
+LaTeX Info: Redefining \ttfamily on input line 2043.
 [551]
-LaTeX Info: Redefining \rmfamily on input line 2052.
-LaTeX Info: Redefining \sffamily on input line 2052.
-LaTeX Info: Redefining \ttfamily on input line 2052.
+LaTeX Info: Redefining \rmfamily on input line 2051.
+LaTeX Info: Redefining \sffamily on input line 2051.
+LaTeX Info: Redefining \ttfamily on input line 2051.
 \absvshift=\dimen545
-LaTeX Info: Redefining \rmfamily on input line 2060.
-LaTeX Info: Redefining \sffamily on input line 2060.
-LaTeX Info: Redefining \ttfamily on input line 2060.
-LaTeX Info: Redefining \rmfamily on input line 2060.
-LaTeX Info: Redefining \sffamily on input line 2060.
-LaTeX Info: Redefining \ttfamily on input line 2060.
+LaTeX Info: Redefining \rmfamily on input line 2059.
+LaTeX Info: Redefining \sffamily on input line 2059.
+LaTeX Info: Redefining \ttfamily on input line 2059.
+LaTeX Info: Redefining \rmfamily on input line 2059.
+LaTeX Info: Redefining \sffamily on input line 2059.
+LaTeX Info: Redefining \ttfamily on input line 2059.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2065--2069
+Underfull \hbox (badness 10000) in paragraph at lines 2064--2068
 [] \TU/JameelNooriNastaleeq(2)/b/n/10 سوال  ۹.۲۶:  ایک صنعتی بوجھ کو $\OT1/ppl/
 m/n/10 50 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 اور $\OT1/ppl/m/n/10 260 V []$
  \TU/JameelNooriNastaleeq(2)/b/n/10 کے منبع سے طاقت مہیا کیا جاتا ہے۔بوجھ کا جز
@@ -17077,7 +17075,7 @@ m/n/10 50 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 اور $\OT1/ppl/m/n/10 260 V [
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2071--2075
+Underfull \hbox (badness 10000) in paragraph at lines 2070--2074
 [] \TU/JameelNooriNastaleeq(2)/b/n/10 سوال  ۹.۲۷:  ایک صنعتی بوجھ کو $\OT1/ppl/
 m/n/10 50 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 اور $\OT1/ppl/m/n/10 200 V []$
  \TU/JameelNooriNastaleeq(2)/b/n/10 کے منبع سے طاقت مہیا کیا جاتا ہے۔بوجھ کا جز
@@ -17086,7 +17084,7 @@ m/n/10 50 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 اور $\OT1/ppl/m/n/10 200 V [
  []
 
 [552]
-Underfull \hbox (badness 10000) in paragraph at lines 2077--2081
+Underfull \hbox (badness 10000) in paragraph at lines 2076--2080
 [] \TU/JameelNooriNastaleeq(2)/b/n/10 سوال  ۹.۲۸:  ایک صنعتی بوجھ کو $\OT1/ppl/
 m/n/10 50 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 اور $\OT1/ppl/m/n/10 480 V []$
  \TU/JameelNooriNastaleeq(2)/b/n/10 کے منبع سے طاقت مہیا کیا جاتا ہے۔بوجھ کا جز
@@ -17094,23 +17092,23 @@ m/n/10 50 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 اور $\OT1/ppl/m/n/10 480 V [
 ]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 2086.
-LaTeX Info: Redefining \sffamily on input line 2086.
-LaTeX Info: Redefining \ttfamily on input line 2086.
-LaTeX Info: Redefining \rmfamily on input line 2103.
-LaTeX Info: Redefining \sffamily on input line 2103.
-LaTeX Info: Redefining \ttfamily on input line 2103.
-LaTeX Info: Redefining \rmfamily on input line 2103.
-LaTeX Info: Redefining \sffamily on input line 2103.
-LaTeX Info: Redefining \ttfamily on input line 2103.
-LaTeX Info: Redefining \rmfamily on input line 2103.
-LaTeX Info: Redefining \sffamily on input line 2103.
-LaTeX Info: Redefining \ttfamily on input line 2103.
-LaTeX Info: Redefining \rmfamily on input line 2103.
-LaTeX Info: Redefining \sffamily on input line 2103.
-LaTeX Info: Redefining \ttfamily on input line 2103.
+LaTeX Info: Redefining \rmfamily on input line 2085.
+LaTeX Info: Redefining \sffamily on input line 2085.
+LaTeX Info: Redefining \ttfamily on input line 2085.
+LaTeX Info: Redefining \rmfamily on input line 2102.
+LaTeX Info: Redefining \sffamily on input line 2102.
+LaTeX Info: Redefining \ttfamily on input line 2102.
+LaTeX Info: Redefining \rmfamily on input line 2102.
+LaTeX Info: Redefining \sffamily on input line 2102.
+LaTeX Info: Redefining \ttfamily on input line 2102.
+LaTeX Info: Redefining \rmfamily on input line 2102.
+LaTeX Info: Redefining \sffamily on input line 2102.
+LaTeX Info: Redefining \ttfamily on input line 2102.
+LaTeX Info: Redefining \rmfamily on input line 2102.
+LaTeX Info: Redefining \sffamily on input line 2102.
+LaTeX Info: Redefining \ttfamily on input line 2102.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2083--2106
+Underfull \hbox (badness 10000) in paragraph at lines 2082--2105
 [] \TU/JameelNooriNastaleeq(2)/b/n/10 سوال  ۹.۲۹: []شکل [][]۹.۵۲[][][]-الف امال
 ی بوجھ کا مساوی دور $\OT1/ppl/m/n/10 2 \OT1/zplm/m/n/10 + \OML/zplm/m/it/10 j\O
 T1/ppl/m/n/10 2 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 دکھایا گیا ہے جس کو $\OT
@@ -17118,11 +17116,11 @@ T1/ppl/m/n/10 2 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 دکھایا گیا ہے 
  گئی ہے۔بوجھ کے[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 2111.
-LaTeX Info: Redefining \sffamily on input line 2111.
-LaTeX Info: Redefining \ttfamily on input line 2111.
+LaTeX Info: Redefining \rmfamily on input line 2110.
+LaTeX Info: Redefining \sffamily on input line 2110.
+LaTeX Info: Redefining \ttfamily on input line 2110.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2108--2112
+Underfull \hbox (badness 10000) in paragraph at lines 2107--2111
 [] \TU/JameelNooriNastaleeq(2)/b/n/10 سوال  ۹.۳۰: []شکل [][]۹.۵۲[][][]-ب امالی 
 بوجھ کا مساوی دور $\OT1/ppl/m/n/10 2 \OT1/zplm/m/n/10 + \OML/zplm/m/it/10 j\OT1
 /ppl/m/n/10 2 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 دکھایا گیا ہے جس کو $\OT1/
@@ -18261,23 +18259,15 @@ LaTeX Info: Redefining \ttfamily on input line 1787.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1787--1788
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 ٹرانسفارمر کی ثانوی جانب کو کھلا دور رکھ
-تے ہوئے اس کے ابتدائی جانب منبع دباو نسب کرنے سے ثانوی جانب کی رو صفر حاصل ہوتی
- ہے۔تبادلہ رو کے تحت یوں[]
+تے ہوئے اس کے ابتدائی جانب منبع دباو ڈالنے سے ثانوی جانب کی رو صفر حاصل ہوتی ہے
+۔تبادلہ رو کے تحت یوں ابتدائی[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1787--1788
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 ابتدائی رو بھی صفر ہو گی۔حقیقت میں ٹرانسفا
-رمر کے دونوں لچھے عام امالہ ہیں لہٰذا ابتدائی جانب منبع دباو نسب کرنے سے ابتدائ
-ی لچھے میں رو ضرور گزرے گی[]
- []
-
-
-Underfull \hbox (badness 2426) in paragraph at lines 1787--1788
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 جسے ٹرانسفارمر کی \TU/AASameerSagarNastale
-eqBold(0)/m/n/10 ہیجان انگیز رو[][] \TU/JameelNooriNastaleeq(2)/b/n/10 کہتے ہیں
-۔کسی بھی ٹرانسفارمر جس پر اس کے سکت کے مطابق پورا برقی بوجھ لدا ہو میں رو کی قی
-متیں ہیجان انگیز رو سے اتنی[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 رو بھی صفر ہو گی۔حقیقت میں ٹرانسفارمر کے د
+ونوں لچھے عام امالہ ہیں لہٰذا ابتدائی جانب منبع دباو نصب کرنے سے ابتدائی لچھے م
+یں رو ضرور گزرے گی جسے[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1789.
@@ -18366,7 +18356,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1834--1836
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مثال  ۱۰.۱۵:  پانچ کلو واٹ سے کم طاقت اس
 تعمال کرنے والے گھریلو صارفین کے ہاں ایک دور (یک فیزہ) توانائی ناپنے والا \TU/A
 ASameerSagarNastaleeqBold(0)/m/n/10 میٹر[][] \TU/JameelNooriNastaleeq(2)/b/n/10
- نسب کیا جاتا ہے۔ایک[]
+ نصب کیا جاتا ہے۔ایک[]
  []
 
 
@@ -19079,9 +19069,9 @@ t/10 V[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 لکھا[]
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 509--548
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 یوں جہاں بھی تکونی منبع نسب ہو، اس کی جگہ 
-مساوی ستارہ منبع نسب کرتے ہوئے دور کو ستارہ منبع کے تمام طریقوں سے حل کیا جا سک
-تا ہے۔آئیں اس پر ایک مثال[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 یوں جہاں بھی تکونی منبع نصب ہو، اس کی جگہ 
+مساوی ستارہ منبع نصب کرتے ہوئے دور کو ستارہ منبع کے تمام طریقوں سے حل کیا جا سک
+تا ہے۔آئیں اس پر ایک[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 549.
@@ -19226,7 +19216,7 @@ LaTeX Info: Redefining \ttfamily on input line 716.
 
 Underfull \hbox (badness 10000) in paragraph at lines 716--717
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 شکل [][]۱۱.۱۳[][] []میں تکونی بوجھ کی جگ
-ہ اس کا مساوی ستارہ بوجھ نسب کرنے سے شکل [][]۱۱.۱۵[][][]-الف حاصل ہوتا ہے۔صفحہ 
+ہ اس کا مساوی ستارہ بوجھ نصب کرنے سے شکل [][]۱۱.۱۵[][][]-الف حاصل ہوتا ہے۔صفحہ 
 ۸۵[] پر ستارہ-تکون تبادلہ پر غور کیا گیا ہے[]
  []
 
@@ -19356,7 +19346,7 @@ LaTeX Info: Redefining \ttfamily on input line 1019.
 Underfull \hbox (badness 10000) in paragraph at lines 1019--1020
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 ہمارے ملک پاکستان میں برقی طاقت کا بیشتر
  حصہ پانی کے ڈیم سے حاصل کیا جاتا ہے۔یہ ڈیم عموماً شہروں سے دور پائے جاتے ہیں۔ڈ
-یم پر نسب \TU/AASameerSagarNastaleeqBold(0)/m/n/10 دباو بڑھاتا[]
+یم پر نصب \TU/AASameerSagarNastaleeqBold(0)/m/n/10 دباو بڑھاتا[]
  []
 
 
@@ -19459,7 +19449,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1133--1134
 
 Underfull \hbox (badness 10000) in paragraph at lines 1135--1137
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 جزو طاقت بہتر بنانے والے برق گیر کو بوجھ
- کے قریب نسب کیا جاتا ہے نہ کہ منبع کے قریب۔جزو طاقت بہتر کرنے سے درکار مخلوط ط
+ کے قریب نصب کیا جاتا ہے نہ کہ منبع کے قریب۔جزو طاقت بہتر کرنے سے درکار مخلوط ط
 اقت کی قیمت گھٹتی[]
  []
 
@@ -19502,7 +19492,7 @@ LaTeX Info: Redefining \ttfamily on input line 1199.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1198--1200
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مشق  ۱۱.۱۷:  مثال [][]۱۱.۱۳[][] []میں بر
-ق گیر کو ستارہ کے بجائے تکونی نسب کرتے ہوئے $\OT1/ppl/m/n/10 0.97$ \TU/JameelNo
+ق گیر کو ستارہ کے بجائے تکونی نصب کرتے ہوئے $\OT1/ppl/m/n/10 0.97$ \TU/JameelNo
 oriNastaleeq(2)/b/n/10 امالی جزو طاقت حاصل کیا جاتا ہے۔برق گیر $\OML/zplm/m/it/
 10 C$ \TU/JameelNooriNastaleeq(2)/b/n/10 کی گنجائش[]
  []
@@ -21982,36 +21972,29 @@ LaTeX Info: Redefining \sffamily on input line 30.
 LaTeX Info: Redefining \ttfamily on input line 30.
 
 Underfull \hbox (badness 10000) in paragraph at lines 30--31
-[][]\TU/JameelNooriNastaleeq(2)/b/n/10 لاپلاس بدل آسانی سے حاصل ہوتا ہے جبکہ ال
-ٹ لاپلاس بدل مشکل سے حاصل ہوتا ہے۔ہم کئی تفاعل کے لاپلاس بدل حاصل کرتے ہوئے انہ
-یں جدول میں[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 جوڑیوں کی صورت میں لکھیں گے اور معکوس بدل 
+کو اسی جدول سے دیکھ کر حاصل کریں گے۔کسی بھی وقتی تفاعل $\OML/zplm/m/it/10 f\OT1
+/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(2
+)/b/n/10 کا منفرد لاپلاس بدل $[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 s\OT1/zplm/
+m/n/10 )$ \TU/JameelNooriNastaleeq(2)/b/n/10 پایا[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 30--31
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 جوڑیوں کی صورت میں لکھیں گے اور الٹ بدل کو
- اسی جدول سے دیکھ کر حاصل کریں گے۔کسی بھی وقتی تفاعل $\OML/zplm/m/it/10 f\OT1/z
-plm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(2)/
-b/n/10 کا منفرد لاپلاس بدل $[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 s\OT1/zplm/m/
-n/10 )$ \TU/JameelNooriNastaleeq(2)/b/n/10 پایا جاتا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 ہے لہٰذا دو مختلف وقتی تفاعل $\OML/zplm/m/
-it/10 f[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$ \TU/JameelNoo
-riNastaleeq(2)/b/n/10 اور $\OML/zplm/m/it/10 f[]\OT1/zplm/m/n/10 (\OML/zplm/m/i
-t/10 t\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(2)/b/n/10 کے لاپلاس بدل کسی 
-بھی صورت میں یکساں نہیں ہو سکتے ہیں۔یوں کسی بھی لاپلاس بدل $[]\OT1/zplm/m/n/10 
-(\OML/zplm/m/it/10 s\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(2)/b/n/10 کو[]
-
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 جاتا ہے لہٰذا دو مختلف وقتی تفاعل $\OML/zp
+lm/m/it/10 f[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$ \TU/Jame
+elNooriNastaleeq(2)/b/n/10 اور $\OML/zplm/m/it/10 f[]\OT1/zplm/m/n/10 (\OML/zpl
+m/m/it/10 t\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(2)/b/n/10 کے لاپلاس بدل
+ کسی بھی صورت میں یکساں نہیں ہو سکتے ہیں۔یوں کسی بھی لاپلاس بدل $[]\OT1/zplm/m/
+n/10 (\OML/zplm/m/it/10 s\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(2)/b/n/10
+ کو[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 30--31
 []\TU/JameelNooriNastaleeq(2)/b/n/10 سادہ ترین اجزاء میں تقسیم کرتے ہوئے ان کے 
-الٹ بدل کو جدول سے پڑھا جاتا ہے۔تمام اجزاء کے الٹ لاپلاس بدل کا مجموعہ درکار وق
-تی تفاعل ہو گا۔ہم لاپلاس[]
+معکوس بدل کو جدول سے پڑھا جاتا ہے۔تمام اجزاء کے معکوس لاپلاس بدل کا مجموعہ درکا
+ر وقتی تفاعل ہو گا۔ہم[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 33.
@@ -22029,7 +22012,6 @@ LaTeX Info: Redefining \ttfamily on input line 33.
 LaTeX Info: Redefining \rmfamily on input line 60.
 LaTeX Info: Redefining \sffamily on input line 60.
 LaTeX Info: Redefining \ttfamily on input line 60.
-[732]
 LaTeX Info: Redefining \rmfamily on input line 68.
 LaTeX Info: Redefining \sffamily on input line 68.
 LaTeX Info: Redefining \ttfamily on input line 68.
@@ -22053,6 +22035,7 @@ LaTeX Info: Redefining \ttfamily on input line 71.
 LaTeX Info: Redefining \rmfamily on input line 73.
 LaTeX Info: Redefining \sffamily on input line 73.
 LaTeX Info: Redefining \ttfamily on input line 73.
+[732]
 LaTeX Info: Redefining \rmfamily on input line 85.
 LaTeX Info: Redefining \sffamily on input line 85.
 LaTeX Info: Redefining \ttfamily on input line 85.
@@ -22274,15 +22257,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 512--513
 Underfull \hbox (badness 10000) in paragraph at lines 523--524
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 لاپلاس بدل $[]\OT1/zplm/m/n/10 (\OML/zpl
 m/m/it/10 s\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(2)/b/n/10 کی جزوی کسری 
-پھیلاو کے بعد علیحدہ علیحدہ کسر کا الٹ لاپلاس بدل جدول سے پڑھا جا سکتا ہے۔تمام 
-کسروں کے الٹ لاپلاس بدل کا مجموعہ[]
+پھیلاو کے بعد علیحدہ علیحدہ کسر کا معکوس لاپلاس بدل جدول سے پڑھا جا سکتا ہے۔تما
+م کسروں کے معکوس لاپلاس بدل کا[]
  []
 
 [747]
+Underfull \hbox (badness 1062) in paragraph at lines 553--555
+[][]\TU/JameelNooriNastaleeq(2)/b/n/10 مثال  ۱۳.۱۲:  لاپلاس تفاعل $[]\OT1/zplm/
+m/n/10 (\OML/zplm/m/it/10 s\OT1/zplm/m/n/10 ) = []$ \TU/JameelNooriNastaleeq(2)
+/b/n/10 کے جزوی کسری پھیلاو حاصل کرتے ہوئے معکوس لاپلاس تفاعل $\OML/zplm/m/it/1
+0 f\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$ \TU/JameelNooriNast
+aleeq(2)/b/n/10 دریافت[]
+ []
+
 LaTeX Info: Redefining \rmfamily on input line 572.
 LaTeX Info: Redefining \sffamily on input line 572.
 LaTeX Info: Redefining \ttfamily on input line 572.
- [748]
+[748]
 LaTeX Info: Redefining \rmfamily on input line 585.
 LaTeX Info: Redefining \sffamily on input line 585.
 LaTeX Info: Redefining \ttfamily on input line 585.
@@ -22381,10 +22372,10 @@ LaTeX Info: Redefining \sffamily on input line 811.
 LaTeX Info: Redefining \ttfamily on input line 811.
 
 Underfull \hbox (badness 10000) in paragraph at lines 811--812
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 الٹ لاپلاس بدل $\OML/zplm/m/it/10 C[]^^N\O
-T1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq
-(2)/b/n/10 ہو گا۔ہم اس حقیقت پر تبصرہ کر چکے ہیں کہ حقیقی دنیا میں اکائی ضرب تف
-اعل نہیں پایا جاتا لہٰذا کسی بھی دور کا رد عمل اکائی ضرب[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 کا معکوس لاپلاس بدل $\OML/zplm/m/it/10 C[]
+^^N\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$ \TU/JameelNooriNast
+aleeq(2)/b/n/10 ہو گا۔ہم اس حقیقت پر تبصرہ کر چکے ہیں کہ حقیقی دنیا میں اکائی ض
+رب تفاعل نہیں پایا جاتا لہٰذا کسی بھی دور کا رد عمل اکائی[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 815.
@@ -22435,8 +22426,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 884--885
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 وقتی دائرہ کار میں رو $\OML/zplm/m/it/10
  i\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$ \TU/JameelNooriNasta
 leeq(2)/b/n/10 حاصل کرنے کے لیے $[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 s\OT1/zp
-lm/m/n/10 )$ \TU/JameelNooriNastaleeq(2)/b/n/10 کا الٹ لاپلاس بدل درکار ہو گا۔ج
-دول [][]۱۳.۲[][] []میں مسئلہ الجھاو کے تحت دو لاپلاس تفاعل کے ضرب[]
+lm/m/n/10 )$ \TU/JameelNooriNastaleeq(2)/b/n/10 کا معکوس لاپلاس بدل درکار ہو گا
+۔جدول [][]۱۳.۲[][] []میں مسئلہ الجھاو کے تحت دو لاپلاس تفاعل کے[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 891.
@@ -22472,22 +22463,22 @@ LaTeX Info: Redefining \ttfamily on input line 924.
 
 Underfull \hbox (badness 10000) in paragraph at lines 923--926
 []\TU/JameelNooriNastaleeq(2)/b/n/10 اگرچہ شکل [][]۱۳.۴[][] []کا لاپلاس بدل انت
-ہائی سادہ تھا لیکن مسئلہ الجھاو کی مدد سے اس کا الٹ لاپلاس بدل حاصل کرنا اتنا آ
-سان نہ تھا۔ذرہ مشکل تفاعل کا الٹ لاپلاس[]
+ہائی سادہ تھا لیکن مسئلہ الجھاو کی مدد سے اس کا معکوس لاپلاس بدل حاصل کرنا اتنا
+ آسان نہ تھا۔ذرہ مشکل تفاعل کا معکوس[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 923--926
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 نہ ہو۔اسی طرح اگر کسی نظام کا ردعمل اکائی 
-ضرب تفاعل کے لیے معلوم ہو تب کسی بھی داخلی تفاعل کے لیے اس کا رد عمل مسئلہ الجھ
-او سے حاصل کیا جا سکتا[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 لاپلاس بدل مسئلہ الجھاو سے حاصل کرنا نہایت
+ مشکل ثابت ہوتا ہے۔مسئلہ الجھاو کی افادیت وہاں سامنے آتی ہے جہاں داخلی جبری تفا
+عل کو الجبرائی صورت میں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 928--929
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 ہیں۔بعض اوقات ہمیں صرف انہیں دو لمحات پر و
-قتی تفاعل کی قیمت درکار ہوتی ہے۔کیا اچھا ہوتا کہ الٹ لاپلاس بدل حاصل کیے بغیر ا
-بتدائی قیمت اور اختتامی[]
+Underfull \hbox (badness 10000) in paragraph at lines 923--926
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 لکھنا ممکن نہ ہو۔اسی طرح اگر کسی نظام کا ر
+دعمل اکائی ضرب تفاعل کے لیے معلوم ہو تب کسی بھی داخلی تفاعل کے لیے اس کا رد عمل
+ مسئلہ الجھاو سے حاصل کیا[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 930.
@@ -22710,7 +22701,7 @@ LaTeX Info: Redefining \ttfamily on input line 488.
 
 Underfull \hbox (badness 10000) in paragraph at lines 488--489
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 آئیں اب شکل [][]۱۴.۸[][][]-الف کو تبادلہ
- منبع سے حل کریں۔دونوں منبع دباو کے مساوی منبع رو نسب کرتے ہوئے شکل [][]۱۴.۱۰[]
+ منبع سے حل کریں۔دونوں منبع دباو کے مساوی منبع رو نصب کرتے ہوئے شکل [][]۱۴.۱۰[]
 [][]-الف ملتا ہے جہاں منبع دباو $[]$ اور[]
  []
 
@@ -24701,18 +24692,6 @@ LaTeX Info: Redefining \ttfamily on input line 1354.
 LaTeX Info: Redefining \rmfamily on input line 1354.
 LaTeX Info: Redefining \sffamily on input line 1354.
 LaTeX Info: Redefining \ttfamily on input line 1354.
-
-Underfull \hbox (badness 6445) in paragraph at lines 1354--1355
-[][]\TU/JameelNooriNastaleeq(2)/b/n/10 مساوات [][]۱۵.۵۹[][] []اور مساوات [][]۱۵
-.۶۰[][] []فوریئر جوڑی کہلاتے ہیں۔چونکہ $\OML/zplm/m/it/10 f\OT1/zplm/m/n/10 (\O
-ML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(2)/b/n/10 کا \TU/
-AASameerSagarNastaleeqBold(0)/m/n/10 فوریئر بدل[][] $\OMS/zplm/m/n/10 F\OT1/zpl
-m/m/n/10 (\OML/zplm/m/it/10 !\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(2)/b/
-n/10 ہے لہٰذا $\OMS/zplm/m/n/10 F\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 !\OT1/zplm
-/m/n/10 )$ \TU/JameelNooriNastaleeq(2)/b/n/10 کا \TU/AASameerSagarNastaleeqBold
-(0)/m/n/10 الٹ فوریئر بدل[][][]
- []
-
 LaTeX Info: Redefining \rmfamily on input line 1367.
 LaTeX Info: Redefining \sffamily on input line 1367.
 LaTeX Info: Redefining \ttfamily on input line 1367.
@@ -25080,15 +25059,7 @@ LaTeX Info: Redefining \ttfamily on input line 2272.
 LaTeX Info: Redefining \rmfamily on input line 2272.
 LaTeX Info: Redefining \sffamily on input line 2272.
 LaTeX Info: Redefining \ttfamily on input line 2272.
-
-Underfull \hbox (badness 1502) in paragraph at lines 2269--2273
-[] \TU/JameelNooriNastaleeq(2)/b/n/10 سوال  ۱۵.۱۶:  شکل [][]۱۵.۳۹[][] []میں داخ
-لی دباو چکور موج ہے جس کا حیطہ $\OT1/ppl/m/n/10 10 V$ \TU/JameelNooriNastaleeq(
-2)/b/n/10 اور جس کا دوری عرصہ $\OML/zplm/m/it/10 T \OT1/zplm/m/n/10 = \OT1/ppl/
-m/n/10 5 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 ہے۔اس داخلی دباو کو شکل[]
- []
-
-[890] [891]
+ [890] [891]
 LaTeX Info: Redefining \rmfamily on input line 2287.
 LaTeX Info: Redefining \sffamily on input line 2287.
 LaTeX Info: Redefining \ttfamily on input line 2287.
@@ -25236,6 +25207,13 @@ LaTeX Info: Redefining \ttfamily on input line 168.
 LaTeX Info: Redefining \rmfamily on input line 192.
 LaTeX Info: Redefining \sffamily on input line 192.
 LaTeX Info: Redefining \ttfamily on input line 192.
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
+[][]\TU/JameelNooriNastaleeq(2)/b/n/10 اس مثال کو مکمل کرنے کی غرض سے شکل [][]۱
+۶.۳[][][]-الف کے داخلی جانب منبع رو اور خارجی جانب $\OT1/ppl/m/n/10 3 []$ \TU/J
+ameelNooriNastaleeq(2)/b/n/10 نصب کرتے ہوئے حل کرتے ہیں۔شکل-ت میں[]
+ []
+
 LaTeX Info: Redefining \rmfamily on input line 197.
 LaTeX Info: Redefining \sffamily on input line 197.
 LaTeX Info: Redefining \ttfamily on input line 197.
@@ -25254,9 +25232,9 @@ LaTeX Info: Redefining \ttfamily on input line 239.
 
 Underfull \hbox (badness 10000) in paragraph at lines 238--240
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مشق  ۱۶.۳:  شکل [][]۱۶.۴[][] []میں داخلی
- جانب $\OT1/ppl/m/n/10 3 A$ \TU/JameelNooriNastaleeq(2)/b/n/10 کا منبع رو نسب ک
+ جانب $\OT1/ppl/m/n/10 3 A$ \TU/JameelNooriNastaleeq(2)/b/n/10 کا منبع رو نصب ک
 یا جاتا ہے جبکہ خارجی جانب $\OT1/ppl/m/n/10 30 []$ \TU/JameelNooriNastaleeq(2)/
-b/n/10 کا مزاحمت نسب کیا جاتا ہے۔گزشتہ مشق کے $\OML/zplm/m/it/10 Y$[]
+b/n/10 کا مزاحمت نصب کیا جاتا ہے۔گزشتہ مشق کے $\OML/zplm/m/it/10 Y$[]
  []
 
 [899]
@@ -25702,10 +25680,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 220033 strings out of 474878
- 6963886 string characters out of 9512517
- 6131343 words of memory out of 7000000
- 241108 multiletter control sequences out of 15000+600000
+ 219347 strings out of 474878
+ 6941864 string characters out of 9512517
+ 6117543 words of memory out of 7000000
+ 240422 multiletter control sequences out of 15000+600000
  595205 words of font info for 173 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  117i,21n,375p,2073b,2972s stack positions out of 10000i,1000n,20000p,200000b,200000s
