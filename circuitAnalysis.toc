@@ -3,7 +3,7 @@
 \contentsline {chapter}{دیباچہ}{viii}{}%
 \contentsline {chapter}{میری پہلی کتاب کا دیباچہ}{xi}{}%
 \contentsline {chapter}{\numberline {\farsidigits {1}}بنیاد}{\farsidigits {1}}{}%
-\contentsline {section}{\numberline {\farsidigits {1}.\farsidigits {1}}برقی بار، برقی رو اور برقی دباو}{\farsidigits {1}}{}%
+\contentsline {section}{\numberline {\farsidigits {1}.\farsidigits {1}}برقی بار، برقی رو اور برقی دباؤ}{\farsidigits {1}}{}%
 \contentsline {section}{\numberline {\farsidigits {1}.\farsidigits {2}}قانونِ اوہم}{\farsidigits {5}}{}%
 \contentsline {section}{\numberline {\farsidigits {1}.\farsidigits {3}}توانائی اور طاقت}{\farsidigits {7}}{}%
 \contentsline {section}{\numberline {\farsidigits {1}.\farsidigits {4}}برقی پرزے}{\farsidigits {12}}{}%
@@ -13,10 +13,10 @@
 \contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {1}}قانون اوہم}{\farsidigits {33}}{}%
 \contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {2}}قوانین کرخوف}{\farsidigits {40}}{}%
 \contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {3}}سلسلہ وار جڑے پرزوں میں رو}{\farsidigits {54}}{}%
-\contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {4}}تقسیم دباو}{\farsidigits {54}}{}%
+\contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {4}}تقسیم دباؤ}{\farsidigits {54}}{}%
 \contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {5}}متعدد سلسلہ وار مزاحمتوں کا مساوی مزاحمت}{\farsidigits {57}}{}%
-\contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {6}}سلسلہ وار متعدد منابع دباو اور مزاحمت}{\farsidigits {60}}{}%
-\contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {7}}متوازی جڑے مزاحمت پر یکساں دباو پایا جاتا ہے}{\farsidigits {61}}{}%
+\contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {6}}سلسلہ وار متعدد منابع دباؤ اور مزاحمت}{\farsidigits {60}}{}%
+\contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {7}}متوازی جڑے مزاحمت پر یکساں دباؤ پایا جاتا ہے}{\farsidigits {61}}{}%
 \contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {8}}تقسیم رو اور متعدد متوازی مزاحمتوں کا مساوی مزاحمت}{\farsidigits {61}}{}%
 \contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {9}}سلسلہ وار اور متوازی مزاحمت}{\farsidigits {69}}{}%
 \contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {10}}تخصیص مزاحمت}{\farsidigits {75}}{}%
@@ -27,8 +27,8 @@
 \contentsline {section}{\numberline {\farsidigits {3}.\farsidigits {1}}تجزیہ جوڑ}{\farsidigits {115}}{}%
 \contentsline {section}{\numberline {\farsidigits {3}.\farsidigits {2}}غیر تابع منبع رو استعمال کرنے والے ادوار}{\farsidigits {118}}{}%
 \contentsline {section}{\numberline {\farsidigits {3}.\farsidigits {3}}تابع منبع رو استعمال کرنے والے ادوار}{\farsidigits {130}}{}%
-\contentsline {section}{\numberline {\farsidigits {3}.\farsidigits {4}}غیر تابع منبع دباو استعمال کرنے والے ادوار}{\farsidigits {135}}{}%
-\contentsline {section}{\numberline {\farsidigits {3}.\farsidigits {5}}تابع منبع دباو استعمال کرنے والے ادوار}{\farsidigits {144}}{}%
+\contentsline {section}{\numberline {\farsidigits {3}.\farsidigits {4}}غیر تابع منبع دباؤ استعمال کرنے والے ادوار}{\farsidigits {135}}{}%
+\contentsline {section}{\numberline {\farsidigits {3}.\farsidigits {5}}تابع منبع دباؤ استعمال کرنے والے ادوار}{\farsidigits {144}}{}%
 \contentsline {section}{\numberline {\farsidigits {3}.\farsidigits {6}}دائری تجزیہ}{\farsidigits {150}}{}%
 \contentsline {section}{\numberline {\farsidigits {3}.\farsidigits {7}}غیر تابع منبع استعمال کرنے والے ادوار}{\farsidigits {151}}{}%
 \contentsline {section}{\numberline {\farsidigits {3}.\farsidigits {8}}غیر تابع منبع رو استعمال کرنے والے ادوار}{\farsidigits {159}}{}%
@@ -83,7 +83,7 @@
 \contentsline {section}{\numberline {\farsidigits {9}.\farsidigits {1}}لمحاتی طاقت}{\farsidigits {497}}{}%
 \contentsline {section}{\numberline {\farsidigits {9}.\farsidigits {2}}اوسط طاقت}{\farsidigits {499}}{}%
 \contentsline {section}{\numberline {\farsidigits {9}.\farsidigits {3}}زیادہ سے زیادہ اوسط طاقت منتقل کرنے کا مسئلہ}{\farsidigits {506}}{}%
-\contentsline {section}{\numberline {\farsidigits {9}.\farsidigits {4}}موثر قیمت}{\farsidigits {515}}{}%
+\contentsline {section}{\numberline {\farsidigits {9}.\farsidigits {4}}مؤثر قیمت}{\farsidigits {515}}{}%
 \contentsline {section}{\numberline {\farsidigits {9}.\farsidigits {5}}جزو طاقت}{\farsidigits {523}}{}%
 \contentsline {section}{\numberline {\farsidigits {9}.\farsidigits {6}}مخلوط طاقت}{\farsidigits {526}}{}%
 \contentsline {section}{\numberline {\farsidigits {9}.\farsidigits {7}}جزو طاقت کی درستگی}{\farsidigits {533}}{}%
@@ -96,9 +96,9 @@
 \contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {2}}مشترکہ امالہ میں توانائی کا ذخیرہ}{\farsidigits {571}}{}%
 \contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {3}}کامل ٹرانسفارمر}{\farsidigits {576}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {11}}تین دوری نظام}{\farsidigits {607}}{}%
-\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {1}}تین دوری ستارہ دباو}{\farsidigits {607}}{}%
+\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {1}}تین دوری ستارہ دباؤ}{\farsidigits {607}}{}%
 \contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {2}}ستارہ ستارہ \,(\(YY\)) \, جوڑ}{\farsidigits {612}}{}%
-\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {3}}تین دوری تکونی (\(\Delta \)) دباو}{\farsidigits {619}}{}%
+\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {3}}تین دوری تکونی (\(\Delta \)) دباؤ}{\farsidigits {619}}{}%
 \contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {4}}تکونی بوجھ}{\farsidigits {623}}{}%
 \contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {5}}طاقت کے کلیات}{\farsidigits {627}}{}%
 \contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {6}}جزو طاقت کی درستگی}{\farsidigits {636}}{}%
@@ -109,16 +109,16 @@
 \contentsline {subsection}{\numberline {\farsidigits {12}.\farsidigits {3}.\farsidigits {1}}بوڈا خطوط}{\farsidigits {660}}{}%
 \contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {4}}گمکی ادوار}{\farsidigits {679}}{}%
 \contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {5}}چھلنی}{\farsidigits {709}}{}%
-\contentsline {chapter}{\numberline {\farsidigits {13}}لاپلاس بدل}{\farsidigits {731}}{}%
+\contentsline {chapter}{\numberline {\farsidigits {13}}لاپلاس تبادل}{\farsidigits {731}}{}%
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {1}}تعریف}{\farsidigits {731}}{}%
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {2}}نادر تفاعل}{\farsidigits {732}}{}%
-\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {3}}لاپلاس بدل کی جوڑیاں}{\farsidigits {738}}{}%
-\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {4}}خواص البدل}{\farsidigits {742}}{}%
-\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {5}}معکوس لاپلاس بدل کا حصول}{\farsidigits {746}}{}%
+\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {3}}لاپلاس تبادل کی جوڑیاں}{\farsidigits {738}}{}%
+\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {4}}خواص تبادل}{\farsidigits {742}}{}%
+\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {5}}معکوس لاپلاس تبادل کا حصول}{\farsidigits {746}}{}%
 \contentsline {subsection}{\numberline {\farsidigits {13}.\farsidigits {5}.\farsidigits {1}}جزوی کسری پھیلاو}{\farsidigits {747}}{}%
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {6}}تکمل الجھاو}{\farsidigits {756}}{}%
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {7}}مسئلہ ابتدائی قیمت اور مسئلہ اختتامی قیمت}{\farsidigits {759}}{}%
-\contentsline {chapter}{\numberline {\farsidigits {14}}ادوار کا حل بذریعہ لاپلاس بدل}{\farsidigits {771}}{}%
+\contentsline {chapter}{\numberline {\farsidigits {14}}ادوار کا حل بذریعہ لاپلاس تبادل}{\farsidigits {771}}{}%
 \contentsline {section}{\numberline {\farsidigits {14}.\farsidigits {1}}ادوار کا حل}{\farsidigits {771}}{}%
 \contentsline {section}{\numberline {\farsidigits {14}.\farsidigits {2}}پرزوں کے مساوی لاپلاسی ادوار}{\farsidigits {772}}{}%
 \contentsline {section}{\numberline {\farsidigits {14}.\farsidigits {3}}تجزیاتی تراکیب}{\farsidigits {776}}{}%
@@ -136,8 +136,8 @@
 \contentsline {section}{\numberline {\farsidigits {15}.\farsidigits {6}}تعددی طیف}{\farsidigits {858}}{}%
 \contentsline {section}{\numberline {\farsidigits {15}.\farsidigits {7}}برقرار حال برقی جال}{\farsidigits {861}}{}%
 \contentsline {subsection}{\numberline {\farsidigits {15}.\farsidigits {7}.\farsidigits {1}}اوسط طاقت}{\farsidigits {861}}{}%
-\contentsline {section}{\numberline {\farsidigits {15}.\farsidigits {8}}فوریئر بدل}{\farsidigits {865}}{}%
-\contentsline {section}{\numberline {\farsidigits {15}.\farsidigits {9}}فوریئر بدل کے خواص}{\farsidigits {872}}{}%
+\contentsline {section}{\numberline {\farsidigits {15}.\farsidigits {8}}فوریئر تبادل}{\farsidigits {865}}{}%
+\contentsline {section}{\numberline {\farsidigits {15}.\farsidigits {9}}فوریئر تبادل کے خواص}{\farsidigits {872}}{}%
 \contentsline {section}{\numberline {\farsidigits {15}.\farsidigits {10}}مسئلہ پارسیوال}{\farsidigits {874}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {16}}چار سر ادوار کے ریاضی نمونے}{\farsidigits {895}}{}%
 \contentsline {section}{\numberline {\farsidigits {16}.\farsidigits {1}}رکاوٹی نمونہ}{\farsidigits {900}}{}%
