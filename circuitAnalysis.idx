@@ -15,52 +15,52 @@
 \indexentry{ایمپیئر}{2}
 \indexentry{Coulomb}{2}
 \indexentry{کولمب}{2}
-\indexentry{AC}{3}
-\indexentry{alternating current}{3}
-\indexentry{رو!بدلتا}{3}
-\indexentry{بدلتا رو}{3}
-\indexentry{DC}{3}
-\indexentry{direct current}{3}
-\indexentry{رو!یک سمت}{3}
-\indexentry{یک سمت رو}{3}
-\indexentry{passive sign convention}{3}
-\indexentry{غیر فعال سمت کی ترکیب}{3}
-\indexentry{Ohm!law}{3}
-\indexentry{اوہم!قانون}{3}
-\indexentry{قانون اوہم}{3}
-\indexentry{reference}{5}
-\indexentry{حوالہ}{5}
+\indexentry{AC}{2}
+\indexentry{alternating current}{2}
+\indexentry{رو!بدلتی}{2}
+\indexentry{بدلتی رو}{2}
+\indexentry{DC}{2}
+\indexentry{direct current}{2}
+\indexentry{رو!یک سمت}{2}
+\indexentry{یک سمت رو}{2}
+\indexentry{passive sign convention}{4}
+\indexentry{غیر فعال سمت کی ترکیب}{4}
+\indexentry{Ohm!law}{4}
+\indexentry{اوہم!قانون}{4}
+\indexentry{قانون اوہم}{4}
+\indexentry{reference}{4}
+\indexentry{حوالہ}{4}
 \indexentry{ground!electrical}{5}
 \indexentry{زمین!برقی}{5}
-\indexentry{Ohm's law}{6}
-\indexentry{اوہم!قانون}{6}
-\indexentry{قانون!اوہم}{6}
+\indexentry{Ohm's law}{5}
+\indexentry{اوہم!قانون}{5}
+\indexentry{قانون!اوہم}{5}
 \indexentry{gravitational field}{7}
 \indexentry{میدان!ثقلی}{7}
 \indexentry{ثقلی میدان}{7}
-\indexentry{electric field}{8}
-\indexentry{میدان!ثقلی}{8}
-\indexentry{برقی میدان}{8}
+\indexentry{electric field}{7}
+\indexentry{میدان!ثقلی}{7}
+\indexentry{برقی میدان}{7}
 \indexentry{watt}{8}
 \indexentry{واٹ}{8}
 \indexentry{power}{8}
 \indexentry{طاقت}{8}
-\indexentry{resistance}{9}
-\indexentry{برقی مزاحمت}{9}
-\indexentry{voltage source}{9}
-\indexentry{source!voltage}{9}
-\indexentry{منبع!برقی دباو}{9}
-\indexentry{passive component}{9}
-\indexentry{پرزہ!غیر فعال}{9}
-\indexentry{غیر فعال پرزہ}{9}
-\indexentry{active component}{9}
-\indexentry{پرزہ!عامل}{9}
-\indexentry{فعال پرزہ}{9}
-\indexentry{clockwise}{9}
-\indexentry{سمت گھڑی}{9}
-\indexentry{Ohm!law}{9}
-\indexentry{اوہم!قانون}{9}
-\indexentry{قانون اوہم}{9}
+\indexentry{resistance}{8}
+\indexentry{برقی مزاحمت}{8}
+\indexentry{voltage source}{8}
+\indexentry{source!voltage}{8}
+\indexentry{منبع!برقی دباؤ}{8}
+\indexentry{passive component}{8}
+\indexentry{پرزہ!غیر فعال}{8}
+\indexentry{غیر فعال پرزہ}{8}
+\indexentry{active component}{8}
+\indexentry{پرزہ!عامل}{8}
+\indexentry{فعال پرزہ}{8}
+\indexentry{clockwise}{8}
+\indexentry{سمت گھڑی}{8}
+\indexentry{Ohm!law}{8}
+\indexentry{اوہم!قانون}{8}
+\indexentry{قانون اوہم}{8}
 \indexentry{loss}{9}
 \indexentry{ضیاع}{9}
 \indexentry{thermal energy}{9}
@@ -76,26 +76,26 @@
 \indexentry{حرارتی ضیاع}{9}
 \indexentry{power loss}{9}
 \indexentry{طاقتی ضیاع}{9}
-\indexentry{law!conservation of energy}{11}
-\indexentry{قانون! بقا}{11}
-\indexentry{active component}{13}
-\indexentry{فعال پرزہ}{13}
-\indexentry{passive component}{13}
-\indexentry{غیر فعال پرزہ}{13}
+\indexentry{law!conservation of energy}{10}
+\indexentry{قانون! بقا}{10}
+\indexentry{active component}{12}
+\indexentry{فعال پرزہ}{12}
+\indexentry{passive component}{12}
+\indexentry{غیر فعال پرزہ}{12}
 \indexentry{independent voltage source}{13}
-\indexentry{منبع دباو!غیر تابع}{13}
-\indexentry{غیر تابع منبع دباو}{13}
-\indexentry{independent!current source}{14}
-\indexentry{منبع رو!غیر تابع}{14}
-\indexentry{آزاد!منبع رو}{14}
-\indexentry{dependent current source}{15}
-\indexentry{رو!تابع منبع}{15}
-\indexentry{منبع رو!تابع}{15}
-\indexentry{تابع!منبع رو}{15}
-\indexentry{dependent voltage source}{15}
-\indexentry{دباو!تابع منبع}{15}
-\indexentry{منبع دباو!تابع}{15}
-\indexentry{تابع!منبع دباو}{15}
+\indexentry{منبع دباؤ!غیر تابع}{13}
+\indexentry{غیر تابع منبع دباؤ}{13}
+\indexentry{independent!current source}{13}
+\indexentry{منبع رو!غیر تابع}{13}
+\indexentry{آزاد!منبع رو}{13}
+\indexentry{dependent current source}{14}
+\indexentry{رو!تابع منبع}{14}
+\indexentry{منبع رو!تابع}{14}
+\indexentry{تابع!منبع رو}{14}
+\indexentry{dependent voltage source}{14}
+\indexentry{دباؤ!تابع منبع}{14}
+\indexentry{منبع دباؤ!تابع}{14}
+\indexentry{تابع!منبع دباؤ}{14}
 \indexentry{ٹرانزسٹر!دو جوڑ}{15}
 \indexentry{model}{15}
 \indexentry{نمونہ!ریاضی}{15}
@@ -104,36 +104,36 @@
 \indexentry{ٹرانزسٹر!میدانی}{15}
 \indexentry{transistor, BJT}{15}
 \indexentry{control voltage}{15}
-\indexentry{دباو!ضابط}{15}
-\indexentry{ضابط!دباو}{15}
+\indexentry{دباؤ!ضابط}{15}
+\indexentry{ضابط!دباؤ}{15}
 \indexentry{dependent!voltage source}{15}
-\indexentry{تابع!منبع دباو}{15}
+\indexentry{تابع!منبع دباؤ}{15}
 \indexentry{dimensionless}{15}
 \indexentry{بے بعد}{15}
 \indexentry{depended!current source}{15}
 \indexentry{تابع!منبع رو}{15}
-\indexentry{تابع منبع مزاحمت-نما}{15}
 \indexentry{dimension}{15}
 \indexentry{بُعد}{15}
 \indexentry{dependent!transconductance source}{15}
 \indexentry{تابع منبع موصلیت-نما}{15}
 \indexentry{dependent!transresistance source}{15}
-\indexentry{voltage gain}{17}
-\indexentry{افزائش!دباو}{17}
-\indexentry{amplifier!voltage}{17}
-\indexentry{ایمپلیفائر!دباو}{17}
-\indexentry{current gain}{17}
-\indexentry{افزائش!رو}{17}
-\indexentry{amplifier!current}{17}
-\indexentry{ایمپلیفائر!رو}{17}
-\indexentry{amplifier!transresistance}{17}
-\indexentry{ایمپلیفائر!مزاحمت-نما}{17}
-\indexentry{transconductance gain}{17}
-\indexentry{افزائش!موصلیت-نما}{17}
-\indexentry{amplifier!transconductance}{17}
-\indexentry{ایمپلیفائر!موصلیت-نما}{17}
-\indexentry{transresistance gian}{17}
-\indexentry{افزائش!مزاحمت-نما}{17}
+\indexentry{تابع منبع مزاحمت-نما}{15}
+\indexentry{voltage gain}{16}
+\indexentry{افزائش!دباؤ}{16}
+\indexentry{amplifier!voltage}{16}
+\indexentry{ایمپلیفائر!دباؤ}{16}
+\indexentry{current gain}{16}
+\indexentry{افزائش!رو}{16}
+\indexentry{amplifier!current}{16}
+\indexentry{ایمپلیفائر!رو}{16}
+\indexentry{amplifier!transresistance}{16}
+\indexentry{ایمپلیفائر!مزاحمت-نما}{16}
+\indexentry{amplifier!transconductance}{16}
+\indexentry{ایمپلیفائر!موصلیت-نما}{16}
+\indexentry{transresistance gian}{16}
+\indexentry{افزائش!مزاحمت-نما}{16}
+\indexentry{transconductance gain}{16}
+\indexentry{افزائش!موصلیت-نما}{16}
 \indexentry{digital circuit}{22}
 \indexentry{عددی دور}{22}
 \indexentry{پھاٹک!عمومی سلسلہ وار}{22}
@@ -199,7 +199,7 @@
 \indexentry{simultaneous equations}{43}
 \indexentry{ہمزاد مساوات}{43}
 \indexentry{Kirchoff!voltage law}{49}
-\indexentry{کرخوف!قانون دباو}{49}
+\indexentry{کرخوف!قانون دباؤ}{49}
 \indexentry{node}{51}
 \indexentry{جوڑ}{51}
 \indexentry{diving board}{52}
@@ -222,8 +222,8 @@
 \indexentry{قیمت!علامتی}{77}
 \indexentry{علامتی قیمت}{77}
 \indexentry{wye-delta transformation}{85}
-\indexentry{تبادلہ!ستارہ-تکون}{85}
-\indexentry{ستارہ-تکون تبادلہ}{85}
+\indexentry{تبادلیت!ستارہ و تکون}{85}
+\indexentry{ستارہ و تکون تبادلیت}{85}
 \indexentry{MOSFET}{92}
 \indexentry{ماسفیٹ}{92}
 \indexentry{transistor!FET}{92}
@@ -233,17 +233,17 @@
 \indexentry{electronics}{92}
 \indexentry{برقیات}{92}
 \indexentry{voltage source!voltage controlled}{93}
-\indexentry{منبع دباو!دباو تابع}{93}
+\indexentry{منبع دباؤ!دباؤ تابع}{93}
 \indexentry{current source!current controlled}{93}
 \indexentry{منبع رو!رو تابع}{93}
 \indexentry{amplifier!common emitter}{95}
 \indexentry{ایمپلیفائر!ایمٹر مشترک}{95}
 \indexentry{gain!voltage}{95}
-\indexentry{افزائش دباو}{95}
+\indexentry{افزائش دباؤ}{95}
 \indexentry{current source!voltage controlled}{95}
-\indexentry{منبع رو!دباو تابع}{95}
+\indexentry{منبع رو!دباؤ تابع}{95}
 \indexentry{voltage source!current controlled}{96}
-\indexentry{منبع دباو!رو تابع}{96}
+\indexentry{منبع دباؤ!رو تابع}{96}
 \indexentry{gain!transconductance}{97}
 \indexentry{افزائش موصلیت نما}{97}
 \indexentry{amplifier!transconductance}{97}
@@ -303,7 +303,7 @@
 \indexentry{نمونہ!حسابی ایمپلیفائر}{188}
 \indexentry{gain!voltage}{190}
 \indexentry{voltage gain}{190}
-\indexentry{افزائش!دباو}{190}
+\indexentry{افزائش!دباؤ}{190}
 \indexentry{linear}{192}
 \indexentry{خطی تعلق}{192}
 \indexentry{opamp!ideal}{196}
@@ -361,8 +361,8 @@
 \indexentry{تبادلہ منبع!مسئلہ}{243}
 \indexentry{مسئلہ!تبادلہ منبع}{243}
 \indexentry{thevenin voltage}{243}
-\indexentry{دباو!تھونن}{243}
-\indexentry{تھونن!دباو}{243}
+\indexentry{دباؤ!تھونن}{243}
+\indexentry{تھونن!دباؤ}{243}
 \indexentry{norton!current}{243}
 \indexentry{رو!نارٹن}{243}
 \indexentry{نارٹن!رو}{243}
@@ -476,7 +476,7 @@
 \indexentry{dimensionless}{360}
 \indexentry{بے بعد}{360}
 \indexentry{damping ratio}{368}
-\indexentry{تقصیری تناسب}{368}
+\indexentry{تقصیری نسبت}{368}
 \indexentry{natural frequency!undamped}{368}
 \indexentry{قدرتی تعدد!بلا تقصیر}{368}
 \indexentry{characteristic equation}{368}
@@ -507,7 +507,7 @@
 \indexentry{inductive kick}{388}
 \indexentry{امالی لات}{388}
 \indexentry{snubber}{389}
-\indexentry{دباو پکڑ}{389}
+\indexentry{دباؤ پکڑ}{389}
 \indexentry{computer}{390}
 \indexentry{کمپیوٹر}{390}
 \indexentry{switching supply}{390}
@@ -596,7 +596,7 @@
 \indexentry{قدرتی تعدد}{454}
 \indexentry{lossless components}{501}
 \indexentry{بے ضیاع پرزے}{501}
-\indexentry{موثر}{515}
+\indexentry{مؤثر}{515}
 \indexentry{power!real}{524}
 \indexentry{طاقت!حقیقی}{524}
 \indexentry{حقیقی طاقت}{524}
@@ -690,11 +690,11 @@
 \indexentry{لچھا}{555}
 \indexentry{flux!magnetic}{555}
 \indexentry{magnetic flux}{555}
-\indexentry{بہاو!مقناطیسی}{555}
-\indexentry{مقناطیسی بہاو}{555}
+\indexentry{بہاؤ!مقناطیسی}{555}
+\indexentry{مقناطیسی بہاؤ}{555}
 \indexentry{flux linkage}{555}
-\indexentry{بہاو!ارتباط}{555}
-\indexentry{ارتباط بہاو}{555}
+\indexentry{بہاؤ!ارتباط}{555}
+\indexentry{ارتباط بہاؤ}{555}
 \indexentry{self inductance}{556}
 \indexentry{inductance!self}{556}
 \indexentry{خود امالہ}{556}
@@ -716,8 +716,8 @@
 \indexentry{رابطہ!کمزور}{573}
 \indexentry{transformation!voltage}{576}
 \indexentry{voltage!transformation}{576}
-\indexentry{دباو!تبادلہ}{576}
-\indexentry{تبادلہ!دباو}{576}
+\indexentry{دباؤ!تبادلہ}{576}
+\indexentry{تبادلہ!دباؤ}{576}
 \indexentry{magnetic field!intensity}{577}
 \indexentry{مقناطیسی!شدت}{577}
 \indexentry{transformation!current}{577}
@@ -730,12 +730,12 @@
 \indexentry{تبادلہ!رکاوٹ}{579}
 \indexentry{HT}{579}
 \indexentry{high voltage side}{579}
-\indexentry{جانب!زیادہ دباو}{579}
-\indexentry{زیادہ دباو!جانب}{579}
+\indexentry{جانب!زیادہ دباؤ}{579}
+\indexentry{زیادہ دباؤ!جانب}{579}
 \indexentry{LT}{579}
 \indexentry{low voltage side}{579}
-\indexentry{جانب!کم دباو}{579}
-\indexentry{کم دباو!جانب}{579}
+\indexentry{جانب!کم دباؤ}{579}
+\indexentry{کم دباؤ!جانب}{579}
 \indexentry{primary coil}{581}
 \indexentry{ابتدائی لچھا}{581}
 \indexentry{داخلی لچھا}{581}
@@ -750,8 +750,8 @@
 \indexentry{excitation current}{592}
 \indexentry{ہیجان انگیز رو}{592}
 \indexentry{induced voltage}{592}
-\indexentry{دباو!امالی}{592}
-\indexentry{امالی دباو}{592}
+\indexentry{دباؤ!امالی}{592}
+\indexentry{امالی دباؤ}{592}
 \indexentry{aluminium}{593}
 \indexentry{المونیم}{593}
 \indexentry{energy meter}{594}
@@ -761,12 +761,12 @@
 \indexentry{متوازن!تین دوری نظام}{607}
 \indexentry{phase!voltage}{608}
 \indexentry{voltage!phase}{608}
-\indexentry{دباو!دوری}{608}
-\indexentry{دوری دباو}{608}
+\indexentry{دباؤ!دوری}{608}
+\indexentry{دوری دباؤ}{608}
 \indexentry{voltage!line to line}{608}
 \indexentry{line to line!voltage}{608}
-\indexentry{تار!دباو}{608}
-\indexentry{دباو!تار}{608}
+\indexentry{تار!دباؤ}{608}
+\indexentry{دباؤ!تار}{608}
 \indexentry{abc}{610}
 \indexentry{Y connected}{613}
 \indexentry{star connected}{613}
@@ -791,9 +791,9 @@
 \indexentry{تکونی!بوجھ}{623}
 \indexentry{تین تار!نظام}{623}
 \indexentry{transformer!step down}{633}
-\indexentry{ٹرانسفارمر!دباو گھٹاتا}{633}
+\indexentry{ٹرانسفارمر!دباؤ گھٹاتا}{633}
 \indexentry{transformer!step up}{633}
-\indexentry{ٹرانسفارمر!دباو بڑھاتا}{633}
+\indexentry{ٹرانسفارمر!دباؤ بڑھاتا}{633}
 \indexentry{log}{651}
 \indexentry{لوگارتھم}{651}
 \indexentry{graph!log-log}{651}
@@ -818,7 +818,7 @@
 \indexentry{frequency!band}{651}
 \indexentry{تعددی پٹی}{651}
 \indexentry{Laplace transform}{653}
-\indexentry{لاپلاس بدل}{653}
+\indexentry{لاپلاس تبادل}{653}
 \indexentry{pole}{655}
 \indexentry{قطب}{655}
 \indexentry{corner frequencies}{656}
@@ -863,7 +863,7 @@
 \indexentry{بوڈا!زاویائی خط}{668}
 \indexentry{زاویائی بوڈا خط}{668}
 \indexentry{damping ratio}{676}
-\indexentry{تقصیری تناسب}{676}
+\indexentry{تقصیری نسبت}{676}
 \indexentry{resonance}{677}
 \indexentry{گمک}{677}
 \indexentry{resonant circuit}{679}
@@ -919,17 +919,17 @@
 \indexentry{چھلنی!دندانہ}{714}
 \indexentry{دندانہ چھلنی}{714}
 \indexentry{Laplace transform}{731}
-\indexentry{لاپلاس بدل}{731}
+\indexentry{لاپلاس تبادل}{731}
 \indexentry{frequency!complex}{731}
 \indexentry{complex!frequency}{731}
 \indexentry{تعدد!مخلوط}{731}
 \indexentry{مخلوط تعدد}{731}
 \indexentry{Fourier transform}{732}
-\indexentry{فوریئر بدل}{732}
+\indexentry{فوریئر تبادل}{732}
 \indexentry{Laplace!inverse transform}{732}
 \indexentry{inverse Laplace transform}{732}
-\indexentry{لاپلاس بدل!الٹ}{732}
-\indexentry{الٹ لاپلاس بدل}{732}
+\indexentry{لاپلاس تبادل!معکوس}{732}
+\indexentry{معکوس لاپلاس تبادل}{732}
 \indexentry{partial fraction expansion}{732}
 \indexentry{جزوی کسری پھیلاو}{732}
 \indexentry{impulse!function}{732}
@@ -956,8 +956,8 @@
 \indexentry{اصول نی کوسٹ}{737}
 \indexentry{time-scaling theorem}{742}
 \indexentry{theorem!time-scaling}{742}
-\indexentry{متناسب وقت!مسئلہ}{742}
-\indexentry{مسئلہ!متناسب وقت}{742}
+\indexentry{زمانی پیمانہ بندی!مسئلہ}{742}
+\indexentry{مسئلہ!زمانی پیمانہ بندی}{742}
 \indexentry{theorem!time-shifting}{743}
 \indexentry{time-shifting theorem}{743}
 \indexentry{منقلی وقت!مسئلہ}{743}
@@ -1006,8 +1006,8 @@
 \indexentry{افزائش!رو}{795}
 \indexentry{gain!voltage}{795}
 \indexentry{voltage!gain}{795}
-\indexentry{دباو!افزائش}{795}
-\indexentry{افزائش!دباو}{795}
+\indexentry{دباؤ!افزائش}{795}
+\indexentry{افزائش!دباؤ}{795}
 \indexentry{gain!transconductance}{795}
 \indexentry{transconductance!gain}{795}
 \indexentry{موصلیت نما!افزائش}{795}
@@ -1052,7 +1052,7 @@
 \indexentry{تسلسل!فوریئر}{828}
 \indexentry{فوریئر تسلسل!تکونیاتی}{828}
 \indexentry{coefficients}{828}
-\indexentry{عددی سر}{828}
+\indexentry{ضرائب }{828}
 \indexentry{fundamental component}{828}
 \indexentry{ہارمونی!بنیادی رکن}{828}
 \indexentry{بنیادی رکن}{828}
@@ -1090,12 +1090,12 @@
 \indexentry{دوری!غیر}{865}
 \indexentry{غیر دوری}{865}
 \indexentry{Fourier transform}{867}
-\indexentry{بدل!فوریئر}{867}
-\indexentry{فوریئر بدل}{867}
-\indexentry{فوریئر!الٹ بدل}{868}
+\indexentry{تبادل!فوریئر}{867}
+\indexentry{فوریئر تبادل}{867}
 \indexentry{Fourier!transform}{868}
-\indexentry{فوریئر!بدل}{868}
+\indexentry{فوریئر!تبادل}{868}
 \indexentry{Fourier!inverse transform}{868}
+\indexentry{فوریئر!معکوس تبادل}{868}
 \indexentry{envelope}{870}
 \indexentry{غلاف}{870}
 \indexentry{sampling!property}{871}
@@ -1145,7 +1145,7 @@
 \indexentry{hybrid!$h_{21}$}{906}
 \indexentry{دوغلائی!قصر دور افزائش رو}{906}
 \indexentry{hybrid!$h_{12}$}{906}
-\indexentry{دوغلائی!کھلے سر الٹ افزائش دباو}{906}
+\indexentry{دوغلائی!کھلے سر الٹ افزائش دباؤ}{906}
 \indexentry{hybrid!$h_{11}$}{906}
 \indexentry{دوغلائی!قصر دور داخلی رکاوٹ}{906}
 \indexentry{hybrid!$h_{22}$}{906}
@@ -1153,8 +1153,7 @@
 \indexentry{model!transmission}{907}
 \indexentry{ترسیلی نمونہ}{907}
 \indexentry{نمونہ!ترسیلی}{907}
-\indexentry{منفی تناسب رو}{907}
+\indexentry{منفی نسبت رو}{907}
 \indexentry{کھلے سر فراوانی نما}{907}
 \indexentry{منفی قصر دور رکاوٹ نما}{907}
-\indexentry{ABCD parameters}{907}
-\indexentry{کھلے سر تناسب دباو}{907}
+\indexentry{کھلے سر نسبت دباؤ}{907}

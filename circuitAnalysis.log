@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  1 SEP 2026 18:05
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  4 SEP 2026 10:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1544,11 +1544,7 @@ e 177.
 (./circuitAnalysis.toc
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 3.
- [3] [4] [5] [6]
-LaTeX Info: Redefining \rmfamily on input line 148.
-LaTeX Info: Redefining \sffamily on input line 148.
-LaTeX Info: Redefining \ttfamily on input line 148.
-)
+ [3] [4] [5] [6])
 \tf@toc=\write4
 \openout4 = `circuitAnalysis.toc'.
 
@@ -2086,26 +2082,25 @@ ile (type pdf)
 <use ./fig/figBasicConcepts/figBasicVoltagePositiveNegativeSides.pdf>
 
 Underfull \hbox (badness 10000) in paragraph at lines 100--109
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 پر ہو گا جس کا مطلب ہے کہ بالائی تار کو حو
-الہ لیتے ہوئے نچلی تار کا برقی دباؤ مثبت سات وولٹ ہو گا۔شکل [][]۱.۷[][][]-ب میں
- نچلی تار کو $\OML/zplm/m/it/10 a$ \TU/JameelNooriNastaleeq(2)/b/n/10 نام دیا گ
-یا ہے جبکہ بالائی تار[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 گا جس کا مطلب ہے کہ بالائی تار کو حوالہ لی
+تے ہوئے نچلی تار کا برقی دباؤ مثبت سات وولٹ ہو گا۔شکل [][]۱.۷[][][]-ب میں نچلی 
+تار کو $\OML/zplm/m/it/10 a$ \TU/JameelNooriNastaleeq(2)/b/n/10 نام دیا گیا ہے 
+جبکہ بالائی تار کو $\OML/zplm/m/it/10 b$[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 100--109
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 کو $\OML/zplm/m/it/10 b$ \TU/JameelNooriNa
-staleeq(2)/b/n/10 کہا گیا ہے۔اس صورت میں نچلی تار کے حوالے سے بالائی تار کے دبا
-ؤ کو $\OML/zplm/m/it/10 V[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 لکھا جاتا ہے۔یو
-ں اگر $\OML/zplm/m/it/10 V[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 کی قیمت منفی ہ
-و تب بالائی تار کے حوالے[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 کہا گیا ہے۔اس صورت میں نچلی تار کے حوالے س
+ے بالائی تار کے دباؤ کو $\OML/zplm/m/it/10 V[]$ \TU/JameelNooriNastaleeq(2)/b/n
+/10 لکھا جاتا ہے۔یوں اگر $\OML/zplm/m/it/10 V[]$ \TU/JameelNooriNastaleeq(2)/b/
+n/10 کی قیمت منفی ہو تب بالائی تار کے حوالے سے نچلی[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 100--109
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 نشاندہی کرنا ضروری نہیں ہوتا۔شکل [][]۱.۷[]
-[][]-پ میں برقی زمین کی علامت استعمال کی گئی ہے۔برقی زمین کا برقی دباؤ صفر کے ب
-رابر لیا جاتا ہے۔جب کسی نقطے کے[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 کرنا ضروری نہیں ہوتا۔شکل [][]۱.۷[][][]-پ م
+یں برقی زمین کی علامت استعمال کی گئی ہے۔برقی زمین کا برقی دباؤ صفر کے برابر لیا
+ جاتا ہے۔جب کسی نقطے کے دباؤ کو[]
  []
 
 [4]
@@ -2698,11 +2693,20 @@ LaTeX Info: Redefining \rmfamily on input line 410.
 LaTeX Info: Redefining \sffamily on input line 410.
 LaTeX Info: Redefining \ttfamily on input line 410.
 
-Underfull \hbox (badness 2096) in paragraph at lines 410--411
+Underfull \hbox (badness 10000) in paragraph at lines 410--411
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 شکل [][]۱.۱۸[][][]-پ بالکل اسی طرح داخلی
- ضابط رو کی نسبت سے برقی دباؤ خارج کرتے ہوئے بطور \TU/AASameerSagarNastaleeqBol
-d(0)/m/n/10 ایمپلیفائر مزاحمت-نما[][] \TU/JameelNooriNastaleeq(2)/b/n/10 کردار 
-ادا کرتا ہے جہاں منبع کا مستقل[]
+ ضابط رو کا راست متناسب برقی دباؤ خارج کرتے ہوئے بطور \TU/AASameerSagarNastalee
+qBold(0)/m/n/10 ایمپلیفائر مزاحمت-نما[][] \TU/JameelNooriNastaleeq(2)/b/n/10 کر
+دار ادا کرتا ہے جہاں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--411
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 منبع کا مستقل \TU/AASameerSagarNastaleeqBo
+ld(0)/m/n/10 افزائش مزاحمت-نما[][] \TU/JameelNooriNastaleeq(2)/b/n/10 کہلاتا ہے
+۔شکل [][]۱.۱۸[][][]-ت بطور \TU/AASameerSagarNastaleeqBold(0)/m/n/10 ایمپلیفائر 
+موصلیت-نما[][] \TU/JameelNooriNastaleeq(2)/b/n/10 کام کرتا ہے اور اس کے مستقل ک
+و \TU/AASameerSagarNastaleeqBold(0)/m/n/10 افزائش[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 415.
@@ -10658,7 +10662,14 @@ meelNooriNastaleeq(2)/b/n/10 پر لپیٹا ہو سکتا ہے۔ مقناطیس
 Underfull \hbox (badness 10000) in paragraph at lines 446--447
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 تاریخی طور پر پہلے یہ معلوم ہوا کہ رو گز
 ارتی تار کے گرد مقناطیسی میدان پیدا ہوتا ہے۔ایسی مقناطیسی میدان اور میدان پیدا 
-کرنے والی رو کے مابین راست تناسبی[]
+کرنے والی رو کے مابین راست[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--447
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 تناسب کا تعلق پایا جاتا ہے۔اس کے بعد معلوم
+ ہوا کہ بدلتا مقناطیسی میدان برقی دباؤ پیدا کرتا ہے جہاں دباؤ اور مقناطیسی میدا
+ن پیدا کرنے والی رو کی شرح کے[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 450.
@@ -12273,8 +12284,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1267--1270
 \TU/JameelNooriNastaleeq(2)/b/n/10 کو \TU/AASameerSagarNastaleeqBold(0)/m/n/10 
 (بلا تقصیر) قدرتی تعدد[][]  \TU/JameelNooriNastaleeq(2)/b/n/10 اور $\OML/zplm/m
 /it/10 ^^P$ \TU/JameelNooriNastaleeq(2)/b/n/10 کو \TU/AASameerSagarNastaleeqBol
-d(0)/m/n/10 تقصیری تناسب[][] \TU/JameelNooriNastaleeq(2)/b/n/10 کہا جاتا ہے۔ ان
- کی افادیت جلد سامنے آئے گی۔مساوات[]
+d(0)/m/n/10 تقصیری نسبت[][] \TU/JameelNooriNastaleeq(2)/b/n/10 کہا جاتا ہے۔ ان 
+کی افادیت جلد سامنے آئے گی۔مساوات[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1281.
@@ -13583,9 +13594,9 @@ LaTeX Info: Redefining \ttfamily on input line 592.
 Underfull \hbox (badness 10000) in paragraph at lines 592--593
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 حل:مساوات [][]۸.۲۷[][] []میں $[] \OML/zp
 lm/m/it/10 !t$ \TU/JameelNooriNastaleeq(2)/b/n/10 اور $[] \OML/zplm/m/it/10 !t$
- \TU/JameelNooriNastaleeq(2)/b/n/10 کے عددی سر کو مساوات [][]۸.۲۹[][] []میں $[]
- \OML/zplm/m/it/10 !t$ \TU/JameelNooriNastaleeq(2)/b/n/10 اور $[] \OML/zplm/m/i
-t/10 !t$ \TU/JameelNooriNastaleeq(2)/b/n/10 کے عددی سر کے برابر پُر کرتے[]
+ \TU/JameelNooriNastaleeq(2)/b/n/10 کے ضریب کو مساوات [][]۸.۲۹[][] []میں $[] \O
+ML/zplm/m/it/10 !t$ \TU/JameelNooriNastaleeq(2)/b/n/10 اور $[] \OML/zplm/m/it/1
+0 !t$ \TU/JameelNooriNastaleeq(2)/b/n/10 کے ضریب کے برابر پُر کرتے[]
  []
 
 [422]
@@ -14182,12 +14193,13 @@ LaTeX Info: Redefining \rmfamily on input line 1584.
 LaTeX Info: Redefining \sffamily on input line 1584.
 LaTeX Info: Redefining \ttfamily on input line 1584.
  [444]
-Underfull \hbox (badness 10000) in paragraph at lines 1603--1605
+Underfull \hbox (badness 1253) in paragraph at lines 1603--1605
 []\TU/JameelNooriNastaleeq(2)/b/n/10 آپ دیکھ سکتے ہیں کہ مخلوط رکاوٹ کی صورت می
 ں $\OML/zplm/m/it/10 G$ \TU/JameelNooriNastaleeq(2)/b/n/10 اور $\OML/zplm/m/it/
-10 R$ \TU/JameelNooriNastaleeq(2)/b/n/10 آپس میں بالعکس متناسب نہیں ہیں۔اسی طرح
- $\OML/zplm/m/it/10 B$ \TU/JameelNooriNastaleeq(2)/b/n/10 اور $\OML/zplm/m/it/1
-0 X$ \TU/JameelNooriNastaleeq(2)/b/n/10 بھی آپس میں بالعکس متناسب[]
+10 R$ \TU/JameelNooriNastaleeq(2)/b/n/10 مقلوب نہیں ہیں۔اسی طرح $\OML/zplm/m/it
+/10 B$ \TU/JameelNooriNastaleeq(2)/b/n/10 اور $\OML/zplm/m/it/10 X$ \TU/JameelN
+ooriNastaleeq(2)/b/n/10 بھی مقلوب نہیں ہیں۔اگر رکاوٹ میں $\OML/zplm/m/it/10 X \
+OT1/zplm/m/n/10 =$[]
  []
 
 
@@ -16357,14 +16369,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 1351--1408
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 آئیں اب $\OML/zplm/m/it/10 Q$ \TU/Jameel
 NooriNastaleeq(2)/b/n/10 کم کرتے ہیں۔جیسا درج بالا مثال میں دکھایا گیا، امالی ب
 وجھ کے متوازی برق گیر جوڑنے سے $\OML/zplm/m/it/10 Q$ \TU/JameelNooriNastaleeq(2
-)/b/n/10 کو کم کیا جا سکتا ہے۔برق گیر کی قیمت صنعتی[]
+)/b/n/10 کو کم کیا جا سکتا ہے۔برق گیر کی لاگت صنعتی[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1351--1408
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 مشینوں کی نسبت بہت کم ہوتی ہے لہٰذا جزو طا
-قت کو برق گیر سے ہی بہتر بنایا جاتا ہے۔شکل [][]۹.۳۰[][] []-الف میں صنعتی بوجھ ک
-ے متوازی برق گیر نصب کیا گیا[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 مشینوں کے لحاظ سے بہت کم ہوتی ہے لہٰذا جزو
+ طاقت کو برق گیر سے ہی بہتر بنایا جاتا ہے۔شکل [][]۹.۳۰[][] []-الف میں صنعتی بوج
+ھ کے متوازی برق گیر نصب کیا گیا[]
  []
 
 
@@ -17820,8 +17832,8 @@ LaTeX Info: Redefining \ttfamily on input line 1067.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1070--1072
 []\TU/JameelNooriNastaleeq(2)/b/n/10 تبادلہ رو کی مساوات سے ظاہر ہے کہ کم چکر و
-الے لچھے میں زیادہ چکر والے لچھے کی نسبت زیادہ رو پائی جاتی ہے۔یوں کم چکر والے 
-لچھے کے لیے زیادہ موٹی تار[]
+الے لچھے میں زیادہ چکر والے لچھے کے لحاظ سے زیادہ رو پائی جاتی ہے۔یوں کم چکر وا
+لے لچھے کے لیے زیادہ موٹی تار[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1073.
@@ -19994,11 +20006,11 @@ ooriNastaleeq(2)/b/n/10 میں سے ایک ہے۔ جال میں کسی مقام 
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 349--361
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 اور داخلی اشارے کی تناسب کو $\OML/cmm/b/it
-/10 H\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 s\OT1/zplm/m/n/10 )$ \TU/JameelNooriNa
-staleeq(2)/b/n/10 لکھا جاتا ہے۔چونکہ جال میں عموماً ردعمل کو اس مقام پر نہیں نا
-پا جاتا جس پر داخلی اشارہ لاگو کیا گیا ہو لہٰذا $\OML/cmm/b/it/10 H\OT1/zplm/m/
-n/10 (\OML/zplm/m/it/10 s\OT1/zplm/m/n/10 )$[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 اور داخلی اشارے کی نسبت کو $\OML/cmm/b/it/
+10 H\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 s\OT1/zplm/m/n/10 )$ \TU/JameelNooriNas
+taleeq(2)/b/n/10 لکھا جاتا ہے۔چونکہ جال میں عموماً ردعمل کو اس مقام پر نہیں ناپ
+ا جاتا جس پر داخلی اشارہ لاگو کیا گیا ہو لہٰذا $\OML/cmm/b/it/10 H\OT1/zplm/m/n
+/10 (\OML/zplm/m/it/10 s\OT1/zplm/m/n/10 )$[]
  []
 
 
@@ -20022,9 +20034,9 @@ LaTeX Info: Redefining \ttfamily on input line 371.
 [656]
 Underfull \hbox (badness 10000) in paragraph at lines 396--397
 []\TU/JameelNooriNastaleeq(2)/b/n/10 درج بالا مثال میں ہم نے دیکھا کہ تبادلی تف
-اعل کو دو سلسلوں کا تناسب $[]$ لکھا جا سکتا ہے جن کا متغیرہ $\OML/zplm/m/it/10 
-s$ \TU/JameelNooriNastaleeq(2)/b/n/10 ہے۔چونکہ ادوار میں پرزوں کی قیمت اور تابع
- یا[]
+اعل کو دو سلسلوں کی نسبت $[]$ لکھا جا سکتا ہے جن کا متغیرہ $\OML/zplm/m/it/10 s
+$ \TU/JameelNooriNastaleeq(2)/b/n/10 ہے۔چونکہ ادوار میں پرزوں کی قیمت اور تابع 
+یا[]
  []
 
 [657]
@@ -20149,23 +20161,16 @@ Underfull \hbox (badness 2582) in paragraph at lines 473--474
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 473--474
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 کی تناسب ناپنے کے لیے استعمال کیا جاتا تھا
- جہاں دو طاقتوں کے تناسب کے لوگارتھم $[][] []$ کو \TU/AASameerSagarNastaleeqBol
-d(0)/m/n/10 بیل[][]  \TU/JameelNooriNastaleeq(2)/b/n/10 میں ناپا جاتا تھا۔جیسے 
-ایک میٹر $\OT1/ppl/m/n/10 1 m$ \TU/JameelNooriNastaleeq(2)/b/n/10 میں[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 کی نسبت ناپنے کے لیے استعمال کیا جاتا تھا 
+جہاں دو طاقتوں کی نسبت کے لوگارتھم $[][] []$ کو \TU/AASameerSagarNastaleeqBold(
+0)/m/n/10 بیل[][]  \TU/JameelNooriNastaleeq(2)/b/n/10 میں ناپا جاتا تھا۔جیسے ای
+ک میٹر $\OT1/ppl/m/n/10 1 m$ \TU/JameelNooriNastaleeq(2)/b/n/10 میں دس[]
  []
 
 [660]
 LaTeX Info: Redefining \rmfamily on input line 484.
 LaTeX Info: Redefining \sffamily on input line 484.
 LaTeX Info: Redefining \ttfamily on input line 484.
-
-Underfull \hbox (badness 10000) in paragraph at lines 483--486
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 مساوات [][]۱۲.۱۶[][] []میں دیے ڈیسی بیل کے
- کلیے اتنے مقبول ہوئے ہیں کہ غیر یکساں مزاحمت کی صورت میں بھی دباؤ کی تناسب یا 
-رو کی تناسب کو انہیں کلیوں سے[]
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 486--488
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مشق  ۱۲.۴:  ایک ایمپلیفائر کو $\OML/zplm
@@ -20536,9 +20541,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 938--939
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 955--958
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 تقصیری تناسب کی قیمت اکائی سے زیادہ یا اکا
-ئی کے برابر ہونے کی صورت میں حقیقی قطب پائے جاتے ہیں جن پر ہم غور کر چکے ہیں۔آئ
-یں مخلوط قطب پر غور[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 تقصیری نسبت کی قیمت اکائی سے زیادہ یا اکائ
+ی کے برابر ہونے کی صورت میں حقیقی قطب پائے جاتے ہیں جن پر ہم غور کر چکے ہیں۔آئی
+ں مخلوط قطب پر غور[]
  []
 
 [676]
@@ -20558,10 +20563,24 @@ LaTeX Info: Redefining \rmfamily on input line 975.
 LaTeX Info: Redefining \sffamily on input line 975.
 LaTeX Info: Redefining \ttfamily on input line 975.
 
-Underfull \hbox (badness 6173) in paragraph at lines 974--976
+Underfull \hbox (badness 10000) in paragraph at lines 974--976
 []\TU/JameelNooriNastaleeq(2)/b/n/10 مساوات [][]۱۲.۳۲[][] []کا پہلا جزو مستقل ہ
-ے جبکہ دوسرے جزو کی مقدار کا دارومدار تعدد کے علاوہ تقصیری تناسب پر بھی منحصر ہ
-ے۔ شکل [][]۱۲.۲۰[][][]-الف میں مختلف $\OML/zplm/m/it/10 ^^P$[]
+ے جبکہ دوسرے جزو کی مقدار کا دارومدار تعدد کے علاوہ تقصیری نسبت پر بھی منحصر ہے
+۔ شکل [][]۱۲.۲۰[][][]-الف میں مختلف[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 974--976
+[]$\OML/zplm/m/it/10 ^^P$ \TU/JameelNooriNastaleeq(2)/b/n/10 کے لیے مساوات [][]
+۱۲.۳۲[][] []کے دوسرے جزو کے خطوط دکھائے گئے ہیں۔اب تک ہم دیکھتے آ رہے ہیں کہ قط
+ب پر مقداری خط گھٹنے شروع ہوتا ہے لیکن[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 974--976
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 یہاں ایسا نہیں ہو رہا ہے۔مخلوط قطبین کی صو
+رت میں مقداری خط گھٹنے سے پہلے بڑھتا ہے۔بڑھنے کی مقدار کا دارومدار $\OML/zplm/m
+/it/10 ^^P$ \TU/JameelNooriNastaleeq(2)/b/n/10 پر ہے۔تقصیری نسبت کی قیمت صفر[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 977.
@@ -20745,9 +20764,9 @@ LaTeX Info: Redefining \ttfamily on input line 1199.
 Underfull \hbox (badness 10000) in paragraph at lines 1199--1200
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 آئیں شکل [][]۱۲.۲۱[][] []میں دکھائے گئے 
 سلسلہ وار $\OML/zplm/m/it/10 RLC$ \TU/JameelNooriNastaleeq(2)/b/n/10 دور میں $[
-]$ تناسب کے لیے $\OML/zplm/m/it/10 Q$\TU/JameelNooriNastaleeq(2)/b/n/10 ، $\OML
-/zplm/m/it/10 ![]$ \TU/JameelNooriNastaleeq(2)/b/n/10 اور $\OML/zplm/m/it/10 !$
- \TU/JameelNooriNastaleeq(2)/b/n/10 پر مبنی عمومی مساوات حاصل کریں۔مساوات[]
+]$ نسبت کے لیے $\OML/zplm/m/it/10 Q$\TU/JameelNooriNastaleeq(2)/b/n/10 ، $\OML/
+zplm/m/it/10 ![]$ \TU/JameelNooriNastaleeq(2)/b/n/10 اور $\OML/zplm/m/it/10 !$ 
+\TU/JameelNooriNastaleeq(2)/b/n/10 پر مبنی عمومی مساوات حاصل کریں۔مساوات[]
  []
 
 [684]
@@ -22926,10 +22945,19 @@ LaTeX Info: Redefining \ttfamily on input line 888.
 
 Underfull \hbox (badness 10000) in paragraph at lines 888--889
 []\TU/JameelNooriNastaleeq(2)/b/n/10 دور میں کسی بھی دباؤ یا رو اور داخلی اشارے
- کے تناسب کو جال کی \TU/AASameerSagarNastaleeqBold(0)/m/n/10 تبادلی تفاعل[][] \
-TU/JameelNooriNastaleeq(2)/b/n/10 یا \TU/AASameerSagarNastaleeqBold(0)/m/n/10 ت
-فاعل جال[][] \TU/JameelNooriNastaleeq(2)/b/n/10 کہتے ہیں۔اگر دونوں متغیرات دباؤ
- ہوں تب تبادلی تفاعل[]
+ کی نسبت کو جال کی \TU/AASameerSagarNastaleeqBold(0)/m/n/10 تبادلی تفاعل[][] \T
+U/JameelNooriNastaleeq(2)/b/n/10 یا \TU/AASameerSagarNastaleeqBold(0)/m/n/10 تف
+اعل جال[][] \TU/JameelNooriNastaleeq(2)/b/n/10 کہتے ہیں۔اگر دونوں متغیرات دباؤ 
+ہوں تب تبادلی تفاعل[]
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 888--889
+[]\TU/AASameerSagarNastaleeqBold(0)/m/n/10 افزائش دباؤ[][] \TU/JameelNooriNasta
+leeq(2)/b/n/10 کہلاتا ہے، اگر دونوں متغیرات رو ہوں تب اس کو \TU/AASameerSagarNa
+staleeqBold(0)/m/n/10 افزائش رو[][] \TU/JameelNooriNastaleeq(2)/b/n/10 کہتے ہیں
+۔اسی طرح دباؤ اور رو کی نسبت کو \TU/AASameerSagarNastaleeqBold(0)/m/n/10 افزائش
+ مزاحمت نما[][] \TU/JameelNooriNastaleeq(2)/b/n/10 کہتے ہیں[]
  []
 
 [795]
@@ -23757,8 +23785,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--99
 []\TU/JameelNooriNastaleeq(2)/b/n/10 جہاں $\OML/zplm/m/it/10 a[]$\TU/JameelNoor
 iNastaleeq(2)/b/n/10 ، $\OML/zplm/m/it/10 a[]$\TU/JameelNooriNastaleeq(2)/b/n/1
 0 ،$\OML/zplm/m/it/10 a[]$\TU/JameelNooriNastaleeq(2)/b/n/10 ، $\OML/zplm/m/it/
-10 b[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 وغیرہ تسلسل کے \TU/AASameerSagarNast
-aleeqBold(0)/m/n/10 عددی سر[][] \TU/JameelNooriNastaleeq(2)/b/n/10 کہلاتے ہیں۔ف
+10 b[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 وغیرہ تسلسل کے  \TU/AASameerSagarNas
+taleeqBold(0)/m/n/10 ضرائب [][] \TU/JameelNooriNastaleeq(2)/b/n/10 کہلاتے ہیں۔ف
 وریئر تسلسل کی اوسط قیمت $\OML/zplm/m/it/10 a[]$ \TU/JameelNooriNastaleeq(2)/b/
 n/10 کے برابر ہے۔ایک دوری عرصہ $\OML/zplm/m/it/10 T[]$[]
  []
@@ -23887,10 +23915,10 @@ LaTeX Info: Redefining \sffamily on input line 224.
 LaTeX Info: Redefining \ttfamily on input line 224.
 
 Underfull \hbox (badness 10000) in paragraph at lines 224--225
-[][]\TU/JameelNooriNastaleeq(2)/b/n/10 عددی سر $\OML/zplm/m/it/10 a[]$ \TU/Jame
-elNooriNastaleeq(2)/b/n/10 حاصل کرنے کی خاطر مساوات [][]۱۵.۴[][] []کے دونوں اطر
-اف کو $[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 m![]t\OT1/zplm/m/n/10 )$ \TU/Jamee
-lNooriNastaleeq(2)/b/n/10 سے ضرب دیتے ہوئے ایک دوری عرصے پر تکمل کرتے[]
+[][]\TU/JameelNooriNastaleeq(2)/b/n/10 ضریب $\OML/zplm/m/it/10 a[]$ \TU/JameelN
+ooriNastaleeq(2)/b/n/10 حاصل کرنے کی خاطر مساوات [][]۱۵.۴[][] []کے دونوں اطراف 
+کو $[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 m![]t\OT1/zplm/m/n/10 )$ \TU/JameelNo
+oriNastaleeq(2)/b/n/10 سے ضرب دیتے ہوئے ایک دوری عرصے پر تکمل کرتے[]
  []
 
 [834]
@@ -23914,10 +23942,10 @@ LaTeX Info: Redefining \sffamily on input line 245.
 LaTeX Info: Redefining \ttfamily on input line 245.
 
 Underfull \hbox (badness 10000) in paragraph at lines 245--246
-[][]\TU/JameelNooriNastaleeq(2)/b/n/10 عددی سر $\OML/zplm/m/it/10 b[]$ \TU/Jame
-elNooriNastaleeq(2)/b/n/10 حاصل کرنے کی خاطر مساوات [][]۱۵.۴[][] []کے دونوں اطر
-اف کو $[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 m![]t\OT1/zplm/m/n/10 )$ \TU/Jamee
-lNooriNastaleeq(2)/b/n/10 سے ضرب دیتے ہوئے ایک دوری عرصے پر تکمل کرتے[]
+[][]\TU/JameelNooriNastaleeq(2)/b/n/10 ضریب $\OML/zplm/m/it/10 b[]$ \TU/JameelN
+ooriNastaleeq(2)/b/n/10 حاصل کرنے کی خاطر مساوات [][]۱۵.۴[][] []کے دونوں اطراف 
+کو $[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 m![]t\OT1/zplm/m/n/10 )$ \TU/JameelNo
+oriNastaleeq(2)/b/n/10 سے ضرب دیتے ہوئے ایک دوری عرصے پر تکمل کرتے[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 251.
@@ -24128,12 +24156,6 @@ LaTeX Info: Redefining \rmfamily on input line 472.
 LaTeX Info: Redefining \sffamily on input line 472.
 LaTeX Info: Redefining \ttfamily on input line 472.
 [842]
-Underfull \hbox (badness 10000) in paragraph at lines 474--475
-[][]\TU/JameelNooriNastaleeq(2)/b/n/10 جواب:عددی سر حاصل کرتے ہوئے دوری موج کے 
-کسی بھی حصے پر مسلسل ایک دوری عرصے پر تکمل حاصل کیا جا سکتا ہے۔جوابات میں کوئی 
-فرق نہیں پایا[]
- []
-
 LaTeX Info: Redefining \rmfamily on input line 478.
 LaTeX Info: Redefining \sffamily on input line 478.
 LaTeX Info: Redefining \ttfamily on input line 478.
@@ -24152,7 +24174,7 @@ LaTeX Info: Redefining \ttfamily on input line 499.
 LaTeX Info: Redefining \rmfamily on input line 508.
 LaTeX Info: Redefining \sffamily on input line 508.
 LaTeX Info: Redefining \ttfamily on input line 508.
-[843]
+ [843]
 LaTeX Info: Redefining \rmfamily on input line 516.
 LaTeX Info: Redefining \sffamily on input line 516.
 LaTeX Info: Redefining \ttfamily on input line 516.
@@ -24179,7 +24201,7 @@ LaTeX Info: Redefining \rmfamily on input line 544.
 LaTeX Info: Redefining \sffamily on input line 544.
 LaTeX Info: Redefining \ttfamily on input line 544.
 
-Underfull \vbox (badness 1824) has occurred while \output is active []
+Underfull \vbox (badness 6944) has occurred while \output is active []
 
  [844]
 LaTeX Info: Redefining \rmfamily on input line 563.
@@ -24210,14 +24232,6 @@ LaTeX Info: Redefining \ttfamily on input line 606.
 LaTeX Info: Redefining \rmfamily on input line 616.
 LaTeX Info: Redefining \sffamily on input line 616.
 LaTeX Info: Redefining \ttfamily on input line 616.
-
-Underfull \hbox (badness 10000) in paragraph at lines 616--617
-[][]\TU/JameelNooriNastaleeq(2)/b/n/10 قوت نمائی فوریئر تسلسل کا عددی سر $\OML/
-cmm/b/it/10 c[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 حاصل کرنے کی خاطر مساوات []
-[]۱۵.۲۸[][] []کے دونوں اطراف کو $\OML/zplm/m/it/10 e[]$ \TU/JameelNooriNastalee
-q(2)/b/n/10 سے ضرب دیتے ہوئے[]
- []
-
 LaTeX Info: Redefining \rmfamily on input line 630.
 LaTeX Info: Redefining \sffamily on input line 630.
 LaTeX Info: Redefining \ttfamily on input line 630.
@@ -24323,12 +24337,6 @@ LaTeX Info: Redefining \rmfamily on input line 833.
 LaTeX Info: Redefining \sffamily on input line 833.
 LaTeX Info: Redefining \ttfamily on input line 833.
  [853]
-Underfull \hbox (badness 10000) in paragraph at lines 859--861
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 ہیں جن میں تعدد کے راست متناسب زاویائی ہٹا
-و $\OML/zplm/m/it/10 e[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 پایا جاتا ہے۔ اس ط
-رح وقتی دائرہ کار میں تبادلے سے تعددی دائرہ کار میں مراد زاویائی تبادلہ[]
- []
-
 LaTeX Info: Redefining \rmfamily on input line 864.
 LaTeX Info: Redefining \sffamily on input line 864.
 LaTeX Info: Redefining \ttfamily on input line 864.
@@ -24368,10 +24376,10 @@ LaTeX Info: Redefining \sffamily on input line 879.
 LaTeX Info: Redefining \ttfamily on input line 879.
 
 Underfull \hbox (badness 10000) in paragraph at lines 878--880
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 ہو گا۔یوں بنیادی ہارمونی رکن کے عددی سر می
-ں $\OT1/ppl/m/n/10 90[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 کا زاویائی ہٹاو پای
-ا جائے گا۔ مساوات [][]۱۵.۳۶[][] []میں ان زاویائی ہٹاو کو شامل کرتے ہوئے فوریئر 
-تسلسل لکھتے[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 ہو گا۔یوں بنیادی ہارمونی رکن کے ضریب میں $
+\OT1/ppl/m/n/10 90[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 کا زاویائی ہٹاو پایا ج
+ائے گا۔ مساوات [][]۱۵.۳۶[][] []میں ان زاویائی ہٹاو کو شامل کرتے ہوئے فوریئر تسل
+سل لکھتے[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 887.
@@ -24413,8 +24421,8 @@ LaTeX Info: Redefining \ttfamily on input line 925.
 
 Underfull \hbox (badness 10000) in paragraph at lines 924--926
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 مشق  ۱۵.۱۰:  شکل [][]۱۵.۱۳[][][]-الف اور
- ب کی فوریئر قوت نمائی تسلسل کے عددی سر حاصل کریں۔ان کے مجموعے سے شکل-پ کی تسلس
-ل کے عددی سر[]
+ ب کی فوریئر قوت نمائی تسلسل کے ضریب حاصل کریں۔ان کے مجموعے سے شکل-پ کی تسلسل ک
+ے ضریب حاصل[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 931.
@@ -24442,13 +24450,21 @@ LaTeX Info: Redefining \rmfamily on input line 970.
 LaTeX Info: Redefining \sffamily on input line 970.
 LaTeX Info: Redefining \ttfamily on input line 970.
 
-Underfull \hbox (badness 2653) in paragraph at lines 970--972
+Underfull \hbox (badness 10000) in paragraph at lines 970--972
 []\TU/JameelNooriNastaleeq(2)/b/n/10 تفاعل $\OML/zplm/m/it/10 f\OT1/zplm/m/n/10
  (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(2)/b/n/10 کے 
-عددی سر کی مقدار بالمقابل تعدد کے ترسیم کو \TU/AASameerSagarNastaleeqBold(0)/m/
-n/10 مقداری طیف[][] \TU/JameelNooriNastaleeq(2)/b/n/10 کہتے ہیں جبکہ عددی سر کی
- زاویائی ہٹاو بالمقابل تعدد کے ترسیم کو \TU/AASameerSagarNastaleeqBold(0)/m/n/1
-0 زاویائی[]
+ضریب کی مقدار بالمقابل تعدد کے ترسیم کو \TU/AASameerSagarNastaleeqBold(0)/m/n/1
+0 مقداری طیف[][] \TU/JameelNooriNastaleeq(2)/b/n/10 کہتے ہیں جبکہ ضریب کی زاویا
+ئی ہٹاو بالمقابل تعدد کے ترسیم کو \TU/AASameerSagarNastaleeqBold(0)/m/n/10 زاوی
+ائی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 970--972
+[]\TU/AASameerSagarNastaleeqBold(0)/m/n/10 ہٹاو طیف[][] \TU/JameelNooriNastalee
+q(2)/b/n/10 کہتے ہیں۔ چونکہ طیف انفرادی لکیروں پر مشتمل ہے لہٰذا اسے \TU/AASame
+erSagarNastaleeqBold(0)/m/n/10 انفرادی لکیری طیف[][] \TU/JameelNooriNastaleeq(2
+)/b/n/10 کہتے ہیں۔انفرادی لکیری طیف تفاعل کی تعددی[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 975.
@@ -24887,11 +24903,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1872--1886
  []
 
 [881] [882]
-Underfull \hbox (badness 3492) in paragraph at lines 1913--1915
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 ہم درج بالا عددی سر کی معلومات استعمال کرت
-ے ہوئے $\OML/zplm/m/it/10 ^^N$ \TU/JameelNooriNastaleeq(2)/b/n/10 یوں رکھ سکتے 
-ہیں کہ مخصوص عددی سر صفر کے برابر ہو جائے مثلاً $\OML/zplm/m/it/10 a[]$ \TU/Jam
-eelNooriNastaleeq(2)/b/n/10 کی قیمت صفر کرنے کی خاطر[]
+Underfull \hbox (badness 10000) in paragraph at lines 1913--1915
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 ہم درج بالا ضریب کی معلومات استعمال کرتے ہ
+وئے $\OML/zplm/m/it/10 ^^N$ \TU/JameelNooriNastaleeq(2)/b/n/10 یوں رکھ سکتے ہیں
+ کہ مخصوص ضریب صفر کے برابر ہو جائے مثلاً $\OML/zplm/m/it/10 a[]$ \TU/JameelNoo
+riNastaleeq(2)/b/n/10 کی قیمت صفر کرنے کی خاطر[]
  []
 
 [883]
@@ -25644,11 +25660,17 @@ LaTeX Info: Redefining \ttfamily on input line 2.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(0)/m/sl' in size <10> n
 ot available
 (Font)              Font shape `TU/JameelNooriNastaleeq(0)/m/it' tried instead 
-on input line 160.
+on input line 159.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 160.
- [922] [923] [924] [925] [926] [927] [928] [929] [930] [931] [932]
-[933] [934] [935] [936] [937]) (./circuitAnalysis.aux (./tex/cktPreface.aux)
+(Font)              scaled to size 10.0pt on input line 159.
+ [922] [923] [924] [925] [926] [927]
+LaTeX Info: Redefining \rmfamily on input line 619.
+LaTeX Info: Redefining \sffamily on input line 619.
+LaTeX Info: Redefining \ttfamily on input line 619.
+ [928] [929] [930] [931] [932]
+[933] [934] [935] [936] [937
+
+]) (./circuitAnalysis.aux (./tex/cktPreface.aux)
 (./tex/prefaceFirstBook.aux) (./tex/cktBasics.aux) (./tex/cktResistive.aux)
 (./tex/cktNodalLoop.aux) (./tex/cktOpamp.aux) (./tex/cktTheorems.aux)
 (./tex/cktCapacitorInductor.aux) (./tex/cktTransients.aux)
@@ -25671,10 +25693,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 220404 strings out of 474878
- 6975351 string characters out of 9512517
- 6140861 words of memory out of 7000000
- 241479 multiletter control sequences out of 15000+600000
+ 220037 strings out of 474878
+ 6966317 string characters out of 9512517
+ 6132143 words of memory out of 7000000
+ 241112 multiletter control sequences out of 15000+600000
  595205 words of font info for 173 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  117i,21n,375p,2073b,2972s stack positions out of 10000i,1000n,20000p,200000b,200000s
