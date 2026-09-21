@@ -144,4 +144,3 @@
 \contentsline {section}{\numberline {\farsidigits {16}.\farsidigits {2}}دوغلائی نمونہ}{\farsidigits {905}}{}%
 \contentsline {section}{\numberline {\farsidigits {16}.\farsidigits {3}}ترسیلی نمونہ}{\farsidigits {907}}{}%
 \contentsline {section}{\numberline {\farsidigits {16}.\farsidigits {4}}چار سر ادوار کے باہمی جوڑ}{\farsidigits {909}}{}%
-\contentsline {chapter}{اشاریہ}{\farsidigits {921}}{}%
