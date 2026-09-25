@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  21 SEP 2026 16:25
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  22 SEP 2026 17:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3201,6 +3201,17 @@ LaTeX Info: Redefining \ttfamily on input line 4.
 LaTeX Info: Redefining \rmfamily on input line 4.
 LaTeX Info: Redefining \sffamily on input line 4.
 LaTeX Info: Redefining \ttfamily on input line 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 جبکہ خط محور $\OML/zplm/m/it/10 y$ \TU/Jam
+eelNooriNastaleeq(2)/b/n/10 کو $\OML/zplm/m/it/10 c[]$ \TU/JameelNooriNastaleeq
+(2)/b/n/10 پر کاٹتا ہے۔نچلے خط کا ڈھلوان $\OML/zplm/m/it/10 m[]$ \TU/JameelNoor
+iNastaleeq(2)/b/n/10 ہے جبکہ یہ کارتیسی محدد کے مبدا $\OT1/zplm/m/n/10 (\OT1/pp
+l/m/n/10 0, 0\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(2)/b/n/10 سے گزرتا ہے
+ لہٰذا یہ خط محور $\OML/zplm/m/it/10 y$ \TU/JameelNooriNastaleeq(2)/b/n/10 کو $
+\OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(2)/b/n/10 پر کاٹتا ہے[]
+ []
+
 File: ./fig/figResistive/figResistiveStraightLines.pdf Graphic file (type pdf)
 <use ./fig/figResistive/figResistiveStraightLines.pdf>
 File: ./fig/figResistive/figResistiveOhmLaw.pdf Graphic file (type pdf)
@@ -12106,7 +12117,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 934--979
 []\TU/JameelNooriNastaleeq(2)/b/n/10 سیڑھی تفاعل کو دکھایا گیا ہے۔اکائی سیڑھی ت
 فاعل کے متغیرہ کو $\OML/zplm/m/it/10 t \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 t
 []$ \TU/JameelNooriNastaleeq(2)/b/n/10 لکھتے ہوئے شکل [][]۷.۱۶[][][]-ب حاصل ہوت
-ا ہے جو افقی محدد پر $\OML/zplm/m/it/10 t[]$ \TU/JameelNooriNastaleeq(2)/b/n/10
+ا ہے جو افقی محور پر $\OML/zplm/m/it/10 t[]$ \TU/JameelNooriNastaleeq(2)/b/n/10
  دائیں منتقل اکائی[]
  []
 
@@ -13278,11 +13289,11 @@ T1/ppl/m/n/10 0, 0\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(2)/b/n/10 پر پ
 
 Underfull \hbox (badness 10000) in paragraph at lines 180--181
 []$[]$ \TU/JameelNooriNastaleeq(2)/b/n/10 کی قیمت $\OML/zplm/m/it/10 ^^R$ \TU/J
-ameelNooriNastaleeq(2)/b/n/10 کے برابر ہے۔نقطے سے $\OML/zplm/m/it/10 x$ \TU/Jam
-eelNooriNastaleeq(2)/b/n/10 محور پر زاویہ قائمہ لکیر محور کو $\OML/zplm/m/it/10
+ameelNooriNastaleeq(2)/b/n/10 کے برابر ہے۔نقطے سے محور $\OML/zplm/m/it/10 x$ \T
+U/JameelNooriNastaleeq(2)/b/n/10 پر زاویہ قائمہ لکیر محور کو $\OML/zplm/m/it/10
  x\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$ \TU/JameelNooriNasta
-leeq(2)/b/n/10 پر ٹکراتی ہے جبکہ $\OML/zplm/m/it/10 y$ \TU/JameelNooriNastaleeq
-(2)/b/n/10 محور پر زاویہ قائمہ لکیر $\OML/zplm/m/it/10 y\OT1/zplm/m/n/10 (\OML/
+leeq(2)/b/n/10 پر ٹکراتی ہے جبکہ محور $\OML/zplm/m/it/10 y$ \TU/JameelNooriNast
+aleeq(2)/b/n/10 پر زاویہ قائمہ لکیر $\OML/zplm/m/it/10 y\OT1/zplm/m/n/10 (\OML/
 zplm/m/it/10 t\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(2)/b/n/10 پر ٹکراتی[
 ]
  []
@@ -13792,6 +13803,13 @@ LaTeX Info: Redefining \ttfamily on input line 776.
 LaTeX Info: Redefining \rmfamily on input line 776.
 LaTeX Info: Redefining \sffamily on input line 776.
 LaTeX Info: Redefining \ttfamily on input line 776.
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--779
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 جسے شکل [][]۸.۷[][] []میں مخلوط سطح پر دکھ
+ایا گیا ہے۔حقیقی محور سے گھڑی کی گردش کی جانب مثبت زاویہ ناپا جاتا ہے لہٰذا منف
+ی زاویے کو گھڑی کی گردش کے الٹ جانب[]
+ []
+
 LaTeX Info: Redefining \rmfamily on input line 782.
 LaTeX Info: Redefining \sffamily on input line 782.
 LaTeX Info: Redefining \ttfamily on input line 782.
@@ -14270,8 +14288,8 @@ LaTeX Info: Redefining \ttfamily on input line 1784.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1793--1795
 []\TU/JameelNooriNastaleeq(2)/b/n/10 رکاوٹ کی قیمت تعدد پر منحصر ہوتی ہے۔یوں دو
-ر میں رو اور دباؤ کا دارومدار بھی تعدد پر ہو گا۔دوری سمتی اشکال کی مدد سے رو او
-ر دباؤ پر تعدد کے اثر پر غور کرنے[]
+ر میں رو اور دباؤ کا دارومدار بھی تعدد پر ہو گا۔دوری سمتیہ اشکال کی مدد سے رو ا
+ور دباؤ پر تعدد کے اثر پر غور کرنے[]
  []
 
 [450]
@@ -14327,9 +14345,9 @@ LaTeX Info: Redefining \sffamily on input line 1864.
 LaTeX Info: Redefining \ttfamily on input line 1864.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1863--1865
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 شکل [][]۸.۱۹[][][]-پ میں اس سمتی جمع کو دک
-ھایا گیا ہے جہاں دم سے سر جوڑنے کا طریقہ استعمال کیا گیا ہے۔تعدد کو کم یا زیادہ
- کرنے سے $[]$ کا حیطہ کم اور زیادہ ہو[]
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 شکل [][]۸.۱۹[][][]-پ میں اس سمتیہ جمع کو د
+کھایا گیا ہے جہاں دم سے سر جوڑنے کا طریقہ استعمال کیا گیا ہے۔تعدد کو کم یا زیاد
+ہ کرنے سے $[]$ کا حیطہ کم اور زیادہ ہو[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1877.
@@ -14400,10 +14418,10 @@ LaTeX Info: Redefining \rmfamily on input line 1935.
 LaTeX Info: Redefining \sffamily on input line 1935.
 LaTeX Info: Redefining \ttfamily on input line 1935.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1934--1936
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 شکل [][]۸.۲۰[][][]-پ میں اس سمتی جمع کو دک
-ھایا گیا ہے جہاں دم سے سر جوڑنے کا طریقہ استعمال کیا گیا ہے۔تعدد کو کم یا زیادہ
- کرنے سے $[]$ کا حیطہ زیادہ اور کم ہو[]
+Underfull \hbox (badness 1394) in paragraph at lines 1934--1936
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 لہٰذا شکل میں $[]$ کی نوک نقطہ دار لکیر پر
+ حرکت کرے گی۔لامتناہی تعدد کی صورت میں $[] \OT1/zplm/m/n/10 = []$ \TU/JameelNoo
+riNastaleeq(2)/b/n/10 ہو گا جبکہ صفر تعدد پر $[]$ کا زاویہ تقریباً[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1939.
@@ -14447,11 +14465,11 @@ lNooriNastaleeq(2)/b/n/10 کی \TU/AASameerSagarNastaleeqBold(0)/m/n/10 قدرت
  []
 
 
-Underfull \hbox (badness 4279) in paragraph at lines 1985--1987
-[]\TU/JameelNooriNastaleeq(2)/b/n/10 جبکہ $\OML/zplm/m/it/10 ![]$ \TU/JameelNoo
-riNastaleeq(2)/b/n/10 سے کم تعدد پر $[]$ کی نوک، نقطہ دار لکیر پر رہتے ہوئے، اف
-قی محدد سے نیچے ہو گی۔ شکل [][]۸.۲۱[][][]-پ گھمکی تعدد سے زیادہ تعدد کی صورت حا
-ل دکھا[]
+Underfull \hbox (badness 3872) in paragraph at lines 1985--1987
+[]\TU/JameelNooriNastaleeq(2)/b/n/10 پر حرکت کرتی ہے۔عین $\OML/zplm/m/it/10 ![]
+$ \TU/JameelNooriNastaleeq(2)/b/n/10 پر $[] \OT1/zplm/m/n/10 = []$ \TU/JameelNo
+oriNastaleeq(2)/b/n/10 ہو گا۔گھمکی تعدد سے زیادہ تعدد پر $[]$ کی نوک، نقطہ دار 
+لکیر پر رہتے ہوئے، افقی محور سے اوپر[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1990.
@@ -14480,6 +14498,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2020--2022
 astaleeq(2)/b/n/10 درجے آگے ہے۔عین[]
  []
 
+[455]
 LaTeX Info: Redefining \rmfamily on input line 2032.
 LaTeX Info: Redefining \sffamily on input line 2032.
 LaTeX Info: Redefining \ttfamily on input line 2032.
@@ -14503,7 +14522,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 2031--2064
 الف اور شکل-ب[]
  []
 
-[455]
 LaTeX Info: Redefining \rmfamily on input line 2067.
 LaTeX Info: Redefining \sffamily on input line 2067.
 LaTeX Info: Redefining \ttfamily on input line 2067.
@@ -25682,10 +25700,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 220280 strings out of 474878
- 6972919 string characters out of 9512517
- 6138343 words of memory out of 7000000
- 241357 multiletter control sequences out of 15000+600000
+ 219972 strings out of 474878
+ 6961989 string characters out of 9512517
+ 6131749 words of memory out of 7000000
+ 241049 multiletter control sequences out of 15000+600000
  595205 words of font info for 173 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  117i,21n,375p,2073b,2972s stack positions out of 10000i,1000n,20000p,200000b,200000s

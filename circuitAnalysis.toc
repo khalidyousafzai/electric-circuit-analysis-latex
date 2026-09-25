@@ -74,7 +74,7 @@
 \contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {2}}سائن نما تفاعل}{\farsidigits {411}}{}%
 \contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {3}}سائن نما اور مخلوط جبری تفاعل}{\farsidigits {419}}{}%
 \contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {4}}دوری سمتیہ}{\farsidigits {426}}{}%
-\contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {5}}مزاحمت، امالہ گیر اور برق گیر کے انفرادی دوری سمتی تعلق}{\farsidigits {431}}{}%
+\contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {5}}مزاحمت، امالہ گیر اور برق گیر کے انفرادی دوری سمتیہ تعلق}{\farsidigits {431}}{}%
 \contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {6}}برقی رکاوٹ اور برقی فراوانی}{\farsidigits {439}}{}%
 \contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {7}}دوری سمتیات کے اشکال}{\farsidigits {451}}{}%
 \contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {8}}کرخوف مساوات}{\farsidigits {459}}{}%
