@@ -188,11 +188,11 @@ v_0=\SI{-10.8}{\volt} \quad \quad (v_s=\SI{-150}{\micro\volt})
 
 حل: ہم دیکھتے ہیں کہ جب تک خارجی اشارہ مساوات \حوالہ{مساوات_حسابی_خارجی_حدود} میں دیے حدود کے اندر رہتا ہے اس وقت تک \عددی{v_0} اور \عددی{v_s} \اصطلاح{خطی تعلق}\فرہنگ{خطی تعلق}\حاشیہب{linear relationship}\فرہنگ{linear} \عددی{\tfrac{v_0}{v_s}=A_v} رکھتے ہیں۔مندرجہ بالا مثال میں بالائی حد
 \begin{align*}
-v_{s,\text{بلندتر}}= \frac{v_0}{A_d}=\frac{10.5}{99010}=\SI{106}{\micro\volt}
+v_{s,\text{اعظم}}= \frac{v_0}{A_d}=\frac{10.5}{99010}=\SI{106}{\micro\volt}
 \end{align*}
 پر اور نچلی حد
 \begin{align*}
-v_{s,\text{کمتر}}= \frac{v_0}{A_d}=\frac{-10.8}{99010}=\SI{-109}{\micro\volt}
+v_{s,\text{اقل}}= \frac{v_0}{A_d}=\frac{-10.8}{99010}=\SI{-109}{\micro\volt}
 \end{align*}
 حاصل ہوتے ہیں۔یوں حسابی ایمپلیفائر اس وقت تک داخلی اشارے کو خطی طور پر بڑھاتا ہے جب تک داخلی اشارہ درج ذیل حدود میں رہے۔
 \begin{align*}
@@ -200,8 +200,8 @@ v_{s,\text{کمتر}}= \frac{v_0}{A_d}=\frac{-10.8}{99010}=\SI{-109}{\micro\volt
 \end{align*} 
 ان حدود میں رہتے ہوئے \عددی{v_d} کے حدود شکل \حوالہ{شکل_حسابی_ایمپلیفائر_دور_الف} سے بذریعہ تقسیم دباؤ یوں حاصل ہوتے ہیں۔
 \begin{align*}
-v_{d,\text{بلندتر}}&=\frac{R_i v_s}{R_i+R_S}=\frac{10^{12} \times \SI{106}{\micro\volt}}{10^{12}+\num{5e4}} \approx \SI{106}{\micro\volt}\\
-v_{d,\text{کمتر}}&=\frac{10^{12} \times (\SI{-109}{\micro\volt})}{10^{12}+\num{5e4}} \approx \SI{-109}{\micro\volt}
+v_{d,\text{اعظم}}&=\frac{R_i v_s}{R_i+R_S}=\frac{10^{12} \times \SI{106}{\micro\volt}}{10^{12}+\num{5e4}} \approx \SI{106}{\micro\volt}\\
+v_{d,\text{اقل}}&=\frac{10^{12} \times (\SI{-109}{\micro\volt})}{10^{12}+\num{5e4}} \approx \SI{-109}{\micro\volt}
 \end{align*}
 یوں جب تک 
 \begin{align}\label{مساوات_حسابی_خطی_حدود_داخلی_اشارہ}

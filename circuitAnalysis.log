@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  22 SEP 2026 17:20
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  1 OCT 2026 15:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5106,7 +5106,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1613--1614
 ائیں گے۔دی معلومات سے[]
  []
 
-[81]
+
+Underfull \vbox (badness 1067) has occurred while \output is active []
+
+ [81]
+[82]
 LaTeX Info: Redefining \rmfamily on input line 1674.
 LaTeX Info: Redefining \sffamily on input line 1674.
 LaTeX Info: Redefining \ttfamily on input line 1674.
@@ -5133,7 +5137,6 @@ LaTeX Info: Redefining \ttfamily on input line 1687.
 LaTeX Info: Redefining \rmfamily on input line 1687.
 LaTeX Info: Redefining \sffamily on input line 1687.
 LaTeX Info: Redefining \ttfamily on input line 1687.
-[82]
 LaTeX Info: Redefining \rmfamily on input line 1696.
 LaTeX Info: Redefining \sffamily on input line 1696.
 LaTeX Info: Redefining \ttfamily on input line 1696.
@@ -5149,7 +5152,7 @@ LaTeX Info: Redefining \ttfamily on input line 1707.
 LaTeX Info: Redefining \rmfamily on input line 1707.
 LaTeX Info: Redefining \sffamily on input line 1707.
 LaTeX Info: Redefining \ttfamily on input line 1707.
- [83]
+[83]
 LaTeX Info: Redefining \rmfamily on input line 1717.
 LaTeX Info: Redefining \sffamily on input line 1717.
 LaTeX Info: Redefining \ttfamily on input line 1717.
@@ -16080,7 +16083,7 @@ LaTeX Info: Redefining \ttfamily on input line 991.
 Underfull \hbox (badness 10000) in paragraph at lines 993--994
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 بجلی کا میٹر صارف کے ہاں نصب ہوتا ہے جو 
 خرچ کیے توانائی کا حساب رکھتا ہے۔یہ میٹر ترسیلی تاروں میں ضائع توانائی کو نہیں 
-ناپ سکتا۔برقی طاقت کے پیدا کار[]
+ناپ سکتا۔برقی طاقت کے پیداکار[]
  []
 
 
@@ -16093,15 +16096,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 993--994
 
 Underfull \hbox (badness 10000) in paragraph at lines 993--994
 []\TU/JameelNooriNastaleeq(2)/b/n/10 تاروں میں طاقت کا ضیاع کم سے کم ہو۔یہی وجہ
- ہے کہ پیدا کار صنعت کوشش کرتی ہے کہ صارف کو مجبور کرے کہ اس کا جزو طاقت اکائی 
-کے قریب ترین[]
+ ہے کہ پیداکار صنعت کوشش کرتی ہے کہ صارف کو مجبور کرے کہ اس کا جزو طاقت اکائی ک
+ے قریب ترین[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 993--994
 []\TU/JameelNooriNastaleeq(2)/b/n/10 ہو۔اگر صارف اپنے جزو طاقت پر قابو نہیں پات
-ا تو پیدا کار اس پر جرمانہ عائد کرتا ہے۔اس کتاب کے لکھتے وقت پاکستان میں $\OT1/
-ppl/m/n/10 0.9$ \TU/JameelNooriNastaleeq(2)/b/n/10 سے کم جزو طاقت کی صورت[]
+ا تو پیداکار اس پر جرمانہ عائد کرتا ہے۔اس کتاب کے لکھتے وقت پاکستان میں $\OT1/p
+pl/m/n/10 0.9$ \TU/JameelNooriNastaleeq(2)/b/n/10 سے کم جزو طاقت کی صورت[]
  []
 
 
@@ -23870,7 +23873,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--101
 [][]\TU/JameelNooriNastaleeq(2)/b/n/10 آپ دو سمتیوں کے \TU/AASameerSagarNastale
 eqBold(0)/m/n/10 نقطوی ضرب[][][][] []\TU/JameelNooriNastaleeq(2)/b/n/10 سے خوب 
 واقف ہیں۔سمتیہ $\OT1/zplm/b/n/10 A$ \TU/JameelNooriNastaleeq(2)/b/n/10 اور $\OT
-1/zplm/b/n/10 B$ \TU/JameelNooriNastaleeq(2)/b/n/10 کا نقطوی ضرب یا \TU/AASamee
+1/zplm/b/n/10 B$ \TU/JameelNooriNastaleeq(2)/b/n/10 کی نقطوی ضرب یا \TU/AASamee
 rSagarNastaleeqBold(0)/m/n/10 عددیہ ضرب[][][][] []\TU/JameelNooriNastaleeq(2)/b
 /n/10 درج ذیل ہے جہاں دونوں سمتیوں کے[]
  []
@@ -25700,10 +25703,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 219972 strings out of 474878
- 6961989 string characters out of 9512517
- 6131749 words of memory out of 7000000
- 241049 multiletter control sequences out of 15000+600000
+ 219986 strings out of 474878
+ 6963098 string characters out of 9512517
+ 6131862 words of memory out of 7000000
+ 241063 multiletter control sequences out of 15000+600000
  595205 words of font info for 173 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  117i,21n,375p,2073b,2972s stack positions out of 10000i,1000n,20000p,200000b,200000s
