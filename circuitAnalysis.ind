@@ -1,622 +1,624 @@
 \begin{theindex}
 \begin{otherlanguage*}{english}
-  \item abc, 610
-  \item AC, 2, 386
-  \item active component, 8, 12
-  \item ADC, 737
-  \item adder, 202
-  \item admittance, 444
-    \subitem model, 896
-  \item admittance,short-circuit input, 896
-  \item alternating current, 2
-  \item alternating current, AC, 386
-  \item aluminium, 593
-  \item Ampere, 2
+  \item abc ,  610
+  \item AC ,  2 ,  386
+  \item active component ,  8 ,  12
+  \item ADC ,  737
+  \item adder ,  202
+  \item admittance ,  444
+    \subitem model ,  896
+  \item admittance , short-circuit input ,  896
+  \item alternating current ,  2
+  \item alternating current ,  AC ,  386
+  \item aluminium ,  593
+  \item Ampere ,  2
   \item amplifier
-    \subitem common emitter, 95
-    \subitem current, 16
-    \subitem inverting, 197
-    \subitem non-inverting, 198
-    \subitem transconductance, 16, 97
-    \subitem transresistance, 16
-    \subitem voltage, 16
-  \item amplitude, 412
-    \subitem spectrum, 858
-  \item analog form, 651
-  \item analog to digital converter, 737
-  \item angular form, 408
-  \item angular speed, 412
-  \item antenna, 704
-  \item aperiodic, 865
-  \item argument, 412
-  \item audio, 651
+    \subitem common emitter ,  95
+    \subitem current ,  16
+    \subitem inverting ,  197
+    \subitem non-inverting ,  198
+    \subitem transconductance ,  16 ,  97
+    \subitem transresistance ,  16
+    \subitem voltage ,  16
+  \item amplitude ,  412
+    \subitem spectrum ,  858
+  \item analog form ,  651
+  \item analog to digital converter ,  737
+  \item angular form ,  408
+  \item angular speed ,  412
+  \item antenna ,  704
+  \item aperiodic ,  865
+  \item argument ,  412
+  \item audio ,  651
   \item axis
-    \subitem semilog, 651
+    \subitem semilog ,  651
 
   \indexspace
 
-  \item band-pass filter, 685, 709
-  \item band-stop filter, 709
-  \item bandwidth, 687
-  \item battery cell, 101
-  \item block diagram, 895
+  \item band-pass filter ,  685 ,  709
+  \item band-stop filter ,  709
+  \item bandwidth ,  687
+  \item battery cell ,  101
+  \item block diagram ,  895
   \item Bode
-    \subitem phase plot, 668
-  \item Bode plot, 660
-  \item boost converter, 393
-  \item branch, 41, 42
+    \subitem phase plot ,  668
+  \item Bode plot ,  660
+  \item boost converter ,  393
+  \item branch ,  41 ,  42
   \item breaker
-    \subitem ground fault interrupter, 541
-  \item buffer, 200
+    \subitem ground fault interrupter ,  541
+  \item buffer ,  200
 
   \indexspace
 
-  \item capacitance, 285, 286
+  \item capacitance ,  285 ,  286
   \item capacitive
-    \subitem power factor, 524
-  \item capacitor, 285
-  \item Cartesian coordinates, 33, 411
+    \subitem power factor ,  524
+  \item capacitor ,  285
+  \item Cartesian coordinates ,  33 ,  411
   \item characteristic
-    \subitem magnitude, 660
-    \subitem phase, 660
-  \item characteristic equation, 368
-  \item charge, 1
-  \item circuit, 1
-  \item circuit breaker, 541
-  \item clockwise, 8
-  \item coefficients, 828
-  \item coil, 297, 555
-  \item cold wire, 541
-  \item comparator, 207
-  \item complementary solution, 339
+    \subitem magnitude ,  660
+    \subitem phase ,  660
+  \item characteristic equation ,  368
+  \item charge ,  1
+  \item circuit ,  1
+  \item circuit breaker ,  541
+  \item clockwise ,  8
+  \item coefficients ,  828
+  \item coil ,  297 ,  555
+  \item cold wire ,  541
+  \item comparator ,  207
+  \item complementary solution ,  339
   \item complex
-    \subitem frequency, 731
-    \subitem number, 407
-    \subitem plane, 407, 798
-  \item complex conjugate, 658
-  \item complex function, 423
-  \item complex power, 526
-  \item computer, 22, 390
-  \item conductance, 35, 444
+    \subitem frequency ,  731
+    \subitem number ,  407
+    \subitem plane ,  407 ,  798
+  \item complex conjugate ,  658
+  \item complex function ,  423
+  \item complex power ,  526
+  \item computer ,  22 ,  390
+  \item conductance ,  35 ,  444
   \item conduction
-    \subitem heat, 75
+    \subitem heat ,  75
   \item continuous
-    \subitem function, 288, 299
-  \item control equation, 164
-  \item control voltage, 15
+    \subitem function ,  288 ,  299
+  \item control equation ,  164
+  \item control voltage ,  15
   \item convolution
-    \subitem integral, 756
+    \subitem integral ,  756
   \item core
-    \subitem magnetic, 297, 555
-    \subitem non-magnetic, 297
-  \item corner frequencies, 656
-  \item Coulomb, 2
-  \item coupled coils, 557
+    \subitem magnetic ,  297 ,  555
+    \subitem non-magnetic ,  297
+  \item corner frequencies ,  656
+  \item Coulomb ,  2
+  \item coupled coils ,  557
   \item coupling
-    \subitem strong, 573
-    \subitem weak, 573
-  \item coupling coefficient, 573
-  \item critical damped, 802
-  \item current, 1
-    \subitem gain, 795
-    \subitem transformation, 577
-  \item current gain, 16
+    \subitem strong ,  573
+    \subitem weak ,  573
+  \item coupling coefficient ,  573
+  \item critical damped ,  802
+  \item current ,  1
+    \subitem gain ,  795
+    \subitem transformation ,  577
+  \item current gain ,  16
   \item current source
-    \subitem current controlled, 93
-    \subitem voltage controlled, 95
+    \subitem current controlled ,  93
+    \subitem voltage controlled ,  95
   \item cut-off
-    \subitem high frequency, 656
-    \subitem low frequency, 656
-  \item cut-off frequency, 711
+    \subitem high frequency ,  656
+    \subitem low frequency ,  656
+  \item cut-off frequency ,  711
 
   \indexspace
 
   \item damped
-    \subitem oscillation, 370
-    \subitem over, 802
-    \subitem sinusoidal, 798
-  \item damping ratio, 368, 676
+    \subitem oscillation ,  370
+    \subitem over ,  802
+    \subitem sinusoidal ,  798
+  \item damping ratio ,  368 ,  676
   \item data
-    \subitem digital, 22
-  \item DC, 2, 386
-  \item decibel, 660
-  \item delta connection, 619
+    \subitem digital ,  22
+  \item DC ,  2 ,  386
+  \item decibel ,  660
+  \item delta connection ,  619
   \item depended
-    \subitem current source, 15
+    \subitem current source ,  15
   \item dependent
-    \subitem transconductance source, 15
-    \subitem transresistance source, 15
-    \subitem voltage source, 15
-  \item dependent current source, 14
-  \item dependent equation, 54
-  \item dependent variable, 287
-  \item dependent voltage source, 14
-  \item determinant, 121
-  \item differential equation, 338
-    \subitem first order, 337
-    \subitem second order, 337
-  \item differential form, 2
-  \item differentiator, 321
-  \item digital circuit, 22
-  \item digital data, 22
-  \item digital form, 651
-  \item dimension, 15
-  \item dimensionless, 15, 360
-  \item direct current, 2
-  \item direct current, DC, 386
-  \item discharged, 22
-  \item discrete line spectra, 858
-  \item diving board, 52
-  \item dot product, 830
-  \item duty cycle, 393
+    \subitem transconductance source ,  15
+    \subitem transresistance source ,  15
+    \subitem voltage source ,  15
+  \item dependent current source ,  14
+  \item dependent equation ,  54
+  \item dependent variable ,  287
+  \item dependent voltage source ,  14
+  \item determinant ,  121
+  \item differential equation ,  338
+    \subitem first order ,  337
+    \subitem second order ,  337
+  \item differential form ,  2
+  \item differentiator ,  321
+  \item digital circuit ,  22
+  \item digital data ,  22
+  \item digital form ,  651
+  \item dimension ,  15
+  \item dimensionless ,  15 ,  360
+  \item direct current ,  2
+  \item direct current ,  DC ,  386
+  \item discharged ,  22
+  \item discrete line spectra ,  858
+  \item diving board ,  52
+  \item dot product ,  830
+  \item duty cycle ,  393
 
   \indexspace
 
-  \item earth, 541
-  \item ecg, 714
-  \item electric constant, 285
-  \item electric field, 7
-  \item electrocardiogram, 714
-  \item electromagnetic waves, 704
-  \item electronics, 92, 204
-  \item energy meter, 594
-  \item envelope, 370, 870
-  \item equivalent circuit, 238
-  \item Euler's equation, 411, 423
-  \item excitation current, 592
-  \item exponential decay, 341
+  \item earth ,  541
+  \item ecg ,  714
+  \item electric constant ,  285
+  \item electric field ,  7
+  \item electrocardiogram ,  714
+  \item electromagnetic waves ,  704
+  \item electronics ,  92 ,  204
+  \item energy meter ,  594
+  \item envelope ,  370 ,  870
+  \item equivalent circuit ,  238
+  \item Euler's equation ,  411 ,  423
+  \item excitation current ,  592
+  \item exponential decay ,  341
 
   \indexspace
 
-  \item filter, 297, 709
-    \subitem band-pass, 709
-    \subitem band-stop, 709
-    \subitem high-pass, 709
-    \subitem low-pass, 709
-    \subitem notch, 714
-  \item final value theorem, 760
+  \item filter ,  297 ,  709
+    \subitem band-pass ,  709
+    \subitem band-stop ,  709
+    \subitem high-pass ,  709
+    \subitem low-pass ,  709
+    \subitem notch ,  714
+  \item final value theorem ,  760
   \item first order
-    \subitem circuits, 337
+    \subitem circuits ,  337
   \item flux
-    \subitem magnetic, 555
-  \item flux linkage, 555
-  \item forced response, 339
-  \item forcing function, 339
+    \subitem magnetic ,  555
+  \item flux linkage ,  555
+  \item forced response ,  339
+  \item forcing function ,  339
   \item Fourier
-    \subitem inverse transform, 868
-    \subitem transform, 868
+    \subitem inverse transform ,  868
+    \subitem transform ,  868
   \item Fourier series
-    \subitem trignometric, 828
-  \item Fourier transform, 732, 867
-  \item frequency, 412
-    \subitem band, 651
-    \subitem complex, 731
-  \item frequency dependent, 660
-  \item frequency form, 428
-  \item frequency modulation theorem, 743
+    \subitem trignometric ,  828
+  \item Fourier transform ,  732 ,  867
+  \item frequency ,  412
+    \subitem band ,  651
+    \subitem complex ,  731
+  \item frequency dependent ,  660
+  \item frequency form ,  428
+  \item frequency modulation theorem ,  743
   \item function
-    \subitem continuous, 288, 299
-    \subitem network, 795
-  \item fundamental component, 828
+    \subitem continuous ,  288 ,  299
+    \subitem network ,  795
+  \item fundamental component ,  828
 
   \indexspace
 
-  \item gain, 188
-    \subitem current, 795
-    \subitem transconductance, 97, 795
-    \subitem transresistance, 795
-    \subitem voltage, 95, 190, 795
+  \item gain ,  188
+    \subitem current ,  795
+    \subitem transconductance ,  97 ,  795
+    \subitem transresistance ,  795
+    \subitem voltage ,  95 ,  190 ,  795
   \item graph
-    \subitem log-log, 651
-  \item gravitational field, 7
+    \subitem log-log ,  651
+  \item gravitational field ,  7
   \item ground
-    \subitem electrical, 5
+    \subitem electrical ,  5
   \item ground fault
-    \subitem circuit interrupter, 541
+    \subitem circuit interrupter ,  541
 
   \indexspace
 
   \item harmonic
-    \subitem second, 828
-  \item heat convection, 75
-  \item Henry, 297
-  \item Hertz, 412, 827
-  \item high cut-off frequency, 656
-  \item high voltage side, 579
-  \item high-pass filter, 709
-  \item homogenous equation, 339
-  \item hot wire, 541
-  \item HT, 579
+    \subitem second ,  828
+  \item heat convection ,  75
+  \item Henry ,  297
+  \item Hertz ,  412 ,  827
+  \item high cut-off frequency ,  656
+  \item high voltage side ,  579
+  \item high-pass filter ,  709
+  \item homogenous equation ,  339
+  \item hot wire ,  541
+  \item HT ,  579
   \item hybrid
-    \subitem $h_{11}$, 906
-    \subitem $h_{12}$, 906
-    \subitem $h_{21}$, 906
-    \subitem $h_{22}$, 906
-  \item hybrid model, 905
+    \subitem $h_{11}$ ,  906
+    \subitem $h_{12}$ ,  906
+    \subitem $h_{21}$ ,  906
+    \subitem $h_{22}$ ,  906
+  \item hybrid model ,  905
 
   \indexspace
 
-  \item imaginary, 423
-    \subitem number, 407
-  \item impedance, 439
-    \subitem model, 900
-    \subitem transformation, 579
+  \item imaginary ,  423
+    \subitem number ,  407
+  \item impedance ,  439
+    \subitem model ,  900
+    \subitem transformation ,  579
   \item impulse
-    \subitem function, 732
-    \subitem unit, 736
-  \item in phase, 415
+    \subitem function ,  732
+    \subitem unit ,  736
+  \item in phase ,  415
   \item independent
-    \subitem current source, 13
-  \item independent variable, 287
-  \item independent voltage source, 13
-  \item induced voltage, 592
-  \item inductance, 297
-    \subitem mutual, 557
-    \subitem self, 556, 557
+    \subitem current source ,  13
+  \item independent variable ,  287
+  \item independent voltage source ,  13
+  \item induced voltage ,  592
+  \item inductance ,  297
+    \subitem mutual ,  557
+    \subitem self ,  556 ,  557
   \item inductive
-    \subitem power factor, 524
-  \item inductive kick, 388
-  \item inductor, 297
-  \item initial conditions, 343
-  \item initial value theorem, 760
-  \item input port, 22
-  \item input side, 581
+    \subitem power factor ,  524
+  \item inductive kick ,  388
+  \item inductor ,  297
+  \item initial conditions ,  343
+  \item initial value theorem ,  760
+  \item input port ,  22
+  \item input side ,  581
   \item integral
-    \subitem convolution, 756
-  \item integral form, 2
-  \item integrated circuit, IC, 204
-  \item integrator, 320
-  \item integro-differential equation, 338
-  \item inverse, 121
-  \item inverse Laplace transform, 732
-  \item inverter, 882
+    \subitem convolution ,  756
+  \item integral form ,  2
+  \item integrated circuit ,  IC ,  204
+  \item integrator ,  320
+  \item integro-differential equation ,  338
+  \item inverse ,  121
+  \item inverse Laplace transform ,  732
+  \item inverter ,  882
   \item inverting
-    \subitem pin, 187
+    \subitem pin ,  187
 
   \indexspace
 
-  \item KCL, 42
-  \item kickback, 388
-  \item kilowatt-hour, 543
+  \item KCL ,  42
+  \item kickback ,  388
+  \item kilowatt-hour ,  543
   \item Kirchoff
-    \subitem  current law, 42
-    \subitem voltage law, 49
-  \item Kirchoff's laws, 40
-  \item kWh, 543
+    \subitem  current law ,  42
+    \subitem voltage law ,  49
+  \item Kirchoff's laws ,  40
+  \item kWh ,  543
 
   \indexspace
 
-  \item lab, 796
-  \item lag, 413
+  \item lab ,  796
+  \item lag ,  413
   \item Laplace
-    \subitem inverse transform, 732
-  \item Laplace transform, 653, 731
+    \subitem inverse transform ,  732
+  \item Laplace transform ,  653 ,  731
   \item law
-    \subitem conservation of energy, 10
-  \item lead, 413
+    \subitem conservation of energy ,  10
+  \item lead ,  413
   \item leading
-    \subitem power factor, 524
-  \item limit, 760
+    \subitem power factor ,  524
+  \item limit ,  760
   \item line to line
-    \subitem voltage, 608
-  \item linear, 34, 192, 221
-  \item linear component, 34
-  \item live wire, 541
-  \item log, 651
+    \subitem voltage ,  608
+  \item linear ,  34 ,  192 ,  221
+  \item linear component ,  34
+  \item live wire ,  541
+  \item log ,  651
   \item log-log
-    \subitem graph, 651
-  \item loop, 41
-  \item loop analysis, 150
-  \item loop current, 150
-  \item loss, 9
-  \item lossless components, 501
-  \item low cut-off frequency, 656
-  \item low voltage side, 579
-  \item low-pass filter, 709
-  \item LT, 579
+    \subitem graph ,  651
+  \item loop ,  41
+  \item loop analysis ,  150
+  \item loop current ,  150
+  \item loss ,  9
+  \item lossless components ,  501
+  \item low cut-off frequency ,  656
+  \item low voltage side ,  579
+  \item low-pass filter ,  709
+  \item LT ,  579
 
   \indexspace
 
   \item magnetic field
-    \subitem intensity, 577
-  \item magnetic flux, 555
+    \subitem intensity ,  577
+  \item magnetic flux ,  555
   \item magnitude
-    \subitem characteristic, 660
-  \item magnitude characteristic, 711
+    \subitem characteristic ,  660
+  \item magnitude characteristic ,  711
   \item matrix
-    \subitem conductance, 127
-    \subitem current, 127
-  \item matrix equation, 120
-  \item mid-frequency range, 656
-  \item model, 15, 188
-    \subitem admittance, 896
-    \subitem hybrid, 905
-    \subitem impedance, 900
-    \subitem transmission, 907
-  \item MOSFET, 15, 92
-  \item mutual inductance, 557
+    \subitem conductance ,  127
+    \subitem current ,  127
+  \item matrix equation ,  120
+  \item mid-frequency range ,  656
+  \item model ,  15 ,  188
+    \subitem admittance ,  896
+    \subitem hybrid ,  905
+    \subitem impedance ,  900
+    \subitem transmission ,  907
+  \item MOSFET ,  15 ,  92
+  \item mutual inductance ,  557
 
   \indexspace
 
   \item natural frequency
-    \subitem undamped, 368
-  \item natural response, 339
-  \item network, 656
-    \subitem function, 795
-  \item neutral wire, 541
-  \item nodal analysis, 115
-  \item node, 41, 51
-    \subitem super, 140
+    \subitem undamped ,  368
+  \item natural response ,  339
+  \item network ,  656
+    \subitem function ,  795
+  \item neutral wire ,  541
+  \item nodal analysis ,  115
+  \item node ,  41 ,  51
+    \subitem super ,  140
   \item non-inverting
-    \subitem pin, 187
-  \item norm, 830
+    \subitem pin ,  187
+  \item norm ,  831
   \item norton
-    \subitem current, 243
-  \item Norton theorem, 239, 242
-  \item notch filter, 714
+    \subitem current ,  243
+  \item Norton theorem ,  239 ,  242
+  \item notch filter ,  714
   \item Nyquist
-    \subitem criterion, 737
+    \subitem criterion ,  737
 
   \indexspace
 
-  \item Ohm, 34
-    \subitem law, 4, 8
-  \item Ohm's law, 5, 34
-  \item opamp, 187
-    \subitem ideal, 196
-  \item open circuit, 37
-    \subitem input impedance, 901
-  \item open delta, 620
-  \item orthogonal, 830
-  \item out of phase, 415
+  \item Ohm ,  34
+    \subitem law ,  4 ,  8
+  \item Ohm's law ,  5 ,  34
+  \item opamp ,  187
+    \subitem ideal ,  196
+  \item open circuit ,  37
+    \subitem input impedance ,  901
+  \item open delta ,  620
+  \item orthogonal ,  830
+  \item out of phase ,  415
   \item output admittance
-    \subitem short-circuit, 896
+    \subitem short-circuit ,  896
   \item output impedance
-    \subitem open-circuit, 901
-  \item output port, 22
-  \item output side, 581
-  \item over damped condition, 369
+    \subitem open-circuit ,  901
+  \item output port ,  22
+  \item output side ,  581
+  \item over damped condition ,  369
 
   \indexspace
 
-  \item Parseval's theorem, 874
-  \item partial fraction expansion, 732, 746
-  \item particular solution, 347, 369
-  \item passive component, 8, 12
-  \item passive sign convention, 4
+  \item Parseval's theorem ,  874
+  \item partial fraction expansion ,  732 ,  746
+  \item particular solution ,  347 ,  369
+  \item passive component ,  8 ,  12
+  \item passive sign convention ,  4
   \item periodic
-    \subitem function, 827
-    \subitem wave, 827
-  \item permitivity, 285
+    \subitem function ,  827
+    \subitem wave ,  827
+  \item permitivity ,  285
   \item phase
-    \subitem characteristic, 660
-    \subitem in, 415
-    \subitem out of, 415
-    \subitem spectrum, 858
-    \subitem voltage, 608
-  \item phase angle, 413
-  \item phase characteristic, 711
-  \item phase difference, 413
-  \item phasor, 427
-  \item phasor diagram, 427
+    \subitem characteristic ,  660
+    \subitem in ,  415
+    \subitem out of ,  415
+    \subitem spectrum ,  858
+    \subitem voltage ,  608
+  \item phase angle ,  413
+  \item phase characteristic ,  711
+  \item phase difference ,  413
+  \item phasor ,  427
+  \item phasor diagram ,  427
   \item pins
-    \subitem power, 187
-  \item planar, 150
+    \subitem power ,  187
+  \item planar ,  150
   \item plane
-    \subitem complex, 798
-    \subitem s, 798
-  \item pole, 655
-  \item poles, 658
+    \subitem complex ,  798
+    \subitem s ,  798
+  \item pole ,  655
+  \item poles ,  658
   \item port
-    \subitem input-output, 22
-  \item potential energy, 9, 288
-  \item power, 8
-    \subitem apparent, 524
-    \subitem complex, 526
-    \subitem quadrature, 527
-    \subitem rating, 75
-    \subitem reactive, 527
-    \subitem real, 524
-  \item power electronics, 386
-  \item power factor, 524
-    \subitem capacitive, 524
-    \subitem inductive, 524
-    \subitem lagging, 524
-    \subitem leading, 524
-  \item power factor angle, 524
-  \item power loss, 9
-  \item power triangle, 529
-  \item primary coil, 581
-  \item primary side, 581
+    \subitem input-output ,  22
+  \item potential energy ,  9 ,  288
+  \item power ,  8
+    \subitem apparent ,  524
+    \subitem complex ,  526
+    \subitem quadrature ,  527
+    \subitem rating ,  75
+    \subitem reactive ,  527
+    \subitem real ,  524
+  \item power electronics ,  386
+  \item power factor ,  524
+    \subitem capacitive ,  524
+    \subitem inductive ,  524
+    \subitem lagging ,  524
+    \subitem leading ,  524
+  \item power factor angle ,  524
+  \item power loss ,  9
+  \item power triangle ,  529
+  \item primary coil ,  581
+  \item primary side ,  581
 
   \indexspace
 
-  \item quality factor, 681
+  \item quality factor ,  681
 
   \indexspace
 
   \item rating
-    \subitem power, 75
-  \item reactance, 439
+    \subitem power ,  75
+  \item reactance ,  439
   \item reactive
-    \subitem power, 527
-  \item real, 423
-    \subitem number, 407
-  \item rectangular form, 407
-  \item rectifier, 386
-    \subitem full wave, 889
-    \subitem half wave, 889
-  \item reference, 4
-  \item resistance, 8, 34
-  \item resistive, 439
-  \item resistive loss, 9
+    \subitem power ,  527
+  \item real ,  423
+    \subitem number ,  407
+  \item rectangular form ,  407
+  \item rectifier ,  386
+    \subitem full wave ,  889
+    \subitem half wave ,  889
+  \item reference ,  4
+  \item resistance ,  8 ,  34
+  \item resistive ,  439
+  \item resistive loss ,  9
   \item resistor
-    \subitem variable, 36
-  \item resonance, 677
-  \item resonant circuit, 679
-  \item resonant frequency, 454, 679
+    \subitem variable ,  36
+  \item resonance ,  677
+  \item resonant circuit ,  679
+  \item resonant frequency ,  454 ,  679
   \item response
-    \subitem natural, 339
-  \item roots, 368
+    \subitem natural ,  339
+  \item roots ,  368
 
   \indexspace
 
   \item s
-    \subitem plane, 798
+    \subitem plane ,  798
   \item sampling
-    \subitem property, 871
-  \item sampling property, 736
-  \item saw tooth, 836
-  \item scalar, 830
-  \item scalar product, 830
+    \subitem property ,  871
+  \item sampling property ,  736
+  \item saw tooth ,  836
+  \item scalar ,  830
+  \item scalar product ,  830
   \item second order
-    \subitem circuits, 337
-  \item secondary coil, 581
-  \item self inductance, 556
+    \subitem circuits ,  337
+  \item secondary coil ,  581
+  \item self inductance ,  556
   \item semilog
-    \subitem axis, 651
-  \item short circuit, 36
-  \item SI system, 1
-  \item Siemens, 35
+    \subitem axis ,  651
+  \item short circuit ,  36
+  \item SI system ,  1
+  \item Siemens ,  35
   \item signal
-    \subitem difference, 188
-  \item signals, 188
-  \item simultaneous equations, 43
-  \item singularity function, 732
-  \item sinusoidal, 411
-  \item slope, 33
-  \item snubber, 389
-  \item socket, 541
+    \subitem difference ,  188
+  \item signals ,  187
+  \item simultaneous equations ,  43
+  \item singularity function ,  732
+  \item sinusoidal ,  411
+  \item slope ,  33
+  \item snubber ,  389
+  \item socket ,  541
   \item source
-    \subitem voltage, 8
-  \item Source Transformation theorem, 243
-  \item speaker, 651
+    \subitem voltage ,  8
+  \item Source Transformation theorem ,  243
+  \item speaker ,  651
   \item spectrum
-    \subitem amplitude, 858
-    \subitem discrete line, 858
-    \subitem phase, 858
-  \item stable, 206
-  \item star connected, 613
+    \subitem amplitude ,  858
+    \subitem discrete line ,  858
+    \subitem phase ,  858
+  \item stable ,  206
+  \item star connected ,  613
   \item star-star
-    \subitem four-wire, 613
-    \subitem three-wire, 615
-  \item steady state, 337
-  \item steady state solution, 340
-  \item step, 288, 299
-  \item stray, 288
-  \item subtractor, 201
-  \item superposition, 226
-  \item susceptance, 444
-  \item switch, 341
-    \subitem spdt, 347
-  \item switching supply, 390
-  \item systems analysis, 756
+    \subitem four-wire ,  613
+    \subitem three-wire ,  615
+  \item steady state ,  337
+  \item steady state solution ,  340
+  \item step ,  288 ,  299
+  \item stray ,  288
+  \item subtractor ,  201
+  \item superposition ,  226
+  \item susceptance ,  444
+  \item switch ,  341
+    \subitem spdt ,  347
+  \item switching supply ,  390
+  \item systems analysis ,  756
 
   \indexspace
 
-  \item television, TV, 390
+  \item television ,  TV ,  390
   \item theorem
-    \subitem final value, 760
-    \subitem frequency modulation, 743
-    \subitem frequency-shifting, 743
-    \subitem initial value, 760
-    \subitem Norton, 242
-    \subitem Parseval, 874
-    \subitem Source Transformation, 239, 243
-    \subitem Thevenin, 242
-    \subitem time convolution, 872
-    \subitem time-scaling, 742
-    \subitem time-shifting, 743
-  \item thermal energy, 9
-  \item thermal loss, 9
+    \subitem final value ,  760
+    \subitem frequency modulation ,  743
+    \subitem frequency-shifting ,  743
+    \subitem initial value ,  760
+    \subitem Norton ,  242
+    \subitem Parseval ,  874
+    \subitem Source Transformation ,  239 ,  243
+    \subitem Thevenin ,  242
+    \subitem time convolution ,  872
+    \subitem time-scaling ,  742
+    \subitem time-shifting ,  743
+  \item thermal energy ,  9
+  \item thermal loss ,  9
   \item Thevenin
-    \subitem Resistance, 239
-  \item Thevenin theorem, 239, 242
-  \item thevenin voltage, 243
-  \item three phase balanced system, 607
-  \item time constant, 340, 711
+    \subitem Resistance ,  239
+  \item Thevenin theorem ,  239 ,  242
+  \item thevenin voltage ,  243
+  \item three phase balanced system ,  607
+  \item time constant ,  340 ,  711
   \item time convolution
-    \subitem theorem, 872
-  \item time domain, 428
-  \item time period, 412, 827
-  \item time-scaling theorem, 742
-  \item time-shifting theorem, 743
-  \item tolerance, 75
+    \subitem theorem ,  872
+  \item time domain ,  428
+  \item time period ,  412 ,  827
+  \item time-scaling theorem ,  742
+  \item time-shifting theorem ,  743
+  \item tolerance ,  75
   \item transadmittance
-    \subitem short-circuit, 896
+    \subitem short-circuit ,  896
   \item transconductance
-    \subitem gain, 795
-  \item transconductance gain, 16
+    \subitem gain ,  795
+  \item transconductance gain ,  16
   \item transcresistance
-    \subitem gain, 795
-  \item transfer function, 656, 795
+    \subitem gain ,  795
+  \item transfer function ,  656 ,  795
   \item transformation
-    \subitem current, 577
-    \subitem impedance, 579
-    \subitem voltage, 576
-  \item transformer, 297
-    \subitem step down, 633
-    \subitem step up, 633
-  \item transient state, 337
+    \subitem current ,  577
+    \subitem impedance ,  579
+    \subitem voltage ,  576
+  \item transformer ,  297
+    \subitem step down ,  633
+    \subitem step up ,  633
+  \item transient state ,  337
   \item transimpedance
-    \subitem open-circuit, 901
-  \item transistor, 204
-    \subitem BJT, 92
-    \subitem FET, 92
-  \item transistor, BJT, 15
-  \item transmission lines, 525
-  \item transpose matrix, 121
-  \item transresistance gian, 16
-  \item tuned amplifier, 704
-  \item TV, 390
+    \subitem open-circuit ,  901
+  \item transistor ,  204
+    \subitem BJT ,  92
+    \subitem FET ,  92
+  \item transistor ,  BJT ,  15
+  \item transmission lines ,  525
+  \item transpose matrix ,  121
+  \item transresistance gian ,  16
+  \item tuned amplifier ,  704
+  \item TV ,  390
 
   \indexspace
 
-  \item under damped condition, 369
-  \item underdamped, 802
-  \item unit impulse function, 360, 736
-  \item unit step function, 360, 732
-    \subitem time-shifted, 733
-  \item unstable, 207
-  \item USB, universal serial bus, 22
+  \item under damped condition ,  369
+  \item underdamped ,  802
+  \item unit impulse function ,  360 ,  736
+  \item unit step function ,  360 ,  732
+    \subitem time-shifted ,  733
+  \item unstable ,  207
+  \item USB ,  universal serial bus ,  22
 
   \indexspace
 
   \item value
-    \subitem typical, 77
-  \item volt-ampere, 524
+    \subitem typical ,  77
+  \item volt-ampere ,  524
   \item voltage
-    \subitem amplifier, 651
-    \subitem gain, 795
-    \subitem line to line, 608
-    \subitem phase, 608
-    \subitem transformation, 576
-  \item voltage gain, 16, 190
-  \item voltage source, 8
-    \subitem current controlled, 96
-    \subitem voltage controlled, 93
+    \subitem amplifier ,  651
+    \subitem gain ,  795
+    \subitem line to line ,  608
+    \subitem phase ,  608
+    \subitem transformation ,  576
+  \item voltage gain ,  16 ,  190
+  \item voltage source ,  8
+    \subitem current controlled ,  96
+    \subitem voltage controlled ,  93
 
-  \indexspace
+  \newpage
 
-  \item WAPDA, 539
-  \item watt, 8
-  \item weightage, 203
+  \item WAPDA ,  539
+  \item watt ,  8
+  \item weightage ,  203
   \item wire
-    \subitem cold, 541
-    \subitem hot, 541
-    \subitem live, 541
-    \subitem neutral, 541
-  \item wye-delta transformation, 85
+    \subitem cold ,  541
+    \subitem hot ,  541
+    \subitem live ,  541
+    \subitem neutral ,  541
+  \item wye-delta transformation ,  85
+
+  \newpage
+
+  \item Y connected ,  613
+  \item YY ,  613
 
   \indexspace
 
-  \item Y connected, 613
-  \item YY, 613
+  \item zeroes ,  658
 
-  \indexspace
-
-  \item zeroes, 658
 \end{otherlanguage*}
+
   \newpage
 \item آزاد
    \subitem منبع رو، 13
@@ -635,6 +637,8 @@
    \subitem مسئلہ، 760
 \item ارتباط بہاؤ، 555
 \item ارتباطی مستقل، 573
+\item استمراری
+   \subitem تفاعل، 288، 299
 \item اشارہ، 187
    \subitem داخلی تفرقی، 188
 \item اصول نی کوسٹ، 737
@@ -652,7 +656,6 @@
    \subitem وقتی منقولہ، 733
 \item اکائی ضرب تفاعل، 732، 736
 \item الجھاو، 756
-\item الگ زاویہ، 415
 \item المونیم، 593
 \item امالہ، 297
    \subitem خود، 556، 557
@@ -709,8 +712,6 @@
 \item برقی مستقل، 285
 \item برقی میدان، 7
 \item بُعد، 15
-\item بلا جوڑ
-   \subitem تفاعل، 288، 299
 \item بلند انقطاعی تعدد، 656
 \item بلند گزار چھلنی، 709
 \item بنیادی رکن، 828
@@ -782,7 +783,7 @@
 \item تعدیلی تار، 541
 \item تغیر پذیر برق گیر، 801
 \item تفاعل
-   \subitem بلا جوڑ، 288، 299
+   \subitem استمراری، 288، 299
    \subitem جال، 795
    \subitem دوری، 827
 \item تفرق کار، 321
@@ -805,7 +806,7 @@
 \item تکونی جوڑ، 619
 \item توانائی
    \subitem حرارتی، 9
-   \subitem مخفی، 9، 288
+   \subitem مخفیہ، 9، 288
 \item تھونن
    \subitem دباؤ، 243
    \subitem مزاحمت، 239
@@ -813,8 +814,6 @@
 \item تین تار
    \subitem ستارہ ستارہ، 615
    \subitem نظام، 623
-\item تین دور
-   \subitem متوازن، 607
 \indexspace
 \item ثانوی لچھا، 581
 \item ثقلی میدان، 7
@@ -862,8 +861,8 @@
 \item خارجی ہاتھ، 581
 \item خاصیت نمونہ بندی، 736
 \item خصلت
-   \subitem زاویائی، 660
    \subitem مقداری، 660، 711
+   \subitem ہیتی، 660
 \item خطی، 34، 221
 \item خطی پرزہ، 34
 \item خطی تعلق، 192
@@ -950,12 +949,9 @@
    \subitem پیچھے جزو طاقت، 524
 \item زاویائی بوڈا خط، 668
 \item زاویائی تعدد، 827
-\item زاویائی خصلت، 660، 711
 \item زاویائی رفتار، 412
 \item زاویائی طرز، 408
 \item زاویائی فرق، 413
-\item زاویائی ہٹاو، 413
-   \subitem طیف، 858
 \item زاویہ جزو طاقت، 524
 \item زمانی پیمانہ بندی
    \subitem مسئلہ، 742
@@ -991,6 +987,8 @@
 \item سمعی ایمپلیفائر، 651
 \item سوئچ، 341
    \subitem ایک قطب دو چال، 347
+\item سہ ہیت
+   \subitem متوازن، 607
 \item سیڑھی
    \subitem تفاعل، 732
 \item سیڑھی نما، 288، 299
@@ -1003,9 +1001,9 @@
 \item ضابط
    \subitem دباؤ، 15
 \item ضرب
-   \subitem غیر سمتی، 830
-   \subitem نقطہ، 830
-\item ضرائب ، 828
+   \subitem عددیہ، 830
+   \subitem نقطوی، 830
+\item ضرائب، 828
 \item ضیاع، 9
    \subitem حرارتی، 9
 \indexspace
@@ -1022,8 +1020,8 @@
 \item طاقتی ضیاع، 9
 \item طیف
    \subitem انفرادی لکیری، 858
-   \subitem زاویائی ہٹاو، 858
    \subitem مقداری، 858
+   \subitem ہیتی، 858
 \indexspace
 \item ظاہری طاقت، 524
 \indexspace
@@ -1031,20 +1029,20 @@
 \item عددی دور، 22
 \item عددی صورت، 651
 \item عددی مواد، 22
+\item عددیہ، 830
+\item عددیہ ضرب، 830
 \item عرض پٹی، 687
 \item علامتی قیمت، 77
-\item عمودی، 830
 \indexspace
 \item غلاف، 370، 870
 \item غیر تابع منبع دباؤ، 13
 \item غیر دوری، 865
-\item غیر سمتی، 830
-\item غیر سمتی ضرب، 830
 \item غیر فعال پرزہ، 8، 12
 \item غیر فعال سمت کی ترکیب، 4
 \item غیر متوازن، 207
 \item غیر مطلوب، 288
 \item غیر مقناطیسی قالب، 297
+\item غیر ہم ہیت، 415
 \indexspace
 \item فراوانی، 444
 \item فراوانی نمونہ، 896
@@ -1095,15 +1093,16 @@
 \indexspace
 \item ماسفیٹ، 92
 \item متجانس مساوات، 339
+\item متعامد، 830
 \item متعاملیت، 439
 \item متعاملی طاقت، 527
 \item متغیر مزاحمت، 36
 \item متوازن، 206
-   \subitem تین دوری نظام، 607
+   \subitem سہ ہیت نظام، 607
 \item مثبت ایمپلیفائر، 198
 \item مثبت داخلی پنیا، 187
 \item مخصوص حل، 347، 369
-\item مخفی توانائی، 9، 288
+\item مخفیہ توانائی، 9، 288
 \item مخلوط
    \subitem سطح، 798
    \subitem عدد، 407
@@ -1119,6 +1118,10 @@
 \item مزاحمت نما
    \subitem افزائش، 795
 \item مزاحمتی ضیاع، 9
+\item مساوی
+   \subitem دور، 238
+\item مساوات
+   \subitem متجانس، 339
 \item مسئلہ
    \subitem ابتدائی قیمت، 760
    \subitem اختتامی قیمت، 760
@@ -1135,16 +1138,12 @@
 \item مسئلہ خطی میل، 226
 \item مسئلہ نارٹن، 239
 \item مؤثر، 515
-\item مساوات
-   \subitem متجانس، 339
-\item مساوی
-   \subitem دور، 238
 \item مستحکم کار، 200
 \item مستطیلی طرز، 407
 \item مشترکہ امالہ، 557
 \item معکوس، 121
 \item معکوس لاپلاس تبادل، 732
-\item معیار، 830
+\item معیار، 831
 \item معیاری مستقل، 681
 \item مقداری
    \subitem طیف، 858
@@ -1204,7 +1203,7 @@
    \subitem مسئلہ، 242
 \item نظام اکائی
    \subitem بین الاقوامی، 1
-\item نقطہ ضرب، 830
+\item نقطوی ضرب، 830
 \item نمونہ
    \subitem ترسیلی، 907
    \subitem حسابی ایمپلیفائر، 188
@@ -1304,10 +1303,14 @@
    \subitem بنیادی رکن، 828
    \subitem دوسرا رکن، 828
 \item ہرٹز، 412، 827
-\item ہم زاویہ، 415
 \item ہم قطب، 747
+\item ہم ہیت، 415
 \item ہمزاد مساوات، 43
 \item ہمسر ایمپلیفائر، 704
+\item ہیتی
+   \subitem طیف، 858
+\item ہیتی خصلت، 660، 711
+\item ہیتی زاویہ، 413
 \item ہیجان انگیز رو، 592
 \item ہینری، 297
 \indexspace

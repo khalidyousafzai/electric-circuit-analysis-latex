@@ -95,10 +95,10 @@
 \contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {1}}مشترکہ امالہ}{\farsidigits {555}}{}%
 \contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {2}}مشترکہ امالہ میں توانائی کا ذخیرہ}{\farsidigits {571}}{}%
 \contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {3}}کامل ٹرانسفارمر}{\farsidigits {576}}{}%
-\contentsline {chapter}{\numberline {\farsidigits {11}}تین دوری نظام}{\farsidigits {607}}{}%
-\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {1}}تین دوری ستارہ دباؤ}{\farsidigits {607}}{}%
+\contentsline {chapter}{\numberline {\farsidigits {11}}سہ ہیت نظام}{\farsidigits {607}}{}%
+\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {1}}سہ ہیت ستارہ دباؤ}{\farsidigits {607}}{}%
 \contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {2}}ستارہ ستارہ \,(\(YY\)) \, جوڑ}{\farsidigits {612}}{}%
-\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {3}}تین دوری تکونی (\(\Delta \)) دباؤ}{\farsidigits {619}}{}%
+\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {3}}سہ ہیت تکونی (\(\Delta \)) دباؤ}{\farsidigits {619}}{}%
 \contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {4}}تکونی بوجھ}{\farsidigits {623}}{}%
 \contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {5}}طاقت کے کلیات}{\farsidigits {627}}{}%
 \contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {6}}جزو طاقت کی درستگی}{\farsidigits {636}}{}%
@@ -144,3 +144,4 @@
 \contentsline {section}{\numberline {\farsidigits {16}.\farsidigits {2}}دوغلائی نمونہ}{\farsidigits {905}}{}%
 \contentsline {section}{\numberline {\farsidigits {16}.\farsidigits {3}}ترسیلی نمونہ}{\farsidigits {907}}{}%
 \contentsline {section}{\numberline {\farsidigits {16}.\farsidigits {4}}چار سر ادوار کے باہمی جوڑ}{\farsidigits {909}}{}%
+\contentsline {chapter}{اشاریہ}{\farsidigits {921}}{}%

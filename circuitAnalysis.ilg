@@ -6,7 +6,7 @@ Scanning input file circuitAnalysis.idx....
 !! Input index error (file = circuitAnalysis.idx, line = 1043):
    -- Incomplete first argument (premature LFD).
 done (1157 entries accepted, 2 rejected).
-Sorting entries............done (12937 comparisons).
-Generating output file circuitAnalysis.ind.....done (1298 lines written, 0 warnings).
+Sorting entries............done (13167 comparisons).
+Generating output file circuitAnalysis.ind.....done (1299 lines written, 0 warnings).
 Output written in circuitAnalysis.ind.
 Transcript written in circuitAnalysis.ilg.
